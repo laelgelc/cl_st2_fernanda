@@ -1,0 +1,21 @@
+# .tmuxinator.yml
+
+name: gelc
+root: ../
+
+on_project_start:
+  - git switch main
+  - git pull
+
+windows:
+  - workspace:
+      layout: even-vertical
+      panes:
+        - pane_1:
+            - tmux set -g mouse on
+            - conda env list
+            - conda activate my_env
+            - git switch -c feature/ec2_job_1
+            - git push -u origin feature/ec2_job_1
+        - pane_2:
+            - aws s3 ls
