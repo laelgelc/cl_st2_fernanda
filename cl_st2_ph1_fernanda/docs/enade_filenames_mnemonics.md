@@ -295,7 +295,6 @@
 | ENADE_2021_REDES DE COMPUTADORES.pdf                    | tec_red_comp     |
 | ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf                    | sist_inf         |
 | ENADE_2021_TECNOLOGIA DA INFORMAÇÃO.pdf                 | tec_gest_tec_inf |
-| ENADE_2021_TECNOLOGIA EM ADS.pdf                        | tec_an_sist      |
 | ENADE_2022_ADM PÚBLICA.pdf                              | admin_p          |
 | ENADE_2022_ADMINISTRAÇÃO.pdf                            | admin            |
 | ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf                       | ci_cont          |
