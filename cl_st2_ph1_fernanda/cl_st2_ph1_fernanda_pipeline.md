@@ -12,9 +12,9 @@ cl_st2_ph1_fernanda/
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --limit 10 \
     --max-output-tokens 10000 \
@@ -26,9 +26,9 @@ python llm_denoise.py \
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --limit 10 \
     --max-output-tokens 10000
@@ -38,9 +38,9 @@ python llm_denoise.py \
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --limit 200 \
     --workers 10 \
@@ -52,9 +52,9 @@ python llm_denoise.py \
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --workers 10 \
     --resume \
@@ -67,9 +67,9 @@ python llm_denoise.py \
 ```shell
 bash run_python_ec2.sh \
     llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --workers 10 \
     --resume \
@@ -79,17 +79,17 @@ bash run_python_ec2.sh \
 
 ### Retry specific files
 
-`se_inf_1.txt` was initially flagged as `error`. A try switched it to `success`, but the output file was incomplete.
+`enade_2009_admin.txt` was initially flagged as `error`. A try switched it to `success`, but the output file was incomplete.
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --max-output-tokens 10000 \
     --max-retries 5 \
-    --only-filename se_inf_1.txt \
+    --only-filename enade_2009_admin.txt \
     --reprocess
 ```
 
@@ -97,13 +97,13 @@ The `llm_denoise.py` programme was extended with Gemini support. It was run with
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gemini-3.8-flash \
     --max-output-tokens 10000 \
     --max-retries 5 \
-    --only-filename se_inf_1.txt \
+    --only-filename enade_2009_admin.txt \
     --reprocess
 ```
 
@@ -111,9 +111,9 @@ python llm_denoise.py \
 
 ```shell
 python llm_denoise.py \
-    --manifest corpus/brazilian_educational_guidelines.ndjson \
-    --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v2.md \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_extracted \
+    --prompt denoising_prompts/denoising_v1.md \
     --model gpt-6-luna \
     --max-output-tokens 10000 \
     --max-retries 5 \
