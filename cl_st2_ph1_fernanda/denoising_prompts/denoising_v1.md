@@ -10,21 +10,21 @@ Three chapter types titled as follows (case-insensitive) are of interest. Use th
 
 Do not infer a chapter type from the chapter number alone; identify chapters by title.
 
-Return a single JSON object with exactly the following structure:
+Return a single valid JSON object that follows exactly this structure:
 
 - In the "chapters" field, return only the denoised Markdown text of the selected chapters, in the order they appear. Do not add explanations, comments, new labels, summaries, or quotation marks.
-- Ensure the response is valid JSON. Escape newline characters and quotation marks inside the "chapters" string as required by JSON.
 - In the "metadata" field, set each value to true only if the corresponding chapter type was found and included in "chapters"; otherwise, set it to false.
 - If none of the selected chapter types is present, return an empty string in "chapters" and set all metadata values to false.
+- Ensure the response is valid JSON. Escape newline characters and quotation marks inside the "chapters" string as required by JSON.
 
 ```json
 {
-"chapters": "Denoised Markdown text of the selected chapters, in the order they appear.",
-"metadata": {
-"c4_present": true,
-"c5_present": true,
-"c6_present": true
-}
+  "chapters": "Denoised Markdown text of the selected chapters, in the order they appear.",
+  "metadata": {
+    "c4_present": true,
+    "c5_present": true,
+    "c6_present": true
+  }
 }
 ```
 
