@@ -6,7 +6,7 @@ Run the commands from the project phase directory, e.g.:
 cl_st2_ph1_fernanda/
 ```
 
-## 1. Clean-up ENADE reports
+## 1. Clean and extract ENADE report chapters
 
 ```shell
 python enade_clean_up.py
