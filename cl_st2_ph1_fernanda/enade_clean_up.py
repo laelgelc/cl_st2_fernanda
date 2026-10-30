@@ -660,7 +660,15 @@ def load_manifest(path: Path) -> list[dict[str, Any]]:
 
 
 def resolve_manifest_path(entry: dict[str, Any], input_root: Path, cwd: Path) -> Path | None:
-    for key in ("path", "source_path", "txt_path", "file_path", "filename"):
+    for key in (
+            "filepath_txt",
+            "filename_txt",
+            "path",
+            "source_path",
+            "txt_path",
+            "file_path",
+            "filename",
+    ):
         value = entry.get(key)
         if not value:
             continue
