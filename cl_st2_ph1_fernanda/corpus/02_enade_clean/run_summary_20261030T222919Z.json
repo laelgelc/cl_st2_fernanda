@@ -1,0 +1,34 @@
+{
+  "run_metadata": {
+    "run_id": "20261030T222919Z",
+    "tool_name": "enade_clean_up.py",
+    "tool_version": "v1",
+    "mode": "local",
+    "input_root": "corpus/01_enade_txt",
+    "input_manifest": "corpus/enade_dataset.ndjson",
+    "output_dir": "corpus/02_enade_clean",
+    "started_at": "2026-10-30T22:29:19Z",
+    "ended_at": "2026-10-30T22:35:02Z",
+    "dry_run": false
+  },
+  "summary": {
+    "files_discovered": 348,
+    "files_selected": 348,
+    "files_processed": 348,
+    "files_written": 344,
+    "files_with_no_target_chapters": 4,
+    "files_with_warnings": 348,
+    "files_failed": 0,
+    "c4_present": 344,
+    "c5_present": 344,
+    "c6_present": 344,
+    "warning_counts": {
+      "chapter_span_unusually_short": 292,
+      "high_control_character_ratio": 131,
+      "multiple_body_target_heading_candidates": 344,
+      "no_target_chapters_found": 4,
+      "possible_pdf_font_encoding_corruption": 348
+    },
+    "interrupted": false
+  }
+}
