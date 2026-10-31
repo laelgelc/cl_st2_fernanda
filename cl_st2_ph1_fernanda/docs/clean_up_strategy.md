@@ -197,847 +197,762 @@ wc -c corpus/02_enade_extracted/enade_2021_ci_bio.*
 If the generated file is suspiciously close to a size consistent with 10k tokens — roughly `30k–45k` characters — it may have been cut off.
 
 ## Me
-Please refer to the attached AI Assistant chat. Is it possible to design a programme named `enade_clean-up.py` to safely clean up the ENADE raw txt documents and store them in the `corpus/02_enade_txt_cleaned` directory? I do not know if something like the attached offline programme is suitable for this purpose.
+Please refer to the attached AI Assistant chat. Is it possible to design a programme named `enade_clean_up.py` to safely clean up the ENADE raw txt documents and store them in the `corpus/02_enade_txt_clean` directory? The clean-up process should consist of locating the chapters of interest and having them in individual text files like `corpus/01_enade_txt/2009/enade_2009_admin_c4.txt`. The intention is to reduce the number of tokens to be sent to the LLM for denoising. Remember that `c4`, `c5`, and `c6` are internal labels because the actual chapters may not correspond to the internal labels' numbers. There should be a safe way to identify the chapter's boundaries. The files with individualised chapters should be stored in the same subdirectory structure. The text should not be denoised or altered in any way because that will be done by `llm_denoise.py` (of course, this programme should be adapted according to what is going to be defined in this stage). There might be a few documents that will have some or none of the chapters of interest. Therefore, a manifest should be provided to indicate the presence or absence of each chapter. Is it clear? Am I missing anything? Let's discuss before writing the programme development specification, `enade_clean_up.md`.
 
 ## AI Assistant
-Yes — it is possible, and I think an **offline Python programme named `enade_clean-up.py`** is suitable for this purpose.
-
-For your ENADE raw `.txt` files, I would **not** start with LLM denoising. A safer first step is a deterministic, offline clean-up programme that:
-
-1. reads files from:
+Yes, it is clear. The proposed `enade_clean_up.py` would be a **local pre-extraction stage** between raw TXT conversion and LLM denoising:
 
 ```plain text
 corpus/01_enade_txt
+        ↓
+enade_clean_up.py
+        ↓
+corpus/02_enade_txt_clean
+        ↓
+llm_denoise.py
 ```
 
 
-2. writes cleaned `.txt` files to:
+The goal would **not** be to denoise, normalize, correct OCR, remove tables, or rewrite anything. It would only **copy exact raw text spans** corresponding to the chapters of interest into smaller files, so that `llm_denoise.py` can later work on reduced input.
+
+## What is clear
+
+The programme should:
+
+1. Read raw ENADE TXT files from:
 
 ```plain text
-corpus/02_enade_txt_cleaned
+corpus/01_enade_txt/<year>/<filename>.txt
 ```
 
 
-3. preserves the same subdirectory structure, for example:
+2. Identify whether the chapters of interest are present.
+
+3. Extract each chapter into a separate file, preserving the same subdirectory structure, for example:
 
 ```plain text
-corpus/01_enade_txt/2009/enade_2009_admin.txt
+corpus/02_enade_txt_clean/2009/enade_2009_admin_c4.txt
+   corpus/02_enade_txt_clean/2009/enade_2009_admin_c5.txt
+   corpus/02_enade_txt_clean/2009/enade_2009_admin_c6.txt
 ```
 
 
-would become:
+4. Treat `c4`, `c5`, and `c6` as **internal labels**, not as guaranteed chapter numbers.
+
+5. Preserve extracted text **exactly as found** in the source TXT.
+
+6. Produce a manifest indicating whether each internal chapter label was found, not found, ambiguous, or skipped.
+
+7. Support documents where:
+   - all target chapters are present;
+   - only some are present;
+   - none are present;
+   - boundaries are ambiguous.
+
+## The key design point: safe boundary detection
+
+The important issue is how to identify chapter boundaries safely. I agree that the script should **not blindly trust numeric chapter labels** such as “Capítulo 4”, because the actual chapter of interest can shift across years.
+
+Instead, the safest strategy would be a **multi-signal boundary detection approach**:
+
+### 1. Prefer semantic chapter titles over chapter numbers
+
+The programme should search for target chapter headings by title patterns such as:
+
+| Internal label | Target topic | Possible headings |
+|---|---|---|
+| `c4` | Perception of the exam | `Percepção da Prova`, `Percepção sobre a Prova`, `Percepção dos Estudantes sobre a Prova` |
+| `c5` | Distribution of concepts | `Distribuição dos Conceitos`, `Distribuição de Conceitos`, `Distribuição do Conceito Enade` |
+| `c6` | Technical analysis of the exam | `Análise Técnica da Prova`, `Análise técnica`, possibly in later reports: `Análise Técnica da Prova` under a different chapter number |
+
+However, based on the 2023 sample, the internal mapping may need to be flexible because the report structure changed substantially. For example, in recent ENADE reports, `Percepção da Prova`, `Distribuição de Conceitos`, and `Análise Técnica da Prova` may correspond to **Chapters 3, 4, and 5**, not 4, 5, and 6.
+
+So yes: `c4`, `c5`, and `c6` should be treated as **project labels**, perhaps better described internally as:
 
 ```plain text
-corpus/02_enade_txt_cleaned/2009/enade_2009_admin.txt
+c4 = perception_chapter
+c5 = concept_distribution_chapter
+c6 = technical_analysis_chapter
 ```
 
 
-4. does **not** overwrite raw source files;
-5. logs what it changed;
-6. produces a manifest for reproducibility.
+The output filenames can still use `_c4`, `_c5`, `_c6`.
 
-This would be a good intermediate step before any later LLM denoising or chapter extraction.
+### 2. Use table of contents as a guide, but not as the only source
 
-## Suitability of an offline clean-up programme
+The script can parse the `SUMÁRIO` to identify likely chapter titles and page references, but it should not rely exclusively on page numbers because TXT extraction may have irregular page breaks.
 
-An offline programme is suitable because many problems in the ENADE `.txt` files are **mechanical extraction artefacts**, not interpretation problems. For example:
-
-- excessive blank lines;
-- form-feed or control characters;
-- isolated page numbers;
-- repeated headers/footers;
-- broken paragraph line wrapping;
-- hyphenation at line breaks;
-- whitespace damage;
-- obvious PDF extraction debris.
-
-These can be handled more safely and cheaply with deterministic rules than with an LLM.
-
-However, the programme should be **conservative**. It should clean obvious noise without trying to “improve” the prose. It should not correct spelling, rewrite sentences, translate, summarise, or infer missing text.
-
-## Important caveat
-
-A simple clean-up script can improve readability, but it will **not fully solve OCR/font encoding corruption** like this kind of text:
+The table of contents can be used to build candidates:
 
 ```plain text
-.!
-A
-.!
+4 Percepção sobre a Prova 66
+5 Distribuição dos Conceitos 97
+6 Características dos Estudantes 106
 ```
 
 
-That type of corruption is usually caused by PDF font extraction or encoding problems. A clean-up script can detect and flag it, but automatic repair is risky unless you build a specific mapping and validate it carefully.
+But actual extraction should preferably be anchored on **the real heading occurrence in the body**, not only the table of contents entry.
 
-So I would design `enade_clean-up.py` to do two things:
+### 3. Avoid extracting from the table of contents
 
-1. **clean safe, structural artefacts**;
-2. **flag suspicious files or lines** for later inspection.
+A common hazard is that the first occurrence of a target title appears in the `SUMÁRIO`, not in the body. The script should therefore:
 
-## Recommended design for `enade_clean-up.py`
+- locate the table of contents span;
+- record title candidates from it;
+- then search for the corresponding body heading **after the summary section**.
 
-### Inputs
-
-Default input directory:
+A simple safety rule could be:
 
 ```plain text
-corpus/01_enade_txt
+Do not use target heading occurrences before the end of the table of contents as chapter starts.
 ```
 
 
-Optional input manifest:
+### 4. Boundaries should be from heading to next peer heading
+
+Once a target chapter heading is found in the body, the end boundary should be the next **peer-level heading**, not the next subheading.
+
+For example, if extracting:
+
+```plain text
+Capítulo 4
+Percepção sobre a Prova
+```
+
+
+the extraction should continue through:
+
+```plain text
+4.1 ...
+4.2 ...
+4.3 ...
+```
+
+
+and stop before:
+
+```plain text
+Capítulo 5
+Distribuição dos Conceitos
+```
+
+
+or before another top-level heading such as:
+
+```plain text
+5 Distribuição dos Conceitos
+```
+
+
+For newer reports, it should stop before the next top-level `CAPÍTULO N` heading, regardless of whether the target internal label is `c4`.
+
+### 5. Use heading confidence levels
+
+The script should probably classify each chapter extraction as one of:
+
+```plain text
+found
+not_found
+ambiguous
+unsafe
+```
+
+
+Possible meanings:
+
+- `found`: one reliable start and one reliable end boundary found.
+- `not_found`: no plausible target heading found.
+- `ambiguous`: multiple plausible starts or ends found.
+- `unsafe`: a start was found, but the end boundary was not reliable.
+- `empty_or_too_short`: extracted text is suspiciously short.
+- `skipped`: intentionally skipped due to safety rules.
+
+This is better than a simple Boolean manifest, although Boolean fields can still be provided for compatibility.
+
+## What you may be missing
+
+A few things are worth deciding before writing `enade_clean_up.md`.
+
+### 1. What exactly should happen when an end boundary is missing?
+
+Suppose the script finds:
+
+```plain text
+Capítulo 4
+Percepção sobre a Prova
+```
+
+
+but cannot confidently identify the next chapter heading.
+
+Options:
+
+1. **Do not extract** and mark `unsafe`.
+2. Extract until the end of file and mark `end_boundary_missing`.
+3. Extract until `ANEXOS`, `REFERÊNCIAS`, or another fallback heading.
+
+For safety, I would recommend:
+
+> If no safe end boundary is found, do not write the chapter file by default; record it in the manifest as `unsafe`.
+
+An optional `--allow-unsafe` flag could write it for inspection.
+
+### 2. Should the output contain only the chapter body or also the chapter heading?
+
+I recommend including the heading exactly as found, because it provides useful context for `llm_denoise.py`.
+
+So the output should start at the heading line itself:
+
+```plain text
+Capítulo 4
+Percepção sobre a Prova
+...
+```
+
+
+or:
+
+```plain text
+4
+Percepção sobre a Prova
+...
+```
+
+
+depending on how it appears in the raw TXT.
+
+### 3. Should output files be created for absent chapters?
+
+I recommend **no**. If a chapter is absent or unsafe, the file should not be created, and the manifest should record the status.
+
+Creating empty files can be confusing for downstream processing.
+
+### 4. Manifest format
+
+A manifest should probably be both machine-readable and auditable. I would suggest:
+
+```plain text
+corpus/02_enade_txt_clean/enade_clean_up_manifest.ndjson
+```
+
+
+with one record per source file, or one record per source-file/chapter pair.
+
+A useful structure would be one record per source file:
+
+```json
+{
+  "source_path": "corpus/01_enade_txt/2009/enade_2009_admin.txt",
+  "year": "2009",
+  "base_filename": "enade_2009_admin.txt",
+  "output_dir": "corpus/02_enade_txt_clean/2009",
+  "chapters": {
+    "c4": {
+      "status": "found",
+      "title_matched": "Percepção sobre a Prova",
+      "output_path": "corpus/02_enade_txt_clean/2009/enade_2009_admin_c4.txt",
+      "start_line": 1234,
+      "end_line": 1789,
+      "start_char": 45678,
+      "end_char": 78901,
+      "char_count": 33223
+    },
+    "c5": {
+      "status": "found",
+      "title_matched": "Distribuição dos Conceitos",
+      "output_path": "corpus/02_enade_txt_clean/2009/enade_2009_admin_c5.txt",
+      "start_line": 1790,
+      "end_line": 2010,
+      "start_char": 78902,
+      "end_char": 89012,
+      "char_count": 10110
+    },
+    "c6": {
+      "status": "not_found",
+      "title_matched": null,
+      "output_path": null
+    }
+  }
+}
+```
+
+
+This is better than only:
+
+```json
+{"c4_present": true, "c5_present": true, "c6_present": false}
+```
+
+
+because it allows audit and debugging.
+
+### 5. Downstream implications for `llm_denoise.py`
+
+Yes, `llm_denoise.py` should eventually be adapted. The clean-up stage changes the unit of processing from:
+
+```plain text
+one whole report
+```
+
+
+to:
+
+```plain text
+one pre-extracted chapter file
+```
+
+
+or possibly:
+
+```plain text
+one source report with up to three child chapter files
+```
+
+
+The current denoising validation expects metadata such as:
+
+```plain text
+c4_present
+c5_present
+c6_present
+```
+
+
+After this clean-up stage, there are two possible downstream designs:
+
+#### Option A: `llm_denoise.py` processes each chapter file independently
+
+Then the prompt no longer needs to ask the LLM to locate chapters. It only needs to denoise the provided chapter.
+
+In this case, metadata could become simpler:
+
+```json
+{
+  "chapter_label": "c4",
+  "chapter_present": true
+}
+```
+
+
+#### Option B: `llm_denoise.py` receives all extracted chapters for one report
+
+Then the clean-up stage can concatenate only the safely extracted chapters or pass them as separate inputs, while still preserving the existing `c4_present`, `c5_present`, `c6_present` idea.
+
+I would lean toward **Option A** because it reduces token usage further and makes failures easier to isolate.
+
+### 6. Naming conventions
+
+The output file naming convention seems clear:
+
+```plain text
+enade_2009_admin_c4.txt
+enade_2009_admin_c5.txt
+enade_2009_admin_c6.txt
+```
+
+
+But we should define whether the script always derives this from the input filename by inserting `_c4` before `.txt`.
+
+Example:
+
+```plain text
+input:  corpus/01_enade_txt/2009/enade_2009_admin.txt
+output: corpus/02_enade_txt_clean/2009/enade_2009_admin_c4.txt
+```
+
+
+This is simple and safe.
+
+### 7. Raw text preservation
+
+This requirement is very important. The programme should not:
+
+- normalize Unicode;
+- fix mojibake;
+- remove page numbers;
+- remove headers or footers;
+- merge broken lines;
+- delete blank lines;
+- trim interior whitespace;
+- rewrite chapter titles;
+- correct OCR errors.
+
+At most, it may need to preserve the extracted substring exactly between character offsets. That means extraction should be based on character offsets rather than reconstructed lines if possible.
+
+It may trim only the boundaries if explicitly defined, but I would recommend:
+
+> Preserve the exact source substring from the start boundary to immediately before the end boundary.
+
+### 8. Audit mode / dry run
+
+Before writing files, a dry run would be very useful:
+
+```shell script
+python enade_clean_up.py --dry-run
+```
+
+
+It should show:
+
+- source file;
+- detected target chapters;
+- heading text;
+- start/end line;
+- char count;
+- output path that would be written;
+- warnings.
+
+This is especially important because the extraction is safety-critical.
+
+### 9. A review directory for ambiguous cases
+
+It may be useful to create an optional diagnostic file for ambiguous cases, for example:
+
+```plain text
+corpus/02_enade_txt_clean/_diagnostics/enade_2023_arqui_urb_candidates.txt
+```
+
+
+This could list all heading candidates found. But this is optional and can be kept out of the first version.
+
+## Suggested extraction philosophy
+
+I would define the programme as conservative:
+
+> It is better to miss a chapter and report `not_found` or `ambiguous` than to extract the wrong span.
+
+This is important because a wrong extraction would silently contaminate the denoising stage.
+
+## Proposed high-level workflow
+
+The eventual programme could work like this:
+
+1. Discover input files under `corpus/01_enade_txt/**/*.txt`.
+2. For each file:
+   - read text as UTF-8, preserving content;
+   - identify likely table of contents region;
+   - detect body-level top headings;
+   - match target chapter titles against known patterns;
+   - determine start and end boundaries;
+   - validate span length and ordering;
+   - write safe chapter files only;
+   - record manifest entry.
+3. Write manifest to `corpus/02_enade_txt_clean/enade_clean_up_manifest.ndjson`.
+4. Optionally write a summary report:
+
+```plain text
+corpus/02_enade_txt_clean/enade_clean_up_summary.tsv
+```
+
+
+## Open questions before writing `enade_clean_up.md`
+
+I think we should decide these before drafting the development specification:
+
+1. **Which exact chapter topics map to `c4`, `c5`, and `c6`?**  
+   My understanding is:
+   - `c4` = perception of the exam;
+   - `c5` = distribution of concepts;
+   - `c6` = technical analysis of the exam.
+
+2. **Should `c6` always mean “Análise Técnica da Prova”, even when it appears before the other two chapters?**  
+   In older files, it can be Chapter 3. In newer files, it can be Chapter 5. This confirms the internal label must be semantic, not numeric.
+
+3. **Should unsafe detections write no file by default?**  
+   I recommend yes.
+
+4. **Should the manifest be one record per source file or one record per extracted chapter?**  
+   I recommend one record per source file, with nested chapter entries, plus maybe a flattened TSV summary.
+
+5. **Should the script support `--only-year`, `--only-file`, and `--dry-run` from the beginning?**  
+   I recommend yes, because this will make testing much easier.
+
+6. **Should the programme process all files or only files listed in `corpus/enade_dataset.ndjson`?**  
+   If `enade_dataset.ndjson` is the canonical dataset manifest, using it may be safer. If not, recursive file discovery is simpler.
+
+7. **How strict should matching be with corrupted OCR headings?**  
+   The 2023 sample shows mojibake-like text in the table of contents, but the body headings are clearer. We should decide whether to implement fuzzy matching in version 1 or only normalized heading matching.
+
+## My recommendation
+
+Yes, the programme is feasible and useful. I would specify it as a **conservative raw-span extractor** with:
+
+- semantic chapter labels;
+- title-based body heading detection;
+- table-of-contents-assisted validation;
+- exact text preservation;
+- no denoising;
+- same directory structure;
+- per-chapter output files;
+- robust manifest;
+- dry-run and audit support.
+
+You are not missing anything major, but the development specification should explicitly define the safety rules for ambiguous boundaries and the exact semantic meaning of `c4`, `c5`, and `c6`.
+
+## Me
+Please refer to the attached AI Assistant chat. I agree with your recommendations. I just think that there should be a narrower number of title variants (case insensitive) as the following excerpt from `llm_denoise.py` programme development specification. The reason is that, for example, `percepção sobre a prova` is the same chapter of `percepção da prova` but is not the same chapter of `percepção dos estudantes sobre a prova`. If we do not narrow down, we might end up with more than 3 eligible chapters leading to ambiguity.
+
+| Internal label | Chapter title variants                                    |
+|----------------|-----------------------------------------------------------|
+| `c4`           | `percepção sobre a prova`; `percepção da prova`           |
+| `c5`           | `distribuição dos conceitos`; `distribuição de conceitos` |
+| `c6`           | `análise técnica da prova`                                |
+
+
+## AI Assistant
+Yes — I agree completely. The title matching for `enade_clean_up.py` should be **narrow and conservative**, and it should use exactly the same intended chapter-title variants as the `llm_denoise.py` specification unless we later discover a strong reason to expand them.
+
+The safer mapping should be:
+
+| Internal label | Accepted chapter title variants                           |
+|----------------|-----------------------------------------------------------|
+| `c4`           | `percepção sobre a prova`; `percepção da prova`           |
+| `c5`           | `distribuição dos conceitos`; `distribuição de conceitos` |
+| `c6`           | `análise técnica da prova`                                |
+
+All matching should be **case-insensitive**.
+
+I would also add two important clarifications to the future `enade_clean_up.md` specification.
+
+## 1. Match exact normalized titles, not broad semantic phrases
+
+The clean-up programme should not treat every heading containing the words `percepção`, `estudantes`, and `prova` as equivalent.
+
+So this should match `c4`:
+
+```plain text
+Percepção sobre a Prova
+```
+
+
+and this should match `c4`:
+
+```plain text
+Percepção da Prova
+```
+
+
+But this should **not** match `c4`:
+
+```plain text
+Percepção dos Estudantes sobre a Prova
+```
+
+
+unless we later explicitly decide to add it as a valid variant.
+
+That distinction is important because the clean-up stage is supposed to be a **safe extractor**, not a semantic classifier.
+
+## 2. Normalisation should be limited to matching only
+
+For heading comparison, the script can normalise candidate headings internally, for example:
+
+- lowercase;
+- collapse repeated whitespace;
+- remove leading chapter numbering such as `4`, `4.`, `Capítulo 4`, `CAPÍTULO 4`;
+- optionally remove trailing page numbers when parsing table-of-contents entries;
+- compare accents as written, unless we decide to support accent-insensitive matching.
+
+But this normalisation must be used **only for detection**. The extracted output text must remain exactly as it appears in the source file.
+
+So the matching logic can interpret:
+
+```plain text
+Capítulo 4
+Percepção sobre a Prova
+```
+
+
+as the normalised candidate title:
+
+```plain text
+percepção sobre a prova
+```
+
+
+but the output file should still include the original raw text span exactly.
+
+## Recommended rule for `enade_clean_up.md`
+
+I would write the specification along these lines:
+
+> The programme must use a closed, conservative list of accepted chapter-title variants. A heading candidate is eligible only if, after heading-level normalisation, its title equals one of the configured variants for the corresponding internal chapter label. The programme must not use fuzzy semantic matching, substring matching, or broad keyword matching to infer chapter identity.
+
+That would prevent accidental matches such as:
+
+```plain text
+Percepção dos Estudantes sobre a Prova
+```
+
+
+or:
+
+```plain text
+Percepção sobre os conteúdos das questões objetivas da prova
+```
+
+
+which appears as a subsection in older reports and should definitely not be treated as the target chapter.
+
+## Proposed matching behaviour
+
+For each candidate top-level chapter heading, the script should derive a normalised title and compare it against the accepted variants:
+
+```plain text
+c4:
+  percepção sobre a prova
+  percepção da prova
+
+c5:
+  distribuição dos conceitos
+  distribuição de conceitos
+
+c6:
+  análise técnica da prova
+```
+
+
+A chapter should be marked as `found` only when:
+
+1. the normalised body heading exactly matches one accepted variant;
+2. the heading is detected as a body-level chapter heading, not a table-of-contents entry;
+3. the next peer-level chapter boundary is identified safely;
+4. no competing body-level heading matches the same internal label.
+
+If more than one body-level heading matches the same internal label, the status should be:
+
+```plain text
+ambiguous
+```
+
+
+and no file should be written by default.
+
+## Why this is the right approach
+
+Your example is exactly the risk:
+
+```plain text
+percepção sobre a prova
+```
+
+
+and:
+
+```plain text
+percepção da prova
+```
+
+
+refer to the same intended chapter type.
+
+But:
+
+```plain text
+percepção dos estudantes sobre a prova
+```
+
+
+could plausibly belong to a different report structure or different analytical chapter. If the extractor accepted broader variants, it could identify too many “eligible” chapters and make the extraction unsafe.
+
+So, yes: **narrow matching is better here**. The programme should prefer false negatives over false positives. If a true chapter is missed because its title differs, the manifest can show `not_found`, and we can inspect it later. That is safer than silently extracting the wrong chapter.
+
+## Me
+Are we ready to write `enade_clean_up.md` programme development specification?
+
+## AI Assistant
+Yes — we are ready to write `enade_clean_up.md`.
+
+The main design decisions are now clear enough:
+
+1. **Programme name**
+   - `enade_clean_up.py`
+
+2. **Purpose**
+   - Pre-extract selected ENADE report chapters from raw TXT files.
+   - Reduce the amount of text sent later to `llm_denoise.py`.
+   - Preserve extracted text exactly; no denoising, rewriting, cleaning, or normalisation of output content.
+
+3. **Input**
+   - Use the ENADE manifest as the canonical input source, preferably:
 
 ```plain text
 corpus/enade_dataset.ndjson
 ```
 
 
-The script can work either way:
-
-- directory-walk mode: process all `.txt` files under `corpus/01_enade_txt`;
-- manifest mode: process only files listed in `corpus/enade_dataset.ndjson`.
-
-### Outputs
-
-Default cleaned text directory:
-
-```plain text
-corpus/02_enade_txt_cleaned
-```
-
-
-Recommended additional files:
-
-```plain text
-corpus/02_enade_txt_cleaned/enade_clean-up_manifest.json
-corpus/02_enade_txt_cleaned/enade_clean-up_manifest_<run_id>.json
-corpus/02_enade_txt_cleaned/enade_clean-up.log
-```
-
-
-Optionally, for quality control:
-
-```plain text
-corpus/02_enade_txt_cleaned/enade_clean-up_warnings.tsv
-```
-
-
-## What the programme should clean
-
-I would include these safe cleaning stages.
-
-### 1. Unicode and control-character normalisation
-
-Remove or normalise:
-
-- null bytes;
-- form-feed characters;
-- unusual invisible control characters;
-- repeated non-breaking spaces;
-- tabs converted to spaces;
-- trailing whitespace.
-
-Conservative replacements:
-
-```plain text
-\r\n → \n
-\r → \n
-\t → space
-non-breaking space → normal space
-multiple spaces → single space, except where table alignment should be preserved
-```
-
-
-### 2. Remove obvious page separators
-
-Raw ENADE files often contain page breaks like:
-
-```plain text
-12
-Capítulo 3
-```
-
-
-or:
-
-```plain text
-29
-```
-
-
-The script can remove isolated page-number lines when they are clearly page markers.
-
-Safe rule:
-
-- remove a line if it contains only digits;
-- but optionally keep it if it appears inside a table-like block.
-
-This should be configurable because numbers can sometimes be meaningful in extracted tables.
-
-### 3. Remove repeated headers and footers
-
-Examples of repeated header/footer material may include:
-
-```plain text
-Relatório Síntese de Área – ENADE/2023
-Fonte: MEC/INEP/DAES – ENADE/2009
-```
-
-
-This should be configurable. Some “Fonte:” lines are part of tables and may be useful, so I would not delete all source lines by default. Instead:
-
-- remove repeated page headers;
-- optionally keep source/caption lines unless `--aggressive` is used.
-
-### 4. Collapse excessive blank lines
-
-Convert long vertical whitespace blocks into one or two blank lines.
-
-For example:
-
-```plain text
-line
-
-
-
-next line
-```
-
-
-becomes:
-
-```plain text
-line
-
-next line
-```
-
-
-### 5. Join broken paragraph lines
-
-Older ENADE files often have PDF-extracted line wrapping like:
-
-```plain text
-O presente relatório tem como objetivo apresentar de forma sintética os resultados do
-Exame Nacional de Desempenho dos Estudantes ENADE/2009 na área de
-ADMINISTRAÇÃO.
-```
-
-
-This can be safely joined into:
-
-```plain text
-O presente relatório tem como objetivo apresentar de forma sintética os resultados do Exame Nacional de Desempenho dos Estudantes ENADE/2009 na área de ADMINISTRAÇÃO.
-```
-
-
-But the script should **not** join:
-
-- headings;
-- table rows;
-- bullet lists;
-- numbered section titles;
-- figure/table captions;
-- very short labels;
-- lines ending in punctuation that strongly suggests paragraph boundary.
-
-### 6. Fix line-break hyphenation
-
-Example:
-
-```plain text
-desvio-
-padrão
-```
-
-
-can become:
-
-```plain text
-desvio-padrão
-```
-
-
-or:
-
-```plain text
-socio-
-econômico
-```
-
-
-can become:
-
-```plain text
-socioeconômico
-```
-
-
-This is tricky in Portuguese because some hyphens are real. I would implement conservative rules:
-
-- if a line ends with a hyphen and the next line begins with lowercase, join;
-- keep the hyphen only when the resulting form appears likely to be a compound;
-- otherwise remove the line-break hyphen.
-
-This should be controlled by an option such as:
-
-```plain text
---fix-hyphenation
-```
-
-
-enabled by default but logged.
-
-### 7. Preserve headings
-
-The script should recognise headings such as:
-
-```plain text
-Capítulo 4
-Percepção sobre a Prova
-
-4.1 Grau de dificuldade da prova
-
-5 Distribuição dos Conceitos
-```
-
-
-and keep them on separate lines.
-
-It should also avoid forcing all headings into Markdown unless you explicitly want that. For a first clean-up stage, plain `.txt` is safer.
-
-### 8. Preserve tables as much as possible
-
-Tables are important in ENADE reports. The clean-up script should not aggressively reflow table-like blocks.
-
-A simple table detector can look for lines with:
-
-- many numbers;
-- repeated short columns;
-- percentage signs;
-- multiple spaces separating fields;
-- `Tabela`, `Quadro`, `Gráfico`, `Fonte`.
-
-When inside a table-like block, the script should:
-
-- preserve line breaks;
-- avoid joining wrapped lines unless clearly safe;
-- avoid collapsing internal spacing too aggressively.
-
-### 9. Detect suspicious encoding corruption
-
-The script should flag files with many characters such as:
-
-```plain text
-�   Ǥ ͳ ʹ ͵
-```
-
-
-or unusually high proportions of symbols/control-like characters.
-
-It should not necessarily try to repair them automatically. It should report:
-
-```plain text
-status: warning
-warning_type: possible_encoding_or_font_corruption
-```
-
-
-This is especially important for some newer reports where PDF extraction produces corrupted capital headings.
-
-## Suggested command-line interface
-
-Default run:
-
-```textmate
-python enade_clean-up.py
-```
-
-
-Recommended options:
-
-```textmate
-python enade_clean-up.py \
-  --input-dir corpus/01_enade_txt \
-  --output-dir corpus/02_enade_txt_cleaned
-```
-
-
-Dry run:
-
-```textmate
-python enade_clean-up.py --dry-run
-```
-
-
-Overwrite existing cleaned files:
-
-```textmate
-python enade_clean-up.py --overwrite
-```
-
-
-Process one file:
-
-```textmate
-python enade_clean-up.py \
-  --only-filename enade_2009_admin.txt \
-  --overwrite
-```
-
-
-Conservative mode:
-
-```textmate
-python enade_clean-up.py --mode conservative
-```
-
-
-More aggressive paragraph joining:
-
-```textmate
-python enade_clean-up.py --mode aggressive
-```
-
-
-I would make `conservative` the default.
-
-## Suggested processing modes
-
-### `conservative`
-
-Default. Safe for corpus preparation.
-
-Does:
-
-- whitespace cleanup;
-- control-character removal;
-- obvious page-number removal;
-- excessive blank-line collapse;
-- cautious paragraph joining;
-- cautious hyphenation repair;
-- warning generation.
-
-Does **not**:
-
-- remove many repeated table captions;
-- rewrite headings;
-- repair corrupted PDF font encoding;
-- delete annexes;
-- extract only target chapters.
-
-### `aggressive`
-
-Optional. More readable output, but higher risk.
-
-May additionally:
-
-- remove repeated headers/footers more strongly;
-- join more lines;
-- remove more isolated numeric/table-like debris.
-
-### `diagnose-only`
-
-Useful before cleaning a full corpus.
-
-Reports:
-
-- file size;
-- line count;
-- likely page-number lines;
-- suspicious encoding ratio;
-- number of blank lines;
-- likely headings;
-- likely chapters found.
-
-Example:
-
-```textmate
-python enade_clean-up.py --diagnose-only
-```
-
-
-## Manifest design
-
-A manifest is important so you can later audit what happened.
-
-Example structure:
-
-```json
-{
-  "run_metadata": {
-    "run_id": "20261030T120000Z",
-    "tool_name": "enade_clean-up.py",
-    "tool_version": "v1",
-    "input_dir": "corpus/01_enade_txt",
-    "output_dir": "corpus/02_enade_txt_cleaned",
-    "mode": "conservative",
-    "dry_run": false
-  },
-  "summary": {
-    "files_discovered": 300,
-    "files_processed": 300,
-    "files_written": 300,
-    "files_with_warnings": 12,
-    "files_failed": 0
-  },
-  "files": [
-    {
-      "source_path": "corpus/01_enade_txt/2009/enade_2009_admin.txt",
-      "output_path": "corpus/02_enade_txt_cleaned/2009/enade_2009_admin.txt",
-      "status": "success",
-      "input_chars": 500000,
-      "output_chars": 455000,
-      "lines_removed_as_page_numbers": 120,
-      "paragraph_joins": 3200,
-      "hyphenation_fixes": 85,
-      "warnings": []
-    }
-  ]
-}
-```
-
-
-## Recommended safety rules
-
-The programme should:
-
-- never modify files in `corpus/01_enade_txt`;
-- fail if output files already exist unless `--overwrite` or `--resume` is used;
-- write UTF-8 output;
-- keep relative paths;
-- write a log;
-- write a manifest;
-- support `--dry-run`;
-- support one-file testing;
-- report suspicious files rather than silently “fixing” them.
-
-## Suggested pipeline position
-
-I would update the project pipeline to include this as a step **before** LLM denoising:
-
-```plain text
-corpus/01_enade_txt
-        ↓
-enade_clean-up.py
-        ↓
-corpus/02_enade_txt_cleaned
-        ↓
-LLM or rule-based chapter extraction/denoising
-```
-
-
-Then your existing denoising step could later use the cleaned folder as input, or the manifest could be updated to point to cleaned files.
-
-## Bottom line
-
-Yes, `enade_clean-up.py` is a good idea, and an offline programme is well suited for the first clean-up stage. I would design it as a **conservative, auditable preprocessor**, not as a full denoising or chapter-extraction system.
-
-Its main purpose should be:
-
-- preserve source meaning;
-- reduce obvious PDF/text-extraction noise;
-- protect raw files;
-- create reproducible cleaned files in `corpus/02_enade_txt_cleaned`;
-- produce warnings for files needing special handling.
-
-## Me
-Additionally, can it single out the chapters of interest?
-
-## AI Assistant
-Yes. It can **single out only the chapters of interest** by detecting chapter headings/titles and extracting just those sections.
-
-For the ENADE reports you showed, the relevant logic should be:
-
-- identify chapters by **title**, not by chapter number;
-- include only chapters whose titles match the target set;
-- stop each extracted chapter at the next same-level chapter heading;
-- return metadata flags indicating which target chapters were found.
-
-For the older ENADE format, the chapters of interest are:
-
-| Internal label | Chapter title to detect |
-|---|---|
-| `c4` | `Percepção sobre a Prova` / `Percepção da Prova` |
-| `c5` | `Distribuição dos Conceitos` / `Distribuição de Conceitos` |
-| `c6` | `Análise Técnica da Prova` |
-
-One important detail: in some reports, the **chapter numbers vary**. For example, in 2009, *Análise Técnica da Prova* is Chapter 3, while *Percepção sobre a Prova* is Chapter 4 and *Distribuição dos Conceitos* is Chapter 5. So the extraction should not assume that `c4`, `c5`, and `c6` correspond literally to source chapter numbers 4, 5, and 6. The labels should be internal labels for the content type.
-
-For newer ENADE layouts, the order/numbering can also change, e.g.:
-
-- `Percepção da Prova` may be Chapter 3;
-- `Distribuição de Conceitos` may be Chapter 4;
-- `Análise Técnica da Prova` may be Chapter 5.
-
-So yes: the safest approach is to have it **single out chapters by normalized title matching**, then return only those chapters and set presence flags such as:
-
-```json
-{
-  "chapters": "...selected denoised chapter text...",
-  "metadata": {
-    "c4_present": true,
-    "c5_present": true,
-    "c6_present": true
-  }
-}
-```
-
-
-This should work well as long as the prompt explicitly says that `c4`, `c5`, and `c6` are **internal content labels**, not fixed chapter numbers.
-
-## Me
-Are we ready to write the `enade_clean-up.md` programme specification for development?
-
-## AI Assistant
-Yes — we’re ready to write the **`enade_clean-up.md` programme specification for development**.
-
-The key design decisions are now clear:
-
-1. **Purpose**
-   - Build an offline ENADE clean-up/extraction programme.
-   - It should process locally extracted `.txt` ENADE reports.
-   - It should extract and denoise only the chapters of interest.
-
-2. **Chapters of interest**
-   - Use internal labels:
-     - `c4` → *Percepção sobre a Prova* / *Percepção da Prova*
-     - `c5` → *Distribuição dos Conceitos* / *Distribuição de Conceitos*
-     - `c6` → *Análise Técnica da Prova*
-   - Detect by **chapter title**, not by source chapter number.
-   - This is essential because chapter numbering changes across report years.
-
-3. **Architecture**
-   - Prefer a two-stage workflow:
-     1. **Local pre-extraction** of candidate chapter spans from raw `.txt` reports.
-     2. **LLM denoising** only on those extracted spans.
-   - This avoids sending very large full reports to the LLM unnecessarily.
+   - Read source paths from each row’s `filepath_txt`.
 
 4. **Output**
-   - Canonical output should likely be structured text plus metadata.
-   - Suggested per-report JSON-like record:
-     - source metadata;
-     - cleaned chapter text;
-     - `c4_present`;
-     - `c5_present`;
-     - `c6_present`;
-     - extraction/denoising status;
-     - warnings/errors.
+   - Write extracted chapter files to:
 
-5. **Resilience**
-   - Must handle:
-     - older ENADE layouts;
-     - newer ENADE layouts;
-     - OCR corruption in headings;
-     - missing chapters;
-     - chapter title variations;
-     - very large files;
-     - incomplete or invalid LLM responses.
-
-6. **Programme scope**
-   - The spec should cover:
-     - CLI arguments;
-     - input manifest;
-     - output directory;
-     - local heading detection;
-     - fallback LLM title detection if needed;
-     - chunking rules;
-     - retry/resume;
-     - validation;
-     - logs;
-     - manifest/reporting;
-     - acceptance criteria.
-
-One thing to decide before writing: should `enade_clean-up.md` specify a **new programme**, probably something like:
-
-```textmate
-python enade_clean_up.py
+```plain text
+corpus/02_enade_txt_clean/<year>/
 ```
 
 
-or should it specify an extension/replacement of the existing denoising workflow?
+   - Example output names:
 
-My recommendation: write it as a **new programme spec** for `enade_clean_up.py`, with compatibility notes for the existing pipeline. This keeps the design clean and lets the current denoising script remain a lower-level component or be superseded later.
+```plain text
+corpus/02_enade_txt_clean/2009/enade_2009_admin_c4.txt
+   corpus/02_enade_txt_clean/2009/enade_2009_admin_c5.txt
+   corpus/02_enade_txt_clean/2009/enade_2009_admin_c6.txt
+```
+
+
+5. **Internal chapter labels**
+   - `c4`, `c5`, and `c6` are semantic internal labels, not guaranteed report chapter numbers.
+
+6. **Accepted title variants**
+   - Matching should be narrow, case-insensitive, and based on a closed list:
+
+   | Internal label | Accepted variants                                         |
+   |----------------|-----------------------------------------------------------|
+   | `c4`           | `percepção sobre a prova`; `percepção da prova`           |
+   | `c5`           | `distribuição dos conceitos`; `distribuição de conceitos` |
+   | `c6`           | `análise técnica da prova`                                |
+
+7. **Safety philosophy**
+   - Conservative extraction.
+   - Prefer `not_found`, `ambiguous`, or `unsafe` over extracting the wrong span.
+   - Do not write files for absent, ambiguous, or unsafe chapters by default.
+
+8. **Boundary detection**
+   - Avoid table-of-contents matches as extraction starts.
+   - Find body-level chapter headings.
+   - Extract from matched heading to the next peer-level top heading.
+   - Preserve the exact raw substring between those boundaries.
+
+9. **Manifest**
+   - Write a detailed clean-up manifest, probably:
+
+```plain text
+corpus/02_enade_txt_clean/enade_clean_up_manifest.ndjson
+```
+
+
+   - It should record per-source-file and per-chapter statuses, paths, matched titles, offsets, line numbers, character counts, and warnings.
+
+10. **CLI**
+   - Include at least:
+     - `--manifest`
+     - `--output`
+     - `--dry-run`
+     - `--only-filename`
+     - `--limit`
+     - `--resume`
+     - `--reprocess`
+
+11. **Diagnostics**
+   - Include logging and optional candidate diagnostics for ambiguous or unsafe cases.
+
+The only small point still worth deciding is whether the first version should implement **accent-insensitive matching**. My recommendation is:
+
+> Yes, for heading detection only, compare titles with case-insensitive and accent-insensitive normalisation, while preserving output text exactly.
+
+That would allow matching `analise tecnica da prova` if accents are lost in OCR/TXT extraction, without broadening the semantic title list.
+
+So, unless you want to adjust that final point, we can proceed to draft the full `enade_clean_up.md` development specification.
 
 ## Me
-Yes. Let's consider `enade_clean_up.py` as a new programme. I am also renaming the specification to `enade_clean_up.md` replacing the hyphen to an underscore.
-
-## AI Assistant
-Agreed. We should now treat **`enade_clean_up.py`** as a new programme, with the specification file named:
-
-```plain text
-enade_clean_up.md
-```
-
-
-That naming is better: it aligns with the Python module name and avoids the hyphen/underscore mismatch.
-
-## Proposed framing
-
-The specification should define **`enade_clean_up.py`** as a new, higher-level clean-up programme whose purpose is to:
-
-1. Read ENADE `.txt` reports from the corpus manifest.
-2. Detect the relevant chapter spans locally.
-3. Extract only:
-   - `c4`: *Percepção da Prova* / *Percepção sobre a Prova*
-   - `c5`: *Distribuição dos Conceitos* / *Distribuição de Conceitos*
-   - `c6`: *Análise Técnica da Prova*
-4. Denoise those extracted spans.
-5. Produce validated, resumable, corpus-ready outputs.
-
-## Important design point
-
-The new programme should **not** depend on chapter numbers. It should use chapter titles as the semantic anchor.
-
-This is especially important because the target chapters can appear under different source chapter numbers across ENADE years. For example, in some layouts *Análise Técnica da Prova* can be chapter 3, while in others it can be chapter 6.
-
-## Recommended specification structure
-
-I suggest writing `enade_clean_up.md` with these sections:
-
-1. **Purpose**
-2. **Scope**
-3. **Inputs**
-4. **Outputs**
-5. **Chapter taxonomy**
-6. **Processing pipeline**
-7. **Heading detection**
-8. **Chapter-span extraction**
-9. **Local clean-up rules**
-10. **LLM denoising mode**
-11. **Validation rules**
-12. **CLI interface**
-13. **Resume/reprocess behaviour**
-14. **Logging and audit files**
-15. **Failure modes**
-16. **Acceptance criteria**
-17. **Example commands**
-
-## Key architectural recommendation
-
-`enade_clean_up.py` should support two processing modes:
-
-### 1. Local-only extraction/clean-up
-
-Useful for repeatability and cheap validation.
-
-```textmate
-python enade_clean_up.py \
-  --manifest corpus/enade_dataset.ndjson \
-  --input-root corpus/01_enade_txt \
-  --output corpus/02_enade_clean \
-  --mode local \
-  --resume
-```
-
-
-### 2. Local extraction + LLM denoising
-
-Useful for final corpus preparation.
-
-```textmate
-python enade_clean_up.py \
-  --manifest corpus/enade_dataset.ndjson \
-  --input-root corpus/01_enade_txt \
-  --output corpus/02_enade_clean \
-  --mode llm \
-  --prompt denoising_prompts/denoising_v1.md \
-  --model gpt-6-luna \
-  --workers 10 \
-  --resume \
-  --max-retries 5
-```
-
-
-## Proposed output directory
-
-I would use a fresh output path to avoid confusion with previous denoising runs:
-
-```plain text
-corpus/02_enade_clean/
-```
-
-
-or, if you want the name to make chapter extraction explicit:
-
-```plain text
-corpus/02_enade_chapters_clean/
-```
-
-
-My preference is:
-
-```plain text
-corpus/02_enade_clean/
-```
-
-
-It is short and fits the role of a canonical cleaned corpus stage.
-
-## Proposed canonical output per report
-
-For each source `.txt`, generate:
-
-```plain text
-corpus/02_enade_clean/<year>/<filename_stem>.md
-corpus/02_enade_clean/<year>/<filename_stem>.json
-```
-
-
-Where:
-
-- `.md` contains only the cleaned selected chapters, in original order.
-- `.json` contains metadata, status, chapter-presence flags, extraction spans, warnings, and provenance.
-
-A separate run manifest should also be produced:
-
-```plain text
-corpus/02_enade_clean/manifest.ndjson
-corpus/02_enade_clean/run_summary.json
-```
-
-
-## One decision before drafting
-
-The main decision is whether `enade_clean_up.py` should:
-
-### Option A — produce one combined Markdown file per report
-
-Example:
-
-```plain text
-enade_2021_ci_bio.md
-```
-
-
-containing all found target chapters in report order.
-
-### Option B — produce one Markdown file per chapter
-
-Example:
-
-```plain text
-enade_2021_ci_bio.c4.md
-enade_2021_ci_bio.c5.md
-enade_2021_ci_bio.c6.md
-```
-
-
-### Recommendation
-
-Use **both** internally, but make the combined file the corpus-facing output:
-
-```plain text
-corpus/02_enade_clean/2021/enade_2021_ci_bio.md
-corpus/02_enade_clean/2021/enade_2021_ci_bio.json
-```
-
-
-The JSON can preserve per-chapter information without multiplying corpus files unnecessarily.
-
-So yes — we can now write the first full draft of **`enade_clean_up.md`**.
-
-## Me
-Please go ahead and write it!
-
-## AI Assistant
-
+I agree! Please go ahead and write the programme development specification.
