@@ -9,7 +9,9 @@ cl_st2_ph1_fernanda/
 ## 1. Clean and extract ENADE report chapters
 
 ```shell
-python enade_clean_up.py
+python enade_clean_up.py \
+    --manifest corpus/enade_dataset.ndjson \
+    --output corpus/02_enade_txt_clean
 ```
 
 ## 2. Denoise the ENADE reports
