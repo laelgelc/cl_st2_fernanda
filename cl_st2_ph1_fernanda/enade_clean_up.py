@@ -1,36 +1,41 @@
 #!/usr/bin/env python3
 """
-Conservative local pre-extraction programme for Brazilian ENADE report TXT files.
+Deterministic ENADE page-level chapter-of-interest classifier.
 
-This programme reads an immutable NDJSON manifest and extracts exact raw text spans
-for selected ENADE chapters into smaller per-chapter TXT files. It does not denoise,
-clean, normalise, rewrite, translate, summarise, or otherwise alter extracted text.
+This programme enriches corpus/enade_pdf_pages_dataset.ndjson with page-level
+metadata identifying whether each page belongs to selected ENADE chapters:
+
+- c4: percepção da prova / percepção sobre a prova
+- c5: distribuição dos conceitos / distribuição de conceitos
+- c6: análise técnica da prova
+
+It does not modify source manifests, source PDF files, or source text files.
+It does not call an LLM.
 """
 
 from __future__ import annotations
 
 import argparse
-import bisect
-import csv
-import hashlib
 import json
 import logging
-import os
 import re
 import sys
 import tempfile
-import time
 import unicodedata
-from dataclasses import dataclass
-from datetime import datetime, timezone
+from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
+
+import pandas as pd
 
 
 PROGRAMME = "enade_clean_up.py"
-PROGRAMME_VERSION = "1.0.0"
 
-TARGET_CHAPTERS: dict[str, list[str]] = {
+DEFAULT_MANIFEST = "corpus/enade_pdf_pages_dataset.ndjson"
+DEFAULT_OUTPUT_BASENAME = "corpus/enade_chapters_dataset"
+DEFAULT_LOG_FILE = "corpus/enade_clean_up.log"
+
+TARGET_TITLES: dict[str, list[str]] = {
     "c4": [
         "percepção sobre a prova",
         "percepção da prova",
@@ -44,1433 +49,1075 @@ TARGET_CHAPTERS: dict[str, list[str]] = {
     ],
 }
 
-TARGET_LABEL_ORDER = ("c4", "c5", "c6")
+CANONICAL_TITLES: dict[str, str] = {
+    "c4": "percepção da prova",
+    "c5": "distribuição dos conceitos",
+    "c6": "análise técnica da prova",
+}
 
-FALLBACK_BOUNDARY_TITLES = {
-    "anexos",
+STOP_SECTION_TITLES = [
     "anexo",
-    "referencias",
-    "referencia",
-    "glossario",
-}
+    "anexos",
+    "referência",
+    "referências",
+    "bibliografia",
+    "apêndice",
+    "apêndices",
+    "glossário",
+]
 
-REPORT_SUCCESS_STATUSES = {
-    "success",
-    "partial_success",
-    "no_target_chapters",
-}
+REQUIRED_DEFAULT_COLUMNS = [
+    "filename",
+    "filepath_ori",
+    "page_number",
+    "page_filename",
+    "page_filepath",
+    "page_filename_txt",
+    "page_filepath_txt",
+]
 
-CHAPTER_WRITTEN_STATUSES = {
-    "found",
-    "unsafe_written",
-}
-
-
-@dataclass(frozen=True)
-class Config:
-    script_dir: Path
-    run_id: str
-    start_time: str
-    manifest: Path
-    output: Path
-    limit: int | None
-    only_filename: str | None
-    dry_run: bool
-    resume: bool
-    reprocess: bool
-    filename_field: str
-    filepath_field: str
-    group_field: str
-    manifest_file: Path
-    log_file: Path
-    summary_file: Path
-    cleaned_ndjson: Path
-    failures_file: Path
-    source_report_manifest_ndjson: Path
-    summary_tsv: Path
-    metadata_dir: Path
-    write_diagnostics: bool
-    diagnostics_dir: Path
-    allow_unsafe: bool
-    min_chapter_chars: int
-    max_chapter_chars: int | None
-    output_extension: str
-
-
-@dataclass(frozen=True)
-class LineInfo:
-    text: str
-    start_char: int
-    end_char: int
-    line_number: int
+ENRICHMENT_COLUMNS = [
+    "chapter_of_interest",
+    "chapter_of_interest_title",
+    "chapter_of_interest_variant",
+    "chapter_of_interest_status",
+    "chapter_of_interest_confidence",
+    "page_boundary_role",
+    "chapter_start_page",
+    "chapter_end_page",
+    "chapter_boundary_method",
+    "chapter_detection_notes",
+    "c4_present",
+    "c4_status",
+    "c4_start_page",
+    "c4_end_page",
+    "c4_title_variant",
+    "c5_present",
+    "c5_status",
+    "c5_start_page",
+    "c5_end_page",
+    "c5_title_variant",
+    "c6_present",
+    "c6_status",
+    "c6_start_page",
+    "c6_end_page",
+    "c6_title_variant",
+]
 
 
-@dataclass(frozen=True)
-class HeadingCandidate:
-    raw_heading_text: str
-    title_text: str
-    normalised_title: str
-    chapter_number: str | None
-    start_char: int
-    end_char: int
-    start_line: int
-    end_line: int
-    source: str
-    is_target_candidate: bool
-    matched_label: str | None
-    matched_variant: str | None
-    is_fallback_boundary: bool = False
-    rejection_reason: str | None = None
+@dataclass
+class BoundaryResult:
+    kind: str
+    label: str | None = None
+    title: str | None = None
+    variant: str | None = None
+    confidence: str | None = None
+    match_text: str | None = None
+    notes: str | None = None
 
 
-def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+@dataclass
+class ChapterRange:
+    filename: str
+    chapter_of_interest: str
+    start_page: int
+    end_page: int | None
+    page_count: int
+    title_variant: str | None
+    confidence: str | None
+    start_match: str | None
+    end_reason: str | None
+    status: str
+    notes: str | None
 
 
-def make_run_id() -> str:
-    return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+@dataclass
+class ClassificationResult:
+    rows: dict[int, dict[str, Any]]
+    ranges: list[ChapterRange]
+    boundaries: list[dict[str, Any]]
+    missing_text_files: int = 0
+    unreadable_text_files: int = 0
+    ambiguous_document: bool = False
+    unsafe_document: bool = False
 
 
-def sha256_text(text: str) -> str:
-    return hashlib.sha256(text.encode("utf-8", errors="replace")).hexdigest()
-
-
-def sha256_file(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def resolve_path(path_value: str | Path, base_dir: Path) -> Path:
-    path = Path(path_value).expanduser()
-    if path.is_absolute():
-        return path.resolve()
-    return (base_dir / path).resolve()
-
-
-def relpath(path: Path, base_dir: Path) -> str:
-    try:
-        return path.resolve().relative_to(base_dir.resolve()).as_posix()
-    except ValueError:
-        return path.resolve().as_posix()
-
-
-def safe_path_part(value: Any) -> str:
-    text = str(value).strip()
-    if not text:
-        return "_missing"
-    text = re.sub(r"[\\/:\*\?\"<>\|\x00-\x1f]", "_", text)
-    text = re.sub(r"\s+", "_", text)
-    return text or "_missing"
-
-
-def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Extract selected raw chapter spans from ENADE TXT reports.",
+        description="Enrich ENADE PDF page manifest with chapter-of-interest metadata."
     )
-
-    parser.add_argument("--manifest", required=True, help="Input NDJSON ENADE manifest.")
-    parser.add_argument("--output", required=True, help="Output directory for extracted chapter TXT files.")
-
-    parser.add_argument("--limit", type=int, default=None, help="Process only first N planned rows after filtering.")
-    parser.add_argument("--only-filename", default=None, help="Process only rows whose filename field exactly matches this value.")
-    parser.add_argument("--dry-run", action="store_true", help="Simulate extraction without writing chapter TXT files.")
-    parser.add_argument("--resume", action="store_true", help="Skip reports whose successful metadata and outputs already exist.")
-    parser.add_argument("--reprocess", action="store_true", help="Reprocess even if previous outputs exist.")
-
-    parser.add_argument("--filename-field", default="filename_txt")
-    parser.add_argument("--filepath-field", default="filepath_txt")
-    parser.add_argument("--group-field", default=None)
-    parser.add_argument("--state-field", default=None)
-
-    parser.add_argument("--manifest-file", default=None)
-    parser.add_argument("--log-file", default=None)
-    parser.add_argument("--summary-file", default=None)
-    parser.add_argument("--cleaned-ndjson", default=None)
-    parser.add_argument("--failures-file", default=None)
-
-    parser.add_argument("--write-diagnostics", action="store_true")
-    parser.add_argument("--diagnostics-dir", default=None)
-    parser.add_argument("--allow-unsafe", action="store_true")
-    parser.add_argument("--min-chapter-chars", type=int, default=500)
-    parser.add_argument("--max-chapter-chars", type=int, default=None)
-    parser.add_argument("--output-extension", default=".txt")
-    parser.add_argument("--metadata-dir", default=None)
-
-    return parser.parse_args(argv)
-
-
-def make_config(args: argparse.Namespace) -> Config:
-    script_dir = Path(__file__).resolve().parent
-    run_id = make_run_id()
-    start_time = utc_now_iso()
-
-    group_field = args.group_field or args.state_field or "year"
-
-    manifest = resolve_path(args.manifest, script_dir)
-    output = resolve_path(args.output, script_dir)
-
-    manifest_file = resolve_path(args.manifest_file, script_dir) if args.manifest_file else output / "enade_clean_up_manifest.json"
-    log_file = resolve_path(args.log_file, script_dir) if args.log_file else output / "enade_clean_up.log"
-    summary_file = resolve_path(args.summary_file, script_dir) if args.summary_file else output / "enade_clean_up_summary.json"
-    cleaned_ndjson = resolve_path(args.cleaned_ndjson, script_dir) if args.cleaned_ndjson else output / "enade_cleaned_chapters.ndjson"
-    failures_file = resolve_path(args.failures_file, script_dir) if args.failures_file else output / "enade_clean_up_failures.ndjson"
-    metadata_dir = resolve_path(args.metadata_dir, script_dir) if args.metadata_dir else output / "_enade_clean_up_metadata"
-    diagnostics_dir = resolve_path(args.diagnostics_dir, script_dir) if args.diagnostics_dir else output / "_diagnostics"
-
-    return Config(
-        script_dir=script_dir,
-        run_id=run_id,
-        start_time=start_time,
-        manifest=manifest,
-        output=output,
-        limit=args.limit,
-        only_filename=args.only_filename,
-        dry_run=args.dry_run,
-        resume=args.resume,
-        reprocess=args.reprocess,
-        filename_field=args.filename_field,
-        filepath_field=args.filepath_field,
-        group_field=group_field,
-        manifest_file=manifest_file,
-        log_file=log_file,
-        summary_file=summary_file,
-        cleaned_ndjson=cleaned_ndjson,
-        failures_file=failures_file,
-        source_report_manifest_ndjson=output / "enade_clean_up_manifest.ndjson",
-        summary_tsv=output / "enade_clean_up_summary.tsv",
-        metadata_dir=metadata_dir,
-        write_diagnostics=args.write_diagnostics,
-        diagnostics_dir=diagnostics_dir,
-        allow_unsafe=args.allow_unsafe,
-        min_chapter_chars=args.min_chapter_chars,
-        max_chapter_chars=args.max_chapter_chars,
-        output_extension=args.output_extension,
+    parser.add_argument("--manifest", default=DEFAULT_MANIFEST)
+    parser.add_argument("--output-basename", default=DEFAULT_OUTPUT_BASENAME)
+    parser.add_argument("--header-lines", type=int, default=10)
+    parser.add_argument("--filename-field", default="filename")
+    parser.add_argument("--page-number-field", default="page_number")
+    parser.add_argument("--page-text-field", default="page_filepath_txt")
+    parser.add_argument("--only-filename", default=None)
+    parser.add_argument("--limit-documents", type=int, default=None)
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--write-audit",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Write audit files. Use --no-write-audit to disable.",
     )
+    parser.add_argument("--log-file", default=DEFAULT_LOG_FILE)
+    parser.add_argument(
+        "--reprocess",
+        action="store_true",
+        help="Accepted for interface compatibility; outputs are overwritten on normal runs.",
+    )
+    return parser.parse_args()
 
 
-def validate_config(config: Config) -> None:
-    if not config.manifest.exists():
-        raise ValueError(f"Manifest does not exist: {config.manifest}")
-    if not config.manifest.is_file():
-        raise ValueError(f"Manifest is not a file: {config.manifest}")
-    if config.limit is not None and config.limit <= 0:
-        raise ValueError("--limit must be greater than 0.")
-    if config.only_filename is not None and not config.only_filename.strip():
-        raise ValueError("--only-filename must not be empty.")
-    if config.min_chapter_chars < 0:
-        raise ValueError("--min-chapter-chars must be >= 0.")
-    if config.max_chapter_chars is not None and config.max_chapter_chars <= 0:
-        raise ValueError("--max-chapter-chars must be greater than 0.")
-    if (
-            config.max_chapter_chars is not None
-            and config.max_chapter_chars < config.min_chapter_chars
-    ):
-        raise ValueError("--max-chapter-chars must be >= --min-chapter-chars.")
-    if not config.output_extension.startswith("."):
-        raise ValueError("--output-extension must start with '.'.")
-
-    config.output.mkdir(parents=True, exist_ok=True)
-    config.metadata_dir.mkdir(parents=True, exist_ok=True)
-    if config.write_diagnostics:
-        config.diagnostics_dir.mkdir(parents=True, exist_ok=True)
+def script_dir() -> Path:
+    return Path(__file__).resolve().parent
 
 
-def setup_logging(config: Config) -> None:
-    config.log_file.parent.mkdir(parents=True, exist_ok=True)
+def resolve_path(path: str | Path) -> Path:
+    path = Path(path)
+    if path.is_absolute():
+        return path
+    return script_dir() / path
+
+
+def relpath(path: str | Path) -> str:
+    path = Path(path)
+    try:
+        return str(path.resolve().relative_to(script_dir()))
+    except ValueError:
+        return str(path)
+
+
+def setup_logging(log_file: Path) -> None:
+    log_file.parent.mkdir(parents=True, exist_ok=True)
 
     root = logging.getLogger()
-    root.handlers.clear()
     root.setLevel(logging.INFO)
+    root.handlers.clear()
 
-    formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
+    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
 
-    file_handler = logging.FileHandler(config.log_file, encoding="utf-8")
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
     file_handler.setFormatter(formatter)
-    root.addHandler(file_handler)
+    file_handler.setLevel(logging.INFO)
 
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
+    console_handler.setLevel(logging.INFO)
+
+    root.addHandler(file_handler)
     root.addHandler(console_handler)
 
 
-def load_manifest_rows(path: Path) -> list[dict[str, Any]]:
-    rows: list[dict[str, Any]] = []
-    with path.open("r", encoding="utf-8", errors="replace") as handle:
-        for line_number, line in enumerate(handle, start=1):
-            if not line.strip():
-                continue
-            try:
-                row = json.loads(line)
-            except json.JSONDecodeError as exc:
-                raise ValueError(f"Invalid JSON at manifest line {line_number}: {exc}") from exc
-            if not isinstance(row, dict):
-                raise ValueError(f"Manifest line {line_number} is not a JSON object.")
-            row["_manifest_line_number"] = line_number
-            rows.append(row)
-    return rows
+def validate_args(args: argparse.Namespace, manifest_path: Path, output_basename: Path) -> None:
+    if not manifest_path.exists():
+        raise FileNotFoundError(f"Manifest does not exist: {manifest_path}")
+    if not manifest_path.is_file():
+        raise ValueError(f"Manifest is not a file: {manifest_path}")
+    if not str(output_basename).strip():
+        raise ValueError("--output-basename must not be empty")
+    if args.header_lines <= 0:
+        raise ValueError("--header-lines must be greater than zero")
+    if args.limit_documents is not None and args.limit_documents <= 0:
+        raise ValueError("--limit-documents must be greater than zero if supplied")
+    output_basename.parent.mkdir(parents=True, exist_ok=True)
 
 
-def filter_rows_by_filename(
-        rows: list[dict[str, Any]],
-        filename_field: str,
-        only_filename: str | None,
-) -> list[dict[str, Any]]:
-    if only_filename is None:
-        return rows
-
-    matched = [row for row in rows if row.get(filename_field) == only_filename]
-    if not matched:
-        raise ValueError(f"--only-filename matched no rows: {only_filename}")
-    if len(matched) > 1:
-        logging.warning("--only-filename matched %s rows: %s", len(matched), only_filename)
-    return matched
+def load_ndjson_dataframe(path: Path) -> pd.DataFrame:
+    try:
+        return pd.read_json(path, orient="records", lines=True)
+    except ValueError as exc:
+        raise ValueError(f"Could not load NDJSON manifest: {path}: {exc}") from exc
 
 
-def validate_manifest_row(row: dict[str, Any], config: Config) -> list[str]:
-    missing = []
-    for field in (config.filename_field, config.filepath_field, config.group_field):
-        if field not in row or row.get(field) in (None, ""):
-            missing.append(field)
-    return missing
+def validate_required_columns(df: pd.DataFrame, required_columns: list[str]) -> None:
+    missing = [column for column in required_columns if column not in df.columns]
+    if missing:
+        raise ValueError(f"Required manifest columns are missing: {', '.join(missing)}")
 
 
-def get_report_id(filename: str) -> str:
-    return Path(filename).stem
-
-
-def expected_chapter_output_path(config: Config, group_value: Any, filename: str, chapter_label: str) -> Path:
-    stem = Path(filename).stem
-    output_name = f"{stem}_{chapter_label}{config.output_extension}"
-    return config.output / safe_path_part(group_value) / output_name
-
-
-def expected_metadata_output_path(config: Config, group_value: Any, filename: str) -> Path:
-    return config.metadata_dir / safe_path_part(group_value) / f"{Path(filename).stem}.json"
-
-
-def read_source_text(path: Path) -> str:
-    return path.read_text(encoding="utf-8", errors="replace")
-
-
-def normalise_heading_for_match(text: str) -> str:
-    text = text.replace("\u00a0", " ")
-    text = unicodedata.normalize("NFKD", text)
-    text = "".join(char for char in text if not unicodedata.combining(char))
+def normalise_for_matching(text: str) -> str:
+    text = text or ""
     text = text.lower()
-    text = text.replace("º", "")
-    text = re.sub(r"[–—-]+", " ", text)
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    text = re.sub(r"[‐‑‒–—―−]+", " ", text)
+    text = re.sub(r"[•·●○]+", " ", text)
+    text = re.sub(r"\.{3,}", " ... ", text)
+    text = re.sub(r"[^\w\s./-]", " ", text, flags=re.UNICODE)
     text = re.sub(r"\s+", " ", text)
-    text = text.strip()
-    text = strip_heading_numbering(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-
-def strip_heading_numbering(text: str) -> str:
-    text = re.sub(r"^capitulo\s+\d+\s*[:.\-–—]?\s*", "", text)
-    text = re.sub(r"^\d+\s*[:.\-–—]?\s+", "", text)
     return text.strip()
 
 
-NORMALISED_TARGETS: dict[str, dict[str, str]] = {
-    label: {normalise_heading_for_match(variant): variant for variant in variants}
-    for label, variants in TARGET_CHAPTERS.items()
+NORMALISED_TARGET_TITLES = {
+    label: [normalise_for_matching(title).replace(" ... ", " ") for title in variants]
+    for label, variants in TARGET_TITLES.items()
 }
 
-
-def match_target_title(normalised_title: str) -> tuple[str | None, str | None]:
-    for label, variants in NORMALISED_TARGETS.items():
-        if normalised_title in variants:
-            return label, variants[normalised_title]
-    return None, None
+NORMALISED_STOP_SECTION_TITLES = [
+    normalise_for_matching(title) for title in STOP_SECTION_TITLES
+]
 
 
-def split_lines_with_offsets(text: str) -> list[LineInfo]:
-    lines: list[LineInfo] = []
-    offset = 0
-    for idx, line in enumerate(text.splitlines(keepends=True), start=1):
-        end = offset + len(line)
-        lines.append(LineInfo(text=line, start_char=offset, end_char=end, line_number=idx))
-        offset = end
-
-    if not text:
-        return lines
-
-    if text and not text.endswith(("\n", "\r")):
-        return lines
-
-    return lines
+def truncate_text(text: str, max_len: int = 500) -> str:
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 3] + "..."
 
 
-def line_number_for_offset(line_starts: list[int], offset: int) -> int:
-    if not line_starts:
-        return 1
-    index = bisect.bisect_right(line_starts, offset) - 1
-    return max(1, index + 1)
+def read_first_lines(path: Path, n: int) -> tuple[str | None, str | None]:
+    if not path.exists():
+        return None, "text_missing"
+    try:
+        lines: list[str] = []
+        with path.open("r", encoding="utf-8", errors="replace") as handle:
+            for _ in range(n):
+                line = handle.readline()
+                if line == "":
+                    break
+                lines.append(line.rstrip("\n"))
+        return "\n".join(lines), None
+    except OSError as exc:
+        return None, f"text_unreadable: {exc}"
 
 
-def strip_line_for_detection(line: str) -> str:
-    return line.strip().strip("\ufeff")
+def is_toc_like(raw_header: str, normalised_header: str) -> bool:
+    raw_lines = [line.strip() for line in raw_header.splitlines() if line.strip()]
+    normalised_lines = [
+        normalise_for_matching(line) for line in raw_lines if normalise_for_matching(line)
+    ]
+
+    if re.search(r"\.{4,}\s*\d+\s*$", raw_header, flags=re.MULTILINE):
+        return True
+    if re.search(r"\.{5,}", raw_header):
+        return True
+    if re.search(r"\b(sumario|indice)\b", normalised_header):
+        return True
+
+    chapter_entry_count = 0
+    for line in normalised_lines:
+        if re.search(r"\bcapitulo\s+\d+\b", line) and len(line.split()) <= 12:
+            chapter_entry_count += 1
+        if re.search(r"\bcapitulo\s+\d+.*\d+$", line) and len(line.split()) <= 15:
+            chapter_entry_count += 1
+
+    if chapter_entry_count >= 3:
+        return True
+
+    short_title_like = sum(1 for line in normalised_lines if 2 <= len(line.split()) <= 8)
+    return len(normalised_lines) >= 6 and short_title_like / max(len(normalised_lines), 1) > 0.75
 
 
-def without_trailing_toc_page_number(line: str) -> str:
-    return re.sub(r"\s+\.{0,}\s*\d{1,4}\s*$", "", line.strip())
+def is_heading_like(raw_text: str, normalised_text: str) -> bool:
+    raw_text = (raw_text or "").strip()
+    normalised_text = (normalised_text or "").strip()
+
+    if not normalised_text:
+        return False
+
+    words = normalised_text.split()
+    if len(words) > 14:
+        return False
+
+    if re.search(r"\bcapitulo\s+\d+\b", normalised_text):
+        return True
+
+    letters = [ch for ch in raw_text if ch.isalpha()]
+    if letters:
+        uppercase_ratio = sum(1 for ch in letters if ch.isupper()) / len(letters)
+        if uppercase_ratio >= 0.65 and len(words) <= 10:
+            return True
+
+    return len(words) <= 7
 
 
-def is_integer_line(line: str) -> str | None:
-    match = re.fullmatch(r"\s*(\d{1,2})\s*", line)
-    if match:
-        return match.group(1)
+def variant_in_text(normalised_text: str) -> tuple[str, str] | None:
+    for label, variants in NORMALISED_TARGET_TITLES.items():
+        for variant in variants:
+            if re.search(rf"\b{re.escape(variant)}\b", normalised_text):
+                original_variant = TARGET_TITLES[label][variants.index(variant)]
+                return label, original_variant
     return None
 
 
-def is_capitulo_line(line: str) -> str | None:
-    match = re.fullmatch(r"\s*cap[íi]tulo\s+(\d{1,2})\s*[:.\-–—]?\s*", line, flags=re.IGNORECASE)
-    if match:
-        return match.group(1)
-    return None
-
-
-def parse_single_line_top_heading(line: str) -> tuple[str | None, str] | None:
-    stripped = strip_line_for_detection(line)
-
-    match = re.fullmatch(
-        r"(?:cap[íi]tulo\s+)?(\d{1,2})\s+(.{3,140}?)\s*",
-        stripped,
-        flags=re.IGNORECASE,
-    )
+def detect_target_chapter(raw_header: str, normalised_header: str) -> BoundaryResult | None:
+    match = variant_in_text(normalised_header)
     if not match:
         return None
 
-    chapter_number = match.group(1)
-    title = without_trailing_toc_page_number(match.group(2))
-
-    if re.match(r"^\d+\.\d+", title):
-        return None
-    if "." in chapter_number:
-        return None
-    if not title or re.fullmatch(r"\d+", title):
-        return None
-
-    return chapter_number, title
-
-
-def line_looks_like_toc_entry(line: str) -> bool:
-    stripped = strip_line_for_detection(line)
-    if re.search(r"\.{3,}\s*\d{1,4}\s*$", stripped):
-        return True
-    if re.search(r"\s+\d{1,4}\s*$", stripped):
-        maybe_without_page = without_trailing_toc_page_number(stripped)
-        return maybe_without_page != stripped
-    return False
-
-
-def is_subsection_line(line: str) -> bool:
-    return bool(re.match(r"\s*\d+\.\d+", line))
-
-
-def find_toc_region(lines: list[LineInfo]) -> dict[str, Any]:
-    toc_start_index: int | None = None
-
-    for index, line in enumerate(lines):
-        normalised = normalise_heading_for_match(line.text)
-        if normalised in {"sumario", "sumário"}:
-            toc_start_index = index
-            break
-
-    if toc_start_index is None:
-        return {
-            "found": False,
-            "start_char": None,
-            "end_char": 0,
-            "start_line": None,
-            "end_line": None,
-            "reason": "no_sumario_marker",
-        }
-
-    max_index = min(len(lines), toc_start_index + 400)
-    body_start_index: int | None = None
-
-    for index in range(toc_start_index + 1, max_index):
-        stripped = strip_line_for_detection(lines[index].text)
-        norm = normalise_heading_for_match(stripped)
-
-        if norm in {"apresentacao", "introducao"} and not line_looks_like_toc_entry(stripped):
-            body_start_index = index
-            break
-
-        if is_capitulo_line(stripped) and index > toc_start_index + 20:
-            body_start_index = index
-            break
-
-        parsed = parse_single_line_top_heading(stripped)
-        if parsed and index > toc_start_index + 20 and not line_looks_like_toc_entry(stripped):
-            body_start_index = index
-            break
-
-    if body_start_index is None:
-        body_start_index = max_index
-
-    end_line = lines[body_start_index].line_number if body_start_index < len(lines) else lines[-1].line_number
-    end_char = lines[body_start_index].start_char if body_start_index < len(lines) else lines[-1].end_char
-
-    return {
-        "found": True,
-        "start_char": lines[toc_start_index].start_char,
-        "end_char": end_char,
-        "start_line": lines[toc_start_index].line_number,
-        "end_line": end_line,
-        "reason": "sumario_marker",
-    }
-
-
-def is_plausible_title_line(line: str) -> bool:
-    stripped = strip_line_for_detection(line)
-    if not stripped:
-        return False
-    if len(stripped) > 160:
-        return False
-    if is_subsection_line(stripped):
-        return False
-    if is_integer_line(stripped):
-        return False
-    if is_capitulo_line(stripped):
-        return False
-    if line_looks_like_toc_entry(stripped):
-        return False
-    return True
-
-
-def make_heading_candidate(
-        raw_heading_text: str,
-        title_text: str,
-        chapter_number: str | None,
-        start_char: int,
-        end_char: int,
-        start_line: int,
-        end_line: int,
-        source: str,
-) -> HeadingCandidate:
-    normalised_title = normalise_heading_for_match(title_text)
-    matched_label, matched_variant = match_target_title(normalised_title)
-    is_fallback = normalised_title in FALLBACK_BOUNDARY_TITLES
-
-    return HeadingCandidate(
-        raw_heading_text=raw_heading_text,
-        title_text=title_text,
-        normalised_title=normalised_title,
-        chapter_number=chapter_number,
-        start_char=start_char,
-        end_char=end_char,
-        start_line=start_line,
-        end_line=end_line,
-        source=source,
-        is_target_candidate=matched_label is not None,
-        matched_label=matched_label,
-        matched_variant=matched_variant,
-        is_fallback_boundary=is_fallback,
-    )
-
-
-def iter_heading_candidates(lines: list[LineInfo], toc_region: dict[str, Any]) -> list[HeadingCandidate]:
-    candidates: list[HeadingCandidate] = []
-    body_start_char = int(toc_region.get("end_char") or 0)
-
-    index = 0
-    while index < len(lines):
-        line = lines[index]
-        stripped = strip_line_for_detection(line.text)
-
-        if line.start_char < body_start_char:
-            index += 1
-            continue
-
-        if not stripped:
-            index += 1
-            continue
-
-        if is_subsection_line(stripped):
-            index += 1
-            continue
-
-        chapter_number = is_capitulo_line(stripped) or is_integer_line(stripped)
-        if chapter_number and index + 1 < len(lines):
-            next_line = lines[index + 1]
-            next_stripped = strip_line_for_detection(next_line.text)
-            if is_plausible_title_line(next_stripped):
-                raw = line.text + next_line.text
-                candidates.append(
-                    make_heading_candidate(
-                        raw_heading_text=raw,
-                        title_text=next_stripped,
-                        chapter_number=chapter_number,
-                        start_char=line.start_char,
-                        end_char=next_line.end_char,
-                        start_line=line.line_number,
-                        end_line=next_line.line_number,
-                        source="body",
-                    )
-                )
-                index += 2
-                continue
-
-        parsed = parse_single_line_top_heading(stripped)
-        if parsed and not line_looks_like_toc_entry(stripped):
-            chapter_number, title = parsed
-            candidates.append(
-                make_heading_candidate(
-                    raw_heading_text=line.text,
-                    title_text=title,
-                    chapter_number=chapter_number,
-                    start_char=line.start_char,
-                    end_char=line.end_char,
-                    start_line=line.line_number,
-                    end_line=line.line_number,
-                    source="body",
-                )
-            )
-            index += 1
-            continue
-
-        # Fallback boundaries can be unnumbered top-level headings.
-        normalised = normalise_heading_for_match(stripped)
-        if normalised in FALLBACK_BOUNDARY_TITLES:
-            candidates.append(
-                make_heading_candidate(
-                    raw_heading_text=line.text,
-                    title_text=stripped,
-                    chapter_number=None,
-                    start_char=line.start_char,
-                    end_char=line.end_char,
-                    start_line=line.line_number,
-                    end_line=line.line_number,
-                    source="body",
-                )
-            )
-
-        index += 1
-
-    candidates.sort(key=lambda candidate: candidate.start_char)
-    return candidates
-
-
-def candidate_to_dict(candidate: HeadingCandidate) -> dict[str, Any]:
-    return {
-        "raw_heading_text": candidate.raw_heading_text,
-        "title_text": candidate.title_text,
-        "normalised_title": candidate.normalised_title,
-        "chapter_number": candidate.chapter_number,
-        "start_char": candidate.start_char,
-        "end_char": candidate.end_char,
-        "start_line": candidate.start_line,
-        "end_line": candidate.end_line,
-        "source": candidate.source,
-        "is_target_candidate": candidate.is_target_candidate,
-        "matched_label": candidate.matched_label,
-        "matched_variant": candidate.matched_variant,
-        "is_fallback_boundary": candidate.is_fallback_boundary,
-        "rejection_reason": candidate.rejection_reason,
-    }
-
-
-def find_peer_end_boundary(
-        start: HeadingCandidate,
-        candidates: list[HeadingCandidate],
-) -> tuple[int | None, str | None, HeadingCandidate | None]:
-    for candidate in candidates:
-        if candidate.start_char <= start.start_char:
-            continue
-        if candidate.chapter_number is not None:
-            return candidate.start_char, "peer_heading", candidate
-
-    for candidate in candidates:
-        if candidate.start_char <= start.start_char:
-            continue
-        if candidate.is_fallback_boundary:
-            return candidate.start_char, "fallback_boundary", candidate
-
-    return None, None, None
-
-
-def extract_span(text: str, start_char: int, end_char: int) -> str:
-    return text[start_char:end_char]
-
-
-def write_text_atomic(path: Path, text: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fd, tmp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=str(path.parent))
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
-            handle.write(text)
-            handle.flush()
-            os.fsync(handle.fileno())
-        os.replace(tmp_name, path)
-    except Exception:
-        try:
-            os.unlink(tmp_name)
-        except OSError:
-            pass
-        raise
-
-
-def write_json_atomic(path: Path, data: Any) -> None:
-    text = json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
-    write_text_atomic(path, text)
-
-
-def write_ndjson_atomic(path: Path, records: Iterable[dict[str, Any]]) -> None:
-    text = "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
-    write_text_atomic(path, text)
-
-
-def write_summary_tsv(path: Path, report_records: list[dict[str, Any]]) -> None:
-    columns = [
-        "year",
-        "filename_txt",
-        "report_id",
-        "chapter_label",
-        "status",
-        "title_matched",
-        "output_path",
-        "start_line",
-        "end_line",
-        "start_char",
-        "end_char",
-        "char_count",
-        "warnings",
-    ]
-
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fd, tmp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=str(path.parent))
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=columns, delimiter="\t", extrasaction="ignore")
-            writer.writeheader()
-
-            for report in report_records:
-                chapters = report.get("chapters", {})
-                for label in TARGET_LABEL_ORDER:
-                    chapter = chapters.get(label, {})
-                    writer.writerow(
-                        {
-                            "year": report.get("year") or report.get("group"),
-                            "filename_txt": report.get("filename_txt"),
-                            "report_id": report.get("report_id"),
-                            "chapter_label": label,
-                            "status": chapter.get("status"),
-                            "title_matched": chapter.get("title_matched"),
-                            "output_path": chapter.get("output_path"),
-                            "start_line": chapter.get("start_line"),
-                            "end_line": chapter.get("end_line"),
-                            "start_char": chapter.get("start_char"),
-                            "end_char": chapter.get("end_char"),
-                            "char_count": chapter.get("char_count"),
-                            "warnings": "; ".join(chapter.get("warnings") or []),
-                        }
-                    )
-
-            handle.flush()
-            os.fsync(handle.fileno())
-
-        os.replace(tmp_name, path)
-    except Exception:
-        try:
-            os.unlink(tmp_name)
-        except OSError:
-            pass
-        raise
-
-
-def existing_success(metadata_path: Path, config: Config) -> dict[str, Any] | None:
-    if config.reprocess or not config.resume:
-        return None
-    if not metadata_path.exists():
-        return None
-
-    try:
-        metadata = json.loads(metadata_path.read_text(encoding="utf-8", errors="replace"))
-    except Exception:
-        return None
-
-    if metadata.get("status") not in REPORT_SUCCESS_STATUSES:
-        return None
-
-    for chapter in metadata.get("chapters", {}).values():
-        if chapter.get("status") == "found":
-            output_path_value = chapter.get("output_path")
-            extracted_hash = chapter.get("extracted_text_sha256")
-            if not output_path_value or not extracted_hash:
-                return None
-            output_path = resolve_path(output_path_value, config.script_dir)
-            if not output_path.exists():
-                return None
-            if sha256_text(output_path.read_text(encoding="utf-8", errors="replace")) != extracted_hash:
-                return None
-
-    return metadata
-
-
-def base_chapter_record(status: str) -> dict[str, Any]:
-    return {
-        "status": status,
-        "title_matched": None,
-        "title_variant": None,
-        "chapter_number_detected": None,
-        "output_path": None,
-        "extracted_text_sha256": None,
-        "start_line": None,
-        "end_line": None,
-        "start_char": None,
-        "end_char": None,
-        "char_count": None,
-        "warnings": [],
-    }
-
-
-def classify_report_status(chapters: dict[str, dict[str, Any]]) -> str:
-    statuses = [chapter.get("status") for chapter in chapters.values()]
-
-    if any(status == "failed" for status in statuses):
-        return "failed"
-    if any(status == "ambiguous" for status in statuses):
-        return "ambiguous"
-    if all(status == "not_found" for status in statuses):
-        return "no_target_chapters"
-
-    found_count = sum(status in CHAPTER_WRITTEN_STATUSES for status in statuses)
-    non_found_count = sum(status not in CHAPTER_WRITTEN_STATUSES for status in statuses)
-
-    if found_count > 0 and non_found_count == 0:
-        return "success"
-    if found_count > 0:
-        return "partial_success"
-    return "success"
-
-
-def build_failure_record(
-        row: dict[str, Any] | None,
-        config: Config,
-        error_type: str,
-        error: str,
-) -> dict[str, Any]:
-    row = row or {}
-    return {
-        "filename_txt": row.get(config.filename_field),
-        "filepath_txt": row.get(config.filepath_field),
-        "year": row.get(config.group_field),
-        "status": "failed",
-        "error_type": error_type,
-        "error": error,
-        "manifest_row": row,
-        "created_at": utc_now_iso(),
-    }
-
-
-def build_report_failure_metadata(
-        row: dict[str, Any],
-        config: Config,
-        error_type: str,
-        error: str,
-        duration_seconds: float,
-) -> dict[str, Any]:
-    filename = row.get(config.filename_field)
-    group = row.get(config.group_field)
-    source = row.get(config.filepath_field)
-
-    return {
-        "filename": filename,
-        "filename_txt": filename,
-        "report_id": get_report_id(str(filename)) if filename else None,
-        "group": group,
-        "year": group,
-        "status": "failed",
-        "input": {
-            "manifest_file": relpath(config.manifest, config.script_dir),
-            "source_file": source,
-        },
-        "manifest_row": row,
-        "hashes": {
-            "manifest_file_sha256": sha256_file(config.manifest) if config.manifest.exists() else None,
-            "source_text_sha256": None,
-        },
-        "chapters": {label: base_chapter_record("failed") for label in TARGET_LABEL_ORDER},
-        "created_at": utc_now_iso(),
-        "duration_seconds": round(duration_seconds, 4),
-        "error_type": error_type,
-        "error": error,
-    }
-
-
-def build_consolidated_chapter_record(
-        row: dict[str, Any],
-        config: Config,
-        metadata_path: Path,
-        chapter_label: str,
-        chapter: dict[str, Any],
-        source_text_sha256: str,
-) -> dict[str, Any]:
-    record = {
-        key: value
-        for key, value in row.items()
-        if key != "_manifest_line_number"
-    }
-
-    record["enade_clean_up"] = {
-        "chapter_label": chapter_label,
-        "chapter_title_matched": chapter.get("title_matched"),
-        "chapter_title_variant": chapter.get("title_variant"),
-        "chapter_number_detected": chapter.get("chapter_number_detected"),
-        "output_file": chapter.get("output_path"),
-        "metadata_json": relpath(metadata_path, config.script_dir),
-        "status": chapter.get("status"),
-        "source_text_sha256": source_text_sha256,
-        "extracted_text_sha256": chapter.get("extracted_text_sha256"),
-        "start_line": chapter.get("start_line"),
-        "end_line": chapter.get("end_line"),
-        "start_char": chapter.get("start_char"),
-        "end_char": chapter.get("end_char"),
-        "char_count": chapter.get("char_count"),
-        "cleaned_at": utc_now_iso(),
-    }
-    return record
-
-
-def write_diagnostics(
-        config: Config,
-        group_value: Any,
-        filename: str,
-        toc_region: dict[str, Any],
-        candidates: list[HeadingCandidate],
-        chapters: dict[str, dict[str, Any]],
-) -> None:
-    diagnostic_path = config.diagnostics_dir / safe_path_part(group_value) / f"{Path(filename).stem}_heading_candidates.txt"
-    lines = [
-        f"programme: {PROGRAMME}",
-        f"run_id: {config.run_id}",
-        f"filename: {filename}",
-        "",
-        "table_of_contents_region:",
-        json.dumps(toc_region, ensure_ascii=False, indent=2, sort_keys=True),
-        "",
-        "chapter_decisions:",
-        json.dumps(chapters, ensure_ascii=False, indent=2, sort_keys=True),
-        "",
-        "heading_candidates:",
-    ]
-
-    for candidate in candidates:
-        lines.append(json.dumps(candidate_to_dict(candidate), ensure_ascii=False, sort_keys=True))
-
-    write_text_atomic(diagnostic_path, "\n".join(lines) + "\n")
-
-
-def process_row(
-        row: dict[str, Any],
-        config: Config,
-        manifest_hash: str,
-) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]]]:
-    started = time.monotonic()
-    failures: list[dict[str, Any]] = []
-    consolidated: list[dict[str, Any]] = []
-
-    filename = str(row.get(config.filename_field))
-    group_value = row.get(config.group_field)
-    report_id = get_report_id(filename)
-    source_path = resolve_path(str(row.get(config.filepath_field)), config.script_dir)
-    metadata_path = expected_metadata_output_path(config, group_value, filename)
-
-    skipped_metadata = existing_success(metadata_path, config)
-    if skipped_metadata is not None:
-        chapters = {}
-        for label in TARGET_LABEL_ORDER:
-            old = skipped_metadata.get("chapters", {}).get(label, base_chapter_record("skipped_existing")).copy()
-            if old.get("status") in CHAPTER_WRITTEN_STATUSES:
-                old["status"] = "skipped_existing"
-            chapters[label] = old
-
-        report_record = {
-            **skipped_metadata,
-            "status": "skipped_existing",
-            "chapters": chapters,
-            "resume_source_metadata": relpath(metadata_path, config.script_dir),
-        }
-        logging.info("Skipped existing report: %s", filename)
-        return report_record, consolidated, failures
-
-    if not source_path.exists():
-        message = "Source file not found"
-        duration = time.monotonic() - started
-        metadata = build_report_failure_metadata(row, config, "missing_source_file", message, duration)
-        failures.append(build_failure_record(row, config, "missing_source_file", message))
-        if not config.dry_run:
-            write_json_atomic(metadata_path, metadata)
-        return metadata, consolidated, failures
-
-    if not source_path.is_file():
-        message = "Source path is not a file"
-        duration = time.monotonic() - started
-        metadata = build_report_failure_metadata(row, config, "invalid_source_file", message, duration)
-        failures.append(build_failure_record(row, config, "invalid_source_file", message))
-        if not config.dry_run:
-            write_json_atomic(metadata_path, metadata)
-        return metadata, consolidated, failures
-
-    try:
-        source_text = read_source_text(source_path)
-    except Exception as exc:
-        message = f"Could not read source file: {exc}"
-        duration = time.monotonic() - started
-        metadata = build_report_failure_metadata(row, config, "unreadable_source_file", message, duration)
-        failures.append(build_failure_record(row, config, "unreadable_source_file", message))
-        if not config.dry_run:
-            write_json_atomic(metadata_path, metadata)
-        return metadata, consolidated, failures
-
-    if not source_text.strip():
-        message = "Source file is empty or whitespace only"
-        duration = time.monotonic() - started
-        metadata = build_report_failure_metadata(row, config, "empty_source_file", message, duration)
-        failures.append(build_failure_record(row, config, "empty_source_file", message))
-        if not config.dry_run:
-            write_json_atomic(metadata_path, metadata)
-        return metadata, consolidated, failures
-
-    source_hash = sha256_text(source_text)
-    lines = split_lines_with_offsets(source_text)
-    line_starts = [line.start_char for line in lines]
-    toc_region = find_toc_region(lines)
-    candidates = iter_heading_candidates(lines, toc_region)
-
-    chapters: dict[str, dict[str, Any]] = {}
-
-    for label in TARGET_LABEL_ORDER:
-        matched = [candidate for candidate in candidates if candidate.matched_label == label]
-
-        if not matched:
-            chapters[label] = base_chapter_record("not_found")
-            continue
-
-        if len(matched) > 1:
-            record = base_chapter_record("ambiguous")
-            record["candidate_count"] = len(matched)
-            record["candidates"] = [
-                {
-                    "raw_heading_text": candidate.raw_heading_text,
-                    "start_line": candidate.start_line,
-                    "start_char": candidate.start_char,
-                    "chapter_number": candidate.chapter_number,
-                    "title_variant": candidate.matched_variant,
-                }
-                for candidate in matched
-            ]
-            chapters[label] = record
-            logging.warning("Ambiguous %s in %s: %s candidates", label, filename, len(matched))
-            continue
-
-        start_candidate = matched[0]
-        end_char, end_type, end_candidate = find_peer_end_boundary(start_candidate, candidates)
-        warnings: list[str] = []
-
-        unsafe = False
-        if end_char is None:
-            unsafe = True
-            end_char = len(source_text)
-            end_type = "end_of_file"
-            warnings.append("No safe peer-level end boundary found.")
-        elif end_type != "peer_heading":
-            unsafe = True
-            warnings.append(f"End boundary is lower-confidence: {end_type}.")
-
-        span = extract_span(source_text, start_candidate.start_char, end_char)
-        char_count = len(span)
-
-        if char_count < config.min_chapter_chars:
-            record = base_chapter_record("empty_or_too_short")
-            record.update(
-                {
-                    "title_matched": start_candidate.title_text,
-                    "title_variant": start_candidate.matched_variant,
-                    "chapter_number_detected": start_candidate.chapter_number,
-                    "start_line": start_candidate.start_line,
-                    "end_line": line_number_for_offset(line_starts, end_char),
-                    "start_char": start_candidate.start_char,
-                    "end_char": end_char,
-                    "char_count": char_count,
-                    "warnings": warnings + [
-                        f"Chapter span shorter than minimum {config.min_chapter_chars} characters."
-                    ],
-                }
-            )
-            chapters[label] = record
-            continue
-
-        if config.max_chapter_chars is not None and char_count > config.max_chapter_chars:
-            warnings.append(f"Chapter span longer than maximum {config.max_chapter_chars} characters.")
-
-        if unsafe and not config.allow_unsafe:
-            record = base_chapter_record("unsafe")
-            record.update(
-                {
-                    "title_matched": start_candidate.title_text,
-                    "title_variant": start_candidate.matched_variant,
-                    "chapter_number_detected": start_candidate.chapter_number,
-                    "start_line": start_candidate.start_line,
-                    "end_line": line_number_for_offset(line_starts, end_char),
-                    "start_char": start_candidate.start_char,
-                    "end_char": end_char,
-                    "char_count": char_count,
-                    "warnings": warnings,
-                }
-            )
-            chapters[label] = record
-            logging.warning("Unsafe %s in %s", label, filename)
-            continue
-
-        output_path = expected_chapter_output_path(config, group_value, filename, label)
-        extracted_hash = sha256_text(span)
-        status = "unsafe_written" if unsafe else "found"
-
-        record = base_chapter_record(status)
-        record.update(
-            {
-                "title_matched": start_candidate.title_text,
-                "title_variant": start_candidate.matched_variant,
-                "chapter_number_detected": start_candidate.chapter_number,
-                "output_path": relpath(output_path, config.script_dir),
-                "extracted_text_sha256": extracted_hash,
-                "start_line": start_candidate.start_line,
-                "end_line": line_number_for_offset(line_starts, end_char),
-                "start_char": start_candidate.start_char,
-                "end_char": end_char,
-                "char_count": char_count,
-                "warnings": warnings,
-                "end_boundary_type": end_type,
-                "end_boundary_heading": candidate_to_dict(end_candidate) if end_candidate else None,
-            }
+    label, variant = match
+
+    if is_toc_like(raw_header, normalised_header):
+        return BoundaryResult(
+            kind="toc_ignored",
+            label=label,
+            title=CANONICAL_TITLES[label],
+            variant=variant,
+            confidence="low",
+            match_text=variant,
+            notes="target_title_in_table_of_contents_like_context",
         )
 
-        if not config.dry_run:
-            write_text_atomic(output_path, span)
+    has_chapter_marker = bool(re.search(r"\bcapitulo\s+\d+\b", normalised_header))
+    if has_chapter_marker:
+        return BoundaryResult(
+            kind="target_chapter",
+            label=label,
+            title=CANONICAL_TITLES[label],
+            variant=variant,
+            confidence="high",
+            match_text=variant,
+            notes="target_title_near_chapter_marker",
+        )
 
-        chapters[label] = record
-
-    report_status = classify_report_status(chapters)
-    duration = time.monotonic() - started
-
-    output_dir = config.output / safe_path_part(group_value)
-    metadata = {
-        "programme": PROGRAMME,
-        "programme_version": PROGRAMME_VERSION,
-        "run_id": config.run_id,
-        "filename": filename,
-        "filename_txt": filename,
-        "report_id": report_id,
-        "group": group_value,
-        "year": group_value,
-        "status": report_status,
-        "input": {
-            "manifest_file": relpath(config.manifest, config.script_dir),
-            "source_file": relpath(source_path, config.script_dir),
-        },
-        "output": {
-            "output_dir": relpath(output_dir, config.script_dir),
-            "metadata_json": relpath(metadata_path, config.script_dir),
-        },
-        "manifest_row": row,
-        "hashes": {
-            "manifest_file_sha256": manifest_hash,
-            "source_text_sha256": source_hash,
-        },
-        "toc_region": toc_region,
-        "detected_heading_count": len(candidates),
-        "chapters": chapters,
-        "created_at": utc_now_iso(),
-        "duration_seconds": round(duration, 4),
-        "dry_run": config.dry_run,
-        "error": None,
-    }
-
-    if not config.dry_run:
-        write_json_atomic(metadata_path, metadata)
-
-    if config.write_diagnostics:
-        write_diagnostics(config, group_value, filename, toc_region, candidates, chapters)
-
-    for label, chapter in sorted(
-            chapters.items(),
-            key=lambda item: item[1].get("start_char") if item[1].get("start_char") is not None else 10**18,
-    ):
-        if chapter.get("status") in CHAPTER_WRITTEN_STATUSES and not config.dry_run:
-            consolidated.append(
-                build_consolidated_chapter_record(
-                    row=row,
-                    config=config,
-                    metadata_path=metadata_path,
-                    chapter_label=label,
-                    chapter=chapter,
-                    source_text_sha256=source_hash,
-                )
+    raw_lines = raw_header.splitlines()
+    for line in raw_lines:
+        normalised_line = normalise_for_matching(line)
+        line_match = variant_in_text(normalised_line)
+        if line_match and line_match[0] == label and is_heading_like(line, normalised_line):
+            return BoundaryResult(
+                kind="target_chapter",
+                label=label,
+                title=CANONICAL_TITLES[label],
+                variant=variant,
+                confidence="medium",
+                match_text=variant,
+                notes="target_title_as_standalone_heading",
             )
 
-    logging.info(
-        "Processed %s: report_status=%s chapters=%s",
-        filename,
-        report_status,
-        {label: chapter.get("status") for label, chapter in chapters.items()},
+    return BoundaryResult(
+        kind="candidate",
+        label=label,
+        title=CANONICAL_TITLES[label],
+        variant=variant,
+        confidence="low",
+        match_text=variant,
+        notes="target_phrase_present_but_not_heading_like",
     )
 
-    return metadata, consolidated, failures
+
+def detect_stop_section(raw_header: str, normalised_header: str) -> BoundaryResult | None:
+    raw_lines = raw_header.splitlines()[:5]
+    for raw_line in raw_lines:
+        line = normalise_for_matching(raw_line)
+        if not line:
+            continue
+
+        words = line.split()
+        if len(words) > 8:
+            continue
+
+        for stop_title in NORMALISED_STOP_SECTION_TITLES:
+            if re.match(rf"^{re.escape(stop_title)}(\s+[ivxlcdm0-9]+)?\b", line):
+                if is_heading_like(raw_line, line):
+                    return BoundaryResult(
+                        kind="stop_section",
+                        confidence="high",
+                        match_text=raw_line.strip(),
+                        notes=f"stop_section_heading:{stop_title}",
+                    )
+
+    return None
 
 
-def make_initial_counts() -> dict[str, int]:
-    counts = {
-        "manifest_rows_total": 0,
-        "manifest_rows_matched": 0,
-        "reports_planned": 0,
-        "reports_processed": 0,
-        "reports_failed": 0,
-        "reports_with_any_chapter_found": 0,
-        "reports_with_no_target_chapters": 0,
-        "chapters_not_found": 0,
-        "chapters_ambiguous": 0,
-        "chapters_unsafe": 0,
-        "chapters_empty_or_too_short": 0,
-        "chapter_files_written": 0,
-        "reports_skipped_existing": 0,
-        "reports_dry_run": 0,
-    }
+def detect_other_chapter(raw_header: str, normalised_header: str) -> BoundaryResult | None:
+    if is_toc_like(raw_header, normalised_header):
+        return None
 
-    for label in TARGET_LABEL_ORDER:
-        counts[f"chapters_found_{label}"] = 0
+    has_chapter_marker = bool(re.search(r"\bcapitulo\s+\d+\b", normalised_header))
+    if not has_chapter_marker:
+        return None
 
-    return counts
+    if variant_in_text(normalised_header):
+        return None
 
+    lines = raw_header.splitlines()[:5]
+    joined_first_lines = normalise_for_matching("\n".join(lines))
 
-def update_counts_from_report(counts: dict[str, int], report: dict[str, Any], config: Config) -> None:
-    status = report.get("status")
+    if re.search(r"\bcapitulo\s+\d+\b", joined_first_lines):
+        return BoundaryResult(
+            kind="other_chapter",
+            confidence="medium",
+            match_text="capitulo",
+            notes="non_target_chapter_marker_in_header",
+        )
 
-    if status == "failed":
-        counts["reports_failed"] += 1
-    if status == "no_target_chapters":
-        counts["reports_with_no_target_chapters"] += 1
-    if status == "skipped_existing":
-        counts["reports_skipped_existing"] += 1
-    if config.dry_run:
-        counts["reports_dry_run"] += 1
-
-    any_written_or_found = False
-
-    for label, chapter in report.get("chapters", {}).items():
-        chapter_status = chapter.get("status")
-
-        if chapter_status in {"found", "unsafe_written"}:
-            any_written_or_found = True
-            counts[f"chapters_found_{label}"] = counts.get(f"chapters_found_{label}", 0) + 1
-            if not config.dry_run:
-                counts["chapter_files_written"] += 1
-        elif chapter_status == "not_found":
-            counts["chapters_not_found"] += 1
-        elif chapter_status == "ambiguous":
-            counts["chapters_ambiguous"] += 1
-        elif chapter_status == "unsafe":
-            counts["chapters_unsafe"] += 1
-        elif chapter_status == "empty_or_too_short":
-            counts["chapters_empty_or_too_short"] += 1
-
-    if any_written_or_found:
-        counts["reports_with_any_chapter_found"] += 1
+    return None
 
 
-def build_summary(config: Config, counts: dict[str, int]) -> dict[str, Any]:
+def detect_boundary(raw_header: str) -> BoundaryResult:
+    normalised_header = normalise_for_matching(raw_header)
+
+    # Priority order: TOC exclusion via target detection, stop sections,
+    # target chapter starts, other chapter starts, candidates, none.
+    target = detect_target_chapter(raw_header, normalised_header)
+    if target and target.kind == "toc_ignored":
+        return target
+
+    stop = detect_stop_section(raw_header, normalised_header)
+    if stop:
+        return stop
+
+    if target and target.kind == "target_chapter":
+        return target
+
+    other = detect_other_chapter(raw_header, normalised_header)
+    if other:
+        return other
+
+    if target and target.kind == "candidate":
+        return target
+
+    return BoundaryResult(kind="none")
+
+
+def default_page_metadata() -> dict[str, Any]:
     return {
-        "run_id": config.run_id,
-        "programme": PROGRAMME,
-        "programme_version": PROGRAMME_VERSION,
-        "manifest": relpath(config.manifest, config.script_dir),
-        "output": relpath(config.output, config.script_dir),
-        "cleaned_chapters_ndjson": relpath(config.cleaned_ndjson, config.script_dir),
-        "counts": counts,
+        "chapter_of_interest": "na",
+        "chapter_of_interest_title": None,
+        "chapter_of_interest_variant": None,
+        "chapter_of_interest_status": "outside_chapter_of_interest",
+        "chapter_of_interest_confidence": None,
+        "page_boundary_role": "outside",
+        "chapter_start_page": None,
+        "chapter_end_page": None,
+        "chapter_boundary_method": None,
+        "chapter_detection_notes": None,
     }
 
 
-def build_run_manifest(
-        config: Config,
-        manifest_hash: str,
-        counts: dict[str, int],
-        status: str,
-        end_time: str,
-) -> dict[str, Any]:
-    return {
-        "run_id": config.run_id,
-        "programme": PROGRAMME,
-        "programme_version": PROGRAMME_VERSION,
-        "start_time": config.start_time,
-        "end_time": end_time,
-        "status": status,
-        "paths": {
-            "manifest": relpath(config.manifest, config.script_dir),
-            "output": relpath(config.output, config.script_dir),
-            "metadata_dir": relpath(config.metadata_dir, config.script_dir),
-            "diagnostics_dir": relpath(config.diagnostics_dir, config.script_dir),
-            "cleaned_chapters_ndjson": relpath(config.cleaned_ndjson, config.script_dir),
-            "source_report_manifest_ndjson": relpath(config.source_report_manifest_ndjson, config.script_dir),
-            "failures_ndjson": relpath(config.failures_file, config.script_dir),
-            "summary_json": relpath(config.summary_file, config.script_dir),
-            "summary_tsv": relpath(config.summary_tsv, config.script_dir),
-            "log_file": relpath(config.log_file, config.script_dir),
-        },
-        "processing": {
-            "limit": config.limit,
-            "only_filename": config.only_filename,
-            "resume": config.resume,
-            "reprocess": config.reprocess,
-            "dry_run": config.dry_run,
-            "allow_unsafe": config.allow_unsafe,
-            "write_diagnostics": config.write_diagnostics,
-            "filename_field": config.filename_field,
-            "filepath_field": config.filepath_field,
-            "group_field": config.group_field,
-            "output_extension": config.output_extension,
-            "min_chapter_chars": config.min_chapter_chars,
-            "max_chapter_chars": config.max_chapter_chars,
-        },
-        "target_chapters": TARGET_CHAPTERS,
-        "hashes": {
-            "manifest_file_sha256": manifest_hash,
-        },
-        "counts": counts,
-    }
+def append_note(existing: str | None, note: str | None) -> str | None:
+    if not note:
+        return existing
+    if not existing:
+        return note
+    if note in existing.split("; "):
+        return existing
+    return f"{existing}; {note}"
 
 
-def main(argv: list[str] | None = None) -> int:
-    try:
-        args = parse_args(argv)
-        config = make_config(args)
-        validate_config(config)
-        setup_logging(config)
-    except Exception as exc:
-        print(f"{PROGRAMME}: fatal setup error: {exc}", file=sys.stderr)
-        return 1
+def classify_document_pages(
+        group: pd.DataFrame,
+        *,
+        filename: str,
+        base_dir: Path,
+        header_lines: int,
+        page_number_field: str,
+        page_text_field: str,
+) -> ClassificationResult:
+    rows: dict[int, dict[str, Any]] = {}
+    ranges: list[ChapterRange] = []
+    boundaries: list[dict[str, Any]] = []
+    active_range: ChapterRange | None = None
+    current_label = "na"
+    current_title: str | None = None
+    current_variant: str | None = None
+    current_confidence: str | None = None
+    current_start_page: int | None = None
+    missing_text_files = 0
+    unreadable_text_files = 0
+    ambiguous_document = False
+    unsafe_document = False
 
-    logging.info("Programme start: %s", PROGRAMME)
-    logging.info("Run ID: %s", config.run_id)
-    logging.info("Manifest: %s", config.manifest)
-    logging.info("Output: %s", config.output)
-    logging.info("Fields: filename=%s filepath=%s group=%s", config.filename_field, config.filepath_field, config.group_field)
-    logging.info("dry_run=%s resume=%s reprocess=%s allow_unsafe=%s diagnostics=%s", config.dry_run, config.resume, config.reprocess, config.allow_unsafe, config.write_diagnostics)
+    sorted_group = group.sort_values(page_number_field, kind="mergesort")
 
-    if config.resume and config.reprocess:
-        logging.warning("--reprocess supplied with --resume; --reprocess takes precedence.")
+    for index, row in sorted_group.iterrows():
+        page_number = int(row[page_number_field])
+        metadata = default_page_metadata()
 
-    counts = make_initial_counts()
-    failures: list[dict[str, Any]] = []
-    report_records: list[dict[str, Any]] = []
-    consolidated_records: list[dict[str, Any]] = []
+        text_path = Path(str(row[page_text_field]))
+        if not text_path.is_absolute():
+            text_path = base_dir / text_path
 
-    try:
-        manifest_hash = sha256_file(config.manifest)
-        rows = load_manifest_rows(config.manifest)
-        counts["manifest_rows_total"] = len(rows)
-        logging.info("Manifest hash: %s", manifest_hash)
-        logging.info("Manifest rows: %s", len(rows))
+        raw_header, read_error = read_first_lines(text_path, header_lines)
 
-        matched_rows = filter_rows_by_filename(rows, config.filename_field, config.only_filename)
-        counts["manifest_rows_matched"] = len(matched_rows)
+        if read_error == "text_missing":
+            missing_text_files += 1
+            metadata["chapter_of_interest_status"] = "text_missing"
+            metadata["chapter_detection_notes"] = "page_text_file_missing"
+            rows[index] = metadata
+            current_label = "na"
+            current_title = None
+            current_variant = None
+            current_confidence = None
+            current_start_page = None
+            if active_range is not None:
+                active_range.end_page = page_number - 1
+                active_range.page_count = max(0, active_range.end_page - active_range.start_page + 1)
+                active_range.end_reason = "text_missing"
+                ranges.append(active_range)
+                active_range = None
+            continue
 
-        planned_rows = matched_rows[: config.limit] if config.limit is not None else matched_rows
-        counts["reports_planned"] = len(planned_rows)
+        if read_error and read_error.startswith("text_unreadable"):
+            unreadable_text_files += 1
+            metadata["chapter_of_interest_status"] = "text_unreadable"
+            metadata["chapter_detection_notes"] = read_error
+            rows[index] = metadata
+            current_label = "na"
+            current_title = None
+            current_variant = None
+            current_confidence = None
+            current_start_page = None
+            if active_range is not None:
+                active_range.end_page = page_number - 1
+                active_range.page_count = max(0, active_range.end_page - active_range.start_page + 1)
+                active_range.end_reason = "text_unreadable"
+                ranges.append(active_range)
+                active_range = None
+            continue
 
-        logging.info("Matched rows: %s", len(matched_rows))
-        logging.info("Planned reports: %s", len(planned_rows))
+        raw_header = raw_header or ""
+        boundary = detect_boundary(raw_header)
+        header_sample = truncate_text(raw_header)
 
-        for row in planned_rows:
-            row_started = time.monotonic()
-
-            missing_fields = validate_manifest_row(row, config)
-            if missing_fields:
-                message = f"Missing required manifest field(s): {', '.join(missing_fields)}"
-                failure = build_failure_record(row, config, "missing_required_manifest_field", message)
-                failures.append(failure)
-                metadata = build_report_failure_metadata(
-                    row=row,
-                    config=config,
-                    error_type="missing_required_manifest_field",
-                    error=message,
-                    duration_seconds=time.monotonic() - row_started,
-                )
-                report_records.append(metadata)
-                update_counts_from_report(counts, metadata, config)
-                counts["reports_processed"] += 1
-                logging.error("%s", message)
-                continue
-
-            try:
-                report, consolidated, row_failures = process_row(row, config, manifest_hash)
-                report_records.append(report)
-                consolidated_records.extend(consolidated)
-                failures.extend(row_failures)
-                update_counts_from_report(counts, report, config)
-                counts["reports_processed"] += 1
-            except Exception as exc:
-                logging.exception("Unexpected row failure")
-                failure = build_failure_record(row, config, "unexpected_exception", str(exc))
-                failures.append(failure)
-                metadata = build_report_failure_metadata(
-                    row=row,
-                    config=config,
-                    error_type="unexpected_exception",
-                    error=str(exc),
-                    duration_seconds=time.monotonic() - row_started,
-                )
-                report_records.append(metadata)
-                update_counts_from_report(counts, metadata, config)
-                counts["reports_processed"] += 1
-
-        write_ndjson_atomic(config.source_report_manifest_ndjson, report_records)
-        write_ndjson_atomic(config.cleaned_ndjson, consolidated_records)
-        write_ndjson_atomic(config.failures_file, failures)
-        write_summary_tsv(config.summary_tsv, report_records)
-
-        summary = build_summary(config, counts)
-        write_json_atomic(config.summary_file, summary)
-
-        end_time = utc_now_iso()
-        run_status = "success" if not failures else "completed_with_failures"
-        run_manifest = build_run_manifest(config, manifest_hash, counts, run_status, end_time)
-        write_json_atomic(config.manifest_file, run_manifest)
-        write_json_atomic(
-            config.output / f"enade_clean_up_manifest_{config.run_id}.json",
-            run_manifest,
+        if boundary.kind != "none":
+            boundaries.append(
+                {
+                    "filename": filename,
+                    "page_number": page_number,
+                    "boundary_kind": boundary.kind,
+                    "label": boundary.label,
+                    "confidence": boundary.confidence,
+                    "matched_variant": boundary.variant,
+                    "header_sample": header_sample,
+                    "notes": boundary.notes,
+                }
             )
 
-        logging.info("Final counts: %s", counts)
-        logging.info("Programme completion: %s", run_status)
+        if boundary.kind == "stop_section":
+            if active_range is not None:
+                active_range.end_page = page_number - 1
+                active_range.page_count = max(0, active_range.end_page - active_range.start_page + 1)
+                active_range.end_reason = "stop_section"
+                ranges.append(active_range)
+                active_range = None
+            current_label = "na"
+            current_title = None
+            current_variant = None
+            current_confidence = None
+            current_start_page = None
+            metadata["chapter_boundary_method"] = "stop_section"
+            metadata["chapter_detection_notes"] = boundary.notes
 
-        return 1 if failures else 0
+        elif boundary.kind == "target_chapter" and boundary.label in TARGET_TITLES:
+            if active_range is not None:
+                active_range.end_page = page_number - 1
+                active_range.page_count = max(0, active_range.end_page - active_range.start_page + 1)
+                active_range.end_reason = "next_target_chapter"
+                ranges.append(active_range)
+
+            current_label = boundary.label
+            current_title = boundary.title
+            current_variant = boundary.variant
+            current_confidence = boundary.confidence
+            current_start_page = page_number
+
+            active_range = ChapterRange(
+                filename=filename,
+                chapter_of_interest=current_label,
+                start_page=page_number,
+                end_page=None,
+                page_count=0,
+                title_variant=current_variant,
+                confidence=current_confidence,
+                start_match=boundary.match_text,
+                end_reason=None,
+                status="found",
+                notes=boundary.notes,
+            )
+            metadata["chapter_boundary_method"] = "target_title_header"
+            metadata["page_boundary_role"] = "chapter_start"
+
+        elif boundary.kind == "other_chapter":
+            if active_range is not None:
+                active_range.end_page = page_number - 1
+                active_range.page_count = max(0, active_range.end_page - active_range.start_page + 1)
+                active_range.end_reason = "other_chapter"
+                ranges.append(active_range)
+                active_range = None
+            current_label = "na"
+            current_title = None
+            current_variant = None
+            current_confidence = None
+            current_start_page = None
+            metadata["chapter_boundary_method"] = "other_chapter_reset"
+            metadata["chapter_detection_notes"] = boundary.notes
+
+        elif boundary.kind == "toc_ignored":
+            metadata["chapter_of_interest_status"] = "candidate_boundary"
+            metadata["chapter_boundary_method"] = "toc_ignored"
+            metadata["chapter_detection_notes"] = boundary.notes
+
+        elif boundary.kind == "candidate":
+            metadata["chapter_of_interest_status"] = "candidate_boundary"
+            metadata["chapter_boundary_method"] = "candidate_low_confidence"
+            metadata["chapter_detection_notes"] = boundary.notes
+
+        is_empty_header = not raw_header.strip()
+        if current_label != "na":
+            metadata["chapter_of_interest"] = current_label
+            metadata["chapter_of_interest_title"] = current_title
+            metadata["chapter_of_interest_variant"] = current_variant
+            metadata["chapter_of_interest_status"] = "in_chapter_of_interest"
+            metadata["chapter_of_interest_confidence"] = current_confidence
+            metadata["chapter_start_page"] = current_start_page
+            metadata["chapter_boundary_method"] = metadata["chapter_boundary_method"] or "state_propagation"
+            if metadata["page_boundary_role"] == "outside":
+                metadata["page_boundary_role"] = "chapter_middle"
+            if is_empty_header:
+                metadata["chapter_detection_notes"] = append_note(
+                    metadata["chapter_detection_notes"], "empty_text_inside_active_chapter"
+                )
+        elif metadata["chapter_of_interest_status"] not in {
+            "candidate_boundary",
+            "text_missing",
+            "text_unreadable",
+        }:
+            metadata["chapter_of_interest"] = "na"
+            metadata["page_boundary_role"] = "outside"
+            metadata["chapter_of_interest_status"] = "outside_chapter_of_interest"
+
+        rows[index] = metadata
+
+    if active_range is not None:
+        last_page = int(sorted_group.iloc[-1][page_number_field])
+        active_range.end_page = last_page
+        active_range.page_count = max(0, last_page - active_range.start_page + 1)
+        active_range.end_reason = "document_end"
+        active_range.status = "partial"
+        active_range.notes = append_note(active_range.notes, "range_continues_to_document_end")
+        ranges.append(active_range)
+
+    # Fill range end pages and page boundary roles.
+    for chapter_range in ranges:
+        if chapter_range.end_page is None:
+            continue
+        for index, row in sorted_group.iterrows():
+            page_number = int(row[page_number_field])
+            if chapter_range.start_page <= page_number <= chapter_range.end_page:
+                row_meta = rows[index]
+                if row_meta.get("chapter_of_interest") == chapter_range.chapter_of_interest:
+                    row_meta["chapter_end_page"] = chapter_range.end_page
+                    if page_number == chapter_range.start_page:
+                        row_meta["page_boundary_role"] = "chapter_start"
+                    elif page_number == chapter_range.end_page:
+                        row_meta["page_boundary_role"] = "chapter_end"
+                    else:
+                        row_meta["page_boundary_role"] = "chapter_middle"
+
+    # Detect ambiguous duplicate starts for same label.
+    starts_by_label: dict[str, int] = {}
+    for chapter_range in ranges:
+        starts_by_label[chapter_range.chapter_of_interest] = (
+                starts_by_label.get(chapter_range.chapter_of_interest, 0) + 1
+        )
+    duplicate_labels = [label for label, count in starts_by_label.items() if count > 1]
+    if duplicate_labels:
+        ambiguous_document = True
+        for metadata in rows.values():
+            metadata["chapter_detection_notes"] = append_note(
+                metadata.get("chapter_detection_notes"),
+                f"multiple_ranges_detected_for:{','.join(duplicate_labels)}",
+            )
+
+    # If no selected chapter was found, use not_found status on otherwise outside pages.
+    if not ranges:
+        for metadata in rows.values():
+            if metadata.get("chapter_of_interest_status") == "outside_chapter_of_interest":
+                metadata["chapter_of_interest_status"] = "not_found"
+                metadata["chapter_detection_notes"] = append_note(
+                    metadata.get("chapter_detection_notes"), "no_target_chapter_found_in_document"
+                )
+
+    return ClassificationResult(
+        rows=rows,
+        ranges=ranges,
+        boundaries=boundaries,
+        missing_text_files=missing_text_files,
+        unreadable_text_files=unreadable_text_files,
+        ambiguous_document=ambiguous_document,
+        unsafe_document=unsafe_document,
+    )
+
+
+def initialise_enrichment_columns(df: pd.DataFrame) -> pd.DataFrame:
+    for column in ENRICHMENT_COLUMNS:
+        if column in {"c4_present", "c5_present", "c6_present"}:
+            df[column] = False
+        elif column in {
+            "chapter_start_page",
+            "chapter_end_page",
+            "c4_start_page",
+            "c4_end_page",
+            "c5_start_page",
+            "c5_end_page",
+            "c6_start_page",
+            "c6_end_page",
+        }:
+            df[column] = pd.NA
+        elif column == "chapter_of_interest":
+            df[column] = "na"
+        elif column == "chapter_of_interest_status":
+            df[column] = "outside_chapter_of_interest"
+        elif column == "page_boundary_role":
+            df[column] = "outside"
+        else:
+            df[column] = None
+    return df
+
+
+def derive_document_flags(
+        df: pd.DataFrame,
+        indices: list[int],
+        ranges: list[ChapterRange],
+        ambiguous_document: bool,
+        unsafe_document: bool,
+) -> None:
+    by_label: dict[str, list[ChapterRange]] = {"c4": [], "c5": [], "c6": []}
+    for chapter_range in ranges:
+        by_label.setdefault(chapter_range.chapter_of_interest, []).append(chapter_range)
+
+    for label in ["c4", "c5", "c6"]:
+        present_col = f"{label}_present"
+        status_col = f"{label}_status"
+        start_col = f"{label}_start_page"
+        end_col = f"{label}_end_page"
+        variant_col = f"{label}_title_variant"
+
+        label_ranges = by_label.get(label, [])
+        if unsafe_document:
+            status = "unsafe"
+        elif ambiguous_document and len(label_ranges) > 1:
+            status = "ambiguous"
+        elif label_ranges:
+            status = "partial" if any(r.status == "partial" for r in label_ranges) else "found"
+        else:
+            status = "not_found"
+
+        if label_ranges:
+            start_page = min(r.start_page for r in label_ranges)
+            end_pages = [r.end_page for r in label_ranges if r.end_page is not None]
+            end_page = max(end_pages) if end_pages else None
+            title_variant = label_ranges[0].title_variant
+        else:
+            start_page = None
+            end_page = None
+            title_variant = None
+
+        df.loc[indices, present_col] = bool(label_ranges)
+        df.loc[indices, status_col] = status
+        df.loc[indices, start_col] = start_page
+        df.loc[indices, end_col] = end_page
+        df.loc[indices, variant_col] = title_variant
+
+
+def atomic_write_dataframe_json(df: pd.DataFrame, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+            "w", encoding="utf-8", delete=False, dir=path.parent, suffix=".tmp"
+    ) as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        df.to_json(tmp_path, orient="records", lines=True, force_ascii=False)
+        tmp_path.replace(path)
+    finally:
+        if tmp_path.exists():
+            tmp_path.unlink()
+
+
+def atomic_write_json(data: dict[str, Any], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+            "w", encoding="utf-8", delete=False, dir=path.parent, suffix=".tmp"
+    ) as tmp:
+        json.dump(data, tmp, ensure_ascii=False, indent=2)
+        tmp.write("\n")
+        tmp_path = Path(tmp.name)
+    tmp_path.replace(path)
+
+
+def write_outputs(df: pd.DataFrame, output_basename: Path) -> dict[str, Path]:
+    output_ndjson = output_basename.with_suffix(".ndjson")
+    output_tsv = output_basename.with_suffix(".tsv")
+    output_xlsx = output_basename.with_suffix(".xlsx")
+
+    atomic_write_dataframe_json(df, output_ndjson)
+    df.to_csv(output_tsv, sep="\t", index=False, encoding="utf-8")
+
+    max_excel_rows = 1_048_576
+    if len(df) > max_excel_rows:
+        raise ValueError(
+            f"Cannot write XLSX: {len(df)} rows exceeds Excel limit {max_excel_rows}"
+        )
+    with pd.ExcelWriter(output_xlsx, engine="openpyxl") as writer:
+        df.to_excel(writer, sheet_name="enade_chapters_dataset", index=False)
+
+    return {
+        "ndjson": output_ndjson,
+        "tsv": output_tsv,
+        "xlsx": output_xlsx,
+    }
+
+
+def write_audit_files(
+        range_rows: list[ChapterRange],
+        boundary_rows: list[dict[str, Any]],
+        output_dir: Path,
+) -> dict[str, Path]:
+    ranges_path = output_dir / "enade_clean_up_audit_ranges.tsv"
+    boundaries_path = output_dir / "enade_clean_up_audit_boundaries.tsv"
+
+    range_dicts = [asdict(row) for row in range_rows]
+    pd.DataFrame(
+        range_dicts,
+        columns=[
+            "filename",
+            "chapter_of_interest",
+            "start_page",
+            "end_page",
+            "page_count",
+            "title_variant",
+            "confidence",
+            "start_match",
+            "end_reason",
+            "status",
+            "notes",
+        ],
+    ).to_csv(ranges_path, sep="\t", index=False, encoding="utf-8")
+
+    pd.DataFrame(
+        boundary_rows,
+        columns=[
+            "filename",
+            "page_number",
+            "boundary_kind",
+            "label",
+            "confidence",
+            "matched_variant",
+            "header_sample",
+            "notes",
+        ],
+    ).to_csv(boundaries_path, sep="\t", index=False, encoding="utf-8")
+
+    return {"ranges": ranges_path, "boundaries": boundaries_path}
+
+
+def build_summary(
+        *,
+        args: argparse.Namespace,
+        manifest_path: Path,
+        output_basename: Path,
+        input_rows: int,
+        output_rows: int,
+        documents_total: int,
+        documents_processed: int,
+        df: pd.DataFrame,
+        missing_text_files: int,
+        unreadable_text_files: int,
+        ambiguous_documents: int,
+        unsafe_documents: int,
+) -> dict[str, Any]:
+    counts = {
+        "input_rows": input_rows,
+        "output_rows": output_rows,
+        "documents_total": documents_total,
+        "documents_processed": documents_processed,
+        "pages_c4": int((df["chapter_of_interest"] == "c4").sum()),
+        "pages_c5": int((df["chapter_of_interest"] == "c5").sum()),
+        "pages_c6": int((df["chapter_of_interest"] == "c6").sum()),
+        "pages_na": int((df["chapter_of_interest"] == "na").sum()),
+        "documents_with_c4": int(df.groupby(args.filename_field)["c4_present"].max().sum()),
+        "documents_with_c5": int(df.groupby(args.filename_field)["c5_present"].max().sum()),
+        "documents_with_c6": int(df.groupby(args.filename_field)["c6_present"].max().sum()),
+        "documents_with_no_target_chapters": int(
+            (
+                    df.groupby(args.filename_field)[["c4_present", "c5_present", "c6_present"]]
+                    .max()
+                    .sum(axis=1)
+                    == 0
+            ).sum()
+        ),
+        "missing_text_files": missing_text_files,
+        "unreadable_text_files": unreadable_text_files,
+        "ambiguous_documents": ambiguous_documents,
+        "unsafe_documents": unsafe_documents,
+    }
+
+    return {
+        "programme": PROGRAMME,
+        "manifest": relpath(manifest_path),
+        "output_basename": relpath(output_basename),
+        "dry_run": args.dry_run,
+        "header_lines": args.header_lines,
+        "filename_field": args.filename_field,
+        "page_number_field": args.page_number_field,
+        "page_text_field": args.page_text_field,
+        "only_filename": args.only_filename,
+        "limit_documents": args.limit_documents,
+        "counts": counts,
+    }
+
+
+def main() -> int:
+    args = parse_args()
+    manifest_path = resolve_path(args.manifest)
+    output_basename = resolve_path(args.output_basename)
+    log_file = resolve_path(args.log_file)
+
+    try:
+        validate_args(args, manifest_path, output_basename)
+        setup_logging(log_file)
+
+        logging.info("Programme start: %s", PROGRAMME)
+        logging.info("Manifest: %s", manifest_path)
+        logging.info("Output basename: %s", output_basename)
+        logging.info("Header lines: %s", args.header_lines)
+        logging.info("Dry run: %s", args.dry_run)
+
+        enade_df_pdf_pages = load_ndjson_dataframe(manifest_path)
+        input_rows = len(enade_df_pdf_pages)
+        logging.info("Input rows: %s", input_rows)
+
+        required_columns = list(
+            dict.fromkeys(
+                REQUIRED_DEFAULT_COLUMNS
+                + [args.filename_field, args.page_number_field, args.page_text_field]
+            )
+        )
+        validate_required_columns(enade_df_pdf_pages, required_columns)
+
+        documents_total = int(enade_df_pdf_pages[args.filename_field].nunique())
+        logging.info("Documents total: %s", documents_total)
+
+        enade_df_pdf_pages["_original_row_order"] = range(len(enade_df_pdf_pages))
+
+        if args.only_filename is not None:
+            enade_df_pdf_pages = enade_df_pdf_pages[
+                enade_df_pdf_pages[args.filename_field] == args.only_filename
+                ].copy()
+            if enade_df_pdf_pages.empty:
+                raise ValueError(f"--only-filename matched no rows: {args.only_filename}")
+            logging.info("Filtered to filename: %s", args.only_filename)
+
+        if args.limit_documents is not None:
+            selected_documents = (
+                enade_df_pdf_pages[args.filename_field]
+                .drop_duplicates()
+                .head(args.limit_documents)
+                .tolist()
+            )
+            enade_df_pdf_pages = enade_df_pdf_pages[
+                enade_df_pdf_pages[args.filename_field].isin(selected_documents)
+            ].copy()
+            logging.info("Limited to first %s documents", args.limit_documents)
+
+        documents_processed = int(enade_df_pdf_pages[args.filename_field].nunique())
+        logging.info("Documents processed: %s", documents_processed)
+
+        enade_df_pdf_pages = initialise_enrichment_columns(enade_df_pdf_pages)
+
+        all_ranges: list[ChapterRange] = []
+        all_boundaries: list[dict[str, Any]] = []
+        missing_text_files = 0
+        unreadable_text_files = 0
+        ambiguous_documents = 0
+        unsafe_documents = 0
+
+        for filename, group in enade_df_pdf_pages.groupby(args.filename_field, sort=False):
+            result = classify_document_pages(
+                group,
+                filename=str(filename),
+                base_dir=script_dir(),
+                header_lines=args.header_lines,
+                page_number_field=args.page_number_field,
+                page_text_field=args.page_text_field,
+            )
+
+            for index, metadata in result.rows.items():
+                for key, value in metadata.items():
+                    enade_df_pdf_pages.at[index, key] = value
+
+            indices = list(group.index)
+            derive_document_flags(
+                enade_df_pdf_pages,
+                indices,
+                result.ranges,
+                result.ambiguous_document,
+                result.unsafe_document,
+            )
+
+            all_ranges.extend(result.ranges)
+            all_boundaries.extend(result.boundaries)
+            missing_text_files += result.missing_text_files
+            unreadable_text_files += result.unreadable_text_files
+            ambiguous_documents += int(result.ambiguous_document)
+            unsafe_documents += int(result.unsafe_document)
+
+        enade_df_pdf_pages = enade_df_pdf_pages.sort_values(
+            "_original_row_order", kind="mergesort"
+        ).drop(columns=["_original_row_order"])
+
+        summary = build_summary(
+            args=args,
+            manifest_path=manifest_path,
+            output_basename=output_basename,
+            input_rows=input_rows,
+            output_rows=len(enade_df_pdf_pages),
+            documents_total=documents_total,
+            documents_processed=documents_processed,
+            df=enade_df_pdf_pages,
+            missing_text_files=missing_text_files,
+            unreadable_text_files=unreadable_text_files,
+            ambiguous_documents=ambiguous_documents,
+            unsafe_documents=unsafe_documents,
+        )
+
+        summary_path = output_basename.parent / "enade_clean_up_summary.json"
+
+        if args.dry_run:
+            logging.info("Dry run enabled: enriched NDJSON/TSV/XLSX will not be written")
+            atomic_write_json(summary, summary_path)
+            logging.info("Dry-run summary written: %s", summary_path)
+        else:
+            output_paths = write_outputs(enade_df_pdf_pages, output_basename)
+            for label, path in output_paths.items():
+                logging.info("Output %s written: %s", label, path)
+
+            if args.write_audit:
+                audit_paths = write_audit_files(
+                    all_ranges,
+                    all_boundaries,
+                    output_basename.parent,
+                )
+                for label, path in audit_paths.items():
+                    logging.info("Audit %s written: %s", label, path)
+
+            atomic_write_json(summary, summary_path)
+            logging.info("Summary written: %s", summary_path)
+
+        logging.info("Pages c4: %s", summary["counts"]["pages_c4"])
+        logging.info("Pages c5: %s", summary["counts"]["pages_c5"])
+        logging.info("Pages c6: %s", summary["counts"]["pages_c6"])
+        logging.info("Pages na: %s", summary["counts"]["pages_na"])
+        logging.info("Missing text files: %s", missing_text_files)
+        logging.info("Unreadable text files: %s", unreadable_text_files)
+        logging.info("Detected boundaries: %s", len(all_boundaries))
+        logging.info("Ambiguous documents: %s", ambiguous_documents)
+        logging.info("Unsafe documents: %s", unsafe_documents)
+        logging.info("Programme completed")
+        return 0
 
     except KeyboardInterrupt:
-        logging.warning("Interrupted by user.")
+        logging.error("Interrupted by user")
         return 130
     except Exception as exc:
-        logging.exception("Fatal run error: %s", exc)
-        try:
-            manifest_hash = sha256_file(config.manifest) if config.manifest.exists() else None
-            end_time = utc_now_iso()
-            run_manifest = build_run_manifest(
-                config=config,
-                manifest_hash=manifest_hash or "",
-                counts=counts,
-                status="failed",
-                end_time=end_time,
-            )
-            write_json_atomic(config.manifest_file, run_manifest)
-            write_json_atomic(config.summary_file, build_summary(config, counts))
-            write_ndjson_atomic(config.failures_file, failures)
-        except Exception:
-            logging.exception("Could not write fatal-error outputs.")
+        if logging.getLogger().handlers:
+            logging.exception("Fatal error: %s", exc)
+        else:
+            print(f"Fatal error: {exc}", file=sys.stderr)
         return 1
 
 
