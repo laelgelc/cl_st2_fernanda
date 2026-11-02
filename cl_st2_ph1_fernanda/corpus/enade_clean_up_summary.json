@@ -1,0 +1,30 @@
+{
+  "programme": "enade_clean_up.py",
+  "manifest": "corpus/enade_pdf_pages_dataset.ndjson",
+  "output_basename": "corpus/enade_chapters_dataset",
+  "dry_run": false,
+  "header_lines": 10,
+  "filename_field": "filename",
+  "page_number_field": "page_number",
+  "page_text_field": "page_filepath_txt",
+  "only_filename": null,
+  "limit_documents": null,
+  "counts": {
+    "input_rows": 131177,
+    "output_rows": 131177,
+    "documents_total": 348,
+    "documents_processed": 348,
+    "pages_c4": 13092,
+    "pages_c5": 4226,
+    "pages_c6": 30123,
+    "pages_na": 83736,
+    "documents_with_c4": 344,
+    "documents_with_c5": 344,
+    "documents_with_c6": 344,
+    "documents_with_no_target_chapters": 4,
+    "missing_text_files": 0,
+    "unreadable_text_files": 0,
+    "ambiguous_documents": 202,
+    "unsafe_documents": 0
+  }
+}
