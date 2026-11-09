@@ -1,0 +1,45 @@
+ϯϰ
+TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+QUESTÃO 30
+ĄƌĞĂĚĞĚĞƐĞŶǀŽůǀŝŵĞŶƚŽĚĞƐŽŌǁĂƌĞĞƐƚĄƐĞƚŽƌŶĂŶĚŽĐĂĚĂǀĞǌŵĂŝƐĐŽŵƉůĞǆĂ͘ WĂƌĂůŝĚĂƌĐŽŵĞƐƐĂ
+ƌĞĂůŝĚĂĚĞ͕  ŽƐ ĚĞƐĞŶǀŽůǀĞĚŽƌĞƐ ĐŽŶƚĂŵ ĐŽŵ ůŝŶŐƵĂŐĞŶƐ ĚĞ ƉƌŽŐƌĂŵĂĕĆŽ ďĂƐĞĂĚĂƐ ŶŽ ƉĂƌĂĚŝŐŵĂ ĚĞ
+ŽƌŝĞŶƚĂĕĆŽĂŽďũĞƚŽƐ͕ ĐƵũŽƐƉŝůĂƌĞƐƐĆŽĂďƐƚƌĂĕĆŽ͕ ĞŶĐĂƉƐƵůĂŵĞŶƚŽ͕ ŚĞƌĂŶĕĂĞƉŽůŝŵŽƌĮƐŵŽ͘ EŽĐſĚŝŐŽĂ
+ƐĞŐƵŝƌ͕ ŽďƐĞƌǀĂͲƐĞĂŝŵƉůĞŵĞŶƚĂĕĆŽĚĞĐůĂƐƐĞƐƌĞůĂĐŝŽŶĂĚĂƐ͘
+public abstract class Impressora {
+   String nome;
+   Impressora() {}
+   Impressora(String n) {
+      this.nome = n;
+   }
+   public void imprimir() {}
+}
+public class Laser extends Impressora {
+   public Laser() {} 
+   public void imprimir() {
+      System.out.println(“Imprimindo na Laser”);
+   }
+}
+class Matricial extends Impressora {
+   public Matricial () {}
+   public void imprimir() {
+      System.out.println(“Imprimindo na Matricial”);
+   }
+}
+public class JatoDeTinta extends Impressora {
+   public JatoDeTinta() {}
+   public void imprimir(){
+      System.out.println(“Imprimindo na Jato de tinta”);
+   }
+}
+public class Main {
+   public static void main(String args[]) {
+      Impressora imp[] = new Impressora[3];
+      imp[0] = new Laser();
+      imp[1] = new JatoDeTinta();
+      imp[2] = new Matricial();
+      for(int i = imp.length - 1; i >= 0; i--){
+         imp[i].imprimir();
+      }
+   }
+}
+*R41201734*

@@ -1,0 +1,35 @@
+ENGENHARIA DE COMPUTAÇÃO
+31
+QUESTÃO 27	
+Padrões de projeto são soluções gerais para problemas frequentes de projetos de software. O diagrama 
+de classes UML abaixo ilustra a estrutura do padrão Strategy:
+GAMMA, E. et al. Padrões de projeto: Soluções reutilizáveis de software orientado a objetos. 
+2. ed. Porto Alegre: Bookman, 2000 (adaptado).
+A partir do modelo UML apresentado e acerca dos padrões de projeto, avalie as afirmações a seguir.
+I.	 A Classe Strategy pode ser implementada como uma classe abstrata ou uma interface, pois 
+corresponde unicamente a uma abstração dos diversos tipos de estratégias definidas.
+II.	 O padrão Strategy pode ser utilizado na implementação de classes para, por exemplo, permitir que 
+métodos de ordenação de coleções possam ser usados com diferentes critérios de comparação.
+III.	 O baixo acoplamento permite que estratégias sejam incluídas ou retiradas da aplicação sem alterar 
+a estrutura das demais classes do sistema.
+IV.	 O uso do padrão Singleton para criação das instâncias, permitiria centralizar em um método de 
+criação a lógica de seleção da estratégia a ser utilizada.
+ É correto apenas o que se afirma em
+A	 I e II.
+B	 I e IV.
+C	 III e IV.
+D	 I, II e III.
+E	 II, III e IV.
+Área livre
+Context
+Strategy
+ConcreteStrategyA
+ConcreteStrategyB
+ConcreteStrategyC
++ContextInterface()
++AlgorithmInterface()
+-strategy
++AlgorithmInterface()
++AlgorithmInterface()
++AlgorithmInterface()
+*R09201931*

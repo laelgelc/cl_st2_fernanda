@@ -6,13 +6,36 @@ Run the commands from the project phase directory, e.g.:
 cl_st2_ph1_fernanda/
 ```
 
-## 1. Clean and extract ENADE report chapters
+## 1. Organise the ENADE dataset metadata
+
+Please refer to the Jupyter notebook: `cl_st2_ph1_fernanda.ipynb`
+
+Outputs:
+
+- `corpus/enade_dataset.ndjson`
+- `corpus/enade_pdf_pages_dataset.ndjson`
+
+## 2. Clean and extract ENADE report chapters
+
+### 2.1. Automated chapter of interest detection
 
 ```shell
 python enade_clean_up.py
 ```
 
-## 2. Denoise the ENADE reports
+Output: `corpus/enade_chapters_dataset.ndjson`
+
+### 2.2. Copy the automated selected chapters to `corpus/02_enade_selected_chapters`
+
+Please refer to the Jupyter notebook: `cl_st2_ph1_fernanda.ipynb`
+
+### 2.3. Manual clean-up
+Manual page clean-up is required because the automated process could not avoid false positive cases.
+
+### 2.4. Update the `corpus/enade_chapters_dataset.ndjson` manifest with the `manual_clean_up` column
+
+
+## 3. Denoise the ENADE reports
 
 ### Dry run
 

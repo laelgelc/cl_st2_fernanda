@@ -1,0 +1,47 @@
+ 
+ 
+PADRÃO DE RESPOSTA 
+a) A última coluna da matriz de transformação entre elo representa as posições X, Y e Z do 
+sistema i em relação ao i-1, portanto, simplesmente observando a matriz de transformação de 
+𝑇3
+0, podemos determinar que: 
+X = 225.c1 + 225.c1.c2 – 225.s1.s2 
+Y = 225.s1 + 225.c1.s2 + 225.c2.s1 
+Z = 300 - d3 
+ 
+b) Aplicando um frame no novo sistema de translação da base, e observando os critérios para 
+determinação dos parâmetros de D-H, teremos: 
+ 
+elo 
+α  
+a 
+θ  
+d 
+R/P 
+Base 
+-90o 
+0 
+0o 
+0 
+P 
+Trilho 
+90o 
+0 
+0o 
+d0 
+P 
+ 
+c) As equações podem ser obtidas observando a última coluna da matriz resultante da pré 
+multiplicação da matriz 𝑇3
+0, pela matriz de transformação entre a primeira articulação, o novo 
+eixo e a base. 
+X = 225.c1 + 225.c1.c2 – 225.s1.s2 
+Y = d0 + 225.s1 + 225.c1.s2 + 225.c2.s1 
+Z = 300 - d3 
+ 
+d) Sendo o passo do fuso utilizado de 25,4mm e o encoder de 8 bits (ou seja, 255 intervalos ou 
+256 posições por volta), teremos: 
+ 
+ 
+ 
+ 

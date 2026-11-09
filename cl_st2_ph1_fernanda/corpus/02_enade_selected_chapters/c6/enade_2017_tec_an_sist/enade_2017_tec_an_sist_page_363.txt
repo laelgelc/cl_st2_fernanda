@@ -1,0 +1,55 @@
+14
+TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+Yh^dK/^hZ^/sϬϰ
+hŵĂĞŵƉƌĞƐĂƚƌĂďĂůŚĂŶĂƉƌŽĚƵĕĆŽĚĞĐŽŶĐƌĞƚŽĞƚĞƌĐĞŝƌŝǌĂŽƐĞƌǀŝĕŽĚĞƚƌĂŶƐƉŽƌƚĞĚŽƉƌŽĚƵƚŽ͘ KƐ
+ĐĂŵŝŶŚŽŶĞŝƌŽƐƚĞůĞĨŽŶĂŵƉĂƌĂĂĞŵƉƌĞƐĂĞƌĞŐŝƐƚƌĂŵƐĞƵŝŶƚĞƌĞƐƐĞƉĞůŽƚƌĂďĂůŚŽ͘ dŽĚĂƐĂƐŵĂŶŚĆƐ͕ 
+ŽƐĐĂŵŝŶŚŽŶĞŝƌŽƐĞƐƚĂĐŝŽŶĂŵŽĐĂŵŝŶŚĆŽŶŽƉĄƟŽĚĂĞŵƉƌĞƐĂĞĂŐƵĂƌĚĂŵƐƵĂǀĞǌ͘ KĂƚĞŶĚŝŵĞŶƚŽ
+ƐĞŐƵĞŽĐƌŝƚĠƌŝŽĚĞŽƌĚĞŵĚĞĐŚĞŐĂĚĂ͘ ƐƐĞƉƌŽĐĞƐƐŽĠ͕ ĂƚƵĂůŵĞŶƚĞ͕ ĐŽŶƚƌŽůĂĚŽƉĞůĂƐĞĐƌĞƚĄƌŝĂ͕ ƋƵĞ
+ƵƟůŝǌĂƐƵĂĂŐĞŶĚĂƉĂƌĂŐĞƌĞŶĐŝĂƌŽƐŵŽƚŽƌŝƐƚĂƐĚŝĂƌŝĂŵĞŶƚĞ͘ ĞŵƉƌĞƐĂ͕ ƋƵĞĐĂƌƌĞŐĂ͕ ŶŽŵĄǆŝŵŽ͕ ϭϬ
+ĐĂŵŝŶŚƁĞƐƉŽƌĚŝĂ͕ ƉƌĞƚĞŶĚĞŝŶĨŽƌŵĂƟǌĂƌĞƐƐĞƉƌŽĐĞƐƐŽ͘
+WĂƌĂ Ă ƐŽůƵĕĆŽ ĚŽ ƉƌŽďůĞŵĂ͕  ĂƉƌĞƐĞŶƚĂͲƐĞ͕  Ă ƐĞŐƵŝƌ͕  Ƶŵ ƉƐĞƵĚŽĐſĚŝŐŽ ƋƵĞ ƵƟůŝǌĂ Ž ĐŽŶĐĞŝƚŽ ĚĞ ĮůĂ͕ 
+ŵĂŶƚĞŶĚŽŽƐĞůĞŵĞŶƚŽƐƐĞŵƉƌĞŶĂƐƉƌŝŵĞŝƌĂƐƉŽƐŝĕƁĞƐĚŽǀĞƚŽƌ͘
+Algoritmo Fila_Caminhoneiros
+início
+   var
+   caminhoneiros : vetor[1..10] de texto
+   total : inteiro
+   procedimento inicializa()
+   início
+      total <- 0
+
+¿P
+   função estaVazia() : lógico
+   início
+      se (total = 0) então
+         retorna verdadeiro
+      senão
+         retorna falso
+
+¿PVH
+
+¿P
+   função estaCheia() : lógico
+   início
+      se (total >= 10) então
+         retorna verdadeiro
+      senão
+         retorna falso
+
+¿PVH
+
+¿P
+
+SURFHGLPHQWRHQ¿OHLUDUFDPLQKRQHLURWH[WR
+   início
+      se (estaCheia() = falso) então 
+         total <- total + 1 
+         caminhoneiros[total] <- caminhoneiro
+      senão
+         imprima("Fila cheia")
+
+¿PVH
+
+¿m
+¿m
+*R41201714*

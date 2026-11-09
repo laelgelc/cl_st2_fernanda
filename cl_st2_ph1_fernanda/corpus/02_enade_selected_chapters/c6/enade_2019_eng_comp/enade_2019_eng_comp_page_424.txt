@@ -1,0 +1,105 @@
+ENGENHARIA DE COMPUTAÇÃO
+16
+QUESTÃO 09	
+O MergeSort é um método de ordenação que combina dois vetores ordenados e cria um terceiro vetor 
+maior também ordenado. O algoritmo abaixo apresenta essa ideia e combina os vetores a[lo..mid] 
+e a[mid+1..hi] no vetor a[lo..hi].
+public class MergeSort {
+ 	
+private static Comparable[] aux; 
+	
+public static void merge(Comparable[] a, int lo, int mid, int hi) { 
+	
+	 int i = lo, j = mid+1; 
+	
+	 for (int k = lo; k <= hi; k++) 
+	
+	 	
+aux[k] = a[k]; 
+	
+	 for (int k = lo; k <= hi; k++) { 
+	
+	 	
+if (i > mid) 
+	
+	 	
+	
+a[k] = aux[j++]; 
+	
+	 	
+else if (j > hi ) 
+	
+	 	
+	
+a[k] = aux[i++]; 
+	
+	 	
+else if (aux[j].compareTo(aux[i])) 
+	
+	 	
+	
+a[k] = aux[j++]; 
+	
+	 	
+else 
+	
+	 	
+	
+a[k] = aux[i++]; 
+	
+	  } 
+	
+ } 
+	
+public static void sort(Comparable[] a) { 
+	
+	 aux = new Comparable[a.length]; 
+	
+	 sort(a, 0, a.length - 1); 
+	
+} 
+	
+private static void sort(Comparable[] a, int lo, int hi) { 
+	
+	 //implementação 
+	
+} 
+}
+SEDGEWICK, R.; WAYNE, K. Algorithms. 4. ed. Boston: Addison-Wesley, 2011 (adaptado).
+Considerando o código apresentado, a implementação do protótipo do método sort da classe MergeSort é
+A
+if (hi == lo)
+   return; 
+int mid = lo + (hi - lo)/2; 
+sort(a, lo, mid); 
+sort(a, mid, hi); 
+merge(a, lo, mid, hi);
+D
+if (hi > lo) 
+   return; 
+int mid = lo + (hi - lo)/2; 
+sort(a, lo, mid); 
+sort(a, mid+1, hi); 
+merge(a, lo, mid, hi);
+B
+if (hi > lo) 
+   return; 
+int mid = lo + (hi - lo)/2; 
+sort(a, lo, mid); 
+sort(a, mid, hi); 
+merge(a, lo, mid, hi);
+E
+if (hi <= lo) 
+   return; 
+int mid = lo + (hi - lo)/2; 
+sort(a, lo, mid); 
+sort(a, mid+1, hi); 
+merge(a, lo, mid, hi);
+C
+if (hi <= lo) 
+   return; 
+int mid = lo + (hi - lo)/2; 
+sort(a, lo, mid); 
+sort(a, mid, hi); 
+merge(a, lo, mid, hi);
+*R09201916*

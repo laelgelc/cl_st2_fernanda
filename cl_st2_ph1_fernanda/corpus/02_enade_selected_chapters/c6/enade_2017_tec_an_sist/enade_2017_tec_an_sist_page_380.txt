@@ -1,0 +1,59 @@
+ϯϭ
+TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+public class PousarNoite implements Pousar {
+   public void pousar() {
+      System.out.println(“Pousar durante a noite.”);
+   }
+}
+public abstract class Aviao {
+   Voar voarForma;
+   Pousar pousarForma;
+   public Aviao() {}
+   public abstract void informarDados();
+   public void performanceVoar() {
+      voarForma.voar();
+   }
+   public void performancePousar() {
+      pousarForma.pousar();
+   }
+   public void setVoar(Voar v) {
+      voarForma = v;
+   }
+   public void setPousar(Pousar p) {
+      pousarForma = p;
+   }
+}
+public class Boeing757 extends Aviao {
+   public Boeing757() {
+      voarForma = new VoarDia(); 
+      pousarForma = new PousarDia();
+   }
+   public void informarDados() {
+      System.out.println(“Informando dados de um Boeing 757.”);
+   }
+}
+public class SimuladorBoeing757 {
+   public static void main(String[] args) {
+      Boeing757 b757 = new Boeing757();
+      b757.performanceVoar();
+      b757.performancePousar();
+      b757.setVoar(new VoarNoite());
+      b757.setPousar(new PousarNoite());
+      b757.performanceVoar();
+      b757.performancePousar(); 
+   }
+}
+ŽŵďĂƐĞŶŽĚŝĂŐƌĂŵĂĚĞĐůĂƐƐĞ͕ ŶŽĐſĚŝŐŽĞŵůŝŶŐƵĂŐĞŵ:ĂǀĂĞŶŽĐŽŶĐĞŝƚŽĚŽƉĂĚƌĆŽĚĞƉƌŽũĞƚŽ
+Strategy,ĂƐƐŝŶĂůĞĂŽƉĕĆŽĐŽƌƌĞƚĂ͘
+A ĐůĂƐƐĞAviaoŝŵƉůĞŵĞŶƚĂĂƐŝŶƚĞƌĨĂĐĞƐVoar e Pousar.
+B ĐůĂƐƐĞBoeing757ŶĆŽĂƉůŝĐĂŽƉƌŝŶĐşƉŝŽĚĞŚĞƌĂŶĕĂ͕ ƵŵĂǀĞǌƋƵĞĞƐƐĞƉƌŝŶĐşƉŝŽũĄĨŽŝĂƉůŝĐĂĚŽ
+ƉĞůĂĐůĂƐƐĞAviao͕ ŶĂƐŝŶƚĞƌĨĂĐĞƐVoar e Pousar.
+C WŽƌŝŵƉůĞŵĞŶƚĂƌĞŵĂƐŝŶƚĞƌĨĂĐĞƐVoar e Pousar,ĂƐĐůĂƐƐĞƐVoarDia͕ VoarNoite͕ PousarDia
+e PousarNoiteƚĂŵďĠŵƐĆŽƵŵĂŝŶƚĞƌĨĂĐĞ͘
+D EĂĐůĂƐƐĞSimuladorBoeing757͕ ŽƐŵĠƚŽĚŽƐsetVoar e setPousarƐĆŽŽƐƌĞƐƉŽŶƐĄǀĞŝƐƉŽƌ
+ĂƉůŝĐĂƌ͕ ƌĞƐƉĞĐƟǀĂŵĞŶƚĞ͕ ĂƐƐĂşĚĂƐ͞ sŽĂƌĚƵƌĂŶƚĞŽĚŝĂ͟ Ğ͞ WŽƵƐĂƌĚƵƌĂŶƚĞŽĚŝĂ͟ ƉĂƌĂĂƐƐĂşĚĂƐ͞
+sŽĂƌĚƵƌĂŶƚĞĂŶŽŝƚĞ͟ Ğ͞ WŽƵƐĂƌĚƵƌĂŶƚĞĂŶŽŝƚĞ͘͟
+E YƵĂŶĚŽĨŽƌĞǆĞĐƵƚĂĚĂ͕ ĂĐůĂƐƐĞSimuladorBoeing757ĂƉƌĞƐĞŶƚĂƌĄƵŵĞƌƌŽĞŵƚĞŵƉŽĚĞĞǆĞĐƵĕĆŽ
+ƉŽƌƋƵĞŽƐŵĠƚŽĚŽƐsetVoar e setPousarƌĞĐĞďĞŵƌĞƐƉĞĐƟǀĂŵĞŶƚĞ͕ ĐŽŵŽƉĂƌąŵĞƚƌŽƐ͕ ǀĂƌŝĄǀĞŝƐ
+ĚŽƟƉŽĐůĂƐƐĞ͕ ŽƋƵĞŶĆŽĠƉĞƌŵŝƟĚŽŶĂŽƌŝĞŶƚĂĕĆŽĂŽďũĞƚŽƐ͘
+*R41201731*
