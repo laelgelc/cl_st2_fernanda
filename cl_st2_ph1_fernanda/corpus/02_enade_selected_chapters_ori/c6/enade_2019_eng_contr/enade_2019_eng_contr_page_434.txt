@@ -1,0 +1,151 @@
+ENGENHARIA DE CONTROLE E AUTOMAÇÃO
+29
+QUESTÃO 22	
+Os controladores lógicos programáveis (CLP) são utilizados na indústria para controle e automação de 
+processos industriais. Um sistema de controle típico pode ser visto na figura a seguir, em que o CLP é 
+indicado com algumas de suas partes principais: o processador e os conversores analógico-digital (A/D) e 
+digital-analógico (D/A).
+Disponível em: <http://www.me.unm.edu>. Acesso em: 05 jun. 2019 (adaptado).
+Para execução da tarefa de implementação do controle do tipo proporcional integral (PI) nesse CLP, 
+foi apresentada a função de transferência discreta do controlador já sintonizado, expressa pela 
+equação a seguir.
+Com base na função de transferência, qual equação deve ser implementada no CLP?
+A	 u k
+u k
+e k
+e k
+[ ]
+[
+]
+[ ]
+,
+[
+]
+O
+3
+1
+3
+3
+1
+3
+2 5
+1
+B	 u k
+u k
+e k
+e k
+[ ]
+[
+]
+[ ]
+,
+[
+]
+O
+3
+1
+3
+3
+1
+3
+1
+1
+3
+2 5
+3
+1
+C	 u k
+u k
+e k
+e k
+[ ]
+[
+]
+,
+[ ]
+[
+]
+O
+3
+1
+3
+3
+3
+1
+2 5
+1
+D	 u k
+u k
+e k
+e k
+[ ]
+[
+]
+[ ]
+,
+[
+]
+O
+1
+1
+3
+1
+1
+3
+2 5
+1
+E	 u k
+u k
+e k
+e k
+[ ]
+[
+]
+,
+[ ]
+[
+]
+O
+1
+1
+3
+1
+3
+1
+2 5
+1
+Área livre
+Sensor
+ŷ(t)
+r(t)
+e(t)
+e(kT)
+u(kT)
+u(t)
+w(t)
+y(t)
+Clock
+Processador
+A/D
+D/A
+Planta
+A/D
+CLP
++
+-
+controlador
+G
+z
+z
+=
+−
+−
+−
+−
+3
+2 5
+1
+1
+1
+,
+*R11201929*

@@ -1,0 +1,122 @@
+ENGENHARIA ELÉTRICA
+35
+QUESTÃO 31	
+Os nanotubos de carbono, elementos com 
+comprimentos de um bilionésimo do metro, 
+oferecem 
+elevada 
+condutividade 
+elétrica 
+à 
+temperatura 
+ambiente, 
+constituindo-se 
+em 
+extraordinário potencial para a indústria eletrônica. 
+Segundo pesquisadores, um nanotubo de carbono 
+seria até 70 vezes melhor condutor que o silício, 
+que é utilizado principalmente nos processadores 
+e memórias de computador. A mobilidade dos 
+elétrons é um dos principais componentes da 
+condutividade elétrica: mede o deslocamento dos 
+portadores de carga (elétrons) sob o efeito do 
+campo elétrico. Considerando-se um aglomerado de 
+nanotubos de carbono da ordem de 0,3 milímetros, 
+à temperatura ambiente (aproximadamente 300 K), 
+a mobilidade eletrônica média nesses nanotubos 
+alcança 100 000 cm2 V –1s–1.
+Disponível em: <http://www.lqes.iqm.unicamp.br>. 
+Acesso em: 9 jun. 2019 (adaptado).
+Considere que a condutividade para o silício 
+intrínseco é dada por σ = ni|e|(µe + µl) , em que 
+ni é a concentração de portadores intrínsecos, 
+|e| é o módulo da carga de um elétron, µe e µl 
+são as mobilidades dos elétrons e das lacunas, 
+respectivamente. Considere, ainda, em relação 
+à condutividade elétrica do silício à temperatura 
+ambiente, os parâmetros:
+•	 σ = 4,16 × 10 –4 (Ωm)–1
+• ni = 1016 m–3
+• µl = 0,06 m2V –1s–1
+De acordo com as informações apresentadas e 
+considerando a temperatura ambiente, quantas 
+vezes maior é a mobilidade eletrônica nos 
+nanotubos de carbono comparada à mobilidade 
+eletrônica no silício?
+A	 20.
+B	 35.
+C	 45.
+D	 50.
+E	 70.
+QUESTÃO 32	
+A Transformada de Fourier é uma ferramenta 
+matemática aplicada em diversas áreas do 
+conhecimento. Em sua versão discreta, é aplicada, 
+por exemplo, no tratamento de dados da 
+exploração de petróleo, na codificação do sinal de 
+voz e na TV digital.
+A Transformada Discreta de Fourier (TDF) 
+de uma sequência de N 
+de valores x[n], 
+com n = 0, 1, 2,..., N – 1, é dada pela expressão
+sendo 		
+.
+Dada uma sequência x[n] de N valores reais, o 
+seguinte pseudocódigo implementa a obtenção da 
+parte real X[k] para um dado valor k, assumindo-se 
+que o vetor x tenha tamanho N e que N seja uma 
+variável global.
+função CALCULAR_TDF (vetor x[ ], k)
+ pi = 3.14159
+ n = 0
+ xk = 0
+ enquanto 0 <= n < N
+ 	
+xk = xk + /**/
+ 	
+n = n + 1
+ fim enquanto
+ retorna xk
+Para 
+que 
+o 
+pseudocódigo 
+acima 
+calcule 
+corretamente a parte real de X[k], escolha a opção 
+abaixo que deverá ser empregada no lugar dos 
+caracteres /**/.
+A	 x[n] * sen(2*pi/N*n*k)
+B	 x[n] * cos(2*pi/N*n*k)
+C	 x[k] * sen(2*pi/N*n*k)
+D	 x[k] * cos(2*pi/N*n*k)
+E	 -x[k] * sen(2*pi/N*n*k)
+X k
+x n e
+k
+N
+n
+N
+j N nk
+[ ]
+[ ]
+,
+, , ,
+,
+O
+O
+
+3
+O
+3
+3
+
+0
+1
+2
+0 1 2
+1
+°
+j O
+31
+*R12201935*

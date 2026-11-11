@@ -1,0 +1,102 @@
+ENGENHARIA DE CONTROLE E AUTOMAÇÃO
+39
+A figura apresenta o programa parcial do controlador lógico programável em linguagem SCF 
+(Sequential Flow Chart).
+INICIAR
+BI SP DR FR RR GA=1
+BI=0
+FR=1
+FR DR=1
+FURAÇÃO_3
+BI=0
+BI=0
+BI=0
+BI=0
+BI=0
+FIXAÇÃO_1
+FURAÇÃO_1
+FURAÇÃO_2
+Fechar
+Morsa
+S
+Ligar
+Furadeira
+S
+Ligar
+Furadeira
+R
+Ligar
+Furadeira
+R
+FIXAÇÃO_3
+FIM
+Fechar
+Morsa
+R
+DESLOCA_1
+DESLOCA_3
+ROSQUEA_3
+Ligar
+Deslocamento
+Ligar
+Deslocamento
+S
+ROSQUEA_1
+Ligar
+Rosqueadeira
+Ligar
+Rosqueadeira
+S
+ROSQUEA_2
+Ligar
+Rosqueadeira
+R
+R
+R
+RR=1
+DESLOCA_2
+Ligar
+Rosqueadeira
+R
+FIXAÇÃO_2
+FIM
+GA=1
+DR=1
+3
+2
+1
+Fechar
+Morsa
+R
+.
+.
+.
+.
+.
+BI SP DR FR RR GF=1
+.
+.
+.
+.
+.
+BI SP DR FA RR GA=1
+.
+.
+.
+.
+.
+BI SP DA FR RR GF=1
+.
+.
+.
+.
+.
+.
+Nesse caso, os valores da receptividade da transição com os números 1, 2 e 3 indicados na figura, 
+respectivamente, são
+A	 BI ⋅ SP ⋅ DA ⋅ FR ⋅ RR ⋅ GF = 1,BI ⋅ SP ⋅ DA ⋅ FR ⋅ RA ⋅ GF = 1 e BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR ⋅ GF = 1
+B	 BI ⋅ SP ⋅ DA ⋅ FR ⋅ RA ⋅ GF = 1,BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR ⋅ GF = 1 e BI ⋅ SP ⋅ DA ⋅ FR ⋅ RR ⋅ GF = 1
+C	 BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR ⋅ GF = 1,BI ⋅ SP ⋅ DA ⋅ FR ⋅ RR ⋅ GF = 1 e BI ⋅ SP ⋅ DA ⋅ FR ⋅ RA ⋅ GF = 1
+D	 BI ⋅ SP ⋅ DA ⋅ FR ⋅ RR ⋅ GF = 1,BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR GF = 1 e BI ⋅ SP ⋅ DA ⋅ FR ⋅ RA ⋅ GF = 1
+E	 BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR ⋅ GF = 1,BI ⋅ SP ⋅ DA ⋅ FR ⋅ RR ⋅ GF = 1 e BI ⋅ SP ⋅ DR ⋅ FR ⋅ RR ⋅ GF = 1
+*R11201939*
