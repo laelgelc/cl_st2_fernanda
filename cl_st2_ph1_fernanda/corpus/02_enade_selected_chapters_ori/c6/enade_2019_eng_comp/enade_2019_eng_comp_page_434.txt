@@ -1,0 +1,67 @@
+ENGENHARIA DE COMPUTAÇÃO
+26
+QUESTÃO 21	
+Uma empresa de análise de mercado de entregas de encomendas foi contratada para selecionar aquela 
+que prestaria serviço para seu cliente e fez um levantamento de dados do setor nos últimos 10 anos, 
+produzindo um relatório com a tabela a seguir, que apresenta 5 principais fornecedores em potencial para 
+o serviço de entrega de encomendas.
+CÓDIGO 
+CD1 
+CD2 
+CD3 
+CD4 
+CD5 
+CD6 
+Fornecedor 1 
+300 
+40 
+32 
+50 
+2.9 
+Nacional 
+Fornecedor 2 
+160 
+28 
+27 
+30 
+0.2 
+Nacional 
+Fornecedor 3 
+140 
+24 
+24 
+25 
+0.01 
+Regional 
+Fornecedor 4 
+220 
+30 
+27 
+30 
+0.5 
+Nacional 
+Fornecedor 5 
+240 
+34 
+30 
+40 
+1.05 
+Nacional 
+Com base nessa situação e considerando que a tabela faz parte do banco de dados da empresa com o 
+nome de TABELA1, avalie as afirmações a seguir.
+I.	 O código em SQL que exclui da TABELA1 as informações do Fornecedor 1, Fornecedor 4 e Fornecedor 5 
+é: DELETE FROM TABELA1 WHERE CD6 = 'Regional' OR CD1 > 160 OR CD5 > 1;.
+II.	 A inclusão de uma nova coluna com dados de taxa de eficiência de entrega para os fornecedores 
+constantes na TABELA1 é feita pelo código: INSERT INTO TABELA1 (CD7) SET CD7 = 
+'CD3/CD2';.
+III.	 O código que reflete a escolha do cliente, o Fornecedor 3, é: SELECT Fornecedor FROM 
+TABELA1 WHERE CD1 > 100 AND (CD3/CD2) > 0.99 AND CD5 < 0.5 ORDER BY 
+CD3;.
+É correto o que se afirma em
+A	 I, apenas.
+B	 III, apenas.
+C	 I e II, apenas.
+D	 II e III, apenas.
+E	 I, II e III.
+Área livre
+*R09201926*

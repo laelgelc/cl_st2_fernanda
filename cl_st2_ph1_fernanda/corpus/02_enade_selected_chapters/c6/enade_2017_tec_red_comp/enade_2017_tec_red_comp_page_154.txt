@@ -1,0 +1,37 @@
+ 
+148 
+de endereços IP para cada uma das sub-redes de forma encadeada, o que possibilitava a 
+propagação de erro. Se o estudante errasse o cálculo da alocação de endereço IP para uma 
+sub-rede, as alocações de endereços IP para as sub-redes subsequentes estariam 
+automaticamente erradas. 
+No padrão de resposta dessa questão foram apresentadas todas as possíveis 
+respostas esperadas. Por esse motivo, foram previstas duas interpretações para os enlaces 
+(link WAN) entre os roteadores B1 e HQ e entre os roteadores B2 e HQ: (i) sub-rede com dois 
+hosts, que requer o uso de um prefixo de rede com a máscara/30; e (ii) enlace ponto a ponto, 
+que requer o uso de um prefixo de rede com a máscara /31. 
+O espaço destinado à resposta do estudante foi considerado suficiente para o padrão 
+de resposta previsto, e o tempo de prova foi considerado suficiente para os estudantes 
+resolverem a questão. 
+Pelas respostas, ficou demonstrado que o padrão de resposta cobriu todas as 
+possíveis respostas corretas. Porém, nem todas as melhores respostas os estudantes usaram 
+a notação CIDR especificada na RFC4632, mas, sim, usaram a notação da RFC1519, ou seja, 
+usaram uma máscara correta, mas na forma de quatro octetos separados por pontos. Já nas 
+piores respostas não se verificou a aproximação com nenhuma das respostas previstas no 
+padrão. Em algumas, os estudantes sequer usaram a faixa de endereços indicada no 
+enunciado da questão, o que pode demonstrar um mero engano por falta de atenção. Mas, 
+em outros casos, embora a faixa de endereços indicada no enunciado tenha sido utilizada, a 
+alocação feita foi absurda (conforme descrito mais adiante), o que pode indicar total 
+desconhecimento do estudante. 
+Em nenhuma das melhores respostas foi utilizada a máscara/31 ou a máscara 
+255.255.255.254 nos enlaces entre os roteadores.  
+Nas respostas medianas, os estudantes calcularam corretamente a alocação de 
+endereços IP para a 1ª sub-rede, errando um ou outro detalhe, como a máscara do prefixo de 
+rede, mas, por outro lado, praticamente em todas elas havia erro nas alocações de endereço 
+IP para as demais redes, pois os respondentes levaram em consideração apenas a alocação 
+de endereços para os hosts da sub-rede. Cabe observar que nessas respostas adotavam-se 
+tanto a notação de máscara de rede da RFC4632 quanto a notação da RFC1519. O efeito da 
+propagação de erro também ficou evidenciado em casos nos quais o erro no cálculo da 
+alocação de endereços IP para a 2ª sub-rede se propagava no prefixo de rede das sub-redes 
+subsequentes. 
+Nas respostas com as notas mais baixas, houve grande variação, mas, em geral, os 
+estudantes demonstraram total desconhecimento em relação aos conceitos abordados na 

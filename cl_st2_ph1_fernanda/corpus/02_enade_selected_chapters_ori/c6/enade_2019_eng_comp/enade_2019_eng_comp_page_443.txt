@@ -1,0 +1,58 @@
+ENGENHARIA DE COMPUTAÇÃO
+35
+QUESTÃO 32	
+Uma estação de monitoramento de temperatura utiliza um termógrafo para registrar continuamente 
+em um gráfico os valores detectados por seus sensores. Um determinado ambiente foi monitorado ao 
+longo de três períodos distintos de um dia. O ambiente é considerado apropriado para um experimento 
+científico se, para qualquer período Pi de monitoramento σ(Pi) ≤ 2, em que σ(Pi) denota o desvio 
+padrão populacional do período Pi em que o ambiente foi monitorado.
+As medidas de temperatura em °C, obtidas após um processo de quantização do sinal, são apresentadas 
+na tabela a seguir.
+Período (Pi)
+Medida 1
+Medida 2
+Medida 3
+Medida 4
+P1
+33,5
+33,5
+33,0
+33,5
+P2
+27,5
+27
+27,5
+27,5
+P3
+2,0
+2,5
+2,0
+2,0
+A fim de automatizar o processamento dos sinais, o algoritmo a seguir foi desenvolvido, tendo como 
+entrada um período e como resultado um valor booleano que indica se o período é apropriado ou não.
+Algoritmo: viavel(P)
+para p ∈ P faça
+retorna  
+fim
+total   total + (p - AVG(P)) × (p - AVG(P)) // AVG denota a média de P
+total 
+0
+entrada: P: um período
+saída  : um valor booleano que indica se P é apropriado para o experimento
+2
+total
+P
+≤
+Com base no caso apresentado, avalie as afirmações a seguir.
+I.	 Conforme o funcionamento do algoritmo, os períodos P1, P2 e P3 são apropriados.
+II.	 O algoritmo calcula o desvio padrão amostral e, portanto, não é adequado para o estudo.
+III.	 Caso executado sobre o período P = {P1, P2 e P3}, o algoritmo indica que ele é inapropriado 
+para o experimento.
+É correto apenas o que se afirma em
+A	 I, apenas.
+B	 II, apenas.
+C	 I e III, apenas.
+D	 II e III, apenas. 
+E	 I, II e III. 
+Área livre
+*R09201935*

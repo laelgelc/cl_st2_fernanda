@@ -1,0 +1,86 @@
+# Manual clean up dataset for chapter c6
+
+| filename                        | status |
+|:--------------------------------|:------:|
+| enade_2017_admin.pdf            |   OK   |
+| enade_2017_art_vis.pdf          |   OK   |
+| enade_2017_ci_comp.pdf          |   OK   |
+| enade_2017_ci_bio.pdf           |   OK   |
+| enade_2017_ef.pdf               |   OK   |
+| enade_2017_eng_amb.pdf          |    OK    |
+| enade_2017_eng_civ.pdf          |    OK    |
+| enade_2017_eng_comp.pdf         |    OK    |
+| enade_2017_eng_alim.pdf         |    OK    |
+| enade_2017_eng_contr.pdf        |    OK    |
+| enade_2017_eng_prod.pdf         |    OK    |
+| enade_2017_eng_el.pdf           |    OK    |
+| enade_2017_eng_flo.pdf          |    OK    |
+| enade_2017_eng_mec.pdf          |    OK    |
+| enade_2017_eng_qui.pdf          |    OK    |
+| enade_2017_filo.pdf             |    OK    |
+| enade_2017_fis.pdf              |    OK    |
+| enade_2017_geo.pdf              |    OK    |
+| enade_2017_hist.pdf             |    OK    |
+| enade_2017_letras_ing.pdf       |    OK    |
+| enade_2017_letras_por_esp.pdf   |    OK    |
+| enade_2017_letras_por_ing.pdf   |    OK    |
+| enade_2017_ling_por.pdf         |   NA   |
+| enade_2017_mat.pdf              |    OK    |
+| enade_2017_mus.pdf              |    OK    |
+| enade_2017_pedag.pdf            |    OK    |
+| enade_2017_letras_por.pdf       |    OK    |
+| enade_2017_qui.pdf              |    OK    |
+| enade_2017_sist_inf.pdf         |    OK    |
+| enade_2017_tec_an_sist.pdf      |    OK    |
+| enade_2017_tec_gest_prod.pdf    |    OK    |
+| enade_2017_tec_gest_tec_inf.pdf |    OK    |
+| enade_2017_tec_red_comp.pdf     |    OK    |
+| enade_2018_admin_p.pdf          |    OK    |
+| enade_2018_admin.pdf            |    OK    |
+| enade_2018_ci_cont.pdf          |    OK    |
+| enade_2018_ci_econ.pdf          |    OK    |
+| enade_2018_des.pdf              |    OK    |
+| enade_2018_dir.pdf              |    OK    |
+| enade_2018_jorn.pdf             |    OK    |
+| enade_2018_psico.pdf            |    OK    |
+| enade_2018_publi.pdf            |    OK    |
+| enade_2018_ri.pdf               |    OK    |
+| enade_2018_secr_exec.pdf        |    OK    |
+| enade_2018_serv_soc.pdf         |    OK    |
+| enade_2018_tec_com_ext.pdf      |    OK    |
+| enade_2018_tec_des_inter.pdf    |    OK    |
+| enade_2018_tec_des_mod.pdf      |    OK    |
+| enade_2018_tec_des_graf.pdf     |    OK    |
+| enade_2018_tec_gastr.pdf        |    OK    |
+| enade_2018_tec_gest_com.pdf     |    OK    |
+| enade_2018_tec_gest_qual.pdf    |    OK    |
+| enade_2018_tec_gest_rec_hum.pdf |    OK    |
+| enade_2019_agro.pdf             |        |
+| enade_2019_arqui_urb.pdf        |        |
+| enade_2019_biomed.pdf           |        |
+| enade_2019_enf.pdf              |        |
+| enade_2019_eng_amb.pdf          |        |
+| enade_2019_eng_civ.pdf          |        |
+| enade_2019_eng_comp.pdf         |        |
+| enade_2019_eng_alim.pdf         |        |
+| enade_2019_eng_contr.pdf        |        |
+| enade_2019_eng_prod.pdf         |        |
+| enade_2019_eng_el.pdf           |        |
+| enade_2019_eng_flo.pdf          |        |
+| enade_2019_eng_mec.pdf          |        |
+| enade_2019_eng_qui.pdf          |        |
+| enade_2019_farm.pdf             |        |
+| enade_2019_fisio.pdf            |        |
+| enade_2019_fono.pdf             |        |
+| enade_2019_fis.pdf              |        |
+| enade_2019_med_vet.pdf          |        |
+| enade_2019_med.pdf              |        |
+| enade_2019_nutri.pdf            |        |
+| enade_2019_odonto.pdf           |        |
+| enade_2019_tec_agro.pdf         |        |
+| enade_2019_tec_est_cos.pdf      |        |
+| enade_2019_tec_gest_amb.pdf     |        |
+| enade_2019_tec_gest_hosp.pdf    |        |
+| enade_2019_tec_rad.pdf          |        |
+| enade_2019_tec_seg_trab.pdf     |        |
+| enade_2019_zoot.pdf             |        |
