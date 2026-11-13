@@ -55,7 +55,7 @@
 | enade_2018_tec_gest_com.pdf     |    OK    |
 | enade_2018_tec_gest_qual.pdf    |    OK    |
 | enade_2018_tec_gest_rec_hum.pdf |    OK    |
-| enade_2019_agro.pdf             |        |
+| enade_2019_agro.pdf             |    OK    |
 | enade_2019_arqui_urb.pdf        |        |
 | enade_2019_biomed.pdf           |        |
 | enade_2019_enf.pdf              |        |
