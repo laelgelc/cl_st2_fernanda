@@ -1,0 +1,48 @@
+ENGENHARIA DE CONTROLE E AUTOMAÇÃO
+22
+QUESTÃO 15	
+O rompimento de uma barragem causou uma avalanche de rejeitos de minério de ferro. A barragem 
+desabou e a lama atingiu tanto a área administrativa quanto a comunidade da vila, deixando um rastro 
+de destruição e resultando em dezenas de mortes. No momento do acidente, provavelmente em razão da 
+rapidez com que tudo aconteceu, as sirenes de alerta não soaram, o que contribuiu para o elevado número 
+de mortes, uma vez que as pessoas não tiveram tempo de seguir os procedimentos de segurança.
+Disponível em: <https://www.brasilescola.uol.com.br>. Acesso em: 24 jun. 2019 (adaptado).
+Considerando problemas similares ao descrito, foi proposta a automatização do funcionamento de uma 
+bomba d'água com um sistema de alarme, por meio de um controlador lógico programável (CLP) e uma 
+IHM para controle e visualização do processo. Para tanto, desenvolveu-se o diagrama LADDER mostrado 
+na figura a seguir.
+Legenda:
+B1: botoeira Liga
+B2: botoeira Desliga
+SNS: sensor de nível superior
+SNI: sensor de nível inferior
+Alm: alarme
+Lpd: lâmpada
+Considerando as informações apresentadas, avalie as afirmações a seguir, acerca do funcionamento do 
+referido sistema.
+I.	 A bomba inicia o seu funcionamento se B1 for acionada, o SNS for ativado, o SNI estiver ativado e 
+a botoeira B2 não estiver acionada.
+II.	 Se o SNI for ativado, o programa liga a lâmpada e a bomba.
+III.	 A bomba será ligada quando o SNS for ativado e permanecerá assim até que o SNI seja desativado.
+IV.	 Em condições normais de funcionamento, o alarme será acionado no instante em que a bomba 
+for acionada.
+É correto apenas o que se afirma em
+A	 IV.
+B	 II e III.
+C	 I, II e III.
+D	 I, II e IV.
+E	 I, III e IV.
+B1
+LIGA
+LIGA
+B2
+SNI
+SNS
+Bomba
+SNI
+Lpd
+Bomba
+SNS
+Alm
+LIGA
+*R11201922*

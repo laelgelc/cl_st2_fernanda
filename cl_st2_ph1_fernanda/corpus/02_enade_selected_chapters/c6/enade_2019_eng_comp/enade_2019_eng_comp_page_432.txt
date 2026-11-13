@@ -1,0 +1,73 @@
+ENGENHARIA DE COMPUTAÇÃO
+24
+QUESTÃO 18	
+O algoritmo de criptografia Data Encryption 
+Standard (DES) cifra blocos de 64 bits utilizando 
+chaves simétricas de 56 bits. Atualmente o DES 
+não é mais considerado uma cifra segura devido 
+ao pequeno número de bits utilizado para a chave. 
+Para resolver o tamanho da chave, foi proposto 
+o DES Triplo (3DES), que utiliza três execuções do 
+DES e chaves de até 168 bits. A chave k para o 
+3DES é dividida em três partes (ka, kb, kc) e cada 
+uma destas partes é utilizada na execução de uma 
+instância do DES.
+STALLINGS, W. Criptografia e Segurança de Redes: Princípios e práticas. 
+4ª ed. São Paulo: Pearson Prentice Hall, 2008 (adaptado).
+O algoritmo DES define uma função C(m, k1)que 
+cifra uma mensagem m com uma chave k1 e uma 
+função (Dc, k1) que decifra uma mensagem C 
+cifrada com a chave k1. Para que o 3DES seja capaz 
+de decifrar mensagens cifradas com o DES, sua 
+implementação deve ser
+A	 D(C(D(m, ka), kb), kc), sendo ka ≠ kb ≠ kc 
+partes da chave usada no 3DES e ka a chave 
+usada no DES.
+B	 D(D(D(m, ka), kb), kc), sendo ka ≠ kb ≠ kc, partes 
+da chave do 3DES e ka a chave usada no DES.
+C	 D(D(D(m, ka), kb), kc), sendo ka = kb = kc, partes 
+da chave do 3DES e ka a chave usada no DES.
+D	 D(C(D(m, ka), kb), kc), sendo ka = kb = kc 
+partes da chave usada no 3DES e ka a chave 
+usada no DES.
+E	 D(D(C(m, ka), kb), kc), sendo ka = kb = kc 
+partes da chave usada no 3DES e ka a chave 
+usada no DES.
+Área livre
+QUESTÃO 19	
+Pesquisadores vêm trabalhando na possibilidade 
+de microprocessadores comerciais off-the-shelf 
+terem sido adquiridos com um backdoor utilizado 
+para desativá-los no momento oportuno, ou seja, 
+ataques a sistemas cibernéticos poderiam ser 
+intencionalmente ativados por meio de um gatilho 
+(trigger), em momento definido pelo atacante.
+Disponível: <http://www.abin.gov.br>. 
+Acesso em: 29 jun. 2019 (adaptado).
+São inúmeras as possibilidades de ação por meio do 
+uso de hardware trojan, que permite uma infiltração 
+silenciosa e cuja detecção é extremamente complexa.
+Com base no texto e no contexto de detecção e 
+prevenção de ameaças, avalie as afirmações a seguir.
+I.	 Detecção de falhas de manufatura, como 
+falhas de atraso (delay), garante a detecção 
+dos trojans.
+II.	 Detecção por meio de inspeção física ou 
+engenharia reversa destrutiva não garante 
+que os microprocessadores comerciais 
+estejam livres do hardware trojan.
+III.	 O preenchimento total de células no circuito 
+previne a inserção de hardware trojan, não 
+deixando espaços vagos no design.
+IV.	 Prevenção por meio de camuflagem é um 
+tipo de estratégia de ofuscação no nível 
+do layout físico, que consiste na adição de 
+contatos e conexões falsas.
+É correto apenas o que se afirma em
+A	 I e II.
+B	 I e III.
+C	 II e IV.
+D	 I, III e IV.
+E	 II, III e IV.
+Área livre
+*R09201924*

@@ -1,0 +1,17 @@
+ 
+ 
+PADRÃO DE RESPOSTA 
+a) Para a detecção da paridade par, quando o número de bits de valor '1' for ímpar, deve-se 
+adicionar um bit de valor '1' ao início ou final do dado, tornando par o número de bits. O circuito 
+correto possui somente portas lógicas XOR.  
+A tabela a seguir mostra apenas 4 das 16 possíveis combinações das variáveis de entrada (ABCD). 
+São justamente as quatro únicas combinações que demonstram o erro. Como estas 4 sequências 
+têm número PAR de bits 1, o resultado da saída deveria ser 0 e não 1 como mostra a saída com 
+a porta lógica OR. Corrige-se o problema substituindo a porta OR pela porta XOR. 
+ 
+ 
+ 
+ 
+O circuito lógico de um gerador de paridade par de 4 bits, utilizando portas XOR, é ilustrado 
+abaixo.  
+ 

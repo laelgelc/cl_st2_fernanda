@@ -1,0 +1,63 @@
+Ϯϴ
+TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+Yh^dKϮϱ
+KĨƌĂŐŵĞŶƚŽĚĞĐſĚŝŐŽнн͕ ĂƐĞŐƵŝƌ͕ĐŽŶƚĠŵĂŝŵƉůĞŵĞŶƚĂĕĆŽĚĂŝŶƐĞƌĕĆŽĚĞƵŵŶſĞŵƵŵĂĄƌǀŽƌĞďŝŶĄƌŝĂ͘
+...
+struct noArvore {
+   int dado;
+   noArvore *esquerda;
+   noArvore *direita;
+};
+noArvore *insere(noArvore *arvore, int valor) {
+   if (arvore == NULL) {
+      arvore = new noArvore;
+      arvore->esquerda = NULL;
+      arvore->direita = NULL;
+      arvore->dado = valor;
+   } else if(valor < arvore->dado) {
+        arvore->esquerda = insere (arvore->esquerda, valor);
+     } 
+     else {
+        arvore->direita = insere (arvore->direita, valor);
+     } 
+     return(arvore);
+}
+...
+ŽŵďĂƐĞŶŽĞǆƉŽƐƚŽ͕ ĂƐƐŝŶĂůĞĂŽƉĕĆŽƋƵĞĂƉƌĞƐĞŶƚĂŽĨƌĂŐŵĞŶƚŽĚĞƉƌŽŐƌĂŵĂƉĂƌĂŝŵƉƌŝŵŝƌŽƐǀĂůŽƌĞƐ
+ĐŽŶƟĚŽƐŶŽƐŶſƐ͕ ƉĞƌĐŽƌƌĞŶĚŽĂĄƌǀŽƌĞĞŵƉƌĠͲŽƌĚĞŵ͘
+A void preorder(noArvore *raiz) {
+if (raiz != NULL) { 
+      cout << raiz->dado << " ";
+      preorder(raiz->esquerda);
+      preorder(raiz->direita); 
+   } 
+}
+B void preorder(noArvore *raiz) { 
+   if (raiz != NULL) { 
+      preorder(raiz->direita); 
+      preorder(raiz->esquerda); 
+      cout << raiz->dado << " "; 
+   }
+}
+C void preorder(noArvore *raiz) { 
+   if (raiz != NULL) { 
+      preorder(raiz->esquerda); 
+      cout << raiz->dado << " "; 
+      preorder(raiz->direita); 
+}
+}
+D void preorder(noArvore *raiz) { 
+   if (raiz != NULL) { 
+      preorder(raiz->esquerda); 
+      preorder(raiz->direita); 
+      cout << raiz->dado << " "; 
+}
+}
+E void preorder(noArvore *raiz) { 
+   if (raiz != NULL) { 
+      preorder(raiz->direita); 
+      cout << raiz->dado << " "; 
+      preorder(raiz->esquerda); 
+   } 
+}
+*R41201728*

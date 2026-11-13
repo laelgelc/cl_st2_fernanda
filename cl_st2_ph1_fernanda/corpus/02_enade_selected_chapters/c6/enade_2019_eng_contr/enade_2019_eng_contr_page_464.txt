@@ -1,0 +1,56 @@
+Estritamente, a expressão acima não é uma função de transferência porque há duas entradas 
+(Q(s) e Q0(s)). Respostas que considerem só uma dessas entradas podem ser aceitas com 
+metade da pontuação total. 
+ 
+c) Assumindo que os demais elementos do sistema (bomba, sensores, etc sejam ideais, a 
+expressão para H(s) em malha fechada é 
+𝐻(𝑠) = 𝐻1(𝑠)𝑄0(𝑠) −𝐻2(𝑠)𝑄(𝑠) 
+Onde 𝐻1(𝑠) =
+𝐾𝐶𝐺(𝑠)
+1+𝐾𝐶𝐺(𝑠) =
+𝐾𝐶
+𝐴𝑠+𝐾𝐶  e  𝐻2(𝑠) =
+𝐺(𝑠)
+1+𝐾𝐶𝐺(𝑠) =
+1
+𝐴𝑠+𝐾𝐶. O erro em regime permanente 
+é o ganho estático de 𝐻2(𝑠), 1/KC, multiplicado pela amplitude de Q(s) em regime 
+permanente. Como esse ganho estático não é nulo, o erro em regime permanente também 
+não é. 
+Alternativamente, também se pode aceitar o seguinte padrão de resposta: 
+ 
+A equação para H(s) em malha fechada é 
+((𝑆𝑃−𝐻). 𝐶𝑆−𝑞0). 𝐺𝑆= 𝐻 
+Isolando H, tem-se 
+𝐻= (𝑆𝑃. 𝐶𝑆−𝑞0). 𝐺𝑆
+(1 + 𝐶𝑆𝐺𝑆)
+=
+𝐺𝑆. 𝐶𝑆
+(1 + 𝐶𝑆𝐺𝑆) . 𝑆𝑃−
+𝐺𝑆
+(1 + 𝐶𝑆𝐺𝑆) . 𝑞0 
+ 
+Sabendo que C(s) = KC , G(s) = k/s sendo K = 1/A,  𝑞0= 1/s haja visto que 𝑞0 é um degrau e que o 
+SP =0 temos:  
+𝐻𝑅𝑃=
+−𝐺𝑆
+(1 + 𝐶𝑆𝐺𝑆) . 𝑞0 =
+−(𝑘/𝑠)
+(1 + (𝐾𝑐). (𝑘/𝑠)) . 1
+𝑠= −
+𝐾
+𝑠(𝑠+ 𝐾. 𝐾𝑐) 
+ 
+A resposta final (em estado estacionário) do nível é obtida pela aplicação do teorema do valor 
+final, de modo que a expressão do erro de regime permanente possa ser aplicada, a saber: 
+ℎ(→ ∞) = lim
+𝑠→0[𝑠𝐻(𝑠)] = lim
+𝑠→0 [𝑠
+−𝑘
+𝑠(𝑠+ 𝐾𝐾𝑐)] = −1
+𝐾𝑐
+ 
+ 
+Na expressão apresentada acima, fica claro que há erro de regime permanente para o caso 
+regulatório quando se usa apenas ação proporcional do controlador. 
+ 

@@ -1,0 +1,84 @@
+ENGENHARIA ELÉTRICA
+26
+QUESTÃO 22	
+Na instrumentação industrial, os amplificadores operacionais têm ocupado lugar de destaque, sobretudo 
+os amplificadores de instrumentação (AI). Esses elementos são bastante úteis para medição de alta 
+precisão e, portanto, apresentam bom desempenho para aquisição de sinais de baixa amplitude com 
+ruídos, como aqueles oriundos das saídas de sensores. Normalmente um AI é representado por três 
+amplificadores operacionais e sete resistores. O ganho de tensão geralmente é programado internamente 
+ou são utilizados um resistor externo (RG) e outros resistores (R) de alta precisão de igual valor.
+No diagrama mostrado na figura 1, todos os resistores do projeto de AI são de 25 kΩ. A entrada do AI é 
+conectada à saída de um sensor, cuja resistência é praticamente linear e varia conforme a temperatura. 
+Esse sensor é interligado a um circuito em Ponte de Wheatstone, que tem a função de detectar a alteração 
+na resistência de saída do sensor e, por conseguinte, na temperatura. Assim, quando a resistência muda, 
+a tensão de saída da ponte também modifica. A ponte é ajustada para uma tensão nula (V = 0 V) para 
+uma temperatura de 25 ºC, e nessa situação a resistência do sensor (R sensor) vale 1 000 Ω.
+Figura 1 - Diagrama do sistema de controle de temperatura
++
+-
++-
++-
++
+-
+25 kΩ
+25 kΩ
+Ampliﬁcador de Instrumentação
+25 kΩ
+25 kΩ
+25 kΩ
+25 kΩ
+RG=10 kΩ
+VO
+R2=
+20 kΩ
+R1=
+20 kΩ
+15 V
+R3=
+1 kΩ
+RSENSOR=
+1000 Ω
+Considerando a utilização desse conjunto e sabendo que V0 = Av(V2 – V1), em que Av pode ser calculado 
+no AI, avalie as afirmações a seguir.
+I.	 Considerando-se que a resistência do sensor varie conforme mostrado figura 2, o sinal esperado 
+para a saída V0 será o representado na figura 3.
+Figura 2 - Variação na resistência do sensor                             Figura 3 - Tensão de saída V0.
+0
+0,02
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+0,04 0,06 0,08
+0,1
+Tempo (s)
+Resistëncia (Ohms)
+0,12 0,14 0,16 0,18
+0,2
+0
+0,02
+0
+2
+4
+6
+8
+10
+0,04 0,06 0,08
+0,1
+Tempo (s)
+Tensão de saída (Volts)
+0,12 0,14 0,16 0,18
+0,2
+II.	 Se a resistência RG do AI for modificada, haverá também uma alteração no ganho da tensão de saída V0 .
+III.	 A tensão de saída do amplificador de instrumentação é nula quando a diferença de tensão entre 
+os pontos 2 e 1 (saída da Ponte de Wheatstone) também é nula.
+É correto o que se afirma em
+A	 I, apenas.
+B	 III, apenas.
+C	 I e II, apenas.
+D	 II e III, apenas.
+E	 I, II e III.
+*R12201926*

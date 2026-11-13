@@ -1,0 +1,69 @@
+ENGENHARIA DE CONTROLE E AUTOMAÇÃO
+36
+QUESTÃO 27	
+Uma esteira de transporte de peças é dotada de três sensores, um indutivo (SA), um capacitivo (SB) e um 
+fotoelétrico (SC), responsáveis por identificar o material que compõe as peças transportadas. As peças que 
+passam pela esteira podem ser Plásticas Transparentes (PT), Plásticas Opacas (PO) ou Metálicas Opacas 
+(MO). Os sinais dos sensores são enviados a um Controlador Lógico Programável (CLP) que tem a função 
+de monitorar os sensores a fim de identificar as peças e exibir o resultado em um sistema supervisório. 
+A esteira conta também com três barreiras capacitivas, B1, B2 e B3, cuja funcionalidade é identificar a 
+posição das peças ao longo da esteira. As peças são colocadas e retiradas da esteira, uma a uma, por um 
+manipulador robótico. A figura a seguir representa este processo.
+O engenheiro responsável pelo projeto desenvolveu a programação Ladder ilustrada na figura a seguir.
+(  )
+AUXMO
+SA
+B3
+SC
+B3
+PO
+AUXO
+AUXO
+AUXCAP
+AUXCAP
+AUXO
+FIM
+AUXO
+FIM
+FIM
+FIM
+FIM
+AUXMO
+AUXMO
+(  )
+MO
+(  )
+AUXO
+(  )
+PO
+PO
+B3
+(  )
+AUXCAP
+(  )
+PT
+PT
+Legenda
+SA
+AUXMO
+FIM
+B3
+MO
+SC
+AUXO
+PO
+SB
+AUXCAP
+PT
+(*Sensor indutivo*)
+(*Peça metálica identiﬁcada*)
+(*Indica o ﬁm da passagem do objeto*)
+(*Barreira capacitiva número 3*)
+(*Peça metálica opaca*)
+(*Sensor fotoelétrico*)
+(*Auxiliar de peça opaca*)
+(*Peça plástica opaca*)
+(*Sensor capacitivo*)
+(*Auxiliar do sensor capacitivo)
+(*Peça transparente)
+*R11201936*

@@ -1,0 +1,204 @@
+ENGENHARIA DE CONTROLE E AUTOMAÇÃO
+44
+QUESTÃO 34	
+Uma empresa que fabrica peças para decoração criou um sistema inteligente utilizando uma plataforma 
+com sensores lógicos que usa o algoritmo de busca em árvore binária para identificar automaticamente 
+as peças que ela produz. As peças podem ser de metal ou madeira, e possuem algumas características 
+próprias. O algoritmo a seguir descreve como é feita a implementação de busca em árvore binária para o 
+sistema de identificação.
+boolean tipo; // tipo da peça. 
+boolean objeto; // presença do objeto na plataforma. 
+boolean superficie; // tipo de superfície da peça de metal. 
+boolean tamanho; // tamanho da peça de metal. 
+boolean tonalidade; // tonalidade da peça de madeira. 
+boolean forma; // forma da peça de madeira. 
+int main(void){ 
+	
+while (1){ 
+	
+	
+if(objeto==1) { 
+	
+	
+	
+printf(“Há peça na plataforma”); 
+	
+	
+	
+if(tipo==1){ 
+	
+	
+	
+	
+printf(“A peça é metálica”); 
+	
+	
+	
+	
+if(superficie == 1){ 
+	
+	
+	
+	
+	
+printf(“A peça é lisa”); 
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+if(superficie == 0){ 
+	
+	
+	
+	
+	
+printf(“A peça é escovada”); 
+	
+	
+	
+	
+	
+if(tamanho == 1){ 
+	
+	
+	
+	
+	
+	
+printf(“A peça é grande”); 
+	
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+	
+if(tamanho == 0){ 
+	
+	
+	
+	
+	
+	
+printf(“A peça é pequena”); 
+	
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+} 
+	
+	
+	
+} 
+	
+	
+	
+if(tipo==0){ 
+	
+	
+	
+	
+if(tonalidade == 1){ 
+	
+	
+	
+	
+	
+printf(“A peça é escura”); 
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+if(tonalidade == 0){ 
+	
+	
+	
+	
+	
+printf(“A peça é clara”); 
+	
+	
+	
+	
+	
+if(forma == 1){ 
+	
+	
+	
+	
+	
+	
+print(“A peça é cilíndrica”); 
+	
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+	
+if(forma == 0){ 
+	
+	
+	
+	
+	
+	
+printf(“A peça é esférica”); 
+	
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+} 
+	
+	
+	
+} 
+	
+	
+} 
+	
+	
+else{ 
+	
+	
+	
+printf(“Não há peça na plataforma”); 
+	
+	
+} 
+	
+} 
+	
+return 0; 
+}
+*R11201944*
