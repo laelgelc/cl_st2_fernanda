@@ -40,7 +40,7 @@
 | Engenharia Grupo VIII                               | eng_g_8          |
 | Engenharia Mecânica                                 | eng_mec          |
 | Engenharia Química                                  | eng_qui          |
-| Engenharia de Alimentos                             | env_alim         |
+| Engenharia de Alimentos                             | eng_alim         |
 | Engenharia de Computação                            | eng_comp         |
 | Engenharia de Controle e Automação                  | eng_contr        |
 | Engenharia de Produção                              | eng_prod         |

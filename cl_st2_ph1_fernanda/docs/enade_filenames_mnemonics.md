@@ -200,7 +200,7 @@
 | ENADE_2017_ENGENHARIA AMBIENTAL.pdf                     | eng_amb          |
 | ENADE_2017_ENGENHARIA CIVIL.pdf                         | eng_civ          |
 | ENADE_2017_ENGENHARIA DA COMPUTAÇÃO.pdf                 | eng_comp         |
-| ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf                  | env_alim         |
+| ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf                  | eng_alim         |
 | ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf       | eng_contr        |
 | ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf                   | eng_prod         |
 | ENADE_2017_ENGENHARIA ELÉTRICA.pdf                      | eng_el           |
@@ -252,7 +252,7 @@
 | ENADE_2019_ENGENHARIA AMBIENTAL.pdf                     | eng_amb          |
 | ENADE_2019_ENGENHARIA CIVIL.pdf                         | eng_civ          |
 | ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf                 | eng_comp         |
-| ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf                  | env_alim         |
+| ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf                  | eng_alim         |
 | ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf       | eng_contr        |
 | ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf                   | eng_prod         |
 | ENADE_2019_ENGENHARIA ELÉTRICA.pdf                      | eng_el           |
@@ -328,7 +328,7 @@
 | ENADE_2023_ENFERMAGEM.pdf                               | enf              |
 | ENADE_2023_ENGENHARI QUÍMICA.pdf                        | eng_qui          |
 | ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf                 | eng_comp         |
-| ENADE_2023_ENGENHARIA DE ALIMENTOS.pdf                  | env_alim         |
+| ENADE_2023_ENGENHARIA DE ALIMENTOS.pdf                  | eng_alim         |
 | ENADE_2023_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf       | eng_contr        |
 | ENADE_2023_ENGENHARIA DE PRODUÇÃO.pdf                   | eng_prod         |
 | ENADE_2023_ENGENHARIA ELÉTRICA.pdf                      | eng_el           |
