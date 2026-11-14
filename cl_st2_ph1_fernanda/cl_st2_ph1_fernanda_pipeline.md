@@ -34,7 +34,7 @@ Manual page clean-up is required because the automated process could not avoid f
 
 Please refer to the document: `corpus/enade_chapters_clean_up_dataset_c6_manual.md`
 
-### 2.4. 
+### 2.4. Create the `enade_chapters_clean_up_revised_dataset` manifest
 
 
 ## 3. Denoise the ENADE reports
