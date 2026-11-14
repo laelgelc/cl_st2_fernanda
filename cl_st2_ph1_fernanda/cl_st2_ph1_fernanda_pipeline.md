@@ -62,3 +62,18 @@ python llm_denoise.py \
     --model gpt-6-luna \
     --only-filename enade_2009_admin
 ```
+
+### Production mode on an EC2 instance
+
+```shell
+bash run_python_ec2.sh \
+    llm_denoise.py \
+    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+    --prompt denoising_prompts/denoising_v1.md \
+    --output corpus/03_enade_selected_chapters_denoised \
+    --window-size 3 \
+    --model gpt-6-luna \
+    --workers 10 \
+    --resume \
+    --max-retries 5
+```
