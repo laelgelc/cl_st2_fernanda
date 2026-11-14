@@ -47,7 +47,18 @@ python llm_denoise.py \
     --output corpus/03_enade_denoised \
     --window-size 3 \
     --model gpt-6-luna \
-    --limit 10 \
-    --max-output-tokens 10000 \
+    --only-filename enade_2009_admin \
     --dry-run
+```
+
+### Test run, first time
+
+```shell
+python llm_denoise.py \
+    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+    --prompt denoising_prompts/denoising_v1.md \
+    --output corpus/03_enade_denoised \
+    --window-size 3 \
+    --model gpt-6-luna \
+    --only-filename enade_2009_admin
 ```
