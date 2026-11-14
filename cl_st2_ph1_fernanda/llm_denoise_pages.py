@@ -27,14 +27,19 @@ REQUIRED_FIELDS = ("chapter_of_interest", "filename_stem", "filepath_ori", "chap
 PAGE_PATTERN = re.compile(r"_page_(\d+)\.txt$", re.IGNORECASE)
 SCHEMA_VERSION = "selected-page-json-v1"
 __all__ = [
-    "Config", "FatalSetupError", "Page", "PLACEHOLDER", "build_pages", "build_prompt", "call_with_retries",
-    "chapter_output_path", "consolidate_chapter", "context_pages", "load_existing_success", "main",
-    "parse_page_number", "request_fingerprint", "validate_response",
+    "Config", "FatalProviderError", "FatalSetupError", "Page", "PLACEHOLDER", "build_pages", "build_prompt",
+    "call_with_retries", "chapter_output_path", "consolidate_chapter", "context_pages", "is_fatal_provider_error",
+    "load_existing_success", "main", "parse_page_number", "process_work_queue", "request_fingerprint",
+    "validate_response",
 ]
 
 
 class FatalSetupError(RuntimeError):
     """Fatal configuration or input error discovered before processing."""
+
+
+class FatalProviderError(RuntimeError):
+    """Provider configuration error that makes further requests futile."""
 
 
 @dataclass(frozen=True)
@@ -48,7 +53,7 @@ class Config:
     workers: int
     max_retries: int
     retry_backoff_seconds: float
-    temperature: float
+    temperature: float | None
     max_output_tokens: int
     env_file: Path
     limit: int | None
@@ -117,7 +122,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--max-retries", type=int, default=2)
     parser.add_argument("--retry-backoff-seconds", type=float, default=5.0)
-    parser.add_argument("--temperature", type=float, default=0.0)
+    parser.add_argument("--temperature", type=float, default=None,
+                        help="Explicitly set sampling temperature; omitted by default for model compatibility.")
     parser.add_argument("--max-output-tokens", type=int, default=10000)
     parser.add_argument("--env-file", default="env/.env")
     parser.add_argument("--limit", type=int)
@@ -166,7 +172,7 @@ def validate_config(config: Config) -> None:
     if (not math.isfinite(config.retry_backoff_seconds) or config.retry_backoff_seconds < 0
             or config.retry_backoff_seconds > 300):
         raise FatalSetupError("--retry-backoff-seconds must be between 0 and 300")
-    if not math.isfinite(config.temperature) or config.temperature < 0:
+    if config.temperature is not None and (not math.isfinite(config.temperature) or config.temperature < 0):
         raise FatalSetupError("--temperature must be a finite non-negative number")
     if config.max_output_tokens <= 0:
         raise FatalSetupError("--max-output-tokens must be greater than zero")
@@ -529,6 +535,20 @@ def is_recoverable_provider_error(exc: Exception) -> bool:
     )
 
 
+def is_fatal_provider_error(exc: Exception) -> bool:
+    status = getattr(exc, "status_code", None)
+    if status in (401, 403, 404):
+        return True
+    message = str(exc).lower()
+    fatal_hints = (
+        "invalid api key", "incorrect api key", "api key not valid", "authentication",
+        "permission denied", "does not have access", "model not found", "model_not_found",
+        "model is not available", "does not exist", "unsupported parameter", "unsupported value",
+        "unknown parameter", "not supported with this model", "not supported for this model",
+    )
+    return any(hint in message for hint in fatal_hints)
+
+
 def _provider_call(client: Any, config: Config, prompt: str) -> tuple[str, dict[str, Any]]:
     family = model_family(config.model)
     if family == "openai":
@@ -538,15 +558,15 @@ def _provider_call(client: Any, config: Config, prompt: str) -> tuple[str, dict[
             "max_output_tokens": config.max_output_tokens,
             "text": {"format": {"type": "json_object"}},
         }
-        if not config.model.lower().startswith(("o1", "o3", "o4", "gpt-5")):
+        if config.temperature is not None:
             request["temperature"] = config.temperature
         response = client.responses.create(**request)
     else:
         response = client.models.generate_content(
             model=config.model,
             contents=[prompt],
-            config={"response_mime_type": "application/json", "temperature": config.temperature,
-                    "max_output_tokens": config.max_output_tokens},
+            config={"response_mime_type": "application/json", "max_output_tokens": config.max_output_tokens,
+                    **({"temperature": config.temperature} if config.temperature is not None else {})},
         )
     return _extract_text(response, family), _extract_metadata(response, family, config.model)
 
@@ -557,6 +577,10 @@ def call_with_retries(client: Any, config: Config, prompt: str) -> tuple[str, di
             raw, metadata = _provider_call(client, config, prompt)
             return raw, metadata, attempt
         except Exception as exc:
+            if is_fatal_provider_error(exc):
+                raise FatalProviderError(
+                    f"Provider configuration error ({type(exc).__name__}): {str(exc)[:400]}"
+                ) from exc
             if attempt >= config.max_retries or not is_recoverable_provider_error(exc):
                 raise RuntimeError(f"Provider request failed ({type(exc).__name__}): {str(exc)[:400]}") from exc
             delay = min(config.retry_backoff_seconds * (2 ** attempt), 300.0)
@@ -623,13 +647,84 @@ def process_target(
             record.update({"status": "success", "text": text, "text_sha256": sha256_text(text), "empty_text": text == "",
                            "review_notes": review_notes, "api_metadata": api_metadata, "retry_count": retry_count})
     except Exception as exc:
-        record.update({"status": "failed", "error_type": type(exc).__name__, "error": sanitize_error(exc)})
+        record.update({"status": "failed", "error_type": type(exc).__name__, "error": sanitize_error(exc),
+                       "run_fatal_error": isinstance(exc, FatalProviderError)})
     record["duration_seconds"] = round(time.monotonic() - started, 3)
     try:
         atomic_write_json(page.result_path, record)
     except Exception as exc:
         record.update({"status": "failed", "error_type": "page_result_write_error", "error": sanitize_error(exc)})
     return record
+
+
+def process_work_queue(
+    work: list[tuple[Page, list[Page], str]],
+    records_by_group: dict[tuple[str, str, str], dict[int, dict[str, Any]]],
+    template: str,
+    prompt_hash: str,
+    config: Config,
+    call_provider: Callable[[str], tuple[str, dict[str, Any], int]],
+    invalid_dir: Path,
+) -> str | None:
+    def run_item(item: tuple[Page, list[Page], str]) -> dict[str, Any]:
+        page, window, fingerprint = item
+        try:
+            return process_target(page, window, template, prompt_hash, fingerprint, config, call_provider, invalid_dir)
+        except Exception as exc:
+            record = base_page_record(page, prompt_hash, fingerprint, window, config)
+            record.update({"status": "failed", "error_type": type(exc).__name__, "error": sanitize_error(exc),
+                           "run_fatal_error": isinstance(exc, FatalProviderError)})
+            try:
+                atomic_write_json(page.result_path, record)
+            except Exception as write_exc:
+                record.update({"error_type": "page_result_write_error", "error": sanitize_error(write_exc)})
+            return record
+
+    def store_item(item: tuple[Page, list[Page], str], record: dict[str, Any]) -> None:
+        page = item[0]
+        records_by_group[page.group][page.page_number] = record
+        logging.info("Page completed chapter=%s page=%d status=%s", page.group[2], page.page_number,
+                     record.get("status"))
+
+    fatal_error: str | None = None
+    next_index = 0
+    if work:
+        first_record = run_item(work[0])
+        store_item(work[0], first_record)
+        next_index = 1
+        if first_record.get("run_fatal_error"):
+            fatal_error = first_record.get("error", "Provider configuration error")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=config.workers) as executor:
+        futures: dict[concurrent.futures.Future[dict[str, Any]], tuple[Page, list[Page], str]] = {}
+
+        def submit_available() -> None:
+            nonlocal next_index
+            while next_index < len(work) and len(futures) < config.workers:
+                item = work[next_index]
+                futures[executor.submit(run_item, item)] = item
+                next_index += 1
+
+        if fatal_error is None:
+            submit_available()
+        while futures:
+            done, _ = concurrent.futures.wait(futures, return_when=concurrent.futures.FIRST_COMPLETED)
+            for future in done:
+                item = futures.pop(future)
+                record = future.result()
+                store_item(item, record)
+                if record.get("run_fatal_error") and fatal_error is None:
+                    fatal_error = record.get("error", "Provider configuration error")
+            if fatal_error is None:
+                submit_available()
+
+    if fatal_error is not None:
+        for page, window, fingerprint in work[next_index:]:
+            record = base_page_record(page, prompt_hash, fingerprint, window, config)
+            record.update({"status": "not_attempted", "error_type": "run_aborted_configuration_error",
+                           "error": f"Not attempted after a run-wide provider configuration error: {fatal_error}"})
+            records_by_group[page.group][page.page_number] = record
+    return fatal_error
 
 
 def chapter_output_path(config: Config, group: tuple[str, str, str], document_id: str) -> Path:
@@ -669,7 +764,10 @@ def chapter_status_record(
     output_path: Path,
 ) -> dict[str, Any]:
     flags, conditions = build_boundary_flags(pages, records)
-    failed_pages = [page.page_number for page in pages if records.get(page.page_number, {}).get("status") != "success"]
+    failed_pages = [page.page_number for page in pages
+                    if records.get(page.page_number, {}).get("status") in {"failed", "invalid_response"}]
+    unattempted_pages = [page.page_number for page in pages
+                         if records.get(page.page_number, {}).get("status") in {None, "not_attempted"}]
     empty_pages = [page.page_number for page in pages if records.get(page.page_number, {}).get("status") == "success"
                    and records[page.page_number].get("text") == ""]
     notes = sum(len(records.get(page.page_number, {}).get("review_notes", [])) for page in pages)
@@ -679,8 +777,11 @@ def chapter_status_record(
         "complete": status == "complete",
         "scope_limited": config.limit is not None,
         "selected_pages": [page.page_number for page in pages],
-        "successful_page_count": len(pages) - len(failed_pages),
-        "failed_or_missing_pages": failed_pages,
+        "successful_page_count": sum(records.get(page.page_number, {}).get("status") == "success" for page in pages),
+        "failed_pages": failed_pages,
+        "unattempted_pages": unattempted_pages,
+        "failed_or_missing_pages": [page.page_number for page in pages
+                                    if records.get(page.page_number, {}).get("status") != "success"],
         "empty_success_pages": empty_pages,
         "review_note_count": notes,
         "boundary_review_flags": flags,
@@ -735,6 +836,7 @@ def _summary_counts(records: list[dict[str, Any]], chapter_statuses: list[dict[s
         "empty_success_pages": sum(record.get("status") == "success" and record.get("empty_text") for record in records),
         "failed_pages": sum(record.get("status") == "failed" for record in records),
         "invalid_responses": sum(record.get("status") == "invalid_response" for record in records),
+        "unattempted_pages": sum(record.get("status") == "not_attempted" for record in records),
         "resumed_pages": sum(bool(record.get("resumed")) for record in records),
         "retried_pages": sum(int(record.get("retry_count", 0) or 0) > 0 for record in records),
         "complete_chapters": sum(status["complete"] for status in chapter_statuses),
@@ -821,33 +923,24 @@ def main(argv: list[str] | None = None) -> int:
             else:
                 work.append((page, window, fingerprint))
         invalid_dir = config.output / "invalid_responses"
-        with concurrent.futures.ThreadPoolExecutor(max_workers=config.workers) as executor:
-            futures = {executor.submit(process_target, page, window, template, prompt_hash, fingerprint, config,
-                                       call_provider, invalid_dir): page for page, window, fingerprint in work}
-            for future in concurrent.futures.as_completed(futures):
-                page = futures[future]
-                try:
-                    record = future.result()
-                except Exception as exc:
-                    record = {**base_page_record(page, prompt_hash, "", [], config), "status": "failed",
-                              "error_type": type(exc).__name__, "error": sanitize_error(exc)}
-                    atomic_write_json(page.result_path, record)
-                records_by_group[page.group][page.page_number] = record
-                logging.info("Page completed chapter=%s page=%d status=%s", page.group[2], page.page_number, record.get("status"))
+        fatal_error = process_work_queue(work, records_by_group, template, prompt_hash, config, call_provider, invalid_dir)
 
         chapter_statuses = [consolidate_chapter(config, group, items, records_by_group[group]) for group, items in grouped.items()]
         atomic_write_ndjson(status_path, chapter_statuses)
         flat_records = [records_by_group[page.group][page.page_number] for page in pages]
         failures = [record for record in flat_records if record.get("status") == "failed"]
         invalid = [record for record in flat_records if record.get("status") == "invalid_response"]
+        unattempted = [record for record in flat_records if record.get("status") == "not_attempted"]
         atomic_write_ndjson(config.output / "failures.ndjson", failures)
         atomic_write_ndjson(config.output / "invalid_responses.ndjson", invalid)
+        atomic_write_ndjson(config.output / "unattempted_pages.ndjson", unattempted)
         counts = _summary_counts(flat_records, chapter_statuses)
         ended_at = utc_now_iso()
         summary = {
             "run_id": run_id,
             "programme": PROGRAMME,
-            "status": "success" if not failures and not invalid and not counts["incomplete_chapters"] else "completed_with_errors",
+            "status": "aborted_configuration_error" if fatal_error else
+            "success" if not failures and not invalid and not counts["incomplete_chapters"] else "completed_with_errors",
             "started_at": started_at,
             "ended_at": ended_at,
             "model": config.model,
@@ -856,6 +949,7 @@ def main(argv: list[str] | None = None) -> int:
             "prompt_sha256": prompt_hash,
             "settings": {"window_size": config.window_size, "workers": config.workers, "temperature": config.temperature,
                          "max_output_tokens": config.max_output_tokens, "max_retries": config.max_retries},
+            "fatal_error": sanitize_error(RuntimeError(fatal_error)) if fatal_error else None,
             "credentials": {"provider_key_available": True, "secrets_logged": False},
             "counts": counts,
             "usage_totals": _usage_totals(flat_records),
@@ -865,7 +959,7 @@ def main(argv: list[str] | None = None) -> int:
             "manifest": str(config.manifest), "output": str(config.output), "prompt": str(config.prompt),
             "manifest_sha256": manifest_hash, "prompt_sha256": prompt_hash, "settings": summary["settings"],
             "environment": {"provider": model_family(config.model), "key_available": True, "secrets_logged": False},
-            "counts": counts,
+            "counts": counts, "fatal_error": summary["fatal_error"],
         })
         atomic_write_json(run_dir / "summary.json", summary)
         print(json.dumps(summary, ensure_ascii=False, indent=2))

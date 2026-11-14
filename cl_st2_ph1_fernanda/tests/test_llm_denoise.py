@@ -28,7 +28,7 @@ class DenoisingFixture(unittest.TestCase):
             workers=2,
             max_retries=1,
             retry_backoff_seconds=0,
-            temperature=0,
+            temperature=None,
             max_output_tokens=100,
             env_file=self.root / ".env",
             limit=None,
@@ -181,6 +181,13 @@ class ResponseAndProcessingTests(DenoisingFixture):
         after = denoise.request_fingerprint(target, changed_pages, self.prompt_hash, self.config)
         self.assertNotEqual(before, after)
 
+    def test_fingerprint_changes_when_temperature_is_explicit(self):
+        page = self.make_pages([9])[0]
+        default_fingerprint = denoise.request_fingerprint(page, [page], self.prompt_hash, self.config)
+        explicit_fingerprint = denoise.request_fingerprint(
+            page, [page], self.prompt_hash, replace(self.config, temperature=0.0))
+        self.assertNotEqual(default_fingerprint, explicit_fingerprint)
+
     def test_transient_provider_error_retries_but_permanent_error_does_not(self):
         calls = []
 
@@ -198,6 +205,160 @@ class ResponseAndProcessingTests(DenoisingFixture):
         self.assertEqual(response, "{}")
         self.assertEqual(retries, 1)
         self.assertEqual(len(calls), 2)
+
+    def test_provider_requests_omit_temperature_unless_explicit(self):
+        openai_calls = []
+
+        class OpenAIResponses:
+            def create(self, **kwargs):
+                openai_calls.append(kwargs)
+                return type("Response", (), {"output_text": "{}"})()
+
+        openai_client = type("Client", (), {"responses": OpenAIResponses()})()
+        denoise._provider_call(openai_client, self.config, "prompt")
+        denoise._provider_call(openai_client, replace(self.config, temperature=0.25), "prompt")
+        self.assertNotIn("temperature", openai_calls[0])
+        self.assertEqual(openai_calls[1]["temperature"], 0.25)
+
+        gemini_calls = []
+
+        class GeminiModels:
+            def generate_content(self, **kwargs):
+                gemini_calls.append(kwargs)
+                return type("Response", (), {"text": "{}"})()
+
+        gemini_client = type("Client", (), {"models": GeminiModels()})()
+        gemini_config = replace(self.config, model="gemini-test")
+        denoise._provider_call(gemini_client, gemini_config, "prompt")
+        denoise._provider_call(gemini_client, replace(gemini_config, temperature=0.5), "prompt")
+        self.assertNotIn("temperature", gemini_calls[0]["config"])
+        self.assertEqual(gemini_calls[1]["config"]["temperature"], 0.5)
+
+    def test_provider_configuration_errors_are_fatal_but_unknown_bad_requests_are_not(self):
+        class ProviderError(Exception):
+            def __init__(self, status_code, message):
+                super().__init__(message)
+                self.status_code = status_code
+
+        for error in (
+            ProviderError(401, "invalid API key"),
+            ProviderError(403, "permission denied"),
+            ProviderError(404, "model not found"),
+            ProviderError(400, "Unsupported parameter: temperature is not supported with this model"),
+        ):
+            with self.subTest(error=str(error)):
+                self.assertTrue(denoise.is_fatal_provider_error(error))
+        self.assertFalse(denoise.is_fatal_provider_error(ProviderError(400, "invalid page content")))
+        self.assertTrue(denoise.is_recoverable_provider_error(ProviderError(429, "rate limit")))
+
+    def test_fatal_provider_error_is_not_retried(self):
+        calls = []
+
+        class BadRequestError(Exception):
+            status_code = 400
+
+        def reject_temperature(*args):
+            calls.append(1)
+            raise BadRequestError("Unsupported parameter: temperature is not supported with this model")
+
+        with patch.object(denoise, "_provider_call", side_effect=reject_temperature):
+            with self.assertRaises(denoise.FatalProviderError):
+                denoise.call_with_retries(object(), self.config, "prompt")
+        self.assertEqual(len(calls), 1)
+
+    def test_scheduler_stops_after_first_fatal_configuration_error(self):
+        pages = self.make_pages([30, 31, 32])
+        grouped = {pages[0].group: pages}
+        work = []
+        for page in pages:
+            window = denoise.context_pages(page, pages, self.config.window_size)
+            work.append((page, window, denoise.request_fingerprint(page, window, self.prompt_hash, self.config)))
+        calls = []
+
+        def fatal_provider(prompt):
+            target_page = next(number for number in (30, 31, 32)
+                               if f'role="target">page {number}</page>' in prompt)
+            calls.append(target_page)
+            raise denoise.FatalProviderError("unsupported temperature parameter")
+
+        records = {pages[0].group: {}}
+        fatal_error = denoise.process_work_queue(
+            work, records, self.template, self.prompt_hash, self.config, fatal_provider,
+            self.config.output / "invalid_responses")
+
+        self.assertIn("unsupported temperature", fatal_error)
+        self.assertEqual(calls, [30])
+        self.assertEqual(records[pages[0].group][30]["status"], "failed")
+        self.assertTrue(records[pages[0].group][30]["run_fatal_error"])
+        self.assertEqual(records[pages[0].group][31]["status"], "not_attempted")
+        self.assertEqual(records[pages[0].group][32]["status"], "not_attempted")
+        status = denoise.consolidate_chapter(self.config, pages[0].group, pages, records[pages[0].group])
+        self.assertFalse(status["complete"])
+        self.assertEqual(status["unattempted_pages"], [31, 32])
+        self.assertEqual(status["successful_page_count"], 0)
+
+    def test_page_specific_failure_does_not_abort_unrelated_targets(self):
+        pages = self.make_pages([35, 36])
+        work = []
+        for page in pages:
+            window = denoise.context_pages(page, pages, self.config.window_size)
+            work.append((page, window, denoise.request_fingerprint(page, window, self.prompt_hash, self.config)))
+        calls = []
+
+        def provider(prompt):
+            target_page = next(number for number in (35, 36)
+                               if f'role="target">page {number}</page>' in prompt)
+            calls.append(target_page)
+            if target_page == 35:
+                raise RuntimeError("page-specific provider rejection")
+            return json.dumps({"text": "unrelated prose", "review_notes": []}), {}, 0
+
+        records = {pages[0].group: {}}
+        fatal_error = denoise.process_work_queue(
+            work, records, self.template, self.prompt_hash, self.config, provider,
+            self.config.output / "invalid_responses")
+        self.assertIsNone(fatal_error)
+        self.assertCountEqual(calls, [35, 36])
+        self.assertEqual(records[pages[0].group][35]["status"], "failed")
+        self.assertEqual(records[pages[0].group][36]["status"], "success")
+
+    def test_scheduler_does_not_queue_more_work_after_a_fatal_in_flight_error(self):
+        import threading
+
+        pages = self.make_pages([40, 41, 42, 43])
+        work = []
+        for page in pages:
+            window = denoise.context_pages(page, pages, self.config.window_size)
+            work.append((page, window, denoise.request_fingerprint(page, window, self.prompt_hash, self.config)))
+        fatal_seen = threading.Event()
+        release_second = threading.Event()
+        calls = []
+
+        def provider(prompt):
+            target_page = next(number for number in (40, 41, 42, 43)
+                               if f'role="target">page {number}</page>' in prompt)
+            calls.append(target_page)
+            if target_page == 41:
+                fatal_seen.set()
+                raise denoise.FatalProviderError("model is not available")
+            if target_page == 42:
+                self.assertTrue(fatal_seen.wait(1))
+                self.assertTrue(release_second.wait(1))
+            return json.dumps({"text": f"prose {target_page}", "review_notes": []}), {}, 0
+
+        records = {pages[0].group: {}}
+        release_thread = threading.Timer(0.1, release_second.set)
+        release_thread.start()
+        try:
+            fatal_error = denoise.process_work_queue(
+                work, records, self.template, self.prompt_hash, self.config, provider,
+                self.config.output / "invalid_responses")
+        finally:
+            release_thread.cancel()
+        self.assertIn("model is not available", fatal_error)
+        self.assertCountEqual(calls, [40, 41, 42])
+        self.assertEqual(records[pages[0].group][42]["status"], "success")
+        self.assertEqual(records[pages[0].group][43]["status"], "not_attempted")
 
     def test_concurrent_pages_write_independent_results(self):
         from concurrent.futures import ThreadPoolExecutor

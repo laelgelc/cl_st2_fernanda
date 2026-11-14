@@ -103,7 +103,7 @@ python llm_denoise.py \
   --workers 4
 ```
 
-The implementation exposes the input manifest, prompt, output directory, total window size, model, bounded worker count, retry settings and mutually exclusive resume/reprocess behavior. Workers are limited to `1`–`64`, retries to `0`–`10`, and retry backoff to `0`–`300` seconds. `--limit` is intended for inspection and dry-run planning; live limited runs are deliberately marked incomplete and do not publish consolidated chapter text. Validate that window size is positive and odd and that worker/retry values are in range before making API calls. The default window size is `3`; `5` is an explicit more-context option, not a different output policy. Dry-run validates manifest rows, page files, grouping, gaps, windows, prompt marker and output identities, and reports credential availability without calling the provider or publishing corpus artefacts.
+The implementation exposes the input manifest, prompt, output directory, total window size, model, bounded worker count, retry settings and mutually exclusive resume/reprocess behavior. Workers are limited to `1`–`64`, retries to `0`–`10`, and retry backoff to `0`–`300` seconds. `--temperature` is omitted by default; specify it only when the chosen model/provider supports it. `--limit` is intended for inspection and dry-run planning; live limited runs are deliberately marked incomplete and do not publish consolidated chapter text. Validate that window size is positive and odd and that worker/retry values are in range before making API calls. The default window size is `3`; `5` is an explicit more-context option, not a different output policy. Dry-run validates manifest rows, page files, grouping, gaps, windows, prompt marker and output identities, and reports credential availability without calling the provider or publishing corpus artefacts.
 
 ## 7. Per-page processing and response validation
 
@@ -125,9 +125,9 @@ Retain provider support for OpenAI and Gemini. Route `gemini-` model names to th
 
 Load credentials from the process environment and, if configured, a simple `KEY=VALUE` env file without overriding already-set process variables. Require `OPENAI_API_KEY` or `GEMINI_API_KEY` for the selected provider unless running dry-run. Record only whether the relevant key is available and its source category; never log or persist the key value.
 
-Retry recoverable provider errors (for example transient network errors, rate limits, and service-unavailable responses) up to a configurable bounded count with exponential backoff. Do not retry permanent authentication/configuration errors or repeatedly retry invalid model JSON as if it were a transport failure. Record retry count and sanitized error type/message; do not log full prompts, page text, or credentials. Capture provider usage/token counts when exposed and identify unavailable counts as null rather than fabricating values.
+Retry recoverable provider errors (for example transient network errors, rate limits, and service-unavailable responses) up to a configurable bounded count with exponential backoff. Do not retry permanent authentication/configuration errors or repeatedly retry invalid model JSON as if it were a transport failure. Omit sampling temperature unless the caller explicitly supplies `--temperature`; do not infer support from a model-name prefix. Treat clear authentication/permission errors, missing or inaccessible models, and explicit unsupported-parameter errors as run-wide configuration failures; an unrecognized page-specific bad request remains a page failure. Record retry count and sanitized error type/message; do not log full prompts, page text, or credentials. Capture provider usage/token counts when exposed and identify unavailable counts as null rather than fabricating values.
 
-Use bounded concurrent page workers. Each worker writes only its unique page-result artefact (and, if needed, unique per-page failure/invalid-response records) using atomic replacement. Aggregate shared NDJSON logs, chapter outputs, run manifests, and summaries in a coordinated stage or through a synchronized writer to avoid concurrent write races. Respect provider rate limits and allow a lower worker count. A failed page must not prevent unrelated pages from being attempted, but it does prevent its chapter from being marked complete.
+Use bounded concurrent page workers. Process the first uncached target before dispatching other work, then keep no more than the configured worker count in flight. If a run-wide configuration error is detected, stop submitting new requests, allow already-submitted requests to finish and audit them, mark the remaining targets `not_attempted`, and return a non-zero run status. Each worker writes only its unique page-result artefact (and, if needed, unique per-page failure/invalid-response records) using atomic replacement. Aggregate shared NDJSON logs, chapter outputs, run manifests, and summaries in a coordinated stage or through a synchronized writer to avoid concurrent write races. Respect provider rate limits and allow a lower worker count. Ordinary page-specific failures must not prevent unrelated pages from being attempted, but a failed or unattempted page prevents its chapter from being marked complete.
 
 ## 9. Output and audit artefacts
 
@@ -142,6 +142,7 @@ Recommended layout:
   chapter_status.ndjson
   failures.ndjson
   invalid_responses.ndjson
+  unattempted_pages.ndjson
   runs/<run_id>/run_manifest.json
   runs/<run_id>/summary.json
   runs/<run_id>/run.log
@@ -151,7 +152,7 @@ The exact layout may change, but the responsibilities are required:
 
 - **Page result:** one record per target page, including valid empty results, review notes, input/context fingerprints, status, and provider audit metadata.
 - **Chapter text:** one consolidated UTF-8 text file per source document and chapter, assembled in ascending numeric page order from successful non-empty target texts only. Use a conservative blank-line separator between page results; do not add page labels, merge split words, or otherwise repair page boundaries.
-- **Chapter status:** explicit `complete`/`incomplete` status, page counts, failed/missing pages, output path, and boundary review flags. Empty successful pages count as completed pages even though they add no text.
+- **Chapter status:** explicit `complete`/`incomplete` status, page counts, failed and unattempted pages, output path, and boundary review flags. Empty successful pages count as completed pages even though they add no text.
 - **Run artefacts:** immutable input/prompt/settings fingerprints, selected model/provider, start/end timestamps, counts, token usage where available, and sanitized failures. Do not include secrets or source text.
 
 Publish a chapter text file atomically and only after every selected page in that chapter has a current successful result. If any page is failed, missing, or stale, mark the chapter incomplete and do not claim its consolidated text is current. A prior file may remain on disk during an incomplete rerun, but status metadata must make it unambiguously unusable as the current complete output; downstream consumers must require `complete=true` and matching fingerprints.
@@ -178,9 +179,9 @@ A changed target or context page, a gap/window change, prompt edit, schema/rende
 
 ## 12. Failure handling and observability
 
-Record per-page failures with stable target identity, status stage, sanitized exception type/message, retry count, and timestamp. Distinguish at least input/preflight errors, provider errors, empty provider responses, invalid JSON/schema, and write/consolidation errors. Store invalid responses separately with size limits and suitable access controls; avoid exposing page text in normal logs. Continue other independent targets when safe, and return a non-zero run status if any target or required consolidation failed.
+Record per-page failures with stable target identity, status stage, sanitized exception type/message, retry count, and timestamp. Distinguish at least input/preflight errors, provider errors, empty provider responses, invalid JSON/schema, and write/consolidation errors. Store invalid responses separately with size limits and suitable access controls; avoid exposing page text in normal logs. After a run-wide provider configuration error, report unsubmitted targets separately in `unattempted_pages.ndjson` and the run summary; do not count them as provider failures or publish their stale page artefacts as current results. Continue other independent targets after page-specific errors when safe, and return a non-zero run status if any target or required consolidation failed.
 
-The run summary must report selected, successful, empty-success, failed, resumed, and retried page counts; complete/incomplete chapter counts; review-note and boundary-flag counts; elapsed time; model/provider; input, prompt, and settings fingerprints; and token usage when available. Logs must be useful for diagnosing runs without containing API keys or full prompt/page contents.
+The run summary must report selected, successful, empty-success, failed, unattempted, resumed, and retried page counts; complete/incomplete chapter counts; review-note and boundary-flag counts; elapsed time; model/provider; input, prompt, and settings fingerprints; and token usage when available. A run-wide configuration abort must have a distinct status and sanitized fatal-error diagnostic. Logs must be useful for diagnosing runs without containing API keys or full prompt/page contents.
 
 ## 13. Acceptance criteria and pilot
 
@@ -195,8 +196,9 @@ The implementation is ready for production use only when the following behaviors
 7. Page outputs consolidate in numeric order; empty pages add no text; split-word and incomplete-sentence heuristics create metadata flags without changing text; gaps/failures are not treated as normal boundaries.
 8. A single failed or stale page prevents a chapter from being published/marked complete, while unrelated pages can finish. Re-running a complete chapter rebuilds rather than appends.
 9. Resume reuses identical successful requests and invalidates results when target/context content, prompt, window, model, or generation settings change.
-10. API keys do not appear in logs or any output artefact; recoverable errors retry within configured bounds; invalid responses and provider failures are separately diagnosed.
-11. Concurrent workers do not corrupt page, chapter, or run-level artefacts; temporary files are not mistaken for completed results.
+10. API keys do not appear in logs or any output artefact; recoverable errors retry within configured bounds; invalid responses and provider failures are separately diagnosed. Default provider requests omit temperature, while an explicitly supplied value is included and fingerprinted.
+11. A fatal authentication, permission, missing-model, or unsupported-parameter error stops new submissions; in-flight work is audited, unsubmitted targets are distinguished from failures, and affected chapters remain incomplete.
+12. Concurrent workers do not corrupt page, chapter, or run-level artefacts; temporary files are not mistaken for completed results.
 
 Before processing the full dataset, run a human-reviewed pilot on a varied sample: prose-only pages, graph/table-only pages, mixed prose and visual material, captions/source lines, uncertain extraction order, multi-page visual material, page gaps, window boundaries, and an empty output page. Include the known `c4` pages 77–82 from `enade_2009_admin` where available, especially mixed-content pages and graph/source ordering. Compare outputs and review notes with the extracted page files and source PDFs when extraction order or visual boundaries are uncertain. Record observed omissions, accidental prose loss, false boundary flags, and token/cost differences for window sizes 3 and 5 before selecting a corpus-wide setting.
 
