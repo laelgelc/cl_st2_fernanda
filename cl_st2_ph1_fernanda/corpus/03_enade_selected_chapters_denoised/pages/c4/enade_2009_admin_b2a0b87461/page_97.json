@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_008b30aa017a2d38006af8d9bbc44c87d19f912c035808ec37",
+    "usage": {
+      "input_tokens": 2572,
+      "input_tokens_details": {
+        "cache_write_tokens": 2569,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2569
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 310,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 2882
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_96.txt",
+      "source_sha256": "bf7776f015b15c3b975f24128791f4d3dcd7e7cae5dfae9ebc9faf20bcc3d775"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_98.txt",
+      "source_sha256": "04bff60f0b42b22c2a3a1b95fee6fffa6da7da1f5b5e16390a5f69b2260ff780"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:23Z",
+  "duration_seconds": 3.856,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_97.txt",
+    "source_sha256": "60410e507a4f1cde8dd26e2fd2ffba7c8ea20119f7b897ced758cd2e319a58f2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b20753582d6b175dd159bf1fa3beacad970b406650b0a7c2ab8f509575c60e94",
+  "request_fingerprint": "eb7a4fa3e90bce7ceb367f153b656a9cb12e1345c7fd6b754ead56f17e0507f4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.11c, incluindo título, dados, rótulos e fonte.",
+    "Removido o Gráfico 4.12a, incluindo título, dados, rótulos e fonte. O gráfico 4.12b continua na página de contexto e não foi incluído."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.12a e 4.12b apresentam a distribuição das respostas à questão “As informações/instruções fornecidas para a resolução das questões foram suficientes para resolvê-las?”, segundo a Região geográfica onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ADMINISTRAÇÃO.",
+  "text_sha256": "bbe45ef75a778e279cd4f3543bd6aefe222a28c141693294e4b1aae586978cd8",
+  "window_size": 3
+}

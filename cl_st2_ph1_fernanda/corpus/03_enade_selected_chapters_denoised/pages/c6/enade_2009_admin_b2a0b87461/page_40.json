@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_066fe93c05904d62006af8d9e6a9b487d1900d0fcd2d1b899b",
+    "usage": {
+      "input_tokens": 2665,
+      "input_tokens_details": {
+        "cache_write_tokens": 2662,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2662
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1423,
+      "output_tokens_details": {
+        "reasoning_tokens": 655
+      },
+      "total_tokens": 4088
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_39.txt",
+      "source_sha256": "60904085ac72417502df7925e9dad0a40cf25bdbb73ddaeb5938132633d75fbf"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_41.txt",
+      "source_sha256": "5bb58d1d05757b4964dab78273d66ace44d3c4f1d0b41cbe84d449a9ada26ed8"
+    }
+  ],
+  "created_at": "2026-11-14T22:00:06Z",
+  "duration_seconds": 11.358,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_40.txt",
+    "source_sha256": "8350fcce8b9a9399d173503eaf755b1042e10a3f218dd50d5685f198e557d804"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "04399c4a09808dad403a4c2b31e2b6174713b8fd3e9ff549771fc44544e30a8b",
+  "request_fingerprint": "bfcf90124944b1b2bc88c575139afee82e7ba5eb3f0b863c0d4849b7966ac863",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.4 e seus dados, além da Tabela 3.5 e seus dados e fonte.",
+    "O trecho sobre a classificação da Tabela 3.5 termina na página-alvo em “(somente uma”; a continuação aparece na página seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "3.2 Análise das Questões Objetivas\n3.2.1 Formação Geral\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas da Formação Geral dos estudantes. Adiantamos que a primeira questão foi desconsiderada pelo critério da correlação ponto-bisserial.\n\nComo pode ser observado na Tabela 3.4, os estudantes concluintes obtiveram desempenho superior, com nota média de 53,94, em relação aos estudantes ingressantes, cuja nota média foi 49,69. A variabilidade entre os concluintes foi cerca de 1% menor do que entre os ingressantes, como indicaram os desvios-padrão de 21,9, para o grupo de ingressantes e 22,2 para o grupo dos concluintes. A amplitude total das notas foi a mesma para ambos os grupos: nota mínima de 0 e máxima de 100. A mediana foi 57,1 para os concluintes e 42,8 para os ingressantes. A assimetria, medida pelo coeficiente de assimetria (skewness) foi um pouco maior em módulo para os ingressantes (0) do que para os concluintes (-0,1), ainda que ambos fossem muito similares, este coeficiente indicou que a distribuição de notas dos ingressantes foi mais simétrica do que a dos concluintes.\n\nA Tabela 3.5 apresenta a classificação das questões objetivas da Formação Geral, segundo o índice de facilidade (questões em vermelho foram desconsideradas pelo critério ponto-bisserial). Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de ADMINISTRAÇÃO. De acordo com os índices obtidos, as questões objetivas da prova foram assim avaliadas para a área de ADMINISTRAÇÃO: das oito questões, duas tiveram entre 60%, inclusive, e 85% de acertos e foram classificadas como fáceis (somente uma\n\nA Tabela 3.6 descreve os resultados das análises das questões objetivas relativas à Formação Geral, segundo o poder de discriminação, utilizando-se para tal o índice de discriminação ponto-bisserial. Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de ADMINISTRAÇÃO. A desconsideração da questão, segundo este critério, considerou o universo de todos os concluintes. Nenhuma das oito questões apresentou índices igual ou acima de 0,40 (nenhuma para a população de concluintes como um todo), sendo, portanto, classificadas como muito boas nesta característica, para este grupo de estudantes, duas foram classificadas como boa com índice entre 0,30, inclusive, e 0,40 (três para os concluintes como um todo) e cinco foram classificadas como médias, com índice entre 0,20, inclusive, e 0,30 (quatro para os concluintes como um todo). Uma das questões foi classificada como fraca tanto para a população de concluintes como um todo como para a de concluintes de ADMINISTRAÇÃO e foi desconsiderada pelo critério.",
+  "text_sha256": "f2cb7cd5aec39c17a8f19c237f1a1bc29cb5e00c1272df87fcd5bb7a87afa44d",
+  "window_size": 3
+}

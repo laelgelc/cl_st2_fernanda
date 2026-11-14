@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bc0787b54477e56006af8d9b16a4887d1a87b5bc068ef2d5c",
+    "usage": {
+      "input_tokens": 2455,
+      "input_tokens_details": {
+        "cache_write_tokens": 2452,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2452
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 234,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 2689
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_86.txt",
+      "source_sha256": "5b4fb2e3a193d8b7427d937cea7da44b52b41565b61da30c4a0b5172a018cdb0"
+    },
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_88.txt",
+      "source_sha256": "164d965c17006ba5fc2747b8616ceb11db5d4ca701d0564198050b2bd8bf6301"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:13Z",
+  "duration_seconds": 3.475,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 87
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_87.txt",
+    "source_sha256": "4b3ed778f868f62b11b6ef5a24a40a7385b500269cea126596eb134002cb3475"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6af6daf2a3e979bb94c1188b935b4d0e7e6425961c23b68a2a8e209a00869798",
+  "request_fingerprint": "7e8b119b26ce8ed519fa8f1069e38e5368674c92dba1db2d3e37d8a57cf0cc71",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.6a e 4.6b, incluindo títulos, dados, legendas, escalas e fontes."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.6a e 4.6b apresentam a distribuição das respostas à questão sobre a extensão da prova em relação ao tempo total, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ADMINISTRAÇÃO. Em todas as Regiões brasileiras, a maioria dos estudantes, tanto concluintes quanto ingressantes, percebeu a prova como adequada.",
+  "text_sha256": "ed435fd28c639b8cf34bca909e3dba669e244e97d9d05432e6fda987ea56a0f8",
+  "window_size": 3
+}

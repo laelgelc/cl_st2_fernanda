@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08de4de3ef2aa99a006af8da1245d887d1a35531eb967366e6",
+    "usage": {
+      "input_tokens": 2336,
+      "input_tokens_details": {
+        "cache_write_tokens": 2333,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2333
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 335,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 2671
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_74.txt",
+      "source_sha256": "208260c2d1f797795981964d9c931d067ec5b705c963d6eb90c711aa07c5f15d"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_76.txt",
+      "source_sha256": "1bc207a5332ea044e6740a326d7d7d592ec47acc1c339d4c6510f9d865d395c2"
+    }
+  ],
+  "created_at": "2026-11-14T22:00:50Z",
+  "duration_seconds": 4.27,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_75.txt",
+    "source_sha256": "7d36c66c7acc5294c75a6226ab4bf8ba8dfb575148b2aef470a52210eecc083f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "754de466415e7887f4a308bdf2a146574287eb5c2c70a2a559eaa0dfa7389672",
+  "request_fingerprint": "9d802b00034004b7ba3c3e9a5630ac214b35d2e70486f9841ac47ee3e3488d97",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo dados e fonte.",
+    "Removido o material gráfico identificado como Gráfico 3.11, incluindo título, eixos, intervalos, legenda e fonte. O texto em prosa refere-se ao Gráfico 3.13; verificar a divergência de numeração."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 apresenta a distribuição das notas na questão 40 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.6) foi reforçada no gráfico pela concentração no primeiro intervalo. A distribuição apresentou um máximo local no primeiro intervalo, aquele com notas entre (40,50), indicando uma certa simetria entre as notas não nulas.",
+  "text_sha256": "1be67fb7fef58843bcf25f3d9d5b6d6d962ea29c437b0e2b1fe97748188ef4cf",
+  "window_size": 3
+}

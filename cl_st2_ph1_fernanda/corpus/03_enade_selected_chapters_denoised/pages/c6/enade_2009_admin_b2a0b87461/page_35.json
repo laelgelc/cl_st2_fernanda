@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ca270ceffad34b7006af8d9e1c25487d18d1318ebf827c677",
+    "usage": {
+      "input_tokens": 2392,
+      "input_tokens_details": {
+        "cache_write_tokens": 2389,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2389
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 479,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 2871
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_34.txt",
+      "source_sha256": "b2c49a69f0ac73dd8074af02868e6706ecd1c4ccb66207975b45e6062e5bf564"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_36.txt",
+      "source_sha256": "cd88d7dbb3ac50cac2407536870407d0bde01785dec76d1ed32d9bb268428974"
+    }
+  ],
+  "created_at": "2026-11-14T22:00:00Z",
+  "duration_seconds": 5.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_admin/enade_2009_admin_page_35.txt",
+    "source_sha256": "d0c58b98c0a9287dc10d982ca236d213f64bb18a85ceff3a9827308b58f78323"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "18cf84eff8cb264322864354ed3a961c60b2395630d438c3b65245b17bcccb49",
+  "request_fingerprint": "be84d3760ad79f493ffa7e2172ffd9aa04cb0fe2b3ccfc3ca094937f198c8990",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, rótulos, legenda e linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4, são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variaram, entre os concluintes, de 40,03 na Região Norte a 48,11 na Região Sul. Entre os ingressantes, os valores foram de 35,82 na Região Norte a 41,16 na Região Sul. Em todas as Regiões, os concluintes apresentaram médias maiores do que os ingressantes.\n\nTendo como foco as categorias administrativas, destacou-se que todas as esferas estavam representadas, sendo que as notas médias das instituições federais foram superiores para concluintes (55,84), enquanto as notas médias das instituições estaduais foram superiores para ingressantes (50,40).\n\nConsiderando-se o tipo de Organização Acadêmica, Centros Federais de Educação Tecnológica apresentaram os maiores valores, 53,81 para concluintes e 58,91 para ingressantes. Como podemos observar, tanto os Centros Federais de Educação Tecnológica quanto os Institutos Federais de Educação apresentaram notas médias maiores para ingressantes do que para concluintes.",
+  "text_sha256": "57e84a4a3211381064f3d8b4cc869a276037f4dda241b119cb27870d46a6e898",
+  "window_size": 3
+}

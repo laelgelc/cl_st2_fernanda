@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1d39c3f4711d4f006af8d9c4a81887d19860d685e2cf06f9",
+    "usage": {
+      "input_tokens": 2505,
+      "input_tokens_details": {
+        "cache_write_tokens": 2502,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2502
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 652,
+      "output_tokens_details": {
+        "reasoning_tokens": 315
+      },
+      "total_tokens": 3157
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_104.txt",
+      "source_sha256": "cb430c1911600aaf5583f00758db73ad74d4ef632b46243fb2bcea9e22835a03"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_106.txt",
+      "source_sha256": "ba8c544232c828fbfd7519f093bab41016dbd50378980e76b64c7231d69ad1f2"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:32Z",
+  "duration_seconds": 6.036,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_105.txt",
+    "source_sha256": "5435cac15da7e325aaaaf91831828d50cb740d6314bc1b7917edf3cd59286a74"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9a7f95f3b8f0f227babda8f4a97be571c78feb42786f299c1aa58093c523df2",
+  "request_fingerprint": "e1e8ae56600d35b06b9000239dd16c922e78d600751e9fcf30d044a3c95dd81d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico do Gráfico 4.16b, incluindo a fonte, título, dados, eixos e legendas."
+  ],
+  "status": "success",
+  "text": "4.7 Tempo gasto para concluir a prova\n\nOs Gráficos 4.17a, 4.17b e 4.17c apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo quartos de nota final e grupo de estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ADMINISTRAÇÃO. Quando perguntados quanto ao tempo de conclusão da prova, a categoria modal entre os concluintes foi entre duas e três horas (38,6%) e entre os ingressantes entre uma e duas horas (41,5%). Na segunda maior incidência de respostas às categorias se inverteram entre concluintes e ingressantes: foi entre duas e três horas (36,3%) para os ingressantes e entre uma e duas horas (35,8%) entre os concluintes. A proporção daqueles que declararam ter usado as quatro horas, mas não terem conseguido terminar foi bem baixa: 1,3% entre os ingressantes e 1,5% entre os concluintes.\n\nTanto entre os concluintes quanto entre os ingressantes, percebeu-se uma tendência monotônica do tempo necessário para concluir a prova como função do desempenho: candidatos com melhor desempenho gastam menos tempo para concluir a prova. Este fato pareceu estar relacionado ao alto desempenho que apresentaram, uma vez que esses estudantes provavelmente trouxeram mais habilidades e competências para a prova.",
+  "text_sha256": "0c90d0462d56bea0d606b3ab13f474947df5549d91ffc94701dc6d10fe1ddcdf",
+  "window_size": 3
+}

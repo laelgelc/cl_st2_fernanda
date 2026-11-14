@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b380158047fa62006af8d9ca80ac87d1b752650477002bbf",
+    "usage": {
+      "input_tokens": 2520,
+      "input_tokens_details": {
+        "cache_write_tokens": 2517,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2517
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 3359
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_admin/enade_2009_admin_page_110.txt",
+      "source_sha256": "06c99d7fb431f4c31b6ab9f6c657fa15067068c6a1f7e2305c2d761dce32da23"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:38Z",
+  "duration_seconds": 7.98,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 109
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_admin/enade_2009_admin_page_109.txt",
+    "source_sha256": "899f0d16ee9432322f564319a3bb8cda726914eb6bb058c970c6064a833a06a5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d502c5b25e7f74844d886d91f027f9dc16dec058f4572c7caa31c080e209cc0c",
+  "request_fingerprint": "7ee07d9db5a446e5193662647cb0af53b8b270abc54032ac46250263a685fdee",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.1, incluindo seus dados, título e fonte. O trecho final da prosa sobre a Região Norte termina incompleto na página-alvo; não foi completado com o contexto."
+  ],
+  "status": "success",
+  "text": "Capítulo 5\nDistribuição dos Conceitos\n\n5.1 Panorama nacional da distribuição dos conceitos\n\nA Tabela 5.1 apresenta a quantidade e o percentual de cursos de ADMINISTRAÇÃO participantes do ENADE/2009 que se situaram em cada uma das faixas de conceitos, distribuídos de acordo com a Região em que se localizam os cursos das instituições de educação superior, mantenedoras dos cursos responsáveis pela oferta.\n\nO Gráfico 5.1 apresenta a mesma informação sob a forma de diagrama de caixa para uma melhor visualização da dispersão dos conceitos obtidos. No diagrama de caixa, a caixa propriamente dita fica limitada pelos quartis. A barra dentro da caixa em negrito representa a mediana. Linhas verticais uniram os quartis aos valores extremos. Se estes valores extremos se configurarem como valores atípicos, estes aparecem como pontos isolados e as linhas terminam no maior (ou menor) valor ainda não considerado atípico. Eventuais valores atípicos aparecem como pequenos círculos com a Categoria Administrativa correspondente. Valores considerados muito atípicos foram representados por estrelas. Um diagrama de caixa para poucos dados ou com dados muito concentrados pode ter alguns pontos coincidentes. Por exemplo, se mais de metade dos cursos de uma Região receberem conceito 5, o valor extremo superior, o quartil superior e a mediana coincidirão. Se o conjunto só contém um dado, este aparece denotado como a barra da mediana. Se o conjunto apresenta todas as notas iguais, a notação é a mesma, somente uma barra horizontal.\n\nObservando-se os dados da Tabela 5.1, percebe-se que, em termos nacionais, bastantes cursos não receberam conceito: 15,0% do total, correspondendo a 249 cursos do universo de 1.663. No universo dos cursos que obtiveram conceito (1.414), predominaram os cursos que receberam conceitos 2 ou 3, correspondendo respectivamente a 37,5% e a 43,6% do total nacional avaliado na área. Dentre estes, pouco mais de 2% dos cursos foram classificados com conceito 1, enquanto que os conceitos 4 e 5 foram alocados a, respectivamente, 11,4% e 5,0%. Todos os cursos com conceito 5 apareceram como valores atípicos.\n\nConsiderando-se separadamente as cinco Regiões (ver também Gráfico 5.1), observou-se que, da Região Norte, 101 cursos participaram, dos quais o grupo modal com 44,6%, obteve conceito 2. Somente um curso da Região (1,0%) obteve o conceito máximo, 10 cursos (9,9%) obtiveram o conceito mínimo, 19 cursos (18,8%), o conceito 3 e 4 cursos",
+  "text_sha256": "54629c7410c8667f1762ac2d13026b0e370d095f2176b2c72e68760862ac27e3",
+  "window_size": 3
+}

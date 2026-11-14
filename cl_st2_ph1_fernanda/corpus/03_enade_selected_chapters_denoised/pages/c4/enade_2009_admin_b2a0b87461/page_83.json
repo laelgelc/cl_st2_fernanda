@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02961808540182db006af8d9ac206887d1a800c04355075957",
+    "usage": {
+      "input_tokens": 2666,
+      "input_tokens_details": {
+        "cache_write_tokens": 2663,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2663
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 484,
+      "output_tokens_details": {
+        "reasoning_tokens": 315
+      },
+      "total_tokens": 3150
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_82.txt",
+      "source_sha256": "b92e51378834c7dc5f74b3af39b84ebafc3b729d4da59f7e3bd7170a59105695"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_84.txt",
+      "source_sha256": "f8dea9b8921c22e0c6dd0705a7d7a93252be3dcd555c1e96725fe126ad0017af"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:08Z",
+  "duration_seconds": 5.167,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_83.txt",
+    "source_sha256": "653ab8e27ac1756e23f1343cd08640b68a5c13eee96194e10e2f29d6a3604590"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "83aed71f2538bf62fb3c760e702118846104dc4c5166f9ee026723aa6fadc3db",
+  "request_fingerprint": "c55a7920e0278ee6b34ef586982a877c3583ef870654f7e6fee6361596576f2e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.3b e 4.3c, incluindo dados, rótulos, legendas, títulos e fontes. O texto em prosa termina no meio da frase no limite da página; não foi completado."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.4a e 4.4b apresentam a distribuição das respostas à questão “Qual o grau de dificuldade desta prova na parte do Componente Específico?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ADMINISTRAÇÃO. Entre os concluintes, a maior proporção de estudantes que considerou a parte do Componente Específico da prova como de dificuldade",
+  "text_sha256": "f82539dddbc41d5bfebb4c12b5fa7367edeee57115c20a37c4d59d666315916a",
+  "window_size": 3
+}

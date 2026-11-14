@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06d7fad1990c7b29006af8d9b4655c87d1899104eb34daf7b5",
+    "usage": {
+      "input_tokens": 2533,
+      "input_tokens_details": {
+        "cache_write_tokens": 2530,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2530
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 500,
+      "output_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "total_tokens": 3033
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_89.txt",
+      "source_sha256": "f1a9761bf475fbcda47121905782467d09c68bbc84841f491178eb9836b7edd3"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_91.txt",
+      "source_sha256": "dbce6254f16b12b6be199f4717c57a2464d59bb70fc1c512c4366c4a1577dcdb"
+    }
+  ],
+  "created_at": "2026-11-14T21:59:16Z",
+  "duration_seconds": 4.395,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_90.txt",
+    "source_sha256": "2e854e3d74403cd31e76f1f813970ab59f60aa7fcd233aca0f556c8fcf4aecb1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5e7326f812065f32ac93a03ee4e7b7d6eefca03166fda8c397f2b923c00ed23e",
+  "request_fingerprint": "687cf17d2daa3fcdf96fdd720367fd5caf3d0c26e0a90853bad9b8a6c2a99790",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.8a, incluindo seus dados, rótulos e legenda, e a linha de fonte associada."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.8a e 4.8b apresentam a distribuição das respostas à questão “Os enunciados das questões, da prova na parte de Formação Geral, estavam claros e objetivos?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ADMINISTRAÇÃO. Em termos regionais, as proporções de ingressantes e de concluintes que consideraram claros e objetivos os enunciados de todas ou da maioria das questões não variaram muito (no máximo 3 pontos percentuais). Entre os concluintes, os valores são de 76,6% no Centro-Oeste a 78,6% no Nordeste. Já entre os ingressantes, estas proporções variaram de 75,3% no Centro-Oeste a 78,0% no Nordeste.\n\nCom relação às respostas “poucos” e “não, nenhum,” tanto para concluintes como para ingressantes, as maiores proporções ocorreram na Região Centro-Oeste respectivamente, 9,5% e 10,8%. Entre os ingressantes, a Região Sudeste alcançou uma proporção idêntica.",
+  "text_sha256": "f82f828c5136aed5b6bdd8c239f43222b2d72625d2bb2caa768dfbfe359a971b",
+  "window_size": 3
+}
