@@ -1,4 +1,6 @@
-# Manual clean up dataset for chapter c6
+# Manual clean up dataset
+
+## Issue: Chapter 6 indefinite propagation
 
 | filename                        | status |
 |:--------------------------------|:------:|
@@ -84,3 +86,35 @@
 | enade_2019_tec_rad.pdf          |   OK   |
 | enade_2019_tec_seg_trab.pdf     |   OK   |
 | enade_2019_zoot.pdf             |   OK   |
+
+## Chapter 5 false positives in (pages 12 and 13) or (13 and 14)
+
+| filename                        | status |
+|:--------------------------------|:------:|
+| enade_2023_agro.pdf | OK |
+| enade_2023_arqui_urb.pdf | OK |
+| enade_2023_biomed.pdf | OK |
+| enade_2023_eng_civ.pdf | OK |
+| enade_2023_enf.pdf | OK |
+| enade_2023_eng_qui.pdf | OK |
+| enade_2023_eng_comp.pdf | OK |
+| enade_2023_eng_alim.pdf | OK |
+| enade_2023_eng_contr.pdf | OK |
+| enade_2023_eng_prod.pdf | OK |
+| enade_2023_eng_el.pdf | OK |
+| enade_2023_eng_flo.pdf | OK |
+| enade_2023_eng_mec.pdf | OK |
+| enade_2023_farm.pdf | OK |
+| enade_2023_fisio.pdf | OK |
+| enade_2023_fono.pdf | OK |
+| enade_2023_med_vet.pdf | OK |
+| enade_2023_med.pdf | OK |
+| enade_2023_nutri.pdf | OK |
+| enade_2023_odonto.pdf | OK |
+| enade_2023_tec_agro.pdf | OK |
+| enade_2023_tec_est_cos.pdf | OK |
+| enade_2023_tec_gest_amb.pdf | OK |
+| enade_2023_tec_gest_hosp.pdf | OK |
+| enade_2023_tec_rad.pdf | OK |
+| enade_2023_tec_seg_trab.pdf | OK |
+| enade_2023_zoot.pdf | OK |

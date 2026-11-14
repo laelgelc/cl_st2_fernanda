@@ -32,7 +32,9 @@ Please refer to the Jupyter notebook: `cl_st2_ph1_fernanda.ipynb`
 ### 2.3. Manual clean-up
 Manual page clean-up is required because the automated process could not avoid false positive cases.
 
-### 2.4. Update the `corpus/enade_chapters_dataset.ndjson` manifest with the `manual_clean_up` column
+Please refer to the document: `corpus/enade_chapters_clean_up_dataset_c6_manual.md`
+
+### 2.4. Update the `corpus/enade_chapters_dataset.ndjson` manifest with the `clean_up_manual_correction` column
 
 
 ## 3. Denoise the ENADE reports
