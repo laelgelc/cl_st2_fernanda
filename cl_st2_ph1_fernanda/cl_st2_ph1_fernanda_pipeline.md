@@ -38,3 +38,16 @@ Please refer to the document: `corpus/enade_chapters_clean_up_dataset_c6_manual.
 
 ## 3. Denoise the ENADE report chapters of interest
 
+### Dry run
+
+```shell
+python llm_denoise.py \
+    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+    --prompt denoising_prompts/denoising_v1.md \
+    --output corpus/03_enade_denoised \
+    --window-size 3 \
+    --model gpt-6-luna \
+    --limit 10 \
+    --max-output-tokens 10000 \
+    --dry-run
+```
