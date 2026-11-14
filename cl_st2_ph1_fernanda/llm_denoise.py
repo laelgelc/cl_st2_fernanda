@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
-"""
-Denoise/extract selected ENADE report chapters with OpenAI or Gemini APIs.
+"""Selected-page ENADE denoising entry point.
 
-Expected LLM response:
-
-{
-  "chapters": "...",
-  "metadata": {
-    "c4_present": true,
-    "c5_present": true,
-    "c6_present": true
-  }
-}
-
-Only "chapters" is written to the corpus .md file. The metadata flags are
-stored in audit JSON and consolidated NDJSON outputs.
+The selected-page implementation lives in ``llm_denoise_pages.py`` and is
+re-exported here for the existing command and import path.
 """
 
 from __future__ import annotations
@@ -1339,5 +1327,13 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
 
+if __package__:
+    from .llm_denoise_pages import *  # noqa: F403
+    from .llm_denoise_pages import main as selected_page_main
+else:
+    from llm_denoise_pages import *  # noqa: F403
+    from llm_denoise_pages import main as selected_page_main
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(selected_page_main())

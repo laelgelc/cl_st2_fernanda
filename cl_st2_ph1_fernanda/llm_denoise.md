@@ -1,67 +1,212 @@
 # Development Specification: `llm_denoise.py`
 
-## 1. Programme purpose
+## 1. Current specification and migration status
 
-`llm_denoise.py` denoises and extracts selected chapters from Brazilian ENADE report text files with an LLM provider API for a corpus-linguistics research project studying *Exame Nacional de Desempenho dos Estudantes* reports.
+This revision defines the selected-page denoising workflow implemented by `llm_denoise.py` and its processing module, `llm_denoise_pages.py`. It supersedes conflicting report-level requirements in the historical material below. The historical sections are retained for migration context only.
 
-The programme takes an immutable NDJSON ENADE manifest as input. Each manifest row identifies one ENADE report and includes the path to the corresponding extracted `.txt` file. For each ENADE report, the programme:
+The programme processes page-level `.txt` files already selected for one ENADE document and one chapter of interest. It must not search reports for chapters, infer chapter presence, or ask the LLM to report `c4`/`c5`/`c6` flags. Its corpus output is prose only: tables and graphs, including their captions and source lines, are excluded by the denoising prompt.
 
-1. reads the ENADE report metadata from the manifest;
-2. reads the ENADE report text from the manifest row’s `filepath_txt`;
-3. renders an LLM prompt by inserting the report text into an external prompt template;
-4. submits the prompt to the configured LLM provider API;
-5. expects the model response to be a valid JSON object;
-6. parses the JSON response;
-7. saves only the JSON `chapters` value as one corpus-ready Markdown output file per ENADE report;
-8. saves the JSON chapter-presence metadata flags in the per-report metadata/audit artefact;
-9. writes run-level manifests, logs, failures, invalid responses, and summaries;
-10. produces a consolidated NDJSON dataset linking original manifest rows to denoised/extracted Markdown outputs.
+Normative sections in this revision specify input, processing, output, resumption, safety, and acceptance behavior. Any later historical section that conflicts with these requirements is retained only as migration reference and must not guide the refactor.
 
-The programme supports OpenAI and Gemini model families. Model routing is determined from the configured model name:
+## 2. Goals and research constraints
 
-- model names beginning with `gemini-` use the Gemini API;
-- other supported model names use the OpenAI API.
+- Denoise one selected target page per LLM request, supplying a configurable context window of pages from the same document and chapter.
+- Return prose belonging only to the target page. Context is for interpretation and must never contribute text to the result.
+- Preserve the target page's wording, order, and substantive prose. Do not paraphrase, summarise, translate, guess, or repair uncertain text.
+- Exclude tables and graphs, their data, labels, captions, legends, and source lines. Preserve surrounding prose, including prose that refers to a table or graph, and ordinary textual footnotes.
+- Allow a successful target result to contain an empty string, including a page consisting only of excluded material.
+- Preserve original input pages and the selected-page manifest unchanged. Keep all exclusion/review notes outside the corpus text.
 
-The programme is intended for large-scale denoising/extraction of ENADE report chapters. It must therefore support:
+The model's decisions about whether material is prose or belongs to a table or graph cannot be fully validated mechanically. Ambiguous boundaries must be conservatively preserved and flagged for human review.
 
-- resumable execution;
-- robust per-report failure handling;
-- concurrent workers;
-- immutable input data;
-- reproducible run metadata;
-- prompt version tracking;
-- API usage tracking where available;
-- safe handling of API credentials;
-- corpus-ready Markdown output files;
-- provider-specific metadata where available;
-- strict parsing and validation of the LLM’s JSON response.
+## 3. Input manifest and page identity
+
+The default selected-page manifest is `corpus/enade_chapters_clean_up_revised_dataset.ndjson`. It is NDJSON, with one JSON object per selected target page. Observed fields are:
+
+```json
+{
+  "chapter_of_interest": "c4",
+  "filename_stem": "enade_2009_admin",
+  "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ADMINISTRAÇÃO.pdf",
+  "chapter_page_filepath_txt": "corpus/02_enade_selected_chapters/c4/enade_2009_admin/enade_2009_admin_page_77.txt"
+}
+```
+
+Required fields:
+
+| Field | Use |
+|---|---|
+| `chapter_of_interest` | Selected chapter identifier, such as `c4`, `c5`, or `c6`; metadata only, not a discovery request. |
+| `filename_stem` | Stable report name used in grouping and human-readable artefact names. |
+| `filepath_ori` | Source-document identity used to keep reports distinct. |
+| `chapter_page_filepath_txt` | Path to the selected page's extracted text. |
+
+The page number must be parsed as an integer from the final `_page_<number>.txt` filename component; do not infer it from NDJSON row order or use lexicographic sorting. The observed manifest includes rows for page 100 before page 77, so ordering by raw filename or input order is incorrect. Reject malformed page filenames, duplicate target identities, missing fields, invalid JSON rows, and missing or unreadable page files with actionable diagnostics.
+
+Group pages by the tuple (`filepath_ori`, `filename_stem`, `chapter_of_interest`). A target identity is that group plus its parsed page number. Preflight must reject conflicting paths or duplicate page numbers for one target identity. Resolve relative paths consistently against the project root (or a single explicitly configured input root); do not silently try unrelated fallback locations. The source manifest and page files are immutable inputs.
+
+## 4. Context window
+
+Provide a configurable total window size, a positive odd integer, with default `3`:
+
+| Window size | Pages supplied for an interior target |
+|---:|---|
+| `1` | Target only |
+| `3` | Target and one context page on each side |
+| `5` | Target and two context pages on each side |
+
+The target page is always included exactly once and labeled `role="target"`; every other supplied page is labeled `role="context"` and carries its original page number. Near the start or end of a selected run, include only available neighbors. Context is drawn only from selected pages in the same group. Two selected pages are neighbors only if their parsed page numbers differ by exactly one. Do not bridge gaps, substitute unrelated pages, cross document/chapter groups, or read unselected pages merely to fill the window.
+
+For example, if the selected set contains pages 77, 78, 80 and 81, page 78 must not receive page 80 as its next-page context. The gap ends that consecutive run. Larger windows can help recognize multi-page visual material but cannot guarantee that a table or graph boundary will be identified correctly; uncertain cases remain reviewable.
+
+## 5. Prompt contract and denoising policy
+
+The default prompt is `denoising_prompts/denoising_v1.md`. Replace its `<<<ENADE_REPORT_TEXT>>>` marker with labeled page elements, retaining the target/context roles and original page numbers, for example:
+
+```xml
+<page page_number="77" role="context">Context page text.</page>
+<page page_number="78" role="target">Target page text.</page>
+<page page_number="79" role="context">Context page text.</page>
+```
+
+Keep each API request stateless. The prompt, not a separate code-side text transformation, is authoritative for linguistic cleanup and visual-material exclusion.
+
+The model must return one valid JSON object with exactly these fields:
+
+```json
+{
+  "text": "Denoised prose from the target page only.",
+  "review_notes": []
+}
+```
+
+- `text` is a string containing only target-page prose. An empty string is valid.
+- `review_notes` is an array of concise strings. Record excluded table/graph material and any uncertain boundary or possible accidental loss that needs review; use an empty array when there is nothing to report.
+- Do not accept chapter-presence flags, guessed identifiers, context-page text, explanatory wrappers, or additional JSON fields.
+- Keep review notes in page audit data, never in the corpus text.
+
+The model must remove table/graph content and their captions, legends, and source lines without reconstructing or summarising them. It must preserve prose before, after, or around visual material, including substantive numerical findings and sentences that mention a graph or table. A source line may occur before a graph heading in extracted text; position alone is not a reliable boundary. Remove a footnote only when it clearly belongs to excluded visual material. Where the boundary is uncertain, preserve potentially substantive prose and add a review note.
+
+Use context to interpret the target, but do not join, complete, copy, or duplicate text across page boundaries. Clean only obvious extraction artefacts as instructed by the prompt. Never invent missing words or silently correct uncertain OCR. The input page itself must not be altered.
+
+## 6. Command-line interface
+
+The programme provides an interface equivalent to:
+
+```text
+python llm_denoise.py \
+  --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+  --prompt denoising_prompts/denoising_v1.md \
+  --output corpus/03_enade_denoised \
+  --window-size 3 \
+  --model <model-name> \
+  --workers 4
+```
+
+The implementation exposes the input manifest, prompt, output directory, total window size, model, bounded worker count, retry settings and mutually exclusive resume/reprocess behavior. Workers are limited to `1`–`64`, retries to `0`–`10`, and retry backoff to `0`–`300` seconds. `--limit` is intended for inspection and dry-run planning; live limited runs are deliberately marked incomplete and do not publish consolidated chapter text. Validate that window size is positive and odd and that worker/retry values are in range before making API calls. The default window size is `3`; `5` is an explicit more-context option, not a different output policy. Dry-run validates manifest rows, page files, grouping, gaps, windows, prompt marker and output identities, and reports credential availability without calling the provider or publishing corpus artefacts.
+
+## 7. Per-page processing and response validation
+
+For every selected target page:
+
+1. Load and validate its manifest group, numeric page number, target text, and eligible consecutive context pages.
+2. Render the prompt with clearly labeled target and context pages.
+3. Call the configured provider and retain safe usage/provider metadata when available.
+4. Parse the response as strict JSON. Require a JSON object with exactly `text` and `review_notes`; require `text` to be a string and `review_notes` to be an array of strings. Reject malformed JSON, extra/missing keys, wrong types, refusals, and empty provider response text. Do not reject an empty `text` value. Whether the text preserves the source and excludes all context-page content is a research/audit matter, not a deterministic schema check.
+5. Persist a page-level result and audit record atomically. Mark it successful even when `text` is empty, while retaining `review_notes` and a distinct empty-text indicator.
+
+Do not silently strip Markdown fences or repair malformed JSON by default; invalid output is a page failure with a bounded raw-response diagnostic in a protected invalid-response artefact. Avoid writing full prompts or source text to ordinary logs. Any optional response tolerance must be explicit, tested, and recorded in page metadata.
+
+Each page result must identify the document/group, chapter, page number, source path and content hash, model/provider, prompt hash, window configuration, context page identities and hashes, request fingerprint, status, output text, review notes, timestamp, and usage metadata where available. API keys, environment values, and other secrets must never be stored.
+
+## 8. Provider, retries, credentials, and concurrency
+
+Retain provider support for OpenAI and Gemini. Route `gemini-` model names to the Google GenAI SDK and other supported model names to the OpenAI SDK; fail preflight if the selected SDK is unavailable. Use the provider's supported structured/JSON response option when available, while still applying local strict schema validation.
+
+Load credentials from the process environment and, if configured, a simple `KEY=VALUE` env file without overriding already-set process variables. Require `OPENAI_API_KEY` or `GEMINI_API_KEY` for the selected provider unless running dry-run. Record only whether the relevant key is available and its source category; never log or persist the key value.
+
+Retry recoverable provider errors (for example transient network errors, rate limits, and service-unavailable responses) up to a configurable bounded count with exponential backoff. Do not retry permanent authentication/configuration errors or repeatedly retry invalid model JSON as if it were a transport failure. Record retry count and sanitized error type/message; do not log full prompts, page text, or credentials. Capture provider usage/token counts when exposed and identify unavailable counts as null rather than fabricating values.
+
+Use bounded concurrent page workers. Each worker writes only its unique page-result artefact (and, if needed, unique per-page failure/invalid-response records) using atomic replacement. Aggregate shared NDJSON logs, chapter outputs, run manifests, and summaries in a coordinated stage or through a synchronized writer to avoid concurrent write races. Respect provider rate limits and allow a lower worker count. A failed page must not prevent unrelated pages from being attempted, but it does prevent its chapter from being marked complete.
+
+## 9. Output and audit artefacts
+
+Keep generated files under the configured output directory and leave source data untouched. Use stable, collision-resistant document identifiers derived from the source document identity (for example, a readable `filename_stem` plus a short hash of `filepath_ori`). Preflight must detect any output path collision rather than overwrite another document's data.
+
+Recommended layout:
+
+```text
+<output>/
+  pages/<chapter>/<document_id>/page_<number>.json
+  chapters/<chapter>/<document_id>.txt
+  chapter_status.ndjson
+  failures.ndjson
+  invalid_responses.ndjson
+  runs/<run_id>/run_manifest.json
+  runs/<run_id>/summary.json
+  runs/<run_id>/run.log
+```
+
+The exact layout may change, but the responsibilities are required:
+
+- **Page result:** one record per target page, including valid empty results, review notes, input/context fingerprints, status, and provider audit metadata.
+- **Chapter text:** one consolidated UTF-8 text file per source document and chapter, assembled in ascending numeric page order from successful non-empty target texts only. Use a conservative blank-line separator between page results; do not add page labels, merge split words, or otherwise repair page boundaries.
+- **Chapter status:** explicit `complete`/`incomplete` status, page counts, failed/missing pages, output path, and boundary review flags. Empty successful pages count as completed pages even though they add no text.
+- **Run artefacts:** immutable input/prompt/settings fingerprints, selected model/provider, start/end timestamps, counts, token usage where available, and sanitized failures. Do not include secrets or source text.
+
+Publish a chapter text file atomically and only after every selected page in that chapter has a current successful result. If any page is failed, missing, or stale, mark the chapter incomplete and do not claim its consolidated text is current. A prior file may remain on disk during an incomplete rerun, but status metadata must make it unambiguously unusable as the current complete output; downstream consumers must require `complete=true` and matching fingerprints.
+
+## 10. Consolidation and page-boundary review
+
+Consolidation is a lightweight deterministic stage, not another LLM call. Sort by integer page number, omit successfully processed empty target texts from the prose file, and preserve the page-level result for every page. Never append onto an existing chapter file; rebuild to a temporary file and atomically replace only when complete.
+
+Record possible joins in chapter audit metadata, never as inserted text. For adjacent selected page outputs, add heuristic review flags for signals such as a preceding non-empty page ending in a hyphen or lacking sentence-ending punctuation. These are review prompts, not proof of an error. Do not automatically remove hyphens or join sentences/paragraphs. A page-number gap, an empty page, or a failed page is recorded as a gap/empty/failure condition and must not be treated as an ordinary prose boundary. Keep document, chapter, and page-pair identifiers with each flag.
+
+## 11. Resume, invalidation, and safe rebuilding
+
+Resume at page granularity. A prior page result is reusable only when it is successful, its result artefact is valid, and its request fingerprint matches the current request. The fingerprint must cover at least:
+
+- target identity and target text content hash;
+- ordered context page identities and content hashes (including the absence/order of context);
+- prompt content hash;
+- window size and rendering/schema version;
+- provider, model, and generation settings that can affect the response.
+
+A changed target or context page, a gap/window change, prompt edit, schema/rendering change, model, or generation setting invalidates the affected target result. Context changes should invalidate all target requests whose supplied context actually changed; they need not invalidate pages outside that dependency window. Do not use modification time alone as proof that content is unchanged.
+
+`--resume` skips only matching successful page results. Failed, invalid, missing, or stale pages are retried. A force-reprocess option must explicitly invalidate cached results for the selected scope. After processing, rebuild consolidated output from the current page results; do not append duplicate content. A chapter is complete only if every selected page has a valid current success, including valid empty text.
+
+## 12. Failure handling and observability
+
+Record per-page failures with stable target identity, status stage, sanitized exception type/message, retry count, and timestamp. Distinguish at least input/preflight errors, provider errors, empty provider responses, invalid JSON/schema, and write/consolidation errors. Store invalid responses separately with size limits and suitable access controls; avoid exposing page text in normal logs. Continue other independent targets when safe, and return a non-zero run status if any target or required consolidation failed.
+
+The run summary must report selected, successful, empty-success, failed, resumed, and retried page counts; complete/incomplete chapter counts; review-note and boundary-flag counts; elapsed time; model/provider; input, prompt, and settings fingerprints; and token usage when available. Logs must be useful for diagnosing runs without containing API keys or full prompt/page contents.
+
+## 13. Acceptance criteria and pilot
+
+The implementation is ready for production use only when the following behaviors are covered by automated tests or deterministic integration fixtures:
+
+1. Unsorted NDJSON rows and page 100 versus page 77 produce numeric ordering (77 before 100); malformed page names and duplicate identities fail preflight.
+2. Window sizes `1`, `3`, and `5` produce the expected target/context labels; odd positive validation rejects `0`, negative, and even values.
+3. Context never crosses document/chapter groups or a page-number gap and includes only selected pages. Boundary windows shrink without borrowing unrelated pages.
+4. The prompt has exactly one substitution marker; rendered input labels every page and marks exactly one target.
+5. Strict JSON schema validation accepts `{"text":"","review_notes":[]}` as success and rejects extra keys, wrong value types, malformed JSON, and missing fields.
+6. Only the target's text is saved; context text is never included. Review notes and empty-page status remain auditable.
+7. Page outputs consolidate in numeric order; empty pages add no text; split-word and incomplete-sentence heuristics create metadata flags without changing text; gaps/failures are not treated as normal boundaries.
+8. A single failed or stale page prevents a chapter from being published/marked complete, while unrelated pages can finish. Re-running a complete chapter rebuilds rather than appends.
+9. Resume reuses identical successful requests and invalidates results when target/context content, prompt, window, model, or generation settings change.
+10. API keys do not appear in logs or any output artefact; recoverable errors retry within configured bounds; invalid responses and provider failures are separately diagnosed.
+11. Concurrent workers do not corrupt page, chapter, or run-level artefacts; temporary files are not mistaken for completed results.
+
+Before processing the full dataset, run a human-reviewed pilot on a varied sample: prose-only pages, graph/table-only pages, mixed prose and visual material, captions/source lines, uncertain extraction order, multi-page visual material, page gaps, window boundaries, and an empty output page. Include the known `c4` pages 77–82 from `enade_2009_admin` where available, especially mixed-content pages and graph/source ordering. Compare outputs and review notes with the extracted page files and source PDFs when extraction order or visual boundaries are uncertain. Record observed omissions, accidental prose loss, false boundary flags, and token/cost differences for window sizes 3 and 5 before selecting a corpus-wide setting.
+
+## 14. Historical specification (migration reference only)
+
+The material below documents the earlier whole-report/chapter-extraction design. It is retained temporarily to preserve implementation history while the programme is refactored. It is not normative where it conflicts with sections 1–13 above; in particular, its report-level manifest, `chapters`/`metadata` response schema, chapter-discovery behavior, Markdown output assumptions, and report-level resume rules are obsolete.
 
 ---
 
-## 2. Research context
-
-The project studies Brazilian official ENADE reports. Source PDF documents have been converted into per-report text files. Because PDF extraction often introduces artefacts such as line wrapping, isolated page numbers, form-feed characters, broken hyphenation, excessive spacing, and duplicated blank lines, selected chapters require a conservative denoising pass before downstream corpus-linguistic processing.
-
-The denoising task is conservative. The programme must not perform interpretation, summarisation, translation, discourse analysis, modernisation, stylistic improvement, or substantive rewriting. The LLM is used only to identify selected report chapters and remove obvious PDF/OCR extraction artefacts while preserving original content and structure.
-
-The selected ENADE chapter types are identified by title, not by chapter number alone:
-
-| Internal label | Chapter title variants                                    |
-|----------------|-----------------------------------------------------------|
-| `c4`           | `percepção sobre a prova`; `percepção da prova`           |
-| `c5`           | `distribuição dos conceitos`; `distribuição de conceitos` |
-| `c6`           | `análise técnica da prova`                                |
-
-The expected model output is a JSON object containing:
-
-- `chapters`: a string containing the denoised Markdown text of the selected chapters, in source order;
-- `metadata`: Boolean flags indicating which chapter types were found and included.
-
-Only the `chapters` string should be written to the corpus `.md` output file. The metadata flags should be written to audit metadata and the consolidated NDJSON.
-
----
-
-## 3. Core design principles
+## Historical details: Core design principles
 
 ### 3.1 Immutable input
 
