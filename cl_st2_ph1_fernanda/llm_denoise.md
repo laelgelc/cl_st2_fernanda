@@ -97,7 +97,7 @@ The programme provides an interface equivalent to:
 python llm_denoise.py \
   --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
   --prompt denoising_prompts/denoising_v1.md \
-  --output corpus/03_enade_denoised \
+  --output corpus/03_enade_selected_chapters_denoised \
   --window-size 3 \
   --model <model-name> \
   --workers 4
@@ -154,6 +154,8 @@ The exact layout may change, but the responsibilities are required:
 - **Chapter text:** one consolidated UTF-8 text file per source document and chapter, assembled in ascending numeric page order from successful non-empty target texts only. Use a conservative blank-line separator between page results; do not add page labels, merge split words, or otherwise repair page boundaries.
 - **Chapter status:** explicit `complete`/`incomplete` status, page counts, failed and unattempted pages, output path, and boundary review flags. Empty successful pages count as completed pages even though they add no text.
 - **Run artefacts:** immutable input/prompt/settings fingerprints, selected model/provider, start/end timestamps, counts, token usage where available, and sanitized failures. Do not include secrets or source text.
+
+Paths in newly written page, chapter, invalid-response, dry-run, and run metadata are POSIX-style paths relative to the programme directory (`base_dir`), not machine-specific absolute paths. Filesystem access still resolves relative manifest paths from that same directory. For an EC2 run, keep manifest page paths relative and preserve the project’s directory layout when copying it; paths outside `base_dir` are recorded with `..` and remain portable only if their relative layout is preserved. Absolute `filepath_ori` document identities are normalized against `base_dir`, while existing relative identities are kept unchanged so their request fingerprints remain stable. When `--resume` validates an older successful result, it refreshes its source/context path metadata without changing the saved text or request fingerprint; historical run artefacts are left untouched.
 
 Publish a chapter text file atomically and only after every selected page in that chapter has a current successful result. If any page is failed, missing, or stale, mark the chapter incomplete and do not claim its consolidated text is current. A prior file may remain on disk during an incomplete rerun, but status metadata must make it unambiguously unusable as the current complete output; downstream consumers must require `complete=true` and matching fingerprints.
 

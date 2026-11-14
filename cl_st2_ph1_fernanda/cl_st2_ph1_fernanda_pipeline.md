@@ -44,7 +44,7 @@ Please refer to the document: `corpus/enade_chapters_clean_up_dataset_c6_manual.
 python llm_denoise.py \
     --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
     --prompt denoising_prompts/denoising_v1.md \
-    --output corpus/03_enade_denoised \
+    --output corpus/03_enade_selected_chapters_denoised \
     --window-size 3 \
     --model gpt-6-luna \
     --only-filename enade_2009_admin \
@@ -57,7 +57,7 @@ python llm_denoise.py \
 python llm_denoise.py \
     --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
     --prompt denoising_prompts/denoising_v1.md \
-    --output corpus/03_enade_denoised \
+    --output corpus/03_enade_selected_chapters_denoised \
     --window-size 3 \
     --model gpt-6-luna \
     --only-filename enade_2009_admin

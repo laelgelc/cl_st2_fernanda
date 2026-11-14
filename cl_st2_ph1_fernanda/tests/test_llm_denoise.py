@@ -3,8 +3,11 @@ import os
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from dataclasses import replace
+from io import StringIO
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 
@@ -123,6 +126,166 @@ class PagePlanningTests(DenoisingFixture):
             denoise.build_prompt(denoise.PLACEHOLDER + denoise.PLACEHOLDER, window, target)
 
 
+class PortablePathTests(DenoisingFixture):
+    def make_relocated_inputs(self, base_dir):
+        source_dir = base_dir / "corpus" / "selected"
+        source_dir.mkdir(parents=True)
+        source_document = base_dir / "corpus" / "source.pdf"
+        source_document.parent.mkdir(parents=True, exist_ok=True)
+        source_document.write_text("source", encoding="utf-8")
+        rows = []
+        for number in (1, 2, 3):
+            path = source_dir / f"report_page_{number}.txt"
+            path.write_text(f"page {number}", encoding="utf-8")
+            rows.append({
+                "chapter_of_interest": "c4",
+                "filename_stem": "report",
+                "filepath_ori": str(source_document),
+                "chapter_page_filepath_txt": path.relative_to(base_dir).as_posix(),
+                "_manifest_line_number": number,
+            })
+        config = replace(
+            self.config,
+            base_dir=base_dir,
+            manifest=base_dir / "manifest.ndjson",
+            prompt=base_dir / "prompt.md",
+            output=base_dir / "output",
+            env_file=base_dir / ".env",
+        )
+        return config, denoise.build_pages(rows, config)
+
+    def test_relocated_inputs_keep_identity_and_fingerprint_and_resume_legacy_paths(self):
+        first_root = self.root / "first"
+        second_root = self.root / "second"
+        first_root.mkdir()
+        second_root.mkdir()
+        first_config, first_pages = self.make_relocated_inputs(first_root)
+        second_config, second_pages = self.make_relocated_inputs(second_root)
+        first_target, second_target = first_pages[1], second_pages[1]
+        first_window = denoise.context_pages(first_target, first_pages, 3)
+        second_window = denoise.context_pages(second_target, second_pages, 3)
+        first_fingerprint = denoise.request_fingerprint(first_target, first_window, self.prompt_hash, first_config)
+        second_fingerprint = denoise.request_fingerprint(second_target, second_window, self.prompt_hash, second_config)
+
+        self.assertEqual(first_target.identity, second_target.identity)
+        self.assertEqual(first_fingerprint, second_fingerprint)
+        self.assertEqual(first_target.group[0], "corpus/source.pdf")
+        self.assertEqual(denoise.portable_path(self.root.parent / "outside" / "page.txt", self.root),
+                         "../outside/page.txt")
+        self.assertEqual(denoise.portable_source_identity("corpus/source.pdf", self.root), "corpus/source.pdf")
+
+        legacy_record = denoise.base_page_record(
+            first_target, self.prompt_hash, first_fingerprint, first_window, first_config)
+        legacy_record.update({
+            "status": "success",
+            "text": "reusable prose",
+            "text_sha256": denoise.sha256_text("reusable prose"),
+            "empty_text": False,
+            "review_notes": [],
+        })
+        legacy_record["input"]["source_path"] = str(first_target.source_path)
+        legacy_record["context_pages"] = [
+            {"page_number": context.page_number, "source_path": str(context.source_path),
+             "source_sha256": context.source_hash}
+            for context in first_window if context != first_target
+        ]
+        second_target.result_path.parent.mkdir(parents=True, exist_ok=True)
+        second_target.result_path.write_text(json.dumps(legacy_record), encoding="utf-8")
+
+        resumed = denoise.load_existing_success(
+            second_target, second_fingerprint, second_window, second_config)
+
+        self.assertIsNotNone(resumed)
+        self.assertEqual(resumed["text"], "reusable prose")
+        self.assertEqual(resumed["request_fingerprint"], first_fingerprint)
+        self.assertEqual(resumed["input"]["source_path"], "corpus/selected/report_page_2.txt")
+        self.assertEqual([item["source_path"] for item in resumed["context_pages"]], [
+            "corpus/selected/report_page_1.txt", "corpus/selected/report_page_3.txt"])
+        self.assertEqual(json.loads(second_target.result_path.read_text(encoding="utf-8")), resumed)
+
+    def test_run_chapter_and_page_metadata_use_base_relative_paths(self):
+        source = self.root / "corpus" / "selected" / "report_page_1.txt"
+        source.parent.mkdir(parents=True)
+        source.write_text("page 1", encoding="utf-8")
+        source_document = self.root / "corpus" / "source.pdf"
+        source_document.parent.mkdir(parents=True, exist_ok=True)
+        source_document.write_text("source", encoding="utf-8")
+        (self.root / "manifest.ndjson").write_text(json.dumps({
+            "chapter_of_interest": "c4",
+            "filename_stem": "report",
+            "filepath_ori": str(source_document),
+            "chapter_page_filepath_txt": "corpus/selected/report_page_1.txt",
+        }) + "\n", encoding="utf-8")
+        (self.root / "prompt.md").write_text("Prompt\n" + denoise.PLACEHOLDER, encoding="utf-8")
+        args = SimpleNamespace(
+            base_dir=self.root,
+            manifest="manifest.ndjson",
+            prompt="prompt.md",
+            output="output",
+            model="gpt-test",
+            window_size=3,
+            workers=1,
+            max_retries=0,
+            retry_backoff_seconds=0,
+            temperature=None,
+            max_output_tokens=100,
+            env_file=".env",
+            limit=None,
+            only_filename=None,
+            resume=False,
+            reprocess=False,
+            dry_run=False,
+        )
+
+        class FakeResponses:
+            calls = 0
+
+            def create(self, **kwargs):
+                type(self).calls += 1
+                return SimpleNamespace(output_text='{"text":"prose","review_notes":[]}')
+
+        client = SimpleNamespace(responses=FakeResponses())
+        with patch.object(denoise, "parse_args", return_value=args), \
+                patch.object(denoise, "make_llm_client", return_value=client), \
+                patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), redirect_stdout(StringIO()):
+            self.assertEqual(denoise.main([]), 0)
+
+        run_manifest_path = next((self.root / "output" / "runs").glob("*/run_manifest.json"))
+        run_manifest = json.loads(run_manifest_path.read_text(encoding="utf-8"))
+        self.assertEqual(run_manifest["manifest"], "manifest.ndjson")
+        self.assertEqual(run_manifest["prompt"], "prompt.md")
+        self.assertEqual(run_manifest["output"], "output")
+        self.assertEqual(FakeResponses.calls, 1)
+        status = json.loads((self.root / "output" / "chapter_status.ndjson").read_text(encoding="utf-8"))
+        self.assertTrue(status["output_path"].startswith("output/chapters/"))
+        self.assertFalse(Path(status["output_path"]).is_absolute())
+        page_result = next((self.root / "output" / "pages").glob("c4/*/page_1.json"))
+        page_record = json.loads(page_result.read_text(encoding="utf-8"))
+        self.assertEqual(page_record["identity"]["filepath_ori"], "corpus/source.pdf")
+        self.assertEqual(page_record["input"]["source_path"], "corpus/selected/report_page_1.txt")
+
+        page_record["input"]["source_path"] = str(source)
+        page_result.write_text(json.dumps(page_record), encoding="utf-8")
+        existing_runs = set((self.root / "output" / "runs").iterdir())
+        args.resume = True
+
+        class ForbiddenResponses:
+            def create(self, **kwargs):
+                raise AssertionError("A validated cached page should not call the provider")
+
+        with patch.object(denoise, "parse_args", return_value=args), \
+                patch.object(denoise, "make_llm_client", return_value=SimpleNamespace(responses=ForbiddenResponses())), \
+                patch.dict(os.environ, {"OPENAI_API_KEY": "test-key"}), redirect_stdout(StringIO()):
+            self.assertEqual(denoise.main([]), 0)
+
+        new_run = next(iter(set((self.root / "output" / "runs").iterdir()) - existing_runs))
+        resumed_summary = json.loads((new_run / "summary.json").read_text(encoding="utf-8"))
+        self.assertEqual(resumed_summary["counts"]["resumed_pages"], 1)
+        refreshed_page_record = json.loads(page_result.read_text(encoding="utf-8"))
+        self.assertEqual(refreshed_page_record["input"]["source_path"], "corpus/selected/report_page_1.txt")
+        self.assertEqual(refreshed_page_record["text"], "prose")
+
+
 class ResponseAndProcessingTests(DenoisingFixture):
     def test_response_schema_accepts_empty_text_and_rejects_bad_shapes(self):
         self.assertEqual(denoise.validate_response('{"text":"","review_notes":[]}'), ("", []))
@@ -157,7 +320,9 @@ class ResponseAndProcessingTests(DenoisingFixture):
                                         self.config, lambda _: ("```json{}", {}, 0),
                                         self.config.output / "invalid_responses")
         self.assertEqual(result["status"], "invalid_response")
-        self.assertTrue(Path(result["invalid_response_path"]).is_file())
+        invalid_path = self.config.base_dir / result["invalid_response_path"]
+        self.assertFalse(Path(result["invalid_response_path"]).is_absolute())
+        self.assertTrue(invalid_path.is_file())
         self.assertEqual(json.loads(page.result_path.read_text(encoding="utf-8"))["status"], "invalid_response")
 
     def test_resume_requires_matching_request_fingerprint(self):

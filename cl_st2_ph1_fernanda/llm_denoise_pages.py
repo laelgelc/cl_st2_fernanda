@@ -29,8 +29,8 @@ SCHEMA_VERSION = "selected-page-json-v1"
 __all__ = [
     "Config", "FatalProviderError", "FatalSetupError", "Page", "PLACEHOLDER", "build_pages", "build_prompt",
     "call_with_retries", "chapter_output_path", "consolidate_chapter", "context_pages", "is_fatal_provider_error",
-    "load_existing_success", "main", "parse_page_number", "process_work_queue", "request_fingerprint",
-    "validate_response",
+    "load_existing_success", "main", "parse_page_number", "portable_path", "process_work_queue",
+    "request_fingerprint", "validate_response",
 ]
 
 
@@ -110,13 +110,22 @@ def resolve_path(value: str | Path, base_dir: Path) -> Path:
     return path.resolve() if path.is_absolute() else (base_dir / path).resolve()
 
 
+def portable_path(path: str | Path, base_dir: Path) -> str:
+    return Path(os.path.relpath(Path(path).resolve(), start=base_dir.resolve())).as_posix()
+
+
+def portable_source_identity(value: str, base_dir: Path) -> str:
+    path = Path(value).expanduser()
+    return portable_path(path, base_dir) if path.is_absolute() else value
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     base_dir = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description="Denoise selected ENADE pages and consolidate prose by chapter.")
     parser.add_argument("--input-manifest", "--manifest", dest="manifest",
                         default="corpus/enade_chapters_clean_up_revised_dataset.ndjson")
     parser.add_argument("--prompt", default="denoising_prompts/denoising_v1.md")
-    parser.add_argument("--output", default="corpus/03_enade_denoised")
+    parser.add_argument("--output", default="corpus/03_enade_selected_chapters_denoised")
     parser.add_argument("--model", required=True)
     parser.add_argument("--window-size", type=int, default=3)
     parser.add_argument("--workers", type=int, default=4)
@@ -262,8 +271,9 @@ def parse_page_number(path: str | Path) -> int:
     return int(match.group(1))
 
 
-def group_identity(row: dict[str, Any]) -> tuple[str, str, str]:
-    return (str(row["filepath_ori"]), str(row["filename_stem"]), str(row["chapter_of_interest"]))
+def group_identity(row: dict[str, Any], base_dir: Path) -> tuple[str, str, str]:
+    return (portable_source_identity(str(row["filepath_ori"]), base_dir), str(row["filename_stem"]),
+            str(row["chapter_of_interest"]))
 
 
 def read_utf8(path: Path) -> str:
@@ -305,7 +315,7 @@ def build_pages(rows: list[dict[str, Any]], config: Config) -> list[Page]:
     pages: list[Page] = []
     output_paths: set[Path] = set()
     for row in selected:
-        group = group_identity(row)
+        group = group_identity(row, config.base_dir)
         page_number = parse_page_number(row["chapter_page_filepath_txt"])
         identity = (group, page_number)
         if identity in seen:
@@ -442,7 +452,26 @@ def atomic_write_ndjson(path: Path, rows: list[dict[str, Any]]) -> None:
     atomic_write_text(path, "".join(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n" for row in rows))
 
 
-def load_existing_success(page: Page, fingerprint: str) -> dict[str, Any] | None:
+def refresh_page_record_paths(record: dict[str, Any], page: Page, contexts: list[Page], config: Config) -> dict[str, Any]:
+    refreshed = dict(record)
+    existing_input = refreshed.get("input")
+    input_metadata = dict(existing_input) if isinstance(existing_input, dict) else {}
+    input_metadata["source_path"] = portable_path(page.source_path, config.base_dir)
+    refreshed["input"] = input_metadata
+    refreshed["context_pages"] = [
+        {"page_number": context.page_number, "source_path": portable_path(context.source_path, config.base_dir),
+         "source_sha256": context.source_hash}
+        for context in contexts if context != page
+    ]
+    return refreshed
+
+
+def load_existing_success(
+    page: Page,
+    fingerprint: str,
+    contexts: list[Page] | None = None,
+    config: Config | None = None,
+) -> dict[str, Any] | None:
     try:
         record = json.loads(page.result_path.read_text(encoding="utf-8"))
     except (OSError, UnicodeError, json.JSONDecodeError):
@@ -455,6 +484,11 @@ def load_existing_success(page: Page, fingerprint: str) -> dict[str, Any] | None
             and record.get("empty_text") == (text == "")
             and isinstance(record.get("review_notes"), list)
             and all(isinstance(note, str) for note in record["review_notes"])):
+        if config is not None and contexts is not None:
+            refreshed = refresh_page_record_paths(record, page, contexts, config)
+            if refreshed != record:
+                atomic_write_json(page.result_path, refreshed)
+            return refreshed
         return record
     return None
 
@@ -603,11 +637,11 @@ def base_page_record(page: Page, prompt_hash: str, fingerprint: str, contexts: l
     return {
         "identity": page.identity,
         "status": "failed",
-        "input": {"source_path": str(page.source_path), "source_sha256": page.source_hash},
+        "input": {"source_path": portable_path(page.source_path, config.base_dir), "source_sha256": page.source_hash},
         "model": {"provider": model_family(config.model), "configured_model": config.model},
         "prompt_sha256": prompt_hash,
         "window_size": config.window_size,
-        "context_pages": [{"page_number": item.page_number, "source_path": str(item.source_path),
+        "context_pages": [{"page_number": item.page_number, "source_path": portable_path(item.source_path, config.base_dir),
                            "source_sha256": item.source_hash} for item in contexts if item != page],
         "request_fingerprint": fingerprint,
         "created_at": utc_now_iso(),
@@ -642,7 +676,8 @@ def process_target(
                 "api_metadata": api_metadata,
             })
             record.update({"status": "invalid_response", "error_type": "invalid_json_or_schema", "error": str(exc),
-                           "invalid_response_path": str(invalid_path), "api_metadata": api_metadata, "retry_count": retry_count})
+                           "invalid_response_path": portable_path(invalid_path, config.base_dir),
+                           "api_metadata": api_metadata, "retry_count": retry_count})
         else:
             record.update({"status": "success", "text": text, "text_sha256": sha256_text(text), "empty_text": text == "",
                            "review_notes": review_notes, "api_metadata": api_metadata, "retry_count": retry_count})
@@ -786,7 +821,7 @@ def chapter_status_record(
         "review_note_count": notes,
         "boundary_review_flags": flags,
         "conditions": conditions,
-        "output_path": str(output_path),
+        "output_path": portable_path(output_path, config.base_dir),
         "window_size": config.window_size,
     }
 
@@ -875,7 +910,7 @@ def _dry_run_report(config: Config, pages: list[Page], grouped: dict[tuple[str, 
         planned.append({"identity": page.identity, "window_pages": [item.page_number for item in window],
                         "request_fingerprint": request_fingerprint(page, window, prompt_hash, config),
                         "source_characters": len(page.source_text), "rendered_prompt_characters": len(rendered),
-                        "result_path": str(page.result_path)})
+                        "result_path": portable_path(page.result_path, config.base_dir)})
     return {"status": "dry_run", "pages": len(pages), "chapters": len(grouped), "window_size": config.window_size,
             "credentials_available": credentials["gemini_api_key_available"] if model_family(config.model) == "gemini"
             else credentials["openai_api_key_available"], "planned_targets": planned}
@@ -916,7 +951,8 @@ def main(argv: list[str] | None = None) -> int:
         for page in pages:
             window = context_pages(page, grouped[page.group], config.window_size)
             fingerprint = request_fingerprint(page, window, prompt_hash, config)
-            cached = None if config.reprocess or not config.resume else load_existing_success(page, fingerprint)
+            cached = None if config.reprocess or not config.resume else load_existing_success(
+                page, fingerprint, window, config)
             if cached is not None:
                 cached["resumed"] = True
                 records_by_group[page.group][page.page_number] = cached
@@ -956,7 +992,9 @@ def main(argv: list[str] | None = None) -> int:
         }
         atomic_write_json(run_dir / "run_manifest.json", {
             "run_id": run_id, "programme": PROGRAMME, "started_at": started_at, "ended_at": ended_at,
-            "manifest": str(config.manifest), "output": str(config.output), "prompt": str(config.prompt),
+            "manifest": portable_path(config.manifest, config.base_dir),
+            "output": portable_path(config.output, config.base_dir),
+            "prompt": portable_path(config.prompt, config.base_dir),
             "manifest_sha256": manifest_hash, "prompt_sha256": prompt_hash, "settings": summary["settings"],
             "environment": {"provider": model_family(config.model), "key_available": True, "secrets_logged": False},
             "counts": counts, "fatal_error": summary["fatal_error"],
