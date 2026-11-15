@@ -1,7 +1,7 @@
 {
   "api_metadata": {
     "model": "gpt-6-luna",
-    "response_id": "resp_0a57d0091d2f303a006af9252af72487d18e167fc04b6f5f34",
+    "response_id": "resp_0e7941ef0cd2e865006af97a6b6ad087d288a6fe543c6c742f",
     "usage": {
       "input_tokens": 3034,
       "input_tokens_details": {
@@ -12,11 +12,11 @@
         },
         "cached_tokens": 0
       },
-      "output_tokens": 1068,
+      "output_tokens": 940,
       "output_tokens_details": {
-        "reasoning_tokens": 405
+        "reasoning_tokens": 296
       },
-      "total_tokens": 4102
+      "total_tokens": 3974
     }
   },
   "context_pages": [
@@ -31,10 +31,9 @@
       "source_sha256": "b7e7f81e3019681052aa8075126d055efa3637f26558c09686da08d917a97570"
     }
   ],
-  "created_at": "2026-11-15T03:21:14Z",
-  "duration_seconds": 9.053,
-  "error": "Response object must contain exactly 'text' and 'review_notes'",
-  "error_type": "invalid_json_or_schema",
+  "created_at": "2026-11-15T09:24:59Z",
+  "duration_seconds": 9.724,
+  "empty_text": false,
   "identity": {
     "chapter_of_interest": "c6",
     "filename_stem": "enade_2023_tec_gest_hosp",
@@ -45,7 +44,6 @@
     "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_144.txt",
     "source_sha256": "387a71f1c1a6ca0ccabd02abf4c08a4700f23f4c29b2bb37f5d371125400f5e8"
   },
-  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2023_tec_gest_hosp_6095fc7676/page_144.json",
   "model": {
     "configured_model": "gpt-6-luna",
     "provider": "openai"
@@ -54,6 +52,11 @@
   "rendered_prompt_sha256": "99dccba8e6ca08da530a773f12126329c76f7b7017d3fc1cc1d24f69b2a41d5a",
   "request_fingerprint": "fffdc45c24bee40ac0b8be6742fd9eaf776ec3b0114c14a6b1c58f54822fd3ac",
   "retry_count": 0,
-  "status": "invalid_response",
+  "review_notes": [
+    "Removida a Tabela 5.12, incluindo título, dados e fonte. O texto do alvo termina em “Essas três”; não foi completado com o conteúdo da página seguinte."
+  ],
+  "status": "success",
+  "text": "A partir do índice de facilidade obtido, apresentado na Tabela 5.11, pode-se concluir que grande parte das questões objetivas da prova foram classificadas no índice “Difícil” (14). Seis questões foram classificadas no índice \"Fácil” e nove, no índice “Médio”.\n\nQuanto aos índices de discriminação das questões objetivas do componente de Conhecimento Específico da prova, obtém-se como resultado a seguinte classificação: duas questões foram alocadas no índice “Muito bom” e nove, no “Bom”. Dessa forma, 11 das 29 questões foram classificadas com os índices de discriminação “Bom” e “Muito bom”. Entre as demais, 12 delas foram alocadas no índice “Médio” e seis, no “Fraco”. Constata-se, assim, que a prova — no que se refere ao componente de Conhecimento Específico — possuía média capacidade de discriminar entre estudantes que dominam ou não o conteúdo. O índice de facilidade variou de 0,16 a 0,81, e o de discriminação, de 0,02 a 0,44.\n\nNa Tabela 5.12, é apresentada a distribuição das questões considerando-se, simultaneamente, a classificação dos dois índices.\n\nOs dados das Tabelas 5.11 e 5.12 atestam que nove questões que tiveram índice de discriminação “Bom” figuraram em três níveis de dificuldade — “Difícil\", \"Fácil\" e \"Médio”: quatro classificada na categoria “Fácil”; três, na categoria “Médio”; e duas, na categoria “Difícil”.\n\nAs questões que tiveram o índice de discriminação “Fraco” configuraram-se com índices de facilidade “Médio” (duas questões) e “Difícil” (quatro questões). Entre as questões que alcançaram os maiores índices de discriminação, “Muito bom”, uma delas, a questão 23, teve o maior índice de discriminação (0,44). Tal questão foi classificada como “Médio”, com índice de facilidade igual a 0,51. As questões 14 e 16 foram a mais difíceis entre as 29 questões específicas válidas, com baixo índice de facilidade, apenas 0,16 de proporção de acertos. Essas questões apresentaram poder discriminatório médio (0,25) e fraco (0,19), respectivamente, o que comprova terem sido a mais difíceis para os estudantes. Destacam-se, também, com baixo índice de facilidade, a questão 31, cujo índice de facilidade, em termos proporcionais, corresponde a 0,20, de estudantes que respondeu acertadamente. Essas três",
+  "text_sha256": "da2c5c95f4a1262e994e197a0ba9bac3f70ec4b2695302ea38a708d636ad982d",
   "window_size": 3
 }

@@ -1,7 +1,7 @@
 {
   "api_metadata": {
     "model": "gpt-6-luna",
-    "response_id": "resp_0b70b4043814716f006af92220a78c87d18900be79318e225d",
+    "response_id": "resp_07ffe96050a3748f006af97a690b6887d2bedd46a27f2b50ee",
     "usage": {
       "input_tokens": 4072,
       "input_tokens_details": {
@@ -12,11 +12,11 @@
         },
         "cached_tokens": 0
       },
-      "output_tokens": 10000,
+      "output_tokens": 754,
       "output_tokens_details": {
-        "reasoning_tokens": 481
+        "reasoning_tokens": 183
       },
-      "total_tokens": 14072
+      "total_tokens": 4826
     }
   },
   "context_pages": [
@@ -31,10 +31,9 @@
       "source_sha256": "6d0f834ef7539c3a709a05a98cf04e31cdea8d4684f01bb653610d5a7194c0a0"
     }
   ],
-  "created_at": "2026-11-15T03:08:16Z",
-  "duration_seconds": 74.507,
-  "error": "Malformed JSON response: Unterminated string starting at",
-  "error_type": "invalid_json_or_schema",
+  "created_at": "2026-11-15T09:24:56Z",
+  "duration_seconds": 7.21,
+  "empty_text": false,
   "identity": {
     "chapter_of_interest": "c6",
     "filename_stem": "enade_2023_eng_qui",
@@ -45,7 +44,6 @@
     "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_qui/enade_2023_eng_qui_page_141.txt",
     "source_sha256": "064debcf849d5fb47604aad18bf5c72c50945a1a7a22810fee913c26d472b622"
   },
-  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2023_eng_qui_7565c19e5a/page_141.json",
   "model": {
     "configured_model": "gpt-6-luna",
     "provider": "openai"
@@ -54,6 +52,11 @@
   "rendered_prompt_sha256": "eda167c86634b6749c4a93b156f5ad4ff783c76c105bfa65df5e0da60d8b9bac",
   "request_fingerprint": "051b1d969d9fc2326cf05a01c207c9f9d7250f88a8a53c0dc3724f9a4adefb85",
   "retry_count": 0,
-  "status": "invalid_response",
+  "review_notes": [
+    "Removidos a Tabela 5.12, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "discriminação “Bom” e “Muito bom”. Entre as demais, 14 delas foram alocadas no índice “Médio” e seis, no “Fraco”. Constata-se, assim, que a prova — no que se refere ao componente de Conhecimento Específico — possuía média capacidade de discriminar entre estudantes que dominam ou não o conteúdo. O índice de facilidade variou de 0,10 a 0,72, e o de discriminação, de 0,10 a 0,42.\n\nNa Tabela 5.12, é apresentada a distribuição das questões considerando-se, simultaneamente, a classificação dos dois índices.\n\nOs dados da Tabela 5.12 atestam que oito questões que tiveram índice de discriminação “Bom” figuraram em três níveis de dificuldade — “Difícil\", \"Fácil\" e \"Médio”.Três classificadas na categoria “Difícil”; três, na categoria “Médio” e duas, na categoria “Fácil e nenhuma, nass “Muito fácil” e “Muito difícil”.\n\nAs questões que tiveram o índice de discriminação “Fraco” configuraram-se com índices de “Difícil” (cinco questões) ou “Muito Difícil” (uma questão). Uma única questão alcançou índice de discriminação, “Muito bom” (0,42), a questão 37. Tal questão foi classificada como “Médio”, com índice de facilidade igual a 0,57. A questão 20 foi a mais “Difícil” entre as 29 questões específicas válidas, com baixo índice de facilidade, apenas 0,10 de proporção de acertos. Essa questão apresentou poder discriminatório fraco, 0,12, o que comprova ter sido a mais “Difícil” para os estudantes. Destacam-se, também, com baixo índice de facilidade, as questões 36 e 10, cujos índices de facilidade, em termos proporcionais, correspondem, respectivamente, a 0,17 e 0,15 de estudantes que responderam acertadamente. Essas duas questões também tiveram poder discriminatório “Fraco\" e \"Médio\", com índices 0,10 e 0,25, respectivamente.\n\nDestaca-se que as questões 11, 15, 20, 32, 36 e 38 foram consideradas inadequadas pelo critério ponto-bisserial. Por isso, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "0b457aa2e04879ebb8bb50a66b98c11c78fdfa7037b71507a299a9339c9d291c",
   "window_size": 3
 }

@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "boundary_flags": 6831,
+    "complete_chapters": 1032,
+    "empty_success_pages": 1327,
+    "failed_pages": 0,
+    "incomplete_chapters": 0,
+    "invalid_responses": 0,
+    "resumed_pages": 30763,
+    "retried_pages": 0,
+    "review_notes": 23583,
+    "selected_pages": 30770,
+    "successful_pages": 30770,
+    "unattempted_pages": 0
+  },
+  "ended_at": "2026-11-15T09:25:11Z",
+  "environment": {
+    "key_available": true,
+    "provider": "openai",
+    "secrets_logged": false
+  },
+  "fatal_error": null,
+  "manifest": "corpus/enade_chapters_clean_up_revised_dataset.ndjson",
+  "manifest_sha256": "76db1381b70aa30c744d34216e5d6e08bc7625c64dac4dec30f89dc58e608055",
+  "output": "corpus/03_enade_selected_chapters_denoised",
+  "programme": "llm_denoise.py",
+  "prompt": "denoising_prompts/denoising_v1.md",
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "run_id": "20261115T092418Z_000ea222",
+  "settings": {
+    "max_output_tokens": 10000,
+    "max_retries": 5,
+    "temperature": null,
+    "window_size": 3,
+    "workers": 4
+  },
+  "started_at": "2026-11-15T09:24:18Z"
+}

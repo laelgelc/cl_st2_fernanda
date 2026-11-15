@@ -1,7 +1,7 @@
 {
   "api_metadata": {
     "model": "gpt-6-luna",
-    "response_id": "resp_065e736627d95018006af9174449b887d1866d12b8679ba49a",
+    "response_id": "resp_0ee9fb6a0848eac6006af97a647bec87d2a9f82ee3808ee835",
     "usage": {
       "input_tokens": 3267,
       "input_tokens_details": {
@@ -12,11 +12,11 @@
         },
         "cached_tokens": 0
       },
-      "output_tokens": 837,
+      "output_tokens": 887,
       "output_tokens_details": {
-        "reasoning_tokens": 108
+        "reasoning_tokens": 131
       },
-      "total_tokens": 4104
+      "total_tokens": 4154
     }
   },
   "context_pages": [
@@ -31,10 +31,9 @@
       "source_sha256": "c9a739a2fdb2a25dda81564ee8616159f19fc4f7599a0b419d84f563a7b9ee88"
     }
   ],
-  "created_at": "2026-11-15T02:21:56Z",
-  "duration_seconds": 6.24,
-  "error": "Response object must contain exactly 'text' and 'review_notes'",
-  "error_type": "invalid_json_or_schema",
+  "created_at": "2026-11-15T09:24:52Z",
+  "duration_seconds": 8.524,
+  "empty_text": false,
   "identity": {
     "chapter_of_interest": "c6",
     "filename_stem": "enade_2021_ci_bio",
@@ -45,7 +44,6 @@
     "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_282.txt",
     "source_sha256": "7779950f530c4459b2eee4f0a34f290306dfd5b3e336a6e4863cc76dccb3700a"
   },
-  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2021_ci_bio_d313503e1f/page_282.json",
   "model": {
     "configured_model": "gpt-6-luna",
     "provider": "openai"
@@ -54,6 +52,11 @@
   "rendered_prompt_sha256": "fe221bc7dd3c4b3d5635c29cf4e3aa07766939092bf02f28fc346c49169553b9",
   "request_fingerprint": "2efdd53c04365f9866bc90d0512a3c859c5e21a26db549b8e48ed870b1c1f373",
   "retry_count": 0,
-  "status": "invalid_response",
+  "review_notes": [
+    "O texto do parágrafo final continua na página de contexto; foi mantido apenas o trecho presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "6.1 ESTATÍSTICAS BÁSICAS DA PROVA\nEsta seção apresenta estatísticas selecionadas e histogramas da nota geral (6.1.1) e de cada componente: Formação Geral (6.1.2) e Conhecimento Específico (6.1.3). São também apresentadas estatísticas selecionadas de subpopulações, caracterizadas por Grande Região, Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\n6.1.1 ESTATÍSTICAS BÁSICAS GERAIS\nNa Tabela 6.1, são apresentadas as Estatísticas Básicas da prova, por Grande Região segundo Habilitação e Modalidade de Ensino, dos estudantes concluintes de Ciências Biológicas (Licenciatura/Bacharelado). As análises serão feitas primeiramente para os cursos de Licenciatura e depois para os de Bacharelado. Cada Habilitação é desagregada internamente em cursos Presenciais e cursos a Distância. A Média das notas da prova, como um todo, dos alunos de Licenciatura (nas seções seguintes serão analisados os Componentes de Formação Geral e de Conhecimento Específico), foi 42,9, sendo que os estudantes da região Norte obtiveram a Média mais baixa (38,0), e os da região Sudeste obtiveram a Média mais alta (45,3). As demais Médias foram: 40,7, na região Nordeste, 43,9, na região Sul e 42,2, na região Centro-Oeste. O Desvio padrão para o Brasil, como um todo, foi 13,8, sendo o maior Desvio padrão encontrado na região Sudeste (14,2), e o menor, na região Norte (12,4), indicando uma dispersão um pouco menor das notas dessa última região.\nA região que obteve a maior nota Máxima foi a Sul (86,4), ao passo que a região que atingiu a menor nota Máxima foi a Norte (77,9). A Mediana do Brasil, como um todo, foi 42,7, sendo a maior Mediana obtida na região Sudeste (45,6), e a menor obtida na região Norte (37,7). A nota Mínima do Brasil foi obtida nas regiões Nordeste e Sudeste, onde foi zero. A maior nota Mínima, entre as cinco Grandes Regiões, foi 7,2, na região Norte, as demais regiões obtiveram as seguintes notas Mínima: 3,2 (Sul) e 6,4 (Centro-Oeste).\nConsiderando-se as notas, como um todo dos alunos de Licenciatura segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre as Médias obtidas em todas as regiões.\nA Média das notas para os alunos de cursos Presenciais de Licenciatura, foi 44,1, sendo que os alunos da região Norte obtiveram a Média mais baixa (39,0), e os da região Sudeste obtiveram a Média mais alta (48,5). As demais Médias foram: 41,3 na região Nordeste, 47,0 na região Sul e 42,6 na região Centro-Oeste. O Desvio padrão das Licenciaturas Presenciais foi 13,5, sendo o menor obtido na região Norte (12,5) e o maior na",
+  "text_sha256": "8bf25a8366f94dfd9c47a124c7bdae6c97b8e71ccb46bcf5142559550c1980f2",
   "window_size": 3
 }
