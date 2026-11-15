@@ -2,7 +2,7 @@
 
 ## Phase 1 - Data Collection and Preprocessing
 
-Phase 1 has assembled the available ENADE course reports, indexed their PDFs and extracted pages, selected pages from three report sections, made manual revisions to the selections, and produced LLM-denoised text. The indexed reports span 2009–2023; this range does not imply that reports are available for every year.
+Phase 1 has assembled the available [ENADE course reports](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade/resultados), indexed their PDFs and extracted pages, selected pages from three report sections, made manual revisions to the selections, and produced LLM-denoised text. The indexed reports span 2009–2023; this range does not imply that reports are available for every year.
 
 The chapter identifiers used in the metadata are internal labels for these target section titles:
 
