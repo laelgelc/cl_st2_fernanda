@@ -77,3 +77,16 @@ bash run_python_ec2.sh \
     --resume \
     --max-retries 5
 ```
+
+### Full run for retrying the invalid responses
+
+```shell
+python llm_denoise.py \
+    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+    --prompt denoising_prompts/denoising_v1.md \
+    --output corpus/03_enade_selected_chapters_denoised \
+    --window-size 3 \
+    --model gpt-6-luna \
+    --resume \
+    --max-retries 5
+```
