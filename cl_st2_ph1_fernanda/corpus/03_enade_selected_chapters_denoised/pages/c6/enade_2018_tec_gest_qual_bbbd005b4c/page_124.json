@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1ef417a074625a006af90f0b6dd487d197a9813c550d16e0",
+    "usage": {
+      "input_tokens": 3294,
+      "input_tokens_details": {
+        "cache_write_tokens": 3291,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3291
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 858,
+      "output_tokens_details": {
+        "reasoning_tokens": 419
+      },
+      "total_tokens": 4152
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_123.txt",
+      "source_sha256": "92b00b352b9b6150e9e13190a5804212a5c8de4e1081113f2e5572bcc0832f74"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_125.txt",
+      "source_sha256": "9ffe107434d691c0e84351c089217a32669572d57a54476c46ef9cf2b41f33ee"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:51Z",
+  "duration_seconds": 7.562,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DA QUALIDADE.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_124.txt",
+    "source_sha256": "cb7574263fc9b73bf79502794974383c6c42bc4792a9ec5e97b5a4ecfc94b1a0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2c7c89a227c9002586af2df8e285a92c342e1fdd30c499d7eaae38ae339272fd",
+  "request_fingerprint": "b506bbbfc9662ebe9b15ed85a25f8b87d401099caf9d541569791f30649a910f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "• Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil, e uma questão foi tida como Fácil, por ter índice de acertos 0,63. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,20 a 0,63, e o de Discriminação, de 0,37 a 0,49.",
+  "text_sha256": "25f39866f8b4165dd5b2174f35dd9185f3fdd8aea01f1542d3db4c6809a4aadc",
+  "window_size": 3
+}

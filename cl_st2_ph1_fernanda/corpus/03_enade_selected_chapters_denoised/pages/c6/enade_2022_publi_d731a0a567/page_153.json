@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cee452c07e7ca1b006af91db2628487d1ac43783742ff2f63",
+    "usage": {
+      "input_tokens": 2367,
+      "input_tokens_details": {
+        "cache_write_tokens": 2364,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2364
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 2961
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_publi/enade_2022_publi_page_152.txt",
+      "source_sha256": "4bad5108d524ca8c140685cfb46dace52676f091bc09f3e27e3e900118dcad82"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_publi/enade_2022_publi_page_154.txt",
+      "source_sha256": "42cda446a0ad51cb075f62375a5721117b1698f8d9a33d2b430df82d4ea67ddd"
+    }
+  ],
+  "created_at": "2026-11-15T02:49:22Z",
+  "duration_seconds": 5.969,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PUBLICIDADE E PROPAGAND.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_publi/enade_2022_publi_page_153.txt",
+    "source_sha256": "09f16314a4f9bcdc823124b0749171808c69869ddeaccfd6fd485c6b449c0234"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f9ff79f5996d3c5f9b9e0b07df9bd12856325fcd7b3b5e6a7aeaba1127e097f7",
+  "request_fingerprint": "3d4c8e1cd69ac0568fdc4509a1088a6ec5bff3082a244547304edfa76f6ab9c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 7.2, incluindo título, cabeçalhos, estatísticas e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 7.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 7.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (58,6) que a média das IES privadas (49,2). O desvio-padrão para as IES públicas foi de 13,7, indicando uma dispersão baixa das notas nesta categoria administrativa.\nNo tocante à organização acadêmica, os estudantes de universidades obtiveram a média de 50,2, enquanto os de centros universitários e faculdades obtiveram, respectivamente, média de 50,0, 50,7 (maior valor entre as IES).\nA média da modalidade a distância (47,6) foi inferior à média da modalidade presencial (50,4).",
+  "text_sha256": "2b313845f89b32dbf7128eb52f88766d398985de9d543eb2d3f19164e1249474",
+  "window_size": 3
+}

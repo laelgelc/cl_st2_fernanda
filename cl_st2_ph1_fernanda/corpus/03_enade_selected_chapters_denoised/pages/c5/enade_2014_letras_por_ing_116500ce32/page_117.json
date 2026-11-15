@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02e6562aa1f3266b006af8fb42096c87d18a95bef1f72c1210",
+    "usage": {
+      "input_tokens": 2391,
+      "input_tokens_details": {
+        "cache_write_tokens": 2388,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2388
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 465,
+      "output_tokens_details": {
+        "reasoning_tokens": 334
+      },
+      "total_tokens": 2856
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_116.txt",
+      "source_sha256": "ac5a9bf413a111859815a76a3588741e66174cc02044beea9535c51801ff533a"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_118.txt",
+      "source_sha256": "30e531c01a0c2706229ba6087f1f1784521a36b3e242ff4f9e8e83f7bd6ef402"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:25Z",
+  "duration_seconds": 6.679,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_117.txt",
+    "source_sha256": "32a6a02ae7b05ffad30f5d79a9d0e285b1c663096b73952b9591482ccdd053f2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10e39dd0a2d851e8a8059634a8d6dafcd7f5fb9a078fef20cedaf24a42bb0c5a",
+  "request_fingerprint": "1a804bd332fdf8f6429991a62b788c769a04cfcf85da2efcc61a396ec7bcc7e2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.2 e sua linha de fonte. A última frase continua além do limite da página; o texto após «conceito» não foi incluído."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com nove cursos (52,9% do total regional), dos quais um ficou sem conceito (SC). O conceito modal para as Instituições Privadas na região foi 2, com cinco cursos, correspondendo a 55,6%. Três cursos foram alocados no conceito",
+  "text_sha256": "fc556ebebdc181a63e179245063e2a1cc4ad965174aa4d5f13702fa1faea993a",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c1bfd04a2d71fb006af90ccd2cb087d186204bc503bef3ee",
+    "usage": {
+      "input_tokens": 2386,
+      "input_tokens_details": {
+        "cache_write_tokens": 2383,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2383
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 577,
+      "output_tokens_details": {
+        "reasoning_tokens": 332
+      },
+      "total_tokens": 2963
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_150.txt",
+      "source_sha256": "26ede3d90fd9ae7bcd0290750b20b41c3fe44565240047a608ae3ef0eeeb74f4"
+    },
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_152.txt",
+      "source_sha256": "d59644455ce38eeeabd118695238d53d4953b5c26acd67a404ed3676928b71b8"
+    }
+  ],
+  "created_at": "2026-11-15T01:37:17Z",
+  "duration_seconds": 6.64,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_DIREITO.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_151.txt",
+    "source_sha256": "2124a7c91b1c43665604d587fdd4615a586341321a6f8955c19dd31413bdf2b3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af2fe27e5fb079ad8700278f8bdc3bbbd032d4a850ce1a0814f13d03fed9439c",
+  "request_fingerprint": "0a9b9360d76690f75fec64ab860b8ee8d0c45dc5c287eb59f79a4461a1b7eb8f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte. Removida a linha de fonte associada ao Gráfico 6.11; o gráfico em si não aparece no texto extraído.",
+    "A última frase do texto da página termina em “surge da” e continua na página seguinte; não foi completada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Direito. A moda dessa distribuição é o intervalo (30;40], seguido de perto pelo intervalo (40;50]. Quase 11% dos participantes deixaram a questão em branco, caracterizando esse intervalo como um máximo local.\n\n6.3.2.2 - Comentários sobre as respostas à Questão Discursiva 3\nA questão abordava um tema de extrema relevância, qual seja, as migrações humanas e todos o complexo de problemas que esse movimento causa, quer na origem, quer no seu ponto de destino. Tema extremamente atual, indicava um aspecto que surge da",
+  "text_sha256": "f9673e38fad2b8f32c9cb3949badfced9d14d95cb108f93aad5261c655f17419",
+  "window_size": 3
+}

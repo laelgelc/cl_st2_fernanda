@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0acf877f245592ef006af921868ddc87d1855976599b3e1d60",
+    "usage": {
+      "input_tokens": 2640,
+      "input_tokens_details": {
+        "cache_write_tokens": 2637,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2637
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 281,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 2921
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_123.txt",
+      "source_sha256": "72ad3235058b7b56cfb9f99396956e9d785dce0319aca6a1ecae0b17ec43eebf"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_125.txt",
+      "source_sha256": "7c425e38b62d97556044943e7f7767d7b873fc776829a692ae5aa943dab5f33c"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:42Z",
+  "duration_seconds": 3.869,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_124.txt",
+    "source_sha256": "b670745c095d626bf75d72e8759299649fb849b0be8f68a3834195806b2e028b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a85ffc17a0b36fa31098283cdc7946793bd9b8e246e19192c9b4a37f3a518d34",
+  "request_fingerprint": "1695c21aec6a6f01e38cde006c3f06d6f0e414dcdd55af979fce737fbfa87f5f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.2, incluindo título, conteúdo gráfico e fonte."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "47907d24dcc0eca40b5f74dba877b47e5a19f3534828513d372585be3078e9db",
+  "window_size": 3
+}

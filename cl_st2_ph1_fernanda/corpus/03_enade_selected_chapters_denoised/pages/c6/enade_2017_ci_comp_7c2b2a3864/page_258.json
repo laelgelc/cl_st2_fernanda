@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1962a92e5d2f60006af905182f0087d1a3f70f8e207e60a5",
+    "usage": {
+      "input_tokens": 3008,
+      "input_tokens_details": {
+        "cache_write_tokens": 3005,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3005
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 285
+      },
+      "total_tokens": 3420
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 257,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_257.txt",
+      "source_sha256": "644aa82aca2223738bc048a1d99f2f3431058c0e2fc45abc0df1126dbe95c78d"
+    },
+    {
+      "page_number": 259,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_259.txt",
+      "source_sha256": "739fca36a2233ebdf4f4cadff7f63cb508da4945ae7dd3013c09967ee0358bad"
+    }
+  ],
+  "created_at": "2026-11-15T01:04:24Z",
+  "duration_seconds": 5.934,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 258
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_258.txt",
+    "source_sha256": "3dec6344aa8093862fdb0ad63b99435d77da17ce6a04c248215a0eb712379c85"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "60b48774a860992a64b63c95b123e3c6bd1fc215e417cdfa9b864689c3114a35",
+  "request_fingerprint": "bcce4438faeba01a9c8e9d0fb71f429de49211ed5cd7aeef49854f9f894756b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.19a e 6.19b, incluindo títulos, dados e fontes. O Gráfico 6.12 parece continuar na página seguinte; removido apenas material gráfico identificável na página-alvo."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que deixaram a resposta em branco, tanto na Habilitação Bacharelado quanto na Licenciatura.",
+  "text_sha256": "cf5638c7353504512901629b00107b6901eba00f2ea68a2a9a52bf4bfa665e4d",
+  "window_size": 3
+}

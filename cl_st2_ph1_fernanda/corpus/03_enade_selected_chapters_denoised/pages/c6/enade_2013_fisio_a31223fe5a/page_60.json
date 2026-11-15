@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d23d9a047fc44e6006af8f3d9c7e887d1b52f0f370ccd5486",
+    "usage": {
+      "input_tokens": 2695,
+      "input_tokens_details": {
+        "cache_write_tokens": 2692,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2692
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 364,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 3059
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_59.txt",
+      "source_sha256": "dd2e19bed3a72e5434da3ec642dcd3b00df5eb41f7474383e5a35983277846b6"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_61.txt",
+      "source_sha256": "ef2b9f580fc0363988e89e7ea86db497b5fc7c55934bce917ca10abfacd33c33"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:49Z",
+  "duration_seconds": 3.623,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_60.txt",
+    "source_sha256": "c044ed492dc25782b18627da66162b476f286edb533157a3cd98ae492662071b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bd7a45c454c85418bfccebc446cbec6b534569bf33f96f401191d441d604e6b",
+  "request_fingerprint": "97cc28a9003fa0bedff8a1acd3fc890b53a24fd0c407aedb9a97dcc38ce37d49",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico da questão 24 e sua linha de fonte removidos."
+  ],
+  "status": "success",
+  "text": "correspondente ao gabarito. Seu índice de discriminação foi igual a 0,39, classificado como bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 24, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. A proporção de alunos que selecionou a resposta correta A aumenta gradativamente, chegando a atingir 100% para aqueles que acertaram pelo menos 23 questões, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir da primeira nota não nula, como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do Componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "8ef7eedb208726f8f66a88d129a572a28c0621bbf4690217a12e501e95dd20cd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd08bbd74745e8d006af906c199d087d19fe582ffbdec447a",
+    "usage": {
+      "input_tokens": 2725,
+      "input_tokens_details": {
+        "cache_write_tokens": 2722,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2722
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 3111
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_119.txt",
+      "source_sha256": "a41fc0b9a237139feaf6ee806b855022ca76f4aaddf3638640f3fcde4907a24d"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_121.txt",
+      "source_sha256": "e167b6a11dfaffb85a95c923c90c573c7e0e12d5244430a088e35825dfefa17c"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:29Z",
+  "duration_seconds": 5.439,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_120.txt",
+    "source_sha256": "b39211583400248a12132d4a128eeae2e48cfd9a92f0f543186d91b958f04930"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5ece45e965c31a8b100fae20f3e781a14dabe09979e67d9aabf5da494f64e778",
+  "request_fingerprint": "5904a73ebf22fdd97a1f9d1e79275d90d258cdc26813fcff945c9afb2c697c15",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, identificada pelo contexto como pertencente ao Gráfico 6.2 da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (62,0) e a menor pelos de IES Privadas (52,3).\n\nNota-se que também há diferença estatisticamente significativa entre todas as médias dos quatro tipos de Organização Acadêmica, valor maior para CEFET/IFET (61,9) e menor para Faculdades (51,1).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou maior Média do que a Educação a Distância (médias 54,8 e 50,9, respectivamente). Tais médias apresentam diferenças estatisticamente significativas.",
+  "text_sha256": "8873792b520485e99bf42e0dba344d177f2ff362117a0b8f77d2ece0e1e6b79f",
+  "window_size": 3
+}

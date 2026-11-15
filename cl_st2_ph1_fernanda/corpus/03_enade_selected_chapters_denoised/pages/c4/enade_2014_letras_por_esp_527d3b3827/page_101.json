@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b500ebb7946df7c006af8fa53f18487d1b2ea756764cbbdd7",
+    "usage": {
+      "input_tokens": 1657,
+      "input_tokens_details": {
+        "cache_write_tokens": 1654,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1654
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1960
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_100.txt",
+      "source_sha256": "c787dcf302c4fdf1467038d67420bb595b23fc990013b48887a68f944075fcc1"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_102.txt",
+      "source_sha256": "03dda65b88c19e51a0d622d440e5d07a44fb05662150f35c7cfd1fcf081bd7de"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:27Z",
+  "duration_seconds": 3.75,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_101.txt",
+    "source_sha256": "7c10dc89ff69d1ea85f253e6862745116cf6440c773a5f169982f119660fbfc9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "40bf77d3ae85f72d86a90386cd80797f1750512dda98cc2e64f86b8e0b2f845d",
+  "request_fingerprint": "4b01e436ea9faeb9ea1fa60f43cc07ae5cd9136b28ca6a7693148774ae829b96",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014” e o material gráfico associado, aparentemente localizado na parte superior da página."
+  ],
+  "status": "success",
+  "text": "O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (86,3%), percentual superior à média nacional (75,3%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 63,8% dos respondentes. Estas proporções são crescentes com os quartos de desempenho. Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes de todos os quartos de desempenho, como mostra o Gráfico 4.12.",
+  "text_sha256": "4bbcb7b3cb4ca70aee7d5f44ce5cb5a410183db91365bb035dc40512caada452",
+  "window_size": 3
+}

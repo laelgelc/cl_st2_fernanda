@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ce8844820540c5d006af9148c58e487d188edeb05e63a954e",
+    "usage": {
+      "input_tokens": 2947,
+      "input_tokens_details": {
+        "cache_write_tokens": 2944,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2944
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 442
+      },
+      "total_tokens": 3572
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_nutri/enade_2019_nutri_page_140.txt",
+      "source_sha256": "d4523035efe61f220d22405052d09a8966d182e54bf20cdab772976e60639d38"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_nutri/enade_2019_nutri_page_142.txt",
+      "source_sha256": "2f8bc78d148db9e402577ebc12ebcf38a27994776afe57d31672a08a7f1c77c5"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:20Z",
+  "duration_seconds": 6.726,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_nutri/enade_2019_nutri_page_141.txt",
+    "source_sha256": "cb3cb910339d23bfd69a43176fdf465ed5d85f10326d52ca8137f9813dc5cb9f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "13ac5af1d702e842511f1b78759e4ac634f79a02de4670a8dc3334a6d95524cf",
+  "request_fingerprint": "902df6141e829ce3edda94d175dda7957f434c885f8a86c7fc4901e45c7aa9cc",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 5.3, incluindo título, dados e fonte, removida. O texto termina no alvo em “Nenhum curso ficou”; a continuação está fora da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com sete dos 23 cursos avaliados. Três cursos receberam conceito 4, conceito modal, outros dois receberam conceito 2. Os conceitos 1 e 3 foram atribuídos a um curso, cada. Nenhum curso ficou Sem Conceito (SC) ou recebeu conceito 5.\n\nOs Centros Universitários da região Norte foram representados por seis cursos, os quais obtiveram conceitos 2 (três cursos), 3 (um curso) e 4 (um curso). Nenhum curso ficou",
+  "text_sha256": "5b08c556931f873db1ea15fb11af9fd16b197684b4f4d79b46f4088277a5177e",
+  "window_size": 3
+}

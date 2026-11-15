@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0206e2c429738e5e006af8ef55d1a087d18e8a781475e104d5",
+    "usage": {
+      "input_tokens": 1330,
+      "input_tokens_details": {
+        "cache_write_tokens": 1327,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1327
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 576,
+      "output_tokens_details": {
+        "reasoning_tokens": 436
+      },
+      "total_tokens": 1906
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_90.txt",
+      "source_sha256": "cd80d53403fde717919e1788e6c4bfe920ff2df487923b842c1004cc3ac23299"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_92.txt",
+      "source_sha256": "b56543916e9f5c90f2111229fd7f60e79b28a2e2e46f0a577955185caf913af0"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:33Z",
+  "duration_seconds": 6.211,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_91.txt",
+    "source_sha256": "7300b2615027923e77e4fcc242782aa36e796d043800983ec006fdddb07aae1d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "46fea12496775882c3f3fb404331544ec6d531ea45fb4b1f6ef2f9733acc50f7",
+  "request_fingerprint": "46e7708b7dc224af87882cf25e6349b24cf0d0a0fdb6a7a351619b28acd91497",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes dos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 81,1% e 64,1%. As diferenças entre o primeiro e o quarto quartos são estatisticamente significativas e nota-se uma tendência crescente em relação ao aumento do desempenho.",
+  "text_sha256": "166d854dc5d7146f5c3b6a331aa48c579849eaac1ea81799b0ccca0f1572ea43",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01bdd4f8fce6c94b006af8fb6f569887d195d5c1c8ec6473fb",
+    "usage": {
+      "input_tokens": 1758,
+      "input_tokens_details": {
+        "cache_write_tokens": 1755,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1755
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 368,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2126
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_103.txt",
+      "source_sha256": "6436ff333472b52104f4c87028dbfd30837cce411c8a94d833fd863136b99d38"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_105.txt",
+      "source_sha256": "57b41ae2167856a35c0eb118de9208966f4d0ddb01d792a8257f006b9c35c14f"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:11Z",
+  "duration_seconds": 4.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_104.txt",
+    "source_sha256": "1d342042d43a8d1ef615232fd545184d0943ee77851341b752b2f1780c1b36ca"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "15320fe85c34049269cb9a83585f0d48e3eeda1a2f57cfc1fa778cc2b4d29f57",
+  "request_fingerprint": "b6b9964bd3793de4b295ba9eea15f333bda88148d4032cff37ba5390db8b1501",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o número de página e a linha de fonte, provavelmente associada a material gráfico na página; verificar o limite desse material."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa do resultado do quarto de melhor desempenho em relação ao terceiro quarto, e deste em relação ao segundo. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 29,4% (4º quarto) a 42,9% (1º quarto), valores decrescentes com o desempenho. A alternativa modal para a Questão 2 foi o grau médio, com 49,4% do quarto inferior e 61,1% do superior optando por esta resposta, valores crescentes com o desempenho.",
+  "text_sha256": "ce805b7759039e62ecc55e0390b5977799b6436a0ab8db56a2efe38d3d25a53f",
+  "window_size": 3
+}

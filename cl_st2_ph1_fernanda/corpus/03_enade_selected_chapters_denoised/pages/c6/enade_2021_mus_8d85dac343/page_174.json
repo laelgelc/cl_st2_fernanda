@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0252eff7f1a47b89006af91a756a3487d1821a5a6a61ee4f25",
+    "usage": {
+      "input_tokens": 3234,
+      "input_tokens_details": {
+        "cache_write_tokens": 3231,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3231
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 417,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 3651
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 173,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_173.txt",
+      "source_sha256": "b12377df9deca07de239565e7de5c3d7d03cd28bfa34da4e3b6de10d1b7b85fa"
+    },
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_175.txt",
+      "source_sha256": "788e5163982baa55ca52d5447470185e92d734fb2785e40e726257ec53701427"
+    }
+  ],
+  "created_at": "2026-11-15T02:35:33Z",
+  "duration_seconds": 4.736,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_MÚSICA.pdf",
+    "page_number": 174
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_174.txt",
+    "source_sha256": "a741079801767b023dff9e40ab3ca64371c854d8b78ecbffbb62c3c664f4bbb3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d23a0b689570fe4f9eac781c98a747a23321b5ec8ed293db0bc7cb9c91449ae5",
+  "request_fingerprint": "cc6dfddd7d8afc405e794d3967322ada1cab79c0333a03c72cd80e9c7d9f83ab",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e linha de fonte.",
+    "Removido o material gráfico do Gráfico 6.2 e sua linha de fonte; a prosa que descreve e menciona o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda no intervalo (20; 30] e frequência de 22,8%. Esse intervalo é imediatamente anterior ao modal da distribuição de notas da prova, como um todo (Gráfico 6.1). O intervalo modal é seguido de perto pelo intervalo (30; 40], com frequência de 22,5%. Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam dispersão um pouco maior do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 13,8 para a nota da prova, como um todo, e 15,4 para o Componente de Formação Geral.",
+  "text_sha256": "0247c11473fc89f1f56ce70ab18b5c2cd22054ecbbe9defc04a889d56988278a",
+  "window_size": 3
+}

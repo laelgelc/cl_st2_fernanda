@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_030181e7784e8516006af9253cd11487d1abb5d932b803f423",
+    "usage": {
+      "input_tokens": 1865,
+      "input_tokens_details": {
+        "cache_write_tokens": 1862,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1862
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 346,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 2211
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_91.txt",
+      "source_sha256": "055c2bb438690926e34b57b2c376c98f3b1730c373387eaac1e1b58dbd8de16c"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_93.txt",
+      "source_sha256": "895314c9951fb53f65dbd9a5f4127450e946ea1c532fff34dcb1d013d1eabddf"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:32Z",
+  "duration_seconds": 3.428,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC RADIOLOGIA.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_92.txt",
+    "source_sha256": "b03a955018a783a275aceb6d41a288e89f32e682cef64152f6fcd7b2a4b8a421"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a646eb0fe54677f608367a8de950702a1920370a89915abec60ccced28d0e79f",
+  "request_fingerprint": "beabb738121ba8871d4bda45c8be1d862838712f1c6188ea9f106b1cc699f7b9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.11, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 traz outros resultados também em relação à questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 3.11, considerando-se a extensão da prova, o percentual de estudantes que avaliaram a prova como “Longa” ou “Muito Longa”, em relação ao tempo total destinado à sua resolução, foi maior entre os estudantes de faculdades (31,6%), enquanto os de CEFET/IF, a organização acadêmica com a menor incidência, esse índice atingiu 21,8%. Pode-se constatar que não há diferença estatisticamente significativa entre os dois extremos. A proporção de presentes, na prova do Enade 2023, que consideraram a sua extensão “Adequada”, em relação ao tempo total destinado à sua resolução, esteve entre 65,8% nas faculdades e 78,2% nos CEFET/IF (ver Anexo V, Tabela V.6).",
+  "text_sha256": "5911a32f7ad43e682cbeb38648927adb738bef59a8505a1b39bf9c3a04520182",
+  "window_size": 3
+}

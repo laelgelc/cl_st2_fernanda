@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4e14c85571eb8d006af9072befb087d1ae8508f531d36ea1",
+    "usage": {
+      "input_tokens": 2827,
+      "input_tokens_details": {
+        "cache_write_tokens": 2824,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2824
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 827,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 3654
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_102.txt",
+      "source_sha256": "8ea672ee2611f23d3efbbbe0c2cb864ce8fcb4119ddebad5006ac16fc672e1db"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_104.txt",
+      "source_sha256": "944dd65f281fdf4ec74b83b35a8f6e21f9468329d377156a8bb9eb5f4a14d326"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:15Z",
+  "duration_seconds": 9.69,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_103.txt",
+    "source_sha256": "a53a743522ab733a836ee5ee6d41afb4c232039ab3575cd8fa41412e24e72524"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "07d88d9dd10d3cf749878274c4fedebcb3b3d8f4195f8b625d02e710580da92a",
+  "request_fingerprint": "7a8d8f7d323eba155a21b184d9d79a865f32c18826d9680d2c3266b0e7aef426",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.2, incluindo título, dados e fonte. O texto do alvo termina no meio da frase em “na”; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.2 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 50,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (51,6), e os das IES Privadas obtiveram Média mais baixa (42,9), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Norte (11,3), a maior e a menor Média, é superior à diferença entre IES Públicas e Privadas (8,7), caracterizando menor diversidade administrativa do que regional. O Desvio padrão para as IES Privadas (12,1) foi inferior ao do Brasil, como um todo (14,0), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.\nNo tocante à Organização Acadêmica, as Universidades obtiveram Média mais alta que a nacional (51,5). A Média dos Centros Universitários foi a menor (37,5). Constata-se que só existe diferença estatisticamente significativa ao nível de 95% entre a Média obtida nas Faculdades (43,2) e a Média mais alta, obtida nas Universidades (51,5).\nNão há registro de participantes na Modalidade Educação a Distância.\n\n6.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 6.3 apresenta as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 59,3. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 15,6. A maior Média foi obtida na região Sudeste (64,0), e a menor, na região Norte (56,6). As demais médias foram: 59,0 na região Nordeste, 58,9 na região Sul e 57,6 na região Centro-Oeste. Já o maior Desvio padrão foi obtido na",
+  "text_sha256": "fe26fd5c6dadc1d4d53fd37adc10cfcb41f93925e221de7519a03931cf9986bd",
+  "window_size": 3
+}

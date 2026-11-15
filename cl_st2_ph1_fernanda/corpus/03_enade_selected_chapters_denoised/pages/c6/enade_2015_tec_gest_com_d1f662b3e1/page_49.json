@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a6ead10027e6162006af8ffc8129c87d19a7b0bd739b2610d",
+    "usage": {
+      "input_tokens": 2312,
+      "input_tokens_details": {
+        "cache_write_tokens": 2309,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2309
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 2892
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_48.txt",
+      "source_sha256": "9b70c736afcec3256b931c95aba93582a41242c50cb65c69cf7033deee194516"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_50.txt",
+      "source_sha256": "5a4db2b82b1737deefb020f4cbbae7064a48820bbd274c78e90146719d724a1d"
+    }
+  ],
+  "created_at": "2026-11-15T00:41:44Z",
+  "duration_seconds": 5.887,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_49.txt",
+    "source_sha256": "f24a94537ddef240626602df78e6b200ae49274b6a3a6d1682817a81282561d7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "66e304362f92b377f7fce521a737261cfb23ed6f33e20f0ed74435e1a56327fd",
+  "request_fingerprint": "6fd8249362c5efceeaf2048a232317177db33992fb41dfd3d83d0368d2231262",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 3.3; o gráfico e seus dados não aparecem no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (49,8), vindo a seguir a das Faculdades (49,7) e, depois, a dos Centros Universitários (48,6). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Faculdades (15,3). As Faculdades também obtiveram as maiores notas Máxima (91,4) e Mediana (50,1). Por sua vez, as Universidades obtiveram a mesma Mediana (50,1) que as Faculdades, e 87,6 como notas Máxima. Já os Centros Universitários, obtiveram 49,1 e 89,9 como Mediana e notas Máxima, respectivamente. A nota Mínima foi zero para todas as Organizações Acadêmicas, sem exceção.\n\nQuanto à Categoria Administrativa, observa-se um comportamento diferente àquele da parte de Formação Geral e à prova como um todo, ou seja, não existe diferença estatisticamente significativa entre as médias das IES Públicas (51,8) e IES Privadas (49,3).",
+  "text_sha256": "24067408425b052d9526059564f123b25fae4a5d6afd854311fe5088bd7ebe71",
+  "window_size": 3
+}

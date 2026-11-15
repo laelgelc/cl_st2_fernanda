@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02febeb02c8a6b6d006af901d0673c87d197a5f80134840641",
+    "usage": {
+      "input_tokens": 2748,
+      "input_tokens_details": {
+        "cache_write_tokens": 2745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3487
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_51.txt",
+      "source_sha256": "1c2aa2503a780a6fdc21d0c339e5a3782874e4701a89cbee1633238f7c931ad8"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_53.txt",
+      "source_sha256": "4400bee6b679c7b4a0e4f6a0126cdff624d6f8979d2891fc1a67f39fe19087b1"
+    }
+  ],
+  "created_at": "2026-11-15T00:50:24Z",
+  "duration_seconds": 6.757,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_52.txt",
+    "source_sha256": "a57932aa0bfa9b1c836cd5263c41625571c61d675d72e56f654a609605bae37c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aff1d0712d25f7b61ca6867cf3bf334f0945e0298763ff25c37a77c00b122b1e",
+  "request_fingerprint": "c566b9bf5d425f540c32b741dd66dead3e610ebfd0bc09dab4e814aa89691520",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados, classificações e fonte."
+  ],
+  "status": "success",
+  "text": "(0,42). Já a questão 5 obteve Índice de Discriminação Médio, 0,28, e seu Índice de Facilidade foi Muito difícil (0,11).\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Difícil, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 30,0% escolheram a alternativa E, 29,7% escolheram a alternativa B (em verde), 2,4% escolheram a alternativa C (preto) e 1,4% a D (roxo). Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,1% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.",
+  "text_sha256": "992b966b26dc0be2eea833bf697a73429c4d1671d92da0035d4997d1c535e543",
+  "window_size": 3
+}

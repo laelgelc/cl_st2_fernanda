@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_056ecc42c0b6ea59006af8f47f835487d1b8e5f1a7e5b1d834",
+    "usage": {
+      "input_tokens": 1676,
+      "input_tokens_details": {
+        "cache_write_tokens": 1673,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1673
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 261
+      },
+      "total_tokens": 2116
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_41.txt",
+      "source_sha256": "3e77006307ffbd259c4eed07263424f9428934bee746aef628e6d46dd3a6ff71"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_43.txt",
+      "source_sha256": "440f7c7276583f76b17ccd56e060603c5c5e921c939149d9502c2b37c95acce3"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:35Z",
+  "duration_seconds": 4.177,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_42.txt",
+    "source_sha256": "d0b68815e698650cfc0ea0a4922134cc7169eb14e89cf49d00ff56c64e95cc4d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0ae5e8d7c347e2729d5966801aa7e4274b3463ea3e163edd7e471806c636b012",
+  "request_fingerprint": "b257e369fa2dd768c0d05a4a284cda1176e257d1be39a5f7dd5c4fe18b807739",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico; o Gráfico 3.4 não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (45,8), e a menor, pelos de Faculdades (39,2).",
+  "text_sha256": "3978a8ad9fe51c414cff9e138c53fa75373ca6c443a98b06dbf44691391e9886",
+  "window_size": 3
+}

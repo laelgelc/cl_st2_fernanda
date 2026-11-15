@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07fa0994444ee381006af8ec6166bc87d189aa035e253caa66",
+    "usage": {
+      "input_tokens": 2564,
+      "input_tokens_details": {
+        "cache_write_tokens": 2561,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2561
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 726,
+      "output_tokens_details": {
+        "reasoning_tokens": 338
+      },
+      "total_tokens": 3290
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_76.txt",
+      "source_sha256": "cedea1b3a5b805cadaf5f6dae0fe748e161bf43a6bc1a927ef5d46013e5e928d"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_78.txt",
+      "source_sha256": "174e6a74dc301a78f0843bbb34d176439f7f0c61ff907518a8b0adc34428effb"
+    }
+  ],
+  "created_at": "2026-11-14T23:18:57Z",
+  "duration_seconds": 7.832,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_4",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO IV.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_77.txt",
+    "source_sha256": "151ce83a2804c891ccac39d8514c5510e96806b56bdb011f33da196dd59b3806"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "611c25b6abc5834fdbca14b7ba8e391a6f6abfc799bd41e914c924e0c55669c0",
+  "request_fingerprint": "f3067d2dbd2ea73ea5a119fd96a2119b2addd60d20e2c3d1602471ea1731a560",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.16. A representação gráfica do Gráfico 3.22 não aparece no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) foi alcançada na região Sul, enquanto a menor nota máxima foi registrada na região Norte (70,0). A mediana e a nota mínima foram zero para todas as regiões do Brasil, ou seja, pelo menos metade dos alunos tirou nota zero na questão.\n\nO Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico para alunos de Engenharia de Alimentos e de Engenharia Química. Mais uma vez, destaca-se o grande número de estudantes que deixaram a questão em branco, para as duas engenharias.\n\nComo nas questões discursivas do Componente de Conhecimento Específico anteriores, estas têm coeficientes de assimetria positivos e maiores do que 1, o que explica a longa cauda à direita do gráfico. Para alunos de Engenharia de Alimentos o coeficiente de assimetria é 3,25 e para Engenharia Química é 2,92. Este tipo de assimetria positiva e acentuada também ocorre em todas as regiões, com coeficientes sempre maiores do que 1 para ambos as engenhharias. Os coeficientes de assimetria de Engenharia de Alimentos, quando comparados com os de Engenharia Química, são sempre superiores. A variação dos coeficiente de assimetria para a Engenharia Química é de 2,38 (Sul) a 3,93 (Norte); já para a Engenharia de Alimentos, os coeficientes variam entre 2,43 (Sul) e 6,08 (Nordeste).",
+  "text_sha256": "4782e724d93b60987d87ef65d285c4f8eab6d09dba1ffb6a544444e7ee23afbd",
+  "window_size": 3
+}

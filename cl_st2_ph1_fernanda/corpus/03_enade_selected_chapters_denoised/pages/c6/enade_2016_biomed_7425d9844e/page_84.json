@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_065c9adfe73cd3be006af901b8025887d1a68259fb7808f92b",
+    "usage": {
+      "input_tokens": 2331,
+      "input_tokens_details": {
+        "cache_write_tokens": 2328,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2328
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 558,
+      "output_tokens_details": {
+        "reasoning_tokens": 319
+      },
+      "total_tokens": 2889
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_83.txt",
+      "source_sha256": "d1d057cb925d99ea4ec2c0ef9abe58a75f4574fd2814243dd05231f0b4a5e04a"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_85.txt",
+      "source_sha256": "fc7ffa303ddb59957e2c09b6569bf4b7f2d388e910bf4efea0f89edc09827574"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:59Z",
+  "duration_seconds": 5.449,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_84.txt",
+    "source_sha256": "e4caa863be07431798bb5a9e0effaa8434300150f3a1fdf43cfbc2727cc0833d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7aefc39da08ecf5e34b458ffec54ea2358cff9f9d59c94b4e66d0ab36984806f",
+  "request_fingerprint": "f498ff9f30e84d1ad41c5521b533abb46af4f39c613db7aff8cfa64d2379558d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, estatísticas, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Quanto à variabilidade das notas, o Desvio padrão dos alunos do Brasil, como um todo, foi 28,9. Enquanto o maior desvio foi encontrado na região Nordeste (30,2), o menor foi encontrado na região Sul (27,3).\n\nA Mediana para o Brasil foi 60,0, a mesma obtida em todas as regiões, a menos da região Norte, cuja Mediana foi 40,0. Para os alunos de Biomedicina do Brasil, a nota Máxima foi 100,0, e a nota Mínima (0,0). Os mesmos limites foram encontrados em todas as regiões\n\nO Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (50; 60]. Os estudantes que deixaram esta questão em branco ou que obtiveram nota zero totalizam mais do que 12% dos concluintes.",
+  "text_sha256": "6c571f85971594f7b87ae91f05a917310159a0fc74bf08efbe0be1fbb5a93e57",
+  "window_size": 3
+}

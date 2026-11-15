@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b99113ed52c129c006af8e5d6906c87d1a28a4ec89552d92b",
+    "usage": {
+      "input_tokens": 2423,
+      "input_tokens_details": {
+        "cache_write_tokens": 2420,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2420
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2785
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 27,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_27.txt",
+      "source_sha256": "303bff6c1db6e0c16bd681e85bab343a14870b1bb7e217c30d2d03f82a54dde6"
+    },
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_29.txt",
+      "source_sha256": "b4f78be1b01eb17fa87b3f7ff424ea0890bf32386469fba13934ae5469239b41"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:02Z",
+  "duration_seconds": 3.968,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 28
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_28.txt",
+    "source_sha256": "0a5d4c94bf3e62e54e80f409c183d372da1b47ce9e34b204f0dbfd11101dd44a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "38895eeb020a2c9fd16a9ffce7e05bc11549d20677041f6df2a0d50a520a1cf1",
+  "request_fingerprint": "3e0a5de4d63bc99125a676ffae52da2262fa06964cee565138cf5929e4cae911",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, eixos, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 30,0 entre os concluintes e 25,1 entre os ingressantes. Nas faixas de notas até 30 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 30 pontos. Constatou-se que aproximadamente 2,1% dos ingressantes e 13,3% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "50ce641cd578e99da62c1ee62c3adc7bfd287d0115ccb082bcf0199c34973b5e",
+  "window_size": 3
+}

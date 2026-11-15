@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01377b37ac37e071006af90ba80f0887d1a0f6aa0374ecf8ef",
+    "usage": {
+      "input_tokens": 2787,
+      "input_tokens_details": {
+        "cache_write_tokens": 2784,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2784
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1003,
+      "output_tokens_details": {
+        "reasoning_tokens": 421
+      },
+      "total_tokens": 3790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_121.txt",
+      "source_sha256": "67a7d14ac53ec7c602ffd1354805d57a9af068c5ac1a8c19fc8524bc76b28e84"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_123.txt",
+      "source_sha256": "804d4a68c030c39a5529aee6a5adfec556c05be5859d3c37bd29edeb86129ed2"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:23Z",
+  "duration_seconds": 8.795,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_122.txt",
+    "source_sha256": "06fa74a3e3018f2e63693caa40f929061da5045e1075ca82d156cb114109d6b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe4c1ae46adb258e7e5efc78c1b9175e7eb4dabb4d5c2dac68d993c715965761",
+  "request_fingerprint": "8c8b4752973f28a6db1b77bee4776fdc069a444b5d3ea9941e381124acca529b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "em termos de facilidade, com uma proporção de 0,53 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,77. As questões 7 e 8 foram consideradas Difícil, com índices de Facilidade 0,29 e 0,40, respectivamente. Já os índices de Discriminação foram Muito bom para as duas questões (0,41 para cada uma delas). A questão de número 1 apresentou um Índice de Facilidade de 0,16 (Difícil), ou seja, menos do que um quinto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,37). A questão 3, também considerada Difícil (0,30) quanto ao Índice de Facilidade, obteve Índice de Discriminação Bom, 0,39.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 20,8% escolheram a alternativa E (em vermelho), 17,7% escolheram a alternativa D (em roxo), a metade (50,3%) escolheram a alternativa B (em verde), 5,9% escolheram a alternativa A (azul), e 4,5%, a C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e 0,3% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos.",
+  "text_sha256": "4a682cfb620d4b839a818f9863707fd7bd8a55796f04c247d0a4402dc34a8199",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba9a1cd2ceb0a5a006af8f1b35f6487d18329cbb1dc62d13f",
+    "usage": {
+      "input_tokens": 1953,
+      "input_tokens_details": {
+        "cache_write_tokens": 1950,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1950
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 544,
+      "output_tokens_details": {
+        "reasoning_tokens": 328
+      },
+      "total_tokens": 2497
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_39.txt",
+      "source_sha256": "d68e01fe546367650543ffa00e4a4ccbbef4dbec9d6b2f9c8f2c82933a3f25b7"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_41.txt",
+      "source_sha256": "63d87a999f3af40f1eed3d67741a19cd806f98f9871df14cef71a89a57209c2c"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:39Z",
+  "duration_seconds": 4.597,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_40.txt",
+    "source_sha256": "79e2e067f232c500f975e9ddda7544223ec07b26f195a3c088cafde563c52af2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "321bd6b38deb3d6d34c4fd18fa101eec8e3897d526403ff48392b17bdd072da0",
+  "request_fingerprint": "2b18f5ae54d3483ec9db1e7c4c66afdfd7e2b1e7ab3e74e11099d3327e1f95b9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa entre a maior média das notas no Componente de Formação Geral, obtida na região Sudeste (43,7), e a menor, obtida na região Centro-Oeste (38,6). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "c652e16a9fb126b6818bb20fea9c7fbe57b5286eaea71cb24207688a9c1c2c15",
+  "window_size": 3
+}

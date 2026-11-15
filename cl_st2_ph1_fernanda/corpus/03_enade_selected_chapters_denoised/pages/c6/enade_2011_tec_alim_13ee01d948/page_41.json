@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bae48572955f28006af8eeb9a35887d18fddc21d6cda0fe6",
+    "usage": {
+      "input_tokens": 2104,
+      "input_tokens_details": {
+        "cache_write_tokens": 2101,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2101
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 2461
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_40.txt",
+      "source_sha256": "b0fc56b2e8db66e7bd53bb2cbda3652545af61e5c4c0f1a43bc1f244edc1ee0d"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_42.txt",
+      "source_sha256": "a2703839c4393d29fccb8cb3b039898edfa0e30054078c5dc6afb34913aa34c9"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:57Z",
+  "duration_seconds": 3.861,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_41.txt",
+    "source_sha256": "1e3bf45a9313516956c48cd4f5def6088f9ce332024d32056af52d7bf105c1a3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1606ad50c19ceadef6eb401ca58be6173fabea8d7b1e4be2ebec2228f102e013",
+  "request_fingerprint": "a95814eba9cab3334dc0ba4b5f215c322664fad826726ffc99e1ca2cc8e53e60",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico; a linha “Fonte: MEC/INEP/DAES - ENADE/2011” pertence ao gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (42,1) e as médias das regiões Norte (34,0), Nordeste (38,9) e Centro-Oeste (34,0). Já entre as regiões Sul e Sudeste não há diferença estatisticamente significativa entre as médias.",
+  "text_sha256": "378fe23f4a47dd1c816be4747e78006a01f65b9ca1a1c9821d8bcd69589814b1",
+  "window_size": 3
+}

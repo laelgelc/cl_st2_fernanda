@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02fd68204ddf222d006af8f011c58487d19716047951d24344",
+    "usage": {
+      "input_tokens": 2093,
+      "input_tokens_details": {
+        "cache_write_tokens": 2090,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2090
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 2299
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_99.txt",
+      "source_sha256": "7c301f1ad3895933ef11c4dd6693754f1e55c8f6204b9651b79d8b9abfd1b00c"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_101.txt",
+      "source_sha256": "ef5e69058af37425b77fc6730d6bdece48b5f2984fc41fc9abba8e0e122b0589"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:41Z",
+  "duration_seconds": 2.609,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2011_tec_sane_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM SANEAMENTO AMBIENTAL.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_100.txt",
+    "source_sha256": "035bbb568226b7d8152d09ee329b5333f08ead5488b44378843322ff5f7f29c9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5a369e467f30d979be53c9c2fe5ef55a4158ee73a4d013b425bcdd92e54b70c0",
+  "request_fingerprint": "5c70313eb1fa735d8da020ba8d01bf280a8c7b27be21b2dea892363fbb9406e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na análise por região e categoria administrativa, observa-se que na região Norte não houve participação de instituição privada, os dois cursos da Área de Tecnologia em Saneamento Ambiental eram de instituições públicas e seus conceitos foram 1 e 3.",
+  "text_sha256": "1ec99e87422adfdf143d8d5a448894b2819efe173ec9e7d333f0554ffb26d37f",
+  "window_size": 3
+}

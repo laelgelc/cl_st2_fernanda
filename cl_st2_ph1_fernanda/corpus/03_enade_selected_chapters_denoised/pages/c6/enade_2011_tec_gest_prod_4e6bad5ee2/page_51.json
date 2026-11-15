@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f8f19d02296b8e006af8ef84ac7c87d1b265224e0d43e219",
+    "usage": {
+      "input_tokens": 2711,
+      "input_tokens_details": {
+        "cache_write_tokens": 2708,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2708
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 452,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 3163
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_50.txt",
+      "source_sha256": "30c7e8d773edee86ea8818b545bab57c53f52b70a996634ad264d0f24115cbac"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_52.txt",
+      "source_sha256": "c05cce818b185ab38af6ec1040f9e04ebbe7a368c32ab30fa54c955d2bcf5357"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:20Z",
+  "duration_seconds": 4.168,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_51.txt",
+    "source_sha256": "4ffbfd02403b84680f6c6e5017575d4338764445d0d770d5dd6d6112741fe283"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "35d14ad3da575ad7adb36e9c07a82bea474b0772e79e0871b3edb4c1dd9232b0",
+  "request_fingerprint": "d105e94c17c1c3cd26810f059531d22031339f11b790eb4becea497765bb1ecf",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 3.13 e sua linha de fonte (MEC/INEP/DAES - ENADE/2011) removidos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da questão que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelha corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que a quantidade de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% apenas para os que acertaram todas as oito questões objetivas. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando seu índice de discriminação.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "95785b24f1a97100eb7e7a298df06e9e8e80186ef14846a89ca10144f42eaa08",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d20e9e54099ac9c006af9104246b487d1b3ef258831fff95e",
+    "usage": {
+      "input_tokens": 2286,
+      "input_tokens_details": {
+        "cache_write_tokens": 2283,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2283
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 302,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2588
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 203,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_203.txt",
+      "source_sha256": "bf77d85ba96e690d3f71609326d0457bce06371cf1b665adc645f07952235d23"
+    },
+    {
+      "page_number": 205,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_205.txt",
+      "source_sha256": "50af520bcf886e6712583b6f89fabf0fb3ea914380d9096775751321ac89cb5e"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:02Z",
+  "duration_seconds": 3.444,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENFERMAGEM.pdf",
+    "page_number": 204
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_204.txt",
+    "source_sha256": "264e3a6686b818ff0526be1c4d3e7c4aa4c8ba8cc49ff19f944784705cefddd2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a9cbc9b4606016a42823c0e6d6b768954089fde91d63f1be58d97672863daa1",
+  "request_fingerprint": "d9b84370e01c498c5c0f5d2eac0f9978d168c77437d7db81e9d3bf744c583bf5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.19, seus dados e a fonte correspondente; removida também a linha de fonte associada ao Gráfico 6.12."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Enfermagem. O percentual de estudantes que deixaram a questão em branco foi de 5,7%, e 2,2% receberam nota zero. A moda dessa distribuição é o intervalo (60; 70], com 14,9% dos participantes, seguido do intervalo (70; 80], com frequência de 14,2%.",
+  "text_sha256": "2515e9ef7b5bc55c5b3c1ae5887fb2247cd4d04da74e3c972a211a55c6ce3d54",
+  "window_size": 3
+}

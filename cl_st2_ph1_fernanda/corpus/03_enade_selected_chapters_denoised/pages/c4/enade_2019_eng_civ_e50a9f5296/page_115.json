@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b6b3ac099eb637006af9109506b487d1b28145c4c7b7c471",
+    "usage": {
+      "input_tokens": 1691,
+      "input_tokens_details": {
+        "cache_write_tokens": 1688,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1688
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 230,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 1921
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_civ/enade_2019_eng_civ_page_114.txt",
+      "source_sha256": "ec325805b596bf110e438771bb22062de12adac63e40ab3480efcc8a1b440900"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_civ/enade_2019_eng_civ_page_116.txt",
+      "source_sha256": "d7df7badba470d370657715e766f2a7cd82d2edfe01fcee40ed0bc53d04203b6"
+    }
+  ],
+  "created_at": "2026-11-15T01:53:24Z",
+  "duration_seconds": 2.942,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA CIVIL.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_civ/enade_2019_eng_civ_page_115.txt",
+    "source_sha256": "6615e176e6f1e0f80328779a62cf4a448cc761e2a9fab8d36a78bbc97b278bcd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "84498dcf3ecc96ebe34432b8efb31d9dc065d9ebdd139c4d2f5442cb93a4c007",
+  "request_fingerprint": "0021279494c26d3c55d0255a1c331a8a707f83940d87220360083053b4095017",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.19, incluindo título e fonte. “CEFET/IF” aparece isolado no fim da página e foi tratado como rótulo do gráfico; revisar essa classificação."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior para os estudantes de cursos de IES Públicas (90,7%), uma diferença estatisticamente significativa da proporção em IES Privadas (82,1%). Ver Gráfico 4.20 e Tabela II.10, no Anexo II, para um maior detalhamento.",
+  "text_sha256": "7c8f90707437e3b2b9e7a8467b78abae974cf94642b9b1feca4d30eb6e982550",
+  "window_size": 3
+}

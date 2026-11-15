@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05ca74ff428f0592006af90f8fa09087d185e8f53e2334621e",
+    "usage": {
+      "input_tokens": 1737,
+      "input_tokens_details": {
+        "cache_write_tokens": 1734,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1734
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 552,
+      "output_tokens_details": {
+        "reasoning_tokens": 411
+      },
+      "total_tokens": 2289
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_99.txt",
+      "source_sha256": "898a24734828a24d1365580cec9038e0ac60002015a0fbf353b57fc005daceb6"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_101.txt",
+      "source_sha256": "460b4aa69eaa55ba69501f4c4c31030bb4b1f3a7c1c665d4cf2f8f0f4f81e6c2"
+    }
+  ],
+  "created_at": "2026-11-15T01:49:03Z",
+  "duration_seconds": 6.875,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_100.txt",
+    "source_sha256": "8d5c9813ea1089bd7ee11a781cd4f83bea3d7a68e37951937a24ba89b503252b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a3ce76e3233fe40020d15690d7d8af05e13b6a4bcc57b3b0cccc4916a1607727",
+  "request_fingerprint": "264b94c8cb71456e3b155d5208832801d699142c990df82671dd8e9b940ead32",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.15, além do rótulo “CEFET/IF”, aparentemente pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que considerou que todos ou a maioria dos enunciados das questões do Componente de Formação Geral estavam claros e objetivos foi menor para os estudantes de cursos de IES Privadas (78,0%), uma diferença estatisticamente significativa da proporção alcançada em IES Públicas (82,2%). Um maior detalhamento pode ser encontrado no Gráfico 4.16 e na Tabela II.8 no Anexo II.",
+  "text_sha256": "df9e570734282fbdde487fc745f4ea39d84ed7c2c520146b14b98eab0431011d",
+  "window_size": 3
+}

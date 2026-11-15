@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c694ebac7439ce006af8ed41c1b487d1853250a63b0184aa",
+    "usage": {
+      "input_tokens": 2435,
+      "input_tokens_details": {
+        "cache_write_tokens": 2432,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2432
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 457,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2892
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_77.txt",
+      "source_sha256": "8d5375e71cb1a0c3dd2d9d083eedf0c1cb0f40c43f62bac3856b3e9043d247dd"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_79.txt",
+      "source_sha256": "5ef37ee093986cdfea17a35cbba7d93cf219cf2dd315cdc4acf261f3856da91c"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:41Z",
+  "duration_seconds": 4.999,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_78.txt",
+    "source_sha256": "09c774c10205a651b9a959057db22a1b0794db2a8e79af8dc1c5a5802a73e3b0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "94f399828a5f8dfc2ff19fc2d8d11942fa332b52474ab184777d41901675a0a2",
+  "request_fingerprint": "568fabc703f2192667bca3fbd32f79b9cd74343fb1ff881e2c2090247d93fa2f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico para alunos do Bacharelado e da Licenciatura. Mais uma vez, destaca-se o grande número de estudantes que deixaram a questão em branco, para duas modalidades de curso, e proporcionalmente maior para o Bacharelado. Como na questão discursiva 4 do Componente de Conhecimento Específico, esta tem assimetria positiva, mas nesta questão é ainda mais acentuada. Os coeficientes maiores do que 1, explicam a longa cauda à direita do gráfico. Para alunos do Bacharelado o coeficiente de assimetria é de 1,22 e para Licenciatura de 1,24. Este tipo de assimetria também ocorre em todas as regiões, com coeficientes quase sempre maiores do que 1 para ambos os cursos. O menor coeficiente de assimetria ocorre para Licenciatura da região Norte (0,87) e o maior para os alunos de Bacharelado da mesma região (1,68).",
+  "text_sha256": "6852196303f0d3bceffd1fcec01bfd9f229a2f0f9d3cae71efc18a581d3d7ce8",
+  "window_size": 3
+}

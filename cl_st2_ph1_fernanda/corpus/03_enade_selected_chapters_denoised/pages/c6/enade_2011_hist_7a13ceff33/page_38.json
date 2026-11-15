@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000a374513c31a1c006af8edaede6c87d1aa7381c139a2740e",
+    "usage": {
+      "input_tokens": 1503,
+      "input_tokens_details": {
+        "cache_write_tokens": 1500,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1500
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 344,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 1847
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_37.txt",
+      "source_sha256": "4cbfff8cf9e90dd07d602283efdbe459f017aa067afba085433bf4324923fb79"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_39.txt",
+      "source_sha256": "7b5d3397a3f600445b9da885b5e3ccd3c5ca491eab72e5b20fa8f0bcee7d5618"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:30Z",
+  "duration_seconds": 4.75,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_38.txt",
+    "source_sha256": "cac392a07235ad6a901ba63910fa6fb7e09ab37d242e7883623ee545a3fb8408"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bcc5d83f0442f5c8031b4671dcf3e95ae3defe0656880115c4cc906875468db7",
+  "request_fingerprint": "800cb03eb159b74fa57f12521c67775b7101b0a49f395c5270e6bdb496f4533c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. Pode ser observado que a média dos alunos de IES Públicas (30,9) é menor do que a dos alunos de IES Privadas (35,1).",
+  "text_sha256": "ab80676790cda60edef37691a443bdb24a9fb694af2f72982b274b412c1d4c66",
+  "window_size": 3
+}

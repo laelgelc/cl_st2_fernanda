@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b7b4aa47f073cb1006af8f0bca3b087d1bcf88cd11fb3c401",
+    "usage": {
+      "input_tokens": 2012,
+      "input_tokens_details": {
+        "cache_write_tokens": 2009,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2009
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 600,
+      "output_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "total_tokens": 2612
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_35.txt",
+      "source_sha256": "a28b8f570fb62819834574a9dc8b69644cd29c937b7400261a6adcdf2ffca1b8"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_37.txt",
+      "source_sha256": "f0f0928b5aea9b906d08d0fde16d819426397e7df4f60393bb24e9c457bdd2af"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:32Z",
+  "duration_seconds": 4.737,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_36.txt",
+    "source_sha256": "512f3cd75e49ba0e4a1e48db8c1fac602f84ea8b92fe5cde59d48ea5afd8a4c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4fce745abc70f2cbd27f2e0b281f396d6b977d672ed0086eeaa178c4c9ae6894",
+  "request_fingerprint": "91010bcea402b1435ba17887b891735ffd05c9f1e801a3713176930e8f65391f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos material gráfico e linha de fonte no início da página, pertencentes ao Gráfico 3.1."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que não existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (47,5) e a menor, obtida na região Centro-Oeste (45,0). Apesar da média obtida na região Sudeste, menor valor, ser igual à obtida na região Centro-Oeste, existe diferença estatisticamente significativa entre as regiões Sudeste e Sul, a maior média.",
+  "text_sha256": "ec8c524f4dc4aad6ff77e218cbdc51ed3435be3e34429e0607c041ddd62bd18c",
+  "window_size": 3
+}

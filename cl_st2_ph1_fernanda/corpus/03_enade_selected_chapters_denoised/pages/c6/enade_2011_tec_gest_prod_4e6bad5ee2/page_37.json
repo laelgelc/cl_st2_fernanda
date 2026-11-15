@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d16a530877db985006af8ef7df9cc87d18bedc31969f1ea68",
+    "usage": {
+      "input_tokens": 1467,
+      "input_tokens_details": {
+        "cache_write_tokens": 1464,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1464
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 322,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 1789
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_36.txt",
+      "source_sha256": "72600eacc00996996b9ade8c5608383a4ab25bc8b7d0d3fad0b5fe7343d6b60b"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_38.txt",
+      "source_sha256": "a365b96418b0b353032d7ddfc8f72ad3cb1c1132fbbc4e4e8638ba7688f40554"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:13Z",
+  "duration_seconds": 3.834,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_37.txt",
+    "source_sha256": "294a0c29d0f72bac8217dea81a5d498d15241d3948fb2b726e768942bb1c29e8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6c0ea666580b21c0a40124b1b46ad32da82c94dec2a235bd6888a8bd7ed7c00",
+  "request_fingerprint": "ccc2c1bbb7a22b767222c84f9577b4526be0eaa4e604884bdca1b34324e38c75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico; a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011” foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, contata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Faculdades em relação aos Centros Universitários e Universidades. A maior média foi obtida pelos estudantes de Centro Universitários (49,2), e a menor, pelos de Faculdades (45,3).",
+  "text_sha256": "6826276467d16987b97a4a45d0dc3d7383ce898b0ab62d2a9d6656770396c458",
+  "window_size": 3
+}

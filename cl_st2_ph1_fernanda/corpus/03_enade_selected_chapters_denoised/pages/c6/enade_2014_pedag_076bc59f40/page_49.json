@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b3c7a92e1097312006af8fb1284b087d1b3b2601f1b340eb8",
+    "usage": {
+      "input_tokens": 2807,
+      "input_tokens_details": {
+        "cache_write_tokens": 2804,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2804
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 370,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 3177
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_48.txt",
+      "source_sha256": "d5b9a95610fa6d22c9d546be7e7dbb90a090d7b5dfa2b2775ea18396f37cf517"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_50.txt",
+      "source_sha256": "f72095fb842a7b9b1a1c20d028cc089ad06765f120740a30accf32f97db884be"
+    }
+  ],
+  "created_at": "2026-11-15T00:21:38Z",
+  "duration_seconds": 5.077,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PEDAGOGIA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_49.txt",
+    "source_sha256": "f31ce3be7716dde40631b247d4654ec2ddd3ab789bb59f49704d90f23155744c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "35cecde2be375915b142ab794e459633f9e7f2612c4a4b3be175e0bb6b87f77a",
+  "request_fingerprint": "d5d4f2b39538802ce48900c464dc8b003004a99a374340daa5c3fdee92a08f49",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.3 e sua linha de fonte; o gráfico não aparece transcrito no texto fornecido."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Pedagogia (Licenciatura), mas neste caso em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova como um todo e abaixo do grupo modal para a Formação Geral.",
+  "text_sha256": "d7183d9bcfdf112ac31b22aff05fc4f65fccd4141607964e16405f6eb3c77d21",
+  "window_size": 3
+}

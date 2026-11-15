@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d31b079f26b1471006af914887c9487d1bbef6a0640dc7655",
+    "usage": {
+      "input_tokens": 1462,
+      "input_tokens_details": {
+        "cache_write_tokens": 1459,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1459
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 369,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 1831
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_130.txt",
+      "source_sha256": "0c82ddfe265c6e5dc66e38593ebcebe560f0d2580210bf5b6d1867b0f6a3c731"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_132.txt",
+      "source_sha256": "aa3bf9ffeabfb333e0f199e7e3ca93ea7d71497d969d06bd40864cad1905cbc0"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:16Z",
+  "duration_seconds": 4.168,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_131.txt",
+    "source_sha256": "9bcc3327cad8e361f8d59c5e926c486e92ab8c67ffa23a7c8ac5bf6fd8c501d4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c358c75ed063caa9a2b514974591fa6b0d562a48c4399f5820854071db333770",
+  "request_fingerprint": "69577a834c2e79e43abf2c4c4c809f22ad6c05a9b1ab427f21ac2f68d0020fa9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.35. O texto isolado “CEFET/IF” foi tratado como rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, observa-se que, nas IES Públicas, 80,0% declararam ter gasto Entre duas e quatro horas para concluir a prova, sendo 83,9%, nas IES Privadas, com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade nas duas categorias é estatisticamente significativa (ver Gráfico 4.36 e Tabela II.18, no Anexo II).",
+  "text_sha256": "4f04a3085c5f1851ed49bda48dbdf6681ee5358ae41f3322bf80e41265325b00",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c8b6acacc5a70b006af9196ed81487d1ae583fe95c7c7e97",
+    "usage": {
+      "input_tokens": 1561,
+      "input_tokens_details": {
+        "cache_write_tokens": 1558,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1558
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 250,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 1811
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 245,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_245.txt",
+      "source_sha256": "277929d9222e3948bb0f845c8bf9b1f1ceee99cf90985034f68224c5a471cde8"
+    },
+    {
+      "page_number": 247,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_247.txt",
+      "source_sha256": "63069acbd7794591d31ef1525c4964e8e615fb9b92f8e65da05cd4eeda0fa059"
+    }
+  ],
+  "created_at": "2026-11-15T02:31:10Z",
+  "duration_seconds": 3.769,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_HISTÓRIA.pdf",
+    "page_number": 246
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_246.txt",
+    "source_sha256": "15225878d9ab3f34057d7b1d19a13fc64a8ef7c3d592496ee768d91dde8c339c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a65a2c70a332ce2264d6aa63c82a40ade684fa32cd5e1a214a966a2b415e5b92",
+  "request_fingerprint": "3044e38e4dde937abb3594ac5fca741c832d218921a32d81139766c27a312222",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.34a. Há possível inconsistência entre o título, que indica História (Licenciatura), e o parágrafo, que menciona estudantes de Bacharelado; o parágrafo foi preservado como prosa."
+  ],
+  "status": "success",
+  "text": "Uma vez analisadas as alternativas escolhidas pelos estudantes de Bacharelado que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma proporção maior de participantes no quarto superior declarou ter gasto Entre duas e quatro horas para concluir a prova quando comparada com a proporção de participantes nos quartos inferiores. Há diferenças estatisticamente significativas entre o quarto inferior e os dois quartos superiores de desempenho.",
+  "text_sha256": "e073fa86c6d7f80e69ee754e350e445f84b78be0ab2eceb557572dfeba130f81",
+  "window_size": 3
+}

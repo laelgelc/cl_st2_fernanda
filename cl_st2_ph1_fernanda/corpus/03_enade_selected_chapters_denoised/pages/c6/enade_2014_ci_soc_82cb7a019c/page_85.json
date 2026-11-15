@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_032f549c79d2a136006af8f6f6123c87d1be795c17ec235e38",
+    "usage": {
+      "input_tokens": 2172,
+      "input_tokens_details": {
+        "cache_write_tokens": 2169,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2169
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 2479
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_soc/enade_2014_ci_soc_page_84.txt",
+      "source_sha256": "0aa693fe6428472210ddf98b08d42208f1d13acec625d3d529be1003395bfafd"
+    },
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_soc/enade_2014_ci_soc_page_86.txt",
+      "source_sha256": "cd7fb2db8a13285711c904452d27e434fa6902c143b14c4da572c5eee6b0ae12"
+    }
+  ],
+  "created_at": "2026-11-15T00:04:05Z",
+  "duration_seconds": 8.697,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 85
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_soc/enade_2014_ci_soc_page_85.txt",
+    "source_sha256": "fac4c2d065f1731f9c7fdf65672797bb013bd27533a3991bdbcb73ef4670d8fe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0750da83b59d8366fb1b315fbdbd6151201866a514a5dba85a8c268a7cd39e0",
+  "request_fingerprint": "3146294bf3fb9be9adac82ab0878433b782286301b09ce3cd8690d94c8a5d639",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico da área de Ciências Sociais para estudantes do Bacharelado e da Licenciatura. Essa distribuição tem moda nas questões em branco para o Bacharelado e nas notas zero para a Licenciatura.",
+  "text_sha256": "bf1285ee07747c490efeb2ae10101b6c474c3288d629e1037bf64896c20ee6db",
+  "window_size": 3
+}

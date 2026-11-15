@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02f9bb51f4f07a51006af913c5803487d1a601abc1252170e0",
+    "usage": {
+      "input_tokens": 2311,
+      "input_tokens_details": {
+        "cache_write_tokens": 2308,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2308
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 2754
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_145.txt",
+      "source_sha256": "79e971178dc5f74d7435df8eb91e2770cdf43c9aff213191f66b567af0402a7d"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_147.txt",
+      "source_sha256": "6bc831d56639b3b5a9deed3f4c30723f2b79e26e904da2d59f7f605b518e4b5f"
+    }
+  ],
+  "created_at": "2026-11-15T02:07:01Z",
+  "duration_seconds": 5.238,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_146.txt",
+    "source_sha256": "6bf8b8c76c07acbe64d6258c1968435db2abe914532746c68df2bee7f645a9e3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "00428e1f34d67bed167fd1b994e355a90ae687528cd449e82fc30a11050cab1c",
+  "request_fingerprint": "1bcb91196d018d77862c4aad0284409f974757baf652a98ac28a02202555d6a3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 45,7. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (52,6) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (44,8). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Centro-Oeste e Sul (4,5), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (7,8), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (13,7) é praticamente igual ao do Brasil, como um todo (13,8), indicando uma dispersão equivalente das notas nesta Categoria Administrativa.",
+  "text_sha256": "413a8aeba2969eebf357c8d74075838043e14b1d9887f49146e8dc101cfd09f2",
+  "window_size": 3
+}

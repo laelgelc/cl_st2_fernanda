@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0685368d47a5c104006af9130038d887d1b09b42a42e4a2749",
+    "usage": {
+      "input_tokens": 2845,
+      "input_tokens_details": {
+        "cache_write_tokens": 2842,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2842
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 392,
+      "output_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "total_tokens": 3237
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_152.txt",
+      "source_sha256": "987315e9087305c005da47b62c7a5139c670369ee52e8989f85f56588d23961b"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_154.txt",
+      "source_sha256": "d41d0f44bd04b7f45fa6be19f28ac94b26efff841f7bcd5d00c231f89c69dc9a"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:44Z",
+  "duration_seconds": 4.57,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_153.txt",
+    "source_sha256": "2874b08d884d5ef6530871dcf294b2f1595516d0f7bbf2fd2bd9db64b3a0b911"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3aa1d075b9010c2d91ef611b4dd818cca433a2909ac50d9d0829dfe3d16f6624",
+  "request_fingerprint": "29a26224c931d1597814be45c7dc478b7650b2d332cd342af45b87aba55f2494",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.6, incluindo sua fonte."
+  ],
+  "status": "success",
+  "text": "A nota Máxima (92,5) foi obtida na região Sul, sendo 85,0, a nota Máxima na região Norte; 91,5, na Nordeste; 92,0, na Sudeste; e 85,0, na região Centro-Oeste. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo [0; 10], com frequência de 27,0%, no qual se inclui, além da nota zero, a frequência de estudantes que deixaram esse tipo de questão em branco, seguida pelo intervalo (10; 20].",
+  "text_sha256": "310ec29b21679aeda29a079819a84007e127c014b18d156d10728e94282e760d",
+  "window_size": 3
+}

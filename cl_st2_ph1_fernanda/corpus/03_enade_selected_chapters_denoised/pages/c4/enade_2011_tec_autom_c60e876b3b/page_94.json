@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03bd48100c049a48006af8eeddaee087d1a19d4b5d11b6d4cf",
+    "usage": {
+      "input_tokens": 1323,
+      "input_tokens_details": {
+        "cache_write_tokens": 1320,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1320
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 545,
+      "output_tokens_details": {
+        "reasoning_tokens": 413
+      },
+      "total_tokens": 1868
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_93.txt",
+      "source_sha256": "f56035affbef1104558a3b8bcb8430a6398babaaf0c56d19c125738a0225ac42"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_95.txt",
+      "source_sha256": "2580d77a57a4e341256c1fcf7646fe6e0c0b6da75860e116fb89576398fd25e5"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:33Z",
+  "duration_seconds": 4.33,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_94.txt",
+    "source_sha256": "ad3635b8cddda720f0fba7d4d930fcdeeef6b2b495f276274fb46c464ef21d43"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ac5f18b400acec6c336f05d9739a7715a5890f041f8ec78799b9249b4c3b4c53",
+  "request_fingerprint": "bc367169e0a7475822dc0ed729dc2b3ebc73fedf035f7878407322d234c42c86",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes dos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 82,5% e 55,4%. Observa-se uma tendência crescente com diferenças estatisticamente significativas entre o primeiro, segundo e quarto quartos.",
+  "text_sha256": "ce7809f88ee18b120e2f915d7565a8bb12fefcdc96825516098f884381fd11e3",
+  "window_size": 3
+}

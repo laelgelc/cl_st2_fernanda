@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b80b9951ff4888a006af8f6d2448087d1a4cef6db941083cc",
+    "usage": {
+      "input_tokens": 2463,
+      "input_tokens_details": {
+        "cache_write_tokens": 2460,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2460
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 488,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 2951
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_soc/enade_2014_ci_soc_page_121.txt",
+      "source_sha256": "5b8956ac93fc8be2032622c78c7f8109c42691da425c3e3ff97fea5b57ed8bc0"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_soc/enade_2014_ci_soc_page_123.txt",
+      "source_sha256": "9d357020a3f24f0b0e84f0ef7dc91d26c1b4a9b2fa1a04fab93818aa1c9cbd20"
+    }
+  ],
+  "created_at": "2026-11-15T00:03:30Z",
+  "duration_seconds": 5.211,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_soc/enade_2014_ci_soc_page_122.txt",
+    "source_sha256": "7e7f7592cee335d5f359157a1221d910c12e8159c7f3a735f095ab150b6b493b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "459a8832b73f32d9120cccb1adf42ad9a37b2fa8f582b43f0dee8e9dea464854",
+  "request_fingerprint": "c905bd3789ae30d592143d556d5684eab66d12f37fb260188cba1c61e3189a4b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.3 (título, dados e fonte MEC/INEP/DAES) e seu conteúdo tabular.",
+    "A prosa termina com “O conceito modal”, aparentemente continuada na página seguinte; mantida apenas a parte presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com somente um curso, e este curso ficou sem conceito (SC). As Instituições Públicas participaram com seis cursos (85,7% do total regional), dos quais nenhum ficou sem conceito (SC) ou com conceitos 4 ou 5. O conceito modal\n\nO Gráfico 5.3 apresenta a distribuição do Conceito Enade segundo a Categoria Administrativa da IES. Os cursos em IES Privadas (linha verde) apresentam uma poligonal que cruza com a poligonal referente a IES Públicas (linha azul), caracterizando uma maior dispersão dos conceitos da primeira.",
+  "text_sha256": "83684d215ecc25ba89b4d4eaca37d20e527fa6630e59098d0a98a45402630ff0",
+  "window_size": 3
+}

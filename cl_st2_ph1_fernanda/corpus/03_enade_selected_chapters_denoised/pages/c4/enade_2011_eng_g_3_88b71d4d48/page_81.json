@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a26186ac9ac9528006af8ec0cec4887d1a763fd3231537ed4",
+    "usage": {
+      "input_tokens": 1719,
+      "input_tokens_details": {
+        "cache_write_tokens": 1716,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1716
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 330,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2049
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_3/enade_2011_eng_g_3_page_80.txt",
+      "source_sha256": "4b7a643475d611ec89afa2c3f08e93adb636c2bf3dcfe531e133c60fcb83c87c"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_3/enade_2011_eng_g_3_page_82.txt",
+      "source_sha256": "4f55e84dc29d569bf7c9c5e125c313a5ea0907bacdcb5b1f10d6f93f14069935"
+    }
+  ],
+  "created_at": "2026-11-14T23:17:32Z",
+  "duration_seconds": 4.126,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_3",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO III.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_3/enade_2011_eng_g_3_page_81.txt",
+    "source_sha256": "bb1620ffc6da9b797f73534d0a44851aa7de5b5639d7039db4c6ac54c14e99d5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f80b8dad226888b492e6d0d8afd20a269d9a1fd37004a3c6bd491b310c5fa01f",
+  "request_fingerprint": "fc41963f5e153aaa03c30fa1776ba605e35778037a3b4f9c041f217f60192bb4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer a gráfico(s) na página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa. Em todos os quartos, a proporção dos que classificaram a parte específica como difícil ou muito difícil apresentou uma tendência decrescente conforme o aumento do desempenho a partir do segundo quarto, variando de 52,2% (segundo quarto) até 47,4% (último quarto).\n\nA grau médio foi a alternativa modal para esta questão e apresenta uma tendência crescente conforme o aumento do desempenho variando de 43,9% a 47,3% nos quartos extremos.",
+  "text_sha256": "1db463d436c849aca4da8ffcca075356500482b4b3b3c1b69e09eb2229b83fc0",
+  "window_size": 3
+}

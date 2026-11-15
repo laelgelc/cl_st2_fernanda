@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bbe2450f5051217006af8fc44387087d18a06674374327e7c",
+    "usage": {
+      "input_tokens": 2407,
+      "input_tokens_details": {
+        "cache_write_tokens": 2404,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2404
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 656,
+      "output_tokens_details": {
+        "reasoning_tokens": 393
+      },
+      "total_tokens": 3063
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_79.txt",
+      "source_sha256": "73a4eb3553b8e3b97dc4a27978ea15219d200ff988c862a17d8e99dd37dad453"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_81.txt",
+      "source_sha256": "534dc63923fcb1181910ca01504974887492fd1a8e9d0cce2f4389644252409e"
+    }
+  ],
+  "created_at": "2026-11-15T00:26:44Z",
+  "duration_seconds": 6.754,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM ADS.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_80.txt",
+    "source_sha256": "dc338737fd75760b2bf9b30a91173526bebe7605b7e2433f4522d6d01f9de1d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d49d914c1e2285465d7c251f26ba7ab1a33b09471aefa08de3ae106b90ddc8fe",
+  "request_fingerprint": "542b4913a9e4c416859a355fb576ec4deb7d8a92e36839be0e93e9b084e75706",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.10; sua descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima foi obtida na região Sudeste (100,0), enquanto a menor nota máxima foi encontrada na região Centro-Oeste (83,3). Além disso, a nota mínima (0,0) foi obtida por pelo menos um estudante em todas as regiões do Brasil, sem exceção. A mediana do Brasil como um todo foi 13,3, a mesma obtida na região Sul. Na região Norte a mediana foi 6,7, nas regiões Nordeste e Sudeste a mediana foi 15,0, e na região Centro-Oeste, foi 5,9.\n\nO Gráfico 3.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no primeiro intervalo, [0; 10]. Nota-se que a distribuição é decrescente com um leve pico secundário no intervalo (50; 60].\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "e09bc3fb0f8229fa77343203efcd9ded68d3affaf721acb74b024709b4ecd13f",
+  "window_size": 3
+}

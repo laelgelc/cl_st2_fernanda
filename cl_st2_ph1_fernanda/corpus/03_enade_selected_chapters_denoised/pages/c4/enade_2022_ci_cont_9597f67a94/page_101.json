@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b5b3f881ee4bdf3006af91bceaad087d1ab00022db2840cdd",
+    "usage": {
+      "input_tokens": 1764,
+      "input_tokens_details": {
+        "cache_write_tokens": 1761,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1761
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2125
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_100.txt",
+      "source_sha256": "73e1bd738e57d2b2afa4172dabf33fdbab5cba27f0b2c0583b4e77ce634ffe49"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_102.txt",
+      "source_sha256": "e12510127cd5098674848de4aed5aa08e8a47e66b073ea9bf76849e206062c5f"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:18Z",
+  "duration_seconds": 3.631,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_101.txt",
+    "source_sha256": "130352900318c35b0aa85e99edf873a8d416ff5526eae3ddfb100ba4d2a9a012"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "08a9867b0553cecfa9722d329b18af177fd8d621995f695d2371479ebf841c1a",
+  "request_fingerprint": "f49478620c84834e0b936fbabf94a084009f4466ceeb73f346df870aad4d5eef",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.2, sua legenda/caption, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.2 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 5.2 mostram que o percentual de estudantes que consideraram o componente de Formação Geral da prova “Difícil” ou “Muito Difícil” foi decrescente em função dos quartos de desempenho: 41,2% no 1º quarto; e 29,4%, no 4º quarto – o grupo de melhor desempenho na prova. Nos quartos de desempenho intermediários, a proporção de estudantes que consideraram a prova “Díficil” ou “Muito Díficil” foi de 38,1% no 2º quarto; e de 35,3% no 3º quarto. As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "4e5dc6b3843dc2433804db049e798132714398d32b85fecd9801c8f0675d6a6b",
+  "window_size": 3
+}

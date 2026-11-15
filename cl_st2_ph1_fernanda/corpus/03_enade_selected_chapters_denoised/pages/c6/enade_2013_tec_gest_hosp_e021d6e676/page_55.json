@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_075384ca360f893d006af8f574312487d1ac30850fc047c494",
+    "usage": {
+      "input_tokens": 2757,
+      "input_tokens_details": {
+        "cache_write_tokens": 2754,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2754
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 393,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 3150
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_54.txt",
+      "source_sha256": "6336feb98e4df0567c31703dd7d847aa1ec34836f6a3b66d7d855468c6d2917b"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_56.txt",
+      "source_sha256": "9254c4a2ca01db372724f87d24181b35cc6d0c0b7214a01cf050fad029ca9bc8"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:40Z",
+  "duration_seconds": 4.182,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_55.txt",
+    "source_sha256": "d18092aa023a4ca4d27416e719f909825153af7cd4926e7f722b99e057ba4fcd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "da10634233865582f16f0fb4bc736184ff854877dbdbc7a1aea0a903fa529872",
+  "request_fingerprint": "38d80d69f6b723a034cb8bfe0feca2fb42dd8a8bd32a4b29cac89c3132f1b9bb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, pertencente ao material gráfico; o gráfico não está representado no texto extraído."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto), A (em azul) ou D (em roxo). Na medida em que a nota aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os alunos com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "bad8ece6468d4a7d1b7a9326659040a88f4fc4a3861dca8ce081eaff57caf612",
+  "window_size": 3
+}

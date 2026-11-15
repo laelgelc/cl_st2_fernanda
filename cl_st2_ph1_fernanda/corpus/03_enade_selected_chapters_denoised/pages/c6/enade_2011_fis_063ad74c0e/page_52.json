@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e25a8c4322c01ca006af8ed5c71e887d1a1d136ea670443c7",
+    "usage": {
+      "input_tokens": 2740,
+      "input_tokens_details": {
+        "cache_write_tokens": 2737,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2737
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 719,
+      "output_tokens_details": {
+        "reasoning_tokens": 231
+      },
+      "total_tokens": 3459
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_51.txt",
+      "source_sha256": "f161f2ec81d04522f26bbb8437fa3903f181775461a71bde7c3de861e65bda54"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_53.txt",
+      "source_sha256": "fa416ed9163d6b79828af5bc22ea0b3a8101776c700041a92a91e37fd99aea06"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:08Z",
+  "duration_seconds": 7.383,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_52.txt",
+    "source_sha256": "bcfaff8c462c94db07acc3ec1601b48bd9ac6011d24336d49a687869f68c15c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "71ef7d68266fefa985758bb29d2f7dbe6f03dd4e019a286f6f6b3c53a2937c2f",
+  "request_fingerprint": "152db2a3e87af72455f6dbdf3f1733360029bf6762c9eff0496bb5c531a91a07",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados estatísticos e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice muito fácil (índice &gt;=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (&lt;=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice fraco receberam a cor vermelho (índice &lt;=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (&gt;=0,40) receberam a cor azul.\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Duas questões foram consideradas de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Outras duas questões foram classificadas na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seriam classificadas como muito difíceis.",
+  "text_sha256": "69923ca099c4892085e9af88ade7c7b704c19af0200dc5be35ee6187bfe7738e",
+  "window_size": 3
+}

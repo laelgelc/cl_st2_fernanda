@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d0dd03e86f4504c006af8e81e4a7487d1943207c445a9cac5",
+    "usage": {
+      "input_tokens": 2422,
+      "input_tokens_details": {
+        "cache_write_tokens": 2419,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2419
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 2949
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_34.txt",
+      "source_sha256": "bf364cf7bdc022a5108f402a5719ebbb96f01da3628dd8eedb4260a7330ab259"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_36.txt",
+      "source_sha256": "ab3e89efd4ed88a74ea5ce744733e535936d68dc2c21dcc5f7e824248438420c"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:46Z",
+  "duration_seconds": 5.606,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_35.txt",
+    "source_sha256": "7baeedbb79eb229956d2d5f96da8353b241d2b8bc94517a045e25bce0a56fdea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8377e587da8747d40ec9190060ab676597e44b90cb1a80dca949aba3b167f1bf",
+  "request_fingerprint": "a8a70d626cb152b122a4663da9fbb33090b73b870beca7b9baee10c16bd12e0f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, eixos, legendas e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 38,51 na Região Norte a 51,16 na Região Sul. Entre os ingressantes, os valores foram de 31,29 na Região Centro-Oeste a 45,57 na Região Sudeste. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes quanto para os ingressantes, sendo que na Região Centro-Oeste a dispersão foi a mesma que a do Norte para os concluintes.\n\nTendo como foco as categorias administrativas, as maiores notas médias foram das instituições federais, tanto para concluintes (51,63) como para ingressantes (48,14), enquanto às das instituições privadas foram menores tanto para concluintes e ingressantes. Os estudantes das instituições privadas se apresentam mais homogêneos do que as das demais instituições.\n\nConsiderando-se o tipo de Organização Acadêmica, Universidades apresentaram os maiores valores para os concluintes e os Centros Federais de Educação Tecnológica apresentaram notas médias superiores para os ingressantes. Os Institutos de Educação, Ciência e Tecnologia não estavam representados nesta área.",
+  "text_sha256": "7d74f1a768409b407fca7be98f27ec7851d465ac1838fa50e6bbb064fb1d884c",
+  "window_size": 3
+}

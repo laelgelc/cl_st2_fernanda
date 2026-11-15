@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a5348c8817b01db006af8f8204fd087d18e0525aee34942e9",
+    "usage": {
+      "input_tokens": 2791,
+      "input_tokens_details": {
+        "cache_write_tokens": 2788,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2788
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 3239
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_43.txt",
+      "source_sha256": "642655c781e5d1a6bb42b230a876309de0bf0722b8292f063ca98be480f510b9"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_45.txt",
+      "source_sha256": "c9544ee32f42eb81e10651e311889eb9df84b36427b2c792881a01a445a5ec9f"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:04Z",
+  "duration_seconds": 4.811,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_44.txt",
+    "source_sha256": "266c0c4da6d3a30f3b4a05f016644ef336588d4443609faa0d3917aba4b47c24"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "13b6c7d9911cd77843bc86e4b69eef5c7d4ba1df3912c1f5afc43d5b07a97b64",
+  "request_fingerprint": "c4e65dfabaf3a4b1b4c0d8c35e6690d4ad6d00e286c753cfa68360533d37607d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico de distribuição das notas (Gráfico 3.2) e sua linha de fonte: MEC/INEP/DAES - ENADE/2014."
+  ],
+  "status": "success",
+  "text": "que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,2 para a nota da prova como um todo e 18,0 para o Componente de Formação Geral.\n\nNa Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa, a maior média foi obtida por estudantes de IES Públicas (66,5) e a menor por estudantes de IES Privadas (58,8).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que há diferença estatisticamente significativa entre as médias dos estudantes de Universidades (64,0), Centros Universitários (61,1) e de Faculdades (57,5).",
+  "text_sha256": "7a30c745dd8948b941406f0affb482a01dd37502aaf5808ca47234f6aa71955a",
+  "window_size": 3
+}

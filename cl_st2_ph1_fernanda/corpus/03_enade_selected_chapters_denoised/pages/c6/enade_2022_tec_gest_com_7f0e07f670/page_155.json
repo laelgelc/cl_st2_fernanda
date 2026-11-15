@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a7b8daa39483f5f006af91ef23ab887d1aa190cf29bd0226b",
+    "usage": {
+      "input_tokens": 2253,
+      "input_tokens_details": {
+        "cache_write_tokens": 2250,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2250
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 2962
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_com/enade_2022_tec_gest_com_page_154.txt",
+      "source_sha256": "e6c48503218e7d406585f48dce65481c371a4fdf3fafbd39d12142facec3cbf0"
+    },
+    {
+      "page_number": 156,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_com/enade_2022_tec_gest_com_page_156.txt",
+      "source_sha256": "1f8706c6b98b4a6a37e4e1affa4da56f66dcfe08ed6b42410828b248ecb04859"
+    }
+  ],
+  "created_at": "2026-11-15T02:54:42Z",
+  "duration_seconds": 6.632,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 155
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_com/enade_2022_tec_gest_com_page_155.txt",
+    "source_sha256": "59d33eec2e73a4120a9bc8c6d752eff5b4aaa3937dcb771a2209ea8ddbbe9afd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db853189c45b145eba73e3a9c36db38f306324f40d4a638c195915039881be05",
+  "request_fingerprint": "d4213d5ca130e81388d24cc38a280a8102ab5c6ba61f6da976771a7410f30f73",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.\n\n7.3.1 COMPONENTE DE FORMAÇÃO GERAL\nAs análises dos resultados de desempenho dos estudantes de Tecnologia em Gestão Comercial, nas duas questões discursivas relativas à Formação Geral, encontram-se na Tabela 7.13 e no Gráfico 7.6, cujos dados são analisados de forma sequenciada.\n\nNo caso da Tabela 7.13, analisa-se a média das notas de cada Questão Discursiva de Formação Geral que leva em conta as correções realizadas por duas bancas: uma que analisa e pontua aspectos relativos ao conteúdo das respostas, seguindo o padrão de respostas divulgado pelo Inep (ver Anexo IX); outra que avalia o desempenho linguístico expresso pela redação das respostas, seguindo um padrão de respostas específico da área de Língua Portuguesa, detalhado na seção 7.3.1.7 deste relatório. A nota de cada questão é composta de 80% da nota da correção de conteúdo e 20% da nota de desempenho linguístico.",
+  "text_sha256": "27871d09dc5a901ae764a12219749296321c10e1377d24db034b5f3977b48b0d",
+  "window_size": 3
+}

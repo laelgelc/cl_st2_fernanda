@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0977e9fffe1d2cef006af904f619ec87d198b1e7b52253626e",
+    "usage": {
+      "input_tokens": 3243,
+      "input_tokens_details": {
+        "cache_write_tokens": 3240,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3240
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 537,
+      "output_tokens_details": {
+        "reasoning_tokens": 328
+      },
+      "total_tokens": 3780
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 204,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_204.txt",
+      "source_sha256": "b5243fefb75cc04182e64141dbbbac827e178cf36e9a5e338506da09e7eca876"
+    },
+    {
+      "page_number": 206,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_206.txt",
+      "source_sha256": "a0c48dff10032b163651d27964aaca4d992e40a8a3b8d319d8f2a3d4bf9b19c4"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:50Z",
+  "duration_seconds": 6.152,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 205
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_205.txt",
+    "source_sha256": "10262c6b47069724aa2f72f7aab9618e403033966cde4aa94bd6454f756bcb2b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9d7a0d48e950b40c969d4e03be642f562a935741a12d6f867ce5b528543676b7",
+  "request_fingerprint": "fea5127920698faff835ec89d0a3a439821c069315688d2aa824f5658b26faf8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "O texto termina no meio de uma frase («sendo o maior desvio e»); a continuação está fora da página-alvo."
+  ],
+  "status": "success",
+  "text": "Como já foi mencionado, não houve participante em Educação a Distância de cursos de Bacharelado. Assim sendo, os registros nas categorias Educação Presencial e Total coincidem.\n\nPara os alunos de cursos de Bacharelado, a Média do desempenho de Conhecimento Específico foi 39,6. A maior Média foi obtida na região Sul (43,0), e a menor, na região Norte (34,5). As demais médias foram: 40,4 na região Nordeste, 38,8 na região Sudeste e 37,8 na região Centro-Oeste.\n\nO Desvio padrão dos alunos de Bacharelado foi 15,1, sendo o maior desvio e",
+  "text_sha256": "faf5c40bf6e616dd43e69977766f500fca526aabd3abaa3e62b063a016fad447",
+  "window_size": 3
+}

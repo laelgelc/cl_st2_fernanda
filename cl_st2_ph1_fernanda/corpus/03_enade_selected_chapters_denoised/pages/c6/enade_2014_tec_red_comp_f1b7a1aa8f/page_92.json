@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09a1fc79ae2b1c02006af8fcdd7e2887d1974353845e93c911",
+    "usage": {
+      "input_tokens": 2564,
+      "input_tokens_details": {
+        "cache_write_tokens": 2561,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2561
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 247,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2811
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_91.txt",
+      "source_sha256": "362e8aef9862e264afe946697d9c0f2f68a95f2b9b4c6951b115d0666df74565"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_93.txt",
+      "source_sha256": "d6708558b6fbdfd1af54d7bbebc26ef36715668c2c79eb7fac53a659d185f246"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:17Z",
+  "duration_seconds": 3.553,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_92.txt",
+    "source_sha256": "18b07fd6f4109170d3712e05fc0000167e07e5da396aa5a800b1327ca5a0d6f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c54ce072b909ae3fe3626e173e4b0875bf088ac21c3dcbdff0451bea93ac12ac",
+  "request_fingerprint": "2a406231af8909ccde4ab11d49b3aeed5c7cf75c7224dbfbe2a03d1169b42665",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.13, incluindo o gráfico e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Destaca-se, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda da distribuição.",
+  "text_sha256": "3fa79213fd99b395e34f4f93287c9fb284af442847697a4c43da612b8216deb7",
+  "window_size": 3
+}

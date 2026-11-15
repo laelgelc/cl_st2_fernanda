@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_084f1d503202cd8b006af8f6a848a487d193157c93a6257aab",
+    "usage": {
+      "input_tokens": 2290,
+      "input_tokens_details": {
+        "cache_write_tokens": 2287,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2287
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 525,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 2815
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_56.txt",
+      "source_sha256": "e753ebc079e9d6f9cce291c66def016ed72c27b108c26babdc7a6c393f24f79d"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_58.txt",
+      "source_sha256": "a0c3cce72b726af4c2baddd57d7fd49fb0824d26311cc48e3c15fe71973b6846"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:48Z",
+  "duration_seconds": 5.759,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_57.txt",
+    "source_sha256": "ddb5286a5c9c4442bffb55d1720d5aaf307b2f74f9de12d5607fc27451b0f5e4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4acbd9b386981a4f882679d8e8eff54e444e5888c5d17330ec2e3189f6f8e177",
+  "request_fingerprint": "bb0d3cda355dc241d0ae507978cfff07b529ff6a3d085ab4622fb78f56bf2229",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo seus dados e a linha de fonte. A descrição do Gráfico 3.5 termina no alvo com uma frase incompleta; preservada sem completar com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 27 do Componente de Conhecimento Específico. Esta questão foi classificada como médio com respeito ao índice de facilidade, com valor 0,55, ou seja, 55,0% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,46, classificado como muito bom, também sendo esta questão a que apresentou o maior índice de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 27, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva",
+  "text_sha256": "71968bac10303f382ecd573377e184ab283da987a00c699226c38ace2ac73b84",
+  "window_size": 3
+}

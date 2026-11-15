@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba5636d600fb1d6006af90b7d12c087d1a5464c374461b871",
+    "usage": {
+      "input_tokens": 3095,
+      "input_tokens_details": {
+        "cache_write_tokens": 3092,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3092
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 425,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 3520
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_127.txt",
+      "source_sha256": "808178be11fba08fa62e890ff22b2069d1f4fe413958b149613c6216f25b1b2e"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_129.txt",
+      "source_sha256": "654edc0c0dfe99b2472045ef99c30019fa0186dd69e6ae1aee708b86422868f5"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:41Z",
+  "duration_seconds": 3.987,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_128.txt",
+    "source_sha256": "800e8572916c47414dae726543a5de53b2ae42ffca0242c19ede0775b749f420"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "697d48ba925c6cedcc86ff914af8d9eae7b1e5795131447fbc0671e5517d00cc",
+  "request_fingerprint": "12244a192eb4dd0b561643ea281a04ec22ddaa8ac6b532152de054436b8eb8be",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.12 apresenta a distribuição das questões levando-se em conta simultaneamente a classificação dos dois índices. A questão 16 foi a que alcançou o maior índice de discriminação, classificada com Índice de Discriminação Muito bom, foi classificada como Médio quanto ao Índice de Facilidade, com 58% dos estudantes marcando a opção correta. A questão de número 33 foi a mais difícil dentre as 27 questões específicas, com baixo Índice de Facilidade, apenas 13% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,05, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 15, com Índice de Facilidade 0,18, o que, em termos percentuais, corresponde a 18% de estudantes que responderam acertadamente. Já 0,15 foi o seu de Índice de Discriminação, classificado como Fraco. Tais questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por isso, as questões 33 e 15, além das questões 13, 20, 21 e 35 foram eliminadas do cômputo da nota final.",
+  "text_sha256": "d7330bdf187eb1a4821202f136d019f2a0db62c6dc5f3d6d72fd69c3da421125",
+  "window_size": 3
+}

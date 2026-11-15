@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ecc7cf60a650d2006af8f88a121487d1b3959d19acb8ba20",
+    "usage": {
+      "input_tokens": 3001,
+      "input_tokens_details": {
+        "cache_write_tokens": 2998,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2998
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 609,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 3610
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_42.txt",
+      "source_sha256": "fce1771075f482e68ac70d7068c84448c2e69ffb8e81773d61720855c63d9c2c"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_44.txt",
+      "source_sha256": "d53ae2b76c96ecba96c764f21a6fee57768e9ee359f4530ce970c0390e037b34"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:49Z",
+  "duration_seconds": 5.992,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_43.txt",
+    "source_sha256": "6ebd40356b1303415dd52657d3401f90d929da6ea6c562621e547a81f3c1131f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fc472892779dee8cd47b144046fe14828d7a6ff32a6eb3b23156759dc1ac7fe8",
+  "request_fingerprint": "11e0c64bb186bb3bb7eb372ea1816a4e84b081d95731e433d1cfc82003876165",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 6.671 são de IES Privadas e 4.370 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (6.941), seguido de Faculdades (2.664) e Centros Universitários (1.436). A Categoria Administrativa de maior abstenção foi a Privada (10,8%), acima da média nacional de 10,6%, e entre as Organizações Acadêmicas foi a dos Centros Universitários (12,8%).\n\nA média das notas da prova como um todo foi 43,5. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (48,8), e os das IES Privadas obtiveram média mais baixa (40,0), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (7,9), a maior e a menor média, é inferior à diferença entre IES Públicas e Privadas (8,8), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram média mais alta (45,5) que a nacional. As demais médias foram: 42,0 nos Centros Universitários e 39,1 nas Faculdades. O desvio padrão para as IES Públicas (14,2) e para as Universidades (13,4) foi superior ao do Brasil como um todo (13,1), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% entre as médias das notas dos estudantes provenientes dos três tipos de Organização Acadêmica: Universidades, Centros Universitários e Faculdades.",
+  "text_sha256": "b554169f510aa148855eea03a33ec48f3ef396027ccca5a52b44e1beaa18f357",
+  "window_size": 3
+}

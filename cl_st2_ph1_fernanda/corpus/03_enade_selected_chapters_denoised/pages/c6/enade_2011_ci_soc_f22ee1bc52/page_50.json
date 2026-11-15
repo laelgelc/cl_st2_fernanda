@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ff7d92bea74a265006af8eb7a53dc87d19d231dfdcf4490f6",
+    "usage": {
+      "input_tokens": 2736,
+      "input_tokens_details": {
+        "cache_write_tokens": 2733,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2733
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 3195
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_49.txt",
+      "source_sha256": "6e4b87d2bdb3a037da6821744f7f86ef4a3f43d33ca556fbd473d055d4600b1c"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_51.txt",
+      "source_sha256": "5032f93e9ec12f6327edf6b3fb2cdfd16435b00e40a75c73e38439087a2dbf36"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:06Z",
+  "duration_seconds": 5.37,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_50.txt",
+    "source_sha256": "7f96b9b82922535c9d81fe0febf1371a87624039a05852be4b56ddeec1db100d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d313a74c4c618c1d5649a6662349cb7bafb5795cb7396f95125bc1c060efd10f",
+  "request_fingerprint": "78976ec9c4f6b63ec9825e3db1d3e29dbcba30a2d17342a6c943cb9dad4351a1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, a quantidade de acertos varia de 0 a 8. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou C (em preto). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "03442208ae6b91d2b44206f2f0d4f5bd2f5d68fc66d8c4ee546f99bd11f59b1b",
+  "window_size": 3
+}

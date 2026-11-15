@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07abc5bc756ec1a3006af8efc7662c87d19a1335740c16317e",
+    "usage": {
+      "input_tokens": 1478,
+      "input_tokens_details": {
+        "cache_write_tokens": 1475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 223,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1701
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_35.txt",
+      "source_sha256": "a3cddc0f73f1bfa0eb8f8345f599902e4b67f203b52fb1101c8062733f8ba20b"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_37.txt",
+      "source_sha256": "afc8395ba2bae5f805eb2833e9fdaced76339477cb7591242cdc7b4e7ddeed4b"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:27Z",
+  "duration_seconds": 2.893,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_36.txt",
+    "source_sha256": "35cd7ae8b0b91ce65dd4a421ff9cff42ccc012195324c892f36c9aa48ef6f13b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cda1ab83cc76e25dc1707f17525af72bddb1dc4daf3323d82040479a071af35d",
+  "request_fingerprint": "73b64cd3d389ceef07d93d8a0250f8366195ea17abc91b336bf3347366be4b7f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a linha de fonte e o material gráfico associado ao Gráfico 3.3."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas foi 46,2, maior do que a dos alunos de IES Privadas, esta igual a 37,6.",
+  "text_sha256": "e9d38b81387e3e9c50c4b9f611c6cfa7399b4028b18e9a08b5e5b33df8ebffba",
+  "window_size": 3
+}

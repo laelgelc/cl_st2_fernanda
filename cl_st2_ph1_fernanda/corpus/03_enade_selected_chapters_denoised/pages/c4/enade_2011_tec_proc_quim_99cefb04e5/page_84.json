@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fb1c4e4cdd6a1dd006af8efbbffe887d18977bb3f812a2604",
+    "usage": {
+      "input_tokens": 1628,
+      "input_tokens_details": {
+        "cache_write_tokens": 1625,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1625
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 338,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1966
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_83.txt",
+      "source_sha256": "83ac29ab2281dbc716221b21d0066a50f7452be85bd98046f159a134a76b88b0"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_85.txt",
+      "source_sha256": "02ae08a35d2e89be325d47802fe2d2b29632444276e8a15d09d91ee643d537ca"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:15Z",
+  "duration_seconds": 3.822,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_84.txt",
+    "source_sha256": "4b62e8dbad4597958e3d7134dbb449ced79b89cf6548bbc0d6453b3d91c23798"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0ea9b352e9b74471a4aefc1912d54fe065add74c3835d801897bd31a754ca187",
+  "request_fingerprint": "21274fea4f8d67648986e8dcfa3943849b1fcf2b7d24d42fb3b70c6d9a9c93a0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "A análise das percepções dos estudantes sobre a clareza e objetividade dos enunciados permite afirmar que todos ou a maioria dos enunciados de questões relativas ao Componente de Formação Geral foram considerados claros e objetivos para a maior parte dos respondentes (maior do que 69% em todas as regiões e maior do que 72% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, sem diferenças estatisticamente significativas. No quarto inferior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 72,8% dos alunos, e no quarto de desempenho superior, tal avaliação foi emitida por 81,7% deles.",
+  "text_sha256": "ad72eb46a06c46b8660d16ec0188c9bade44b1fcc9390fcf1d9f514fe3bc0f42",
+  "window_size": 3
+}

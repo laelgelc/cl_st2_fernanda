@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bd47b0d2be85a4a006af8f3c66b6887d18e6d03f062478d14",
+    "usage": {
+      "input_tokens": 1466,
+      "input_tokens_details": {
+        "cache_write_tokens": 1463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 388
+      },
+      "total_tokens": 2056
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_100.txt",
+      "source_sha256": "5f64af9badba1117bf8e67e9579c63cac68e3c7e1371fe39d11541b33590b942"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_102.txt",
+      "source_sha256": "a41607c1c0bf92b6b48e27fafe71466748866fb563ab0d693995a4d6f6a9a0cc"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:30Z",
+  "duration_seconds": 5.829,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_101.txt",
+    "source_sha256": "ab4d77ecf7078b01960a0195f18273189bdbe69179c68beab43a628920230135"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3845beec765846b119d481b2e882f1d26048b24372ef15f490d91b94dd1e9541",
+  "request_fingerprint": "9cf3007d2962eb32f58d6d6d6438c24ea82dadd9e49fbb5950d4181d17f53498",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”; it may belong to graphic material on a neighboring page."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 85,4% e 69,1%. As diferenças entre os quatro quartos são estatisticamente significativas, a exceção da comparação entre o 3º e o 4º quarto, e evidenciam uma tendência crescente. Por outro lado, a proporção dos que declararam ter gasto entre uma e duas horas para concluir a prova é decrescente como função do desempenho: 22,5% no primeiro quarto e 7,6% no último.",
+  "text_sha256": "398f788566709234ef356f63fe043d0efe42d185c250faed3d538d17df97de41",
+  "window_size": 3
+}

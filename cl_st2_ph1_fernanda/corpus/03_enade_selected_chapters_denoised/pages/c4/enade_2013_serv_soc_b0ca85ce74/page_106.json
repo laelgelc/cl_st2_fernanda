@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b76ea39e1f8b058006af8f4d04eac87d19551245ea86323e2",
+    "usage": {
+      "input_tokens": 1587,
+      "input_tokens_details": {
+        "cache_write_tokens": 1584,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1584
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 259
+      },
+      "total_tokens": 1962
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_105.txt",
+      "source_sha256": "785faecd7affb8e1d22c5c3899b1c7c31196360882cd7b28d0fce93e20ed2f85"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_107.txt",
+      "source_sha256": "a88aa3265e3c437c3c6369192ac3423346d0a87e8e1f9d8b172b74b3f572e48c"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:56Z",
+  "duration_seconds": 4.032,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_106.txt",
+    "source_sha256": "f75dfb86c33ec9700f88d646af2c94c227515caeb892cce3ec3f5699288d7902"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "73b2f695a6c49d8fa05c6fd11b3627d5d9468e548ecc8ac8a99e79a047c05f18",
+  "request_fingerprint": "cff3edd42be8eccdd26c313a603da34ec31df7bd931667e120731bc8c5703836",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (77,3%) se comparada ao quarto inferior de desempenho (59,6%). As diferenças dos resultados entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "5ab60637d0e18527ce3a388d86694a480bb3bfdfb104a1774107f47333cc9d22",
+  "window_size": 3
+}

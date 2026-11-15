@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_086aebcc30ce5441006af8f2f41a6487d1b2a25dc789983ae9",
+    "usage": {
+      "input_tokens": 1389,
+      "input_tokens_details": {
+        "cache_write_tokens": 1386,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1386
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 225,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 1614
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_50.txt",
+      "source_sha256": "30ae59cdc12bba6fba8844952aafe10c78230e6e674aca600d905be8c5c8e766"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_52.txt",
+      "source_sha256": "d97e8d1e6aadacceddd9140a46e30600440854c77313e4196f2de549fd9bce00"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:00Z",
+  "duration_seconds": 2.509,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_51.txt",
+    "source_sha256": "0bcb067170799d10d800f8ea777df2101dc060dd80c9fa524ad1d2f983ed830a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6dc0f8efc9b044601206eecd09f25d760907b67f658bdcfcee5956f7b1710636",
+  "request_fingerprint": "0ffd5c241148a7e11d109e2ea31a1e3a3ea753f1295fdd10fe28aad6fdb71285",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (Gráfico 3.11), observa-se um comportamento semelhante àquele da Parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas e Privadas, sendo que a maior média foi obtida por alunos de IES Públicas (56,8).",
+  "text_sha256": "d430bc8a485c0cd0a0502a0d50c99adbc3bd33786b7b5a3855b37fa4cb600a92",
+  "window_size": 3
+}

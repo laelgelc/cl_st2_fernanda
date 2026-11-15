@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04b9d7c0e457d862006af8edb4af6087d1b8356d5291f5bbf8",
+    "usage": {
+      "input_tokens": 2243,
+      "input_tokens_details": {
+        "cache_write_tokens": 2240,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2240
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 648,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 2891
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_45.txt",
+      "source_sha256": "e6b85c814aac157732a39ca708eb1f770999b05daee530306d9e6795f8ec8920"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_47.txt",
+      "source_sha256": "7ee2d11c2627c8c76009fb1192a516efe41d54b7d5c4ee7218a1cccc33ffdd69"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:36Z",
+  "duration_seconds": 6.149,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_46.txt",
+    "source_sha256": "601621f89ac77ef1bd8857d583000d16f6933419972ac4bacfb70f803a976710"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "42eedeeaa46b9e211cae55638962ff5622fc77757c267e4b65cf9fcc4a9f67db",
+  "request_fingerprint": "e569b65e8e708c6981c083756630709b4e14e16cc2e4869efd2331615745844b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A mediana das notas dos estudantes de todo o Brasil foi 28,8. A maior mediana ocorreu na região Sul (30,7) e a menor nas regiões Nordeste e Centro-Oeste (27,9). As demais medianas foram: 28,7 na região Norte e 28,3 na região Sudeste. A nota máxima do Brasil como um todo foi 83,4, sendo obtida por pelo menos um aluno da região Nordeste. As demais notas máximas foram: 72,9 na região Norte; 82,9 na região Sudeste; 79,5 na região Sul; e 76,4 na região Centro-Oeste. A nota mínima foi zero em todas as regiões.\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes dos cursos de Bacharelado e de Licenciatura em relação ao componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as 3 distribuições apresentadas, esta é a mais concentrada nas notas baixas. A distribuição para Bacharelado é ainda bimodal, com moda principal no primeiro intervalo, [0;10], e moda secundária no intervalo (20;30]. Para a habilitação em Licenciatura a distribuição é unimodal e o grupo modal é o (20;30].\n\nO coeficiente de assimetria da distribuição das notas do componente de Conhecimento Específico é negativo e bem próximo de zero para a distribuição das notas do curso de Licenciatura (–0,08), o que significa que esta distribuição é praticamente simétrica. Para a distribuição de notas do Bacharelado o coeficiente de assimetria é positivo (0,16), justificando, como se observa no gráfico, a assimetria à direita, ou seja, cauda mais longa do lado direito. Para as regiões Norte, Nordeste e Sudeste o coeficiente de assimetria do Bacharelado é positivo e da Licenciatura é negativo. Na região Sul para ambas as habilitações os coeficientes de assimetria são negativos e na região Centro-Oeste o Bacharelado tem coeficiente zero e para a Licenciatura o coeficiente é positivo.",
+  "text_sha256": "195ed5a40ef7c2b58c3f90dffde4bdfff41f7c7df226a725babebf89023c3d80",
+  "window_size": 3
+}

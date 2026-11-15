@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b91faaa6d57a8a6006af8f572505c87d1a084c8200f986c52",
+    "usage": {
+      "input_tokens": 1553,
+      "input_tokens_details": {
+        "cache_write_tokens": 1550,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1550
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 268,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1821
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_50.txt",
+      "source_sha256": "54053afd860f19b8e4c56ffd0acb34c44b04cad7b44e0e4335376fa775044080"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_52.txt",
+      "source_sha256": "0af85f46231734164e2a91639f59b07a8dff7303251e486e2c06d46beefaf43a"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:38Z",
+  "duration_seconds": 3.76,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_51.txt",
+    "source_sha256": "3ac7676f365165bc598cb374b1414758625f4a28aab239ab3dcbfe01d9befe7c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fb34d0056a2f5d755c10338d7468c6a1b712173945d40e823d423b5e71388c7b",
+  "request_fingerprint": "2391855d8f201756297469029a7f6d1ece8fc76fa6cf22f4bff5dd57a059339d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, identificada como pertencente ao material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2013”."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, que não existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico dos tipos de Organização Acadêmica, a não ser entre Universidades e Centros Universitários. A média dos concluintes dos Centros Universitários (37,0) foi maior do que de Universidades (34,7) e de Faculdades (35,7).",
+  "text_sha256": "d453f7e709dac4b2296bc15081204d9b3aee6ba352e5ccd0c2f1675fb1d218a5",
+  "window_size": 3
+}

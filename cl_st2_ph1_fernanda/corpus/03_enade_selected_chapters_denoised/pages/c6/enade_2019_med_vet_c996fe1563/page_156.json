@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0faaa17354d459f5006af91416b6e487d188ab66236d3d516f",
+    "usage": {
+      "input_tokens": 2602,
+      "input_tokens_details": {
+        "cache_write_tokens": 2599,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2599
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 510,
+      "output_tokens_details": {
+        "reasoning_tokens": 323
+      },
+      "total_tokens": 3112
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 155,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_155.txt",
+      "source_sha256": "33bafd7c3846d877feb643a960f342f6bd468df6942bfcaff77e4fe3f694c95d"
+    },
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_157.txt",
+      "source_sha256": "5852f6d00cb1174ee9b448c85b17d42b409780d1b07fe92c382e00296691bac4"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:22Z",
+  "duration_seconds": 5.594,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 156
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_156.txt",
+    "source_sha256": "8a494427a9f7a1860010fa8b562d4c67b3a638b332317b0a18c1d7b3de34d1ec"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eaee01f0a3d81cbd9c61b035dcf0bb7be79642a68e203c67eb22ff24d22cca6e",
+  "request_fingerprint": "0127023737c8bc16a971e92200e522614d4b83e4a3ae75224a1d8034bd287cbe",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.6 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "nas regiões Norte e Centro-Oeste; e 82,5, na Sul. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A distribuição é decrescente em toda a escala de notas, com moda no intervalo [0; 10], com frequência de 22,7% do total de notas, sendo que no intervalo [0; 10], se inclui, além da nota zero, a frequência de estudantes que deixaram esse tipo de questão em branco.",
+  "text_sha256": "0f6a9ef77b8fe2345eaac83e7b4e674cf8ab9140aeef0ccc84be7e3f752baf94",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_043cadccb0c08f58006af8f5178f9487d1849c3fafc8c04189",
+    "usage": {
+      "input_tokens": 2252,
+      "input_tokens_details": {
+        "cache_write_tokens": 2249,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2249
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 836,
+      "output_tokens_details": {
+        "reasoning_tokens": 493
+      },
+      "total_tokens": 3088
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_51.txt",
+      "source_sha256": "b0be95870883d4d9f5cb468d417c49c9a6f3b9e192d3a4da43ceefb5c476b8f8"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_53.txt",
+      "source_sha256": "9cee756aa142ab6d4e3a4cfea3ec93d91144688b1df33791f27e62b18ea86681"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:07Z",
+  "duration_seconds": 8.389,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_52.txt",
+    "source_sha256": "341eb2e93b96379863defe4f64957b04d6bf9ea4bca018f02d210d538a08558c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1b1825b801999028885a70d1d59aa447237e283327fd2aa84ac1bb734c206cfd",
+  "request_fingerprint": "08dc65b9010a90045a7e331345f44fe25a5d7462f8dd0aed67a0d1ca1c4c9cb0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte.",
+    "Removida a linha de fonte no início da página, aparentemente associada a material gráfico; confirmar o limite do material removido."
+  ],
+  "status": "success",
+  "text": "3.2 ANÁLISE DAS QUESTÕES OBJETIVAS\n3.2.1 Componente de Formação Geral\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A média do Brasil foi 49,0. A menor média foi encontrada na região Centro-Oeste (45,2) e a maior na região Sudeste (50,5). As demais médias foram 47,8 na região Norte, 50,4 na região Nordeste e 47,1 na região Sul. O desvio padrão do Brasil foi 17,9, sendo o maior desvio padrão encontrado na região Centro-Oeste (19,0) e o menor na região Sul (16,9). Os demais desvios foram: 17,6 na região Norte, 17,3 na região Nordeste e 18,0 na região Sudeste.\nA mediana das notas dos estudantes foi 50,0 em todas as regiões do Brasil, sem exceção. A nota máxima do Brasil como um todo foi 100,0, sendo obtida por pelo menos um aluno da região Sudeste, enquanto nas demais regiões do Brasil as notas máximas foram 87,5. A menor nota mínima foi obtida na região Sudeste (0,0), enquanto a maior nota",
+  "text_sha256": "482d51e851e7c23a33a8ce456849bf2ac7ce9783ad177c156445d56543e4a280",
+  "window_size": 3
+}

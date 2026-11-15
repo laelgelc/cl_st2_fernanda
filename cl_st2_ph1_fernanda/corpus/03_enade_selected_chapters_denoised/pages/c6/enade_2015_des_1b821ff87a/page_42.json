@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_067f4546d25466be006af8fdb2931487d1965f0b6567f798b7",
+    "usage": {
+      "input_tokens": 2380,
+      "input_tokens_details": {
+        "cache_write_tokens": 2377,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2377
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 438,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 2818
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_des/enade_2015_des_page_41.txt",
+      "source_sha256": "f10ab1014fc33c756d315d0e0860e63d98fb74a82c0811b0e2c047f4cb42f2eb"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_des/enade_2015_des_page_43.txt",
+      "source_sha256": "11646d743b4f69a3eea8b8f5abeb13ec3e05c95f686bec887a3dcaf630ae1521"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:50Z",
+  "duration_seconds": 4.479,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_DESIGN.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_des/enade_2015_des_page_42.txt",
+    "source_sha256": "0b1919738a5d2383bed09e347ad1d4507b487bdc64388bc940e76a1c5ccd4444"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e42072a55e8644d4a8e26625193a7476b1106fb6de9a0dba98e1be3c524b1ea5",
+  "request_fingerprint": "118bf028582aaa4b63661f4224a6fb6a667b7ccdecd3a4c07f4fa465a99a434c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 50,2. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (56,4), e os das IES Privadas obtiveram Média mais baixa (47,3), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (6,8), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (9,1), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (52,5) que a nacional. As demais médias foram: 46,5 nos Centros Universitários e 45,6 nas Faculdades. O Desvio padrão tanto para as IES Públicas quanto para as IES Privadas foi 13,5, enquanto para os outros tipos de Organização Acadêmica foram inferiores ao do Brasil como um todo (14,2), indicando uma dispersão um pouco menor das notas nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes das Universidades (52,5) em relação aos demais tipos de Organização Acadêmica.",
+  "text_sha256": "4aa7d99f84c01beb438a1bc98344eb6dcfef1e0f64459e016a92fbd1f93026d0",
+  "window_size": 3
+}

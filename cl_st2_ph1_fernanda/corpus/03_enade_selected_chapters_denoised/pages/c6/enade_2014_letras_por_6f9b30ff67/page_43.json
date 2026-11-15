@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08c822c571695fcd006af8fb84df4087d1b72fc0842422f11d",
+    "usage": {
+      "input_tokens": 2920,
+      "input_tokens_details": {
+        "cache_write_tokens": 2917,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2917
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 306,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 3226
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_42.txt",
+      "source_sha256": "d603cf2d81382239dc377b5dc0fc1d37e917e07e7dae697a0bc9d69eacd9f4b3"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_44.txt",
+      "source_sha256": "b560b175e621b8418f45f841c90fa8b33ff5f01b6bae8f7234d389d114f975d2"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:32Z",
+  "duration_seconds": 4.235,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_43.txt",
+    "source_sha256": "a35b2bd86bf523ab8b4c56d5863942c1bf8fa27e1098af710346aa2331c2ef04"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "45d18519d8acb0ae77344170509643452ade90f712a8f0af8a020e0119dbbd8f",
+  "request_fingerprint": "33d6067eab2e14fa13c44cb150c5625ba829fb98821cd31cda86df28d5b64d07",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas em colunas diferentes para estudantes de Bacharelado e de Licenciatura. As distribuições são unimodais. O intervalo modal dos concluintes de Bacharelado é o (50;60], e dos concluintes de Licenciatura é o (30;40].",
+  "text_sha256": "bc35bfa16774b18a4d273cec00666c0390f4f512a9a37121a7714f8bfcd6b40e",
+  "window_size": 3
+}

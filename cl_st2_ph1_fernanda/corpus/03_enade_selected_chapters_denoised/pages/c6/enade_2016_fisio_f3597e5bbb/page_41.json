@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f722c9672a5175006af9024ccf0087d181f00ad490fdfebb",
+    "usage": {
+      "input_tokens": 2401,
+      "input_tokens_details": {
+        "cache_write_tokens": 2398,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2398
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 452,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2853
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_40.txt",
+      "source_sha256": "ea986b5b6cb6de64836a2bcf5f6c760bab649b8eafd3708370b10fe9631653d0"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_42.txt",
+      "source_sha256": "73eaba7d976e4ae9b7e5f52613afaee1e8c8ba816300e3c62c846f17d57f5c6d"
+    }
+  ],
+  "created_at": "2026-11-15T00:52:28Z",
+  "duration_seconds": 4.286,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FISIOTERAPIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_41.txt",
+    "source_sha256": "d5ab875a46034f4bce4f0a3e11b8d85105ae191093a6d5e47de2f1ff8d77b71e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "302efcce8b88efadb259afae3ff6a3080684e45dc679c4139472e988e02e1630",
+  "request_fingerprint": "cf21c9c2b3ae002ac78a37589e38b82e985a60363c5ab1ed4752d0757f55a67d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "um todo foi 39,8, sendo a maior Mediana obtida na região Sul (41,7), e a menor obtida na Norte (36,5). A nota Mínima do Brasil como um todo foi 0,0, obtida por pelo menos um aluno nas regiões Nordeste e Sudeste. Na região Norte, a nota mínima foi 10,0, na região Sul foi 11,0, e na Centro-Oeste, 3,1.\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (37,1), e as médias de todas as demais regiões17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (30; 40], seguido bem de perto pelo intervalo (40; 50].",
+  "text_sha256": "09fc14a520591c0beb4dba7a6abdaa070b2616c24dc4d8064f6ac15d73a1fe86",
+  "window_size": 3
+}

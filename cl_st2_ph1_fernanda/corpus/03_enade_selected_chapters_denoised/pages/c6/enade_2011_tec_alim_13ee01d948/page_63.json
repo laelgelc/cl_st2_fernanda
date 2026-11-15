@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cf42b1c83997a0b006af8eec6278087d19add662bf40bc353",
+    "usage": {
+      "input_tokens": 1990,
+      "input_tokens_details": {
+        "cache_write_tokens": 1987,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1987
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 536,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2526
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_62.txt",
+      "source_sha256": "338f2d06b7d9146a684b552d75a01be6ca050476da512ec3f72bc63861cd9514"
+    },
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_64.txt",
+      "source_sha256": "f570f25050c4e9f8b8a6b28ed7a589ccde4a9b6435b65d552302a75878dc9366"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:10Z",
+  "duration_seconds": 4.785,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 63
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_63.txt",
+    "source_sha256": "7d20adbb88d161927ff0e596956c7c91a305f8881a46cf50c3d9ad0258284665"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7f4f1620bbbec6348a066383a856b54faff76053cefb6d9a082a9221de57862",
+  "request_fingerprint": "e11f583972b3fdab9361a37a51b64409b2fd5b1fa48bb2b83158d6f9b851362c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e linha de fonte. A descrição do Gráfico 3.15 foi preservada como prosa; não havia material gráfico identificável na página-alvo para remover."
+  ],
+  "status": "success",
+  "text": "Observa-se que as notas médias nesse conjunto de questões não são significativamente diferentes do que as alcançadas nas questões objetivas de Formação Geral. Os estudantes de todo o Brasil obtiveram, em Formação Geral, média 54,8 nessas questões. Na tabela 3.8, observa-se que a média nas questões discursivas foi 58,5. A mediana confirma o desempenho similar dos alunos de todo o Brasil nas questões discursivas (60,0) e objetivas (57,1) do Componente de Formação Geral. No entanto, nota-se um aumento do desvio padrão: de 19,9 nas questões objetivas do Componente de Formação Geral dos alunos de todo o Brasil para 23,9 nas questões discursivas.\n\nA maior mediana ocorreu na região Norte (77,5), e a menor, na região Centro-Oeste (50,0). A nota máxima (100,0) foi obtida por alunos de todas as regiões do Brasil, exceto na região Norte, na qual a máxima foi 95,0. A nota mínima foi 0,0 em todas as regiões, menos na Norte, onde foi 25,0.\n\nO Gráfico 3.15 representa a distribuição das notas nas questões discursivas no Componente de Formação Geral. A moda desta distribuição ocorre no intervalo (70;80]. O coeficiente de assimetria é negativo (–0,49), o que justifica a assimetria à esquerda que se observa no histograma. Nota-se um segundo máximo local no intervalo (40;50].",
+  "text_sha256": "188568245f73ca4a38bc7843c1773e588ee5bfd7d0d9f6d2250e2e0353f2deee",
+  "window_size": 3
+}

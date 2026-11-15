@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_066030a33206bb64006af906aa0b4887d194f8de8e85d1fa16",
+    "usage": {
+      "input_tokens": 2480,
+      "input_tokens_details": {
+        "cache_write_tokens": 2477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 2992
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_150.txt",
+      "source_sha256": "840219b9db61c0a8611783ea872bb13c791cfaab457552c081eec0305764a843"
+    },
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_152.txt",
+      "source_sha256": "5701fc638452f93a4a71775b4629113ea859c0f73b101840990ffd86d2488718"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:05Z",
+  "duration_seconds": 5.895,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_151.txt",
+    "source_sha256": "d00320e10c6b13e97b461879da2443ce85dcba961cb7defcf25e5c1d34fbe904"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "77fcf47c81009a90cd49707e99fe4df6a058db9a6357a980576134744309f399",
+  "request_fingerprint": "66f15f70682cc76b65866066d72f2a86172935706abb041381ac567ccb810cc3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.20, incluindo título, estatísticas, dados e linha de fonte. A menção e os resultados descritos em prosa sobre o Gráfico 6.13 foram preservados."
+  ],
+  "status": "success",
+  "text": "na região Sul (15,7), enquanto a menor Média foi registrada na região Norte (4,8). Quanto à variabilidade das notas, o Desvio padrão dos alunos do Brasil, como um todo, foi 17,3. Enquanto o maior desvio foi encontrado na região Sul (23,6), o menor foi encontrado na região Norte (13,0).\nPara o conjunto de alunos de Engenharia de Controle e Automação do Brasil, a nota Máxima foi 100,0 em todas as regiões, com exceção da região Norte (95,0), e a nota Mínima foi zero em todas as regiões. A Mediana também foi zero para o Brasil e em todas as regiões, indicando que pelo menos a metade dos alunos recebeu esta nota, em cada região.\n\nO Gráfico 6.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição, como todas as relativas às questões discursivas dessa parte da prova, também tem moda principal nas respostas em branco. Destaca-se que a frequência de notas zero somada à de estudantes que não responderam à questão chega a, aproximadamente, 70% do total de participantes.",
+  "text_sha256": "bcf94167082ff352b05e9abd17696591180839854193be9adf7c0e2c8cd5dea0",
+  "window_size": 3
+}

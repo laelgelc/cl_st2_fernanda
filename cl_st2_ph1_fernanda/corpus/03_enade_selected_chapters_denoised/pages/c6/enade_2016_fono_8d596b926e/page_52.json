@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06db0c500545e95d006af90279e4f087d1b677216d2c0999fa",
+    "usage": {
+      "input_tokens": 2589,
+      "input_tokens_details": {
+        "cache_write_tokens": 2586,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2586
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 633,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3222
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_51.txt",
+      "source_sha256": "0a7c7b6cdf1fa7b0afdedfbd9960ed2690efcb48f18893e2372a6e838465db12"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_53.txt",
+      "source_sha256": "3ef7726eef59782fa9e843576d5bf509cf3ff2afe7be96b0ab8f990cc2dc7a0d"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:13Z",
+  "duration_seconds": 5.723,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FONOAUDIOLOGIA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_52.txt",
+    "source_sha256": "ccc7d28dd03162fdee457ba01c1dce01962876c57723eb4ef401d5776db704c3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "52a446ec84d6a19e72c3dd5b082660a14ee2ee18ab993fab8a4558fd80efdd6c",
+  "request_fingerprint": "447724c265c0936a2afa3afec14e180cf80bdcda89d864df27c51889966e6416",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 26,5% escolheram a alternativa E, 22,6% escolheram a alternativa B (em verde), 1,0% escolheram a alternativa C (preto) e 2,2% a D (roxo). Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,0% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "c71cedb5f46c264f734f2cc702752963eac07fab2b593969325f251260e312b2",
+  "window_size": 3
+}

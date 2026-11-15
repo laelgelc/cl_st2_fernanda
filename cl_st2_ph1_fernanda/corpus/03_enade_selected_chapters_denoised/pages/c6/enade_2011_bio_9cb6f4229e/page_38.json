@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02b5c864e8b060fe006af8eb11689887d1bb062ee654524566",
+    "usage": {
+      "input_tokens": 2187,
+      "input_tokens_details": {
+        "cache_write_tokens": 2184,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2184
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1117,
+      "output_tokens_details": {
+        "reasoning_tokens": 415
+      },
+      "total_tokens": 3304
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_37.txt",
+      "source_sha256": "164a72d2cbbb3847f0f369b5cd318b8d8176b4339b49cf43aac8545399b0b4ba"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_39.txt",
+      "source_sha256": "68ff0223b0067b88ba63656f44697a63a99b4e4754bc75d63bd4252dc5a3d737"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:21Z",
+  "duration_seconds": 9.805,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_38.txt",
+    "source_sha256": "da1f415e861b8c90eee54a098db2ca704ba867e7934f7a32279eaa4c508b7537"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9d62c5d9c3b76b2f6f707f8bc9b9b8a1c790e53c1d95c950faa34f47f5c963bd",
+  "request_fingerprint": "27f1432059f7e0b41a614ba7c7e6c70dea4cf6b67cae26028d5eb477180c0437",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material tabular da Tabela 3.2, incluindo título, dados e fonte.",
+    "Removida a linha de fonte no início da página, identificada como material gráfico. A frase sobre a mediana termina em “a maior” na página-alvo e permanece incompleta; sua continuação está fora desta página."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 53,1. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 18,7. A maior média foi obtida na região Sul (54,2), e a menor, na região Centro-Oeste (51,8). As demais médias foram: 52,9 na região Norte; 52,0 na região Nordeste; e 53,6 na região Sudeste. Já o maior desvio padrão foi obtido na região Nordeste (19,4) e o menor na região Sul (17,7). Os demais desvios padrões foram: 18,2 na região Norte; 18,9 na região Sudeste; e 17,9 na região Centro-Oeste.\n\nA maior nota no componente de Formação Geral da prova do ENADE foi 100,0, obtida por pelo menos um aluno das regiões Norte, Nordeste e Sudeste. A menor nota máxima foi obtida na região Centro-Oeste (94,0). A mediana do Brasil como um todo foi 55,5, sendo a menor mediana encontrada na região Centro-Oeste (53,0) e a maior\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes ao Bacharelado e à Licenciatura. As distribuições são unimodais, com modas, respectivamente, nos intervalos (60;70] e (50;60], enquanto na prova como um todo (Gráfico 3.1), a moda foi alcançada nos intervalos imediatamente inferiores, ou seja, (50;60] para o Bacharelado e (40;50] para a Licenciatura. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,1 para a nota da prova como um todo e 18,7 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (–0,63). Desagregando por habilitação observa-se que o coeficiente da distribuição dos concluintes do Bacharelado tem maior valor absoluto (–0,81) do que os da Licenciatura (–0,56), o que indica uma assimetria à esquerda mais acentuada para o primeiro grupo. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa, tomando-se os alunos em conjunto ou por habilitação.",
+  "text_sha256": "f79fe3d8060024490c146ffa7a585d6308589b5276bad2b463c4ed67cf5828af",
+  "window_size": 3
+}

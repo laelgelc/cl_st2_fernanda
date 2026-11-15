@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03dec7a9b0181bdc006af901b4e4e487d1af37959f17cf863e",
+    "usage": {
+      "input_tokens": 2401,
+      "input_tokens_details": {
+        "cache_write_tokens": 2398,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2398
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 668,
+      "output_tokens_details": {
+        "reasoning_tokens": 363
+      },
+      "total_tokens": 3069
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_80.txt",
+      "source_sha256": "02f42db17381a8881322cf31d0113492943ecf9e40fab2c7d8b0bdf6b3728094"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_82.txt",
+      "source_sha256": "2f2b51e376e050d0a6acb3eca4990e2d4d3379deeef35104d1d31ae207599d16"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:56Z",
+  "duration_seconds": 6.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_81.txt",
+    "source_sha256": "ac070ce898558be36412120179148ebc2c26ece02374538d1013b68e0125a425"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "043af617a5eb0f2f990cae2d698961700313560426661c66ec486e36255a91ae",
+  "request_fingerprint": "9ecca3e024b690417118868e2f7df52211caea2180f700225795e40f2570acff",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.19, incluindo título, dados e fonte.",
+    "O Gráfico 3.12 não foi transcrito; sua presença é indicada pela linha de fonte no contexto da página seguinte."
+  ],
+  "status": "success",
+  "text": "nessa questão foi inferior ao das questões 3 e 5. A Média geral do Brasil foi 30,0, sendo a menor Média registrada na região Norte (15,3), e a maior, na região Sul (38,1). A nota Máxima (100,0) foi atingida por, pelo menos, um concluinte de todas as regiões. A Mediana em todo o Brasil foi 20,0, o mesmo valor obtido nas regiões Nordeste, Sudeste e Centro-Oeste. Na região Sul a Mediana foi 40 e, na região Norte, a Mediana foi zero, indicando que mais da metade dos concluintes desta região obtiveram zero na questão. As notas mínimas foram zero em todas as regiões.\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (10; 20], com quase 25% dos concluintes. É notável que a soma do número de concluintes pertencentes ao grupo daqueles que deixaram a questão em branco com aqueles que obtiveram zero chega próximo a 35% de frequência.",
+  "text_sha256": "f84184c4ccacf12921f26869f9f191e0ae43e30fef5602cde2e974ddb1f9f270",
+  "window_size": 3
+}

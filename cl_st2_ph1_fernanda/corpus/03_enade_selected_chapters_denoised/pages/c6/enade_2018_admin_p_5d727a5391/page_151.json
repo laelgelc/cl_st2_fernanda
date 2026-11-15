@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ad06e6252b78f9b006af90beb519c87d1bad8803bbea5fd6f",
+    "usage": {
+      "input_tokens": 2339,
+      "input_tokens_details": {
+        "cache_write_tokens": 2336,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2336
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 321,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 2660
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_150.txt",
+      "source_sha256": "322821869a74773e1028438c203990886aad60dbb748ed7f3bb3ae2250d61cc9"
+    },
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_152.txt",
+      "source_sha256": "e726b99716c6217e667fc69584aec929c611743e45c44aeab4c9f6c543d018ca"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:31Z",
+  "duration_seconds": 4.149,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_151.txt",
+    "source_sha256": "aaa6826b48d87acd43351a4adffaa7ec56ea87db497d1a5fd7458c250b2cb9ef"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "11ac06ae1930dbf505062541ae65dd5e2cb3dfc4325f04e7600c6dde47033cf7",
+  "request_fingerprint": "296e0022a4805a5cda60935d47916b6cb87bccf987c0f65ac04ab52c4c582829",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte. A linha de fonte após o parágrafo foi removida por pertencer ao Gráfico 6.11; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Administração Pública. Sem se levar em consideração que próximo de 19% dos estudantes deixaram a questão em branco e que cerca de 17% receberam nota zero, a moda dessa distribuição seria o intervalo (20; 30], seguido do intervalo (10; 20].",
+  "text_sha256": "8129f746d0297cce0109b1ee5cef3b2db8c8353cef78ed3166678b3ebc8deb8c",
+  "window_size": 3
+}

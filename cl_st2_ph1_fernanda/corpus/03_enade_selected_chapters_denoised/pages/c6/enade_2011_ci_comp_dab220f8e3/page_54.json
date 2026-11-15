@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c7c1c49bf3e49b5006af8eb44a51c87d1b3d97661fbd0a070",
+    "usage": {
+      "input_tokens": 2314,
+      "input_tokens_details": {
+        "cache_write_tokens": 2311,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2311
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "total_tokens": 3094
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_53.txt",
+      "source_sha256": "d960bb0cfc44f8656bbce103358be9f17e2a117f86b3cf89e0caa4a1bcffb946"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_55.txt",
+      "source_sha256": "917b5c1746f5a254b4557e6d97da69aeead84096a933d8977b224dbe1bb6c49d"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:12Z",
+  "duration_seconds": 6.97,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_54.txt",
+    "source_sha256": "ac435f2803bf981ac0a47f18d908d550aee5d86c6094f0aaae6ae2d2e5eaa7ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "57469c61ca7065edfe94ac04bcfb865a39f8ddba5ed99fe595ea29b88d4c55c0",
+  "request_fingerprint": "2a7fb6b10e732fb92d4b4722b5496eebf0166e43516fb8ad217e9a425b138651",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a linha de fonte da Tabela 3.3."
+  ],
+  "status": "success",
+  "text": "Nordeste; 86,2 na região Sul; e 78,6 na região Centro-Oeste. A nota mínima foi zero em todas as regiões.\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes dos cursos da Área de Computação (Bacharelado, Licenciatura, Sistemas da Informação e Engenharia de Computação) em relação ao componente de Conhecimento Específico com histogramas das distribuições das notas correspondentes. Dentre as distribuições apresentadas até aqui, esta é a mais concentrada em notas baixas. Estas também são distribuições unimodais e o grupo modal é o (20;30] para todos as habilitações: Bacharelado, Licenciatura, Sistemas de Informação e Engenharia de Computação.\n\nComo nos gráficos anteriores a distribuição de Engenharia de Computação tem frequências maiores dos que as das outras habilitações nos intervalos de notas mais altas. O coeficiente de assimetria das quatro distribuições do componente de Conhecimento Específico é positivo: 0,77 para a habilitação de Bacharelado, 0,45 para a Licenciatura, 0,50 para Sistemas de Informação e 0,71 para Engenharia de Computação. Nota-se pelo histograma (Gráfico 3.9) que há cauda mais longa à esquerda para todos as habilitações. Apenas para a Licenciatura na região Norte o coeficiente de assimetria é negativo. Para todos as outras habilitações e regiões há assimetria à direita, coeficiente de assimetria positivo, sendo que a mais acentuada é a distribuição de notas dos alunos de Bacharelado da região Sudeste (0,85) e a mais leve encontrada na região Centro-Oeste para alunos de Sistemas de Informação (0,32).",
+  "text_sha256": "d0abb2e657afe84f900ecfa12872c5cdabebcbab788c785eb2f53479de8ee8e9",
+  "window_size": 3
+}

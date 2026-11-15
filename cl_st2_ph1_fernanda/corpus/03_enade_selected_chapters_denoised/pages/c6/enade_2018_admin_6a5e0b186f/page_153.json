@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02b2fc82ffb3918b006af90c19916087d1a8520b0d4442f716",
+    "usage": {
+      "input_tokens": 2325,
+      "input_tokens_details": {
+        "cache_write_tokens": 2322,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2322
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 2884
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_152.txt",
+      "source_sha256": "29a953fa4e382b527adc75f19c6bc8935d1c187d066c87304f8ded7533821d35"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_154.txt",
+      "source_sha256": "df3fd75a7d3d2f256b51b3893c2e47d7b25edffb1b93a395a12d568a9a6ac8b0"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:17Z",
+  "duration_seconds": 5.808,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_153.txt",
+    "source_sha256": "57a8ec9e0cf4b93374cf953eb55a03d2bdacc530263fac409cb221c133812627"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "00c8cfafb9a813425b201b1a220972c659af1d491139a8b4c73dd134a559aa46",
+  "request_fingerprint": "2b69540256cd7464da4fdbd8dfd6eeab81fb34a3b2cbd1dbe3348ecb5444adee",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.11; não havia conteúdo gráfico transcrito."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Administração. Sem se levar em consideração que 25,2% dos estudantes deixaram a questão em branco e que um pouco mais de 29% receberam nota zero, a moda dessa distribuição é o intervalo (20; 30], seguido do intervalo (0; 10].\n\n6.3.2.2 - Comentários sobre as respostas à Questão Discursiva 3\n\nA questão apresentava conteúdo alinhado aos componentes da formação profissional do administrador, estando, portanto, afinada com o que é proposto nas Diretrizes Curriculares",
+  "text_sha256": "eb93a8e69ceb111ca039ab02bde10792fa2402565b6166c4a26db8e39f80361b",
+  "window_size": 3
+}

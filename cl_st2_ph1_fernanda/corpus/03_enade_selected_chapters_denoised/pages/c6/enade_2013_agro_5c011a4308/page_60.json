@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a403ba67ac04a8006af8f2f96b9487d1b464d16f71be350d",
+    "usage": {
+      "input_tokens": 2650,
+      "input_tokens_details": {
+        "cache_write_tokens": 2647,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2647
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 3005
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_59.txt",
+      "source_sha256": "640911540c733a5107ecb72fcc9ea56108560e8dd163f895e38af66a9ed860e8"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_61.txt",
+      "source_sha256": "54e83778bf547aad9cf1dbdbb3b2afeefcb1bf1be737433f35c832cd60d437f3"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:05Z",
+  "duration_seconds": 4.884,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_60.txt",
+    "source_sha256": "a131de26020a0d462d8f092361fcf06391feda663a9fd889991a81fa940cd6c5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb9e11debbc6976bd3d6e2d285ed82bc75f315602af42bad4d7c7592c9721d9c",
+  "request_fingerprint": "51be736796d4c94b3b480767f0648a1fa6a45f6d59d1d5b326e5adc46156baa6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da questão 23 e sua linha de fonte (Fonte: MEC/INEP/DAES - ENADE/2013)."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 23, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para aqueles que acertaram pelo menos 25 questões, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir da segunda nota não nula, como função da nota nesta parte da prova.\nOs gráficos relativos às demais questões do Componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "215688e0ddb5c74748a4f4228b70cb6964505a50a5d9217f40ccdbdff40a3f91",
+  "window_size": 3
+}

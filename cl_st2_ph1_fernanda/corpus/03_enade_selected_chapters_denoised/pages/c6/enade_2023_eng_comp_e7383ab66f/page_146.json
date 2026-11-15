@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fcc52f8e0670698006af92257b9dc87d19d7c670f8fc3c4d4",
+    "usage": {
+      "input_tokens": 2605,
+      "input_tokens_details": {
+        "cache_write_tokens": 2602,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2602
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 802,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 3407
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_145.txt",
+      "source_sha256": "151120e0f87df2de6c2538e800b0243ea3a144f4d3aeb535d081b3dd1d63f8ca"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_147.txt",
+      "source_sha256": "56d5c1214fca546a9f33af45cce49da846b091eac41fcb68a5c6419c13c8c125"
+    }
+  ],
+  "created_at": "2026-11-15T03:09:11Z",
+  "duration_seconds": 7.129,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_146.txt",
+    "source_sha256": "9ff6c892b63731c4cc00c48e5d1c618adc4e98633c77ea55d126cf11e3d9501c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2c10da72aaf4ebc096146a98dd7845e6f38c019d9ecb4b355e982752e62b8123",
+  "request_fingerprint": "cbd37f2d11c360096ce697d4e851d61b3a8664cff89b1b4003b7132010eff4c8",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "parte da prova. Os gráficos relativos às demais questões do componente de Conhecimento Específico constam no Anexo IV.\n\n5.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (5.3.1) e de Conhecimento Específico (5.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. Após a digitalização, as respostas passam por um pré-processamento de identificação automático. Algumas dessas questões são definidas como um “branco automático” (que não são enviadas aos professores para correção, a não ser que, na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado nesse pré-processamento consiste em verificar, para cada questão, a partir da quantidade de pixels, o que, provavelmente, é uma resposta em branco. A partir da separação, os documentos que foram considerados em branco são enviados para uma verificação visual, feita por uma equipe de colaboradores devidamente capacitados. Desse modo, qualquer erro, presente no pré-processamento, é encontrado, e as questões preenchidas são enviadas para a correção dos avaliadores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Essas são enviadas para a correção, mas são classificadas como “branco” pelos avaliadores, no momento da correção.\n\n5.3.1 COMPONENTE DE FORMAÇÃO GERAL\nAs análises dos resultados de desempenho dos estudantes de Engenharia de Computação I, na questão discursiva relativa à Formação Geral, encontram-se na Tabela 5.13 e no Gráfico 5.6, cujos dados são analisados de forma sequenciada.\n\nNo caso da Tabela 5.13, analisa-se a média das notas da questão discursiva de Formação Geral, que leva em conta as correções realizadas por duas bancas: uma que analisa e pontua aspectos relativos ao conteúdo das respostas, seguindo o padrão de respostas divulgado pelo Inep (ver Anexo VIII); e outra que avalia o desempenho linguístico expresso pela redação das respostas, seguindo um padrão de respostas específico da área de Língua Portuguesa, detalhado na seção 5.3.1.7 deste relatório.\n\nNo cálculo da nota da questão discursiva, consideram-se 80% relativos à nota da correção de conteúdo e 20% referentes à nota de desempenho linguístico.",
+  "text_sha256": "472c516d45f12854ddfa38eb44ba622768487192eca4937da700fe4c7c1ca509",
+  "window_size": 3
+}

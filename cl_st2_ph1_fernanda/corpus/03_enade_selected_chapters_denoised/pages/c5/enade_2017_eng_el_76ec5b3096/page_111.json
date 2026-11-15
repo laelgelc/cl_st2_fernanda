@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ae848e0365e425006af906f2ecac87d1beb53ae9210f46b7",
+    "usage": {
+      "input_tokens": 2055,
+      "input_tokens_details": {
+        "cache_write_tokens": 2052,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2052
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 391,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 2446
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_el/enade_2017_eng_el_page_110.txt",
+      "source_sha256": "7a8a99694a7f023968d49dc95452f7dade396ad55c354f0c97fca4be2446e6c8"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:18Z",
+  "duration_seconds": 5.9,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_el/enade_2017_eng_el_page_111.txt",
+    "source_sha256": "2827194679de8585aeacdf6a63e9e6235c25309ee7ae23bc4203c8c9df71060f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7e1e934712c2b33bc1ee4bfb1843ada95cbea6486e401a5227789378726e2ec9",
+  "request_fingerprint": "b2aa7bf88ca4d03c2ed3a113d02c15b9f89dcb8a02afd4057faa54c658a51159",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2017”, pertencente ao Gráfico 5.3; o material gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "distribuição de Conceitos Enade. Nota-se também que nenhum dos cursos em CEFET/IFET (linha roxa) obtiveram conceitos 1 ou 2, já que a poligonal cumulativa parte de 0% no conceito 2, ao passo que nenhum dos cursos em Centros Universitários (linha verde) obtiveram conceito 5, pois a poligonal cumulativa atinge 100% no conceito 4. No outro extremo, há os cursos oferecidos em Faculdades (linha vermelha) e em Centros Universitários (linha verde), com as poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores. IES de Universidades (linha azul) apresentam uma situação intermediária.",
+  "text_sha256": "2a24855f6b0b6429f6b6d5427a10152dfb43da3afcc5db9d591bbbed97412fae",
+  "window_size": 3
+}

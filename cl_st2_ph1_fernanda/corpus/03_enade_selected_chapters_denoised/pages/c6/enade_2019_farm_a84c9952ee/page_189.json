@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b32b31e3717832f006af9131a953087d1bff7d3853b9a8111",
+    "usage": {
+      "input_tokens": 2365,
+      "input_tokens_details": {
+        "cache_write_tokens": 2362,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2362
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 2731
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 188,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_188.txt",
+      "source_sha256": "ca9a62cd54f27e0ba27a1d2555ac0589a7f386afd9f29dcf59fa450f361be251"
+    },
+    {
+      "page_number": 190,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_190.txt",
+      "source_sha256": "808f0d9416b14fe929144a23e061767d48f9e3a15fa6ec27201fb647dae14271"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:10Z",
+  "duration_seconds": 4.134,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 189
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_189.txt",
+    "source_sha256": "2d8da61d823e138099a4dd4118198b4f6df83065cff3812ce3bb79ac32c6010e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f59d5712c7e738b8af4a2dc7e7b7a58ab8d08741f55e47276660c4cf6583904",
+  "request_fingerprint": "58ae46309e902c3af60b43c2dbf3c4474717fbea09c14db979696f391669cb68",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 6.12 e sua linha de fonte; a prosa que descreve os resultados foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Farmácia. Poucos estudantes receberam nota zero (3,2%), como também foram poucos os que deixaram a resposta em branco (4,0%). A moda dessa distribuição é o intervalo (30; 40], com 15,0% do total de participantes, seguido pelo intervalo (20; 30], com frequência de 14,2%.",
+  "text_sha256": "bb5f65828df23865d3d612f6286be6fe4a04e757576507f061ea3d7d0092bfa9",
+  "window_size": 3
+}

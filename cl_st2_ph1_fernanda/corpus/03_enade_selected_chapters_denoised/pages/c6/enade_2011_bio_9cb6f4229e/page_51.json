@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08c4141fde6d41cd006af8eb1841cc87d186a6b96fbc97fa8f",
+    "usage": {
+      "input_tokens": 2900,
+      "input_tokens_details": {
+        "cache_write_tokens": 2897,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2897
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 461,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 3361
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_50.txt",
+      "source_sha256": "0e2b50cfb9267ebd3ba1b6b92e03dccf012993a0e386e9610436508e655ad90b"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_52.txt",
+      "source_sha256": "41d5c907a8428a6d8bf4e1a376a2326e26dea93d3e88b09da4ced1935d3f3e5d"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:28Z",
+  "duration_seconds": 4.84,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_51.txt",
+    "source_sha256": "54b11917b2a804515d7d88de6d58c22b5ffcae5f0ec2767d2ccf90152cb748dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4758c2aaf901767a77af7b8158b96d502aff4ba9fef7a85294af07650cf09ff9",
+  "request_fingerprint": "584d64f81fd21713094b281bf54d269dcd74754810053fce04a464e7ad6686bf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao gráfico mencionado."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, notadamente para o número zero de acertos, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "35019eb7dda0a7ca625e788f173187dee87c6e6b64e3385bd686ef3e423441fa",
+  "window_size": 3
+}

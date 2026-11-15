@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f89391635d381e4006af924029b6c87d1b42f7c894f5811c6",
+    "usage": {
+      "input_tokens": 2108,
+      "input_tokens_details": {
+        "cache_write_tokens": 2105,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2105
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 344,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 2452
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med_vet/enade_2023_med_vet_page_140.txt",
+      "source_sha256": "0da5d251cc105638afd8bb8617042342689ea3c48643f191dfabde57ae0947b6"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med_vet/enade_2023_med_vet_page_142.txt",
+      "source_sha256": "5f8de1e7687870c43604896ec1c0e9025e57994809d29b80c37424263c3e4ce0"
+    }
+  ],
+  "created_at": "2026-11-15T03:16:18Z",
+  "duration_seconds": 6.12,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med_vet/enade_2023_med_vet_page_141.txt",
+    "source_sha256": "7d9c2eea5d39dfba6e13007a201523547434cced4bc7409a22f433af3765deea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "842d339c6f44a13cc1f915e6ed60a6abb79aa6e213c334a37ce53878065d1d8c",
+  "request_fingerprint": "3cbd76fb07be4e97bba5fde73c91de53bc4a5428c548ddb88937468e4c71f355",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices.\n\nOs dados da Tabelas 5.8 e 5.9 atestam que cinco questões que tiveram índice de discriminação “Muito bom” figuraram em dois níveis de dificuldade – “Médio e Fácil”: nenhuma classificada na categoria “Muito Fácil” (zero); duas classificadas na categoria “Fácil” (questões 3 e 6); três classificadas na categoria “Médio” (questões 1, 4 e 8); nenhuma, na categoria “Difícil” (zero); e nenhuma, na categoria “Muito difícil” (zero).\n\nEm particular, a questão 6 foi a que apresentou o maior poder discriminatório, com índice 0,50, considerado “Fácil” em termos de facilidade, com uma proporção de 0,74 acertos, não tendo essa questão alcançado o máximo de acertos.",
+  "text_sha256": "022baf0016ec480f3f3da9fd081f61824f6c528817c0b7f91141574d532c7674",
+  "window_size": 3
+}

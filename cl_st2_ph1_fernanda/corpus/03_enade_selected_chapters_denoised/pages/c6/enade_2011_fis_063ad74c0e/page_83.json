@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dd989bc91206a76006af8ed6e839c87d1ae7a7449ad9bdab2",
+    "usage": {
+      "input_tokens": 2184,
+      "input_tokens_details": {
+        "cache_write_tokens": 2181,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2181
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 799,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 2983
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_82.txt",
+      "source_sha256": "4c236cb520e7e980c500c3f795502789e5b956c21a0b5848c312c4de0e1c9ae0"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_84.txt",
+      "source_sha256": "622ecf4c84d23401699da28c7fccb1f6bb4893d5e3bdfef4891cda7ef0280d4c"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:26Z",
+  "duration_seconds": 7.278,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_83.txt",
+    "source_sha256": "fc60dfe411fd54350ad98ec97f6070c8d315120d599bb690cf9d10c966bcbbb1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bb549c29a5e7ff61dae5837963b09e4ec37a300d24a5b4fb315f6e0ec87b3c7",
+  "request_fingerprint": "7e0de7f431959baaf811e8ec265581ada4cc83142cdfe1b724c2657f52fe02de",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Constava de 4 subitens, cada um deles valendo 2,5 pontos. Os itens (a) e (b) eram mais imediatos, pois requeriam apenas uma leitura correta do gráfico: o item (a) pedia a frequência de ressonância ωr e bastava ver, no gráfico, para qual valor de ωr o valor de H(ω) era máximo; o item (b) pedia o valor da constante elástica da mola, k, que também podia ser obtida diretamente do gráfico já que H(ω = 0) = 1/k. Os itens (c) e (d) eram de um grau de dificuldade um pouco mais elevado: pediam, respectivamente, os valores de c e m e, para isso, era necessário dar-se conta que, sob aproximação, ωr ≈√k/m e assim Hmax = H(ωr) = 1/(cωr) (para o item (c)) e m≈kωr2 (para o item (d)).\n\nA maior surpresa com relação às respostas dos alunos foi o excessivo percentual de respostas em branco. Algumas tentativas de diagnóstico para este alto índice podem ser: cansaço e/ou falta de tempo por ser última questão da prova; dificuldade com o caráter gráfico e numérico da questão.\n\nDaqueles que tentaram desenvolver a questão, a média ficou um pouco acima dos 20,0 pontos, refletindo o fato de que a maioria dos alunos conseguiu ao menos fazer o item (a) ou o item (b); entre estes, houve uma divisão entre os que tentaram resolver os outros itens (e erravam) ou que simplesmente deixavam em branco o restante.\n\nPontuações médias (entre 30,5 e 60,0), salvo exceções, foram, em geral, devidas aos estudantes que conseguiram desenvolver os itens (a) e (b), mas erraram ou deixaram em branco os itens (c) e (d).\n\nPontuações altas (acima de 70,0) foram obtidas tipicamente por aqueles que tentaram e acertaram ao menos três dos quatro itens. Houve vários alunos que acertaram (numericamente) todas as respostas, porém com omissões nas justificativas. Ou então, que elaboraram todos os itens corretamente, mas faltou justificativa da aproximação nos itens (c) e (d):\n\nO altíssimo percentual de respostas em branco de certa forma prejudica a análise global/estatística do resultado da questão. Daqueles que responderam a questão, houve bastante acerto para os itens (a) e/ou (b), que eram de grau de dificuldade baixo, e apenas uma minoria desenvolveu de forma parcial ou totalmente correta os itens (c) e (d) (que já não eram tão fáceis).",
+  "text_sha256": "1ea7c49f651c57b1ed8dd41feb92e2774444370f3f9a9d14d0accc6afae6a48b",
+  "window_size": 3
+}

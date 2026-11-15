@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06caefee2752ee19006af905fc886487d1b556029f9ea96119",
+    "usage": {
+      "input_tokens": 2503,
+      "input_tokens_details": {
+        "cache_write_tokens": 2500,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2500
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 288,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 2791
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_139.txt",
+      "source_sha256": "ace1a9cc6a990ed63d694c9a96993a0b349a17d9cbe9ec0d5bdb4f2f8008c809"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_141.txt",
+      "source_sha256": "a91416cf8335def3b67382c581c3db0b10d583161778a6e65b0007996310e391"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:12Z",
+  "duration_seconds": 3.799,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA CIVIL.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_140.txt",
+    "source_sha256": "4251ad556ca423173e5eb094337b814f435808d26df651a09918158b922a800a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c6cbc44638492441790cc22c8b6cf6a3f33bc4a6993adcf95b68909ce636845a",
+  "request_fingerprint": "f0820be5709fb26af39e9a51961a95fcf6458d76a080375c643f1fafaffdf1f6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.9 e sua linha de fonte; preservado o parágrafo explicativo sobre o gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.9 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (quase 30%) corresponde aos alunos que obtiveram nota no intervalo (60; 70]. Destaca-se, também, os alunos que deixaram ambas as questões em branco representando um pouco menos do que 10% do total, caracterizando-se como máximo local.",
+  "text_sha256": "aa3895e659920b7dfc786a5073ecb40d656355235701dc5532e6e58d6d4b14ee",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e86f4abb7ee501a006af8f084bc4087d1913c19cbda80588a",
+    "usage": {
+      "input_tokens": 1715,
+      "input_tokens_details": {
+        "cache_write_tokens": 1712,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1712
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 367,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 2082
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_80.txt",
+      "source_sha256": "c5892707bc23e10bda90750baa634bbc3ef83036384a946c1c589645291b7f1b"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_82.txt",
+      "source_sha256": "70e9520d2dde9e88f3fb88c6325e0e892e534e3e66ef01da9c4cd6f6362302f1"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:36Z",
+  "duration_seconds": 4.181,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_81.txt",
+    "source_sha256": "e14e32c7be32d26da0cb616f4e47bdb323fe0a02eb63b29f303b943ecddcc6dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7b929cc549c58a04d1613d88064bea2666adcbd5943633398de9dc6bc28e8b9",
+  "request_fingerprint": "efa0e9774fe9d4a3dbd7958109e61be54fe4d9f05805690a83e9de4bb1be303b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte pertencente ao material gráfico que aparece no início da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada. Esta opção foi escolhida por 53,3% e 54,4% dos estudantes com desempenho no 3º quarto e 2º quarto, respectivamente. Nos extremos de desempenho, 53,5% dos estudantes no quarto de desempenho inferior optaram pela mesma alternativa, enquanto no quarto de melhor desempenho a proporção dos que deram esta resposta foi 51,9%.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 41%, crescente com o desempenho, mas sem diferenças estatisticamente significativas.",
+  "text_sha256": "8a104c077953729fa8ed204a1fa44ce21da6a00777714ddbf0d734fdf5e36577",
+  "window_size": 3
+}

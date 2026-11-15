@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a79c063176fc238006af8efa59be087d1a85a700d61b35876",
+    "usage": {
+      "input_tokens": 1408,
+      "input_tokens_details": {
+        "cache_write_tokens": 1405,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1405
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 1632
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_39.txt",
+      "source_sha256": "109e5ccad8f902ff9cb5220a451a7c7505aa9e4901e9529074bee1b7b07ee165"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_41.txt",
+      "source_sha256": "4a511c0ffc23c58fb0048fed477ed9b7b3793fd3a7bbb8120743113b7d92bc6d"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:53Z",
+  "duration_seconds": 3.011,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_man_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM MANUTENÇÃO INDUSTRIAL.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_40.txt",
+    "source_sha256": "3a0fd20e298b6a14c9c70c61c0dac1704dbed1772ca7bd2b0afce7207e985a3a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10590dc22dd9bd6241a1ddc7458a9bb7ee93198a3d10a75edbba2a39da9249f2",
+  "request_fingerprint": "f60af42ff5b61ee49012cc0425f816a605dfb28202211186d63d3d154fcb9c82",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do gráfico (Fonte: MEC/INEP/DAES - ENADE/2011); o gráfico e seus dados não foram incluídos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que não existe diferença estatisticamente significativa entre as médias dos concluintes das IES Públicas (49,2) e Privadas (51,6).",
+  "text_sha256": "8817e04db5452c9d3623eac8acbe91dff6998eabf12ca34a6f4c9a7cd8e8653c",
+  "window_size": 3
+}

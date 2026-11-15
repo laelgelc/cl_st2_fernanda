@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d799754a2dacdc7006af8f938487487d1b346e717d6d410ed",
+    "usage": {
+      "input_tokens": 2643,
+      "input_tokens_details": {
+        "cache_write_tokens": 2640,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2640
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 305,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2948
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_63.txt",
+      "source_sha256": "a9e55783a15502875517cc4aed81b15a2e894dc4e33ebe0f9f33b4c08f225677"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_65.txt",
+      "source_sha256": "e3fcaf5f6730842883aa2f7276f4b908f5fe6a533f9ced8fa776f16f611ca896"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:44Z",
+  "duration_seconds": 4.01,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_64.txt",
+    "source_sha256": "9441eebc39270892ecbf4e0885730a258e80017f22c69cc5b264e58a9c7ab4ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bb48d27425b3696abed22d103ff1629243382331e0c2b7482fe86e383f1b77a3",
+  "request_fingerprint": "6c0be6d56a7020800afd4f2403fd1fc0c9da4e67120cc00cfb596fbae328b150",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.8 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. O intervalo (70; 80] é o modal para esta questão, sendo esse intervalo o modal da questão 1 e do geral das questões discursivas. Destaca-se os intervalos (60; 70] e (90; 100] com frequência próxima à modal. Observa-se que a frequência dos estudantes que deixaram a questão em branco (acima de 15%) é também muito próxima à modal.",
+  "text_sha256": "964db57f8be115420d2aedd753aba72250d4301c3c00a750abcf97cc69111b19",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1cb6d87e8abd50006af904157a3c87d1a1b548d7be59908e",
+    "usage": {
+      "input_tokens": 2307,
+      "input_tokens_details": {
+        "cache_write_tokens": 2304,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2304
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 265
+      },
+      "total_tokens": 2860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_77.txt",
+      "source_sha256": "2fea49e7c92b78d5e48675fd0e57cbd9778caac472046888211d2fa8acaffb41"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_79.txt",
+      "source_sha256": "d22bacb9be76047b9cd3796522f0c6c29914f32b82fb26cd4961ae51a05ca1cf"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:05Z",
+  "duration_seconds": 5.489,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_78.txt",
+    "source_sha256": "eb321f25652190fdf5b0c5618c474d0b09acd071fcc48e68398ed2ae102e5657"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "afc3a71da7fc91dfaf492089b29d849e0cf92fbbbb64cd3f7328c8a99f7f51db",
+  "request_fingerprint": "e714757aac2adec065b7dd5f1e09e2e813377565463e3c126fff4b4421411609",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2016», aparentemente pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 - Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.18, a Média dos estudantes de todo o Brasil foi 28,1. A menor Média nessa questão foi obtida pelos alunos da região Norte (25,2), enquanto a maior Média foi obtida na região Centro-Oeste (31,3). Quanto à variabilidade das notas, o Desvio padrão de todo o Brasil foi 29,6. O maior Desvio padrão foi obtido na região Centro-Oeste (38,3), enquanto o menor foi obtido na região Norte (27,0).\n\nA nota Máxima, 100,0 pontos, foi alcançada por, pelo menos, um aluno de todas as regiões. A Mediana do Brasil como um todo foi 20,0, a mesma para todas as regiões. A nota Mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil.",
+  "text_sha256": "bee2f1f69034d57cb1f5f42028e0a3e33d598cf440b2f422b04dd2835fae5d71",
+  "window_size": 3
+}

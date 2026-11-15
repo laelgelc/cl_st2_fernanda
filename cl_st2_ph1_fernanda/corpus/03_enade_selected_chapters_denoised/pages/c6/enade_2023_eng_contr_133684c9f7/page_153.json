@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04280ed683c6a821006af922b4cb7c87d18451ce39646a8764",
+    "usage": {
+      "input_tokens": 2207,
+      "input_tokens_details": {
+        "cache_write_tokens": 2204,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2204
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 2423
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_contr/enade_2023_eng_contr_page_152.txt",
+      "source_sha256": "1b10d336e92b695603ad3278f0ab9d8a21d264e0232059ad09718e489968ccb8"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_contr/enade_2023_eng_contr_page_154.txt",
+      "source_sha256": "f7c6ed56403a68eeb2141b1bd594888854965df6d6c03247f0f17cbd76fe7711"
+    }
+  ],
+  "created_at": "2026-11-15T03:10:44Z",
+  "duration_seconds": 3.569,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_contr/enade_2023_eng_contr_page_153.txt",
+    "source_sha256": "c6c3775774a150e4c7d38291f655a2329d13ff42fb958c34c4fa4e8be57cd4c2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6fb8e31a6125d52156720e793446df80d20108b9b048c2af4c7623bb9d0a9216",
+  "request_fingerprint": "8d1b26b6694840feb6cb433cf13ee14b0485ca75212d3cdcf8c3dae181602b17",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.7 (histograma), sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.7, apresenta-se a distribuição das notas de conteúdo da questão discursiva do componente de Formação Geral.\n\nO Gráfico 5.7 mostra que 16,0% dos participantes deixaram em branco a resposta ou zeraram a questão discursiva na avaliação de conteúdo. A moda dessa distribuição ocorre no intervalo [0; 10], com uma frequência de 19,6% dos participantes.",
+  "text_sha256": "b5e55409dad9df8f616cd6c973bc34d36ca237bfd2e6f7a423b612e89d405009",
+  "window_size": 3
+}

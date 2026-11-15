@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_072a81b0bc385fe1006af9173734b887d19c648037dd8c956c",
+    "usage": {
+      "input_tokens": 2846,
+      "input_tokens_details": {
+        "cache_write_tokens": 2843,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2843
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1098,
+      "output_tokens_details": {
+        "reasoning_tokens": 405
+      },
+      "total_tokens": 3944
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 256,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_bio/enade_2021_ci_bio_page_256.txt",
+      "source_sha256": "a5e65322bfc46fbffae08210c263144fd245361e9145ecf40453e5240fe82cef"
+    },
+    {
+      "page_number": 258,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_bio/enade_2021_ci_bio_page_258.txt",
+      "source_sha256": "427381535e8e4ad444e2aa8189dc6a437d1057c29487c8679a7a3070cc92256b"
+    }
+  ],
+  "created_at": "2026-11-15T02:21:43Z",
+  "duration_seconds": 10.958,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 257
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_bio/enade_2021_ci_bio_page_257.txt",
+    "source_sha256": "5acddc2e3725e420ac29118a88183271538afcbeccd488ed057e022a234de22b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8de688cfbd9f9e26a7b7b41a8d7b27093b6753c7d6d088c7a8ccfe04eff3ee8a",
+  "request_fingerprint": "65541ba67787e3a6020d36fe1b4dfdb866b4046452e83142a18afdb0dab4386e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.1b, incluindo título, dados e fonte.",
+    "A última frase termina em “Dois” na página-alvo; a continuação na página de contexto não foi incluída."
+  ],
+  "status": "success",
+  "text": "Oeste (39,1%). O conceito 4 foi o segundo mais frequente em nível nacional (31,5%, correspondendo a 82 cursos), e o conceito 2, o terceiro (18,1%, correspondendo a 47 cursos). Houve, ainda, 21 cursos (8,1%) que receberam o conceito 5, seis cursos (2,3%) que receberam o conceito 1, e dois cursos (0,8%) que ficaram Sem Conceito (SC).\n\nA região Norte participou com 11 cursos, o correspondente a 4,2% do total nacional. Desses, seis cursos receberam o conceito 3, o que equivale a 54,5% do total regional. A quatro cursos (36,4%) atribuiu-se o conceito 2, e a um curso (9,1%), o conceito 4. Nenhum curso ficou Sem Conceito (SC) ou recebeu os conceitos 1 e 5.\n\nA região Nordeste participou com 39 cursos, o equivalente a 15,0% do total nacional. Nessa região, 17 cursos (43,6% em termos regionais) obtiveram conceito 3, o conceito modal, como já comentado. O conceito 2 foi atribuído a sete cursos (17,9%), o conceito 4, a 14 cursos (35,9%), e um curso (2,6%) recebeu o conceito 5. Ainda nessa região, nenhum curso ficou Sem Conceito (SC) ou recebeu o conceito 1.\n\nDos 135 cursos participantes da região Sudeste (51,9% do total nacional), o conceito 3 foi o conceito modal, como já anteriormente assinalado, tendo sido obtido por 51 cursos (37,8%). O conceito 1 foi atribuído a três cursos (2,2%), e o conceito 2, a 25 cursos (18,5%). Receberam os conceitos 4 e 5, respectivamente, 40 cursos (29,6%) e 14 cursos (10,4%). Nessa região, dois cursos ficaram Sem Conceito (SC).\n\nOs 52 cursos da região Sul corresponderam a 20,0% do total nacional. Como já indicado, houve predominância do conceito 4, atribuído a 38,5% dos cursos da região (conceito modal), ou seja, atribuído a 20 dos 52 cursos participantes na região Sul. O conceito 1 foi atribuído a um curso (1,9%); o conceito 2, a sete cursos (13,5%); o conceito 3, a 19 cursos (36,5%); e o conceito 5, a cinco cursos (9,6%). Nenhum curso ficou Sem Conceito.\n\nDos 23 cursos participantes na região Centro-Oeste (8,8% do total nacional), nove (39,1%, em termos regionais) receberam o conceito 3, o conceito modal. Dois",
+  "text_sha256": "366093a0cc8eb94d27223627177425283b06bed0425f4b9343e31c3bb2eabb1d",
+  "window_size": 3
+}

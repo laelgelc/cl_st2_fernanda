@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bbdb529a70970fa006af900c7292887d195b061c1bd96b985",
+    "usage": {
+      "input_tokens": 2369,
+      "input_tokens_details": {
+        "cache_write_tokens": 2366,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2366
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 2809
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_42.txt",
+      "source_sha256": "bff0fa57f42a5d1bcf861e518aac62b7404c45ab523e682ccd92f5019b505aa6"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_44.txt",
+      "source_sha256": "81fc633bf6aad015dce2948f273127105ebbc8c424a96c3d687175d9f3cefd13"
+    }
+  ],
+  "created_at": "2026-11-15T00:45:59Z",
+  "duration_seconds": 3.858,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM MARKETING.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_43.txt",
+    "source_sha256": "e0443fd607cb246e1209f64d57e303e530aadb4731a406c5f29c46c46cb9a656"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "38fdf06dabe4e1fdf64b65122085048721f2db6021fd4dd4cf94b867217c69fb",
+  "request_fingerprint": "b94759fd99e95be2cc0ee751f64f892b4831385e7cbae49445887e54793b92dd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 47,8. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (53,8), e os das IES Privadas obtiveram Média mais baixa (47,7), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (4,5), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (6,1), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Faculdades obtiveram Média mais baixa (46,8) que a nacional. As demais médias foram: 48,0 nas Universidades e 48,6 nos Centros Universitários. O Desvio padrão para as IES Públicas (14,7) e para as Universidades (13,9), registrou valores superiores ao do Brasil como um todo (13,8), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes das Faculdades (46,8) em relação aos outros tipos de Organização Acadêmica.",
+  "text_sha256": "96e07c5b541ac0d84f872e4248fcd36a6c2b9f69151f561107f55d9c3eab5b32",
+  "window_size": 3
+}

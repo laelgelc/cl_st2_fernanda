@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_038937c513f08a75006af8f7f0dcc887d1893fa6b0af48f4b3",
+    "usage": {
+      "input_tokens": 2599,
+      "input_tokens_details": {
+        "cache_write_tokens": 2596,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2596
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 3097
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_50.txt",
+      "source_sha256": "218883107c1c1fb62eeb0e79ec480bbcee6997d7e5a9de18cf620710f2b3703d"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_52.txt",
+      "source_sha256": "dab5d6c232b95da633d87f5145264ef4ca2ef38d72ab19c179b95a31dcf505b7"
+    }
+  ],
+  "created_at": "2026-11-15T00:08:16Z",
+  "duration_seconds": 5.514,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_51.txt",
+    "source_sha256": "e6413f745f1495c885d38d0c87428e34512d28f141b97371b366090a731cf689"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8a84d373e51653bc3fe15fc99e3a6f6b9938527fbc8fa450c182061e2c5f6858",
+  "request_fingerprint": "60cfc220bd9fcb041771045466c665f3e7c6943ffd52fddf66a718593ca76125",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada fácil, com relação à facilidade e a que obteve o maior índice de discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% apenas para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "966803d3f2e0ea782419a5edfeee63d27b29a6659b79f2d0f4cc851d8bb03d66",
+  "window_size": 3
+}

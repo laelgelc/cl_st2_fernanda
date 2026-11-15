@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0305b6028c1bff1e006af8f2ee955487d180fcf9088913b166",
+    "usage": {
+      "input_tokens": 2652,
+      "input_tokens_details": {
+        "cache_write_tokens": 2649,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2649
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 649,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 3301
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_38.txt",
+      "source_sha256": "7ec805f8d0277061c85d87267103812b639d74a3ecd10e91e9f2c04ff0827198"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_40.txt",
+      "source_sha256": "d30e408d74cd17a968902c8163daed768254d08d3c66cf111e097168a43979e7"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:54Z",
+  "duration_seconds": 5.527,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_39.txt",
+    "source_sha256": "bd49e5ac79ca82904f3b8e73a4a60416a0fa6542bf9895e25bb007a3392e806b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "12b9ce0c276b340db374a1a8c132d6c6b7b65fe924b151c8dd191d75f2bee69e",
+  "request_fingerprint": "d9fa198808cc76203d585487c438404c24791428a7a50f00fc71f4b368c9365a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "3.1 ESTATÍSTICAS BÁSICAS DA PROVA\n3.1.1 Estatísticas Básicas Gerais\nA Tabela 3.1 apresenta as estatísticas básicas da prova por Grande Região. A população total de inscritos foi de 8.797. Destes, 7.782 estiveram presentes, sendo 11,5% o índice de não comparecimento. A Região de maior abstenção foi a Sudeste (19,3%) e a de menor abstenção foi a Sul (5,9%).\n\nA média das notas da prova como um todo (nas seções seguintes serão analisados os Componentes de Formação Geral e de Conhecimento Específico) foi 53,3, sendo que os alunos da região Norte obtiveram a média mais baixa (47,1) e os da região Sul obtiveram a média mais alta (56,0). As demais médias foram: 51,3 na região Nordeste, 54,0 na região Sudeste e 51,9 na região Centro-Oeste. O desvio padrão para o Brasil como um todo foi 13,0, sendo o maior desvio padrão encontrado na região Sudeste (13,3) e o menor na região Sul (12,2), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (89,7), ao passo que a região que atingiu a menor nota máxima foi a Norte (80,0). A mediana do Brasil como um todo foi 54,0, sendo a maior mediana obtida na região Sul (56,9) e a menor obtida na Norte (47,3). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (50; 60]. O coeficiente de assimetria da distribuição das notas é negativo (-0,39) e não podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam ligeira assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo.",
+  "text_sha256": "2e9aeafa8ea98625dac8bb380cca056c44782bd38426d76d4f9a641398cfa0ef",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b5aca666fb9c05b006af8f529efc887d190409aabb755d14f",
+    "usage": {
+      "input_tokens": 2315,
+      "input_tokens_details": {
+        "cache_write_tokens": 2312,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2312
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 378,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 2693
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_78.txt",
+      "source_sha256": "7a3181af1b8d9a9032b2ba31f534e83dba307c0a6205a4e280077b5cceb9c132"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_80.txt",
+      "source_sha256": "62a9873a1d17ff560b7f2402cb2439f0992a96ea7fe42007c9df20b2670000f4"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:25Z",
+  "duration_seconds": 4.153,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_79.txt",
+    "source_sha256": "1a720f91311005f92ee7f558417c36e7b4312cf4525b0b81ef2230afe4d58f1c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "56a7b7ea57c20c3735ca66fa385efedf8c6699c4bcafb52fd71955b03b1d06bf",
+  "request_fingerprint": "b7f8c3e7ea024ee6c532832ce89cd62937b4a50e07774f2896266e86a6644a16",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico. Essa distribuição é bimodal com a moda principal no intervalo (10; 20]. As questões em branco constituem uma moda secundária. O coeficiente de assimetria é positivo para todo o Brasil (0,52) e para todas as regiões (entre 0,18 para a região Centro-Oeste e 1,10 para a região Sul), indicando uma assimetria à direita.",
+  "text_sha256": "09ebcea5845a2000f3a68356aa0feae2704ae88d2057de031b76712056a2f9db",
+  "window_size": 3
+}

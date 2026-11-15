@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02afaaae190b031c006af91446941887d193cbf8be30f76ec6",
+    "usage": {
+      "input_tokens": 2706,
+      "input_tokens_details": {
+        "cache_write_tokens": 2703,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2703
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 381
+      },
+      "total_tokens": 3296
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_med/enade_2019_med_page_125.txt",
+      "source_sha256": "6d6b679c3d7b0d4bcac0da0fdb1b029ef9388188299669295128d53e0723dcd2"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_med/enade_2019_med_page_127.txt",
+      "source_sha256": "34fd57e57d44aa32cadd3e14bd819c29cc9c6db70a887aa9022384a68a26e920"
+    }
+  ],
+  "created_at": "2026-11-15T02:09:10Z",
+  "duration_seconds": 5.935,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_med/enade_2019_med_page_126.txt",
+    "source_sha256": "bc56488dd9c823f504db07ce60ac47434225b581b61b1ce8e6ce1f9f17b4015b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10ffeab66d5db2f68ee06351039d23a5d8f60ac116855db208adb5b2bf12f58b",
+  "request_fingerprint": "9d762fba1b479d86d94d927f3c3d6c34d753c1a213b83dd0b914cff3abda8210",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo seus dados e a fonte MEC/Inep/Daes – Enade/2019.",
+    "O texto termina em “As Faculdades” na página-alvo; a continuação em página de contexto não foi incluída."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com dez cursos avaliados. Os conceitos 1 e 3 foram concedidos a três cursos cada, os conceitos 2 e 4 foram atribuídos a dois cursos cada. Nenhum curso ficou Sem Conceito (SC) ou recebeu conceito 5.\n\nOs Centros Universitários da região Norte foram representados por quatro cursos, que receberam conceitos 3 (três cursos) e 2 (um curso). Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região. As Faculdades",
+  "text_sha256": "b210552c79ce847ad7420904e447bcb888e8debd102e94bf56a50a81d500c054",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_032fb17f58e019bb006af8f0cf261087d19f68eb23480dfe9c",
+    "usage": {
+      "input_tokens": 2680,
+      "input_tokens_details": {
+        "cache_write_tokens": 2677,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2677
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 990,
+      "output_tokens_details": {
+        "reasoning_tokens": 469
+      },
+      "total_tokens": 3670
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_67.txt",
+      "source_sha256": "49d8b5435e4befcaa746a914b93ba39233ae121f5fd08cd700dbe7dbbadc76ea"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_69.txt",
+      "source_sha256": "cf9463e536ffa6499e51c037a0d4c51d4f9f4fca4d08c4e8eaabdc367a0dd108"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:51Z",
+  "duration_seconds": 8.312,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_68.txt",
+    "source_sha256": "6bd3ccedea7acd2aa11cb3afd8708698adbcf91c6e2e3571186caa2fe78999ce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "03e72faf15c86a01b1debbb1c9ed1a3038deac9a84811b0d4ea3e10ab0b28694",
+  "request_fingerprint": "6bb77f65a1d616b774fbdcc0f7b8fe94187c08da73c7e2a31154a8057d43a0ae",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.11, incluindo título, dados e fonte, removida.",
+    "O texto menciona o Gráfico 3.18; o material gráfico não aparece como texto extraído na página-alvo. A página de contexto seguinte começa com uma linha de fonte, possivelmente associada ao gráfico."
+  ],
+  "status": "success",
+  "text": "3.3.2 Componente de Conhecimento Específico\n\nNa parte da prova relativa às questões discursivas no componente de Conhecimento Específico (Tabela 3.11), observa-se que a média foi mais baixa do que para as questões discursivas do componente de Formação Geral. Enquanto no componente de Formação Geral a média para estudantes de Design de todo o Brasil foi 34,4, na parte de Conhecimento Específico a média foi 32,7. A maior média deste componente foi obtida pelos estudantes da região Norte (38,0), e a menor, pelos da região Nordeste (29,2). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 23,7. O maior desvio padrão foi encontrado na região Centro-Oeste (26,0), e o menor, na região Norte (20,0).\n\nA maior nota máxima, nas questões discursivas do componente de Conhecimento Específico, foi obtida na região Sul (100,0) enquanto a menor nota máxima foi encontrada na região Norte (75,0). Além disso, a mesma nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 35,0, sendo a menor mediana obtida na região Nordeste (30,0) e a maior mediana obtida na região Sul (40,0).\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0;10]. Nota-se que a partir desse intervalo há outra concentração de notas no intervalo (40;50]. O coeficiente de assimetria é negativo e muito próximo de zero (-0,01). Este coeficiente também é negativo nas regiões Norte (-0,23) e Sul (-0,12). Já nas regiões Nordeste (0,18), Sudeste (0,02) e Centro-Oeste (0,15) a assimetria foi à direita, com coeficiente positivo.",
+  "text_sha256": "df45f0844cc8d55aa9f392c5f02b916aa39d62f96da8193c6b82b44636e1cc73",
+  "window_size": 3
+}

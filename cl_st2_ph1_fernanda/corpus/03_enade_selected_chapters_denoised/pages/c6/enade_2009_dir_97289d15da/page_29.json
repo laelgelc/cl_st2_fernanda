@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_058271c10ed25515006af8e5b262a887d197cdddbf2d8bc604",
+    "usage": {
+      "input_tokens": 2473,
+      "input_tokens_details": {
+        "cache_write_tokens": 2470,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2470
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 367,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 2840
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_28.txt",
+      "source_sha256": "a47469feb389c1d233b736bab53e13925ba2ecc670e53f879053a2b5cfe3a1fc"
+    },
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_30.txt",
+      "source_sha256": "1d0422043ba9416ad9c19ee45f0c533d4dcaf1e8b0633a7fac340c285751ff7f"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:26Z",
+  "duration_seconds": 4.083,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_DIREITO.pdf",
+    "page_number": 29
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_29.txt",
+    "source_sha256": "7d1da44b411ec232c98a14068a2a003752ecda39e2b6425f7b29321ecd3eca1a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c735e5dd478f12c2e3cf226bc21c9e11c6109dee049ef1c836d12879763de370",
+  "request_fingerprint": "66d44e5d096c3a4e0b92814ca4772f346c04fbf160caba8ce46542f5d12dc50b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, seus dados e a linha de fonte.",
+    "Removidos o Gráfico 3.1, seus rótulos e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A impressão de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 52,1 entre os concluintes e 43,2 entre os ingressantes. Nas faixas de notas até 50 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. A exceção é o primeiro intervalo de 0 a 10 que inclui uma quantidade quase igual de concluintes e de ingressantes. Constatou-se que aproximadamente 34,6% dos ingressantes e 54,9% dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "bbf2ebedc2d9ab82b946cff078870801951bb8a41bec9471ce5df0eaeeaaa760",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb1b6f11bf9a584006af8ecb4f51887d199e2f5f85349fb6b",
+    "usage": {
+      "input_tokens": 2320,
+      "input_tokens_details": {
+        "cache_write_tokens": 2317,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2317
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 658,
+      "output_tokens_details": {
+        "reasoning_tokens": 317
+      },
+      "total_tokens": 2978
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_70.txt",
+      "source_sha256": "0fa2c3c83f267470c6f21a9a3c0bc15282a45afb6d465732626803a953673b03"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_72.txt",
+      "source_sha256": "d540533acaac4ac5fa9152f159b23c6eddf45a2f769fd3f4df731f540bd1564f"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:20Z",
+  "duration_seconds": 6.568,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_71.txt",
+    "source_sha256": "dba91e30e562a12b04bcfea63a9f52f11f3e800d8500f6973002f1d942319f7d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "193f34df6c483885eb81b02e6887d4a7097222a63587fd550fe25354f179b425",
+  "request_fingerprint": "06586c685cbf45a70674efd1194fe9b5ae87c2c7c65cfc4460101b703af0c701",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte MEC/INEP/DAES - ENADE/2011, que pertence ao Gráfico 3.18, aparentemente continuado nesta página."
+  ],
+  "status": "success",
+  "text": "A análise de cada uma destas questões será feita a seguir.\n\n3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.12, a média dos estudantes de todo o Brasil foi 26,8. A menor média nessa questão foi obtida pelos alunos da região Centro-Oeste (24,5), enquanto a maior média foi obtida na região Sul (28,2). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 23,7. O maior desvio padrão foi obtido nas regiões Norte e Nordeste (24,1), enquanto o menor foi obtido na região Centro-Oeste (22,9).\n\nA nota máxima, 100,0 pontos, foi alcançada por pelo menos um aluno das regiões Sudeste e Sul. A região onde ocorreu a menor nota máxima foi a Centro-Oeste (75,0). A mediana do Brasil como um todo foi 20,0, e foi a mesma nas regiões Norte, Nordeste e Sudeste, enquanto na região Sul foi maior, 25,0, e na região Centro-Oeste foi menor, 15,0. A nota mínima 0,0 foi obtida em todas as regiões do Brasil, sem exceção.",
+  "text_sha256": "25e7073ca802eb0264c1c89cf038a6c4a41474938db8dc25c03cb2b9c29bfd4c",
+  "window_size": 3
+}

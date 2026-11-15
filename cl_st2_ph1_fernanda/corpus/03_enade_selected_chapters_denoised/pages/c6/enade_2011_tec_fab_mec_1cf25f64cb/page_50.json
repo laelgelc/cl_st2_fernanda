@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d80338566abc636006af8ef619eb087d1a8ab24b36c43fff9",
+    "usage": {
+      "input_tokens": 2712,
+      "input_tokens_details": {
+        "cache_write_tokens": 2709,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2709
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3151
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_49.txt",
+      "source_sha256": "b99a75132568a5138386f178f18690dceee69357e36a86ade2ba7ccf95105a93"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_51.txt",
+      "source_sha256": "eb2ccb485f6a9f48136b2a420e5f9fce6cb20d973c527b31b03151b65c1064a2"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:45Z",
+  "duration_seconds": 4.927,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_50.txt",
+    "source_sha256": "306aa0642556d9ea4279fa8307e748de2669e8047a5ecc2978678b171a77d648"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41088490850b01600329bb0f26b33853f80983d86c00d8112bb85ee48be14396",
+  "request_fingerprint": "d92df1a53cd838ee38a39fcfd1c5cb5cecab7ad5dd2f954d47a5857be684c4bc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se de uma das questões fáceis e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelha corresponde à alternativa E, a correta para esta questão.\n\nAssim, observa-se que entre os estudantes menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que a quantidade de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% apenas para os que acertaram todas as questões objetivas de Formação Geral. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "4e27163d6e0e4c37070968c685c44dcd50a83e9fe72c673e6f041db63af5f929",
+  "window_size": 3
+}

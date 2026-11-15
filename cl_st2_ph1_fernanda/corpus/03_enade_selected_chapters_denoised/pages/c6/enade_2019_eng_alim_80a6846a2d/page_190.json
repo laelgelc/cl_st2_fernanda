@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0137662fbbba71ac006af9113cae3487d1876df93f03696fd2",
+    "usage": {
+      "input_tokens": 2768,
+      "input_tokens_details": {
+        "cache_write_tokens": 2765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 805,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 3573
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_189.txt",
+      "source_sha256": "d206e3496626869b2ca49cdf42911af9cad1a8a6314d61d6094e293666de225e"
+    },
+    {
+      "page_number": 191,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_191.txt",
+      "source_sha256": "3b180c8e1409610ad871a87558e135d88d061e18d6e8857dcf3b662b49db9828"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:12Z",
+  "duration_seconds": 6.877,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 190
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_190.txt",
+    "source_sha256": "74c4557363870ccaaa09c532539b657f3c3def78319a6ba697a1a9d3ff5199fe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af1fffb2a03426d44a643dc19cd22ee0143a28216b506d5a69bc7623098fa1cc",
+  "request_fingerprint": "f9f999c9672fa078815a217b321be56d74baf736c77cfb1f150fa7f83c894bd2",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "conter o desenvolvimento dos cálculos. O padrão considerava tanto a resolução por balanço de massa como a resolução por regra de três.\n\nCabe destacar que a solução do item ‘b’ dependia da determinação do resultado correto no item ‘a’, ou seja, se o estudante errasse o primeiro item, tal erro era “carregado” para o item seguinte. Por conta disso, a correção considerou uma pontuação intermediária para o item ‘b’ nos casos em que o erro ocorria devido a tal motivo.\n\nO desempenho pode ser considerado de mediano para bom. Dos 1.672 participantes, 558 obtiveram notas superiores a 71, consideradas boas, e 469 obtiveram notas entre 31 e 70, consideradas medianas. Assim, pouco mais de dois terços dos graduandos tiveram desempenho de mediano a bom, com destaque para o elevado número de notas 100, um total de 498. Isso indica que, de uma forma geral, os graduandos têm conhecimentos bem consolidados no que diz respeito ao equacionamento e aos cálculos envolvendo balanços de massa, fundamental para o exercício profissional do Engenheiro de Alimentos.\n\nPontuaram nota máxima aqueles que apresentaram todo o algoritmo de resolução corretamente em ambos os itens, além de valores finais de cálculos corretos. Alguns optaram por omitir algumas etapas, como o cálculo de massa de água no item ‘b’, porém o valor estava correto. Como já citado, o caminho escolhido pela maioria foi descrever claramente as etapas de balanço contendo todas as etapas do algoritmo matemático e as fórmulas, com inserção de valores e cálculos corretos, tendo inclusive adotado esquemas envolvendo diagrama com as linhas de entrada e saída. Muitos utilizaram uma apresentação bastante didática e clara dos fundamentos e das etapas envolvidas na resolução da Questão. Os que decidiram por esse modelo de resposta sinalizaram, curiosamente, uma capacidade de transmissão de conhecimento muito peculiar, em que se percebe a estratégia de explicar o passo a passo, para além dos cálculos. Os que conseguiram nota em torno de 80 e 90 apresentaram o desenvolvimento correto, mas por algum pequeno erro de cálculo não obtiveram a resposta final correta.\n\nNas 469 notas medianas a grande maioria pontuou integralmente o item ‘a’, mas não resolveu ou errou o item ‘b’. Além disso, erros cometidos no item ‘a’ resultaram em erro também no item ‘b’. Mais precisamente, o raciocínio em ‘b’ geralmente estava correto, mas o erro oriundo do item ‘a’ resultou no cálculo do tempo de evaporação errado. Foram muitos os casos que pontuaram o item ‘a’, mas usaram valor de 1300 ou 1000 kg para cálculo de tempo no item ‘b’, sem qualquer menção ao cálculo da massa de água.\n\nDentre as 440 respostas fracas, muitos não acertaram sequer a descrição e o desenvolvimento do balanço ou a regra de três. Adicionalmente, muitos acertaram apenas o cálculo do valor de massa da geleia em 50% (650kg) e nada além.",
+  "text_sha256": "b6e3b4bc57bc901c4195a76ec30ea468a8d176e1be5790be1741526161cd2d3a",
+  "window_size": 3
+}

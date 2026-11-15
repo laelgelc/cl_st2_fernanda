@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d438db4089988d9006af9097270d487d19338ec65a1ba8660",
+    "usage": {
+      "input_tokens": 2749,
+      "input_tokens_details": {
+        "cache_write_tokens": 2746,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2746
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 293,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 3042
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_131.txt",
+      "source_sha256": "20d0a5d08d9bcbb55e43df0a8fd69153f073545bff97b4ddcd19f9eaa571aea2"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_133.txt",
+      "source_sha256": "767ef7271d6d6d6bfc5fed56fb2c1091fd3aabf426d47d96067049abfda6d0cf"
+    }
+  ],
+  "created_at": "2026-11-15T01:22:58Z",
+  "duration_seconds": 4.19,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_132.txt",
+    "source_sha256": "6de2acec923b14e01dd5371c539524ae8fd4fb4cfee36c0656cfb5e8b8fa9747"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dfd91edc3a1d1baeacf2d208a3b721b9a62ccd402aab8970cfb6dd31a8731a14",
+  "request_fingerprint": "65506057558e468d3ed84910eeeab0b7f05236134d35243bf16b9e831ffe9a39",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.1.",
+    "Removida a fonte do Gráfico 6.1; o histograma não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50], seguido de perto pelo intervalo (30; 40].",
+  "text_sha256": "e2150c79ad471d32c38a0601e0d22280e2825ef8efa61c7e53e0d0afceab1cba",
+  "window_size": 3
+}

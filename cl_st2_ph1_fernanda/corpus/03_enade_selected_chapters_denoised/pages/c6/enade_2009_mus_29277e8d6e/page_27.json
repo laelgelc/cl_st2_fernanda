@@ -1,0 +1,55 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b31849451b3e3fb006af8e620d84887d1a58fb00fc44644bd",
+    "usage": {
+      "input_tokens": 2105,
+      "input_tokens_details": {
+        "cache_write_tokens": 2102,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2102
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 988,
+      "output_tokens_details": {
+        "reasoning_tokens": 423
+      },
+      "total_tokens": 3093
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_28.txt",
+      "source_sha256": "c53826fb42c40a20743ae84a26c11feca51bdf88a4a8cfb39bc3e7a90133c5b7"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:16Z",
+  "duration_seconds": 9.171,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_MÚSICA.pdf",
+    "page_number": 27
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_27.txt",
+    "source_sha256": "280740db0591f3799875f102647c7447ae03a3167d5663994235db05ab5f450a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6985ab740f3856fa617f80024a0e10fdcf2ae2765c3ba92bccd8ae47a2aa5a98",
+  "request_fingerprint": "f1477cad4ab4f4e93ceb0fc2b57c764a6f2bb0947dbe540344ca7a68e26d72d5",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Capítulo 3\nAnálise Técnica da Prova\n\nEste capítulo tem por objetivo apresentar o desempenho dos estudantes de MÚSICA no ENADE/2009. Para isso, foram calculadas as estatísticas básicas da prova como um todo, bem como as estatísticas das questões relacionadas à Formação Geral e ao Componente Específico. Nas Tabelas, são apresentadas as seguintes estatísticas: total da população, de presentes, média, erro-padrão da média, desvio-padrão, mediana, nota máxima, nota mínima e coeficiente de assimetria (ver definição em 1.4.3). Nas estatísticas das questões discursivas, foram detalhadas também as notas nulas: em branco, por protesto ou por insuficiência. As estatísticas apresentadas neste capítulo contemplaram, separadamente, os ingressantes, os concluintes e o total de estudantes, e foram calculadas tendo-se em vista as seguintes agregações: (a) Região Geográfica e País e (b) a Categoria Administrativa e a Organização Acadêmica.\n\nAs notas brutas das questões discursivas em cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir da média simples das notas de cada uma das questões correspondentes. A primeira questão discursiva de Formação Geral foi desconsiderada e, portanto, a nota bruta referente às questões discursivas de Formação Geral foi igual à nota da questão mantida, a segunda. No Componente Específico, a nota bruta correspondeu à média das notas nas três questões.\n\nAs notas brutas das questões objetivas de cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir dos acertos dos estudantes considerando-se uma regra de três para a conversão para a escala de 0 a 100, descontando-se aquelas questões que foram desconsideradas pela comissão ou que não passaram pelo teste do índice de discriminação ponto-bisserial (ver seção 1.4.6 para a descrição do índice). As questões com índices de discriminação inferior a 0,2 foram excluídas do cômputo da nota do estudante. As notas brutas de Formação Geral e do Componente Específico para cada um dos estudantes foram calculadas como médias ponderadas das suas notas nas questões objetivas e discursivas, ponderação diferente para cada parte:\n\nC_FG = C_FG^OBJ × 0,6 + C_FG^DIS × 0,4\nC_CE = C_CE^OBJ × 0,85 + C_CE^DIS × 0,15,",
+  "text_sha256": "331aa17a7c5073df9e5fe0d4002a321e482ddc835af0bc46eee2532de28029c0",
+  "window_size": 3
+}

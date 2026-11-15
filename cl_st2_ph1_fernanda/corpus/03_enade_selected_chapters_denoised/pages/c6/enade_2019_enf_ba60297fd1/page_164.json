@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f05c6406d7d4fbe006af910288cd487d1966a159566282d1e",
+    "usage": {
+      "input_tokens": 3234,
+      "input_tokens_details": {
+        "cache_write_tokens": 3231,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3231
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 422,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 3656
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_163.txt",
+      "source_sha256": "614017adf7a3bbcfb3c02467ee23c517e82bb95e8eb2ce0f6e834b8659415411"
+    },
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_165.txt",
+      "source_sha256": "3832b79546783624ccf77a5f5aa31424afe76ef086d2605e86971142bf290e99"
+    }
+  ],
+  "created_at": "2026-11-15T01:51:36Z",
+  "duration_seconds": 4.562,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENFERMAGEM.pdf",
+    "page_number": 164
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_164.txt",
+    "source_sha256": "6edf7aff84decdd88f46583bd8bbd0e40b690da97bfb1480e21221fcbeb2ccd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "811cb0d0928b1ec89f3780b7e1e629d57f31e032b49c44cbf02e193f001b042e",
+  "request_fingerprint": "dfa8066334325a64381eff28ccbafd08023357f5b76c0e596716f8a23829ff27",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, uma delas foi classificada com Muito bom, a de número 30. Seu índice foi 0,43, e, quanto ao índice de Facilidade, foi classificada como Médio, com 57% dos estudantes marcando a opção correta.\nA questão de número 23 foi a mais difícil entre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 5% de acertos. Essa questão apresentou poder discriminatório muito baixo, -0,03, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 22, com Índice de Facilidade 0,10, o que, em termos percentuais, corresponde a 10% de estudantes que responderam acertadamente. Já 0,12 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 22 e 23, além das questões 9, 17 e 21, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "ba4e17118e0eb079437f260d4fab00dd299030b88bcbc4b1e6e915c381856ee9",
+  "window_size": 3
+}

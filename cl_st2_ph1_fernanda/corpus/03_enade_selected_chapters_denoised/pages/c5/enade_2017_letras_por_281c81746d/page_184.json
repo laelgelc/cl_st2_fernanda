@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e7d90981dfb14c9006af90a640b8c87d1a014c88046f92994",
+    "usage": {
+      "input_tokens": 2824,
+      "input_tokens_details": {
+        "cache_write_tokens": 2821,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2821
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 277,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3101
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 183,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por/enade_2017_letras_por_page_183.txt",
+      "source_sha256": "ac4276e0683cb7e628b3df60085a2cc0a45f934a17213d64695fb8b58381a36d"
+    },
+    {
+      "page_number": 185,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por/enade_2017_letras_por_page_185.txt",
+      "source_sha256": "17cb2efc984ba69b09ae0801f45058fdd9bcf480ba2c60ab2df15928f63028bb"
+    }
+  ],
+  "created_at": "2026-11-15T01:26:59Z",
+  "duration_seconds": 3.929,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_PORTUGUÊS.pdf",
+    "page_number": 184
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por/enade_2017_letras_por_page_184.txt",
+    "source_sha256": "73e5cbe6be58f9916525c102f1d1b93a25adffb8f0e8e3c2d6ed9b7f749bae33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7a3233475064b2a5cbccbcd323b1db62aa3e194f9faad585614286e3dee68ed",
+  "request_fingerprint": "6914d5b5b7fd9bea63d87dd6396c3dc68571ee6b4701890b840b6ba568074611",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3a, incluindo seus dados e a linha de fonte.",
+    "A página termina com “Nenhum”; a frase continua na página seguinte, mas não foi completada."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com 30 (78,9%) dos 38 cursos participantes. Desses, 11 cursos (36,7%) receberam conceito 2, conceito modal. Os demais cursos receberam os conceitos 1 (cinco cursos, 16,7%), 3 (dez cursos, 33,3%) e 4 (quatro cursos, 13,3%). Nenhum",
+  "text_sha256": "1201d5dba63880c2d124b7ee8e3a0906cba919e85151c690edbcfca0f53ca699",
+  "window_size": 3
+}

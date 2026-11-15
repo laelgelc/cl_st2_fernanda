@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_064e44fddd8bb8a7006af8f374c57c87d18732661b88c36ded",
+    "usage": {
+      "input_tokens": 2210,
+      "input_tokens_details": {
+        "cache_write_tokens": 2207,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2207
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 2673
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_43.txt",
+      "source_sha256": "26698bcf78a1cc5d114643de89d11350db93d284a9bf985a387a4d72c5cf137e"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_45.txt",
+      "source_sha256": "c26d3c95eff634f93659f66a16ea32ad650d58f6928bb156d23259ab5707f535"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:08Z",
+  "duration_seconds": 4.627,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_44.txt",
+    "source_sha256": "3e3bec03043d0c926a92fb856f62ab76dc66e61d47a699d3d002b9b9667fef81"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0206a2e7b6c73b59fb8993f8f6d64e3374620dc14271256cee2b15e25f8f6671",
+  "request_fingerprint": "6a9805bcd2433c0c2a19f97c611a689853b108c69384b35cf85df7907cd236e9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Sul (45,7). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (50; 60]. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 13,9 para a nota da prova como um todo e 14,7 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,16). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,20 para o Sul e -0,08 para o Norte).",
+  "text_sha256": "368bb73fa39197dd4dd2d8166400901f3082f5138104c512f05fb1e7b4d28423",
+  "window_size": 3
+}

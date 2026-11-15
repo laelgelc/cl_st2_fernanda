@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0135ab8892480ff5006af90832f53c87d194b4f21df5b4e496",
+    "usage": {
+      "input_tokens": 2988,
+      "input_tokens_details": {
+        "cache_write_tokens": 2985,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2985
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 515,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 3503
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 212,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_212.txt",
+      "source_sha256": "cead8c8fd3ce0f08c52b3c62e0e83972ab20853445b8ccfb1f6cfcae98334dd7"
+    },
+    {
+      "page_number": 214,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_214.txt",
+      "source_sha256": "5166f1fd9184197c29ec449385f02846e1ba7a5de1c26cfd6db17a7b3c19f747"
+    }
+  ],
+  "created_at": "2026-11-15T01:17:38Z",
+  "duration_seconds": 5.698,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FÍSICA.pdf",
+    "page_number": 213
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_213.txt",
+    "source_sha256": "a4c63bf755463d076ac5a2e328d2839837e8dbc5b578c4a50021079b16c334c9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e4926e37ba5e893402988f398f3523d489ad21fd47a3d5d8df6821c10b0e2792",
+  "request_fingerprint": "cde8909e24813f6887c2e7d6beec01df44360167a402bdff261967fd9472e137",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7b, incluindo título, dados e fonte.",
+    "Removida a Tabela 6.8b, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.8b, são apresentados o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. A convenção das cores é a mesma da Tabela 6.8a.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, uma teve o Índice de Facilidade classificado como Muito fácil, e três questões foram tidas como Fácil. Três questões foram classificadas na categoria Médio, enquanto uma delas foi classificada como Difícil, situando-se no intervalo entre 0,16 e 0,40. Nenhuma das questões apresentou menos de 15% de acertos, e, portanto, não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,37 a 0,87, e o de Discriminação, de 0,35 a 0,60.",
+  "text_sha256": "dbe9ce45f2ae557f6a0d00f24f998d13a1941db895b0cafadc2e0470fc9cb0ba",
+  "window_size": 3
+}

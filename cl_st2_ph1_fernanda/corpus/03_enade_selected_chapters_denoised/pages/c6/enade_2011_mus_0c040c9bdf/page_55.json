@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b71868ffc784365006af8ee46d45087d1b0a0b1d880199447",
+    "usage": {
+      "input_tokens": 2633,
+      "input_tokens_details": {
+        "cache_write_tokens": 2630,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2630
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 3131
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_54.txt",
+      "source_sha256": "8ab83d65ec39f94d115ac48341836c851e0faeca7c3c0811b045935b50493adc"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_56.txt",
+      "source_sha256": "132ac22481f07423a4500714db81ec9d306f4e8af3b8f7a0c84584360840bcde"
+    }
+  ],
+  "created_at": "2026-11-14T23:27:02Z",
+  "duration_seconds": 5.095,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MÚSICA.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_55.txt",
+    "source_sha256": "04be5068d8fd13773f55f959984a5cde2c51c04cbc30dab68c90dca8a0083e93"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "45b2e320ed44bc5fe3047ce964cac1019c5980b52c3030bc77708a522d7533ac",
+  "request_fingerprint": "99489bf1fb5296817b8ef1618e413ee7b8d4a6338cf5c5f20d9e23fa4fcce90e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 24, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com menor número de acertos. Aqueles com nenhum acerto, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta B aumenta gradativamente, chegando a atingir 100% para o número de acertos acima de 24, enquanto a proporção dos que escolheram alternativas incorretas (principalmente as alternativas D em roxo e C em preto) decai, a partir da primeira nota não nula, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do Componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "fb1fc8a205a191cd7b2891a087851ee4943a6dd1e3cb09e76f5a59709a14de27",
+  "window_size": 3
+}

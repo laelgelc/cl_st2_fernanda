@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04f6f6836e43a05a006af9122019cc87d19130bb785d1ad36d",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 2713,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2713
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 566,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 3282
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_142.txt",
+      "source_sha256": "28dc39c9d7b1715d01dff4a8c1dec62d029e2ee5d6d55a09475177ebc7d0548d"
+    },
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_144.txt",
+      "source_sha256": "2d0b4ef7e95cde5c9854c0f2e362b2be39c363aba7de44dfc7fe46a646071f50"
+    }
+  ],
+  "created_at": "2026-11-15T02:00:00Z",
+  "duration_seconds": 5.092,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 143
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_143.txt",
+    "source_sha256": "81ea64cf3225a15bfae4e51c70b729d1bd1376064274b28e9be1cfebb03efa90"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "548b5fa3deb20a17113f3b1efa65df692f55b718d664ca8642a596ea80d214cd",
+  "request_fingerprint": "4aafcbcc2cd316012739838b2c4c254c4029a88fef9ebabfc7bf32d9c0e798e8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/Inep/Daes – Enade/2019), identificada como pertencente ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

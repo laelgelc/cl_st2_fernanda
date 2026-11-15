@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9ad8e4068bcaf8006af90af4b2b487d1b2e97f7b5d9e97d1",
+    "usage": {
+      "input_tokens": 3458,
+      "input_tokens_details": {
+        "cache_write_tokens": 3455,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3455
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 796,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 4254
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_124.txt",
+      "source_sha256": "49dcad877b54d536760202c2631b0b24a7a47fa7761f651721097c38cdcb5454"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_126.txt",
+      "source_sha256": "b50ab5662a68d30f505b409d67ca8859832b01112a2bcf77819d0e30225eb59a"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:24Z",
+  "duration_seconds": 5.997,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_125.txt",
+    "source_sha256": "b1bbf727e8f5a84b83a11764e2c8298c804b2b4f88677eba420bc442b19fc10a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "87b3b9a1f14d1874a8f562228b3e835ea3d94b1b4445f857b14321490b5e1e7a",
+  "request_fingerprint": "71a8065438d98bb6673c2f0075c30dfbddbc5d0d1821d75b58ed502f0dbdb0a9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "6.2.1 Componente de Formação Geral\n\nNa Tabela 6.7, são apresentadas as Estatísticas Básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A Média do Brasil foi 50,1. A menor Média foi encontrada na região Centro-Oeste (47,2), e a maior, na região Sul (52,7). As demais médias foram: 47,8 na região Norte, 50,5 na região Nordeste e 50,0 na Sudeste. O Desvio padrão do Brasil foi 20,6, sendo o maior Desvio padrão encontrado na região Nordeste (21,1), e o menor, na região Centro-Oeste (20,2). Os demais desvios foram: 20,3 na região Norte e 20,5 nas regiões Sudeste e Sul.\n\nA mediana do Brasil, como um todo, e a de todas as cinco regiões foi 50,0. As notas máxima, 100,0, e mínima, zero, foram iguais para todas as regiões.\n\nNa Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.",
+  "text_sha256": "817be4796fb9f95239abb06953ccc3c0d74df0b93a4fd63d803e106fd6110e27",
+  "window_size": 3
+}

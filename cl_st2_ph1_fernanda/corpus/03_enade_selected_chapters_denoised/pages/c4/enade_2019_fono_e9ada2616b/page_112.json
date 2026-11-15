@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c8d05740922f568006af913797ce487d1883970f55850798a",
+    "usage": {
+      "input_tokens": 1887,
+      "input_tokens_details": {
+        "cache_write_tokens": 1884,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1884
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 300,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 2187
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fono/enade_2019_fono_page_111.txt",
+      "source_sha256": "0d85df68171e38d740312f5293064f7ce9d496336947ac11fa4b3001126c2221"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fono/enade_2019_fono_page_113.txt",
+      "source_sha256": "1c8c7ee689501edde973c877dc353d22847add6de47682efc5f3870e1b53b017"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:45Z",
+  "duration_seconds": 3.491,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fono/enade_2019_fono_page_112.txt",
+    "source_sha256": "5a7932114e9b3ca4c332c6819c219d595c5102fc781577535e0b3a8d0e071178"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e064db9c659df9ba5031c8d54e6cf2cf63cda9534729b53f98c27b3f08394d3",
+  "request_fingerprint": "ba0cda1d6b6b35be6e588932ed9636ce17f32dfe49d168111ea775ddd99ae04e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.29, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 75,0% na região Norte a 90,1% nas regiões Sudeste e Centro-Oeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 2,8% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,5% os do quarto superior com a mesma resposta. A diferença observada no quarto inferior em relação ao quarto superior de desempenho é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 93,6% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 77,2% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "d46028989f5e6213a2b46a041a7b81936d011b9222d0f671a59fb6f474d42a44",
+  "window_size": 3
+}

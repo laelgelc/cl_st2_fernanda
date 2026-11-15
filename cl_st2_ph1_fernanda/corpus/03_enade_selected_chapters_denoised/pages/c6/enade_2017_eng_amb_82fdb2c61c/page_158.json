@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a4a52b3123c315e006af905d29d7087d19db1e08beeb1d201",
+    "usage": {
+      "input_tokens": 2597,
+      "input_tokens_details": {
+        "cache_write_tokens": 2594,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2594
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 2948
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_157.txt",
+      "source_sha256": "bfddac3ef9fd6c2a5b7c6d63f9c8ac6e795bee32d4d7f70c47fed84f656e8b01"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_159.txt",
+      "source_sha256": "a5d8ecd9c471a31592f0446c6191fae5f05925d34a7decbb2f50ef90c27ead40"
+    }
+  ],
+  "created_at": "2026-11-15T01:07:30Z",
+  "duration_seconds": 4.472,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_158.txt",
+    "source_sha256": "e80f2655361217e6f8f8d8ad60653fc0ecb2e830d91bae8ac0df57d8cdfeae3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "07da328b62cb9138a120a06a957a908bbabede279df8ee1febbc3f906051403e",
+  "request_fingerprint": "021253d8082aedba837d38acf1b667960d266080359ff19e409f81e03e91a250",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.19, incluindo título, dados e fonte.",
+    "Removidos o material gráfico do Gráfico 6.12 e sua linha de fonte; o parágrafo descritivo foi preservado como prosa."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes (quase 25% dos participantes) que tendo respondido à questão, obtiveram nota zero, seguido daqueles que deixaram a questão em branco (mais de 15% dos estudantes). Os intervalos (40; 50] e (20; 30] caracterizam-se como máximos locais.",
+  "text_sha256": "2a08b620419b7a54fa9937ce177e0da0cba2a50f370db661c0adb35635a96541",
+  "window_size": 3
+}

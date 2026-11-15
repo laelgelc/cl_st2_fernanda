@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0866a6894d5449b4006af8f53221ec87d1b274de65ef68e0cf",
+    "usage": {
+      "input_tokens": 1585,
+      "input_tokens_details": {
+        "cache_write_tokens": 1582,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1582
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 375
+      },
+      "total_tokens": 2119
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_94.txt",
+      "source_sha256": "4fe29779d43a3cd65ffe2e9b99193367bd2ddf38e0fb782a88d2d4cbd0c97102"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_96.txt",
+      "source_sha256": "07ed72064b25cc70533ea9370f1c632782d516271b864c41e7951294f99d7ffa"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:34Z",
+  "duration_seconds": 5.452,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_95.txt",
+    "source_sha256": "992b00ff895bd59162c19585cad5022981f784b75280137a4d969adae3a062b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e095340130b666246c44feee7be54508f80fba7ae79c8278a5a147572483ee53",
+  "request_fingerprint": "dd031cf362be89e074fce68dcfc051cbb94eac59a400af15b362720ec40ba883",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o identificador de página e a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, associada a material gráfico; revisar se havia conteúdo gráfico adicional não capturado no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (72,4%) se comparada ao quarto inferior de desempenho (58,8%). As diferenças dos resultados entre o 1º e 2º quarto, e, 2º e 3º quarto de desempenho não são estatisticamente significativas, as demais são significativas.",
+  "text_sha256": "1b9333ab8035015aa09c18a9a00bcbb6cad512e5eafacae665391cda683df143",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07f632987d20c5fb006af9160aaa8487d1a3fdca463d38f889",
+    "usage": {
+      "input_tokens": 2391,
+      "input_tokens_details": {
+        "cache_write_tokens": 2388,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2388
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 3037
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_139.txt",
+      "source_sha256": "6956368717f94e1cb6b39c0080a4d58d1505aea51170e737e4305008a8842dc0"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_141.txt",
+      "source_sha256": "7b0496249664e1283d6085248356a692960b77ae8a2e82cc37a2f525d61744f1"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:42Z",
+  "duration_seconds": 7.049,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_140.txt",
+    "source_sha256": "50a320f6727a45e0a0078c938e33397ea1ba98fb3545350f04f680e5ea5cc96e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e2e3e62207a7a3d1d4c6f6e01b89ebdafa7a11eed0986c70451248442b6fc16",
+  "request_fingerprint": "a1731b16493b6f82dca254f9e408b89094cbce0e954c2ceacf2857dfec2548b3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 5.2; o gráfico não aparece no texto extraído.",
+    "O último trecho termina em “(dois” na página-alvo; a continuação está na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.2, apresenta-se a distribuição do Conceito Enade, segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceitos Enade com valores maiores.\n\n5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\n\nNa Tabela 5.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2019, na Área de Tecnologia em Radiologia, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 122 cursos de Tecnologia em Radiologia participantes, 42 eram oferecidos em Universidades, 38 em Centros Universitários, 38 em Faculdades e quatro em CEFET/IF. Esta distribuição corresponde a, respectivamente, 34,4%, 31,1%, 31,1% e 3,3% dos cursos.\n\nDe acordo com os dados apresentados, de todos os sete cursos avaliados com conceito 5, cinco eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 17 cursos (40,5%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (dois",
+  "text_sha256": "6534945705517749d59083f4fbd3ee20423f86142a1b8df5faff80fad8a58176",
+  "window_size": 3
+}

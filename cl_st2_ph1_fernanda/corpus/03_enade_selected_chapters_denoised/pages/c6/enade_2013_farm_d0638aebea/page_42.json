@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f92ec68051ecf0c006af8f3a10bd887d1a725c4e7dfb20521",
+    "usage": {
+      "input_tokens": 1543,
+      "input_tokens_details": {
+        "cache_write_tokens": 1540,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1540
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 239,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1782
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_41.txt",
+      "source_sha256": "e18416eb366e116f43ac4bd6087b6ce1064efb650782e0d477456d3a50015607"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_43.txt",
+      "source_sha256": "9ba92c37b8e35a9e0cf9f49602b102095ecb6aa857d69e6a147cbc635ec1cf5f"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:52Z",
+  "duration_seconds": 3.102,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_42.txt",
+    "source_sha256": "effb2e19ca4973b8b865ddf6fee40c24c7825b7c14c54f49f7998bc5958bbe2a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b03727087c79f1d09b09d79da57adb798a8cf1052313ce84aeacc8ee96ccc61e",
+  "request_fingerprint": "9fb1e2cbb6a213147e29b2458029f665b11e19ff82682d0df5aac791e35d5704",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 3.3 e sua linha de fonte: “Fonte: MEC/INEP/DAES - ENADE/2013”."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (48,2) é maior que a dos alunos de IES Privadas (39,7). A diferença entre as médias das regiões Norte e Sul (7,2), a maior e a menor média, é inferior a diferença entre IES Públicas e Privadas (8,5).",
+  "text_sha256": "8523434147f67ba677d03d2267b9b020ad9ffc3938b55d9ef82d40e48510e44d",
+  "window_size": 3
+}

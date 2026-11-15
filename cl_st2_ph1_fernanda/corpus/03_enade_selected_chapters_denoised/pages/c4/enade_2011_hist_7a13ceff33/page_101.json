@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc46da0fb976c64006af8eda766e487d19d6f56db61b0952e",
+    "usage": {
+      "input_tokens": 1660,
+      "input_tokens_details": {
+        "cache_write_tokens": 1657,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1657
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 688,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2348
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_100.txt",
+      "source_sha256": "6837c250b889a42896fe1c01dc1fa127a8d70efcd5f825b00d1654c079ac4399"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_102.txt",
+      "source_sha256": "fa07a44715cbeaf296081591f2fb95942b08abe0d36bbc6f4be330d254fe703c"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:23Z",
+  "duration_seconds": 9.031,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_101.txt",
+    "source_sha256": "060be3229a0619c18a17a58a83674919cebe556ec87995e07873d39c0d2fe114"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b19350ddda068834003b04c4ff11edb4afe044a927396d268a763ff1159954a6",
+  "request_fingerprint": "5545f8369254d57b74d9d379dca59381df788dd2a54d4772ad9660edad705f18",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/INEP/DAES - ENADE/2011”, por aparentar ser a linha de fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 18,1% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo menos de 6,5% os do quarto superior com a mesma resposta, com um tend6encia decrescente com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa.\n\nTendo em conta o quarto superior, 70,9% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos.",
+  "text_sha256": "15cb574380451194fbc86cbf6d776a5ed4f038a57b55121b9356d732e9358e59",
+  "window_size": 3
+}

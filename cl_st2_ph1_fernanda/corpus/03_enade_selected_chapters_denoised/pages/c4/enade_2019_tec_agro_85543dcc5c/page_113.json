@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ae98c084e323806006af91500eeb487d199e6d048291f8881",
+    "usage": {
+      "input_tokens": 1641,
+      "input_tokens_details": {
+        "cache_write_tokens": 1638,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1638
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 170,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1811
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_112.txt",
+      "source_sha256": "50fd51e0c2f641156f528e4750e76f0efffd7d3a683d4d85bbcfa5d0a885b12e"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_114.txt",
+      "source_sha256": "6bdf1503cb11c13058d23e9a0c4e8efbbf201d3df54d43a603b92496832e4fca"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:16Z",
+  "duration_seconds": 2.123,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_113.txt",
+    "source_sha256": "fafe33e5c7983e7299b922be99f129d2a324aa0fe03ce40e58591840c6b286d6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "80a95fcbde452467a1dd0c5eaabc2de55015098adda8e09dd65d39b65d3589b8",
+  "request_fingerprint": "6b3b49e599d24f633551f4e3877d5c0ac0e0d5164fabb25369be5dcc4287e3a3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material do Gráfico 4.17, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (88,3%), se comparada ao quarto inferior de desempenho (77,3%). Não existem diferenças estatisticamente significativas entre os quartos de desempenho.",
+  "text_sha256": "c14ca1cb24a141ac239d12d71ac98a2729a64c83cc1b92695cdb1ba9f5b2a239",
+  "window_size": 3
+}

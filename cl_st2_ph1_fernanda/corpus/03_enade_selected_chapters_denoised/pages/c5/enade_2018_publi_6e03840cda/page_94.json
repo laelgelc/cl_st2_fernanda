@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06e40d068351dfc4006af90d38837087d18353ba02e86310a3",
+    "usage": {
+      "input_tokens": 2766,
+      "input_tokens_details": {
+        "cache_write_tokens": 2763,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2763
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1079,
+      "output_tokens_details": {
+        "reasoning_tokens": 255
+      },
+      "total_tokens": 3845
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_publi/enade_2018_publi_page_93.txt",
+      "source_sha256": "7eeda6512f635e8c91f0d26848aa2bcfc9223f6910c42f92c95e5a97d5dfbb0f"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_publi/enade_2018_publi_page_95.txt",
+      "source_sha256": "150ee96b83e6df162e07eee894e84702a31bf01e21e71e9234c1d33299869169"
+    }
+  ],
+  "created_at": "2026-11-15T01:39:04Z",
+  "duration_seconds": 6.826,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2018_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_publi/enade_2018_publi_page_94.txt",
+    "source_sha256": "6874eaad196b517e9973221f64000572708d5a7ef080dc89c5160138a7685941"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "214dc047ca99405a7cb3597aea0d14249728e8994691617c13b7ce08be7fd921",
+  "request_fingerprint": "facf0c1d10f6dcbd99fd0036a418825feb32aea7e37cfcf75abdc2883db7a828",
+  "retry_count": 0,
+  "review_notes": [
+    "A página começa com a continuação “(SC), e nenhum recebeu o conceito 1.”; o texto anterior não foi completado, conforme a regra de não juntar texto entre páginas.",
+    "O trecho da última frase foi preservado apenas até onde aparece na página-alvo: “aos quais foram atribuídos os conceitos 2 (um”.",
+    "Removidos materiais do Gráfico 5.2 e sua linha de fonte (“Fonte: MEC/Inep/Daes - Enade/2018”)."
+  ],
+  "status": "success",
+  "text": "(SC), e nenhum recebeu o conceito 1. O conceito modal para as Instituições Privadas na região foi 3, atribuído a cinco cursos, correspondendo a 38,5% dessa categoria na região. Quatro cursos (30,9%) foram avaliados com conceito 2, e um curso (7,7%), com conceito 5. A três cursos (23,1%) foi atribuído conceito 4. As Instituições Públicas participaram com um curso na região Norte (7,1% do total regional), ao qual foi atribuído o conceito 5. Nenhum curso ficou Sem Conceito (SC) ou com os conceitos 1, 2, 3 ou 4 nessa combinação de categoria e região.\n\nTodos os cursos oferecidos na região Norte eram presenciais.\n\nNa região Nordeste, a rede privada concentrou 44 dos 51 cursos participantes, o equivalente a 86,3% do total da região. Entre os cursos oferecidos por IES Privadas no Nordeste, 18 cursos foram avaliados com conceito 2, o conceito modal. Dezesseis cursos obtiveram conceito 3, cinco cursos receberam conceito 4, e um curso ficou com conceito 1. Nessa combinação de categoria e região, quatro cursos ficaram Sem Conceito (SC), e nenhum recebeu conceito 5. As Instituições Públicas da região Nordeste participaram com sete cursos (13,7% do total da região). Desses, quatro obtiveram conceito 5, o valor modal, seguidos por outros dois cursos, que receberam conceito 3. A um curso foi atribuído conceito 4. Nenhum curso ficou Sem Conceito (SC) ou com os demais conceitos nessa região.\n\nTodos os cursos oferecidos na região Nordeste eram presenciais, exceto um, o qual ficou Sem Conceito (SC).\n\nNa região Sudeste, a proporção de cursos da rede privada, 93,4%, foi mais elevada do que a registrada nas demais regiões brasileiras, correspondendo a 183 dos 196 cursos participantes. Nessa categoria e região, o conceito modal foi 3, atribuído a 88 cursos, e quatro cursos ficaram Sem Conceito (SC). Os demais foram avaliados com conceito 1 (sete cursos), conceito 2 (40 cursos), conceito 4 (37 cursos) e conceito 5 (sete cursos). Dos 13 cursos oferecidos por Instituições Públicas na região Sudeste, o conceito modal foi 3, atribuído a seis cursos. Nessa região, dois cursos receberam conceito 2, quatro cursos receberam conceito 5, e um curso recebeu conceito 4. Nenhum curso ficou com conceito 1 ou Sem Conceito (SC).\n\nTodos os cursos oferecidos na região Sudeste eram presenciais.\n\nAs Instituições Privadas concentraram 60 dos 67 cursos participantes da região Sul, 89,6% do total regional. Desses, 22 cursos obtiveram conceito 4, o conceito modal. Nessa combinação de Categoria Administrativa e Grande Região, oito cursos receberam conceito 2, outros 20, conceito 3, e ainda outros sete, conceito 5. Dois cursos receberam conceito 1, e um curso ficou Sem Conceito (SC). As Instituições Públicas na região Sul participaram com sete cursos (10,4% dos cursos da região), aos quais foram atribuídos os conceitos 2 (um",
+  "text_sha256": "398ef34ce5710029a9f934dccfa062f716c4bb4b00415eaa09139cffaada7772",
+  "window_size": 3
+}

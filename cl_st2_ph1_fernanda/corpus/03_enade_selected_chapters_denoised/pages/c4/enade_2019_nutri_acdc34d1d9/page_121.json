@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2391504be30eb8006af91484e58087d1af82512854b70738",
+    "usage": {
+      "input_tokens": 1994,
+      "input_tokens_details": {
+        "cache_write_tokens": 1991,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1991
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 345,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 2339
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_120.txt",
+      "source_sha256": "75dcb91f9e65cfd34c8f8e65a82ad5c29aa835eae6f8ea7544166ead7134f779"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_122.txt",
+      "source_sha256": "b4a2b6274966d974e041397faacf2458abc0764d341d9df20d8f1c21ab0eec5f"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:12Z",
+  "duration_seconds": 3.28,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_121.txt",
+    "source_sha256": "8cb09871e4d8672fc22a9e6fe33814d6c29a3000329fccc396ab22b024e91c15"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b51b82a49d71c61e1b9dcb9267c751dce471eef65c6324dfb14d51063e203d9f",
+  "request_fingerprint": "4bdf41c018d68690630a32b7a72777b6ec867f92856008cb2077756df5be12f4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.25, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "A Forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 44,4% (região Nordeste) a 47,8% (região Centro-Oeste). O percentual de alunos que citaram a Falta de motivação como dificuldade variou de 8,5% (região Sudeste) a 10,3% (região Norte). Os que declararam não ter qualquer tipo de dificuldade para responder à prova variaram de 21,5%, na região Norte a 26,4%, na região Nordeste.\n\nEm relação aos quartos de desempenho, o Desconhecimento do conteúdo foi a opção escolhida por 15,3% dos estudantes do quarto inferior e por 16,7% do quarto superior, caracterizando uma tendência crescente. Não são observadas diferenças estatisticamente significativas entre os quartos de desempenho. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, para a dificuldade encontrada, foi causada pela Forma diferente de abordagem do conteúdo: 48,5%, no quarto inferior e 43,0%, do último quarto, escolheram essa alternativa.",
+  "text_sha256": "3c1aaf0c90dd0fb2306987fc88eb6bc179eec62f56935bd683683645eeb2187a",
+  "window_size": 3
+}

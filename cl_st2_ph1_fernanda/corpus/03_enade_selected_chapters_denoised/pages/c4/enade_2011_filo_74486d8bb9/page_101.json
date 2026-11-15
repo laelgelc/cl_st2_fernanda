@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07eb1649209d86b3006af8ed1fa60087d1a3404689b4a74db0",
+    "usage": {
+      "input_tokens": 1152,
+      "input_tokens_details": {
+        "cache_write_tokens": 1149,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1149
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 211,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 1363
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_100.txt",
+      "source_sha256": "eb55d91b590ca75c99f171c0a6eee28edc3b608e00ea5698b96029e713d0c9d8"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:07Z",
+  "duration_seconds": 3.683,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_101.txt",
+    "source_sha256": "eeba757223f92d11eab6af72fed5c2a763277f3fefca9d222811940b80455da0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9b4a515e9a3f836e1dd87f1fe5dad224f4a9407b004780e6eab1940752ba2250",
+  "request_fingerprint": "c8de44da09ec18c478db74410a58732676854d79945fc35a3d37df1dd5b82866",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line, which appears to belong to graph or table material; no graph or table content was captured in the supplied page text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

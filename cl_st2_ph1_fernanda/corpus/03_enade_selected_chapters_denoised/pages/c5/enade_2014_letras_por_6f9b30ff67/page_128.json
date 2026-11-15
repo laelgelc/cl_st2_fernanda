@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c88544ad01ae29006af8fb7d88f887d18c64cce6f023204e",
+    "usage": {
+      "input_tokens": 2278,
+      "input_tokens_details": {
+        "cache_write_tokens": 2275,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2275
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 614,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 2892
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_127.txt",
+      "source_sha256": "cec46af3773878f674b5e7b60db6c5ceecfe72558e57044e97743355d4e71e05"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_129.txt",
+      "source_sha256": "0d259e063eaed6edf0baa5997d0a44cc5c83639cb5a9ee88c8107e425b97392b"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:25Z",
+  "duration_seconds": 5.816,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_128.txt",
+    "source_sha256": "ac090dcf394473934b398c89ff9413a1b0ae4fe6ac12d473d2b8ad6e4e1ee47d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e299eb333931c126d2f05a096eafc391c684620cfc75444ac3bca45a86daf88",
+  "request_fingerprint": "e3ce040ffaecd530adc0533369a94b35d6f039b933cf90070814d3eb73b365dc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao Gráfico 5.3 anunciado na página de contexto."
+  ],
+  "status": "success",
+  "text": "A Tabela 5.4 apresenta a distribuição dos cursos participantes do ENADE/2014 de Letras - Português (Licenciatura), por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 279 cursos participantes, 170 (60,9%) eram ministrados em Instituições Públicas e 109 (39,1%), em Privadas.\n\nDe acordo com as informações da Tabela 5.4, em termos nacionais, entre Instituições Públicas e Privadas: das 15 IES que receberam o conceito 5, dez eram Públicas e cinco Privadas. Dos 170 cursos participantes de IES Públicas, os conceitos 2 e 3 foram os valores modais, atribuídos a 51 cursos cada (30,0%, cada). Entre os demais cursos de Instituições Públicas participantes, somente dois cursos não obtiveram conceito (SC), 21 cursos receberam conceito 1 (12,4%), 35 foram avaliados com conceito 4 (20,6%) e, como já comentado, dez foram alocados ao conceito 5 (5,9%). Na rede privada, o conceito modal foi 2, com 33 cursos dos 109 da categoria. Entre os cursos participantes, dez receberam conceito 1 e 26, conceito 3. O conceito 4",
+  "text_sha256": "c33db6b01af9a44cbba1cd80dd70c9900260bdb228b0a6f7b0935af1d2b27482",
+  "window_size": 3
+}

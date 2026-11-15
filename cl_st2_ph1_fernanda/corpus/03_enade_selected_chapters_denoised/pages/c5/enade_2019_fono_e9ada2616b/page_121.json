@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_043c36d1db4bf965006af9137dd6bc87d1b124cd42487b9c9e",
+    "usage": {
+      "input_tokens": 3136,
+      "input_tokens_details": {
+        "cache_write_tokens": 3133,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3133
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1321,
+      "output_tokens_details": {
+        "reasoning_tokens": 476
+      },
+      "total_tokens": 4457
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_120.txt",
+      "source_sha256": "e6d3cf4f9a666218367bd452b6c47ad90b92caad6be73a633dd9a341e6ebaec4"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_122.txt",
+      "source_sha256": "a01b9bfd0641e6d72d3c3d97dfcdb3de200d35e204f2643b6b3dab7a3484a687"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:49Z",
+  "duration_seconds": 12.776,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_121.txt",
+    "source_sha256": "79a9464b49341598bd8f0892845a8a6ba56957ccea4c127f9fe5b49945c8b40e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6b370ecb40805254f012acd70ba2409c91c511b14976f8148d4b47dd79261b3c",
+  "request_fingerprint": "f625358f01eb0aa3a757e34c79beb896572bbcc94a7cb6a6888ee309346d8979",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 5.1 é descrito em prosa, que foi preservada; o gráfico visual não aparece no texto extraído. A página de contexto seguinte começa com uma linha de fonte, possivelmente associada ao gráfico; ela não foi incluída."
+  ],
+  "status": "success",
+  "text": "A região Nordeste participou com 19 cursos ou 26,0% do total nacional. Nessa região, sete cursos (36,8% em termos regionais) receberam conceito 2, o conceito modal para a região, como já comentado. Os conceitos 4 e 5 foram atribuídos a quatro cursos cada (21,1%, cada um). Ainda nessa região, dois cursos (10,5%) foram avaliados com o conceito 1 e outros dois cursos receberam conceito 3.\n\nDos 25 cursos participantes da região Sudeste (34,2% do total nacional), o conceito 2 foi o conceito modal, como já anteriormente assinalado, tendo sido obtido por oito cursos (32,0%). O conceito 1 foi atribuído a dois cursos (8,0%), e os conceitos 3 e 5 foram atribuídos a quatro cursos cada (16,0%, cada um). O conceito 4 foi recebido por sete cursos (28,0%).\n\nOs 17 cursos da região Sul corresponderam a 23,3% do total nacional. Como já indicado, houve predominância do conceito 4, atribuído a 35,3% dos cursos da região (conceito modal), ou seja, atribuído a seis dos 17 cursos participantes na região Sul. O conceito 1 foi atribuído a quatro cursos (23,5%), os conceitos 2 e 5, a dois cursos (11,8%, cada um) e o conceito 3, a três cursos (17,6%).\n\nJá dos quatro cursos participantes na região Centro-Oeste (5,5% do total nacional), dois (50,0% em termos regionais) receberam conceito 2, o conceito modal nacional, como já fora destacado. Os outros dois cursos (25,0%, cada) obtiveram os conceitos 3 e 4. Nessa região, nenhum curso recebeu os conceitos 1 e 5 ou ficou Sem Conceito (SC).\n\nNo Gráfico 5.1, é apresentada a distribuição cumulativa do Conceito Enade segundo Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (conceito Enade). Observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar que, por exemplo, a região Norte (linha azul) apresenta mais de 100% dos cursos com conceito menor ou igual a 3. A região Sul (linha rosa), por outro lado, apresenta 53% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que em algumas regiões o conceito 5 não foi alcançado por nenhum curso, como ocorre na região Norte (linha azul), que atinge 100% dos cursos com conceito até 2. O mesmo ocorre na região Centro-Oeste (linha laranja), na qual todos os cursos têm conceito menor ou igual a 4 e a poligonal atinge 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Nordeste (linha verde), Sudeste (linha vermelha) e Sul (linha rosa) apresentam as distribuições com valores maiores. Cursos em IES situadas na região Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "49885850bafb270489d432e2229e1267893386d3c10c8b18701035cff81f0729",
+  "window_size": 3
+}

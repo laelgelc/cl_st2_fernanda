@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08d58efdc7ef0533006af8f366870887d1a8957f48303783d0",
+    "usage": {
+      "input_tokens": 1600,
+      "input_tokens_details": {
+        "cache_write_tokens": 1597,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1597
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 573,
+      "output_tokens_details": {
+        "reasoning_tokens": 457
+      },
+      "total_tokens": 2173
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_98.txt",
+      "source_sha256": "bf554d7c604e5883b9410e8d29e1a94c6351aca449e3a3d983c5c99203c06ee4"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_100.txt",
+      "source_sha256": "77e82ef2d033258e03d80501b3a8a593fc24a30f9ecdf2707892f4f9dc1f9f5c"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:54Z",
+  "duration_seconds": 5.749,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_99.txt",
+    "source_sha256": "d91298bc72f5f210739558f5e2b6f5a23031bae07b7978d51c74cdc539327e90"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b88451f88303680562938d87caecf3895c427fa189723e0f5606c7e6d90c907a",
+  "request_fingerprint": "37094c6ffbfa75a9f9baeb7ccfedb3bcf2ee1729e8596076e78480c5b4dd4096",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, possivelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (87,8%) se comparada ao quarto inferior de desempenho (69,2%). As diferenças dos resultados entre os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "7d60b4e8397a96cf4827733ebd65ce621f05ebf921641cc60056f9f46f160f32",
+  "window_size": 3
+}

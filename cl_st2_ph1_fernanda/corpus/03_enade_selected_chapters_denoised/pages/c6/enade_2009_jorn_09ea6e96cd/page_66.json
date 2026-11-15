@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_008a1abceda292e1006af8e60cc90c87d19d363ee32f6ce368",
+    "usage": {
+      "input_tokens": 2721,
+      "input_tokens_details": {
+        "cache_write_tokens": 2718,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2718
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 297,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 3018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_jorn/enade_2009_jorn_page_65.txt",
+      "source_sha256": "8f2ca8aa044e49ae5e4d4b3ea00db5fbcd64eb3b76b74b1acf30f068579c9b84"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_jorn/enade_2009_jorn_page_67.txt",
+      "source_sha256": "dc04edc394cad415167f6d22e545048f2477dd97f3d0c6d6c0aca1e5d8d097f8"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:56Z",
+  "duration_seconds": 3.485,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_JORNALISMO.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_jorn/enade_2009_jorn_page_66.txt",
+    "source_sha256": "1e79791ebd12254bff8d7cd39a229077963129236e218598ffea1eb715242624"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "82a98143dba8df51855fe7004f9bfd657bfdabc1d2f8aeb5910b612b6eb9587e",
+  "request_fingerprint": "0c6f91b66b8eda4c6e6159ed219ae30fde877cc2497c297baf8cd88e89f74bab",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.11, incluindo título, eixos, intervalos, legenda, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 apresenta a distribuição das notas na questão 38 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.4) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "032c29b8f1da2bab3a0aff1a3b318ac3c26df3abaf7846599683c443773d1473",
+  "window_size": 3
+}

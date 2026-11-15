@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a36ebcfb698974c006af8eb0384c087d1a8da14f3c31af065",
+    "usage": {
+      "input_tokens": 1651,
+      "input_tokens_details": {
+        "cache_write_tokens": 1648,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1648
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 453,
+      "output_tokens_details": {
+        "reasoning_tokens": 270
+      },
+      "total_tokens": 2104
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_88.txt",
+      "source_sha256": "64e69d0da7fac9405ff701d7e84eef066a1bb1ecf208ddb5450ea74f090dc9f0"
+    },
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_90.txt",
+      "source_sha256": "98546895e35679d48ae339a4c88a0301843f532dccb7e25659cc828fcfc75917"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:07Z",
+  "duration_seconds": 5.126,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 89
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_89.txt",
+    "source_sha256": "2769e53452818a6d1e7f58c774ce335f6fc146c0469ea0ca2909656ff19be901"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f70c3a14e4238f039563c3e3ddea39be87331f085503ca8ba9581b29977fe0c0",
+  "request_fingerprint": "f61a551cdded0939448282fb9b63d8a53384055d48d13907ec7c04aefe20cffd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como material associado a gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 52,6% consideraram a extensão da prova adequada no quarto de desempenho inferior e 61,7% no de melhor desempenho (quarto superior). Nos quartos intermediários esta proporção foi 58,2% no segundo quarto e 60,5% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "66eff751a403596866af2302acf585100437a519813c0e9899294704f3507e68",
+  "window_size": 3
+}

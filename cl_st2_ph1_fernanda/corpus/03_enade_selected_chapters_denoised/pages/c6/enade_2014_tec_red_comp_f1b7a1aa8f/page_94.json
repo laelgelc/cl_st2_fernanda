@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0afcc79f4a9b9c96006af8fcdf1ba887d1aeb9eaf3d7d2f54b",
+    "usage": {
+      "input_tokens": 2843,
+      "input_tokens_details": {
+        "cache_write_tokens": 2840,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2840
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 761,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 3604
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_93.txt",
+      "source_sha256": "d6708558b6fbdfd1af54d7bbebc26ef36715668c2c79eb7fac53a659d185f246"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_95.txt",
+      "source_sha256": "e36e4ca35a00af489fdaf8985fe13329c17dec25de95e39842934e3ed8c49570"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:19Z",
+  "duration_seconds": 6.522,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_94.txt",
+    "source_sha256": "8a96392e10adc3e421fc65174066b3a1ce346d48580cf0de848217529c763ab6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e87a40711d1b2532f029989c116864b9b912edaef4cb0a0a262f4a5bf42ec87e",
+  "request_fingerprint": "0b9bfc43c9ae2645403511bfe632cd45355c15412e3aee3313df9dda7ada2c47",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "por comprometer uma parte significativa do tempo total destinado à realização da prova.\n\nO padrão de resposta era bastante claro, e a linguagem utilizada foi considerada adequada para a questão. A resposta esperada, no entanto, era longa e, dependendo do tamanho da letra do estudante, as 15 linhas oferecidas podem não ter sido suficientes para o pleno desenvolvimento da solução. Quase nenhum estudante respondeu a todos os três itens. Frequentemente, os itens ’a’ e ‘c’ foram deixados em branco.\n\nPelo menos uma das abordagens previstas no padrão de resposta para a definição da criptografia simétrica e assimétrica foi contemplada pelos estudantes que responderam à questão. O item ‘a’ foi deixado em branco por muitos estudantes. Dos que responderam corretamente ao item ‘a’, as respostas raramente foram além de citar uma das palavras-chave previstas no padrão de resposta. Para a definição de criptografia simétrica, a maior parte dos estudantes se restringiu à abordagem “utiliza a mesma chave criptográfica para cifrar e decifrar a mensagem”. Para a definição de criptografia assimétrica, foram encontradas as seguintes abordagens: “utiliza diferentes chaves para cifrar e decifrar a mensagem” ou “as chaves são pares de uma combinação de chave privada e chaves públicas”, ou ainda, “a chave pública pode ser distribuída de uma forma realmente manifesta, enquanto a chave privada deve ser mantida em segredo por seu proprietário”.\n\nNo item ‘b’, por causa do erro detectado no enunciado da questão, os dois tipos de resposta previstos pelo padrão foram encontrados: (i) o nome “www.bancoenade.com.br”, presente na imagem da esquerda do certificado; e (ii) o nome “www2.bancobrasil.com.br”, indicado no campo “Requerente” do mesmo certificado, presente na imagem da direita. Em alguns casos, os estudantes mencionaram ambos os nomes. Muitos estudantes, erradamente, não descreveram o nome completo do servidor web para o qual o certificado foi emitido, limitando-se a responder “Banco Enade”, como se o certificado tivesse sido emitido para a instituição Banco Enade. Muitos estudantes, erradamente, também não descreveram o nome distinto da Autoridade Certificadora (AC) que emitiu o certificado, limitando-se a responder “Verisign”. A maior parte dos estudantes também não conseguiu identificar corretamente o algoritmo HASH da assinatura do certificado. Quase todos responderam erradamente SHA1RSA, quando o correto seria apenas SHA1. O RSA é o algoritmo de criptografia assimétrica da assinatura digital. Esses estudantes analisaram erradamente o campo Algoritmo de assinatura, presente no certificado digital.",
+  "text_sha256": "1aec0706f12e7a1fcb58942e33325a29dfc97e2357d72dbb4cd0cc02d62cec9b",
+  "window_size": 3
+}

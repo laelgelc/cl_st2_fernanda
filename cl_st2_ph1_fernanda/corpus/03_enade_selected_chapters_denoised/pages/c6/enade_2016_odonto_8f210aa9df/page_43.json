@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08cb328cc0f1c1cd006af9031f15f887d1b2f74e70fc4a7ab2",
+    "usage": {
+      "input_tokens": 2761,
+      "input_tokens_details": {
+        "cache_write_tokens": 2758,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2758
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 3273
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_42.txt",
+      "source_sha256": "49c5ab0b71e91270ca7b854e25958e9940c34e76e41936ef939a88f80848e473"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_44.txt",
+      "source_sha256": "c5092b0dfd1fd0e6b8ae7dc765db0ed35238463e94223aedca46005b91c2661e"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:59Z",
+  "duration_seconds": 4.715,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ODONTOLOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_43.txt",
+    "source_sha256": "8bed28cb2262ead3ab6e1ac6cf69477fa2926db645059d29b1d3a65faa221732"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8592c0e3a0e3eac95e749d89983dca5163294db063673bca19509b5723253fa7",
+  "request_fingerprint": "c1df29302c6c760a9903f43758e1618c974cea443a1fd9cb84d587f706e4d8c1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.3 e a Tabela 3.4, incluindo títulos, dados e linhas de fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 54,7. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (60,9), e os das IES Privadas obtiveram Média mais baixa (52,8), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (7,6), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (8,1), caracterizando uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (11,2) e Privadas (12,3) foram inferiores ao do Brasil como um todo (12,5), indicando uma dispersão um pouco menor das notas em ambas as Categorias Administrativas.\n\nNo tocante à Organização Acadêmica, as Universidades obtiveram Média mais alta que a nacional (56,4 e 54,7, respectivamente). A média dos Centros Universitários foi 52,4 e das Faculdades 51,9. Constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes das Universidades em relação aos dos demais tipos de Organização Acadêmica.",
+  "text_sha256": "67d09d8c313fe70707d83e4038a28fdecf7cdcffa3e865bcfca5e7e4201cfac5",
+  "window_size": 3
+}

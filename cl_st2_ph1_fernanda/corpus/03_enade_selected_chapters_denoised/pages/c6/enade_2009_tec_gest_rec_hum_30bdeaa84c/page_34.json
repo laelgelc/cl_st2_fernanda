@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e157e6da1deb854006af8e7af48e487d188f1ac8aaf3fd021",
+    "usage": {
+      "input_tokens": 2500,
+      "input_tokens_details": {
+        "cache_write_tokens": 2497,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2497
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 3072
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_33.txt",
+      "source_sha256": "ef6487ec18c8ea3b426e78269f4ed8f548bf44eddad63c9f7121970e0a2f0a41"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_35.txt",
+      "source_sha256": "f4ed537c6036b74bd4fe8837ae85b2e8a21255fe45bf47d65fb6dbb45a7a5d0e"
+    }
+  ],
+  "created_at": "2026-11-14T22:58:55Z",
+  "duration_seconds": 5.014,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM RECURSOS HUMANOS.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_34.txt",
+    "source_sha256": "b34b1f98df5ce15fbfd8bbb25c35e59dabf291fd5d77466e27067a4d1b4033d3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f79f7cdbda9edc626cef7256d36cbb3e57883f36129637b56e99f2fa7ee5f006",
+  "request_fingerprint": "0dc65a55124e9f3e6b63e1fb64b48d9d83c0f239ae2b9180946214ab65664cfc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 30,61 na Região Norte a 40,32 na Região Sul. Entre os ingressantes, os valores foram de 29,99 na Região Norte a 36,70 na Região Sudeste. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes quanto para os ingressantes. Em todas as Regiões os concluintes apresentaram médias maiores do que os ingressantes. Todas as Regiões apresentaram concluintes.\n\nTendo como foco as categorias administrativas, destacou-se que todas as categorias estavam representadas. Sendo que as notas médias mais elevadas tanto para ingressantes (41,78) quanto para concluintes (44,12) foram nas instituições federais. As notas médias mais baixas para ingressantes (34,56) ocorrem nas instituições estaduais e para concluintes (38,72) nas instituições privadas. Os estudantes das instituições privadas se apresentam mais homogêneos do que os das demais instituições, já que o desvio padrão para concluintes e ingressantes é o menor dos valores encontrados.\n\nConsiderando-se o tipo de Organização Acadêmica, os Institutos Federais de Educação, Ciência e Tecnologia apresentaram os maiores valores, tanto para concluintes (44,12) quanto para ingressantes (41,78). Os estudantes das Faculdades se apresentam mais homogêneos. Os Centros Federais de Educação Tecnológica não estavam representados nesta área.",
+  "text_sha256": "1b5b646c1b22d5d206060635c3784c799606f6e7e84306e281f2d268100b8c33",
+  "window_size": 3
+}

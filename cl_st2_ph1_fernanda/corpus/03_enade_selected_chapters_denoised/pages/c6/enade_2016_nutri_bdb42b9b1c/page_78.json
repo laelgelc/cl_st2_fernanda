@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0666c2045b8ce04b006af903087d6c87d1a20c88b10b9f2d8f",
+    "usage": {
+      "input_tokens": 2295,
+      "input_tokens_details": {
+        "cache_write_tokens": 2292,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2292
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 434,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 2729
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_77.txt",
+      "source_sha256": "681140344543ed05466951b00ad099455ee6bbe7d457f87e6ea686dce8ad2003"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_79.txt",
+      "source_sha256": "420298536c6154e92e07e0725572d8b6c03d55da9fcc6dbfcb59b3bf2e498663"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:36Z",
+  "duration_seconds": 4.218,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_78.txt",
+    "source_sha256": "7f381a685e2fc93b9f9b2b02cd513858c8efc72a1ae45a59ce29f9291914c77d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "55ecf40c597807d1f09eb7dba7658edda798bf592d5c11c08c7c9db896243b58",
+  "request_fingerprint": "5ea93bbe0756886054fa1acdc93d0a99c200e942d53e15de1273eeee0b403c2f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 3.11; o material gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Nutrição. Essa distribuição tem moda no intervalo (60; 70], com cerca de 17% dos concluintes, e máximos locais nos intervalos (80; 90] e nos estudantes deixaram a questão em branco.",
+  "text_sha256": "ceb9fab75629191feea321702a7e2d071b5792f1d344f48a8beed06c27560adc",
+  "window_size": 3
+}

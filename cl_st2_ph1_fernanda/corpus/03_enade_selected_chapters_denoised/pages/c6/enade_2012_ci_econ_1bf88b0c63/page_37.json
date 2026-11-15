@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b91fb7ac533326a006af8f0940e7c87d1870fb2024e2dbc1e",
+    "usage": {
+      "input_tokens": 1559,
+      "input_tokens_details": {
+        "cache_write_tokens": 1556,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1556
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 272,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 1831
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_36.txt",
+      "source_sha256": "f7da1bbd0e0702ec26b6cb319433ea771120da53780689a3cb9ef714c737b12f"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_38.txt",
+      "source_sha256": "b5ff49fdbecdaf6c3b328c7b52c6eb020f08b257c11a1d62e2b518bb9ff4c13c"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:51Z",
+  "duration_seconds": 3.279,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_37.txt",
+    "source_sha256": "a6cfe62515d1c4fbc6380ee7bbb580433eeb1d746d4dec848752116817b905b0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e0513c69ff22e24d8d271f663e7363e107d8fdf5117b9ed6aca8152038ed837a",
+  "request_fingerprint": "75d0e4caece05ebdba9c8288655cdf3b5d7f13bbd92412b929e6d72bd5ab90fd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2012”."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Faculdades em relação às médias de Centros Universitários e Universidades. A maior média foi obtida pelos estudantes de Faculdades (33,4), e a menor, pelos de Centros Universitários (30,2).",
+  "text_sha256": "3702c2d3658eda0fcc23299e621089cdb5b803c6220af6eb0e65775c93d42968",
+  "window_size": 3
+}

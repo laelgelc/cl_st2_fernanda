@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_024fbc0955483385006af8fb853fc887d1adcadd55ca10c7c0",
+    "usage": {
+      "input_tokens": 3061,
+      "input_tokens_details": {
+        "cache_write_tokens": 3058,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3058
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 655,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 3716
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_43.txt",
+      "source_sha256": "a35b2bd86bf523ab8b4c56d5863942c1bf8fa27e1098af710346aa2331c2ef04"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_45.txt",
+      "source_sha256": "d60652e6eb698c7e6a17b0a814822019950c0300b2a388a6e6c289bfc05f126a"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:33Z",
+  "duration_seconds": 6.742,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_44.txt",
+    "source_sha256": "b560b175e621b8418f45f841c90fa8b33ff5f01b6bae8f7234d389d114f975d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b4a80dc79a86a59b4dcb19c9292c622a0fae3ffb73ba960226062c9804b4cde5",
+  "request_fingerprint": "92ca751c81dd76ae9175da07e9d56271c91cb7f044166ac8e50a1f36a2f23277",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 5.872 são de IES Privadas e 12.392 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (15.445), seguido de Centros Universitários (1.490) e Faculdades (1.329). A Categoria Administrativa de maior abstenção foi a Pública (26,3%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (também 26,3%), ambos acima da média nacional de 25,3%.\n\nA média das notas da prova como um todo foi 42,2. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (42,7), e os das IES Privadas obtiveram média mais baixa (41,0), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Norte (6,5), a maior e a menor média, é superior à diferença entre IES Públicas e Privadas (1,7), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram média mais alta (42,5) que a nacional. As demais médias foram: 40,9 nos Centros Universitários e 40,0 nas Faculdades. O desvio padrão para as IES Públicas (13,7) e para as Universidades (13,6) foi superior ao do Brasil como um todo (13,4), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades em relação aos de Centros Universitários e Faculdades.",
+  "text_sha256": "65e8c5b61cd3729d36c6e13f254f6d08d4880ca320860acfb4a89a31fa1d7171",
+  "window_size": 3
+}

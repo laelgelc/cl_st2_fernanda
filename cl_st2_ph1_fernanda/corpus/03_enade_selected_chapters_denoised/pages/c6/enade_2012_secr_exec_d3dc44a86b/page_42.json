@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_098b134692de4a91006af8f1b4ce2887d19718619eb4b451a0",
+    "usage": {
+      "input_tokens": 1630,
+      "input_tokens_details": {
+        "cache_write_tokens": 1627,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1627
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 270,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 1900
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_41.txt",
+      "source_sha256": "63d87a999f3af40f1eed3d67741a19cd806f98f9871df14cef71a89a57209c2c"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_43.txt",
+      "source_sha256": "1ac21c4bc1956840e16f2f25e4d7bc7e0624fe753c3262383edd4f49f7370496"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:40Z",
+  "duration_seconds": 3.486,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_42.txt",
+    "source_sha256": "af90cd58c71da898263d5b21a87f4b7f9196fd298857175d644e57f338c123ef"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bad68b34ed357006bd510d93786a2908780ac074211c2cacff790d1903d7f2a",
+  "request_fingerprint": "e5a870d98c38b0df08e3c05d2ec7c5b0b4964e8e5b4fbb0f022d309930c3157e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número da página e a linha de fonte, que parece pertencer ao Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre as notas dos estudantes provenientes de Universidades (44,2), em relação aos provenientes de Centros Universitários (40,0) e Faculdades (40,2).",
+  "text_sha256": "d12343c49804f179f5f4c20105d273039df6bc499eaedfa68d2cd64e85883b05",
+  "window_size": 3
+}

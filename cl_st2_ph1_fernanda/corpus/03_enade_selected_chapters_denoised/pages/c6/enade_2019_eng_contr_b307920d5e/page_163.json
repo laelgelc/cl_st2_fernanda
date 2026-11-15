@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aab80adce14108d006af911619a4087d194f0c877a86b124c",
+    "usage": {
+      "input_tokens": 2924,
+      "input_tokens_details": {
+        "cache_write_tokens": 2921,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2921
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 740,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 3664
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_162.txt",
+      "source_sha256": "3425bbb2da311608a123fc6b9087219eb3c7cb0ad94efb9432ce807a04ca7137"
+    },
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_164.txt",
+      "source_sha256": "2b5e407739f98772450cdef7741552894c77e9f1eefa4c00dad3547e49a5747a"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:49Z",
+  "duration_seconds": 7.655,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 163
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_163.txt",
+    "source_sha256": "be566c15c8461b00351a5599bd2eded04e78f401664085ee6ffc27bf96d98a69"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cfc4034833db54bc2046541ddae546c93150dbe68891073ca7226489fe606710",
+  "request_fingerprint": "d4d073495d88e3f2b5bf54c48280410cb30a246897f97590ba72b340cf177a75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, no Gráfico 6.5, analisa-se a questão 19 do Componente de Conhecimento Específico. Essa questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com nível de facilidade Difícil, 0,26, ou seja, 26% dos estudantes assinalaram, acertadamente, a opção E, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,44, classificado como Muito bom, o maior valor de discriminação. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 19, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério Ponto-Bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. No caso de Engenharia de Controle e Automação, como se observa no eixo horizontal do Gráfico 6.5, nenhum estudante acertou mais do que 23 questões dentre as 26 questões objetivas válidas, considerando-se o gabarito original. Mesmo com a eliminação das cinco questões com Índice de Discriminação Fraco do cômputo da nota, nenhum participante atingiu a nota Máxima, igual a 100,0, nessa parte da prova (visto na Tabela 6.10).\n\nObserva-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de estudantes que selecionaram a resposta correta E aumenta gradativamente, chegando a atingir 100% para 22 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois ou quatro acertos, em função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "1e57043e231bd85e35d655189922a95d86ae750d8bc5e8bca495f962e71729ae",
+  "window_size": 3
+}

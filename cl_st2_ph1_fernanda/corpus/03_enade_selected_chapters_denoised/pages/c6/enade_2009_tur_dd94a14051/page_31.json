@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_059ce6e5b0880c93006af8e81b93b487d1b3c851012cd87645",
+    "usage": {
+      "input_tokens": 2428,
+      "input_tokens_details": {
+        "cache_write_tokens": 2425,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2425
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 2871
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_30.txt",
+      "source_sha256": "f206418891ff8a61b81531c0ead5d6ad7d4e1f5f4d124a674399710a89c1844f"
+    },
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_32.txt",
+      "source_sha256": "d496025a6d3a2e9282389d54088cc20a2c4e4130d01b34caa2ae7ee373b34ace"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:43Z",
+  "duration_seconds": 5.229,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 31
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_31.txt",
+    "source_sha256": "1013f29b58496e7e46c354517d0125dffaace72e301062432363a55b6a299000"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7738c9d46c0554040eec80c7cf5021c100fb5c89e1cd63a86ec31268253a6c0c",
+  "request_fingerprint": "b77406979390e13d43fdb8f30536c1fca8d117ad1244ec8ad3a3a22058d884fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, seus dados e a fonte.",
+    "Removidos o Gráfico 3.1, incluindo título, eixos, intervalos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1 (a seguir). Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 56,1 entre os concluintes e 49,5 entre os ingressantes. Nas faixas de notas até 50 pontos, o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. Constata-se que aproximadamente 49,2% dos ingressantes e 63,6% dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "3109aad25e409449409f05b3d3328cf28dfd398ecfc0dea20fce1f3e6ff88f18",
+  "window_size": 3
+}

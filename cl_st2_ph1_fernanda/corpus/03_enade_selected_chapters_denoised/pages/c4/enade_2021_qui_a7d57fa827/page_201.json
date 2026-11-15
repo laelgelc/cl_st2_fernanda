@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08fb227a5d17a67e006af91ac8ae3c87d18a7d492a8650100b",
+    "usage": {
+      "input_tokens": 1767,
+      "input_tokens_details": {
+        "cache_write_tokens": 1764,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1764
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 328
+      },
+      "total_tokens": 2294
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 200,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_qui/enade_2021_qui_page_200.txt",
+      "source_sha256": "d645ec15fd5033ce2dd665b962aec67151586b88b7c2f677c85f033d86bd335d"
+    },
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_qui/enade_2021_qui_page_202.txt",
+      "source_sha256": "5aa77bdc6bf671007886e01d4d272e98ad7b7a08fd9c018579039f7c7a7bbcac"
+    }
+  ],
+  "created_at": "2026-11-15T02:36:56Z",
+  "duration_seconds": 6.563,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_QUÍMICA.pdf",
+    "page_number": 201
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_qui/enade_2021_qui_page_201.txt",
+    "source_sha256": "84ad4b787cc998ef32fa52638b40952b9f881a395d59173aca0cec589184fc48"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6266b31191030b3b47d0e1c00aaceef9f53bbb5d67ce2290f15e6dec21b4404c",
+  "request_fingerprint": "fa68d4f7e615eaec594a31e4271166228278ad58a083702a634b2b6ffb8a4628",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.11b, incluindo título, fonte, dados e rótulos. O texto isolado “CEFET/IF” parece ser um rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes de Licenciatura que consideraram a prova Longa ou Muito longa, em relação ao tempo total destinado à sua resolução, foi menor entre os estudantes de cursos de IES Privadas (33,4%), não havendo diferença estatisticamente significativa da proporção em relação aos de IES Públicas (35,0%). Já a proporção de presentes de Licenciatura à prova que consideraram a extensão Adequada foi de 57,9% para os de IES Públicas e de 58,3% para os de IES Privadas (ver Gráfico 4.12a e Tabela II.6a, no Anexo IIA).",
+  "text_sha256": "cef597306aedbd176103494f49d7ec5b4917fbc74fe01355e001a974509dd3fe",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b22de3c607a3ecd006af8ec02d78087d1a65f215b68e2f792",
+    "usage": {
+      "input_tokens": 2524,
+      "input_tokens_details": {
+        "cache_write_tokens": 2521,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2521
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 2956
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_70.txt",
+      "source_sha256": "3c642d430fc0aa2e14e5d8695656f5c5d63693b4b4cd104798501f054e5ed6d9"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_72.txt",
+      "source_sha256": "de9ed175cbb7ee3933f7a28474947395f021ac6ee958d6f1224b4cc5ee6fce0c"
+    }
+  ],
+  "created_at": "2026-11-14T23:17:22Z",
+  "duration_seconds": 5.116,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_2",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO II.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_71.txt",
+    "source_sha256": "930d368b25171aec51dd0f2fbfda7eea699c30e948bbfd5f5673073cdabe552d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6b2a9596dbc5aeb0392b90272cb529419d33b5f6a3b5c2907b1491c32c6d6c0",
+  "request_fingerprint": "e5b1fc886759b8fc5720258fa99355e2cf4da2f56c50c4d33590995df4d6f3a2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada pelo contexto como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.2 Comentários sobre as respostas à Questão Discursiva 3\nA questão trata de um assunto muito específico da área de eletrotécnica, que são as condições de otimização para o paralelismo de transformadores de potência. Para os formandos em Engenharia, na especialidade eletrotécnica, a questão pode ser considerada média, pois, apesar da mesma poder ser resolvida apenas por inspeção, em alguns cursos o tema é tratado somente em disciplinas optativas.\nPara os alunos de outras áreas, como eletrônica, telecomunicações, controle e automação e computação, a questão pode ser considerada de difícil a muito difícil, pois, os termos apresentados no enunciado são muito específicos, até mesmo para a área de eletrotécnica. Cita-se como exemplo o tipo de ligação dos enrolamentos dos transformadores (Dy-1, Dy-5), notação usada exclusivamente pelos eletrotécnicos.\nOutro conceito que nem sempre é apresentado aos estudantes das outras especialidades é a utilização de valores por unidade (pu) ou valores percentuais (Z%). Essas informações, que são de uso exclusivo do pessoal de eletricidade e potência, são essenciais para responder corretamente o item a da questão. Esse item solicita a indicação",
+  "text_sha256": "a412721ac5dd257f5148f246bd3137347f1264a9e416097343ec743aedb1e290",
+  "window_size": 3
+}

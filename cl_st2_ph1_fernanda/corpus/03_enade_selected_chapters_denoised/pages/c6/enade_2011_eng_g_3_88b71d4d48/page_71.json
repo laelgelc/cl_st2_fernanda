@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_017015d3fbc34be7006af8ec31aac487d1a465d801d5117769",
+    "usage": {
+      "input_tokens": 2763,
+      "input_tokens_details": {
+        "cache_write_tokens": 2760,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2760
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 452,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 3215
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_70.txt",
+      "source_sha256": "9a0d0e6d895dd489ca971716e119db187992c366a2e15cee5d5760471442241e"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_72.txt",
+      "source_sha256": "4c4603f41e67cfe7e228f9b6a7ac485760ba79948de5458dc936fa69a9ccd2d9"
+    }
+  ],
+  "created_at": "2026-11-14T23:18:09Z",
+  "duration_seconds": 4.878,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_3",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO III.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_71.txt",
+    "source_sha256": "9d5ac94e59c6cbc89d5c1e4f6e9fb6ff3f75153218f86ef1693b52522ed837e7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e8b9085de27b5aae58587e15e9d37a0403bd609015b80b275fe7170baa29204",
+  "request_fingerprint": "1ff2d6602206245c0b2387a5e36c90f596470739355c5cf5f190ff1e1e2494a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.20 e sua linha de fonte; preservada a discussão em prosa sobre o gráfico."
+  ],
+  "status": "success",
+  "text": "Norte e Centro-Oeste, cuja mediana foi 0,0. A nota mínima (0,0) foi obtida em todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.20, representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico. Não se considerando a categoria “em branco”, o intervalo (0;10] foi o de maior frequência no gráfico similar ao ocorrido na questão 3. Observa-se, ainda, que uma menor proporção de estudantes deixou essa questão em branco, comparando-se à questão anterior. O coeficiente de assimetria foi positivo para o Brasil como um todo, 1,79, bem como para todas as regiões.",
+  "text_sha256": "bde62bc7ab4fe4207e63192ccecd67fa1e49b0c6729763fc8590f59e98c0cd34",
+  "window_size": 3
+}

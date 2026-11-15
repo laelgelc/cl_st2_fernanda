@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ac71f7ef0021009006af8f56e542087d19c99b5c1ad9edb9d",
+    "usage": {
+      "input_tokens": 1996,
+      "input_tokens_details": {
+        "cache_write_tokens": 1993,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1993
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 533,
+      "output_tokens_details": {
+        "reasoning_tokens": 308
+      },
+      "total_tokens": 2529
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_43.txt",
+      "source_sha256": "e9a94952b9caf884891c06b6caddae723fd204e5a02b80485b308784efb9950f"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_45.txt",
+      "source_sha256": "07e1d17503846c7d783c4362b6b8810c1726b065174a030e72a595b664a96ea3"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:34Z",
+  "duration_seconds": 5.488,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_44.txt",
+    "source_sha256": "9820b196b486c668728b176c1589c515164b7aa19074369078b6fe79c7fa9f30"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "08f47e2cc4f800a5ae93db959057d030236f63f9d24e39eff46de36aee7dce8a",
+  "request_fingerprint": "dd4c8c54ecfdf6e14d7b14b8392660069eaccf31e2724dd31cee75390857fa40",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, que pertence ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Nordeste (45,8) e a menor, obtida na região Centro-Oeste (40,2). Vemos que os intervalos de confiança mais largos são o da região Norte e o da região Nordeste; já o intervalo mais estreito é observado na região Sul. Este fato está relacionado, também, com o tamanho da população envolvida, menor nas regiões Norte e Nordeste do que na Sul.",
+  "text_sha256": "81ad0679c36afbf17a5854df1faab1ef8297bad8243d436b75bb6c149d4a5baa",
+  "window_size": 3
+}

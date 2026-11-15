@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1d04dd5d85be07006af8eb938fd087d195ad71782189f910",
+    "usage": {
+      "input_tokens": 1813,
+      "input_tokens_details": {
+        "cache_write_tokens": 1810,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1810
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 492,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 2305
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_93.txt",
+      "source_sha256": "fca20b1c581415bebdc5aa54056d564a815eb9878833c179ff5d8c61b19f12b1"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_95.txt",
+      "source_sha256": "81b8583d334200bc35be184f15604f973f161a1a8850af052df075be43c5545f"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:31Z",
+  "duration_seconds": 5.718,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_94.txt",
+    "source_sha256": "fbefc739833e063b5848ff7713d1de731a9e9fe3ee107609d2745d13dd036859"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0a92b3abf017b3105011aad101985f9d5ebd6c40adbe02dd1880d8af6b001a42",
+  "request_fingerprint": "475ae1f0674b34e30f553392946a396d923e79089ff811bb44826080f4773368",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o material gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "A forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 33,1% (região Nordeste) a 44,6% (Norte). O percentual de alunos que citou a falta de motivação como dificuldade variou de 19,7% (região Sul) a 29,8% (região Nordeste). Os que declararam não ter qualquer dificuldade para responder à prova variaram de 22,1% na região Centro-Oeste a 24,8% na Nordeste.\n\nCom relação aos quartos de desempenho, o desconhecimento do conteúdo, foi a opção escolhida por 8,0% dos estudantes do quarto superior e 10,8% do quarto inferior. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, foi que a dificuldade encontrada foi causada pela forma diferente de abordagem do conteúdo: 37,0% no quarto inferior e 40,2% do quarto superior assim o responderam.",
+  "text_sha256": "e585491dd1f9880561906964462457d8f740a1aaa97fadeff5deef0c4bc0b697",
+  "window_size": 3
+}

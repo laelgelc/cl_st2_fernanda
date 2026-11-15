@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c21881c0b7a52f7006af8ebaa9f7c87d1ac6624944a0e58f2",
+    "usage": {
+      "input_tokens": 2504,
+      "input_tokens_details": {
+        "cache_write_tokens": 2501,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2501
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 508,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 3012
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_62.txt",
+      "source_sha256": "078005db1ba13ac71b2eb1766a0f9e696306d2cec7ce4b8b7d7594c242154e03"
+    },
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_64.txt",
+      "source_sha256": "3bc872efa7cafb3d4d0388b5d77860f1c3e67d562486348933aba7955f9f5d8b"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:54Z",
+  "duration_seconds": 5.277,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 63
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_63.txt",
+    "source_sha256": "46a0827e0b013bb47ee8f4c9b2c192c2c6863d1b3736eb3a2233a66c3a527f4c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6b811483a50179353483505c605dda30d0760ab8846a4a4ff02ebb37e05b6b38",
+  "request_fingerprint": "193d383b02a3b3314fa3c19ebf328f298e2fbf64031db51d877c3ee132ef9263",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A mediana foi 50,0 para todas as regiões, exceto para a região Nordeste (40,0). A nota máxima (100,0) e a mínima (0,0) foram obtidas por pelo menos um aluno de todas as regiões do Brasil.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. O intervalo modal, o de maior frequência, é aquele relativo às questões deixadas em branco. Desconsiderando-se as questões em branco e as notas zero, observa-se uma distribuição aproximadamente simétrica com moda em (50;60]. O coeficiente de assimetria desta distribuição como um todo sinaliza para uma pequena assimetria negativa (–0,14), o que só é diferente para a região Nordeste (com coeficiente igual a 0,13). Nas demais regiões os coeficientes de assimetria são: –0,28 (Norte); –0,17 (Sudeste); –0,20 (Sul) e –0,15 (Centro-Oeste).",
+  "text_sha256": "d6775bb10a65cb3c6c0c68186c4e9dea8f1c0f9ea4551bb3cd641f4d6e89809a",
+  "window_size": 3
+}

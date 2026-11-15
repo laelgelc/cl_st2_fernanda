@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08357c3641ae711e006af8f3c1a11887d196ac025cbcdbddc1",
+    "usage": {
+      "input_tokens": 1561,
+      "input_tokens_details": {
+        "cache_write_tokens": 1558,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1558
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 2006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_92.txt",
+      "source_sha256": "d60da790782183f26739d28a1218570729ec47d693e001399ca1b31002d599b2"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_94.txt",
+      "source_sha256": "e755d3eeefaba61f3f7f7327bb618bfc9598ecf28281c3043d28269aa7c33bb9"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:25Z",
+  "duration_seconds": 4.727,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fisio/enade_2013_fisio_page_93.txt",
+    "source_sha256": "24504b17d9dc9216da7546f02fe2df9a9adc85fa338abf9a52da21fd4842418b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6591b2d7d18c4798ede1f5a278d1b462381b0bc1794c792ced9f84bd76b1335b",
+  "request_fingerprint": "5231ac9ae1e9e294341c1db3500b8dbc5a420b90923d97dcc72a5781180eb698",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, que parece estar associada a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram todos ou a maioria dos enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (89,8%) se comparada ao quarto inferior de desempenho (80,9%). Algumas diferenças dos resultados entre os quartos de desempenho são estatisticamente significativas, a exceção da comparação entre o 2º e o 3º quarto e a entre o 3º e o 4º quarto.",
+  "text_sha256": "2a7b8cd1518f4cb62dafa0e2b0b47ad92e154d94cdd22f8b3f16d3594526c118",
+  "window_size": 3
+}

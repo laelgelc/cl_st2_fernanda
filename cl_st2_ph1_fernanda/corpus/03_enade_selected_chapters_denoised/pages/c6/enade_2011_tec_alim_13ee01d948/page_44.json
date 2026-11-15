@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05410ecf756feaff006af8eebcd89487d19abb48b89f0d6245",
+    "usage": {
+      "input_tokens": 2189,
+      "input_tokens_details": {
+        "cache_write_tokens": 2186,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2186
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 511
+      },
+      "total_tokens": 2956
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_43.txt",
+      "source_sha256": "4d4a8025c99763d9945c55eb03ee196125dd4dfa0934b2a84d03247c2c53a19a"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_45.txt",
+      "source_sha256": "550deddaccc7f1f4ce17f4de29526d7232981e9cfd39ed879c059234fec7ca65"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:00Z",
+  "duration_seconds": 8.468,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_44.txt",
+    "source_sha256": "393dd150fdf5f0019383c4760100da894aba6e50767db0642eb465ecf86e1a9f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6d53c9fc4cdad3958b62fe98d1baf7fd4cf1729e10b03df1e5eeb797ea5257ef",
+  "request_fingerprint": "83eeb032a168d7483d18ef11ff667244f3f0fb1e2a8a01add8170dfda174fb88",
+  "retry_count": 0,
+  "review_notes": [
+    "Excluded the source line “Fonte: MEC/INEP/DAES - ENADE/2011” at the start of the target page as likely belonging to a graph or other visual material."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 56,3. A maior média foi obtida na região Norte (61,1), e a menor, na região Centro-Oeste (49,5). As demais médias foram: 59,5 na região Nordeste; 55,9 na região Sudeste; e 56,7 na região Sul. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 16,4. O maior desvio padrão foi obtido na região Centro-Oeste (18,8) e o menor na região Norte (11,0). Os demais desvios padrões foram: 15,8 nas regiões Nordeste e Sudeste; e 15,5 na região Sul.",
+  "text_sha256": "c6263db6eca7e002ee40a6e49b7391bcb58d2528c57571c63e051fe010ac2150",
+  "window_size": 3
+}

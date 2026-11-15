@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08aad998d4c99f6c006af91aeb5b5887d1b3ccd98d605091da",
+    "usage": {
+      "input_tokens": 3453,
+      "input_tokens_details": {
+        "cache_write_tokens": 3450,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3450
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 620,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 4073
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 278,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_qui/enade_2021_qui_page_278.txt",
+      "source_sha256": "01acb01e6802ea118b2221f6f162ceeb56fb5106227e6a1b942730cfe2c0fcb3"
+    },
+    {
+      "page_number": 280,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_qui/enade_2021_qui_page_280.txt",
+      "source_sha256": "ad33a92294ea3f338badc9480c3f25c1d38f06b193f697562865c733c68e8225"
+    }
+  ],
+  "created_at": "2026-11-15T02:37:31Z",
+  "duration_seconds": 6.608,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_QUÍMICA.pdf",
+    "page_number": 279
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_qui/enade_2021_qui_page_279.txt",
+    "source_sha256": "8a50af47584961dae61fefc089c9112b68c71b53b4e1b25e2ea465f73e75cbca"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a4a781a4339a8688450a469297c7ac2fb094b2b9a337ba5c259e014027e61ad0",
+  "request_fingerprint": "5ac0c8a764a67fbaa181840ca59a0d5d9276577452e2a01f745586c932b47f83",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, pertencente ao gráfico da página; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica, segundo a Habilitação. A Média das notas da prova, como um todo, dos alunos de Licenciatura, foi 38,3 (Tabela 6.1). Em relação a Categoria Administrativa, os estudantes de Licenciatura das IES Públicas obtiveram Média mais alta (38,5) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (36,9). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sudeste e Norte (9,5), a maior e a menor Média, é superior à diferença entre a das IES Públicas e Privadas (1,6), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (13,7) foi levemente superior ao do Brasil, como um todo (13,6), indicando uma dispersão pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades (39,7) obtiveram Média mais alta que a nacional (38,3). A Média dos Centros Universitários (33,8), a das Faculdades (36,5) e a dos CEFET/IF (35,6) foram menores do que a nacional. Constata-se",
+  "text_sha256": "67688bea43a857492d590956a30cc76b554d3a5d3ab348c088218310c9505b44",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_020123a1b1ab4d23006af8f08c692487d1a59556717a61c0c3",
+    "usage": {
+      "input_tokens": 1412,
+      "input_tokens_details": {
+        "cache_write_tokens": 1409,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1409
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "total_tokens": 1890
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_92.txt",
+      "source_sha256": "a9007ae2f94bcb8619fbe6e6ceb9dc14794e6e60e28530069e9f9d6479f634ca"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_94.txt",
+      "source_sha256": "863243820fcb1f2a1cf6f7e5174c89aedd423202f3047199ae404cb1e304391e"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:44Z",
+  "duration_seconds": 5.34,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_93.txt",
+    "source_sha256": "6448d66c2e9a3fe107fd74cdc290b24daa23d094f6ecb1b89a6b154ba7d526fd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d115d89c8bdaca82597c90455aef5fb478cd5b18bf4bc2cdb6227a61b6f3a2ed",
+  "request_fingerprint": "197947223b229ead9cf1bab45f578d8a57b1367e156ef9f0989fab51b708cf98",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente vinculada a material gráfico nesta página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 72,6% e 40,5%. As diferenças entre os quatro quartos são estatisticamente significativas e evidenciam uma tendência crescente, conforme o aumento do desempenho.",
+  "text_sha256": "14de0a44b42e0a77e88352b98f88a1fbeead26e078b4bdea233461c9532554cc",
+  "window_size": 3
+}

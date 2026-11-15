@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f6c19d9dc7c8287006af8f1b62e8087d1b1fdbaf9561400a0",
+    "usage": {
+      "input_tokens": 1508,
+      "input_tokens_details": {
+        "cache_write_tokens": 1505,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1505
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 1868
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_46.txt",
+      "source_sha256": "ea56c1a2a8b6c4ef1c22cbe2f87d04098c991166cc88fcecabd5c371b7b4bb4a"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_48.txt",
+      "source_sha256": "bb4a71cabed844a0037fe474231f25b3fa7945a058630d35d227e0980d1342e1"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:42Z",
+  "duration_seconds": 4.725,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_47.txt",
+    "source_sha256": "2339cdb77b37503b67a986c519fa899fac9264c6ea46ba6b809f991e030e0660"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "854f65bfa3f3adc97a94cb64d4cecca76261e2e8bf521ef7f978abb0c02f12f8",
+  "request_fingerprint": "c383da5692bc78c25f63ea7612e836f6db6efe2c1ce0fd3b67da7f97d188c753",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2012), que parece pertencer ao Gráfico 3.12; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas dos estudantes provenientes de Universidades (49,5), em relação aos provenientes de Centros Universitários (44,4) e Faculdades (44,8).",
+  "text_sha256": "36f7a073a1e43a140c1e9273db27aca49904a9b613245ab2ca3ef9b0f6840cb4",
+  "window_size": 3
+}

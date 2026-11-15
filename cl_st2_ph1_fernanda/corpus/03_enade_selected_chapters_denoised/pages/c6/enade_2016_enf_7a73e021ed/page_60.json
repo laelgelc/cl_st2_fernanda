@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_051aec441a83ccc3006af901ff0dc487d18e9f2af2c944f9a0",
+    "usage": {
+      "input_tokens": 2030,
+      "input_tokens_details": {
+        "cache_write_tokens": 2027,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2027
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 2680
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_59.txt",
+      "source_sha256": "0e770ff119894dd6c6efe60e4dfd74e76fad1477ca0ae613f2a781311e27169c"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_61.txt",
+      "source_sha256": "03a3d800e16688b3c9a2be6d7863bc5fd5a67efdb19e27bcff47845dcb099d2f"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:10Z",
+  "duration_seconds": 6.454,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ENFERMAGEM.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_60.txt",
+    "source_sha256": "5baaf4683862a3024515cd50aad43919873cbe44bd9037889c23ac988c1e6cc5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "040c737c8006308e0eefbaf5144b823222eea66a20ad8914710bcd47c72707b7",
+  "request_fingerprint": "799900a14355f2dc1daecb5693b74f56445ff5c96120061c5ba98200c8808331",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte. O Gráfico 3.6 parece acompanhar o texto; seu conteúdo gráfico não está transcrito no alvo, e a linha de fonte aparece na página contextual seguinte."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 56,0. Nas regiões Norte e Nordeste a Mediana foi menor, 55,0 e 54,5, respectivamente. Nas demais regiões foi maior que o valor para o Brasil: Sudeste (57,0), Sul (58,5) e Centro-Oeste (56,5). A nota Máxima (96,0) foi a mesma nas regiões Nordeste e Sudeste, sendo 95,5 nas regiões Norte e Centro-Oeste e 94,5 na região Sul. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nO Gráfico 3.6 representa a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda desta distribuição ocorre no intervalo (60; 70]. Destaca-se também o intervalo [0; 10] com distribuição próxima a 6% do total de notas, sendo que no intervalo [0; 10] inclui-se além da nota zero, a frequência de alunos que deixaram este tipo de questão em branco.",
+  "text_sha256": "59095791ca4ae1be8ba3f68ffe2d28c321581a38f69601e0bcf1e245c4cecd46",
+  "window_size": 3
+}

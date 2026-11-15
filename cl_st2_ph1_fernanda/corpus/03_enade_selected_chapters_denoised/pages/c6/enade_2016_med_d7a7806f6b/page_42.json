@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06a00e07489949dc006af902c6c0a887d1888c7399b52eed55",
+    "usage": {
+      "input_tokens": 2244,
+      "input_tokens_details": {
+        "cache_write_tokens": 2241,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2241
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 503,
+      "output_tokens_details": {
+        "reasoning_tokens": 295
+      },
+      "total_tokens": 2747
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_41.txt",
+      "source_sha256": "6b31675f9be89af42343d20c7bf832552d76f447ab7e4af4e48467b6b5c303a4"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_43.txt",
+      "source_sha256": "90127a943ba081def5dcbff795a8424aec236469dee31f711e1d55372f2720a7"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:30Z",
+  "duration_seconds": 5.433,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_42.txt",
+    "source_sha256": "cb58b030011f94661893e125df5f7511a47a59a2baeedfa77b74da7320b875ad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bfeb959c5ccce68cc49379524e43666e0f17cf50a9b90332dce807e8ae88b568",
+  "request_fingerprint": "d581952625005286e88c361c4ae303fde0d1fad1729298436a12811c16d45d67",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2016», que parece pertencer ao Gráfico 3.1 iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.3 apresenta informações referentes à Condição de Presença desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de Inscritos, 10.101 são de IES Privadas e 6.079 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (10.861), seguido de Faculdades (3.634) e Centros Universitários (1.685). A Categoria Administrativa de maior ausência foi a Privada (2,0%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (4,2%), que ficou acima da taxa de ausência nacional de 1,9%.",
+  "text_sha256": "be6c8307e87bb9334859429841e4640ad04e6bf75a25e90260ce37dac4bdbb91",
+  "window_size": 3
+}

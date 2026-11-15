@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00d8eab2dd489430006af8f1dc1d6887d18e7706d29aa0b80d",
+    "usage": {
+      "input_tokens": 2460,
+      "input_tokens_details": {
+        "cache_write_tokens": 2457,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2457
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 602,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 3062
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_33.txt",
+      "source_sha256": "7d6bcce8a3a53a3339a3fda4b0a6dc360cc12d0d15f14bfeaa252e652c9f73e0"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_35.txt",
+      "source_sha256": "5f16d8c02cb5542134e231394647343f18c339cd5a3e824bae7d069af5cab5ec"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:20Z",
+  "duration_seconds": 5.896,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_34.txt",
+    "source_sha256": "fb854ff8ed0b75d82002cc3f2f9c9f19661a5eabd99bda2eb8b4888cc42576ac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "582aa78d25f6fd2ad02db6a50fb7994b40a9df0b9d4241660ea6cd165bf10d0a",
+  "request_fingerprint": "6957c1fbb9ea958a838bc74d1adc99300917ccbe13c562fc2175575b56cb4678",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.1."
+  ],
+  "status": "success",
+  "text": "14,1, sendo o maior desvio padrão encontrado na região Nordeste (15,7) e o menor na região Centro-Oeste (12,8), indicando uma menor dispersão das notas desta última região. A região que obteve a maior nota máxima foi a Sudeste (84,9), ao passo que a região que atingiu a menor nota máxima foi a Centro-Oeste (73,3). A mediana do Brasil como um todo foi 42,3, sendo a maior mediana obtida na região Sudeste (43,5) e a menor obtida na Norte (40,0). A nota mínima foi zero na maioria das regiões com exceção das regiões Norte com 1,9 e Centro-Oeste com 8,9.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,14) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa na maioria, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. As únicas exceções são as regiões Norte e Sudeste, com coeficiente de assimetria positivo (0,08 e 0,02, respectivamente), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "783249c004fe6e364e43a671cf24320c8841ed5c9f864bde1c6f2e3f20ff60ff",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f43252e00d11809006af902207e2c87d1923b86df32721ae3",
+    "usage": {
+      "input_tokens": 2748,
+      "input_tokens_details": {
+        "cache_write_tokens": 2745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 3004
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_farm/enade_2016_farm_page_115.txt",
+      "source_sha256": "c32c5eb38d4de58b92285d5913f44620dc1170fe056d6022a9d4e8c3424fa9e7"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_farm/enade_2016_farm_page_117.txt",
+      "source_sha256": "29fba5e5c1e44514741d37d10299452abbfcef2429619fa47364438ad5908610"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:44Z",
+  "duration_seconds": 3.237,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FARMÁCIA.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_farm/enade_2016_farm_page_116.txt",
+    "source_sha256": "97e9b9ea6334e6ed9df26ad5467423620a230b1b88f92a36de2d2a12ff4cb31d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "80ad75c5aae539ea5268657f26e7c096ce8fe24c278187c5cedfdf155504fc30",
+  "request_fingerprint": "3e85111e39555826e4bb562eed4a52387e504bba1d096f42aa0023e6fef32174",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e linha de fonte.",
+    "A página termina com “Um”, início de uma frase que continua na página seguinte; o texto foi preservado sem completá-lo."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram sete dos 26 cursos participantes. Nota-se que tais cursos apresentaram uma distribuição com maiores valores distribuídos em três conceitos contíguos, os conceitos 2, 3 e 4, atribuídos, cada qual, a dois cursos. Um",
+  "text_sha256": "d3deaadd4a4545761c68fd662f1fa6462f7729b04927ce0939a9c3ca5bc578bc",
+  "window_size": 3
+}

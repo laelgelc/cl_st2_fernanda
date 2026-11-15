@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05505c268a32e660006af902ef928087d1b17af232753a94cf",
+    "usage": {
+      "input_tokens": 2413,
+      "input_tokens_details": {
+        "cache_write_tokens": 2410,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2410
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2776
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_nutri/enade_2016_nutri_page_115.txt",
+      "source_sha256": "827862dcb0676b25f4a9df9c661a893fb5756ff8b7beb7c0ac927d16c5a41fff"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_nutri/enade_2016_nutri_page_117.txt",
+      "source_sha256": "4ff664ffa241991ad8e8cf169ff0ba99592bc16a01c9471aabdaef9bb91d5dc4"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:11Z",
+  "duration_seconds": 3.391,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_nutri/enade_2016_nutri_page_116.txt",
+    "source_sha256": "d723bdbc44424d0ea7d75441be55cd2499b6f8fd68c33bfd53758b59d4a12773"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7bfd66764030048a2cdba604757a16702746d97c85c3c578b73d68bbffefff6",
+  "request_fingerprint": "fdf1f75fb7f4bf7071ba58273117f236ab045355749044eed5406ad62dca89f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material do Gráfico 5.2 e sua linha de fonte (Fonte: MEC/Inep/Daes – Enade/2016)."
+  ],
+  "status": "success",
+  "text": "Na região Centro-Oeste, 18 dos 24 cursos participantes eram de Instituições Privadas (75,0% em termos regionais). Desses, 15 receberam conceito 3, o conceito modal. Entre os demais, um recebeu conceito 2 e dois receberam conceito 4. Nenhum curso ficou sem conceito (SC) ou com conceito 1 ou 5. Quanto aos seis cursos oferecidos por Instituições Públicas na região Centro-Oeste (25,0% do total regional), nota-se quatro cursos receberam conceito 4. Os outros dois ficaram com conceitos 2 e 5 (um curso, cada). Nenhum curso ficou sem conceito (SC) ou com conceito 1 ou 3.\n\nO Gráfico 5.2 apresenta a distribuição do Conceito Enade segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceitos Enade com valores maiores.",
+  "text_sha256": "fe033b65ecd8b1ed692defe13e3436839fdaa2afcfea756e7ecf842ca1d08072",
+  "window_size": 3
+}

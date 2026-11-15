@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007fda064edd8309006af8f27b3d6487d1bb4ad7987d801e66",
+    "usage": {
+      "input_tokens": 1608,
+      "input_tokens_details": {
+        "cache_write_tokens": 1605,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1605
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1920
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_41.txt",
+      "source_sha256": "bd2360541bbadb40d550eb627ccbd9d8ee793cd7f95690d5d4c03054099f8619"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_43.txt",
+      "source_sha256": "44c33540d47588a452ae6e2df2eaa0a66938bf0fc31e54043e72f65897a12fea"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:59Z",
+  "duration_seconds": 3.581,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM MARKETING.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_42.txt",
+    "source_sha256": "1ab1d14358d78b9546d4c97d4a748f85644ad6bdaa138c611564a5e706212788"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "75c7183f8b110c8c1b3665656ae83eea7b7709adfc8a469cd182688de4e3b52e",
+  "request_fingerprint": "3451fd9a76ee9e14194d1f216bc51b1f34b8ea2ef3cf072203e8ad5677a20835",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico do Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se no Gráfico 3.8 que não há diferença estatisticamente significativa entre os diferentes tipos de Organização Acadêmica. A média dos Centros Universitários (41,2) é maior que as médias de alunos de Universidades (41,0) e Faculdades (40,9).",
+  "text_sha256": "e228e8fc19707f9ddf380cc8ff7d15d5ccc5012586c06a2189d4a7ed5362047c",
+  "window_size": 3
+}

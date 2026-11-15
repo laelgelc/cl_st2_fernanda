@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a7cc4a7eea000e006af8ec6d89ac87d1beeba6bf01f4a222",
+    "usage": {
+      "input_tokens": 1359,
+      "input_tokens_details": {
+        "cache_write_tokens": 1356,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1356
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 756,
+      "output_tokens_details": {
+        "reasoning_tokens": 602
+      },
+      "total_tokens": 2115
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_96.txt",
+      "source_sha256": "76b1d5f73a7a6f9dc6f631d10fb836b6980ef94936831f4d7be9f194b79e4387"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_98.txt",
+      "source_sha256": "960419b2472f978d1ea838d4c4f12cbf75210e285efecca8061c144cf18d38ba"
+    }
+  ],
+  "created_at": "2026-11-14T23:19:09Z",
+  "duration_seconds": 8.8,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_5",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO V.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_97.txt",
+    "source_sha256": "00289ece13e320a600fc4df7b86b154c200b81a336ee9d8fd725c8ff7aa3ee46"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70de920f904658e00d7ee28e2c949237298f2c45bfc84938e78a9f8970f0c988",
+  "request_fingerprint": "8b75a2a84553943ba02835dc0a51a5ae47b610d39f3cff1968a6f8bdb190eeb0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 89,6% e 73,2%. As diferenças entre os três primeiros quartos não são estatisticamente significativas e as proporções no gráfico evidenciam uma tendência crescente.",
+  "text_sha256": "6676dc40f9673e71fff4c1770e625c9c27859956014fd3337f2fce580a00f250",
+  "window_size": 3
+}

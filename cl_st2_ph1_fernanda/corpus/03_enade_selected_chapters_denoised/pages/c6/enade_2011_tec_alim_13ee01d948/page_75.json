@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_067a00a5894c3b71006af8eecd89c887d1bc91ad9ec9ee0e30",
+    "usage": {
+      "input_tokens": 2340,
+      "input_tokens_details": {
+        "cache_write_tokens": 2337,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2337
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 316,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2656
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_74.txt",
+      "source_sha256": "d3cd7a212e5b1b0906916ac97b378458de759a32cb96a1659f3b9b20c487039b"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_76.txt",
+      "source_sha256": "2c09246a77ec9641938ebb022ecb0f27781f888404816d89f20c51fa0ec3a696"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:17Z",
+  "duration_seconds": 5.77,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_75.txt",
+    "source_sha256": "1aabc117306b04a6e5cc7add02ede18fc75cff556938d37b60c4c5af7784af1f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7bd5d81939e7c8b8168ff7092fddeb6580cf6de2d64ea437b9fa27b6586435e8",
+  "request_fingerprint": "da21987fcd4e9a9f9f935b366f2e67fae617cd2546287338d728d8aa18e1a7cf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. Removida também a linha de fonte associada ao Gráfico 3.19; a prosa que descreve o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico, que é bimodal, com máximos na nota zero e no intervalo (40;50]. Os coeficientes de assimetria das regiões Norte e Nordeste são positivos e maiores do que 1. Para as demais regiões, assim como para o Brasil com um todo, os coeficientes de assimetria variam entre 0,09 (Sul) e 0,96 (Centro-Oeste).",
+  "text_sha256": "09268efd86dca0ac2867c878176638b467eb3b106b8c5a8c5e8373e621f1bc6f",
+  "window_size": 3
+}

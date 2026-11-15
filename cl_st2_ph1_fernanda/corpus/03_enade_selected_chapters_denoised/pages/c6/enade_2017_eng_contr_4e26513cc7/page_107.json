@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0be7fcdba95b3f21006af90688225087d18406bbd65f4ee495",
+    "usage": {
+      "input_tokens": 2768,
+      "input_tokens_details": {
+        "cache_write_tokens": 2765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1290,
+      "output_tokens_details": {
+        "reasoning_tokens": 466
+      },
+      "total_tokens": 4058
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_106.txt",
+      "source_sha256": "e90a6c41d2b5d7d3e2d9aa1c459354e9081f562a7c66a24c8ddaa315142d00ee"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_108.txt",
+      "source_sha256": "fcfd8bf60a73486481d48d76c3a21e0873faa7dacf1dc84bf5e27e04a08b5ed6"
+    }
+  ],
+  "created_at": "2026-11-15T01:10:32Z",
+  "duration_seconds": 11.565,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_107.txt",
+    "source_sha256": "5c7c4d5d892d96534b454306dd7220d928b8fa8fc9b36496155c5b6f87e100b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6c3a4040f0e87b1e0cebc48efdf6c1050a52405034524e6ead6d0bf942e97f85",
+  "request_fingerprint": "50b8763fcfb768456d18cc67cda9a327c0253f8f02f66ee7509813cb66527aef",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.2 e 6.3, incluindo títulos, dados e fontes.",
+    "O texto da página termina em “56,9 na”; a frase continua na página de contexto e não foi completada."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.2 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova como um todo foi 42,1. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (47,4), e os das IES Privadas obtiveram Média mais baixa (38,0), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Norte e Sul (9,4), a maior e a menor Média, é igual à diferença entre IES Públicas e Privadas (9,4), caracterizando a não existência de uma maior diversidade administrativa ou regional. O Desvio padrão para as IES Públicas (13,1) foi praticamente o mesmo do Brasil como um todo (13,2), indicando uma dispersão semelhante à do Brasil nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades e os CEFET/IFET obtiveram Média mais alta que a nacional (45,5, 44,5 e 42,1, respectivamente). A Média das Faculdades (36,2) e dos Centros Universitários (38,5) foram menores. Constata-se que existe diferença estatisticamente significativa ao nível de 95% entre as Médias mais baixas, das Faculdades e dos Centros universitários, e a dos outros dois tipos de Organização Acadêmica.\n\nQuanto à Modalidade de Ensino, não houve estudantes desta área na modalidade a distância. A Média da Educação Presencial foi 42,1, a mesma da prova como um todo.\n\n6.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 6.3 apresenta as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 57,4. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 17,9. A maior Média foi obtida na região Sul (61,6), e a menor, na região Norte (56,4). As demais médias foram: 57,8 na região Nordeste, 56,7 na região Sudeste e 56,9 na\n\nA maior nota no Componente de Formação Geral da prova do Enade/2017 foi 98,2, obtida por, pelo menos, um aluno na região Centro-Oeste. A menor nota Máxima foi obtida na região Norte (93,4). A Mediana do Brasil, como um todo, foi 58,8, sendo a menor Mediana encontrada na região Norte (56,8), e a maior, encontrada na região Sul (63,1). A nota Mínima nessa parte foi zero nas regiões Nordeste e Sudeste, 7,5 nas regiões Sul e Centro-Oeste e 15,0 na região Norte.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre a maior Média das notas do Componente de Formação Geral, obtida na região Sul (61,6), e as demais médias regionais.\n\nO Gráfico 6.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50; 60], seguida de perto pelo intervalo (60;70].",
+  "text_sha256": "160349a3ad1595c15b6eba7b36037798fd5991c874830f8c2b8205faccd3449f",
+  "window_size": 3
+}

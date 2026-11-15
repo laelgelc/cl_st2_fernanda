@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea8e74480f47e8b006af8f54343ac87d1bf6ae5445998fd39",
+    "usage": {
+      "input_tokens": 2203,
+      "input_tokens_details": {
+        "cache_write_tokens": 2200,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2200
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 2839
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_43.txt",
+      "source_sha256": "3ebd0655bd8307eeac7ce787b77a3e2372e428a8b7a60ae12b8171c04a85467b"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_45.txt",
+      "source_sha256": "42e3bb945622f6749214cc55e3ef3489b825d33c840ba68188df5b2a379e684b"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:51Z",
+  "duration_seconds": 7.091,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_44.txt",
+    "source_sha256": "e20f253320d3b598fa285110043b100beb8a0891bdae450076ae4afbf5ba66b0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b165d578e5fd8cf3edea72b6c4bc49c520418fd0032467b6f6dbf10322b01161",
+  "request_fingerprint": "def0028e274ec127ac94e87dc0d27efcd296e34fb3b5b965dcbedc63a74475e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte; a linha fragmentária “/DAES - ENADE/2013” também foi excluída como parte da fonte da tabela."
+  ],
+  "status": "success",
+  "text": "encontrada na região Nordeste (49,6). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (30; 40]. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,3 para a nota da prova como um todo e 14,2 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,12). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,25 para o Nordeste e -0,05 para o Sul).",
+  "text_sha256": "52f5663a52619d9d587e759b92aa1f97c96d8c66c44278e12462e6e70c22af6f",
+  "window_size": 3
+}

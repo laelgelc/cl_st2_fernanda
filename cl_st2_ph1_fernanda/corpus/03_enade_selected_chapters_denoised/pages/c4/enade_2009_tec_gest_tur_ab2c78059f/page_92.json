@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01fc118ba64fbe38006af8e7c89be887d1961e87299b66c44f",
+    "usage": {
+      "input_tokens": 2652,
+      "input_tokens_details": {
+        "cache_write_tokens": 2649,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2649
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 524,
+      "output_tokens_details": {
+        "reasoning_tokens": 353
+      },
+      "total_tokens": 3176
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_91.txt",
+      "source_sha256": "8292e062167577119d64bb7a5a098be44d9c2fff82ae52c833c8f3fd99e0c349"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_93.txt",
+      "source_sha256": "8cc258a027daace9689fdedb5750f4b3b7f4c6521ec362da051c73f3848d86f6"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:20Z",
+  "duration_seconds": 5.395,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_gest_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM TURISMO.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_92.txt",
+    "source_sha256": "2babfcb6e99187b8ef55ed117f96e60d6567b6543198f31d9790493d6ee0902a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "000e93bd94f4370c376dce9f470bdbc70b7bc59996de877bba2c5ee4f764da03",
+  "request_fingerprint": "de762c6290e2a490fea85b67c636d53f52966526f5433a471f289d9bf6d3b656",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.13b e 4.13c, incluindo títulos, dados, escalas, legendas e fontes.",
+    "A prosa termina no alvo em “desconhecimento do”; a frase continua na página seguinte e não foi completada."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.14a e 4.14b apresentam a distribuição das respostas à questão “Você se deparou com alguma dificuldade ao responder à prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM GESTÃO DE TURISMO. Em relação às Regiões brasileiras, o percentual de ingressantes que apontaram o desconhecimento do",
+  "text_sha256": "f535ed99162e54b0cb36ab31f8e075461e9ca3bf2f98deb06b48344c075a2fed",
+  "window_size": 3
+}

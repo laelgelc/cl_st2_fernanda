@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d7337aeb7d68c92006af9161af0c487d1be29cc6711786c10",
+    "usage": {
+      "input_tokens": 2841,
+      "input_tokens_details": {
+        "cache_write_tokens": 2838,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2838
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "total_tokens": 3235
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_166.txt",
+      "source_sha256": "cd16056e3e59b8bb0b3a756b36d29c5334a10bd61eb2c55e131a60a2ba6a32fa"
+    },
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_168.txt",
+      "source_sha256": "43b05fe6b72bc7b364ae0f6f88e31a0149a1c94aa16565fab0b41ac912256cb0"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:58Z",
+  "duration_seconds": 4.671,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 167
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_167.txt",
+    "source_sha256": "35c93d66a6cbdd864128460b475d26b1e0e2b10aa3f048251a358ef4a51d4537"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab8681dbbeee3ae0b3dd16d617cc5a81a288a885674a08eca39aeb6dba6ec90b",
+  "request_fingerprint": "fd2cebbf64e3df4ef8902eafc853f616448f08d7354d45560f90d35befe40359",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removida a linha de fonte atribuível ao Gráfico 6.6; o gráfico propriamente dito não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo [0; 10], com frequência de 30,5%, seguida pelo intervalo (10; 20], com 19,6%. Destaca-se que a distribuição é sempre decrescente até o último intervalo de notas.\n\nNa sequência, os resultados verificados para cada uma das questões discursivas de Formação Geral serão apresentados, estabelecendo-se relações com os conteúdos abordados em cada uma delas. Os comentários das Bancas de docentes corretores, a respeito do observado na correção das respostas dos estudantes, suas impressões e conclusões serão apresentados junto à análise de cada questão.",
+  "text_sha256": "615cc2ae8afc8c7d6028a802cd73e7f4d5537196adbb13e81ada62db21adb31b",
+  "window_size": 3
+}

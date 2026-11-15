@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0afdfdf050b38585006af8faba198c87d1b6acbd5eb4ed712b",
+    "usage": {
+      "input_tokens": 2449,
+      "input_tokens_details": {
+        "cache_write_tokens": 2446,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2446
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1007,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3456
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_91.txt",
+      "source_sha256": "c7cd1ab465c6d44f631b16e2d31c93eb2a4c333d8788db7ea79750492ae2af0c"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_93.txt",
+      "source_sha256": "7368502faca6d85638014dee04e1caed4038b29d07021350f63527427d4afff0"
+    }
+  ],
+  "created_at": "2026-11-15T00:20:10Z",
+  "duration_seconds": 8.342,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_MATEMÁTICA.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_92.txt",
+    "source_sha256": "7c3faadeedd9b873c25b4df156a7a68295c4eaced2c25e2d66669c34bf2586d7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cc7f27ae77c62dd993df41580dd75bf3848897b3338b6275602f3ea35e7edfda",
+  "request_fingerprint": "a99278bce609b8ea40a97fbdbbd960dfa1d061f9b98326462a0f424392fe8f47",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.19, incluindo título, dados e fonte, removida.",
+    "O Gráfico 3.13 parece estar na página-alvo; a representação gráfica foi excluída. A linha de fonte aparece na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "86\nAlgumas fragilidades. No conjunto P das “palavras com letras” (conforme referido no item ‘a’), a distância de Hamming não é uma métrica: o domínio da função fornecida não é P x P, pois d(x,y) não está definida quando as palavras x e y são formadas por um número distinto de letras. “Casa” e “Cadeira”, por exemplo, são elementos do conjunto P das “palavras com letras”, mas a definição fornecida não permite a obtenção de d(Casa,Cadeira). O enunciado do item ‘a’ é, portanto, falho ao definir o conjunto das palavras consideradas, pois deveria fixar um número natural arbitrário n de letras, a fim de solicitar a demonstração de que a distância de Hamming define uma métrica no conjunto das palavras formadas por n letras. Devido à gravidade de tal falha, a questão foi anulada.\n\n3.3.2.5 Análise da Questão Discursiva 4 do Componente de Conhecimento Específico (Licenciatura)\n\nA Tabela 3.19 contém as informações relativas à questão 4 do Componente de Conhecimento Específico (Licenciatura). A média geral do Brasil foi 10,2, sendo a menor média registrada na região Norte (4,9) e a maior, na região Sudeste (14,3). A nota máxima, 100,0 pontos, foi alcançada por, pelo menos, um estudante em todas as regiões do Brasil, sem exceção. As medianas e as notas mínimas foram 0,0 em todas as regiões do país, o que significa que pelo menos 50% dos estudantes de todo o país obtiveram nota zero ou deixaram a questão em branco.\n\nO Gráfico 3.13 representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico (Licenciatura). A maior frequência ocorre na categoria “em branco”.",
+  "text_sha256": "12dea01f0ab325c511e7a4f26eba57175ebb1a0210dfc6b610582ce533ceaee6",
+  "window_size": 3
+}

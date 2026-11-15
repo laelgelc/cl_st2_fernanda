@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e3999d41086b89b006af91354f06887d1b4f6bf84f97e2057",
+    "usage": {
+      "input_tokens": 2557,
+      "input_tokens_details": {
+        "cache_write_tokens": 2554,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2554
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 251,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 2808
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_167.txt",
+      "source_sha256": "ca442aac21cf988381abf76a092eaf935682064aefe61be9dfbdcbacee092178"
+    },
+    {
+      "page_number": 169,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_169.txt",
+      "source_sha256": "0546ce2a909c47053df2a337134e6cc8b4e458fb4c3edeaf469394ab3e06b733"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:08Z",
+  "duration_seconds": 3.658,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 168
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_168.txt",
+    "source_sha256": "a54ffb283f292ee8e2b803e451a192e80cc092ffa92789d01488d8173ce777f0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a5aa545a4f4a73b19676e0b9c108689cd7642b26835215170eb5d08091c93b88",
+  "request_fingerprint": "a357d239b2da4b1bc4716aa15cde9c56ca849568509c75e8b1847354f6c4c1a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.9 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral da questão 1. Observa-se que a maior frequência (28,0%) corresponde à dos estudantes que obtiveram nota no intervalo (10; 20], seguido do intervalo (0; 10], com 24,3%.",
+  "text_sha256": "bc38111499821fc0e533d2484db93942158023f1bc83697097e1103328534a98",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c5bc224d9286345006af918f377cc87d1ad7b93879b154eff",
+    "usage": {
+      "input_tokens": 1746,
+      "input_tokens_details": {
+        "cache_write_tokens": 1743,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1743
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 2000
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 201,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_201.txt",
+      "source_sha256": "8ab8df058c621335a623680e46d624699f79eb5a93ea7acd3decc2d793b1ddbe"
+    },
+    {
+      "page_number": 203,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_203.txt",
+      "source_sha256": "6cfaa92c405bbde35dc5f4a68cc86296618059353ec396c8ae18f853011bc0e6"
+    }
+  ],
+  "created_at": "2026-11-15T02:29:07Z",
+  "duration_seconds": 3.272,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_GEOGRAFIA.pdf",
+    "page_number": 202
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_202.txt",
+    "source_sha256": "6b8a5ec9bab73aa2c12c9c01d88ef0c9e3df6ca03c277e45e4c452b8a0244ff9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c61a1ce03ee21ac625bbef043b44e523f236f038336575537ea476a0adeddf8d",
+  "request_fingerprint": "b3b07e31416a88f7f33a1e1f6cb26e52611b09c8db17e4931b321af36722c180",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.11b; o material gráfico associado também foi excluído."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes de Licenciatura que consideraram a prova Longa ou Muito longa, em relação ao tempo total destinado à sua resolução, foi menor entre os estudantes de cursos de IES Privadas (41,1%), não havendo diferença estatisticamente significativa da proporção em relação aos de IES Públicas (41,5%). Já a proporção de presentes de Licenciatura à prova que considerou a extensão Adequada foi de 49,0% para os de IES Públicas e de 50,4% para os de IES Privadas (ver Gráfico 4.12a e Tabela II.6a, no Anexo IIA).",
+  "text_sha256": "811b4e0c23adb6e0f14219cfba36cbbb1f067f154bf2b9d7eac7de13f9db25ae",
+  "window_size": 3
+}

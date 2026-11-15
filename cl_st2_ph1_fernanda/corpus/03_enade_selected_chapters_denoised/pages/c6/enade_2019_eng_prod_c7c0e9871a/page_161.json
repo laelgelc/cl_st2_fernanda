@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f4b32f94afac84a006af9119dd2c487d1815fe8fea20a7eea",
+    "usage": {
+      "input_tokens": 2876,
+      "input_tokens_details": {
+        "cache_write_tokens": 2873,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2873
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 914,
+      "output_tokens_details": {
+        "reasoning_tokens": 333
+      },
+      "total_tokens": 3790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_160.txt",
+      "source_sha256": "e117d982dd935e30082d1438d6a679b08816a28f3928bdc0571dda8dde457974"
+    },
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_162.txt",
+      "source_sha256": "84526c726d189964009d4b3aae9b7f5249ff420d1becd125e63b2bf4b857dbec"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:49Z",
+  "duration_seconds": 7.865,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 161
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_161.txt",
+    "source_sha256": "6c788f2e993fe1ec65d137dbd4df7e3d56ef22d83f22d71014bd61540896164b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "38587154e5f39940d04947ee9d9dc147a549b66fc5157a23bb371872fc850efd",
+  "request_fingerprint": "60452b5d6d6a1281ac5c427cd5ca7d63226963e0bf15e6d44655987e423da74c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,52, e foi considerada de nível Médio em termos de Facilidade, com uma proporção de 0,59 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,68.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à Facilidade e a que obteve o terceiro maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 9,5% escolheram a alternativa A (em azul), 13,5% escolheram a alternativa D (em laranja), 14,2% escolheram a alternativa E (em vermelho), 30,0% escolheram a alternativa B (em verde, gabarito), e 32,5%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "4e5e745f1d308cfd8d28dc5a993df48da870fd0028cdabd8edc0c2d1f48005ed",
+  "window_size": 3
+}

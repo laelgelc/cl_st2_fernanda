@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efe1043310b7e20006af8ed4cae7887d199fa04229da02327",
+    "usage": {
+      "input_tokens": 1665,
+      "input_tokens_details": {
+        "cache_write_tokens": 1662,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1662
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 525,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 2190
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_100.txt",
+      "source_sha256": "f9b3ccfd0a232a934eb26dc1cb0cc5540bd0651d5ac41b68ac3ede3e594e1561"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_102.txt",
+      "source_sha256": "c21123bc7c3a1977a6651b969b926ecb798d7928627daba62253173d4d4006d4"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:52Z",
+  "duration_seconds": 6.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_101.txt",
+    "source_sha256": "cb9742cbeda7d684142da537e0b1d215ac19f2756ffa6777f519b3ecbdc4ab33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a849a43d03d3af4c652ab48d6194b977ca0aae9cedca84c358ecfd5b1b1c3018",
+  "request_fingerprint": "858220003915469ee311dc352b9f56b3979fa21d33a91cf068ca25cc7a9ce2fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, associada a material gráfico; os dados do gráfico não foram transcritos."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, uma grande proporção dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 42,4% na região Norte e 62,9% na Sul.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 12,2% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo menos de 3,5% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa e os valores caracterizam uma tendência decrescente com o desempenho.\nTendo em conta o quarto superior, 70,6% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos.",
+  "text_sha256": "e462806ffec89dd0502090289b8bd76f49989ee181296a214a1ae3cecc041212",
+  "window_size": 3
+}

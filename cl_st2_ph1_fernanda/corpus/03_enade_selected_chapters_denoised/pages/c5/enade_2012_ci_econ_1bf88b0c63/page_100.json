@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03fcd4b5458c9256006af8f091328c87d1a42f3ff02cf7f2f2",
+    "usage": {
+      "input_tokens": 2839,
+      "input_tokens_details": {
+        "cache_write_tokens": 2836,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2836
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 3124
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2012_ci_econ/enade_2012_ci_econ_page_99.txt",
+      "source_sha256": "f784244823116680eac5b5a35aca71b87602f138fb2a7a972635b4e590e68886"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2012_ci_econ/enade_2012_ci_econ_page_101.txt",
+      "source_sha256": "30a67f23a8a13758922b0563c1b8a0494dde4d504da6d883c233af74436f5810"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:49Z",
+  "duration_seconds": 2.659,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2012_ci_econ/enade_2012_ci_econ_page_100.txt",
+    "source_sha256": "f07aa312d16dd44894e6695e2c517fbf02f3415aee3d7ea9e0217ed8f6895b36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9de548c303b6e1c6243fae45976b5c5375ce5e941496fbb03d2d736ac576ca41",
+  "request_fingerprint": "797b9ebd8d204aeb1ae9fa11513f4bd5fca7afe00b275e3545488a6fd5d7c2ca",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, com dados por organização acadêmica, região e conceito, incluindo a linha de fonte MEC/INEP/DAES - ENADE2012."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram oito dos 12 cursos participantes. Dos cursos em Universidades, nenhum ficou sem conceito (SC) ou recebeu conceito 5. Apenas um curso recebeu conceito 1, dois receberam conceito 2, quatro receberam o conceito modal 3 e também um curso recebeu conceito 4.",
+  "text_sha256": "a2c569b4eab4c777c485c71b95b6efb9b2032d9f3014faa5efe2b16954102b2a",
+  "window_size": 3
+}

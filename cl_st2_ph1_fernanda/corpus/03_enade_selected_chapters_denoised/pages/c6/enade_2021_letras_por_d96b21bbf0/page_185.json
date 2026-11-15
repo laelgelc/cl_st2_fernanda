@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0442571cac89e14a006af91a184f7c87d194906c9853e80ade",
+    "usage": {
+      "input_tokens": 2746,
+      "input_tokens_details": {
+        "cache_write_tokens": 2743,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2743
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 630,
+      "output_tokens_details": {
+        "reasoning_tokens": 305
+      },
+      "total_tokens": 3376
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 184,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_184.txt",
+      "source_sha256": "7861a2329d5a4df61371cd4764726f6f35a61ebd3dd72b925bbb1b5c33ebefd1"
+    },
+    {
+      "page_number": 186,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_186.txt",
+      "source_sha256": "5cb6ad9fd6f6ad6daf13f94cc2eb17088f1eef89b52a477a13212ff6f67cc4f3"
+    }
+  ],
+  "created_at": "2026-11-15T02:34:00Z",
+  "duration_seconds": 5.939,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 185
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_185.txt",
+    "source_sha256": "97300fae944fa5d5053ab8447d956c4c7c88e674ecfe084f227dec59072a8837"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "751bb88a55ab7409079db16157447478731087539cef039612bacf893e3ac5e1",
+  "request_fingerprint": "49cc492a4aba1fe80de254860bc9ea1ef4cb3d4aa57a96daeaaae7d15154759e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 6.5; o material gráfico correspondente foi excluído."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.\nEventualmente, algumas respostas em branco, não são detectadas neste pré-processamento automático. A presença de pequenos riscos, ou manchas, podem fazer o",
+  "text_sha256": "274f7798b12ac36989389cd2e762f767f28258065235c9b411efd3b053d8c892",
+  "window_size": 3
+}

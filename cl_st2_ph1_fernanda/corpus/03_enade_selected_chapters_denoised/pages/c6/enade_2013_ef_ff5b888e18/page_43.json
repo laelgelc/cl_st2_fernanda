@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2f2699ef7cdd39006af8f347b90c87d18271ca4cc781c549",
+    "usage": {
+      "input_tokens": 2229,
+      "input_tokens_details": {
+        "cache_write_tokens": 2226,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2226
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 526,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 2755
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_42.txt",
+      "source_sha256": "d11408791671461937c71446608551ec28e358cdaa4f8abe225749e480d4a552"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_44.txt",
+      "source_sha256": "00f778643fab2f1f5cb8bcd33525d158408efa703752c5b08c04496b0ab58de1"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:23Z",
+  "duration_seconds": 5.038,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_43.txt",
+    "source_sha256": "b0a837641015ceb0212c43e1d864dea7e948a8f0ac42a7a623a48ba4eb0a80a3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "14653b0a859e3227ab10b5b834bf595b82d202dd830f28a26528d2c568176c2d",
+  "request_fingerprint": "6f47f2f3a4fd41ca90f2cfee51f7bae0dfae1105a88de150fece106c8c59dda2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A mediana do Brasil como um todo foi 44,3, sendo a menor mediana encontrada na região Norte (41,5) e a maior encontrada na região Sul (44,8). A nota mínima nesta parte foi zero em todas as regiões, exceto na região Norte (7,5).\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (50; 60]. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma menor dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 15,0 para a nota da prova como um todo e 14,7 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,15). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,15 para a Sudeste e -0,04 para a Norte).",
+  "text_sha256": "d0f7336dbc09f9e1dda8f5ac77730d845f9528c6a84a0778261f93a65e53f24b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b30b52b66a39a4d006af8f379422887d19ab5c3a720cb1a6b",
+    "usage": {
+      "input_tokens": 2853,
+      "input_tokens_details": {
+        "cache_write_tokens": 2850,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2850
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 770,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 3623
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_53.txt",
+      "source_sha256": "0275a643e506916500861bf36ca403e97ba332e8db460cd28100ee91e30de5c5"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_55.txt",
+      "source_sha256": "9844dd20f7336098d7163556da326a79d89ad52a5c56cca17b421faea45d6a36"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:13Z",
+  "duration_seconds": 7.141,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_54.txt",
+    "source_sha256": "7961f2c62c57d90e6dc97018c4c3a2af0c9c0a89734a8c57af1a63bb1bb5943e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0abb982cf99915af2bd570617e989e5bd9735b1272288de82a63e7729b412926",
+  "request_fingerprint": "1fe51912fb9cd44142c834c650edd23c5d31977b1a6e1e10758b1f6d1118c8ae",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.4, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e duas como fácil. Uma questão foi tida com grau médio de dificuldade, por ter índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Quatro questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos. Nenhuma questão foi considerada como muito difícil segundo o índice de facilidade.\n\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial.",
+  "text_sha256": "8a3ba762b942f283ac0fecd5dddbd9b412f2fbf51f0f339595470171faf61b8c",
+  "window_size": 3
+}

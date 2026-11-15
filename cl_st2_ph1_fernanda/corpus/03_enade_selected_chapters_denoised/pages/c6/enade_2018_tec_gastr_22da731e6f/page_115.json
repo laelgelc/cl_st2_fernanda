@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_087043a675a07dd6006af90eaffedc87d1bb8f28cb91f7611e",
+    "usage": {
+      "input_tokens": 2836,
+      "input_tokens_details": {
+        "cache_write_tokens": 2833,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2833
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 3347
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_114.txt",
+      "source_sha256": "43c9363732c4acf0d251ae221fbc4a49bb20e7cd1afa0639d7bacf25a1c899b6"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_116.txt",
+      "source_sha256": "2f2f4d6963c750b2a681a58c6d2e29d85e91c5a15c97e9aa8041cf7984dca7fc"
+    }
+  ],
+  "created_at": "2026-11-15T01:45:19Z",
+  "duration_seconds": 5.008,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GASTRONOMIA.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_115.txt",
+    "source_sha256": "33e793af0e1e6c1e66d0de4a4adb36bed953c2a1fa16d77ee41e7998243149c6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad85919a03ebd31e6fce60e993ff1917212a8089e3f56fa05bd2046bba49d699",
+  "request_fingerprint": "7e0f97128665d8fef01a570478edf7c4cd5e085aaf0176327b19aa78c0ce3719",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.1; a linha de fonte associada ao gráfico foi excluída.",
+    "Removida a Tabela 6.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (50; 60], seguido de perto pelo intervalo (40; 50].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 49,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais baixa (49,5) que a",
+  "text_sha256": "bcec4a23a267f693d0a0371950d04f5968ca76474bb365d15afcc3ab81fdd3ee",
+  "window_size": 3
+}

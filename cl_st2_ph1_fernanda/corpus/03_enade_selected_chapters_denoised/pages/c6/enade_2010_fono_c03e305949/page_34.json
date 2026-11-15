@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c4c5a141146b3b006af8e904f5b887d1b6facfe77743e26b",
+    "usage": {
+      "input_tokens": 2849,
+      "input_tokens_details": {
+        "cache_write_tokens": 2846,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2846
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 480,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 3329
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_33.txt",
+      "source_sha256": "cf4dd6b48e4b2576ca79c4446797651f360bca8e1e6f219d6e067f341e67c763"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_35.txt",
+      "source_sha256": "5a25b5171da43e5c8dc8a17dafd3ebfe67ec9d62a57b6e9ca6dbfa152f0bdc01"
+    }
+  ],
+  "created_at": "2026-11-14T23:04:36Z",
+  "duration_seconds": 4.943,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_FONOAUDIOLOGIA.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_34.txt",
+    "source_sha256": "984e24aacdfd16886394b8f4635a8fa4bc37e9ead393204ebc363ceb38891dad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f752ade73e47d4e268cc6cb8f5d5295842411c725d7ce5deb9eb64cdfb3658b1",
+  "request_fingerprint": "c2f4f14e12786455f95c1c62142fa7200c3fc289849fb69feda0db83864f1cba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo eixos, intervalos, rótulos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as proporções mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 36,1 dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 49,8, transparecendo uma superioridade destes em relação aos Ingressantes na prova em tela (Tabela 3.1).\n\nOs coeficientes de assimetria indicam uma assimetria negativa para os Concluintes (-0,7) e para Ingressantes (-0,1).",
+  "text_sha256": "afe2518a1329f7e60ad542d75b32deffffa2df4cc3d6a852a3426d9b0d16eb15",
+  "window_size": 3
+}

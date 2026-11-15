@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ddc1115d58f9eee006af90e3c07ec87d19ffdc319134c3475",
+    "usage": {
+      "input_tokens": 2398,
+      "input_tokens_details": {
+        "cache_write_tokens": 2395,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2395
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 403,
+      "output_tokens_details": {
+        "reasoning_tokens": 228
+      },
+      "total_tokens": 2801
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_149.txt",
+      "source_sha256": "5b70f80c39dc2e8305e7f3b8c2570c66288b5031632e533f780f364886717ff7"
+    },
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_151.txt",
+      "source_sha256": "b64befd5f60cea81fb3807a201fee2ab16e66768ba1ffc8821dbfa57b9c61840"
+    }
+  ],
+  "created_at": "2026-11-15T01:43:23Z",
+  "duration_seconds": 4.1,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN DE INTERIORES.pdf",
+    "page_number": 150
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_150.txt",
+    "source_sha256": "a59a1984b9b1bed49ff49a49c807509975d7eb2d8dd7d3b52a6600dfde055a2e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bd527bc2c069687d677d73a4f6742499ee7eea7d2c67840f65d9b24481a760b9",
+  "request_fingerprint": "2a28b770f0cc30dacce79053a8d391747bec9c03111331ba97c29954414356d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte. Removida a linha de fonte associada ao Gráfico 6.11; a prosa que descreve o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Design de Interiores. A moda dessa distribuição é a dos alunos que receberam nota zero, correspondendo a 14,9%. A segunda maior frequência, 12,5%, é no intervalo (30;40], seguida pelos intervalos (40;50], com frequência igual a 12,1%, e (20;30], com frequência 11,4%.",
+  "text_sha256": "aa4f93d27bc7b5ebc14030ec84b4e4f7bd8e8e4f8d946c0ed1a17f8ea6f57c82",
+  "window_size": 3
+}

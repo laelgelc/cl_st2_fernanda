@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07149db3a3141b42006af8ee021e1c87d1976237a7ce753347",
+    "usage": {
+      "input_tokens": 1638,
+      "input_tokens_details": {
+        "cache_write_tokens": 1635,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1635
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 497,
+      "output_tokens_details": {
+        "reasoning_tokens": 313
+      },
+      "total_tokens": 2135
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_89.txt",
+      "source_sha256": "fcf4a600460fbf63aa3355bf80e58d1ff7ab1ae976569de3ad6bc828bf80fb1a"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_91.txt",
+      "source_sha256": "ac43695d61fe39422afef88803aaba842f0d619812fa34e6317d4ff22424a7e6"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:54Z",
+  "duration_seconds": 5.47,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MATEMÁTICA.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_90.txt",
+    "source_sha256": "a57c6f61cd3261cd6278653e477d76bcd4ed8d3b61cdb625309a927521b1430c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d4e66479cd896c75a3e6e3bb0cda9717e4cf52652d5b2e088538649ce572e50b",
+  "request_fingerprint": "5dd7d8c96853e9031433e7022aa57982be5f033f785e42108be3cab62ffb45d7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to graph material on the target page."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que os valores percentuais daqueles que consideraram a extensão da prova adequada ficaram em torno de 50% em todos os quartos..\n\nNo Gráfico 4.6, que apresenta as proporções dos alunos que consideraram a prova longa ou muito longa segundo os quartos de desempenho, nota-se que a variação entre os quartos é muito pequena e não apresenta uma tendência de crescimento dos percentuais. O maior valor percentual situou-se no 4º quarto (44,5%) e o menor valor no 2º quarto (40,5%). A diferença entre os quartos não é estatisticamente significativa.",
+  "text_sha256": "5641d2ed5fc3fe1d389327b6e087caeb25cc16602d97396d7213a8f51afb283f",
+  "window_size": 3
+}

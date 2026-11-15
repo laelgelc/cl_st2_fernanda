@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04eb8460001eeb43006af910e834fc87d188b528a73e339f23",
+    "usage": {
+      "input_tokens": 2849,
+      "input_tokens_details": {
+        "cache_write_tokens": 2846,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2846
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 413,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 3262
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_165.txt",
+      "source_sha256": "2b3040469e673224241acebff554d7b3aff4a08713a4770c8801877ab84ca259"
+    },
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_167.txt",
+      "source_sha256": "dce4ca25ecc9a86d1d0381ddaf4763a449c72049e9a4cbb99b207549257466f2"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:48Z",
+  "duration_seconds": 5.534,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 166
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_166.txt",
+    "source_sha256": "24786e94573b466fbf41e31e474c2cb51653ed934343c16c2423e5e986455bdb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d349fa40fbc72ba3efb221c311fdb9f6e3a09e738f28e5604a200205cfbe88a8",
+  "request_fingerprint": "df524dc19035f495da21f711f8e240fad3622230ce97283de0ea2e18fb0b1c27",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removida a fonte do Gráfico 6.6; o gráfico e seus elementos foram excluídos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo (30; 40], com frequência de 19,1%. Destaca-se, também, o intervalo [0; 10], com distribuição de 17,6% do total de notas, sendo que, no intervalo [0; 10], se inclui, além das notas zero, a frequência de estudantes que deixaram esse tipo de questão em branco.\n\nNa sequência, os resultados verificados para cada uma das questões discursivas de Formação Geral serão apresentados, estabelecendo-se relações com os conteúdos abordados em cada uma delas. Os comentários das Bancas de docentes corretores, a",
+  "text_sha256": "0805cda9b8d6210b18e9a55be38b5cbc430193418342b24f4d6afc162009f53e",
+  "window_size": 3
+}

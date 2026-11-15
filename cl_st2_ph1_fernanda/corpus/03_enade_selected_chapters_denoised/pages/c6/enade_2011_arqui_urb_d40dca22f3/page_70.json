@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0505465c784063f5006af8eace0ff087d1ab44e8f1c314098d",
+    "usage": {
+      "input_tokens": 2410,
+      "input_tokens_details": {
+        "cache_write_tokens": 2407,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2407
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 697,
+      "output_tokens_details": {
+        "reasoning_tokens": 290
+      },
+      "total_tokens": 3107
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_69.txt",
+      "source_sha256": "63558da4b214f0e621cb9b5f96c0829a3832d39e4209df337a9803016655edb6"
+    },
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_71.txt",
+      "source_sha256": "68aabbfa61643ab1732415a855517e91af244cf93c6ade3667fec72db8b861f3"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:13Z",
+  "duration_seconds": 7.742,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 70
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_70.txt",
+    "source_sha256": "f7c95b8ad0b3d840c94af77782c045607f2349e3c25f2e89997d2d7bcbfb59a1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e2f1d5176852ce4fd469d39364824a0cbcb6188b9f7e20b30d8498019343f171",
+  "request_fingerprint": "55e119da455605cd72903d69cb79c14bbc3a6ab97df1023dd4e15bbf96b7cf5e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e linha de fonte. A prosa que descreve o Gráfico 3.20 foi preservada; o gráfico não aparece no conteúdo fornecido da página-alvo."
+  ],
+  "status": "success",
+  "text": "média geral do Brasil foi 21,7, sendo a menor média registrada na região Norte (18,9) e a maior na região Sul (26,2).\n\nA nota máxima (100,0) foi atingida por um ou mais alunos das regiões Nordeste e Sul, enquanto a nota máxima das regiões Sudeste e Centro-Oeste foi 95,0. Já na região Norte foi 90,0. A mediana foi 15,0 em três regiões (Norte, Nordeste e Sudeste) e 25,0 em duas regiões (Sul e Centro-Oeste). A nota mínima (0,0) foi obtida em todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.20, representa a distribuição de notas na questão discursiva 4, no componente de Conhecimento Específico. Como nas outras questões discursivas, o número de estudantes que deixou a questão em branco foi muito grande, correspondendo à moda da distribuição. Dentre as notas dos que resolveram a questão 4, o intervalo modal foi (20,30]. A assimetria da distribuição confirma o valor baixo da média, que foi 21,7, já que apresenta concentração em notas inferiores ao intervalo (20;30] e uma cauda longa do lado direito deste intervalo. Tanto na distribuição como um todo quanto na análise dos resultados dos alunos por região, os coeficientes de assimetria são sempre positivos e com valor alto, chegando a ser maior do que 1 na região Norte, 0,9 nas regiões Nordeste e Sudeste e em torno de 0,6 nas regiões Sul e Centro-Oeste.",
+  "text_sha256": "ec66f03aa33cf079aaf8cd40a3a46a108796f5980a45fbfc68015a9209f972e6",
+  "window_size": 3
+}

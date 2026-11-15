@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08b349b75432fe52006af9128c3d2487d1afce17b8d61d0cc8",
+    "usage": {
+      "input_tokens": 2547,
+      "input_tokens_details": {
+        "cache_write_tokens": 2544,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2544
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 423,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 2970
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 206,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_206.txt",
+      "source_sha256": "d19d5eebe68259148dd19836335cdadf560d8d621848164a7ffd009fc1c9fdf9"
+    },
+    {
+      "page_number": 208,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_208.txt",
+      "source_sha256": "ab8c2f3e4392fd994f2f3a5a7da6dd17b23cafda1244b246e1b3d91f694049b8"
+    }
+  ],
+  "created_at": "2026-11-15T02:01:48Z",
+  "duration_seconds": 5.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 207
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_207.txt",
+    "source_sha256": "952ed682b1d31aa78061294be1ab2d08f43b1f5a66cdc235d6a99cb13ac7d1c1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d690e9a55a53def2bb5263b60e99f938cd29babd886dd84926c91f2247ebc5a5",
+  "request_fingerprint": "2c74745142e1a27b98f47d0f9674e39a26109e62ec63c8d067d445d01ea53807",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.13; o gráfico e seus elementos não constam no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.13, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Metade dos participantes deixaram a resposta à questão em branco. Somando-se a frequência desses com a daqueles que tiraram zero nessa questão, chega-se a 72,9% dos participantes. Apenas 8,8% dos participantes obtiveram notas no intervalo (0; 10].\n\n6.3.2.6 Comentários sobre as respostas à Questão Discursiva 5\nA Questão 5 tratou de um tema clássico do curso de Termodinâmica, a saber, ciclos termodinâmicos, mas especificamente da análise do ciclo Rankine de produção de potência.",
+  "text_sha256": "c714bf295ff9b52e9008a9169f9c611cea4270df3443adf3c0741f7126a40ff5",
+  "window_size": 3
+}

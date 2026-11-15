@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06ca6b3899e89014006af8fb36e56887d1ab18d15f32e7f238",
+    "usage": {
+      "input_tokens": 1646,
+      "input_tokens_details": {
+        "cache_write_tokens": 1643,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1643
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 438,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 2084
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_100.txt",
+      "source_sha256": "cd7073913fe304dc8d77b000bc4de03d4f8d57d519a00d9a9ce9fa8230218899"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_102.txt",
+      "source_sha256": "9754b7593971e25e4bfe5a6318a7a966dcadf9a3418c073b8ed76adbdba9fcdd"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:14Z",
+  "duration_seconds": 5.338,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_101.txt",
+    "source_sha256": "f420bc6b0c60bdf30f15f8dc34a9ac87b45516cc5b26a4e7bf53ac960977c038"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b2e6fe4504e3fef6e628c51b5de63c8c2d6dad676729a5b7e40cafd0fc14739",
+  "request_fingerprint": "7ceccbbd31527b16e49d8eeb827f240495fb0fffec315ce84ef8c0383b830ef6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, associada a material gráfico; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "para a maior parte dos respondentes (maior do que 70% em todas as regiões e maior do que 62% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas entre toso os quartos de desempenho. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 86,1% dos alunos. No quarto inferior esta percentagem foi 62,7%.",
+  "text_sha256": "7ee20b691a2ff26c35162f122b2fa1b8677e0ef1afcf9f539e955d9807c81d31",
+  "window_size": 3
+}

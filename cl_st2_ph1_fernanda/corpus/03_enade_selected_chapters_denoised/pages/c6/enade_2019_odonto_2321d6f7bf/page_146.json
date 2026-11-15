@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0507b2cf9d1b1ae6006af914d94fb087d184608bda004b60b8",
+    "usage": {
+      "input_tokens": 2704,
+      "input_tokens_details": {
+        "cache_write_tokens": 2701,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2701
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 3164
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_odonto/enade_2019_odonto_page_145.txt",
+      "source_sha256": "cb7776f6373f7ed0d025a0a2b48ab391081995518e4c0075a2bce10d8ce3a57c"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_odonto/enade_2019_odonto_page_147.txt",
+      "source_sha256": "962315e2fe29f1d8103ddc4712085ccef5ce894b866ae2508d70867395c42b5e"
+    }
+  ],
+  "created_at": "2026-11-15T02:11:37Z",
+  "duration_seconds": 3.568,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ODONTOLOGIA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_odonto/enade_2019_odonto_page_146.txt",
+    "source_sha256": "7d4e7631ddfa84522c2b413ef8ee54bd5e3c23076bc92ba5ebd12b8380b00825"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a2b1137dedc9b2fbebd837135aedbf62a126a2840e3897c4359a9a4c88d1699a",
+  "request_fingerprint": "f7c033f3d2b9a607281545be60d1c1464d225ff7ece2d69d54281db1cf9a233f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2019”, identificada como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "d36aca86a7e5bf0be84bb42ba5de3d588eb5fdd74b880c0b105627ad86321551",
+  "window_size": 3
+}

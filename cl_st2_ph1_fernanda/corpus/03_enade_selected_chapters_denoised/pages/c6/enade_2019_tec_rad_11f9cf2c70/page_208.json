@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03945a0cebed5881006af91635fa4c87d1980bc4e022951827",
+    "usage": {
+      "input_tokens": 2444,
+      "input_tokens_details": {
+        "cache_write_tokens": 2441,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2441
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 207,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_207.txt",
+      "source_sha256": "ce248335d5f1425cde74a70dee43323532ac424cc2dec81ea4ac4d52798704b6"
+    },
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_209.txt",
+      "source_sha256": "1f82d1d74bc0f01c769a8ffff54d4c9122e7975d0b2e85f34415b1f880091a36"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:25Z",
+  "duration_seconds": 4.633,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 208
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_208.txt",
+    "source_sha256": "0f38f79ab2052e9d7cfc11df57b59096989f563d2daaeca85dac3a4b08d4deab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4c013668b583a2f51321d749dcdf420464dfddbcfc0dac9d2158d5836da4372b",
+  "request_fingerprint": "69ebefde180042f5bd65e2db5403961ddbf1742c83c6afda1f21904dd8d70e2b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título, os dados e a fonte da Tabela 6.21. O Gráfico 6.14 é mencionado, mas seu material gráfico não aparece nesta página."
+  ],
+  "status": "success",
+  "text": "Enquanto o maior desvio foi encontrado na região Norte (28,7), o menor foi encontrado na região Sul (20,7).\n\nA Mediana para o Brasil foi a mesma em três regiões 70,0, enquanto nas regiões Nordeste e Centro-Oeste a Mediana foi 65,0. Para o conjunto de estudantes de Tecnologia em Radiologia do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um estudante de todas as regiões. A nota Mínima do Brasil foi zero, o mesmo valor de todas as regiões.\n\nNo Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (70; 80], correspondendo a 23,7% dos respondentes. Apenas 0,9% receberam nota zero, tendo respondido à questão, e 5% dos participantes deixaram a resposta à questão 5 em branco.",
+  "text_sha256": "aec45545fb49d1744307f8be70c3f841fcba6a4a4453f6d01e564e486324b358",
+  "window_size": 3
+}

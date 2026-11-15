@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eb24dd100cebe8a006af90e86c46887d1b45744918417165e",
+    "usage": {
+      "input_tokens": 2693,
+      "input_tokens_details": {
+        "cache_write_tokens": 2690,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2690
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 906,
+      "output_tokens_details": {
+        "reasoning_tokens": 363
+      },
+      "total_tokens": 3599
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_111.txt",
+      "source_sha256": "718a077ae4c838c388b958cb67c45af9c614cc557be0f6a11f2637c513ff9c8b"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_113.txt",
+      "source_sha256": "aa20378e8b0be7b7e943e82cf83fe0415e3696cb33d298984c52ec152c5197d1"
+    }
+  ],
+  "created_at": "2026-11-15T01:44:38Z",
+  "duration_seconds": 6.725,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN GRÁFICO.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_112.txt",
+    "source_sha256": "ce723d878b37f5a2e4c19afee6a9d9f04239c71f8838537e633ef9f0971c1fa4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ef6e2895cf4b807440127c445aa5c86e924b2202bd93ffd753a2a2c5450c3a15",
+  "request_fingerprint": "24ca3a4693b0590789d2e29300364c1fab0500f11f02467eaaa24c8fea418af7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, valores e linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão objetiva de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade, com índice 0,31, e uma das duas que obteve maior Índice de Discriminação dessa parte da prova (0,51).\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 19,2% escolheram a alternativa E (em vermelho), 20,6% escolheram a alternativa D (em laranja), 12,4% escolheram a alternativa B (em verde), 12,0% escolheram a alternativa A (em azul), e 35,7%, a C (em preto). Entre os que acertaram três respostas nas questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e não houve participantes que tenha marcado mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 20% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50%.",
+  "text_sha256": "2b9ea822a510011334c50bbf46d912c63c0f3ea14094ac7c2bd6b51d4e1595a0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00988a1d5440b5eb006af8eac1a95c87d19f75b14f96a79f8b",
+    "usage": {
+      "input_tokens": 2511,
+      "input_tokens_details": {
+        "cache_write_tokens": 2508,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2508
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 446,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 2957
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_53.txt",
+      "source_sha256": "c35736f0544e5b480b7919968745db9cf8dbd17eae20f01b60625b3c4a66d736"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_55.txt",
+      "source_sha256": "8f255275601dc9e6578bda809f5a22bc19dd4a8c18b45330a29bba9b607a3453"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:01Z",
+  "duration_seconds": 5.011,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_54.txt",
+    "source_sha256": "57d9996e30fa5bfda8a9378cfde6e9242292214933f67fb22072148ef89f906c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95b43de0a9d38d4a1e2c4bf3cd2bb6e6d7cfb367fca5315e2db0f39103118bc8",
+  "request_fingerprint": "426f38704098effff2b79a3343c988e1d5898560449128624c032db30850b435",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.7, incluindo título, dados e fonte, e o material gráfico do Gráfico 3.14, incluindo sua fonte. A explicação em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.14 analisa a questão 32 do componente de Conhecimento Específico. Esta foi a questão mais fácil da prova, apresentando índice de facilidade 0,67, ou seja, 67,0% dos estudantes assinalaram acertadamente a opção B, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,44, classificado como muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 32, em função do número de acertos dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente",
+  "text_sha256": "fa8cba06d71369d9e68250ec265514abe77d80dfb99399bd7441646d82b1a3bc",
+  "window_size": 3
+}

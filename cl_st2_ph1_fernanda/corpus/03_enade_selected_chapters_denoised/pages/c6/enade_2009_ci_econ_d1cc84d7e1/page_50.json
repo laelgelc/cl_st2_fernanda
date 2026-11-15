@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee3fcfeac50fddc006af8e52bfb8087d1bae681e83bd74822",
+    "usage": {
+      "input_tokens": 3077,
+      "input_tokens_details": {
+        "cache_write_tokens": 3074,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3074
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 577,
+      "output_tokens_details": {
+        "reasoning_tokens": 251
+      },
+      "total_tokens": 3654
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_49.txt",
+      "source_sha256": "9284284272e51d6f23498f76c793e05a3c9afde499c1479413567ce7088a4a5f"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_51.txt",
+      "source_sha256": "7a5231d128ba0f8a7f34bfad7da116bdb5a74d5517ab09da52982310ef824811"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:11Z",
+  "duration_seconds": 6.494,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_50.txt",
+    "source_sha256": "a8ebfc148cf2adafa6821cb9bb052ac370279d1160c757c9cdcce6a11da8d04d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2f36294be82f2bf2179b85b66d43aae7830aa3613a819cd210d3639dd6f09281",
+  "request_fingerprint": "e92db04d5cbb061190f564713d1f392f5cbb8ed304635a5e61bcfdaee54cdad2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.8, incluindo título, dados, eixos, legenda, fonte e a nota de rodapé 5, que explica os intervalos de notas do gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra, a título de ilustração, o comportamento da questão 34 do Componente Específico para os estudantes concluintes da área de CIÊNCIAS ECONÔMICAS como função da nota geral na prova5. Trata-se de uma questão considerada difícil para os concluintes de CIÊNCIAS ECONÔMICAS. O poder de discriminação foi muito bom para os estudantes da área. Neste Gráfico, cada uma das cinco curvas, representa o percentual de respostas em determinada alternativa da questão, em função da nota total dos estudantes concluintes de CIÊNCIAS ECONÔMICAS. A curva verde escuro correspondeu à alternativa D, a correta para esta questão. Assim, observou-se que entre os estudantes com escores mais baixos – desempenho geral mais fraco na prova como um todo –, houve a escolha de uma alternativa incorreta, a alternativa C – curva vermelha. A proporção de estudantes que selecionaram a resposta correta C aumentou com o desempenho deste grupo de estudantes chegando ao acerto de 100% dos estudantes com notas pelo menos 87,5. Esta análise permitiu verificar como a questão discriminou entre os grupos de desempenho.\n\nOs Gráficos relativos às demais questões do Componente Específico constam do Anexo I.",
+  "text_sha256": "1d32c51fc3d3962f8d35c8724532c07836929a4b9fa1d87641a3a1489d81c1e0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_083edd1d67dd5b5f006af92127a05487d1bceff69245f52de9",
+    "usage": {
+      "input_tokens": 2567,
+      "input_tokens_details": {
+        "cache_write_tokens": 2564,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2564
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 320,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 2887
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_agro/enade_2023_agro_page_119.txt",
+      "source_sha256": "0ab9bb0996cf5bdbc530ed501a536ae4d5fc97dbf3cdb79f4989f1a84dbe7020"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_agro/enade_2023_agro_page_121.txt",
+      "source_sha256": "0eb82881fc91ed96b11bed748ccb03415980f5b33f55d90f111baa8f18662291"
+    }
+  ],
+  "created_at": "2026-11-15T03:04:07Z",
+  "duration_seconds": 5.33,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_AGRONOMIA.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_agro/enade_2023_agro_page_120.txt",
+    "source_sha256": "e20a15562b4252ff6b3dac752957934856e7f5a77560cf26c293b27738eb508d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6d783c21b0b7ff5b2b5579510c7e1258164a3f79ba4cc9237cc2c979229a1997",
+  "request_fingerprint": "7cf46de9b0981f3cfb0b33059ea269c78cc5940f11b265eeaacde157a8320d22",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.2 e seus elementos associados: título/caption e fonte (MEC/Inep/Daes - Enade/2023)."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "47907d24dcc0eca40b5f74dba877b47e5a19f3534828513d372585be3078e9db",
+  "window_size": 3
+}

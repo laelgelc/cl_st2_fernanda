@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01d646a684955b0b006af8f3fed9b087d197db99e4b3e87264",
+    "usage": {
+      "input_tokens": 1882,
+      "input_tokens_details": {
+        "cache_write_tokens": 1879,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1879
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 408,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2290
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_50.txt",
+      "source_sha256": "48321927b41a284e964c67ee654acaf3a457035d86d6e8701a3fb7d73cb3f595"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_52.txt",
+      "source_sha256": "59acde3b88a22497c38c7c79aa56f29f7c0ba846da09c973e1de9e6c0b1e8169"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:26Z",
+  "duration_seconds": 6.207,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_51.txt",
+    "source_sha256": "1005527501eb9654c169c7e0f369395aaf6130a6311811100afbe6d0804c6d8a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c89d61f1928c232bf2f67c0b0b9b3922ac0a15cd9161ce01e87425114c3b0bec",
+  "request_fingerprint": "0fdc20b73d10c1a92fcb1eabd9ba53c00aa8d2c7ffcbae14b6e4d17c9a917ca2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam, respectivamente, uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos no Componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se que existe diferença estatisticamente significativa entre a maior e a menor média das notas no Componente de Conhecimento Específico, obtidas nas regiões Sul (59,4) e Norte (47,2) respectivamente.",
+  "text_sha256": "386f797721df6ded333a5e343c8b76780d07f7744cf41c48a594b1855667414c",
+  "window_size": 3
+}

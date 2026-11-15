@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02dd4aa55aa07af3006af8fd55b26887d1b8c79c5a3d699740",
+    "usage": {
+      "input_tokens": 2476,
+      "input_tokens_details": {
+        "cache_write_tokens": 2473,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2473
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1245,
+      "output_tokens_details": {
+        "reasoning_tokens": 714
+      },
+      "total_tokens": 3721
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_51.txt",
+      "source_sha256": "027aeec79d660118053f2507504426993a125555c75ea2a91d7ff32f3100abd9"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_53.txt",
+      "source_sha256": "ac4ad98027ca58da8bd517a0f24caf92b637ff45590c8278100bb25454647157"
+    }
+  ],
+  "created_at": "2026-11-15T00:31:17Z",
+  "duration_seconds": 13.381,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_52.txt",
+    "source_sha256": "2d91714bc710d33c8aa4b27c7bc21880902db37519bc6aaca199d6c9b5de8011"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2f19fc1aeedc1aca2ae0650c2bf879fb7fbb08caa729fe10b3f912c92be934a6",
+  "request_fingerprint": "24b76c5593a869c78d0381c68ad36cc96f2ccf831ef00a4f8251edcb983b478b",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.4 é material gráfico excluído; a página de contexto seguinte contém sua linha de fonte, que não foi incluída."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação a facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 36,0% escolheram a alternativa D, 23,7% a alternativa C (correta), 15,9% a alternativa A, 14,4% a alternativa B e 9,5% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,3% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b849b7565d07ea9d448a16db8fc845097515785c5267bbbbbe29f96fc3c31f9e",
+  "window_size": 3
+}

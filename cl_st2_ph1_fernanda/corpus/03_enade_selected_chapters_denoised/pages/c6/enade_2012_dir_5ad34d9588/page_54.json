@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00563551c98157b6006af8f0ee4ff487d1ade5fd6f8113c459",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 2713,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2713
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 509,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 3225
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_53.txt",
+      "source_sha256": "772ab988b367cc3b3ad85c85e1acc3e23254884a7c95e25d5e377222412fdb4d"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_55.txt",
+      "source_sha256": "ef9cd394af424ba523560fd4e71eaf64c1180c9d32e65d6a3af88e37254b0d4e"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:22Z",
+  "duration_seconds": 5.41,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_54.txt",
+    "source_sha256": "837dcfaa4dc57fd9e2879a33f573caaa4488047dbec52f1ec0d30e167824c304"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f0a56c11a08b9a60c7e1033a2248360b3a985d6279ca19a129accdb7bc479cee",
+  "request_fingerprint": "78da3522bccb2730d974db382eb571e23cfae123615ee3e42f935649faebee61",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 24, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta D aumenta gradativamente, chegando a atingir 100% a partir de 20 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir da primeira nota não nula, como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "ee84009775e2389310f7c6c31131083e325ca0e9460180873da35b30423b354e",
+  "window_size": 3
+}

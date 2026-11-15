@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f89659525829472006af8ecef3c7887d18cd0381dcf61279a",
+    "usage": {
+      "input_tokens": 1648,
+      "input_tokens_details": {
+        "cache_write_tokens": 1645,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1645
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "total_tokens": 2092
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_83.txt",
+      "source_sha256": "4627a809f504254736ed51d3083f29df97e5a3b9c8fb3a3b860e8a84de38d7e0"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_85.txt",
+      "source_sha256": "9ab1671aabe771bde1bc2f16e316eb5ee0772ac39e3d144285af5c10e682368f"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:19Z",
+  "duration_seconds": 5.391,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_8",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VIII.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_84.txt",
+    "source_sha256": "0afd4bb8ce0220a12bfbf155212450c9e77f6839260903e233e77e3342c4aa52"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "102630292a0b2bc1d80872bfa84b881e82e3e946ceba370202e7a260f327dc70",
+  "request_fingerprint": "31a5998cfd102d6d6362c8065f1b830483ef3b595c8e52b752f013191d3f2088",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», associada a material gráfico da página; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "A análise das percepções dos estudantes sobre a clareza e objetividade dos enunciados permite afirmar que todos ou a maioria dos enunciados de questões relativas ao Componente de Formação Geral foram considerados claros e objetivos para a maior parte dos respondentes (maior do que 73% em todas as regiões e maior do que 70% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce com o desempenho, ainda que sem diferenças estatisticamente significativas entre cada quarto e o imediatamente seguinte. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 82,3% dos alunos e no quarto de desempenho inferior tal avaliação foi emitida por 70,1% deles, numa proporção crescente com o desempenho.",
+  "text_sha256": "5b0db10f8322e81a3d15d81e45237e4f90ba41db076257fda779070b271a54af",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06c3b0f67cda8f0f006af8f3fbf6ec87d18cb56a9d40ff9757",
+    "usage": {
+      "input_tokens": 1456,
+      "input_tokens_details": {
+        "cache_write_tokens": 1453,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1453
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 1672
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_46.txt",
+      "source_sha256": "c6596a4adbf27fb979e5f87665bf75d68cc8d0792b1c66fdfdfba5d1e4457f1a"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_48.txt",
+      "source_sha256": "8b8920196c245908c88def143980e5f24ecfc2b7765596f4b773b0e67c08d89b"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:23Z",
+  "duration_seconds": 2.886,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_47.txt",
+    "source_sha256": "bc7e8bb827e2dc42dff160debf28e7e4e681f9793c90eed759fc24ae1181c36d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5f881888dc0920360eb0538c0d16a9a1d40a4724fb2c114a71a964f5bd522679",
+  "request_fingerprint": "ce1413d908435368a7b5441c904b8a498b4df39fa4f669e48c6e0641e9fbd8b4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da página, incluindo a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013” e o número da página."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que não existe diferença estatisticamente significativa entre as médias. Diferente do que ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Fonoaudiologia, das IES Públicas (43,4) obtiveram uma média menor do que os das IES Privadas (44,4).",
+  "text_sha256": "fac28f5fb2692ba2d1fb90e4318a9a80ac29d9bdfde934b986223f92fe73ea93",
+  "window_size": 3
+}

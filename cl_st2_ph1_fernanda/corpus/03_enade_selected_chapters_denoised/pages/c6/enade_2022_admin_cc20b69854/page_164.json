@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05d338d7cc6be388006af91bb73a1c87d18ba7c4b0d1e93c19",
+    "usage": {
+      "input_tokens": 2282,
+      "input_tokens_details": {
+        "cache_write_tokens": 2279,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2279
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 388,
+      "output_tokens_details": {
+        "reasoning_tokens": 48
+      },
+      "total_tokens": 2670
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_163.txt",
+      "source_sha256": "2751b6bfa5336863363231b25c16e69e174e2f2e7159bf731f0b3c8c0953bfa0"
+    },
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_165.txt",
+      "source_sha256": "477bdd176fbc2ae0ca7b4c2e3d7ae3e5497d617ed2dcb3c58462db78287eba15"
+    }
+  ],
+  "created_at": "2026-11-15T02:40:55Z",
+  "duration_seconds": 4.155,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADMINISTRAÇÃO.pdf",
+    "page_number": 164
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_164.txt",
+    "source_sha256": "92909f6c104b59b92ee77ea81d2743d0a9db13aa3221ee759770aceb5f7673ea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b81c60e313fc864050f9af559cccc09a8751e79ee53b399d993965e268e9c1cc",
+  "request_fingerprint": "528b9d0ed9ce8362eb22c66104dd5f97719f2f5a3740a5130f5e5142d2715bf6",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as respostas passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas dessas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que, na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado nesse pré-processamento é verificar, para cada questão, a partir da quantidade de pixels, o que, provavelmente, é uma resposta em branco. A partir da separação desses documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Desse modo, quaisquer erros, desse pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.",
+  "text_sha256": "8bf37a45bbb5f0aeb5fd4b18cfb24d0be4e33b5317e9850cd50e909b4868f1bc",
+  "window_size": 3
+}

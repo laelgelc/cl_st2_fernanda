@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2bc95d7b2b90c8006af8ff25a0c887d1ac5e61826b7b5326",
+    "usage": {
+      "input_tokens": 2718,
+      "input_tokens_details": {
+        "cache_write_tokens": 2715,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2715
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 654,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 3372
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_com_ext/enade_2015_tec_com_ext_page_50.txt",
+      "source_sha256": "e6700a47a911d1b292add0d55b918513b1544173fbe61c71e73a3d2c746c8f53"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_com_ext/enade_2015_tec_com_ext_page_52.txt",
+      "source_sha256": "f0d38a38db9e3a6ef1a885de2dca767ca20195021e3f980b9d0c5cd888b86224"
+    }
+  ],
+  "created_at": "2026-11-15T00:39:01Z",
+  "duration_seconds": 6.467,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_com_ext",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM COMÉRCIO EXTERIOR.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_com_ext/enade_2015_tec_com_ext_page_51.txt",
+    "source_sha256": "26588678a8c625279654e8faea2a1cc4e60745acea7eb99b6a085a82fc3955c6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "796ee15ac7516f505b15b496d0a234c30adbeaafafc86ad994c6c50fed7a31b3",
+  "request_fingerprint": "e9dc084c43ee98c77dc3373510ba943ea146d8673d4a3c29a0c662af9404c121",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 36,1% escolheram a alternativa D, 21,5% a alternativa C (correta), 16,6% a alternativa A, 14,1% a alternativa B e 11,5% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,3% deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente.",
+  "text_sha256": "0663b62bb61785e1ba22041b17d403479103785b1cac75322852346915532455",
+  "window_size": 3
+}

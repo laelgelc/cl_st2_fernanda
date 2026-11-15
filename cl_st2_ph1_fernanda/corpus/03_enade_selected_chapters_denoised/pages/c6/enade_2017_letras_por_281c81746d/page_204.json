@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_027cc9ba41daf97d006af90a6f96c887d18e28e79fe5294ee5",
+    "usage": {
+      "input_tokens": 2654,
+      "input_tokens_details": {
+        "cache_write_tokens": 2651,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2651
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 528,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 3182
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 203,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_203.txt",
+      "source_sha256": "946c8119569b8e3fdba5d5bbd5d270378f89f1f498b6d468c4164e4740e5f462"
+    },
+    {
+      "page_number": 205,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_205.txt",
+      "source_sha256": "cae43923c189be24e954818b28e512e8884d92f80cbee78cb3421af30c4a86f1"
+    }
+  ],
+  "created_at": "2026-11-15T01:27:11Z",
+  "duration_seconds": 5.007,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_PORTUGUÊS.pdf",
+    "page_number": 204
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_204.txt",
+    "source_sha256": "ee1fffc98e79c228b8b26afb32286603612d0dacc63c84bce6553a6f0fdc6a7c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e0a6a0230c779c210136a079880f399cf6d1dfaa063a09ba4889903b0a58d0f7",
+  "request_fingerprint": "e3c5914e2ca952d9be3e212ae9dd44602ad1bcbfbd6597141784086412a9ad28",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do gráfico da página anterior, identificada pelo contexto como pertencente ao gráfico: “Fonte: MEC/Inep/Daes - Enade/2017”.",
+    "Removidos o título, os dados e a linha de fonte da Tabela 6.6."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.6, é apresentada uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, segundo a Habilitação, agora levando-se em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, para os alunos de Licenciatura, a maior Média foi a das Universidades (40,3), vindo a seguir a de CEFET/IFET (39,7), a das Faculdades (37,9) e por último, a dos Centros Universitários (36,5). O maior Desvio padrão, um pouco acima do valor para o Brasil, como um todo (15,5), foi o das Universidades (15,8). Os Centros Universitários obtiveram a maior nota Máxima, igual a 92,6, com as Universidades em segundo lugar, com 92,1. As Faculdades obtiveram nota Máxima igual a 79,1, e os CEFET/IFET, 83,6. As medianas foram: 39,7 nas Universidades e nos CEFET/IFET; 37,4 nas Faculdades; e 35,7 nos Centros Universitários, a menor delas. A nota Mínima foi zero para Universidades e Faculdades. Observa-se que existe diferença estatisticamente significativa ao nível de 95% no Componente de Conhecimento Específico entre a maior Média das Organizações Acadêmicas, obtida pelas Universidades, e as duas médias menores (Centros Universitários e Faculdades).",
+  "text_sha256": "80bbd7e1606a92679a13d5f9ab2bb0561a833d9a8592caeb277cc475db88d502",
+  "window_size": 3
+}

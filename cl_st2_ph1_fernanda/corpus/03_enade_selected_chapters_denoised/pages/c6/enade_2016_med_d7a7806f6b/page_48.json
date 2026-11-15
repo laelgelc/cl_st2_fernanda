@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01baa9f8e90fd7fe006af902ca65fc87d1bf51db7195293990",
+    "usage": {
+      "input_tokens": 2379,
+      "input_tokens_details": {
+        "cache_write_tokens": 2376,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2376
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 405,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2784
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_47.txt",
+      "source_sha256": "95a94e13c4637b63ed64bb9e5190c7f71ae1257f774fe402cd1eb6db2c768b04"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_49.txt",
+      "source_sha256": "bcf93904bf75ca48e48687ea7d73843c25efecde07cce7da0cbf85fb84768dd6"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:34Z",
+  "duration_seconds": 4.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_48.txt",
+    "source_sha256": "7ae3e1d2b40db90169806d06c51df540409a699ae030a9fdacce9bb42edcbcb7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0af4b2d0861df052c1e0b310415a840d870abd02d2b33a959ef28bcab1ef218c",
+  "request_fingerprint": "f81471892806b085f264adec049ab9b02403e02b0d5790e9112af09f9deddb92",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, com estatísticas básicas das notas do Componente de Conhecimento Específico por Grande Região."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Medicina em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas altas. Esta também é uma distribuição unimodal, e o intervalo modal é o (70; 80], seguido de perto pelo intervalo (60, 70], intervalo modal das distribuições anteriormente apresentadas.",
+  "text_sha256": "5492e3809d36913b526212dd5e286fa89c12e4c06b5237f00270b775a68bbd9e",
+  "window_size": 3
+}

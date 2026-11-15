@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0faa902b835b6f89006af8efc2553c87d194213e909328b4ad",
+    "usage": {
+      "input_tokens": 1420,
+      "input_tokens_details": {
+        "cache_write_tokens": 1417,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1417
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 470,
+      "output_tokens_details": {
+        "reasoning_tokens": 293
+      },
+      "total_tokens": 1890
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_93.txt",
+      "source_sha256": "4a8bb80e47a013ca9bb17cd4c558b49e2426086e73b4ecf4b6c4d8f2be8823a1"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_95.txt",
+      "source_sha256": "765f89f89a6a963d08d9b4c7ef0711efaf1a60f355f08aad38ea496a946297e4"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:22Z",
+  "duration_seconds": 5.07,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_94.txt",
+    "source_sha256": "46fd47478cfe977ba77149dcb3c504cd576a801e612f17492e38c556f6f1ca0e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a6707c36a84ddb8b0fe05b981782f03e925973dba4b1b1bad1c683b4de7a3ba6",
+  "request_fingerprint": "62fecd56c278812d4e921f383a08d131c2b2a293a8789dead08c66ae61d9e99c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to graph material on the page."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no 3º quarto (85,3%), em comparação com os demais, declarou ter gasto entre duas e quatro horas para concluir a prova. As diferenças entre o primeiro e os dois quartos superiores de desempenho são estatisticamente significativas, no entanto, entre quaisquer outros dois quartos de desempenho, não há diferença estatisticamente significativas. A tendência de crescimento ocorre até o 3º quarto de desempenho, com sutil declínio do 3º para o 4º quarto.",
+  "text_sha256": "a06347adcf6ffcdd1a8c0eac28eb512be15feada2ae1a561b08b1b6fbf0cf4f7",
+  "window_size": 3
+}

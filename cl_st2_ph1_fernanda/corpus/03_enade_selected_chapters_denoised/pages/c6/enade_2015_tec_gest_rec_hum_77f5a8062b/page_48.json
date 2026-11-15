@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0206cbf2185c5da7006af9001d0b8c87d19015d1ddeb76f0e6",
+    "usage": {
+      "input_tokens": 2342,
+      "input_tokens_details": {
+        "cache_write_tokens": 2339,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2339
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 606,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 2948
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_47.txt",
+      "source_sha256": "54d85d94f6fae99132ba8eb1aaf0fb367db3ab62ed5b9f780efdcda7fdcedabe"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_49.txt",
+      "source_sha256": "a8f1252511acdbe153ca4e4f09745ead7b67c746198231eb57de7c7f3fe3f2ce"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:08Z",
+  "duration_seconds": 5.915,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_48.txt",
+    "source_sha256": "f43ce96b9fc663c9b7480f1da21a7dc3de2b915541073816ceaff68bf3bf34a5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6ac3be0e6046310d509a2740bb36ce511381be13818fc7d655da95b3e2d73532",
+  "request_fingerprint": "6cfe8d414a6f08152c3013d4862527083e7dffd4039e8a6c241055c34be8f3ff",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, aparentemente associada ao Gráfico 3.3, cuja apresentação continua da página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi dos Centros Universitários e das Faculdades (39,1 cada), e, depois, a das Universidades (36,6). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o dos Centros Universitários (14,6). Os Centros Universitários também obtiveram a maior nota Máxima (93,2) e, além disso, obtiveram 38,0 como Mediana. Por sua vez, as Universidades obtiveram 90,9 e 35,6 como nota Máxima e Mediana, respectivamente. Já as Faculdades, obtiveram a nota Máxima (89,9) e a maior Mediana (38,4). A nota Mínima foi zero para todas as Organizações Acadêmicas.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (46,2) e IES Privadas (37,9).",
+  "text_sha256": "d01c05e729462980218e3d084d0e69d284535f435783222d27a858bb89006c83",
+  "window_size": 3
+}

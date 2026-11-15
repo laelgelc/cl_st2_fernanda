@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_012c06cfdc0f8d8c006af8ef32a90087d1a6038c1b09bfdb63",
+    "usage": {
+      "input_tokens": 2480,
+      "input_tokens_details": {
+        "cache_write_tokens": 2477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 610,
+      "output_tokens_details": {
+        "reasoning_tokens": 237
+      },
+      "total_tokens": 3090
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_34.txt",
+      "source_sha256": "ab2984ce6d3bad7164424798403c808aa68e464787103371164f5d87d5558985"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_36.txt",
+      "source_sha256": "2557202953ab87b6cc62a9676d4378c4a732dbad4bbdb68981b9af1c4a345837"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:58Z",
+  "duration_seconds": 5.54,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_35.txt",
+    "source_sha256": "d42e786f189eb9d7bc12da13c36514b62354b77c637c51255c38fb22cb7f2949"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "30f57f946a9a9a9fa2d932294f0729f105d3d701a9097bf75d77418b0d8b958a",
+  "request_fingerprint": "181c3491e94d1b06cceefdcfb7587f4f7a39b3318925e2cdb055b15798dae286",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "13,1, sendo o maior desvio padrão encontrado na região Sul (17,6) e o menor na região Centro-Oeste (8,8), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (80,5), ao passo que a região que atingiu a menor nota máxima foi a Centro-Oeste (66,0). A mediana do Brasil como um todo foi 48,4, sendo a maior mediana obtida nas regiões Centro-Oeste (52,3) e a menor obtida nas regiões Norte e Nordeste (43,6). A nota mínima foi zero somente na região Norte e a maior nota mínima foi obtida na região Centro-Oeste (33,8).\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1, que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (–0,20) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A assimetria negativa é mais acentuada na região Norte, onde o coeficiente encontrado foi –1,19. A única exceção é a região Nordeste, com coeficiente de assimetria positivo (0,04), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "28579168937bc37a8f76ced2d90e4230b4146a329889ed1484a6a765983b5719",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f5e512133c4ad2b006af8f88afb7c87d19f66a00fae71110b",
+    "usage": {
+      "input_tokens": 2723,
+      "input_tokens_details": {
+        "cache_write_tokens": 2720,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2720
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 348,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 3071
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_44.txt",
+      "source_sha256": "d53ae2b76c96ecba96c764f21a6fee57768e9ee359f4530ce970c0390e037b34"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_46.txt",
+      "source_sha256": "f20333ddb90c0264aa399b286310cb990e7bee33b16e5fba0b320cebf59d9269"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:50Z",
+  "duration_seconds": 3.857,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_45.txt",
+    "source_sha256": "ba337625761ee59579febe41621dc5f8f03ac5e18bd53e63e3b1057cffb6f8c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5ae2900d5c4d22902bb144c8cd7e5228a82120fd41ccecf53b651504754401e8",
+  "request_fingerprint": "412071ae131b6a3e99a8ff2985040e69208fa5946fbce038a3d92b5f7e77bfb0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada pelo contexto como pertencente ao Gráfico 3.2."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior média foi obtida por estudantes de IES Públicas (62,5), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (58,5).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Centros Universitários (59,8) e de Faculdades (58,3), e entre as Universidades (60,8) e os Centros Universitários.",
+  "text_sha256": "7d5feeaefc506c9b7c2868d89c5d9334ec7d1bc64c7bd720e198d74f63504c77",
+  "window_size": 3
+}

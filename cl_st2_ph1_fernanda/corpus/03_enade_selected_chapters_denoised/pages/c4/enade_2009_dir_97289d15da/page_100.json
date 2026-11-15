@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2662e9b92d38e6006af8e5ab58d087d1a3266d2a833fe3e8",
+    "usage": {
+      "input_tokens": 2491,
+      "input_tokens_details": {
+        "cache_write_tokens": 2488,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2488
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 2932
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_99.txt",
+      "source_sha256": "7f3a37210136dff5216766f0f49858256593810f0630897ca704dd92222227ac"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_101.txt",
+      "source_sha256": "1ed9abc0a989263e4d09d156df83af4f3b9e22d5013b0a44ac07e6828179cbfa"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:19Z",
+  "duration_seconds": 5.436,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_DIREITO.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_100.txt",
+    "source_sha256": "f25f6ac69698a9bd97dabf1b73b637346ecb77a9c92e9d28a3bb266a5c5fa1f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4ba5f0d773644b8d79dbd175e52add215cc8923c4a81afd6559cf1633db3b4b9",
+  "request_fingerprint": "631f5d8decec17b41ae827061f34e8a83b0d8bcfbb4a915ab7c70bc5fa1a1409",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.17a e sua linha de fonte, incluindo título, dados, eixos e legenda."
+  ],
+  "status": "success",
+  "text": "4.7 Tempo gasto para concluir a prova\nOs Gráficos 4.17a, 4.17b e 4.17c apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo quartos de nota final e grupo de estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de DIREITO. Quando perguntados quanto ao tempo de conclusão da prova, a maioria respondeu entre duas e três horas, tanto entre os concluintes (37,6%) quanto entre os ingressantes (37,3%). A segunda maior incidência de respostas foi entre uma e duas horas, igualmente para ambos os grupos: concluintes (31,3%) e ingressantes (33,3%). A proporção daqueles que declararam ter usado as quatro horas mas não terem conseguido terminar foi bem baixo: 2,5% entre os ingressantes e 2,6% entre os concluintes. Em ambos os casos esta resposta ficou mais concentrada entre os estudantes do primeiro quarto, aquele com pior desempenho.",
+  "text_sha256": "301df3a59d665e4102e982254720989fc0a1a1f5af579e8a096c0acdb7f07304",
+  "window_size": 3
+}

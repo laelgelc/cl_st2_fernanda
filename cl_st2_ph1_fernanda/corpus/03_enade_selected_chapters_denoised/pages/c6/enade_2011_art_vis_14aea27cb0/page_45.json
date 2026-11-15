@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_096b6d7ff1af9d5e006af8eae751fc87d18615dc5d4aaba324",
+    "usage": {
+      "input_tokens": 1905,
+      "input_tokens_details": {
+        "cache_write_tokens": 1902,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1902
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 683,
+      "output_tokens_details": {
+        "reasoning_tokens": 462
+      },
+      "total_tokens": 2588
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_44.txt",
+      "source_sha256": "4ba54ef111c288ed110541e70992bf59bdadf4947f7bde8b71e12a12dd5b0949"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_46.txt",
+      "source_sha256": "1ee757b785850ff76bd0de86e49330834aae0c40b1789ddb813b58eb7286e8a6"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:39Z",
+  "duration_seconds": 6.023,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_45.txt",
+    "source_sha256": "4cceb2085ceac7ff04d308994361c7b8466906a20fa96ec56c7e2b981ae6c5fc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f86c3fa2776c68b383de675a3786158c8ef0d8fc1f2a29e79f9d8123c4aaeec0",
+  "request_fingerprint": "5fcd3e70b2479527cb2bac9ec62e5c3e6048fe24d3a3cb53f41eca7599ca5898",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, identificada como pertencente a material gráfico; o gráfico associado não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de estudantes no componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se que existe diferença estatisticamente significativa entre as médias das notas no componente de Conhecimento Específico, da região Nordeste, onde a média foi a mais elevada, em relação às regiões Sudeste, Sul e Centro-Oeste. A região Sudeste foi onde os concluintes obtiveram a menor média, sendo também a que possui intervalo de confiança mais estreito o que está relacionado ao fato de ter sido a região com o maior número de concluintes presentes ao exame (1.453).",
+  "text_sha256": "30888e99d4f187bbce95766150c2173591222255e5f6c6a4e0c28fbe47b66c23",
+  "window_size": 3
+}

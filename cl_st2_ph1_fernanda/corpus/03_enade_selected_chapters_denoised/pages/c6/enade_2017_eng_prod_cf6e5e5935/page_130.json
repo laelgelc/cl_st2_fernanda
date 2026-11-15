@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ba17426bea64b7006af906c8a63c87d190ca8d3a8318b2ff",
+    "usage": {
+      "input_tokens": 2724,
+      "input_tokens_details": {
+        "cache_write_tokens": 2721,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2721
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1034,
+      "output_tokens_details": {
+        "reasoning_tokens": 563
+      },
+      "total_tokens": 3758
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_129.txt",
+      "source_sha256": "292e313b9317075e5d2c6e0ebdf4f4d1d77466fec20be7006cc0f4cfd1e94535"
+    },
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_131.txt",
+      "source_sha256": "2d0e55c516a1981b1ffc6504ece007064857f064123d5899bffb52ca1c9f67dc"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:36Z",
+  "duration_seconds": 9.881,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 130
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_130.txt",
+    "source_sha256": "67017c1495034d4b547606c77cb8429091bcb719d80782d49af59a6c82cb0f57"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1f290d4dd615091feba59fe52d55ea8125b4896af5c99605942b60461673f77d",
+  "request_fingerprint": "7700d788ebdb105feb364644a85df158608aa3643da991ad0224c1875a91f9a7",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.12, incluindo título, dados e fonte, removida.",
+    "O Gráfico 6.5 é discutido em prosa preservada; seu material visual não aparece no texto extraído da página-alvo. A linha de fonte no contexto seguinte pode pertencer ao gráfico e não foi incorporada."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 6.5 analisa a questão 22 do Componente de Conhecimento Específico. Esta questão foi considerada pelas respostas dos estudantes avaliados na prova como uma questão com nível de facilidade Difícil, 0,23, ou seja, 23% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,42, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 22, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta D aumenta gradativamente, chegando a atingir 100% apenas para os que obtiveram 22 acertos. A proporção dos que escolheram alternativa incorreta E (em vermelho) só é superada pela proporção alternativa correta a partir de 13 acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "fb5ccfb2cf2b1018a1087bbb352eab7b3d6608559434d8fcef4470453efd4a88",
+  "window_size": 3
+}

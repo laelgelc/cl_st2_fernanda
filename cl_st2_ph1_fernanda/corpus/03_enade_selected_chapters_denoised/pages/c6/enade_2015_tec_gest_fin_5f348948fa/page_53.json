@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08349e763a34b4f5006af90049fd3087d194e7853f4dc65deb",
+    "usage": {
+      "input_tokens": 2529,
+      "input_tokens_details": {
+        "cache_write_tokens": 2526,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2526
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1059,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3588
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_52.txt",
+      "source_sha256": "c388379ea09afb84c23b417f32b5ae3d42bfa766d8425971eed1df499bcf1c53"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_54.txt",
+      "source_sha256": "4e30b4c4cf676569884e33d611cf5485696da1bd622ab50f5c223140aa1e04a5"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:53Z",
+  "duration_seconds": 9.47,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_53.txt",
+    "source_sha256": "16a6b06de3b30c53edb6d132e7ffdce318f8f2ad701ee5c7446cef7a3a054bde"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "429177965ade0cd43ca9895e387962921c826dcf6d315b25452b58d9ee5507c8",
+  "request_fingerprint": "32ddf90d6143af3faf7c25f3acac6b4adef7376edc86ea85ab7bc4f56431aec4",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.4 é mencionado, mas não há dados, legenda ou outro conteúdo gráfico identificável na extração da página-alvo; a linha de fonte aparece apenas na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 37,4% escolheram a alternativa D, 22,5% a alternativa C (correta), 17,0% a alternativa A, 13,3% a alternativa B e 9,3% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,2% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "bb140ed38723fb9e988fe331d7e0d1ba9c8e7065f50e4e75500069fcd54cf0c0",
+  "window_size": 3
+}

@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_011f86a32122f60a006af903fe869c87d1afee50a1de55b3b7",
+    "usage": {
+      "input_tokens": 1769,
+      "input_tokens_details": {
+        "cache_write_tokens": 1766,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1766
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 243,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 2012
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_118.txt",
+      "source_sha256": "70316d46b5290f6bb6e458420e75a59f7b3906de7dc7190d58b982b753e1f2c5"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:42Z",
+  "duration_seconds": 2.839,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_119.txt",
+    "source_sha256": "79153c9a1ba6d5124271b428e0c86dac96a246cd1cb7ca67eddae4e66e32e1fb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9941bcf631dc900086467d8848a35787164ed0506e787bb90e566846ed6faeb",
+  "request_fingerprint": "0d17a72953b6e6734dbc363b32fa2c8e75f68955fc1ab26a2870f58773b3da96",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico e sua linha de fonte: “Fonte: MEC/Inep/Daes – Enade/2016”."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.3 apresenta a distribuição do Conceito Enade segundo a Organização Acadêmica da IES. Os cursos em Universidades (linha azul) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, temos os cursos oferecidos em Centros Universitários (linha verde) com a poligonal mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores. IES em Faculdades (linha vermelha) apresentam uma situação intermediária, porém próxima das IES em Universidades.",
+  "text_sha256": "056e4ebd4e33a306aae1855851f532ca87f141731fe3b586e7e40af41d6f74fb",
+  "window_size": 3
+}

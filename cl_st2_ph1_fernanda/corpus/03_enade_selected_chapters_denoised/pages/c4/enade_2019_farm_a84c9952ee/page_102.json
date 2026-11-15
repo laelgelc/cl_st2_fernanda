@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a5d6e49d681fd3f006af912e495d887d1b4b63777e0a6a063",
+    "usage": {
+      "input_tokens": 1698,
+      "input_tokens_details": {
+        "cache_write_tokens": 1695,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1695
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 265,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1963
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_101.txt",
+      "source_sha256": "feaf81c7db0d449f242f98a7642e40eadacd7a5c1af8496668fc7f76fe572722"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_103.txt",
+      "source_sha256": "d64fe01c0caf2b7904f8dc79ae62ca69905a01ebe130fe18fbd6aa8934a6eca4"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:16Z",
+  "duration_seconds": 3.386,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_102.txt",
+    "source_sha256": "4a3d41ac5ece1c276c695de52039683d4e660e437e31402a567f28932cfd729e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "06f0c5c87ad99c845dbbcc97aa2bb48ae7a30bd5a456f24f849ca6b0c9aa30be",
+  "request_fingerprint": "1d3b26e82841d8ad845bb0616953b9e6b60638924c64a6d6c422c0437efd58c2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.19, sua legenda e fonte. “CEFET/IF” foi removido como provável rótulo do gráfico; revisar a atribuição."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que considerou que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi menor entre os estudantes de cursos de IES Privadas (81,5%), uma diferença estatisticamente significativa da proporção registrada em IES Públicas (88,2%). Ver Gráfico 4.20 e Tabela II.10, no Anexo II, para maior detalhamento.",
+  "text_sha256": "e854395062879e58e62110e04e24dd88d778cbde70920c1d3ace1a487f36ce00",
+  "window_size": 3
+}

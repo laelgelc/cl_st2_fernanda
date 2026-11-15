@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d8e96d5f391ec83006af8f5a8d53487d1bf23d15a441a2969",
+    "usage": {
+      "input_tokens": 2571,
+      "input_tokens_details": {
+        "cache_write_tokens": 2568,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2568
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 2957
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_76.txt",
+      "source_sha256": "673b02add2ccbb4ea6660d821f89c63fe11a5bf4bfff3487ab0870d95567c6d5"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_78.txt",
+      "source_sha256": "3d86b432c2d59aa27888ce93739ad8abd15e37e3480b8c151783fa8cd60abe7e"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:32Z",
+  "duration_seconds": 4.228,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_77.txt",
+    "source_sha256": "7d9532131caaf255f7a5a88ba7ae6ecd2f2a022187a299670895f7d1d9d6a31a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dbc70ec08d09aefab318779c4e8a9654f5eec8a0d59c31d20cc318802021eb61",
+  "request_fingerprint": "3798b0ddffc51dc24e93514ddd5b2327e4f3f87f321b831948a9e6432dd29c8c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Norte (40,0). A mediana e a nota mínima do Brasil como um todo foram zero, o mesmo valor para todas as regiões, exceto a mediana na região Sul (3,3). Ou seja, excetuando-se a região Sul, pelo menos metade dos estudantes de cada região recebeu nota zero nesta questão, seja por terem deixado a questão em branco, seja pela inadequação da resposta.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0; 10]. Nota-se que há uma tendência decrescente a partir deste intervalo até o último intervalo. Não existem observações nos três últimos intervalos. O coeficiente de assimetria é positivo para todo o Brasil (2,19) e para todas as regiões (entre 1,63 para a região Sul e 2,81 para a região Centro-Oeste), indicando uma assimetria acentuada à direita.",
+  "text_sha256": "4726acaa580e5c9fb2106995e0e79591a33a44a7002d7b084d3d7f2652491e85",
+  "window_size": 3
+}

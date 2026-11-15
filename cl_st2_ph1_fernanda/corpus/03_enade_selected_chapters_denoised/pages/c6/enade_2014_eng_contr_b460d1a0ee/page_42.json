@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fc066bdae0b1448006af8f81f67f887d18a90541b773cb832",
+    "usage": {
+      "input_tokens": 2968,
+      "input_tokens_details": {
+        "cache_write_tokens": 2965,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2965
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 3593
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_41.txt",
+      "source_sha256": "725c9eaef4ac8e585a94addd434c80e4d15a0693e756ba27785925fb1af5645a"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_43.txt",
+      "source_sha256": "642655c781e5d1a6bb42b230a876309de0bf0722b8292f063ca98be480f510b9"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:03Z",
+  "duration_seconds": 5.912,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_42.txt",
+    "source_sha256": "186dd3659fe942c68049fe54dd912bac16bc88923549f27d5c83668dd6f41edb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6ee15983e0d0178cc32e0399a8db314e0612e4f0153ba5697c13e1bc37099e4b",
+  "request_fingerprint": "7533c75c93bea9b763ffb49c4c71e6e748d88850877278dfc8909439836fd120",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 2.746 são de IES Privadas e 1.306 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (1.969), seguido de Faculdades (1.358) e Centros Universitários (725). A Categoria Administrativa de maior abstenção foi a Privada (12,9%), e entre as Organizações Acadêmicas foi a das Faculdades (14,1%).\n\nA média das notas da prova como um todo foi 43,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (52,3), e os das IES Privadas obtiveram média mais baixa (39,2), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e, Nordeste e Sudeste (8,5), a maior e as menores médias, é inferior à diferença entre IES Públicas e Privadas (13,1), caracterizando uma menor diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram média mais alta (48,4) que a nacional. As demais médias foram: 41,9 nos Centros Universitários e 37,1 nas Faculdades. O desvio padrão para as IES Públicas (14,4) e para as Universidades (14,8) foi superior ao do Brasil como um todo (14,2), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades em relação aos de Centros Universitários e Faculdades.",
+  "text_sha256": "7bfd14d83469ab45b16503a17cffd001151221dfd0f84e235005873566677423",
+  "window_size": 3
+}

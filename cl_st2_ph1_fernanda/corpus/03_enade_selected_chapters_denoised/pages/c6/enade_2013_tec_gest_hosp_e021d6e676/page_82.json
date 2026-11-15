@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06903bc1b76a13ae006af8f5840fbc87d1b70100298f0127de",
+    "usage": {
+      "input_tokens": 2356,
+      "input_tokens_details": {
+        "cache_write_tokens": 2353,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2353
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 2772
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_81.txt",
+      "source_sha256": "945bb580ec5a757fb72656672feb21b49b3b9d1f78c01d8c20d86baefd61fc24"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_83.txt",
+      "source_sha256": "0b5b5701664b5176b32da76b6fa1431d2074232ce28e22c35b81b7f60ccc9fbd"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:55Z",
+  "duration_seconds": 4.303,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_82.txt",
+    "source_sha256": "f756b86aa74b2d4338b84140e4b9ec5977aa5ff06fae85d25cfcc2a5f1eae5bd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e1570c4d2ca1b2fd465d6ba1cff523b7fef1c99c6889f4a5aa2c89e54d350411",
+  "request_fingerprint": "a95f8ac2bf9cbf0ced1ec817c0aecac9bb0a4d7b8390a70c330536de18a17a83",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.15, seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Esta distribuição é unimodal com moda no intervalo (0; 10].\n\nO coeficiente de assimetria para todos o Brasil é 2,56 e para todas as regiões se mantém positivo, variando entre 1,83 na região Sudeste e 2,62 na região Centro-Oeste.",
+  "text_sha256": "1151ffe7901d2e06a49c93ab8ea10b120f9804990927d74c416378d6ef606fba",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a88f2794778350006af8ebb8048c87d1b1dfe1da66efddf0",
+    "usage": {
+      "input_tokens": 1686,
+      "input_tokens_details": {
+        "cache_write_tokens": 1683,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1683
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 530,
+      "output_tokens_details": {
+        "reasoning_tokens": 387
+      },
+      "total_tokens": 2216
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_1/enade_2011_eng_g_1_page_79.txt",
+      "source_sha256": "3f53cddc7010ee48b5843e97688c734b36cd0256ffd382ba9699bee6c3cd2d26"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_1/enade_2011_eng_g_1_page_81.txt",
+      "source_sha256": "c282046efa3af3d74cf546625e07f258ec681a9070f426d8fac320eec13af329"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:07Z",
+  "duration_seconds": 6.15,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_1/enade_2011_eng_g_1_page_80.txt",
+    "source_sha256": "3c4e31596b2ddde326102df4b29e27a4fdb168a7710aef4111ced8891c4b4e40"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0e18271d9e57146fae2e3cbc276a0e13e1b90c26577188f16c1d0ed18bc10bf6",
+  "request_fingerprint": "550ea8b30da38f32ad31804c44dc42578ef8cf70709274b0355417592aec1f46",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2011”, possivelmente pertencente a gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, se observa diferença estatisticamente significativa entre as opiniões dos alunos do quarto superior (29,5%) e do 2º quarto (37,5%). A alternativa modal para a Questão 2 foi o grau médio, com 58,6% do quarto inferior e 61,3% do superior optando por esta resposta.",
+  "text_sha256": "8324c7505e9bcb3b8b442ebaaf1f90390ef56957be5ea5b05252c37706fc7d5f",
+  "window_size": 3
+}

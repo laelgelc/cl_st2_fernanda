@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07c8110a30483ac9006af8f18173bc87d1ab659cb9d8f05004",
+    "usage": {
+      "input_tokens": 1374,
+      "input_tokens_details": {
+        "cache_write_tokens": 1371,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1371
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 1790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ri/enade_2012_ri_page_95.txt",
+      "source_sha256": "3d14a979144267a54b353f2ee5cc11a497d17a4fc9a31be6fd6b5d734f895a55"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ri/enade_2012_ri_page_97.txt",
+      "source_sha256": "ecb3b9d463a8e8f09ac6834955b9313c1a89119be15cae8cc07d8afd3ce0b124"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:49Z",
+  "duration_seconds": 4.631,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ri/enade_2012_ri_page_96.txt",
+    "source_sha256": "9890acd4b949f4688aa13a10f21809e19678deab487eca6ba4a19d0613171156"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e8d094445fb77c183499899099161a8a97a1b2aa0fa744356bc97b0a76345cf",
+  "request_fingerprint": "8353c2b9d7a4da88227f66cef700c7ecf5520015aa703f021cefec55cba127b5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, provavelmente associada a material gráfico da página; confirmar a associação."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 68,1% e 39,2%. As diferenças entre os quartos são estatisticamente significativas, exceto entre o 3º e 4º quartos, e evidenciam uma tendência crescente.",
+  "text_sha256": "239d756ea9225c5977aac17f5eeb83edaa9ada28b7623ad6b7147353e3fa5648",
+  "window_size": 3
+}

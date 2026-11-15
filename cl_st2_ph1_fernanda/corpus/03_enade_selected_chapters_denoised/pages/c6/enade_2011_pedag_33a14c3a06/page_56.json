@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0b140de43e9cf3006af8ee6eb2fc87d184229c09868b28d0",
+    "usage": {
+      "input_tokens": 2724,
+      "input_tokens_details": {
+        "cache_write_tokens": 2721,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2721
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 390,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3114
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_55.txt",
+      "source_sha256": "76ba7c84fbd321ce8fb4e4a304b27dcf426dfd42fc6f70518adfa7bee0110453"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_57.txt",
+      "source_sha256": "2a93f4556be222a9f27f2e914b3e315da74f58c6d5cf3f3a08366f80c4e559ea"
+    }
+  ],
+  "created_at": "2026-11-14T23:27:42Z",
+  "duration_seconds": 4.277,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_PEDAGOGIA.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_56.txt",
+    "source_sha256": "2d854045cd7a3e214a370c5d66883dd6c50de0c66e8181070527a62bdcf6413a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "726ed1a4a5941c9d1ec460a0f2571df9f57e640ea19844d922a854e8457a388d",
+  "request_fingerprint": "f2a73678cad45fea8ccda1f21ce26690866946d2d1bcbe32177c46bd813a13f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 22, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com menor número de acertos. Aqueles com nenhum acerto, na sua totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta D aumenta gradativamente, chegando a atingir 100% para acertos acima de 22, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de cerca de cinco acertos, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do Componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "efec358d8b755075bba93846c06a6701cba97e478435449e4886e4c91bebd174",
+  "window_size": 3
+}

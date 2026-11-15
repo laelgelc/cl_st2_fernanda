@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f8a596319d9eb4f006af8ead6a56487d1b9dd62aa3c12c281",
+    "usage": {
+      "input_tokens": 1557,
+      "input_tokens_details": {
+        "cache_write_tokens": 1554,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1554
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 1882
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_art_vis/enade_2011_art_vis_page_90.txt",
+      "source_sha256": "7fc3a51004b3a7173ad54e87b5f3aaa9e96f49b529e2973f265e7765e3d328b1"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_art_vis/enade_2011_art_vis_page_92.txt",
+      "source_sha256": "9bd27c1a8121cf5ddbee7acde4dbb6f13954d157d8e4642e38ec8f62bd1f0da6"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:22Z",
+  "duration_seconds": 3.952,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_art_vis/enade_2011_art_vis_page_91.txt",
+    "source_sha256": "2964d507f88a45ce7a7c0a442e33a931049d58e6ab2c62821d7e3271af12aff4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9c8ff15ffd69022cd9bae66703c6d735749a368da15bb1d603a9bb159a1f93c7",
+  "request_fingerprint": "a0eb7e1b6c45f6fc66088791d13e2c1ef3e6920572f923f9fc26c3444f015a75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, aparentemente pertencente a material gráfico; o gráfico em si não consta no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (83,2%) se comparada ao quarto inferior de desempenho (64,3%). Esta diferença é estatisticamente significativa, bem como a diferença entre a frequência desta escolha no segundo quarto em relação aos dois quartos seguintes.",
+  "text_sha256": "16cb43680b96c27712d09a7ecb7fcdbbe8dabfec2c6840cadaf8d1279cb1de30",
+  "window_size": 3
+}

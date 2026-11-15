@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0381b4ca8d13af6d006af904872c8887d1a3ece357e3db6110",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 2713,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2713
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 258,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 2974
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_103.txt",
+      "source_sha256": "465f91a3fd7ea491485fc42ad6d85f72827432d26942329d556b0eafc9fbb5b2"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_105.txt",
+      "source_sha256": "cb8a306cfaea022982816f0d14d5ff0e6c400dc01002cf9e42e44b9e664c5b9b"
+    }
+  ],
+  "created_at": "2026-11-15T01:01:59Z",
+  "duration_seconds": 4.87,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ADMINISTRAÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_104.txt",
+    "source_sha256": "5f503085d69b4d9198cbe2f20bf3d296594f898dbefc19c410bc3e0b1df9f838"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ea504ad5f1ee9d66838b5ec9cecd9d4800eb1f7e8773c0966384857267a5f35c",
+  "request_fingerprint": "c8224f43f32493ec5bea82d169ce27c0c26bcefe7beeed7fbe5f26a07f2c6dfd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50], seguido pelo intervalo (50; 60].",
+  "text_sha256": "e67433d4f49a013d217abe832ff4ae46c57172d2267c6d9cbc60fc51680aad66",
+  "window_size": 3
+}

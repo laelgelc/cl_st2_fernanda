@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b2307e6049ef4ef006af91cc7648487d195c8d52f8150d99d",
+    "usage": {
+      "input_tokens": 2743,
+      "input_tokens_details": {
+        "cache_write_tokens": 2740,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2740
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1327,
+      "output_tokens_details": {
+        "reasoning_tokens": 647
+      },
+      "total_tokens": 4070
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 273,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_273.txt",
+      "source_sha256": "a9411cbb408589a2976dc716dc509b0f761a4ef672c0a2326cdfb2d4e2793eb7"
+    },
+    {
+      "page_number": 275,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_275.txt",
+      "source_sha256": "f1de78fe08006d529e24fdc6c5e922ea95a9cc54d5369b460e62d4155d1408e1"
+    }
+  ],
+  "created_at": "2026-11-15T02:45:27Z",
+  "duration_seconds": 12.356,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_DESING INTERIORES.pdf",
+    "page_number": 274
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_274.txt",
+    "source_sha256": "45e8336bc401e88ea17351329b77d3dc0ee3da48e61bc026108c1511c3ef9df7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb47c0b3bf4b2012f6c489017fc5d789739b549b4063b5bd0c529c445bf83be0",
+  "request_fingerprint": "7f2ab6f0051bf66f181f1eac833f85b5bd6300bb46ba6d50ba9d7c8039b0dd6f",
+  "retry_count": 0,
+  "review_notes": [
+    "Aparentes fórmulas exibidas após as definições de “média” e “média ponderada” não aparecem no texto extraído; verificar se houve perda na extração."
+  ],
+  "status": "success",
+  "text": "● média – É calculada através da soma de todos os valores numéricos observados para uma variável em um conjunto de dados e posterior divisão deste total pelo número de observações envolvidas:\n\nOnde:\n𝑋 é a média\n𝑛 é o número de observações ou tamanho da amostra\n𝑋𝑖 é a i-ésima observação da variável X\n∑_{i=1}^{n} 𝑋𝑖 é o somatório de todos os valores Xi na amostra\n(LEVINE, David M. et al. Estatística - Teoria e Aplicações Usando o Microsoft Excel em Português. Rio de Janeiro: LTC, 2005. p. 99-100)\n\n● média ponderada – Dado um conjunto de n valores observados, onde são atribuídos pesos a cada valor numérico observado. É calculada através do somatório dos produtos entre valores e pesos divididos pelo somatório dos pesos.\n\nHOFFMANN, Rodolfo. Estatística para economistas. 4. ed rev. e ampl. São Paulo: Pioneira Thomson Learning, 2006. p. 41.\n\n● mediana – é o valor central em uma sequência ordenada de dados, ou seja, é o valor para o qual 50% das observações são menores e 50% das observações são maiores.\nLEVINE, David M. et al. Estatística: teoria e aplicações usando o Microsoft Excel em português. Rio de Janeiro: LTC, 2005. p. 102.\n\n● mínimo de um conjunto – Se X é um conjunto ordenável, diz-se que o conjunto X possui um mínimo (menor elemento) 𝑖0 se: 𝑖0 ∈ X e para cada 𝑥 ∈ X: 𝑥 ≥ 𝑖0. Notação:\n𝑖0 = mín(X).\nNota: Sempre que um conjunto X tem elemento mínimo, esse elemento é o ínfimo. (GONÇALVES, M B; GONÇALVES D. Elementos de Análise. Florianópolis: UFSC, 2012)\n\n● mínimo de uma função – Dada uma função 𝑓(𝑥) e 𝑥0 ∈ Domínio de 𝑓, diz-se que f(𝑥0) é o mínimo da função 𝑓(𝑥), se 𝑓(𝑥0) ≤ 𝑓(𝑥), ∀𝑥 ∈ Domínio de 𝑓.\n\n● moda – é a categoria ou classe que aparece mais frequentemente em um conjunto de dados;\n(LEVINE, David M. et al. Estatística - Teoria e Aplicações Usando o Microsoft Excel em Português. Rio de Janeiro: LTC, 2005. p. 103)",
+  "text_sha256": "a8d5dd1ee32625aa66c411bc7541611b3dbe12188856c7db3ddd7d7601cabc7c",
+  "window_size": 3
+}

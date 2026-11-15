@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b979a6d0574ce2006af90c78002c87d1a99427cbdd9a9ffa",
+    "usage": {
+      "input_tokens": 2453,
+      "input_tokens_details": {
+        "cache_write_tokens": 2450,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2450
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 614,
+      "output_tokens_details": {
+        "reasoning_tokens": 255
+      },
+      "total_tokens": 3067
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_157.txt",
+      "source_sha256": "67154a67640666e0550d707176e14239c3bef97bf69e85af0464997116b7c100"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_159.txt",
+      "source_sha256": "b4ca9b70e91aee064ec690d26484d5a11c49b2bb90c7c3dd8b20bb3cd031fae8"
+    }
+  ],
+  "created_at": "2026-11-15T01:35:51Z",
+  "duration_seconds": 6.072,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_158.txt",
+    "source_sha256": "65fa6e5ff47ee7e4ecaf55449901bd6a13218405f4b7cd6443cb9f642a12695c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "73f5f2457e9b18ba671adbcd3ada7f75ddc870299065b86dcc4f241b8a0f419b",
+  "request_fingerprint": "399012ffac429080f5b1a029acb16f32a93c328e3068163787aae5d071c34cf9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "o Desvio padrão dos alunos do Brasil, como um todo, foi 19,5. Enquanto o maior desvio foi encontrado na região Sudeste (20,5), o menor foi encontrado na região Norte (12,8).\n\nA Mediana para o Brasil e em quatro das cinco as regiões, a exceção foi a região Sudeste (25,0) foi zero, associada ao excessivo número de notas zero e a questão deixada em branco, como mostra do no Gráfico 6.13, indicando que pelo menos a metade dos alunos receberam esta nota, em cada região, com exceção da região Sudeste. Para o conjunto de alunos de Ciências Econômicas do Brasil, a nota Máxima foi 100,0, obtida nas regiões Nordeste, Sudeste e Sul. A região Norte obteve nota Máxima 50,0 e a Centro-Oeste, 75,0. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.13, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem o intervalo modal correspondente aos que deixaram a questão em branco, com quase 40% do total. Somando-se a frequência desse intervalo com a daqueles que obtiveram nota zero, chega-se a mais de 55% dos participantes. O intervalo de notas (20:30] obteve a maior frequência, desconsiderando as questões deixadas em branco, 30,7%.",
+  "text_sha256": "3cbe64a9dc4f7ec892c9a4c25cb960f535720ba09e7d3881afba6dc248eeedfb",
+  "window_size": 3
+}

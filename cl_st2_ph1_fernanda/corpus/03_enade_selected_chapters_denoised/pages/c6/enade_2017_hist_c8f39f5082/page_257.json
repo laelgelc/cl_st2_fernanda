@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_033fd9f238626421006af908f9dc4c87d1b35e635c6ec07497",
+    "usage": {
+      "input_tokens": 2868,
+      "input_tokens_details": {
+        "cache_write_tokens": 2865,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2865
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 419
+      },
+      "total_tokens": 3427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 256,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_256.txt",
+      "source_sha256": "f1e74cfa5ec38e511e0ff410145928bdf79991beb29c6726a93413363d5886d7"
+    },
+    {
+      "page_number": 258,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_258.txt",
+      "source_sha256": "cdc7de3707c0c4f8ad006c945ab220b634ff37f7802905702d14128cc07c6b70"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:57Z",
+  "duration_seconds": 6.706,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 257
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_257.txt",
+    "source_sha256": "f80167fb7311a7b2e1d282c509050be53908a22eb5072e4808bfeef67e6b4348"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9b800c9e10c7ce9afed5b634fb0633c4aff13c5e56e19239cd773ac60eb57f7f",
+  "request_fingerprint": "af6a4af6c8f53c3476efd6cb889c1ae7f88d63c152cc3858258b8bb9472f92b2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19b, incluindo título, dados e fonte.",
+    "O Gráfico 6.12 foi removido; sua fonte aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "A nota Mínima foi zero para todas as combinações de modalidade de ensino e região.\n\nO Gráfico 6.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que, tendo respondido à questão, obtiveram notas contidas no intervalo (20; 30] para ambas habilitações.",
+  "text_sha256": "a2bff61677eacadb5a942e10a34152af8a17d4f29bfaaac01f0ff40e16515e18",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f33497c21407551006af8f8254b5c87d1bab0b7ead3b03744",
+    "usage": {
+      "input_tokens": 2540,
+      "input_tokens_details": {
+        "cache_write_tokens": 2537,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2537
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 547,
+      "output_tokens_details": {
+        "reasoning_tokens": 241
+      },
+      "total_tokens": 3087
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_49.txt",
+      "source_sha256": "75bd1de63751fb474325f7637306bb4f6170e9a6de1b8d70779bcbfdf6a7a921"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_51.txt",
+      "source_sha256": "aaf9f2e3d0dc936fd043139da93888004367f46a7f77dd7ec7e609b6f18663a6"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:09Z",
+  "duration_seconds": 6.415,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_50.txt",
+    "source_sha256": "31aae3cb21274d743ecd96415fbfe94bf10db9e9b14afb99e754ac315e770a30"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7e5757739459fc4702532c86f3c114a2c3e0411366a6409e96dc3af900b10498",
+  "request_fingerprint": "69ca4ae88ec42cc4c306c72228f1f3b78449676a3aa90430d28e40440208f3bd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada mediana, com relação a facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou C (em preto). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% apenas para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "7aff45d986279159556cfee4d58d84676e42d07b483b2eacf4fb87a94dd610bd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b82729d9c6565db006af8eeb8ac5c87d1bdc8e8b50a56e165",
+    "usage": {
+      "input_tokens": 2475,
+      "input_tokens_details": {
+        "cache_write_tokens": 2472,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2472
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 776,
+      "output_tokens_details": {
+        "reasoning_tokens": 293
+      },
+      "total_tokens": 3251
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_39.txt",
+      "source_sha256": "dae26de81b7c5d9dc165d248db456b2cf885defb5025fa45b0a6bd0361009476"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_41.txt",
+      "source_sha256": "1e3bf45a9313516956c48cd4f5def6088f9ce332024d32056af52d7bf105c1a3"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:56Z",
+  "duration_seconds": 7.324,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_40.txt",
+    "source_sha256": "b0fc56b2e8db66e7bd53bb2cbda3652545af61e5c4c0f1a43bc1f244edc1ee0d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2127a4140246e203e59b3d494f06fdfae6712866c459616353532d6caef3db39",
+  "request_fingerprint": "1ca78f12f1fec7cdaddda32c0027614efa761d869f4f15d5e545070f2d1d240c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo seus dados, cabeçalhos, legenda e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os componentes de Formação Geral e de Conhecimento Específico) foi 39,7, sendo que os alunos das regiões Norte e Centro-Oeste obtiveram a média mais baixa (34,0) e os da região Sul obtiveram a média mais alta (42,1). As demais médias foram: 38,9 na região Nordeste; e 41,4 na região Sudeste. O desvio padrão para o Brasil como um todo foi 11,2, sendo o maior desvio padrão encontrado na região Centro-Oeste (11,7) e o menor na região Norte (7,5), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Nordeste (80,9), ao passo que a região que atingiu a menor nota máxima foi a Norte (50,0). A mediana do Brasil como um todo foi 39,2, sendo a maior mediana obtida na região Sudeste (41,2) e a menor obtida na Centro-Oeste (33,2). A menor nota mínima foi 6,7, encontrada na região Centro-Oeste, e a maior nota mínima foi 20,1, obtida por pelo menos um aluno da região Sul.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40]. O coeficiente de assimetria da distribuição das notas é positivo e pequeno (0,14). Desse modo, pode-se considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito. A única exceção é a região Norte, com coeficiente de assimetria negativo (–0,24), com o comportamento oposto: concentração à direita e cauda um pouco mais longa à esquerda.",
+  "text_sha256": "dd54428a443a99d1c69ef2f1efa38229215adc97d88ca6d5e0b30772a1cd5d2e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fb8cb6346bf7c45006af8f06e73a487d1aa2c19f76445ce5d",
+    "usage": {
+      "input_tokens": 1550,
+      "input_tokens_details": {
+        "cache_write_tokens": 1547,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1547
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 1954
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_47.txt",
+      "source_sha256": "c503b5ba5a58141a571e8ff45d14716cf9c6e09712cea55e796212350cde8ba6"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_49.txt",
+      "source_sha256": "6a225f67951f9f65cedcadc31feba29349c6c66777dad9323a5b99375babf2d6"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:14Z",
+  "duration_seconds": 4.296,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_48.txt",
+    "source_sha256": "4db6f87776bff21048de6ad6c79609e44791ff3e5cf3134291ea24b5c865ebee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0fe6ec31e53921f83d823e3a068c7df11630dd9925af388284409910cba88cf1",
+  "request_fingerprint": "49362871d2edec4edfb2ef857541736f13124a3aee616859b51a5c9878d44a30",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no componente de Conhecimento Específico dos diferentes tipos de Organização Acadêmica. Sendo que a média dos Concluintes das Universidades (33,9) foi maior do que de Centros Universitários (32,9) e de Faculdades (31,7).",
+  "text_sha256": "337ea9847774302075ddb3c8591b9f676eadd079add5ffe1964778ba2dc5c589",
+  "window_size": 3
+}

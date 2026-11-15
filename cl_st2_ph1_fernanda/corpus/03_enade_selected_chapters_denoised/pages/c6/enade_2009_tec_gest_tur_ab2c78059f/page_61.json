@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_098305d3e26df86c006af8e7de69e887d19dde934045967e45",
+    "usage": {
+      "input_tokens": 2802,
+      "input_tokens_details": {
+        "cache_write_tokens": 2799,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2799
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 290,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 3092
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_60.txt",
+      "source_sha256": "a0bd7ef9c7244e8d10b866b4565656f687a9d4e6bec70c9582869863cebcfe66"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_62.txt",
+      "source_sha256": "7f71e0092b516b4fd72dac149ff90ff78f6d99296b57e5555976648ec818b333"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:42Z",
+  "duration_seconds": 3.585,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM TURISMO.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_61.txt",
+    "source_sha256": "09544420162297adaf682519c95539ee5596d89dd69b2bcb48c7b20f789c36c3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5183621ad0f04461d41cb1c53a20c8f73192b6fdc54c5fbad5f56ac17f3709f3",
+  "request_fingerprint": "4d58f3b767b73670d581ab2bbf4436ad00331892719a501dfe6be08fd591bf92",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo seus dados e fonte.",
+    "Removido o Gráfico 3.10, incluindo título, eixos, intervalos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no último intervalo, aquele com valores entre 90 e 100 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria negativos (Tabela 3.11) foi reforçada no gráfico pela concentração no último intervalo.",
+  "text_sha256": "fd75bdd6ca1c17eecd9b0003f76f96d8bfffc15ae6ca083bb690fb8d813b4ebd",
+  "window_size": 3
+}

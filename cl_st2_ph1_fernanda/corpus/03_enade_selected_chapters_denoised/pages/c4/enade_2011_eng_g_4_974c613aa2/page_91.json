@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03c5c7059efc3bd9006af8ec3ae6c087d18da49b378085a6c9",
+    "usage": {
+      "input_tokens": 1513,
+      "input_tokens_details": {
+        "cache_write_tokens": 1510,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1510
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 326,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 1839
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_4/enade_2011_eng_g_4_page_90.txt",
+      "source_sha256": "c05d0370114b5d1b1ed534230d5d4561123f52dd3084c71d4210431aa9b44e3b"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_4/enade_2011_eng_g_4_page_92.txt",
+      "source_sha256": "2157e4c6297e22d77209fb0732a1e961e335c0b10b4466b998a26ea80125e14a"
+    }
+  ],
+  "created_at": "2026-11-14T23:18:18Z",
+  "duration_seconds": 4.626,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_4",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO IV.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_4/enade_2011_eng_g_4_page_91.txt",
+    "source_sha256": "8d55a94c9dc09ee0c04a74a68402cc5a6714b0bb77c73215338feb4c1981c197"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8496169db7f18bdbc31c7b28287381a0e5c0a3dc447bc15529ee4317904ac3ef",
+  "request_fingerprint": "4ff0b0854288e1850895caa87c531b0e7274d88d09e4cb23495494d7775b57e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (80,1%) se comparada ao quarto inferior de desempenho (75,1%). Esta diferença não é estatisticamente significativa.",
+  "text_sha256": "01b9b62b60f1677d0f679d759d9cfa402e4326574c1d368668e8603321b19abf",
+  "window_size": 3
+}

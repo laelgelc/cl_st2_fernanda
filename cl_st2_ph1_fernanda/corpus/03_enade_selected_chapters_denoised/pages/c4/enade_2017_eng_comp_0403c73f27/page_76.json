@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01215565a5c7bd36006af9060cf7bc87d18899480d0fa6c28f",
+    "usage": {
+      "input_tokens": 1802,
+      "input_tokens_details": {
+        "cache_write_tokens": 1799,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1799
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 2042
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_comp/enade_2017_eng_comp_page_75.txt",
+      "source_sha256": "96f409aeb2a2e23cfa12e937fb7281be8155708aac490a20f6a39ea35dd82577"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_comp/enade_2017_eng_comp_page_77.txt",
+      "source_sha256": "22979033ca70dc3d9d17d7436ca79cc93258ed14d202e26a8a7d1f63a637bea4"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:28Z",
+  "duration_seconds": 6.926,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_comp/enade_2017_eng_comp_page_76.txt",
+    "source_sha256": "cf37f34d21c0bb52fc905dc5d8e5c822976465e25c6ad2dc4fec578759de8d02"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e62e6f5e5101d4f19cc02c0c907fb2c100d7207370b33c0fe31dbeb22808dd6",
+  "request_fingerprint": "2f9b03a6f967abebb85acea7a0fd708111701a81ffee80966376d236972da3e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.5, incluindo seu conteúdo gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 52,2% consideraram a extensão da prova adequada no quarto de desempenho inferior, e 50,4%, no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 53,2% no segundo quarto e de 53,0% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que a proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho variou entre 36,5% (terceiro quarto) e 40,5% (quarto inferior). Não há diferença estatisticamente significativa entre as proporções de escolha dessa resposta.",
+  "text_sha256": "87b00c415e06689b9ff4dff421a400332da42aaf92ad49d47dbdb9de4f5c5b6a",
+  "window_size": 3
+}

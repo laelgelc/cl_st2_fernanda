@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f547106a710f189006af8fff30f3487d19772a87d69b5d1e3",
+    "usage": {
+      "input_tokens": 3044,
+      "input_tokens_details": {
+        "cache_write_tokens": 3041,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3041
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 888,
+      "output_tokens_details": {
+        "reasoning_tokens": 461
+      },
+      "total_tokens": 3932
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_49.txt",
+      "source_sha256": "83df5f27c3f01472cb5e16e9d54c42ef7775e3b307fee58b5328dfc4748ac024"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_51.txt",
+      "source_sha256": "a53ac798c63a2eec187a8dcecf847b11775427cbd534bf85c536aca1e9eac2fc"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:26Z",
+  "duration_seconds": 8.578,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_50.txt",
+    "source_sha256": "cd105dd019ad58dd8c7f66ffedc670fe1c59c8414681755341039f268e45ba93"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e782ea89162a73588be1b8fffc7a067021cfec57a34933ab26bd2e4a1a3687e",
+  "request_fingerprint": "296d1269d3687bd343422ea3e0000a5b5895e56226eb781e4b0c97c431a7adcb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo título, dados e fonte.",
+    "Removidas as duas listas de cores e faixas de classificação, que funcionam como legendas da Tabela 3.10; o texto introdutório foi preservado. A Tabela 3.10 e sua fonte aparecem após o texto da página-alvo, no contexto seguinte, e não foram incluídas."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil. Duas questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto",
+  "text_sha256": "025d736a74a4be31d53e8f1f70f7e2ed67081f78f313c43efc6c18c46846633a",
+  "window_size": 3
+}

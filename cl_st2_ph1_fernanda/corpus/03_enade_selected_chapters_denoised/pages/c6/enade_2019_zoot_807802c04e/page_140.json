@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06846a616d3a01c9006af916986a6c87d1af75ffbbf242dd20",
+    "usage": {
+      "input_tokens": 2499,
+      "input_tokens_details": {
+        "cache_write_tokens": 2496,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2496
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 920,
+      "output_tokens_details": {
+        "reasoning_tokens": 488
+      },
+      "total_tokens": 3419
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_139.txt",
+      "source_sha256": "a893c3507276bc75c0e6a1adede494c54e6cb29d93bb4ed1c99c5ffc4c8bbce4"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_141.txt",
+      "source_sha256": "0fe7a3bec6260f0917ee464644dea812f6127fb76579ab7ec3b2a7443a4b0676"
+    }
+  ],
+  "created_at": "2026-11-15T02:19:04Z",
+  "duration_seconds": 7.74,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_zoot",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ZOOTECNIA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_140.txt",
+    "source_sha256": "09d62a9e37fd8dd5f3ac8548dc5a5cba60d0e01d50a215183d6d2debf83d219c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9062f92b5355bdf2148a2cb5fa96fb5d05c249cb75f041af6e68ed3da2c3786d",
+  "request_fingerprint": "621ffca64783f6e00b5801ff093911fc3618ac76786578562591e9bc5aa49da9",
+  "retry_count": 0,
+  "review_notes": [
+    "O texto da página-alvo faz referência ao Gráfico 6.4; o gráfico pode estar presente como elemento visual não extraído. A linha de fonte aparece na página de contexto 141 e não foi incluída."
+  ],
+  "status": "success",
+  "text": "do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 11,4% escolheram a alternativa E (em vermelho), 14,5% escolheram a alternativa D (em laranja), 30,3% escolheram a alternativa B (em verde, gabarito), 9,9% escolheram a alternativa A (em azul), e 33,6%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,49) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, (que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas), nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "8bd5989c30b0f57f23b7a2d0c44b0c5e0a72dfb5f981589cc66b64c5b00842dd",
+  "window_size": 3
+}

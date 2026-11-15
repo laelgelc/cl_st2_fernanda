@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bd16351a231b66006af8f10190b487d1ad3fab10e54bba16",
+    "usage": {
+      "input_tokens": 1568,
+      "input_tokens_details": {
+        "cache_write_tokens": 1565,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1565
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2218
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_87.txt",
+      "source_sha256": "fe98447550d3e864f4c60fbcdf6006d38d9234c90cc67dc3c7e5448e918e7edd"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_89.txt",
+      "source_sha256": "625b8948738164055af9daf9c4383a8de569b3b49a76a9f1d6d82af68d584480"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:41Z",
+  "duration_seconds": 6.814,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_88.txt",
+    "source_sha256": "16529cf52adb21b0dd595cec65267800584e63a9ca219060eef8e4097f511917"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "267853549d34bdd419ec941863c295cde129839c3652a3db9b5597608345f48b",
+  "request_fingerprint": "e5929d76e47e44515ad93041400240d1b2e8ec386b4586221f2fbdae144d796d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente associada a material gráfico; o gráfico não está representado no texto fornecido."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (82,7%) se comparada ao quarto inferior de desempenho (68,7%). A diferença do resultado somente no primeiro quarto é estatisticamente significativa em relação aos demais, valores crescente conforme o desempenho.",
+  "text_sha256": "7e64c0ba07dbdcc160df0fc69a5b56d20764f515b7b63bcf71728a2b8848d4fd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e23111cd2d10a01006af90867cbb487d1a42bffbaf369dfd3",
+    "usage": {
+      "input_tokens": 1703,
+      "input_tokens_details": {
+        "cache_write_tokens": 1700,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1700
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 257,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1960
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_157.txt",
+      "source_sha256": "af0900b0e29fdc64a0f6173a69f7f28241825596f4633141a5725f849269c484"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_159.txt",
+      "source_sha256": "363fa122d79ee1c46c162eec0c25f6b7c12ca15e11197914ab16da8a1528dd4d"
+    }
+  ],
+  "created_at": "2026-11-15T01:18:31Z",
+  "duration_seconds": 2.996,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_158.txt",
+    "source_sha256": "88ebf9beed82f6836303be1018c0289088c27cba34ac26ed63d332eb5d4d7016"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5596986873eca3040e2531fbf79d1c7bdd2f461eaf7f48c97d1c162fab9ae7ab",
+  "request_fingerprint": "a3636557b0f9e9fc7e0473adf90fa6cfc2725b49a0c79f583a9b5b4e6987bcba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.10a; o conteúdo gráfico não foi fornecido no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes de Bacharelado que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (84,7%) se comparada ao quarto inferior de desempenho (67,8%). As diferenças entre o quarto inferior e todos os demais quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "7ceec970e3f78a11429756361a530461da9cd3e5043538a63f096d5f38396374",
+  "window_size": 3
+}

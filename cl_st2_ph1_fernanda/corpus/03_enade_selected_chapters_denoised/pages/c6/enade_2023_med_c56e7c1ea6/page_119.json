@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02edff397e61f9b8006af9242aec5c87d1bd03e1546b51958f",
+    "usage": {
+      "input_tokens": 3104,
+      "input_tokens_details": {
+        "cache_write_tokens": 3101,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3101
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 631,
+      "output_tokens_details": {
+        "reasoning_tokens": 387
+      },
+      "total_tokens": 3735
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med/enade_2023_med_page_118.txt",
+      "source_sha256": "52f8fcc286828f27cb0eaad12148fab90d2064b12944422b8ff39caa60559251"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med/enade_2023_med_page_120.txt",
+      "source_sha256": "af6e5548cae48b881de2ea3914aac7c26ff26b437e2ec96928298a22067bd88c"
+    }
+  ],
+  "created_at": "2026-11-15T03:16:58Z",
+  "duration_seconds": 7.507,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_MEDICINA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_med/enade_2023_med_page_119.txt",
+    "source_sha256": "612c2af7a50cac6c13a63b318783aa3a7a7873a73e2c1b25e60a09116bca5f49"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0557d9cf60f2a78feff54f75672033ebd25c728a59b966758801f255fa5ba65",
+  "request_fingerprint": "83124759e78c99820879a0b1e06596826face759368243d99feb8e8cd4008122",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.3, incluindo título e fonte.",
+    "Removida a Tabela 5.6, incluindo título, dados e fonte.",
+    "A última frase começa na página-alvo e continua além dela; foi mantida apenas até “a”, conforme aparece nesta página."
+  ],
+  "status": "success",
+  "text": "Assim como nos Gráficos 5.1 e 5.2, mostrados anteriormente, no Gráfico 5.3, apresentado acima, foi possível ser realizada uma avaliação do desempenho de concluintes de Medicina, em relação ao componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (60; 70].\n\nNa Tabela 5.6, é apresentada uma comparação dos resultados em relação à categoria administrativa, à organização acadêmica e à modalidade de oferta, levando-se em conta o desempenho de estudantes do componente de Conhecimento Específico da prova.\n\nDe acordo com os dados expostos na Tabela 5.6, no que se refere à organização acadêmica, a",
+  "text_sha256": "9f14ccdfe7ff2d80a42c77db541eac559da2e7efbf21d0a2cd7bca126dfb708c",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd21e9d784fd3be006af8ea3b1edc87d19b403eb004720723",
+    "usage": {
+      "input_tokens": 2451,
+      "input_tokens_details": {
+        "cache_write_tokens": 2448,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2448
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2929
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_48.txt",
+      "source_sha256": "c1eb2adee15caac15b0496fc2936dfed2d93cbdb23e4e276578f60c36f857ddd"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_50.txt",
+      "source_sha256": "f41619bb611bb0eecbc8401ef1349d4f4d9b346524671102953d71edb98138c7"
+    }
+  ],
+  "created_at": "2026-11-14T23:09:47Z",
+  "duration_seconds": 5.297,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_49.txt",
+    "source_sha256": "934f7014a040c4c5c59cf16aabc4b1a63b0e319471959ff67ca1bb514838717d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7ba8511b41ce9d360ffe99bf1c975f4f7f186f8dd15c16a8b7e41ec9a36c2097",
+  "request_fingerprint": "b1ec31cc289bebaa4ad33d58b4fc5f1b4a38ac7f91959a58389774033ffceb27",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 3.8, incluindo eixos, escalas, legenda, dados plotados, título/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "bom índice de facilidade (0,30), ou seja, 30,0% dos estudantes assinalaram acertadamente a opção A, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,44, classificado como muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 32, em função da nota dos estudantes nesta parte da prova antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul marinho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova, enquanto as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas, ainda que aqueles com nota zero, na sua quase totalidade deixaram em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionaram a resposta correta A aumenta gradativamente com a nota dos alunos chegando a atingir 100% para notas próximas a 80, enquanto a proporção dos que escolhem alternativas incorretas, decai a partir da primeira nota não nula como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "ba2fdc5e45cc0933fe2cb0705599d4e2547f13420a372f85528b710844ddb5bf",
+  "window_size": 3
+}

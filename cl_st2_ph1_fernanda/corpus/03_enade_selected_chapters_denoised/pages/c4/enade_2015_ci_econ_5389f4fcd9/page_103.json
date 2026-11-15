@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e044272f37f5a37006af8fd75889887d18ee3d099c619a92e",
+    "usage": {
+      "input_tokens": 1855,
+      "input_tokens_details": {
+        "cache_write_tokens": 1852,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1852
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 329,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 2184
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_102.txt",
+      "source_sha256": "26f1b6d95e4dd53f37d47dc99367c071e04376be6f7704c7386db3bd99a52ec6"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_104.txt",
+      "source_sha256": "3d6cd2b49070f0343945c410121a435abdd0b32ec00f2b995bec9ae0e5ef96a5"
+    }
+  ],
+  "created_at": "2026-11-15T00:31:49Z",
+  "duration_seconds": 4.294,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_103.txt",
+    "source_sha256": "1dd15f455764973ea29b2ec66a78dddc1b6bdbe84299a67c1b2e94b4fa88727f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "531507604801d5481533e10cdac2cef15a68152b5a9eab6adf505db4d57e27ff",
+  "request_fingerprint": "6d79804907b3199120d45b98022a055b501bf26625f0e598f352064d0ecba0a5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.7, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "A análise das percepções dos estudantes sobre a clareza e objetividade dos enunciados permite afirmar que todos, ou a maioria dos enunciados de questões relativas ao Componente de Formação Geral, foram considerados “claros e objetivos” para a maior parte dos respondentes (maior do que 74% em todas as regiões e maior ou igual a 70,1% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas do primeiro para os demais quartos. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 77,4% dos alunos sem que seja estatisticamente significativa a diferença deste para o quarto imediatamente inferior, onde a proporção foi de 78,6%.",
+  "text_sha256": "9030e09aedd5faab04fe136b1940b2bf4a049e630a4b5485100e2b4566e0bd9a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0906e1b268dc86c2006af91ddaa65887d1a5435357064ee3ff",
+    "usage": {
+      "input_tokens": 1755,
+      "input_tokens_details": {
+        "cache_write_tokens": 1752,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1752
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 2016
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ri/enade_2022_ri_page_100.txt",
+      "source_sha256": "e5b637a72626cb6e1645321e65fe1bf28d0b179bc1452a75931f0f39b2bf45a2"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ri/enade_2022_ri_page_102.txt",
+      "source_sha256": "8a974c2b5f8aee70bf670bb6de4ea22451a6ae0a376c1e265004253588748030"
+    }
+  ],
+  "created_at": "2026-11-15T02:50:02Z",
+  "duration_seconds": 3.18,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ri/enade_2022_ri_page_101.txt",
+    "source_sha256": "28f5b42dacabc5c8e92390e0852d417b5cd295e674baf4b656c9b0f00fbb9ad3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d358045ab88b1d159bfcf76eaeecaef8fde6e2d9c84598fc04cf2494c71b378a",
+  "request_fingerprint": "29bde755e1374e1e43fb609e25c78ffd54a673288fa2d4ac8e5e7f3d726e0faf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.6, incluindo título/caption, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.6 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 5.6 mostram que o percentual de estudantes que consideraram o Componente Específico da prova “Difícil” ou “Muito difícil” foi decrescente quando comparados os quartos inferior e superior de desempenho: 34,5%, no 1º quarto e 30,7%, no 4.º quarto, o grupo de melhor desempenho na prova. Os maiores valores foram encontrados nos quartos de desempenho intermediários, a proporção de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi de 34,8%, no 2.º quarto, e de 35,2%, no 3.º quarto.",
+  "text_sha256": "dc5903e02f0a802b1c8e3c8ac9d75ecc15cfcd3cd447b7ad0fbb894ffa7714db",
+  "window_size": 3
+}

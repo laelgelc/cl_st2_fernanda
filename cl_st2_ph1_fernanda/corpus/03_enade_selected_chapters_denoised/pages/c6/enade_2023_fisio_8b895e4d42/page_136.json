@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0128b6b9f1e89c70006af923adc03087d18cc749a96fe71e75",
+    "usage": {
+      "input_tokens": 2483,
+      "input_tokens_details": {
+        "cache_write_tokens": 2480,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2480
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 390,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 2873
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_135.txt",
+      "source_sha256": "335d040b7697cdf58af82b95f351fe4e4c8b08978ecd510b0c269176e6470a52"
+    },
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_137.txt",
+      "source_sha256": "e7f4a08f7e681d850814bdbf8d5e07a4bf12e5426844c7d7e60cfb40042ffa13"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:53Z",
+  "duration_seconds": 4.105,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 136
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_136.txt",
+    "source_sha256": "a6b3f28b4b62b9470bba836765d73f7f9d0b7b4e46ca15151432e244ca7c7040"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e4cd4069aecd24862155758a630f882d1dd3461878556cc46bc4aa31b9068a9",
+  "request_fingerprint": "c06903a82b26260201dcdf0df7e39f20189c32371df058f044f97a677c605120",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.6, incluindo título, estatísticas, valores e fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados expostos na Tabela 5.6, no que se refere à organização acadêmica, a maior média foi dos CEFET/IF (66,9), seguida das universidades (58,9), dos centros universitários (54,4) e, por fim, das faculdades (52,9). O maior desvio-padrão foi o das universidades (15,0), que obtiveram também a maior nota máxima (100,0). Já as medianas foram: 53,1 nas faculdades, 55,0 nos centros universitários, 59,9 nas universidades, e 67,9 nos CEFET/IF. A nota mínima foi zero nos centros universitários e faculdades. Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, no componente de Conhecimento Específico entre as notas dos tipos de organização acadêmica.\n\nQuanto à categoria administrativa, existe diferença estatisticamente significativa entre as médias das IES públicas (67,4) e as das IES privadas (54,5). Neste caso, assim como no componente de Formação Geral, a maior média foi obtida por estudantes de IES públicas de ensino.\n\nOs cursos de educação presencial apresentaram maior média (56,5) em relação aos cursos a distância (46,7), sendo a diferença estatisticamente significativa.",
+  "text_sha256": "7a835e1a3e7091a582c4ebc0a074b3032d443ca2811ffe465ae65bbd01bd9e27",
+  "window_size": 3
+}

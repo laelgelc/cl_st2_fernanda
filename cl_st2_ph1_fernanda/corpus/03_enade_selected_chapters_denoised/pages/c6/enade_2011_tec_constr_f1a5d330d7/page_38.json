@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08d29dfb26a94930006af8ef35225c87d1aac998cc5cb51c43",
+    "usage": {
+      "input_tokens": 1466,
+      "input_tokens_details": {
+        "cache_write_tokens": 1463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 231,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 1697
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_37.txt",
+      "source_sha256": "3afff755bc70cf76ffe56e5f976d22a632affca11bbe4c04fc89743f2b59b887"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_39.txt",
+      "source_sha256": "35c7dd38ab4e343c302186edfd7a704b17fa523d552e8a66c5060d7b1c55e701"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:01Z",
+  "duration_seconds": 3.017,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_38.txt",
+    "source_sha256": "c695fd36fb26be872a8640de1c5d220d33668db1768437336aea98129105704c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f9aded2926bd611179dcf634f92c80c849102fe7b1738a0bb63610a860874e8b",
+  "request_fingerprint": "b2b67bbfe4f9e16622c15216bdd314b109fa852f57a322ba21185ee05873110f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo a Organização Acadêmica, contata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades e Faculdades. Não houve alunos de Tecnologia em Construção de Edifícios provenientes de Centros Universitários. A maior nota média foi obtida pelos estudantes de Faculdades (51,5) e a menor pelos de Universidades (45,8).",
+  "text_sha256": "25f8d0eb66237c7fb3ac4aa920fb730ac0d6ff3d30c23d895747566204d22625",
+  "window_size": 3
+}

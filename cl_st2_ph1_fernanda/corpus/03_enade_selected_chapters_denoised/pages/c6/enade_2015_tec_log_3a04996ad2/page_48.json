@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0408e99afd9243dd006af9009fe0e887d1a94af2a69b911142",
+    "usage": {
+      "input_tokens": 2311,
+      "input_tokens_details": {
+        "cache_write_tokens": 2308,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2308
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 2845
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_47.txt",
+      "source_sha256": "e34d1c253f63ef139114d4e1dfd5e7ca190269a8ea2f6b541f65fc970382b387"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_49.txt",
+      "source_sha256": "6352fad91843b62a585a6f6f8f72abe46a5c6ece2077780683a6acb1a4085929"
+    }
+  ],
+  "created_at": "2026-11-15T00:45:19Z",
+  "duration_seconds": 5.445,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM LOGÍSTICA.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_48.txt",
+    "source_sha256": "eae50b202836f84cd48068c1dc35133cd7d39e1948be4336c5eb80ff45af16ed"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b26a634541a0ab707e124c9454e2b4a4f18f051c6a129fe7685ca0742a3c842a",
+  "request_fingerprint": "c9ed1c2bbbd6d743ce60a18865e528b4d6394f4a618183c202bb596501f9db0e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2015», identificada pelo contexto como pertencente ao Gráfico 3.3."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Faculdades (46,1), vindo a seguir a das Universidades (45,8) e, depois, a dos Centros Universitários (45,7). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Faculdades (14,0). As Faculdades também obtiveram a maior Mediana (46,2), enquanto os Centros Universitários, a maior nota Máxima (93,2). Por sua vez, as Universidades e os Centros Universitários obtiveram a mesma nota Mediana (45,8), enquanto as Universidades obtiveram a nota Máxima (88,0), e as Faculdades a nota Máxima (92,0). A nota Mínima foi zero para todas as Organizações Acadêmicas.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (50,7) e IES Privadas (45,2).",
+  "text_sha256": "19182f6b01b97e17df10fa3ee656ce33f1f062cdbe2b4af3dd11cbd460b11d14",
+  "window_size": 3
+}

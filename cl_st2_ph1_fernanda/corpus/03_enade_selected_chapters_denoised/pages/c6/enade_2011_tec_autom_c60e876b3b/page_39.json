@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0214f5adb34bed68006af8eee4099c87d19f6425d3904023cb",
+    "usage": {
+      "input_tokens": 1453,
+      "input_tokens_details": {
+        "cache_write_tokens": 1450,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1450
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 1682
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_38.txt",
+      "source_sha256": "12fdc853d452a2f26e69730e8c74cb957a613710accbbc6e6b1ceba71394ccf4"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_40.txt",
+      "source_sha256": "3f8a8f1e9a050d7a96079de322cfea38a1c745816e80405c33812bc29bd52183"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:39Z",
+  "duration_seconds": 3.071,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_39.txt",
+    "source_sha256": "82a9080d3872903b0d845c04e67ed652c3459c7d745f0c5977cdbc551343892e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe7a50792677fb7dddd9d7cada39540eae8f9f8c03f393a2e4403299ae8d1021",
+  "request_fingerprint": "85b8245bb25fb15528c94b3e23b9a0d9d6ae6249708a8af8ecfae0fdc7b35718",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que pertence ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença entre as médias dos estudantes das Universidades (41,3) com relação aos alunos de Centros Universitários (39,0) é estatisticamente significativa ao nível de 95%.",
+  "text_sha256": "a9d9446822fb27ca273dd5db5e1b3517dfa36de9f5c606c4e99ed3b1c2e8c82d",
+  "window_size": 3
+}

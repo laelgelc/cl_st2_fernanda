@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09f099de6501eb8b006af8fc5949c487d18f6da63931fe4f60",
+    "usage": {
+      "input_tokens": 2347,
+      "input_tokens_details": {
+        "cache_write_tokens": 2344,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2344
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 501,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 2848
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_autom/enade_2014_tec_autom_page_111.txt",
+      "source_sha256": "f4e3b1b2ee2ef3b42aafe69d1cb0d83ff4f747ba4759886b9dadc13b93e76b1d"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_autom/enade_2014_tec_autom_page_113.txt",
+      "source_sha256": "09289a11fe6a001632ab88f063c235ce472461fca4ec74b2663315a78a2e74c1"
+    }
+  ],
+  "created_at": "2026-11-15T00:27:05Z",
+  "duration_seconds": 6.527,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_autom/enade_2014_tec_autom_page_112.txt",
+    "source_sha256": "81e10021e797ee46f515bb8b3ac6e63adfdb9740f68a8f2f73cbe0de4c8a4d86"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "865ed03f31f44f364ef7b8db8c289b734fee03e0bc98a08efff2238866e7b2ef",
+  "request_fingerprint": "e8c8366c2c4f1396eff9bfabfe6e45e522b47b239078fcc61437296b42a5d2c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada pelo contexto como pertencente ao Gráfico 5.1 da página anterior."
+  ],
+  "status": "success",
+  "text": "5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA E POR GRANDE REGIÃO\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2014 de Tecnologia em Automação Industrial, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 78 cursos participantes, 21 (26,9%) eram ministrados em Instituições Públicas e 57 (73,1%), em Privadas.\n\nDe acordo com as informações da Tabela 5.2, em termos nacionais, entre Instituições Públicas e Privadas: das dez IES que receberam o conceito 5, oito eram Públicas e duas Privadas. Dos 21 cursos participantes de IES Públicas, os conceitos 4 e 5 foram os modais, atribuídos a oito cursos (38,1%) cada um deles. Entre os demais cursos de Instituições Públicas participantes, um curso (4,8%) foi avaliado com conceito 1, nenhum curso obteve conceito 2, e três cursos receberam conceito 3 (14,3%). Nesta categoria, somente um curso ficou sem conceito (SC).",
+  "text_sha256": "a71c13f30e282ff29360ed0fce6c785d0ceca6b6a0f4a7547e37f3f261239779",
+  "window_size": 3
+}

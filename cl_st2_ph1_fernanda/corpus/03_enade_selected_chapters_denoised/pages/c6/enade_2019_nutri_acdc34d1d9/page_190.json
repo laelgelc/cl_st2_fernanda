@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c00fe0d37098dbf006af914abcf3087d193a2722ad42955b0",
+    "usage": {
+      "input_tokens": 2546,
+      "input_tokens_details": {
+        "cache_write_tokens": 2543,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2543
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 620,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 3166
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_189.txt",
+      "source_sha256": "473b846f246e8a741e546cdeab67aa17fa5c0ce711bc38e5cc7a69f4e6977789"
+    },
+    {
+      "page_number": 191,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_191.txt",
+      "source_sha256": "ce36e228c57fe55d3bbc06384d9238e03b021bc90a6d4fa9f779787e4855b049"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:51Z",
+  "duration_seconds": 6.436,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 190
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_190.txt",
+    "source_sha256": "50e060d06f08629715de41277a8be9d5df73151bfc87d6737c9fecdec5aa07ca"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "daeb3255d9dfca484e789801ad9243c5d7a3cec4ca7ecd60bf7fe5e72618d33e",
+  "request_fingerprint": "eb18321878ab757f8b714939c1c1a71c369afcc185bdc162c4981202b95d33e7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/Inep/Daes - Enade/2019”, identificada como fonte do gráfico da página anterior. A página termina com uma frase incompleta; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "6.3.1.9 Comentários sobre a correção de Língua Portuguesa das respostas à Questão Discursiva 2\n\nA Questão 2 de Formação Geral abordava o tema do desenvolvimento científico e do desenvolvimento tecnológico do Brasil, tomando como base um fragmento de texto publicado em site oficial de um órgão governamental de pesquisa na internet, o Ipea. O texto motivador informava que o Brasil está em posição intermediária em todos os indicadores de produção e utilização de conhecimentos e novas tecnologias. Além desse texto, a questão apresentava uma imagem que estabelecia uma ligação entre Instituição de Ensino Superior - Empresa - Setor Público.\n\nCom base nessa reflexão inicial despertada pelo texto motivador, o comando solicitava que o participante citasse dois ganhos para o campo científico e dois ganhos para o campo econômico no país, resultantes da relação entre Instituição de Ensino Superior - Empresa - Setor Público.\n\nComo o comando solicitava apenas uma “citação” de ganhos, sem referência à exigência de justificativas ou explicações que ensejariam a elaboração de um texto dissertativo sobre o tema, observou-se uma grande fragmentação do pensamento abstrato e,",
+  "text_sha256": "6c8c68dc8ccd43dc59ac8306ed03d9bcc26f58f8d96e2d9dc710827fdf5cfe77",
+  "window_size": 3
+}

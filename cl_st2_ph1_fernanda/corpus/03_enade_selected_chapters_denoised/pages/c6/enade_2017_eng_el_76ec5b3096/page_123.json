@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f91dfcd8e99fa02006af906fd43d087d191a700f057a3edb3",
+    "usage": {
+      "input_tokens": 2660,
+      "input_tokens_details": {
+        "cache_write_tokens": 2657,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2657
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 609,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 3269
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_122.txt",
+      "source_sha256": "81597893865c5d95e7b12fe6d37cd71c8e9eecbc600d97604160ec9fc85686b9"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_124.txt",
+      "source_sha256": "4e1bc5c02170238e450c09fd503140517d20c72267253091ea08edf783242cdf"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:29Z",
+  "duration_seconds": 3.034,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_123.txt",
+    "source_sha256": "6699f7592d9c5e21034b739f74b916ba5ed940088fc27272136aa33aa1caab4c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5bd4007ae1dbf81cd2fd7a176db90be08296663cf5b5d4fc63eab99a0de9e3a0",
+  "request_fingerprint": "6cfe5d94a2663af97bc6fe45a23b30d43f40fbff46a3085ac437d0a98f7347cf",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 6.4, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil no que diz respeito à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova (0,52).\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Dentre os estudantes que acertaram três questões, 19,7% escolheram a alternativa E, outros 19,7% escolheram a alternativa D (em roxo), 46,0% escolheram a alternativa B (em verde), a alternativa correta, 9,0% escolheram a alternativa A (em azul), e 5,4% a C (em preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "d27d5e0d96ca0c21c9e8275093b361d5cb6ec1f4c9df632537e71f0f633a7037",
+  "window_size": 3
+}

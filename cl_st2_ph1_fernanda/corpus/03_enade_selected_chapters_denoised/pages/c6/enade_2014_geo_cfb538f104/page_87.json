@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a06e3818a3b676006af8fa046e8c87d19c679702883e241b",
+    "usage": {
+      "input_tokens": 2289,
+      "input_tokens_details": {
+        "cache_write_tokens": 2286,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2286
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 301,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 2590
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_86.txt",
+      "source_sha256": "e36e5434a9a1ae43ce9c79d68ec0f3c604b2482e76f9f40ee5e597456d3e025b"
+    },
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_88.txt",
+      "source_sha256": "a08b9c8b0d252d761ab9d206bbf8c07a18ed8274b5e0dcba58b59fac2372cc36"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:08Z",
+  "duration_seconds": 10.677,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 87
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_87.txt",
+    "source_sha256": "463d7f8bb863f21f31e686d9275845edac68e63207fcfff3eea3374a6b2e08bd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3f69258fa3900dc79884e34e80102df79510c3a4b3b1286d3aa19d6bc4b323a0",
+  "request_fingerprint": "6db36c2f645dcaff88230aa5edfc355d19c123da0c361a7c9ad098e358ae2764",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "branco. A nota mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil.\n\nO Gráfico 3.12 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico da área de Geografia para estudantes do Bacharelado e da Licenciatura. Essa distribuição tem moda nas questões em branco para os estudantes de Bacharelado e nas notas zero para os estudantes de Licenciatura.",
+  "text_sha256": "13d5b65d5318ce861b8ae59784342978b70c64b1ce66732354e0212a177b4b04",
+  "window_size": 3
+}

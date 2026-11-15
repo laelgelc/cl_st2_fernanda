@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_018b49645d59015a006af90d96c6c487d193b754dfb7f1dd21",
+    "usage": {
+      "input_tokens": 2752,
+      "input_tokens_details": {
+        "cache_write_tokens": 2749,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2749
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 574,
+      "output_tokens_details": {
+        "reasoning_tokens": 317
+      },
+      "total_tokens": 3326
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_115.txt",
+      "source_sha256": "569a0bef4ef13ff70c0f171646d3dcebbb0742585f1d1172d91bee6d1199fdfe"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_117.txt",
+      "source_sha256": "7dcc43485b54d77f19c3308ff7472de9ff24e0bafa2ec8bfb03e9b7d083b403e"
+    }
+  ],
+  "created_at": "2026-11-15T01:40:38Z",
+  "duration_seconds": 4.97,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_116.txt",
+    "source_sha256": "44cbcec07c4011c06ea5494f17ee8b08f12d9f78ceb6510dea8b0504c7ef0002"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0c394bf13f53760f08ed0404d90ea3d59f1b06ebdb28b359ad140a3a4713cbae",
+  "request_fingerprint": "0be50e5bcbe7b87bca63dec380fcc0f60600e5bc6fac5fec7c81c2058f6b3b90",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, identificada pelo contexto como pertencente ao Gráfico 6.2."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4, são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que não existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (43,5) e a menor, pelos de IES Privadas (41,1).\n\nNota-se, também, que há diferença estatisticamente significativa entre a maior das médias dos quatro tipos de Organização Acadêmica e a menor delas, o valor maior para as Universidades (44,3) e o menor para os CEFET/IFET (35,9).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou maior Média do que a Educação a Distância (médias 42,5 e 37,0, respectivamente). Tais médias não apresentam, entretanto, diferença estatisticamente significativa.",
+  "text_sha256": "63dfe7bbb045d9e997fe66d7c4ca94acf7fa1ac8969e02e898818986642e14fc",
+  "window_size": 3
+}

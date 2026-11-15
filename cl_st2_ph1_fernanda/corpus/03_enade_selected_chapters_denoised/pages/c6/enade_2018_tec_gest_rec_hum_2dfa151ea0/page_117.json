@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_003139ccc91bc6a9006af90f309c6487d1a600cabba2e28648",
+    "usage": {
+      "input_tokens": 2993,
+      "input_tokens_details": {
+        "cache_write_tokens": 2990,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2990
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 3520
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_116.txt",
+      "source_sha256": "6c1c6b38e0e47e5af2f4404a8a0dc4a06360c568bccf560df7876cad1fadca7b"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_118.txt",
+      "source_sha256": "8e5b84809a88dbdad6e4c52cfe387a5771b23da7200af8f7ee8bbac30c7c0d5b"
+    }
+  ],
+  "created_at": "2026-11-15T01:47:28Z",
+  "duration_seconds": 4.41,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_117.txt",
+    "source_sha256": "39335e360ced98d7562a561eb139309104c79c3404acaaffb80040d45f5ec263"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "266e154885985ece456e7b11daf7feb59d7f2f08e44797d51533509789c304ca",
+  "request_fingerprint": "60134bb5f37a2d0a8c693b086719cf5367438e949bf44ed348d04e7efbb21b42",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material do Gráfico 6.1 (histograma), incluindo a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50], seguido de perto pelo intervalo (30; 40].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 42,2. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (47,2) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (42,1). Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e as das Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (1,6), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e a das Privadas (5,1), caracterizando-se maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (13,2) foi superior ao do Brasil, como um todo (12,6), indicando uma dispersão um pouco maior das notas nessa Categoria Administrativa.",
+  "text_sha256": "6155df6069a95a8f56ad5b5dad5e8cc4ef3afe5f1d9003d0932d8e18c0ea01e9",
+  "window_size": 3
+}

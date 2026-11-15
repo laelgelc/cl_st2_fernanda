@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04f3ea3fae823085006af91415269c87d185c5f9489c07c3de",
+    "usage": {
+      "input_tokens": 2659,
+      "input_tokens_details": {
+        "cache_write_tokens": 2656,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2656
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 470,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 3129
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_153.txt",
+      "source_sha256": "18a6faa32ac16113354546c3e3f9339f972f0a1af6e55d98445762be38472ec9"
+    },
+    {
+      "page_number": 155,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_155.txt",
+      "source_sha256": "33bafd7c3846d877feb643a960f342f6bd468df6942bfcaff77e4fe3f694c95d"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:21Z",
+  "duration_seconds": 4.49,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 154
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_154.txt",
+    "source_sha256": "7728ed414d1217d7527f914436b04d0ce5785da28d47a0ceba2b9e2ca7d29bff"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "22188754bc04bc70b54650d143841390103fcaa3ed10fbf343a70c1c57a54161",
+  "request_fingerprint": "e5a7844048ed7b38c503e03a9ce0ca6bec3e1d09948a4932ed122e734034a602",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, identificada como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

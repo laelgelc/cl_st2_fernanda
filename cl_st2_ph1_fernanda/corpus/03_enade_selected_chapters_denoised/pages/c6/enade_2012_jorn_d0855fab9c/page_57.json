@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cc02177edb0235e006af8f116f12887d1b0d9e7076f0dc3c0",
+    "usage": {
+      "input_tokens": 2709,
+      "input_tokens_details": {
+        "cache_write_tokens": 2706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 702,
+      "output_tokens_details": {
+        "reasoning_tokens": 438
+      },
+      "total_tokens": 3411
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_56.txt",
+      "source_sha256": "343d60e7e5f7c9ed99ec4479797f7522a28ab71bb538aafd21c012071535ffc4"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_58.txt",
+      "source_sha256": "ca25287002cdcc02111af65e8e71d34fe3f9334ea8520b755417bc80a7a93382"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:02Z",
+  "duration_seconds": 6.811,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_57.txt",
+    "source_sha256": "d9e6e73e6620cab0eeab0af7fee2d500fdd74fce0bf572468309b7cd39321560"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e17d4947f030b41a1a64d07dd85ef1aae81ae56a9d6f5ee95c571ad9a150778d",
+  "request_fingerprint": "827893a5c306371a5b3cf5c6a4a3a78ccc06887b639cebe53654a8735fc2b78b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte MEC/INEP/DAES - ENADE/2012, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 35, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% a partir de 24 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, também gradativamente, a medida em que a quantidade de acertos aumenta nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "f8a141b309f86fc0fd53b9fc6a1d05c02510acd2bc30502cf2e2529d6fe30afa",
+  "window_size": 3
+}

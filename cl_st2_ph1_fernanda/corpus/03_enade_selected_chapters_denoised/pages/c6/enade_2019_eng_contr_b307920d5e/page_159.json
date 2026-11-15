@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c674d1de57b9c70006af9115f13ac87d19c5d471a9747c3d0",
+    "usage": {
+      "input_tokens": 2854,
+      "input_tokens_details": {
+        "cache_write_tokens": 2851,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2851
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 918,
+      "output_tokens_details": {
+        "reasoning_tokens": 354
+      },
+      "total_tokens": 3772
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_158.txt",
+      "source_sha256": "a6a0f5b2b5c82527f70b1d9102d805eed0938c7788d817cb2ea3e7532ba77023"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_160.txt",
+      "source_sha256": "ecff7bb212da2f7a1ece93499045fd59e2401ff55c7f55ded8ad2d78cd57ae37"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:47Z",
+  "duration_seconds": 8.069,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_159.txt",
+    "source_sha256": "6ae054f1fbf94b64441f64f1d4bba6adc0eb235bfb9ecd5196529d2cdf9b6295"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c521027b6e7c8d6aef8f6a34a9b443e3c18d9d2bf2a0ea6a57ef3501f18e2030",
+  "request_fingerprint": "67108d06f6951761c3df71a45cd33c2e885a22606089009ba6a11a1475a9c1c9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "8 foi a que apresentou o maior poder discriminatório, com índice 0,52, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,63 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,76.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 15,3% escolheram a alternativa E (em vermelho), 14,9% escolheram a alternativa D (em laranja), 26,7% escolheram a alternativa B (em verde, gabarito), 8,2% escolheram a alternativa A (em azul), e 34,4%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,5% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "a83eb9cfe1feaa6176eedd4e82d26c493781d53f200539839870a16e2d0c12a2",
+  "window_size": 3
+}

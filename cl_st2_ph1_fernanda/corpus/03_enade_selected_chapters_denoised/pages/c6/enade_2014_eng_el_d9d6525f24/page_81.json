@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bbdf874d538725006af8f8a489cc87d1acc761f9bc20c45c",
+    "usage": {
+      "input_tokens": 2269,
+      "input_tokens_details": {
+        "cache_write_tokens": 2266,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2266
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 2530
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_80.txt",
+      "source_sha256": "4146cb4afffbc6de49b395903a386885f1f7edfbf11fdeea7b8ac1dcd5614bf3"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_82.txt",
+      "source_sha256": "a678a28a1fac8aa279edc5d077280c838743b7b752dd18f272b57ded1c66f0db"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:16Z",
+  "duration_seconds": 4.083,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_81.txt",
+    "source_sha256": "bd016345859f5f5eb8702dce199187be345c9699eaf38d6f991dedb50b70eec0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "271ef9b6ab660986508e1485ac5b8b5f25734f664e317891c20303f3de6f1486",
+  "request_fingerprint": "bbbb0f181d10205d0673cdb4a757d8eb561e28af6c85066f2284762ba04675d8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, estatísticas, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.11 e sua linha de fonte; preservado o parágrafo em prosa que o comenta."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Engenharia Elétrica. Sem levar em consideração que mais de 50% dos estudantes deixaram a questão em branco, a moda da distribuição está localizada nas notas 0,0.",
+  "text_sha256": "e8c73661f303bc5c551ba49ad7c2a1cd49e7af4326bcc1e007b48f1db9b10f40",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a05104269b3c93006af913895f7487d1be205790bda7ffff",
+    "usage": {
+      "input_tokens": 2848,
+      "input_tokens_details": {
+        "cache_write_tokens": 2845,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2845
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 853,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 3701
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_143.txt",
+      "source_sha256": "ffb5de8e688ec5322d19770b928868870e41e1b78fe275e2afdde7beec4627bb"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_145.txt",
+      "source_sha256": "c262d8fd55eecca19f4a3227cfa13fb2d84ffa0944c4dc9b17099635007dd534"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:01Z",
+  "duration_seconds": 9.041,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_144.txt",
+    "source_sha256": "18c46f87643a14dab06e9d8860152d09a356d1b061609ee398dd65cb25892f94"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "38132883e9100778c072ea236c826e08f4b4e9cd6b08a4cf0adf8e0162461ef5",
+  "request_fingerprint": "37c58db371ced257347c5ca4e3563135c962121e693f5c0c62ec93e3e3aff77e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Muito bom figuraram entre dois níveis de dificuldade Fácil e Médio: duas classificadas na categoria Fácil (as questões 2 e 8) do Índice de Facilidade, e quatro, na categoria Médio (questões 3, 4, 6 e 7). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,51, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,66 acertos.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 11,0% escolheram a alternativa E (em vermelho), 13,7% escolheram a alternativa D (em laranja), 41,1% escolheram a alternativa B (em verde, gabarito), 8,2% escolheram a alternativa A (em azul), e 25,5%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,5% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso",
+  "text_sha256": "558249498452b5c9eb593f8cbe726c62f3207ff51fa168228d69f7f67f1851d9",
+  "window_size": 3
+}

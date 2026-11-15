@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05403ad39d52761b006af90792bb2087d1a06083119f38154d",
+    "usage": {
+      "input_tokens": 2565,
+      "input_tokens_details": {
+        "cache_write_tokens": 2562,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2562
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2925
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_99.txt",
+      "source_sha256": "2a55eb346f17409698b06eb760f8b2b9547a782f14149a980037d22c9d3721df"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_101.txt",
+      "source_sha256": "b9597a35a17d1669d8ae6f195b7f01fab84fd9e24db6ef5c7ed0c10eb5b0b924"
+    }
+  ],
+  "created_at": "2026-11-15T01:14:58Z",
+  "duration_seconds": 4.54,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_100.txt",
+    "source_sha256": "97992ee910410b49e0d2e97fd03793ac73cbdf0dbd1f66baf682556be9f24a7b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7ce32c857ed18bf9fc083bd9097af1ad25809ff7a43aad4e997f5930336b3535",
+  "request_fingerprint": "4e0095a61d2a60a0385188909d60f5c3d6f3850aeba983f3779d471e5623d94b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre as médias das regiões Sul e Sudeste em relação às notas do Componente de Formação Geral.\n\nO Gráfico 6.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (60; 70], intervalo modal superior ao da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda que, no Gráfico 6.2, as notas apresentam dispersão maior do que as do Gráfico 6.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,4 para a nota da prova como um todo e 16,1 para o Componente de Formação Geral.",
+  "text_sha256": "a0050f751f677c9699485464320196113e212f0e0e28ae6ee001e063e5c82c63",
+  "window_size": 3
+}

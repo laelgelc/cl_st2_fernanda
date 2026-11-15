@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_033e357b98add0eb006af8f6a4102c87d19ab8a58ab3e6719c",
+    "usage": {
+      "input_tokens": 2806,
+      "input_tokens_details": {
+        "cache_write_tokens": 2803,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2803
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 339,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 3145
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_48.txt",
+      "source_sha256": "55c4bc7167dfada3c6183e4749b5da4a90331ecec9beeb7cfd6d0fe646faa10b"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_50.txt",
+      "source_sha256": "a18f83263c30fb7aeb755a7647a19806cd7d4c6cc06c744d5a1a2aaddb9717fb"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:43Z",
+  "duration_seconds": 4.216,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_49.txt",
+    "source_sha256": "0841a6c57855a91a5e53baf441efe749951a50560735c8dfc897aa9dfee9d8be"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "75e6c0773d52d98e5213fe50bdc56e2c96c33d4573f8daeb5a2a07f381216b17",
+  "request_fingerprint": "0b504c934d5c71ac550b12eb28327f731fe9fb6d77d0350e2b872ed90f3e42c2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 3.3; o gráfico e seus demais elementos não aparecem no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes dos cursos de Bacharelado e de Licenciatura em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Estas também são distribuições unimodais, e o grupo modal é o (40; 50] para Bacharelado e (30; 40] para Licenciatura.",
+  "text_sha256": "a7579996e1db0be02d233c8d63c54b2f8eec84a242dac84e1f77f527da70e86a",
+  "window_size": 3
+}

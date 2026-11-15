@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0745b9aa28c6b662006af8ee091cd487d19505cb0caf2c70b3",
+    "usage": {
+      "input_tokens": 1362,
+      "input_tokens_details": {
+        "cache_write_tokens": 1359,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1359
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 407,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 1769
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_101.txt",
+      "source_sha256": "98889483c3d2f8c88e519b51391f6e4bacbdb7cdf1e7f20da5d40e509b254905"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_103.txt",
+      "source_sha256": "f6c8d4598e91427b8a31adf9591eece86042c192864375ddbe06fd5357fa49d8"
+    }
+  ],
+  "created_at": "2026-11-14T23:26:01Z",
+  "duration_seconds": 6.239,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MATEMÁTICA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_102.txt",
+    "source_sha256": "5e40378704fa51380b0ab5f6a6f0e3a28d6bc65c532b4a403cb7e3415ad71767"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e6901f1be04b4fe82a27efdef041281611fc9505a2039602386c8759cc8bcf5",
+  "request_fingerprint": "3401ce70040e8838e6402185ddcfdb2e4fb57cc8e8761f00bedb0858593e317c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 75,0% e 56,0%. A diferença entre estes quartos extremos é estatisticamente significativas e os valores evidenciam uma tendência de crescimento.",
+  "text_sha256": "0ebbf2bc0b7f64b22a9ba1b3979de17ad1fa5b935ec28900f52a243c430af716",
+  "window_size": 3
+}

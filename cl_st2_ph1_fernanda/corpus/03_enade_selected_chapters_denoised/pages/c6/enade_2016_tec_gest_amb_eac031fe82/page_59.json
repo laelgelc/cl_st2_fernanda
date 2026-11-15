@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03925bf5ffd2e4d1006af903dac42887d1a0f82478f84603b1",
+    "usage": {
+      "input_tokens": 2043,
+      "input_tokens_details": {
+        "cache_write_tokens": 2040,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2040
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 614,
+      "output_tokens_details": {
+        "reasoning_tokens": 302
+      },
+      "total_tokens": 2657
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_58.txt",
+      "source_sha256": "60c4f01cd51efebe3ea7dbb2d9166dae2d9560d7addfdb69d983cd77179e2a41"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_60.txt",
+      "source_sha256": "7ab678a106fbeb48e0f6a61b96ad771fe439e54daaeaee44f9522a107b7b3b51"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:06Z",
+  "duration_seconds": 6.24,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_59.txt",
+    "source_sha256": "5929e5c2eff5153f53aa09a5ea025af757237d7d3dc0d0651ca7f1b712990bfd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3f26c557579e9b0e951e3d65827b8a05c14c78bc47e18a9e3a5b045ac278df99",
+  "request_fingerprint": "e6521f43cfc4c70e03119e6619286f9a31ad9c07c2a8fe844a911d8f7459c47a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "O Gráfico 3.6 é indicado na página; material gráfico associado removido. A fonte aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 55,5, a mesma da região Centro-Oeste. A Mediana foi maior do que a nacional nas regiões Norte (57,0), Nordeste (57,0) e Sudeste (58,0). Na região Sul foi menor, igual a 53,0. A nota Máxima (94,0) foi obtida na região Nordeste. A menor nota Máxima foi a da região Centro-Oeste (85,5) e as demais foram: 90,5 na região Norte, 91,5 na região Sudeste e 93,5 na região Sul. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nO Gráfico 3.6 representa a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda desta distribuição ocorre no intervalo (60; 70]. Destaca-se também o intervalo [0; 10] com distribuição próxima a 8% do total de notas, sendo que no intervalo [0; 10] incluem-se além da nota zero, a frequência de alunos que deixaram este tipo de questão em branco.",
+  "text_sha256": "bfe99e631850b1828d077f674e0eb3f0bd237baa829262072ba6b3237a630953",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07e6a77349d09b79006af9160d240487d1b6a5ee43eefd9dec",
+    "usage": {
+      "input_tokens": 2835,
+      "input_tokens_details": {
+        "cache_write_tokens": 2832,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2832
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 337,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 3172
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_141.txt",
+      "source_sha256": "7b0496249664e1283d6085248356a692960b77ae8a2e82cc37a2f525d61744f1"
+    },
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_143.txt",
+      "source_sha256": "6fdfdfefcb00f06620985b5ea80889005aa1c061a3174cea44cff1fada22e449"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:45Z",
+  "duration_seconds": 3.818,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 142
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_rad/enade_2019_tec_rad_page_142.txt",
+    "source_sha256": "46f04c3cf44566b6b296844573db9cc3e9903a0448606039b15edc585f064023"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2f31c9775d56e025609b52c653b2cb1ea54b89df39481c2046ee57314ee75ec8",
+  "request_fingerprint": "8e5b11450f8b71ba85571df55e00baade9cf8899df99780438c4be3418e46f96",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.3, seus dados e a linha de fonte. A prosa do alvo termina truncada em “os quais receberam os”; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades tiveram apenas um curso avaliado em 2019, que ficou Sem Conceito (SC). Os CEFET/IF não tiveram cursos avaliados em 2019.\n\nOs Centros Universitários da região Norte foram representados por cinco cursos, os quais obtiveram conceitos 2 (dois cursos), 3 (um curso) e 4 (dois cursos). Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região. As Faculdades participaram com seis cursos na região Norte, os quais receberam os",
+  "text_sha256": "10ddde3ddf21043bae01200c9aada5b3e8943366d0f21e049a67b893504399db",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03855ad9d4225b66006af8eee6843487d19540f990e24d0821",
+    "usage": {
+      "input_tokens": 2114,
+      "input_tokens_details": {
+        "cache_write_tokens": 2111,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2111
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 681,
+      "output_tokens_details": {
+        "reasoning_tokens": 463
+      },
+      "total_tokens": 2795
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_41.txt",
+      "source_sha256": "535731b4874a658c02365f467a7e27293d12f701bad080a629a7bc8060c2c625"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_43.txt",
+      "source_sha256": "7503b3c9c615858d290c577c72039f9d8a897c1f554c299f211aa071f183b4a6"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:42Z",
+  "duration_seconds": 7.356,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_42.txt",
+    "source_sha256": "c531c69d88e542e6de77aeb577eee9add6d23b336183c958c01ac644db1f8fd0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7ddf7e0408d6f7766237bad2e24e2dff1b265baf6b23af2db8db4f200600661",
+  "request_fingerprint": "4f83fae5fc0a0f3f2c47283a84772b14d5a8fededf42189b7730989e3c0efe3d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se, pelo Gráfico 3.6, que existe diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral da região Nordeste, maior média, e das regiões Centro-Oeste e Sul. O mesmo não ocorre em relação às regiões Sudeste e Norte. Verifica-se, ainda, que o intervalo de confiança mais largo é o da região Norte, fato que está relacionado com o tamanho da população envolvida, menor na região Norte do que nas demais regiões.",
+  "text_sha256": "5a0d867831ecccb0fc44a225c964d4e9c165d87128a69533edcca8f425c47fd9",
+  "window_size": 3
+}

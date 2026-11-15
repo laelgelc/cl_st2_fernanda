@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07abc8a3a3331024006af8eca4490c87d1805980da55dae4b5",
+    "usage": {
+      "input_tokens": 2036,
+      "input_tokens_details": {
+        "cache_write_tokens": 2033,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2033
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2367
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_43.txt",
+      "source_sha256": "8296de99df093d3339cf1ffc89b56945a58221a27e9c8568c775bf0e83dd32bb"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_45.txt",
+      "source_sha256": "76b1598c681e4cd9cd50a9097abaf15e93250d6bbd28dcb0af09ef876e071e61"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:04Z",
+  "duration_seconds": 3.77,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_44.txt",
+    "source_sha256": "2c28a111d908db16802fa59dc939243a555119ff8c23f73c01721f75432bd5fe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fb10786ede401d7b86c5eb963e51a0e32d0f8c371c6caed6c1f1ac3e2e2f717f",
+  "request_fingerprint": "69e1bab1bbb2e2e661049bfaf38151bb54e4bff7fe519f15645800cf896fda29",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e a linha de fonte no início da página, aparentemente referentes ao Gráfico 3.5."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral, segundo Grande Região do país. Vemos que o intervalo de confiança mais largo é o da região Centro-Oeste; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Centro-Oeste do que na Sudeste.",
+  "text_sha256": "15b483f9fb4fdfd7a0cc59c41a1baadefc7b87ac4cce319974c8aab24a15d30a",
+  "window_size": 3
+}

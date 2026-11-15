@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ee09eb241c4c45006af9116025e487d1b1bd38759416c9ff",
+    "usage": {
+      "input_tokens": 3407,
+      "input_tokens_details": {
+        "cache_write_tokens": 3404,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3404
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 458,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 3865
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_161.txt",
+      "source_sha256": "00354bb009a7c831471983bd3d0c5577220990522281b6bb01a1fd7fa79c532b"
+    },
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_163.txt",
+      "source_sha256": "be566c15c8461b00351a5599bd2eded04e78f401664085ee6ffc27bf96d98a69"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:48Z",
+  "duration_seconds": 4.136,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 162
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_162.txt",
+    "source_sha256": "3425bbb2da311608a123fc6b9087219eb3c7cb0ad94efb9432ce807a04ca7137"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f44c301ef7f8f37058c406cc463b0a9ef81de9c7145d24f18311a5e87b08e97d",
+  "request_fingerprint": "c1c1e7909f76aa40fc381e9ea35291ff4bbae67909e700240f91710eca1dbc03",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Índice de Facilidade variou de 0,12 a 0,79 e o de Discriminação, de 0,06 a 0,44.\n\nNa Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, uma delas obteve o maior índice e foi classificada com Muito bom, a de número 19. Seu índice foi 0,44, e, quanto ao Índice de Facilidade, foi classificada como Difícil, com 26% dos estudantes marcando a opção correta. A questão de número 30 foi a mais difícil entre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 12% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,06, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 14, com Índice de Facilidade 0,15, o que, em termos percentuais, corresponde a 15% de estudantes que responderam acertadamente. Já 0,07 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 30 e 14, além das questões 10, 24 e 31, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "21d9a0de41da3dcf272ef21e4843406987c57e39becdb56b45583a5834239f62",
+  "window_size": 3
+}

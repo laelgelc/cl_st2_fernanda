@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_003e2f133109c3b1006af8f3dd2f0487d1adf6785f598629ee",
+    "usage": {
+      "input_tokens": 2589,
+      "input_tokens_details": {
+        "cache_write_tokens": 2586,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2586
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 776,
+      "output_tokens_details": {
+        "reasoning_tokens": 447
+      },
+      "total_tokens": 3365
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_65.txt",
+      "source_sha256": "a4167cdc70130050a0df6632280500ec26594bedf300d229f0d8810fdd277a74"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_67.txt",
+      "source_sha256": "035f30f1f17f0d79fe1c063b5984ae2eb386beffabb6801f3d56709ce4a733e0"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:53Z",
+  "duration_seconds": 8.312,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_66.txt",
+    "source_sha256": "71319547387aae28a32386b42bd2bc04f457d576343ecf527091ed8a4ced8f79"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3da932c815a407f2b39176ba137a05cdf6ba031b781956542569a9feb68b7e26",
+  "request_fingerprint": "e08e9b4d02916b4731439e3adefcecca324b6363e1539e5f530b5b8d0457f051",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte. O material gráfico do Gráfico 3.17 não consta como texto extraído na página-alvo; sua fonte aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "A mediana foi 45,0 para o Brasil como um todo, sendo encontrada, também, na região Centro-Oeste. As medianas nas demais regiões foram: 25,0 na região Norte, 40,0 na região Nordeste e 50,0 nas regiões Sudeste e Sul. As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Neste gráfico, observa-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 18%). A moda da distribuição ficou no intervalo (40; 50], com um percentual um pouco superior a 18%.\n\nO coeficiente de assimetria das notas nesta questão é negativo (-0,18), indicando que a distribuição é assimétrica à esquerda. O mesmo ocorre para quase todas as regiões da Brasil (-0,33 na região Sudeste e -0,30 nas regiões Sul e Centro-Oeste), exceto as regiões Norte (0,38) que possui assimetria positiva e Nordeste (0,01), com assimetria virtualmente nula.",
+  "text_sha256": "e38f2b3a9bccbb3b9fa88dff7eb2444174a46db42da2d5b44c53513dc39fb6a6",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0179b644bebe3c11006af8fa5ade0487d18f90cdc04bb260eb",
+    "usage": {
+      "input_tokens": 2579,
+      "input_tokens_details": {
+        "cache_write_tokens": 2576,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2576
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 2974
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_112.txt",
+      "source_sha256": "e3b9d298e148585f343e4b7798ae6fd80df32155770aa257711473a51b97af6d"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_114.txt",
+      "source_sha256": "959ffcf08596be04a486f6ab50fd6fdfb7f9e7646df2d28f544e9253fbb0229e"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:34Z",
+  "duration_seconds": 4.332,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_113.txt",
+    "source_sha256": "e327db4b3e79bef1952ded4acd5821da496d77c3d4b6016a2b54395944d26964"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6603f633f3b2fed9ed320ece51a86bb3960796d0368733c7862c9fc0406565fa",
+  "request_fingerprint": "1999982e7d77d983f38b0e2bebf84248b1899202a7d2aa568dc9fc0f7ce7c8a1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte.",
+    "A página termina em “E um”, no meio de uma frase; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com quatro cursos (36,4% do total regional), dos quais nenhum ficou sem conceito (SC) ou com conceitos 3 ou 5. O conceito modal para as Instituições Privadas na região foi 2, com dois cursos, correspondendo a 50,0%. E um",
+  "text_sha256": "f0356e1bb7994b2659c218fbcbbef5889c3bdebfce991da69d64bcf21ba7ec99",
+  "window_size": 3
+}

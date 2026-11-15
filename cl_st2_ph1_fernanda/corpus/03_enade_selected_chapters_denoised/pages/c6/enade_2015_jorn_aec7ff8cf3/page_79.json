@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aa0c1a6e1b8fe1f006af8fe227b1487d19e9a22f5168dd4b5",
+    "usage": {
+      "input_tokens": 2418,
+      "input_tokens_details": {
+        "cache_write_tokens": 2415,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2415
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 2749
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_78.txt",
+      "source_sha256": "5a73ba6ca875064e6e90d12741e8425f4051c5f1fd01784b290b48a1d47f8e71"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_80.txt",
+      "source_sha256": "1c342a07dec724a614b81cd87e06a7fc38b56ecf23675d3a73be15b246e1949c"
+    }
+  ],
+  "created_at": "2026-11-15T00:34:42Z",
+  "duration_seconds": 4.482,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_JORNALISMO.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_79.txt",
+    "source_sha256": "18f5bb0f617717e2dead85f18d6fe5b28c8c9e88adc3ec8104e2207fce3b18b4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d8080c7ee1a4933a273ae79efc9efd0713f5b176487378348f71184cda3ee793",
+  "request_fingerprint": "bd49156f3268bdeb541377024b5a4bc9fab190bef83447b8197a1ea524ec9a1f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.17, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.10; a linha “Fonte: MEC/Inep/Daes - Enade/2015” foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no primeiro intervalo, [0;10]. Nota-se que a distribuição é decrescente.\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "1a08b0557803241a3129c611a85bd8c05087610fae17a5780ee05190b1d6a518",
+  "window_size": 3
+}

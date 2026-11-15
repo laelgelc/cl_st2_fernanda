@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f869697de53d8c0006af90061f30c87d19f19d526c56c4060",
+    "usage": {
+      "input_tokens": 1829,
+      "input_tokens_details": {
+        "cache_write_tokens": 1826,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1826
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 329,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2158
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_100.txt",
+      "source_sha256": "b6a1de05626c5f2e05d0e7087f2df602f3971aa102e0622e69ee843b76fbaddd"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_102.txt",
+      "source_sha256": "4022b1db10ce9a004053546f834f9cfbcf8e9f4ac83eeb1e3cf4273d431ec66b"
+    }
+  ],
+  "created_at": "2026-11-15T00:44:17Z",
+  "duration_seconds": 3.571,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO PÚBLICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_101.txt",
+    "source_sha256": "2f6a21886026142d223ce9299c173d62d9806ee4466b95f3ea2f085a0b9ede5c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2d97a41cf81b2be12e65b825b68d3146faf29f9b1b981c913501ba81e8aee2bc",
+  "request_fingerprint": "80ad0759155af2543c627a080e8d06196198340c862de1003be249d1d9187e6b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.5, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "de 38,1% na região Sul até 43,7% na região Centro-Oeste. Não há diferenças estatisticamente significativas entre as regiões, conforme se observa no Gráfico 4.5.\nO percentual que avaliou a extensão da prova como Adequada, entre as grandes regiões, variou de 43,8% (Nordeste) a 56,9% (Sul).\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 53,2% consideraram a extensão da prova adequada no quarto de desempenho inferior e 55,4% no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi 54,6% no segundo quarto e 53,6% no terceiro.\nA proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho foi 40,0% (quarto inferior) e 39,3% (quarto superior).",
+  "text_sha256": "a5a5bdfa9c55856b96695b7d3c0e11c606dffaed403fe5c829bd2b2288b2b189",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05869eec2086c576006af9244a788087d19ff855c9a6eecc63",
+    "usage": {
+      "input_tokens": 2069,
+      "input_tokens_details": {
+        "cache_write_tokens": 2066,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2066
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 310,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 2379
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_106.txt",
+      "source_sha256": "92631cdff8ad0e930fd79db876ba101d99674c1c826cd0a97fa15365fc83a061"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_108.txt",
+      "source_sha256": "9b1cf74c01feaeaf3cd13eee61524d2ef64d1014e482a03fca01561827a2b3e8"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:30Z",
+  "duration_seconds": 7.292,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_107.txt",
+    "source_sha256": "951189748c82794922754ea8d7307044ea54f40d02a91120be75b77d5c296298"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "769b66aa44e993325f00bc475904f03808bdb1246c123348b5e7ef3d8aa46070",
+  "request_fingerprint": "8852bbcb67ccc900d65d094c3bd757d0945bf0c585376c3b3af6c81c50b0bd0a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.30, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.30 apresenta os resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 3.30, considerando-se separadamente as opiniões dos estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 6,6% ofereceram como resposta que “não estudaram ainda a maioria desses conteúdos”, sendo 1,0% os do quarto superior com a mesma resposta. As diferenças entre os estudantes que optaram por esse motivo de dificuldade no quarto superior em relação aos demais quartos de desempenho são estatisticamente significativas, assim como entre o primeiro quarto e os quartos intermediários. Levando-se em conta o quarto superior, a maioria dos estudantes, 70,2%, afirmou que “Estudou e aprendeu muitos desses conteúdos”. No outro extremo, no 1.º quarto, 51,1% optaram pela mesma categoria. As proporções são crescentes com o desempenho.",
+  "text_sha256": "78bcd51238623df7735d33e32087c85d2cedca4910a6244da1ffd855d205e93b",
+  "window_size": 3
+}

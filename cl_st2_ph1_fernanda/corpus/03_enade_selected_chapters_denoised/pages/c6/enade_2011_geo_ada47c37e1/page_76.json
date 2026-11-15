@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a062221660a9f10006af8ed99225c87d1a30b5b87b9aeb81b",
+    "usage": {
+      "input_tokens": 2495,
+      "input_tokens_details": {
+        "cache_write_tokens": 2492,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2492
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 536,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 3031
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_75.txt",
+      "source_sha256": "fe50ca16d52b66dc466c1b07047046f010aafd90f27b2dba81b667128aa1b258"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_77.txt",
+      "source_sha256": "2965077bec6d40fe63c4e44a652c1afeadadf1693ff413bc07adffd400684ab4"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:09Z",
+  "duration_seconds": 5.23,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_76.txt",
+    "source_sha256": "6cf6ae36d177875caf12edb1fdedf01dac932391dd45bdd2b4cc9d3190e3ec9e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6e58fa5f4da044d789dce6bbb8d5f03024adaf1fb7648457eec7df1766596f44",
+  "request_fingerprint": "d711746d089ecb1f348b6fb4ba734c613d1f81d6d293f6efd3e075ed81a084ef",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21, representa a distribuição de notas na questão discursiva 4, no componente de Conhecimento Específico para alunos do Bacharelado e da Licenciatura. A maior frequência, tanto para estudantes de Bacharelado quanto para Licenciatura, ocorre na categoria “em branco”, seguida de perto pela nota zero. Observa-se que uma maior proporção de estudantes deixou essa questão em branco, comparando-se à questão discursiva 3, como também o percentual de notas zero é bem superior nesta questão.\n\nOs coeficientes de assimetria são positivos e bastante altos: 3,08 para a distribuição de notas dos concluintes de Bacharelado e 2,75 para os de Licenciatura. Este comportamento se repete para ambos os cursos em todas as regiões, sendo o menor coeficiente de assimetria igual a 2,38, da distribuição de notas de Licenciatura da região Sul, e o maior, 4,44, do Bacharelado da região Norte. Novamente cumpre notar que esta proximidade nos valores dos coeficientes de assimetria sugere que a forma dos histogramas é bem semelhante para todas as combinações de região e habilitação.",
+  "text_sha256": "d2369cbe5f3432a1aabedfd94087060f07d03fe2c4b7b727410b72eba6760607",
+  "window_size": 3
+}

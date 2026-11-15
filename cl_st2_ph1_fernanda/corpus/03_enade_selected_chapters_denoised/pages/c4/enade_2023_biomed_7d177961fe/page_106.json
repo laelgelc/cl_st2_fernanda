@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d3a039a1eec9209006af9217f097087d1b8569213ea377e53",
+    "usage": {
+      "input_tokens": 1886,
+      "input_tokens_details": {
+        "cache_write_tokens": 1883,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1883
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 337,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 2223
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_105.txt",
+      "source_sha256": "a02403ef2e70925b99e18e33ed882ed07a8721d77e1672671afa4cd3204334eb"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_107.txt",
+      "source_sha256": "01892e971001177b187e1db62a86c96b2f29ccddc04079ab474fdeecb99a6b7f"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:34Z",
+  "duration_seconds": 3.418,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_106.txt",
+    "source_sha256": "ce9f260184dc7f193699b38f969a1932d391e9ef65e247f575c7273f8194ff4a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aa04ea7c2850aab367f15508c84834e65bcbef063b4f6da5cc02e2ba6e584e2b",
+  "request_fingerprint": "2f816457868bb238fac3a56079bd7a56a70d155d9de1b283d17d1c4776314eaf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.27, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.27 apresenta outros resultados em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 3.27, na análise por organização acadêmica, o percentual de inscritos e presentes que apontaram o “Desconhecimento do conteúdo” como “dificuldade ao responder à prova” não superou 20,8%. Os percentuais variaram de 16,8%, nos centros universitários a 20,8%, nos CEFET/IF. É possível observar que as diferenças entre as organizações acadêmicas são estatisticamente não significativas.\n\nO tipo de dificuldade “Forma diferente de abordagem do conteúdo” foi a escolha modal dos estudantes, com percentuais que variaram de 29,2% (CEFET/IF) a 49,8% (faculdades). Em contrapartida, o percentual de estudantes que citaram a dificuldade “Espaço insuficiente para responder às questões” variou de 2,3% (faculdades) a 3,4% (universidades).",
+  "text_sha256": "41d05e20f8d2afb49ac74918451148b5bc4351c4773ceecd27d10b56051018d9",
+  "window_size": 3
+}

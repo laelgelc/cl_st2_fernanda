@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c849f7b3580d36006af8f4b631cc87d183771cd235002571",
+    "usage": {
+      "input_tokens": 1518,
+      "input_tokens_details": {
+        "cache_write_tokens": 1515,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1515
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 359,
+      "output_tokens_details": {
+        "reasoning_tokens": 220
+      },
+      "total_tokens": 1877
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_50.txt",
+      "source_sha256": "df41375a69a650483297202069df920b1c4d033727f4c927c01997ff0edd7e4c"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_52.txt",
+      "source_sha256": "e955d346d356998a19520201d41ab1f395a0216bd06da288de1e8aec32ddbf43"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:30Z",
+  "duration_seconds": 3.916,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ODONTOLOGIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_51.txt",
+    "source_sha256": "38cf371c352854a52d1e1df4df309cdf4f75255cff8b94f4ceb71234be270682"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7834a51bde96e283124e741966291f4c24da262fa7b253741374f69297f88469",
+  "request_fingerprint": "e51fa6f5243ca57e41ca82a73056cfe951159dd5343e8d9999efce8eec0c768a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (47,7) foi maior do que de Centros Universitários (42,0) e de Faculdades (43,0).",
+  "text_sha256": "b48580e484a83186d0ca02322cf4da27d43f5a1dcb356d4c7c21d1b2353630f3",
+  "window_size": 3
+}

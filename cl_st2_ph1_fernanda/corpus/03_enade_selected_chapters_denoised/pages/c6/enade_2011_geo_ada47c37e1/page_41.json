@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_070ed78234bf0eac006af8ed8447a887d190ac4aa65384bcf9",
+    "usage": {
+      "input_tokens": 1386,
+      "input_tokens_details": {
+        "cache_write_tokens": 1383,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1383
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 1733
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_40.txt",
+      "source_sha256": "4a1f3a77a77235377cddd4bf4108a7cd7e139240c178453ea167e5de9f4e6001"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_42.txt",
+      "source_sha256": "dc0d7a879bc3937312c25c84fdfbe19c5b840acb516a291abb849db5578f93f5"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:48Z",
+  "duration_seconds": 4.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_41.txt",
+    "source_sha256": "5fc5010f1d4018e0ea3285918a556a696e636fb8c00e18ef7fac9ffd2bd5a30f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a336c4826bb1f79cb570d018d4ccac22e091f8dd5ced343e3fb526e7c97a98f7",
+  "request_fingerprint": "23aaaab3c0024f7051ae023960ed2f144066e9fe908d3d60e9fb0c4041403a8a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e a linha de fonte associada: “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa, observa-se que existe diferença estatisticamente significativa entre as médias. Para o componente de Formação Geral, da mesma forma que para a prova como um todo, os concluintes de Geografia (Bacharelado e Licenciatura considerados em conjunto) das IES Públicas (45,8) obtiveram uma média menor do que os das IES Privadas (50,8).",
+  "text_sha256": "aee5da3c227978d2a7e1ab1b83953049d3fa16e1aa4563d4a9b954a3b50b24b1",
+  "window_size": 3
+}

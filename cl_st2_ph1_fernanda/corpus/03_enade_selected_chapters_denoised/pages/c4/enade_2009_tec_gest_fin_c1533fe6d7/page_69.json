@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_020e20a456697b6e006af8e7e2a82087d19f5562ad14511e5c",
+    "usage": {
+      "input_tokens": 2065,
+      "input_tokens_details": {
+        "cache_write_tokens": 2062,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2062
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 2709
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_70.txt",
+      "source_sha256": "b3a6d822b4f4e1995a595997f3e85064671bb432949dad3b13520be1b7594c48"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:46Z",
+  "duration_seconds": 5.318,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_69.txt",
+    "source_sha256": "c76f351380ead454c36ed50b95844423842ca754353f73d878423a56d065c6fa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad9e0bc1cbe656f99f0b07caa1e82f771cbfa11ce160591f8d85e5074e17a422",
+  "request_fingerprint": "655a0e0fb63a62c9fcf1100b7614bd79ea995198dd9aea13873c5551edc8aa31",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Figura 1 (esquema gráfico) e sua legenda/caption."
+  ],
+  "status": "success",
+  "text": "Capítulo 4\nPercepção sobre a Prova\n\nAs percepções dos estudantes sobre a prova aplicada no ENADE/2009 na área de TECNOLOGIA EM GESTÃO FINANCEIRA foram mensuradas por meio de nove itens que avaliaram desde o grau de dificuldade da prova até o tempo gasto para concluí-la. As questões foram analisadas separando-se concluintes e ingressantes, e as percepções sobre a prova foram relacionadas com o desempenho dos estudantes e com a Região Geográfica de localização do curso6.\n\nO desempenho dos estudantes dentro de cada Área/Subárea foi classificado em quartos (1/4) para os concluintes e para os ingressantes em separado (ver Figura 1 para o esquema de representação gráfica destas grandezas). As notas finais foram colocadas em ordem ascendente e no primeiro quarto foram colocadas as 25% notas mais baixas, limitadas superiormente pelo percentil 25 que vem a ser o primeiro quartil. No segundo quarto, as 25% seguintes, limitadas superiormente pelo percentil 50 que vem a ser a mediana. No terceiro quarto, as 25% notas após as encontradas no segundo quarto, ou seja, as primeiras 25% acima da mediana, limitadas superiormente pelo percentil 75 que vem a ser o terceiro quartil. No último quarto foram alocadas as 25% maiores notas. Potencialmente, poderia existir uma relação entre a nota do estudante e a sua percepção sobre a prova. Calculando as médias das respostas segundo os quartos de notas, seria possível reconhecer a existência (ou não) de algum gradiente nas respostas, por exemplo, uma melhor nota correspondendo a uma percepção menos negativa. Este gradiente seria traduzido, por exemplo no gráfico 4.1b para ingressantes, pela diminuição das áreas laranja e vermelha (Difícil e Muito difícil) com o aumento do desempenho (indo do primeiro ao último quarto).\n\n6 Curso, neste relatório, refere-se à unidade de análise para o Conceito ENADE e é caracterizado pela combinação de IES, Área/Subárea (quando pertinente) e município de habilitação.",
+  "text_sha256": "1750814243c7a92995770e7d89dd4a151e17b6e06fc1677d6b91cabd3e6a5cd1",
+  "window_size": 3
+}

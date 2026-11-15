@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9ec0eda6db7af4006af8f880084087d18a54e220ad1104bc",
+    "usage": {
+      "input_tokens": 1425,
+      "input_tokens_details": {
+        "cache_write_tokens": 1422,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1422
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 1788
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_109.txt",
+      "source_sha256": "5419cd7ee501d67ef472caa763910d5de6e5631e23d73966eda1c5bc10257d3b"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_111.txt",
+      "source_sha256": "a17d4623cf7137fd83709bc16be08497051ff1a7af289b78ff1c4c09d73a034e"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:39Z",
+  "duration_seconds": 4.779,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_110.txt",
+    "source_sha256": "8d26bda60ae8e7bb70d8f9c31f23d8baf4f116d15bdc574f555e46fb09349def"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f84b4353fe7f52515205848d0fcb8ad58754eea208109e1b6a50e01a1acfb045",
+  "request_fingerprint": "d6241a01d93473931476f62613591e054602bf05b742e188a154173941b814c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se, grosso modo, uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. A diferença entre o primeiro (64,1%) em relação aos demais quartos de desempenho é estatisticamente significativa.",
+  "text_sha256": "3e18a63e33bfea5f9569a7acdfa27227b787c22a3a13c03b93bc26693e566f3a",
+  "window_size": 3
+}

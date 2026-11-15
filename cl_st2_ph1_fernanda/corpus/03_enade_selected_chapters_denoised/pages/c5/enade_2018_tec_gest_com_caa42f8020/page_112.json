@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dfefdd572c661de006af90ed8bae887d1a45e53762795b50b",
+    "usage": {
+      "input_tokens": 2277,
+      "input_tokens_details": {
+        "cache_write_tokens": 2274,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2274
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1041,
+      "output_tokens_details": {
+        "reasoning_tokens": 506
+      },
+      "total_tokens": 3318
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_111.txt",
+      "source_sha256": "379d6601243445e682f6892301f4cff89cff5b5a55082e19c7299fc4a25e1d96"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_113.txt",
+      "source_sha256": "ea34dfd4ed085f9bcaab03b515ab2619e815336d4381efb2c82c6e5cd84b42c1"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:00Z",
+  "duration_seconds": 9.421,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2018_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO COMERCIAL.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_112.txt",
+    "source_sha256": "c53ba00a056f98a9ddc07e929a858117cfc78ef6bc5a5e430ffe6b4e59a4b4e7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0e835d0cabad57f3d0600a6c2bc4002edfe89561a4da47dfe0db8b03d4f0f156",
+  "request_fingerprint": "c66015c9835f01cb07afe03e4aad3e63b706a10ad38d5b9d0139c70c82d760d0",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 5.3 parece acompanhar o texto; material gráfico não transcrito. A linha de fonte aparece apenas na página de contexto e foi excluída."
+  ],
+  "status": "success",
+  "text": "Dos 17 cursos participantes de Centros Universitários da região Sul, nenhum ficou Sem Conceito (SC) ou recebeu os conceitos 1 ou 2. Aos demais cursos foram atribuídos os conceitos 3 (nove cursos, valor modal), 4 (três cursos) e 5 (cinco cursos). Quanto aos 22 cursos vinculados a Faculdades na região Sul, dez receberam o conceito modal 4. O conceito 1 foi atribuído a dois cursos, o conceito 2, a outros dois cursos, e o conceito 3, a seis cursos. Apenas dois cursos ficaram Sem Conceito (SC) e nenhum curso recebeu conceito 5. Nenhum curso foi oferecido na organização CEFET/IFET na região Sul.\n\nNa região Centro-Oeste, um dos nove cursos oferecidos era mantido por Universidades, e esse recebeu conceito 3. Nesse tipo de organização, nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos restantes.\n\nOs Centros Universitários da região Centro-Oeste contaram com três cursos, cada um dos quais recebeu os conceitos 3, 4 e 5, respectivamente. Dos cinco cursos oferecidos em Faculdades na região Centro-Oeste, três receberam o conceito modal 3, e dois obtiveram conceito 4. Nesta região, nenhum curso oferecido em Faculdades ficou Sem Conceito (SC) ou obteve os demais conceitos restantes. Nenhum curso foi oferecido a organização CEFET/IFET na região Centro-Oeste.\n\nNo Gráfico 5.3, apresenta-se a distribuição do Conceito Enade, segundo a Organização Acadêmica da IES. Todos os três cursos mantidos por CEFET/IFET (linha laranja) receberam conceito 3 e a poligonal correspondente é uma função escada, portanto, não entrará na análise que se segue. Os cursos em Centros Universitários (linha verde) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, com distribuição muito semelhante entre si, encontram-se os cursos apresentando as respectivas poligonais mais à esquerda e, consequentemente, distribuição de Conceitos Enade com menores valores: cursos mantidos por Universidades (linha azul) e Faculdades (linha vermelha).",
+  "text_sha256": "b2033ac61db4c0b3a6ff691ea29d2d67f672c4d1223a3bd9d2f36db04b92ea0e",
+  "window_size": 3
+}

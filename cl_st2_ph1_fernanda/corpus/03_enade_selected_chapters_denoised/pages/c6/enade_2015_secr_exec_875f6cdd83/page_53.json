@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04df2ab50a08e6f0006af8fecdbfd487d1a4c7eff1315e2c36",
+    "usage": {
+      "input_tokens": 2281,
+      "input_tokens_details": {
+        "cache_write_tokens": 2278,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2278
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 516,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 2797
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_52.txt",
+      "source_sha256": "510a0342bffd243be6ba84e4631e8393a6d39c8a562a073cc0400db59ba78090"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_54.txt",
+      "source_sha256": "fd86ee42f8527335ef79e2bfae597e3df4d50ea8f144b954700546dce5b6296f"
+    }
+  ],
+  "created_at": "2026-11-15T00:37:33Z",
+  "duration_seconds": 4.929,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_53.txt",
+    "source_sha256": "270d9514c77f70d2dc539000864806973048e8b769ab3a289343596d87d69231"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d1feb7c00c146823943322e438aaaf0880b3f9410019670a8524facfa19ba4bd",
+  "request_fingerprint": "ab60c73afd9f3787c3eb6b0360c6eb2556f185ed9e3d7b80f51f7e3e0709ffc6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 40,5% escolheram a alternativa D, 25,5% a alternativa C (correta), 13,4% a alternativa A, 12,4% a alternativa B e 7,8% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,3% deixou a questão em branco e nenhum aluno marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.",
+  "text_sha256": "9626ce445045c838b4e1640199774cc215fdc543242186a75b12914821c56e69",
+  "window_size": 3
+}

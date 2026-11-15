@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b67c82c1f0d628006af8ef0d785c87d19c09bdd5869dc07a",
+    "usage": {
+      "input_tokens": 2100,
+      "input_tokens_details": {
+        "cache_write_tokens": 2097,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2097
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1252,
+      "output_tokens_details": {
+        "reasoning_tokens": 864
+      },
+      "total_tokens": 3352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_39.txt",
+      "source_sha256": "6d713db14c9ab1809c2c159c68ee2426a3a4eb9282e97ebe7224e1a0d9402aae"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_41.txt",
+      "source_sha256": "7a11484b645e835d65314064cd24d83a885de6d455404fc57aa4a9b9603de9c4"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:21Z",
+  "duration_seconds": 11.572,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_40.txt",
+    "source_sha256": "0f26882a490caffe3cb8e9a937a97d0c46c04e476d0c0473d015c251f60971e7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "86f4430b0589469d98b8849ea47458223d97bc22d31eaeaf36615b1d047e8f1d",
+  "request_fingerprint": "f9e9e1a5ec63448d8fd067add32a17322851fe55a53195495daf272c11bb81c4",
+  "retry_count": 0,
+  "review_notes": [
+    "Excluded the MEC/INEP/DAES source line at the top as likely belonging to graphic material; its association with the target page is uncertain."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 49,4. A maior média foi obtida na região Norte (52,5), e a menor, na região Sudeste (48,9). As demais médias foram: 50,6 na região Nordeste; 49,3 na região Sul; e 49,4 na região Centro-Oeste. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 17,5. O maior desvio padrão também foi obtido na região Norte (18,0) e o menor na região Sul (17,2). Os demais desvios padrões foram: 17,5 na região Nordeste; 17,6 na região Sudeste; e 17,4 na região Centro-Oeste.\nA maior nota no Componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Centro-Oeste (96,0) enquanto que a menor nota máxima foi obtida na região Nordeste (88,5). Nas demais regiões, a nota máxima foi 92,5. A mediana do Brasil, em sua totalidade, foi 51,0, sendo a menor mediana encontrada nas regiões Sudeste e Sul (50,5) e a maior encontrada na região Norte (53,5). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.",
+  "text_sha256": "d88c9a645708c872947ce317aeb113a57d631ea3c681285b793d383fd09e1ee7",
+  "window_size": 3
+}

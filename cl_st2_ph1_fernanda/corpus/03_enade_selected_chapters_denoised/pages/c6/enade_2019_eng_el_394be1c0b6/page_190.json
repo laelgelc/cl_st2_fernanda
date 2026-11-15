@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0931bbaf55d26450006af911f1ae1487d1b768276f6fafe42d",
+    "usage": {
+      "input_tokens": 2485,
+      "input_tokens_details": {
+        "cache_write_tokens": 2482,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2482
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 302,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 2787
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_189.txt",
+      "source_sha256": "2e2c62bc6bbd3d8d80a7640fb99b9c1d77d36ddce75124ff9c5bdd524941d357"
+    },
+    {
+      "page_number": 191,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_191.txt",
+      "source_sha256": "e76de3b6feb8f4d0bdfb2ef56c78f55416abef555ee20ce755900077705104d5"
+    }
+  ],
+  "created_at": "2026-11-15T01:59:13Z",
+  "duration_seconds": 3.521,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 190
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_190.txt",
+    "source_sha256": "350f30b44213329bee5852c0aadd6864bcad070b7ec7cd3353de4b7bbec6a9c6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b480af7883f921ee998cb2f7e656072684fc15b80bc1de876379880bcb5e29ca",
+  "request_fingerprint": "fc2356961923ef5955212412516685600e010d1930f89878ac9379b020cf8062",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.17, incluindo título, dados e fonte.",
+    "Removido o Gráfico 6.10 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.10, mostra-se a distribuição das notas de Língua Portuguesa da segunda questão do Componente de Formação Geral. Observa-se que a maior frequência (23,2%) corresponde à dos estudantes que obtiveram nota no intervalo (50; 60]. Destacam-se, também, os estudantes que deixaram a questão em branco, representando, 12,7% do total.",
+  "text_sha256": "e9fda49e04ee18514e323ab6b8ae997e229ab261bcf717130f5ce0d2e9da3e97",
+  "window_size": 3
+}

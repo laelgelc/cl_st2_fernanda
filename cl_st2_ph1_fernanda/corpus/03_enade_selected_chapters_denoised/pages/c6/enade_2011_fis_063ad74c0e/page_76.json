@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e73598c9e1c7f40006af8ed695cf087d18136b5348a12120e",
+    "usage": {
+      "input_tokens": 2523,
+      "input_tokens_details": {
+        "cache_write_tokens": 2520,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2520
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 450,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 2973
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_75.txt",
+      "source_sha256": "9551573c0965673dde62ed57a8bfeae0f6a9f66e043cd1159080ce63a21d9095"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_77.txt",
+      "source_sha256": "a15ceaad8cc8f1818b54a8278a99d12d1f30997099c2f5ea38fd5212a818c76a"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:21Z",
+  "duration_seconds": 6.44,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_76.txt",
+    "source_sha256": "eafb040e3b547435a24d8f56da0253fa2e6828a9eefa86aba38a1294ef7cd29c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aefa6d24d93385e3db4164e48cf4a1d984b7932d270a0c6255b5dd7d5509afc4",
+  "request_fingerprint": "a8457a15b73286cd15a666fbcfe01c244650bea2660532e3466a01f77337e9c5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte pertencente ao Gráfico 3.20, cujo conteúdo aparece na página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.2 Comentários sobre a correção das respostas à Questão Discursiva 3\n\nO percentual de provas em branco, anuladas e desconsideradas foi bastante elevado. Muitos estudantes deixaram a questão em branco, o que faz levantar a hipótese de que a maioria não assimilou os conhecimentos básicos de termodinâmica requeridos para a questão, ou não respondeu por desconsiderar o ENADE como instrumento válido de avaliação.\n\nGrande parte dos concluintes teve, também, dificuldade para entender o que estava sendo solicitado, ou mesmo o que havia sido enunciado no texto da questão. Os enunciados afirmam a impossibilidade de se construir uma máquina térmica (Kelvin-Plank) e um refrigerador (Clausius) com 100% de aproveitamento, isto é, sem perdas de energia ou necessidade de trabalho externo.",
+  "text_sha256": "6c1357e44affedd1e8bf7201cb9dae250eee6348a16105379ed5ca38e25c5e88",
+  "window_size": 3
+}

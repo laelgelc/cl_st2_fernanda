@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0735c3ebbbbea159006af8f67e5c3087d1810a8b7c0d673885",
+    "usage": {
+      "input_tokens": 2224,
+      "input_tokens_details": {
+        "cache_write_tokens": 2221,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2221
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 2664
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_98.txt",
+      "source_sha256": "51f175698884eff190ef1f5718621d2aa16f4c4b758929328eba76fa75de14c2"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_100.txt",
+      "source_sha256": "0c129f771fc5c845f8418440d94e397e3be7df84b8240262e3117d7a1b217fab"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:06Z",
+  "duration_seconds": 4.995,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_99.txt",
+    "source_sha256": "3ba46708d06d3cfba130987bad75be5f4b92071ed88932fface4ffea31ab97b8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6b876b0a624bac1e0cbfa2365d0ca6d7bc7d178e0b65e602fd8e116b662c9204",
+  "request_fingerprint": "e8e596903ccab483a6eb910c2e0c301b8d5b4736232d6282caaead9e0102531e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico que continua da página anterior e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”)."
+  ],
+  "status": "success",
+  "text": "3.3.2.4 Comentários sobre as respostas à Questão Discursiva 4 (Bacharelado)\n\nAo solicitar modificações sobre um diagrama “entidade relacionamento” já desenvolvido em primeira versão, a questão abordou assunto importante da área de desenvolvimento de software: a modelagem conceitual de um banco de dados relacional de determinada aplicação. A questão era fácil e exigia conhecimentos básicos de modelagem de sistemas. Seu universo era de simples compreensão para usuários de computadores e de dispositivos móveis. A maior parte do que era necessário fazer estava explicitamente definido, visto que os aspectos principais da análise da situação-problema e da sua modelagem em contexto mais geral, já estavam explicitados no diagrama apresentado no enunciado.\n\nO conteúdo da questão é contemplado pelas Diretrizes Curriculares dos cursos. Entretanto, o enunciado talvez pudesse ser mais simples e direto. Ao que parece, o texto apresentado gerou algumas dúvidas entre os estudantes, haja vista a grande quantidade de soluções que propuseram a definição de uma entidade grupo, provavelmente desnecessária numa modelagem de nível de abstração mais elevado, construída por desenvolvedores experientes. O padrão de respostas acordado era claro e os critérios de pontuação previam subdivisões suficientes para que se pontuassem, parcialmente, as soluções incompletas.",
+  "text_sha256": "a92bb1b88457b249dac0111b795060b65e3eb1255e05e58c900a92cc011bfe57",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02d54150f577fb24006af8f2712f9087d18ebebdc87793ed7f",
+    "usage": {
+      "input_tokens": 1374,
+      "input_tokens_details": {
+        "cache_write_tokens": 1371,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1371
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 377,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 1751
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_mark/enade_2012_tec_mark_page_95.txt",
+      "source_sha256": "2358aadf11f692d244e5c0b773fd7e6635ef57a7cb38a8ea6f20225a285ac2e2"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_mark/enade_2012_tec_mark_page_97.txt",
+      "source_sha256": "0516018b1a930e8ee378c20d1ae895ae19ef07884803f803a98f9b0778e44034"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:49Z",
+  "duration_seconds": 4.088,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM MARKETING.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_mark/enade_2012_tec_mark_page_96.txt",
+    "source_sha256": "d856bec4f8e70ee99797041f9b4c9a7770675babfedbf05d839a69e589527749"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6dd90292f269cdb8c57ddbf8ca3f305d08b7061ac86b1bc6150b6b66e3f5927a",
+  "request_fingerprint": "f4d6b2cbc657dd2a657acbfdec87d7026242a51bfa9c29f138cfa7915c1d4a62",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 74,1% e 48,5%. As diferenças entre os quartos são estatisticamente significativas e evidenciam uma tendência crescente com o desempenho na prova.",
+  "text_sha256": "badac368c43dcba6bccc9c5e1187695a8ec86d633c6914461c418596ad242c11",
+  "window_size": 3
+}

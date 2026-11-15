@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e817c5d973db011006af8fd12749887d194f6d29074358989",
+    "usage": {
+      "input_tokens": 1729,
+      "input_tokens_details": {
+        "cache_write_tokens": 1726,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1726
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 306,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 2035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin/enade_2015_admin_page_100.txt",
+      "source_sha256": "6b2b48388a7e2611d0c4ff1971f31be0df58397e6db502943ce96957ef4a1351"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin/enade_2015_admin_page_102.txt",
+      "source_sha256": "78ef789bd75bcd3b734b90e5c1fc7a702115a2de074d401fc84297f4d60c994d"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:10Z",
+  "duration_seconds": 2.488,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin/enade_2015_admin_page_101.txt",
+    "source_sha256": "3cb7e0f0b0660ac11251dba6df998c137f10bdefc4d0d975b34cf40f0e9c106d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1af71a13a2f4d31f680bd15a3d3bf684e7ae4224d66df099fc3059da50f276f6",
+  "request_fingerprint": "d8fbfe53c74f5851bbe8d8af427b16de613f08ec5473a86d0729a6bdfd82531a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.10, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\n\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 85,0% dos respondentes da Área de Administração de todo o Brasil afirmaram que estas eram até excessivas ou “suficientes” em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12, e, no Anexo II, a Tabela II.6).\n\nQuanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou “suficientes” em todas ou na maioria das questões foi sempre superior a 82%, chegando a 85,5% na região Sudeste. A diferença entre o maior percentual, obtido na região Sudeste (85,5%), e o menor, da região Centro-Oeste (82,5%) é estatisticamente significativa.",
+  "text_sha256": "36a27a3cd30b37a052bec608fe692ef7418efa2beee7d2415bd376ac9a76e73a",
+  "window_size": 3
+}

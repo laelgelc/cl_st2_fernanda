@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fc0b2cf0aecf044006af8faa00e9087d1a8ffddaa33fe459a",
+    "usage": {
+      "input_tokens": 2554,
+      "input_tokens_details": {
+        "cache_write_tokens": 2551,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2551
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 468,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 3022
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_52.txt",
+      "source_sha256": "e7636375fe0729b9c22b86a22d1f9ab5184a583f096ec28e8c0e51ebb1c6ac7e"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_54.txt",
+      "source_sha256": "b6ca8094bf2357b6512f5ebc8662cd578aa166d04677ff845c6b6b4712be5892"
+    }
+  ],
+  "created_at": "2026-11-15T00:19:43Z",
+  "duration_seconds": 5.948,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_MATEMÁTICA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_mat/enade_2014_mat_page_53.txt",
+    "source_sha256": "53cd0b04ea9ac34f26f17c3f9bef743c5cee41fd450c0f89d3d151fc8e39d4d4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7d0014613dec2c5c1c380d3c22939b034fa3cf0f549f4260fc913a9ef8982ca9",
+  "request_fingerprint": "77b0d3d0c3c5541ad09ee77d65a1c3c9c4c426db77f1b605aeb2961e980689fe",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada de facilidade média e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% somente para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "d522fda87e2786bd4c2dd134f0417078df7c6841a175908897550d9e0bfc4926",
+  "window_size": 3
+}

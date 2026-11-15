@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ca25e73f7e5c88f006af8f9a4fb0c87d1ae6c95971fd6c3d7",
+    "usage": {
+      "input_tokens": 2420,
+      "input_tokens_details": {
+        "cache_write_tokens": 2417,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2417
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 2795
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_48.txt",
+      "source_sha256": "8dbf95f7a9be7c903d07a97573475dd7b88c1b52314ff680eddb92ac84f84fe2"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_50.txt",
+      "source_sha256": "b9ed06501759bdac6564faec7cbaea18b462eded27c2ec168205bb37e7bbfb8e"
+    }
+  ],
+  "created_at": "2026-11-15T00:15:32Z",
+  "duration_seconds": 4.415,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FÍSICA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_49.txt",
+    "source_sha256": "9b39839b3f2bc5dc299cf4d11195aa1f30ad440990dd74983098f0e8e12d112f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a2ea6ac3147933e6e702fba92fedd6b096aff34992feb2d6c0f5db9a0c46ec7",
+  "request_fingerprint": "babee36783acb481eac587d096d15427f872a7c5fa50f1d514136acc23734ae6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao Gráfico 3.2; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que a maior média foi obtida por estudantes de IES Privadas (56,3), com uma diferença que não é estatisticamente significativa da obtida por estudantes de IES Públicas (55,6).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Centros Universitários (58,1), e de Universidades (55,7) e de Faculdades (53,7).",
+  "text_sha256": "41a3657d7f01b0e88ffd9299582c2ed1b778e7bb72051c757bbdfef39a2099fa",
+  "window_size": 3
+}

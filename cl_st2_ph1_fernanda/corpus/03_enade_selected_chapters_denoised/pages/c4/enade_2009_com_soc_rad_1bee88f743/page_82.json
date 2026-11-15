@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03f42557d241f4d9006af8e539776887d18d1b02616b51dfcf",
+    "usage": {
+      "input_tokens": 2345,
+      "input_tokens_details": {
+        "cache_write_tokens": 2342,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2342
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 2707
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_81.txt",
+      "source_sha256": "b7fbfee0062eb1e5de18c68781871d63025a389819c8e2b8858d3b30c0494856"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_83.txt",
+      "source_sha256": "c715d3ff5a066671356e7f747a365a3edb8dc0ee0a98f14652e04beb87d41cfc"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:25Z",
+  "duration_seconds": 3.179,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_com_soc_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_COMINICAÇÃO SOCIAL RADIALISMO.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_82.txt",
+    "source_sha256": "ebc503fce9e204318713a4e8390b1bd41aa8f57a416219ce711c27131ebb1920"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a32f8e4a073c29c693f8d99e3b863a70321f2c11d99e9bc52f83780d7d4570e",
+  "request_fingerprint": "f41d9e5baf5738a2129a540e45d4838a58702361327844e274d0de329afb80e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.7c, incluindo título, dados, escalas, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.8a e 4.8b apresentam a distribuição das respostas à questão “Os enunciados das questões da prova na parte de Formação Geral, estavam claros e objetivos?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de COMUNICAÇÃO SOCIAL – RADIALISMO. Em termos regionais, as proporções de concluintes que consideraram claros e objetivos os enunciados de todas ou da maioria das questões foram, de 83,1% no Nordeste a 61,1% no Norte e entre os ingressantes estas proporções variaram de 100,0% no Norte a 71,1% no Sul. Com relação às respostas “poucos” e “não, nenhum” as maiores proporções para concluintes ocorreram na Região Norte (16,7%) e para ingressantes na Região Sul (15,8%).",
+  "text_sha256": "d5e4a7e64c35cbb00e59efc9a44ab2d2419bb576fe72b25a01270c4a164c2544",
+  "window_size": 3
+}

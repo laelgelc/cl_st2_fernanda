@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b706ed2534cc20006af8f7ece9ec87d19f17022d07f0ccd6",
+    "usage": {
+      "input_tokens": 2310,
+      "input_tokens_details": {
+        "cache_write_tokens": 2307,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2307
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 989,
+      "output_tokens_details": {
+        "reasoning_tokens": 315
+      },
+      "total_tokens": 3299
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_45.txt",
+      "source_sha256": "78802693f78948f412075718a1e4f0ed178909a2ccda5aa8de0c28710dfd2ba4"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_47.txt",
+      "source_sha256": "d2005b80998feba0e2fee8701a0cb8d9f36f35135d1e784e33c51dc01290dd72"
+    }
+  ],
+  "created_at": "2026-11-15T00:08:12Z",
+  "duration_seconds": 8.913,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_46.txt",
+    "source_sha256": "2843d732df20746a5b6fe5c6e99565e8567664fa82564b0c557e3aadfc2c1094"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "76a1d6ca9c3271e874b30cd02048731030ecab69f0846409ed7ae6ac36edf98c",
+  "request_fingerprint": "b51c28f06a420e4253abb01b8282000d78b7013764e12be618cfef4b4dfd7f81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.4, seus dados e sua fonte. A tabela ocupa o início da página.",
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014» ao final da página, identificada como pertencente ao material gráfico do Gráfico 3.3; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\n\nA Tabela 3.5 apresenta as estatísticas básicas referentes ao Componente de Conhecimento Específico da Área de Engenharia de Alimentos. A média do desempenho dos alunos do Brasil, como um todo, foi 48,4. A maior média foi obtida na região Sudeste (52,8), e a menor, na região Centro-Oeste (41,8). As demais médias foram: 42,6 na região Norte; 45,3 na região Nordeste; e 50,4 na região Sul. Quanto à variabilidade das notas, o desvio padrão do Brasil, como um todo, foi 14,5, sendo o maior desvio padrão observado na região Sudeste (14,4), e o menor, na região Centro-Oeste (12,6). Os demais desvios foram: 13,7 nas regiões Norte e Nordeste; e 14,1 na região Sul.\n\nA mediana das notas dos estudantes de todo o Brasil foi 48,3. A maior mediana ocorreu na região Sudeste (53,2), e a menor, nas regiões Norte e Centro-Oeste (42,7). As demais medianas foram: 45,4 na região Nordeste; e 50,0 na região Sul. A nota máxima do Brasil, como um todo, foi 89,7, sendo obtida por, pelo menos, um aluno na região Sudeste. As demais notas máximas foram: 78,2 na região Norte; 83,7 na região Nordeste; 85,8 na região Sul; e 72,3 na região Centro-Oeste. A nota mínima foi 3,8 na região Norte, sendo: 7,7 nas regiões Nordeste e Centro-Oeste; 11,6 na região Sudeste; e 9,0 na região Sul.\n\nObserva-se que existe diferença estatisticamente significativa da menor média das notas do Componente de Conhecimento Específico da região Centro-Oeste (41,8) em relação à região Sudeste (52,8), a maior média. O intervalo de confiança para a média da região Norte (4,9) é significativamente maior do que de todas as outras.\n\nAssim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia de Alimentos em relação ao Componente de Conhecimento Específico. Dentre as três distribuições já apresentadas, esta é a que apresenta moda no intervalo mais baixo, (40;50]. Destaca-se que a frequência do intervalo imediatamente superior, (50; 60] é muito próxima da modal.",
+  "text_sha256": "34e59de8b9fb745925f917d5b8ea382ec0316a544b02be94f19dd0009d2a1492",
+  "window_size": 3
+}

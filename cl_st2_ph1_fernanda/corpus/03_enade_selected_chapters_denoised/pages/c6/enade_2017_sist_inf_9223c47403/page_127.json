@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_042952295d858942006af90af5d7dc87d1b509403c71b32bca",
+    "usage": {
+      "input_tokens": 2830,
+      "input_tokens_details": {
+        "cache_write_tokens": 2827,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2827
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 696,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 3526
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_126.txt",
+      "source_sha256": "b50ab5662a68d30f505b409d67ca8859832b01112a2bcf77819d0e30225eb59a"
+    },
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_128.txt",
+      "source_sha256": "e78b7043963f202467afb09ddf9e360abacb62656aed21e1f511e934336127fc"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:25Z",
+  "duration_seconds": 7.493,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 127
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_127.txt",
+    "source_sha256": "f24fc2d2f30d6df1f022c48b0b51a6a6d4343104ec58bf08bee918b5f1dafe93"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "958320e2b7bde1a9c84c2cecca6da1fba828fbca26b3013027057d74e8d730a0",
+  "request_fingerprint": "672bdf40443f242d990c6379d1f96c16ea18139253c35cfbb57f89da579a8e62",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve, junto com a questão 5, o maior Índice de Discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 49,7% escolheram a alternativa B (em verde), 20,4% escolheram a alternativa E (em vermelho), 16,8% escolheram a alternativa D (roxo), 8,7% escolheram a A (azul) e 4,1% a C (preto). Dos que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,3% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "779b082425c7f4d44e2404a095c4c92a41b832761833bfe305575db7f2149086",
+  "window_size": 3
+}

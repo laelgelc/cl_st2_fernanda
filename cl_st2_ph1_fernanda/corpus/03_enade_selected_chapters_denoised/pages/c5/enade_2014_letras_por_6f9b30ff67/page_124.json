@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c7d0265fbfc8a97006af8fb7b325c87d1bb9e46e63ec96182",
+    "usage": {
+      "input_tokens": 2494,
+      "input_tokens_details": {
+        "cache_write_tokens": 2491,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2491
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 2808
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_123.txt",
+      "source_sha256": "f4243b56430c93f1ab2a614965dbe1280d7cebb989abc0fab49d6b9e292fd1bf"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_125.txt",
+      "source_sha256": "9529b606acb467f6cd9cdcf9e47c9b9d0a09eb61f0e8e72c1f92c1b746923dbf"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:23Z",
+  "duration_seconds": 3.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_letras_por/enade_2014_letras_por_page_124.txt",
+    "source_sha256": "4f6bf7664f17116d553a94e5b5cc57ac50eb8e02bed9d6b1f4659c18c18dbfb9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3cc28521f8edee95f1b504438d96f913ad8899b09c35bc7413344f18b3fd4eb8",
+  "request_fingerprint": "4aaf67bb23897031723b92a6e1feffffd60bf78f35c843a34d4c64d734370db9",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 5.2 e sua linha de fonte (MEC/INEP/DAES – ENADE/2014) foram removidos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.2 apresenta a distribuição do Conceito Enade segundo Grande Região: poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. As regiões Centro-Oeste (linha preta), Norte (linha azul) e Nordeste (linha verde) apresentam os cursos em IES com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha roxa) apresentam as distribuições com valores maiores.",
+  "text_sha256": "804df4ffb86e275b91ad8ef720e0e1e682ac283dc34d6f65b471957277eed906",
+  "window_size": 3
+}

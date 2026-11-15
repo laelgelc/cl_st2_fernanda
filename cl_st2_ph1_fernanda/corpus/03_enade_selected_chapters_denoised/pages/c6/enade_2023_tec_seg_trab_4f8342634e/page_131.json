@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f111271c9e63d2006af92571885087d1a3c24aeb3228f904",
+    "usage": {
+      "input_tokens": 3069,
+      "input_tokens_details": {
+        "cache_write_tokens": 3066,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3066
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3638
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_130.txt",
+      "source_sha256": "19fe4c328f9b3bdb0c86548832325c46461e6a7550c9e2519b42947b7bde3398"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_132.txt",
+      "source_sha256": "6b1edab716f26e9d8d3e5b84bf07199364bea70940a04c6a5c1ce548056cacbb"
+    }
+  ],
+  "created_at": "2026-11-15T03:22:25Z",
+  "duration_seconds": 4.948,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC SEGURANÇA NO TRABALHO.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_131.txt",
+    "source_sha256": "e4c2f8e75612480e8394c1e37408a63976468c0ee4a8570f7d12b032ac3192af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0c9605644037c03b5ad6dff9843e04a7ce707f519589a93c09c94cf322cab63",
+  "request_fingerprint": "fc3079ce7a96ed268b052353df9ee5afa021daf67a813e6bbe4ac5cec97091fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1 e sua legenda/fonte, e a tabela 5.2, incluindo título, dados e fonte.",
+    "A última frase termina em “desvio-” no alvo; possível continuação na página seguinte não foi incluída."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Tecnologia em Segurança no Trabalho de todo o Brasil: uma distribuição unimodal com a moda no intervalo (50; 60].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES pública obtiveram média mais alta (59,6) que a média das IES privada (52,4). O desvio-padrão para as IES públicas foi de 12,1, indicando uma dispersão baixa das notas nesta categoria administrativa. Já o desvio-",
+  "text_sha256": "9d432a72932fab59dcd63306225b4056ed607e8f90955d55df17d05b714cba19",
+  "window_size": 3
+}

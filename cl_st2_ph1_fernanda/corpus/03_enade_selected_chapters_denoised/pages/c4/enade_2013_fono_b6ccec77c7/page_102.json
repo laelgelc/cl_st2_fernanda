@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f020b1286a5d989006af8f3f0f19487d1a65da5cd6bb61f43",
+    "usage": {
+      "input_tokens": 1696,
+      "input_tokens_details": {
+        "cache_write_tokens": 1693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 284,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1980
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fono/enade_2013_fono_page_101.txt",
+      "source_sha256": "364fc55444db3dfb5e7e51357e664f01eb707136789196c154e72f9e285a6d32"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fono/enade_2013_fono_page_103.txt",
+      "source_sha256": "d276d7fadbd19b193fe389f4806ee63533042e8ea6173188dcfbf54e7850f6f7"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:12Z",
+  "duration_seconds": 3.004,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_fono/enade_2013_fono_page_102.txt",
+    "source_sha256": "2492edecdd5312a1faaa38125359d8e779abaa9ed1494f475974d56478808dc3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7195a2fa6ce90587945eb3616ada17d243583cceb767abcae0efeb1b680d91ac",
+  "request_fingerprint": "1ba17532e7715fb4797cb99349ec51a87848bd5e3b3239351aa2abace892e76c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, associada ao material gráfico/tabelar da página anterior."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,8% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,4% os do quarto superior com a mesma resposta, com valores, grosso modo, decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade não é estatisticamente significativa entre os quartos de desempenho.\n\nTendo em conta o quarto superior, 93,4% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 71,8% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "231dbbf1b46d6338b2df01ed1e66a40c9116a69e2b1f581b9d3339f9fb783fad",
+  "window_size": 3
+}

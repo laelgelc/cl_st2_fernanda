@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dacd4f9ce31be48006af90b42b50487d1b477af1f0cd05a63",
+    "usage": {
+      "input_tokens": 1623,
+      "input_tokens_details": {
+        "cache_write_tokens": 1620,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1620
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 1966
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_95.txt",
+      "source_sha256": "38b09cec24a86771610eed0c2d49b4ba7508ac4ac83d63d8c829ddeceff89544"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_97.txt",
+      "source_sha256": "31c5a700902f269d4409318c7b6a36426265f10dbf23598269a28120930d8d4b"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:42Z",
+  "duration_seconds": 3.585,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_96.txt",
+    "source_sha256": "3885cd2585bea10f3f869c254cea4ca0cbd7426ccb76c95c9637be93e3de23f3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f9828c57ed7fe0c78a5b589592a76029c845c1b025f1aea2fdbd2d3e17412c1",
+  "request_fingerprint": "dee5c328b020003d2f3943a2d525098f8539363aa8267d5b79a0a10033eb7004",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.17, incluindo título, dados, legenda e fonte. A frase inicial continua a oração iniciada na página anterior; nenhum texto da página de contexto foi incluído.",
+    "O parágrafo final refere-se ao Gráfico 4.18, que aparece na página seguinte; o gráfico e seu material não foram incluídos."
+  ],
+  "status": "success",
+  "text": "Nordeste (75,6%) e Sul (77,1%) foram inferiores ao percentual nacional. Nas demais Grandes Regiões, o percentual de alunos que dispensaram Entre duas e quatro horas para concluir a prova ficou igual ou acima de 80,0%, como mostrado no Gráfico 4.17. Não há diferenças estatisticamente significativas dentre as proporções das cinco Grandes Regiões.\n\nUma vez analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção maior de participantes no quarto superior (85,6%) declarou ter gasto Entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. As diferenças entre o primeiro (68,5%) e o segundo e quarto quartos de desempenho são estatisticamente significativas, bem como a diferença entre os dois quartos de desempenho superiores.",
+  "text_sha256": "a1e8524748ed641cc3b53e15ac0b8eda5fa4d15124976682c811f546f8f142e4",
+  "window_size": 3
+}

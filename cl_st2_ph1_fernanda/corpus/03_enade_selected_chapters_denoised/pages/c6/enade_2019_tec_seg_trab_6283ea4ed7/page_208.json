@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00930b4b7d351fc8006af916782ba087d1a882052221f24ac5",
+    "usage": {
+      "input_tokens": 2457,
+      "input_tokens_details": {
+        "cache_write_tokens": 2454,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2454
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 315,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 2772
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 207,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_207.txt",
+      "source_sha256": "bc731ffb56740bbff2a8f75724ee95e348c847ea7a537a6587717ae1cb9d7572"
+    },
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_209.txt",
+      "source_sha256": "a6a027a29dbb11783bd86b519ae9d970d47cb612e8d095c39e68538fd5a73a6c"
+    }
+  ],
+  "created_at": "2026-11-15T02:18:32Z",
+  "duration_seconds": 3.883,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 208
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_208.txt",
+    "source_sha256": "58718a468c543f376e7c56dfb1cbe122cd9c490e50d96f25721a6ff1d8635c35"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d3a8023f1349c41be05ad89213ece7633d1984247eaa0fbe74dc90a9bc59556b",
+  "request_fingerprint": "277f548adfa1abaee4689a47bf83183f74cf96dd1961217f051cf75ac6a53c2d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados, fonte e nota estatística.",
+    "Removida a fonte associada ao Gráfico 6.14; o gráfico e seus dados não estavam presentes no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.14, é representada a distribuição das notas da Questão Discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (70; 80], correspondendo a 29,8% dos respondentes. O percentual dos participantes que tiraram nota zero nessa questão, quer seja por a ter deixado em branco ou por não ter conseguido resolvê-la, chega a 14,5%.",
+  "text_sha256": "4814ca40710519f8f871843c0f7f23ddf31da5825885500c78844c487ae37873",
+  "window_size": 3
+}

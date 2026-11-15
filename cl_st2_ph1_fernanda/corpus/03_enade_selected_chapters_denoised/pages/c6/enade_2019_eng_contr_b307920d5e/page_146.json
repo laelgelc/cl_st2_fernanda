@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e0401a1982fbb44006af911592c4887d191d45f8c0b8cf727",
+    "usage": {
+      "input_tokens": 2350,
+      "input_tokens_details": {
+        "cache_write_tokens": 2347,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2347
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 470,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 2820
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_145.txt",
+      "source_sha256": "febe11c6b032da9ebc089150f472c5ea64eb7679ccf63fe3d341fb4666a10ac1"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_147.txt",
+      "source_sha256": "a5db954748eee5338949c95d6ce83c08edff68853d85a192c68519d6fc554ddd"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:41Z",
+  "duration_seconds": 4.4,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_146.txt",
+    "source_sha256": "4c1bd6d58fe18dc7f731488cddf18dbf5febc5d1d94cecf3e500bd4df7e30a27"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b5e27f306ef752f8216e648b4606b17958a4bf4d1c28fb3f430ee4cb53fa0d97",
+  "request_fingerprint": "eed13890479544ca2b111f0e39a4222ddb6e391cad143891b9db2040eafa944d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 6.1 (histograma) e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], com pouco mais de 29% dos respondentes, seguido do intervalo (40; 50], com pouco mais de 25% do total.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 39,3. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (44,5) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (34,8). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (12,6), a maior e a menor Média, é superior à diferença entre a das IES Públicas e Privadas (9,7), caracterizando-se uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (12,3) e Privadas (11,4), ambos inferiores ao do Brasil, como um todo (12,8), indica uma maior diferença das notas por Categoria Administrativa do que entre os cursos em cada uma delas.",
+  "text_sha256": "8325c0ee02f4d39ba35f5c2ab34272e3bd1c0fbb603e153915d89489d74f48c9",
+  "window_size": 3
+}

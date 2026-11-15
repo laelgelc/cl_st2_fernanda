@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0be09d1c33768705006af8f65e1cdc87d1a2dcffe002612afd",
+    "usage": {
+      "input_tokens": 2613,
+      "input_tokens_details": {
+        "cache_write_tokens": 2610,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2610
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 570,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 3183
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_49.txt",
+      "source_sha256": "09ff9090d323c761c25389176043037f9dbaf369e06428b77f9241fc1350acfc"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_51.txt",
+      "source_sha256": "23b6883177a239f2c6c6595217f33221d8ca922adabc73bc32f57a9aec057866"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:34Z",
+  "duration_seconds": 6.879,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_50.txt",
+    "source_sha256": "648e68587edb3aa607d0726ce8d4283e8b7d2bf0d9fb342923acc771e1d92a33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1f2fa45b6ffe97d3639d381feee108f9374b52e72be2da98864c4af83032218",
+  "request_fingerprint": "c2fcefecfb085ee6fb8b6e3df4f102da1a47e991c5c0b42dfb581b43496fc083",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte pertencente ao Gráfico 3.1; o material gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 6.570 são de IES Privadas e 5.478 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (8.631), seguido de Faculdades (1.837) e Centros Universitários (1.580). A Categoria Administrativa de maior abstenção foi a Privada (16,6%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (20,8%).\nA média das notas da prova como um todo foi 45,3. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (50,3), e os das IES Privadas obtiveram média mais baixa (41,1), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e, Norte e Centro-Oeste (2,8), a maior e as menores médias, é inferior à diferença entre IES Públicas e Privadas (9,2), caracterizando uma maior diversidade administrativa do que regional.",
+  "text_sha256": "d6a4bee593928a2b282065b1cf5d4e5b9964505f8a19bb477d9c45c80faeafb8",
+  "window_size": 3
+}

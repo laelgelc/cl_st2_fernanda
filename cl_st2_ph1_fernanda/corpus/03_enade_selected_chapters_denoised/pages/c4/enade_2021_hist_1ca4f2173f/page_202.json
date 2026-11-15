@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06ed8739c7fa04b0006af9195cd8a087d1969079648055a465",
+    "usage": {
+      "input_tokens": 1778,
+      "input_tokens_details": {
+        "cache_write_tokens": 1775,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1775
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 218,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 1996
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 201,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_201.txt",
+      "source_sha256": "68ec7688be161891698682043dc3ff9a447456c09c01aa3cdcbe51f22df30689"
+    },
+    {
+      "page_number": 203,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_203.txt",
+      "source_sha256": "abc4092033f84dd20dd59d3c0dabd198de1afe0244921373ba8fd2ee37b97c12"
+    }
+  ],
+  "created_at": "2026-11-15T02:30:52Z",
+  "duration_seconds": 3.487,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_HISTÓRIA.pdf",
+    "page_number": 202
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_hist/enade_2021_hist_page_202.txt",
+    "source_sha256": "bc8129ad486c4de4a7b218199b70f951aff020e1d2cc654de46a0c78e996bce6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2ff821d3798e5f4ec2d6548add55198429d9825fc2629b3df1dbe0f2520c0dd8",
+  "request_fingerprint": "71ce384497b0fc7d1365ae0356fb17896a6726310860ea689ae6caf9025fa516",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.12a, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes de Bacharelado que consideraram a prova Longa ou Muito longa, em relação ao tempo total destinado à sua resolução foi menor para os estudantes de cursos de IES Privadas (39,9%), sem diferença estatisticamente significativa da proporção em IES Públicas (41,8%). Já a proporção de presentes de Bacharelado à prova que consideraram a extensão Adequada foi 52,4% para os de IES Públicas e 55,0% para os de IES Privadas (ver Gráfico 4.12b e Tabela II.6b, no Anexo IIB).",
+  "text_sha256": "e791c16218466f65f9835d98e7ca52134ae5e6e1a3ab358db3c26acfd52ce7c8",
+  "window_size": 3
+}

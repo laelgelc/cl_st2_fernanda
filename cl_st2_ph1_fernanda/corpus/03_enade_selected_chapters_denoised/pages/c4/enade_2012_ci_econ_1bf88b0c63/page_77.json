@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007b4d00943049af006af8f082ef3487d188c2bc0c32fc3c29",
+    "usage": {
+      "input_tokens": 2029,
+      "input_tokens_details": {
+        "cache_write_tokens": 2026,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2026
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1319,
+      "output_tokens_details": {
+        "reasoning_tokens": 1057
+      },
+      "total_tokens": 3348
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_76.txt",
+      "source_sha256": "82b69d096005290a20ecf5fa4e583d7852da897bbc076cfcbd4b02c4eaf0c3f9"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_78.txt",
+      "source_sha256": "d26a8de3b914b0009054175f2a6004e3de545e25275deae92914d82d288e1c49"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:34Z",
+  "duration_seconds": 11.262,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_77.txt",
+    "source_sha256": "ed73cb0a31ea4aeca3baadc48af20653340a0202e640a81d864a385f8d7d8498"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6cf94e8da4c9a0d4aa6d8e962e1e1fdf5ca3baf72e818369c1868ad933887cdc",
+  "request_fingerprint": "4e73432e4a1bf6337f35044629881d2fb31e606f52aec4383e9fc5b1f1c1c01a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, pertencente a material gráfico.",
+    "A frase inicial (“O percentual ... grosso modo, desempenho”) parece incompleta ou possivelmente afetada por extração/OCR; foi preservada sem reconstrução."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil, grosso modo, desempenho (Gráfico 4.2). Nos dois quartos de menor desempenho, sem que a diferença seja estatisticamente significativa, 22,3% no 1º quarto e 22,6% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos julgaram a prova difícil ou muito difícil – 18,9% no 3º quarto e 13,2% no 4º quarto – foi menor do que nos demais e significativamente diferente entre si. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 56,0%, 59,2%, 59,5% e 54,0% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente.",
+  "text_sha256": "66b6b0f966120ce6f12fb17eb1c49d4dedc62a56c97a1796b2ce3fd142b5b16f",
+  "window_size": 3
+}

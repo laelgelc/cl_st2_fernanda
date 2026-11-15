@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bd0c74a24df0b44006af8f1e1060c87d1b3eba5f7f07031e1",
+    "usage": {
+      "input_tokens": 1907,
+      "input_tokens_details": {
+        "cache_write_tokens": 1904,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1904
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 337,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 2244
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_44.txt",
+      "source_sha256": "cbf2b0f88107816bdec15e38b61c9bc98a46a2102ed7c0b53289f35fd557062e"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_46.txt",
+      "source_sha256": "92f251073a98b3f3a33c05631ac9fa683e1df23cadb9fc7f9100c60e90042bc9"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:24Z",
+  "duration_seconds": 3.714,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_45.txt",
+    "source_sha256": "f0119599af602f3497411e6ca6631c16a1bd81afc66ae8dd3a46a583126d3943"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c269f991f7fccfd7a6aa82bd2dbd26c2a2e94faa305f70e4fc262cdcfe8ad248",
+  "request_fingerprint": "9f10277bd567a28c447410ad362ee7c761cabe0463664fe8c3327e846945858b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam, respectivamente, uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos no componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se dois grupos, dentro dos quais não existe diferença estatisticamente significativa entre as médias das notas no componente de Conhecimento Específico, um formado pelas regiões Centro-Oeste, Sul e Sudeste, e o outro formado pelas regiões Nordeste e Norte. Sendo que a região Sul (43,7) foi a que obteve média mais elevada, enquanto a região Norte (40,0) foi a região que obteve média mais baixa.",
+  "text_sha256": "7239fc56dda2f467adae7d766fb1f139a56dffd1931c9bcd78021d93da10fcf5",
+  "window_size": 3
+}

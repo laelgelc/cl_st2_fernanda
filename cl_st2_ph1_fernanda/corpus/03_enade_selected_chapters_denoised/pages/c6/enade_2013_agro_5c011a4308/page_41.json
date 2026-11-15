@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bdcf28d25eda9e1006af8f2ef5bcc87d185f371cba41e9bf8",
+    "usage": {
+      "input_tokens": 1511,
+      "input_tokens_details": {
+        "cache_write_tokens": 1508,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1508
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 278,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1789
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_40.txt",
+      "source_sha256": "d30e408d74cd17a968902c8163daed768254d08d3c66cf111e097168a43979e7"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_42.txt",
+      "source_sha256": "6571b246c0fcd061cabd992e99ec0f38af5546c9a03460cc15be1f49e586c33b"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:55Z",
+  "duration_seconds": 3.589,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_41.txt",
+    "source_sha256": "692d1debc6d728b804a93c023fc778ceedf4d00bac73d4431cdcab34f0366366"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e3493f91791de6dd4bdc2b85d3c19a2d0f711581651b3982d51c3ceda3c6e608",
+  "request_fingerprint": "694cd11093caff7aa619b623ec6d1bd0d2b08bfc83571a199f284991d7aa44cf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (55,0) é maior que a dos alunos de IES Privadas (50,1). A diferença entre as médias das regiões Norte e Sul (8,9), a maior e a menor média, é superior a diferença entre IES Públicas e Privadas (4,9).",
+  "text_sha256": "4c055d1090027af592352d202bbed57ddff935cd35bec297caabda6097768c2f",
+  "window_size": 3
+}

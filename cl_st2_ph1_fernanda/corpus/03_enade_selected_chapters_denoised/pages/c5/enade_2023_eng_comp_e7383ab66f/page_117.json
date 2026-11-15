@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0582909ef0c61416006af92243e32887d1b2be3ba51edd378c",
+    "usage": {
+      "input_tokens": 3086,
+      "input_tokens_details": {
+        "cache_write_tokens": 3083,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3083
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 3617
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_comp/enade_2023_eng_comp_page_116.txt",
+      "source_sha256": "c9eb5a80dc92fa6b88468bf03a69655557ef3842155876fd6c517827c566f58d"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_comp/enade_2023_eng_comp_page_118.txt",
+      "source_sha256": "60b1055cca44f8b019b7928e807065bf878d2b2afa091c9b27fb40bf9f1cac61"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:51Z",
+  "duration_seconds": 6.828,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_comp/enade_2023_eng_comp_page_117.txt",
+    "source_sha256": "26218d9f2c496cf7819df6973db76b22a830ec96a81c9c1bdf7c5872ea95e545"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1528a55cbd3eede510554b26619c3cdaa7d719da6547eff81bbd7754d1d7ed67",
+  "request_fingerprint": "7b0751245b7359e217dd1842aaa7492b28bb75556ee92688bc56ece855feae9e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 4.1, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Centro-Oeste (linha laranja) apresenta 88,9% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 66,7% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Centro-Oeste (linha laranja), nas quais todos os cursos têm conceito menor ou igual a 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4. A região Centro-Oeste (linha laranja) apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Norte (linha verde) apresentam uma situação intermediária.",
+  "text_sha256": "bb7a87ed5a8d8b88b86e1d7920e0451ab3cb888b0fbf382e9eec715a46dc61a9",
+  "window_size": 3
+}

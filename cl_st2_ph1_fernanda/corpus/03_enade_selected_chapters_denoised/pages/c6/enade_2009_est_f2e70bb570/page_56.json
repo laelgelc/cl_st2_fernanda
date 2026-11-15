@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07969c854fdbf13c006af8e5e4c73087d1a4e49a516b8920f5",
+    "usage": {
+      "input_tokens": 2726,
+      "input_tokens_details": {
+        "cache_write_tokens": 2723,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2723
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 283,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 3009
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_55.txt",
+      "source_sha256": "b6dcbd1f9c35f0f0b657ff17f6de340a9b413cca4e5bd2cc8200eedef0c4c988"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_57.txt",
+      "source_sha256": "6c9e62229f7c26a8c4292bc1e06abc703071e5728e75ecc34e3cbe162fca4327"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:16Z",
+  "duration_seconds": 2.875,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_56.txt",
+    "source_sha256": "36ebd3336b5086228561344f3574371b390f22ded98ad6df4c9d78e1a17187c5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cad77f79b2d1f83f0e5d0e036489a8294c57a06c032f5a9a1381a7f5b6f5e6c3",
+  "request_fingerprint": "6934e0b82793cd53d061018e6c68d4a6161872df5d25b2038376277c3562673c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.12, incluindo título, dados e fonte, e o Gráfico 3.10, incluindo título, eixos, intervalos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b84db5a02b84f86006af913b52ce487d1a5366a271927634c",
+    "usage": {
+      "input_tokens": 1835,
+      "input_tokens_details": {
+        "cache_write_tokens": 1832,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1832
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 2127
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_105.txt",
+      "source_sha256": "4bf35d94dab6c4d5ecfe9651307097f336a24dda7b936914c8e6d9884cfc3c0f"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_107.txt",
+      "source_sha256": "3d5f109ab5fd2e6badc6c86e91503818b3d3959f7ffbf18898ba9b1fdee0a5c3"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:45Z",
+  "duration_seconds": 3.305,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_106.txt",
+    "source_sha256": "bce729960f7fba35dca187fbe2afd5b1a9117cbea6317eae7dd77ee2bbc2f155"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d0fe7f95194b1976ab9364d5db3cef9fc8de73fe88f75853fd14b4afad7425b",
+  "request_fingerprint": "43e1111899071b36fd786296ee47f64495d5be86ef575e2e618db05c432856da",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.11; “CEFET/IF” foi removido como provável rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram a prova como Longa ou Muito longa, em relação ao tempo total destinado à sua resolução, foi maior para os estudantes de cursos de IES Privadas (34,2%), uma diferença estatisticamente significativa da proporção em IES Públicas (30,5%). Já a proporção de presentes à prova que consideraram a extensão como Adequada foi 63,7% para os de IES Públicas e 60,3% para os de IES Privadas (ver Gráfico 4.12 e Tabela II.6, no Anexo II).",
+  "text_sha256": "f069b0f77454554218eaee81790b186b0ca734baa4787d019d1d75420df609bb",
+  "window_size": 3
+}

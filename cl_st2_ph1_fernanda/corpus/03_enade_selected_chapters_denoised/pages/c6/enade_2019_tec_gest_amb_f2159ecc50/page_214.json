@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02a70017f780d491006af915b4413c87d1afe03314006665b0",
+    "usage": {
+      "input_tokens": 2565,
+      "input_tokens_details": {
+        "cache_write_tokens": 2562,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2562
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 298,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2863
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 213,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_amb/enade_2019_tec_gest_amb_page_213.txt",
+      "source_sha256": "7b703ab941e9b66c85505ae9a4ed78d4aa63cec961f7648112c5b2e19419e3a6"
+    },
+    {
+      "page_number": 215,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_amb/enade_2019_tec_gest_amb_page_215.txt",
+      "source_sha256": "c4ca20618e33097118bcd976c397f2bb54d7f9116bb3370640e3c69daf97ad02"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:16Z",
+  "duration_seconds": 4.155,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G AMBIENTAL.pdf",
+    "page_number": 214
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_amb/enade_2019_tec_gest_amb_page_214.txt",
+    "source_sha256": "049b3a86b1ab606e28b2e887a7176de5f9710aeb6f6704653595e60c4d1fda24"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "20d269a14139b177770a4f74cfa3328e72037101374a27d2feeb10ffe44bec38",
+  "request_fingerprint": "53ce88b81559a92a44f1806453e052152ae83c293b8d9c1da60b4f0c26cdb953",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados e fonte.",
+    "Removido o Gráfico 6.14 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (10; 20], correspondendo a 31,0% dos respondentes. O percentual de participantes que receberam nota zero tendo respondido à questão foi 11,2%. Somando-se a frequência dessa categoria com a daqueles que deixaram a resposta à questão em branco, chega-se próximo a um quarto dos participantes (24,3%).",
+  "text_sha256": "48f643c303e109317e59e8cf19baca678b4a45bb953e23f7a51675e0e14b5818",
+  "window_size": 3
+}

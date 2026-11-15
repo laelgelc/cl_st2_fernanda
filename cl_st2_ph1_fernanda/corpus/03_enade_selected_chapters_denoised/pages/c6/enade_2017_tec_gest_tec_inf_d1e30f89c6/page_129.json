@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_053333756e00f95b006af90b7e695887d19418a1bc7e3b5250",
+    "usage": {
+      "input_tokens": 2748,
+      "input_tokens_details": {
+        "cache_write_tokens": 2745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 873,
+      "output_tokens_details": {
+        "reasoning_tokens": 390
+      },
+      "total_tokens": 3621
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_128.txt",
+      "source_sha256": "800e8572916c47414dae726543a5de53b2ae42ffca0242c19ede0775b749f420"
+    },
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_130.txt",
+      "source_sha256": "869828db1488e49149eb8529236a876934bc32d520852730b25644b00933ce63"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:42Z",
+  "duration_seconds": 8.29,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 129
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_129.txt",
+    "source_sha256": "654edc0c0dfe99b2472045ef99c30019fa0186dd69e6ae1aee708b86422868f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "167741419ed049436e0415f404451bd7c545ae0a91a189f34be46b9c675f6716",
+  "request_fingerprint": "e3bdab4070fe5bfb86709082a6105fdd768c77ce37a5d49ad5adbcb0b3d59a76",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte.",
+    "O Gráfico 6.5 é referido e descrito em prosa preservada; o material gráfico não foi transcrito. A fonte que aparece na página de contexto seguinte pode pertencer a esse gráfico."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 6.5 analisa a questão 16 do Componente de Conhecimento Específico. Esta questão foi considerada pelas respostas dos estudantes avaliados na prova como uma questão com nível de facilidade Médio, 0,58, ou seja, 58% dos estudantes assinalaram acertadamente a opção B (verde), correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,40, a única questão objetiva de Conhecimentos Específicos com índice classificado como Muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 16, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta B aumenta gradativamente, chegando a atingir 100% para os estudantes com 21 e 23 acertos, enquanto a proporção dos que escolheram as alternativas incorretas oscila até cinco acertos, como função do número de acertos nessa parte da prova, sendo que a escolha da opção D (roxo) se torna decrescente só a partir de dez acertos.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "efbe164d7530a8a6e7315adb80ca70b9c206a579e1e9827cdfa28bce01ca98fb",
+  "window_size": 3
+}

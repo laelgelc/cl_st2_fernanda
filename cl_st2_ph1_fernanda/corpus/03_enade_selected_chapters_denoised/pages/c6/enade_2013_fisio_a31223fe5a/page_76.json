@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a325b70ee5da84a006af8f3e38fa887d193af0d42ce72248d",
+    "usage": {
+      "input_tokens": 2585,
+      "input_tokens_details": {
+        "cache_write_tokens": 2582,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2582
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 708,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 3293
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_75.txt",
+      "source_sha256": "405ed79789a8623da3a5a8fce5323ab54e091ce0c32900001371c7b89230a342"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_77.txt",
+      "source_sha256": "7c0f58cf86f2f581694093c8e8e741a49661e77f54fd2b9074070950b7f80b28"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:59Z",
+  "duration_seconds": 5.858,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_76.txt",
+    "source_sha256": "9cbbcf6721ecf34b5a6523a64e5063d8b122ca75943e9ffc7a65c24716563112"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fd4345c0f069fa86ca8592b6dbfad6097fe4e00d391bd4de7a330314fb0aa822",
+  "request_fingerprint": "a9fa06e15c138196cacfe3de81a3270443718f53e69977845f5df46e5c4c0323",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão discursiva 3, cujos resultados aferidos encontram-se descritos na Tabela 3.13, a média dos estudantes de todo o Brasil foi 40,4. A menor média nessa questão foi obtida pelos alunos da região Nordeste (38,6), enquanto a maior média foi obtida na região Norte (43,4). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 23,9. O maior desvio padrão foi obtido na região Norte (27,8), enquanto o menor foi obtido na região Sul (22,6).\n\nA maior nota máxima foi alcançada por pelo menos um aluno nas regiões Norte e Nordeste (100,0), enquanto nas outras regiões as notas máximas foram 95,0 na região Sudeste, e 90,0 nas regiões Sul e Centro-Oeste. A mediana do Brasil como um todo foi 40,0, sendo atingida nas regiões Nordeste e Sudeste, enquanto que nas regiões Norte, Sul e Centro-Oeste, a mediana foi 45,0. A nota mínima do Brasil como um todo foi zero, o mesmo valor para todas as regiões, sem exceção.\n\nO Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição apresenta uma moda principal no intervalo (50; 60], mas modas secundárias no intervalo (30; 40] e em questões em branco. O coeficiente de assimetria é negativo para o Brasil (-0,15) e para quase todas as regiões (entre -0,30 na região Sul e -0,05 na região Nordeste), exceto a região Norte (0,00) que possui assimetria nula.",
+  "text_sha256": "84aea917f8775fe45cb7380b0326fb599b1af809bb0bd6b55d3c9e1ed0c1a379",
+  "window_size": 3
+}

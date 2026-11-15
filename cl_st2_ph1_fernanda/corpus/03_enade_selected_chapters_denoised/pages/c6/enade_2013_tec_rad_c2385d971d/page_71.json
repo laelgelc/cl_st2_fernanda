@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00abbe37b171e308006af8f5a5d30487d19b4b916f8af4a78d",
+    "usage": {
+      "input_tokens": 2425,
+      "input_tokens_details": {
+        "cache_write_tokens": 2422,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2422
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 2737
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_70.txt",
+      "source_sha256": "2af7f0865de7f24a8cb9916c8f1215dac1fe2a0b1caea029049920b64c5b9215"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_72.txt",
+      "source_sha256": "e49852a7e6ed31228dbff88abf08ad95c9a31ba731ad3df33573ddb6c332ba29"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:29Z",
+  "duration_seconds": 3.656,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_71.txt",
+    "source_sha256": "93e21d789803de9ab56d08add8dd65a0f8b6657489be5c445feaee6062be880c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d138f1bca7eaeb2627d0e619301a2c60b19e53c1d7205ff2ded58144384024f1",
+  "request_fingerprint": "a7754539876c2e09a29f5832f3a93e0c57d5c3d7d3db80eabb855a392d0ee5c9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota no intervalo (50; 60], correspondendo à moda da distribuição. Destacam-se, também, as questões deixadas em branco, aparecendo como uma segunda moda.\n\nA distribuição das notas possui assimetria negativa (-0,74), assim como em todas as regiões do Brasil (entre -1,00 para a Norte e -0,47 para a Nordeste).",
+  "text_sha256": "dbf3c0ccaf5f7e0666f063d434c367283042357eb9a4d4ae3416b32cb2f988b5",
+  "window_size": 3
+}

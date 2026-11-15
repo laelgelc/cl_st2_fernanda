@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee22e2c192c8cf7006af8f94b68a487d1ac94068a13046bb8",
+    "usage": {
+      "input_tokens": 2011,
+      "input_tokens_details": {
+        "cache_write_tokens": 2008,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2008
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2368
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_filo/enade_2014_filo_page_102.txt",
+      "source_sha256": "5e66d133d0c0c6992bbc8be5a6a6146f130fd90905a0be4de65dfe20c83cfc5d"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_filo/enade_2014_filo_page_104.txt",
+      "source_sha256": "2c5c2ae11b587b349888ad6b32a6ebcd147dd9a71019425c8cdd7c29f8c5577f"
+    }
+  ],
+  "created_at": "2026-11-15T00:14:03Z",
+  "duration_seconds": 3.877,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FILOSOFIA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_filo/enade_2014_filo_page_103.txt",
+    "source_sha256": "bdb133a695d6a0f714adc0f45cd1e34b22dd3d9893efc203e91857dd2f74fb45"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2e77e7042fe0589e80ad215eb631a97e2def45d43c48d3fc10d3f5f16372efb8",
+  "request_fingerprint": "2ad1fa28da6b161d7623364e1426df8f4f0468c03f7da7734e1e971886fffcd0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que parece pertencer a um gráfico; o material gráfico não está presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em função dos quartos de desempenho: 40,9% no primeiro quarto e 16,7% no quarto, grupo de melhor desempenho na prova. Nos quartos de desempenho intermediários, a proporção de alunos que consideraram a prova difícil ou muito difícil foi de 33,5% no 2º quarto e 27,3% no 3º quarto. As diferenças entre os quartos são todas estatisticamente significativas. Para todos os quartos de desempenho, a alternativa modal para esta pergunta foi médio, com 49,4% e 61,8% dos respondentes nos quartos extremos, primeiro e quarto, respectivamente, valores crescentes com o desempenho.",
+  "text_sha256": "2e809abf40cc06800d459549cfbc8d1f4e81cef89b61ade7d05fcce57fd7a0ba",
+  "window_size": 3
+}

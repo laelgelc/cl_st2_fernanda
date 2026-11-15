@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05b5a89c86dd0ee0006af8efc781c487d19076cc925337e46a",
+    "usage": {
+      "input_tokens": 1491,
+      "input_tokens_details": {
+        "cache_write_tokens": 1488,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1488
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1747
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_36.txt",
+      "source_sha256": "35cd7ae8b0b91ce65dd4a421ff9cff42ccc012195324c892f36c9aa48ef6f13b"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_38.txt",
+      "source_sha256": "c5a30cd94deb33190fa237ee38d44e3d1b9234688b288d5d33c22fd360728971"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:27Z",
+  "duration_seconds": 3.135,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_37.txt",
+    "source_sha256": "afc8395ba2bae5f805eb2833e9fdaced76339477cb7591242cdc7b4e7ddeed4b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "45aca9e4a1d0db1346129c998e9086a9a3aea10786cf55a64416ce85e3e03bbc",
+  "request_fingerprint": "692f0a841fc8bf6f6d1413ff29afaf1673073f115e5c3997309eef11310503a5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, contata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes das Universidades em relação dos de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (46,2), e a menor, pelos de Centros Acadêmicos (36,0).",
+  "text_sha256": "4d43821627104d43dbf1f628f28c85ef7393458cdfb7363c59a8a959441247e9",
+  "window_size": 3
+}

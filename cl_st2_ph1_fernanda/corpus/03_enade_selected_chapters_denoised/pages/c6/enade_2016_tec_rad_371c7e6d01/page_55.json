@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08bf774a4b7233f5006af9042fae5487d1a0da5a0035582c09",
+    "usage": {
+      "input_tokens": 2765,
+      "input_tokens_details": {
+        "cache_write_tokens": 2762,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2762
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 785,
+      "output_tokens_details": {
+        "reasoning_tokens": 331
+      },
+      "total_tokens": 3550
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_54.txt",
+      "source_sha256": "9c4310d9e64caf833aa34b4eac40f16f8b596e83e08e7d57f1ed7cbb91b821df"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_56.txt",
+      "source_sha256": "c651fc776612570994119c898ec77b505afb320069076b31eb9fb80ccfb7f46a"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:31Z",
+  "duration_seconds": 9.205,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM RADIOLOGIA.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_55.txt",
+    "source_sha256": "2888d1bd2d9dd001095052ee6dd1076d3db956cc955a48d3ee7bed53abee49e3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b79faca8e680936dd81c83462d33a7e8d3c772a8134ee4d3e552c1185dec40ce",
+  "request_fingerprint": "990ba0200237f735d732c1e1871b2ca30565948c8fdf978e45084b71f3540987",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.10, seus dados e a linha de fonte. A discussão em prosa do Gráfico 3.4 foi preservada; não havia conteúdo gráfico identificável na página-alvo."
+  ],
+  "status": "success",
+  "text": "questão 7 obteve Índice de Discriminação Muito bom, 0,46, e seu Índice de Facilidade foi Difícil (0,30).\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Difícil, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 32,7% escolheram a alternativa E, 28,1% escolheram a alternativa B (em verde), 2,8% escolheram a alternativa C (preto) e 1,6% a D (roxo). Entre os que acertaram três das questões de múltipla escolha de formação geral, 0,2% deixou a questão em branco e nenhum estudante marcou mais de uma alternativa, o que invalidaria a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com 7 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.",
+  "text_sha256": "e48a62ea5242487cfa96b3978024106a8984aa059cb20c864c75adc3f21bbc92",
+  "window_size": 3
+}

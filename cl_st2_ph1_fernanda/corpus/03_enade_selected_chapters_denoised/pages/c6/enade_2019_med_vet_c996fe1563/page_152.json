@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08f5f344390cd0ac006af914140e2887d19fbef8b0a6441309",
+    "usage": {
+      "input_tokens": 3237,
+      "input_tokens_details": {
+        "cache_write_tokens": 3234,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3234
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3580
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_151.txt",
+      "source_sha256": "40ee776b9deceecf0e880a077f0a717aec3a5d670e42666825bb78c18956db68"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_153.txt",
+      "source_sha256": "18a6faa32ac16113354546c3e3f9339f972f0a1af6e55d98445762be38472ec9"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:19Z",
+  "duration_seconds": 3.866,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_152.txt",
+    "source_sha256": "435bfb83cecb664a836ad416309812f16919c9ad18816d3b12eff1d3927adbce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41f70e9ca9dbf2d72d50138396da9f22d7dc7765e7ffb9b127a11b15ece0c7c6",
+  "request_fingerprint": "06941de6bd9a99f59cc1379f5703b9539e4d4eb9b083836b5374ca9b07ae7ed1",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.11 removida, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores índices, duas delas foram classificadas com Índice de Discriminação Muito bom, as de número 24 e 29. A questão 24 teve o maior índice (0,42), e, quanto ao Índice de Facilidade, foi classificada como Fácil, com 83% dos estudantes marcando a opção correta. A questão de número 19 foi a mais difícil entre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 9% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,02, o que comprova ter sido a mais difícil para os estudantes. Por isso, a questão 19 foi, portanto, pelo critério Ponto-Bisserial, considerada inadequada e eliminada do cômputo da nota final.",
+  "text_sha256": "6fd811b07f102740abc5f35cdb719047d8501f36ca75cf35066d7d06b06a8982",
+  "window_size": 3
+}

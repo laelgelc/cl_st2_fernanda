@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0743bd9e915baecb006af9082b190c87d1b1c569f8ed28495f",
+    "usage": {
+      "input_tokens": 3054,
+      "input_tokens_details": {
+        "cache_write_tokens": 3051,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3051
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 518,
+      "output_tokens_details": {
+        "reasoning_tokens": 191
+      },
+      "total_tokens": 3572
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 199,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_199.txt",
+      "source_sha256": "a3e1c86105d65abb5b7da35fe616b334d1c2f3f2555568b538bc099280b54bab"
+    },
+    {
+      "page_number": 201,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_201.txt",
+      "source_sha256": "7df759a538dac090cd2b509e334d79321afff9dcdb605a8d84c32f21ba68aa08"
+    }
+  ],
+  "created_at": "2026-11-15T01:17:31Z",
+  "duration_seconds": 5.6,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FÍSICA.pdf",
+    "page_number": 200
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_200.txt",
+    "source_sha256": "e03c5d03f9d9451e339c952d7d8eaa0e6ddb6690ee8adc9f47eb4f7d01990484"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7e114b90735dd1256ac770dc3a4268fd660901d86b3b0b8d1674370980143b98",
+  "request_fingerprint": "0c3b27ed2f0183df89766c810b3f6fe85635e9a235c143da52fe64b730579933",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e fonte.",
+    "A última frase continua na página seguinte; o texto foi mantido apenas até o limite desta página."
+  ],
+  "status": "success",
+  "text": "A Média das notas dos alunos de cursos de Bacharelado, foi 56,8, sendo que os alunos da região Norte obtiveram a Média mais baixa (47,1), e os da região Sul obtiveram a Média mais alta (60,6). As demais médias foram: 53,6 na região Nordeste, 57,4 na região Sudeste e 56,3 na região Centro-Oeste.\n\nComo não houve registros de alunos em cursos a Distância, as estatísticas são as mesmas para os cursos presenciais de Bacharelado e para o total de cursos de Bacharelado.\n\nO Desvio padrão para o Brasil, como um todo, foi 18,7, sendo o maior Desvio padrão encontrado na região Sudeste (19,6), e o menor, na região Sul (14,5). A região que obteve a maior nota Máxima foi a Sudeste (96,4), ao passo que a região que atingiu a menor nota Máxima foi a Centro-Oeste (90,4). A Mediana do Brasil, como um todo, foi 59,2, sendo a maior Mediana obtida na região Sul (63,0), e a menor, obtida na Norte (45,2). A nota Mínima foi 15,0",
+  "text_sha256": "9c191ee56f304239bbd2ec9b50aee50f18838e3fb26c0ec673c8daf616b53569",
+  "window_size": 3
+}

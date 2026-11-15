@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05429402d721542b006af8ec4f21e087d1b3d2876693dcfd7c",
+    "usage": {
+      "input_tokens": 2926,
+      "input_tokens_details": {
+        "cache_write_tokens": 2923,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2923
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 3437
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_50.txt",
+      "source_sha256": "035f6eca2cbd0ab6260b2dc8bcff5d26e5e137056243e83a9c16b7f1102215a8"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_52.txt",
+      "source_sha256": "3e2294511263d66048b7922dd9d5f784c8b6b0ed4ed54e9eef698f09db2ff3f3"
+    }
+  ],
+  "created_at": "2026-11-14T23:18:39Z",
+  "duration_seconds": 5.86,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_4",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO IV.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_4/enade_2011_eng_g_4_page_51.txt",
+    "source_sha256": "ce27dcd444a1aa9f929455d4b7c28ef564cbc1a5ba93445875cfc060660dbfde"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "78a7b487f7c92f6cd4cd703bf174fbf276a7ceeefb80c33ba58b55b1d9f187c5",
+  "request_fingerprint": "31a53b47fa2244495ee9930ec7659b97999d6bf21b8f82e9528daed1d6280aba",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.13 e sua linha de fonte («Fonte: MEC/INEP/DAES - ENADE/2011») foram removidos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "48678512ceda307fa7bb45f1c7c4e48cc88d66b87819344658a21f5affaabebf",
+  "window_size": 3
+}

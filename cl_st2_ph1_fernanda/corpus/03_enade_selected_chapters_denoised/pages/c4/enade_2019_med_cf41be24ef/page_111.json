@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03d4fe5a0b1fe2d9006af91441b7e887d1b02c27af53a80f7d",
+    "usage": {
+      "input_tokens": 1845,
+      "input_tokens_details": {
+        "cache_write_tokens": 1842,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1842
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 324,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 2169
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med/enade_2019_med_page_110.txt",
+      "source_sha256": "82a11a662ed829880b989149eab61859827e5e91a5e39c66408b97c695e41248"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med/enade_2019_med_page_112.txt",
+      "source_sha256": "e6e1704a7783ced387f087c20b2794c8539a943c1a823fe7c93ce3e372c1a63d"
+    }
+  ],
+  "created_at": "2026-11-15T02:09:05Z",
+  "duration_seconds": 3.898,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med/enade_2019_med_page_111.txt",
+    "source_sha256": "25967abd05dca28f496143a499d0b2b3ff259b349d668505cfb5261d07650084"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9281bc123d52b4e8874253465f79347d28ed3d30a34673d09eb3669d85ef6759",
+  "request_fingerprint": "dbc2f7eb7b43b35b6f9bb8341e202483e20b29ab3e7eec8b636593afc655ae97",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.29; os dados do gráfico não foram transcritos."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 80,4% na região Norte a 87,6% na região Sul.\n\nConsiderando-se separadamente as opiniões de estudantes nos quatro quartos de desempenho, observa-se que, no quarto inferior, 1,6% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,1% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade no primeiro quarto em relação aos dos demais quartos de desempenho é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 92,8% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 77,0% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "a6a8dce7aaae20f17e351988affd265daf915905432b9eeb0ebf709fe1f1e064",
+  "window_size": 3
+}

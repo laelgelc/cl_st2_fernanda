@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_034f1c1459ae0229006af8f0a5f74887d1a7ead54a748b667d",
+    "usage": {
+      "input_tokens": 2749,
+      "input_tokens_details": {
+        "cache_write_tokens": 2746,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2746
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 883,
+      "output_tokens_details": {
+        "reasoning_tokens": 377
+      },
+      "total_tokens": 3632
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_65.txt",
+      "source_sha256": "3d8a1250624f045759abef7564ba4381299356cd4e20a6eb8da85ec6ed934914"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_67.txt",
+      "source_sha256": "887a1f9299deca9afa7ae69a30f73c35a355d4ec34d813efed3d549fecd98219"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:09Z",
+  "duration_seconds": 7.539,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_66.txt",
+    "source_sha256": "62c825a6dc11cfc8828b37fbc44ae9307364f426c1cf8b3d7f2f8db0828dbbfb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c96376c06b39fc2ebc5fa3c10559222f4f090b9dc59ed4e927e7b7cffef72dad",
+  "request_fingerprint": "06a12b3bd0a8039f7cc54d8783849ace9587983d029d8e5ec8a0ef891fbca00f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e fonte.",
+    "O Gráfico 3.18 é mencionado na prosa; material gráfico não transcrito. A linha de fonte aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "3.3.2 Componente de Conhecimento Específico\nNa parte da prova relativa às questões discursivas no componente de Conhecimento Específico (Tabela 3.11), observa-se que a média foi mais baixa do que para as questões discursivas do componente de Formação Geral. Enquanto no componente de Formação Geral a média para estudantes de Ciências Econômicas de todo o Brasil foi 33,9, na parte de Conhecimento Específico a média foi 13,6. A maior média deste componente foi obtida pelos estudantes da região Sudeste (14,9), e a menor, pelos da região Nordeste (10,8). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 17,9. Mantendo o mesmo comportamento da média, o maior desvio padrão foi encontrado na região Sudeste (19,2), e o menor, na região Nordeste (15,2).\nA maior nota máxima, nas questões discursivas do componente de Conhecimento Específico, foi obtida na região Sudeste (96,7) enquanto a menor nota máxima foi encontrada na região Norte (80,0). Além disso, a mesma nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 5,0, também encontrada nas regiões Sudeste e Centro-Oeste. As demais medianas foram: 6,7 na região Sul, 3,3 na região Norte e 0,0 na região Nordeste.\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0;10]. Nota-se que a partir desse intervalo a distribuição é decrescente até o último intervalo. O coeficiente de assimetria é positivo e maior do que 1 (1,40), indicando uma grande assimetria à direita. Este coeficiente também é positivo em todas as regiões do Brasil, variando entre 1,28 para a região Sudeste e 1,61 para a região Norte.",
+  "text_sha256": "d2bcd122b03c2accece78be4954ae7b6e9f4cf272553c760c6142b13c46619ee",
+  "window_size": 3
+}

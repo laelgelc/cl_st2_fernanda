@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e791ae2a42a227f006af9028d30a487d188aaf5e0b479174b",
+    "usage": {
+      "input_tokens": 2290,
+      "input_tokens_details": {
+        "cache_write_tokens": 2287,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2287
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2676
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_81.txt",
+      "source_sha256": "ca4cbe3a5fb8d42303c1138d003ea1bf35fd10c3023c51f94fbd8326084033b9"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_83.txt",
+      "source_sha256": "8537feb4867d41e55d84b0c979e849bd83b6ada6114a7870f6c5b8469972d722"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:33Z",
+  "duration_seconds": 3.969,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FONOAUDIOLOGIA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_82.txt",
+    "source_sha256": "88dc34a423aeaa4437e7431c18f690af8268bd041d47dacf7f1c9b818a99c599"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95ed1be94f206882d9e3aea95742bfea46842271a2c3796d7b529b613ea14c9c",
+  "request_fingerprint": "5ed74f5fba4869fc3ac08ad9896ea5cbc020a7ee36f485f4a3d184c9be0509da",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.19, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "A nota Máxima (100,0) foi atingida por, pelo menos, um concluinte de todas as regiões. A Mediana em todo o Brasil foi 50,0, o mesmo valor foi obtido nas regiões Nordeste e Sudeste. Nas demais regiões, a Mediana foi menor: 35,0 nas regiões Norte e Centro-Oeste e 40,0 na região Sul. As notas mínimas foram zero em todas as regiões.\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição é multimodal com moda principal no intervalo (30; 40], seguida de perto pelos alunos que obtiveram nota no intervalo (50; 60]. Observam-se ainda outros máximos locais: o intervalo (80; 90], na parte superior da escala de notas, e, no lado oposto, tanto o intervalo (10; 20] quanto a frequência dos que deixaram a resposta em branco.",
+  "text_sha256": "c880348ae0e8fa6f2f48688485466c362cbc89260589e44d46f241aa4484253f",
+  "window_size": 3
+}

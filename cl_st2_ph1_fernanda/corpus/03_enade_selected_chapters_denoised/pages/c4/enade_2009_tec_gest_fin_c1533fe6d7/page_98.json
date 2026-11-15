@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ffe87cf2bafe4c9006af8e7ef0fa087d18b3e8c3377dbcd8a",
+    "usage": {
+      "input_tokens": 2210,
+      "input_tokens_details": {
+        "cache_write_tokens": 2207,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2207
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 638
+      },
+      "total_tokens": 3032
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_97.txt",
+      "source_sha256": "73724a26244956ac799a4245a68b3a7c12a9ac7ac40b4f8a8de971eb42d919c2"
+    },
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_99.txt",
+      "source_sha256": "3d9cd7f16c6e1acbd8da13e3bfb080ad27bd79c0dad1896780f57f63e2fe6a7a"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:58Z",
+  "duration_seconds": 7.954,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 98
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_98.txt",
+    "source_sha256": "10084c32443a6d60ad56bb5e3faa11c432d7f8381daa743b5c6b02ea9031a8b7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9d0339847e395bc1e4b60297acb2f12a2588aa53c4f51a8f4d608cf9ee024fd9",
+  "request_fingerprint": "bef768e172fb39200e3d7991eac41a5df7c9394e2991010b1cb6855661fd522e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.17c, incluindo título, dados, escalas, legenda e a fonte associada."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM GESTÃO FINANCEIRA. A proporção de concluintes que gastaram entre uma e duas horas foi maior na Região Sudeste (41,8%) e menor na Região Norte (16,7%). Para ingressantes, o maior percentual para este tempo também ocorreu na Região Sudeste (44,5%) e a menor na Região Norte (19,5%).",
+  "text_sha256": "2168b4d6068c8524e1f59cd41f3df2a8201135cf270d693f2966a3637b964124",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b65efba9179467f006af8ef1064b887d1abffcc5effb2ca39",
+    "usage": {
+      "input_tokens": 2147,
+      "input_tokens_details": {
+        "cache_write_tokens": 2144,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2144
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 894,
+      "output_tokens_details": {
+        "reasoning_tokens": 463
+      },
+      "total_tokens": 3041
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_45.txt",
+      "source_sha256": "019d8ad0124167756bacfc9f999839cd6e66332110a40c295bfd0b95f04ca7f4"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_47.txt",
+      "source_sha256": "027660ba8f938c7689b5624a8cd5ce0b95b224c11342f70a2d50d8670d7c8944"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:24Z",
+  "duration_seconds": 9.094,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_46.txt",
+    "source_sha256": "b032224d83a87008dbc645a8848fe037a8cdba39219c0aafc182dd194f42e841"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b4d15ed7ffd558b2721f6b5a177076dc53cd83ce0c219504a7b6c0f8f8ef769f",
+  "request_fingerprint": "81cc659ba112513221341c44afb0f7c89ebfbf6859fc623fe9b619af2d59f720",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte.",
+    "O Gráfico 3.9 (histograma) parece acompanhar a prosa na página-alvo; seu material gráfico foi excluído. A linha de fonte aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A mediana das notas dos estudantes de todo o Brasil foi 34,4. A maior mediana ocorreu na região Nordeste (37,2) e a menor nas regiões Norte e Centro-Oeste (as duas com 31,9). As demais medianas foram: 34,9 na região Sudeste e 33,9 na região Sul. A nota máxima do Brasil como um todo foi 94,7, sendo obtida por pelo menos um aluno da região Sul. As demais notas máximas foram: 82,4 na região Norte, 86,9 na região Nordeste, 92,5 na região Sudeste e 90,0 na região Centro-Oeste. A nota mínima foi zero em todas as regiões, sem exceção.\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as 3 distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (20;30].\n\nO coeficiente de assimetria da distribuição das notas do Componente de Conhecimento Específico é positivo (0,44), o que justifica a cauda longa do lado direito. Em todas as regiões o coeficiente de assimetria é positivo, com pouca variação de magnitude (entre 0,33 e 0,53), sugerindo formas semelhantes para as distribuições das notas nas regiões.",
+  "text_sha256": "546d0a209f16bd4ee484ebe87f607c214fc5861fdf3200c2d3c26fff15999fc4",
+  "window_size": 3
+}

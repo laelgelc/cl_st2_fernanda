@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b49f834c7446ef006af906194fec87d1a3bea27b2ab114d3",
+    "usage": {
+      "input_tokens": 2295,
+      "input_tokens_details": {
+        "cache_write_tokens": 2292,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2292
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 804,
+      "output_tokens_details": {
+        "reasoning_tokens": 343
+      },
+      "total_tokens": 3099
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_comp/enade_2017_eng_comp_page_100.txt",
+      "source_sha256": "f5bd42b82bd31db1d703f3634a5f9734b73cc83a28eb2e0d67d73162c835f5f4"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_comp/enade_2017_eng_comp_page_102.txt",
+      "source_sha256": "ffb179ab45945a3792dff5366339091dd08a7e40b7df062ac89831760c6927f9"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:41Z",
+  "duration_seconds": 7.588,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_comp/enade_2017_eng_comp_page_101.txt",
+    "source_sha256": "c1c51dd3060eaf5559792bd968795b999bf78c5a0a5512166f9986e3ecb07a78"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b6dfd03b6f56210d50965ed50b526bb91ca6030bad6ac3f0acb830fa81924135",
+  "request_fingerprint": "8c36a43a821e49bcefeaeada547261d0604a5bd7c3f6edbabed1c016bd7f4f6c",
+  "retry_count": 0,
+  "review_notes": [
+    "O material gráfico do Gráfico 5.3 foi excluído; a linha de fonte aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "Na região Centro-Oeste, sete dos 14 cursos eram de Universidades (50,0%). Nesse tipo de organização, um curso ficou Sem Conceito (SC). Os conceitos 2 e 5 foram atribuídos a um curso cada, e os conceito 3 e 4, a dois cursos cada, os conceitos modais. O conceito 1 não foi atribuído a nenhum curso.\n\nOs Centros Universitários da região Centro-Oeste contaram com cinco cursos, que obtiveram os conceitos 3 (três cursos, conceito modal) e 2 (dois cursos). O curso oferecido em Faculdades na região Centro-Oeste recebeu conceito 5, o conceito máximo. Nessa região, um curso foi avaliado em CEFET/IFET e recebeu conceito 2.\n\nO Gráfico 5.3 apresenta a distribuição do Conceito Enade segundo a Organização Acadêmica da IES. Os cursos em CEFET/IFET (linha roxa) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. Nota-se também que nenhum dos cursos em CEFET/IFET (linha roxa) obtiveram conceitos 1, já que a poligonal cumulativa parte de 0% no conceito 2. No outro extremo, estão os cursos oferecidos em Faculdades (linha vermelha) e Centros Universitários (linha verde) com as poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores, diferenciando-se em dois aspectos: apenas os cursos em IES de Centros Universitários (linha verde) obtiveram conceito 1 (6,9%), e no conceito 2 ou abaixo, houve maior porcentagem acumulada de cursos em IES de Faculdades (54,2% contra 34,5% dos de IES de Centros Universitários) (linha vermelha). IES de Universidades (linha azul) apresentam uma situação intermediária.",
+  "text_sha256": "aa30e5523474a27010ef3aa911b19dd6e439341b253fc31240ed8173bb0c5efb",
+  "window_size": 3
+}

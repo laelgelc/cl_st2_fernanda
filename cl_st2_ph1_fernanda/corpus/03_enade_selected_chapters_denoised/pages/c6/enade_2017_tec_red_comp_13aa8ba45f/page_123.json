@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1c65b14d4a7ac9006af90ba8e5a087d1adf4f044e73f5bb1",
+    "usage": {
+      "input_tokens": 2820,
+      "input_tokens_details": {
+        "cache_write_tokens": 2817,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2817
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 853,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3673
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_122.txt",
+      "source_sha256": "06fa74a3e3018f2e63693caa40f929061da5045e1075ca82d156cb114109d6b1"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_124.txt",
+      "source_sha256": "f3ca51e0c992bd094143246176baef8562d95b360700a7e4789ff27d762e11ee"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:24Z",
+  "duration_seconds": 8.771,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_123.txt",
+    "source_sha256": "804d4a68c030c39a5529aee6a5adfec556c05be5859d3c37bd29edeb86129ed2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "698ed4a499157d4abbe0f9fe8a785cbbc8fc6252783b0506c6229dbde2af30c7",
+  "request_fingerprint": "b8a4104a5251acc7ddccebf849bdfa3629aae7677e67171ba0543b21fd6c961a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao gráfico da página anterior.",
+    "Removida a Tabela 6.10, incluindo título, dados e linha de fonte.",
+    "O texto do target termina em uma frase incompleta (“os Índices”); não foi completada com conteúdo da página de contexto."
+  ],
+  "status": "success",
+  "text": "Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n6.2.2 Componente de Conhecimento Específico\n\nNa Tabela 6.10, são apresentadas as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Tecnologia em Redes de Computadores por Grande Região. Nessa parte da prova, uma questão foi anulada pela Comissão Assessora da Área, a questão 21. Além disso, como será discutido ainda nesta seção, nove questões objetivas do Componente de Conhecimentos Específicos não foram\n\nNa Tabela 6.11, são apresentados os Índices de Facilidade e Discriminação (ponto-bisserial) das questões objetivas do Componente de Conhecimento Específico, para os estudantes de Tecnologia em Redes de Computadores. Para facilitar a diferenciação das questões, serão usadas as mesmas cores da Tabela 6.8 para as diferentes classificações dos Índices de Facilidade e de Discriminação. Observa-se que uma questão foi anulada pela CAA e que as análises dizem respeito às 26 questões válidas.\n\nA partir do Índice de Facilidade obtido, pode-se concluir que quase quatro quintos das questões objetivas da prova foram considerados, pelo menos, Difícil: das 26 questões válidas, 20 foram classificadas como Difícil ou como Muito difícil. Uma questão foi classificada como Fácil, e outras cinco consideradas como Médio.\n\nJá quanto aos índices de discriminação das questões objetivas do Componente de Conhecimento Específico da prova, obtém-se como resultado a seguinte classificação: seis das 26 questões foram consideradas boas, enquanto uma delas teve Índice de Discriminação Muito bom. Assim, para um pouco mais de um quarto das questões – sete em 26 – os Índices",
+  "text_sha256": "ca9b8086af65fc25eedc4e1bc92eb40b6763308d3b4f2804daa86856af3775fe",
+  "window_size": 3
+}

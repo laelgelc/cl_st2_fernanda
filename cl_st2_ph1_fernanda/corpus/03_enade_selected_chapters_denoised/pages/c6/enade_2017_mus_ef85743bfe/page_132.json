@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0afe7f93aa92f5c8006af909ffa92487d18eef3cc952aa52a8",
+    "usage": {
+      "input_tokens": 2796,
+      "input_tokens_details": {
+        "cache_write_tokens": 2793,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2793
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 904,
+      "output_tokens_details": {
+        "reasoning_tokens": 462
+      },
+      "total_tokens": 3700
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_131.txt",
+      "source_sha256": "875dbcfc335b2ca0532b5b9f179a844e5c9e504b586988c5a7591f1c4925412c"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_133.txt",
+      "source_sha256": "e4f182d171baa3acc2f08f2e6689c985307adfb9c4345231e4287296b10eb1a1"
+    }
+  ],
+  "created_at": "2026-11-15T01:25:19Z",
+  "duration_seconds": 8.299,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MÚSICA.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_132.txt",
+    "source_sha256": "55d657bba19e144f201209294495affb43bedb07a163dfeb99ce39fc9cf82e1c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aedbbfbe7a113ab58003666d3d4a99dc476d01e921ac69713a57140d7ff22e6e",
+  "request_fingerprint": "d37b1f7970af4f3b63536f0a88b7af35b786835745639947dd733b6b43adc9d0",
+  "retry_count": 0,
+  "review_notes": [
+    "A Tabela 6.3, incluindo título, dados e fonte, foi removida.",
+    "O Gráfico 6.2 é discutido em prosa, que foi preservada. O material gráfico não aparece no texto extraído da página-alvo; a página de contexto seguinte contém uma fonte que pode pertencer ao gráfico, então verifique se houve perda acidental do gráfico na extração."
+  ],
+  "status": "success",
+  "text": "A maior nota no Componente de Formação Geral da prova do Enade/2017 foi 95,0, obtida por, pelo menos, um aluno na região Sudeste. A menor nota Máxima foi obtida na região Norte (84,9). A Mediana do Brasil, como um todo, foi 49,5, sendo a menor Mediana encontrada na região Nordeste (47,3), e a maior, encontrada na região Sul (52,6). A nota Mínima nesta parte foi diferente de zero apenas na região Norte (7,5).\n\nConsiderando-se as notas, segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre a maior Média das notas do Componente de Formação Geral, obtida na região Sul (51,2), e as duas menores médias, obtidas nas regiões Nordeste e Centro-Oeste. Já as diferenças entre as três médias maiores não são estatisticamente significativas.\n\nNo Gráfico 6.2, é possível é possível ser feita uma avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50; 60], intervalo modal superior ao da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda que, no Gráfico 6.2, as notas apresentam dispersão maior do que a do Gráfico 6.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,1 para a nota da prova, como um todo, e 17,9 para o Componente de Formação Geral.",
+  "text_sha256": "100584807939448835e5210e067965eb56e4ab34d3b699df16674396304e12ac",
+  "window_size": 3
+}

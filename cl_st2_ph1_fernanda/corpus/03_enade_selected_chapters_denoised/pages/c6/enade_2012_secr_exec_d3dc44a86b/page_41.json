@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c41fc5ba71d62b7006af8f1b3bb4c87d1ac8eca8e95cf67d1",
+    "usage": {
+      "input_tokens": 1434,
+      "input_tokens_details": {
+        "cache_write_tokens": 1431,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1431
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 1674
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_40.txt",
+      "source_sha256": "79e2e067f232c500f975e9ddda7544223ec07b26f195a3c088cafde563c52af2"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_42.txt",
+      "source_sha256": "af90cd58c71da898263d5b21a87f4b7f9196fd298857175d644e57f338c123ef"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:39Z",
+  "duration_seconds": 2.626,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_41.txt",
+    "source_sha256": "63d87a999f3af40f1eed3d67741a19cd806f98f9871df14cef71a89a57209c2c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5744a19325fd4c89a0f859ac4ed542164d9cadf5d670e4f1a3d738391382cafa",
+  "request_fingerprint": "4c57ddc4b89cdd337ae1a49877b766a25c33de6b4d708a5184d558dac02475e7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Secretariado Executivo, das IES Públicas obtiveram uma média maior (45,0) do que os das IES Privadas (41,1).",
+  "text_sha256": "3818cdfa2b217c67b5f6dfe0a484e9ed362db30aaf1f94170cc45e36237ba8fc",
+  "window_size": 3
+}

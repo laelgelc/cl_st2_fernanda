@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0131a1c592cb2c5a006af9118515e487d1a353d776a83812c7",
+    "usage": {
+      "input_tokens": 1844,
+      "input_tokens_details": {
+        "cache_write_tokens": 1841,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1841
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 2147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_102.txt",
+      "source_sha256": "24b067e7b2a2827aa74486ad9b14e6a1481b34ed7dddfeb53df5222f7ce9c020"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_104.txt",
+      "source_sha256": "6a1cfefab48e6025b66964c1f34aad4ca072032d1167ea77c9bab694b1c953e2"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:25Z",
+  "duration_seconds": 3.329,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_103.txt",
+    "source_sha256": "4e069100f279d5023e3440c836024f953f41c8841524bfdecdf2a9529666958b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "be1eccc3511732ef8f13e6378e1752c075b4a4f59f1ef078944c8175fed008e2",
+  "request_fingerprint": "7aa4537bcabc3aad7eb298f747416e1c7a2d4413858b7b545a04a781f19fefd0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.7; o fragmento final “CEFET/IF” parece ser um rótulo gráfico isolado."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (43,4%), uma diferença estatisticamente significativa da proporção em IES Públicas (28,5%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 62,4% para os de IES Públicas e 52,0% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4 no Anexo II).",
+  "text_sha256": "a5b9903e5fbe4e30f56656e5ccd6a938a9f832b1aa5e6f17c55ed7b9a1fe7e66",
+  "window_size": 3
+}

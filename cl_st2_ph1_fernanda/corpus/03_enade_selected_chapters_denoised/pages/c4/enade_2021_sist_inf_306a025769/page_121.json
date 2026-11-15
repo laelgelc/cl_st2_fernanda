@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f0891cf99f22665006af91b2d671087d1bd01dce7f8c46e1e",
+    "usage": {
+      "input_tokens": 1803,
+      "input_tokens_details": {
+        "cache_write_tokens": 1800,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1800
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 2134
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_sist_inf/enade_2021_sist_inf_page_120.txt",
+      "source_sha256": "39e3ca429461f5d59410b6594e17dad966902379516bad7d9fd3bfbb2e0a5f8e"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_sist_inf/enade_2021_sist_inf_page_122.txt",
+      "source_sha256": "4ade099189c8c5c79e1da6636f1483dd9ab09519d67d57c19789fd9f1da70f2f"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:37Z",
+  "duration_seconds": 3.76,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_sist_inf/enade_2021_sist_inf_page_121.txt",
+    "source_sha256": "d40844294731cc73cc9285832d47adee0f04fefa11d2ca62009e3d114cf58f4a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d48f7d630f46e829a9e4cabfcdb265c9a9b59738c0fde79390c6b6bc0f79159f",
+  "request_fingerprint": "7861e40c3bbbf8da8ee403cc6fa33fdac469a5f485eef655a3ea54f554926858",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23; “CEFET/IF” foi removido por aparentar ser um rótulo do Gráfico 4.24, cuja legenda continua na página seguinte."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi ligeiramente maior entre os estudantes de cursos de IES Privadas (85,1%), não havendo diferença estatisticamente significativa da proporção registrada em IES Públicas (84,9%) (ver Gráfico 4.24 e Tabela II.12, no Anexo II).",
+  "text_sha256": "8fcc00016fe37b7a8c3e190f22ac90cd534648dc0cd26c13d4710f40d007d9a6",
+  "window_size": 3
+}

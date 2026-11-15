@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a53da3c3256a3ee006af8f73bef6887d194ce5778e389b2ff",
+    "usage": {
+      "input_tokens": 1340,
+      "input_tokens_details": {
+        "cache_write_tokens": 1337,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1337
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 312
+      },
+      "total_tokens": 1779
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_111.txt",
+      "source_sha256": "29f3a073478b2cb01d13b538ba1d36c9d11f6cf906b4e35194614cc6fa96f0b2"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_113.txt",
+      "source_sha256": "84dbfb71d06c07e824d280928e8894ac0e73313b05c06ae8c2282422b4028723"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:15Z",
+  "duration_seconds": 4.755,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_112.txt",
+    "source_sha256": "7c434546b1b53bfbc4389ee391a79c0854555b53af03927e16362f107a0a4994"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9329f1c8c9698ee8dd655ef4b5f0deb27e261edc58b7eafe908a1a5139848144",
+  "request_fingerprint": "10666992d7486f15edf32e49616ac4ef4873b0a3ded0d28d5827e3d25c67f373",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. A diferença entre o primeiro (69,1%) e os demais quartos é estatisticamente significativa.",
+  "text_sha256": "81dc8e71601ac42bd5df23bacd09953e0545b141b1e78fff7f6c48e039fce684",
+  "window_size": 3
+}

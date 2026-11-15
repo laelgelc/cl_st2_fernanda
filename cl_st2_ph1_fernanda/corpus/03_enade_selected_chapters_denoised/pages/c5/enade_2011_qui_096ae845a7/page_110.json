@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0104091ffa518618006af8ee88e0c487d1bc611fb2a2fb2b89",
+    "usage": {
+      "input_tokens": 2958,
+      "input_tokens_details": {
+        "cache_write_tokens": 2955,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2955
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 333,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 3291
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_qui/enade_2011_qui_page_109.txt",
+      "source_sha256": "e75be0e49116944eec3be8c641273459376d0fc8e6c0992bed5e88bf209b6037"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_qui/enade_2011_qui_page_111.txt",
+      "source_sha256": "d6eb4cb66cf22b2b74c3578c9af3a420e018ddeb00f4f817ebad9ba9373dc0e9"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:08Z",
+  "duration_seconds": 4.175,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_qui/enade_2011_qui_page_110.txt",
+    "source_sha256": "607f398eb1f21917fa0c51629aceacf47e2aa7346df664cd85ad32d646b4c7dc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e01aaa8a7761c6b384291544b874f9023aab0aa7641e874e4514f22f4e342d5",
+  "request_fingerprint": "e41cc169e411c981edff2c7178205c71ee368e59daae8a2e3e5304af58bcc637",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte.",
+    "O texto em prosa termina no meio de uma frase na borda da página; a continuação da página de contexto não foi incluída."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que na região Norte as instituições privadas participaram com dois cursos (10,5% do total regional), dos quais nenhum ficou sem conceito. Os dois cursos foram avaliados com conceito 2. As instituições públicas participaram com 17 cursos (89,5% do total regional) e nenhum ficou sem conceito. O conceito modal para esta Categoria Administrativa, na região Norte, foi 3, com nove cursos,",
+  "text_sha256": "d8eaed82500b1aee5b807dba4d41c71700a7ba7652576c9d390a72abd3457d63",
+  "window_size": 3
+}

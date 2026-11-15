@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e4493acf9bb0950006af8ecb21f4c87d18b262da0f50d21c8",
+    "usage": {
+      "input_tokens": 2478,
+      "input_tokens_details": {
+        "cache_write_tokens": 2475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 662,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 3140
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_65.txt",
+      "source_sha256": "c5e29d5a34fe6fd0cb78c8dba8f8912130e78771adfa2b67af9dd0854a738841"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_67.txt",
+      "source_sha256": "2af6c72a4bb1aeaebe7341c018022022b84b9656561d666ac49839abe0fe5695"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:18Z",
+  "duration_seconds": 6.447,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_66.txt",
+    "source_sha256": "dd55537af4c6428d7dc721b799d5b5950df8afbc0f50d4493a90f41c9d3754b2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "961a2a42c3122364767804cab27edf66f0b5c39eec67bfa6c03d848926666929",
+  "request_fingerprint": "c87a4739047786eda812aa80ecd3a7d9dc1da3c71467a4791bfc25be2d9ea11d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte. A prosa que descreve seus resultados foi preservada.",
+    "A página menciona e descreve o Gráfico 3.17, mas não contém o gráfico; a descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "3.3.1.3 Análise da Questão Discursiva 2 do Componente de Formação Geral\nA Tabela 3.10 mostra que o desempenho dos estudantes na questão 2 (média 50,1) foi tipicamente inferior ao obtido na questão de número 1 (média 64,3). A região Centro-Oeste foi aquela onde a média, nessa questão, foi maior (52,2), e a de menor média foi a região Nordeste (46,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 28,6, inferior ao obtido na questão de número 1 (32,2). O maior desvio nessa questão foi obtido na região Nordeste (30,1), enquanto o menor foi obtido na região Centro-Oeste (27,7).\nAs notas máximas, as medianas e as notas mínimas da questão discursiva 2 foram as mesmas para todas as regiões do Brasil, respectivamente, 100,0, 60,0 e 0,0; com exceção para a região Nordeste que teve mediana em 50,0.\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Este gráfico é bimodal. A moda principal está no intervalo (50;60] apresentando uma distribuição simétrica se desconsiderar o quantitativo de questões deixadas em branco, exatamente a moda secundária. O coeficiente de assimetria foi -0,49. Os coeficientes de todas as regiões foram da mesma ordem de grandeza, sugerindo que as distribuições são similares: bimodalidade com uma concentração secundária em questões em branco.",
+  "text_sha256": "e5c98367c8dbb87ee7bbfec99f6cd4f38df2565b84c63ee934b52cdbf3bc8e2a",
+  "window_size": 3
+}

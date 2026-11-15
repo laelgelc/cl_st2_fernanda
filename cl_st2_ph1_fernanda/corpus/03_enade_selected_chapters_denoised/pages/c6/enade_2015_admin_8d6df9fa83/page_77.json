@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04130af5e3e84451006af8fd34609487d1afa9ca89b210d64c",
+    "usage": {
+      "input_tokens": 2489,
+      "input_tokens_details": {
+        "cache_write_tokens": 2486,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2486
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2785
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_76.txt",
+      "source_sha256": "f346595f2ca538fee6e1998db047471f7c4d21b81b902ee79676985309dec464"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_78.txt",
+      "source_sha256": "9d424de40d3b75331b190300a9c3411a1ad0f079ff0f7cae14ace57914ec122d"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:44Z",
+  "duration_seconds": 4.447,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_77.txt",
+    "source_sha256": "14ef61371918addded5bcc32cef70218cdeb52b9c244a6bc72db4358f29a820b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "44c112f1f6f3c6c93d50c97970c04ffedf99aa78b725460e10a010a61b772635",
+  "request_fingerprint": "084136a81e1e42e84b443d0881e5f75382331c92c5e514458cf9d5a9683e8d11",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.17, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 3.10 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no intervalo (40;50]. Destaca-se, também, os alunos que obtiveram nota no intervalo [0,10] com aproximadamente 13% do total.\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "1e42b004351af929875dde62d371cd1251ae687304a2dbcbe92d3de30ebbf2a4",
+  "window_size": 3
+}

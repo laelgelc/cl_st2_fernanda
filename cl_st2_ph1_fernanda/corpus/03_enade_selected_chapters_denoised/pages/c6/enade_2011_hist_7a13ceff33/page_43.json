@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba4d5fc509f6e0d006af8edb2a7bc87d19c6d2d6a19099db8",
+    "usage": {
+      "input_tokens": 1452,
+      "input_tokens_details": {
+        "cache_write_tokens": 1449,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1449
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 406,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 1858
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_42.txt",
+      "source_sha256": "9b53f3d62bf0d9ed79a1512fddccb8fa7d2d7e4b5ccd987fbc9904875d3bf6f0"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_44.txt",
+      "source_sha256": "361c1ed78fa72c9af39a8af85bc72c49f8718de3fe16ca4d05901e0ba9ffabd9"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:34Z",
+  "duration_seconds": 4.808,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_43.txt",
+    "source_sha256": "7880b0d83f2f421f1f19fc68e4dc8b613446624a3e958e0b61665361bedb4501"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "81e27a3419c3310aba92a646cf6f9eedcd48af100cadc78ee409c407bf520de2",
+  "request_fingerprint": "7c67dd8e0b2736c9c8f4818824ed4867f702551a509d2bd8748fb0940ec18548",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que pertence ao material gráfico do Gráfico 3.7."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de História (Bacharelado e Licenciatura considerados em conjunto), das IES Públicas (42,0) obtiveram uma média menor do que os das IES Privadas (51,0).",
+  "text_sha256": "35c5d8cbf86b612e1bc6a8985953b3c7fe1dc691ea43732074d7750bddfb1f32",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_023da288cae91ce1006af9126b5d6487d18a015093beba3fbe",
+    "usage": {
+      "input_tokens": 2927,
+      "input_tokens_details": {
+        "cache_write_tokens": 2924,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2924
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 486,
+      "output_tokens_details": {
+        "reasoning_tokens": 254
+      },
+      "total_tokens": 3413
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_166.txt",
+      "source_sha256": "ab80ab975fefb7a4783afc0dcc88159f8c507cfca082bc62a7b86ba1a405f3c4"
+    },
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_168.txt",
+      "source_sha256": "fafdd2291c3b70b371bbde457bcb5b2c9f3506763bcfee0ab66714f1dfe96d88"
+    }
+  ],
+  "created_at": "2026-11-15T02:01:15Z",
+  "duration_seconds": 5.469,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 167
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_167.txt",
+    "source_sha256": "ca259ea716e8523a7b19ad8fe8190def1c347a5836d191e2149d23868080aefb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb52f788594bf25f737d616c5a4f5034ffb275df85c67b6c8886b9536b1b9984",
+  "request_fingerprint": "3ebde18bb5ae2293338cf0cc79e72622b607543125ba238730fdec1c706e4499",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.6; o gráfico e seus elementos não foram transcritos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo [0; 10], com frequência de 19,6% do total. Nesse intervalo, além da nota zero, é computada a frequência de estudantes que deixaram esse tipo de questão em branco. O intervalo modal é seguido pelo intervalo (10; 20], com frequência próxima (19,5%). Destaca-se, também, o intervalo [20; 30], com distribuição de 18,8% do total de notas.\n\nNa sequência, os resultados verificados para cada uma das questões discursivas de Formação Geral serão apresentados, estabelecendo-se relações com os conteúdos abordados em cada uma delas. Os comentários das Bancas de docentes corretores, a",
+  "text_sha256": "727264b9e80f45a2b93ac45210ed759fbf83588d8abf7f5e82fc69b7b0b97a6d",
+  "window_size": 3
+}

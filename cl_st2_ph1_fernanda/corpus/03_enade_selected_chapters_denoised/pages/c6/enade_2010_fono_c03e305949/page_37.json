@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0756fa28bc3ce36a006af8e907be3087d1afbadc45b187b06c",
+    "usage": {
+      "input_tokens": 2713,
+      "input_tokens_details": {
+        "cache_write_tokens": 2710,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2710
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 410,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 3123
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_36.txt",
+      "source_sha256": "7600c6df9401e119da17cf1dbf1db401ef1c764e4697ef710965b3397bdb6521"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_38.txt",
+      "source_sha256": "11e4c68896e019b1e126c17f0922b623b831032526b3b9fcf419b80134ed82d9"
+    }
+  ],
+  "created_at": "2026-11-14T23:04:39Z",
+  "duration_seconds": 4.665,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_FONOAUDIOLOGIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fono/enade_2010_fono_page_37.txt",
+    "source_sha256": "989592488b185addc8cc211d11e00bdaa241c2997bf759f3270536a983412db5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d9a45db582db466223bf716811752b5fa3e62079e0e28993a9508babc7d7e062",
+  "request_fingerprint": "57cd63d10f5642233411d7591c14f57431d08b47b32b4167aabc8abd21a28a60",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.3, incluindo dados, rótulos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.3 propicia a comparação entre Concluintes e Ingressantes relativamente ao desempenho no componente de Formação Geral. Nesse componente, os Concluintes apresentaram desempenho ligeiramente superior. Ingressantes e Concluintes obtiveram o mesmo percentual, 18,0% na faixa entre 40 e 50 pontos. Entre os Ingressantes e Concluintes, houve um percentual maior de estudantes no intervalo entre 50 e 60 pontos, ao faixa modal, respectivamente de 20,0% e 21,1%. Foi observada queda gradual no desempenho para ambos os grupos, nos intervalos de notas mais elevados, com 9,0% dos Concluintes tendo atingido a faixa de 70 a 80 e 2,6%, a de notas entre 80 e 90 pontos. Apenas 5,3% dos Concluintes e 5,7% dos Ingressantes tiveram desempenho na menor faixa de notas, que vai de zero a 10 pontos. O coeficiente de assimetria foi negativo para Concluintes (-0,4) e para Ingressantes (-0,2).",
+  "text_sha256": "80f92fbe2e29436b0c06eee319621b72a73d74de4b7c76900f43ddc40122ffa5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0481fa4630610caa006af8ef6b1c3c87d1975635e882a60e7c",
+    "usage": {
+      "input_tokens": 2626,
+      "input_tokens_details": {
+        "cache_write_tokens": 2623,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2623
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 3138
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_64.txt",
+      "source_sha256": "aaf15ec3a84c13e8fb1934b15846ed773f61a3408b9cb1e37057a3d7d54f27f2"
+    },
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_66.txt",
+      "source_sha256": "c04842f97fde168d44159640ef521d5c31f8f96e5c4e7b4159b6c9d3c81343fc"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:55Z",
+  "duration_seconds": 5.083,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 65
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_65.txt",
+    "source_sha256": "4d71375f07ba4cff223df23722ae1cc5df62f7f40893c3ef0f42268671cd2124"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e8cc5cc51b4e8ee84842ab530774418f49e1fdbbd8ffbefa479b507bc40ebe51",
+  "request_fingerprint": "2881415c313553aabae11e0877ce83aaec6807333b64745678d616d854118914",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o material gráfico do Gráfico 3.18 e sua linha de fonte (Fonte: MEC/INEP/DAES - ENADE/2011)."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição é bimodal com modas nos intervalos [0;10] e (30;40]. O coeficiente de assimetria é negativo (–0,07) e bem próximo de zero. O mesmo ocorre para as regiões Sudeste (–0,15) e Sul (–0,02). Para a região Nordeste este coeficiente é positivo e não tão próximo de zero (0,42).\n\n3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.12, a média dos estudantes de todo o Brasil foi 41,1. A menor média nessa questão foi obtida pelos alunos da região Nordeste (18,7), enquanto a maior média foi obtida na região Sudeste (42,8). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 31,5. O menor desvio padrão foi obtido na região Nordeste (19,0), enquanto o maior foi encontrado nas regiões Sudeste e Sul, ambas com 31,6.",
+  "text_sha256": "6bbdcb9612871f55a2afb2583258bc576fd52ff384c02d4c0348c02173150ab8",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c1451102599c4d3006af9063e2fd487d1aee55c957161d426",
+    "usage": {
+      "input_tokens": 2102,
+      "input_tokens_details": {
+        "cache_write_tokens": 2099,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2099
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 293,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 2395
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_alim/enade_2017_eng_alim_page_70.txt",
+      "source_sha256": "edeb8f3b3017892d08787149cfac70502e3ae92bfc1020206f65349ba4161938"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_alim/enade_2017_eng_alim_page_72.txt",
+      "source_sha256": "22a2cd252024be00912bd9fad41590ff47714e2699e0f4848eabeb99e85b197a"
+    }
+  ],
+  "created_at": "2026-11-15T01:09:18Z",
+  "duration_seconds": 3.039,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_alim/enade_2017_eng_alim_page_71.txt",
+    "source_sha256": "6069707df4cab1070f5b4e6cd339fe62307223be6f0da36bda69ab63ba581f9e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab5daf63f39b7bcbc713b08712f510bb50259a402ed3368a42a7857a07966f96",
+  "request_fingerprint": "78b3c76f54dfaca2c8335bfd6eac61367f62cd92ac488e8c682fd5d4db8fed37",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova Difícil ou Muito difícil foi decrescente em função dos quartos de desempenho: 29,1% no primeiro quarto e 14,8% no quarto, grupo de melhor desempenho na prova. Nos quartos de desempenho intermediários, a proporção de alunos que consideraram a prova Difícil ou Muito difícil foi de 27,2% no segundo quarto e de 20,2% no terceiro quarto. Observa-se diferença estatisticamente significativa da proporção do quarto superior em relação às do primeiro e segundo quartos, como, também, é significativa a diferença entre o quarto inferior e o terceiro. Para todos os quartos de desempenho, a alternativa modal para esta pergunta foi Médio, com 61,2% e 68,9% dos respondentes nos quartos extremos, primeiro e quarto, respectivamente.",
+  "text_sha256": "a9650de6ffd349580d3d8fc0f6f1d7f67183e6a7b4f0dc6b4afb2e9a68ecf7c8",
+  "window_size": 3
+}

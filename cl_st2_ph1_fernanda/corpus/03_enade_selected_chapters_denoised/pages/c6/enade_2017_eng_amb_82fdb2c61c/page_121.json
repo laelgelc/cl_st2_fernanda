@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c3c0a8361446cf6006af905b9052887d1abb2582d675f176e",
+    "usage": {
+      "input_tokens": 2984,
+      "input_tokens_details": {
+        "cache_write_tokens": 2981,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2981
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 320,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 3304
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_120.txt",
+      "source_sha256": "ec677472fa60cf7fce710400ffe58b858b8e5ebc0646279cd85f01e5872ecba1"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_122.txt",
+      "source_sha256": "b8a5f635bcd5f576902ccf4b4eadd4700824402273e005bfabff9d5c5ae0ce56"
+    }
+  ],
+  "created_at": "2026-11-15T01:07:04Z",
+  "duration_seconds": 4.141,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_121.txt",
+    "source_sha256": "f56b33a591c660a3488fb076e049173fddba749ca3b93cfffdbd2bab8b8f3901"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f22ec4d78fccb1a3a3ae823d31ed01b0087cbe38b630816f3551d3fa723ca7d4",
+  "request_fingerprint": "ebbd1df30f0a399b7d06e7cd5be02581b32312d07a2061c5b1675d2a6e81285a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removido material gráfico associado ao Gráfico 6.3; a linha de fonte após o texto foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 6.1 e 6.2, o Gráfico 6.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia Ambiental em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova como um todo e menor que o grupo modal para a Formação Geral.",
+  "text_sha256": "ca60458bb4a60f8252a9fca4c2b5bfb3b950b88655373a743825707beea66c69",
+  "window_size": 3
+}

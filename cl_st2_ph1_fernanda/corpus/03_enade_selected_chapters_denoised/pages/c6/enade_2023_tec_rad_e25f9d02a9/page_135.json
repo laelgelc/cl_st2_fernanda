@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c5594935889e867006af9254d0c0887d190728b2b450fb49d",
+    "usage": {
+      "input_tokens": 3110,
+      "input_tokens_details": {
+        "cache_write_tokens": 3107,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3107
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 3612
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_134.txt",
+      "source_sha256": "a72e809b4b1aa3044646a178aad8bacdff8d69978e9beab3709419fc2282a2de"
+    },
+    {
+      "page_number": 136,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_136.txt",
+      "source_sha256": "192997d42994448e0b85a95aa084101dfe33271096976d862cdfcc6cb9caff0a"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:48Z",
+  "duration_seconds": 5.011,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC RADIOLOGIA.pdf",
+    "page_number": 135
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_135.txt",
+    "source_sha256": "960653c59f3ba2706f30fbfec924a28644e4c874263d686fb77b324459a0d0c1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e337928abf4d2eb2cbd86c1f814dedae760dbade198fa74b80ab75a18716a92c",
+  "request_fingerprint": "a611005dbd47bf2b91680991f21987f87e594fe2b14aad594bf8cd51dfa9f03f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1, sua legenda e fonte.",
+    "Removidos a Tabela 5.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Tecnologia em Radiologia de todo o Brasil: uma distribuição unimodal com a moda no intervalo (40; 50].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (53,6) que a média das IES privadas (42,5). O desvio-padrão para",
+  "text_sha256": "b95c356e8d58ba498089b6f44deb443eb6e85d97d7640d639857918d0e0986a3",
+  "window_size": 3
+}

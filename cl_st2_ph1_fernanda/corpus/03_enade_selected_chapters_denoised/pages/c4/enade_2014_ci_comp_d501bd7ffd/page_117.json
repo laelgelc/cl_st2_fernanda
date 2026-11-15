@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1245e690197fab006af8f643c6e487d18eff15cb22e2380d",
+    "usage": {
+      "input_tokens": 1723,
+      "input_tokens_details": {
+        "cache_write_tokens": 1720,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1720
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 397,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 2120
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_116.txt",
+      "source_sha256": "a3d4e9927948684d40a248ac86984f83301705d1c15014aca2c36ab9c3095910"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_118.txt",
+      "source_sha256": "9e083fa83bb1c6e2bb626433cd5139f68b815250ed8fcb07d8b4f1dc0a6294ac"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:07Z",
+  "duration_seconds": 5.139,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_117.txt",
+    "source_sha256": "e43f55298741c9bd10d50cdd8014808f57af32d6186a4b165bccf6feb026f136"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1f4a505da422bb4f2f2cdd45bc3377797195d752ae23bf0bfa75c4bf1b779fa2",
+  "request_fingerprint": "8585a863dccdce843a3029d230811ecf988325253d360a1a5b0e25a5643a48da",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico no início da página; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos estudantes, nota-se ainda que 62,3% consideraram a extensão da prova adequada no quarto de desempenho inferior e 64,9% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 65,1% no segundo quarto e 65,0% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que não há uma tendência discernível na proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta entre os quartos.",
+  "text_sha256": "abd29f4c67c8c5a7f3136239bf4bb7f5ebc9cf982832c24d4aa639e1b6dc60de",
+  "window_size": 3
+}

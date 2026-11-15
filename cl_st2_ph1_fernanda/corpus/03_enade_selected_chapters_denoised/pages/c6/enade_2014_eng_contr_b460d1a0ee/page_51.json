@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0de5619eefd897ea006af8f825512087d1bc02b15b7e73b414",
+    "usage": {
+      "input_tokens": 2638,
+      "input_tokens_details": {
+        "cache_write_tokens": 2635,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2635
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 725,
+      "output_tokens_details": {
+        "reasoning_tokens": 374
+      },
+      "total_tokens": 3363
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_50.txt",
+      "source_sha256": "31aae3cb21274d743ecd96415fbfe94bf10db9e9b14afb99e754ac315e770a30"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_52.txt",
+      "source_sha256": "0f81747b4ac481264479010e40d6103dadecb23e9625fd15b84ecec0755d14a1"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:09Z",
+  "duration_seconds": 7.255,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_51.txt",
+    "source_sha256": "aaf9f2e3d0dc936fd043139da93888004367f46a7f77dd7ec7e609b6f18663a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "96b507f45949208a46bb2c57e05bf700306eea4922c12157bfa3947ab8b448ca",
+  "request_fingerprint": "efbf6aa966db41e3153f236061382f9a576b259c3a1e0eda57215667b1661ce6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, aparentemente pertencente ao Gráfico 3.4 iniciado na página anterior; conferir o limite do gráfico."
+  ],
+  "status": "success",
+  "text": "3.2.2 Componente de Conhecimento Específico\n\nA Tabela 3.9 apresenta as estatísticas básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Engenharia de Controle e Automação por Grande Região. A média do Brasil deste componente foi de 40,0. A menor média foi observada na região Sudeste (38,8), e a maior, na região Sul (48,3). O desvio padrão de todo o Brasil foi 15,8, sendo o menor desvio padrão encontrado na região Norte (14,0), e o maior, na região Centro-Oeste (16,9).\n\nA mediana de todo o Brasil foi 38,5, a mesma encontrada nas regiões Norte, Nordeste e Sudeste. Outras regiões apresentaram valores maiores para a mediana: 50,0 na região Sul e 42,3 na região Centro-Oeste. A nota máxima da prova foi 88,5, obtida nas questões objetivas do Componente de Conhecimento Específico, por, pelo menos, um estudante nas regiões Sudeste e Sul, e nas demais regiões, a nota máxima da prova foi: 84,6 nas regiões Norte e Centro-Oeste, e 76,9 na região Nordeste. Em todas as regiões a nota mínima foi zero, exceto nas regiões Nordeste e Centro-Oeste (7,7 em ambas).",
+  "text_sha256": "fedfc90eced1965046e41ef7da41e53ba5b698b071d7a0ec98710ca8d103a803",
+  "window_size": 3
+}

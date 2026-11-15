@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b426b80aa89d6a0006af9030bfbc487d1a8031f1a1af8314c",
+    "usage": {
+      "input_tokens": 2445,
+      "input_tokens_details": {
+        "cache_write_tokens": 2442,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2442
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 771,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 3216
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_82.txt",
+      "source_sha256": "e292f5ad6eb0a814b96bf0835294bbe4b084dd49774ed6601535e8e5ebb241f7"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_84.txt",
+      "source_sha256": "f97f6b446289aad69a2d28d1e758003dd9ce6b4d06176de2abad39e0bc91c218"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:39Z",
+  "duration_seconds": 6.861,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_83.txt",
+    "source_sha256": "384c113f5f3aaf406ce949b2c8398f17efc5355a46fae1a79d860131facab615"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8d4fe1a2c1470dfb28164d1611e89fab36de218effbd86e01b1e479ea7f65787",
+  "request_fingerprint": "aa8cf0b6c46b30ee868cf3b4b027789b599ecbb13eaecab2596e2d989a702873",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "item ‘a’. No item ‘b’, o aluno deveria ser capaz de apresentar três possíveis causas para esse aumento do Resto Ingestão verificado no item ‘a’. No item ‘c’, o aluno deveria ser capaz de descrever duas ações para promover a sustentabilidade social em um serviço de alimentação.\n\nA questão 4 pode ser considerada de média dificuldade, já que o tema resto ingestão costuma ser amplamente estudado nos cursos de graduação.\n\nNo entanto, no item ‘a’, alguns estudantes demonstraram não ter compreendido o enunciado da questão, o que resultou em interpretações diferentes da esperada pelo padrão de resposta. Isso ocorreu, sobretudo, pelo fato de o enunciado solicitar que o aluno calculasse o percentual de dias da semana em que o indicador resto ingestão apresentou resultados inaceitáveis, e o gráfico apresentar os valores no período de 20 dias.\n\nCom relação ao item ‘a’, o padrão de resposta apresentou flexibilidade atribuindo pontuação parcial quando o aluno era capaz de reconhecer no gráfico, apenas, o número de dias em que o índice resto ingestão encontrava-se acima do desejado. Com relação ao item ‘b’, o padrão de resposta apresentou, de maneira objetiva, onze possibilidades, com subdivisão adequada de pontuação. Com relação ao item ‘c’, o estudante deveria descrever duas ações para promover sustentabilidade social em um serviço de alimentação, e o padrão de resposta apresentava dez possibilidades em relação aos colaboradores, três em relação aos fornecedores, seis em relação aos clientes e duas em relação à comunidade em geral. Todas com justificativas bem objetivas e subdivisão adequada da pontuação, o que facilitou a padronização da correção.\n\nNo item ‘a’, ocorreram três tipos de situação que envolveram desde a incompreensão do enunciado até o erro na escolha do método de solução. O Item ‘a’ era o de menor complexidade na questão, que, na verdade, nem requeria um conhecimento específico de Nutrição para sua resolução, mas sim, noções básicas de matemática. No entanto, nesse item, os alunos deixaram de obter pontuação total ou parcial por três motivos básicos:\n\n(1) Erro no cálculo de regra de três simples. Eles identificaram corretamente os dados para o cálculo (7 dias de resto ingestão acima de 18g, no total de 20 dias), mas erraram as operações matemáticas, chegando a resultados como 3,5%...30,5%...\n(2) Erro na interpretação do gráfico, chegando a dados incorretos para a realização do cálculo (exemplo: identificaram que eram 6 dias de resto ingestão acima do valor máximo, no total de 20 dias).",
+  "text_sha256": "2cfc99a5519c354b9851abc3fecfa023b8f72dfbe8dfaf82bdfe716d83d922f6",
+  "window_size": 3
+}

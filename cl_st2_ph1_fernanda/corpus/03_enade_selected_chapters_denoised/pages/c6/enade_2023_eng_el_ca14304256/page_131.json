@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bcfb36141773622006af923006b2c87d1a8a6574e5d14ea72",
+    "usage": {
+      "input_tokens": 3151,
+      "input_tokens_details": {
+        "cache_write_tokens": 3148,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3148
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 368,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 3519
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_130.txt",
+      "source_sha256": "c07a29cb6d9328467b4abc017f8aca1b53b0a707a45314b3d133eef858338ce4"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_132.txt",
+      "source_sha256": "d32b732dca8cb708e7c6d6e8984ec2b97b0ec789bb9bdbc92f47f349b26d19ce"
+    }
+  ],
+  "created_at": "2026-11-15T03:12:00Z",
+  "duration_seconds": 3.961,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_131.txt",
+    "source_sha256": "614ab1c34a63963b59d29b3e288ff25bd7be34d9f33e10ea7e86d3106d0d9720"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8fbbefbee9ae0194c1fdd02f9e1a30b84ef9ce64f13c545e69fc35f47a74df90",
+  "request_fingerprint": "0e7b19d4627eaa0aa2d83952bdc97193c9cb5af67f3fa64195369f8bee642ca3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1, sua legenda/caption e a linha de fonte.",
+    "Removidos a Tabela 5.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Engenharia Elétrica de todo o Brasil: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES pública obtiveram média mais alta (45,5) que a média das IES privada (34,5). O desvio-padrão para as IES públicas foi de 11,9. Já o desvio-padrão da IES privadas foi 10,3.",
+  "text_sha256": "11e95e8076fdd25ecf5f107505a65e23c5793b717d9dbac5f2569e0f3318c183",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_068812b7f697933e006af8f207ccd487d1b98cc5ae7b343546",
+    "usage": {
+      "input_tokens": 2160,
+      "input_tokens_details": {
+        "cache_write_tokens": 2157,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2157
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2541
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_38.txt",
+      "source_sha256": "4213f75948638be11a78b3fdaf4e7cf13d5dbf20cb189a85e9d4f37ab67fedfc"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_40.txt",
+      "source_sha256": "2345ac3101c7564e6f6504c95742717c895a05f4cbdc5c34df79fb193ad02121"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:03Z",
+  "duration_seconds": 3.544,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_39.txt",
+    "source_sha256": "8e923c0bb430210ed57216ebd1b4a020caea457cd93ec3a291507a1495dc0918"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41cb037569aab7611393231889f34ecbd91e1bcecb2d096e260ff32ce180ccee",
+  "request_fingerprint": "0fd3d2f387de364c4e81c24f7e0914e4dfc93a12a60e84a88e94c1cdb2bfc4e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (30;40], mesmo intervalo modal da prova como um todo. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,9 para a nota da prova como um todo e 15,2 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é positivo e próximo de zero (0,02). Por ser um coeficiente pequeno, a distribuição é praticamente simétrica. Ao contrário das demais Grandes Regiões, os histogramas das regiões Norte e Sul possuem assimetria levemente negativa (respectivamente -0,01 e -0,03).",
+  "text_sha256": "47f2cca9b34330d71ae3749ab6105bd6aba8928b94fc83a3f7544776fceb2f8b",
+  "window_size": 3
+}

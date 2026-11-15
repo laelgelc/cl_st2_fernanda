@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b1f6bd26a40525006af909e7c3c487d19157949b04310c38",
+    "usage": {
+      "input_tokens": 2731,
+      "input_tokens_details": {
+        "cache_write_tokens": 2728,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2728
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 974,
+      "output_tokens_details": {
+        "reasoning_tokens": 576
+      },
+      "total_tokens": 3705
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 279,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_279.txt",
+      "source_sha256": "538d9e8e5d7fd792ed1c8207bb0d2088cd9352ba51a562b58e44c0437fd971aa"
+    },
+    {
+      "page_number": 281,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_281.txt",
+      "source_sha256": "9e395af66d0fa652fccb109308af04edeb1ad1e8175529bbd7a0179130117046"
+    }
+  ],
+  "created_at": "2026-11-15T01:24:55Z",
+  "duration_seconds": 9.904,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MATEMÁTICA.pdf",
+    "page_number": 280
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_280.txt",
+    "source_sha256": "97fa887f1756a7da596a8ad03edb6351ec15a02090f5b5d335bcbdbd87a4bfac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b5bd4c8ba1ce572dfcec3723589a2d4f1f51abcfa7f8b472d5acf2a4e669875b",
+  "request_fingerprint": "a83df607f47378db07ffa98d4c506bb98ed4c625450a07e695f9b5f180de1721",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line at the top of the target page, which appears to belong to the graph identified on the preceding context page.",
+    "Mathematical notation in the target appears corrupted in extraction (for example, “6 x  ” and “anel 6”); preserved as extracted.",
+    "The target ends with “determinando-”; the word continues on the following page, so it was not completed."
+  ],
+  "status": "success",
+  "text": "6.3.2.6 Comentários sobre as respostas à Questão Discursiva 5\nQuestão 5 – Bacharelado\nA questão se debruçava sobre o estudo de estruturas algébricas mais gerais (anéis/corpos), usualmente estudadas em disciplinas de álgebra abstrata. Os itens ‘a’ e ‘b’ abordavam resultados básicos e clássicos, e, por isso, suas demonstrações não deveriam oferecer dificuldades aos estudantes.\n\nDeve-se destacar que os itens ‘a’ e ‘b’ se relacionavam naturalmente com o enunciado da questão e, também, entre si. O item ‘c’, no entanto, ao solicitar a determinação das raízes de um polinômio em 6 x  , desconecta-se bastante do contexto matemático geral apresentado. Essa desconexão é reforçada pelo fato de que o anel 6 não é, sequer, um domínio de integridade. O objetivo do item ‘c’ pode ter sido trazer um exemplo de anel de polinômios (6 x  ) que não é fatorial, no qual um polinômio pode ter um número de raízes superior ao seu grau. No entanto, a Questão 3 da prova poderia ser resolvida determinando-",
+  "text_sha256": "44a3cdab367995527ef17bb2b6bb14beed7b1e94d45766a1478dceb1ac600f10",
+  "window_size": 3
+}

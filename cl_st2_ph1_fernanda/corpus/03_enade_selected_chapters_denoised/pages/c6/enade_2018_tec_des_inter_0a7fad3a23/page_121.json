@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b676c3eac6e5cb006af90e29c0f487d1972f330cd1470860",
+    "usage": {
+      "input_tokens": 3216,
+      "input_tokens_details": {
+        "cache_write_tokens": 3213,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3213
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1183,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 4399
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_120.txt",
+      "source_sha256": "23f93cd22f6a38a4ad11fe65fd2b23ad2a9bb721b2bae6dfd36ad5d37e380afb"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_122.txt",
+      "source_sha256": "15db7efbb5c91dc01b24744fad43db869a39dac5d052aee8b304bf969339051b"
+    }
+  ],
+  "created_at": "2026-11-15T01:43:05Z",
+  "duration_seconds": 7.797,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN DE INTERIORES.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_121.txt",
+    "source_sha256": "5c6c4643b7e2c9b9466de4f6825137028e13c4008b1dbddf180ef91dbd38aabf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e35a1c7e88033641a6d4f1b3fd8188b5d6ac00e3da9a05bff7abe5866391e39f",
+  "request_fingerprint": "a75ca2875be70dd373b988c8864d40f0e022b348314ddbe5d94fc8e16677ae0f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\nO Índice de Facilidade variou de 0,25 a 0,63, e o de Discriminação, de 0,42 a 0,49.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. Todas as questões que tiveram Índice de Discriminação Muito bom figuraram entre três níveis de dificuldade Fácil, Médio e Difícil: uma classificada na categoria Fácil (questão 2) do Índice de Facilidade, seis, na categoria Médio (questões 1, 3, 5, 6, 7, 8), e uma, na categoria Difícil (questão 4). Em particular, as questões 4 e 5 apresentaram o maior poder discriminatório, com índice 0,49, sendo a 4 considerada Difícil, e a 5, de grau Médio em termos de facilidade, com uma proporção de acertos de, respectivamente, 0,25 e 0,44. O máximo de acertos foi alcançado pela questão 2 com um Índice de Facilidade de 0,63. As demais questões, de grau Médio, apresentaram os seguintes Índice de Facilidade: questão 1, 0,46; questão 3, 0,48; questão 6, 0,43; questão 7, 0,51; e questão 8, 0,57.\n\nJá os índices de Discriminação foram Muito bom para todas as 8 questões, com valores variando de 0,42 a 0,49. A questão de número 4 apresentou um Índice de Facilidade de 0,25 (Difícil), ou seja, um quarto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Muito Bom (0,49).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 38,4% escolheram a alternativa C (em preto), 22,1% escolheram a alternativa E (em vermelho), 17,0% escolheram a alternativa D (em laranja), 13,2% escolheram a alternativa B (em verde), e 8,8%, a A (azul).\n\nDentre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria, obrigatoriamente, abaixo de cerca de 20% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria, obrigatoriamente, acima de 50%.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b7db574329dfa66a2138d7498c7646d68fcfc1bb95c025d8ab32f50948ccb609",
+  "window_size": 3
+}

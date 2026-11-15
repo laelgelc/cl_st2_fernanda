@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0716dc043702e70b006af8f498d28887d1882e3e98328665a9",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 2618,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2618
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 721,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 3342
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_82.txt",
+      "source_sha256": "fd5c9aa5fdfff4051f680d500b3c404960ba510e079cbc7d568e9cbf5fc7d343"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_84.txt",
+      "source_sha256": "3448b4a8b2c507070edcc5ff1bb79798f6848f8a107285fd245243ffc3399edf"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:00Z",
+  "duration_seconds": 5.881,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_83.txt",
+    "source_sha256": "48bb08596a48038dc18c45059e1c611934fb4fe67d3531243379b21495221403"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b12709ee34c4fba097681d44d50e1d8c7c0f0cec82f44045309b6ccbc8e1fe2a",
+  "request_fingerprint": "fda02e239fcef999abf5ca7e933a7a1e1bbb22292a843f841716de925cb58a24",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e linha de fonte.",
+    "Removido o material gráfico do Gráfico 3.22; a linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "3.3.2.5 Análise da Questão Discursiva 5 do Componente de Conhecimento Específico\n\nA Tabela 3.15 contém as informações relativas à questão 5 do conjunto do Componente de Conhecimento Específico. O desempenho dos estudantes nessa questão foi inferior ao da questão 3 e superior ao da questão 4. A nota média dos estudantes de todo o Brasil foi 14,7. A maior média foi registrada na região Sudeste (16,0), enquanto a menor média foi registrada na região Norte (12,3). Quanto à variabilidade das notas, o desvio padrão dos alunos do Brasil, como um todo, foi 16,7. Enquanto o maior desvio foi encontrado na região Nordeste (17,3), o menor foi encontrado na região Norte (15,5).\nA maior nota máxima foi alcançada na região Sudeste (80,0), enquanto a menor nota máxima foi obtida na região Norte (55,0). A mediana foi 10,0 para todas as regiões do Brasil, exceto para a região Norte (5,0). A nota mínima foi zero para todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Destaca-se, como na questão discursivas 4, o grande número de estudantes que fizeram esta questão e tiraram nota zero, correspondendo à moda da distribuição.\nO coeficiente de assimetria para todos os alunos é 0,94 e para todas as regiões se mantém positivo, variando entre 0,80 na região Sudeste e 1,12 na região Centro-Oeste.",
+  "text_sha256": "d78b8b557eb57b2bbee7bff446a56a0febd622cc6d2d5604f47b891655d552c2",
+  "window_size": 3
+}

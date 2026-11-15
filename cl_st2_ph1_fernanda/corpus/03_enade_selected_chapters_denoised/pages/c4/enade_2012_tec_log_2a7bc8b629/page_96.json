@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cef4a359d9ef065006af8f24aefa087d197e80bfa118b5717",
+    "usage": {
+      "input_tokens": 1558,
+      "input_tokens_details": {
+        "cache_write_tokens": 1555,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1555
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 2325
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_95.txt",
+      "source_sha256": "e74d76038762e27a6dd40aedf48171de781cdb09a62996ea64d7cdbdcf02c437"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_97.txt",
+      "source_sha256": "54406261446449559a0066d473ef6a1ec8e4d0a5728b701e57702fcb65458e3d"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:10Z",
+  "duration_seconds": 7.027,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_96.txt",
+    "source_sha256": "09135e07cccf34a117a9b1c240e84fefcbdb09bd6c623ff09b9cdb8b8af25877"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "de4f91022b9a239d26db26df61f0c5b31b92b9d513473bbfbb0786f0dc2f473e",
+  "request_fingerprint": "32033e596a2aa060ddb4057e11f6ce2948a54886a46e0fdd0e023d764dd4c128",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the standalone source line “Fonte: MEC/INEP/DAES - ENADE/2012”, which appears to belong to graph material; no graph or table data was present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "4.7 TEMPO GASTO PARA CONCLUIR A PROVA\nAo responderem sobre o tempo de conclusão da prova (Questão 9), mais da metade dos estudantes (67,3%) afirmou ter gasto entre duas e quatro horas (Gráfico 4.17, Gráfico 4.18 e, no Anexo II, a Tabela II.9).\nConsiderando-se as cinco Grandes Regiões brasileiras, apenas na região Sudeste (66,5%) o percentual dos que utilizaram entre duas e quatro horas para finalizar a prova foi inferior à média nacional (67,3%). As médias apresentadas não são estatisticamente diferentes, a exceção da diferença entre as regiões Sudeste e Sul. Entre as cinco Grandes Regiões, apenas na região Norte, o percentual de alunos que dispensaram entre duas e quatro horas para concluir a prova, superou 70%, como mostra o Gráfico 4.17.",
+  "text_sha256": "359b0d595c23182aabee5272d12e9dff3c8b4828ded69d02a50058b55ad41b9b",
+  "window_size": 3
+}

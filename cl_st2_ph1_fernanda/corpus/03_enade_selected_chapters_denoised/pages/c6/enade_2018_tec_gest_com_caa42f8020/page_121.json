@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05654acf2c7b083f006af90ede5cec87d1ab9b1313f5bebc3a",
+    "usage": {
+      "input_tokens": 3022,
+      "input_tokens_details": {
+        "cache_write_tokens": 3019,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3019
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 349,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 3371
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_120.txt",
+      "source_sha256": "7eb0d4efd4bdb7a6b51bebc7ed915acfbebdff0c1785ce8f068482b7985561d0"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_122.txt",
+      "source_sha256": "40e6e2fae0ce7c6f58d7d1625e1e162b352214230da301bc5133d1214672c6b7"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:06Z",
+  "duration_seconds": 4.003,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO COMERCIAL.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_121.txt",
+    "source_sha256": "ce9cfefe4a6d9c5ce16e20fad5ade28a1868a2f454bc033d762250468e71f081"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6d92a1538b2b2f39683ee33450c063182e4862f9612b50a3f4c7c5033f335363",
+  "request_fingerprint": "645f22ca1647e88dfaf303aa5ffd4f5191e74bda3f2e70fb2dbcc85a8948e556",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.3; o gráfico e seus elementos foram excluídos."
+  ],
+  "status": "success",
+  "text": "Assim como nos Gráficos 6.1 e 6.2, no Gráfico 6.3, apresentado a seguir, é possível ser feita uma avaliação do desempenho de concluintes de Tecnologia em Gestão Comercial, em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova como um todo, e do Componente de Formação Geral.",
+  "text_sha256": "a440fd8f619f51248c03ffa6716d07b38a6fa4a384d7ca78f9e4d8c7d32ab4b6",
+  "window_size": 3
+}

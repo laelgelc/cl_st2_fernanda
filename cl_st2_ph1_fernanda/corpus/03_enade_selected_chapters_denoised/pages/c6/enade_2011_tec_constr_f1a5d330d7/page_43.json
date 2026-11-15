@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a41342d65910c5006af8ef374b6087d18c37ab11f5a783ce",
+    "usage": {
+      "input_tokens": 1433,
+      "input_tokens_details": {
+        "cache_write_tokens": 1430,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1430
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1657
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_42.txt",
+      "source_sha256": "ddbb9d51c53a7e939ff480960bbdbf280b257753555e59130e61643751a4ec82"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_44.txt",
+      "source_sha256": "aa169b85e3d43e77ab90ba174775db2a9330f1308be81c17e9c77bdf835da13e"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:03Z",
+  "duration_seconds": 3.803,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_43.txt",
+    "source_sha256": "1ce6861b180b876b7a3b7ba74783a06831c8ace81292c2a33af86264a61a41fc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "64e09397c25c03a513e968cba33aa54fc8aff056cc54d501b4464847f6dbd74d",
+  "request_fingerprint": "92bc048414e9be30b5b29e83cd755c08f07ed910414305230fcbc2077d8b6565",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico do Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que não há diferença estatisticamente significativa entre as médias dos alunos de Universidades (52,9) e Faculdades (53,4).",
+  "text_sha256": "3bf74664768e2f132159a459ea9a465c4c6ed6d5d35703bb6fc917f16dabc708",
+  "window_size": 3
+}

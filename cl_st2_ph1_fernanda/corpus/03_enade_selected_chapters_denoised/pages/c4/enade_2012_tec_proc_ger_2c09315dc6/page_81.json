@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0446f58755c8c8bc006af8f290fdcc87d197df8ec80002335e",
+    "usage": {
+      "input_tokens": 1700,
+      "input_tokens_details": {
+        "cache_write_tokens": 1697,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1697
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 449,
+      "output_tokens_details": {
+        "reasoning_tokens": 275
+      },
+      "total_tokens": 2149
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_80.txt",
+      "source_sha256": "6cefd3549a8d7aa640606301358b1373fd96a551540af0d7bb2f184c162b7843"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_82.txt",
+      "source_sha256": "050f46773721cc9961aa9592b56c2f6a88a6326ad1b6cd4526846fb0a0e3128a"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:20Z",
+  "duration_seconds": 4.761,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_81.txt",
+    "source_sha256": "db44a16c5a50601d175b0885e7c98b1bc9881733fdaafa886d3135e9af3a2e17"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4be1798eef874f48690344f38257ecaef924cc48c1da2301091eb6115ea8bd58",
+  "request_fingerprint": "19b00148dad4ebf160fa178f73b30f30f818e52d9f8271214709220c7520a1a5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que parece pertencer a material gráfico; o gráfico correspondente não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 39,9% (4º quarto) a 41,0% (2º quarto). Já a alternativa modal para a Questão 2 foi o grau médio, com 53,3% do quarto inferior e 55,7% do superior optando por esta resposta.",
+  "text_sha256": "92f12c95a252c59e15a3c7dda94b091681e3529fdad9c87ebdfb2a6dfd8a2deb",
+  "window_size": 3
+}

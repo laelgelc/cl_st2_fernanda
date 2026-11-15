@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03fffc7640b9ead6006af8fb71346c87d18a0b0cc4484bf915",
+    "usage": {
+      "input_tokens": 1710,
+      "input_tokens_details": {
+        "cache_write_tokens": 1707,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1707
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 291,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2001
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_105.txt",
+      "source_sha256": "57b41ae2167856a35c0eb118de9208966f4d0ddb01d792a8257f006b9c35c14f"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_107.txt",
+      "source_sha256": "a1bb805efbe31b9e8c16a4f337a0d230ad5823233c4dc48f2788d085623b57f0"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:13Z",
+  "duration_seconds": 3.596,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_106.txt",
+    "source_sha256": "2bb034affe8873760380f713edf7ccb045d403ad70a4f687c0b892a18b36f522"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f2b86a8e6dab09803ff8aee4e7e45ace2217373a1b5fc65b8e8b3a420a1fbb87",
+  "request_fingerprint": "ad8b96867aa05472467313b391e5a70012cb0e9bfa049e5c2e0b956b54d1af83",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 36,2% consideraram a extensão da prova adequada no quarto de desempenho inferior e 40,4% no de melhor desempenho (quarto superior), valores crescentes com o desempenho. Nos quartos intermediários, esta proporção foi 35,5% no segundo quarto e 38,0% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar para os que consideraram a prova longa ou muito longa em função dos quartos de desempenho que não há um padrão discernível. Observa-se também que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta entre os quartos.",
+  "text_sha256": "f55b70abf528cca4423516b060f8bdf6f62ebe89f0b5b51a3895a7707938fad8",
+  "window_size": 3
+}

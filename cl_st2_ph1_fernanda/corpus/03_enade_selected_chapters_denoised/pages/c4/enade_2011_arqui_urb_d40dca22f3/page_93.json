@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07eb5f5ab2487475006af8eab06a2887d1b70fed09dc04e816",
+    "usage": {
+      "input_tokens": 1355,
+      "input_tokens_details": {
+        "cache_write_tokens": 1352,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1352
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 285
+      },
+      "total_tokens": 1776
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_92.txt",
+      "source_sha256": "de9f3218ddb5282d07f58a294b4536a5688338a17a151a70cb75791d7cc9189b"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_94.txt",
+      "source_sha256": "7c604916b89040523b1e3a86f5ecb63847fcfe4e5547b915569cf76870358b0b"
+    }
+  ],
+  "created_at": "2026-11-14T23:11:44Z",
+  "duration_seconds": 5.904,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_93.txt",
+    "source_sha256": "4ea539523ac8208be2cfa3d682410fd80e9b8623d264f21f8ff3278ee1d6954b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b7d16f62dc01fac1b31560d6a8a99275cdc2fdf033a082a3e14f2d5d43a2f6a6",
+  "request_fingerprint": "e0cfe8f145fa797929c01ec1179566f82d72f17fb156de59730fae7b40a395e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como fonte associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 77,5% e 45,6%. As diferenças entre os quarto quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "4777d962c46ec8a08d9d6abe31fd6acc2c2636c7e0a9362837497b145f81dc24",
+  "window_size": 3
+}

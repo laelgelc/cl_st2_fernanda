@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f5990d1e21bd8e0006af923089ba887d195008e08792eb254",
+    "usage": {
+      "input_tokens": 2599,
+      "input_tokens_details": {
+        "cache_write_tokens": 2596,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2596
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 564,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 3163
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_144.txt",
+      "source_sha256": "3de2f63c63110b5fd5dee20de7c4242bbccd6ca6386ae90b0fd820bf97bd79f3"
+    },
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_146.txt",
+      "source_sha256": "5d8b5d4c9ccd07a06177e77de632bb11e79f201365fada9179e43c314689d698"
+    }
+  ],
+  "created_at": "2026-11-15T03:12:08Z",
+  "duration_seconds": 5.482,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 145
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_el/enade_2023_eng_el_page_145.txt",
+    "source_sha256": "7666d461f29b68e81d3012eb57d7c1fbbd4e78b76cfd1de582f9ddb663501293"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3994d75fbb192ff04396222b5e7dfeab316a6bd8564f46a88fe9b4ebf66eb0d9",
+  "request_fingerprint": "a63808987f33d6711dc20bca1a62470a511676202a05553bf1311ce3d8ba56ab",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "marcação. A proporção de estudantes que selecionaram a resposta correta C aumenta gradativamente, chegando a atingir 100% para 20 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de sete acertos, em função do número de acertos nessa parte da prova. Os gráficos relativos às demais questões do componente de Conhecimento Específico constam no Anexo IV.\n\n5.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (5.3.1) e de Conhecimento Específico (5.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. Após a digitalização, as respostas passam por um pré-processamento de identificação automático. Algumas dessas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que, na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado nesse pré-processamento consiste em verificar, para cada questão, a partir da quantidade de pixels, o que, provavelmente, é uma resposta em branco. A partir da separação, os documentos que foram considerados em branco são enviados para uma verificação visual, feita por uma equipe de colaboradores devidamente capacitados. Desse modo, qualquer erro, presente no pré-processamento, é encontrado, e as questões preenchidas são enviadas para a correção dos avaliadores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Essas são enviadas para a correção, mas são classificadas como “branco” pelos avaliadores, no momento da correção.",
+  "text_sha256": "6904bc1bba13997af1e86f49b7eb1f98adbc73458a3686b8d37453a900a59ac6",
+  "window_size": 3
+}

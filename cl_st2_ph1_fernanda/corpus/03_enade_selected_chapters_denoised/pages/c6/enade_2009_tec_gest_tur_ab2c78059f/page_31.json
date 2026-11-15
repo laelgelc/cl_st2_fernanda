@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a5b7fd41ea2faab006af8e7d1318887d1be39bba42955829a",
+    "usage": {
+      "input_tokens": 2383,
+      "input_tokens_details": {
+        "cache_write_tokens": 2380,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2380
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 2694
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_30.txt",
+      "source_sha256": "669986ab56bc4da93ba300a21d576ae72dfffb61302bec67e93d3611a42bf271"
+    },
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_32.txt",
+      "source_sha256": "fcc49543c45a8094ec8de44efb317f6114e4b8bbd0499fd3c4b404e4947b8e87"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:29Z",
+  "duration_seconds": 3.721,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM TURISMO.pdf",
+    "page_number": 31
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_tur/enade_2009_tec_gest_tur_page_31.txt",
+    "source_sha256": "e678c2736ffd95d2469eb6de851f8aa22d5617ec8b546adc0384fb6caf472b35"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b9772dc28fbd9388852d66558a39b646651e66e3366acfc4320ef8f42397440",
+  "request_fingerprint": "a2edaf0c337a5ae933a13e8d33135552ed6add2e97c17fc8072a52f12773207b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1, incluindo título, eixos, intervalos, rótulos de grupos e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A idéia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 60,2 entre os concluintes e 54,6 entre os ingressantes. Nas faixas de notas até 60 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 60 pontos. Ainda assim, aproximadamente 60,6% dos ingressantes situaram-se nas faixas de notas superiores a 50,0 pontos, por oposição a 74,9% dos concluintes.",
+  "text_sha256": "ae352c976d864fe7a066aac44138870dd430fa42ac49053649e3cf841d11406f",
+  "window_size": 3
+}

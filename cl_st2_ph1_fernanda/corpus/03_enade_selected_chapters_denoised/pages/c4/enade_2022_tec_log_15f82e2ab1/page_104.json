@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01fc459a575c6079006af920065c9887d196343b0e53597664",
+    "usage": {
+      "input_tokens": 1703,
+      "input_tokens_details": {
+        "cache_write_tokens": 1700,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1700
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 219,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 1922
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_log/enade_2022_tec_log_page_103.txt",
+      "source_sha256": "c2872f56705b404c73887667dbb0baa2905f70b228f8af900ca42a0da80d75d9"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_log/enade_2022_tec_log_page_105.txt",
+      "source_sha256": "122d0c0c3972d567c9aef2860684e3a63cf935877f73acd970ff0951e531e519"
+    }
+  ],
+  "created_at": "2026-11-15T02:59:18Z",
+  "duration_seconds": 2.665,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM LOGÍSTICA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_log/enade_2022_tec_log_page_104.txt",
+    "source_sha256": "024b2eb1b7aaff563f2e22160ff0444b61301fdca768d34979c11befd6eba621"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "21e28089da0ce706c3cb511bfc4b169fc0df8073f2ee4910b08f9e2705e26b61",
+  "request_fingerprint": "03ac548990e4402e3bee563084c09d02762dec8ac586d83e0d99a2514bf08cb5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.10, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.10 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nNo Gráfico 5.10, observa-se que a proporção de estudantes que consideraram a prova longa ou muito longa foi menor no 4º quarto de desempenho (24,3%), e maior, no 1º quarto (33,4%), indicando um decréscimo de estudantes que consideraram a prova longa, com o aumento do desempenho.",
+  "text_sha256": "2564fafaddf6271b58cc20b5b060e171bf895df65683cbf6156d67884338d150",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06556005b3a4099a006af8fcd75bb087d1a2088902f8803277",
+    "usage": {
+      "input_tokens": 2239,
+      "input_tokens_details": {
+        "cache_write_tokens": 2236,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2236
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 252,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 2491
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_81.txt",
+      "source_sha256": "7745c1d4ae183c57d5f3bb2fd6104b550c86bf452c70975109a89984e8a593bc"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_83.txt",
+      "source_sha256": "0b482dee992d33d44b712a84844db2d8bc9fec79eb52324afcd883723056c0ff"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:11Z",
+  "duration_seconds": 3.416,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_82.txt",
+    "source_sha256": "052f3f8d631270776e6ad4f130f8b1ea5baa0177230398202e7c8e55320094a9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb198a51109cb22b09bb39adc6c9db2d27bd07b3467750e319ebd6cf90b8c015",
+  "request_fingerprint": "507a6f00bce3d94bb843097deb60c5c8ff86272d0336a4f19070166e6553a69f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.16, incluindo título, dados e fonte, e o Gráfico 3.11, incluindo sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da Área de Tecnologia em Redes de Computadores. Sem levar em consideração que quase 50% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda nas notas 0,0.",
+  "text_sha256": "a24577ca2178f19e7c9437672281c69409fc4d3a5a549c4059705974d38291bb",
+  "window_size": 3
+}

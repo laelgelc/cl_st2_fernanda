@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000119affa90298b006af923887f9487d1a40701d6fa55cc83",
+    "usage": {
+      "input_tokens": 2881,
+      "input_tokens_details": {
+        "cache_write_tokens": 2878,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2878
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 563,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3444
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_143.txt",
+      "source_sha256": "368c2f9d8137983b117dcfc415ab84cebb50ce912edaf057f9129c3a992c24c8"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_145.txt",
+      "source_sha256": "3264d79aadb749680ad12ec93395489acfb5c3788d9064ea424b5994f9777ffe"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:16Z",
+  "duration_seconds": 7.045,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FARMÁCIA.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_144.txt",
+    "source_sha256": "d586c4ae503e015e749fc680fc2c751d1d16ff5dbeeebe5d869a17251055a55c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "84f41122d32cb5d930f9ad477d16c03bf18710d3d39c8f4f04cef39ba951d9b1",
+  "request_fingerprint": "0f2217c9dc0051efd9cb8b70c82331d6c2c9b6255b72bc2a74a527df7bcab25d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 5.6, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.13, observa-se que os estudantes de todo o Brasil obtiveram, em Formação Geral, média de 42,8 nas questões discursivas. Pode-se notar, também, que o desvio-padrão nesse conjunto de questões foi de 24,6. A maior média foi obtida na região Sudeste (44,2), e a menor, na região Norte (38,7).\nA mediana de todo o Brasil, neste componente, foi 43,1 e, na região Sudeste (44,6), foi encontrada a maior mediana. A nota máxima (100,0) foi obtida em todas as regiões (Centro-Oeste, Nordeste, Norte, Sudeste e Sul). A nota mínima (0,0) foi a mesma em todas as regiões do Brasil.\nNo Gráfico 5.6, está representada a distribuição das notas na questão discursiva do componente de Formação Geral.",
+  "text_sha256": "2e3c1aa95928fa350654c765d5449afe0a4781037a00122437e618eab421bfb3",
+  "window_size": 3
+}

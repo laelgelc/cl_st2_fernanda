@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1bc093e5594e3f006af90418923087d1b76eae8f6f688b05",
+    "usage": {
+      "input_tokens": 2459,
+      "input_tokens_details": {
+        "cache_write_tokens": 2456,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2456
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 2819
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_81.txt",
+      "source_sha256": "776d97842d95375ea0595a074b9da765e74470303fef58da3b3502363f9d1573"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_83.txt",
+      "source_sha256": "3016871d7b954cc7559d6d697b42d4b35fc977774545add2d1859775990700e8"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:08Z",
+  "duration_seconds": 4.311,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_82.txt",
+    "source_sha256": "1e992129aabf22a43ae6af8fd5947582abb4d8c9d361b1c890b230dc105b972c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ae458475f7c9f2091945c2e67fbd13b85b4c7097ec7a55abc6265628a1aa97c7",
+  "request_fingerprint": "b3c83be20eb51cf53668a32532e61b80cd9c3e2dffd8be2f4fde74d85ec73794",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.19, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (90; 100], evidenciando ter sido uma questão fácil para os participantes. No entanto, o percentual de alunos que deixaram a questão em branco ou tiraram nota zero chega a 20% do total.",
+  "text_sha256": "40b28e5e821a05be5b1ca71c9bf4a7484676aa45cc1fe3ff8fbc0ac6107d795b",
+  "window_size": 3
+}

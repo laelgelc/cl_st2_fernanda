@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f80618f66f825ca006af92300302887d185726e0a271c2dbc",
+    "usage": {
+      "input_tokens": 1777,
+      "input_tokens_details": {
+        "cache_write_tokens": 1774,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1774
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 356,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 2133
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_el/enade_2023_eng_el_page_127.txt",
+      "source_sha256": "ebe66fd5f98301fdb130bd266623b737dea667e370c3ac2b70189484e42e7135"
+    }
+  ],
+  "created_at": "2026-11-15T03:12:00Z",
+  "duration_seconds": 3.399,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_el/enade_2023_eng_el_page_128.txt",
+    "source_sha256": "5b817673d8e82426f8872ce3c5dda2647bfe11c22aff50414a057aaf90ec6b2f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "690c01fe4c49ff07f10c492191c3d4f0af9226eb4c94f675a23b35dab5c68cfd",
+  "request_fingerprint": "36edb4e5727a1813b2835c2ca331ac2964664ad503cbee51ff7268fbede2c65a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.3, seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante à dos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de CEFET/IF apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por faculdade (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por universidades (linha azul) e centros universitários (linha verde) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "ad49d8abcbc4af670d29337f139223f2bdca426f68e4e263a00707af9b0581e4",
+  "window_size": 3
+}

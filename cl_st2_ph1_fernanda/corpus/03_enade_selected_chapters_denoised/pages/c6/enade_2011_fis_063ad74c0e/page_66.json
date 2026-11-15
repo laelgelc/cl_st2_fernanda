@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001d13169e29bddf006af8ed64c62487d18cb215b94d952509",
+    "usage": {
+      "input_tokens": 2605,
+      "input_tokens_details": {
+        "cache_write_tokens": 2602,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2602
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 376,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 2981
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_65.txt",
+      "source_sha256": "1912c6194e0fb3b5e9222561e1c31b6c899fe26075d40973e1f8b63d775d1b02"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_67.txt",
+      "source_sha256": "17f414c0ac19c29f77b21905173981545b333bb67a3a9a0d6e88795beb348f39"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:16Z",
+  "duration_seconds": 4.536,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_66.txt",
+    "source_sha256": "de1c78cd344d4cabf9d87cb0089a37c033c0e0b957edbdc28023cf2a52a67001"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "06ad45171107e835fe0dcf1053b3f9a979130c85b46d54917f73559ed3d34fa6",
+  "request_fingerprint": "8165644ffb15eb5e6e17837030555df3a596b1d401eb06a38a648520e8a88e6b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.17 e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”)."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.17 mostra a distribuição das notas na questão discursiva 1 do componente de Formação Geral para alunos do Bacharelado e da Licenciatura. Observa-se que a maior frequência para os alunos de Bacharelado corresponde aos alunos que deixaram essa questão em branco. Para os alunos da Licenciatura a moda ocorre no intervalo (90;100], apesar de também observar-se que na categoria “em branco” se encontra a segunda maior concentração da distribuição das notas.\n\nO coeficiente de assimetria é negativo e muito próximo de zero para a habilitação em Licenciatura (–0,08), enquanto é positivo para o Bacharelado (0,28). Para a Licenciatura, os coeficientes de assimetria por região são negativos, com exceção da região Nordeste. No entanto, todos são próximos de zero. Para o Bacharelado os coeficientes são positivos e variam de 0,05 a 0,47 por região, sendo negativo apenas para a região Centro-Oeste (–0,58).",
+  "text_sha256": "d4600781291e4a9af1a4e0ef95e5a1015c487ddf860a5cddb29143a74348387a",
+  "window_size": 3
+}

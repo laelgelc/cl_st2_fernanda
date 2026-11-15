@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02f25f30b4a98915006af902bcd41c87d1abe7e1dd97be23ce",
+    "usage": {
+      "input_tokens": 1805,
+      "input_tokens_details": {
+        "cache_write_tokens": 1802,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1802
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 2116
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_100.txt",
+      "source_sha256": "6b3777c212afea9161929bbca0e476864010f2d4408dd073b2b20121d74e3712"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_102.txt",
+      "source_sha256": "1d91954a912befbac756072a3d9c0dc2482ebc3d644e52066617b5f8908c2e04"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:20Z",
+  "duration_seconds": 3.486,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_101.txt",
+    "source_sha256": "8e8c38d9969c384e590266229ce2b7a1065274756414b8adbd413b5325dad93a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3a606f23234a7c7cec26bc0178c363f4246a78b09abae355498ae52f9cfb300f",
+  "request_fingerprint": "dfb592f56cb76473e327c1504e466562d873fcd446104eedc7d1d6190c0c7125",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.5."
+  ],
+  "status": "success",
+  "text": "12,3%, na região Centro-Oeste, até 24,4%, na região Nordeste. A diferença entre a região Centro-Oeste e as demais é estatisticamente significativa.\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 69,2% consideraram a extensão da prova adequada no quarto de desempenho inferior e 72,9% no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi 72,2% no segundo quarto e 72,5% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se diferença estatisticamente significativa entre as proporções de escolha dessa resposta no primeiro e nos demais quartos.",
+  "text_sha256": "c559dbd65ac5d08ead8a9bd07d3d83e63cc387c2f6bace8b900a54fcb79b2527",
+  "window_size": 3
+}

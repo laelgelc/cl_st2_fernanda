@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aa655af95d74a6d006af8fd898e1087d1bac70ed1a95e2f4a",
+    "usage": {
+      "input_tokens": 3001,
+      "input_tokens_details": {
+        "cache_write_tokens": 2998,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2998
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 964,
+      "output_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "total_tokens": 3965
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_50.txt",
+      "source_sha256": "ca6b4973513d0a92802966e001723e6656389ea4472c6619ad57d3c40de78730"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_52.txt",
+      "source_sha256": "b249b031854fce03361b4fe18a44755534a0e002fa0885873218c9587baa1312"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:09Z",
+  "duration_seconds": 9.53,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_51.txt",
+    "source_sha256": "7e554ed503697295899946d5583a259f6c628d6e41556253eb506038b9d60f6b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "12895457fcb5c2a7b29fd2d56c598ca063f9a4215dd9989846c934d5a63cfcb2",
+  "request_fingerprint": "c977232760e60b9bcf93d47fc994eab1834f36fab877fb9ccc59a043c21a5319",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil. Duas questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Quatro questões foram consideradas de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto duas questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto-bisserial).",
+  "text_sha256": "2a77441988a5b66af2a93b7ae1fa838375a6600e9c596a16303281e0ccd6797b",
+  "window_size": 3
+}

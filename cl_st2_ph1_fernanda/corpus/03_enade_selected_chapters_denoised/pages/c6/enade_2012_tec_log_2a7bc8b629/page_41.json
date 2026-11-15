@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0390bf038ddd6ac9006af8f254606487d18bd8b545bfb636bc",
+    "usage": {
+      "input_tokens": 1427,
+      "input_tokens_details": {
+        "cache_write_tokens": 1424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 1871
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_40.txt",
+      "source_sha256": "dccfdc75c08c382902a8958e8d5d0177fa11ee248679d350d62e59860bfafa70"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_42.txt",
+      "source_sha256": "962eb36c757ddbf9f310cbf4f463cbc629ed5a5e7f4318a8e421557f1e0a3ca6"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:20Z",
+  "duration_seconds": 4.79,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_41.txt",
+    "source_sha256": "ec8f7c27246ce21273935e2bd99dbf976e99fbdc913896cf6be740802cf01251"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b82449b76618a1c7496a081e5b4907d2d7e7e7483d602b956f8109aecaac0d56",
+  "request_fingerprint": "22c5e488b8bff57f4d0965b27f0a97aa69eb2705227dda6dc7f7212d1243625c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Tecnologia em Logística das IES Públicas (46,3) obtiveram uma média maior do que os das IES Privadas (39,9).",
+  "text_sha256": "0bb97fb8af91740a0e31fb205709bf70dfb18b1d839514a111e4175a91bfa831",
+  "window_size": 3
+}

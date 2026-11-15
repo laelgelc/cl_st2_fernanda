@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b6f541791e399a3006af911238d6087d1b27c036c987e0308",
+    "usage": {
+      "input_tokens": 2687,
+      "input_tokens_details": {
+        "cache_write_tokens": 2684,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2684
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 700,
+      "output_tokens_details": {
+        "reasoning_tokens": 415
+      },
+      "total_tokens": 3387
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_149.txt",
+      "source_sha256": "a10ab19a6240d79b3d5948ea94e9241adcf8aad7297152565a069cee73ddc18b"
+    },
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_151.txt",
+      "source_sha256": "719e903bc361110ca75723d708c660f23551d13594e026c8b6897e5870faff28"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:47Z",
+  "duration_seconds": 6.62,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 150
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_150.txt",
+    "source_sha256": "11bb69e7e2b523eb643c30e1c316a7111879c793c7fb664470d1e08c8b2d7e6e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "310538100adfccb224ac73f003a6d0103daff45ef4f4b7b2c73d04f1cd15f220",
+  "request_fingerprint": "5639c2a805c780ae5d444b70587282948fe876a8eca15ae8d561ca420872553c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/Inep/Daes source line associated with graph material on the page."
+  ],
+  "status": "success",
+  "text": "Os gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.\n\n6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores,",
+  "text_sha256": "b66f132aed4809f68c9a515de71244e526274b0a5492c904f853ad7d312c9e39",
+  "window_size": 3
+}

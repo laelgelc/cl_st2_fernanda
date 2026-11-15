@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_095f6c9e8b36dd5c006af916551d6487d180797dd4e063e4a8",
+    "usage": {
+      "input_tokens": 3276,
+      "input_tokens_details": {
+        "cache_write_tokens": 3273,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3273
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1881,
+      "output_tokens_details": {
+        "reasoning_tokens": 786
+      },
+      "total_tokens": 5157
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 156,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_156.txt",
+      "source_sha256": "e1beb13adae1c091cb49c2da03884720f9c7b6145b9708ea61667cc5250ab1e2"
+    },
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_158.txt",
+      "source_sha256": "330a00f0e04da1936dd883a111d290ad8b1b8545ce07b46b04209411272149af"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:57Z",
+  "duration_seconds": 16.48,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 157
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_157.txt",
+    "source_sha256": "15cd30dba58021a2f2fb280a660817c67295ee27316f67bc30869db58cac528f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e7525a2efcc8e6c0e0c1d6e56990c1d6c659ab5ec44e0410373eed964c64579e",
+  "request_fingerprint": "858841ab8c4ad61ce01890c59ae5869108a4f7c203a8c3c441533de30869f50b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte.",
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil ou Fácil, por não apresentar índice de acertos igual ou superior 0,61. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo fechado de 0,42 a 0,52 do Índice de Facilidade, ou seja, houve de 42,0% a 52,0% de acertos, enquanto duas questões foram classificadas na categoria Difícil com índice igual a 0,34, para ambas. Uma questão apresentou 9% de acertos, razão pela qual a questão foi classificada como Muito difícil.\nO Índice de Facilidade variou de 0,09 a 0,52 e o de Discriminação, de 0,22 a 0,52. A maioria das questões, quanto ao Índice de Discriminação, foi tida como Muito bom. Uma outra questão foi tida como Bom e outra como Médio.\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As cinco questões que tiveram Índice de Discriminação Muito bom figuraram em dois níveis de dificuldade Médio e Difícil: uma classificada na categoria Difícil (a questão 4) do Índice de Facilidade e quatro, na categoria Médio (questões 2, 3, 7 e 8). Em particular, a questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,52, e foi considerada Médio em termos de Facilidade, com uma proporção de 0,52 acertos. A questão 7 também apresentou o Índice de Facilidade mais elevado entre as questões objetivas do Componente de Formação Geral: 52% dos estudantes acertaram essa questão. As questões 4 e 6 foram consideradas Difícil, com Índice de Facilidade 0,34, para ambas. Os Índices de Discriminação foram Bom e Muito bom para as duas questões (0,38 e 0,47, respectivamente).\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio pelo Índice de Facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 19,4% escolheram a alternativa E (em vermelho), 11,3% escolheram a alternativa D (em laranja), 33,1% escolheram a alternativa B (em verde, gabarito), 8,1% escolheram a alternativa A (em azul)., e 28,2%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, nenhum estudante deixou a questão em branco ou marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com seis acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso",
+  "text_sha256": "73bb7dc0d0162180877c61382ce03778e1f0b23476ed677050622dfc95228db8",
+  "window_size": 3
+}

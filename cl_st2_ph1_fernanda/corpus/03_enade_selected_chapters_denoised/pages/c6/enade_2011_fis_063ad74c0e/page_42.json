@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0543e3aa8f87258f006af8ed56e02087d1b12abfae2a460975",
+    "usage": {
+      "input_tokens": 2291,
+      "input_tokens_details": {
+        "cache_write_tokens": 2288,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2288
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 758,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 3049
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_41.txt",
+      "source_sha256": "8bb7201fa9ded03f203cb6cd93c78c9523f53ee889f6e285fb18a4a6dcf73938"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_43.txt",
+      "source_sha256": "2c75801bc64482e9b838540ed3d88a93600fe4c64ac5dde0f8fdc53b4576e4da"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:02Z",
+  "duration_seconds": 8.145,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_42.txt",
+    "source_sha256": "e53ea9856fc61ea7ae72ecde5397de0e18e82e515f3cb1029b91651cf7e1e394"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "00709b1ca9fb21b4fce2d4c166ab37dd29a5a5f33c13d62331704f93b2d6b232",
+  "request_fingerprint": "2ff7862f2c276ab4d0f89dd05865e43754d8dc5a140501f8026eaf75f85c6f0e",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.2, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "A maior nota no componente de Formação Geral da prova do ENADE foi 100,0, obtida por pelo menos um aluno da região Norte, enquanto a menor nota máxima foi obtida na região Sul (90,5). Nas outras regiões as notas máximas foram: 91,5 na região Nordeste, 94,0 na região Sudeste; e 99,0 na região Centro-Oeste. A mediana do Brasil como um todo foi 50,0, sendo a menor mediana encontrada na região Nordeste (49,0), e a maior encontrada na região Centro-Oeste (55,5). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes ao Bacharelado e à Licenciatura. Na distribuição de notas dos alunos de Licenciatura a moda é dividida em dois intervalos contíguos, (40;50] e (50;60]. Existe também um modesto máximo local no primeiro grupo de notas, [0; 10]. A distribuição das notas dos estudantes do Bacharelado tem pontos de máximo nos intervalos [0;10] e (50;60]. O máximo local no primeiro grupo compreende mais de 15% dos alunos de bacharelado. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 15,1 para a nota da prova como um todo e 21,4 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (–0,52). Desagregando por habilitação observa-se que o coeficiente da distribuição dos concluintes da Licenciatura (–0,53) tem maior valor absoluto do que o do Bacharelado (–0,33), o que indica uma assimetria à esquerda mais acentuada para o primeiro grupo. A menos dos alunos de Bacharelado em Física da região Norte (coeficiente 0,11), tomando-se os alunos em conjunto ou por habilitação, em todas as Grandes Regiões os histogramas possuem assimetria negativa.",
+  "text_sha256": "2a7892159d38b83ce88003f490d425e6d16b305980a0e777b76779a39c31cc1d",
+  "window_size": 3
+}

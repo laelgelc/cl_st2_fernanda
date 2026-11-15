@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea8a4db072ae9fe006af920559f3887d195b5cad9fe477545",
+    "usage": {
+      "input_tokens": 2482,
+      "input_tokens_details": {
+        "cache_write_tokens": 2479,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2479
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 501,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 2983
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_150.txt",
+      "source_sha256": "ea6c44b0a62034762a126d7665a084f4c0b26e0cf71051aa74c85ced64aef5d2"
+    },
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_152.txt",
+      "source_sha256": "872b821163363f4ba7c63c5b9755ad8aa8e2d3fb27d848dd6f2c77342296144a"
+    }
+  ],
+  "created_at": "2026-11-15T03:00:37Z",
+  "duration_seconds": 6.137,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM MARKETING.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_151.txt",
+    "source_sha256": "32aa7106c0bc219e620e1cfc78d5056ca68a4a1c4873fbb74db47f962337d9d9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5704c421e67a9cea02367754efa79e39a0ded59b2523151a6086aa97144a657d",
+  "request_fingerprint": "b8687f4b2d1f1ef95a51e8a235237b19447e40cdd127c2e3c5e80019ba4520fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, o título e a fonte da Tabela 7.12.",
+    "Removido o título/legenda do Gráfico 7.5 e o material gráfico; a frase que descreve as curvas foi preservada como prosa."
+  ],
+  "status": "success",
+  "text": "Os dados da Tabela 7.12 atestam que treze questões que tiveram índice de discriminação “Bom” figuraram em três níveis de dificuldade – Fácil, Médio e Difícil: duas classificadas na categoria “Fácil”; oito, na categoria “Médio”; e três, na categoria “Difícil”.\n\nA título de exemplo das análises do comportamento das questões objetivas, no Gráfico 7.5, analisa-se a Questão 21 do Componente Específico.\n\nNo Gráfico 7.5, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Componente Específico), antes de possíveis eliminações pelo critério Ponto-Bisserial. Os gráficos relativos às demais questões do Componente Específico constam no Anexo IV.",
+  "text_sha256": "4caba8b51b6aee9e3140af4d85fde737d6af0dfe22209e78c01bfc9ed58c5a3b",
+  "window_size": 3
+}

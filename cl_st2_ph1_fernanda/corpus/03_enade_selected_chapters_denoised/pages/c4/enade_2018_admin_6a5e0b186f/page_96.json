@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bd46bdb4d53a155006af90bf999f487d1a63ac11264dc6d68",
+    "usage": {
+      "input_tokens": 1911,
+      "input_tokens_details": {
+        "cache_write_tokens": 1908,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1908
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 2167
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_admin/enade_2018_admin_page_95.txt",
+      "source_sha256": "1856b5abff42d5590a25afe13c415eb567fe9b2de00e7a693f0a221ee92ee66a"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_admin/enade_2018_admin_page_97.txt",
+      "source_sha256": "643c7d181b9ef5470e08106131c5b83b38ae3cb0b77e735d772315153dc3c1e5"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:45Z",
+  "duration_seconds": 3.175,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_admin/enade_2018_admin_page_96.txt",
+    "source_sha256": "4a72063615237a7390c5b6a4f12c50b29651a511c16de2cfa501dea351cc765a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "54778debbb99f3243e934564a2030fec9176d881469949697e2819967330cc2d",
+  "request_fingerprint": "31d740aca9afac7f1da6c425d50430dcc2a095c4b4a8c7d1772c92525b27c7ec",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.15 e seus elementos associados: título/c legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 8,5% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,0% os do quarto superior com a mesma resposta. A diferença dentre os alunos que optaram por esse motivo de dificuldade nos quartos inferiores em relação aos quartos superiores de desempenho é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 79,4% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 54,0% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "b3abb068d5429e786b9edce7194a272b5176c481da21eb9c3d2299e3197acfb8",
+  "window_size": 3
+}

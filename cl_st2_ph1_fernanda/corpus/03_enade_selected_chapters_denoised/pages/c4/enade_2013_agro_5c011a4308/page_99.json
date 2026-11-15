@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1805a70924ff8e006af8f2e5244087d19d7695bab9f9b0a0",
+    "usage": {
+      "input_tokens": 1846,
+      "input_tokens_details": {
+        "cache_write_tokens": 1843,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1843
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 2357
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_98.txt",
+      "source_sha256": "fc997dbf5eb190a576699316a4bd39795b7a0e319bfd071ee2671b6b605f6f05"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_100.txt",
+      "source_sha256": "411ab0de40c5fec08ff2ef4bee23126aea00417f2dca60c3ee59cc0b03e14a76"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:45Z",
+  "duration_seconds": 4.964,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_99.txt",
+    "source_sha256": "c0c217acffc7be06df2d06d64ccae15d823270bb40ec54715f6239dce92ed783"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6c5ae8684aae00d0bdb88ce7a96b00c12b2ed16bc476beff3911ccfb97ed4641",
+  "request_fingerprint": "f095d817d7f1a6130014319012813a3a3730fc3ad09be0c3a284bd007e466a66",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "A forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 45,8% (região Sudeste) a 50,2% (região Centro-Oeste). O percentual de alunos que citaram a falta de motivação como dificuldade variou de 14,1% (região Centro-Oeste) a 19,6% (região Nordeste). A proporção dos que declararam não ter qualquer dificuldade para responder à prova variou de 22,1% na região Norte a 27,6% na região Sul.\n\nCom relação aos quartos de desempenho, o desconhecimento do conteúdo, foi a opção escolhida por 8,2% dos estudantes do quarto superior e 8,1% do quarto inferior, não sendo notável uma tendência. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, foi que a dificuldade encontrada foi causada pela forma diferente de abordagem do conteúdo: 49,5% no quarto inferior e 42,5% do quarto superior assim o responderam.",
+  "text_sha256": "932acf5023ba9cb485f338b19454d66216200dae01cb7f62faf6433acd08d781",
+  "window_size": 3
+}

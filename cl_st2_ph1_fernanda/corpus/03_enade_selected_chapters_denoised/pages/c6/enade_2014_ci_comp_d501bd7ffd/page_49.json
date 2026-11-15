@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f6239d572ab165006af8f65dfe6c87d1bcc6f718a3a10613",
+    "usage": {
+      "input_tokens": 2441,
+      "input_tokens_details": {
+        "cache_write_tokens": 2438,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2438
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 284,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 2725
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_48.txt",
+      "source_sha256": "e614f711b420ba09badf941149dee0a548c7802aa4c9c792ea57cddb1fc806fc"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_50.txt",
+      "source_sha256": "648e68587edb3aa607d0726ce8d4283e8b7d2bf0d9fb342923acc771e1d92a33"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:33Z",
+  "duration_seconds": 4.15,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_49.txt",
+    "source_sha256": "09ff9090d323c761c25389176043037f9dbaf369e06428b77f9241fc1350acfc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "805d02dd261153194621504546c186dd969c55d72eb65297d33d87473f57e94e",
+  "request_fingerprint": "b74e007ab032c538900e3e703cf8c927bba336147a0f5f38267ee7ac7e547796",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (46,9), e a menor média (44,1), obtida nas regiões Norte e Centro-Oeste.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas em colunas diferentes para estudantes de Bacharelado e de Licenciatura. As distribuições são unimodais. O intervalo modal dos concluintes de Bacharelado é (40; 50] e o de Licenciatura é (50; 60].",
+  "text_sha256": "addf4e1dc723b8bb31f8cf445c0cd0e3af1d29326e638ddaa2ae3014572f4d15",
+  "window_size": 3
+}

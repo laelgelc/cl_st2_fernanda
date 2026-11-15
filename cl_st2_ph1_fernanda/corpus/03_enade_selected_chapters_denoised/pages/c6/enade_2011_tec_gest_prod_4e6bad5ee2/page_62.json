@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09f38657c65dcea9006af8ef8a80b087d1a23069addf1f830e",
+    "usage": {
+      "input_tokens": 2690,
+      "input_tokens_details": {
+        "cache_write_tokens": 2687,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2687
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 3099
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_61.txt",
+      "source_sha256": "d5be54977a47cb3c742f1ef10dbb98a8da025974f4c458bf739da71382c7ec7b"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_63.txt",
+      "source_sha256": "41ca56b51a941a114ccc5c365fe7b310e54d506d889255f6e19e6558522246c8"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:26Z",
+  "duration_seconds": 4.72,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_62.txt",
+    "source_sha256": "509e984d9a8c5f80f71c162cdb7025cd900f3d6d588cfb2d55070ad387542e71"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "34d267059683cb61519b6f4d7f2bb8aa22e2c7739664c94cf04b44412956ae08",
+  "request_fingerprint": "dbb5cd0768e63202b6f889fc1c4274ab0b755a418b496301bd853766657aa0cb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.17 e sua linha de fonte; a frase introdutória e os achados descritos em prosa foram preservados."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral. Este gráfico apresenta moda no intervalo (40;50]. Destaca-se, ainda, a frequência de provas nas quais a questão 2 foi deixada em branco pelos alunos, em torno de 13%, maior do que na questão discursiva 1, em torno de 5%. O coeficiente de assimetria é negativo para a distribuição de notas do conjunto dos alunos do Brasil (–0,33), como também para cada uma das regiões, entre –1,12 (Norte) e –0,28 (Sul).",
+  "text_sha256": "fb2ea4181acf9319f2d5de5c8eb6c800516d51a3d4f1b54941dafd224d5f3404",
+  "window_size": 3
+}

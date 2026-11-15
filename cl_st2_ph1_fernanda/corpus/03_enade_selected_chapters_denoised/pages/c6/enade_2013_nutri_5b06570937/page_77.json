@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ec68f2621f26d3e006af8f495deac87d1a3b79d2c81227f81",
+    "usage": {
+      "input_tokens": 2040,
+      "input_tokens_details": {
+        "cache_write_tokens": 2037,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2037
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 371,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 2411
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_76.txt",
+      "source_sha256": "ec96804e92b36f882242961c9a01d06d456b90d94b90d3db07f97a8563639e63"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_78.txt",
+      "source_sha256": "3cff223ecee48458a7b2fc7c517ae6a683f45469237f4340e3256919071ee357"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:57Z",
+  "duration_seconds": 4.292,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_77.txt",
+    "source_sha256": "e1ed62230f13474f201156124f39191e01ba360eefdd887c16d3ee1a45d3809d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1fa4aa1aa2b17310cceda61a626e3d4569b8e863d6fa0304416a569388c7a0b9",
+  "request_fingerprint": "e45b43b073ba71405e709fc7b1b4407798d48a066d1e3f3cbc52afc68b1ff5f4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Desconsiderando-se aqueles alunos que deixaram a questão em branco, a distribuição é unimodal com moda no intervalo (10; 20]. O coeficiente de assimetria é positivo para todo o Brasil (0,66) e para todas as regiões (entre 0,59 na região Sul e 0,79 na região Norte), indicando uma assimetria à direita.",
+  "text_sha256": "07416526a7462f591a13c637273dbdd3f301a27ac654b0bb9064076cf9cf0206",
+  "window_size": 3
+}

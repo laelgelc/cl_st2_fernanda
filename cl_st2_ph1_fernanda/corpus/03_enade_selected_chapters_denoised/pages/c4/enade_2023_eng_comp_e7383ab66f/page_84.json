@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b639020cdacf0fc006af92234af5887d18d6399d43ef9378b",
+    "usage": {
+      "input_tokens": 1911,
+      "input_tokens_details": {
+        "cache_write_tokens": 1908,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1908
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 295,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 2206
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_83.txt",
+      "source_sha256": "7ed8dbd3680a57755938169ded9e7b5aa0c79ec6a8fc839f7b423c560a2c77b5"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_85.txt",
+      "source_sha256": "6a33aacfb9718b49c946fc9be74b29ff3df3ffc7971c0fd5ed4753047cde0510"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:36Z",
+  "duration_seconds": 10.385,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_84.txt",
+    "source_sha256": "cca1cda156d5551cf2090bd07d197a645eb60200c9720a44cb9a69a117d0b866"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ce05f19ccde0ef22474da33a797be0ae20e94b0bcc3c23f03060e7e979f6a508",
+  "request_fingerprint": "ff680f822ff6dc3b9179b74148b0d10243788afbb81bcc391ca6ecace28b002e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.7, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.7 apresenta outros resultados em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nComo mostram os dados do Gráfico 3.7, o percentual de estudantes que consideraram o componente de Conhecimento Específico da prova “Difícil” ou “Muito difícil” foi maior entre os estudantes de faculdades (62,5%), enquanto entre os estudantes dos centros universitários, a organização acadêmica com a menor incidência, o percentual alcançou 54,5%. Além disso, não há diferenças estatisticamente significativas entre as organizações acadêmicas. Já as proporções de estudantes que consideraram o componente de Conhecimento Específico como de grau de dificuldade “Médio” estiveram entre 33,2% nas faculdades, e 43,8% nos CEFET/IF (ver também Tabela V.4, no Anexo V).",
+  "text_sha256": "6683ab10c0300034a6431a2a1f7197bdf15a8e175630177fb8ca1fd058569041",
+  "window_size": 3
+}

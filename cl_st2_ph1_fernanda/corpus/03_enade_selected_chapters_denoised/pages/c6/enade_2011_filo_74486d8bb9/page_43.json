@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ce013538261d422006af8ed2ac92487d187bca49b919d0836",
+    "usage": {
+      "input_tokens": 2182,
+      "input_tokens_details": {
+        "cache_write_tokens": 2179,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2179
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1113,
+      "output_tokens_details": {
+        "reasoning_tokens": 838
+      },
+      "total_tokens": 3295
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_42.txt",
+      "source_sha256": "7b837c51353159cab202a8231a2e8c51f0ff9c31cbd585ee37ec9b4afdab8de9"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_44.txt",
+      "source_sha256": "20ad6edcc8c1c1dff5eddb3024f3081d4b92bda69e4a3322adbe3483fe6625e2"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:18Z",
+  "duration_seconds": 12.781,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_43.txt",
+    "source_sha256": "19b64aff3544f2afb671234c523016ac09ed73eb46705ec380393f249dd6e021"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95abc150406de1ff62c84536d55711b620dc044448e277f4522068246653b7c1",
+  "request_fingerprint": "8dee5f123c4dfb3a717ab15ffadb6d7b2d0e920f8bcd89bf393bb84181abb18d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2011”, presumida como fonte de material gráfico; o material a que se refere não está visível na página-alvo."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Filosofia (Bacharelado e Licenciatura). A média do desempenho dos alunos do Brasil como um todo foi 35,9. A maior média foi obtida na região Sul (38,2), e a menor, na região Nordeste (33,5). As demais médias foram: 35,4 na região Norte; 36,1 na região Sudeste; e 36,2 na região Centro-Oeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 15,6, sendo o maior desvio padrão observado na região Sudeste (16,8) e o menor na região Norte (13,2). Os demais desvios foram: 14,6 da região Nordeste; 15,2 da região Sul; e 14,2 da região Centro-Oeste.",
+  "text_sha256": "377344e453890db83bf16cbc6cc31e07308f3112b87b935fc7a3eb56b88f0036",
+  "window_size": 3
+}

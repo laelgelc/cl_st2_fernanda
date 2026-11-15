@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c7b714574270a6006af8f511ef4887d188088dc74baa5d27",
+    "usage": {
+      "input_tokens": 1696,
+      "input_tokens_details": {
+        "cache_write_tokens": 1693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 518,
+      "output_tokens_details": {
+        "reasoning_tokens": 350
+      },
+      "total_tokens": 2214
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_40.txt",
+      "source_sha256": "3659d976b318c2ec9765bb3323949c19ec8592b86140341abb3f97bdf166b05d"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_42.txt",
+      "source_sha256": "60819c094f534742cdc4040e873c5fcfc09d1ba3310660721eec72e73b2c18b2"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:01Z",
+  "duration_seconds": 4.977,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_41.txt",
+    "source_sha256": "dd6e45ef7676f9b4139bb44bf5d5a06b307e53adfb00f4e9c46015d42527b805"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9edb682d8aa24f74665a6429cf9df2fcc4be4c2beb2a6a5117e827b76b06f2bc",
+  "request_fingerprint": "ec61059d3024cce1c59cae24ecd1657204684f732f38f404949c4176629e7d26",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades não é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Faculdades (50,3), e a menor, pelos de Centros Universitários (47,4).",
+  "text_sha256": "d4046dc6989bf345e794cd6c58ac7285cbe3aa92c27497de2be8d56108ff568f",
+  "window_size": 3
+}

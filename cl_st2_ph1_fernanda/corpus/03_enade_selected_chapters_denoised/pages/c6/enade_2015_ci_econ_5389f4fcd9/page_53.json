@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0705888c3c3287f2006af8fd8a905487d1bacd825a32a67204",
+    "usage": {
+      "input_tokens": 2466,
+      "input_tokens_details": {
+        "cache_write_tokens": 2463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 670,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 3136
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_52.txt",
+      "source_sha256": "b249b031854fce03361b4fe18a44755534a0e002fa0885873218c9587baa1312"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_54.txt",
+      "source_sha256": "257655f004c7663789ea47c727ce6e84a3c0223a7553a4d0b5051cb6ba863377"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:10Z",
+  "duration_seconds": 6.467,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_53.txt",
+    "source_sha256": "3a29049c062cdc8e840faebc26ebd5ea9d6b8116838db1e99f78387d65e758de"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2441f497b0500a28f3ecf6f4f382612552033b7890ab7d13950cb476ab5420e4",
+  "request_fingerprint": "1a129123a4273020149cb4ab2532a090d2f48f195dd5f2cb517473c0ce29c163",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 33,7% escolheram a alternativa D, 28,9% a alternativa C (correta), 13,0% a alternativa A, 14,0% a alternativa B e 9,8% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,5% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "cb72924c2a31504cd9bf99fb3aec81184e3212a9d418c2124d9885617f2e94ff",
+  "window_size": 3
+}

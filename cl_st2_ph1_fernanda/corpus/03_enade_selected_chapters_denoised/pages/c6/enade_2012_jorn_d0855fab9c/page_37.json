@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b72e94b7c816f42006af8f10dcfb487d1b90a0da9beed1c31",
+    "usage": {
+      "input_tokens": 1974,
+      "input_tokens_details": {
+        "cache_write_tokens": 1971,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1971
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 523,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 2497
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_36.txt",
+      "source_sha256": "8270d11705e0aa418713a7809502efe14cc76883e5aa9eda6d0d3ca46f459ffb"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_38.txt",
+      "source_sha256": "812c76a7bc870a10f4511b014a9ef279e4a49a1b0dc51da77675d24047756798"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:53Z",
+  "duration_seconds": 5.244,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_37.txt",
+    "source_sha256": "36376a6196f4df3aa9404373357258c257fba530cc5722e1940c8c8547459d57"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "058a037006e41d3edd667d22497e76a80db9230f56e66976c1a1799ef83299f4",
+  "request_fingerprint": "f9203036692c1f7b488d747838aa2f635cadf3dee20c3bd8392800f0c1eec28f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os elementos gráficos da página e a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (46,7) e a menor, obtida na região Centro-Oeste (44,1).",
+  "text_sha256": "130828eea17716163a345ade28109d03cdfa0ce236adf159a55bc9164382b476",
+  "window_size": 3
+}

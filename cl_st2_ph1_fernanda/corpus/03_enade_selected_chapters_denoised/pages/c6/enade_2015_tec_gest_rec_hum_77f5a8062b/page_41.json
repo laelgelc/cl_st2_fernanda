@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03f236d90ec8181f006af900187e1c87d192286c0f26159b69",
+    "usage": {
+      "input_tokens": 2519,
+      "input_tokens_details": {
+        "cache_write_tokens": 2516,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2516
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 2879
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_40.txt",
+      "source_sha256": "266239289b35563b04f67bdcc53ea168be3b2a4ec7df2863293e1859e5244123"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_42.txt",
+      "source_sha256": "28e79912a81abd1b8d623c5b46f4ad0320267dff4a638ee09c49b18098e7210e"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:04Z",
+  "duration_seconds": 4.204,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_41.txt",
+    "source_sha256": "ce6dcc8b87c227eda71767b38e62a5aba1c4f8c418a08702fe56d5f16ed60d3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b1a368a2dcfb67a97c26308e6c958fa948df2b3c40b9e66e1286dd30bc8254c",
+  "request_fingerprint": "68d54932b5f2d54b9068872477b8ef8fda4c2b9a08e003f3eeb585ef924d1a96",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Centro-Oeste (91,3), ao passo que a região que atingiu a menor nota Máxima foi a Norte (75,2). A Mediana do Brasil como um todo foi 39,9, sendo a maior Mediana obtida na região Sul (40,8), e a menor obtida no Centro-Oeste (36,6). A nota Mínima foi zero em todas as regiões, exceto na região Norte (11,5).\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Centro-Oeste (37,6), e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (30; 40].",
+  "text_sha256": "fa97b023831d045298a312143731968358793a1fe184b5075a3482a50e658bfe",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba9f1425beb506f006af909e1ac0c87d1b7868715909c8bd9",
+    "usage": {
+      "input_tokens": 2656,
+      "input_tokens_details": {
+        "cache_write_tokens": 2653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1600,
+      "output_tokens_details": {
+        "reasoning_tokens": 984
+      },
+      "total_tokens": 4256
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 274,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_274.txt",
+      "source_sha256": "048cfa871cd72df3ffb0499bdcae9be07cdc39a769373356db2784dc6c2f1294"
+    },
+    {
+      "page_number": 276,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_276.txt",
+      "source_sha256": "b7b406435dcb5b9e74158e338722ff7653685702003041e48e59d35bcf18470f"
+    }
+  ],
+  "created_at": "2026-11-15T01:24:49Z",
+  "duration_seconds": 11.877,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MATEMÁTICA.pdf",
+    "page_number": 275
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_275.txt",
+    "source_sha256": "541039d4b569bb2d09f25e9606e75d8e9e4ced38807b5d9fafc2625031f0d5cd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8398d1e30bad7b318112bdf958a4c864d22ea41e36d7876f85f985a6ec9ea09a",
+  "request_fingerprint": "00d9f9d840bcc4c2675fa5717f3c08c89c714cf76aa2e34fc223af0626e2ca4b",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "do problema dado. De modo geral, a questão apresentava um problema relevante na formação do bacharel e tecnicamente bastante simples, desde a parametrização da curva C até os cálculos envolvidos na integração em si.\n\nO conteúdo abordado pela questão costuma ser bastante desafiador para os estudantes, no entanto, por conta de os aspectos operacionais do problema proposto serem os mais simples possíveis, a questão pode ser considerada de dificuldade mediana.\n\nO padrão de respostas representava as soluções corretas de forma exaustiva. As respostas parcialmente corretas, ou incorretas, estiveram inscritas nas etapas constitutivas dos procedimentos de resposta correta indicados no padrão.\n\nOs erros cometidos pelos estudantes se deram em maior número na resolução do item ‘b’ da questão, mais especificamente no encaminhamento de alguma etapa do cálculo da integral. O critério de pontuação utilizado na correção, de toda forma, foi sensível a cada uma dessas etapas e permite, a partir das notas obtidas, a identificação daquela em que o erro se deu.\n\nNão houve variação significativa no encaminhamento das respostas corretas dadas pelos estudantes. Entre as resposta erradas, a maioria dos erros se deu posteriormente à parametrização da curva C(t) = (x(t), y(t)), a ≤ t ≤ b, solicitada no item ‘a’, a saber, no encaminhamento de ∫_C F · dr = ∫_a^b F(C(t)) · C′(t) dt. É importante ressaltar que a correção do item ‘b’ foi desvinculada da resposta dada ao item ‘a’, aceitando-se a parametrização indicada, independentemente de ela estar correta, ou não.\n\nO desempenho dos estudantes foi mediano e, grosso modo, representado pelo acerto da parametrização solicitada no item ‘a’ e o encaminhamento parcial do cálculo da integral de linha. Muitos estudantes sabiam que deveriam substituir as funções coordenadas presentes na parametrização, mas se equivocaram ao fazê-lo, seja por erros de conta, de consideração do produto interno ou do entendimento geral do significado das etapas a serem cumpridas.\n\nEntre as 393 respostas corrigidas, 108 foram deixadas em branco. Aproximadamente 145 respostas obtiveram notas até 30, quase sempre porque apenas apontaram a parametrização da curva, atentando (ou não) para o intervalo de variação do parâmetro considerado. Mais de 100 foram boas, dentre elas 88 alcançaram nota máxima, as demais continham equívocos periféricos ou presentes na etapa final do cálculo da integral.\n\nDe modo geral, o desempenho dos estudantes dos cursos de Bacharelado em Matemática corrobora a hipótese de que eles possuem alguma familiaridade com o cálculo da integral de linha de um campo vetorial, sobre uma curva simples. No entanto, apesar disso, o",
+  "text_sha256": "370151523bed48d0bfdf7198bd6c712f7b9c862bbde38e9a0c0929b724cf96ff",
+  "window_size": 3
+}

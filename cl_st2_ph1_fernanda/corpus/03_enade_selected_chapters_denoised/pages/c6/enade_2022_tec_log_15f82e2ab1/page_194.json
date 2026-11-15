@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efe87e82f90257b006af92035b8fc87d1a4e1f675eab25e98",
+    "usage": {
+      "input_tokens": 2308,
+      "input_tokens_details": {
+        "cache_write_tokens": 2305,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2305
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 220,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 2528
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 193,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_193.txt",
+      "source_sha256": "1826b20d3c8f37d6284fe0e51134b396c010afe13ce391ef559877176d3d337b"
+    },
+    {
+      "page_number": 195,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_195.txt",
+      "source_sha256": "5f84f9907f3acec79a1f43fc299c102b3b3284babdd5c4e792948f0adbc58506"
+    }
+  ],
+  "created_at": "2026-11-15T03:00:05Z",
+  "duration_seconds": 2.793,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM LOGÍSTICA.pdf",
+    "page_number": 194
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_194.txt",
+    "source_sha256": "e5f662a8bc9ed4901aba27002652569c6dcc1edb6b7d31cc73b13f647b7ed1f6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41d7f0a354ad3977a86529735892ac8e9e20ad4758be6f3a6ed1a7c446ca9e4d",
+  "request_fingerprint": "748b4355651b6f74d33c79d69a27829043bba6680b547eeb34dd0c5c5eb977e5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 7.13, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 7.13, é representada a distribuição das notas da Questão Discursiva 5 do Componente Específico.\n\nA distribuição mostrada no Gráfico 7.13 tem moda no intervalo [0; 10], com porcentagem acima de 70% do total. A segunda maior frequência ocorre no intervalo de (10;20]. Percebe-se uma diminuição na frequência com o aumento do intervalo, com ligeiro aumento no intervalo extremo.",
+  "text_sha256": "8a55e33ed195563329bd5300f32665f59f1407643edca771618ad9c56ba09141",
+  "window_size": 3
+}

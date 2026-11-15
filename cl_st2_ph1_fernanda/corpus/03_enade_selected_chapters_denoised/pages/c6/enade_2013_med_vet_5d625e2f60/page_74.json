@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ec79aee0f40781b006af8f43a961087d18a209236e768cc41",
+    "usage": {
+      "input_tokens": 2840,
+      "input_tokens_details": {
+        "cache_write_tokens": 2837,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2837
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 873,
+      "output_tokens_details": {
+        "reasoning_tokens": 393
+      },
+      "total_tokens": 3713
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_73.txt",
+      "source_sha256": "558c02c0ea65f1dbe98da71331eedf4809d3ad113c20c198e1f0007ed6433fa2"
+    },
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_75.txt",
+      "source_sha256": "e723346667c5c1164788dc10e5932d06240ac1c40d0e936c703c0344a6cb5eb0"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:26Z",
+  "duration_seconds": 7.654,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 74
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_74.txt",
+    "source_sha256": "450db4cfe614a1f4cbb0d3518c8288650917580fec0c19b82dcf88a39eae5524"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb755bb1ff86347995f2ab625704f8c0e1d58d59204f8c1725ce5f808a761a96",
+  "request_fingerprint": "45b59ed74b82b00e90bf2efe476b1b48652cac057c35d79c0d2ca3f97b50f892",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "A última frase termina em “entre” no limite da página; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "3.3.2 Componente de Conhecimento Específico\n\nNa parte da prova relativa às questões discursivas no Componente de Conhecimento Específico (Tabela 3.12), observa-se que a média foi mais baixa do que nas questões discursivas do Componente de Formação Geral. Enquanto no Componente de Formação Geral a média para estudantes de Medicina Veterinária de todo o Brasil foi 42,9, na Parte de Conhecimento Específico a média foi 18,8. A maior média deste componente foi obtida pelos estudantes da região Sul (20,6), e a menor, pelos da região Norte (12,4). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 14,0. O maior desvio padrão foi encontrado na região Sul (14,4), e o menor, na região Norte (10,6).\n\nA maior nota máxima, nas questões discursivas do Componente de Conhecimento Específico, foi obtida na região Sudeste (73,3), enquanto a menor nota máxima foi encontrada na região Norte (45,0). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 16,7, também encontrada na região Centro-Oeste. As demais medianas foram: 10,0 na região Norte, 15,0 na região Nordeste, 18,3 na região Sudeste e 20,0 na região Sul.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no primeiro intervalo, o [0; 10]. Nota-se que há uma tendência decrescente a partir deste intervalo até o antepenúltimo intervalo. Nenhum aluno recebeu notas alocadas nos dois últimos intervalos. O coeficiente de assimetria é positivo para todo o Brasil (0,62) e para todas as regiões (entre",
+  "text_sha256": "9d88215fe15f71f62e03cf785adddc31bd69ca412092f5352f442b1e605bac9d",
+  "window_size": 3
+}

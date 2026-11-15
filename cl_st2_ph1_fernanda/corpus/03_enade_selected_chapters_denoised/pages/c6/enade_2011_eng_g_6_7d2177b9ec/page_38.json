@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b7d7a02ef3fa9a7006af8eca171b487d1af96eb8ccf8bf4cd",
+    "usage": {
+      "input_tokens": 2458,
+      "input_tokens_details": {
+        "cache_write_tokens": 2455,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2455
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 3074
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_37.txt",
+      "source_sha256": "59752b3e2137a2b1329b373a5b3ce77eb2c0980cbf936e8bdaf876b39347c7db"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_39.txt",
+      "source_sha256": "fcb44e43fad148c73e7b141ea7856567c739fe31f67134c8c4445d151e83fe4f"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:01Z",
+  "duration_seconds": 5.799,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_38.txt",
+    "source_sha256": "d70a4301af6c25023bdc9771cb3e8316e378a463c6084ec559d70ff19487cfe2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d1517bcfd334acb7ede27379f05970b40bab6c79cd43e9e86ec1956715f8b14",
+  "request_fingerprint": "378441f1f2b2ad80ba64e6978d0244401796c22562b283d459583b2b809d3045",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os Componentes de Formação Geral e de Conhecimento Específico) foi 37,7, sendo que os alunos da região Centro-Oeste obtiveram a média mais baixa (35,1) e os da região Sul obtiveram a média mais alta (38,6). As demais médias foram: 37,0 nas regiões Norte e Nordeste e 37,7 na região Sudeste. O desvio padrão para o Brasil como um todo foi 11,8, sendo o maior desvio padrão encontrado na região Sudeste (11,9) e o menor na região Norte (10,9), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (83,6), ao passo que a região que atingiu a menor nota máxima foi a Norte (64,1). A mediana do Brasil como um todo foi 37,2, sendo a maior mediana obtida na região Sul (38,6) e a menor obtida na Centro-Oeste (34,3). A nota mínima foi zero em todas as regiões com exceção da região Centro-Oeste com 8,9 e a Norte com 7,0.\n\nO comportamento das notas dos estudantes de todo o Brasil na Área pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30,40]. Apesar do coeficiente de assimetria da distribuição das notas ser positivo (0,19) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A única exceção é a região Norte, com coeficiente de assimetria negativo (-0,20), com o comportamento oposto: concentração à direita e cauda um pouco mais longa à esquerda.",
+  "text_sha256": "35883ab3038acb5ab500ceda36f36ee4c3c078787b16b92f0af17c7d31504296",
+  "window_size": 3
+}

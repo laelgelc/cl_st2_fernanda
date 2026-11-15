@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0acba66b2d6c3ca5006af8f56d990087d1a561fab1f238abc4",
+    "usage": {
+      "input_tokens": 2144,
+      "input_tokens_details": {
+        "cache_write_tokens": 2141,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2141
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1273,
+      "output_tokens_details": {
+        "reasoning_tokens": 871
+      },
+      "total_tokens": 3417
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_41.txt",
+      "source_sha256": "b52e97e19b0ad96f323a43addc2cf58ea01deb514eee58133bfe35494806a90e"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_43.txt",
+      "source_sha256": "e9a94952b9caf884891c06b6caddae723fd204e5a02b80485b308784efb9950f"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:33Z",
+  "duration_seconds": 11.901,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_42.txt",
+    "source_sha256": "94af101fa2507f44b1b3f9a8e41a6893877b043815959a1d06ce4722a854f73a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1962aeb3809fc7a93a60e396a48acaa64469324a82a97ac748aa4fa4cedad50c",
+  "request_fingerprint": "cb8b000ebfb198846a0b186d8fc030b7e7dffb965e996d5214c8dfc75e5b63fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2013”, provavelmente associada a material gráfico anterior; a atribuição não é totalmente certa. A frase final termina em “regiões” no alvo e continua na página de contexto."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 42,6. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 13,4. A maior média foi obtida na região Nordeste (45,8), e a menor, na região Centro-Oeste (40,2). As demais médias foram: 42,2 na região Norte, 42,6 na região Sudeste e 42,9 na região Sul. Já o maior desvio padrão foi obtido nas regiões Norte e Nordeste (15,2) e o menor nas regiões Sudeste e Sul (12,7). O desvio padrão na região Centro-Oeste foi 12,9.\nA maior nota no Componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Sul (84,7) enquanto que a menor nota máxima foi obtida na região Centro-Oeste (71,8). Nas outras regiões as notas máximas foram: 75,4 na região Norte, 84,6 na região Nordeste e 78,3 na região Sudeste. A mediana do Brasil como um todo foi 42,6, sendo a menor mediana encontrada na região Centro-Oeste (40,2) e a maior encontrada na região Nordeste (45,7). A menor nota mínima nesta parte foi zero nas regiões",
+  "text_sha256": "5d6bfe9d047043006f7305663958cc0f14c5f0ead68fd5e8f9cfd7c6db92449a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03b701b660439771006af8f4840d3887d1a92602a2335a9c8b",
+    "usage": {
+      "input_tokens": 1428,
+      "input_tokens_details": {
+        "cache_write_tokens": 1425,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1425
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 297,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1725
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_50.txt",
+      "source_sha256": "d5b9c48b4ce0c6a2f49e52b6d1a204dd5c46e25b7e32f581ab8a71b34e8fb537"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_52.txt",
+      "source_sha256": "cf09b59448ee30b4bd337b80481fc9830080cd171a216239ec497153148a9263"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:39Z",
+  "duration_seconds": 3.728,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_51.txt",
+    "source_sha256": "d615be0f32c76385cd6b827e5fc7082aec44cc581aaabf06b43b52ffbd28e3ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "48f7a62a13d4e8ba94843817f180df8dd8a5f6d796433a17388d66037c14e4f5",
+  "request_fingerprint": "a9b0ff8564159532f5a7518e2e3ca02dd84ab6d510eb552711b2b3ca729c7d23",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, presumivelmente pertencente ao material gráfico do Gráfico 3.11."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (Gráfico 3.11), observa-se um comportamento semelhante àquele da Parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas e Privadas, sendo que a maior média foi obtida por alunos de IES Públicas de ensino (50,6).",
+  "text_sha256": "eb55b1959ae227a790170a3e41a30f135088b255d81bb6ebc08b8118b497cfde",
+  "window_size": 3
+}

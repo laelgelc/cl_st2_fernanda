@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b08952fa39ef980006af8eb45c88887d190522db6b8e445fb",
+    "usage": {
+      "input_tokens": 1446,
+      "input_tokens_details": {
+        "cache_write_tokens": 1443,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1443
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 248,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1694
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_55.txt",
+      "source_sha256": "917b5c1746f5a254b4557e6d97da69aeead84096a933d8977b224dbe1bb6c49d"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_57.txt",
+      "source_sha256": "3fb4e4d35a7ac60bdf1eafee1b10863e444cd5717ca59bebe769707411cb1a62"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:13Z",
+  "duration_seconds": 3.238,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_56.txt",
+    "source_sha256": "ddeff4a1439f1657c01f8611f7208acffeb34150137e7b2ac06b6041ad8f91cb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e62228f4e409bd88ede73e3cc076437afe9e9a3302574eb1edd96fa90a60eee7",
+  "request_fingerprint": "6b4ff519ad2ecc59f4df8aee4a40bdb49f051bbbe06a5bc88a81007851a1acc3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (Gráfico 3.11), observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (31,9) e Privadas (23,9), sendo que neste caso, em relação ao componente de Conhecimento Específico, esta diferença é maior do que nos casos anteriores, prova como um todo e Componente de Formação Geral.",
+  "text_sha256": "7bcb366ea4d37996b7ee20f91191ed62a41a826c1b7dd7105e7145bbdfc8cb2c",
+  "window_size": 3
+}

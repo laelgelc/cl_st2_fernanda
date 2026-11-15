@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0670b442989c8f19006af8ed5bfec087d1a093a347b789a742",
+    "usage": {
+      "input_tokens": 1549,
+      "input_tokens_details": {
+        "cache_write_tokens": 1546,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1546
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 225,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1774
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_49.txt",
+      "source_sha256": "01fe8d4a148bcccc330458ef6e86e35c1d476e4535bb3e7c8628c7b582928b43"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_51.txt",
+      "source_sha256": "f161f2ec81d04522f26bbb8437fa3903f181775461a71bde7c3de861e65bda54"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:07Z",
+  "duration_seconds": 2.73,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_50.txt",
+    "source_sha256": "6a60a8ead1b9a69dba1dfbd5a1c152e3d51dcb6044f709ed4301869bde62d9e4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0c2f14dd5c15e11ecc2b8ac4db5d06b4abb571b4d28533c9f6266213e4d1627a",
+  "request_fingerprint": "ff8854739066be3326b00625a3e77543bd8aefc3081732f3c55cba9d909dc843",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”), identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre as notas do componente de Conhecimento Específico dos estudantes oriundos das Universidades (30,8) em relação aos de Centros Universitários (26,3) e Faculdades (25,0). Tal resultado difere do encontrado para a parte de Formação Geral da prova, onde não havia diferença estatisticamente significativa.",
+  "text_sha256": "80292a28f73f73dd4c246fac5ddc082d8e5da4b79d415f83c223db2b33272f6b",
+  "window_size": 3
+}

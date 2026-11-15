@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_057e43473112f822006af8ecd2e1e887d1bbe029dc32a920ef",
+    "usage": {
+      "input_tokens": 1541,
+      "input_tokens_details": {
+        "cache_write_tokens": 1538,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1538
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 1855
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_47.txt",
+      "source_sha256": "762308d190a02a96c0e1bcee4dce911f0129f07214e197c11b8988f38c12ca8e"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_49.txt",
+      "source_sha256": "80a262214176dd8ae91e5b1f65a4418eecab7b369beebe15a39f88222d80c891"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:50Z",
+  "duration_seconds": 5.27,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_7",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VII.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_48.txt",
+    "source_sha256": "b71aa88800a427fc6e0bd56b190dd7f3f84a0394ff1b81ed663a201c944200a0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cc71cff9a9785003e607da6de80459d103d2f3b9c122285af2f569601b437273",
+  "request_fingerprint": "b41047938ca6f9ab28530bc3713d1801dac7a89f86de1d8224077b58a0a0d4e5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer ao Gráfico 3.12."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no componente de Conhecimento Específico dos diferentes tipos de Organização Acadêmica. Sendo que a média dos Concluintes das Universidades (39,4) foi maior do que de Centros Universitários (37,3) que por sua vez foi maior do que o de Faculdades (34,7).",
+  "text_sha256": "742e533a92b4674283fc5ab0d9457b9eb0abc4c01c365fa13eed0c50547cad81",
+  "window_size": 3
+}

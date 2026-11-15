@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02825bcac7c90311006af8eafac7c887d184bb27cb90c9c65d",
+    "usage": {
+      "input_tokens": 2677,
+      "input_tokens_details": {
+        "cache_write_tokens": 2674,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2674
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 321,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 2998
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_75.txt",
+      "source_sha256": "3946591d809965d893ac9a487e40cfecb7aa9c895668cbf8f8e879eb7e6b5116"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_77.txt",
+      "source_sha256": "10b4dd6199dc964dfdeab04f5639f5840e03e42857b65a30aef46124d38fa9d2"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:58Z",
+  "duration_seconds": 3.867,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_76.txt",
+    "source_sha256": "ac3b6443d044b5d73afeaebf3274e95fe1e13f75cb752e0fa7b98d2d562e8e0d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "51e5e7797eee1f35017a5765cb96e96881c520ae19ee2bfc1ced423476e80adc",
+  "request_fingerprint": "78551031e3eb0959f972ceeec5b96be4af9a63749010580a2a84b8016a5dbf3d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e fonte.",
+    "Removidos o material gráfico do Gráfico 3.21 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico. Destaca-se o grande número de estudantes que deixaram a questão 5 em branco. Considerando-se apenas os alunos que responderam a questão, a distribuição apresenta uma moda no intervalo (50;60] e possui assimetria negativa (coeficiente igual a –0,30). Nota-se um forte decrescimento na porcentagem dos alunos que obtiveram notas acima do intervalo modal.",
+  "text_sha256": "2d4883799be1c6effcfffeb4828e2f1f79f8b260d4d370adbb3e77532ec98483",
+  "window_size": 3
+}

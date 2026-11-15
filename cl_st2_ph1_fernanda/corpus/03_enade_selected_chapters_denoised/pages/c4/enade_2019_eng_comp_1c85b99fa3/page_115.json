@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_085cdeb75ffa6cdb006af910d0845887d19d0e35dcadd31161",
+    "usage": {
+      "input_tokens": 1692,
+      "input_tokens_details": {
+        "cache_write_tokens": 1689,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1689
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 455,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 2147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_114.txt",
+      "source_sha256": "10a490d231698bd03a1259dc49db9503700758d08b485d91092cc037b63e62d3"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_116.txt",
+      "source_sha256": "7a582c2ded2517353c39712b22338a513c4cc46540053a6b209a26d43337ad8a"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:24Z",
+  "duration_seconds": 4.749,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_115.txt",
+    "source_sha256": "e28b12da4469b9b7b26d3b878b579482882e6334782c51733dcedc71152216e7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8d75db2d3c4479e11f1b0a9409f6ab25b6a4da2fc3ef0830f3c1c8f9906efd47",
+  "request_fingerprint": "d7a2c1322d414f82643b9347bf6b29a58071bab83194dbd15ff231627fc78852",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.19, incluindo título e fonte.",
+    "“CEFET/IF” foi removido por parecer um rótulo gráfico associado ao Gráfico 4.20, cujo título aparece na página seguinte."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior para os estudantes de cursos de IES Públicas (78,2%), uma diferença estatisticamente significativa da proporção em IES Privadas (74,4%). Ver Gráfico 4.20 e Tabela II.10, no Anexo II, para um maior detalhamento.",
+  "text_sha256": "fbebd041b51cb3144eb4c315678d544a5d8789b8e51227be6f6c0cbdb6922e25",
+  "window_size": 3
+}

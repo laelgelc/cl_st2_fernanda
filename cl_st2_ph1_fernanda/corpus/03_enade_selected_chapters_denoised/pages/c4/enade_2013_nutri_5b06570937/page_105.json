@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a608c250ecb371a006af8f475027887d18d05a8a89b860f33",
+    "usage": {
+      "input_tokens": 1413,
+      "input_tokens_details": {
+        "cache_write_tokens": 1410,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1410
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 863,
+      "output_tokens_details": {
+        "reasoning_tokens": 705
+      },
+      "total_tokens": 2276
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_104.txt",
+      "source_sha256": "f6fe9dbb766d18f9f707d31a5b5bf7aa300c0e17f6b2b7369b28d4071573550f"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_106.txt",
+      "source_sha256": "167cf19a3c06eccbb0613360b51125dce9efc290c7c35cb6a31cb70995f4bf5e"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:24Z",
+  "duration_seconds": 7.677,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_105.txt",
+    "source_sha256": "16d93b67bc74b42d972bea27de21f6dca84dd603e8687bbddee68ce32ca11744"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c72456a1990249092b65ee751cfa688b524e1adcc40cc6e2a6a6f21f9bbf2939",
+  "request_fingerprint": "fcb1013a162c4c2962ee083acb3ef9acb9594396a8f1f3a40830880cb0ba0597",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico; verificar se havia gráfico na página alvo."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 80,6% e 65,8%. As diferenças entre os quartos são estatisticamente significativas, com exceção diferença entre o 2º e o 3º, e evidenciam uma tendência crescente.",
+  "text_sha256": "dfb08ca54dce0f26f1de17de86b79c7dfb0b85eb50d403c37e9879282dd620ab",
+  "window_size": 3
+}

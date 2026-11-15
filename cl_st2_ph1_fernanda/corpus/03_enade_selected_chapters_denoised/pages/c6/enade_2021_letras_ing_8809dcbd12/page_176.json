@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03a1d01ab9ce3d64006af919d133d487d1be651c349eb3db74",
+    "usage": {
+      "input_tokens": 3281,
+      "input_tokens_details": {
+        "cache_write_tokens": 3278,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3278
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 385,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 3666
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_ing/enade_2021_letras_ing_page_175.txt",
+      "source_sha256": "e2378c3946a7d9572af93ac60a4640d1c1f0edabc0485a82908bdd281c014912"
+    },
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_ing/enade_2021_letras_ing_page_177.txt",
+      "source_sha256": "87d2a7de2e40ad116f803e48d14f6b5a498b8636173c81c10ffea9be8e59515a"
+    }
+  ],
+  "created_at": "2026-11-15T02:32:49Z",
+  "duration_seconds": 4.757,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Ingles.pdf",
+    "page_number": 176
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_ing/enade_2021_letras_ing_page_176.txt",
+    "source_sha256": "2a6c7e018b0f9cf85084d2f50412b6e82ce3e66441ac4e6bc42f48c9a0807dd8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc3bdbae75227e9fe662566e272872a39498294cd8583a9ba9dbd0f56b2a9971",
+  "request_fingerprint": "854e7064069dc182f4a6ad42ee5aafb3bf4441c23a1f8d4693d3b19fe9824b15",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.3, seus dados e a linha de fonte correspondente.",
+    "Removida a linha de fonte do Gráfico 6.2; o material gráfico não estava presente na extração."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (30; 40], mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam praticamente a mesma dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 14,6 para a nota da prova, como um todo, e 15,6 para o Componente de Formação Geral.",
+  "text_sha256": "6244c5868de6c49305a49c095b501f932d955919c65990fff03043fb2319ccfa",
+  "window_size": 3
+}

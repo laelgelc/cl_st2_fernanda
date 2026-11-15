@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07b8836743badf06006af8f64a74cc87d187ef093d7a139064",
+    "usage": {
+      "input_tokens": 1630,
+      "input_tokens_details": {
+        "cache_write_tokens": 1627,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1627
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 405,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 2035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_126.txt",
+      "source_sha256": "fc530dad648b19afd28e7b03d5b83db163af3c32f5bc2421a344c688bf6ba4ce"
+    },
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_128.txt",
+      "source_sha256": "33449524d5b3959a477a4cac110409485edbe41805f30a9e05ed7760abf383a9"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:14Z",
+  "duration_seconds": 4.741,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 127
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_127.txt",
+    "source_sha256": "9660e3f8ed7039a15f706e512a9021a72ee3c2b1bc100e2af31f85e8349f9f45"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5c0fe66bffa3ffa690e343870bd5f0ab8b170953222e7bcda959430a3232c98a",
+  "request_fingerprint": "bd0ec86f7849224fe762217228eb70323ef320f09467794b6169a3f24c887641",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, associada ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, grande parte dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 45,8% na região Norte e 67,4% na Sul.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 9,4% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,3% os do quarto superior com a mesma resposta, valores decrescentes com o desempenho. A diferença entre os estudantes que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa.\n\nTendo em conta o quarto superior, 79,4% dos estudantes afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 44,5% optaram pelas mesmas categorias. Esses valores são crescentes com o desempenho.",
+  "text_sha256": "88bcdaa3e52b2e0b814416ed0d28afbce8db11063db241c24f13c93e50d27580",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c033c61df89fe97006af90d6e87d087d19beaabbea05204b9",
+    "usage": {
+      "input_tokens": 2863,
+      "input_tokens_details": {
+        "cache_write_tokens": 2860,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2860
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 3375
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_123.txt",
+      "source_sha256": "de6a7c291506602b44e4759089e5b7fb78c42de67e3bd0be04097fe9ed4e6ccc"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_125.txt",
+      "source_sha256": "2248f87aa83ddfae8f88fd67cfd1ded29a19dfd55e6a9f9b564b87dfed791cf2"
+    }
+  ],
+  "created_at": "2026-11-15T01:39:58Z",
+  "duration_seconds": 5.854,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_124.txt",
+    "source_sha256": "bd84d39f5c1dbfd1cc9834f32897ed56b64fe4a8ca7d1204f8ad4cfbdd2729ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4cfcee8788de696ca43458d85eec33fb85ef5677b8579e0d8696ac2db79bfdeb",
+  "request_fingerprint": "612b63db086505641fd37de298868279bf126ff683efdd3e3d7a799cd9f59c91",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2018”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "116\n\ninvalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 75%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n6.2.2 Componente de Conhecimento Específico\n\nNa Tabela 6.10, são apresentadas as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Relações Internacionais por Grande Região. Como será discutido ainda nesta seção, cinco questões objetivas do",
+  "text_sha256": "bea1cd44780750ed2fb81a4628d251aa341da9fae86c1de9fa77cbf31ceafa03",
+  "window_size": 3
+}

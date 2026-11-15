@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07ac1c4f91e77063006af8f22bd32c87d1aa44de659af1f0eb",
+    "usage": {
+      "input_tokens": 1969,
+      "input_tokens_details": {
+        "cache_write_tokens": 1966,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1966
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 2329
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_35.txt",
+      "source_sha256": "555fe82b3118714031666263197c54c0f6d895338585645dea28ef69ccbe0c31"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_37.txt",
+      "source_sha256": "4f5d6a5407e8475496b4e87b106327a2fe44939ddf4ec2f8538d8fb35a75b657"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:39Z",
+  "duration_seconds": 4.184,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_36.txt",
+    "source_sha256": "9635b3716f04683256b3070685be93d95d3d34a054c446085e4d8fe81454a4d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "da39dedea99ddd50c7ba8c375ae6d285be8c0603d3ca617afa263a469359d1ec",
+  "request_fingerprint": "90d5616db3f36f07bbb1b69c1aede1195a0d52c29ff2f1b1a8755b2475c1618a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% apenas entre a média obtida na região Sudeste (32,4) e as médias obtidas nas regiões Nordeste (34,3) e Sul (33,2).",
+  "text_sha256": "1dc635531be624e9bf06128ea0d7c9a1bbaa1a7b676cd395f2b53aab4c3e1502",
+  "window_size": 3
+}

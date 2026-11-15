@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c7e4e7a5be7390006af8ef5f253487d1aa1eda067deb9b8d",
+    "usage": {
+      "input_tokens": 1411,
+      "input_tokens_details": {
+        "cache_write_tokens": 1408,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1408
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 1592
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_44.txt",
+      "source_sha256": "4027c10f5747227aa538d2283c9a83809e94a0446cdf52196b175abfb29e4288"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_46.txt",
+      "source_sha256": "4a795a33548c46a524fd6abeeb9831322fcaae5f17efe42527fcfd877f74ed3a"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:43Z",
+  "duration_seconds": 2.443,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_45.txt",
+    "source_sha256": "761f58b588a4af64a1bde8b418a49f567eb265c38ea315288dbb65f7678e9f44"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1ce35be91a4bba70a329f8483280250808344e557117aca432f3a864edb46bf2",
+  "request_fingerprint": "a43d924833f97c265d0729ef9fd133a05fb6ff0dbc9e74027b2321bafacb19e3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (gráfico 3.11), observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (46,0) e Privadas (39,6), sendo que a maior média foi obtida por alunos de IES Públicas de ensino.",
+  "text_sha256": "1379ca3196a9b8169683f8ff22604155ebc0d77bc23c126d92fa357de398531e",
+  "window_size": 3
+}

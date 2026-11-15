@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09ddfe840ed03254006af9000daef487d199a1e05ed52e4987",
+    "usage": {
+      "input_tokens": 1767,
+      "input_tokens_details": {
+        "cache_write_tokens": 1764,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1764
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 288,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 2055
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_100.txt",
+      "source_sha256": "0e13fc95ca5ff093ed2f449e238944c0c1047ba10cd884d7251e06e4dde0473e"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_102.txt",
+      "source_sha256": "7a09a219b8341d5a997d3397042f57b201dab0b620a586dba13053c947508967"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:53Z",
+  "duration_seconds": 3.041,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_101.txt",
+    "source_sha256": "98ccf6b23e3fde64d8b6bf5a36748ca0a3a13895435bf807d612cbb703843c56"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e39aa72007cd5f0c7e7b3424e7088fadb75301153d61ff757191887b22cc8099",
+  "request_fingerprint": "6b49873bf05b4dd34c722a18befbd3b79a9cd70232ced5548d3c5810c55783c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.7, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na análise regional, a percentagem de estudantes que avaliaram que todos ou a maioria dos enunciados das questões do Componente de Formação Geral estavam “claros e objetivos” variou de 70,9% na região Centro-Oeste a 74,7% na região Sul, sendo esta e a diferença entre Sudeste (72,3%) e Sul, as únicas diferenças estatisticamente significativas.\n\nA análise das percepções dos estudantes sobre a clareza e objetividade dos enunciados permite afirmar que todos, ou a maioria dos enunciados de questões relativas ao Componente de Formação Geral, foram considerados “claros e objetivos” para a maior parte dos respondentes (maior ou igual a 70,9% em todas as regiões e maior ou igual a 64% para todos os quartos de desempenho).",
+  "text_sha256": "0949966fc46256c21ea96ebc3168b44937499dd076289e824949d1480acf9c79",
+  "window_size": 3
+}

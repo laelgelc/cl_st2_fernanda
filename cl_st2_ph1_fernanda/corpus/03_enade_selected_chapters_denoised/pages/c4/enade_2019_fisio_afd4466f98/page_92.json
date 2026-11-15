@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06e34a425bb1591f006af913289b7087d1af425689f8281696",
+    "usage": {
+      "input_tokens": 1833,
+      "input_tokens_details": {
+        "cache_write_tokens": 1830,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1830
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 392,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 2225
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_91.txt",
+      "source_sha256": "352a5408832b107d4a82a6dd071390844bf1affef7a5efea2b6805830ba7ced9"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_93.txt",
+      "source_sha256": "32be9772f4dda9119539d9bdbb441f0366f8f893832576e6050c146341cf33bc"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:24Z",
+  "duration_seconds": 5.215,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_92.txt",
+    "source_sha256": "12cc6606fc392476701b5eabeb596bb9e796e8e0fe97a8dcf7ec3108be2cd078"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "376d7710c21e3a1c1ad3294a0c5ca5e44101ddfc6e2143fb8c7b68beb7871428",
+  "request_fingerprint": "80358a07efb936da1fdeeb71970d594d00ee43927293756263de3b70c4d65e3b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.7 e sua fonte; o fragmento final “CEFET/IF” parece ser um rótulo gráfico associado ao Gráfico 4.8, que continua na página seguinte."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (37,9%), uma diferença estatisticamente significativa da proporção em IES Públicas (30,3%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 65,3% para os de IES Públicas e 58,4% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4 no Anexo II).",
+  "text_sha256": "33837d2c53eaf67aee63fe989977a50c3ad17ed3e8af0992dfe69b1d1b02411a",
+  "window_size": 3
+}

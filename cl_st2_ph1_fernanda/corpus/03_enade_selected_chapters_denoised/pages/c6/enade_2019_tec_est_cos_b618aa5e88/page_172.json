@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bf611cbc651b58006af9155955c087d1a662735ee9c95142",
+    "usage": {
+      "input_tokens": 2515,
+      "input_tokens_details": {
+        "cache_write_tokens": 2512,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2512
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 981,
+      "output_tokens_details": {
+        "reasoning_tokens": 591
+      },
+      "total_tokens": 3496
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 171,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_171.txt",
+      "source_sha256": "020019ee8a7200e39495ca250b597577d4c4525cc1ef112926536dee61663372"
+    },
+    {
+      "page_number": 173,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_173.txt",
+      "source_sha256": "df2c6130bed68515abc7e0e7da239e4986c943b9e50eb4c5cea8ca8543122972"
+    }
+  ],
+  "created_at": "2026-11-15T02:13:45Z",
+  "duration_seconds": 9.782,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 172
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_172.txt",
+    "source_sha256": "f743789dccde2212accc85b66d7fd3efd0b34f29be5d1282efd4cbddd35e823e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "081287ffafabff9f09e5a61eb15d1a3e9a52a575fca64c30d12c152d30b9596d",
+  "request_fingerprint": "0657a5e32dcbd492bf72ef0efb9a262849bc81a1cc90f52db98d3ea06913aa0b",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.15 — título, estatísticas, valores e fonte — removida.",
+    "O Gráfico 6.8 é mencionado na prosa; seu conteúdo gráfico não aparece no texto extraído do alvo. A página de contexto seguinte começa com uma linha de fonte, portanto convém verificar a posição do gráfico e da fonte no documento."
+  ],
+  "status": "success",
+  "text": "Quanto à variabilidade das notas, o Desvio padrão de todo o Brasil foi 20,4, inferior ao obtido na questão discursiva 1 (29,5). O maior desvio nessa questão foi obtido na região Norte (21,7), enquanto o menor foi obtido na região Sul (18,5).\nA Mediana de todo o Brasil foi 0,0, a mesma todas as regiões. As notas Máxima (100,0) e Mínima (0,0) foram as mesmas em todas as regiões, com exceção das regiões Sudeste e Centro-Oeste que obtiveram nota Máxima de 75,0.\n\nNo Gráfico 6.8, mostra-se a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que 25,5% dos estudantes deixaram a resposta à questão em branco. Chega a 17,9%, se agregado à frequência daqueles que, tendo respondido, receberam nota zero. Observa-se um máximo local no intervalo (30; 40], com 10,0% do total de participantes. Nota-se, ainda, que as notas ficaram levemente menos dispersas em comparação às da questão discursiva de número 1, o que pode ser constatado, também, pela comparação do desvio padrão das notas da questão discursiva 2 (20,4) e o das notas da questão discursiva 1 (29,5).",
+  "text_sha256": "8d14c98b5677a472b359e9ed220f8636d87d091343b4b77055a8f6b8b8174eaa",
+  "window_size": 3
+}

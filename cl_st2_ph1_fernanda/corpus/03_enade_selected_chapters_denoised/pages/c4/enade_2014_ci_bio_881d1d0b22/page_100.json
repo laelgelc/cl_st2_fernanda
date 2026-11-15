@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_034ec091b1544c05006af8f687ee9c87d19e6cd9f3d8ec7262",
+    "usage": {
+      "input_tokens": 1742,
+      "input_tokens_details": {
+        "cache_write_tokens": 1739,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1739
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 405,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 2147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_99.txt",
+      "source_sha256": "619f5cb72a11ad057e112c90100977fc34dbc67d4a09dbad412f285b688db8f3"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_101.txt",
+      "source_sha256": "566ebbff7e0de088b0df9d94dd5fc755f1e1fa2b6b79f56bea40249eeffb0d7c"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:15Z",
+  "duration_seconds": 4.268,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_100.txt",
+    "source_sha256": "4369ddcfc08ee0e43b04d4621769a2880bff24ab6ebe7e6a86e00fef17e4ad33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db287473872a78268f6d956112eb8d746f638b3f9c10c379985578df410fc5af",
+  "request_fingerprint": "6d3ab104591c36327c126dcb9ecd9d5ab29b8d2b3528127719849ec3e970c33b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014», que aparenta pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que não há diferença estatisticamente significativa do resultado do quarto de melhor desempenho em relação ao terceiro quarto, e nem deste em relação ao segundo. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 39,1% (4º quarto) a 43,3% (1º quarto), valores decrescentes com o desempenho. A alternativa modal para a Questão 2 foi o grau médio, com 51,6% do quarto inferior e 55,9% do superior optando por esta resposta, valores crescentes com o desempenho.",
+  "text_sha256": "1fcaea1485db679f1bc8f38d77e0d5753e94cd6d553301796421c0ceac50034e",
+  "window_size": 3
+}

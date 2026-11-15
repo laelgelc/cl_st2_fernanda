@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fcf2a5c25719eaf006af8f736da9087d1964266fa66f8ba49",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cache_write_tokens": 1574,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1574
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 267,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 1844
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_103.txt",
+      "source_sha256": "1208bb22b1bffb6b9b817b269f318a13d3cb96229963292f5131897f251b26c0"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_105.txt",
+      "source_sha256": "8f5b52561d2bff59eb7711138ebe831923f1e2fc842beaf9a6727347e1c2ee31"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:10Z",
+  "duration_seconds": 3.173,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_104.txt",
+    "source_sha256": "8294f5bb2fef7d7f0100fe8a349bbbefd6f115a32c8ea14a3b00327f058fc295"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "36beb03e1a2b766cbfa61b14abf3c7998b9874493c3524eaab0c3f9585bb6872",
+  "request_fingerprint": "d8bee672c542600a3888e0a826a7fd9ae0f69a3ff7a12972bf833539c4fc3e97",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e sua linha de fonte (MEC/INEP/DAES - ENADE/2014)."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (81,7%) se comparada ao quarto inferior de desempenho (71,6%). A diferença do primeiro para os demais quartos é estatisticamente significativa.",
+  "text_sha256": "5eb751cd59f5d47d31d9af61cdafae981f30ab23b4aa14326c4432cac772ab17",
+  "window_size": 3
+}

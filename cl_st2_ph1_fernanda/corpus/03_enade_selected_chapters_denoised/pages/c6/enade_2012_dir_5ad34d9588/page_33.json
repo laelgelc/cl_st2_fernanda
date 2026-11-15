@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_046a0d2ce661f0f5006af8f0e3d7c487d1bc9705cf2e9196c7",
+    "usage": {
+      "input_tokens": 2404,
+      "input_tokens_details": {
+        "cache_write_tokens": 2401,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2401
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 2790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_32.txt",
+      "source_sha256": "90a798fcde143e4d88a2259c529d29a174cda3009824c08c989732e17b92d151"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_34.txt",
+      "source_sha256": "25ce0225f918010468443742fbcf2bdc5ba593dd25bfeba621b3a52c04fb842f"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:11Z",
+  "duration_seconds": 3.933,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_33.txt",
+    "source_sha256": "dd915cad715a0ca46f2299d1ef27a706b1094e1190d516ebe0e625d856345688"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b7b641361b0054579c9900d24cbf30fb0e7889ed27cf6fc5bc04f58bf8133e1e",
+  "request_fingerprint": "0054aed3c99ea7dbf1779992c6036ef3a4cd53cf91fb01529dc3eac522fb1edb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Centro-Oeste (88,0), ao passo que a região que atingiu a menor nota máxima foi a Norte (79,4). A mediana do Brasil como um todo foi 41,2, sendo a maior mediana obtida na região Sul (41,9) e a menor obtida nas regiões Norte e Centro-Oeste (40,3). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,17) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa (variando de -0,23 até -0,02), concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo.",
+  "text_sha256": "ea44e1ba1cf68e4d69d58e3ac2e7726dcd1bce9ad93cbc2dd244c6abcad16e82",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dfa71a902476fda006af8f1cca1dc87d1a424b4a35ffb8f79",
+    "usage": {
+      "input_tokens": 1705,
+      "input_tokens_details": {
+        "cache_write_tokens": 1702,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1702
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 683,
+      "output_tokens_details": {
+        "reasoning_tokens": 514
+      },
+      "total_tokens": 2388
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_81.txt",
+      "source_sha256": "97eb958e13e1d726503369fa3324d7e8de2821f8016c43ed09b6d227992ae6c3"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_83.txt",
+      "source_sha256": "8228804c8d6f92df40ba5237dc0c8f03574bf186d588c0e874ffef0d47206fae"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:04Z",
+  "duration_seconds": 6.772,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_82.txt",
+    "source_sha256": "817f6ef55aff943b8630100e2fd550889ccf06f8f47c50c16b7a3d027d61ddd3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf3010a073ae80fa198eedfd032d013255234323ccd16f29989b3a8d6a540e82",
+  "request_fingerprint": "143d341e0fcc71ed6e4ccb7632222233e9c3454c81982044e6b4d0d010e3fa33",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente associada a material gráfico; revisar o limite do gráfico na página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 38,8% (3º quarto) a 41,0% (2º quarto). Já a alternativa modal para a Questão 2 foi o grau médio, com 52,5% do quarto inferior e 55,9% do superior optando por esta resposta.",
+  "text_sha256": "e6de8acf0ae97cd97bd435bd6c73c35260be6688dbf0a8fb7d26049b5f8d2231",
+  "window_size": 3
+}

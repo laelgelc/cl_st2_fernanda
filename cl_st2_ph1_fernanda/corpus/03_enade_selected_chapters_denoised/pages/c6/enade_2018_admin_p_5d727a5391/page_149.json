@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b6da5c66b94333006af90be8e36487d1b65e0205735edb85",
+    "usage": {
+      "input_tokens": 2452,
+      "input_tokens_details": {
+        "cache_write_tokens": 2449,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2449
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 777,
+      "output_tokens_details": {
+        "reasoning_tokens": 455
+      },
+      "total_tokens": 3229
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_148.txt",
+      "source_sha256": "56afcc614699ae2f7dbde58031df69f7a1041c7dd0fc3b8dce5ab92d6a66aca6"
+    },
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_150.txt",
+      "source_sha256": "322821869a74773e1028438c203990886aad60dbb748ed7f3bb3ae2250d61cc9"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:28Z",
+  "duration_seconds": 7.536,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 149
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_149.txt",
+    "source_sha256": "99973b1d70b3334ab3bfad8721c7b71c28588593a1d91e3008954a49230030f0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "96f669a12ea07d09c22359542945b7d232b85afd85ae96e6bf004a2b84a456a3",
+  "request_fingerprint": "6725c72b8e111b0f57f8eb05037e51483fcac536e023ef4932f31d67f3cd5152",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.17, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.10; sua linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "Quanto à variabilidade das notas, o Desvio padrão de todo o Brasil foi 23,4. O maior Desvio padrão foi encontrado nas regiões Sudeste e Sul (23,1), e o menor, na região Norte (18,7). A maior nota Máxima, 96,7, foi obtida nas regiões Sudeste, Sul e Centro-Oeste; nas regiões Norte e Nordeste a nota foi menor, 90,0. A nota Mínima (0,0) foi obtida por, pelo menos, um aluno em todas as regiões do Brasil. A Mediana do Brasil, como um todo, foi 35,0. A maior Mediana foi obtida na região Sudeste (41,7), e a menor, na região Norte (13,3).\n\nNo Gráfico 6.10, representa-se a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo [0; 10], com mais do que 19% do total de participantes. Observa-se que nesses intervalos estão computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos.\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "7d99cf73468beb8dab42d420e3eac84af2b6298a7d79f5637126cf24fad69993",
+  "window_size": 3
+}

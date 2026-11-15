@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_062958a347ddbf8d006af8f053759087d1b601f2180a5df5cc",
+    "usage": {
+      "input_tokens": 2689,
+      "input_tokens_details": {
+        "cache_write_tokens": 2686,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2686
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 831,
+      "output_tokens_details": {
+        "reasoning_tokens": 459
+      },
+      "total_tokens": 3520
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_71.txt",
+      "source_sha256": "d4fc61c83def0c4c2c4d2892ed33f313fc01f81c3e75b9d223d4ec1861569a4b"
+    },
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_73.txt",
+      "source_sha256": "c8aee24ff859fa615127a2c38cd4c6e629bc5b37cb3f8199964ab6d0799e7588"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:47Z",
+  "duration_seconds": 7.702,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 72
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_72.txt",
+    "source_sha256": "b20ed2280de9960716c93fb858d420740a30c3530c8b738f684ab271efbefe80"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e13dd498ba27b7bb7031bc4943c0d9f65ace9bc24a247af93a8747fc45b1738d",
+  "request_fingerprint": "fae985b5061b9dc108bb565fe7c8a744346629a1d37409aac61e2bafbd52d079",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e linha de fonte.",
+    "A última frase do texto termina em “para todas” na página-alvo e continua na página seguinte; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "3.3.2.3 Análise da Questão Discursiva 4 do Componente de Conhecimento Específico\n\nA Tabela 3.13 contém as informações relativas à questão 4 do conjunto de questões do componente de Conhecimento Específico. O desempenho dos estudantes de todo o Brasil nesta questão foi inferior ao desempenho na questão de número 3. A média geral do Brasil foi 7,7, sendo a menor média registrada na região Centro-Oeste (6,3) e a maior na região Sudeste (8,1). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 13,6. O maior desvio padrão foi obtido na região Sudeste (13,9), enquanto o menor foi obtido na região Centro-Oeste (12,3).\n\nA nota máxima (100,0) foi atingida em todas as regiões, sem exceção. A mediana e a nota mínima foram zero para todas as regiões do Brasil, sem exceção. Ou seja, pelo menos metade dos alunos tirou nota zero nesta questão.\n\nO Gráfico 3.20 representa a distribuição de notas na questão discursiva 4, no componente de Conhecimento Específico. Como nas outras questões discursivas, o número de estudantes que deixou a questão em branco foi muito grande, correspondendo à moda da distribuição. O coeficiente de assimetria é positivo para todo o Brasil (2,08) e para todas",
+  "text_sha256": "747fff20e2cde27d6dfe69ddbc5685d6a33af3a073cb005f8b749913e71f9246",
+  "window_size": 3
+}

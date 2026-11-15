@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cfddfbaf323c87d006af9137e886087d187e00222bfe929d6",
+    "usage": {
+      "input_tokens": 2836,
+      "input_tokens_details": {
+        "cache_write_tokens": 2833,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2833
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 588,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 3424
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_124.txt",
+      "source_sha256": "2e75671c342fe8386cb3164048f6faa66145d4b2038a45ab08b60a1f060b2b9d"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_126.txt",
+      "source_sha256": "e420fe784d5eea57c86d4f732b0fed4ffc0d5387a65abfa8cd569adc3cee0c00"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:50Z",
+  "duration_seconds": 6.239,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fono/enade_2019_fono_page_125.txt",
+    "source_sha256": "e6e7c50ae3df671773acd9d54207d48b3ba8406cd10ec168076b4883b7b2bf36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2cd0ca9008b7093e495cc51756e56a43a69f68cc2ddb71b023e95313d7717a2e",
+  "request_fingerprint": "6d619de3eb2459ea8fd291fa574520d6ac4b26d704d7d1bceb773a3a5b77c18a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/Inep/Daes – Enade/2019”, que pertence ao Gráfico 5.2 iniciado na página anterior. A Tabela 5.3 é mencionada na prosa, mas seu conteúdo tabular não aparece nesta página."
+  ],
+  "status": "success",
+  "text": "5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\n\nNa Tabela 5.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2019, na Área de Fonoaudiologia, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 73 cursos de Fonoaudiologia participantes, 41 eram oferecidos em Universidades, 21 em Centros Universitários e 11 em Faculdades. Esta distribuição corresponde a, respectivamente, 56,2%, 28,8% e 15,1% dos cursos. Não havia cursos avaliados da Organização Acadêmica CEFET/IFET.\n\nNenhum curso ficou Sem Conceito (SC).\n\nDe acordo com os dados apresentados, de todos os dez cursos avaliados com conceito 5, nove eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 4 como conceito modal, atribuído a 15 cursos (36,6%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (quatro cursos), 2 (sete cursos), 3 (seis cursos) e conceito 5 (nove cursos, como já mencionado).\n\nDos cursos em Centros Universitários, o conceito modal foi 2, atribuído a dez cursos (47,6%). Os outros cursos vinculados a esse tipo de Organização Acadêmica receberam os conceitos 1 (seis cursos), 3 (dois cursos), 4 (outros dois cursos) e 5 (um curso).",
+  "text_sha256": "19aadd1ab283a24cf7fa6cf4e094e5083222183e37935cf66f32ba4bd1c44392",
+  "window_size": 3
+}

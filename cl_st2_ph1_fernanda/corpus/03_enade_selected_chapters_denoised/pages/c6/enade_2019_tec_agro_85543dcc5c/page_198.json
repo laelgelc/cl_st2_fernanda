@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c1c1bf754779a18006af9152d1d2887d1af1c31266fc7ac37",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 2618,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2618
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 3267
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 197,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_197.txt",
+      "source_sha256": "ff9be12bb86e89005382dcfb41a5afaf3a5444102aee4c61470000f5d319209c"
+    },
+    {
+      "page_number": 199,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_199.txt",
+      "source_sha256": "e3cedf4e11c3888cfe5715c85958f9d100fb141ecf0e613912af7692827e94f4"
+    }
+  ],
+  "created_at": "2026-11-15T02:13:01Z",
+  "duration_seconds": 5.586,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 198
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_198.txt",
+    "source_sha256": "3ac64b6bf318fe58421981dcb4b199e5d8e12d2825da40911d53a4f904d44aa8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a718123292acd028861d693f8ccdf1fc9c73c413513f0e8d4238b7b334bd6e8d",
+  "request_fingerprint": "ef281c4bd2b7a5789538fc504e53c4a1016c8e2cc31f755ed1d08b4f17b482d7",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Desvios de concordância nominal e verbal:\n• ausência ou presença indevida de marca de plural (com sujeito anteposto ou posposto). Exemplos:\n“Os setores público e ensino superior poderiam desenvolverem (por “desenvolver”)\npesquisas para empresas seja (por “sejam”) elas do tipo tecnologico (por\n“tecnológico”), saúde, transporte entre outros”;\n“já as empresas poderiam financiar projetos de pesquisas para os setores público\ne ensino superior que também poderia se utilizarem (por “utilizar”) de suas partes\nestruturais e acadêmicas para desenvolvimento tecnologico” (por “tecnológico”);\n“as empresas que produz (por “produzem”) os materiais”;\n“o engajamento entre ambos elevam (por “eleva”) a economia”.\n• Aparecimento da marca de plural em verbos ou adjetivos relacionados a núcleos\nsubstantivos no singular devido à presença de modificadores no plural. Exemplos:\n\"o financiamento das bolsas de estudo devem (por “deve”) ser ampliados” (por\n\"ampliado”);\n“o acesso aos cursos deveriam (por “deveria”) ser incentivados (por \"incentivado\")\npelas empresas”, evidenciando um processo de hipercorreção.\n• Ausência de acento circunflexo na forma plural do presente do indicativo dos\nverbos “ter” e “vir”, considerada como um desvio na concordância verbal e não na\nacentuação gráfica. Exemplos:\n“ganhos na economia vem (por “vêm”) através dos aumentos com exportação”;\n\"as universidades públicas tem (por \"têm\") recebido menor quantidade de verbas\npara suas atividades\".\n• Ausência de concordância de gênero, no âmbito de sintagmas nominais longos,\nem que o adjetivo antecede ou está afastado do substantivo. Exemplos:\n\"seria necessário uma reeducação\" (por \"necessária\");\n\"é necessário (por \"necessária\") a mobilização\";\n• Emprego de “onde” não locativo. Exemplo:\n“Com isso o custo seria inferior ao comprador, onde iria igualar aos países mais\ndesenvolvidos”.",
+  "text_sha256": "73d0215bbc39601c8cfa80a0155741a4bfd6464bf57529c5d92fb629fa674190",
+  "window_size": 3
+}

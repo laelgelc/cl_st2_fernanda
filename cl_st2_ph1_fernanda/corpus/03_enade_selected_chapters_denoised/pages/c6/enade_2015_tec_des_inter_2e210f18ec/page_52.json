@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08e8e88f8a78f603006af8ff4be87087d184882820dc4973bb",
+    "usage": {
+      "input_tokens": 2526,
+      "input_tokens_details": {
+        "cache_write_tokens": 2523,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2523
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1178,
+      "output_tokens_details": {
+        "reasoning_tokens": 647
+      },
+      "total_tokens": 3704
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_inter/enade_2015_tec_des_inter_page_51.txt",
+      "source_sha256": "98f40a2bea19bbc95c9779593cf8ae76ef888b8e38a932bb0ae4f437f31f24a2"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_inter/enade_2015_tec_des_inter_page_53.txt",
+      "source_sha256": "92b22db46b230c4cced7066b7772ff10f57db5a9b9c51b665972470a2345ecf8"
+    }
+  ],
+  "created_at": "2026-11-15T00:39:39Z",
+  "duration_seconds": 10.576,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM DESIGN DE INTERIORES.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_inter/enade_2015_tec_des_inter_page_52.txt",
+    "source_sha256": "dfdfa86d69df5c38c486c60d935bcfd4e842d7faf0960af6b9d52719e6d7ab4a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9f24b29ab3a9a441020509e0740c85a6a3d84cbfdc0fac898fd6c8a87919bcd6",
+  "request_fingerprint": "2c6ade91c1ddfde0ec44172f31edda83bb6de1e45b9d728a307c56bf20a1c220",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.4 é discutido no texto, mas seu material gráfico não aparece na extração fornecida para a página-alvo."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 35,0% escolheram a alternativa D, 20,4% a alternativa C (correta), 16,0% a alternativa A, 14,8% a alternativa B e 12,9% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,8% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b96464e4ec39284b87e001df0959a9711991c7bfe04d5701a9ff1163b562da12",
+  "window_size": 3
+}

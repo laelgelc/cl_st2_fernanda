@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d741ca8644c5e37006af90bd9e3e887d1b17202c2d96892e8",
+    "usage": {
+      "input_tokens": 3286,
+      "input_tokens_details": {
+        "cache_write_tokens": 3283,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3283
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1080,
+      "output_tokens_details": {
+        "reasoning_tokens": 705
+      },
+      "total_tokens": 4366
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_125.txt",
+      "source_sha256": "8dbf3333fda88385b7e1e59b1a9ed7367c46091ce3a9c1b8d0ea54fc23defa0a"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_127.txt",
+      "source_sha256": "1fa5f2478990f09bfef5e5f272cd889c1ed671a28ce5d6590fffb96b73f9085e"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:13Z",
+  "duration_seconds": 7.008,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin_p/enade_2018_admin_p_page_126.txt",
+    "source_sha256": "7755665c8921dcfc45f246f8db6757f04929a285d895a56100719e6635fd0613"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "42f2f623be77bfc79caba9480907330df4cc8d0722a4a89bd0a8f8cc261237da",
+  "request_fingerprint": "b7d2c2603a35d99f6064e41494cfd6741b0caaffa1a82ae51b912e00e47561bd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte.",
+    "A prosa termina no alvo com “Índice de Discriminação de”; a frase continua na página seguinte e não foi completada."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta simultaneamente a classificação dos dois índices. Dentre as questões que alcançaram os maiores índices de discriminação, nove delas foi classificada com Índice de Discriminação Muito bom (questões 11, 13, 16, 23, 26, 29, 32, 34 e 35) e oito com o índice Bom (questões 9, 10, 18, 20, 21, 25, 28 e 31). A questão de número 29 foi classificada, quanto ao Índice de Discriminação, como Muito bom (0,51), seu Índice de Facilidade foi Médio (0,46), ou seja, 46% dos estudantes marcando a opção correta. A questão de número 25 foi a mais fácil dentre as 27 questões específicas válidas, com o mais alto Índice de Facilidade, 80% de acertos e o Índice de Discriminação classificado como Bom (0,39). A questão de número 24 foi a mais difícil dentre as 27 questões específicas válidas, com baixo Índice de Facilidade, apenas 10% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,01, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 30, com Índice de Discriminação de",
+  "text_sha256": "a10fc14786b9d577b1b648104475ab6eba2cbec13eda33cdbcb74b5108e007cb",
+  "window_size": 3
+}

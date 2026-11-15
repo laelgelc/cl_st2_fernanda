@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0196f92dafe36bbd006af8f13d603887d19f777d60a7dbc426",
+    "usage": {
+      "input_tokens": 2314,
+      "input_tokens_details": {
+        "cache_write_tokens": 2311,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2311
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 578,
+      "output_tokens_details": {
+        "reasoning_tokens": 319
+      },
+      "total_tokens": 2892
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_56.txt",
+      "source_sha256": "225e399385a0a3283e481bc8e5fb7dbcf98a5543bb2ef7d814a5828892964dbb"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_58.txt",
+      "source_sha256": "e5c55624c3f12f3e9ceff5044e5d5d16b744275071acf68cf52ccae34ae986f7"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:41Z",
+  "duration_seconds": 5.921,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_57.txt",
+    "source_sha256": "ddba64c840edbe53240d7cd59874ae4f723f17c151fee46f95d837c7789f903f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "13653d3581ead521310f8a57e0bfaca851d786dd0922fb6dca1a763ac904fc85",
+  "request_fingerprint": "41d9c2baac10b24d03631244498adb7c089c438a2cacad3bc88539064657a769",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "O texto termina no meio de uma frase na quebra da página; não foi completado com conteúdo da página de contexto."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.14 analisa a questão 31 do componente de Conhecimento Específico. Esta foi a quinta questão mais fácil da prova, apresentando índice de facilidade 0,53, ou seja, 53,0% dos estudantes assinalaram acertadamente a opção B, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,46, classificado como muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 31, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por",
+  "text_sha256": "92517cbcff425e48d258c532949b8cd800ca5f654bd6fb0b3ca97454ab935eaf",
+  "window_size": 3
+}

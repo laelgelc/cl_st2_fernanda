@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09b70e058b4c37fd006af8f9d04a7487d1b6a956a61b9283b6",
+    "usage": {
+      "input_tokens": 1747,
+      "input_tokens_details": {
+        "cache_write_tokens": 1744,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1744
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 2156
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_103.txt",
+      "source_sha256": "88772518f8272ffddf24f2f084b46478edbacc1914bfb23a2aa28f43cdc92737"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_105.txt",
+      "source_sha256": "a89b8d3515fef71818018b4a052137e451fcc21c032206046afb3f0a980178a2"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:16Z",
+  "duration_seconds": 5.641,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_104.txt",
+    "source_sha256": "cc78d43d72802d62f7d2ff372f5893d97d8883beb903d668f41b0a75b575a201"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e0815283a13df968e5293cf5cbae6424885a4213ec7256ade788ccec19c802c5",
+  "request_fingerprint": "81e2ab9834ea6ac2f5988e71caf103872f5247cca801e6a09f119dee1bfb4f77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa do resultado do quarto de melhor desempenho em relação aos demais com respeito a proporção dos que classificaram a parte específica como difícil ou muito difícil. Esta variou de 30,9% (4º quarto) a 39,3% (1º quarto), valores decrescentes com o desempenho. A alternativa modal para a Questão 2 foi o grau médio, com 50,7% do quarto inferior e 61,2% do superior optando por esta resposta, valores crescentes com o desempenho.",
+  "text_sha256": "afed603379f8936d551da10f5211f3444405c8d867383158358e9f9f05471689",
+  "window_size": 3
+}

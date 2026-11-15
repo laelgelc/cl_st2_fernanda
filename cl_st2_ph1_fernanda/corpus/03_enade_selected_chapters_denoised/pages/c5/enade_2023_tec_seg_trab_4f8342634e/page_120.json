@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c800d28687d9847006af9256cdf9087d1a19592e98e68b8b6",
+    "usage": {
+      "input_tokens": 2845,
+      "input_tokens_details": {
+        "cache_write_tokens": 2842,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2842
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 475,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 3320
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_119.txt",
+      "source_sha256": "5a9884831f5654c9efbb2beb2bab5d64797d4e36461ff204b2638f029e9c3a21"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_121.txt",
+      "source_sha256": "c690514640651dea65128c6eb0cb28af301b6186eca9efed114832aa1ae4d1df"
+    }
+  ],
+  "created_at": "2026-11-15T03:22:20Z",
+  "duration_seconds": 4.643,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC SEGURANÇA NO TRABALHO.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_120.txt",
+    "source_sha256": "c1afa401b4dde1117c902f925448aef880a8631ce8dd8be1eb77354afeaa9240"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c491407ab4aa240666e16aac75285be559e790f200aad409e7f8fa72c895eaec",
+  "request_fingerprint": "7cc579491e8b6dc116bfc572341bbb3664d814e544dcb63164cbda78d7ed3fe0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 2, ou seja, conceitos 1 e 2, pode-se notar, por exemplo, que a região Sudeste (linha vermelha) apresenta 57,1% dos cursos com conceito 2 ou abaixo deste valor. A região Norte (linha azul), por outro lado, apresenta 0,0% dos cursos na mesma situação: com conceito 2 ou abaixo. Destaca-se que, a região Sudeste (linha vermelha), os conceitos 4 e 5 não foram alcançados por nenhum curso, na qual todos os cursos têm conceito menor ou igual a 3, e a respectiva poligonal cumulativas alcançam 100% no conceito 4. A região Sudeste (linha vermelha) apresenta os cursos com conceitos mais baixos, ao passo que a região Norte (linha azul) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Nordeste (linha verde) e Sul (linha roxa) apresentam uma situação intermediária.",
+  "text_sha256": "5a01b8a4093e04b483e97222d2c03618273ad214573cf2f66d6eb215bfd2dc99",
+  "window_size": 3
+}

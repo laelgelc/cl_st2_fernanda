@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_092cb81d8fc0888e006af8ef70bab887d1a4e94243909a83cb",
+    "usage": {
+      "input_tokens": 1710,
+      "input_tokens_details": {
+        "cache_write_tokens": 1707,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1707
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 352,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 2062
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_81.txt",
+      "source_sha256": "b2256066cb6762d61df40afca54fb897abf0da32a5a4d300f0df804c5192fef3"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_83.txt",
+      "source_sha256": "b8d9d7e2bc4dd2dcfad84e0d2a8d8761aca7afb969d891e16d2232297d4f9b96"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:00Z",
+  "duration_seconds": 3.744,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_82.txt",
+    "source_sha256": "d40350e736d88429d2be93e563895cd5e7890be4ded94c8f4e470608c5f6b976"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f99d28067f7a1d7dfc20dc54604d01d02f1bc5d1ed7c91bc929e4a57488b11de",
+  "request_fingerprint": "d52f295422fdc1f8e9efcd4bf7320770c246b93510f27b6963bafba1561fe5df",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa, a não ser na comparação do 1º e 2º quartos. Em todos os quartos, a proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 43,5% (1º quarto) a 48,2% (3º quarto). A alternativa modal para a Questão 2 foi o médio no 1º, 3º e 4º quarto, no 2º quarto a alternativa modal foi difícil.",
+  "text_sha256": "d295413f0e89bb1411c1aee4952009275aa7ed2265efee316c0538925d42f0e4",
+  "window_size": 3
+}

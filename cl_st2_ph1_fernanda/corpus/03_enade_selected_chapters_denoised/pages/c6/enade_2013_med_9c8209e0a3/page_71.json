@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_093fd1e807035425006af8f462463087d1ade103c911c8ca9c",
+    "usage": {
+      "input_tokens": 2586,
+      "input_tokens_details": {
+        "cache_write_tokens": 2583,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2583
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 629,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3215
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_70.txt",
+      "source_sha256": "7d24dd8fb3bc66fefdbc2f41b541ebe5b10c8c2e50954dccf9434e055ea3d4eb"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_72.txt",
+      "source_sha256": "e49852a7e6ed31228dbff88abf08ad95c9a31ba731ad3df33573ddb6c332ba29"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:06Z",
+  "duration_seconds": 5.95,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_71.txt",
+    "source_sha256": "ed536371c9e7b73c72f3eb1cf4cc724e034838d96c5495ca973a9106361d010d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5c40370426f99a790bbec552f5b177cba8b09a86185685b4faa05c05a0a0c9b2",
+  "request_fingerprint": "fe2eeee0f998ac0c69555cbee393426e9502af549d2f105cacde83a3ebf09818",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.11 (título, dados e linha de fonte) e seu conteúdo tabular. A discussão em prosa do Gráfico 3.18 foi preservada; nenhum material gráfico aparece no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "A maior média com respeito à Língua Portuguesa foi obtida na região Centro-Oeste (58,6), e a menor, na região Norte (51,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 22,3. O menor desvio padrão foi obtido na região Centro-Oeste (18,9) e o maior desvio padrão foi obtido na região Nordeste (25,1).\n\nA mediana da nota de Língua Portuguesa foi 60,0 para as regiões Sudeste e Sul, mais alta para as regiões Nordeste e Centro-Oeste (62,5) e mais baixa para a região Norte (57,5). Para o Brasil como um todo foi também 60,0. A maior nota máxima foi obtida por pelo menos um aluno na região Nordeste (95,0), enquanto a menor nota máxima foi obtida na região Norte (90,0). Além disso, a nota mínima foi zero em todas as regiões do país, sem exceção.\n\nO Gráfico 3.18 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota no intervalo (60; 70], correspondendo à moda da distribuição. As questões em branco constituem uma segunda moda.\n\nA distribuição das notas possui assimetria negativa (-1,33), assim como em todas as regiões do Brasil (entre -1,63 para o Centro-Oeste e -1,04 para o Norte).",
+  "text_sha256": "3dff0c2e1cbf3aa6fe25b7c8cafb5fac3256696bb58ab0f0b9296a0d2da224c2",
+  "window_size": 3
+}

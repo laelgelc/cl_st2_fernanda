@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f6a70da8b34a990006af919729fa087d18c743574ad090d7a",
+    "usage": {
+      "input_tokens": 3085,
+      "input_tokens_details": {
+        "cache_write_tokens": 3082,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3082
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 697,
+      "output_tokens_details": {
+        "reasoning_tokens": 325
+      },
+      "total_tokens": 3782
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 255,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_hist/enade_2021_hist_page_255.txt",
+      "source_sha256": "0e2300f16971ce948abcc86c44674f87488b238d1ecbb26c8fdfbe2de10330bd"
+    },
+    {
+      "page_number": 257,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_hist/enade_2021_hist_page_257.txt",
+      "source_sha256": "d7737a0766578a6412527b48e4eb9a168f0ed5d498184b0845c404b87cb14d98"
+    }
+  ],
+  "created_at": "2026-11-15T02:31:14Z",
+  "duration_seconds": 9.02,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_HISTÓRIA.pdf",
+    "page_number": 256
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_hist/enade_2021_hist_page_256.txt",
+    "source_sha256": "6e47779f08125eb8de44ca8af46113835ae5f5a6a3f46050f25d8d23dd39a400"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0d6c239a6c7bb3a9d1270dcc3f3267a1f0b815998a9e0ce8d7b64e16358a73e",
+  "request_fingerprint": "49a4fa3b5ee9a4e1178b9f7b2acda62888420aa0c8c76cea932b42a27fae717a",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 5.1b e sua linha de fonte («Fonte: MEC/Inep/Daes - Enade/2021») foram excluídos."
+  ],
+  "status": "success",
+  "text": "valor acumulado da variável (Conceito Enade). Observando-se a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, os conceitos 1, 2 e 3, pode-se notar que, por exemplo, a região Norte (linha azul) apresentou 100% dos cursos com o conceito 3 ou abaixo desse valor. A região Sudeste (linha vermelha), por outro lado, apresentou 43,5% dos cursos na mesma situação: com o conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 pode não ter sido alcançado por nenhum curso, como ocorreu nas regiões Norte (linha azul) e Nordeste (linha verde): na primeira, todos os cursos obtiveram conceitos iguais a 1, com a poligonal alcançando 100% no conceito 1; na segunda, os conceitos foram menores ou iguais a 4, tendo a poligonal alcançado 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam as Grandes Regiões com a pior distribuição, e poligonais mais à direita, as Grandes Regiões com os melhores conceitos. As regiões Norte (linha azul) e Nordeste (linha verde) apresentaram os cursos com os conceitos mais baixos, ao passo que as regiões Centro-Oeste (linha laranja), Sudeste (linha vermelha) e Sul (linha rosa) apresentaram as distribuições com os valores maiores.",
+  "text_sha256": "f4cbd94d37c446cae21c0ab8dfa68666172cf3864b935e4d64878cece0a495ac",
+  "window_size": 3
+}

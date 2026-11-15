@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09c283c90c61e6c3006af90dacdbc087d1b3d74a85f992111b",
+    "usage": {
+      "input_tokens": 2270,
+      "input_tokens_details": {
+        "cache_write_tokens": 2267,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2267
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 196
+      },
+      "total_tokens": 2630
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_149.txt",
+      "source_sha256": "e0be49460bebb8de6d7ef3bf5acf545bc65911de7189f0e3c4740a86dd6c8f49"
+    },
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_151.txt",
+      "source_sha256": "02f7372dc883a47a314e777b4ea53a665ab00fc0c2193c1cc538c11ca49e603d"
+    }
+  ],
+  "created_at": "2026-11-15T01:41:00Z",
+  "duration_seconds": 4.138,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 150
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_150.txt",
+    "source_sha256": "9d6d827cfa18e502ca8f1c857eb1ad233e3fdd1d85d94fdd0b2ea26316d8c905"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "538905f4152569a956738a26e30dfdc9e47531bacce5aaee6ae975205b1e4c71",
+  "request_fingerprint": "28ecbf0f8ed75142b7ed525b7b7283c74853ab11a86f361886ecad711bc393da",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte. Removida a linha de fonte associada ao Gráfico 6.11; o conteúdo gráfico não aparece na extração."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Secretariado Executivo. Na questão 3 10,3% dos estudantes deixaram a resposta em branco e 5,7% receberam nota zero. A moda da distribuição está no intervalo (80; 90], com frequência de 20,2%, seguido do intervalo (60; 70], com frequência de 19,0%.",
+  "text_sha256": "dff42a4c4ac6b0823b43eeaf828868e2dbf7fb438b71bdc13291f02e643e656d",
+  "window_size": 3
+}

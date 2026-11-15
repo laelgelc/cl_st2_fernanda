@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c151a12e11cbbda006af912ef06e087d1829be188c5a89902",
+    "usage": {
+      "input_tokens": 2407,
+      "input_tokens_details": {
+        "cache_write_tokens": 2404,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2404
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 2906
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_farm/enade_2019_farm_page_125.txt",
+      "source_sha256": "32c202f760bb5179364e39172a926fbae7936374ed757f8827e57f4ec475481b"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_farm/enade_2019_farm_page_127.txt",
+      "source_sha256": "85447cf8667ac1b7e23f25498b4e91ba205ef2a312e50f6e916858d04f10d405"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:26Z",
+  "duration_seconds": 5.441,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_farm/enade_2019_farm_page_126.txt",
+    "source_sha256": "15b7413772844b0614e3c554d6b20844bfa8e97450f709ab466bda731a2ef2d1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "68a0ea4488d7b529a6a67a6fd4075b0633f81fdc1da5918e4c0953039d9806c7",
+  "request_fingerprint": "1427b86a06530aa59acb18821d293142d0faf3b9fe60b82bcd6e4d0c1714517d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2019”, identificada como pertencente ao Gráfico 5.2. O texto final da página termina em uma frase incompleta, preservada sem completar com conteúdo da página seguinte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.2, apresenta-se a distribuição do Conceito Enade, segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceitos Enade com valores maiores.\n\n5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\nNa Tabela 5.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2019, na Área de Farmácia, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 431 cursos de Farmácia participantes, 186 eram oferecidos em Universidades, 103 em Centros Universitários, 140 em Faculdades e 2 em CEFET/IF. Esta distribuição corresponde a, respectivamente, 43,2%, 23,9%, 32,5% e 0,5% dos cursos.\n\nDe acordo com os dados apresentados, de todos os 28 cursos avaliados com conceito 5, 25 eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização",
+  "text_sha256": "8745211914117de004f92c9fc3281ed260fdc849502c205b546d89bc216e473a",
+  "window_size": 3
+}

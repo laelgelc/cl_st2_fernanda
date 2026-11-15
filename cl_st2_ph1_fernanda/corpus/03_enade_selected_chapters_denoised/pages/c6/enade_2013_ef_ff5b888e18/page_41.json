@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_062f2ce52c590d26006af8f346744c87d195d1bc013f391cfe",
+    "usage": {
+      "input_tokens": 1675,
+      "input_tokens_details": {
+        "cache_write_tokens": 1672,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1672
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 1969
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_40.txt",
+      "source_sha256": "2724cb873def394d0d8f50fc3653908d0d00402d178eaae82b50d10955966427"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_42.txt",
+      "source_sha256": "d11408791671461937c71446608551ec28e358cdaa4f8abe225749e480d4a552"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:22Z",
+  "duration_seconds": 3.748,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_41.txt",
+    "source_sha256": "b8e88f20a274416eaff8b95699ba6794dc81e0e0e807b082abed494f8aa6bb2d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7625a9759bcc4d00a8787fde8ba56feaba7d810c8e453989d5c99b702ebcd5b2",
+  "request_fingerprint": "7322d94c9d909ad837e663c26db701f1081064e2dddb944a7f942c4503a5f810",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao Gráfico 3.4; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (50,4), e a menor, pelos de Faculdades (47,6).",
+  "text_sha256": "123df5b1c10798d3290204151ebc0e60ecb62fd48516d41327dffd15a19bc77c",
+  "window_size": 3
+}

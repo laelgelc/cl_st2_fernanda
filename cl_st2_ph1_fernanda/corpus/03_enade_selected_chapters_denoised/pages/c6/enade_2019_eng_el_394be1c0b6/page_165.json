@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0604faeb876181d2006af911e29b7c87d188c096a424942add",
+    "usage": {
+      "input_tokens": 2653,
+      "input_tokens_details": {
+        "cache_write_tokens": 2650,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2650
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 3185
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_164.txt",
+      "source_sha256": "dcf72a3e50746141d5af4a522e3cffd124020f94828acfbb4e3cad5965cc1728"
+    },
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_166.txt",
+      "source_sha256": "c8b9bda88261559fc49de70fb85f3f271efbd4e516c2000030304fff967fb6ef"
+    }
+  ],
+  "created_at": "2026-11-15T01:58:58Z",
+  "duration_seconds": 6.313,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 165
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_165.txt",
+    "source_sha256": "e014c91268d6f5fe804e6ae7282a112e0a8bb95c5280f75cf19a233f4980fb6d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "da5f09e067a41680ab5a99706c26320d417d9a34dbb402740eb723953fb7a0da",
+  "request_fingerprint": "268b176bb47fed36d4dc531c123071effc3121d8113fcce32c1487663f87456c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/Inep/Daes – Enade/2019”, que aparenta pertencer ao gráfico iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 - ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "39da234df13e854af82c337a79a3cc80478ad1783922281a636ddd09549e1208",
+  "window_size": 3
+}

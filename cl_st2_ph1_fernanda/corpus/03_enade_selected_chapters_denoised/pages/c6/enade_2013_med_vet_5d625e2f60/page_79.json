@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd1836f41f19b98006af8f43e176487d1932d60b99341748f",
+    "usage": {
+      "input_tokens": 2713,
+      "input_tokens_details": {
+        "cache_write_tokens": 2710,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2710
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 895,
+      "output_tokens_details": {
+        "reasoning_tokens": 389
+      },
+      "total_tokens": 3608
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_78.txt",
+      "source_sha256": "834f91707c2a03de0bce5f41de115bc728973bbd4e0ae620cdd83f7d3e427b8f"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_80.txt",
+      "source_sha256": "5d32bccd697c70fdec1c500a4db9ac5dfea9199a22dc5a0df8b742e990d051cf"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:30Z",
+  "duration_seconds": 8.087,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_79.txt",
+    "source_sha256": "aac9928bbe74c269220f4c2a758cf7a61a1fb86ff5522f63df75694ef01c9480"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2a4c0e0a7e14743061d2cee898fc702b15a4183d7dc59972eab2629827d67085",
+  "request_fingerprint": "fc82e074e7a8b8ba5d9e322cbde1fed237ff8a41c789043d4dede13ae2f6b8ae",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o conteúdo da Tabela 3.14, incluindo título, dados e fonte.",
+    "O Gráfico 3.21 é mencionado em prosa, que foi preservada; o material gráfico não aparece na extração da página-alvo. Uma linha de fonte na página vizinha pode pertencer ao gráfico; verificar se houve perda de conteúdo gráfico."
+  ],
+  "status": "success",
+  "text": "verbal e nominal, demonstrando necessidade de atenção geral ao Sistema de Educação Nacional.\n\n3.3.2.3 Análise da Questão Discursiva 4 do Componente de Conhecimento Específico\n\nA Tabela 3.14 contém as informações relativas à questão 4 do conjunto de questões do Componente de Conhecimento Específico. O desempenho médio dos estudantes de todo o Brasil nesta questão foi inferior ao desempenho nas questões de números 3 e 5. A média geral do Brasil foi 14,3, sendo a menor média registrada na região Norte (5,8) e a maior na região Sudeste (16,7). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 17,9. O maior desvio padrão foi obtido na região Sudeste (18,4), enquanto o menor foi obtido na região Norte (12,7).\n\nA nota máxima (100,0) foi atingida em quase todas as regiões, exceto na região Sudeste (90,0). A mediana e a nota mínima foram zero para as regiões Norte, Nordeste e Centro-Oeste, indicando que, nestas regiões, pelo menos metade dos alunos tirou nota zero nesta questão. A mediana do Brasil como um todo foi 5,0, sendo também encontrada na região Sul, enquanto na região Sudeste a mediana foi 15,0. A nota mínima foi zero para todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.21 representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico. O número de estudantes que deixou a questão em branco foi muito grande, correspondendo à moda da distribuição. O coeficiente de assimetria é positivo para todo o Brasil (1,30) e para todas as regiões (entre 1,02 para a região Sudeste e 3,02 para a região Norte), indicando uma assimetria acentuada à direita.",
+  "text_sha256": "b418e3f219a281a12b8b2b3dd3ef3f5376060b9a427b4bbb672f862585add882",
+  "window_size": 3
+}

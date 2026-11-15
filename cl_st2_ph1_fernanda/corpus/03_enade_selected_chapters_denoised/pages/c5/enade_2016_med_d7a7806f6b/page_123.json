@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bdbd0a2b9d205fb006af902c3d53c87d18a0781b5e3bde977",
+    "usage": {
+      "input_tokens": 2741,
+      "input_tokens_details": {
+        "cache_write_tokens": 2738,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2738
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 200,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 2941
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_med/enade_2016_med_page_122.txt",
+      "source_sha256": "013a25722a517b3ed088c79fadc0382b328c41d48388b744b82541407e6b8f48"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_med/enade_2016_med_page_124.txt",
+      "source_sha256": "29a3cc9ebf550ffa3ed6cb47220d702404a19545a94a44e1a5ec80d89309371a"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:27Z",
+  "duration_seconds": 2.402,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_med/enade_2016_med_page_123.txt",
+    "source_sha256": "60a570153b39f12d428769a473f13ac3e7d19833898d03b5bdd885f3fab1a65e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dae4b99e4b38f048bc21a3cfa56341b337ef85770b61a601debb29f65b7f1e03",
+  "request_fingerprint": "8970b3d5a91b071b723d37de22d53b98f3bae20fc344c68e62a3936a86e7f8c5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram nove dos 16 cursos participantes. Quatro cursos receberam conceito 3, conceito modal. Os demais cursos receberam os conceitos 1 e 2 (um curso, cada) e 4 (três cursos). Nenhum curso ficou recebeu conceito 5 nessa combinação de organização e região.",
+  "text_sha256": "2e322a7e4c2b98d88bceacc742ee0ffca4458eda9ae45784470bca2da79b1f36",
+  "window_size": 3
+}

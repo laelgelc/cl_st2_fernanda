@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04e7f02c4698de94006af9042fbe4487d1a0cf1db943daf866",
+    "usage": {
+      "input_tokens": 2766,
+      "input_tokens_details": {
+        "cache_write_tokens": 2763,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2763
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 583,
+      "output_tokens_details": {
+        "reasoning_tokens": 252
+      },
+      "total_tokens": 3349
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_55.txt",
+      "source_sha256": "2888d1bd2d9dd001095052ee6dd1076d3db956cc955a48d3ee7bed53abee49e3"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_57.txt",
+      "source_sha256": "6b5800ca932e1f4e914ca1b84a70e3ada87fefe8bc59308c1445ba9889719c0f"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:31Z",
+  "duration_seconds": 6.178,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM RADIOLOGIA.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_56.txt",
+    "source_sha256": "c651fc776612570994119c898ec77b505afb320069076b31eb9fb80ccfb7f46a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cdc7969a3e82a2191712765bd788fa30c6588df7d269cefabbd05d4f03176bc9",
+  "request_fingerprint": "0312c614d68f1adc2fb044bd64a7bd2220d4f2c8c8bbae29051fb25590ca4c8d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed graph material and its source line (Fonte: MEC/Inep/Daes - Enade/2016); the graph itself is not represented in the extracted text."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n3.2.2 - Componente de Conhecimento Específico\n\nA Tabela 3.11 apresenta as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Tecnologia em Radiologia por Grande Região. A Média do Brasil deste componente foi de 45,1. A menor Média foi observada na região Norte (42,5), e a maior, na região Sul (48,3). O Desvio padrão de todo o Brasil foi 13,8, sendo o menor Desvio padrão encontrado na região Sudeste (13,3), e o maior, na região Sul (14,4).",
+  "text_sha256": "48d23a3d57a5e6f417f1d2ea818dd7c7f25ee7338615dd26df951ec0ed89baba",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_020185a30ce22282006af8eb71cf5887d1a58b8b7956d103e6",
+    "usage": {
+      "input_tokens": 2654,
+      "input_tokens_details": {
+        "cache_write_tokens": 2651,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2651
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1055,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3709
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_32.txt",
+      "source_sha256": "bde4f43e75ccbb6c50bf6e3cd587ab197da8598a14324c8455fbf22b52b77b43"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_34.txt",
+      "source_sha256": "e0973120f7e228a16bfd2bf7838b502373835e1e1aeab34f3461d7ef7c1d8047"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:57Z",
+  "duration_seconds": 10.029,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_soc/enade_2011_ci_soc_page_33.txt",
+    "source_sha256": "42ebed61a2ed0beee2e05c53728b9add45972b852be751d4f28d8c8b9a05029f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "56e071dff095957a8516f27c1d7614431a8d99418fd36b60ccd606a453b8e6d0",
+  "request_fingerprint": "d0ef8d1237db5841d43e1c3e9bae1ace710686e4ee1f6f42254b3baa57369c2f",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.1, incluindo seus dados e fonte, foi removida.",
+    "O Gráfico 3.1 é referido no texto; o contexto indica que seu material gráfico pode continuar na página seguinte."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os componentes de Formação Geral e de Conhecimento Específico) foi 32,5, sendo que os alunos da região Sudeste obtiveram a média mais baixa (27,2) e os da região Centro-Oeste obtiveram a média mais alta (40,5). As demais médias foram: 33,5 na região Norte, 35,4 na região Nordeste e 37.2 na região Sul. O desvio padrão para o Brasil como um todo foi 22,1, sendo o maior desvio padrão encontrado na região Sudeste (23,7) e o menor na região Norte (19,0), indicando uma dispersão menor das notas desta última região.\nA região que obteve a maior nota máxima foi a Sudeste (80,4), ao passo que a região que atingiu a menor nota máxima foi a Centro-Oeste (71,9). A mediana do Brasil como um todo foi 37,4, sendo a maior mediana obtida na região Centro-Oeste (44,2) e a menor obtida na Sudeste (30,3). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta a distribuição das mesmas em colunas de cores diferentes para alunos de Bacharelado e de Licenciatura. As distribuições são bimodais com uma moda mais importante no primeiro intervalo, [0;10], tanto para os concluintes de Bacharelado quanto os de Licenciatura. A segunda moda também é a mesma para as duas habilitações concluintes: (40;50]. Os coeficientes de assimetria das distribuições das notas das duas habilitações são negativos: –0,25 para o Bacharelado e –0,35 para a Licenciatura. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo, para os estudantes das duas habilitações, com exceção dos alunos da região Sudeste, que apresentaram coeficientes positivos de assimetria, respectivamente 0,12 e 0,07, para Bacharelado e Licenciatura.",
+  "text_sha256": "21f69d995efc2b9898c5e41cc1699a2037699c2edaf3f22702b6260cd5585b3c",
+  "window_size": 3
+}

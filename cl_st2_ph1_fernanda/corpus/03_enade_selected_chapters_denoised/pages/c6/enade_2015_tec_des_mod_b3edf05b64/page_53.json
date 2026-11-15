@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05e642cb48ebac52006af8ff74c50887d1b494f224dc47f69d",
+    "usage": {
+      "input_tokens": 2381,
+      "input_tokens_details": {
+        "cache_write_tokens": 2378,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2378
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 288
+      },
+      "total_tokens": 3145
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_52.txt",
+      "source_sha256": "80d0a8ef4315861354ab8df99b9bd5b9f28a008a280c99501c6c774d838e7d53"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_54.txt",
+      "source_sha256": "a80571f3f65c6f939400d0ba653f497c9227de4ddfdb8707f01682d779a2b60a"
+    }
+  ],
+  "created_at": "2026-11-15T00:40:20Z",
+  "duration_seconds": 6.82,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_mod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM DESIGN DE MODA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_53.txt",
+    "source_sha256": "22669f2e4da43c03d0d92fd98cd16e2a56f4cdece538f8d167c520ceee702a27"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6fc713afa36575af755f8e66cd71bc113ac4ec245b0bd1e14a2154444b6d1032",
+  "request_fingerprint": "25bdef5125452dbd4c25a73435d9e9a2179cae2286dcdf9aeeb27fb501838e33",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo seus dados, título e linha de fonte. A página discute o Gráfico 3.4 em prosa; nenhum conteúdo gráfico transcrito foi identificado no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 37,8% escolheram a alternativa D, 17,5% a alternativa C (correta), 18,7% a alternativa A, 13,5% a alternativa B e 12,0% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, nenhum deixou a questão em branco, mas 0,4% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente.",
+  "text_sha256": "a01c6719504712ad7c7c9dc3f567b72616eb7e76d1ca7402845b335c8240eb3d",
+  "window_size": 3
+}

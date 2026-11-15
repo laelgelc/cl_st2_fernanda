@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060ae658f3ee04e8006af9064d91fc87d192c080ada145f5e6",
+    "usage": {
+      "input_tokens": 2720,
+      "input_tokens_details": {
+        "cache_write_tokens": 2717,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2717
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3063
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_102.txt",
+      "source_sha256": "761b0072d1f52373fff615aa50fb7a503bdc05925200067dbe0c8704b15ba50f"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_104.txt",
+      "source_sha256": "6a7479e572ff3640d48d30e65953be961b64a8267e5e87d832bc3dbc0f43812e"
+    }
+  ],
+  "created_at": "2026-11-15T01:09:33Z",
+  "duration_seconds": 4.892,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_103.txt",
+    "source_sha256": "d801b679ce4a4e4b857f49b2c98ace4581a9eda2722ff8251de7023bb640babc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6b7d9f8dc2f5a0042f5e768a8be4e2a2ec38936c4ef0bdb06826b31176608e15",
+  "request_fingerprint": "8b6626d9764c5b0a7de1ec1cd590d4904bec61fc5e1f45378db0f64a4aebe7b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte. Removidos o histograma do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal, com a moda no intervalo (40; 50].",
+  "text_sha256": "c76b29a206fedee0d163986de90163f5f2ed81aa7ec63d5e4e716adbadce8cd0",
+  "window_size": 3
+}

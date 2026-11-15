@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b792704b187370006af91d9e0da487d197a86ec0850e379b",
+    "usage": {
+      "input_tokens": 1661,
+      "input_tokens_details": {
+        "cache_write_tokens": 1658,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1658
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 250,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1911
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_publi/enade_2022_publi_page_100.txt",
+      "source_sha256": "e1d1e188cde4499414ac82db3d4782e7a4b27d67b93de8cd64dca283bd83689a"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_publi/enade_2022_publi_page_102.txt",
+      "source_sha256": "081fde4009b4926e3586612edcdad1d1565109919fb6217fc5c53c39cc31337d"
+    }
+  ],
+  "created_at": "2026-11-15T02:49:01Z",
+  "duration_seconds": 3.974,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PUBLICIDADE E PROPAGAND.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_publi/enade_2022_publi_page_101.txt",
+    "source_sha256": "3aede2543910e2865640b9fe48bfe24bd783b7d174b353b48ee9ee315dac3bfc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "641accafa96d4624926cf613e08860dbd5a5d0d97de750dcb7db0664ea38b812",
+  "request_fingerprint": "5c0c51149b66c428eb9224b9257416d8970bf5f5afb9e362322993b69a9e53e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte do Gráfico 5.3."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.3 traz outros resultados também em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nComo mostram os dados do Gráfico 5.3, o percentual de estudantes que consideraram o componente de Formação Geral da prova “Difícil” ou “Muito difícil” foi maior entre os estudantes de centros universitários, alcançando 13,5%, enquanto entre os estudantes das faculdades e universidades, organizações acadêmicas com as menores incidências, os percentuais alcançaram 10,9%.",
+  "text_sha256": "adac58472063f40fadcdb5ca6193da2398e7d95dac4b2fe7eeef291fc77fd4fe",
+  "window_size": 3
+}

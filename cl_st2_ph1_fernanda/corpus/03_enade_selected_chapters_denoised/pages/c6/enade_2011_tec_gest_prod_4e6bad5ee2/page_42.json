@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05aa966c46288242006af8ef8069bc87d19956739476ac1358",
+    "usage": {
+      "input_tokens": 1584,
+      "input_tokens_details": {
+        "cache_write_tokens": 1581,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1581
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 293,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1877
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_41.txt",
+      "source_sha256": "77ea42f0aecbe514255419925421019c425f1d33a3ee660d6e75e546c490d356"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_43.txt",
+      "source_sha256": "529cbfb8c0b3ec75fbb70c9eb55f6e73d9088ff7d7a38b73da3e3251f2735cdf"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:16Z",
+  "duration_seconds": 3.284,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_42.txt",
+    "source_sha256": "a18f05efef863a3a60637cf20d1e8ed9eeead0ee43e3d7432c4142e527281a2c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eaa3539c760d1f6fc07b5e6bec3f65c3eb6e984adc90920412530dec65fe91b1",
+  "request_fingerprint": "9587d18af0992b28f6d98f0c255f2abb085b2811bb79af359e0c21772498057c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 3.8; o gráfico e seus dados não foram incluídos."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre a maior e a menor média. Nos Centros Universitários (54,0) a média é mais elevada do que em Faculdades (48,5). Universidades apresentam uma média intermediária, 52,5, mas não estatisticamente diferente das demais.",
+  "text_sha256": "80be68f8d533986ae24201f040010975979c4c60ac1fa63a735956e96388c120",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02b2a95c95d8652d006af8e64553f487d19e035299b56beca6",
+    "usage": {
+      "input_tokens": 2655,
+      "input_tokens_details": {
+        "cache_write_tokens": 2652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 977,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3632
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_29.txt",
+      "source_sha256": "1fd4192ade0e4d3120e7ded9154cf0d6b49813d692b5be9864cafca6dcb81ef6"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_31.txt",
+      "source_sha256": "173a56d40374128c1565a0888e8bdaf352339684d1f39f269a3514b13e0d73f4"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:53Z",
+  "duration_seconds": 9.473,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PROCESSOS GERENCIAIS.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_30.txt",
+    "source_sha256": "8df854229cd1b54ea734990afa1dba24cb556cbd7bfd7f2765e64a0406bdba62"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "99f7b684ffd4be28b6cc113d5728c5731572fb4a050685d22323bba8565d93b6",
+  "request_fingerprint": "0ccdfc4cb22f76fc2d5144d7d09b6b6c55f4d67a9b2fc77e904fe85d0c26c50d",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "onde C_FG é a nota bruta da Formação Geral, C_FG_OBJ é a nota bruta nas questões objetivas da Formação Geral, C_FG_DIS é a nota bruta nas questões discursivas da Formação Geral, C_CE é a nota bruta do Componente Específico, C_CE_OBJ é a nota bruta nas questões objetivas do Componente Específico, e C_CE_DIS é a nota bruta nas questões discursivas do Componente Específico.\n\nA nota bruta da prova, C_GER, por sua vez, é também uma média ponderada da nota de cada uma das partes, Formação Geral/Componente Específico:\nC_GER = 0,25 × C_FG + 0,75 × C_CE.\n\n3.1 Estatísticas Básicas da Prova\n\n3.1.1 Estatísticas Básicas Gerais\n\nA Tabela 3.1 apresenta as estatísticas básicas da prova por grupo de estudantes. O total de estudantes inscritos para a prova foi de 29.633. Destes, 64,0% compareceram, sendo que a presença foi menor entre concluintes (62,6%) do que entre ingressantes (65,0%). A média geral da prova foi de 38,24, sendo que os ingressantes obtiveram média mais baixa, de 37,43, que os concluintes, cuja média foi 39,48. O desvio-padrão geral foi de 14,1, sendo o do grupo de ingressantes menor (13,8), do que o do grupo dos concluintes (14,4), aqueles possuíram uma distribuição mais homogênea nas notas. A nota máxima foi 91,3, obtida por pelo menos um concluinte ao passo que a maior nota obtida por um ingressante foi 87,7. Os coeficientes de assimetria para os dois grupos considerados, o de concluintes e o de ingressantes, bem como para a população como um todo foram todos positivos, indicando uma maior concentração à esquerda da distribuição e um maior espalhamento à direita.",
+  "text_sha256": "3d884ae1da0604d5ce74f18b878823cccd0f7618b499de71f7ab5da72eea72ea",
+  "window_size": 3
+}

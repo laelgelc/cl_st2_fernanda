@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c70314d94b98039006af8ed2f8c3c87d1a39fe6cf9625627d",
+    "usage": {
+      "input_tokens": 2766,
+      "input_tokens_details": {
+        "cache_write_tokens": 2763,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2763
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 482,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 3248
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_50.txt",
+      "source_sha256": "a4981e329331b508a52d001cde8db97976d83d4724572014de6bfc94d7abfb50"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_52.txt",
+      "source_sha256": "758eeec1170cd49a886d204ed7a8c95c223b03bee1032eed4476e8398d961a5f"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:23Z",
+  "duration_seconds": 5.458,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_51.txt",
+    "source_sha256": "73ba159fd27128540e38e33ac7ef84d90549f9953e16ce8995aad6d8fef0a230"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1c5ce5c5d4112b0e3fce66bfdc10014f5c84f059e7db85e2a5c0173c8bd6e0dc",
+  "request_fingerprint": "01dc0dc1ac73d1109fa5ca42044ad0beb29ff5d7ef7fd65d0eaf160ea229ce48",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.13 e sua linha de fonte («Fonte: MEC/INEP/DAES - ENADE/2011») foram excluídos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da segunda questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice de discriminação obtido.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "906b64560ba82938417a02696be97907abe2141e9ce062c43d79926983db7258",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00cf60a8e7fc5b61006af8f359596c87d1aeef507a1676f50b",
+    "usage": {
+      "input_tokens": 2448,
+      "input_tokens_details": {
+        "cache_write_tokens": 2445,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2445
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 2803
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_75.txt",
+      "source_sha256": "e8348a0673ff4ef78e5efeb780b9a4fdb9e5a4a5e8c9e27eb633fa2026936341"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_77.txt",
+      "source_sha256": "1dd813d860e5da312e495251f9730a7e1bebd3724becd862b55d5bec937d2652"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:41Z",
+  "duration_seconds": 3.794,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_76.txt",
+    "source_sha256": "b4ef2f2f90882496e8a314dfc46fc7c01b5850f90ab40ad2e3959777aa4c8677"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "97fcb63e14ffb4af88a6ab60335cc7691bce384be284a4a91ab6ac2517220627",
+  "request_fingerprint": "9c2924426965ebe379930a5aeface84a0d66e59cf0c9fef6ce5f8901f0d64598",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte. Removida a fonte associada ao Gráfico 3.20; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição possui moda no intervalo (10; 20]. Destacam-se, também, as questões em branco que aparecem como uma segunda moda (20%). O coeficiente de assimetria é positivo para todo o Brasil (0,90) e para todas as regiões (entre 0,78 na região Sudeste e 1,12 na região Nordeste), indicando uma assimetria à direita.",
+  "text_sha256": "65d5c19bd0fd38c9d733e3a7dd3cb9d922bfb70e0f471c1c40210fe51c3b40e9",
+  "window_size": 3
+}

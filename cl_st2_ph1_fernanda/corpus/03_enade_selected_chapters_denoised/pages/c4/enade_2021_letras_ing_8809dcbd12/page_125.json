@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cbcd8075dcb238006af919b8fed087d1bfcd7340935e6d07",
+    "usage": {
+      "input_tokens": 1875,
+      "input_tokens_details": {
+        "cache_write_tokens": 1872,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1872
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 686,
+      "output_tokens_details": {
+        "reasoning_tokens": 492
+      },
+      "total_tokens": 2561
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_ing/enade_2021_letras_ing_page_124.txt",
+      "source_sha256": "2e1747d5cb154b8004c0b65f1adbd19c07d4c6c983278b08e110e2caaad121a3"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_ing/enade_2021_letras_ing_page_126.txt",
+      "source_sha256": "ff2851eecc5994a946b0872ddc21994e8b271f513116f51f6066b51e534395eb"
+    }
+  ],
+  "created_at": "2026-11-15T02:32:24Z",
+  "duration_seconds": 6.987,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_letras_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Ingles.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_ing/enade_2021_letras_ing_page_125.txt",
+    "source_sha256": "16b4c7791528f885d2d7e051d95d2d7bb0e86cd699bea4217c59ad8335d282ea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "49242cff85ce712baf378d6e8faed1b18f496ea62a54e28a2c34faee086c5841",
+  "request_fingerprint": "ba16e9cb8a2cb1c9a6e3454ca478d9d57c2db1ff983a21a03660f9a823a41660",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.3. A expressão isolada “CEFET/IF” foi removida por parecer um rótulo gráfico; sua associação ao Gráfico 4.4, cujo título aparece na página seguinte, deve ser verificada."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o componente de Formação Geral da prova Difícil ou Muito difícil foi maior entre os estudantes de cursos de IES Privadas (31,8%), sem diferença estatisticamente significativa da proporção registrada em IES Públicas (28,8%). Já a proporção de presentes à prova que avaliaram o Componente de Formação Geral como de grau de dificuldade Médio foi de 60,3%, entre os estudantes de IES Públicas, e de 58,5%, entre os de IES Privadas (ver Gráfico 4.4).",
+  "text_sha256": "0ecc44de322eed0e2194eec2ea4566398d1221ab9092dd3cac8852b1e3bb05e4",
+  "window_size": 3
+}

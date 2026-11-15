@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d95bb61f9fa3af1006af8ea51814c87d1848eb97c7f35e9c1",
+    "usage": {
+      "input_tokens": 2835,
+      "input_tokens_details": {
+        "cache_write_tokens": 2832,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2832
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 562,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 3397
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_rad/enade_2010_tec_rad_page_35.txt",
+      "source_sha256": "61847876b0dc8b09a1ecceb280f9bc4b5603986e4a0ded32b4166e8de63998cf"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_rad/enade_2010_tec_rad_page_37.txt",
+      "source_sha256": "a9249d699256f45652495a589810ea14cca983986e58cc10e277367205ca7a3a"
+    }
+  ],
+  "created_at": "2026-11-14T23:10:09Z",
+  "duration_seconds": 5.338,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM RADIOLOGIA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_rad/enade_2010_tec_rad_page_36.txt",
+    "source_sha256": "796c215cbce947b06f9af73ffd80621867a5456e9883b542f4a929489909104e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "372648ed8917c6ba0f767e687857d21d1207279acd8f0d1a7c08324478948c17",
+  "request_fingerprint": "d0a999b1e472a776bf3a810118a90ee7d617c3945f6b13d131930af9d6ca0dcf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo seus dados e a linha de fonte.",
+    "Removido o Gráfico 3.1, incluindo título, fonte, eixos, intervalos e legendas."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 29,7 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 39,7, transparecendo superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1). Os coeficientes de assimetria indicam uma assimetria positiva para os Concluintes (0,2) e para Ingressantes (0,5).",
+  "text_sha256": "1a2c6e8ea610902c543199dbfe771a765cbd1d8586ad9804fc614bc1e6d60eb1",
+  "window_size": 3
+}

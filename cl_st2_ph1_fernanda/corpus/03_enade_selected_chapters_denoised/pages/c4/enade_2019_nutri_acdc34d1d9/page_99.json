@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a053c6c89a4838006af9147a9c6887d19abff2171138ed94",
+    "usage": {
+      "input_tokens": 1876,
+      "input_tokens_details": {
+        "cache_write_tokens": 1873,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1873
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 208,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 2084
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_98.txt",
+      "source_sha256": "9d9ef4209422fb628920c83e6ebeefe2160962ced8a211e17e0340818a116382"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_100.txt",
+      "source_sha256": "8727925f14f1b0fdd143a7055c77bea36ebdc507cda44f2993c9fd3d6777571c"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:02Z",
+  "duration_seconds": 2.582,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_99.txt",
+    "source_sha256": "4108efabad742046477071accd5609e85347afbbda7ad422e39a91a316c192f8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d56f51e4e3157d728221a98dfb9792bb8c632be227e258b90cefc9c25bd363cc",
+  "request_fingerprint": "4a8bd29f654f7a4e2e471c4a0ab4378d9be675faafe3858453581b0a485ced55",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte do Gráfico 4.3."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o componente de Formação Geral da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (33,1%), uma diferença estatisticamente significativa da proporção em IES Públicas (28,9%). Já a proporção de presentes à prova que consideraram o Componente de Formação Geral como sendo de grau de dificuldade Médio foi 61,8% para os de IES Públicas e 61,7% para os de IES Privadas (ver Gráfico 4.4).",
+  "text_sha256": "4153ff2affa1b6c45495d2f3172f701732870cbb5061841212a343a118ca62ab",
+  "window_size": 3
+}

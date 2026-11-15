@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_068890a4cc314419006af8e81471b887d191da608773fe7ea7",
+    "usage": {
+      "input_tokens": 2401,
+      "input_tokens_details": {
+        "cache_write_tokens": 2398,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2398
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 379,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 2780
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_99.txt",
+      "source_sha256": "fd9d50cd63f8297235de42e7b8a94fa79697eeb9266d0d06846a33fda5d035a9"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_101.txt",
+      "source_sha256": "1c6b671222d0a45f14fdec09c1002826ec59707297be35b40d93d2b6980afc72"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:36Z",
+  "duration_seconds": 5.176,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_100.txt",
+    "source_sha256": "e45607027a923881b3abe19f08a589a791bd548c6865cdc508c3104634574185"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7c3f5fc4f971e983ef1e6d0a0df580a7e7b30996b6b50276cb0509b3733a9540",
+  "request_fingerprint": "9c875a712530bdc4beccdf773124edc28d6b1eb5f075667202374b686724fa60",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.17b e 4.17c, incluindo dados, rótulos e legendas; as duas linhas de fonte também pertencem ao material gráfico. A última frase em prosa termina incompleta na página."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TURISMO. A proporção de concluintes que gastaram entre",
+  "text_sha256": "07bc6de298db06175c78a6ec29ca55d5554deb2a3e5803049948f6733cb7f9c7",
+  "window_size": 3
+}

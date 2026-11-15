@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0933e7eacb02111a006af8f097b31487d1b6c2ec093574af1a",
+    "usage": {
+      "input_tokens": 2084,
+      "input_tokens_details": {
+        "cache_write_tokens": 2081,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2081
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 754,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2838
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_42.txt",
+      "source_sha256": "b862f0ae87d7524fcf5fb2654562fdfdd2a4f50272df2554d150d19d0cc11935"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_44.txt",
+      "source_sha256": "a8ccc499c9eb74ae472a1c9b0479ab4807281a98bb6e43a8cb2457e1a20519c7"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:55Z",
+  "duration_seconds": 7.784,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_43.txt",
+    "source_sha256": "d4425fadf1b0795d5ac5ac1c02bc04dcc644e1d38d07154b78ecc192a4482706"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "df2f5245e180504f9a390a5f290eb6119f2b01abedea379ee1d305e9637f0823",
+  "request_fingerprint": "a46299045b814d9d19deb747b25c8ee1da02ddbcc3dc5b332b2641b756b02ae7",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.3, incluindo título, dados e fonte, removida. Há provável material gráfico do Gráfico 3.9 na página-alvo; a fonte aparece no início da página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal e o grupo modal é o (20;30], abaixo do grupo modal para a Formação Geral.\n\nO coeficiente de assimetria da distribuição das notas do componente de Conhecimento Específico é positivo (0,60), indicando assimetria à direita. Em todas as Grandes Regiões os histogramas também possuem assimetria positiva (entre 0,27 para a região Nordeste e 1,12 para a região Centro-Oeste).",
+  "text_sha256": "51e5b9cbc36638d7bb10c0927764bfce811b7125fe6beeb48d2f1aaa13940a38",
+  "window_size": 3
+}

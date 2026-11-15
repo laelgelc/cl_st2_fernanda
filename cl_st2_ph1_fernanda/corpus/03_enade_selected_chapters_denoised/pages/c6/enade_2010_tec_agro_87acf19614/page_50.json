@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03d2beef293a8027006af8e9fbb49c87d1ae29d87f76848509",
+    "usage": {
+      "input_tokens": 2420,
+      "input_tokens_details": {
+        "cache_write_tokens": 2417,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2417
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2815
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro/enade_2010_tec_agro_page_49.txt",
+      "source_sha256": "da4818e936cc1f9d041044d13d81dd939fe813cf0ad9109b1429dc69f6985690"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro/enade_2010_tec_agro_page_51.txt",
+      "source_sha256": "80d1418428d655faeb67e31735fe4961f77748b144228e8f698033f1236bc277"
+    }
+  ],
+  "created_at": "2026-11-14T23:08:43Z",
+  "duration_seconds": 3.835,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro/enade_2010_tec_agro_page_50.txt",
+    "source_sha256": "b582a4f78fe3c76f4e0d3a6a9f70cabaf8bdbdcf435428c821988cd473a6a992"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ed5743b8061f414055b3cd5131c0dbb4d441e3816e6e3d0f98dbc94c8049584d",
+  "request_fingerprint": "ff295477d3a1bc807dddd40af5e9adb0cb1f4e6df0a7d34153fe10cedcc98f2f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.8, incluindo título, fonte e dados/legendas do gráfico."
+  ],
+  "status": "success",
+  "text": "acertadamente a opção A, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,46, classificado como muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 30, em função da nota dos estudantes nesta parte da prova antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesse componente do exame, enquanto as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas, ainda que aqueles com nota zero, na sua quase totalidade tenham deixado em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionaram a resposta correta A aumenta gradativamente, com a nota chegando a atingir 100% para médias acima de 80, enquanto a proporção dos que escolhem alternativas incorretas decai a partir da primeira nota não nula, como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "1bb34e3c3596e5188624a2dff6c54b127671db6fdec940bd7234dbf63bcf2191",
+  "window_size": 3
+}

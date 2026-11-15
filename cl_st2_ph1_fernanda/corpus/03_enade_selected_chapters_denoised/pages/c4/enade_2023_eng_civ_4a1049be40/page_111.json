@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2437ee9f6f79f5006af921b0709087d1be407cb0cee179ee",
+    "usage": {
+      "input_tokens": 1804,
+      "input_tokens_details": {
+        "cache_write_tokens": 1801,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1801
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 2044
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_civ/enade_2023_eng_civ_page_110.txt",
+      "source_sha256": "02d82c10fa85d659212533b104549da566dd3d4e182ecca380180801183ecbc8"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_civ/enade_2023_eng_civ_page_112.txt",
+      "source_sha256": "73de1f1890282ad1c3518ba81d7ccb4b740706f9bbdca803155b5dbb4b4b2484"
+    }
+  ],
+  "created_at": "2026-11-15T03:06:24Z",
+  "duration_seconds": 3.419,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENEGENHARIA CIVIL.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_civ/enade_2023_eng_civ_page_111.txt",
+    "source_sha256": "6e711dfdc4aca3b83dfa5af40ed71cc95288eb5958875837a15c124a96d79480"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "317ffea56305121bac841c402585934f94cb35cddcaf0ef17d444358796dbe76",
+  "request_fingerprint": "6ec415468fc85fc2f029bb9a76c701df78d0b04485ed9d77eed098376b9dd4f0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.34, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.34 apresenta os resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 3.34, uma vez analisadas as alternativas selecionadas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma proporção maior de participantes no quarto superior (87,1%) declarou ter gasto entre duas e quatro horas para concluir a prova, quando comparada com a proporção de participantes nos quartos inferiores (79,0%). As diferenças são estatisticamente significativas entre todos quartos de desempenho, exceto entre o terceiro e o último quarto.",
+  "text_sha256": "7ceea6d2c53eba385ffff0b76e55eadf615cb76d4f52e949935078720f53e494",
+  "window_size": 3
+}

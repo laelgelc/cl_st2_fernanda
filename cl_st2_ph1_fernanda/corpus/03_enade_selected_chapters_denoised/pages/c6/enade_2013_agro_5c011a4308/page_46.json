@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_042ba1660f0f70bf006af8f2f22ad087d196514b9945c49cdf",
+    "usage": {
+      "input_tokens": 1446,
+      "input_tokens_details": {
+        "cache_write_tokens": 1443,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1443
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 273,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_45.txt",
+      "source_sha256": "96de2cacb41721b74d9f8492b26e92f4807e01e01151cfe4f7ff6fda38f325c2"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_47.txt",
+      "source_sha256": "3f16b722d0372eabf31609ab01f0e38f259ee821fb337474bee312a3d3e543e2"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:58Z",
+  "duration_seconds": 3.565,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_46.txt",
+    "source_sha256": "3d1515165b52e2de550aa2eaf010a860f1c5d9748d177201480b9c0a550574e3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9bb4fd4a07711fbbcd94f289b16fefad971897eaae2a3bf3f1070cdb2772b79e",
+  "request_fingerprint": "d31e85055ac4834e1fb7b54c90c81991646de5a526376ef8ca726d63c8fcb5c5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número da página e a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como material associado ao gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Agronomia, das IES Públicas (49,4) obtiveram uma média maior do que os das IES Privadas (46,3).",
+  "text_sha256": "b1f5e825cfa780b39c9ef7b6280c54ed2af79e2ab76d713447fa141eae5b4b76",
+  "window_size": 3
+}

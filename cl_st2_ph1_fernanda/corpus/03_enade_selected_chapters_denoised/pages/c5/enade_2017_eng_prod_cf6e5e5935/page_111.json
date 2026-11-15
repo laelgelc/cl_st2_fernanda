@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2a0ea6c3a403ab006af906ba580087d1a0c65e758826e417",
+    "usage": {
+      "input_tokens": 2882,
+      "input_tokens_details": {
+        "cache_write_tokens": 2879,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2879
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 3213
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_prod/enade_2017_eng_prod_page_110.txt",
+      "source_sha256": "3191575eabacbb8af0f1893bb50510ae2cd7e5115278f8854e5b4498b78c383d"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_prod/enade_2017_eng_prod_page_112.txt",
+      "source_sha256": "d9c6186e6df3c8b4d4081dba19a80796523cb12d14a9bf2a9f61b800c4549605"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:22Z",
+  "duration_seconds": 4.64,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_prod/enade_2017_eng_prod_page_111.txt",
+    "source_sha256": "80927445b2eafc3e410a2e10d21db78c417a4811b1a310017806e1ad28b1d307"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b9a554f694a35e99f8bd05316687b832575feb5f0ede96c1723de35af463da2a",
+  "request_fingerprint": "b06989d120e0e7f5d99831549934a8479d17719ed87b17d377f2a3304c56e74e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e fonte. A última frase da prosa continua na página seguinte; preservada aqui apenas até “Nenhum curso recebeu”."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades compuseram nove (52,9%) dos 17 cursos participantes. A esses cursos foram atribuídos os conceitos 3 (valor modal, recebido por cinco cursos, 55,6%), 1 (recebido por um curso, 11,1%), e 2 (recebido por dois cursos, 22,2%). Nenhum curso recebeu",
+  "text_sha256": "dad14476dc3c6f54563026b4d9cb7f00b1ba9244cd0435c3def34c609f2a9fb1",
+  "window_size": 3
+}

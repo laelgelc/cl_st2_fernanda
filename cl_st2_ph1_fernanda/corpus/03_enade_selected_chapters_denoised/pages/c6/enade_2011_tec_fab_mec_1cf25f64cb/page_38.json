@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d68cdc8a3c86bc0006af8ef5c672487d1b7be60510c13d67e",
+    "usage": {
+      "input_tokens": 2042,
+      "input_tokens_details": {
+        "cache_write_tokens": 2039,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2039
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 2451
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_37.txt",
+      "source_sha256": "221d6cbc0602a9f11ba2c1e725794854c3da522aeca8e228d95c9c2e5479ee56"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_39.txt",
+      "source_sha256": "b5b5b34ba0641f4cfaa94a369e1f3dc7524e3a703f9b5529ffc89cc886efd1c7"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:40Z",
+  "duration_seconds": 4.676,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_38.txt",
+    "source_sha256": "d9396927f950c4aa43cebae3826d7e5582c9f37979e020d6f11f16dfd522aa42"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "929796b1c1c45f94f804e5e61604e18eaa2852ff7067828c58be6350453bd354",
+  "request_fingerprint": "4eed74f34e976cb565de452f903ad67b052ec51992a82bcba002ce2e1cc6ba35",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50,60], enquanto na prova como um todo a moda foi alcançada no intervalo (40,50]. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 12,5 para a nota da prova como um todo e 17,2 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (–0,35). Por isso, a distribuição apresenta concentração à direita e cauda à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa, variando entre –0,83 (Nordeste) e –0,11 (Sul).",
+  "text_sha256": "384fc2ebd098a4de5b0b18f6422e0d1d12e55787ddfff375d16eb00c7035372f",
+  "window_size": 3
+}

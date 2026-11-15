@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_013b99c3e5f4e9de006af90f57c53087d1bea9ca37d9ed5ab8",
+    "usage": {
+      "input_tokens": 1941,
+      "input_tokens_details": {
+        "cache_write_tokens": 1938,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1938
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 652,
+      "output_tokens_details": {
+        "reasoning_tokens": 349
+      },
+      "total_tokens": 2593
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_agro/enade_2019_agro_page_112.txt",
+      "source_sha256": "8920c0be3d5f9a3719e26eaef58fe3953271918513346c8e6c2741d2a630677d"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_agro/enade_2019_agro_page_114.txt",
+      "source_sha256": "6a039733470a347b091c7d47f7fb800d6b5f1db0274ad68ac0e13eba929b450a"
+    }
+  ],
+  "created_at": "2026-11-15T01:48:07Z",
+  "duration_seconds": 6.437,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_AGRONOMIA.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_agro/enade_2019_agro_page_113.txt",
+    "source_sha256": "fac5f46afa20ae47aa7b5a2f039e8f1021b9fb0c7a31e601f57fd72d52a99927"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c043d4ca0127222f8105bb5da4c7a2bfa8c5636b25e2820ece791a068d9a4055",
+  "request_fingerprint": "76c7c3554f2805969789b3e2b0869598caa634ad78d4c24c117d36c6dbaab154",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.29, além de material gráfico associado.",
+    "Removidos os números isolados “1,1” e “0,8”, aparentemente rótulos de dados de gráfico; o Gráfico 4.30 é identificado na página seguinte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 71,5% na região Norte a 83,1% na região Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 3,4% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,6% os do quarto superior com a mesma resposta. As proporções são decrescentes com o desempenho. A diferença entre os alunos que optaram por esse motivo de dificuldade no quarto inferior em relação aos demais quartos é estatisticamente significativa, assim como entre o segundo e o último quartos.\n\nTendo-se em conta o quarto superior, 90,3% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 67,8% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "b3f65f41b2d6e9b517212c1807086178e00b7604c3e7e2e20e3c094791ed4028",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01dfc84b4e688a43006af8f55f882087d18ee8139959d15f3b",
+    "usage": {
+      "input_tokens": 1694,
+      "input_tokens_details": {
+        "cache_write_tokens": 1691,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1691
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1226,
+      "output_tokens_details": {
+        "reasoning_tokens": 1034
+      },
+      "total_tokens": 2920
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_90.txt",
+      "source_sha256": "0e6c0c4fd44f69facce2bc7bfd917aeb9dce394daad80970fdc30aa4be35ed2d"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_92.txt",
+      "source_sha256": "b47c3428d3bf1d17f3b0e6f2d0436d38bad79046e57770c03b577d6545761f2c"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:19Z",
+  "duration_seconds": 10.041,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_91.txt",
+    "source_sha256": "31f51e74e76cc482a4bcf53a5edb900b015fc950c65b73e0569faa0c2f11e6db"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bd58e48eb8e60ad83bcb462a62202ed0073f02320cc5cec1ace33d8f968c36f2",
+  "request_fingerprint": "2defde5b0d57b32787b8365631839976be42411225749bf3fdf372f6c43c9551",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/INEP/DAES - ENADE/2013”, identificado como linha de fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada variou de 49,2%, no 3º quarto de desempenho, a 53,5% no 2º quarto de desempenho. Não se observa tendência de crescimento conforme o desempenho.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 41,0%, crescente com o desempenho, entre o 1º e o 3º quarto, e sem diferenças estatisticamente significativas.",
+  "text_sha256": "1faefc8ebb20d67fe267077531bde11cad8bf26d30e2822718c68408d2613d95",
+  "window_size": 3
+}

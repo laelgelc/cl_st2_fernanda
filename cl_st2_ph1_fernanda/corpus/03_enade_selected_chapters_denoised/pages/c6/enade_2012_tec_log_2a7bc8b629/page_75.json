@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0868e425c330151d006af8f265b8fc87d18db4af73f862bbea",
+    "usage": {
+      "input_tokens": 2398,
+      "input_tokens_details": {
+        "cache_write_tokens": 2395,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2395
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 627,
+      "output_tokens_details": {
+        "reasoning_tokens": 402
+      },
+      "total_tokens": 3025
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_74.txt",
+      "source_sha256": "56681095b26bd0ba08e32b04d605dfc86d881174959034d476b1b32e24d46f37"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_76.txt",
+      "source_sha256": "bf0b53a66c2e81f844e83c870b2715f3c9e8672d92a943194a813fe44546cae4"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:37Z",
+  "duration_seconds": 7.387,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_75.txt",
+    "source_sha256": "58fea5c674ce245a2c244c272774542bf17af45895361a6679c96cf90bb26340"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "19abcfdfab0d61f80361dc9c4904e71ffff234d843a7c7cae0ffdd6770f8b6c7",
+  "request_fingerprint": "8a1155b9babaaa12798b997fbe099ebf7c1c5f405e1c9ebfd1a92ebc9f1ed700",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 do componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco (mais de 1/3 dos alunos). Dentre as notas dos que resolveram a questão 5, o intervalo modal foi (90;100]. Entre as três questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou um maior espalhamento das notas daqueles que resolveram a questão, podendo-se observar também o bom número de notas acima de 90,0.\n\nO coeficiente de assimetria para todos os alunos é 0,98 e para todas as regiões se mantém positivo e próximo de 1 (entre 0,90 nas regiões Sudeste e Sul, e 1,34 na região Centro-Oeste).",
+  "text_sha256": "e910f8f7f4aef68eceda36d35dfdca57ee7aa3b25d6c1707bd91979655c962a1",
+  "window_size": 3
+}

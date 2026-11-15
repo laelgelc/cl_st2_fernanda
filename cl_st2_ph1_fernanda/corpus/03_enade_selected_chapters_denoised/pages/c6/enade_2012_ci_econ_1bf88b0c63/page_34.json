@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd8a0983e1a60e6006af8f0937f5087d1a74e053c98da2703",
+    "usage": {
+      "input_tokens": 2433,
+      "input_tokens_details": {
+        "cache_write_tokens": 2430,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2430
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 2944
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_33.txt",
+      "source_sha256": "98f70b0316b450b788c48700b69422353892019a955948dc47a3ebb30164fced"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_35.txt",
+      "source_sha256": "1c9b8447fc51dff77032038f8d3009c6b8d6e0b7ea8cc111ffed9f5ed3636554"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:51Z",
+  "duration_seconds": 4.195,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_34.txt",
+    "source_sha256": "477c3d85421d8b460411c0d1b6f4b3ed6a510d0a5f60017b7050ea1b165affd5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c44d8825d8b092614e662d1cd9f2e3251d01c0d8bc80d4d9207fb8cb68dc4f63",
+  "request_fingerprint": "642a6ae0dce6f078b943d8036906344d979bde0c3a9d416270ef02d4145088e9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "sendo o maior desvio padrão encontrado na região Sudeste (13,6) e o menor na região Norte (9,7), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (86,9), ao passo que a região que atingiu a menor nota máxima foi a Nordeste (69,2). A mediana do Brasil como um todo foi 30,6, sendo a maior mediana obtida na região Sul (31,1) e a menor obtida na Nordeste (29,5). A nota mínima foi zero em todas as regiões do Brasil, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (20;30]. Destaca-se, também, o intervalo (30;40] com frequência relativa muito próxima à modal. O coeficiente de assimetria da distribuição das notas é positivo (0,18), indicando uma assimetria à direita. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito. A única exceção é a região Nordeste, com coeficiente de assimetria negativo (-0,21), a distribuição tem comportamento oposto: concentração à direita e cauda um pouco mais longa à esquerda.",
+  "text_sha256": "a8734137954111ea8ace6cfbed656e032cc5d518279e9e33c479b05235ce25de",
+  "window_size": 3
+}

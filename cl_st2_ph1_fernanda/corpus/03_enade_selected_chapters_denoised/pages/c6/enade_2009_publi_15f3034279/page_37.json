@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03c2cba22b0c43ad006af8e687c9b087d1902fc411d026345f",
+    "usage": {
+      "input_tokens": 2504,
+      "input_tokens_details": {
+        "cache_write_tokens": 2501,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2501
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 3031
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_36.txt",
+      "source_sha256": "00308549dc31c2971ef9ad99c54a8daac5f630a30ef6acde7fb80b7badcd228b"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_38.txt",
+      "source_sha256": "658c7ebbb9cc2930fa5683a5109b82bc775db9165ae536779d554c2fb4cc59a7"
+    }
+  ],
+  "created_at": "2026-11-14T22:53:59Z",
+  "duration_seconds": 4.719,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_37.txt",
+    "source_sha256": "c091f7b16aaac09d4ffa92dbec7b8d3b9b451dbd5a661503883182e3c6d3f473"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b5125c0e8b6fae66f22da7497afa64e1e49fc6990831115cb7a1e70c26076602",
+  "request_fingerprint": "864b4f07f038d62b83f19babd8571a6a0c5ace55a6f662957242c0f18797a1fc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, intervalos e rótulos, fonte e demais elementos gráficos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 30,99 na Região Norte a 49,31 na Região Sul. Entre os ingressantes, os valores foram de 31,48 na Região Norte a 43,75 na Região Sul. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes quanto para os ingressantes. Nas Regiões Nordeste, Sudeste, Sul e Centro-Oeste os concluintes apresentaram médias maiores do que os ingressantes, a situação inversa aconteceu no Norte. Todas as Regiões apresentaram concluintes.\n\nTendo como foco as categorias administrativas, destacou-se que todas as instituições estavam representadas. Sendo que as notas médias das estaduais foram superiores para ingressantes (61,99) e concluintes (49,83); As notas mais baixas para ambos os grupos foram encontradas nas instituições privadas. Os estudantes das instituições privadas se apresentam mais homogêneos, já que o desvio padrão para concluintes e ingressantes é o menor dos valores encontrados.\n\nConsiderando-se o tipo de Organização Acadêmica, as Faculdades apresentaram o maior valor para concluintes (41,87). Os Institutos Federais de Educação, Ciência e Tecnologia apresentaram o maior valor para ingressantes (40,93), sendo que estes não apresentaram concluintes. Os estudantes das Universidades se apresentaram mais homogêneos. Os Centros Federais de Educação Tecnológica não estavam representados nesta área.",
+  "text_sha256": "4ffeea014fe6cbea7e2e1d9d36ac90414f23e35b2787d8e6b3bc538faaa4f5b3",
+  "window_size": 3
+}

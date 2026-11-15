@@ -1,0 +1,59 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06cfb046d118c06d006af8f618b9ec87d1be431de12b3b67fe",
+    "usage": {
+      "input_tokens": 2467,
+      "input_tokens_details": {
+        "cache_write_tokens": 2464,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2464
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 10000,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 12467
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_art_vis/enade_2014_art_vis_page_116.txt",
+      "source_sha256": "2a6ac2d1747df9757f76f5977fdc365537232a57ce847f005e537a0e256c35b9"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_art_vis/enade_2014_art_vis_page_118.txt",
+      "source_sha256": "aa619d3768f4a2c9bd4ca955dcdbb4b342e70696b25cb5188205aaaff2dbf060"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:24Z",
+  "duration_seconds": 73.502,
+  "error": "Malformed JSON response: Unterminated string starting at",
+  "error_type": "invalid_json_or_schema",
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_art_vis/enade_2014_art_vis_page_117.txt",
+    "source_sha256": "2d00b11822f78355d603270ab4bc90d8e66f0b67973b876b72d953882957bc45"
+  },
+  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c5/enade_2014_art_vis_fab093e004/page_117.json",
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a2d6bee4ee465bde0ac790163497e0ab8efec1502cd684216f869b4f711714a7",
+  "request_fingerprint": "ebecabc993307fb1e7989d90ff2daf716c420c0dbd7b3287acef18b917ace685",
+  "retry_count": 0,
+  "status": "invalid_response",
+  "window_size": 3
+}

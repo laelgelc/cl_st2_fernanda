@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0101742b50bed135006af8fd1c0a1087d1bed3ee78e9a05fd7",
+    "usage": {
+      "input_tokens": 2306,
+      "input_tokens_details": {
+        "cache_write_tokens": 2303,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2303
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 379,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2685
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_39.txt",
+      "source_sha256": "678ebe0fa4a1b7bfa01b5c325930fa4766f457f1a9f5acd04ce3580f3664804e"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_41.txt",
+      "source_sha256": "718ef3a5e0cc35cac9af1d8eea6658bc6052e34e8b0fad3feff983c284aa480b"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:19Z",
+  "duration_seconds": 5.014,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_40.txt",
+    "source_sha256": "a86c5cd850fdc594193875a201b78ddf15894f539eb21cdd3a596876925d5bb7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6189dbd36f029ae5442af0f3aad5e7bba6100dec83fd933cd3901aa168fe89b1",
+  "request_fingerprint": "9870ee2ddf6caa6d0a7f86ea7e3033a6e4dd3827f38b77167c5c8a80f4d5ba9b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (90,9), ao passo que a região que atingiu a menor nota Máxima foi a Norte (78,5). A Mediana do Brasil como um todo foi 40,8, sendo a maior Mediana obtida na região Sudeste (41,7), e a menor obtida no Centro-Oeste (37,9). A nota Mínima foi zero em todas as regiões.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Centro-Oeste (38,8), e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (30; 40].",
+  "text_sha256": "1b520971aafea862547d40bee3914d2a9e9dc9c63136aa00e5685e1ad668b8e0",
+  "window_size": 3
+}

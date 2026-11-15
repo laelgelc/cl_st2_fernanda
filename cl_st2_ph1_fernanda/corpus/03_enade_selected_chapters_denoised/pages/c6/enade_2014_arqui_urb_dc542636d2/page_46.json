@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b21f95c995ed135006af8f5eccf9087d19796828a13bdeb49",
+    "usage": {
+      "input_tokens": 2756,
+      "input_tokens_details": {
+        "cache_write_tokens": 2753,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2753
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 514,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 3270
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_45.txt",
+      "source_sha256": "ea03c7506e9b9c34fb006254340a564438de66f065659937970c8beafca96d5b"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_47.txt",
+      "source_sha256": "75ef4def9e25a4fa1da7fabc9683316cba918416f99675c3d2622331a58ea6bc"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:40Z",
+  "duration_seconds": 4.876,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_46.txt",
+    "source_sha256": "95e41a720bdbefcebb8a3a4c7d3712eceb750c339c93b0b4e679185bb1d1a2d8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dff79947bf4aa150f170c39ae6f66f6ae024df160fcc4bdd81183bdbff4ea503",
+  "request_fingerprint": "5b56b02ad6b3872267ad85ae1666c53044c09b62cab34ce1ba4e2354d9c1274f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "desvios padrões: 13,3 para a nota da prova como um todo e 18,1 para o Componente de Formação Geral.\n\nNa Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior média foi obtida por estudantes de IES Públicas (59,0), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (56,5).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Centros Universitários (55,6) e de Faculdades (55,4); mas existe diferença entre esses e a das Universidades (57,8).",
+  "text_sha256": "3ffb252dd8f1df037b7d9febf495e996e631b67870b463dc23204ba26508ec1a",
+  "window_size": 3
+}

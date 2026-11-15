@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0335858dbe97e8ad006af8f078dbb887d19855d0346977cdf7",
+    "usage": {
+      "input_tokens": 2582,
+      "input_tokens_details": {
+        "cache_write_tokens": 2579,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2579
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 276,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 2858
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_63.txt",
+      "source_sha256": "5e39bbdba4af6bf3048e712d1bf781ec79f4fea36a1e2bb4a0651e71e170e278"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_65.txt",
+      "source_sha256": "be1e022bba392ecee989edb292910b934e436459c8ae6849f7da4b566cae466c"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:24Z",
+  "duration_seconds": 3.31,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_64.txt",
+    "source_sha256": "d674a1b6cf95894f784280ace25dcf0e3bdd7a03f0165a3326764dd29d1bc8f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "721b98f3f760968152f71e5c99ee9c624562d1c2b7081919fecdc206c4ef21e0",
+  "request_fingerprint": "1bb8b4e0da3875714bbbded65734944d7dc934d6012a06dfc069299e2df3b5cb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.17 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral. Neste gráfico, desconsiderando-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 28%), observa-se a moda no intervalo (40;50].\nO coeficiente de assimetria das notas nesta questão é negativo (-0,22), indicando que a distribuição é assimétrica à esquerda. O mesmo ocorre para todas as regiões do Brasil (entre -0,38 para a região Sul e -0,08 para a região Nordeste).",
+  "text_sha256": "e37b9a6c54b72d292d087562e2bd8de4ad913d8cb925cbfc9e6ae86473154285",
+  "window_size": 3
+}

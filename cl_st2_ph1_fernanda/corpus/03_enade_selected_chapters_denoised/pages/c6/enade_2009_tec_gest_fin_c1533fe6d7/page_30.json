@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e3d7f3c2d42de31006af8e7f53f1087d196b800ca4309ffdb",
+    "usage": {
+      "input_tokens": 2451,
+      "input_tokens_details": {
+        "cache_write_tokens": 2448,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2448
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 2812
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_29.txt",
+      "source_sha256": "68f3b662e46879e551bcc369b1239fa501316b49332b5388da42db9159bab4b0"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_31.txt",
+      "source_sha256": "d68ef079bd452de70c0f16b7c66e1c7a7fd046e5cbbfb6145a39785f5f738171"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:05Z",
+  "duration_seconds": 4.655,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_30.txt",
+    "source_sha256": "54a66b30727fefbc855f210701a9c2402128c7e46c7e3bbac8727dbb1ae1e46d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc76706f8c46b0960c1d24a6120996906da9befbb90196adce8be367e22ce256",
+  "request_fingerprint": "cd98fb66a0f8de2b8573b14cd071a7f30ffbe39592e21aa039c5843b07ccb07b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, eixos, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 35,2 entre os concluintes e 30,9 entre os ingressantes. Nas faixas de notas até 30 pontos, o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 30 pontos. Constatou-se que aproximadamente 10,2% dos ingressantes e 15,9% dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "f36bc7747cac7184dbfd68ffbff0c6817bdc55626ac6f6cc7dacfdcfa61663df",
+  "window_size": 3
+}

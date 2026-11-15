@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1175921667b43c006af8eb11373c87d1b750a9a259b07209",
+    "usage": {
+      "input_tokens": 1579,
+      "input_tokens_details": {
+        "cache_write_tokens": 1576,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1576
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 289,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1868
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_36.txt",
+      "source_sha256": "aeca2be409bd721a522f88d70c8a543369cf565c926c850cbbeb49ef57e5458e"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_38.txt",
+      "source_sha256": "da1f415e861b8c90eee54a098db2ca704ba867e7934f7a32279eaa4c508b7537"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:21Z",
+  "duration_seconds": 2.881,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_37.txt",
+    "source_sha256": "164a72d2cbbb3847f0f369b5cd318b8d8176b4339b49cf43aac8545399b0b4ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "943b0df646fc4247db8d6382f18e63463b61b747c3d12a48c9cd8439a4d860c9",
+  "request_fingerprint": "7f1cb2bdbeefe803524920157adbd910df02637d114638a5f1d06b12e38ad693",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades, Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (46,1), e a menor, pelos de Faculdades (41,0).",
+  "text_sha256": "f7be6a42c8637b44fe2d30c165410531410c904dc868a344b2193338c06c08fb",
+  "window_size": 3
+}

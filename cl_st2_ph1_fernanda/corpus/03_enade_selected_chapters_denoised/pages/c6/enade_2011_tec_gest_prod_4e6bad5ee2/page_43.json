@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eb103363aa0a8e1006af8ef815a4487d1b814a6589a067fc8",
+    "usage": {
+      "input_tokens": 2029,
+      "input_tokens_details": {
+        "cache_write_tokens": 2026,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2026
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 906,
+      "output_tokens_details": {
+        "reasoning_tokens": 349
+      },
+      "total_tokens": 2935
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_42.txt",
+      "source_sha256": "a18f05efef863a3a60637cf20d1e8ed9eeead0ee43e3d7432c4142e527281a2c"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_44.txt",
+      "source_sha256": "a482ac8ac2d7fb255c1911908f0e5500006d20a73d46bd9f170e2ffdf92f57c9"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:17Z",
+  "duration_seconds": 7.961,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_43.txt",
+    "source_sha256": "529cbfb8c0b3ec75fbb70c9eb55f6e73d9088ff7d7a38b73da3e3251f2735cdf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e398ab8f5dd51e40868302414c01a19cd624b9d493dfd587a2aef9ef1dbec814",
+  "request_fingerprint": "2e8e73c17a4cb1e637551cfa4c22c31ab05ecedffb33129f6ad29193d2da6417",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título e fonte. A linha de fonte no início da página parece pertencer ao Gráfico 3.8 da página anterior e foi excluída; verificar essa atribuição."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Tecnologia em Gestão da Produção Industrial. A média do desempenho dos alunos do Brasil como um todo foi 45,3. A maior média foi obtida na região Norte (50,6), e a menor, na região Sul (45,2). As demais médias foram: 48,1 na região Nordeste e 45,3 na região Sudeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 14,7, sendo o maior desvio padrão observado na região Nordeste (16,0) e o menor na região Norte (13,7). Os demais desvios foram: 14,5 da região Sudeste e 14,8 da região Sul.\nA mediana das notas dos estudantes de todo o Brasil foi 45,8. A maior mediana ocorreu na região Norte (49,9), e a menor, na região Sudeste (45,2). As demais medianas foram: 47,3 na região Nordeste e 45,9 na região Sul. A nota máxima do Brasil como um todo foi 84,3, obtida por pelo menos um aluno da região Sudeste. As demais notas máximas foram: 73,9 nas regiões Norte; 82,7 na região Nordeste; e 79,3 na região Sul. A nota mínima\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40;50].\nO coeficiente de assimetria da distribuição das notas do componente de Conhecimento Específico é negativo e pequeno (–0,23). Nota-se pelo histograma (Gráfico 3.9) que esta é uma distribuição aproximadamente simétrica. Já nas regiões Norte e Nordeste, os coeficientes de assimetria ainda mais próximos de zero, igual a 0,065 e 0,002, evidenciando que estas distribuições podem ser consideradas simétricas.",
+  "text_sha256": "4f845b15374ba9564f5f85aacffa9e5caef48174b75db8185652da59e54fcad6",
+  "window_size": 3
+}

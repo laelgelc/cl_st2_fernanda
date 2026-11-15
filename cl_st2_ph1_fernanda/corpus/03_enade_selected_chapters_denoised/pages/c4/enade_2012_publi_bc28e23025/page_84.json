@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e1ee3d28e08da11006af8f153903087d1b71d73e7afabecdd",
+    "usage": {
+      "input_tokens": 1789,
+      "input_tokens_details": {
+        "cache_write_tokens": 1786,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1786
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 394
+      },
+      "total_tokens": 2427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_83.txt",
+      "source_sha256": "f67a6a3d60bd446ddb8bdc1d78d30f8d9f4da44e7d900d3768a6c177ee3f6826"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_85.txt",
+      "source_sha256": "efa4e3a9a12f461d3e461db12b87088eb1564d71365dcdf1d3ad4540001e80d3"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:03Z",
+  "duration_seconds": 6.061,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_84.txt",
+    "source_sha256": "466000418379e9ab76446a2933beacd4c69a30f8d6ad61356a69ee29f45182b2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4bb40b0b5827c88946413658cff937f6ca3c995836ba72539b6c6bf3f1fd2004",
+  "request_fingerprint": "8fa589f781cf2eaf20ed08ca8a16a32c80c89ce2baddb5f99c8764583fc863b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número da página e a linha “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como linha de fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada. Esta opção foi escolhida por 56,3% e 58,2% dos estudantes com desempenho no 2º quarto e 3º quarto, respectivamente. Nos extremos de desempenho, 50,4% dos estudantes no quarto de desempenho inferior optaram pela mesma alternativa, enquanto no quarto de melhor desempenho a proporção dos que deram esta resposta foi 58,0%.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 40%, decrescente com o desempenho, e sem diferenças estatisticamente significativas, com exceção de quando comparamos o quarto de desempenho inferior com os demais quartos.",
+  "text_sha256": "b48d4fc9d27467fa3c1d7b93f9e41d4568f5851bc99e5dd15a716c3f0f41eee9",
+  "window_size": 3
+}

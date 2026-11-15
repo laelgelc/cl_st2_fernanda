@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b6cf99cf5ab760c006af90045139c87d1afa240e91af5c008",
+    "usage": {
+      "input_tokens": 2655,
+      "input_tokens_details": {
+        "cache_write_tokens": 2652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 3074
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_42.txt",
+      "source_sha256": "4a795ecd06fe75a8f8e85ca2d3c2fb3024969f268bb7b88f383e9b973dc1e3d4"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_44.txt",
+      "source_sha256": "d3a7ab8223bb304c9c858639b6936532f43e365da447ac5d5efa823c57a94b02"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:49Z",
+  "duration_seconds": 3.933,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_43.txt",
+    "source_sha256": "60dfa25c19ce15bace79c6352e282496469d25f8e72d59e67bf5e89eef985d04"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc626095decc25139216d2ccd9b96ff41947240e86c6fb7b346b4ce05dc42c5c",
+  "request_fingerprint": "585ff6cf29296c44d3a215fc2b73065b9eeb4a6b7b17f05aed45773fc8088f81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the graph source line at the top of the target page; it appears to belong to the graph discussed on the preceding context page.",
+    "Removed Table 3.3, including its caption, data, labels, and source line."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.3 apresenta informações referentes à Condição de Presença desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de Inscritos, 7.491 são de IES Privada e 222 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (3.166), seguido de Centros Universitários (2.280) e Faculdades (2.267). A Categoria Administrativa de maior abstenção foi a Privada (27,3%), e entre as Organizações Acadêmicas foi a das Universidades (31,3%), que ficou acima da abstenção nacional de 26,8%.",
+  "text_sha256": "9115e5cbd47a2733691e42a4f98b476188e773d63bc04dc8094ef4b0c413df44",
+  "window_size": 3
+}

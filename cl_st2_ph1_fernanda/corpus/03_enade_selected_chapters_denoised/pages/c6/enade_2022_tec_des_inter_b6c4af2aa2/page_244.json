@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b6968063c859bd006af91cbc59d487d1b091d256aff4cb53",
+    "usage": {
+      "input_tokens": 2373,
+      "input_tokens_details": {
+        "cache_write_tokens": 2370,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2370
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 613,
+      "output_tokens_details": {
+        "reasoning_tokens": 381
+      },
+      "total_tokens": 2986
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 243,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_243.txt",
+      "source_sha256": "4a4dc372dc35d215ab4ae487901ba01d1ef8ca386e6827fa96cedf159457f86c"
+    },
+    {
+      "page_number": 245,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_245.txt",
+      "source_sha256": "43a95fa895a0b40889006e08c8b61554b8eb9f22080bd07224c9a4f6a6b2a886"
+    }
+  ],
+  "created_at": "2026-11-15T02:45:16Z",
+  "duration_seconds": 6.435,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_DESING INTERIORES.pdf",
+    "page_number": 244
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_inter/enade_2022_tec_des_inter_page_244.txt",
+    "source_sha256": "d78fd76330ab3ecc65ee424d1e6dd707270fd2da9c911fc336187f2d07c4a320"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e931b239ee9ba83b6580c3dd691e2eacc5f3d22298a9ae8f3cf778b41f4f1488",
+  "request_fingerprint": "35288a83658b50ea56f03e12f1ece9c1d83dfb99d4d1d8fec8787ed9e3ba4c06",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 8.24, seu título e a linha de fonte.",
+    "A frase “Os coordenadores de cursos em IES privadas (...) concordância...” parece conter uma lacuna ou problema no texto extraído; preservada sem correção."
+  ],
+  "status": "success",
+  "text": "O Gráfico 8.24 apresenta mais resultados que subsidiam outras análises, em acréscimo àquelas já expostas, em relação à mesma assertiva.\n\nMais uma vez, cumpre notar que, para a questão cujos resultados são retratados no Gráfico 8.24, são discerníveis dois grupos com características pouco distintas. Os coordenadores de cursos em IES privadas (privada sem fins lucrativos e privada com fins lucrativos) concordância (acima de 80,0%), mas que ainda apresentam algum grau de discordância. E os coordenadores de cursos pertencentes às IES públicas municipais e federais, observa-se valores iguais a 100,0% na categoria modal “Concordo” e “Concordo totalmente”, respectivamente.",
+  "text_sha256": "8a42813fce2ed0976094ce55934b587862c53bf201413955cf976a12ccb2d28e",
+  "window_size": 3
+}

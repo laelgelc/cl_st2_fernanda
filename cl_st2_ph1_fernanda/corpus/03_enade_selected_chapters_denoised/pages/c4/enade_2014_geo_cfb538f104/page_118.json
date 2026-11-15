@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bea748ccbed13b006af8f9d8dcf087d194028373c65e6ddb",
+    "usage": {
+      "input_tokens": 1338,
+      "input_tokens_details": {
+        "cache_write_tokens": 1335,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1335
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 242
+      },
+      "total_tokens": 1703
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_117.txt",
+      "source_sha256": "273d1aca4e7d96d8530c3e8033d3ce19ea01989e6ee0376ccd39be190458e68f"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_119.txt",
+      "source_sha256": "d852bd3ac6d174627b947b07f32fe71fa5df257611104268cae148eb4dc70f37"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:24Z",
+  "duration_seconds": 4.649,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_118.txt",
+    "source_sha256": "28ffe4fc1081336a7ecad6eb6aba8c34ecd2031664b9ffb5a4a432437bf529f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "deb2e321d8aa69b64655b0c2bf13fa7e519661554d5d8c486f8d400595044aa5",
+  "request_fingerprint": "90b02283b80323ca6b9eaff232fda3a3731e77ef8cf54b8527a11c0fcc0d6265",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que parece pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "d4b1c630283e7af231f2049aeed69b3547fb5a04c36af5d8a6fe057916bde172",
+  "window_size": 3
+}

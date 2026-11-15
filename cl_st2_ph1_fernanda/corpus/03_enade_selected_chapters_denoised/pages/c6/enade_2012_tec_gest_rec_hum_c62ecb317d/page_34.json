@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ec7b0f18f98f1fe006af8f2051bf487d1b7c40b0b4beacad6",
+    "usage": {
+      "input_tokens": 2413,
+      "input_tokens_details": {
+        "cache_write_tokens": 2410,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2410
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 414
+      },
+      "total_tokens": 3126
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_33.txt",
+      "source_sha256": "4ecc83ac184dc5b3a87574fdad39bc385c6f0fe90206d23cc600e86f9bc94e06"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_35.txt",
+      "source_sha256": "66cdfb41d7c750cb6a1ab35f90077baeb8279fc580addfd1436a76b8760038c6"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:01Z",
+  "duration_seconds": 6.884,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_34.txt",
+    "source_sha256": "e84a94c675703628964e6845d1aeb2a7339a3d5eab86a272f52e06d738f756a1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "50361c5ded5e7c3a4aa1a4f7aef98066d565e78278e2a2f7cf5412743296ff2f",
+  "request_fingerprint": "a35b7ddedafd25770934ff43294cb22c73bd187c056d0aa70bae87cd3f65e18a",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.1, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "11,9, sendo o maior desvio padrão encontrado na região Nordeste (12,1) e o menor na região Norte (11,0), indicando uma menor dispersão das notas desta última região.\nA região que obteve a maior nota máxima foi a Sudeste (84,5), ao passo que a região que atingiu a menor nota máxima foi a Norte (64,2). A mediana do Brasil como um todo foi 38,2, sendo a maior mediana obtida na região Sul (39,5) e a menor obtida na Centro-Oeste (35,5). A nota mínima foi zero em todas as regiões sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40]. Apesar do coeficiente de assimetria da distribuição das notas ser positivo (0,05) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito, com exceção da região Sul onde a distribuição é simétrica (0,00).",
+  "text_sha256": "5b7c11f03829f3f92705691bb001a62b90d168b215a621325028fa8791ec947c",
+  "window_size": 3
+}

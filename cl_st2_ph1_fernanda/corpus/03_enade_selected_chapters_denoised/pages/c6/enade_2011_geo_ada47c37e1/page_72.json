@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09e221e3a7bbf836006af8ed966a2087d1a41e3b84f180f7d7",
+    "usage": {
+      "input_tokens": 2146,
+      "input_tokens_details": {
+        "cache_write_tokens": 2143,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2143
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 785,
+      "output_tokens_details": {
+        "reasoning_tokens": 385
+      },
+      "total_tokens": 2931
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_71.txt",
+      "source_sha256": "104bdc12efd464be19e5ed92595e8efecf122164d0589951b91e030b755eac73"
+    },
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_73.txt",
+      "source_sha256": "e2fe085003c9775777682f0fb197245571fa1e45f358fbc6ff84831f7837f2a4"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:06Z",
+  "duration_seconds": 8.129,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 72
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_72.txt",
+    "source_sha256": "9c0977e6b60835900fb0189565537e45e591a335f6a22d20b1a6f5d2509ce878"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9fe7b46951f62b386c47015ab0a00563ed3860cdc7914e7458325ed56cd667ee",
+  "request_fingerprint": "7c8b2132cebbd40d30187bc53462ac5984d28a1793865595db09653508f4d035",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e fonte. O Gráfico 3.20 é mencionado na prosa; o material gráfico não aparece no texto extraído do alvo. A linha de fonte na página vizinha parece estar relacionada ao gráfico, mas não foi incluída."
+  ],
+  "status": "success",
+  "text": "A nota máxima, 100,0 pontos, foi alcançada por pelo menos um aluno da região Sudeste. Nas demais regiões a nota máxima foi 90,0. A nota mínima (0,0) foi obtida em todas as regiões do Brasil, sem exceção. A mediana do Brasil como um todo foi 0,0, o que indica que mais do que 50% dos alunos obtiveram nota zero ou não resolveram essa questão. A única região com mediana diferente de zero foi a Centro-oeste, onde esta estatística foi 10,0.\n\nO Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico da área de Geografia para alunos do Bacharelado e da Licenciatura. Essa distribuição tem moda nas questões em branco, com percentual maior para os alunos de Bacharelado. O coeficiente de assimetria é positivo e em torno de 1 para os dois cursos: 1,11 para o Bacharelado e 1,00 para a Licenciatura. A assimetria é positiva para todas as distribuições por região, sendo que a distribuição das notas dos alunos de Bacharelado da região Norte tem o maior coeficiente (1,60) e o do curso de Licenciatura da região Centro-Oeste o menor (0,82). Esta proximidade nos valores dos coeficientes de assimetria sugere que a forma dos histogramas é bem semelhante para todas as combinações de região e habilitação.",
+  "text_sha256": "bf268032163551ce4350f8f19bf7a7bf3c3b925b03d598d96120f710015c0dce",
+  "window_size": 3
+}

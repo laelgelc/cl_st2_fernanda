@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02e1e32978c5ed59006af910a5ad7887d1bdb0a3e43630a190",
+    "usage": {
+      "input_tokens": 3256,
+      "input_tokens_details": {
+        "cache_write_tokens": 3253,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3253
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1985,
+      "output_tokens_details": {
+        "reasoning_tokens": 894
+      },
+      "total_tokens": 5241
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_157.txt",
+      "source_sha256": "5767cbcc46e61fb3e7af9536a83db0b627b32774e05cbabf6a5e985394bac0bc"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_159.txt",
+      "source_sha256": "db03227146598a569f8f2bee00d2b30755b9cf25cd951d63c653fcef582f7a97"
+    }
+  ],
+  "created_at": "2026-11-15T01:53:41Z",
+  "duration_seconds": 15.675,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA CIVIL.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_158.txt",
+    "source_sha256": "e32762675448066335a82b2850797717c2fa33e2136fa867127c7465e680a4ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8c1eca15c7ea7b3e0b8340c487c4bce89dc3573197ed9b294a6075d36268a394",
+  "request_fingerprint": "af3ff578800e17e335db7f6752af9d8ca465a4958dfd88ddeea1d3fbbb2f06c3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil, e três questões foram tidas como Fácil, por ter índice de acertos entre 0,61 e 0,69. Três outras questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,45 e 0,55 do Índice de Facilidade, ou seja, houve entre 45,0% e 55,0% de acertos. Nenhuma questão foi classificada na categoria Difícil. Uma questão apresentou 15% de acertos, razão pela qual a questão foi classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,15 a 0,69 e o de Discriminação, de 0,31 a 0,53. Quase todas as questões, quanto ao Índice de Discriminação, foram tidas como Muito bom, pois uma foi classificada como Bom.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As sete questões que tiveram Índice de Discriminação Muito bom figuraram entre três níveis de dificuldade Fácil, Médio e Muito Difícil: três classificadas na categoria Fácil (questões 2, 3 e 7) do Índice de Facilidade, três, na categoria Médio (questões 4, 6 e 8), e uma classificada na categoria Muito Difícil (a questão 5). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Médio em termos de Facilidade, com uma proporção de 0,55 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,69. A questão 5 foi considerada Muito Difícil, com índice de Facilidade 0,15. O índice de Discriminação foi Bom para a questão (0,31).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão classificada como Médio, em relação à Facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 17,1% escolheram a alternativa E (em vermelho), 14,9% escolheram a alternativa D (em laranja), 23,2% escolheram a alternativa B (em verde, gabarito), 9,3% escolheram a alternativa A (em azul), e 35,2%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e nenhum estudante marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,53) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "7dfa609247f5918e5615ba03cf398998fc4ffe25e90ec4fafdc5a047bd2d7916",
+  "window_size": 3
+}

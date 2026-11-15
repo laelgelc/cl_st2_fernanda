@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4c307faea53468006af8eb8d247487d1bc7ada152dd25e48",
+    "usage": {
+      "input_tokens": 1725,
+      "input_tokens_details": {
+        "cache_write_tokens": 1722,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1722
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 589,
+      "output_tokens_details": {
+        "reasoning_tokens": 397
+      },
+      "total_tokens": 2314
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_83.txt",
+      "source_sha256": "dab67773c068228b902f74896b03c43cf89445adefe7591c84bd00e7b0c536fb"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_85.txt",
+      "source_sha256": "a0bacfae26363836aedab2b1f24ea95674c15253e2d9b159c27b9661912c7fc7"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:25Z",
+  "duration_seconds": 6.424,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ef/enade_2011_ef_page_84.txt",
+    "source_sha256": "055441b481fc18002168e3bdf3bb6039c49db5469a259443d447d47606e51805"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "59721aec72a784ed8b0befeb6c08a6d7bb771f291e3aaf61badcca2349167a00",
+  "request_fingerprint": "095ddd315c383fc1fa8a3f60dbb079cc8a7b153b9c30d0e75e6a7e3d6e2443a2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como material associado a gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa entre os quartos de menor desempenho: 27,7% no primeiro quarto e 26,7% no segundo. Nos quartos de desempenho superiores, a proporção dos que classificaram a parte específica como difícil ou muito difícil foi de 20,0% (último quarto) e 23,4% (terceiro quarto). A alternativa modal para a Questão 2 foi o grau médio, com 55,9% do quarto inferior e 63,3% do superior optando por esta resposta.",
+  "text_sha256": "569b5617139a13ef41df11380c99149ac6bd3776b4be95dabdab625dfd1681ab",
+  "window_size": 3
+}

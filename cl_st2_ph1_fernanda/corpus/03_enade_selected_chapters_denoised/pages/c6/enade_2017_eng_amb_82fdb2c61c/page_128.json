@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060232be7ce7f5db006af905bc893c87d19b074b34a42d2dde",
+    "usage": {
+      "input_tokens": 3112,
+      "input_tokens_details": {
+        "cache_write_tokens": 3109,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3109
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 557,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 3669
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_127.txt",
+      "source_sha256": "a4fe1bd2f55447f17e2bc775e892ee135240a71c0dc914c31b42bd1c28d74e54"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_129.txt",
+      "source_sha256": "20c60cc1cdc819385457f4260df8f919511ead2b199cbdd7050db49c0f0dd811"
+    }
+  ],
+  "created_at": "2026-11-15T01:07:08Z",
+  "duration_seconds": 5.803,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_amb/enade_2017_eng_amb_page_128.txt",
+    "source_sha256": "9bfbc751d36083078a8eedc361ae5d95fc89733a473d6cb56bdcc6a6bdfdb561"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0267d72938c81626c3ba11ec152a12646122da2831c3b7d5dde76d630b4a219",
+  "request_fingerprint": "90424dfd75514219088897a06a4e9443a6982b0a7e780076228842f4ecc2b4ca",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo seus dados, título e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.12 apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, classificadas com índice Bom, duas delas, as de número 26 e 34, alcançaram o índice mais elevado (0,37, para ambas), a primeira foi classificada como Fácil quanto ao Índice de Facilidade, com 78% dos estudantes marcando a opção correta e a segunda teve índice de facilidade considerado Médio, com 55% dos estudantes acertando a questão. A questão de número 12 foi a mais difícil dentre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 15% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,14, o que comprova ter sido a mais difícil para os estudantes. Destacam-se, também, as questões 32 e 35, ambas com Índice de Facilidade 0,18, o que, em termos percentuais, corresponde a 18% de estudantes que responderam acertadamente. Já 0,17 e 0,13, respectivamente, foram seus de Índices de Discriminação, considerado Fraco. Tais questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por isso, as questões 12, 32 e 35, além das questões 11, 17 e 19, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "2cedf4e42ecce62c44b8137cac8f82070a670055cbd67a58e3344ca74d0ad5ec",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_089b3ac949d74e8a006af8f3f9ed7c87d194c9314533d99b36",
+    "usage": {
+      "input_tokens": 2251,
+      "input_tokens_details": {
+        "cache_write_tokens": 2248,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2248
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 541,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 2792
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_40.txt",
+      "source_sha256": "e46adb1bc07e8f08d215f07708b996d6db9865674a3da189db0de991240ed112"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_42.txt",
+      "source_sha256": "1183b314d2b53e68fb6c01814360b1ec02f662ab60589f23a6a5ffa6793088ed"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:21Z",
+  "duration_seconds": 5.335,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_41.txt",
+    "source_sha256": "cd25cca73308ab858d6c02a3cf12b1f6791e319f0816ba9a416e3a8722082715"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d91a5d19c01389fe87844c1b9b3d71f634c51e1a5965a94bf8d745c1e4dabd5",
+  "request_fingerprint": "8fd88c58794f2320f1c35e11ccaf480d75d6135a9f3d8a34d3f4a8b8266f1fc3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico referente às distribuições por Grande Região, incluindo a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”."
+  ],
+  "status": "success",
+  "text": "As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito, exceto a região Norte que apresentou assimetria positiva.\n\nOs Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (56,2) e a menor, obtida na região Norte (45,8).",
+  "text_sha256": "9ed9c5a998ef2f579325c3a4b67784a3840104b86fcad683932416f09e72204b",
+  "window_size": 3
+}

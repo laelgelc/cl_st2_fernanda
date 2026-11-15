@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02899b0b3339fc1c006af923ca13bc87d1b810726f2fdd915d",
+    "usage": {
+      "input_tokens": 2038,
+      "input_tokens_details": {
+        "cache_write_tokens": 2035,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2035
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 2352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_109.txt",
+      "source_sha256": "436a89541bf385daeb4f82533e4bd53f59cf48a031833d5c09bee8da2145eacf"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_111.txt",
+      "source_sha256": "9d461f8f96e86425b996b4277910912d54c5fc0f9d42e46c3d585232c06ffecd"
+    }
+  ],
+  "created_at": "2026-11-15T03:15:22Z",
+  "duration_seconds": 3.49,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FONOAUDIOLOGIA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_110.txt",
+    "source_sha256": "3193c4221aaad18128a60f6cd9c968bf458ceb6e6c9072eae7be63e9f1b07414"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "245e17cb58220e15b298410bb98360d8392eec1a17841dd2a07631b343ac1133",
+  "request_fingerprint": "bbd4ad624b02b9b3603f719789d25d56f9b26410ea52203fc72cd0505b67de55",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.30, incluindo seu título, dados, legendas e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.30 apresenta os resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 3.30, considerando-se separadamente as opiniões dos estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 4,8% ofereceram como resposta que não estudaram ainda a maioria desses conteúdos, sendo 0,3% os do quarto superior com a mesma resposta. As diferenças entre os estudantes que optaram por esse motivo de dificuldade no quarto inferior em relação aos demais quartos de desempenho são estatisticamente significativas.\n\nLevando-se em conta o quarto superior, a maioria dos estudantes, 77,0%, afirmou que “Estudou e aprendeu muitos desses conteúdos”. No outro extremo, no 1.º quarto, 62,5% optaram pela mesma categoria. As proporções são crescentes com o desempenho.",
+  "text_sha256": "4717901a1165968269d5792bf704716872bd719f382885162eae0bab108a9995",
+  "window_size": 3
+}

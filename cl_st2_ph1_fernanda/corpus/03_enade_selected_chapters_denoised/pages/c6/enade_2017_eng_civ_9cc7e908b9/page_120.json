@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06db1b1bc0721e7c006af905ec90d887d18e5a6fc1c2ee1593",
+    "usage": {
+      "input_tokens": 3258,
+      "input_tokens_details": {
+        "cache_write_tokens": 3255,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3255
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1364,
+      "output_tokens_details": {
+        "reasoning_tokens": 489
+      },
+      "total_tokens": 4622
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_119.txt",
+      "source_sha256": "0cb090cb820140ec80c29b1a74440bd8ed12119cbd0729f2521a7f0dda44b1fe"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_121.txt",
+      "source_sha256": "f0c6475cb7a3e83a07acbb4f244d5cfb9700872c3acadfad06a52a2c13fa746b"
+    }
+  ],
+  "created_at": "2026-11-15T01:07:56Z",
+  "duration_seconds": 10.972,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA CIVIL.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_120.txt",
+    "source_sha256": "95a2a6b18f9b59cdeb94a948a93d850c1daea46627848203a49e8690bd90f19c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5344d9bc7a1ab2a4deb539235e78fefc03d426e483483d6ab7948a106c90ceec",
+  "request_fingerprint": "c14369b2c1f2f3effebc17d6bb79b04596969c06c579d2b85c973b2a4db3a352",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, cabeçalhos, legendas/captions e fontes das Tabelas 6.7 e 6.8."
+  ],
+  "status": "success",
+  "text": "A Mediana do Brasil como um todo e as das regiões Norte e Sudeste foram 50,0, enquanto nas demais regiões a Mediana foi 62,5. A nota Máxima, 100,0, e a nota Mínima, zero, foram iguais para todas as regiões.\n\nA Tabela 6.8 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice Muito fácil (&gt;=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (&lt;=0,15).\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice Fraco receberam a cor vermelha (&lt;=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (&gt;=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, uma teve o Índice de Facilidade classificado como Muito fácil, e duas questões foram tidas como Fácil. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim,\n\nA Tabela 6.9 apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices. As oito questões com Índice de Discriminação Muito bom figuraram entre quatro níveis de dificuldade Muito fácil, Fácil, Médio e Difícil: uma classificada na categoria Muito Fácil (a questão 6) do Índice de Facilidade, duas classificadas na categoria Fácil (questões 4 e 5), quatro na categoria Médio (questões 2, 3, 7 e 8) e, por fim, uma na categoria Difícil (questão 1). Em particular, a questão 4 foi a que apresentou o maior poder discriminatório, com índice 0,51, tendo sido considerada Fácil em termos de facilidade, com uma proporção de 0,65 acertos. O máximo de acertos foi alcançado pela questão 6, com um Índice de Facilidade de 0,86. As questões 4 e 5 foram consideradas Fácil, com índices de facilidade 0,65 e 0,68, respectivamente. Já os índices de discriminação foram Muito bom para as questões 2 (0,41), 3 (0,45), 7 (0,45) e 8 (0,45), com respectivamente 0,54, 0,49, 0,41 e 0,49 de Índice de Facilidade. A questão de número 1 apresentou um Índice de Facilidade de 0,30 (Difícil), ou seja, menos do que um terço dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação também foi Muito bom (0,48).",
+  "text_sha256": "63a9b2cfb1fd2c6fcdf6d5767011937a68a971244720638dc13dd3d15cf02db1",
+  "window_size": 3
+}

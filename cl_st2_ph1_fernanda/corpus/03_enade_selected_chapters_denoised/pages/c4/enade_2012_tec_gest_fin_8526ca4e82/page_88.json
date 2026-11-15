@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df838e24ed8ae4c006af8f221fc5c87d1bbad436f3ca3ad64",
+    "usage": {
+      "input_tokens": 1712,
+      "input_tokens_details": {
+        "cache_write_tokens": 1709,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1709
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 568,
+      "output_tokens_details": {
+        "reasoning_tokens": 372
+      },
+      "total_tokens": 2280
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_87.txt",
+      "source_sha256": "14d785e07ff90eb3f2a4f2709dd4473b9ec8d09f140619f852b220da6bbdd97f"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_89.txt",
+      "source_sha256": "e23ab65555b524f382cf1fa244710c5d0f5db016871d61eed48d4c9848acc8c4"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:29Z",
+  "duration_seconds": 5.326,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_88.txt",
+    "source_sha256": "3125319cae33ff8477a1077a7a124a31503a2b9a5996832eda253044822ff87b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6b9ac03c6e3d77ed00e4a500bb2f8588e3784018950a86fc16be90249d9e57cb",
+  "request_fingerprint": "be9d9920367b263854d86e2a2f107a634f75ce2c867e4700ac42aeb860601b2e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», aparentemente associada a material gráfico do Gráfico 4.12; revisar se a fonte pertence a um gráfico nesta página."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes entre todos os quartos de desempenho com tendência ao crescimento, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (82,8%), percentual superior à média nacional (74,9%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 66,9% dos respondentes.",
+  "text_sha256": "2693bd94cd0794c2f5f02c155dd0059d14d14b26d4fa5dfffc7c8e7574f81bdd",
+  "window_size": 3
+}

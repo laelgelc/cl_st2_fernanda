@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08954b76767a5798006af8f0255f7887d1b8b1d89e3e56edb4",
+    "usage": {
+      "input_tokens": 2421,
+      "input_tokens_details": {
+        "cache_write_tokens": 2418,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2418
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 328,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2749
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_66.txt",
+      "source_sha256": "ded508e8cffe4f66ebd6c8bcaa628a1c7bb13552d1089a427260e30423a5836a"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_68.txt",
+      "source_sha256": "eb29d4e099c57013cbb1584bd67a6fa9db505caa83e44af635479a9499a02ecf"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:01Z",
+  "duration_seconds": 4.266,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_sane_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM SANEAMENTO AMBIENTAL.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_67.txt",
+    "source_sha256": "4e84c1ee963df9aa201e5c287ce3dbf710d5ba65464551b4c60fc51b8c13d8aa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bced049fc574eed58b18d3f5ff605e8a74b3854527190c80f3bf51ab3bd5eda6",
+  "request_fingerprint": "e2734491929b30928dee32a4e8fc8d29a0500b01e80d00f38348d55c7fad50d5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.19 e sua linha de fonte; preservada a interpretação em prosa."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (30;40] e observa-se cauda mais longa à direita, o que se confirma pelo coeficiente de assimetria positivo, igual a 0,25. Questões deixadas em branco constituem um segundo máximo local. Apenas na região Norte o coeficiente de assimetria é negativo (–0,21). Nas demais regiões os coeficientes variam entre 0,18 (Sudeste) e 0,60 (Sul).",
+  "text_sha256": "f8fbfa6850e5da7cae5d6561a49ba3f7a0cd30c81b31f66314781a871ed3a360",
+  "window_size": 3
+}

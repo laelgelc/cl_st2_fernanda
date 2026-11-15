@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eb9a85881e3c67c006af904fb6f1887d1a8385d1d76343979",
+    "usage": {
+      "input_tokens": 3325,
+      "input_tokens_details": {
+        "cache_write_tokens": 3322,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3322
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 555,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 3880
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_209.txt",
+      "source_sha256": "955acc363be19353c4394703d852e646ed3ff1605007132908268782288e157d"
+    },
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_211.txt",
+      "source_sha256": "2cbbc5e20ab9a363cb9e403e87865d5d4918e9f9edcc86ad0e4bd145076c0bc3"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:55Z",
+  "duration_seconds": 4.649,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 210
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_210.txt",
+    "source_sha256": "63a322be77052b40bac1a1da2f72198c8a262347490c7cacee0e59492c5d452b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bd7103dff3b8d88bc064da82984fc7c4b24e122e74fd2d29585d67a9e7ea06a4",
+  "request_fingerprint": "2d8236d8c3e1fcff490485a2a254dd12f8d22e0a283cd720dabcc0feab3244a4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7a, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.8a apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas como Difícil (0,16 a 0,40) e roxo para as questões classificadas como Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39), e as classificadas com Muito bom (>=0,40), a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas para os estudantes de Licenciatura: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e uma questão foi tida como",
+  "text_sha256": "c717dbe213d022094c9b50073131c893e82c8c4e0d5e34e1bb0379373ee43d95",
+  "window_size": 3
+}

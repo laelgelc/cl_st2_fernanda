@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0523e506a996fe4a006af921b8295c87d19063d6e5da47caf6",
+    "usage": {
+      "input_tokens": 1963,
+      "input_tokens_details": {
+        "cache_write_tokens": 1960,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1960
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 522,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 2485
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_civ/enade_2023_eng_civ_page_127.txt",
+      "source_sha256": "ec3ecc009c2143ae903804246d13d7c7f6152eac9d41db65c2115d55f4e222b0"
+    }
+  ],
+  "created_at": "2026-11-15T03:06:32Z",
+  "duration_seconds": 6.372,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENEGENHARIA CIVIL.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_civ/enade_2023_eng_civ_page_128.txt",
+    "source_sha256": "f82f375c700d73501632932a8f6f32976df73a2f8cccdab76ed7dd9bd6a683ae"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bfa4bcd120943239fc0ba6bdbd50b79114bb9ca25f7bf3c18e83dd3548969435",
+  "request_fingerprint": "61f4c197d55f15acdbc41f5e4fb0dfb752d02584f37f05dde1421714a07acdf7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.3 e seus elementos identificadores (título/caption e fonte)."
+  ],
+  "status": "success",
+  "text": "De maneira semelhante à forma como se procedeu em relação à seção anterior, esta seção encerra-se com o Gráfico 4.3, que apresenta a distribuição do Conceito Enade dos cursos de Engenharia Civil segundo a organização acadêmica da IES.\n\nNo Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante à dos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de CEFET/IF apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por universidades (linha azul) e centro universitários (linha verde) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "064affda523e7e9226cbfa59e00b0364bd115a08c67c8e5e6fb99a65daa9b7e7",
+  "window_size": 3
+}

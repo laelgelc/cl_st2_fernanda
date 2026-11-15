@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bad91ddfe32ba4f006af8e523d23887d1a21c9ba452cbe9cd",
+    "usage": {
+      "input_tokens": 2467,
+      "input_tokens_details": {
+        "cache_write_tokens": 2464,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2464
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 535,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3002
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_32.txt",
+      "source_sha256": "e0fd79607858c79fa382f197547eef0561b887c3aa2973269e3cceb06a32e2fd"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_34.txt",
+      "source_sha256": "825948ea0c21342086d55d3cf2bbb6e3ecda1e4820953fc7c73b9ce5a77d8745"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:03Z",
+  "duration_seconds": 4.274,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_33.txt",
+    "source_sha256": "c8028be3d2602afbeaf5a8fafc3cf6dc56cc2a7ae2acb098830e98eb3335fa2a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d204a0bab168813f1984ab31bee29f938428d02971044627d8df0cd3752c1d69",
+  "request_fingerprint": "e9901deff7d25c4d4d7eebce3fc09307a590c6d725d548ed9af1f96f5efd9b37",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 43,19 na Região Norte a 51,12 na Região Sul. Entre os ingressantes, os valores foram de 42,08 na Região Norte a 49,96 na Região Sudeste. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes (0,91) quanto para os ingressantes (1,01). Na Região Sudeste, os concluintes (50,02) apresentaram médias quase iguais à dos ingressantes (49,96). Em todas as Regiões, os concluintes apresentaram médias maiores do que os ingressantes.\n\nTendo como foco as categorias administrativas, as maiores notas médias foram das instituições estaduais para concluintes (52,55) e das instituições federais para ingressantes (48,34), enquanto às das instituições privadas foram menores para os concluintes (46,36) e para os ingressantes (45,40). Os estudantes das instituições privadas se apresentam mais homogêneos do que as das demais instituições.\n\nConsiderando-se o tipo de Organização Acadêmica, Centros Universitários apresentaram os maiores valores para os concluintes (49,54) e Faculdades para os ingressantes (47,60). Os Centros Federais de Educação Tecnológica e os Institutos de Educação, Ciência e Tecnologia não estavam representados nesta área.",
+  "text_sha256": "9b9f9cf49180a58f0a7fad1a228165013674e7920b6f1cc7868443c40578c0ff",
+  "window_size": 3
+}

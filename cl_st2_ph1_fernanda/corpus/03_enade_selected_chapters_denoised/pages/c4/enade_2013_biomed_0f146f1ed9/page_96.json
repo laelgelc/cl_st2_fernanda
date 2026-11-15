@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0420391f2a89ddab006af8f30ebcc887d1a508487c1c9cc538",
+    "usage": {
+      "input_tokens": 1558,
+      "input_tokens_details": {
+        "cache_write_tokens": 1555,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1555
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 515,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2073
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_95.txt",
+      "source_sha256": "8d4615998f182680fca25eee0b26dad13a2ee4f3788f0c67464268a9c554dfa3"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_97.txt",
+      "source_sha256": "51444e90c1f8f3592df3b6b4eb51fbbd757ee85f0940f86cda2fea196b481076"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:26Z",
+  "duration_seconds": 5.698,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_96.txt",
+    "source_sha256": "d75e810f47500bb8801ac6541880df6849ce12f392cedaaf17bb51f05afacba9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0facce6c78b911a95f3326021896a7b3809eac131088fa37df8ec3b62836059b",
+  "request_fingerprint": "bb8317af5ed831f65e30eeb4015f5e5eb04c0f93ebaa46644b997e67b824fdf2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico; o gráfico correspondente não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 87,3% dos respondentes da Área de Biomedicina de todo o Brasil afirmaram que estas eram até excessivas ou suficientes em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12 e, no Anexo II, a Tabela II.6).\nQuanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou suficientes em todas ou na maioria das questões foi sempre superior a 80%, chegando a 89,9% na região Sul. As diferenças entre as proporções da região Norte (80,3%), a menor proporção, e as regiões Sudeste (87,2%), Sul (89,9%) e Centro-Oeste (87,8%) são estatisticamente significativas.",
+  "text_sha256": "f5952b0782a385295bcb1c42ed48a37ec34e9c13832f7bb96643908500d5509b",
+  "window_size": 3
+}

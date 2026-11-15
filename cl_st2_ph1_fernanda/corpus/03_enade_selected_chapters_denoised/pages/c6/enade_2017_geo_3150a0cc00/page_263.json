@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001ebc3ff467880d006af908a72e7087d1b7a29f0276b60838",
+    "usage": {
+      "input_tokens": 2844,
+      "input_tokens_details": {
+        "cache_write_tokens": 2841,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2841
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 306
+      },
+      "total_tokens": 3260
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 262,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_262.txt",
+      "source_sha256": "978cd9b1485bbfe957178e4c80ad5159f691cfd0ab50850d188c740c75ed8d38"
+    },
+    {
+      "page_number": 264,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_264.txt",
+      "source_sha256": "64f7989d5c1c750b2ab259ca40298257f57aec180bfe3e6b47b26e9285bb4456"
+    }
+  ],
+  "created_at": "2026-11-15T01:19:35Z",
+  "duration_seconds": 5.139,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 263
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_263.txt",
+    "source_sha256": "36126f4a1c849c670679f64e24585687db02c5b3f391a4962f93d532201f36d1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1523e2d5da3a250c685bd8ded2be9c8de4db80c26c3f905d30c80fe99c23719",
+  "request_fingerprint": "fa6a5d2bcb9c5485b4a980a6b9c0715ba954fb780562b3328dd9016da747fb81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.17a e 6.17b, incluindo títulos, dados e fontes.",
+    "A última frase termina no meio da sentença; a continuação está fora do target e não foi incluída."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no intervalo",
+  "text_sha256": "fea1e194559642e27e02b85933b072dac4ad348c20e227df8ea4557ba808cf7a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9b31b01402b3ab006af8f595d2a087d199079a9e6652640c",
+    "usage": {
+      "input_tokens": 2152,
+      "input_tokens_details": {
+        "cache_write_tokens": 2149,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2149
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1172,
+      "output_tokens_details": {
+        "reasoning_tokens": 810
+      },
+      "total_tokens": 3324
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_44.txt",
+      "source_sha256": "5b5f1f110f2757f60d88bd86895531876d0018cbc582ba1d76501d3d7b4043c3"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_46.txt",
+      "source_sha256": "47321c28cf9bafa9df4c6aa0875f41759dc7cb0da4c295eff69047e19e105f17"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:13Z",
+  "duration_seconds": 11.562,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_45.txt",
+    "source_sha256": "a6de61efd72df74e2dad5eb777e71a8e0efb8058cae99faf2f2ef4caee6739b9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5188e2bc3c40176048fbe365c11611c62dd35141d97cd862c22c0d87dc026f6a",
+  "request_fingerprint": "cec811cd478673f907266f1e7aa652af2147722ca3cc2c5b2b62e9acf64da0c1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line at the top of the target page, likely associated with a graph or table on the preceding page. The final sentence continues beyond the target page; it is left incomplete."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 41,9. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 14,3. A maior média foi obtida na região Sul (42,9), e a menor, na região Norte (39,8). Nas regiões Nordeste, Sudeste e Centro-Oeste a média foi 42,0. Já o maior desvio padrão foi obtido na região Nordeste (15,6) e o menor na região Norte (12,7). Os demais desvios padrões foram: 13,7 na região Sudeste, 15,4 na região Sul e 14,8 na região Centro-Oeste.\nA maior nota no Componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Nordeste (87,8) enquanto que a menor nota máxima foi obtida na região Norte (75,3). Nas outras regiões as notas máximas foram: 80,4 na região Sudeste, 78,9 na região Sul e 84,4 na região Centro-Oeste. A mediana do Brasil como um todo foi 42,2, sendo a menor mediana encontrada na região Norte (38,1) e a maior",
+  "text_sha256": "ddbeb1ebe5ef0153a7d062be4fd98096e8b18c57f6452ce3ba65a432cb4fb243",
+  "window_size": 3
+}

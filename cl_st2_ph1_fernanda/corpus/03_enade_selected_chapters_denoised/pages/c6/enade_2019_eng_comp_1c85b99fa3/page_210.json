@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e870684c0f15b8e006af91102e60887d1aca28869d3405076",
+    "usage": {
+      "input_tokens": 2588,
+      "input_tokens_details": {
+        "cache_write_tokens": 2585,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2585
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 327,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 2915
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_209.txt",
+      "source_sha256": "3af0f932486e87c9141cc47806cadbb1501cb3820a024e912ad3d7737d2fc16d"
+    },
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_211.txt",
+      "source_sha256": "6402b13eca789745cae2ad6aa155f4e0305bc891c3eb540acd3eb890a93e4241"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:14Z",
+  "duration_seconds": 3.81,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 210
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_210.txt",
+    "source_sha256": "bb9573758c2b74da6727446db090d84dd980b40ee6fa599813cc4c3392e95de8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8b89c2ea577a2ebea5ed4123219d2bc5083111415d5c09dd3b6be9ae8345e2d2",
+  "request_fingerprint": "61a413d5a08ba129d8c5a83cf80240f2e672848c6dc426e2a478b9bf28aa0a64",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados e fonte, e o material gráfico do Gráfico 6.14, incluindo a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda na classe dos estudantes que não responderam à questão, 45,1%. A frequência dos que, tendo respondido à questão, receberam nota zero foi de 15,8%. As duas categorias somadas concentraram 60,9% dos participantes.",
+  "text_sha256": "bae61a2247307b629e4e48568bb0b12a1765dc8200c6c29755a01799cf56463b",
+  "window_size": 3
+}

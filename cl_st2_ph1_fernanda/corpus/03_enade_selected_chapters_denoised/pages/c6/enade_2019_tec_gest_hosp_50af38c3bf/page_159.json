@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a67c4fcfaab7369006af915d5005087d1a8ae55ce14256a98",
+    "usage": {
+      "input_tokens": 2862,
+      "input_tokens_details": {
+        "cache_write_tokens": 2859,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2859
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1101,
+      "output_tokens_details": {
+        "reasoning_tokens": 461
+      },
+      "total_tokens": 3963
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_158.txt",
+      "source_sha256": "b8414e6889860a73aa65d8c98d1c80564a572d0bcbc022c7179544d09f8c539b"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_160.txt",
+      "source_sha256": "581137d4bc59a081a5fa99af34b563fb6161db99f70c5b1788cbaab9b1d5b7bb"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:48Z",
+  "duration_seconds": 10.032,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_159.txt",
+    "source_sha256": "63c4739c605da39bfd25218ca027d9fec3960e52d49b326275493804b9661324"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2089756822f685f1d80dc1d742a6e35c4ba73368a5a9fac0b0b6251e9990085d",
+  "request_fingerprint": "9b83feb61b0d8e61c49639db84a6ab0ec2454227e100ce01eb188864f14092ea",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte.",
+    "O Gráfico 6.4 é referido no texto, mas seus elementos gráficos não aparecem na extração da página-alvo; verificar a imagem da página. A linha de fonte aparece no contexto da página seguinte."
+  ],
+  "status": "success",
+  "text": "questões 2 e 8 foram aquelas que apresentaram o maior poder discriminatório, ambas com índice 0,52, e ambas consideradas Médio em termos de facilidade, com proporções 0,55 e 0,45, respectivamente, de acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,55. A questão 6, que teve Índice de Discriminação Muito bom, foi considerada Difícil em termos de facilidade, com índice 0,39. A questão 5, com índice Médio de Discriminação, foi considerada Muito difícil em termos de facilidade, com índice de 0,12, ou 12% de acertos, indicando que foi a mais difícil para os estudantes.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e uma das duas que obtiveram o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 22,8% escolheram a alternativa E (em vermelho), 11,2% escolheram a alternativa D (em laranja), 29,8% escolheram a alternativa B (em verde, gabarito), 9,5% escolheram a alternativa A (em azul), e 26,3%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.",
+  "text_sha256": "ab49c38a2dacf4d380fb5bc38efffa57a37cb44060464eb110696b8fc441f0be",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d73c8d883fb1ff5006af91d869a8487d18f26caac2b9962a7",
+    "usage": {
+      "input_tokens": 2507,
+      "input_tokens_details": {
+        "cache_write_tokens": 2504,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2504
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 3026
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_158.txt",
+      "source_sha256": "b4dc6e18426b160ebb449a688880e8841091a9a61619d6ba71360adf19068033"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_160.txt",
+      "source_sha256": "bf501018a4553d82a494ed37a95d904165055848865810a7b1298a484e7e29f4"
+    }
+  ],
+  "created_at": "2026-11-15T02:48:38Z",
+  "duration_seconds": 4.887,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PSICOLOGIA.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_159.txt",
+    "source_sha256": "468649d8e7d10ffdc96023f9e707fc146fafa030a3dc5101701f3da6085e23a9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "23f986ce0dcf4ee9c2598375969de6970592a1c0be8dc0b944c1076123b2de5c",
+  "request_fingerprint": "d9c27f65a5efc51840cf52380e4e48c4a0a8245fd19049a9069dc0ad0b3f9f51",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No Gráfico 7.5, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Componente Específico), antes de possíveis eliminações pelo critério Ponto-Bisserial. Os gráficos relativos às demais questões do Componente Específico constam no Anexo IV.\n\n7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.",
+  "text_sha256": "97b48f22993419ac5e673935a5ff54d7d86dde3d22c8ac5eb5538c4c2d66f822",
+  "window_size": 3
+}

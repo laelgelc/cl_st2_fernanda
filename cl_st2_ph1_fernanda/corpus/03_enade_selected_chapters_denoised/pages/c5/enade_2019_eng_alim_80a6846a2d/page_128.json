@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b8e631d93de698f006af91118f9e887d1bed37a43578c16c1",
+    "usage": {
+      "input_tokens": 2605,
+      "input_tokens_details": {
+        "cache_write_tokens": 2602,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2602
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 253,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 2858
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_alim/enade_2019_eng_alim_page_127.txt",
+      "source_sha256": "ade97aecb5e7a316349772e88f1d9112aec2da19cd867a52bddfe231825fbc9b"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_alim/enade_2019_eng_alim_page_129.txt",
+      "source_sha256": "c91c4c70abd495a9fa6e964a01cdb49084b138d24f07c6aeafc88ee0d6bc56b2"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:36Z",
+  "duration_seconds": 3.172,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_alim/enade_2019_eng_alim_page_128.txt",
+    "source_sha256": "a925eab09566e2aa5160b3ce31b3184de2a8b8ad81ebd5b216d072e315754ed3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d1855bd52696f1cffde6f5b18ce97295f68ad225c1af6187ecfaad2f5e6557a2",
+  "request_fingerprint": "6aa5a619ba0bae5d0c6c731c4ea8517e28638f4f4ec090cd359d940eb05be0b8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e linha de fonte (MEC/Inep/Daes – Enade/2019)."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com todos os quatro cursos avaliados, aos quais foram atribuídos os conceitos 2 (um curso), 3 (dois cursos, modal) e 4 (um curso).\n\nNessa combinação de Organização Administrativa e região, nenhum curso ficou Sem Conceito (SC) ou recebeu os conceitos 1 ou 5. Na região Norte não havia cursos avaliados em Centros Universitários, Faculdades e CEFET/IF.",
+  "text_sha256": "3569d7bd8bd3343b7f01e9a23eecd1aa40b3217cf0bdd3022db479c6c81a1c13",
+  "window_size": 3
+}

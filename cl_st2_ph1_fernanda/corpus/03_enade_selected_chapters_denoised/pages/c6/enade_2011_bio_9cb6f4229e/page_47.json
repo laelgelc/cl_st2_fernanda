@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a9d83ea49780f99006af8eb16c82487d1977470d305fc9044",
+    "usage": {
+      "input_tokens": 1515,
+      "input_tokens_details": {
+        "cache_write_tokens": 1512,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1512
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 308,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1823
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_46.txt",
+      "source_sha256": "985b9791a39216ad1c8465cafaa7ac57c2915413240b6133917ebf0347cbe171"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_48.txt",
+      "source_sha256": "00cc03bd6ae5cf8527cdbad7335b005409930ad756d7d59aa8fcc6783b9f933a"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:26Z",
+  "duration_seconds": 4.091,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_47.txt",
+    "source_sha256": "2c051b1e716abde9c6d053bd036bc9f59a8e89845ad9ead436e94d5b56906d24"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6de7fbf1c2bb6a751b0bb90a508d1733aa620872933dcbf7ea1040dc85997f1a",
+  "request_fingerprint": "30e7aff12117f49afb6cc498bafc5c4929f50446d7dffdb6cbfe03daa8a58b45",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se que existem diferenças estatisticamente significativas ao nível de 95% entre as notas no componente de Conhecimento Específico dos três diferentes tipos de Organização Acadêmica. Sendo que a média dos Concluintes das Universidades (43,6) é maior do que de Centros Universitários (41,3), que por sua vez é maior do que de Faculdades (37,6).",
+  "text_sha256": "ec9edb9865ce4c0178e2f474677d6eac2cd05a35755b2a17a3e6f9bd340fe7eb",
+  "window_size": 3
+}

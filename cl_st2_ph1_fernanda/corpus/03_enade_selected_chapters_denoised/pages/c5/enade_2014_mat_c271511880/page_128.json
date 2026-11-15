@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0841fc07fc55d89d006af8fa8d491c87d1aaea66efb4867c9f",
+    "usage": {
+      "input_tokens": 2798,
+      "input_tokens_details": {
+        "cache_write_tokens": 2795,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2795
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 582,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 3380
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_mat/enade_2014_mat_page_127.txt",
+      "source_sha256": "c7b97e7238b00197b4a8245769e32ffd8739e97ab78cec8c0fb6c1f2d8304c38"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_mat/enade_2014_mat_page_129.txt",
+      "source_sha256": "34686fbb2a29e7ed047a76e30719390009a51978a078aebd8f95983e6c741d0f"
+    }
+  ],
+  "created_at": "2026-11-15T00:19:25Z",
+  "duration_seconds": 6.646,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_MATEMÁTICA.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_mat/enade_2014_mat_page_128.txt",
+    "source_sha256": "551b335de67edcc673abf9c9bbc58319afb3d4532f41f3aa0fdc79c39022874c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7ffc98fa3600b28e8fa6206c792206a4186842d5716a6dfb536c8c527fae49d",
+  "request_fingerprint": "9c0b1e66e6c66f117eacd0f2330ace1eda79c731fc22b531f65cd7c067014adb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014», identificada pelo contexto como pertencente ao Gráfico 5.1."
+  ],
+  "status": "success",
+  "text": "A Tabela 5.2 apresenta a quantidade e distribuição de cursos de Matemática (Licenciatura) participantes do ENADE/2014, por faixa de conceito e Grande Região. A diferença entre os cursos tabulados neste capítulo e no capítulo 2 são os cursos sem conceito (SC), em princípio, aqueles sem alunos concluintes que participassem da prova ou que tivessem tão somente um aluno concluinte23.\n\nObservando-se os dados da Tabela 5.2, nota-se que, dos 443 cursos participantes, 179 (40,4%) classificaram-se com conceito 2, o valor modal. Este foi também o conceito modal em mais duas regiões: Norte (59,7%) e Nordeste (49,1%). O conceito 3 foi o segundo mais frequente em nível nacional (35,2%, correspondendo a 156 cursos) e o conceito 4, o terceiro (13,1%, correspondendo a 58 cursos). Houve, ainda, 13 cursos (2,9%) que receberam conceito 5 e 24 cursos que receberam conceito 1. Dos 443 cursos de Matemática (Licenciatura), 13 cursos ficaram sem conceito (SC).\n\n23 Estes cursos com somente um concluinte não foram considerados no capítulo 2.",
+  "text_sha256": "f2f9077b3c2b02521ac82a8176eb4f3f4db3bae9d2fffb342bba64285a7e00d4",
+  "window_size": 3
+}

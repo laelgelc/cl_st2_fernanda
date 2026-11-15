@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01239a08437f76eb006af9150bf60887d1ab9378d1068a39db",
+    "usage": {
+      "input_tokens": 2807,
+      "input_tokens_details": {
+        "cache_write_tokens": 2804,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2804
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1095,
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "total_tokens": 3902
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_agro/enade_2019_tec_agro_page_140.txt",
+      "source_sha256": "666b7754d9effb54dfbc3d6bc426d400065b181be34ac7175c817ec5bca1b7ff"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_agro/enade_2019_tec_agro_page_142.txt",
+      "source_sha256": "3482f42985a90bdce35df2b62b1a9595a3c7c4392b603488fac8b310bb026a77"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:27Z",
+  "duration_seconds": 8.684,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_agro/enade_2019_tec_agro_page_141.txt",
+    "source_sha256": "46d847cdb1f0424a0a1d2f8cfda9c8f1b5ec40616a988e6be788345d3f8b67a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f4c6ad8eed01f1c8909bc201e5c73523b179906746d8ee64b230b5ad5d4e1e5a",
+  "request_fingerprint": "8d46168f1459d7130f8cbac2a4b3b20d949bba336b9060b57db7d4d152efdc84",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, dois cursos foram ofertados, um em Centros Universitários e o outro em CEFET/IF, os quais foram avaliados com os conceitos 2 e 3, respectivamente. As Universidades e as Faculdades não participaram com cursos na região Norte.\n\nNa região Nordeste, as Universidades participaram com um dos quatro cursos da Área de Tecnologia em Agronegócios oferecidos. O curso em Universidades recebeu conceito 3. As Faculdades participaram com os outros três cursos, que receberam, igualmente, os conceitos 2, 3 e 4, um curso cada. Os Centros Universitários e CEFET/IF não participaram com cursos na região Nordeste.\n\nNa região Sudeste, as Universidades participaram com 11 dos 30 cursos de Tecnologia em Agronegócios da região. Dos cursos oferecidos em Universidades, nessa região, o conceito modal foi 3, atribuído a seis cursos. Os conceitos 2, 4 e 5 foram atribuídos a um curso cada. Nenhum curso recebeu conceito 1. Dois ficaram Sem Conceito (SC).\n\nOs Centros Universitários participaram com quatro cursos na região Sudeste; os conceitos 1, 3, 4 e 5 foram atribuídos a um curso cada. Nenhum curso ficou Sem Conceito (SC) ou recebeu conceito 2. Já as Faculdades foram representadas por 14 cursos na região Sudeste, dos quais sete receberam 3, e seis receberam conceito 4. Um curso ficou Sem Conceito (SC). Nenhum curso recebeu os demais conceitos. Os CEFET/IF participaram com um curso, que recebeu conceito 3.\n\nDos 17 cursos da região Sul, cinco eram mantidos por Universidades, dos quais os conceitos modais foram 3 e 4, atribuídos a dois cursos cada um. Um curso recebeu conceito 5. Nenhum curso recebeu os demais conceitos ou ficou Sem Conceito (SC).\n\nOs dois cursos participantes de Centros Universitários da região Sul receberam conceito 4. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos. Quanto aos cinco cursos vinculados a Faculdades na região Sul, dois receberam o conceito modal 5. Os conceitos 2, 3 e 4 foram atribuídos a um curso, cada. Nenhum curso recebeu conceito 1 ou ficou Sem Conceito (SC). Já os CEFET/IF participaram com cinco cursos na região Sul, os conceitos 3 e 4 foram atribuídos a dois cursos, cada. Um curso recebeu conceito 2. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos.\n\nNa região Centro-Oeste, dois dos 14 cursos oferecidos eram mantidos por Universidades. Para esse tipo de Organização Acadêmica, nenhum curso ficou Sem Conceito (SC) ou recebeu os conceitos 1, 4 e 5. Nesse tipo de organização, os conceitos 2 e 3 foram atribuídos a um curso, cada. Os Centros Universitários da região Centro-Oeste contaram com um curso, avaliado com conceito 3. Dos oito cursos oferecidos em Faculdades na região Centro-Oeste, três receberam o conceito modal 2, e dois obtiveram conceito 4. Nesta região, um curso oferecido em Faculdades ficou Sem Conceito (SC). Os conceitos e 4 foram atribuídos a um curso, cada. Já os CEFET/IF participaram com três cursos na região Centro-Oeste, aos quais foram atribuídos os conceitos 2 (um curso) e 3 (dois cursos).\n\nNo Gráfico 5.3a, apresenta-se a distribuição do Conceito Enade dos cursos de Tecnologia em Agronegócio, segundo a Organização Acadêmica da IES. Os cursos em CEFET/IF (linha laranja) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, com distribuição",
+  "text_sha256": "a40865be4f2a747e56bdd79ad36eeac7669ad9f93a6d06feeab9b5f13de25543",
+  "window_size": 3
+}

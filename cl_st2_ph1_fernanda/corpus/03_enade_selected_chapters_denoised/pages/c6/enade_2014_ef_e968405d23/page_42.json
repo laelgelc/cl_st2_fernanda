@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02ba16a255091e96006af8f7112eb487d1a77b7316a2ad7809",
+    "usage": {
+      "input_tokens": 3010,
+      "input_tokens_details": {
+        "cache_write_tokens": 3007,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3007
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 571,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 3581
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ef/enade_2014_ef_page_41.txt",
+      "source_sha256": "63c470520317b5bd866ec5116fc745bb64a3d671cff58342806d48f2b7a47ccf"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ef/enade_2014_ef_page_43.txt",
+      "source_sha256": "3f4b4fd22dab065b993bbb40f6d5a6cc725ca05764cc345bb44880ea079dd281"
+    }
+  ],
+  "created_at": "2026-11-15T00:04:33Z",
+  "duration_seconds": 5.872,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ef/enade_2014_ef_page_42.txt",
+    "source_sha256": "5c579d790ce8553ca47975d7597ada23cf5b7cf7a2007d1b9953c50e26cac010"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b7cf0204167d2a13055c93c5f4e0aeeb3599b87296666365e157e736fec271e6",
+  "request_fingerprint": "9f8d42604f25719480df35888ab1811ce5b660b950b56e441b27174472ffc824",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 22.748 são de IES Privadas e 8.081 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (14.923), seguido de Faculdades (9.792) e Centros Universitários (6.114). A Categoria Administrativa de maior abstenção foi a Privada (21,4%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (24,2%), ambos acima da média nacional de 20,6%.\n\nA média das notas da prova como um todo foi 43,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (46,0), e os das IES Privadas obtiveram média mais baixa (43,1), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (3,1), a maior e a menor média, é superior à diferença entre IES Públicas e Privadas (2,9), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram média mais alta (45,6) que a nacional. As demais médias foram: 42,6 nos Centros Universitários e 42,0 nas Faculdades. O desvio padrão para as IES Públicas (15,2) e para as Universidades (14,7) foi superior ao do Brasil como um todo (14,2), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades em relação aos de Centros Universitários e Faculdades.",
+  "text_sha256": "6618e2f3dbd23a8d1b601ab8f910667acd740eb681771bb64a8e779533162b71",
+  "window_size": 3
+}

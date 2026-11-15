@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c4f2f24f8c1fed1006af8ed261a5487d1a544c450f66cc847",
+    "usage": {
+      "input_tokens": 1440,
+      "input_tokens_details": {
+        "cache_write_tokens": 1437,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1437
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 488,
+      "output_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "total_tokens": 1928
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_36.txt",
+      "source_sha256": "61481e13e7cb2edfe0b37e3c50885a7dc37b77f28f04c6bedadb3fd79a92d8f2"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_38.txt",
+      "source_sha256": "08f8c02e21433138a97e05692f436a8c63f5cf1ded7efa5b605290fdd5e0a5f2"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:14Z",
+  "duration_seconds": 5.088,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_37.txt",
+    "source_sha256": "90ab7759b9f8683bd6261a33e4b79c21fd22bd3130faeeec2b754d7653e31994"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5f179b680e8ce8951ca91bf1d252138ee3f0dd5aeb84531cbaf12ac907243130",
+  "request_fingerprint": "b4f49e49e808840d95b2fa4d673f5ff71452a56925d590b8b96bed6155432573",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2011), identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% da média das notas dos estudantes provenientes de Centros Universitários (42,0) em relação às médias obtidas pelos alunos de Universidade (39,9) e Faculdades (38,4).",
+  "text_sha256": "66988c3131ea17dfc78bbff779edf6803be08bd2e63b821ab283c626f7d4d0f1",
+  "window_size": 3
+}

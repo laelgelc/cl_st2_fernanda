@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07dad11afeb4647a006af8f67b5e1887d199dec7ebfb159ae2",
+    "usage": {
+      "input_tokens": 2183,
+      "input_tokens_details": {
+        "cache_write_tokens": 2180,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2180
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 238,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 2421
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_93.txt",
+      "source_sha256": "9d2b100bb767a9ecb33c7d09d9113b9e73e536aa12511d8faad760d48ce4d9cf"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_95.txt",
+      "source_sha256": "23bfad1993c7b7307cf8e7926de15f052e4f279d5fb0b26b0858f50101a15600"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:03Z",
+  "duration_seconds": 3.24,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_94.txt",
+    "source_sha256": "49d3ad8051263592f22bb0a8edcddb817ec7284235c04331ecf18606839453eb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f4708b31a120a777cef0b388f4f0882dcdfcc39ec947b1cff17b2942ca2bc24",
+  "request_fingerprint": "c114f8a4d9c5712de00942dbd01f98119c05535ecb5ccf3bedd86cf38d4b5459",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico da área de Ciência da Computação para estudantes de Bacharelado e de Licenciatura. Essa distribuição tem moda nas questões em branco, com percentual maior para os estudantes de Licenciatura.",
+  "text_sha256": "08aa11e9f954e45e883f328705d58d4dadc2bb41de971a2bc12a14765b12bda0",
+  "window_size": 3
+}

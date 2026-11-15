@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02256458ef8b0f31006af8e525add487d180145f061b6ab11c",
+    "usage": {
+      "input_tokens": 2819,
+      "input_tokens_details": {
+        "cache_write_tokens": 2816,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2816
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1201,
+      "output_tokens_details": {
+        "reasoning_tokens": 455
+      },
+      "total_tokens": 4020
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_37.txt",
+      "source_sha256": "0280f59206e86eb22d897eb7274f0f9db361ba61658969f433deffe4e9db5202"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_39.txt",
+      "source_sha256": "81e74a1ff2792a716fa34f1dd59375197c961c1ab6a1ab21bfb3431955319feb"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:05Z",
+  "duration_seconds": 10.739,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_38.txt",
+    "source_sha256": "b007541b1c3a5091b02f516bcea299a03de72dac4788a9513d754a288bbea1be"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e9e58f64e69c2d3e2f59ad97fa99c7aa6f9409edadbbad9cd232fa5556e9d10f",
+  "request_fingerprint": "a280fb2233c8449c59082947672d93ed1afa80d4489030c3d0a42ca3f0c3d744",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabelas 3.4, 3.5 e 3.6 removidas, incluindo títulos, dados e fontes.",
+    "O trecho sobre a classificação das questões termina em ponto e vírgula na página-alvo; sua continuação na página de contexto foi excluída."
+  ],
+  "status": "success",
+  "text": "3.2 Análise das Questões Objetivas\n3.2.1 Formação Geral\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas da Formação Geral dos estudantes. Adiantamos que a primeira questão foi desconsiderada pelo critério da correlação ponto-bisserial.\n\nComo pode ser observado na Tabela 3.4, os estudantes concluintes obtiveram desempenho maior, com nota média de 62,40, em relação aos estudantes ingressantes cuja nota média foi 60,79. A variabilidade entre os concluintes foi um pouco menor do que a dos ingressantes, como indicaram os desvios-padrão de 22,5, para o grupo de concluintes e 23,0 para o grupo dos ingressantes. A amplitude total das notas foi a mesma para ambos os grupos: nota mínima de 0 e máxima de 100. A mediana foi igual para ambos os grupos: 57,1. A assimetria, medida pelo coeficiente de assimetria (skewness) foi a mesma para os ingressantes e concluintes (-0,5), ainda que ambos fossem negativos indicando uma maior concentração à direita.\n\nA Tabela 3.5 apresenta a classificação das questões objetivas da Formação Geral, segundo o índice de facilidade (questões em vermelho foram desconsideradas pelo critério ponto-bisserial). Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de CIÊNCIAS ECONÔMICAS. De acordo com os índices obtidos, as questões objetivas da prova foram assim avaliadas para a área de CIÊNCIAS ECONÔMICAS: das oito questões, três tiveram entre 60%, inclusive, e 85% de acertos e foram classificadas como fáceis (somente uma para o total de concluintes);\n\nA Tabela 3.6 descreve os resultados das análises das questões objetivas relativas à Formação Geral, segundo o poder de discriminação, utilizando-se para tal o índice de discriminação ponto-bisserial. Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de CIÊNCIAS ECONÔMICAS. A desconsideração da questão segundo este critério considerou o universo de todos os concluintes. Nenhuma das questões apresentou índices iguais ou acima de 0,40 (nenhuma para a população de concluintes como um todo), sendo, portanto, classificadas como muito boas nesta característica, para este grupo de estudantes, duas foram classificadas como boas com índice entre 0,30, inclusive, e 0,40 (três para os concluintes como um todo) e cinco foram classificadas como médias, com índice entre 0,20, inclusive, e 0,30 (quatro para os concluintes como um todo). Uma das questões foi classificada como fraca tanto para a população de concluintes como um todo como para a de concluintes de CIÊNCIAS ECONÔMICAS e foi desconsiderada pelo critério ponto-bisserial.",
+  "text_sha256": "439a054b97efa5abb017e56cbed28ac3ae1bb64f2ee10acf123915fe4483d6fc",
+  "window_size": 3
+}

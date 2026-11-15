@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00deba1434e763f0006af8f8f790c887d1b0624232159bed06",
+    "usage": {
+      "input_tokens": 2554,
+      "input_tokens_details": {
+        "cache_write_tokens": 2551,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2551
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 555,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 3109
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_50.txt",
+      "source_sha256": "d3e0918d945771c2f945238235fca2f24d74f96abbac2ebe7728215a4a700d25"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_52.txt",
+      "source_sha256": "f4a3d79fb8963252621e7ddc29c13c8c693daf311a32d1a3a1897b1e80819504"
+    }
+  ],
+  "created_at": "2026-11-15T00:12:39Z",
+  "duration_seconds": 5.838,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_51.txt",
+    "source_sha256": "038c29f3f3ecc789e47e95e6bb17b6ddea33ffa12aea2ea9adf5a377b3407c53"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d941d73879ce76a4dc98ad0666f10a7561a0214143e0276bced394882cd1167",
+  "request_fingerprint": "ac9bd2229af8d131cd3683063dfdbb6c6581847885b6352629db61ea916a99bd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.8, seus dados e a linha de fonte correspondente."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada fácil, com relação ao índice de facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b1a973d56e9044e42fc288c0eb770ce8d0e6caf3e3c7d5032a2ef2d80019a9e0",
+  "window_size": 3
+}

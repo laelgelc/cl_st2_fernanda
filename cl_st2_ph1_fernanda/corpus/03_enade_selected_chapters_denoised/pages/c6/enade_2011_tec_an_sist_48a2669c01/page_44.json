@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_004bef8017781275006af8ef0ee3fc87d197ce54147825470b",
+    "usage": {
+      "input_tokens": 1480,
+      "input_tokens_details": {
+        "cache_write_tokens": 1477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 271,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1751
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_43.txt",
+      "source_sha256": "b7e70e0d3a8f31ceec6adf62ad22b4764bc95cf18470be5bf4ce48fdd93e7e6c"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_45.txt",
+      "source_sha256": "019d8ad0124167756bacfc9f999839cd6e66332110a40c295bfd0b95f04ca7f4"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:22Z",
+  "duration_seconds": 3.481,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_44.txt",
+    "source_sha256": "c284cd9758bdcf51c1eb622e297ca33801961e6b8c6fceadf2c9c5b962505a42"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b7a1cf40a8c961e08bf4371c6ab82672242d4d96479ac07faae6eb85c5dc887",
+  "request_fingerprint": "6944efe7b8448ed1a757edb739a13ce1757b736636daf3d0e75222bbc3073f8e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que parece pertencer ao Gráfico 3.8; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que não há diferença estatisticamente significativa entre as médias de Faculdades (49,6) e Universidades (50,1). No entanto, a diferença entre a menor média, obtida pelos alunos de Centros Acadêmicos (47,2), e as médias dos alunos das Universidades e Faculdades, é estatisticamente significativa.",
+  "text_sha256": "78fd404a1767d71d6bebd95593ae93f8f803e6940ec215c540b6604320a0cde4",
+  "window_size": 3
+}

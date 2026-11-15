@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea11cc2b756f027006af8fec79f9087d188afa853d94283d8",
+    "usage": {
+      "input_tokens": 2191,
+      "input_tokens_details": {
+        "cache_write_tokens": 2188,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2188
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 2546
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_42.txt",
+      "source_sha256": "354443098d2ee0fc4a6f9c3c4df1bee813458191a10d15b962843a3d80cdd9cf"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_44.txt",
+      "source_sha256": "eb6a0dea688a444a0b271213016af4006944c7300c8ae48285f606bef600773b"
+    }
+  ],
+  "created_at": "2026-11-15T00:37:27Z",
+  "duration_seconds": 3.638,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_43.txt",
+    "source_sha256": "042d70ca1aef38475e5367eb630c9d9406ced8410b482ef023c68a08ec96cd95"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b8d70d7cd8d1b8dd16cd0f4f9b3e81ec8a7ded4056d723f49d2eee71d3599ec6",
+  "request_fingerprint": "d4b3b4a6c927d588d3d77d5c994c67d28271a4d08dea42222aaeaa5988a5601e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte («Fonte: MEC/Inep/Daes - Enade/2015»), que pertence ao Gráfico 3.1 apresentado na página anterior; o gráfico em si não foi extraído."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.3 apresenta informações referentes à Condição de Presença desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de Inscritos, 856 são de IES Privada e 848 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (1.196), seguido de Faculdades (290) e Centros Universitários (218). A Categoria Administrativa de maior abstenção foi a Pública (19,7%), e entre as Organizações Acadêmicas foi a das Faculdades (25,5%), que ficou acima da abstenção nacional de 16,5%.",
+  "text_sha256": "0dfa861bb1adb05a43bee7a8e418ba7e80f10f699f90afb0b4d868d3e65eca55",
+  "window_size": 3
+}

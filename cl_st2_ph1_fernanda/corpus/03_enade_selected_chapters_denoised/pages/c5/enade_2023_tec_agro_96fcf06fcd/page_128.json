@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08d8141962dc1174006af924a429f087d19745566a0963f10b",
+    "usage": {
+      "input_tokens": 2343,
+      "input_tokens_details": {
+        "cache_write_tokens": 2340,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2340
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 305,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 2648
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_127.txt",
+      "source_sha256": "c972fb0163cb622c5bc21e1a3e36004fa7674d20a777a3abd20bb6367b1b17ae"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_129.txt",
+      "source_sha256": "28dd2c1295d0c592bf0ee3542f27d1d6e79c6070b3a3eab90bac5bf0b5de5011"
+    }
+  ],
+  "created_at": "2026-11-15T03:19:00Z",
+  "duration_seconds": 3.336,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_128.txt",
+    "source_sha256": "74040c79f5a75c7b8cfc5aaa47c065701bbe2b5213be93880565147a29c5ccd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b04d75e6349717ab1d589d696bc5715e38bbd401971483a62664d878859bf5b1",
+  "request_fingerprint": "6600fd1df7ffc68ced4993bb4c4aa5e2e5ad687e3979c77baf5c99cd81f857af",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.2, seu título/legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES privadas (poligonal verde) apresentam uma poligonal mais à direita do que os em IES públicas (poligonal azul) e, consequentemente, uma distribuição de Conceito Enade com valores maiores..",
+  "text_sha256": "50fe118b6370f474357e205d5ac3b432294d06c0534576c748894fa4c568f7a0",
+  "window_size": 3
+}

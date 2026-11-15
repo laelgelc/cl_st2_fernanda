@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03adf2aa7e1e0726006af90b9d930487d19fe89882a38d7320",
+    "usage": {
+      "input_tokens": 2846,
+      "input_tokens_details": {
+        "cache_write_tokens": 2843,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2843
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 278,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 3124
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_102.txt",
+      "source_sha256": "c1dd5085b213658ac88f0f77a69e2f5443ce6ba05185896fd0aa8576d8974aef"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_104.txt",
+      "source_sha256": "62af6959866f95ea28e3706ae6910f2d1a65dd210d993904f1620ee991ca4cb0"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:13Z",
+  "duration_seconds": 3.476,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_103.txt",
+    "source_sha256": "0b3542d930c9e839a636ef1d041acb304362fcb81660bd646f5232df19d3d874"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7c1f5a587bb2de8f693c638aaa09375086d88b5e8d7c291ff5fa7d380102bbb5",
+  "request_fingerprint": "b662ce5ce6e6ac208fce7177ae0dcad81be5a5dddf47a416cd80afb40d12ace9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o conteúdo tabular da Tabela 5.2, incluindo título, dados e fonte. A prosa termina em “Dois” na página-alvo; não foi completada com o texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com 11 cursos (84,6% do total regional), dos quais um ficou Sem Conceito (SC), e nenhum recebeu os conceitos 1 ou 5. O conceito modal para as Instituições Privadas na região foi 3, atribuído a sete cursos, correspondendo a 63,6% dessa categoria na região. Dois",
+  "text_sha256": "cf79e4754e75c32f4fa0a1ae8a40975a05c93d04695c17e78e160a83e1782f05",
+  "window_size": 3
+}

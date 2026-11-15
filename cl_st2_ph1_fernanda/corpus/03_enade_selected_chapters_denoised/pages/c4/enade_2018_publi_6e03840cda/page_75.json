@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aee5e233386dd44006af90d31786887d1ae1006d71573171b",
+    "usage": {
+      "input_tokens": 1891,
+      "input_tokens_details": {
+        "cache_write_tokens": 1888,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1888
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 2147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_publi/enade_2018_publi_page_74.txt",
+      "source_sha256": "de18f0ec0ab6e0f22a5466c9c1847e6903c4905e3c28397b0f88c7406ae6bbfe"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_publi/enade_2018_publi_page_76.txt",
+      "source_sha256": "58117e045969d3b91548bf9ca801cc2cc015828267b16493bcfa47865ae1386c"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:57Z",
+  "duration_seconds": 2.866,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2018_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_publi/enade_2018_publi_page_75.txt",
+    "source_sha256": "44555ead332601867a777276d9aa41768c9ce98d92ddeea26daaa5ed0198a8c0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe645cd59732f862fdcf30451cc64b47ecc7580899c37e1a1f9a0ba2ac75c685",
+  "request_fingerprint": "76738fea4ec15a91014010c5023d3706b0942257219a920b1bf4d12c70d587c6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título/caption e a fonte do Gráfico 4.5, incluindo o conteúdo gráfico associado."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 49,9% consideraram a extensão da prova adequada no quarto de desempenho inferior, e 60,7%, no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 55,5%, no segundo quarto, e de 58,2%, no terceiro.\n\nNo Gráfico 4.6, as proporções de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho variam de 43,0% (primeiro quarto) a 32,8% (último quarto). As diferenças entre os quartos de desempenho são todas estatisticamente significativas, exceto pela diferença entre o terceiro e quarto.",
+  "text_sha256": "12d65b2cd867c72aecbd33963b737c0afe7a8e1c44c3ec7d5e864e0b985d9017",
+  "window_size": 3
+}

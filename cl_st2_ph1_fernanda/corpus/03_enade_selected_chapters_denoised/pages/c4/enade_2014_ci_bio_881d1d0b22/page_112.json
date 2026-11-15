@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d4e2e3a35f6fc41006af8f68e242c87d196754e5f7de39a64",
+    "usage": {
+      "input_tokens": 1703,
+      "input_tokens_details": {
+        "cache_write_tokens": 1700,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1700
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2090
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_111.txt",
+      "source_sha256": "878983d0bd125b07b5869b443427aeb1738a15aacfc80d8de1017c7ef3f3e71c"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_113.txt",
+      "source_sha256": "db6761bb92d26e90560a5da55bc2b2c69623848c50ddbff879b35224595a42f7"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:22Z",
+  "duration_seconds": 5.238,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_112.txt",
+    "source_sha256": "af351bc1332b8fe6f840101534864daa01ecd55209bf980fc61c18071b57ad30"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "44a728059e5456eb6df347cff1ae5610319d8a7784f7d60efe5092698ee744d2",
+  "request_fingerprint": "242b50c6ed017512cae0d63b1f2aa6df7b3c2233337319915d246b308ff6de14",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 55,6% na região Norte e 70,2% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 9,6% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,7% os do quarto superior com a mesma resposta. As diferenças, para os estudantes que optaram por este motivo de dificuldade, entre todos os quartos são estatisticamente significativas.\n\nTendo em conta o quarto superior, 77,4% dos estudantes afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 49,8% optaram pelas mesmas categorias. Essas proporções foram crescentes com o desempenho.",
+  "text_sha256": "cc9c0c40e3dbdf391e15aaae7ddd1c9b9681388f6ae8bad3cee9694964f17065",
+  "window_size": 3
+}

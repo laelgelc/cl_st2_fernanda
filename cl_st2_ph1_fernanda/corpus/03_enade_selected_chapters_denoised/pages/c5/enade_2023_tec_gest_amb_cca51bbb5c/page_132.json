@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0021f0fe97652713006af924fa75b487d18c565c5fec408fdc",
+    "usage": {
+      "input_tokens": 1791,
+      "input_tokens_details": {
+        "cache_write_tokens": 1788,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1788
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 2153
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_gest_amb/enade_2023_tec_gest_amb_page_131.txt",
+      "source_sha256": "6ad0bea36cee310a78e78b39310b8195032d1c115c1b136db2af94614cb66e2d"
+    }
+  ],
+  "created_at": "2026-11-15T03:20:26Z",
+  "duration_seconds": 3.472,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC G AMBIENTAL.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_gest_amb/enade_2023_tec_gest_amb_page_132.txt",
+    "source_sha256": "62019dc155b19ddb16904d471a86069b80fb89d0dc4d0517fd468922e1584720"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0b652740884ebbeca2d9da1c68b66eb4e6e19075b52cc1e06fd0d04347ab2d2",
+  "request_fingerprint": "548a9865d11b4c3f6e07f121720b50394466a3477a00ddd01d8e82e2a8f584c1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o gráfico 4.3 e sua linha de fonte (“Fonte: MEC/Inep/Daes - Enade/2023.”)."
+  ],
+  "status": "success",
+  "text": "No Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante à dos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha rosa), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de universidades apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por centros universitários (linha verde), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por faculdades (linha vermelha) e CEFET/IF (linha laranja) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "f04d42166bb9c44ad5dbdf419213fb3e39f9eadc66e8e4f93927f2079bdb9509",
+  "window_size": 3
+}

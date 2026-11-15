@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0365e87b103b2898006af8f8e52eec87d18622d24cd409fd05",
+    "usage": {
+      "input_tokens": 1582,
+      "input_tokens_details": {
+        "cache_write_tokens": 1579,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1579
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 242,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1824
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_mec/enade_2014_eng_mec_page_107.txt",
+      "source_sha256": "2c49bd9eb8bf863c7c44b705ed97ac53b871e7278bfff22c53bd975d7a91a60e"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_mec/enade_2014_eng_mec_page_109.txt",
+      "source_sha256": "9f9fa8176a27f5fd31293b74dba62bd450c834960c2f800176420c68c513e073"
+    }
+  ],
+  "created_at": "2026-11-15T00:12:21Z",
+  "duration_seconds": 4.037,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_mec/enade_2014_eng_mec_page_108.txt",
+    "source_sha256": "b7100a45063c43daf06536ee5237ae2428eb9f7618bbe61e54a2f129b4c53a72"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2844bfa807577896d5ccca12cc0a8c41e4c1c83c04bd4e44e5f866564627a06d",
+  "request_fingerprint": "fb503d139f9c9b5ac3a22c6503904dd9b8d77bb85e885b654bbe61655b99ffb2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (86,1%) se comparada ao quarto inferior de desempenho (72,8%). A diferença do primeiro para os demais quartos é estatisticamente significativa.",
+  "text_sha256": "52a8420b0622ebb87150d521e05f920d73f99fa2c63e244c3899b658f21b1484",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08fb468efff3d67e006af90a6974ac87d190c3f68c9aaad7fe",
+    "usage": {
+      "input_tokens": 2783,
+      "input_tokens_details": {
+        "cache_write_tokens": 2780,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2780
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 3399
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 194,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_194.txt",
+      "source_sha256": "d39abd3f3b4541bc9670fab8c3411c0d18171c3d3561de9e8316024518e79355"
+    },
+    {
+      "page_number": 196,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_196.txt",
+      "source_sha256": "caf2bc5013532578eafa0a5c8b8ec355f69be8d54729f81d7f0cb7ce841db3f8"
+    }
+  ],
+  "created_at": "2026-11-15T01:27:05Z",
+  "duration_seconds": 6.124,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_PORTUGUÊS.pdf",
+    "page_number": 195
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por/enade_2017_letras_por_page_195.txt",
+    "source_sha256": "5d1d42e144b02f6c8bf1a39f43f21d9ba3798aeaabae6dcb4151c680e41c5a55"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "90392aa8fc1056062905477e0dc731051d4575d465b5d1d77752c192293c0c53",
+  "request_fingerprint": "739de40e52bc1af90a0be3dce973428e478e785db65fbcc1074b09cca62e9555",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 6.1, identificado pelo contexto da página anterior.",
+    "Removidos o título, os dados e a linha de fonte da Tabela 6.2."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.2, são apresentadas informações referentes às Estatísticas Básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica, segundo a Habilitação. Os estudantes de Licenciatura de IES Públicas obtiveram Média mais alta (42,6), e os das IES Privadas obtiveram Média mais baixa (41,1) que a Média nacional para esta Habilitação (42,1). Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. O Desvio padrão para as IES Públicas (14,2) foi superior ao do Brasil, como um todo (13,9), indicando uma dispersão maior das notas nesta Categoria Administrativa do que no conjunto de alunos de cursos de Licenciatura.\n\nNo tocante à Organização Acadêmica, alunos de Licenciatura de Universidades obtiveram nota Média mais alta (42,6) do que os de CEFET/IFET (42,3), que por sua vez obtiveram nota Média mais alta do que os de Faculdades (40,8) e de Centros Universitários (39,5). Há diferença estatisticamente significativa ao nível de 95% dentre a maior Média,",
+  "text_sha256": "d044c82c911cff5386f0bd9cc644450ec9b5cd53abaf6fdfaeb5502ead2dd54e",
+  "window_size": 3
+}

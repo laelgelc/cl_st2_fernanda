@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0224fb8d24c2adf7006af8ed55c3fc87d1a3ba7cb535b26b2e",
+    "usage": {
+      "input_tokens": 2152,
+      "input_tokens_details": {
+        "cache_write_tokens": 2149,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2149
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 469,
+      "output_tokens_details": {
+        "reasoning_tokens": 231
+      },
+      "total_tokens": 2621
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_37.txt",
+      "source_sha256": "82a878aa822e2e0ef9f200d82c32cd56ef8fa04543fd6282e7075f585d975aa9"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_39.txt",
+      "source_sha256": "612a5fa112d675a46f368ad120caa82f8001d1dafbbc751d149732b5be049f48"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:01Z",
+  "duration_seconds": 5.866,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_38.txt",
+    "source_sha256": "f4fe4b5828609e037ea084c56d277ebe78b6e3edc7331906bdf8c0b321add60d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "114819c1f8977c711736590b3722c16af02ba9329f7405d99a6442ce9e2a0ee9",
+  "request_fingerprint": "8cda00d51f9afe364e6056fcb3269ad423912f9d04dfc037daebd1efce46202d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer a material gráfico; o conteúdo gráfico não está disponível no texto extraído."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (38,5) e as médias das regiões Sudeste (34,3), Nordeste (33,6) e Norte (33,0).",
+  "text_sha256": "d6ca85465a9db98ae84fa75ea6bd5f20f557b78fe17bf7458ac6945ad36529d5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04dcc95f82a03d9d006af923a71c6887d196e84762c4b5b650",
+    "usage": {
+      "input_tokens": 2778,
+      "input_tokens_details": {
+        "cache_write_tokens": 2775,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2775
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 291,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 3069
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fisio/enade_2023_fisio_page_123.txt",
+      "source_sha256": "ed034d0514e130bd55a049af1fcc3b9ea86f96dd04d94c935f1c7daa8afe01fb"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fisio/enade_2023_fisio_page_125.txt",
+      "source_sha256": "8cbbbb19ab643f5641c2874242a13ddd5e7c14ebdc6fb00ef64feaeaaf93c920"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:47Z",
+  "duration_seconds": 2.85,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fisio/enade_2023_fisio_page_124.txt",
+    "source_sha256": "b6bf2bb732b445cafe019797ea4a8aee893b53e07b71698da3299e3a705a3b04"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f61523fa6ca64309e4044b0871eff728e550f1b049795b181042456d7be22f92",
+  "request_fingerprint": "42b4def1ca756f833f512a8c1940fcd2fcac751eae0de57526143d7c77fb62e8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 4.3, incluindo título, dados e linha de fonte. A última frase está incompleta no limite da página; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "4.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\n\nNa Tabela 4.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade 2023, na área de Fisioterapia, por organização acadêmica, segundo as grandes regiões brasileiras.\n\nComo mostram os dados da Tabela 4.3, dos 711 cursos de Fisioterapia participantes, 214 eram oferecidos em universidades, 287 em centros universitários, 209 em faculdades e um curso foi oferecido",
+  "text_sha256": "a41c811c1248d0effc40ac92572360d44f6ff5a49c749d2160cef0c1b5304784",
+  "window_size": 3
+}

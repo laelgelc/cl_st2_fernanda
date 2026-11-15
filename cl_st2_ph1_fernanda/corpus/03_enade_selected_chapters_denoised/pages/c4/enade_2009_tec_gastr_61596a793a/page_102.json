@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f0645c0c7efe0b7006af8e75c586c87d197a93bca3d95d50a",
+    "usage": {
+      "input_tokens": 2523,
+      "input_tokens_details": {
+        "cache_write_tokens": 2520,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2520
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 454,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 2977
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gastr/enade_2009_tec_gastr_page_101.txt",
+      "source_sha256": "a04d4ed07a4339317dd63695de0aef710408618faf30e41d7f47ba56d525292e"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gastr/enade_2009_tec_gastr_page_103.txt",
+      "source_sha256": "9216ed355c3df4b4d1a7b1c2f7d0c520d64ab6e778411489a05e60655c7a79de"
+    }
+  ],
+  "created_at": "2026-11-14T22:57:32Z",
+  "duration_seconds": 3.851,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GASTRONOMIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gastr/enade_2009_tec_gastr_page_102.txt",
+    "source_sha256": "79080da782c86935d8fc0e7ed9d4a71f2e8acf7a1615ac7f45be3d130371b97e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2b6e44759b31f1407df774e9429bf2d8ec7304cad073159febb90a15e644ed8f",
+  "request_fingerprint": "22934014d35fc7e2b5f59676c95a2c67e0b6bfd6f997a269f8cbd8a9d3ba858e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a fonte e o gráfico 4.17a, incluindo título, dados, eixos e legendas."
+  ],
+  "status": "success",
+  "text": "4.7 Tempo gasto para concluir a prova\n\nOs Gráficos 4.17a, 4.17b e 4.17c apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo quartos de nota final e grupo de estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM GASTRONOMIA. Quando perguntados quanto ao tempo de conclusão da prova, o grupo modal respondeu entre uma e duas horas tanto entre os concluintes (47,6%) quanto entre os ingressantes (48,0%). A segunda maior incidência de respostas foi entre duas e três horas igualmente para ambos os grupos: concluintes (30,8%) e ingressantes (31,6%). A proporção daqueles que declararam ter usado as quatro horas, mas não terem conseguido terminar foi bem baixa: 0,9% entre os ingressantes e 1,1% entre os concluintes. Entre os concluintes e ingressantes percebeu-se uma tendência monotônica do tempo necessário para concluir a prova como função do desempenho: a proporção de estudantes declarando menos de 2 horas é decrescente com o desempenho, indo para os concluintes de 60,7% no primeiro quarto a 50,8% no último. Entre os ingressantes as proporções correspondentes são: 62,7% no primeiro quarto e 51,0% no último.",
+  "text_sha256": "5daae5cced2ed6ddbab285112351533ad543ae5a8410910ecd440a12d52cefc9",
+  "window_size": 3
+}

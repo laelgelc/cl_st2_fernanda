@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02e99479313ecd7d006af8f0de536487d19182e0da43ee0eaf",
+    "usage": {
+      "input_tokens": 1390,
+      "input_tokens_details": {
+        "cache_write_tokens": 1387,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1387
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 372,
+      "output_tokens_details": {
+        "reasoning_tokens": 223
+      },
+      "total_tokens": 1762
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_93.txt",
+      "source_sha256": "8ca64ac1ffc9285dbd4434c81671ff3b501943156a09126c6f4815edb0eded31"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_95.txt",
+      "source_sha256": "906c727d5ba00c2d0af86f9aeb026814b640c1d24df0c6889d37e563b4e90dd5"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:06Z",
+  "duration_seconds": 3.806,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_94.txt",
+    "source_sha256": "f0d1b47af02fb0adc3539b953f40ea344713238615100b94ccb59c9a061c9f64"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3419719f5f787cad933a0f0017a42c49c47af43568b7aad78a7d94ae193453be",
+  "request_fingerprint": "60d7fc638ce87e058ab2087d002d4bc99305a15ab764e08a0274e951af989bde",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que aparenta pertencer a material gráfico; o gráfico correspondente não está visível no texto extraído."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 75,9% e 46,3%. As diferenças entre os quatro quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "b59c7f981b556587272edf8e11605170eb654524e61e42a708d7fdaf44e2ea42",
+  "window_size": 3
+}

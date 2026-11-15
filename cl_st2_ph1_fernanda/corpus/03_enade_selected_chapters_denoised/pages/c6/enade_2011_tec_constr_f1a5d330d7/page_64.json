@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01cf9ff7a6f045b1006af8ef42ab2487d19198ea66851df392",
+    "usage": {
+      "input_tokens": 2484,
+      "input_tokens_details": {
+        "cache_write_tokens": 2481,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2481
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 507,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 2991
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_63.txt",
+      "source_sha256": "89e301fd9a522bdf4f715889e64b4ce63a038ee4e82e2c420ee3ce67153630f1"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_65.txt",
+      "source_sha256": "34fa9a98f5a6ac38cdabb013b84534049cf71d73e096ca8fd9c48ac7984275ca"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:14Z",
+  "duration_seconds": 5.226,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_64.txt",
+    "source_sha256": "bec702c82dbb58fd7e656daba01a17b29aaf4c4e166f464628d5afd1f28463cc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2a00b40819a568911832d6f903771f2723981193c552fb6600dad2baf9a8d867",
+  "request_fingerprint": "c2bb72004d3639cd1d017d52a160959d9884c2f6e365ec9ced4aa4a803c5ad5f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O maior desvio nessa questão foi obtido na região Norte (36,3), enquanto o menor foi obtido na região Sudeste (29,7).\n\nA mediana comprova a diferença de desempenho entre essas duas regiões: na primeira questão foi 60,0 e na segunda questão foi 50,0. Em todas as regiões a mediana foi 50,0 para esta questão, com exceção da região Sul, onde esta estatística foi 60,0. A nota máxima (100,0) foi obtida em todas as regiões do Brasil, bem como a nota mínima 0,0.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral. Observa-se que o percentual de alunos que deixou esta questão em branco, além de superior ao da questão 1, é a moda desta distribuição. Desconsiderando-se os alunos que não resolveram a questão, o intervalo de maior frequência é aquele (50;60].\n\nComo na questão 1, o coeficiente de assimetria é negativo, –0,37. Em todas as regiões a assimetria é negativa, mais acentuada na região Sul (–0,78) e mais leve na região Norte (–0,06).",
+  "text_sha256": "d40f50913360a19f1cdb39c7aab8be59d7b5e0a2cc48e2178cc46c453a7caccd",
+  "window_size": 3
+}

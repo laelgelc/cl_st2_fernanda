@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_044b7225fcad20f7006af91b34b51487d19716d6eff31db9d1",
+    "usage": {
+      "input_tokens": 2426,
+      "input_tokens_details": {
+        "cache_write_tokens": 2423,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2423
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 642,
+      "output_tokens_details": {
+        "reasoning_tokens": 276
+      },
+      "total_tokens": 3068
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_sist_inf/enade_2021_sist_inf_page_141.txt",
+      "source_sha256": "b3ee350a945845b1a9dcfc267658a289734f62009ae39421243fb77e49283dff"
+    },
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_sist_inf/enade_2021_sist_inf_page_143.txt",
+      "source_sha256": "628b0f25239c7fc1c0c0d35db8df01d76b917b8dac3257ee6995ed82d6d45100"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:44Z",
+  "duration_seconds": 6.551,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 142
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_sist_inf/enade_2021_sist_inf_page_142.txt",
+    "source_sha256": "a6607f2732bb593d288ffbaadc4722413b0be3631bb69e52c615914c672064c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "39b028928f134eb7d5ebcfe5e47ef4d4d5daebbd293c12c4541270061242816b",
+  "request_fingerprint": "a375c409f62ae0a102b5aea8c9a0dacef20cc3f4bf68945901ec068ea59439a8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, identificada como pertencente ao Gráfico 5.2 mencionado no contexto. Não foi fornecido conteúdo tabular da Tabela 5.3 nesta página; o texto que a descreve foi preservado."
+  ],
+  "status": "success",
+  "text": "à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.\n\n5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\nNa Tabela 5.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2021, na Área de Sistemas de Informação, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 403 cursos de Sistemas de Informação participantes, 168 eram oferecidos em Universidades, 114 em Centros Universitários, 88 em Faculdades e 33 em CEFET/IF. Esta distribuição corresponde a, respectivamente, 41,7%, 28,3%, 21,8% e 8,2% dos cursos.\nDe acordo com os dados apresentados, de todos os dez cursos avaliados com conceito 5, sete eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 63 cursos (37,5%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (dez cursos), 2 (45 cursos), 4 (38 cursos) e 5 (sete cursos, como já mencionado). Cinco cursos ficaram Sem Conceito (SC).",
+  "text_sha256": "458c09900e7c2e1848ac8bb45eeff556eacbb830d4d9c8830b988c3ebda1e216",
+  "window_size": 3
+}

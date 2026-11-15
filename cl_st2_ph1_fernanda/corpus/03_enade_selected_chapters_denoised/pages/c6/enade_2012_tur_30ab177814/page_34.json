@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09dd76ee16fb632e006af8f2c62b6487d1b960076e190b07d6",
+    "usage": {
+      "input_tokens": 2430,
+      "input_tokens_details": {
+        "cache_write_tokens": 2427,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2427
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 467,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 2897
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tur/enade_2012_tur_page_33.txt",
+      "source_sha256": "6d115bbe3f7d32664a8c64aa576ed178235d755a34a6727a658b5077241c929e"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tur/enade_2012_tur_page_35.txt",
+      "source_sha256": "6ebf058ccd772307fc53bd71db00f4f2bac778a8631cb4e1e030b874147a8ab5"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:14Z",
+  "duration_seconds": 4.429,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TURISMO.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tur/enade_2012_tur_page_34.txt",
+    "source_sha256": "25020369763e35615d64ec9ab29582bfed2c5bd12bb4b38ba698ca3819ea6e72"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d009fbe430c6798fe53b4e6555abbdc0de4e6465abe4114e040528322720f4c1",
+  "request_fingerprint": "1566c797eac88b742d63db73f0ea3375045ff5d510eae9e7347505a15059a936",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "menor nas regiões Norte e Centro-Oeste (12,5), indicando uma menor dispersão das notas destas duas últimas regiões.\n\nA região que obteve a maior nota máxima foi a Nordeste (80,7), ao passo que a região que atingiu a menor nota máxima foi a Centro-Oeste (72,2). A mediana do Brasil como um todo foi 42,5, sendo a maior mediana obtida na região Sudeste (44,1) e a menor obtida na Centro-Oeste (37,7). A nota mínima foi zero em todas as regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,10) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam, em sua maioria, assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. As exceções são as regiões Norte e Centro-Oeste, com coeficiente de assimetria positivo (respectivamente 0,12 e 0,03), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "8baf2a77cced9361e3ff699eb0a0d919716087da46a254228c8adea9c7bd7d62",
+  "window_size": 3
+}

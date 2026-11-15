@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_063f285f08b86afc006af9098b3e7087d1be62d664b379386b",
+    "usage": {
+      "input_tokens": 2001,
+      "input_tokens_details": {
+        "cache_write_tokens": 1998,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1998
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 2283
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 170,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_170.txt",
+      "source_sha256": "f257d7666ae54084857129d6657e6c7b4244c790fecd14879b37920798b41480"
+    },
+    {
+      "page_number": 172,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_172.txt",
+      "source_sha256": "7172d0be8331226df9195d935a44855f05db3507a2c7a6f70fdd1b20cee8f75e"
+    }
+  ],
+  "created_at": "2026-11-15T01:23:23Z",
+  "duration_seconds": 4.242,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 171
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_171.txt",
+    "source_sha256": "ade43c6e32fb32ae77696ae3f6190a431ed5f57772dac3874d691f885ddc25e4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6012c538d3b1974a16ab28e0220dc30b59c54b2c4d0404d6f4ddb0f066274d5b",
+  "request_fingerprint": "5ff03ca4fe95418bd18156e1acbc4192f2fcd3ef6b653b2c6f5ade6ec6595ef2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Letras-Português e Inglês (Licenciatura). Sem levar em consideração que em torno de 27% dos estudantes deixaram a resposta dessa questão em branco e cerca de 17% receberam nota zero, a moda dessa distribuição seria o intervalo (90;100].",
+  "text_sha256": "2d7b1283215e5a34f6d7f4afd9aa227183577222c1d4ea54ac5b929e5ee05fda",
+  "window_size": 3
+}

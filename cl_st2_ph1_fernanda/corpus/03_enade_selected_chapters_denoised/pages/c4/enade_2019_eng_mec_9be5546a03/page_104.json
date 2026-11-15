@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f0d82bf4d46c0ae006af9124a5ff087d1a87bbcb29c13a2d1",
+    "usage": {
+      "input_tokens": 1841,
+      "input_tokens_details": {
+        "cache_write_tokens": 1838,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1838
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 477,
+      "output_tokens_details": {
+        "reasoning_tokens": 279
+      },
+      "total_tokens": 2318
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_mec/enade_2019_eng_mec_page_103.txt",
+      "source_sha256": "27f3ccd709633d9cc5432576594a5645344fe64c84b108083039242a52134dcb"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_mec/enade_2019_eng_mec_page_105.txt",
+      "source_sha256": "711ec60cb9f7439f6f4057bc164f02b818a89b8d8bce295f252cf8bc70202a9f"
+    }
+  ],
+  "created_at": "2026-11-15T02:00:42Z",
+  "duration_seconds": 5.137,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_mec/enade_2019_eng_mec_page_104.txt",
+    "source_sha256": "bb2b7b540b3dcd49b9adcba19d694c05c5d60f706b03907464e90f9d123cd793"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5a34e4bf614bc7af32db369e95437378b2fbf122cac8e0c64609b8c8684b7d8e",
+  "request_fingerprint": "c7bbc09260e747d483f1315e79eb298727cee16f91dc8c5cc8cad91b6e2785f7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.7. O texto isolado “CEFET/IF” ao final parece ser um rótulo gráfico, possivelmente relacionado ao Gráfico 4.8; removido, mas a associação deve ser conferida."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (56,2%), uma diferença estatisticamente significativa da proporção em IES Públicas (38,4%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 55,4% para os de IES Públicas e 41,1% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "3c2e839ee2aead2613449e4b6300ac68f0574a56efea0450764db7aec4a56980",
+  "window_size": 3
+}

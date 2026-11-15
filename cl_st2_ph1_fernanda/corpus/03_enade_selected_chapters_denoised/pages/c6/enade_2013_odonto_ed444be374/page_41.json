@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a78522b7ea37b44006af8f4b06ee487d18a54e4bf7eeedf2a",
+    "usage": {
+      "input_tokens": 1683,
+      "input_tokens_details": {
+        "cache_write_tokens": 1680,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1680
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 295
+      },
+      "total_tokens": 2142
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_40.txt",
+      "source_sha256": "afffef6e2fc7703c51c4c7b91ff1a70c4ecf414f02fbd7a3b03c2fc6ca65fd6a"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_42.txt",
+      "source_sha256": "0656134773a09f5247db010b03b4dd86d8b801bc1eb21cc0974d27666f4e3b92"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:24Z",
+  "duration_seconds": 4.606,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ODONTOLOGIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_41.txt",
+    "source_sha256": "cdbb97791bd4428f81d2496caa704dbe0367d7c792e800da40cae5c8cabac716"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "914ff7c67725f676404282f61a57fa012df926051b62386277f24932624e80a5",
+  "request_fingerprint": "7a21596b634344cd52297212d2ac65fad9e2e4443e279d22dea713db9e2f4ba8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 3.4; o material gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades. Já a diferença entre a média dos estudantes de Centros Universitários e Faculdades não é significativa estatisticamente. A maior média foi obtida pelos estudantes de Universidades (48,2), e a menor, pelos de Centros Universitários (42,8).",
+  "text_sha256": "cca1539abba5e10bd9f83cb6e79cc465cac54ac9138b3888326b9e63178c4423",
+  "window_size": 3
+}

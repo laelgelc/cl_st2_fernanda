@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04b91321d261d2c7006af8e495c1c487d1ba6d1dee35c431fd",
+    "usage": {
+      "input_tokens": 2671,
+      "input_tokens_details": {
+        "cache_write_tokens": 2668,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2668
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1217,
+      "output_tokens_details": {
+        "reasoning_tokens": 245
+      },
+      "total_tokens": 3888
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_36.txt",
+      "source_sha256": "c539a7418cf171cf29632e536d9b4894a9f305530f40c9cbda92a55693d8090a"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_38.txt",
+      "source_sha256": "d3ca1a72c7faa26915c995170d394fcc4f6dbb15cce1a8b6e373fd33fb70b0c5"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:41Z",
+  "duration_seconds": 8.324,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_37.txt",
+    "source_sha256": "f210435512cd40253b743c683f2eb63fe9fbad92266aad080af60ec1fa850a42"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2e8df8751b5554d3efb7605f795a52e731e54ec2a66fdd3dbc1c29e395467dbb",
+  "request_fingerprint": "04c8172846c91f07530c6e401b4e40747b9c4f9bab1026979e4b480c8a0557e4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, estatísticas, valores e linha de fonte.",
+    "Removida a Tabela 3.5, incluindo título, classificações, valores e linha de fonte."
+  ],
+  "status": "success",
+  "text": "3.2 Análise das Questões Objetivas\n3.2.1 Formação Geral\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas da Formação Geral dos estudantes. Adiantamos que a primeira questão foi desconsiderada pelo critério da correlação ponto-bisserial.\nComo pode ser observado na Tabela 3.4, os estudantes concluintes obtiveram desempenho inferior, com nota média de 51,25, em relação aos estudantes ingressantes cuja nota média foi 56,17. A variabilidade entre os concluintes foi cerca de 1/6 maior do que entre os ingressantes, como indicaram os desvios-padrão de 24,1, para o grupo de ingressantes e 28,3 para o grupo dos concluintes. A amplitude total das notas foi a mesma para ambos os grupos: nota mínima de 0 e máxima de 100. A mediana foi igual para ambos os grupos: 57,1. A assimetria, medida pelo coeficiente de assimetria (skewness) foi um pouco maior em módulo para os ingressantes (-0,6) do que para os concluintes (-0,4), ainda que ambos fossem negativos indicando uma assimetria para a direita, fato reforçado pelos valores menores das médias dos dois grupos quando comparados à mediana correspondente.\nA Tabela 3.5 apresenta a classificação das questões objetivas da Formação Geral, segundo o índice de facilidade (questões em vermelho foram desconsideradas pelo critério ponto-bisserial). Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de ARQUIVOLOGIA. De acordo com os índices obtidos, as questões objetivas da prova foram assim avaliadas para a área de ARQUIVOLOGIA: das oito questões, três tiveram entre 60%, inclusive, e 85% de acertos e são classificadas como fáceis (somente uma para o total de concluintes); outras duas foram consideradas medianas, alcançando entre 40%, inclusive, e 60% de acertos (três para o total de concluintes); duas obtiveram entre 15%, inclusive, e 40% de acertos, sendo consideradas difíceis (três para o total de concluintes). Por fim, apenas uma foi classificada como muito difícil tento obtido percentual menor do que 15% de acertos (mesmo número para o total de concluintes), coincidentemente a questão desconsiderada pelo critério ponto-bisserial. Nenhuma questão foi classificada na categoria muito fácil. Considerando que as questões de Formação Geral receberam tipicamente índices de facilidade maiores entre os estudantes de ARQUIVOLOGIA do que na média de todos os estudantes (comparar as duas últimas colunas da tabela 3.5), em linhas gerais, podemos dizer que os concluintes desta área tiveram um melhor desempenho nesta parte do que o total da população de concluintes de todos os cursos avaliados em 2009.\nA Tabela 3.6 apresentada descreve os resultados das análises das questões objetivas relativas à Formação Geral, segundo o poder de discriminação, utilizando-se para tal o índice de discriminação ponto-bisserial. Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de ARQUIVOLOGIA. A desconsideração da questão segundo este critério considerou o universo de todos os concluintes. Nenhuma das oito questões apresentou índices igual ou acima de 0,40 (foram cinco para a população restrita de concluintes de ARQUIVOLOGIA) para ser classificada como muito boa nesta característica. Para o universo de todos os concluintes, três questões foram classificadas como boa com índice entre 0,30, inclusive, e 0,40 (nenhuma para a população de ARQUIVOLOGIA) e quatro foram classificadas como médias, com índice entre 0,20, inclusive, e 0,30 (duas para os de ARQUIVOLOGIA). Apenas uma das questões foi classificada como fraca para os concluintes de modo geral e também para os concluintes de ARQUIVOLOGIA, sendo desconsiderada pelo critério.",
+  "text_sha256": "cd22f56c02f185d364eeb74623a626291b784cb67b687ca2e1805f4e1b33c35a",
+  "window_size": 3
+}

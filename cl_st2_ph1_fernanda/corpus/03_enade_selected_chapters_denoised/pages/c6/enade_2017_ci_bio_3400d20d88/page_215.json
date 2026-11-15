@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0756f129f53dee7e006af905497f0c87d18ddc3dc9561346e9",
+    "usage": {
+      "input_tokens": 2705,
+      "input_tokens_details": {
+        "cache_write_tokens": 2702,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2702
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 3418
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 214,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_214.txt",
+      "source_sha256": "66b928ee9c52c6545ad039d565a50b34a619afabe6a77bbd2acbed56e185c5a0"
+    },
+    {
+      "page_number": 216,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_216.txt",
+      "source_sha256": "c4f26d3a5d7f87a74f3a2bf426021de8ed67cb02202b867e5729b6a9e79d28a4"
+    }
+  ],
+  "created_at": "2026-11-15T01:05:13Z",
+  "duration_seconds": 4.935,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 215
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_215.txt",
+    "source_sha256": "b9f00e4fb97606eb43c7bc65fb7b3241d373f1129bb0ecbdfd4017eba9b4361a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "61bf02093f63a8572e5429ca95c6b8ce87e04830bfbc616793a2c0704cf8c555",
+  "request_fingerprint": "64aeb1a3aa444f796a2aaafb4220047f406e1e01f1ebce2b899e77603eb6f6fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9a, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.4a, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade, e foi a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 21,8% escolheram a alternativa E, 14,8% escolheram a alternativa D (roxo), mais da metade (53,7%) escolheu a alternativa B (em verde), 6,5% escolheram a alternativa A (azul) e 3,2% escolheram a alternativa C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, nenhum deixou a questão em branco ou marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo Ia.",
+  "text_sha256": "0bf5a54cb6cb1c7abdd2e30c42a07fda62a6c2f2d9e9cf01e03ec858bb31c820",
+  "window_size": 3
+}

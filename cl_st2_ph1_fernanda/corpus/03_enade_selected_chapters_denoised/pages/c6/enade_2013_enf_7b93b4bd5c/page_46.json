@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e43461b19db7763006af8f37573d887d1bd3c5ba67296149b",
+    "usage": {
+      "input_tokens": 1457,
+      "input_tokens_details": {
+        "cache_write_tokens": 1454,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1454
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1764
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_45.txt",
+      "source_sha256": "c26d3c95eff634f93659f66a16ea32ad650d58f6928bb156d23259ab5707f535"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_47.txt",
+      "source_sha256": "08219e42b3d70539b1e1a848637d1d881f7a279af8b9a585b8dd1aaa9bc3b5d5"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:09Z",
+  "duration_seconds": 3.639,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_46.txt",
+    "source_sha256": "756bd6650be5a004fde182b5e548a133abba894a88bed3f569622b7a238d51ad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9f7c46c2071af3173b6cbc0c42c9b869caca6a28ff759d93e4266fddbe8800ce",
+  "request_fingerprint": "90b639f1b3398addfbbd97e2113d89a46789d7d9de68ece03a7c67a39383870d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do gráfico: “Fonte: MEC/INEP/DAES - ENADE/2013”. O gráfico 3.7 não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Enfermagem, das IES Públicas (49,0) obtiveram uma média maior do que os das IES Privadas (43,6).",
+  "text_sha256": "8560823bdf8168a8d123238393a1453750fc460e55bc845ca3d4d7beae63423f",
+  "window_size": 3
+}

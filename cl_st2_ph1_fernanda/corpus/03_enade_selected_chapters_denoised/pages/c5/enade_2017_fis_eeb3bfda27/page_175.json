@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0999c44245935abf006af9081cbc5487d1b87615bbdefb68f5",
+    "usage": {
+      "input_tokens": 3016,
+      "input_tokens_details": {
+        "cache_write_tokens": 3013,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3013
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 3537
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 174,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_fis/enade_2017_fis_page_174.txt",
+      "source_sha256": "bebd0ac227bd0dbefac29f5d492c9dd6a9a78c98042eb1ce90105f8962bd27fd"
+    },
+    {
+      "page_number": 176,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_fis/enade_2017_fis_page_176.txt",
+      "source_sha256": "76f0a7300849eb85412fa517b0a6ccba02924377dcb8454ac55bf9498403e540"
+    }
+  ],
+  "created_at": "2026-11-15T01:17:16Z",
+  "duration_seconds": 4.811,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FÍSICA.pdf",
+    "page_number": 175
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_fis/enade_2017_fis_page_175.txt",
+    "source_sha256": "f58ebdd7dfee4d662313643b2154bc8c171ba9f7f3ea578ebd8f15a0e4ec6757"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "132c3bf23c7f8494802830f50a2707ea7e774e930ae8ba8867ec074430270304",
+  "request_fingerprint": "2d7b1a57be6f5185649a6e1df8a82f53be78c88af3ac31b969e4c604d39570d1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 5.1b e sua linha de fonte; a descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "foram atribuídos conceitos 2 e 3 (um curso cada). Nenhum curso foi classificado com os demais conceitos ou ficou Sem Conceito (SC).\n\nNo Gráfico 5.1b, é apresentada a distribuição cumulativa do Conceito Enade dos cursos de Bacharelado, segundo Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, a região Norte (linha azul) apresenta 100% dos cursos com conceito 3 ou abaixo deste valor, e as regiões Sul (linha roxa) e Centro-Oeste (linha preta) apresentam 100% dos cursos com conceito 4 ou abaixo, pois os poligonais cumulativos atingem 100% no conceito 3, para a região Norte (linha azul), e conceito 4, nas demais regiões citadas acima. Nota-se também que nessas três regiões citadas acima, nenhum curso obteve conceito mínimo, pois os poligonais começam a partir de 0% no conceito 1. Em linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as demais regiões do Brasil não apresentam uma hierarquia.",
+  "text_sha256": "39bc1d3bd2210d01876f6a8380d02c480cbe127914c01e5e64e220b334abdb8a",
+  "window_size": 3
+}

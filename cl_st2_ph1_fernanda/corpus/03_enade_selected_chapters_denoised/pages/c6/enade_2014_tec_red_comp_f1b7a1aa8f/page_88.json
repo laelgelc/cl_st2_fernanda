@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05703d7efaed5c19006af8fcdb78e487d19ad7b1df509de0eb",
+    "usage": {
+      "input_tokens": 2354,
+      "input_tokens_details": {
+        "cache_write_tokens": 2351,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2351
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 592,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 2946
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_87.txt",
+      "source_sha256": "185b4bcbda1e5145f0d4d1ba5a6efd76db3c145374b110f43e8b404e6b00c433"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_89.txt",
+      "source_sha256": "cbb6606d9400b34aba703eb2afc77f36c58f2a89820b5b027e0c467eb2fb5a04"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:15Z",
+  "duration_seconds": 7.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_88.txt",
+    "source_sha256": "c270212c45f6a118e1d24baaeea5930da16138cd8927feabbdd916e84116655e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ea23b4d2c783952ecc9847b6609e4dc66858538e80f45b2c7bd6353e36359c75",
+  "request_fingerprint": "eb2ccd32eba7f19915f464b1add621e316676d6e5425d8db3cdef477a8d5f8b8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.12 e sua linha de fonte (Fonte: MEC/INEP/DAES - ENADE/2014), identificados pelo contexto como material gráfico."
+  ],
+  "status": "success",
+  "text": "3.3.2.4 Comentários sobre as respostas à Questão Discursiva 4\nA questão visava a verificar o conhecimento do estudante no que se refere ao conceito de blocos de endereços IP (Internet Protocol). Esse conhecimento é considerado fundamental para estudantes da Área de Tecnologia em Redes de Computadores, pois é a base para a configuração de uma rede que utiliza a arquitetura TCP/IP.\n\nPara avaliar esse conhecimento, o enunciado da questão apresentava o endereço IP de uma das estações da sub-rede ilustrada e a máscara de rede dessa sub-rede, para que o estudante determinasse: (i) o primeiro endereço do bloco de endereços da sub-rede, que é o endereço da própria sub-rede; (ii) o último endereço do bloco de endereços da sub-rede, que é o endereço de broadcast da sub-rede; e (iii) o número de endereços utilizáveis do bloco de endereços da sub-rede, que corresponde, tipicamente, aos endereços que podem ser atribuídos às estações presentes na sub-rede. Esse conteúdo está em conformidade com as Diretrizes da",
+  "text_sha256": "84176f1b2466ffde21d482a16071eac929d6b1472cc2becd45e740eb983be9ff",
+  "window_size": 3
+}

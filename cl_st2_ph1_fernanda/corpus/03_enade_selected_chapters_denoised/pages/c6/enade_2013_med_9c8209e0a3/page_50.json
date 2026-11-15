@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_006546a9ce5eaba9006af8f45a880887d1b1de7d9db699a961",
+    "usage": {
+      "input_tokens": 2124,
+      "input_tokens_details": {
+        "cache_write_tokens": 2121,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2121
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 372,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 2496
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_49.txt",
+      "source_sha256": "43a8dd13e150717b25b483f7cba89456cfac40692d31dcee416a58210d8f8c9e"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_51.txt",
+      "source_sha256": "d52a49be470772bf7b9ea4758b7099ec8b384228e2b108ad76c7dfd8dd7241f2"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:58Z",
+  "duration_seconds": 4.167,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_50.txt",
+    "source_sha256": "2d58521eddc803bfd2b4301d7e82e5776779397dc4d7872f64ac78e84a5876a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e44c335b6d5ada4cef1a405dffcbe8f8046c43c783dc1b22f265f3f324b6eff8",
+  "request_fingerprint": "36a2b85d2c7ad3f91948252c71ae069d816b8044f6742e81eaeedb32ee97c4b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 3.9 e sua linha de fonte foram removidos."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], abaixo do grupo modal para a Formação Geral.\n\nO coeficiente de assimetria da distribuição das notas do Componente de Conhecimento Específico é positivo (0,06), porém de pouca magnitude. Nota-se pelo histograma (Gráfico 3.9) que esta distribuição apresenta uma leve concentração à esquerda e cauda maior à direita. Em quase todas as Grandes Regiões os histogramas também possuem assimetria positiva (entre 0,31 para o Norte e 0,17 para o Sudeste), exceto na região Sul (-0,66) que possui assimetria negativa.",
+  "text_sha256": "4ca5141f67ecc10989932e91e1fb7aaad460e9a18add328ca1e3aa0b9c7316d5",
+  "window_size": 3
+}

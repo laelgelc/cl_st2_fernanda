@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01dfa2910ced8787006af8f91c966487d1a829de9b2e71c639",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cache_write_tokens": 1574,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1574
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 221,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 1798
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_100.txt",
+      "source_sha256": "dcd4e3972bc3fd270a3fbf07f94a1f7d5419f60d5bbcfaf152d105f1a1a30b60"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_102.txt",
+      "source_sha256": "8cf7e5722d976fd4af2ee7a68f987309b4cd0186a1cb4a267216720378ec65d3"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:16Z",
+  "duration_seconds": 3.047,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_101.txt",
+    "source_sha256": "49b7ec4db8f424ce228ecaf77e6d7cb21456515fb47529adb97f7836e5a2d02c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2263b67d2410b3e48746414de2119c7524ee2e7407543d03caa9ef5c04b769bd",
+  "request_fingerprint": "1af2023c663edbb3397a2e79656e513637e4904da7dfcd64e9ab3cb7657e2c01",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/INEP/DAES - ENADE/2014”, identificado como pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos variou entre 72,6% do quarto inferior de desempenho a 89,4% do quarto superior, valores crescentes com o desempenho. A diferença do primeiro para os demais quartos é estatisticamente significativa.",
+  "text_sha256": "1c25c1163550c5d7a596552e43eb41d64e5a7e377bb1bf58967c4317409e3469",
+  "window_size": 3
+}

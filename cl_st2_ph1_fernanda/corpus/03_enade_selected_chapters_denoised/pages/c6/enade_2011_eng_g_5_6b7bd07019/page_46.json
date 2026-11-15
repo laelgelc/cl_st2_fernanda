@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02a6f0da3b12fa99006af8ec798d7887d19a5d372411671e37",
+    "usage": {
+      "input_tokens": 2010,
+      "input_tokens_details": {
+        "cache_write_tokens": 2007,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2007
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 2458
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_45.txt",
+      "source_sha256": "84e52fdcddf19285d577a747097c6cb1ae22187015d2144581cc1a6e958f7633"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_47.txt",
+      "source_sha256": "c5ef56fac0d04739e07cb19cda51108b53e49fec74ba0a74831f6abb4fd12f2c"
+    }
+  ],
+  "created_at": "2026-11-14T23:19:21Z",
+  "duration_seconds": 8.928,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_5",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO V.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_46.txt",
+    "source_sha256": "16cbec5bdc4734bf4fcaf991c5e0ecb911b73b858fc3dc9a85782e552a091a2a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "095782f01c26c0b8d3160b06da7c58455e97bab757817ce51f6b1717f9fd0a92",
+  "request_fingerprint": "824e39c4c6ab7e0d51e589095a9d283e69c974534d4c910a024f4436e6fb8c36",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2010”, identificada pelo contexto como pertencente ao material gráfico (provavelmente o Gráfico 3.9)."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos no Componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se que não existe diferença estatisticamente significativa entre as médias das notas no componente de Conhecimento Específico, das regiões Norte e Nordeste em relação à região Sul. As diferenças são significativas com respeito à região Sudeste. A região Sudeste (51,1) foi a que obteve média mais elevada, enquanto a região Norte (43,8) foi a região que obteve média mais baixa.",
+  "text_sha256": "d9f13430fb4d59114c0ec5e42be6758ce185aee849a9ff7dfc204086bbde4675",
+  "window_size": 3
+}

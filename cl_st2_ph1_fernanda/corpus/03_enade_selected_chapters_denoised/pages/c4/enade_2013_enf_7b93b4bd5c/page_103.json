@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02296e66f622c0f6006af8f367e6c887d19ed68c0c32bcccd1",
+    "usage": {
+      "input_tokens": 1816,
+      "input_tokens_details": {
+        "cache_write_tokens": 1813,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1813
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 2369
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_102.txt",
+      "source_sha256": "c463a683ce3f8b02240a9629036fc96734a2bd35f0a8d7856f50caedf1d41061"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_104.txt",
+      "source_sha256": "42b414cd501b138aa2b4003f0e4aea3ff7f9210416d936977cb251bc4b24487e"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:55Z",
+  "duration_seconds": 6.23,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_103.txt",
+    "source_sha256": "f45662d8f69fd4a2a7c48d24c43c38bcce67f179282791c1d4ed64506c242c11"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "71c187c120f790e7d2db4c8130444d3bad650935e69fb7b47a55759a4ff8ae00",
+  "request_fingerprint": "0a56a8bfda826c6b9b425646b202ec44ab6331781896f900168345448c1353ef",
+  "retry_count": 0,
+  "review_notes": [
+    "A linha “Fonte: MEC/INEP/DAES - ENADE/2013” foi removida por aparentar ser a fonte de material gráfico; nenhum gráfico ou dado gráfico estava presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "A forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 43,6% (região Nordeste) a 53,0% (região Norte). O percentual de alunos que citaram a falta de motivação como dificuldade variou de 13,1% (região Norte) a 18,4% (região Sudeste). A proporção dos que declararam não ter qualquer dificuldade para responder à prova variou de 22,5% na região Norte a 29,0% na região Nordeste.\n\nCom relação aos quartos de desempenho, o desconhecimento do conteúdo, foi a opção escolhida por 6,6% dos estudantes do quarto superior e 6,2% do quarto inferior. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, foi que a dificuldade encontrada foi causada pela forma diferente de abordagem do conteúdo, com valores entre 42,4% no quarto superior e 49,8% no 2º quarto.",
+  "text_sha256": "ad19f3e635e881deea9de3d612480b0d6ab93ce54d9fff211499ae081dfca344",
+  "window_size": 3
+}

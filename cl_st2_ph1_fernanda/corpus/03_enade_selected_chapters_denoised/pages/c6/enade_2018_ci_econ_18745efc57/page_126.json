@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0206b0c746081442006af90c657be887d1a3da2d086b308d87",
+    "usage": {
+      "input_tokens": 2665,
+      "input_tokens_details": {
+        "cache_write_tokens": 2662,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2662
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1066,
+      "output_tokens_details": {
+        "reasoning_tokens": 503
+      },
+      "total_tokens": 3731
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_125.txt",
+      "source_sha256": "128d29b083265023e014cb2d654622264e33b5ae5aa394068fd172567c19fbff"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_127.txt",
+      "source_sha256": "78694a2eecba269f9c4edcb3226ebfa809d9800f945a59f01591d743172344ed"
+    }
+  ],
+  "created_at": "2026-11-15T01:35:33Z",
+  "duration_seconds": 9.112,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_126.txt",
+    "source_sha256": "bcb3ad4288ffd8726b757f315f8877a30a3141f9c87f5dc3f2d8d7e5eaa72bd8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "443b300b40de53f3310144b6c9f87698b22072671a1144ad5e35c29142184770",
+  "request_fingerprint": "c95c6a1e872d2e8e7755894828c278398b209b13e6307c56baa1318da20da721",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 6.4 é discutido na página, mas seu conteúdo gráfico não aparece na extração textual. A linha de fonte no início da página de contexto seguinte pode pertencer a esse material; ela não foi incluída."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 13,0% escolheram a alternativa E (em vermelho), 11,7% escolheram a alternativa D (em laranja), 15,8% escolheram a alternativa B (em verde), 18,7% escolheram a alternativa A (azul) e 40,7%, a alternativa C (em preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 30% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "9d15712ed679a35cf10e0f6b84accc8fba2b28914e0500f34f5f10f2613dc39f",
+  "window_size": 3
+}

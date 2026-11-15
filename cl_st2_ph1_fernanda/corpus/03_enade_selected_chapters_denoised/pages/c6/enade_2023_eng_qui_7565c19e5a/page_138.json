@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05d229cffc01d55a006af9221e8cc487d19d407e3f675dcd15",
+    "usage": {
+      "input_tokens": 2594,
+      "input_tokens_details": {
+        "cache_write_tokens": 2591,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2591
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 619,
+      "output_tokens_details": {
+        "reasoning_tokens": 186
+      },
+      "total_tokens": 3213
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_qui/enade_2023_eng_qui_page_137.txt",
+      "source_sha256": "b5756b3bb56b6d072e57c347976c4eab6bf2e26873fb84fd621fa5a2930e5d93"
+    },
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_qui/enade_2023_eng_qui_page_139.txt",
+      "source_sha256": "b0279eafc1e55f2e333baf17de010ec2db024a1f217bd9b545c79623967f1daa"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:14Z",
+  "duration_seconds": 5.131,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARI QUÍMICA.pdf",
+    "page_number": 138
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_qui/enade_2023_eng_qui_page_138.txt",
+    "source_sha256": "da5adf7e6c7956203cfa2e67ace023aa7a7adfc4b3f8a775bb01ad0d7be6c937"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "58c8eb08c2bd565d3a584e86ae67ab18f13a3199ddf5c171d076ccc6aea9b6da",
+  "request_fingerprint": "8ae3aa2ba92bb7ca0f5b36e3b42b1e306d1c44c7ed5e246038b747fe954ac4ec",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 5.4, sua legenda/caption e a linha de fonte. A prosa final termina em “Essa” na página-alvo; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.4, para exemplificar, analisa-se o comportamento da questão objetiva 5 de Formação Geral. Trata-se de uma questão considerada com nível “Médio” de dificuldade, em relação à facilidade, e que obteve o índice de discriminação 0,41 (muito bom).\n\nNo Gráfico 5.4, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/múltipla escolha), antes de possíveis eliminações pelo critério ponto-bisserial.\nA curva em lilás corresponde à alternativa E, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em verde), incorreta. Por exemplo, entre os estudantes que acertaram até duas respostas, 22,9% escolheram a alternativa A (em vermelho); 11,3% escolheram a alternativa B (em mostarda); 42,0% escolheram a alternativa C (em verde); 10,0% escolheram a alternativa D (em azul); e 13,4% escolheram a alternativa E (em lilás, gabarito). Entre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com nove acertos. Essa",
+  "text_sha256": "110a4e316c412fdeaa17e18514a272998e21e4161627da0173d18dc3db17c6d5",
+  "window_size": 3
+}

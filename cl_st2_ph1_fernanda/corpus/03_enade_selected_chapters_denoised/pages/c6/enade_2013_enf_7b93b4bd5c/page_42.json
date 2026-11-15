@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_073994f365da2925006af8f373516c87d1835ad23e2b2bd68a",
+    "usage": {
+      "input_tokens": 1663,
+      "input_tokens_details": {
+        "cache_write_tokens": 1660,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1660
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1975
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_41.txt",
+      "source_sha256": "66f23462db2f69f7e56c65f1a38c63638752813eadc3b489b085cf1ec16c7fb9"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_43.txt",
+      "source_sha256": "26698bcf78a1cc5d114643de89d11350db93d284a9bf985a387a4d72c5cf137e"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:07Z",
+  "duration_seconds": 3.948,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_42.txt",
+    "source_sha256": "af892924d620f3b63e980ca23f6f9acfd8dfe83c2cac86c924aba4a49f4c37c7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "108ac1a4a74bab4ccf4b53c0bcc9dc3807a7f13d5927ece0b741ed9f8fcf3ece",
+  "request_fingerprint": "46835666e253e2c06ae339843196fff17ea1f4643e467f24b7bd8bdae57f280d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (54,7), e a menor, pelos de Faculdades (48,5).",
+  "text_sha256": "558a048cb64cff0d6686602ae493ad08a705f8b432a5d4143611d8746eb669f3",
+  "window_size": 3
+}

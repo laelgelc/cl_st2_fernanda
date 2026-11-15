@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0522208dfe37bc33006af923cf3a7087d1834a96247f4850a2",
+    "usage": {
+      "input_tokens": 2996,
+      "input_tokens_details": {
+        "cache_write_tokens": 2993,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2993
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 555,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 3551
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fono/enade_2023_fono_page_123.txt",
+      "source_sha256": "2dedaa786fc8114e325e13e542d2dcf0e6e8c2c81d82171190992923c4ce4e76"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fono/enade_2023_fono_page_125.txt",
+      "source_sha256": "b466899aa6b0173a40772477f4dba6c85f426ccbd7aea45257fa405da164e83b"
+    }
+  ],
+  "created_at": "2026-11-15T03:15:26Z",
+  "duration_seconds": 6.745,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FONOAUDIOLOGIA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_fono/enade_2023_fono_page_124.txt",
+    "source_sha256": "b6cc4da61e96673652ea00797899e2c376d06f6ca2fbff748c74f6a1a4c9819b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "59bf6a9113d4181fba754cfa41f3d05ead651d7b5abd0d8a3ed5c5f275c12f72",
+  "request_fingerprint": "ea7878ae0cba4b4b556a0d8c064c698017fca3fe02b3ebbd2246a631bc8e239c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.2, incluindo sua legenda/caption e a fonte MEC/Inep/Daes – Enade/2023; o texto interpretativo do gráfico foi preservado."
+  ],
+  "status": "success",
+  "text": "Na região Centro-Oeste, 3 dos 4 cursos participantes eram de IES privadas (75,0% em termos regionais). Desses, um curso recebeu conceito 1, um recebeu o conceito 2 e um, o conceito 3. Nenhum curso recebeu os conceitos 4 ou 5 nem ficou sem conceito (SC). Quanto ao único curso oferecido por instituições públicas na região Centro-Oeste (25,0% do total regional), ele recebeu o conceito 4.\n\nTambém na região Centro-Oeste, todos os cursos foram ofertados na modalidade presencial: 4 (100,0%). Para esses 1 curso (25,0%) recebeu conceito 1. Os demais cursos presenciais da região foram alocados nos conceitos 3 (um curso, 25,0%), 2 (um curso, 25,0%) e 4 (um curso, 25,0%). Nenhum curso presencial da região ficou sem conceito (SC) ou recebeu o conceito 5. Na modalidade a distância, não foi oferecido nenhum curso.\n\nA título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "3363c05b022f06a4689e8cae57ce44649f61d4219184137348ea0904c8a3c2e5",
+  "window_size": 3
+}

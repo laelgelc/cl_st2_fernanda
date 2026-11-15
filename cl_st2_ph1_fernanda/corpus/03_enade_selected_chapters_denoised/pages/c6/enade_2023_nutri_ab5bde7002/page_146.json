@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_031a0d25f7656abb006af9245d861087d19c541d889e9195ae",
+    "usage": {
+      "input_tokens": 2954,
+      "input_tokens_details": {
+        "cache_write_tokens": 2951,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2951
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 3349
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_145.txt",
+      "source_sha256": "d255771554d25cf0106d88bd78c018b0529ddc561cbbc757e094147517e0af32"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_147.txt",
+      "source_sha256": "dff541318e09064d9fe009e1a131a0de7615c3053a6f9feb80367ffc114a266c"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:49Z",
+  "duration_seconds": 4.144,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_146.txt",
+    "source_sha256": "93c10bb851a023d615b0edee5be9eb21e998b877b200176bb17e85714ee20268"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41f311c3f702d292203290841d288d44ea940f2c8a2935a2c60248ca7ce6d180",
+  "request_fingerprint": "de6aad86318c2f9c90b4afe24b33ea9708c6d83787fb12f9fcdd76a2200756ff",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.13, incluindo título, estatísticas e fonte.",
+    "Removido o Gráfico 5.6, incluindo título, conteúdo gráfico e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.13, observa-se que os estudantes de todo o Brasil obtiveram, em Formação Geral, média de 42,4 nas questões discursivas. Pode-se notar, também, que o desvio-padrão nesse conjunto de questões foi de 24,6. A maior média foi obtida na região Nordeste (43,1), e a menor na região Sul (41,2). A mediana de todo o Brasil, neste componente, foi 42,2 e na região Norte (43,5) foi encontrada a maior mediana. A nota máxima (100,0) foi obtida por, pelo menos, um estudante das regiões Centro-Oeste, Nordeste, Sudeste e Sul. A nota mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 5.6, está representada a distribuição das notas na questão discursiva do componente de Formação Geral.",
+  "text_sha256": "787a9aa493eae4a549c303015c7d347d1810ae1d87c1bb1f2395ae0da7aff797",
+  "window_size": 3
+}

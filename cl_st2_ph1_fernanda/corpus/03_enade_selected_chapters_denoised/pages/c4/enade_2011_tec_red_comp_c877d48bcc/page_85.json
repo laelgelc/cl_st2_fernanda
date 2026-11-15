@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aa861e8334dac89006af8efe0599087d19ef2798a756cba94",
+    "usage": {
+      "input_tokens": 1686,
+      "input_tokens_details": {
+        "cache_write_tokens": 1683,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1683
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 345
+      },
+      "total_tokens": 2258
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_84.txt",
+      "source_sha256": "69752919a531c8e75d69c6c4449c16624d38864b25720482f4a5b1d73f5e9d0b"
+    },
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_86.txt",
+      "source_sha256": "65f13f9efb912030f44d8c90ac1c4ef7247d4f6c62b958ea3204344f141458b9"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:52Z",
+  "duration_seconds": 5.862,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 85
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_85.txt",
+    "source_sha256": "4843621b2f7cbdfe4b8627c5cfe79671caa648ebf39b6569138de0a078aff159"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e88a78f934ea12ce9fb7b44342761a940d7ace0eae6b9bc84d47d1371b7853a0",
+  "request_fingerprint": "993e362ed099a4b87ae8604c6fe663494587c33d1637703b3a003474b604bcdf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2011), provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, observa-se que no 1º quarto 58,0% dos estudantes consideraram a extensão da prova adequada e, no 3º quarto, a proporção dos que emitiram tal opinião foi a mais elevada, 64,5%. No 2º quarto e no 4º quarto a proporção de estudantes que consideraram a extensão da prova adequada foi praticamente a mesma, 61,2% e 61,1%, respectivamente.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 33,7%. Não há diferenças estatisticamente significativas nem tendência de crescimento ou de decrescimento associada ao aumento de desempenho.",
+  "text_sha256": "d473b1825a2a4e7290c46b2551121d4cf144bddc1c39d02657afa689b187b084",
+  "window_size": 3
+}

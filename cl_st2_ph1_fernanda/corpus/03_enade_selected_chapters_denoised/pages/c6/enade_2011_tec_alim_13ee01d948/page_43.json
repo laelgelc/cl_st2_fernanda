@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_008c0158fd4fbeee006af8eebaef6887d1af0baaea9d267c5d",
+    "usage": {
+      "input_tokens": 1509,
+      "input_tokens_details": {
+        "cache_write_tokens": 1506,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1506
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 309,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1818
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_42.txt",
+      "source_sha256": "a2703839c4393d29fccb8cb3b039898edfa0e30054078c5dc6afb34913aa34c9"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_44.txt",
+      "source_sha256": "393dd150fdf5f0019383c4760100da894aba6e50767db0642eb465ecf86e1a9f"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:58Z",
+  "duration_seconds": 3.666,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_43.txt",
+    "source_sha256": "4d4a8025c99763d9945c55eb03ee196125dd4dfa0934b2a84d03247c2c53a19a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e4c8ea180d2be7d15ab9001bb903d8761afe6ce1e56b789f7fd240ba01f78c58",
+  "request_fingerprint": "f5763db5744c313613b1c6719ec8b33530778604a130a1fe5d7e01d1e8ea86e9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que parece pertencer ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades (38,9) e Faculdades (42,8). A maior média foi obtida pelos estudantes de Faculdades, e a menor, pelos de Centro Universitários (33,2). Nota-se que o intervalo de confiança da média dos alunos de Centros Universitários é demasiadamente grande, o que está associado ao pequeno número de concluintes de Tecnologia em Alimentos em instituições deste tipo: 14 inscritos no total (ver Tabela 2.4).",
+  "text_sha256": "6bfa0a3e048b58930aa2ee137fb9898722974e222977e8b41c23a74960e8c6d5",
+  "window_size": 3
+}

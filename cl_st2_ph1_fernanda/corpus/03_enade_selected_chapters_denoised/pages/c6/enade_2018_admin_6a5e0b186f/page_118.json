@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a003886f4d63d79006af90c038cf887d18ac2420f35174d83",
+    "usage": {
+      "input_tokens": 3187,
+      "input_tokens_details": {
+        "cache_write_tokens": 3184,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3184
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 358,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 3545
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_117.txt",
+      "source_sha256": "0482808c6ea6fbe1771feca1c118670fc02b21ac45a22d7992c8d61f3b0575d2"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_119.txt",
+      "source_sha256": "0bff8ce2927c49921302bade2c281f0793589678c07b85383e7fea9c4557af6b"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:55Z",
+  "duration_seconds": 3.62,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_118.txt",
+    "source_sha256": "220fbbfad63eacad3bb81165876d263a9dee2df43f79c09e052578af8c565be1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "675c7dbcfd3c83b1c9ab01ecf79d01a56c1c6ea7b506cdb1c65d7521bf79e71d",
+  "request_fingerprint": "615e25a3cca7f1de2c678066ef00d74db10fb6729805f22ab33330ef27d7599b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo seus dados e a linha de fonte.",
+    "Removido o material gráfico do Gráfico 6.2 e sua linha de fonte; o parágrafo descritivo foi preservado."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], intervalo imediatamente seguinte ao modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 13,2 para a nota da prova, como um todo, e 16,6 para o Componente de Formação Geral.",
+  "text_sha256": "9d1913fd43f660b5dec0ddc9db0425223227d3510955b5fb28fed106ed22ae99",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a915bb39e694ac006af8ede23b5c87d1ba8f361fc8ac04c9",
+    "usage": {
+      "input_tokens": 1508,
+      "input_tokens_details": {
+        "cache_write_tokens": 1505,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1505
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 270,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 1778
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_42.txt",
+      "source_sha256": "69900167934c632b19d7d9fb87a12ef0cabb5c250ecec523ba927d6164838360"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_44.txt",
+      "source_sha256": "7e58ca178d1d540e7d28f04575d106c662414409bd6deebce7cdead805429994"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:22Z",
+  "duration_seconds": 3.519,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_43.txt",
+    "source_sha256": "2cb861fff57e7e67c0436c1ec9e67ed0adb9fc71b6e8a400389f8e1623e10fc4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ba2eda7a0155b3fe1ca53e5f64766e1027ecfcbb90a97f768c3ece014e272165",
+  "request_fingerprint": "c5d88597588a22721e3e9c7860f167145c5c6a5b8f5c534413edac193551601d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico do Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre a maior média, obtida pelos concluintes de Centros Universitários (53,6) e as médias obtidas pelos alunos de Universidades (50,0) e Faculdades (51,3), sendo que a diferença entre as médias destas duas últimas categorias também é estatisticamente significativa.",
+  "text_sha256": "c7de0a9c39ffdb8edca3ad5da58a7307b95c94b1ad798711d2f385f0b78f7cd7",
+  "window_size": 3
+}

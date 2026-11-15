@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0158dab698728ecd006af8eabfb80087d19c280d301cd11ea0",
+    "usage": {
+      "input_tokens": 2766,
+      "input_tokens_details": {
+        "cache_write_tokens": 2763,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2763
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 543,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 3309
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_50.txt",
+      "source_sha256": "5feba2a0961177b3dec460b50e9c03f659af75bcbf5cbd7524790a2386e7d805"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_52.txt",
+      "source_sha256": "60d1a1d08631f314b09d926360f947dd222f2c79ebf4a61ded7029429b1ab1d7"
+    }
+  ],
+  "created_at": "2026-11-14T23:11:59Z",
+  "duration_seconds": 5.567,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_51.txt",
+    "source_sha256": "e62601e8e9d77f114a1581e190d3d5b23834cd0700b778d09d861ad149bff52d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "979d0938faf3fd014148a06fb2a6f62cd3eb7a054bc588c7aa8f1296c05ef172",
+  "request_fingerprint": "8a1b8bb57e48a550125613cbc7b351bc115950d81cfda3916fd63bcc9614037f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao gráfico; o gráfico não está transcrito no texto fornecido."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, notadamente para o número zero de acertos, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com um menor número de acertos nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "7619cdd791f4eac3be19f77ef755cc85ace06323ba86c69d173a5ce905bcf9ff",
+  "window_size": 3
+}

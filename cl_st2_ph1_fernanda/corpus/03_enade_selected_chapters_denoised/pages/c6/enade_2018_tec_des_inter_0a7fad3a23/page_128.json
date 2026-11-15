@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f8644558379e06e006af90e2db85c87d19698c8c85d7fe0e3",
+    "usage": {
+      "input_tokens": 2088,
+      "input_tokens_details": {
+        "cache_write_tokens": 2085,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2085
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 631,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 2719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_127.txt",
+      "source_sha256": "a01a20da6f2a870724a293aa43e5e361192ac9ddca0c26157dd13abdf675313c"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_129.txt",
+      "source_sha256": "6769e77ea2e428d9f10c02f50a303c80373fec7c3a46d793280f88f6b5256564"
+    }
+  ],
+  "created_at": "2026-11-15T01:43:09Z",
+  "duration_seconds": 5.486,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_inter",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN DE INTERIORES.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_inter/enade_2018_tec_des_inter_page_128.txt",
+    "source_sha256": "811f343e38be943fda41b39be96746e807e8aeda715cd11d75e1d034b4caa95d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7d3bc91692c2d3783c38c284c1cf073087bb90e0a7195953a1aa02c1b0188810",
+  "request_fingerprint": "b0f0d91201329dcca13dfb32ae9ae3f5ceb7e5a1160b0edeeb619fcc0db6e3ac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "O Gráfico 6.6 foi removido; o texto descritivo que o acompanha foi preservado."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 37,5, a mesma sendo obtida nas regiões Sul e Centro-Oeste. Na região Norte, a Mediana foi menor (31,0), e, nas demais regiões, foi maior que o valor para o Brasil: 38,0, nas regiões Nordeste e Sudeste. A nota Máxima (89,5) foi obtida na região Sudeste, sendo 77,0, a Máxima na região Norte; 86,5, na Nordeste; 84,5, na Sul; e 88,0, na região Centro-Oeste. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. É distribuição bimodal, com as modas ocorrendo nos intervalos (30;40] e no intervalo (40;50], ambas com frequência 19,9%. Destaca-se, também, o intervalo [0; 10], com distribuição em torno de 13,7% do total de notas, sendo que no intervalo [0; 10], inclui-se, além da nota zero, a frequência de alunos que deixaram esse tipo de questão em branco.",
+  "text_sha256": "26f6c76643dd39d6203a88cb3764af7e1e8586d2dbdc80642081bcd25766e90e",
+  "window_size": 3
+}

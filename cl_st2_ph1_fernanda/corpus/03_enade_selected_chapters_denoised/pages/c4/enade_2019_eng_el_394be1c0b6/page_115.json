@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01fbee7a58ae2b67006af911ca906c87d19a572349cd58b588",
+    "usage": {
+      "input_tokens": 1724,
+      "input_tokens_details": {
+        "cache_write_tokens": 1721,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1721
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 2136
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_el/enade_2019_eng_el_page_114.txt",
+      "source_sha256": "bc7d356671b88abc08dcc8792db59cf0699b3290ade04bf1399c90ecdde6dacd"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_el/enade_2019_eng_el_page_116.txt",
+      "source_sha256": "c421960edc0ed08077920f772102dde155b0b3521d9ec3019084f66eddbb1909"
+    }
+  ],
+  "created_at": "2026-11-15T01:58:34Z",
+  "duration_seconds": 4.496,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_el/enade_2019_eng_el_page_115.txt",
+    "source_sha256": "91366630ac4771c1d70902e6e192fd0bbca161f4dbbd914ca8484acc54456df8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "552ec68aaf42a743819b329bd5229b2d68a172efd0f74349b53789e35553d46e",
+  "request_fingerprint": "e259124cb62a662018addc674d5d2e1a1718a95f955e3709407e74af3e32b6cd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.19, incluindo título e fonte. O fragmento final “CEFET/IF” parece ser rótulo gráfico; removido, mas sua associação ao gráfico requer revisão."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior para os estudantes de cursos de IES Públicas (82,4%), uma diferença estatisticamente significativa da proporção em IES Privadas (74,0%). Ver Gráfico 4.20 e Tabela II.10, no Anexo II, para um maior detalhamento.",
+  "text_sha256": "97ae431bb9c03bfeef747153852bc9866b9435653a4c8e774dfca2e49c16baa4",
+  "window_size": 3
+}

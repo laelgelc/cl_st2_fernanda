@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d63c2dba622a88f006af900b4edec87d1a418aeb96624e566",
+    "usage": {
+      "input_tokens": 2257,
+      "input_tokens_details": {
+        "cache_write_tokens": 2254,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2254
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 450
+      },
+      "total_tokens": 2970
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_82.txt",
+      "source_sha256": "431f731aedbe0ee1c77250115776fbef67316d31604e0e1098f518f39837a2fe"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_84.txt",
+      "source_sha256": "65f31940b2aa720e8ab479eef2629dd44193d1f87f1702c1c6c9ca58cebdf44f"
+    }
+  ],
+  "created_at": "2026-11-15T00:45:40Z",
+  "duration_seconds": 7.331,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM LOGÍSTICA.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_83.txt",
+    "source_sha256": "a6ece3a763e43b99fe80a25795266e6244cd204546c51ad57498483dc404a8aa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6a407639635d8a4cd96d277fe453ce5884ad4feeb8b2b8e0083420e5f3fa3b3f",
+  "request_fingerprint": "770aa8f13c6547a359fc7510ec59332f30da29bc9dacc3e23311db5ac69b7903",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.19, incluindo título, dados e fonte.",
+    "Material gráfico do Gráfico 3.12 removido; a linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "3.3.2.3 Análise da Questão Discursiva 4 do Componente de Conhecimento Específico\nA Tabela 3.19 contém as informações relativas à questão 4 do conjunto de questões do Componente de Conhecimento Específico. A Média geral do Brasil foi 43,5, sendo a menor Média registrada na região Norte (41,9), e a maior, na região Centro-Oeste (49,3).\nAs medianas (50,0), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para todas as regiões, exceto a Mediana na região Norte (40,0).\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição têm moda no intervalo (60; 70], com vários intervalos de máximos locais.",
+  "text_sha256": "991cd9b9dca5eac42ae3c6328b9eafef4626dc3da75fafaf077d2513050f0dbe",
+  "window_size": 3
+}

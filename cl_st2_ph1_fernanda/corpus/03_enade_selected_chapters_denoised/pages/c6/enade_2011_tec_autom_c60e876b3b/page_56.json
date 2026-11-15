@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_061c89a69f21f10b006af8eeede0dc87d1900ebcf17d026992",
+    "usage": {
+      "input_tokens": 2431,
+      "input_tokens_details": {
+        "cache_write_tokens": 2428,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2428
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 425,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2856
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_55.txt",
+      "source_sha256": "45559e69e8ba23a5eef1160f8af12d7bb576b9b4066e04f5cbf7a12423b30a69"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_57.txt",
+      "source_sha256": "fb7ee52f838a76a756a5ef153876007cd3d2d4629ffab432de5839f509267036"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:49Z",
+  "duration_seconds": 3.697,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_56.txt",
+    "source_sha256": "0842ab9f5797b5bd76d791e0e495137b9fb8b330741e6f4b890a7c82eb2d8ed5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "131746508972e9bd41fefdd2096070d72d031b2391a41fb3ed1b95567fce759a",
+  "request_fingerprint": "f0fca83aedebd90d312bd8a7c5a651b5ccceefe34cdffbf7dc0c03b451796975",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.14 analisa a questão 20 do Componente de Conhecimento Específico. Esta foi a questão que obteve maior índice de discriminação (0,42) e foi classificada com índice de facilidade médio 0,57, ou seja, 57,0% dos estudantes assinalaram acertadamente a opção A, correspondente ao gabarito.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 20, em função da quantidade de acertos dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente",
+  "text_sha256": "ba3968c5cc8381f2583654fd0ae634e3fb306af80932046c1eb5fc264f125e04",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0db22a843a63d734006af923af311c87d185d2e68f27c4d018",
+    "usage": {
+      "input_tokens": 2577,
+      "input_tokens_details": {
+        "cache_write_tokens": 2574,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2574
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 495,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3072
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_139.txt",
+      "source_sha256": "d01d1b12150ef9e90c7b88defc9ec1670f239aef42931e837c8e87a01b44a50b"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_141.txt",
+      "source_sha256": "a16a92b3d1df719277f146c0a8c50446ecf29afdd4818d7cc6c220f81298953c"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:55Z",
+  "duration_seconds": 4.379,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_140.txt",
+    "source_sha256": "f713f39542ecf96fe745244b680b2bb162c654c725ae4c29d23c4b9509b9b74e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b541b1d89c2be5bcacce34a83278ab365c59dc7061baae339826a6708723857a",
+  "request_fingerprint": "81b8a32d9cfba7c5e4e0b6c460ca999c567b886d0281588f57f2d6d6ea4a9ff0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.4, seu título e a fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.4, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/múltipla escolha), antes de possíveis eliminações pelo critério ponto-bisserial.\n\nA curva em mostarda corresponde à alternativa B, que é o gabarito da questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em verde), incorreta. Por exemplo, entre os estudantes que acertaram até duas respostas, 28,5% escolheram a alternativa A (em vermelho); 16,2% escolheram a alternativa B (em mostarda); 32,0% escolheram a alternativa C (em verde); 11,5% escolheram a alternativa D (em azul, gabarito); e 11,4% escolheram a alternativa E (em lilás). Entre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,41) obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo IV.",
+  "text_sha256": "df09aee02ae33a580f97207c4573af4f73f2f6a0bdc3aa8867d6d0f8daa41a63",
+  "window_size": 3
+}

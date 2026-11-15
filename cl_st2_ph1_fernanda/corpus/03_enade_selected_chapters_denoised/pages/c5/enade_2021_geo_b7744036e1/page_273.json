@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e3d717e7aaeefaf006af919102c3887d1b1984672bc388cc4",
+    "usage": {
+      "input_tokens": 2404,
+      "input_tokens_details": {
+        "cache_write_tokens": 2401,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2401
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 549,
+      "output_tokens_details": {
+        "reasoning_tokens": 254
+      },
+      "total_tokens": 2953
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 272,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_geo/enade_2021_geo_page_272.txt",
+      "source_sha256": "3af8725a97809ab909eef0c2ae37628a29c35ceabd71439d1ac647e412c82c54"
+    },
+    {
+      "page_number": 274,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_geo/enade_2021_geo_page_274.txt",
+      "source_sha256": "1f8cf3f89e71fd6b2587eaede2e23ac0c7c53a7723077c5972bf3a745730ff4c"
+    }
+  ],
+  "created_at": "2026-11-15T02:29:36Z",
+  "duration_seconds": 6.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_GEOGRAFIA.pdf",
+    "page_number": 273
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_geo/enade_2021_geo_page_273.txt",
+    "source_sha256": "bf8da8f2d46cef56892efec86d449241e506b3f73e727c52a6f16148f2c96a87"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5276e07175ad318bb126182a18cb148c6a50d6949dbe8aff18716617bb6ce243",
+  "request_fingerprint": "842bbb90e9008639ed524639665f6fb2f291a6e6858e9704348ca5dd7e9c57d8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, que pelo contexto pertence ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.3b, encontra-se a distribuição dos conceitos atribuídos aos cursos de Bacharelado participantes do Enade/2021, na Área de Geografia, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 70 cursos de Geografia participantes, 67 foram oferecidos em Universidades, e três, em Centros Universitários. Essa distribuição corresponde a, respectivamente, 95,7% e 4,3% dos cursos.\n\nDe acordo com os dados apresentados, todos os cinco cursos avaliados com o conceito 5 eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como o conceito modal, atribuído a 25 cursos (37,3%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (três cursos), 2 (13 cursos), 4 (21 cursos) e conceito 5 (cinco cursos, como já mencionado), e nenhum curso ficou Sem Conceito (SC).\n\nDos cursos em Centros Universitários, o conceito modal foi o 3, atribuído a dois dos três cursos (66,7%). Apenas um curso ficou Sem Conceito (SC).",
+  "text_sha256": "4e1c1e0dd4844557956640bf581406d4e3184d633b899b2d50372126d304cbd8",
+  "window_size": 3
+}

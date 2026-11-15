@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd1d51590703841006af8f5725b9487d19c158699470490a2",
+    "usage": {
+      "input_tokens": 2243,
+      "input_tokens_details": {
+        "cache_write_tokens": 2240,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2240
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1115,
+      "output_tokens_details": {
+        "reasoning_tokens": 391
+      },
+      "total_tokens": 3358
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_51.txt",
+      "source_sha256": "3ac7676f365165bc598cb374b1414758625f4a28aab239ab3dcbfe01d9befe7c"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_53.txt",
+      "source_sha256": "dc119aba1f436371ef1588059f4a2c9105de43088cf914584fb2dec24b07a174"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:38Z",
+  "duration_seconds": 9.243,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_52.txt",
+    "source_sha256": "0af85f46231734164e2a91639f59b07a8dff7303251e486e2c06d46beefaf43a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e7ce81f509cfcf75cc20b3abc98c68af905cef2db05a387c1c1443127df9288a",
+  "request_fingerprint": "b4f524ee22e947f5dbfde00916768ff783f1590f94fcccd1413f14d2c3f33d3d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.2 ANÁLISE DAS QUESTÕES OBJETIVAS\n3.2.1 Componente de Formação Geral\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A média do Brasil foi 44,5. A menor média foi encontrada na região Centro-Oeste (42,9) e a maior na região Nordeste (49,0). As demais médias foram 43,4 nas regiões Norte e Sudeste, e 44,7 na região Sul. O desvio padrão do Brasil foi 16,4, sendo o maior desvio padrão encontrado na região Norte (18,0) e o menor na região Sudeste (15,4). Os demais desvios foram: 17,7 na região Norte, 16,2 na região Sul e 15,8 na região Centro-Oeste.\n\nA mediana do Brasil com um todo foi 50,0, sendo encontrada nas regiões Nordeste e Sul. As demais medianas foram 37,5 nas regiões Norte, Sudeste e Centro-Oeste. A maior nota máxima foi obtida por pelo menos um aluno tanto na região Nordeste quanto na região Sul (100,0), enquanto a menor nota máxima foi obtida na região Norte (75,0). A nota mínima\n\nA Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e uma como fácil. Duas questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Três questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos. Uma questão",
+  "text_sha256": "d76411172fee348b748f2cde3f38baf2034db6efaa8826b3325845981333ef34",
+  "window_size": 3
+}

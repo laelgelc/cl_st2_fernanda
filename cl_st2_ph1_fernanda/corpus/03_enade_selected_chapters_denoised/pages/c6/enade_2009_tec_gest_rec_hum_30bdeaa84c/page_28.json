@@ -1,0 +1,55 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a5ce80739a6a99f006af8e7ad6b9487d183ac7e00f45deb65",
+    "usage": {
+      "input_tokens": 2082,
+      "input_tokens_details": {
+        "cache_write_tokens": 2079,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2079
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 961,
+      "output_tokens_details": {
+        "reasoning_tokens": 416
+      },
+      "total_tokens": 3043
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_29.txt",
+      "source_sha256": "c2bde4dc8d1a6772242f2330c48c765dd83bd61136074ab2bde9af1abc51bef9"
+    }
+  ],
+  "created_at": "2026-11-14T22:58:53Z",
+  "duration_seconds": 7.617,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM RECURSOS HUMANOS.pdf",
+    "page_number": 28
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_28.txt",
+    "source_sha256": "c549bf0a6c6c233305c783b95d3dcc82f37df53c7273ae49ebed1b6deb9f70e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d6e3e91801ba31c2940b2620e8fc30bba6e3a945ec4d988baddf1afdee01953",
+  "request_fingerprint": "8a3d53c842e669f88d8475e2f5c287d738e8fbcec9faecf54230289ada75d1d1",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Capítulo 3\nAnálise Técnica da Prova\n\nEste capítulo tem por objetivo apresentar o desempenho dos estudantes de TECNOLOGIA EM GESTÃO DE RECURSOS HUMANOS no ENADE/2009. Para isso, foram calculadas as estatísticas básicas da prova como um todo, bem como as estatísticas das questões relacionadas à Formação Geral e ao Componente Específico. Nas Tabelas, são apresentadas as seguintes estatísticas: total da população de presentes, média, erro-padrão da média, desvio-padrão, mediana, nota máxima, nota mínima e coeficiente de assimetria (ver definição em 1.4.3). As estatísticas apresentadas neste capítulo contemplam, separadamente, os ingressantes, os concluintes e o total de estudantes, e foram calculadas tendo-se em vista as seguintes agregações: (a) Região Geográfica e País e (b) a Categoria Administrativa e a Organização Acadêmica.\n\nAs notas brutas das questões discursivas em cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir da média simples das notas de cada uma das questões correspondentes. A primeira questão discursiva de Formação Geral foi desconsiderada e, portanto, a nota bruta referente às questões discursivas de Formação Geral foi igual à nota da questão mantida, a segunda. No Componente Específico, a nota bruta correspondeu à média das notas nas três questões.\n\nAs notas brutas das questões objetivas de cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir dos acertos dos estudantes considerando-se uma regra de três para a conversão para a escala de 0 a 100, descontando-se aquelas questões que foram desconsideradas pela comissão ou que não passaram pelo teste do índice de discriminação ponto-bisserial (ver seção 1.4.6 para a descrição do índice). As questões com índices de discriminação inferior a 0,2 foram excluídas do cômputo da nota do estudante. As notas brutas de Formação Geral e do Componente Específico para cada um dos estudantes foram calculadas como médias ponderadas das suas notas nas questões objetivas e discursivas, ponderação diferente para cada parte:\n\nC_FG = 0,6 × C_FG^OBJ + 0,4 × C_FG^DIS\nC_CE = 0,85 × C_CE^OBJ + 0,15 × C_CE^DIS",
+  "text_sha256": "1d15898f45b4a644bda437f343fe7110ab86365cd8a083d81f9dfa8ace48739c",
+  "window_size": 3
+}

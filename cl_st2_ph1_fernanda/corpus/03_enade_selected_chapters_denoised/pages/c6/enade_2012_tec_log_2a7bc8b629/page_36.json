@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ab09a13605d48f3006af8f251536c87d1920d7540a8b8b936",
+    "usage": {
+      "input_tokens": 1463,
+      "input_tokens_details": {
+        "cache_write_tokens": 1460,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1460
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 265,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1728
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_35.txt",
+      "source_sha256": "edfecb9413608a32ccd256eddd0c88133f1591683ad8bdd448483c49d31b33ae"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_37.txt",
+      "source_sha256": "7b66256faae44daac9b06fb89e60aa35108686d2f4beac3990048023c230f8de"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:17Z",
+  "duration_seconds": 3.043,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_36.txt",
+    "source_sha256": "4b38fbebe57ebd2d05a87ec02480bb50e7ead1ea61354defec2859fc4cb86096"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f3287341e58edb07ae562402f15eb8bbf5224d5fbd51669181b71b332c7d3238",
+  "request_fingerprint": "2b48d07b490e199a4955248e854b08e79b257c8bf0fcabd63667a9fcb24a3577",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, provavelmente associada ao material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2012”."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (52,6) é maior que a dos alunos de IES Privadas (43,0). A diferença entre IES Públicas e Privadas (9,6) é maior do que a diferença máxima entre regiões (6,3).",
+  "text_sha256": "90e348fb69a6900167a9451b80a474d71baec38a7a58657b682c1e73e0bcd862",
+  "window_size": 3
+}

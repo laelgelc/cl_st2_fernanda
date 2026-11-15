@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fc8128d87abe5f0006af915bd0bdc87d199bc489259842bb3",
+    "usage": {
+      "input_tokens": 1910,
+      "input_tokens_details": {
+        "cache_write_tokens": 1907,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1907
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 2213
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_104.txt",
+      "source_sha256": "317a4fdc794aa51e69a00c7a5aa2cb534224fa0dc90aa3d6101bbf9f74a0004c"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_106.txt",
+      "source_sha256": "146c8437bc3f057a8ecfa78ed095d3e589cea7a0834ed547077a362f21d37f2b"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:24Z",
+  "duration_seconds": 2.869,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_105.txt",
+    "source_sha256": "0440376da54692b007efd95454fbf205711586955acdba80b04ca939457f2d8a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f732a5d1ed28bc3c4da590208f320f3d0c024b9364d23e997f37520955df857d",
+  "request_fingerprint": "aab8d96bc1b0267f9f6cbc297ee38c824a47d6d9512d54f066fafae097ee49aa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.9 (percentuais por Grande Região)."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 57,0% consideraram a extensão da prova Adequada, no quarto de desempenho inferior e 64,5%, no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 60,1%, no segundo e 59,6%, no terceiro quarto, proporções crescentes com o desempenho, exceto entre os quartos intermediários.\n\nNo Gráfico 4.6, pode-se constatar que há diferença estatisticamente significativa entre as proporções de estudantes que consideraram a prova Longa ou Muito longa, no primeiro quarto e no quarto de melhor desempenho, sendo a maior proporção dessa resposta, no primeiro quarto de desempenho (37,2%), e a menor, no quarto superior (30,7%), mas não caracterizando uma tendência.",
+  "text_sha256": "6c48d117ec352eab7630c56c74f7c9783428aa0f1a396aad6741d8e90382ff4b",
+  "window_size": 3
+}

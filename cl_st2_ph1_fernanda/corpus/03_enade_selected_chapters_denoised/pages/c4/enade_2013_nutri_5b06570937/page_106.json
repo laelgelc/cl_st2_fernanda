@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01bf2543df34328e006af8f476cf7887d1b32fff99025bd681",
+    "usage": {
+      "input_tokens": 1162,
+      "input_tokens_details": {
+        "cache_write_tokens": 1159,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1159
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 369,
+      "output_tokens_details": {
+        "reasoning_tokens": 309
+      },
+      "total_tokens": 1531
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_105.txt",
+      "source_sha256": "16d93b67bc74b42d972bea27de21f6dca84dd603e8687bbddee68ce32ca11744"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:26Z",
+  "duration_seconds": 4.154,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_106.txt",
+    "source_sha256": "167cf19a3c06eccbb0613360b51125dce9efc290c7c35cb6a31cb70995f4bf5e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "312bcfa43152c2608e9c02676aac9c2a4b6352c9429073e8344a230fb8912da7",
+  "request_fingerprint": "be33aa0140802ea6a481babb5a5f1b940641e82875ab700109475bea53490cc6",
+  "retry_count": 0,
+  "review_notes": [
+    "The source line “Fonte: MEC/INEP/DAES - ENADE/2013” was excluded as likely belonging to table or graph material; no table or graph content is visible in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

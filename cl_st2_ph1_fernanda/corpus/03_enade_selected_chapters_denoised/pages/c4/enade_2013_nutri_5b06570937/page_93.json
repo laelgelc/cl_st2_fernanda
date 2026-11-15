@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_041bdbece8cd6c53006af8f46e964087d1b325ac0a88e63a41",
+    "usage": {
+      "input_tokens": 1762,
+      "input_tokens_details": {
+        "cache_write_tokens": 1759,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1759
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 607,
+      "output_tokens_details": {
+        "reasoning_tokens": 390
+      },
+      "total_tokens": 2369
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_92.txt",
+      "source_sha256": "d035cdb0d0fb0e254e95b0e249a48eba5e9834f2585e35e588b800834698e703"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_94.txt",
+      "source_sha256": "7776e79e322571634f39a83187ef401af8652d39851fd6e567a60706fc213817"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:18Z",
+  "duration_seconds": 6.412,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_93.txt",
+    "source_sha256": "8ace3576a32b03e5428343f4f1165b554f6bb21ab9202f25e2f65ba0451c51b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "df297d744ff1dc6539a0240e8c17871a70b94a2499473fad028f160f8560db67",
+  "request_fingerprint": "63e2a5ffa561bad8823cf9c205836228492c19ca66bb2e66635c73656aa0006e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada variou de 44,3%, no 2º quarto de desempenho, a 46,4% no quarto de desempenho inferior, não sendo possível reconhecer nenhum padrão.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 48%, crescente, grosso modo, com o desempenho, mas sem diferenças estatisticamente significativas entre quartos consecutivos. Por outro lado, a diferença entre os quartos extremos para esta proporção é estatisticamente significativa.",
+  "text_sha256": "196f1632c92a33c3b97243ebb9603ed4bb433a07efd34b2c98b01ea86d30f526",
+  "window_size": 3
+}

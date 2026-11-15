@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c72e3a9da9137b3006af8ede9b9d887d19990d9ee7e6d394d",
+    "usage": {
+      "input_tokens": 2691,
+      "input_tokens_details": {
+        "cache_write_tokens": 2688,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2688
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 547,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 3238
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_55.txt",
+      "source_sha256": "e9581c2253d16b89a398bc64ae4bb468f9cf27e2563044cea9a055eb0b9b2f9b"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_57.txt",
+      "source_sha256": "01d8becd6b464ea711ca456658157e078c5bd4612b55da93e4643a9d820073a1"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:29Z",
+  "duration_seconds": 5.63,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_56.txt",
+    "source_sha256": "4a93e17760d05e6cda39f5b5589c1eeebcbcb1625bb6603a4893b6b11352910d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8eb05bb4f8298d88d6ab7ba97d9b779440c9549c29a3f58450014eeba9bc188b",
+  "request_fingerprint": "bbf37b1e66aaf3743e0936499248fcea73210fdd621b1a8dba001981146e69e1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico. Nenhum conteúdo gráfico adicional estava presente na extração."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 25, em função do número de acerto dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta B aumenta gradativamente, chegando a atingir 100% para alunos com mais de 20 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai a partir de 4 ou 5 acertos como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "c1a0b035d485e994b0604202e755874c1644a9b52170848704c3896468ae39e3",
+  "window_size": 3
+}

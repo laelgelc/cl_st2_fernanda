@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0312290c3e8a59e0006af8f3cf771487d1ab0178451838b9b9",
+    "usage": {
+      "input_tokens": 1670,
+      "input_tokens_details": {
+        "cache_write_tokens": 1667,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1667
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 283,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1953
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_41.txt",
+      "source_sha256": "9bf6fdd26513ef20064d4e28043737414b8f2c42ed7ea5c35d80bfe0d963db44"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_43.txt",
+      "source_sha256": "1293165d2dccd9f2fe217e24a9c16befb9bdb418c0cf7f65437901baef8c108e"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:39Z",
+  "duration_seconds": 3.527,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_42.txt",
+    "source_sha256": "1100c4e34aba6da9c2f1e4adf45c03a1eeb6a0333bcb8972a574206bc4d7fb27"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6c0da7679e051946a9ebdd84de1c26818566ef3a722dbc9b4cb141eb2c49ee7a",
+  "request_fingerprint": "25c5d8f4805d19f27a03f7d40c358329979046b16e4f770bdf9ad794e2a394da",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», identificada como pertencente ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (50,7), e a menor, pelos de Faculdades (45,8).",
+  "text_sha256": "9dd5e4a665aeabe6a1ff68d960778fb7d66cd4648522e040c39b732b1f2bc7c5",
+  "window_size": 3
+}

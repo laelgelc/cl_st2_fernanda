@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0baff7c1ce2bc1006af8f88a7fc487d188979dc917fa3e0a",
+    "usage": {
+      "input_tokens": 2798,
+      "input_tokens_details": {
+        "cache_write_tokens": 2795,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2795
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1003,
+      "output_tokens_details": {
+        "reasoning_tokens": 377
+      },
+      "total_tokens": 3801
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_43.txt",
+      "source_sha256": "6ebd40356b1303415dd52657d3401f90d929da6ea6c562621e547a81f3c1131f"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_45.txt",
+      "source_sha256": "ba337625761ee59579febe41621dc5f8f03ac5e18bd53e63e3b1057cffb6f8c4"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:50Z",
+  "duration_seconds": 10.936,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_44.txt",
+    "source_sha256": "d53ae2b76c96ecba96c764f21a6fee57768e9ee359f4530ce970c0390e037b34"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4cb0fbc76e98e1a875af09373277704ad1945b474b367f5b0c77f8e3f967b190",
+  "request_fingerprint": "0e695a84a2d5fe2e238666bf58c1415c87c11b4a03f8765919f2ebd4b47dacf5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte.",
+    "O contexto seguinte começa com uma fonte MEC/INEP/DAES; isso pode estar associado a material gráfico no limite da página-alvo, mas nenhum conteúdo gráfico adicional foi extraído na página-alvo."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 3.3 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os estudantes de todo Brasil obtiveram desempenho médio de 60,1. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil, como um todo, foi 18,1. A maior média foi obtida na região Sul (61,0), e a menor, na região Norte (58,3). As demais médias foram: 59,0 na região Nordeste; 60,2 na região Sudeste; e 60,0 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Nordeste (19,6), e o menor, na região Sul (17,3). Os demais desvios padrões foram: 18,7 na região Norte e na região Centro-Oeste, e 17,8 na região Sudeste.\n\nA maior nota no Componente de Formação Geral da prova do ENADE/2014 foi 99,0, obtida por, pelo menos, um estudante na região Sudeste. A menor nota máxima foi obtida na região Norte (97,4). A mediana do Brasil, como um todo, foi 61,9, sendo a menor mediana encontrada na região Norte (60,8); e a maior encontrada na região Sul (62,7). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nConsiderando-se as notas segundo Grande Região, observa-se que não existe diferença estatisticamente significativa entre as médias das notas do Componente de Formação Geral, exceto entre as das regiões Nordeste (59,0) e Centro-Oeste (98,6) de um lado e Sul (61,0) do outro.\n\nO Gráfico 3.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (60; 70], enquanto na prova, como um todo (Gráfico 3.1), a moda foi alcançada dois intervalos abaixo (40; 50]. Nota-se, ainda que, no Gráfico 3.2, as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 13,2 para a nota da prova como um todo e 18,1 para o Componente de Formação Geral.",
+  "text_sha256": "ea7bd543f14dbe3247fefbfa2e18451b57aac6e1ac671f1a23d59c2d7edc6405",
+  "window_size": 3
+}

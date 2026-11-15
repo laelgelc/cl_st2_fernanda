@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d053d409031b3c1006af8f212501c87d1b1875920cb199193",
+    "usage": {
+      "input_tokens": 2291,
+      "input_tokens_details": {
+        "cache_write_tokens": 2288,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2288
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 967,
+      "output_tokens_details": {
+        "reasoning_tokens": 481
+      },
+      "total_tokens": 3258
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_57.txt",
+      "source_sha256": "1d2e787f54f3a56c2cf3f284185dfbc0cf2c9ea261d33968b7580f15e5d10c40"
+    },
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_59.txt",
+      "source_sha256": "8f902fffa880df7bb2f5f56487a07534e022e0beae938d598770cdf057748726"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:14Z",
+  "duration_seconds": 9.264,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 58
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_58.txt",
+    "source_sha256": "9f745149da2f2f61fd77014676971d44dfd42efde5cd8ace661e0070819ac4a7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "be5b009f813b0db2b835d401bc14c69dc0402d2b462545896240cdd7cc2d1443",
+  "request_fingerprint": "ae934adef5d33636e3d4903f53e9c9b74747f9c31a68a047b2e39622c0266e72",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.16; a linha de fonte correspondente aparece na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "3.3.1.1 Análise da Questão Discursiva 1 do Componente de Formação Geral\n\nOs dados de Tecnologia em Gestão de Recursos Humanos, obtidos a partir das respostas à questão 1, encontram-se na Tabela 3.9 e no Gráfico 3.16. Nessa questão – de pior desempenho dentre as duas de Formação Geral – os alunos de todo Brasil tiveram média, 28,2. A maior média para a questão 1 foi obtida nas regiões Sudeste e Sul (29,0), e a menor, na região Centro-Oeste (25,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 23,9. O menor desvio padrão foi obtido na região Sul (23,6) e o maior desvio padrão foi obtido na região Norte (24,3).\n\nA mediana do país como um todo (30,0) foi a mesma nas regiões Sudeste e Sul. Nas demais regiões as medianas foram: 25,0 na região Nordeste e 20,0 nas regiões Norte e Centro-Oeste. As notas máximas da questão discursiva 1 foram as mesmas para quase todas as regiões do Brasil (95,0), com exceção da região Norte, cuja máxima foi 90,0. Além disso, a nota mínima (0,0) foi obtida em todas as regiões do país.\n\nO Gráfico 3.16 mostra a distribuição das notas na questão discursiva 1 do componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que deixaram a questão em branco, a classe modal.. Considerando apenas os estudantes que tentaram resolver a questão, a moda ocorre no intervalo (20;30].\n\nA distribuição é assimétrica à direita, com coeficiente de assimetria positivo (0,34). Em todas as regiões do Brasil este coeficiente se mantém positivo, variando entre 0,30 na região Sul e 0,48 na região Norte.",
+  "text_sha256": "fda5a1c769a7d873ba0aec59ef2e70bc35bf3d954fc73b04f58407a8416de7b3",
+  "window_size": 3
+}

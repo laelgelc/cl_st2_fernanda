@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e7710a12e5f72b006af8ec1aaa6c87d18148b24abaeb6328",
+    "usage": {
+      "input_tokens": 2244,
+      "input_tokens_details": {
+        "cache_write_tokens": 2241,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2241
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 826,
+      "output_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "total_tokens": 3070
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_33.txt",
+      "source_sha256": "486588c325bae9a36ea95771f26eb5661181709610a945051e0001cb85060504"
+    }
+  ],
+  "created_at": "2026-11-14T23:17:46Z",
+  "duration_seconds": 7.597,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_3",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO III.pdf",
+    "page_number": 32
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_32.txt",
+    "source_sha256": "bb38aae08bea42398413d2061c71200e950e195ad2a372afd4db224f078de788"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c4bb42d4d692df375bf8576953969327a9d73a1f0929998cda33c1f61df222f9",
+  "request_fingerprint": "855b53ea9f22d3cce4f0741b19d54449a1cd6e179015d0e9850bb113d6c6af01",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, título e fonte da Tabela 3.1."
+  ],
+  "status": "success",
+  "text": "CAPÍTULO 3\nANÁLISE TÉCNICA DA PROVA\n\nEste capítulo tem por objetivo apresentar o desempenho dos estudantes concluintes de Engenharia – Grupo III no ENADE/2011. Para isso, foram calculadas as estatísticas básicas da prova em seu todo, bem como as estatísticas dos componentes relacionadas à Formação Geral, ao de Conhecimento Específico da Área e das questões discursivas isoladamente.\n\nNas tabelas, são apresentados o tamanho da população inscrita e de presentes, e as seguintes estatísticas das notas8: média do desempenho na prova, erro padrão da média, desvio padrão, nota mínima, mediana e nota máxima. As estatísticas apresentadas neste capítulo contemplam o total de estudantes concluintes da área de Engenharia – Grupo III em 2011 do Brasil e, separadamente, por Grande Região. Foram calculadas tendo-se em vista as seguintes agregações: (a) as Grandes Regiões e o país como um todo; (b) a Categoria Administrativa; e (c) a Organização Acadêmica.\n\nEm relação aos gráficos de distribuição de notas, o intervalo considerado foi de 10 unidades, aberto à esquerda e fechado à direita, com exceção do primeiro intervalo, [0; 10], fechado em ambos os extremos. Para os gráficos de distribuição das notas das questões discursivas, foram consideradas mais duas categorias: questão em branco e nota zero.\n\n3.1 ESTATÍSTICAS BÁSICAS DA PROVA\n3.1.1 Estatísticas Básicas Gerais\n\nA Tabela 3.1 apresenta as estatísticas básicas da prova por grande Região. A população total de inscritos foi de 6.433. Destes, 5.893 estiveram presentes, sendo 8,4% o índice de não comparecimento. A região de maior abstenção foi a Norte (19,5%) e a de menor abstenção foi a Centro-Oeste (4,6%).\n\n8 Essas estatísticas e outras estão definidas no Capítulo 1.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda nos intervalos (30;40] e (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,19) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A única exceção é a região Centro-Oeste, com coeficiente de assimetria positivo (0,17), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "490e97746eec4c9e6218e759183ca5a2f343efc14fee224c1f88d092683f06f8",
+  "window_size": 3
+}

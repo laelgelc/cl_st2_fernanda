@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06f314f4aa7b4114006af8f594a4ec87d1b1dbd085d33fc051",
+    "usage": {
+      "input_tokens": 2235,
+      "input_tokens_details": {
+        "cache_write_tokens": 2232,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2232
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 561,
+      "output_tokens_details": {
+        "reasoning_tokens": 301
+      },
+      "total_tokens": 2796
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_41.txt",
+      "source_sha256": "ebc967282000517dbd6a136a18e08b308aeb1b95969f2b8cbfad44ab616d1775"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_43.txt",
+      "source_sha256": "c7b3e752d27bc826a04ba89d09ec91c7acaa05dd6f86b4f04b65d55a855b4e38"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:12Z",
+  "duration_seconds": 6.132,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_42.txt",
+    "source_sha256": "34d9432bf4139ab03a56857b9215b00cf43ba80b352856f1bdea80d84d4aa25a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dcb9ca23e31a04bb5b5aa50847b84782ab1f16994eda1ee9e723adc16704ca37",
+  "request_fingerprint": "9d2c677ab8f7df3fc80f9fb483ca4b83032f3b44ab559606520b7a412121438f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente ao material gráfico; o gráfico associado também foi excluído."
+  ],
+  "status": "success",
+  "text": "assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito, excetuando-se a região Norte que apresenta assimetria negativa.\n\nOs Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (43,3) e a menor, obtida na região Norte (37,2).",
+  "text_sha256": "4dc84605324645588a2ab5562cb3ceef4f792cef3f8e25b01c959a512fefae90",
+  "window_size": 3
+}

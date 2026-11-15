@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0560e32fa20cc3ec006af8ee960fb887d1b0b50448884c027d",
+    "usage": {
+      "input_tokens": 2767,
+      "input_tokens_details": {
+        "cache_write_tokens": 2764,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2764
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 489,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 3256
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_53.txt",
+      "source_sha256": "fe6add2c6e9d1ee0cb5b3cf3cc94cd5135e974b19b25753e591c4c217a4d4174"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_55.txt",
+      "source_sha256": "d9398e585bb5204260d7a756ce553ee31af3bce0fcd3b36730df9dd6bbb7b88b"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:21Z",
+  "duration_seconds": 4.948,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_54.txt",
+    "source_sha256": "5f407a0f06b6064f036bb83b25cb91d8bcf93908332be8b7f36c7d62f77ec03f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "df8f8f2e2e14da989c7a8353ce940a20c6275ceba007ec552dba8335c94df2e7",
+  "request_fingerprint": "d473f4ef51ecec02a0008e97d14135a6909746439f55fcb9ecc7e1d9c6205fd4",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 3.13 e sua linha de fonte foram removidos."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, já que no ponto da zero abscissa (zero acertos) não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que o número de acertos aumenta, indicando melhor desempenho nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "81bf4941e04bfc61ab85f17dd5f31e5577c031dce9bd135968c09a5057c28d4a",
+  "window_size": 3
+}

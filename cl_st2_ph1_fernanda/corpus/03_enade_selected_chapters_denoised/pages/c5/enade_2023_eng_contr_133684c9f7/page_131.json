@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a7569700e9ff934006af922a82b5087d192dd32345394ed16",
+    "usage": {
+      "input_tokens": 1974,
+      "input_tokens_details": {
+        "cache_write_tokens": 1971,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1971
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 2406
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_contr/enade_2023_eng_contr_page_130.txt",
+      "source_sha256": "2fc5afcc13818c6354d4cdaae7a9bfae2d61839a9f2552bc560db4bd55bfa8cb"
+    }
+  ],
+  "created_at": "2026-11-15T03:10:32Z",
+  "duration_seconds": 4.749,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_contr/enade_2023_eng_contr_page_131.txt",
+    "source_sha256": "e2379f45887ef135421e312044670c408759e0f98028aac7fe7e156b3df4a7f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2e2af4defff238435ea5e4a156070ba3970640d723b33c63d5ad9634c6a74016",
+  "request_fingerprint": "0d0b227b6d9c90123d5f62ca5c13f6c0f435829154646d26b6499722add1bcdb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.3, incluindo seu material gráfico, título/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "De maneira semelhante à forma como se procedeu em relação à seção anterior, esta seção encerra-se com o Gráfico 4.3, que apresenta a distribuição do Conceito Enade dos cursos de Engenharia de Controle e Automação segundo a organização acadêmica da IES.\n\nNo Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante aos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de CEFET/IF apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por universidades (linha azul) e centros universitários (linha laranja) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "dfc4af99913bdd13f17151b867fdc2ea656c82c51164182a385700d71e70e339",
+  "window_size": 3
+}

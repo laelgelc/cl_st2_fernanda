@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05b1466b70c57b8f006af917d47fd487d184ca0e4870f742d6",
+    "usage": {
+      "input_tokens": 3523,
+      "input_tokens_details": {
+        "cache_write_tokens": 3520,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3520
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 4164
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 298,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_298.txt",
+      "source_sha256": "4a21ff049098ea8f79417ce6e0535ad1fac6e868b894d81ef74810d99fa3cfe6"
+    },
+    {
+      "page_number": 300,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_300.txt",
+      "source_sha256": "1eb0bc6755606c0a87982f8c140dacdad8da86e02535f4bf9ddd89506dcc9da8"
+    }
+  ],
+  "created_at": "2026-11-15T02:24:20Z",
+  "duration_seconds": 6.033,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 299
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_299.txt",
+    "source_sha256": "eadc3c81ae0ad03391eefb790ffe1ec7e5cf4d9ee43611891df1964d094751df"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fa0e25c2f70bd18c71fb1d72a690780398d5e0e7696f4fe1faee2440b95e7159",
+  "request_fingerprint": "0211e7ee270bbfc9a885b8fb9a8f75920f42758b93dcd8873a1267209550bdc8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11b, incluindo título, dados e fonte.",
+    "A página termina no meio de uma frase; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "O Índice de Facilidade variou de 0,09 a 0,79 e o de Discriminação, de -0,07 a 0,45.\n\nNa Tabela 6.12b, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, uma delas obteve o maior deles, a de número 19. Seu índice foi 0,45, e, quanto ao Índice de Facilidade, foi classificada como Fácil, com 79% dos estudantes marcando a opção correta. A Questão de número 29 foi a mais difícil entre as 27 questões específicas válidas, com baixo Índice de Facilidade, apenas 9% de acertos. Essa questão apresentou poder discriminatório muito baixo, -0,07, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, as Questões 9 e 20, com Índice de Facilidade 0,12 e 0,11, o que, em termos percentuais, corresponde a 12,0% e 11,0%, respectivamente, de estudantes que responderam acertadamente. Já seus Índice de Discriminação foram: 0,03,",
+  "text_sha256": "3f19fe9dec9cd26841245f68734a52c6af5db0105b45da158d69ab1184ac2212",
+  "window_size": 3
+}

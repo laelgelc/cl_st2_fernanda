@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f3e5019163a457c006af8e494305887d18cdc046102a8e5eb",
+    "usage": {
+      "input_tokens": 2406,
+      "input_tokens_details": {
+        "cache_write_tokens": 2403,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2403
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 540,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 2946
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_34.txt",
+      "source_sha256": "5526969c0c698071a96b275dbf71c51725dd1853afdfec583195393f2f881dfa"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_36.txt",
+      "source_sha256": "c539a7418cf171cf29632e536d9b4894a9f305530f40c9cbda92a55693d8090a"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:40Z",
+  "duration_seconds": 5.258,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_35.txt",
+    "source_sha256": "228b1e34a60e2b46404b16acd2abbe68f91da7289e089882a775178bc35d6fe2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "76d4f0eb9a0d5c15908cba8bf071cc8b116e2413fe56aeb85822174743e5865a",
+  "request_fingerprint": "8285ee5013f36d6d3c828753ad414529712c144dba953566c7d87bf1f76aab91",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.5 e seus elementos: título, dados, eixos, intervalos, legenda e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.2 e 3.4, o Gráfico 3.6 apresenta uma comparação dos resultados em relação às Regiões, Categoria Administrativa e Organização Acadêmica, agora levando em conta o desempenho dos ingressantes e dos concluintes no Componente Específico da prova. Tendo como foco as notas médias dos estudantes, em determinada Região, observa-se que, entre os concluintes, as mais elevadas foram encontradas nas Regiões Sul (56,60), Nordeste (55,11) e Centro-Oeste (46,53), valores acima da média nacional para esta parte (47,41). Entre os ingressantes, as maiores notas ocorreram também nas mesmas Regiões: Sul (49,60), Nordeste (45,25) e Centro-Oeste (45,09), todas acima da média nacional (43,94).\n\nNovamente, para a análise segundo a Categoria Administrativa, somente entidades federais e estaduais foram representadas. Observa-se comportamento semelhante àquele de Formação Geral, ou seja, as médias mais elevadas, tanto entre os concluintes como entre os ingressantes, foram encontradas em instituições de origem federal (50,93 entre os concluintes e 45,82 entre os ingressantes) enquanto nas instituições estaduais as médias foram (32,83 entre os concluintes e 35,63 entre os ingressantes). Quanto à Organização Acadêmica, o comentário é o mesmo já feito para a nota bruta e referente à Formação Geral: somente as universidades foram representadas com este curso.",
+  "text_sha256": "86da196197a94da273342c16bf400f477959a2b43439ac4b478ccd0b46a27c31",
+  "window_size": 3
+}

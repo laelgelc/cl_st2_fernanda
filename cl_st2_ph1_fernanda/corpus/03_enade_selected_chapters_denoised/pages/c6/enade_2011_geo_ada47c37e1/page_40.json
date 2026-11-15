@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9d494d2815356e006af8ed84420487d18d391a52526d98e3",
+    "usage": {
+      "input_tokens": 2124,
+      "input_tokens_details": {
+        "cache_write_tokens": 2121,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2121
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 324,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 2448
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_39.txt",
+      "source_sha256": "40e3907310545b2edabbb1e30d0691e5a3ce1e52bd29b31bba30fcc65926067c"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_41.txt",
+      "source_sha256": "5fc5010f1d4018e0ea3285918a556a696e636fb8c00e18ef7fac9ffd2bd5a30f"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:48Z",
+  "duration_seconds": 3.649,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_40.txt",
+    "source_sha256": "4a1f3a77a77235377cddd4bf4108a7cd7e139240c178453ea167e5de9f4e6001"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d64d93cd6709956704355047fa3ac9cf62f71eafba2a9859fa08f40eda802168",
+  "request_fingerprint": "04db78598a3d66a8b0fee8d8cb68282f630c9cc548008e8abace2b438c4092d6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”), identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa apenas entre a menor média das notas no Componente de Formação Geral, obtida na região Sudeste (43,8), e as médias das demais Grandes Regiões do país.",
+  "text_sha256": "922ac4e2ec9fec7db8060585726206e34652b3ecd43da59a31f187f437dd9981",
+  "window_size": 3
+}

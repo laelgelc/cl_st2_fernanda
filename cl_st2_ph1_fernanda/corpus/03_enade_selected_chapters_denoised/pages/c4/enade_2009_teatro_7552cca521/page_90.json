@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b66d67a9c6b08d006af8e714b40487d1b8f738a47e4d8a34",
+    "usage": {
+      "input_tokens": 2388,
+      "input_tokens_details": {
+        "cache_write_tokens": 2385,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2385
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 630,
+      "output_tokens_details": {
+        "reasoning_tokens": 451
+      },
+      "total_tokens": 3018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_teatro/enade_2009_teatro_page_89.txt",
+      "source_sha256": "7f6c3d47fcb7038162f2e06de412aa9798f7ae17ccd9f02d0c0e1d70af5183ed"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_teatro/enade_2009_teatro_page_91.txt",
+      "source_sha256": "a20f03c7e9e37afe7773d26807835bc2b6ea08b6e9def6f20a1c5d9fd33e5ab3"
+    }
+  ],
+  "created_at": "2026-11-14T22:56:20Z",
+  "duration_seconds": 6.417,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_teatro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEATRO.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_teatro/enade_2009_teatro_page_90.txt",
+    "source_sha256": "f2cadc886c370fc7aaab64766ed478b214b8bb9a084043f5e60f098a200b6588"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ec1d7765be772c72f75cfdb14f4adc6695cc8ac406844165d4e27217efaa4158",
+  "request_fingerprint": "a86ab62d9ffc0278bae3c159f8a95c273ec9d876c3da2230ffd34cebbf9d7e01",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os gráficos 4.17b e 4.17c, incluindo títulos, dados, rótulos e linhas de fonte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TEATRO. A proporção de concluintes que gastaram entre uma e duas horas foi maior na Região Centro-Oeste (43,6%) e menor na Região Sudeste (36,1%). Para ingressantes, o maior percentual para este tempo ocorreu na Região Sul (46,5%) e o menor na Região Norte (31,4%).",
+  "text_sha256": "e100c82860c56f87ebdbc1c306863ac22930c611d3a1467c63135220a775b358",
+  "window_size": 3
+}

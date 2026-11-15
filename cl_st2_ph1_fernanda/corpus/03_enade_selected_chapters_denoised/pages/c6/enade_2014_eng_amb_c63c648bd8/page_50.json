@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08325a7e7ce14f91006af8f74c547487d1a729b516ec12d171",
+    "usage": {
+      "input_tokens": 3106,
+      "input_tokens_details": {
+        "cache_write_tokens": 3103,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3103
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 969,
+      "output_tokens_details": {
+        "reasoning_tokens": 304
+      },
+      "total_tokens": 4075
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_49.txt",
+      "source_sha256": "5544688947541a0b7ec584d843235c09bb2f74062d97793dee6b0acbaf2b1ca8"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_51.txt",
+      "source_sha256": "152eff28814856d19c9959f90108cb849c5f0c1752ab50f5fd8946a25df72c2b"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:32Z",
+  "duration_seconds": 10.338,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_50.txt",
+    "source_sha256": "39268a2abf88208c5d28c95902cae85a15b2db01fe6e78b4f60a667ff50705f1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b975567a3af1e3b69d15fa6353e59b0d511875c30f1510e8cf30ed520cf13ba0",
+  "request_fingerprint": "1b1643a5bff4c76db17f2217e7e26aeeb90207c33b80852e939a755cbd710e7b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas a Tabela 3.7 e a Tabela 3.8, incluindo títulos, dados e linhas de fonte. O trecho final “A curva em vermelho” termina na página-alvo e pode continuar na página seguinte; foi mantido sem completar."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Cinco questões foram tidas como fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Duas questões foram classificadas com índice de facilidade médio, situando-se no intervalo entre 0,41 e 0,60, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o índice de discriminação (ponto\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada fácil, com relação a facilidade e a que obteve o maior índice de discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho",
+  "text_sha256": "6e700dd29f560f5b7b69dbb9e6d15ecace11cda756818a464df123934ec53449",
+  "window_size": 3
+}

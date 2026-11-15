@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_022c7389d9f1683e006af8ef1235dc87d1baed358a21e99cdb",
+    "usage": {
+      "input_tokens": 2754,
+      "input_tokens_details": {
+        "cache_write_tokens": 2751,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2751
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 899,
+      "output_tokens_details": {
+        "reasoning_tokens": 415
+      },
+      "total_tokens": 3653
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_50.txt",
+      "source_sha256": "89e23cf4ed2ab4bc472574b4d23e7c2357bd3ca5874023ff2945f4b08872a90c"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_52.txt",
+      "source_sha256": "c75a208d0a2c1a2bd491f87f18966976e21c6059fcafe14cfb8979d06d805c71"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:26Z",
+  "duration_seconds": 9.86,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_51.txt",
+    "source_sha256": "ea31e2f2d65cefb05a880d35489a3f4ac24c3cea17168fc754b37257bb972c5d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af3c234db332b8927c4442dd2a0dd7b0400106f71dd34669498a73d98f43eb17",
+  "request_fingerprint": "bc67558412f5ad1863edd7333f3220813aa99e2665d2279f5ff71bed4ec7d51b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice &gt;=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (&lt;=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (índice &lt;=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (&gt;=0,40) receberam a cor azul.\n\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Uma única questão foi considerada de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Outras três questões foram classificadas na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seriam classificadas como muito difíceis.",
+  "text_sha256": "765cd905931265a931ecac1e60cfe2ed2220d6989b631822686af51cd8827c43",
+  "window_size": 3
+}

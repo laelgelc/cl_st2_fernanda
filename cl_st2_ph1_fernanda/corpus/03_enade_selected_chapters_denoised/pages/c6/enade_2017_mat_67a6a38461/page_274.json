@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_037b1033bcecd7bf006af909e177f087d1a2f3668c562a4e24",
+    "usage": {
+      "input_tokens": 2699,
+      "input_tokens_details": {
+        "cache_write_tokens": 2696,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2696
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 489,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 3188
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 273,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_273.txt",
+      "source_sha256": "1ff596223c01662bc9b61b4800de7132adc11baaac3874158a96c39b4be995cf"
+    },
+    {
+      "page_number": 275,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_275.txt",
+      "source_sha256": "541039d4b569bb2d09f25e9606e75d8e9e4ced38807b5d9fafc2625031f0d5cd"
+    }
+  ],
+  "created_at": "2026-11-15T01:24:49Z",
+  "duration_seconds": 5.583,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MATEMÁTICA.pdf",
+    "page_number": 274
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mat/enade_2017_mat_page_274.txt",
+    "source_sha256": "048cfa871cd72df3ffb0499bdcae9be07cdc39a769373356db2784dc6c2f1294"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3c167c1897bae93b9127633d8fd2962de5390ad0920d3d4a55951545d4722df5",
+  "request_fingerprint": "97ef09398cd899cb8959247a4c8cd6d829fb0ccc94d30d08e4b8cf003a5e906c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3.2.4 Comentários sobre as respostas à Questão Discursiva 4\nQuestão 4 – Bacharelado\nA Questão 4 apresentava um problema simples de integração de uma função vetorial sobre uma curva elementar do plano. Nos cursos de Bacharelado em Matemática, esse conteúdo é trabalhado em disciplinas que abordam o cálculo vetorial, tradicionalmente ministradas após as disciplinas de cálculo para funções escalares, de uma ou mais variáveis.\n\nO primeiro parágrafo do enunciado estaria em maior sintonia com o conteúdo sobre o qual a questão se debruça, se a curva C dada fosse fechada, ou se a questão demandasse, mais especificamente, a utilização do Teorema de Green e/ou o trato com o rotacional do campo F. Como a curva C dada no problema era aberta, consequentemente, a utilização do Teorema de Green não seria natural (apesar de possível mediante a consideração de curvas adicionais para comporem a fronteira de uma região fechada). A apresentação da interpretação usual da integral de linha, como o trabalho realizado pelo campo F sobre uma partícula que se desloca sobre C, teria sido uma alternativa de contextualização mais próxima",
+  "text_sha256": "ff7883946e655e6d60c39c60078f8c08d187909b56bb91d8f4c517f65acd696d",
+  "window_size": 3
+}

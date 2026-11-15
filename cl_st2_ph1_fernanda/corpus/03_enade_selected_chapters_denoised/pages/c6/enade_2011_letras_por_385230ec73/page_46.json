@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee89b49a0bb773f006af8ede43ef087d199a122005a79d37f",
+    "usage": {
+      "input_tokens": 2124,
+      "input_tokens_details": {
+        "cache_write_tokens": 2121,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2121
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 339
+      },
+      "total_tokens": 2656
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_45.txt",
+      "source_sha256": "d967c072e2d6e1f6a92cb0b066a96c1debc7eeecbc4cce73822e93e4486e8e95"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_47.txt",
+      "source_sha256": "027d389fc2d3e0e79cfaa4eee5f33c00a51f7e55166e9d37a15f6241ce098e1c"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:24Z",
+  "duration_seconds": 6.558,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_46.txt",
+    "source_sha256": "d7f4981bce6ba42ae9857a27f51dd66a9037d7b9839cdb6ea37753b6f3b55491"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e405862956c639a988f34df306f08cf722ae0689f055928e5f0ff0b20d29f7e8",
+  "request_fingerprint": "147e0bf30c4c51ad6e0779301a9d2a758d551560cc0996d723d84963917b2d36",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada pelo contexto como pertencente ao Gráfico 3.9."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos no componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se que existe diferença estatisticamente significativa entre as maiores médias das notas no componente de Conhecimento Específico, das regiões Sudeste e Nordeste (41,8), em relação às demais regiões. Nota-se, ainda, que a média da região Norte (34,4) é significativamente menor do que todas as outras.",
+  "text_sha256": "552fa24c9b95a3457347051f13c3503097c8dc41edc7c52ef6dea728f44e1576",
+  "window_size": 3
+}

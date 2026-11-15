@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a6248f59fcd6304006af912de069887d1ae4582283bb3d1ab",
+    "usage": {
+      "input_tokens": 1815,
+      "input_tokens_details": {
+        "cache_write_tokens": 1812,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1812
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 293,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2108
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_89.txt",
+      "source_sha256": "679baa839972e00622c313dcdeab9b8baa8f9113b7f60ed71688a6cd4ca3ca25"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_91.txt",
+      "source_sha256": "997439ccaba8fcf4056f4cecb70072961d298c0cfc63526fd4259770851502ce"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:09Z",
+  "duration_seconds": 9.399,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_90.txt",
+    "source_sha256": "4ccf85725c789ee7ec49dc36251bd2315a70fc87e68b352d70a65bf3e7e9352b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f8148fd75a21bbdd387a90317621102c94d61d410585781b1fb3b9bcb57efc5e",
+  "request_fingerprint": "b2c5d2e67e42351aacd3f279f0f5f5c4937a0cb3dcec2bd6d0b4ade8025d6be7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.7. O texto isolado “CEFET/IF” ao final da página parece ser um rótulo do gráfico; removido."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (42,6%), uma diferença estatisticamente significativa da proporção em IES Públicas (32,8%). Já a proporção de presentes à prova que consideraram este componente como de grau de dificuldade Médio foi 62,5% para os de IES Públicas e 54,3% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "23d0f1687767bd4273ff1ddb400692c7fc192c25fdec37ae723099328e968d5b",
+  "window_size": 3
+}

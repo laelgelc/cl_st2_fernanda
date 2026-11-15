@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fa1ca23fa50bef8006af8f0c0386c87d1946f3e25034b1940",
+    "usage": {
+      "input_tokens": 1630,
+      "input_tokens_details": {
+        "cache_write_tokens": 1627,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1627
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 290,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 1920
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_42.txt",
+      "source_sha256": "597631328b610b871a236e56060019485464d7b22282a2931a9e47738788617e"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_44.txt",
+      "source_sha256": "a98d1adc65b083e25abd078fe7fbf2e3653882247947d10989a3a7aaf2966137"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:36Z",
+  "duration_seconds": 3.714,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_43.txt",
+    "source_sha256": "f133c3439d32766b02361f36eaee7fed15918a98762b3606f9b11dfba226fa55"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f2717d91474c7d82618468c1da498714da70fdd940d066ccdb0a0d43e01499fc",
+  "request_fingerprint": "12f88a105e97ef12f6792f5de4b89537fd2660491706eb683c2e72fe6c9e4c53",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico e a linha de fonte correspondente ao Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre a maior e a menor média. Nas Universidades (42,8), a média é mais elevada do que em Centros Universitários (41,5) e Faculdades (41,5). Centros Universitários e Faculdades tiveram comportamento idêntico na análise das notas do Componente de Formação Geral, com a mesma média e intervalo de confiança.",
+  "text_sha256": "42efa5dce7789dc65a52bc81c283879b0245d8d0f98857b636897788ab10922b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_079a6051d9221897006af8e97116f887d1b7c2bbf6387b6693",
+    "usage": {
+      "input_tokens": 2652,
+      "input_tokens_details": {
+        "cache_write_tokens": 2649,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2649
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3056
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_43.txt",
+      "source_sha256": "70217f0cc19b42f9e9f6a7cf9748325c9cc88f01d20b0c2ec48318851061af36"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_45.txt",
+      "source_sha256": "839ddd49b38ef3381d741521807966bfe11991afcabbb6b1fe84cd123e47e456"
+    }
+  ],
+  "created_at": "2026-11-14T23:06:25Z",
+  "duration_seconds": 4.059,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_NUTRIÇÃO.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_44.txt",
+    "source_sha256": "849719d0abff64026564f4f6873096b4e95d90d74a87bc85f26bee01b257f720"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4266fb00bfdab0779ed7fbfac3298b23036fe64b21ab875cac4d3a166eebaeb6",
+  "request_fingerprint": "07d6c5d046bdf7d6d09e7190fd9ce5fbc3fd5b4714aba666e43832dfe8642a20",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os elementos gráficos do Gráfico 3.7 (eixos, escalas, rótulos e séries), além do título/caption e da fonte associados."
+  ],
+  "status": "success",
+  "text": "3.2.2 Componente de Conhecimento Específico\n\nA Tabela 3.8 apresenta as estatísticas básicas em relação às questões objetivas do componente de Conhecimento Específico da prova. Nesse conjunto de questões, os estudantes Concluintes (50,2) obtiveram nota média superior aos Ingressantes (34,3).\n\nQuanto à variabilidade das notas, o desvio padrão no grupo dos Ingressantes foi 14,7, e no grupo dos Concluintes, 16,0. Os coeficientes de variação foram 42,9% e 31,9%, respectivamente, indicando menor dispersão relativa nas notas dos Concluintes. Com relação à mediana, no grupo dos Ingressantes, esta foi igual a 35,3, estando pouco acima da média desse grupo, enquanto no grupo dos Concluintes, a mediana foi igual a 52,9, também superando um pouco a média desse grupo. O coeficiente de assimetria foi 0,3 para Ingressantes e negativo (-0,1) para Concluintes.",
+  "text_sha256": "30190ffb93becae4e66660775893433dec90b6e094e357988d69d9776054ef27",
+  "window_size": 3
+}

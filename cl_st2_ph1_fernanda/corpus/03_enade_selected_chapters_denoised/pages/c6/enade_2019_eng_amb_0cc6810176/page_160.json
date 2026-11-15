@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c8f0d7371c1d9ee006af9106aaac887d1b429db5e849c0970",
+    "usage": {
+      "input_tokens": 2904,
+      "input_tokens_details": {
+        "cache_write_tokens": 2901,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2901
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1116,
+      "output_tokens_details": {
+        "reasoning_tokens": 511
+      },
+      "total_tokens": 4020
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_159.txt",
+      "source_sha256": "43661d5979c9553a9455b57b15850160c770aed62a81386c5d0f45f8fa6d9ea5"
+    },
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_161.txt",
+      "source_sha256": "5a74f68836dc4db1586ca6a2e04ab1fdb9568582a3d58079664d01b6f11ff421"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:42Z",
+  "duration_seconds": 9.95,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 160
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_160.txt",
+    "source_sha256": "58c6f6618800397cfe23169e5f61e7543e7fcc4292299a32d6709e2d53153f90"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "828929f0ce302753abf8a3b9232f96e300acda24112ac397ed2014407e6d262d",
+  "request_fingerprint": "c01156ca67052c820565f068fdb256d250f81af51dd991a804c7657db6f2d3f3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte.",
+    "O Gráfico 6.4 é discutido na prosa, mas seu conteúdo gráfico não aparece no texto extraído; verificar se houve perda acidental."
+  ],
+  "status": "success",
+  "text": "0,19. Seu Índice de Discriminação foi o mais baixo dentre as sete questões válidas: Bom (0,37).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 13,9% escolheram a alternativa E (em vermelho), 14,0% escolheram a alternativa D (em laranja), 29,2% escolheram a alternativa B (em verde, gabarito), 10,7% escolheram a alternativa A (em azul), e 31,6%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,5% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 20,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50,0%.",
+  "text_sha256": "84426b20f16516df538f09eb797a20bad36dd28f9b7e1edbc9b66bf92d0d1285",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a296fa79a251282006af8f12a21e887d1b8f0cfe462b353e4",
+    "usage": {
+      "input_tokens": 1550,
+      "input_tokens_details": {
+        "cache_write_tokens": 1547,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1547
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 311
+      },
+      "total_tokens": 1993
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_psico/enade_2012_psico_page_94.txt",
+      "source_sha256": "3351bebc911fb6e6fcbbb6686980e9458daa5ec2e32ded107802171c78640b83"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_psico/enade_2012_psico_page_96.txt",
+      "source_sha256": "9fe73294505b44304c8c7066176558adf81d890774c7395b380c803616bca7a9"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:22Z",
+  "duration_seconds": 4.9,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_psico/enade_2012_psico_page_95.txt",
+    "source_sha256": "837d5b60ffe5fc980e22ebd1d310ccf06456493eaff934ac0c8458bd8fc6a64f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e652688d008b89bedaebe2187293a7a18099d240cdf5593607117df6e9d2787d",
+  "request_fingerprint": "15936cd029d77a02fcdbbd11d7433649bbbd0fd8f95e649c2422b633dd326843",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the page identifier and the source line “Fonte: MEC/INEP/DAES - ENADE/2012”, which appears to belong to graph material."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (77,1%) se comparada ao quarto inferior de desempenho (68,6%). A única diferença de resultado que não é estatisticamente significativa é quando comparamos o 2º quarto de desempenho com 3º quarto de desempenho.",
+  "text_sha256": "84d4b806c69b5b47430b5911a5395974a6d7be8d2e716c93757e944d9bf27cf4",
+  "window_size": 3
+}

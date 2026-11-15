@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e68a592582e0382006af8ed29a61087d19da1a60cb5e6e797",
+    "usage": {
+      "input_tokens": 1445,
+      "input_tokens_details": {
+        "cache_write_tokens": 1442,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1442
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 1752
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_40.txt",
+      "source_sha256": "39c2f6ee2e9db2c4e59be876ec6b0dbfc18dbd6cfe0a5b6d503cec4e78e43278"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_42.txt",
+      "source_sha256": "7b837c51353159cab202a8231a2e8c51f0ff9c31cbd585ee37ec9b4afdab8de9"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:17Z",
+  "duration_seconds": 4.336,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_41.txt",
+    "source_sha256": "8b3d5c84a4bc468dde899b9068dffca8ff7bb7e5e8480e39fab7c4c54bf6c072"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "281cbb832cccd362f412fd506a6b4bc36d8c2c43e8ee4049f3bf97b477f6a60d",
+  "request_fingerprint": "e368ea16313f804ca3bb18a23c9ab67cb91709df2dbd97265b52430d228682ce",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que apresenta as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias, ao contrário do que ocorreu para as notas da prova como um todo. Para o componente de Formação Geral, os concluintes de Filosofia (Bacharelado e Licenciatura considerados em conjunto), das IES Públicas (49,4) obtiveram uma média menor do que os das IES Privadas (52,3).",
+  "text_sha256": "8a8ed6050ad19d278b357c4f3e7b76c80c1ec1e26e526d197c8dceb1236a41ca",
+  "window_size": 3
+}

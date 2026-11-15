@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2e72873af37660006af8fd1c1cd087d190976278ee844e87",
+    "usage": {
+      "input_tokens": 2402,
+      "input_tokens_details": {
+        "cache_write_tokens": 2399,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2399
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 371,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 2773
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_40.txt",
+      "source_sha256": "a86c5cd850fdc594193875a201b78ddf15894f539eb21cdd3a596876925d5bb7"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_42.txt",
+      "source_sha256": "0af5572c990445d6b56d53c7bbec9383fc93393b9fdaa551baa4630976d889fb"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:20Z",
+  "duration_seconds": 4.243,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_41.txt",
+    "source_sha256": "718ef3a5e0cc35cac9af1d8eea6658bc6052e34e8b0fad3feff983c284aa480b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "33d0122d0b3ec66ca18e2292aa16d346e095428d63d1fde264fc6336eb2387ef",
+  "request_fingerprint": "a0ae12e1c14f7653c78c51602161f010551af809ab2d818c216832b3747e8640",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, que, pelo contexto, pertence ao Gráfico 3.1 iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.3 apresenta informações referentes à Condição de Presença desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de Inscritos, 134.266 são de IES Privadas e 17.203 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (54.578), seguido de Faculdades (50.218) e Centros Universitários (18.166). A Categoria Administrativa de maior abstenção foi a Privada (18,8%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (21,3%), que ficou acima da taxa de abstenção nacional de 18,8%.",
+  "text_sha256": "c6a02e3cdec0b9486e1d5ec27bef83f99f7b08af99150a9508300615fcf9e943",
+  "window_size": 3
+}

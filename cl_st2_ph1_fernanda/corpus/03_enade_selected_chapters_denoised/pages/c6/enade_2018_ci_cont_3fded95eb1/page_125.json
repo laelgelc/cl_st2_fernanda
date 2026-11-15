@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ec45f42b2d885cc006af90c37595487d1891176d61dac3feb",
+    "usage": {
+      "input_tokens": 2877,
+      "input_tokens_details": {
+        "cache_write_tokens": 2874,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2874
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 3641
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_124.txt",
+      "source_sha256": "d3757b2b047d0bf54ce7656c3b33d914e28ed87fa86f8fd06e8e4bd5341b29f3"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_126.txt",
+      "source_sha256": "4e5a01cfca5e8f6ce634a7d57b48ac588a4c4dddce20f7b8da146da57a30771f"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:47Z",
+  "duration_seconds": 7.037,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_125.txt",
+    "source_sha256": "375cfd07f57a41f8aabbe34d8e08b449fbb86f18866c8ec695cbd6f834d95019"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe6ddee6d1ed7f67631aababbff4afd400030f5f28b54a12bef8b12aefc76989",
+  "request_fingerprint": "c992c27855c00d7d661c4648410614b632601232e459f055367050462b553646",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Facilidade de 0,24 (Difícil), ou seja, menos do que um quarto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Muito bom (0,46).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o quarto maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 40,9% escolheram a alternativa C (em preto), 18,9% escolheram a alternativa E (em vermelho), 16,2% escolheram a alternativa D (em laranja), 13,5% escolheram a alternativa B (em verde) e 10,5% escolheram a alternativa A (azul). Dentre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o",
+  "text_sha256": "f874b5855839d455ff8c387178db0201674bf87a37bd1c5d933ca137dbdc196f",
+  "window_size": 3
+}

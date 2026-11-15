@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c15932208bb82fa006af8e891a2e487d193e90ff5e6a03bb4",
+    "usage": {
+      "input_tokens": 2768,
+      "input_tokens_details": {
+        "cache_write_tokens": 2765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 283,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 3051
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_61.txt",
+      "source_sha256": "5074f49a189c523b11f8648676b8e309f6f05fe8abeb09ec28340ff4621cc6ec"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_63.txt",
+      "source_sha256": "50bd7a0a5f43b1b59568017596f92e6d802814764d80724a452e834b2570ec25"
+    }
+  ],
+  "created_at": "2026-11-14T23:02:41Z",
+  "duration_seconds": 3.384,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_62.txt",
+    "source_sha256": "2c6e845011ac5a279817a05393f084dadeee84232612cff2065cb70366cd7972"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "57f7465590b72e9bf7824b159f9fc08e7b10a831e01cd1a0df32006a35748f11",
+  "request_fingerprint": "c2fbfa16ab4974229878e38941f07ab52b2732c8ebe94da9bcc227d81b4614f8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo estatísticas e fonte.",
+    "Removido o Gráfico 3.13, incluindo rótulos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Deixaram a questão em branco 58,4% dos Ingressantes e 46,9% dos Concluintes. Também houve percentuais elevados de notas zero mesmo entre aqueles que não deixaram a questão em branco: 20,1% e 23,9%, respectivamente. Acima desse patamar, no intervalo entre zero e 10 pontos, estiveram 12,8% dos Ingressantes e 16,0% dos Concluintes. A nota máxima, em ambos os grupos, foi 80,0.",
+  "text_sha256": "741e877bf7cd87a12b54b3c14f4c2a8d309343f9a3f1e812798a307188a5422b",
+  "window_size": 3
+}

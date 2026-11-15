@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ab4e0b70a04bfe006af92421c47087d19b7e1dd405a7ea42",
+    "usage": {
+      "input_tokens": 2474,
+      "input_tokens_details": {
+        "cache_write_tokens": 2471,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2471
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2893
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_102.txt",
+      "source_sha256": "99e6f665df000e9a34cb7310721bb243904444141fb58a330a032f3ed8800045"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_104.txt",
+      "source_sha256": "69eca271f959899587fd09ae0c4e1a2214f74134c2dc015425464b126e327cbd"
+    }
+  ],
+  "created_at": "2026-11-15T03:16:49Z",
+  "duration_seconds": 4.304,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_MEDICINA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_103.txt",
+    "source_sha256": "b2f4cff88c7fe3a50ba6d16772173b0ff74293155483d22bda8eea9c27f1e4a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "37c6e88d6b7f4628313c346d80a87cfb3909262d488a629b2f4601605adc2bb0",
+  "request_fingerprint": "c639396b44fd83658eef28f1c69f66d2721189b7ab24239fbae79680bbd17121",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico (Gráfico 4.1), sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 79,2% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 38,5% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, a região Norte (linha azul), o conceito 5 não foi alcançado por nenhum curso, logo os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcança 100% no conceito 4. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Sul apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Sudeste (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "b6f757da6fc6f08789b351d51ffd75f2f9dd0b4619485250fe98a88b37bf9efa",
+  "window_size": 3
+}

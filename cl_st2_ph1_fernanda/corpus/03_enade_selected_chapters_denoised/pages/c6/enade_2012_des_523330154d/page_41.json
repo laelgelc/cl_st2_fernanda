@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a460337eaddeb98006af8f0be8ed087d1aabfe06be517e38a",
+    "usage": {
+      "input_tokens": 1936,
+      "input_tokens_details": {
+        "cache_write_tokens": 1933,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1933
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 371,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 2307
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_40.txt",
+      "source_sha256": "dca00fb7a5c738933da55ee538048490bd11cd8872907b3ab3d23e0da5376f31"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_42.txt",
+      "source_sha256": "597631328b610b871a236e56060019485464d7b22282a2931a9e47738788617e"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:34Z",
+  "duration_seconds": 4.544,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_41.txt",
+    "source_sha256": "c17a532bbc0fee312c1914dae25c0d3a4f48fee75e7a28190b4e2573cde052a7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8f54f50d47f4892bdb419e039dca4d7f5c77d168ce3d2ba18b39b653fdc0bbb5",
+  "request_fingerprint": "0cf6652a8b9ec3a8b19ce53ab039123b782da7e709cdea7df9f6d455ac01b241",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada a material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral das regiões Centro-Oeste (40,6), menor média, e a Norte (44,4), maior média. Vemos que o intervalo de confiança mais largo é o da região Centro-Oeste; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Centro-Oeste do que na Sudeste.",
+  "text_sha256": "f425fb55732b423d5e17ed7b0a964c24e0c797698aecc35a0055c9d4cec99d22",
+  "window_size": 3
+}

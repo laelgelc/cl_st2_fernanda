@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b565abe21d6bbb006af8e5539f2487d1b6764753b318cfad",
+    "usage": {
+      "input_tokens": 2500,
+      "input_tokens_details": {
+        "cache_write_tokens": 2497,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2497
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 269,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 2769
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_61.txt",
+      "source_sha256": "4ff72a6d82dfb00f1b8afbf62e354dfe2fbf213deec547606d2d36f08b0c5476"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_63.txt",
+      "source_sha256": "04fec835327ad9b9f3a0b5c6ce9be35ae5ddb62cc89ad39f1efdefb73eb9ee5b"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:51Z",
+  "duration_seconds": 2.972,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_com_soc_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_COMINICAÇÃO SOCIAL RADIALISMO.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_rad/enade_2009_com_soc_rad_page_62.txt",
+    "source_sha256": "016d0b0370bcd9e5e394babf01af2effe0fcd506bba6f26dce22eaaa5b056b17"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "734131123f0d4f71a93c95199b629042f43e15633be713c4fc886bd04fd32192",
+  "request_fingerprint": "91396457fc45e578defc269627e4076297666cdf2bf678c58d74ec2e830e87d0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.10, incluindo título, intervalos, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

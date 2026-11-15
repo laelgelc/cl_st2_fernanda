@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05541079c269411c006af8f90de01487d1831a30c338f08010",
+    "usage": {
+      "input_tokens": 2291,
+      "input_tokens_details": {
+        "cache_write_tokens": 2288,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2288
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 785,
+      "output_tokens_details": {
+        "reasoning_tokens": 538
+      },
+      "total_tokens": 3076
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_85.txt",
+      "source_sha256": "94d6523710fea6db76e56ad5f7d5d3535233fd5d8e0a4f41bb1591393930cad1"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_87.txt",
+      "source_sha256": "f6fe8489178a7d1fe88e2430fd68c5fc828079dbecc2ab11145a2fb9b6ce0a66"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:01Z",
+  "duration_seconds": 8.464,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_86.txt",
+    "source_sha256": "0053097cdc7cbe1016b063e386168dc64264d304e20ff97b0ddc50f311e8b633"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b41554bf3e17a81991c4b55acc968287565a68774b74e9140dd0bfb84114019",
+  "request_fingerprint": "d021223b50090b1aed92ede8541e1a52ee9b1c180c0eea4bc12fe1b0d438ee93",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.17 e sua linha de fonte foram removidas. O Gráfico 3.12 é mencionado e descrito em prosa preservada; nenhum conteúdo gráfico ou rótulo do gráfico aparece no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "estudantes obteve nota zero ou deixou a questão em branco, menos na região Nordeste. A nota máxima (100,0) e a nota mínima (0,0) foram obtidas em todas as regiões.\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Desconsiderando as questões em branco ou aquelas que receberam nota zero, a distribuição apresenta uma moda no intervalo (90; 100]. A maior frequência ocorre nas notas zero seguida da categoria “em branco”, ambas com mais de 25%. Observa-se que uma menor proporção de estudantes deixou essa questão em branco, comparando-se com o ocorrido nas demais questões discursivas, o mesmo não podendo ser afirmado em relação ao percentual de notas zero. Destaca-se a frequência elevada no intervalo (90: 100].",
+  "text_sha256": "2183ef70ddff5d2e3d7c940b6fd2f8363b4e7ac3530d831ba49325ca0910e118",
+  "window_size": 3
+}

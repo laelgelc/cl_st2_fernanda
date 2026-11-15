@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e72dea623fd6af3006af8ebae406887d1815faa7afcf0c34d",
+    "usage": {
+      "input_tokens": 2538,
+      "input_tokens_details": {
+        "cache_write_tokens": 2535,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2535
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 515,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 3053
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_66.txt",
+      "source_sha256": "ef2e492d931de565678ac3f60edecad8f975ebc34ec91c4082ff0ddd6d23d3b2"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_68.txt",
+      "source_sha256": "be80e61484ac492769c68ec5b32e74d8af2aba68cc851e9061ef26f79b3af9d5"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:58Z",
+  "duration_seconds": 5.036,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_67.txt",
+    "source_sha256": "c17ec77a9d56438b8a7b8df4b0a282afed7ccdc1112f846bd4424ae57b95e3d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c495c89059657c6767f11a5f7738cebd217245f52673e2624cf40328ee23d518",
+  "request_fingerprint": "08a9f60e69c585dda9c3f8ff8d0072df566ad4a9abab4aca9ccf6ade5eba631a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e o conteúdo da Tabela 3.11, incluindo dados e linha de fonte. A descrição em prosa do Gráfico 3.18 foi preservada; o gráfico em si não aparece no texto da página-alvo."
+  ],
+  "status": "success",
+  "text": "obtida pelos estudantes da região Centro-Oeste (15,5), e a menor, pelos da região Nordeste (12,8). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 14,9. O maior desvio padrão foi encontrado na região Centro-Oeste (15,3), e o menor, na região Sul (14,5). A maior nota máxima foi obtida por pelo menos um aluno nas regiões Sudeste e Centro-Oeste (86,7) enquanto a menor nota máxima foi encontrada na região Norte (71,7). Além disso, a nota mínima (0,0) foi obtida por estudantes de todas as regiões do Brasil, sem exceção. A mediana de todo o Brasil foi 11,7, também encontrada na região Sudeste. As demais medianas foram: 13,3 nas regiões Norte, Sul e Centro-Oeste; e 8,3 na região Nordeste.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo de [0;10]. Nota-se que a distribuição é decrescente e que, apesar da nota máxima registrada ser 86,7, foram muito poucos os estudantes que tiveram notas maiores do que 70,0. O coeficiente de assimetria foi 0,90.",
+  "text_sha256": "c722199ba3400b9aa5340f17136b496beaf3d74c259d5e34bfc34ee0e4e9dd72",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e4b66e5cd0636d7006af92324b08487d18806aee3cce3a29c",
+    "usage": {
+      "input_tokens": 3018,
+      "input_tokens_details": {
+        "cache_write_tokens": 3015,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3015
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 3612
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_flo/enade_2023_eng_flo_page_102.txt",
+      "source_sha256": "68236482c26a5632937e75c3045d2f22daeaf84dad944182b6c316476656b876"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_flo/enade_2023_eng_flo_page_104.txt",
+      "source_sha256": "35ec0801d5ded79487c9c92f92a3852e73ef81bed2f0ad327e6016913d9e2e21"
+    }
+  ],
+  "created_at": "2026-11-15T03:12:36Z",
+  "duration_seconds": 3.894,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_flo/enade_2023_eng_flo_page_103.txt",
+    "source_sha256": "0940f63875026a5cc22d6a058bbcce8704e2f7db3d276c371ac13a2a8d9569ac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b74978f7c7647617289eea38c7f7c6b41e44c19a23433016e109c6fac8c87f89",
+  "request_fingerprint": "5bb0f5aa33092a4cd2984b19eca606ef437e62b3ae5a67ef79f23a3c7754a9d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.1, incluindo o gráfico, seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 87,5% dos cursos com conceito 3 ou abaixo deste valor. A região Sudeste (linha vermelha), por outro lado, apresenta 33,3% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Centro-Oeste (linha laranja), nas quais todos os cursos têm conceito menor ou igual a 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Sudeste apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "8fa8b05312eb036e35532e9b6c7aace25662e3e5a574414b5ffae01e358412ad",
+  "window_size": 3
+}

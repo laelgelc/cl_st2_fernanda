@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01dc769b3b40bf9e006af8ffe1f0fc87d1a77983299cc56abc",
+    "usage": {
+      "input_tokens": 1808,
+      "input_tokens_details": {
+        "cache_write_tokens": 1805,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1805
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 301,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2109
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_94.txt",
+      "source_sha256": "00e441bb20993b211669ad2ec2e109dd7bdb75d465169acbcd076294ca86d066"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_96.txt",
+      "source_sha256": "80000a9f8361652bc5bd7b405be85a16ab9ef47839d89d8f65461753d9c2afe4"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:09Z",
+  "duration_seconds": 3.669,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_95.txt",
+    "source_sha256": "843afe00579634e25b7ab1ba7c4f0b0b2b903e31f3e5d32e50c8656ea308afc0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1530f684d3b86ca03a655d1686f6e5f3e5e109b8929f970d193504a9857ad6a0",
+  "request_fingerprint": "56ff9a91d3c9bd61628125abad9319860b73bf27fbb465d57a37fab745e5344e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.5, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "Entre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou de 27,3% na região Norte até 36,5% na região Sul, não havendo diferenças estatisticamente significativas entre as regiões. A alternativa modal para essa questão foi extensão adequada, com proporções variando de 54,9% (Nordeste) a 61,3% (Sudeste).\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 55,6% consideraram a extensão da prova adequada no quarto de desempenho inferior e 61,1% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 60,1% no segundo quarto e 63,9% no terceiro.",
+  "text_sha256": "f447e2b8c73086c2988d3e0557688c574f69edab2d6d1ac76b3b59a8c4876419",
+  "window_size": 3
+}

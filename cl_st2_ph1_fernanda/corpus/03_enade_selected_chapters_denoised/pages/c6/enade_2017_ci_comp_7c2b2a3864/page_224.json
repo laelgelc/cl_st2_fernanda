@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a962afd952ffeae006af90502e45c87d1a6af34f602c16be3",
+    "usage": {
+      "input_tokens": 2730,
+      "input_tokens_details": {
+        "cache_write_tokens": 2727,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2727
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 830,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 3560
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 223,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_223.txt",
+      "source_sha256": "d604ccae63f024a482f4946089a6f7d847f3f4f4ed22757c740ffc253209f008"
+    },
+    {
+      "page_number": 225,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_225.txt",
+      "source_sha256": "371bb846ba1e87d161e299bb4c840abe075a904db70634ccdd7110506c2488a7"
+    }
+  ],
+  "created_at": "2026-11-15T01:04:02Z",
+  "duration_seconds": 7.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 224
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_224.txt",
+    "source_sha256": "ff8f5bf10fef46e0726cae9d95353bc928364ee6b74742f3feac9cec8ccbbc4e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb3ccd63ae3ac330ceab40fc483da059652a9d11133f667ea49acf3658725a82",
+  "request_fingerprint": "31a2af4eb093516cec19ab46423267ff2ba75e33f9dc46d4bb885621d3c1c920",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12b, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 6.5b analisa a questão 11 do Componente de Conhecimento Específico. Esta questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com Índice de Facilidade Médio, 0,50, ou seja, 50% dos estudantes assinalaram acertadamente a opção E, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,42, classificada como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 11, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, deixaram essa questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para 21 acertos, com uma queda entre aqueles que tiveram 23 acertos e um retorno a 100% para 24 acertos ou mais. A proporção dos que escolheram alternativas incorretas decai, a partir de três ou quatro acertos, como função do número de acertos nessa parte da prova. A exceção é a alternativa B (em verde) que apresenta um aumento com a proporção de acertos entre aqueles com pouco mais do que 20 acertos, um ponto atípico. Os gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "146b8b17cd2879135366f2f3d457df99c154534046c8fc86f95ce129c8dc2a77",
+  "window_size": 3
+}

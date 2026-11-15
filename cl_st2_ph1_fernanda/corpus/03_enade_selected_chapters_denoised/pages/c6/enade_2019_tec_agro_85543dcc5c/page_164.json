@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a0873ff6581c06e006af91516833c87d1b96f72c2512b574e",
+    "usage": {
+      "input_tokens": 2726,
+      "input_tokens_details": {
+        "cache_write_tokens": 2723,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2723
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 601,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 3327
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_163.txt",
+      "source_sha256": "708267484499d7d5e7f67ff499b9a394c9bf787c238b48d41f13909a6dd119cf"
+    },
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_165.txt",
+      "source_sha256": "fe585fccecb44dd88d2f9399c031fed563bff2f21f2df12a7d4eb22c701d313e"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:38Z",
+  "duration_seconds": 6.039,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 164
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_164.txt",
+    "source_sha256": "80573ef12d09c947915f471f7f2fabf918dbc76e5d31fcc3156978ae3f6be82d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6fe6f467b447a6d1da0b6b2c3ca72c2865c5c2bc921e5bc4662cff1805fb1a22",
+  "request_fingerprint": "069ab14c5159dff13c3e148947ec44abf971c6cd7a733e4cd71c44d87b6cd893",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e sua linha de fonte (“Fonte: MEC/Inep/Daes - Enade/2019”) no início da página."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb51bb27d3d6bc3006af922bfe0ac87d194955095c47a51fc",
+    "usage": {
+      "input_tokens": 2292,
+      "input_tokens_details": {
+        "cache_write_tokens": 2289,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2289
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 2603
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_prod/enade_2023_eng_prod_page_82.txt",
+      "source_sha256": "47c8515d2d6ab48ec2bd47d001b93518b7c39678979a67d6c654ada5e706057d"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_prod/enade_2023_eng_prod_page_84.txt",
+      "source_sha256": "7c5408372e31cfaaa52e8816b6f5a245085e897727bb96a2db4a508c4426bd41"
+    }
+  ],
+  "created_at": "2026-11-15T03:10:55Z",
+  "duration_seconds": 3.309,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_prod/enade_2023_eng_prod_page_83.txt",
+    "source_sha256": "50385a431f0a30b14849a3ec8c7827a8e0630276e7868d1720ec512ae110df05"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab96e39a84a7a1594df7120c3aac6cf46106db4a9b21f2f36036a0bbf1789058",
+  "request_fingerprint": "8c8d6f6c4c56372f847fe6c64d37a2039416c322511575159361e4ddb084f202",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.1, incluindo título, legenda, dados gráficos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Sul, onde a proporção foi de 34,0%, enquanto a menor proporção foi identificada na região Nordeste, com 22,2%. O maior intervalo foi observado na região Norte, com variação de 9,7% entre o mínimo e o máximo. Além disso, é possível observar que as diferença entre as regiões Nordeste e Sudeste é estatisticamente significativa. Segundo dados da Tabela V.1 (Anexo V), nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 56,6% na região Centro-Oeste, 60,7% na região Nordeste, 60,6% na região Norte, 57,8% na região Sudeste e 53,9% na região Sul.",
+  "text_sha256": "c5d883fd7864bb3905c93531c6c110f9eee0638a1f5519433206379dbfcecfaa",
+  "window_size": 3
+}

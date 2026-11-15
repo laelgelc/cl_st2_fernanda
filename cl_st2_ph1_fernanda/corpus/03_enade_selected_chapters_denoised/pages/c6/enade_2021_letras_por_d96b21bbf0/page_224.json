@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_015dbe6f53a5b48e006af91a36e8d087d19b2ed9855ddc1bbf",
+    "usage": {
+      "input_tokens": 2919,
+      "input_tokens_details": {
+        "cache_write_tokens": 2916,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2916
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 332
+      },
+      "total_tokens": 3522
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 223,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_223.txt",
+      "source_sha256": "47ee8340972db73a19dffdb126b59d731ffbb9e8de2c3dfeca588428a5e1318b"
+    },
+    {
+      "page_number": 225,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_225.txt",
+      "source_sha256": "fa19e83b830cd4bdd62e7ecdade798c2adb7abe39b3d12a5a0b47fa028af4917"
+    }
+  ],
+  "created_at": "2026-11-15T02:34:30Z",
+  "duration_seconds": 6.212,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 224
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_224.txt",
+    "source_sha256": "449217d8636c0f52e03906e0f6d8ebfeff3d06b6c4ade1576f4bdee9488d9d4e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4535a590f080ac48194f0190b49c6359a476bca48027637b1e31e6e44644e69e",
+  "request_fingerprint": "b91f1ed3a201d46b6dd085574d760f8a19830bb0233f43a4da98432b227bacd1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.20, incluindo título, dados e fonte, e o Gráfico 6.13, incluindo dados e fonte.",
+    "O texto termina com vírgula; verificar se há perda acidental ou pontuação incompleta no limite da página."
+  ],
+  "status": "success",
+  "text": "da maioria das regiões foi 25,0. Nas regiões Sudeste e Centro-Oeste, a Mediana foi 50,0. Para o conjunto de estudantes de Letras-Português (Licenciatura) do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um estudante de todas as regiões. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.13, é representada a distribuição das notas da Questão Discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (40;50], com 31,5% do total de participantes. O percentual de estudantes que deixou a resposta em branco foi de 21,8%. Outros 10,3%, mesmo tendo respondido à questão, receberam nota zero. Assim, o percentual daqueles que zeraram a questão chega a 32,1%,",
+  "text_sha256": "a091e592a744651637c52c43a9acb7443a7796baa0170a1bc0fd95987c0bb0c8",
+  "window_size": 3
+}

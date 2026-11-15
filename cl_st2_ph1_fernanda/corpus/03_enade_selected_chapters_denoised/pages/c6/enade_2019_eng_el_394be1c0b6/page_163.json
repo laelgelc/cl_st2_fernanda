@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01af1bdd436394dc006af911de88d087d18fcfe8a772ce69cb",
+    "usage": {
+      "input_tokens": 3154,
+      "input_tokens_details": {
+        "cache_write_tokens": 3151,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3151
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 457,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 3611
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_162.txt",
+      "source_sha256": "5ed2684513e288244283c9cc6e8613676b4684ce29294d439e82a6edafa9a599"
+    },
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_164.txt",
+      "source_sha256": "dcf72a3e50746141d5af4a522e3cffd124020f94828acfbb4e3cad5965cc1728"
+    }
+  ],
+  "created_at": "2026-11-15T01:58:54Z",
+  "duration_seconds": 4.812,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 163
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_163.txt",
+    "source_sha256": "341af0c5cfb7d35d59d6cb0db1cd0f4193eed7d136231d60537c3b1efd7976a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af17dbd73b887a810538807e46af843c065d2996dfec99a2947293e26b8a2e10",
+  "request_fingerprint": "cb8091a4b90312b7eebaefe6aea9bda4c545be053842f1f3adc4f6136677ecd5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores índices de discriminação, uma delas foi classificada com Índice de Discriminação Muito bom, a de número 34. Seu índice foi 0,46, e, quanto ao Índice de Facilidade, foi classificada como Médio, com 43% dos estudantes marcando a opção correta. A questão de número 20 foi a mais difícil entre as 22 questões específicas válidas, com baixo Índice de Facilidade, apenas 13% de acertos. Destaca-se, também, a questão 11, com Índice de Facilidade 0,17, o que, em termos percentuais, corresponde a 17% de estudantes que responderam acertadamente. Já 0,12 foi o seu Índice de Discriminação. Observa-se também que as questões 16 e 31 apresentaram Índices de Discriminação, 0,18 e 0,15, respectivamente. Portanto tais questões (11,16 e 31) foram, pelo critério Ponto-Bisserial, consideradas inadequadas e por isso, eliminadas do cômputo da nota final.",
+  "text_sha256": "f30f15ec276079646455ea79b3b90067f87099ad9908dbe94c4f2d71b1f797a1",
+  "window_size": 3
+}

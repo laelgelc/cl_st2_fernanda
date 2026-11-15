@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_049e777562953d2c006af8f31db98087d1b4f7f90f485eaa4a",
+    "usage": {
+      "input_tokens": 2015,
+      "input_tokens_details": {
+        "cache_write_tokens": 2012,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2012
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 472,
+      "output_tokens_details": {
+        "reasoning_tokens": 261
+      },
+      "total_tokens": 2487
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_44.txt",
+      "source_sha256": "3a2d7371fa31932df79f9894c6b9ce3595f7d630cb593fad37d5cd83e2b93863"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_46.txt",
+      "source_sha256": "a84fcc50668e131e75f61d5ff935d8d04e595154a8e547b887c41db64e3a43dc"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:41Z",
+  "duration_seconds": 4.331,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_45.txt",
+    "source_sha256": "70f852a3b463bb2a37f419720621d54cef00f059e52b748b68e9a00eb0fc551f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a43f28889d6f90c2fc997fcc3a236aec6fe579c24170594227c89d9b756529b0",
+  "request_fingerprint": "fb1e3a68870dd48ce81c6ed4dd915ce0da8a12d9b7a6307451a8860ab03835c8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico da página; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Sul (51,9) e a menor, obtida na região Norte (44,2). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sul.",
+  "text_sha256": "1a18a6fc975a2916c0ca1077f5259e1a34b3029c42fab6da584bc15a75571fa5",
+  "window_size": 3
+}

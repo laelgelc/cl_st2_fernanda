@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06f1a6d5a0caa262006af8f46193ac87d1807d7d6a222b96fe",
+    "usage": {
+      "input_tokens": 2433,
+      "input_tokens_details": {
+        "cache_write_tokens": 2430,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2430
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 2764
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_67.txt",
+      "source_sha256": "f28a4546f4068ed1619fcb279d24358988311633dce209d3cbe9bae941890bab"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_69.txt",
+      "source_sha256": "3940d8d2ff22c3661b4bfac989e6e959156b43708cdc4e122ca6d9a284283dd4"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:05Z",
+  "duration_seconds": 3.901,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_68.txt",
+    "source_sha256": "b94a7a259d5942f9b8a8d15e1111958356661e74c98205a6262dd8f3d94728e5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "431acee2f5913fc40523a0a0bd581248b321d9391e28b40005aa071e579ef29a",
+  "request_fingerprint": "638a3daa6489087da14d8255e68597df1a129a8faea8a21903ef03163c813a1c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.10."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 mostra que o desempenho dos estudantes na questão 2 (média 46,4) foi inferior ao obtido na questão de número 1 (média 51,4). A região Centro-Oeste foi aquela onde a média, nessa questão, foi maior (51,5), e a de menor média foi a região Norte (39,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 26,5, superior ao obtido na questão de número 1 (25,6). O maior desvio nessa questão foi obtido na região Nordeste (27,9), enquanto o menor foi obtido na região Centro-Oeste (24,6).\nA mediana foi 50,0 em quase todas as regiões, exceto nas regiões Norte (45,0) e Centro-Oeste (55,0). As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.",
+  "text_sha256": "925a35bcd6c8fd7fc1dee55a5cf7a15c31f9e52a985d54be0e6177ef1c71124d",
+  "window_size": 3
+}

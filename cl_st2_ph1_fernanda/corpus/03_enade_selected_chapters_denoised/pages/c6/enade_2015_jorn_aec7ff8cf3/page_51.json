@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bd06cbf4ddfad03006af8fe119c3487d1857711c2a48938ad",
+    "usage": {
+      "input_tokens": 2492,
+      "input_tokens_details": {
+        "cache_write_tokens": 2489,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2489
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 3117
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_50.txt",
+      "source_sha256": "3ef3cf3d72ef21d3a4494cf74b6cb889be678a6b9af625cb4727eae1b4a56231"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_52.txt",
+      "source_sha256": "0f1e21423a0a71a36a92622ffa88efe5631ca0ad3b587a07cec131b2004d263b"
+    }
+  ],
+  "created_at": "2026-11-15T00:34:25Z",
+  "duration_seconds": 6.355,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_JORNALISMO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_51.txt",
+    "source_sha256": "3c5c48ef62abbccf8bcfaade1d3cbea78a53511ad3f32491c5e7fbbf419a265b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2755120ded9ec564de3e0cc986620e2307bc6128f431262da998d4114cf3dab9",
+  "request_fingerprint": "8a2565a695fd4083d406172c90b8e30534a7bc1c5e957ec4ab9359129997ca38",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 37,0% escolheram a alternativa D, 25,2% a alternativa C (correta), 15,0% a alternativa A, 12,9% a alternativa B e 9,6% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,2% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "08ab91e23c765585044bc346d21918113b606fd2365d0759b5075e9c2b04887e",
+  "window_size": 3
+}

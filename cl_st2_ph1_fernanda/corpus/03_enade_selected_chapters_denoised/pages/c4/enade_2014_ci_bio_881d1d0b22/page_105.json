@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cb812accb6904e7006af8f689ee1887d1a083c361fc6823a4",
+    "usage": {
+      "input_tokens": 1489,
+      "input_tokens_details": {
+        "cache_write_tokens": 1486,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1486
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 548,
+      "output_tokens_details": {
+        "reasoning_tokens": 293
+      },
+      "total_tokens": 2037
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_104.txt",
+      "source_sha256": "81c8426bd06d147a9013cc988a5670d484b601b29e61d7b1c53ffa72a3ecf320"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_106.txt",
+      "source_sha256": "70aacda3bf2fdb8a58c1f95374765ddfbb253856e08b255503c07dddb67d4550"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:17Z",
+  "duration_seconds": 7.17,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_bio/enade_2014_ci_bio_page_105.txt",
+    "source_sha256": "0b691e96f7daebc388287a20b707574f2d39639cd9f714bd61609dc4f3a3be3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d6628324ec7371a98e03cf7b53b206a5302e4ac868c17dfead93a1d0cb4f87e",
+  "request_fingerprint": "0aab29ad9338a0a2f2e5cb4ad6550f07f02bf198fbf8759917830fbfb2cec5f6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2014” at the top of the target page as belonging to graph material; the graph itself is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "4.3.2 Componente de Conhecimento Específico\n\nCom relação aos enunciados das questões do Componente de Conhecimento Específico da prova, para 74,0% dos estudantes avaliados da Área de Ciências Biológicas, a clareza e a objetividade (Questão 5) estavam presentes em todas ou na maioria das questões (Gráfico 4.9, Gráfico 4.10, e no Anexo II, a Tabela II.5).\n\nA maioria dos estudantes de todas as Grandes Regiões brasileiras considerou claros e objetivos todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico da prova, percentual sempre maior ou igual a 72,3%. A diferença entre a maior e a menor proporção, 76,3% (Centro-Oeste) e 72,3% (Norte e Nordeste), é estatisticamente significativa.",
+  "text_sha256": "2daff232a31828b2568137958da15ee754be0da87ae8d652212ebb0427caf350",
+  "window_size": 3
+}

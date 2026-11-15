@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cee1f0d77f3361006af8f349357887d1baa589de3490d933",
+    "usage": {
+      "input_tokens": 1466,
+      "input_tokens_details": {
+        "cache_write_tokens": 1463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 253,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 1719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_44.txt",
+      "source_sha256": "00f778643fab2f1f5cb8bcd33525d158408efa703752c5b08c04496b0ab58de1"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_46.txt",
+      "source_sha256": "1342663896e2a439ffbe457605cd76779dd715fc903698dcc9e7f0dfc4f6de00"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:25Z",
+  "duration_seconds": 2.54,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_45.txt",
+    "source_sha256": "ce170912af6cea042e4cc311254b49d242fe05a69c3c1fb08346f873920ee6ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9c989468886b4595a14343403d1b2b108e7147fdb305bb2cedd902cad3459fd5",
+  "request_fingerprint": "9920910bfcae7c759cf605fc9a0d4f6756206932bef450b2dbe22f5525c0df73",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico referente ao Gráfico 3.7, incluindo a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que não existe diferença estatisticamente significativa entre as médias. Diferente do que ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Educação Física (Bacharelado), das IES Públicas (43,7) obtiveram uma média praticamente idêntica aos das IES Privadas (43,6). A diferença não é estatisticamente significativa.",
+  "text_sha256": "3c30f5965cf133f3737a0225bbdc79ba585b1711e424910153e031c8833013f2",
+  "window_size": 3
+}

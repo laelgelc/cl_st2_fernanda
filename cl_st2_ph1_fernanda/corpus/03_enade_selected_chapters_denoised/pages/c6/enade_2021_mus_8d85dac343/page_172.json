@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a963a9acfbbb05a006af91a74c8a487d1b6465376a1c5363b",
+    "usage": {
+      "input_tokens": 3117,
+      "input_tokens_details": {
+        "cache_write_tokens": 3114,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3114
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 3830
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 171,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_171.txt",
+      "source_sha256": "36589a605953f927ce605f128e112bf819e36f8c4e1d4bffd7d44c462de2c9f5"
+    },
+    {
+      "page_number": 173,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_173.txt",
+      "source_sha256": "b12377df9deca07de239565e7de5c3d7d03cd28bfa34da4e3b6de10d1b7b85fa"
+    }
+  ],
+  "created_at": "2026-11-15T02:35:32Z",
+  "duration_seconds": 7.826,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_MÚSICA.pdf",
+    "page_number": 172
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_172.txt",
+    "source_sha256": "54b70462e249b9687a360c168f112c21ef553d86ef91aaac4ab0cbe3a8c2ec5e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9094c354b12b7cd1a91d6e0dd9a35f38441eddd36ae10578c8e020de64e5e64b",
+  "request_fingerprint": "03f5fab2cf9f178dde8a4db8a1a77660b711a6bd4687ae00e80b25cbf2c0fde3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte; os dados e rótulos gráficos não foram incluídos."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 42,3. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (43,0) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (41,4). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Centro-Oeste e Norte (8,7), a maior e a menor Média, é superior à diferença entre as Médias das IES Públicas e Privadas (1,6), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (14,3) foi superior ao do Brasil, como um todo (13,8), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades (43,3) obtiveram Média um ponto mais alta que a nacional (42,3). A Média dos Centros Universitários (40,9), das Faculdades (40,2) e dos CEFET/IF (41,5) foram menores do que a nacional. Constata-se que existe diferença estatisticamente significativa, ao nível de 95%, entre as Médias das Universidades e as Médias dos Centros Universitários e das Faculdades.",
+  "text_sha256": "d1dc6382073feb4708dd957e1adb411631518bfd441f1f01575c77f1e76a8706",
+  "window_size": 3
+}

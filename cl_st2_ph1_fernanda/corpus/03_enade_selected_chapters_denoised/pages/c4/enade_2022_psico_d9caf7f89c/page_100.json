@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e60023a367a42c8006af91d6ef7dc87d1921b23bddec2a2c9",
+    "usage": {
+      "input_tokens": 1639,
+      "input_tokens_details": {
+        "cache_write_tokens": 1636,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1636
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1933
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_psico/enade_2022_psico_page_99.txt",
+      "source_sha256": "b27a8d65065be40a5b8333a09c8cee25c1be05b19d6119730c94bfa89f53efde"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_psico/enade_2022_psico_page_101.txt",
+      "source_sha256": "1adc648107a63392036a007b8f0d3a98f739285d05f8043a2f02e6ae417a3d10"
+    }
+  ],
+  "created_at": "2026-11-15T02:48:14Z",
+  "duration_seconds": 2.85,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PSICOLOGIA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_psico/enade_2022_psico_page_100.txt",
+    "source_sha256": "609bef08f736d28f862515530215a3de68cb04b9e094b635fc39ab59b554022e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4fc42ab119f56873fc47844943977b923540f41dc2db019e5e5c53d67ca5dd0d",
+  "request_fingerprint": "6c715d3b33e05da07773bed3a2df6415629c02946fa90ee0b5b83e9ae256d16f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.8, incluindo título, dados e fonte. Preservei “o –Componente” como aparece no texto extraído; verificar se o travessão é um artefato de OCR."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.8 apresenta os dados por categoria administrativa das IES.\n\nOs dados do Gráfico 5.8 mostram que o percentual de estudantes que consideraram o –Componente Específico da prova “Difícil” ou “Muito difícil” foi maior entre os estudantes de cursos de IES privadas (19,6%), enquanto a proporção registrada em IES públicas foi de 15,7%.",
+  "text_sha256": "a03ee80a2892fb3a7c84f52663c9baf3627d0bdcd60c09fe38ed347e2555a0d3",
+  "window_size": 3
+}

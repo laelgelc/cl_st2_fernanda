@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fe8e49765c00b65006af902cf076887d1b507619b19e0c400",
+    "usage": {
+      "input_tokens": 2800,
+      "input_tokens_details": {
+        "cache_write_tokens": 2797,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2797
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 473,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 3273
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_56.txt",
+      "source_sha256": "0c33ee0617585fc74ab17ccd63395072bea2f4f3b0977968c51f95a3f5db1c58"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_58.txt",
+      "source_sha256": "df444f28e11459f0a4646f127b665b5c7d6149ccc0614dce6f4bca8d2f24f3a5"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:38Z",
+  "duration_seconds": 4.252,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_57.txt",
+    "source_sha256": "3eb64b66878b6cdc30283d743b7673c6fa28b41902fed70cd82dfc3964aaec1b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9ee37553967c5112f127fe63086ee0975e2a7d215462912ec4d953775db4a74e",
+  "request_fingerprint": "24e15b856db60494ed934f64de31855a1a280f122e3eb70d1da7a2641560653b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.5 e sua linha de fonte (Fonte: MEC/Inep/Daes - Enade/2016)."
+  ],
+  "status": "success",
+  "text": "igual a 0,43, classificado como Muito bom, também sendo esta questão a que apresentou o maior valor.\n\nNesse gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 27, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta, B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta B aumenta gradativamente, chegando a atingir 100% para 24 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de oito acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "b0e346a4a04e4e7c3c02befe494db388cd59a0c1488fddcc3a4a5a7c3d13610d",
+  "window_size": 3
+}

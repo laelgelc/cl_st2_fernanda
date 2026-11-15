@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_014db9f82fa45b49006af9037ed46087d1a8dabdd4bc3d55f9",
+    "usage": {
+      "input_tokens": 2863,
+      "input_tokens_details": {
+        "cache_write_tokens": 2860,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2860
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 384,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 3247
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_44.txt",
+      "source_sha256": "64bd7010a44cc01834ea02549f8333f4d5a4d1fc8961876779cef5fd0a692576"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_46.txt",
+      "source_sha256": "1de77936d66a7218d89c17da963a2039044271560580a99259fdb5a328ff499c"
+    }
+  ],
+  "created_at": "2026-11-15T00:57:34Z",
+  "duration_seconds": 4.451,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_45.txt",
+    "source_sha256": "75033e7d79a917fe8ee58bd343aa099180745f93799d335fd4b42c8a1d8f2f36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "22acee575ccd9490cff7b91bea924e442226d0e3e062a960e393487810b2a1eb",
+  "request_fingerprint": "b96b564b3ace5e330cc714d9a5eacd3f4c9501b468675e818ab5dee6f24717e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (30; 40], enquanto na prova, como um todo (Gráfico 3.1), a moda foi alcançada no intervalo (40; 50]. Nota-se, ainda que, no Gráfico 3.2, as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 12,5 para a nota da prova como um todo e 15,1 para o Componente de Formação Geral.",
+  "text_sha256": "353c1f18ec2fcdecf12dbb3a69efa49a97475cb992540754241309f28ef039cc",
+  "window_size": 3
+}

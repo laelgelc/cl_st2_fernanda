@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06ebd92fd3808208006af8ebb34c3087d1b8662d40599dd9a8",
+    "usage": {
+      "input_tokens": 2483,
+      "input_tokens_details": {
+        "cache_write_tokens": 2480,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2480
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 940,
+      "output_tokens_details": {
+        "reasoning_tokens": 667
+      },
+      "total_tokens": 3423
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_75.txt",
+      "source_sha256": "fac633d800bbd23b1f2e1a10e3435a8b992079456bec09fd2b840833b81b3392"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_77.txt",
+      "source_sha256": "fae87e625e61417daf301279d022eeb4f51cbebb72658ca291b38686d552014c"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:03Z",
+  "duration_seconds": 9.855,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_76.txt",
+    "source_sha256": "90cdb0afefd027779fad2d8548f73f938ae265017bae58b5e7156dc0ca04d26e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d4cb8e9c33ad8de9260029aefc883191a63f374fc04dfdf94cff69985135a64b",
+  "request_fingerprint": "96ef77824b87a28e60c2a73c05e18ee5ac5e1a11a7336ac52294556c0503b192",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.14, seus dados e a linha de fonte. O Gráfico 3.21 e seu material visual foram excluídos; a discussão em prosa sobre o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) foi alcançada em todas as regiões, exceto na Centro-Oeste, onde a nota máxima foi 90,0. A mediana e a nota mínima foram zero para todas as regiões do Brasil, ou seja, pelo menos metade dos alunos tirou nota zero na questão ou não resolveu a questão.\n\nO Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 no Componente de Conhecimento Específico. Destaca-se o grande número de estudantes que deixaram a questão 5 em branco ou obtiveram nota zero, tendo respondido a questão, aproximadamente 70% dos Concluintes. Dentre os outros 30% dos alunos, nota-se uma concentração de notas menores do que 40, com uma segunda moda no intervalo (20; 30]. Dentre as 3 questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou a maior proporção de estudantes que deixaram a questão em branco.",
+  "text_sha256": "7a1d45401455d996e4645b48e99a87adc9b70fd976a43e5a95c9ed3e52b02b69",
+  "window_size": 3
+}

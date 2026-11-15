@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2c91a2358800ea006af8f7000b2c87d19d4fbde07d0f5f46",
+    "usage": {
+      "input_tokens": 1624,
+      "input_tokens_details": {
+        "cache_write_tokens": 1621,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1621
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1920
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_94.txt",
+      "source_sha256": "21ed162422b421572a1b18ff63f6844af6e0e4409eb362d3e2cf77b2194a8c0d"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_96.txt",
+      "source_sha256": "b7736ddc8ddff02b46263c81aa36707239068d98cfa16d8124004e61f7e37c21"
+    }
+  ],
+  "created_at": "2026-11-15T00:04:15Z",
+  "duration_seconds": 3.152,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_95.txt",
+    "source_sha256": "e7e1daef8459f1563793f0c3875b9b1b4c22b084f0d80fb3ae08a4bd4c410ace"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bfba2d4dcf01ea3012621d8ba2de37f58306211bb126c7a39989be4ba3d88f81",
+  "request_fingerprint": "a86658068fc7a8353f9e0fe421fa6e64afe3e1c539b92f223b12f7b31272732e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”), identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 47,8% consideraram a extensão da prova adequada no quarto de desempenho inferior e 47,5% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 48,7% no segundo quarto e 47,5% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que para a prova longa ou muito longa em função dos quartos de desempenho não há diferença estatisticamente significativa entre as proporções de escolha desta resposta nos diferentes quartos.",
+  "text_sha256": "2b36813c45fa0b08c60811beac6ba68caebb48aea7dafc18dcb135759b122a69",
+  "window_size": 3
+}

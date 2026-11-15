@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03028f53b314ab61006af9256dbf7087d1ac883fcbf6ab2cb4",
+    "usage": {
+      "input_tokens": 2616,
+      "input_tokens_details": {
+        "cache_write_tokens": 2613,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2613
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 2898
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_123.txt",
+      "source_sha256": "047666321af0959b5d97e2d4355f8fdaa162c3ebbddbb471a758e871e80b1943"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_125.txt",
+      "source_sha256": "c4a4b84061026e12f672d0caebc5bce2a6a7241f12030fcfa6a142a8903ae1cc"
+    }
+  ],
+  "created_at": "2026-11-15T03:22:21Z",
+  "duration_seconds": 3.155,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC SEGURANÇA NO TRABALHO.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_124.txt",
+    "source_sha256": "1109e2cfc6e412493bb80f8df1b64fc78e2429ba838c0496503f455e823356fb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "828e5681b8ac11cefa3ac7b79b2020d09330815d18bb0a4da12ebd0b583d9530",
+  "request_fingerprint": "e82df24cdd0969e9779f6233b1f4d71a5e5b520b53bd7919b9dde34d3f1a4182",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.2, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "d294d0d0011e75d9deafe281aa4f6c242eda19737d1e51aca21fb1566cd25ad2",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02413c178b95f9d0006af8f311a6fc87d1bf236c3462786ec6",
+    "usage": {
+      "input_tokens": 1698,
+      "input_tokens_details": {
+        "cache_write_tokens": 1695,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1695
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 816,
+      "output_tokens_details": {
+        "reasoning_tokens": 615
+      },
+      "total_tokens": 2514
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_100.txt",
+      "source_sha256": "77cd2a7976f3e2473e7a7306dc7dd3f3d3140c427ebbf68fec4dfe1f560359d6"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_102.txt",
+      "source_sha256": "9702d1b5b964134ee732cf1ddeccfdf40568d99e277bd0d41165b1ccfdfaaf1e"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:29Z",
+  "duration_seconds": 7.94,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_101.txt",
+    "source_sha256": "6f47186c8fea46bba75918aa52df95b1fb1807ac1513f1b7b1ef7d36e6f4aed8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a299d0e84def581660d7b2549a0ceb13a664cfbbbec0cb865ebb42008f0f1ee4",
+  "request_fingerprint": "381f012bdb42aba7445191d780b271bf6de3b8aa8a9102e7a9835c10495aacc3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,4% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,4% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade é estatisticamente significativa entre o quarto inferior e os demais quartos de desempenho.\n\nTendo em conta o quarto superior, 86,8% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 67,9% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "1f6a42ebb528481e37150be9a9fc6ff56f87874e6eff004c4280cdd7137f1045",
+  "window_size": 3
+}

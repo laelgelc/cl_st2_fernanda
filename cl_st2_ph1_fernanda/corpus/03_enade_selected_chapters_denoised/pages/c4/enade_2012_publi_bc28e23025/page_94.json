@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f258812ed4afb77006af8f1599d8c87d1ae9559471440f0f2",
+    "usage": {
+      "input_tokens": 1742,
+      "input_tokens_details": {
+        "cache_write_tokens": 1739,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1739
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1076,
+      "output_tokens_details": {
+        "reasoning_tokens": 864
+      },
+      "total_tokens": 2818
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_93.txt",
+      "source_sha256": "70d5be5efddf82653458bc87692bb7d44e497a594533a0dec6f9b5adae72e5bd"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_95.txt",
+      "source_sha256": "f99334802697ad7cdd87b990c8dc4322045fd80af7259da0fddb3f41115cc4c6"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:09Z",
+  "duration_seconds": 10.238,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_94.txt",
+    "source_sha256": "c4545f4777abbaaa983b8998f0c345fe44f680fdb2e601b5b17a65b9df60a36e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e5bbcf2ca3206d61b57a49ed946308576ac3fb9adff35ca4542e2329babcbdc3",
+  "request_fingerprint": "427924f50c482c27ba5305f481e7b3962069ce93f38f9c3980a2e7bae0e80160",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2012”, provavelmente associada a material gráfico; nenhum gráfico ou tabela está identificável no texto extraído da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 8,2% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,0% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade nos dois quartos superiores é estatisticamente significativa em relação aos quartos inferiores.\n\nTendo em conta o quarto superior, 86,6% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo no quarto inferior, 61,4% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "e285eae5512152259b79fa139ef56a463f406f06714fd1bd0d850a39e9ba911b",
+  "window_size": 3
+}

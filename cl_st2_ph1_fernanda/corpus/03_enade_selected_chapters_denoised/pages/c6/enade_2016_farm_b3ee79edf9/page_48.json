@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_038fb500f64dd2a6006af90227496087d19934c00fd8044871",
+    "usage": {
+      "input_tokens": 2748,
+      "input_tokens_details": {
+        "cache_write_tokens": 2745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 3091
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_47.txt",
+      "source_sha256": "d2e509c08f962f9572971c98b870fdbbdabad07a2e8ded61c953180dcf07dac4"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_49.txt",
+      "source_sha256": "f117727f8cf6d4887230cc0e53af7a16a54d4da6116e86f92e2c4d5964ee77fe"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:51Z",
+  "duration_seconds": 3.464,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FARMÁCIA.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_48.txt",
+    "source_sha256": "263c1aa1edb1e1a9ef715450aa29c5e10e40828c0ac865d7d5f84b4c4be1c451"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72173f3836b1e40b8b16859bf81cca0d7a50486b7f5d7250d2aec3d664b86bff",
+  "request_fingerprint": "66900c3053bcfdeaafd5b48074c9414b1e48a3a02f47e112d010ae11006ea02a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.3 e sua linha de fonte; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Farmácia em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (50; 60], o mesmo grupo modal da prova como um todo e acima do grupo modal para a Formação Geral.",
+  "text_sha256": "effef0fb4538be0c8fd6cbb63fc1e2f636561ead00fa4e123613512d9808a72a",
+  "window_size": 3
+}

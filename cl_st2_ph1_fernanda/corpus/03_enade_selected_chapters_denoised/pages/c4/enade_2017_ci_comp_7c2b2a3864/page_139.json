@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e69b932e387382006af904e2637087d19fe2780208f7b2f8",
+    "usage": {
+      "input_tokens": 1833,
+      "input_tokens_details": {
+        "cache_write_tokens": 1830,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1830
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 2292
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 138,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_ci_comp/enade_2017_ci_comp_page_138.txt",
+      "source_sha256": "b1fd79bca6da1055ab7e1bd377ba87fbfafb8bda17a06769193894a343bb6e6e"
+    },
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_ci_comp/enade_2017_ci_comp_page_140.txt",
+      "source_sha256": "e97af737914658b4a4a29eb6273aef9b3d6bcaf1c486f9134cabba1d490bdc43"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:30Z",
+  "duration_seconds": 4.716,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 139
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_ci_comp/enade_2017_ci_comp_page_139.txt",
+    "source_sha256": "447e84a948a03e399e90c0d86c645d313cf6be37810157d12636aadcff8642b7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4065485a2761d89e7261cd1c187989eb550eea6bc14f2c8104d8ca2c78668f3d",
+  "request_fingerprint": "c23c0f3f9948d20771a5fe23e2b35b54ec66a10432a41329e77a9c6ebf7afc24",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.5b, sua legenda e a fonte. O texto termina em “variando” na página-alvo; não foi completado com conteúdo da página seguinte."
+  ],
+  "status": "success",
+  "text": "Entre as Grandes Regiões, a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou de 28,1% na região Norte até 34,4% na região Nordeste. Não são observadas diferenças estatisticamente significativas entre as regiões.\n\nConsiderando-se o desempenho dos alunos de Licenciatura, nota-se ainda que 55,8% consideraram a extensão da prova adequada no quarto de desempenho inferior e 62,1% no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 65,3%, no segundo quarto, e de 56,0% no terceiro.\nNo Gráfico 4.6a, pode-se constatar as proporções de estudantes de Licenciatura que consideraram a prova longa ou muito longa em função dos quartos de desempenho, variando",
+  "text_sha256": "994fceb9c71ae8ea6cff6db0f58b1151a02c1427278453c10dd4be3f4312a660",
+  "window_size": 3
+}

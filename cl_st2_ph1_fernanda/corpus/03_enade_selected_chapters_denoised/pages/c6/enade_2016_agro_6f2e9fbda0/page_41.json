@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b5800f8faac0762006af90172d8a087d1bcb229cb3958ac54",
+    "usage": {
+      "input_tokens": 2345,
+      "input_tokens_details": {
+        "cache_write_tokens": 2342,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2342
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 393
+      },
+      "total_tokens": 2981
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_40.txt",
+      "source_sha256": "860afc7d1740767b2b44db38c282c76476dc2cc52ac374511e1a0afb06cd8181"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_42.txt",
+      "source_sha256": "b8f05a07a2a535c6866f58b3f46e527e9e3a517f8ce1906b0382cd1abedaa217"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:50Z",
+  "duration_seconds": 5.628,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_41.txt",
+    "source_sha256": "e870c2db0267bd3800dbad7348f090ff2c80491743ca576158c7379464091817"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb32dc732ad712e0b2024cf448e3b7818c143a70a6127c5512378fb1a10731a7",
+  "request_fingerprint": "2b2212962808f1583c0c072039b62bdf109610c4c34410af7dc356f9de5b7b75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.2."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (90,6), ao passo que a região que atingiu a menor nota Máxima foi a Norte (83,3). A Mediana do Brasil como um todo foi 58,5, sendo a maior Mediana obtida na região Sul (62,2), e a menor obtida na Norte (53,5). Em todas as regiões a nota Mínima foi zero.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (52,7), e as médias de todas as demais regiões17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (60; 70], seguido bem de perto pelo intervalo (50, 60].",
+  "text_sha256": "3f3e3fde6d165f318997c42f10ad6527a74963638b5419a5de7c0cb9e2afe189",
+  "window_size": 3
+}

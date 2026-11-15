@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_082f6c073a185405006af8ef38323887d18be1c268c9cfc3ba",
+    "usage": {
+      "input_tokens": 1330,
+      "input_tokens_details": {
+        "cache_write_tokens": 1327,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1327
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1554
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_46.txt",
+      "source_sha256": "e5e00bd1b91da7b3c11a177e858beb7a58ce918f3111ff24378c9b933329acf1"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_48.txt",
+      "source_sha256": "86b2b2b6dfec50ee97a3f9fbe247f522004ac7b5d92466d08ff5c585675971c0"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:04Z",
+  "duration_seconds": 3.325,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_47.txt",
+    "source_sha256": "9f77cc0815058103086a6bf94898e71eea8c4beb7b3fac8c63d1ea5df5f6adbb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "df0f75994201c3e69df2ab940d601049d59beb85c5d97907460c5f241434aef2",
+  "request_fingerprint": "5d4bcffe885cedb9cb7cc5542de33fccf1f3d4fc9f186ce8667e11c576988603",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, associada ao gráfico 3.11; o conteúdo gráfico não está presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (gráfico 3.11), observa-se um comportamento semelhante ao da prova como um todo, ou seja, não existe diferença estatisticamente significativa entre as médias das IES Públicas (46,6) e Privadas (43,0) no componente de Conhecimento Específico.",
+  "text_sha256": "154a66c3e86ae3ffa41e664ac7708b735d90c8daafab09b408d4390eefd1ad78",
+  "window_size": 3
+}

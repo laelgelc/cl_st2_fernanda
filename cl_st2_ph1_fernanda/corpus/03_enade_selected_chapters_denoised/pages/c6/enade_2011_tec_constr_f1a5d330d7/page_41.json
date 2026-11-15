@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af7d400560da7b8006af8ef359a8087d190410bfaad322086",
+    "usage": {
+      "input_tokens": 2055,
+      "input_tokens_details": {
+        "cache_write_tokens": 2052,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2052
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 537,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 2592
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_40.txt",
+      "source_sha256": "5807f91efe87fa74635e756984eed1bb02a28f6f0b3908b2682d334c702eece7"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_42.txt",
+      "source_sha256": "ddbb9d51c53a7e939ff480960bbdbf280b257753555e59130e61643751a4ec82"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:01Z",
+  "duration_seconds": 6.043,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_41.txt",
+    "source_sha256": "b9d831d3bdc807002d2cbad12a6ef44a574d8a7f80e3e2e9498103b4f061ab7e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e51048a7ed52c270ab48169d2add63b6940f1742d73fcc1b71908dc7afa2e319",
+  "request_fingerprint": "4ea3380e42ac262615b280652d2b4a558f56eae38643850a6c89096fcfdeb687",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral, segundo Grande Região do país. Vemos que alguns dos intervalos de confiança são bem largos, em especial o da região Sul. Este fato está relacionado com o tamanho da população envolvida nestas regiões: 15 alunos na região Sul, 26 na região Centro-Oeste e 33 na região Norte (ver Tabela 2.3).",
+  "text_sha256": "4b9c32ad93874e2019213bfbae8e2b7886734b94eb7006a517caffab88530e31",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_035c882448a26648006af91bd1b2f087d18329789a387fd2e8",
+    "usage": {
+      "input_tokens": 1725,
+      "input_tokens_details": {
+        "cache_write_tokens": 1722,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1722
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 201,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 1926
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_105.txt",
+      "source_sha256": "be6d6097d3a9ab2f3de595a826209b679831b44a47bc8fe94302f57e88be43f4"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_107.txt",
+      "source_sha256": "96aa1ca212ed7f2855142e5d63e45c2040d8525c8e4f1a1f8680ea7f982fcd3b"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:21Z",
+  "duration_seconds": 3.191,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_106.txt",
+    "source_sha256": "1343cbc4391e18a886f53b13f91488a16ae999357489479eb6916db7c3d63e08"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1d05495c153cf38cd268e0517300a49f54eeccbc4185db47c7263d7a7c3d293",
+  "request_fingerprint": "0d5287afa1b0efdc584a96f0147987d24e7799d28dceb9e59a1c47b1b53cd76f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, a legenda e a fonte do Gráfico 5.7; os dados gráficos não foram transcritos."
+  ],
+  "status": "success",
+  "text": "Como mostram os dados do Gráfico 5.7, o percentual de estudantes que consideraram o componente de formação geral da prova “Difícil” ou “Muito Difícil” foi maior entre os estudantes de CEFET/IF, alcançando 68,9%, enquanto entre os estudantes das faculdades, a organização acadêmica com a menor incidência, o percentual alcançou 52,4%.\n\nNo mesmo gráfico, é possível observar que a diferença de CEFET/IF para as demais organizações acadêmicas é estatisticamente significativa.",
+  "text_sha256": "502acbeea086669be0efb5ec90b6c7e3022525175386256a0e9f0da110985fb4",
+  "window_size": 3
+}

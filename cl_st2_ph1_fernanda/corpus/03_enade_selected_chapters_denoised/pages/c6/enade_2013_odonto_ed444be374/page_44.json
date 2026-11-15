@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a6748e0e0dee52006af8f4b30d0887d1980e828d3a8600b8",
+    "usage": {
+      "input_tokens": 1962,
+      "input_tokens_details": {
+        "cache_write_tokens": 1959,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1959
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 718,
+      "output_tokens_details": {
+        "reasoning_tokens": 496
+      },
+      "total_tokens": 2680
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_43.txt",
+      "source_sha256": "cf9c26568eeaf3ddf6832f5a5005963680cdb08b8f3bc33af35e3027890b1690"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_45.txt",
+      "source_sha256": "e4f7a1eb4f76c494801ae37d0ed186ddd8d6f27ac923519df33278f5ae7222c8"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:26Z",
+  "duration_seconds": 6.411,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ODONTOLOGIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_44.txt",
+    "source_sha256": "7a8a67a0d4b36d514ff50e3944cd48b5eb3596a2a9d9de74a0718330019df6ca"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4c0fb8cf2c94c70f25dcf932b3e4d2e316a4f0edcf398cdfed9d6c3aec046b4f",
+  "request_fingerprint": "c08025d14370b199ed7f88101c1e2a9358550c332b3e2a695a63312fb8389ec2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida nas regiões Nordeste e Sul (49,3) e a menor, obtida na região Norte (45,3). Vemos que o intervalo de confiança mais largo é o da região Centro-Oeste; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Centro-Oeste do que na Sudeste.",
+  "text_sha256": "d3d295561a8d45ae7e1260e0970733bf686bfe7d7f76d972a3a3ee37681f4d3c",
+  "window_size": 3
+}

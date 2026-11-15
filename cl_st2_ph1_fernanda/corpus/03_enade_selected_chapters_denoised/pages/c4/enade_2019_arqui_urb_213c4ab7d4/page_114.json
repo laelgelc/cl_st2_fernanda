@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f0e3efc6ad0cc97006af90f942b2487d1aa0d21352d2f0c7e",
+    "usage": {
+      "input_tokens": 1963,
+      "input_tokens_details": {
+        "cache_write_tokens": 1960,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1960
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 265
+      },
+      "total_tokens": 2484
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_113.txt",
+      "source_sha256": "4178541e88871c7b5cff11539299f8297c22854bf0de793f09ffd92d9fda244f"
+    },
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_115.txt",
+      "source_sha256": "88c7f8a30bde47979e929244b232242dc86b088344ecd984fc1cb88623b870f3"
+    }
+  ],
+  "created_at": "2026-11-15T01:49:08Z",
+  "duration_seconds": 5.647,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 114
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_arqui_urb/enade_2019_arqui_urb_page_114.txt",
+    "source_sha256": "8b89e30af6b24de08e568da5b06b6dde24d754026f59412c96338e7a26f934d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cd55744d0e93b07701956686803188bc6a1b5e64cfb33fa4cb8a6da2cb54cff0",
+  "request_fingerprint": "00558a9a10413095705e819fe2d03b4b576c9a6798a7925001c23bb09fd5f769",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.29.",
+    "Removido o valor isolado “0,9”, aparentemente rótulo de dado do Gráfico 4.30; confirmar a associação."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 76,1%, na região Norte, a 83,8%, nas regiões Nordeste e Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 4,1% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,3% os do quarto superior com a mesma resposta. A diferença entre os estudantes que optaram por esse motivo de dificuldade entre todos os quartos de desempenho é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 93,8% dos estudantes afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 69,0% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "6229fffce173aa999f3de267a6114fe8aea3698f753b959905c96aad548337a0",
+  "window_size": 3
+}

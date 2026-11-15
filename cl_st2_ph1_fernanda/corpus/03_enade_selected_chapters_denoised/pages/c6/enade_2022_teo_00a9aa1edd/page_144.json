@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_063de188344527a8006af920f6304887d189741cd7d3931c38",
+    "usage": {
+      "input_tokens": 2799,
+      "input_tokens_details": {
+        "cache_write_tokens": 2796,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2796
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 260,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 3059
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_teo/enade_2022_teo_page_143.txt",
+      "source_sha256": "e425544d2f5ebd7db21cea8b408f8e4c7f42238828e08cbc682d346675a61b53"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_teo/enade_2022_teo_page_145.txt",
+      "source_sha256": "e3342451719e97ef2397a73ee5f3ab2598a7f423e147ada8377409968cb89398"
+    }
+  ],
+  "created_at": "2026-11-15T03:03:18Z",
+  "duration_seconds": 3.568,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_teo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TEOLOGIA.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_teo/enade_2022_teo_page_144.txt",
+    "source_sha256": "a966a81609a02f923ff52e04d31cfaa6349de34297ef5073da8242e84bd889a8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e2fd472896a3061dfb3be08ad72bebe5fbf9ede4b2fa3374ae529904ef224e5d",
+  "request_fingerprint": "9b74699d762e0d334c1d51996b715adaf025bc2797038a75ce61caf306a7712a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 7.2, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 7.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. Nesse gráfico, a distribuição é unimodal, com moda em (50;60].\n\nDe acordo com o gráfico 7.2, o intervalo de notas que obteve maior porcentagem foi o de [50;60], que obteve mais de 20%. Os estudantes que deixaram a questão em branco ou cuja resposta gerou a nota zero [0;10] representam menos que 2,5%.",
+  "text_sha256": "20a6825a4d94747308c2949f7e5367dc48837cecb1a9550c4e31cfeec08b3593",
+  "window_size": 3
+}

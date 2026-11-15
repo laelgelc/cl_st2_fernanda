@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f96cc2f50b928f9006af8ee01ca4487d18abf45b1f22ea580",
+    "usage": {
+      "input_tokens": 1559,
+      "input_tokens_details": {
+        "cache_write_tokens": 1556,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1556
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 345
+      },
+      "total_tokens": 2174
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_88.txt",
+      "source_sha256": "6de07cdd36ddbfe87f022654f90106f7e3abe2158fa28cd041726cccea2ac0d6"
+    },
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_90.txt",
+      "source_sha256": "a57c6f61cd3261cd6278653e477d76bcd4ed8d3b61cdb625309a927521b1430c"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:53Z",
+  "duration_seconds": 6.793,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MATEMÁTICA.pdf",
+    "page_number": 89
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mat/enade_2011_mat_page_89.txt",
+    "source_sha256": "fcf4a600460fbf63aa3355bf80e58d1ff7ab1ae976569de3ad6bc828bf80fb1a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a61a91223f66c5c6de7a52fdd0fd36f81d3bb7256f932a363f84d703a1ba7f4c",
+  "request_fingerprint": "ef04628db3edcb73b896e00aa9867e3904fbe3aefb8eb329c805604a0e3e18d6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES source line at the top as likely belonging to graph material; the associated graphic is not present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "4.2 EXTENSÃO DA PROVA EM RELAÇÃO AO TEMPO TOTAL\nIndagados quanto à extensão da prova, em relação ao tempo total oferecido para a sua resolução (Questão 3), os estudantes apontaram, com maior incidência, a alternativa que considerava a extensão adequada, para todas as agregações consideradas (Gráfico 4.5, Gráfico 4.6, e, no Anexo II, a Tabela II.3).\nO percentual de alunos que responderam ser a extensão da prova adequada foi de 50,5%. Já 42,7% dos inscritos presentes consideraram que o exame foi longo ou muito longo e menos do que 7% o avaliaram como curto ou muito curto.\nEntre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou pouco: de 38,5% na região Norte até 46,0% na região Sul. A diferença entre as regiões Norte e Sul é estatisticamente significativa.",
+  "text_sha256": "a7530d67249058d88b8c606a9ef0f97f99d3e508bcc8db263367658f2f43e610",
+  "window_size": 3
+}

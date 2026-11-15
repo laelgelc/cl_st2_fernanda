@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a331c25b3551aa006af8edd758d487d1a9c871ee7238d8b4",
+    "usage": {
+      "input_tokens": 1371,
+      "input_tokens_details": {
+        "cache_write_tokens": 1368,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1368
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 384,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 1755
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_letras_por/enade_2011_letras_por_page_105.txt",
+      "source_sha256": "8737c17626f55d2e370b1f115cbd4555b355063518492bbe1b4789473f1941ab"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_letras_por/enade_2011_letras_por_page_107.txt",
+      "source_sha256": "a34af13ab695c1446757970fe898fbb838291848bc1061b28e2f8100b7e2e15b"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:11Z",
+  "duration_seconds": 5.11,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_letras_por/enade_2011_letras_por_page_106.txt",
+    "source_sha256": "1935bc8f55110bd56c9214c29c8a74b3c3a4a7b60c9ada7e0f330bbd0e73aff0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "104049d5d60683c345cc5faa1274fb8d9260fbfb3378f265f146a4375134a0d5",
+  "request_fingerprint": "d174f049a0a0ca589627de18668b83bd91100889b469e76c9a26828f14517d2a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que parece pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 76,6% e 55,9%. As diferenças entre os quartos são estatisticamente significativas e os valores evidenciam uma tendência crescente.",
+  "text_sha256": "c42e53126cd18a45a3e2ba1b3a2521ca782a199b4cbd61a93c1a7829dbc9ad4e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03004472da5c07bd006af8e7f7058c87d1bc28241d528fb5a3",
+    "usage": {
+      "input_tokens": 2478,
+      "input_tokens_details": {
+        "cache_write_tokens": 2475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 629,
+      "output_tokens_details": {
+        "reasoning_tokens": 191
+      },
+      "total_tokens": 3107
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_33.txt",
+      "source_sha256": "b73c7480da08e064113b5894bcf37b45714e7d2257685580c7b8e91c3c2f943c"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_35.txt",
+      "source_sha256": "f347c9ec7a9351032fee02e6d849852f2540a875a55e5de89a38e0fb04dd5293"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:06Z",
+  "duration_seconds": 6.075,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_34.txt",
+    "source_sha256": "f9b4ba26353ffecda17babbc63bc74d7d118d6de50b1908192feaea57b59f351"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d49485bb21898e5411cfc57eac1ab83994a271236af9294670c6e48044f81474",
+  "request_fingerprint": "921c3a5ef2a6642d1c0502acfd4c8240b2ba9de2efae03d80072311ac359e19b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, intervalos e marcas do eixo, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 35,16 na Região Norte a 44,13 na Região Sul. Entre os ingressantes os valores foram de 34,17 na Região Nordeste a 41,50 na Região Norte. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes quanto para os ingressantes. Nas Regiões Nordeste, Sudeste, Sul e Centro-Oeste, os concluintes apresentaram médias maiores do que os ingressantes, a situação inversa aconteceu no Norte. Todas as Regiões apresentaram concluintes.\n\nTendo como foco as categorias administrativas, destacou-se que somente as instituições federais e particulares estavam representadas. Sendo que as notas médias destas últimas foram inferiores para ingressantes (38,56) às das instituições federais (56,29). Houve concluintes (40,85) apenas para as instituições particulares. Os estudantes das instituições particulares se apresentam mais homogêneos do que os das suas contra-partes federais, já que o desvio padrão é o menor dos valores encontrados.\n\nConsiderando-se o tipo de Organização Acadêmica, os Institutos Federais de Educação, Ciência e Tecnologia apresentaram o maior valor para ingressantes (56,29), sendo que não têm concluintes. O maior valor para concluintes (42,43) foi apresentado pelos Centros Universitários; sendo que este é menor que o maior valor apresentado pelos ingressantes. Os Centros Federais de Educação Tecnológica não estavam representados nesta área.",
+  "text_sha256": "c089f75dadf2f67d02cab560f05cc0789810d1c5281d72c705b0223ee8bd88ba",
+  "window_size": 3
+}

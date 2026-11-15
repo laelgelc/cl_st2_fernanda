@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df5f69f25932baa006af907d22ea487d195aeb1a2dec1d984",
+    "usage": {
+      "input_tokens": 3201,
+      "input_tokens_details": {
+        "cache_write_tokens": 3198,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3198
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 671,
+      "output_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "total_tokens": 3872
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_202.txt",
+      "source_sha256": "4a5bf1ec9a79064e8cb89e8c92005ee4785281e222a3524c81d97c8bdd187baa"
+    },
+    {
+      "page_number": 204,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_204.txt",
+      "source_sha256": "17f5b44990ce1725f4efa6f47f9c09da72abb4bc9547b031fcc4d0e26337ede4"
+    }
+  ],
+  "created_at": "2026-11-15T01:16:02Z",
+  "duration_seconds": 6.716,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FILOSOFIA.pdf",
+    "page_number": 203
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_203.txt",
+    "source_sha256": "323c7262fa117ac1a10d4306d9f129939456358ab3b141e0efcf95fdc9f7a33a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1aaed3a2a6ace352255b7917c56f146972ae2944c54f8edf998ebd97a166317d",
+  "request_fingerprint": "c787ee889ab56dc2b185726f80332cf103888523dde735e61f7fb98198bfa3d4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e linha de fonte.",
+    "O texto termina em “as”, aparentemente continuando na página seguinte; nenhuma palavra foi completada."
+  ],
+  "status": "success",
+  "text": "A Média das notas da prova, como um todo, para os alunos de cursos de Bacharelado foi 46,7, sendo que os alunos da região Norte obtiveram a Média mais baixa (32,2), e os da região Sul, a Média mais alta (49,2). As demais médias foram: 42,1 na região Nordeste, 49,1 na região Sudeste e 46,7 na região Centro-Oeste.\n\nCumpre notar que ainda que as notas dos cursos Presenciais sejam comparáveis com as dos cursos a Distância, dentro de uma mesma habilitação, não é possível comparar as",
+  "text_sha256": "a210ae584e40f2784984e6bb57b6a382dfbaafa57bdde896ed6748da78c17341",
+  "window_size": 3
+}

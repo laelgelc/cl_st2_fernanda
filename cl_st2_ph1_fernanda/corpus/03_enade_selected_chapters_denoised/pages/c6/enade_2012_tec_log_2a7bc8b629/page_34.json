@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0351795bef4d8480006af8f250291c87d19f67e9db4e041da6",
+    "usage": {
+      "input_tokens": 2446,
+      "input_tokens_details": {
+        "cache_write_tokens": 2443,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2443
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 411,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2857
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_33.txt",
+      "source_sha256": "639bc5ab0f42479dd871c3610aad8ace21b1806aa447890f853be5872c7bca15"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_35.txt",
+      "source_sha256": "edfecb9413608a32ccd256eddd0c88133f1591683ad8bdd448483c49d31b33ae"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:16Z",
+  "duration_seconds": 4.373,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_34.txt",
+    "source_sha256": "8f719a03aae72b81df2cc0afce06e62b0e9a093573da44b74bb447b0d98392ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f0f8da87533b0c73a3d1904ceb82b48e2d408963649c88d47a62b4eec16261f9",
+  "request_fingerprint": "91ae09654a446edc4cd6147490faa935871173e258c46ca2b051c23ba3fe290e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Sudeste (89,6), ao passo que a região que atingiu a menor nota máxima foi a Norte (78,9). A mediana do Brasil como um todo foi 43,6, sendo a maior mediana obtida na região Sul (45,9) e a menor obtida na Centro-Oeste (39,5). A nota mínima foi zero em quase todas as regiões, exceto nas regiões Norte (12,1) e Nordeste (3,2).\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,07) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam pequena assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A exceção fica por conta da região Norte que teve pequena assimetria positiva (0,06), concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado esquerdo.",
+  "text_sha256": "179f4f243ec0f1b0ee6f263f871724050b4ce230fe7116aed2f9947137c8cd8e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bed62b135d7a72f006af8eee2fa7087d1afd803c921c1a9af",
+    "usage": {
+      "input_tokens": 2078,
+      "input_tokens_details": {
+        "cache_write_tokens": 2075,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2075
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 575,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 2653
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_36.txt",
+      "source_sha256": "f335cb43f7036ad1065c2b228ef79ffea2872fa6c82ee6f8e2591422015961f1"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_38.txt",
+      "source_sha256": "12fdc853d452a2f26e69730e8c74cb957a613710accbbc6e6b1ceba71394ccf4"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:38Z",
+  "duration_seconds": 6.606,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_37.txt",
+    "source_sha256": "7ea278e53215f3d1763e167d5c9a413bcab10f234d1a26a2c9ecba775c9bbad4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f438171b6e9e51fc1a94636b94ede7f893c7103bc9c4dccbd4351528dfb1556",
+  "request_fingerprint": "b7f9204c1cb2a14d60e9c733af7118cf3abbbdd3d2e8be34bbbb7d00cc57525c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico da página e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”), aparentemente referente ao Gráfico 3.1, cuja discussão prossegue na página."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), bserva-se que não existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Nordeste (41,5) e a menor, obtida na região Norte (35,1). Como apenas 16 alunos da região Norte realizaram a prova do ENADE/2011 (ver tabela 2.3), o intervalo de confiança da média desta região é bem mais largo do que o das demais regiões.",
+  "text_sha256": "ee85305fd4b1def4bc23eaefe896537b5767b8c41b1da5fbab89e06373e1ae85",
+  "window_size": 3
+}

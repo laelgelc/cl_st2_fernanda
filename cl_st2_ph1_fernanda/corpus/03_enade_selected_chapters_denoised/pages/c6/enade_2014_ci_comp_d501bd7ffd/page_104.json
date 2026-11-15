@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d8ab6d46a4610b4006af8f682151487d1ace7d3892d50f644",
+    "usage": {
+      "input_tokens": 2578,
+      "input_tokens_details": {
+        "cache_write_tokens": 2575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 2890
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_103.txt",
+      "source_sha256": "6fe792f1ff857f84b751ab47656ab30f438f8fecbe21f789af2c88f59c80aa9c"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_105.txt",
+      "source_sha256": "c40bd70d4a41dba8dfe47d75084914ad485c37cd7b6904827c309b736227d806"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:09Z",
+  "duration_seconds": 4.211,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_104.txt",
+    "source_sha256": "c6e79f0e3620596fe0d2b88be2bf7669c1f14d8232ffe8dd25c8352002c3ab89"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "228dfe60334df006834e021021cfd9d3b0b4e72aa54c58b435d903b23456d2d8",
+  "request_fingerprint": "45340bdd0cd2cac820dbf560aa8b7d486f5fcd9cc56e31bc86e1906b7a085a7a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.21, incluindo título, estatísticas e fonte.",
+    "Removido o material gráfico do Gráfico 3.15 e sua fonte."
+  ],
+  "status": "success",
+  "text": "Computação do Brasil, como também em cada uma das regiões, a mediana foi zero, o que significa que pelo menos a metade desse grupo de estudantes tirou nota zero ou deixou a questão “em branco”.\n\nO Gráfico 3.15 representa a distribuição das notas da questão discursiva 5 no Componente de Conhecimento Específico (Bacharelado). Mais uma vez, grande número de estudantes de Bacharelado deixou a questão em branco, correspondendo à moda da distribuição, com quase 35%.",
+  "text_sha256": "58bc5a9cdbc6c20db774f771065e164fdec00d225c39b50065e78576294569ce",
+  "window_size": 3
+}

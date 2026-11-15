@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f2fd0df1111cd7006af8fd41792887d1a83f74acce233fb6",
+    "usage": {
+      "input_tokens": 1668,
+      "input_tokens_details": {
+        "cache_write_tokens": 1665,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1665
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 2088
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_cont/enade_2015_ci_cont_page_98.txt",
+      "source_sha256": "6afe403b64953c56e45d15745d3142a80e043ba8be37e4d689eb20161633e869"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_cont/enade_2015_ci_cont_page_100.txt",
+      "source_sha256": "a6adc998142cb2ce451321bf6d6f5cb27bfd9d11eb6f8673cda2bf7eab154d6a"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:57Z",
+  "duration_seconds": 3.889,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_cont/enade_2015_ci_cont_page_99.txt",
+    "source_sha256": "524061dbdd84cf02aabcb5ef06d78a579d38ecc68ccfebd819b8a9afa252f9ce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "96fefa8505a8a33d1325ded658f68c83f4b025b3ba3965b9f683d7c2c8bb054a",
+  "request_fingerprint": "87135a771e2e83a13ec72b35bf4d45f02c0a309a4310b23827337b7db80e0ee8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.5, incluindo título e fonte. A última frase continua na página seguinte; foi mantida apenas a parte presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que responderam ser a extensão da prova adequada foi de 58,9%. Já 33,7% dos inscritos presentes consideraram que a prova foi longa ou muito longa e 7,4% a avaliaram como curta ou muito curta.\n\nEntre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou pouco: de 29,4% na região Norte até 35,8% na região Sudeste. A diferença entre a região Norte e as regiões Nordeste, Sudeste e Sul é estatisticamente significativa.\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 59,3% consideraram a extensão da prova adequada no quarto de desempenho inferior e 57,4%",
+  "text_sha256": "2d428c0db7bb21bdca1a41bb33b6e684c7bda2365f3ed1188f5cddf70ad8cc0e",
+  "window_size": 3
+}

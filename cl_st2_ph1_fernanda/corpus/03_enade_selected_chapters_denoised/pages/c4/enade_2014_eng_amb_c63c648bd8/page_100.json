@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e6ef7070b2d8b85006af8f733ce1887d1874735d1616f9925",
+    "usage": {
+      "input_tokens": 1707,
+      "input_tokens_details": {
+        "cache_write_tokens": 1704,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1704
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 530,
+      "output_tokens_details": {
+        "reasoning_tokens": 346
+      },
+      "total_tokens": 2237
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_99.txt",
+      "source_sha256": "5920d4b7f05ba1360bbcb4ac20dfe2d2b52196c0f58bca095bb1cfbc47ea61ce"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_101.txt",
+      "source_sha256": "b5bc1b8d00788a5f511c30492f5ffa72d2c916c0c02bcb30e8ef1a69cf47e352"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:07Z",
+  "duration_seconds": 6.156,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_amb/enade_2014_eng_amb_page_100.txt",
+    "source_sha256": "268c98a48b1d17dd242b79568fe0b71e62d47ec09e3e018e14b60945e50ea50a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4f05c0f212ccc40660d13d9f0f0a8318ea9ba160396d6fefaf0b23ab218bf68b",
+  "request_fingerprint": "74c7c8630a6a8efbc181b73088f363169e766d36a3168395c643137e0d308a97",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 54,2% consideraram a extensão da prova adequada no quarto de desempenho inferior e 53,2% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 54,9% no segundo quarto e 53,9% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência crescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "ca702d502ec324b907d544d211cbc14ff7f8d073a873c0d5f95bd378f71d5e7a",
+  "window_size": 3
+}

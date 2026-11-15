@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060743eb8e0b06ed006af902cc22bc87d19bff827cd19374de",
+    "usage": {
+      "input_tokens": 2336,
+      "input_tokens_details": {
+        "cache_write_tokens": 2333,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2333
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 2835
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_48.txt",
+      "source_sha256": "7ae3e1d2b40db90169806d06c51df540409a699ae030a9fdacce9bb42edcbcb7"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_50.txt",
+      "source_sha256": "10f664d5775f569da0524b1ec7102a6af674ee1e3f1da82bea02192c63049d22"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:35Z",
+  "duration_seconds": 4.698,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_49.txt",
+    "source_sha256": "bcf93904bf75ca48e48687ea7d73843c25efecde07cce7da0cbf85fb84768dd6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a8bdf48d7410efb58019df953a8262b6d534d7fce8232fea4823b7e0675bcb70",
+  "request_fingerprint": "07f8e6ec80ccb1154dc90dfdfb2e20ad988778e0558c786b88be951d127ccedd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2016”, que pertence ao Gráfico 3.3 anunciado na página anterior; o gráfico não está visível no texto extraído."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (67,2), vindo, a seguir, a das Faculdades (66,8) e, depois, a dos Centros Universitários (64,0). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o dos Centros Universitários (12,7). As Faculdades obtiveram as maiores notas Máxima (96,7). As Universidades obtiveram nota Máxima igual a 95,2 e os Centros universitários obtiveram nota Máxima igual a 92,8. As medianas foram: 69,0 nas Universidades, 65,3 nos Centros Universitários e 68,2 nas Faculdades. A nota Mínima foi zero para todas as Organizações Acadêmicas. Observa-se que existem diferenças estatisticamente significativas ao nível de 95% no Componente de Conhecimento Específico entre as notas dos Centros universitários e das outras Organizações Acadêmicas.",
+  "text_sha256": "0a0c8630e91f223a371a8817414db5953ca74a7e9e447e0aaa8a0bf0caad65c1",
+  "window_size": 3
+}

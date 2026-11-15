@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_075dbe691201042f006af8f4c85a0c87d1aed78c5baa902221",
+    "usage": {
+      "input_tokens": 2266,
+      "input_tokens_details": {
+        "cache_write_tokens": 2263,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2263
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 225
+      },
+      "total_tokens": 2647
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_81.txt",
+      "source_sha256": "1319ecc8106ef9865501f9ee5da8f3b9dd22074f2443cd01122428e62563e8fd"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_83.txt",
+      "source_sha256": "dcd4404f508ae88ed3ce5c70c53d8500d937ca8cd4623dd625489d0892d20e55"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:48Z",
+  "duration_seconds": 4.587,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ODONTOLOGIA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_odonto/enade_2013_odonto_page_82.txt",
+    "source_sha256": "ad9b263e3c7b05cdc9e57c4fbcc3b4b92ae5e9dc350e9848bb11caeb1a06bfec"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc95d397754cff8086ff16918b0697d5f23de58e80f3bf4ec8c1ec4346f7f692",
+  "request_fingerprint": "bf160e499f0d8648aa6411d2d4949ff633606fb497c13dc75f68d7e44d0a9d3e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte. A página contém prosa sobre o Gráfico 3.22, preservada; não foi identificado material gráfico a remover nesta página."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Esta distribuição é unimodal com moda no intervalo (90; 100].\nO coeficiente de assimetria para todos os alunos é -1,06 e para todas as regiões se mantém negativo, variando entre -1,39 na região Centro-Oeste e -0,98 nas regiões Norte e Sudeste.",
+  "text_sha256": "76295b95ba104c001d889e9a1acc3f53378098246850534eb9594bc57732fcfa",
+  "window_size": 3
+}

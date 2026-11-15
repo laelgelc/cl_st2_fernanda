@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0510dacdc27005bf006af8fefac55087d1a837715cfd02ff1b",
+    "usage": {
+      "input_tokens": 2855,
+      "input_tokens_details": {
+        "cache_write_tokens": 2852,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2852
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 3622
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_49.txt",
+      "source_sha256": "cefafbbee6be80ce8fe4241684a16bfa85e06b60796b6bbf109a881544bf5391"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_51.txt",
+      "source_sha256": "f0ca840c7cfa0c7c695c427b4bd1edb4aaf4b589e13626e3f812063c04175403"
+    }
+  ],
+  "created_at": "2026-11-15T00:38:18Z",
+  "duration_seconds": 6.602,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC DESIGN GRÁFICO.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_50.txt",
+    "source_sha256": "032c8d70a1a44efaa7404dd8be30c6db69b8d1c76f3cf6ac42e7347a4c90a5cd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f61b5a581554e10958fe48d0b6ed4d4ccd41e23e7d615b254980eefdcf168d4",
+  "request_fingerprint": "d19b5f2524e5a1865276a466b3dbee233ab4139055267553eda23f3d4c69c3c8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.9, seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil. Duas questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto bisserial).",
+  "text_sha256": "cdf9d2e33c0cb21738a4b0af792cb1136bbb9d44349a7ddd261f9401feceb42c",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df058b5c4b6736b006af8f598a37c87d1bb6e543151981755",
+    "usage": {
+      "input_tokens": 1641,
+      "input_tokens_details": {
+        "cache_write_tokens": 1638,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1638
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 209,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1850
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_48.txt",
+      "source_sha256": "0c3be07f78a90b614ed569e33b4e40b7cf84cdc5df4c3cbfabbbdb9c98ec7914"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_50.txt",
+      "source_sha256": "ff393a102c542b93a173db8f67173c3e7ae951fee18fdeb62268a710c756d5e7"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:16Z",
+  "duration_seconds": 2.391,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_49.txt",
+    "source_sha256": "c0e6cdb49817a50ad14b71f2be3a4c71236ea3f28a2e66422d2a6de3a306215c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6e226f370065acb1d2c3635df9169ff2fa3ed4aa8aee09bf95b2f606da57375",
+  "request_fingerprint": "9904868a8baf3118a919894252d753bf66564053d830e2e99545e296b145d85f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», que pertence ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que existe diferença estatisticamente significativa entre as médias das Universidades e das Faculdades. Nas Universidades, a média (44,0) é mais elevada do que em Centros Universitários (42,2) e Faculdades (40,2).",
+  "text_sha256": "d040e8711dcc54d19ae02822810e84b3296dbeccc7ea889156a5a3cc6bd99574",
+  "window_size": 3
+}

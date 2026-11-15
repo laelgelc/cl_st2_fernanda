@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_076ca3fff8372770006af8f815dcb487d1aeae5cc3b5400719",
+    "usage": {
+      "input_tokens": 1578,
+      "input_tokens_details": {
+        "cache_write_tokens": 1575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 2041
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_contr/enade_2014_eng_contr_page_104.txt",
+      "source_sha256": "a300c10fffbb848695388b8e1a89b005931c593dd8014614ede108fe18da3238"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_contr/enade_2014_eng_contr_page_106.txt",
+      "source_sha256": "753c1a39c33055e070548f5c294d99b146f6e90975cc7e6d18175fafa653ed24"
+    }
+  ],
+  "created_at": "2026-11-15T00:08:53Z",
+  "duration_seconds": 4.24,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_contr/enade_2014_eng_contr_page_105.txt",
+    "source_sha256": "b44aad7e1ca78c1582c7a9ce060221f8f939259158f7c0169af4f52556b8a9a8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b762dcbe7349fe5d7430ef0f6cac3dbd89c50e5a8017c0f57f69145742a9212a",
+  "request_fingerprint": "e2dc3a034a13e154254a504901d2d94af05347d56ba1487c2a0786b33991f0c8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2014” belonging to graph material; graph content is not present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "4.7 TEMPO GASTO PARA CONCLUIR A PROVA\nAo responderem sobre o tempo de conclusão da prova (Questão 9), mais da metade dos estudantes (74,2%) afirmou ter gasto entre duas e quatro horas (Gráfico 4.17, Gráfico 4.18 e, no Anexo II, a Tabela II.9).\nConsiderando-se as cinco Grandes Regiões brasileiras, o percentual dos que utilizaram entre duas e quatro horas para finalizar a prova apenas nas regiões Nordeste (67,6%) e Centro-Oeste (70,1%) foi inferior ao percentual nacional. Nas demais Grandes Regiões o percentual de alunos que dispensaram entre duas e quatro horas para concluir a prova, foi superior ao percentual nacional, como mostra o Gráfico 4.17.",
+  "text_sha256": "fc41b26ded52c15fae118e3aaf5597c3110b5d3be28397f10d8101cf1119ea78",
+  "window_size": 3
+}

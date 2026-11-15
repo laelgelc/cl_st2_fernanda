@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dabe4cfabd9a7ab006af8eb58d9c487d1b4bd23c6c618dac9",
+    "usage": {
+      "input_tokens": 2531,
+      "input_tokens_details": {
+        "cache_write_tokens": 2528,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2528
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 481,
+      "output_tokens_details": {
+        "reasoning_tokens": 209
+      },
+      "total_tokens": 3012
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_84.txt",
+      "source_sha256": "2a036d351ffb0a301e513de6d7789fde9302a0643c4aec274a0618aaee71eb48"
+    },
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_86.txt",
+      "source_sha256": "36964fe2e6ee48088778f7b4212119955a5a263849175cc792b5e0b2c3f6c1f2"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:32Z",
+  "duration_seconds": 5.59,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 85
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_85.txt",
+    "source_sha256": "8f8977a0a28eb3f7cf61fc12bbb616225ec82035e52829420a14f5046343591e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c732c12469b558343ddb539e7dc1e73619375c2f7e4a791dd5ed1cfcf5d6847e",
+  "request_fingerprint": "2dddea085a38d0fc8be304f6f93ee27ed3f25aaaf8d30065d9fb7939d0cf590e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral para alunos de Bacharelado, Licenciatura, Sistemas de Informação e Engenharia de Computação. Observa-se que a maior frequência corresponde aos alunos que deixaram a questão em branco para todas as quatro modalidades de curso. No Gráfico 3.20 nota-se, também, que são bastante similares os comportamentos das distribuições de notas do Bacharelado, Sistemas de Informação e Engenharia de Computação que possuem coeficientes de assimetria, respectivamente, iguais 0,02, –0,02 e –0,05. Por serem coeficientes muito próximos de zero pode-se considerar que estas distribuições são simétricas, como se observa nos histogramas. Já para a distribuição de notas dos concluintes de Licenciatura o coeficiente de assimetria é negativo (–0,35) e nota-se uma cauda um pouco mais prolongada do lado esquerdo do gráfico. Comparando-se o histograma deste grupo de alunos com os demais vemos que nos intervalos acima da nota 40 eles estão em maior proporção.",
+  "text_sha256": "97cb70f22679380c716cb316ffca31d2e2a2421caad823cb976390d9ca2a39a6",
+  "window_size": 3
+}

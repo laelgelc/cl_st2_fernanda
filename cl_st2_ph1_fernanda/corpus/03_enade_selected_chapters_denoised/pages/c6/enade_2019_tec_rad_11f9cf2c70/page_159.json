@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0186c2d77b628ce0006af91614a0fc87d1a9c392cff1c19aea",
+    "usage": {
+      "input_tokens": 3300,
+      "input_tokens_details": {
+        "cache_write_tokens": 3297,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3297
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 923,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 4223
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_158.txt",
+      "source_sha256": "cd04d9d530cb22e03b86347a936698f448695aaad36392288f7f93bf092c13c7"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_160.txt",
+      "source_sha256": "a9ff4ac385b44a39e24acd67c2c5f118fac553d1a4f31c971b0646daf03760bb"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:52Z",
+  "duration_seconds": 8.276,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_159.txt",
+    "source_sha256": "484feb226d347d86a1ada7d5ba6d23a3128c71b050dca82fcfc0cb33d63092d7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cd03f701978e388834dd1e025f632db27ba35207d8eef4bf092c9bf75aeffb55",
+  "request_fingerprint": "1994d71e98f9fab4280ea2b1cb5e7e1361e5b05d35b09626161233e84a474c15",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte.",
+    "A página termina com “O máximo”, trecho de uma frase que continua na página seguinte; não foi completado."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (≤0,15).\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelha (≤0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (≥0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões válidas (uma foi anulada pela Comissão Assessora de Área - CAA), nenhuma teve o Índice de Facilidade classificado como Muito fácil, assim como nenhuma questão foi tida como Fácil. Cinco questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,53 do Índice de Facilidade, ou seja, houve entre 41,0% e 53,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, por obter índice 0,40. Uma outra questão apresentou 11% de acertos, razão pela qual essa questão foi classificada como Muito difícil. E a questão 1 foi anulada pela CAA. O Índice de Facilidade variou de 0,11 a 0,53 e o de Discriminação, de 0,27 a 0,51. Todas as questões, quanto ao Índice de Discriminação, foram tidas como Muito bom, com exceção da questão 5, que foi classificada no nível Médio.\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Médio e Difícil: cinco, na categoria Médio (questões 2, 3, 6, 7 e 8), e uma, na categoria Difícil (questão 5). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,51, e foi considerada Médio em termos de facilidade, com uma proporção de 0,44 acertos. O máximo",
+  "text_sha256": "06aa8c42ac42e391600b35b0e198e99096de05f8fd95fd9e772bb7e23188618f",
+  "window_size": 3
+}

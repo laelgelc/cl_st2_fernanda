@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0704637ae42a7a46006af91793eeb487d183bdb45b5e650448",
+    "usage": {
+      "input_tokens": 2614,
+      "input_tokens_details": {
+        "cache_write_tokens": 2611,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2611
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 518,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 3132
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 297,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_297.txt",
+      "source_sha256": "cdbe3b9a3c3f1565ae468f87a77a2dc77787e9578af8de6bb06b59642046951b"
+    },
+    {
+      "page_number": 299,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_299.txt",
+      "source_sha256": "c605568ee1c6e9c78f2c21938e7170185c4793ed85edab16f00d7a1d1e82f47e"
+    }
+  ],
+  "created_at": "2026-11-15T02:23:15Z",
+  "duration_seconds": 4.642,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS DA COMPUTAÇÃO.pdf",
+    "page_number": 298
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_298.txt",
+    "source_sha256": "1ea2fd19901bc538c5dc2b93c681b5468745aea563250e780562b7e304b9801f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6550509b992573a9d80dee68eec2102cb924b22fe3643b66d4118bfba35e57b4",
+  "request_fingerprint": "ce94337ed507307d5337fe4b0324f446baacd221092b0521f3f446059956ef87",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 41,6% escolheram a alternativa E (em vermelho), 31,3% escolheram a alternativa B (em verde, gabarito), 10,7% escolheram a alternativa A (em azul), 10,6% escolheram a alternativa D (em laranja), e 5,7%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,47) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 65,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 85,0%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo IB.",
+  "text_sha256": "292af21e16deb4d032d40a57a7eef1ebc9e422ee6e04f8c87870fa3bbb8c130e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_083c854cf3b1f72f006af8f1212cf887d1a4a3974e32f45cbc",
+    "usage": {
+      "input_tokens": 2094,
+      "input_tokens_details": {
+        "cache_write_tokens": 2091,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2091
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 270,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2364
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_70.txt",
+      "source_sha256": "83313cdbede0e96fcba6263d8fe7529d4653bdb3718f0aec1499946504694d3a"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_72.txt",
+      "source_sha256": "70ce77549d057e658bff899a6e1e8e69f13d4bf94b5aaec3df5ab97df307bf8c"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:13Z",
+  "duration_seconds": 3.137,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_71.txt",
+    "source_sha256": "91da66c9ab9c66cf6298e2b7379db729ffeb9cf3af86ba37212155860acc2918"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ae523b3d824286d40ee26c7e4b3d74c0ec2f95bf802e9dd9e178c918977b910b",
+  "request_fingerprint": "49dac6c5d0454952c45dd6da2379579ddf2a28c5c260af94ba47dbbe41861012",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é unimodal, com moda nas questões em branco (também com nota zero). Considerando-se em separado a distribuição das notas dos alunos que resolveram a questão 3, observamos que a moda seria no intervalo (60;70]. O gráfico é assimétrico à direita, com coeficiente de assimetria 0,51. Em todas as regiões o coeficiente de assimetria também é positivo (entre 0,40 para a região Sudeste e 0,83 para a região Centro-Oeste).",
+  "text_sha256": "6bdb29b72564be1517b52615ac1172736a188d191640a7361620a19ffce0153b",
+  "window_size": 3
+}

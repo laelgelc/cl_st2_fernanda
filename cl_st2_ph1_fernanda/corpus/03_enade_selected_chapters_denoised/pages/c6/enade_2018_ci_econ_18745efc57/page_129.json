@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_017065f12c615563006af90c67294887d1bd4ed28ae7e1af7e",
+    "usage": {
+      "input_tokens": 3146,
+      "input_tokens_details": {
+        "cache_write_tokens": 3143,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3143
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 3591
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_128.txt",
+      "source_sha256": "dab569241e554788444e75f439321c87d2a222847dff91ac026085ee2cf1f6e9"
+    },
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_130.txt",
+      "source_sha256": "59c0ed056a771c4f8b7d0301da92e2de482208540017459a36e6f9d352b53069"
+    }
+  ],
+  "created_at": "2026-11-15T01:35:35Z",
+  "duration_seconds": 4.381,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 129
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_129.txt",
+    "source_sha256": "6241f57459039d87a94f2ea68d944586480afad3f9be44de1e0cc42918730c58"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1b01efbac256170d34f554c9e4aedb52160b14e201efcff6c59e73d4cc94989",
+  "request_fingerprint": "8c5f9b629885fa01adf3d26a2d60466263e777e1a5d94ee92671045e1b8bd2e1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta simultaneamente a classificação dos dois índices. Dentre as questões que alcançaram os maiores índices de discriminação, uma delas foi classificada com Índice de Discriminação Muito bom, a de número 25. Seu índice foi 0,46, e, quanto ao índice de Facilidade, foi classificada como Médio, com 42% dos estudantes marcando a opção correta. A questão de número 33 foi a mais difícil dentre as 27 questões específicas válidas, com baixo Índice de Facilidade, apenas 17% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,15, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 23, com Índice de Facilidade 0,18, o que, em termos percentuais, corresponde a 18% de estudantes que responderam acertadamente. Já 0,09 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 23 e 33, além das questões 21 e 29, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "ce9c3ec00dbe122da32b07dd9a7c5188ae7388371a4b30568c2b0bf266289721",
+  "window_size": 3
+}

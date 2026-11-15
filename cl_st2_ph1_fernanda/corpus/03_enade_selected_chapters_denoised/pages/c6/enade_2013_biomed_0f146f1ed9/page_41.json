@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07214e80e68117fa006af8f31a60d887d18c77cc8ebe644d7d",
+    "usage": {
+      "input_tokens": 1561,
+      "input_tokens_details": {
+        "cache_write_tokens": 1558,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1558
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 400,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 1961
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_40.txt",
+      "source_sha256": "26e3c3d215a26b10e0393ce8bb9008b5edb4abb60fcdb133560f17a7d028ead8"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_42.txt",
+      "source_sha256": "d0c18004d2464710d1e3a0071b18d00880c9b05b035a372a466fd830e4f75557"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:38Z",
+  "duration_seconds": 4.213,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_41.txt",
+    "source_sha256": "3062705d0f73dfeecfda712d06f56a4fb3ff7f803faa34edcdea54a489ab68e1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "703f785db08761f7a8e4967f5ec2b0f20485e89c333686b84a46df95ed63e6e5",
+  "request_fingerprint": "ef65a6e70e32da143b6cc099ec1acdef544f766d365279dd9bff76b01fbba56e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, que pertence ao material gráfico; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (54,7) é maior que a dos alunos de IES Privadas (46,5). A diferença entre as médias das regiões Sul e Norte (10,6), a maior e a menor média por região, é superior a diferença entre IES Públicas e Privadas (8,2).",
+  "text_sha256": "e0534dfbf3df99e47bf45f4e1c59815b376a57480c4f77acbf20a3347ce042e1",
+  "window_size": 3
+}

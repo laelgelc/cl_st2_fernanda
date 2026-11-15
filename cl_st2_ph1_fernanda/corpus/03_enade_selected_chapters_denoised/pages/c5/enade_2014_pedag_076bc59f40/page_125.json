@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fe35cbfc9ef2a26006af8fb0cb4e087d189cd566f85832cec",
+    "usage": {
+      "input_tokens": 2752,
+      "input_tokens_details": {
+        "cache_write_tokens": 2749,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2749
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 3006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_pedag/enade_2014_pedag_page_124.txt",
+      "source_sha256": "d9dac7072e4db84d532699b2223601ef1e48b5a961196572ea14f8c8df2edd62"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_pedag/enade_2014_pedag_page_126.txt",
+      "source_sha256": "5be04a561a6a409bfd981f3193c3444b99fca2af0b418368cbc8d90745e64846"
+    }
+  ],
+  "created_at": "2026-11-15T00:21:32Z",
+  "duration_seconds": 4.647,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PEDAGOGIA.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_pedag/enade_2014_pedag_page_125.txt",
+    "source_sha256": "790350d2a4e8002d0c31d92877fbfabbc9b0faac0aae29e0d474145c72c88dda"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8c9f5d436ad9d87b28faa8179ed21deb58d58bad1aac2ed8af90e4c472241561",
+  "request_fingerprint": "d8cb5779e2c8f5f65f8694c62ad2bdab96fbc7a68c589dc0de3a4a320be911db",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e linha de fonte. O texto em prosa termina no fragmento “Cinco” nesta página; não foi completado com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram 47 dos 94 cursos participantes. Desses, 21 cursos ficaram alocados ao conceito 2, conceito modal, seguidos de 16 cursos que obtiveram conceito 3, enquanto somente um curso não recebeu conceito (SC). Cinco",
+  "text_sha256": "592d7c5432091f71210082c6a5263a9a365f435127ea937401669d77f63085e9",
+  "window_size": 3
+}

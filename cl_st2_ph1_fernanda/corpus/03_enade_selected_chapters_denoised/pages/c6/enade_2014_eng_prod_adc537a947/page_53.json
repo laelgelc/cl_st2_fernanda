@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b849105498be33f006af8f859354887d18742eebfa486fa48",
+    "usage": {
+      "input_tokens": 2480,
+      "input_tokens_details": {
+        "cache_write_tokens": 2477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 737,
+      "output_tokens_details": {
+        "reasoning_tokens": 431
+      },
+      "total_tokens": 3217
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_52.txt",
+      "source_sha256": "febf14f8fbf9913fa5e2906503b31363e6552449af8f43bacdf62e0158e1d8f6"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_54.txt",
+      "source_sha256": "3bf16802b07bfffb5770f1d1f714baf6d416a70894e5c02dce91baabc5327d51"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:01Z",
+  "duration_seconds": 8.957,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_53.txt",
+    "source_sha256": "2fd47b817e44510ca16c821168fbe9f372e012a1a13be35947802009d2c80d4c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6d89c004cdd53367eaa51c555853a0361a43e24c1ff8a78d1b0f433b752c2f0",
+  "request_fingerprint": "2b7495ed2bfda6b2e2e650fa84d04e028094a2b690e10d5db7e8134b433bae50",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada mediana, com relação a facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou B (em verde). Na medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% apenas para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "d341759c2bbba79ff1b6181b493611d02a811a8c3729d10a38d25753d22d00bd",
+  "window_size": 3
+}

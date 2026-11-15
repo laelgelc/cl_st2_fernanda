@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01d1af305e0069b8006af8fbc0be9c87d1af1403249744fccc",
+    "usage": {
+      "input_tokens": 2617,
+      "input_tokens_details": {
+        "cache_write_tokens": 2614,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2614
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 497,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 3114
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_45.txt",
+      "source_sha256": "c98b984f87f1409792b98604b703418b20f7d1b8d4c8fe5293e89e39c7ee80db"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_47.txt",
+      "source_sha256": "4056d64f316ab07327490f69c1aa119460e9879af272cc35bae113a81e7678ec"
+    }
+  ],
+  "created_at": "2026-11-15T00:24:32Z",
+  "duration_seconds": 4.495,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_QUÍMICA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_46.txt",
+    "source_sha256": "0c7cd59667abd950c156e72a039b9e2af633d91e788d43968e315fc02f98b16c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b3454a386287fdea9319118c51141643232766ebdf3eca4658ae73862a1b0a25",
+  "request_fingerprint": "6635ab88ae9f494f13200b229a79816bf77ed90920b58221b2a7b552ba704052",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que pertence ao gráfico iniciado na página anterior; o conteúdo gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 3.314 são de IES Privadas e 6.932 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (8.803), seguido de Faculdades (808) e Centros Universitários (635). A Categoria Administrativa de maior abstenção foi a Privada (21,7%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (26,6%), ambos acima da média nacional de 17,3%.\n\nA média das notas da prova como um todo foi 41,2. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (43,1), e os das IES Privadas obtiveram média mais baixa (37,0), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (7,2), a maior e a menor média, é superior à diferença entre IES Públicas e Privadas (6,1), caracterizando uma maior diversidade regional do que administrativa.",
+  "text_sha256": "e75d1206cdb4c2de2c374714c0f72480f5e13e1f5269065c83fc02881926953c",
+  "window_size": 3
+}

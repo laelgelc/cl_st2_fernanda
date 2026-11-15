@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01daac27beb44370006af8fd4ff98887d1a2f1a9d0857a8ae3",
+    "usage": {
+      "input_tokens": 2412,
+      "input_tokens_details": {
+        "cache_write_tokens": 2409,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2409
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 3027
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_41.txt",
+      "source_sha256": "ffdd83ad71d1d5143f99bb6be22adc01c2195342b2786afbe4ede9b73a2781b0"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_43.txt",
+      "source_sha256": "687b380db23b5d5487003f975c4eb42b80c8af66d5864dd34eb5f58d74f17626"
+    }
+  ],
+  "created_at": "2026-11-15T00:31:11Z",
+  "duration_seconds": 6.048,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_cont/enade_2015_ci_cont_page_42.txt",
+    "source_sha256": "cf5cf1c56872f53090d935854f1ee10c8a096271df0e861054792cbbe5fd3c7e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2a636f037ac15712fbcd9f342947fb8ea7d4ea8830e5a56417db90b96ddc5b74",
+  "request_fingerprint": "47407bdce91ecc1f9e20075930a2f3c0d3b4904d0c5a066d1272e84dcdb696e9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 40,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (45,5), e os das IES Privadas obtiveram Média mais baixa (39,8), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Centro-Oeste (4,2), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (5,7), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, as Universidades e os Centros Universitários obtiveram Média mais alta (41,1 cada) que a nacional. Já as Faculdades obtiveram Média menor (39,8) que a nacional, e de mesmo valor que as IES Privadas. O Desvio padrão para as IES Públicas (13,8), para as Universidades (13,5) e Centros Universitários (13,2) foi superior ao do Brasil como um todo (13,0), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nestas Organizações Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades e Centros Universitários em relação a Faculdades.",
+  "text_sha256": "00eca1dfd46a6f987219158e42c7700d35b4fc2c33d2c43dd72d83dfca0be2d4",
+  "window_size": 3
+}

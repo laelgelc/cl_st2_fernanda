@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b700f86853bba6006af8fafc8e2c87d1a7e46bc0c0e97953",
+    "usage": {
+      "input_tokens": 1760,
+      "input_tokens_details": {
+        "cache_write_tokens": 1757,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1757
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 550,
+      "output_tokens_details": {
+        "reasoning_tokens": 362
+      },
+      "total_tokens": 2310
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_100.txt",
+      "source_sha256": "16cb81cf8e481ffa27b9285257f3c7e6d1fe99fc809850f6db50da70756f0abf"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_102.txt",
+      "source_sha256": "0a3dbb22f59476b9190a10f34d885ea6005cb0d0a5ceb05d8fc8e0541f90bbb9"
+    }
+  ],
+  "created_at": "2026-11-15T00:21:16Z",
+  "duration_seconds": 8.17,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PEDAGOGIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_101.txt",
+    "source_sha256": "78c41622666c8c8610b1ab0a9822848197c7e2fd8a1dac49d8127fb10518ae15"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "532687af589bb652c607f2aeafad479f04dd648bb809cb152c1a107c59a3ee6b",
+  "request_fingerprint": "3d06ddb6db338ad778e90fa61e3e6d75b02e17d8e1fabef2e261a497349fd84e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente pertencente a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa dos resultados entre todos os quartos de desempenho. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 27,5% (4º quarto) a 40,4% (1º quarto), valores decrescentes com o desempenho. A alternativa modal para a Questão 2 foi o grau médio, com 52,6% do quarto inferior e 64,1% do superior optando por esta resposta, valores crescentes com o desempenho.",
+  "text_sha256": "5e19160ec523fe58e38cacd6a955e4d3ab78eef2cd70130fcde252589b1f4526",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ae5da2f251a6654006af8f2510a0c87d1a6296a38e428c8e1",
+    "usage": {
+      "input_tokens": 1976,
+      "input_tokens_details": {
+        "cache_write_tokens": 1973,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1973
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 326,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 2302
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_34.txt",
+      "source_sha256": "8f719a03aae72b81df2cc0afce06e62b0e9a093573da44b74bb447b0d98392ba"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_36.txt",
+      "source_sha256": "4b38fbebe57ebd2d05a87ec02480bb50e7ead1ea61354defec2859fc4cb86096"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:16Z",
+  "duration_seconds": 3.455,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_35.txt",
+    "source_sha256": "edfecb9413608a32ccd256eddd0c88133f1591683ad8bdd448483c49d31b33ae"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a4d1ef7bb4936ca22528c58ed92663a02c87f77b1e93b6c27df2316a37c0bc00",
+  "request_fingerprint": "8cef5ca3a70aafd18b4b0b6833281cac6de92eeebaaf7070b62c32fa33469958",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (46,0) e a menor, obtida na região Centro-Oeste (39,7).",
+  "text_sha256": "2b1d6d8fb3e9ca03b3c21944599524e9f4cefd5b1ef90b8aefc54418aad8e3a4",
+  "window_size": 3
+}

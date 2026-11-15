@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e6c74041b82e462006af8fe0cb0fc87d18361e0a66ba4b31b",
+    "usage": {
+      "input_tokens": 2730,
+      "input_tokens_details": {
+        "cache_write_tokens": 2727,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2727
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 3262
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_41.txt",
+      "source_sha256": "2daaf613f13dd5e8d453feb8453740cfb1a6dd3fc0c8ccf97aacc5078fd1598e"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_43.txt",
+      "source_sha256": "66ba594897bf98b18bde4337d6ef012bfae5ea3169692478eee81859bd1ed279"
+    }
+  ],
+  "created_at": "2026-11-15T00:34:20Z",
+  "duration_seconds": 4.782,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_JORNALISMO.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_42.txt",
+    "source_sha256": "a3426886270233052eb8e999ffec5dda675cec8e13637be80c36bfa5ada2d94f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ccd8c2e067a0dd0bd9fd802e1df478e902909545147146e1a1e62b3c3cc0ff86",
+  "request_fingerprint": "eec4e74c8b966064a5c27e7c72bffd461b826649602eb6f5e35dcf7e356df52a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.3.",
+    "Removidos o título, os dados e a fonte da Tabela 3.4."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 47,0. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (48,9), e os das IES Privadas obtiveram Média mais baixa (46,3), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (5,9), a maior e a menor Média, é superior à diferença entre IES Públicas e Privadas (2,6), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (48,1) que a nacional. As demais médias foram: 43,7 nos Centros Universitários e 46,1 nas Faculdades. O Desvio padrão para as IES Públicas (16,8) e para as Universidades (14,8) foi superior ao do Brasil como um todo (14,4), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos tipos de Organização Acadêmica.",
+  "text_sha256": "d4d71e3a527e3193e9cdc1f5eaf4a8414db9e5a8baff08f7e4a6246eaa024793",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01dac8a778bdc770006af8f7007bf087d1aedc2a6c6335a421",
+    "usage": {
+      "input_tokens": 1607,
+      "input_tokens_details": {
+        "cache_write_tokens": 1604,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1604
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 2066
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_96.txt",
+      "source_sha256": "b7736ddc8ddff02b46263c81aa36707239068d98cfa16d8124004e61f7e37c21"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_98.txt",
+      "source_sha256": "0e82172a60cb88e4a4ba9f3671bb6b202b66a9dd100be05a01832a0011005419"
+    }
+  ],
+  "created_at": "2026-11-15T00:04:16Z",
+  "duration_seconds": 5.118,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_97.txt",
+    "source_sha256": "83ee5e2f4335dfa23763581d2838f144bbdf98e537611a3a229c630ff608b993"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "98e9def84c1ee8249d388f669dd52f5efdcc41f5fd6632cb7be0599bc1aa7cdb",
+  "request_fingerprint": "b3f5e85385a3e53f07dfacd63029eb017e51052df46758f4b4d32629cf1439b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Segundo o desempenho, observa-se que a proporção dos que consideraram os enunciados claros e objetivos cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas do primeiro para o segundo quarto e do segundo para o terceiro quarto. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 79,2% dos alunos sendo estatisticamente significativa a diferença deste para o quarto imediatamente inferior, onde a proporção foi de 72,6%.",
+  "text_sha256": "ed9e987b1afc82cb96879e5599360e55f688c784d248d0c1988715722766a484",
+  "window_size": 3
+}

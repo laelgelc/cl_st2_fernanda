@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bbd24b9e33fcebc006af8ed84122887d187308bed07cc9c34",
+    "usage": {
+      "input_tokens": 2192,
+      "input_tokens_details": {
+        "cache_write_tokens": 2189,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2189
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 581,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 2773
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_37.txt",
+      "source_sha256": "42ccdb1c5821da92dd0f47ccc897a1d467c9227b7ae917050236bd1c5316dec2"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_39.txt",
+      "source_sha256": "40e3907310545b2edabbb1e30d0691e5a3ce1e52bd29b31bba30fcc65926067c"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:47Z",
+  "duration_seconds": 6.184,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_38.txt",
+    "source_sha256": "87b23ed93e8adcfb4a0295c7bc26eefdeccfd77ce0ea6ecb0e358726084c7a86"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aff6477e5d596c7456f09a9d99a723d409a95b5a8865c03d8cbfa1ca6f666dec",
+  "request_fingerprint": "454f4a9f7ae03934ef5eb07356f0b7748225fc7e737732a72a2e11fa111be54d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como material de gráfico/tabela."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 47,0. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 23,0. A maior média foi obtida na região Centro-Oeste (49,4), e a menor, na região Sudeste (43,8). As demais médias foram: 48,1 na região Norte; 48,9 na região Nordeste; e 48,5 na região Sul. Já o maior desvio padrão foi obtido na região Sudeste (25,6) e o menor na região Centro-Oeste (19,2). Os demais desvios padrões foram: 20,0 na região Norte; 21,5 na região Nordeste; e 22,9 na região Sul.",
+  "text_sha256": "bb94b7fc991a5f06e40538e41bfd4edac328e630632e685cfbecbb6507a93d0b",
+  "window_size": 3
+}

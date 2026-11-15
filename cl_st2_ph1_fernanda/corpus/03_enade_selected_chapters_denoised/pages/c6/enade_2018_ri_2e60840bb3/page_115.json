@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e566a6bab9a6c66006af90d68e17487d1b42183b5acdd6ea6",
+    "usage": {
+      "input_tokens": 3021,
+      "input_tokens_details": {
+        "cache_write_tokens": 3018,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3018
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 667,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3688
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_114.txt",
+      "source_sha256": "d6b90743825c2d600bfa998f109511938c425d1e88ebaeb94e738f864c712380"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_116.txt",
+      "source_sha256": "2ba4431d5894bd37f7636345bcdb653be192c07e979ff169771e267efb8928ea"
+    }
+  ],
+  "created_at": "2026-11-15T01:39:52Z",
+  "duration_seconds": 6.37,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ri/enade_2018_ri_page_115.txt",
+    "source_sha256": "37bd443489f585340dd5d13d201498ec19e216ec9baf2da138ae146aeff0f4a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "05a7d8c059d81e0d47e817ed3ca4766938bec13522c543c209ac9d18f10e8b0f",
+  "request_fingerprint": "9d1d4912f921c99cd364c90043c98f48e50f6ef286f7a74930b3e52c0153183a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 6.1 e sua linha de fonte, e a Tabela 6.2, incluindo título, dados e linha de fonte.",
+    "A última frase termina em “indicando” no alvo e continua na página seguinte; não foi completada."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50], com frequência 27,6%, seguido pelo intervalo (50; 60], com frequência 24,6%.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 47,3. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (51,5) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (45,1). Observa-se que existe diferença estatisticamente significativa dentre as médias das notas das IES Públicas e as das Privadas. A diferença entre as médias das regiões Nordeste e Norte (6,8), a maior e a menor Média, é superior à diferença entre a das IES Públicas e a das Privadas (6,4), caracterizando uma maior diversidade regional do que administrativa. Os desvios padrões para as IES Públicas (13,2) e Privadas (12,8) foram inferiores ao do Brasil, como um todo (13,3), indicando",
+  "text_sha256": "51f42d42bfd34ed523cab342f98b8434a284feeec5666d171f3497fb0560f6ec",
+  "window_size": 3
+}

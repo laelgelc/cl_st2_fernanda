@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06d08de068f71e9b006af904264aec87d1bd618cf724428fe1",
+    "usage": {
+      "input_tokens": 2647,
+      "input_tokens_details": {
+        "cache_write_tokens": 2644,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2644
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 323,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 2970
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_rad/enade_2016_tec_rad_page_112.txt",
+      "source_sha256": "9e3505914b2200444658eee15e1774a88e8d01fadcc2eaf08c2cdef439f7bf1d"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_rad/enade_2016_tec_rad_page_114.txt",
+      "source_sha256": "6ef12603cf2e1820b16b2d5d84c30cc1c733d7b1d844dd31b00184f5a03d2bbc"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:22Z",
+  "duration_seconds": 3.67,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM RADIOLOGIA.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_rad/enade_2016_tec_rad_page_113.txt",
+    "source_sha256": "c1a1cc7e4f1bfed8a88cc5d2b55fc6a2be1c01381eba24ad2726d8e18126c377"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e0fe142b9c148725b9478f9220fffd75175a7ddd96191f70ef32126182de43c0",
+  "request_fingerprint": "588ffc1f96ea2fba9d6771071efd0c2955653de9b62247c658a6a4b404277b53",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico e sua linha de fonte (“Fonte: MEC/Inep/Daes – Enade/2016”)."
+  ],
+  "status": "success",
+  "text": "Nessa região, nenhum curso ficou sem conceito (SC) ou com conceito 5.\nO Gráfico 5.1 apresenta a distribuição do Conceito Enade segundo Grande Região: poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha roxa) apresentam as distribuições com valores maiores. Cursos em IES situadas nas regiões Nordeste (linha verde) e Centro-Oeste (linha preta) apresentam uma situação intermediária.",
+  "text_sha256": "c73a3579b372fba4351b7bd6e34810c11064121effcbbb5567194c3e8314545a",
+  "window_size": 3
+}

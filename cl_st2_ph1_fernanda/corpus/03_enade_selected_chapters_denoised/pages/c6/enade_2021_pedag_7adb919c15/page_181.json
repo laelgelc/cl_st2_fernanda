@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ca66a7c1cdc54d006af91ab99c7c87d18c418485776298fa",
+    "usage": {
+      "input_tokens": 2637,
+      "input_tokens_details": {
+        "cache_write_tokens": 2634,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2634
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 3228
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 180,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_pedag/enade_2021_pedag_page_180.txt",
+      "source_sha256": "30cd230899400a68ce3d9208c93c84641c4f280fa3452930ba0f5b3b332537e3"
+    },
+    {
+      "page_number": 182,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_pedag/enade_2021_pedag_page_182.txt",
+      "source_sha256": "458e3dcf80dbb2d7f6889124306567d65d174a13f6260836086a9aafb30b732b"
+    }
+  ],
+  "created_at": "2026-11-15T02:36:41Z",
+  "duration_seconds": 5.1,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_PEDAGOGIA.pdf",
+    "page_number": 181
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_pedag/enade_2021_pedag_page_181.txt",
+    "source_sha256": "c536496afd659208668afbf22e349fc94d194fcd9bcc02d518c1f32eb3f37edd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5633d50ce99998fc1276a371bb47524e9cdc3ecb208e05de8b67b6a08ddc280f",
+  "request_fingerprint": "2efb63c11dbec2e7d751c92f9c071b5a5a60cb8be2b0c406e6c05397e0ce79f9",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial.\nA curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 49,0% escolheram a alternativa E (em vermelho), 26,3% escolheram a alternativa B (em verde, gabarito), 12,9% escolheram a alternativa D (em laranja), 6,2% escolheram a alternativa A (em azul) e 5,1% escolheram a alternativa C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,4% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,46) obtido na questão.\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente em torno de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 80,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "35342a4eefea4b6e79c8df705cfda3cb278133ba916bcba2f15d6e6ad70102e2",
+  "window_size": 3
+}

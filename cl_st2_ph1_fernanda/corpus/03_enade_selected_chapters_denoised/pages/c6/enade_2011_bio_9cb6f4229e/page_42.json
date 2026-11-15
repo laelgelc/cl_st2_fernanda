@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03afa7f79fe2cbe7006af8eb1414d087d1b50f91f29271af44",
+    "usage": {
+      "input_tokens": 1605,
+      "input_tokens_details": {
+        "cache_write_tokens": 1602,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1602
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 340,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 1945
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_41.txt",
+      "source_sha256": "44751ffabf63850ab4f1280918022db076f0f966ed99f7692b95608f2cfc6238"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_43.txt",
+      "source_sha256": "16050af2e41982c6f2f9810fa3ca730d894a63761d40f7b1eb596edbcf2b3916"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:23Z",
+  "duration_seconds": 4.31,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_42.txt",
+    "source_sha256": "a6c3f076d603037119774fd5db9af2edce2dd6cb3d748213f993f31eeaaffd68"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "599438c050d431ae47634fde276b3570a9ffd3cdfe0fb2b0731a74da0b0bc0be",
+  "request_fingerprint": "09a63aedac62a2d2dbd319655f04e67ffe04eeaa310bccb37f8a661beea8c18b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2011), identificada como pertencente ao Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que não há diferença estatisticamente significativa entre as médias dos alunos de Universidades (53,5) e Centros Acadêmicos (53,7). Já a diferença da média entre aqueles e os concluintes de Faculdades, onde ocorreu a menor média (51,0), é estatisticamente significativa.",
+  "text_sha256": "d0a6f06afc2a77568f818dcc0b9bb89678bcf29e1924bbdc331f64254a09e89d",
+  "window_size": 3
+}

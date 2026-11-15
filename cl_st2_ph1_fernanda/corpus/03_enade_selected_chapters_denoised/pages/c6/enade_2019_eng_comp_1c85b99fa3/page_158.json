@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f326d383b948f99006af910e2fda087d190b80e25d94a86bc",
+    "usage": {
+      "input_tokens": 3281,
+      "input_tokens_details": {
+        "cache_write_tokens": 3278,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3278
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 973,
+      "output_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "total_tokens": 4254
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_157.txt",
+      "source_sha256": "3c8f0086e9a07a6ac53093ef131bb9c8faa54c335ee769e5da8f8ab8f0fb3640"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_159.txt",
+      "source_sha256": "5fe46fbbeff73633f3bd3bd28c591c9fcac748c833b0f236e7314854d2d42df4"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:42Z",
+  "duration_seconds": 8.641,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_158.txt",
+    "source_sha256": "9b1b4469d20b588f5cd605621fa08604f77583c5ae7ea45fd1a3e2b60310b68a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b99c10d52717763df1eca2e7b79d77946ff77ff22da750f04ca3c3f55dea2eea",
+  "request_fingerprint": "dd259b494ff445e058d79560128130473b12d9cf752d197af076a67e6bd0b529",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte. O texto termina no meio de uma frase, que continua na página seguinte."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões válidas, nenhuma teve o Índice de Facilidade classificado como Muito fácil, e três questões foram foi tidas como Fácil, por terem índice de acertos maior do que 0,60 e menor do que 0,86. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, por ter 19% de acertos. Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,19 a 0,81 e o de Discriminação, de 0,36 a 0,51. Seis das sete questões válidas, quanto ao Índice de Discriminação, foram tidas como Muito bom e uma como Bom.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Fácil e Médio: três",
+  "text_sha256": "993f8b2b9ba348339b11583c8690fd8e0118434388f6d66fc507997822bf9075",
+  "window_size": 3
+}

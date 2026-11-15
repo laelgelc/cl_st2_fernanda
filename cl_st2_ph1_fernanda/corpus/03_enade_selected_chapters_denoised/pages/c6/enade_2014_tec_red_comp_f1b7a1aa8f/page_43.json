@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c7c6f699a5dce98006af8fcbee84087d1b1a7bd2d35dea48b",
+    "usage": {
+      "input_tokens": 2813,
+      "input_tokens_details": {
+        "cache_write_tokens": 2810,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2810
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 3040
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_42.txt",
+      "source_sha256": "6fd7a554a697f27a1f54895ba93a5395ddbc3b2660b5a649835fb0f54d36e0ad"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_44.txt",
+      "source_sha256": "4ba467892d76d28a80375557242e5cf0fe733fa925dc822d7d5e8b009cf2fffb"
+    }
+  ],
+  "created_at": "2026-11-15T00:28:46Z",
+  "duration_seconds": 2.88,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_43.txt",
+    "source_sha256": "8e261227aa83870dfc6744a8d268b0e960aeccdfb8b95f69e59bed0cd0de773e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "14a734ed783a4db78c425095638e8488e9815da68f0036099e21d18c5db29a7a",
+  "request_fingerprint": "ed4059840c84b54af04917d823109c6b4f1fcd540c432ff6ed2560d687df33a4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte. Removido o Gráfico 3.1 (histograma) e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "d86a7cd3e928d85925d788740f98bcf9a1d6a46467a048b701dce6f5a2805451",
+  "window_size": 3
+}

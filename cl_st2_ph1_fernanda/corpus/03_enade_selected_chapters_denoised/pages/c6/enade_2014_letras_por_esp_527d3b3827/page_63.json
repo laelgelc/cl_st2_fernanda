@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_088e01435e161b8e006af8fa6ebe0887d18a1fca3e19e68c16",
+    "usage": {
+      "input_tokens": 2622,
+      "input_tokens_details": {
+        "cache_write_tokens": 2619,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2619
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 289,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 2911
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_62.txt",
+      "source_sha256": "b1c501961b473a723fe9f52519465420c4d9fa7bbe61e91d417455ea3b13c938"
+    },
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_64.txt",
+      "source_sha256": "149bf1db1b15d2f1b20d7093b45e3054da0705b7701389cb1045d79d0ec609dc"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:54Z",
+  "duration_seconds": 3.854,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 63
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_63.txt",
+    "source_sha256": "b375fa7d97e3f3df288ef45d68d745e5c33cd01e47137824c2f993ebf04ebe75"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10da69ba5b91ed9f1d23df76e7f18ce27ec10a0aebc43b887b0d0c122014346d",
+  "request_fingerprint": "63925be154892eb0ea2e889e305c2ef5d2b1e80389abff82b0194133ad0a035f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material do Gráfico 3.8 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde ao intervalo (40: 50], em torno de 17%. Nota-se que os intervalos (60: 70] e (70: 80] apresentam frequência próxima à modal. Destaca-se que a frequência das questões em branco e as com notas no intervalo (90: 100] são praticamente idênticas e superiores a 10%.",
+  "text_sha256": "f035e6518d9ef2df41f1524a8e9791944e34e32920008f1861e51cdd3da545f0",
+  "window_size": 3
+}

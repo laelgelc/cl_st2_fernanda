@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f3dcf634ce34665006af9118e0ab087d1b72f181a5119749f",
+    "usage": {
+      "input_tokens": 1898,
+      "input_tokens_details": {
+        "cache_write_tokens": 1895,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1895
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 300,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 2198
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_124.txt",
+      "source_sha256": "5dc71c31cf033dd9bcdaed7806004b8fde866ee98725ac2e0e98ed839043290d"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_126.txt",
+      "source_sha256": "0027913b5d0b40f10d9912ce12fbf51c68a63ae3d7ae09005c9831b42696a154"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:33Z",
+  "duration_seconds": 3.312,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_125.txt",
+    "source_sha256": "7b3d14e649b9afc53c4650dc6f98c6644e6eda75ca9e9e5fb11187752961751d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "454f7fbf10b8c4e70349e6eb4bfd4fc1d80873d647e01ae2b010e79ff8f1c8df",
+  "request_fingerprint": "66e334f96c8dc13c9e43f1dd57aa01064e2a4d22f08de00ced6299e8ffc96978",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.29, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 67,8%, na região Norte a 76,6%, na região Sudeste.\n\nConsiderando-se, separadamente, as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,9% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,9% os do quarto superior com a mesma resposta. As diferenças entre os alunos que optaram por esse motivo de dificuldade em todos os quartos de desempenho são estatisticamente significativas.\nTendo-se em conta o quarto superior, 89,9% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 61,5% optaram pelas mesmas categorias. As proporções são decrescentes com o desempenho.",
+  "text_sha256": "2d29698d76057e73cffd7191cbb16faaa6c510dd51b828f897cf785384c2d971",
+  "window_size": 3
+}

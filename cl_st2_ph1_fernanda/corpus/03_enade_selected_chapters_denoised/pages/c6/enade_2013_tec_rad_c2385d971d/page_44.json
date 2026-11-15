@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0668ad5449a5a977006af8f595817087d1b2a2e1621a612a84",
+    "usage": {
+      "input_tokens": 1673,
+      "input_tokens_details": {
+        "cache_write_tokens": 1670,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1670
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 326
+      },
+      "total_tokens": 2172
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_43.txt",
+      "source_sha256": "c7b3e752d27bc826a04ba89d09ec91c7acaa05dd6f86b4f04b65d55a855b4e38"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_45.txt",
+      "source_sha256": "a6de61efd72df74e2dad5eb777e71a8e0efb8058cae99faf2f2ef4caee6739b9"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:13Z",
+  "duration_seconds": 6.642,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_44.txt",
+    "source_sha256": "5b5f1f110f2757f60d88bd86895531876d0018cbc582ba1d76501d3d7b4043c3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "98b83a0023d5b782cee8d7bf5440286be3fcfdf14665368fc196fe47023d0820",
+  "request_fingerprint": "05a1d109fdfc00903299b2017d9484e8c7be8f1e5b72b830db98fac3b508464c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, presumivelmente associada ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades. Já a diferença entre a média dos estudantes de Centros Universitários e Faculdades não é significativa estatisticamente. A maior média foi obtida pelos estudantes de Universidades (42,4), e a menor, pelos de Faculdades (39,1).",
+  "text_sha256": "1dbc5e170f1699bf7b5436ecf5fd49220d7f49ddc35abedcedeb21dcb7967705",
+  "window_size": 3
+}

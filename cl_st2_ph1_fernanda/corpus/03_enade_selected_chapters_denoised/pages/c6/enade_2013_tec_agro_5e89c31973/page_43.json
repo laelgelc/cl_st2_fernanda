@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_055ba6ab8e6f3cf9006af8f51342fc87d1afaa5b7a91b5923a",
+    "usage": {
+      "input_tokens": 2275,
+      "input_tokens_details": {
+        "cache_write_tokens": 2272,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2272
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 2829
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_42.txt",
+      "source_sha256": "60819c094f534742cdc4040e873c5fcfc09d1ba3310660721eec72e73b2c18b2"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_44.txt",
+      "source_sha256": "da2d949430444d3348c316953fe0f07160e82254bd70e44133bdac405efd2e1b"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:03Z",
+  "duration_seconds": 5.558,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_43.txt",
+    "source_sha256": "d5b21d505a4d3dff76516700de0417418b9f5f27dd65aeb9a46d764166d78eb5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e40c66ceeca97ff1882a4cca956f98ba81930706fdd88c214a934316279ffbf4",
+  "request_fingerprint": "9ee9b533c390a06b4f7a90fca37424729444f7c55c1c3b6aa82cfb74f50e5cdc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "parte foi obtida na região Sudeste (0,0), enquanto a maior nota mínima foi obtida na região Norte (15,0). Nas outras regiões as notas mínimas foram: 13,5 na região Nordeste e 7,5 tanto para a região Sul quanto para a região Centro-Oeste.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], assim como na prova como um todo. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 12,7 para a nota da prova como um todo e 13,9 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,08). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em quase todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (-0,26 para o Nordeste, -0,14 para o Sudeste e -0,02 para o Sul), exceto nas regiões Norte (0,15) e Centro-Oeste (0,08) que possuem assimetria levemente positiva.",
+  "text_sha256": "a8f90d061e53a6ebac742acc7497dcd5abf5ab8ff446bb72310655fec236caed",
+  "window_size": 3
+}

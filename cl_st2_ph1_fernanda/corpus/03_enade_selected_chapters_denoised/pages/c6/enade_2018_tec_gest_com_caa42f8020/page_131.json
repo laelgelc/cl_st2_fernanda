@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_067d2384be5e0026006af90ee47e1487d1a9a3b884b066c760",
+    "usage": {
+      "input_tokens": 2073,
+      "input_tokens_details": {
+        "cache_write_tokens": 2070,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2070
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 447,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 2520
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_130.txt",
+      "source_sha256": "e2646d7c94824cc50b445d9b9fc009e55fed8228103a2c1a7a4ed90265918945"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_132.txt",
+      "source_sha256": "ceeb568666b7c686afabc69e768b061990ea23a46f730d19436d847b22abbc78"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:12Z",
+  "duration_seconds": 4.574,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO COMERCIAL.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_com/enade_2018_tec_gest_com_page_131.txt",
+    "source_sha256": "04330d7617835ba8b42b64ecf563544b5066f7db5a51256f4dfe8221b951e7ed"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f8df1c17aac1a2d66fa40a7ab4af14cfce0cb9d5f5915827ec8e20175fc7e142",
+  "request_fingerprint": "52a3a97d044f301717f88f5bce690b54674d9b93054ed52dc7aaed809daac78e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte. A prosa interpretativa sobre o Gráfico 6.6 foi preservada; não havia material gráfico a remover na página-alvo."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 40,0, a mesma sendo obtida nas regiões Sudeste e Centro-Oeste. Na região Nordeste, a Mediana foi menor (37,5), e, nas demais regiões, foi maior que o valor para o Brasil: Norte (47,8) e Sul (40,5). A nota Máxima (87,5) foi obtida na região Sudeste, sendo 83,5 a Máxima na região Norte; 84,0, na Nordeste; 86,5, na Sul; e 76,5, na região Centro-Oeste. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo (40; 50], seguida pelo intervalo (30; 40]. Destaca-se, também, como um máximo local, o intervalo [0; 10], com distribuição de 12% do total de notas, sendo que, no intervalo [0; 10], inclui-se, além da nota zero, a frequência de alunos que deixaram esse tipo de questão em branco.",
+  "text_sha256": "767d366e46cbea6e78c7b47c0a774ced437f2625afb098497a67c832a7d2e8e7",
+  "window_size": 3
+}

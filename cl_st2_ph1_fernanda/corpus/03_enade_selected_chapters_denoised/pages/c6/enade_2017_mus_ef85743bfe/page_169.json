@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0116d277e26f19e1006af90a15a47087d198544a9d7569b6d3",
+    "usage": {
+      "input_tokens": 2311,
+      "input_tokens_details": {
+        "cache_write_tokens": 2308,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2308
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 309,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2620
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_168.txt",
+      "source_sha256": "0be757f1d04e463fb958e0815cd430d64e628f313b5162d5d49e7a3ff26f38a2"
+    },
+    {
+      "page_number": 170,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_170.txt",
+      "source_sha256": "ae26e7efd43e5b9de6f202787aadfea8be0799dfdc3a54b0c412bb4dbe85cc73"
+    }
+  ],
+  "created_at": "2026-11-15T01:25:41Z",
+  "duration_seconds": 4.114,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MÚSICA.pdf",
+    "page_number": 169
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_169.txt",
+    "source_sha256": "7b04e728dcb4e010480e304cd918d4ff5ce8446115b8deaaa61f88647c5b0896"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9bd755c759fa98197d0cc7298cd5ce36d59d1481ff4c18468f0a38f60a731108",
+  "request_fingerprint": "78592f9dbc0684bb7928c5d8306a9aeb477cbc9ecaadff82f46d488952d08037",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.11; o gráfico não tinha dados legíveis no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Música (Licenciatura). A moda dessa distribuição foi o intervalo (20; 30], com cerca de 38% dos participantes. Observam-se, ainda, três máximos locais, um na classe dos estudantes que deixaram a questão em branco, outros nos intervalos (0; 10] e (40; 50].",
+  "text_sha256": "0893c6de89dc38e861e1edd8f1c59be548c19a1bcfe9049231fe53d831994e3d",
+  "window_size": 3
+}

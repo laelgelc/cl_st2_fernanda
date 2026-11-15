@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_048858c2cc153333006af91645b91c87d183d03f69ec9e8068",
+    "usage": {
+      "input_tokens": 1945,
+      "input_tokens_details": {
+        "cache_write_tokens": 1942,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1942
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 629,
+      "output_tokens_details": {
+        "reasoning_tokens": 420
+      },
+      "total_tokens": 2574
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_122.txt",
+      "source_sha256": "9e1af1b86e8194305edae20ac7506f083a03afab684b6918c5aa16c357c59c49"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_124.txt",
+      "source_sha256": "e01c5cf9d96b9f18b9f21c7e2df58f095f814cf57ab8cb0a55dec3dc0bf436e3"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:41Z",
+  "duration_seconds": 5.609,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_123.txt",
+    "source_sha256": "44f113fb85ef8077b622d47190d2bea71e102f911bb50f15e8330cf9dcceeb2e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1cdf2c2e98c295b4297218738a173eb004ffb22f2596980311a2367bfc413b57",
+  "request_fingerprint": "21c41c20cd6338d6ab7f20d96ed46e4a6812f8e30553d10bd1871eeb18d5e57e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.27. Os valores extraídos ao final da página (incluindo “CEFET/IF”) parecem pertencer a material gráfico, possivelmente ao Gráfico 4.28, cujo título aparece na página seguinte; removidos."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, o Desconhecimento do conteúdo foi a opção escolhida por 8,5% dos estudantes nas IES Públicas e por 12,3% nas IES Privadas. Não são observadas diferenças estatisticamente significativas entre estas duas categorias. A alternativa modal para os alunos, quando agregados pelas Categorias Administrativas, para a dificuldade encontrada, foi causada pela Forma diferente de abordagem do conteúdo: 50,0%, para as IES Públicas e 48,6%, para as IES Privadas (ver Gráfico 4.28 e Tabela II.14 no Anexo II).",
+  "text_sha256": "468fc42a2e6988d24eb6ebb7d1ce5bc4c0bdbd54f1664a3e790ee34c8205e411",
+  "window_size": 3
+}

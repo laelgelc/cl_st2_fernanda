@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0510d8ab73b339e5006af917b9422087d1bafc900a4d73f7e2",
+    "usage": {
+      "input_tokens": 2743,
+      "input_tokens_details": {
+        "cache_write_tokens": 2740,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2740
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 963,
+      "output_tokens_details": {
+        "reasoning_tokens": 566
+      },
+      "total_tokens": 3706
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 250,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_soc/enade_2021_ci_soc_page_250.txt",
+      "source_sha256": "0bfef0a60f5a79b4ad0e8e1feb97ca06f5ba928e4acc3feba0d78d580218f7ec"
+    },
+    {
+      "page_number": 252,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_soc/enade_2021_ci_soc_page_252.txt",
+      "source_sha256": "7b345be8d12acb7b7e78e9e8d4cc2c5d49f8cda516a892fe8e24888300a8f0b2"
+    }
+  ],
+  "created_at": "2026-11-15T02:23:53Z",
+  "duration_seconds": 10.097,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 251
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_soc/enade_2021_ci_soc_page_251.txt",
+    "source_sha256": "102a7438c10e6ef162b5d74389d0eb3490e202af528bcf9d08b73e1b59bc2140"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d54fe02f666af5c6cf2838ec38840bccee6b36aaa5dae37e28bc776f16a40088",
+  "request_fingerprint": "b6be33de6245df9deb4e1585ca36dda4b2b0a90510120ccf5ddf458016d43580",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No Gráfico 5.1b, é apresentada a distribuição cumulativa do Conceito Enade dos cursos de Bacharelado segundo Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (conceito Enade). Observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar que, por exemplo, a região Norte (linha azul) apresenta 100% dos cursos com conceito abaixo deste valor. Já região Centro-Oeste (linha laranja), por outro lado, apresenta 50% dos cursos: com conceito 3 ou abaixo. Destaca-se que em algumas regiões o conceito 5 pode não ter sido alcançado por nenhum curso, como, já comentado, ocorre na região Norte (linha azul), na qual todos os cursos têm conceito menor ou igual a 2, e sua poligonal alcança 100% neste conceito, e nas regiões Nordeste e Centro-Oeste, nas quais todos os cursos têm conceito menor ou igual a 4, e sua poligonal alcança 100% neste conceito.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha rosa) apresentam as distribuições com valores maiores. Cursos em IES situadas nas regiões Nordeste (linha verde) e Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "fad43ae36916eeaa90959803c7dd3da2c6574713da7de8d6aa817f44d8da8f6a",
+  "window_size": 3
+}

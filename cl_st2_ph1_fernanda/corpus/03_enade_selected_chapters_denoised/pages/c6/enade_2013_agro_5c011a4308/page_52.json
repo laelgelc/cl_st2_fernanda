@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09ca6af764bea1d8006af8f2f5392c87d1b6d2c8f164c7c387",
+    "usage": {
+      "input_tokens": 1513,
+      "input_tokens_details": {
+        "cache_write_tokens": 1510,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1510
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 266,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1779
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_51.txt",
+      "source_sha256": "0bcb067170799d10d800f8ea777df2101dc060dd80c9fa524ad1d2f983ed830a"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_53.txt",
+      "source_sha256": "ef3016911f3b13d7724d46307dd4631af767f32a1947dfa32476fb16594c505b"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:01Z",
+  "duration_seconds": 3.343,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_52.txt",
+    "source_sha256": "d97e8d1e6aadacceddd9140a46e30600440854c77313e4196f2de549fd9bce00"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9b668274f91512a4a9ebd8755d9e86ab30f3177a3a336f8651dc39d62652ce48",
+  "request_fingerprint": "d76780b8496e612303ff51aff4c62374ef3f5b3105093adc017d136087f6083d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (56,6) foi maior do que de Centros Universitários (51,4) e de Faculdades (49,7).",
+  "text_sha256": "f352d4dd3058321d83838ffafda27880a17e14b7e6ded8c5540633013af07a55",
+  "window_size": 3
+}

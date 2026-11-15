@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0974296c86b86e38006af8eba0404487d18de9d45da3d544d7",
+    "usage": {
+      "input_tokens": 1363,
+      "input_tokens_details": {
+        "cache_write_tokens": 1360,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1360
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 302,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 1665
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_40.txt",
+      "source_sha256": "2148ee73e0e1e0ca14a4056ba33758cb1309d5f38045d4ce15a18bad53e04a60"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_42.txt",
+      "source_sha256": "cc8142f10f8e1e95bf04e1960730fd9bbc30e3a3293bef426b4f8b00d7da8132"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:44Z",
+  "duration_seconds": 4.924,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_41.txt",
+    "source_sha256": "da99dc0fca168a47612a42e55d323fa7822842637b0d396e1d7da9f160ef0486"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d7bf0bbf6d1b2cac1004f25a78f22d0ff6824b5fb5063f177d0829226f758648",
+  "request_fingerprint": "b3cf8724ce0666828573839c1d4855c4b94b8d767475391b842ea684a894c9d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que aparenta pertencer ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa, observa-se que existe diferença estatisticamente significativa entre as médias das Instituições Públicas e Privadas. Os concluintes das IES Privadas obtiveram uma média maior do que os das IES Públicas. Além disso, o intervalo de confiança mais estreito (0,6) evidencia uma variabilidade menor nas notas dos alunos das Instituições Privadas.",
+  "text_sha256": "3832886de04b7ff0d88b11eead3b4df6992524b98a492bef701aad95469fd609",
+  "window_size": 3
+}

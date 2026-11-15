@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b695680e20f001006af91d3909dc87d1aa3670c8bb54098c",
+    "usage": {
+      "input_tokens": 1725,
+      "input_tokens_details": {
+        "cache_write_tokens": 1722,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1722
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 1931
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_99.txt",
+      "source_sha256": "42b9788182b4d31a838c4a4d2b9ee20d64c63638a1e2891fdbaad5de335ff8c8"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_101.txt",
+      "source_sha256": "532f61582fd6b94b889dd592bc6e7e4614720036c4b493394ea9038b7000481b"
+    }
+  ],
+  "created_at": "2026-11-15T02:47:20Z",
+  "duration_seconds": 2.708,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_JORNALISMO.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_100.txt",
+    "source_sha256": "378494b8ba4061bb9f6fae12e514940540b56fac1a68a26f12ef09661e86770b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "454c8d5fa2f91dac048ed0940f16a9e90a646a9fd894c18c5514906ba0745c22",
+  "request_fingerprint": "9703c7d32184bd435bd702a5edc472c4b1dbef6c84c194b65e006b1afe13929c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 5.5."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 5.15, a Região Norte apresentou o maior percentual de estudantes que consideraram o componente específico da prova difícil ou muito difícil, com 17,4%, seguida da região Sul com 17,0%. Essas regiões tiveram valores máximos de 20,7% e 19,4%, respectivamente.\nNa Região Centro-Oeste a média foi de 14,3%. Nas regiões Sudeste e Nordeste, grupos de menor incidência, as médias foram 12,6% e 12,5%.",
+  "text_sha256": "934ce5c425fde588a8abd2f91ba69932954e17164f87dcc171d9f537335c7f35",
+  "window_size": 3
+}

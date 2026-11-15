@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d20bc54c1701075006af8f8f20e6887d18f2628c6b1a5141e",
+    "usage": {
+      "input_tokens": 2970,
+      "input_tokens_details": {
+        "cache_write_tokens": 2967,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2967
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 3567
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_42.txt",
+      "source_sha256": "ddc5a6daff14ba81157c0c6a0dfda5dc8f06932d728913421e0656ac0630a42d"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_44.txt",
+      "source_sha256": "d8f30ee962361ec2905220ba725739ce546ee15a2618a3caac297e62371b2150"
+    }
+  ],
+  "created_at": "2026-11-15T00:12:33Z",
+  "duration_seconds": 5.079,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_43.txt",
+    "source_sha256": "d948482a9f84359d853ceeec9340cc3ee014e293caa30d3e347f7c76d9b71f3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9f4efeb16d7c5f5c228ce7e3c79b6f885f54ae7c19cd76d537f3847e38339532",
+  "request_fingerprint": "7a4b0afdde6e88061d1752d90e508a7349e29dcca5202de609b1d3326d896bbc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 7.833 são de IES Privadas e 4.495 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (7.550), seguida de Faculdades (2.755) e Centros Universitários (2.023). A Categoria Administrativa de maior abstenção foi a Privada (14,4%), e entre as Organizações Acadêmicas foi a das Faculdades (20,7%), ambas acima da média nacional de 13,5%.\n\nA média das notas da prova como um todo foi 46,7. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (51,3), e os das IES Privadas obtiveram média mais baixa (44,1), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (9,4), a maior e a menor média, é superior à diferença entre IES Públicas e Privadas (7,2), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram média mais alta (48,5) que a nacional. As demais médias foram: 45,6 nos Centros Universitários e 42,2 nas Faculdades. O desvio padrão para as IES Públicas (14,8) e para as Universidades (14,2) foi superior ao do Brasil como um todo (13,9), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes dos diferentes tipos de Organização Acadêmica.",
+  "text_sha256": "98fe9d48a120951439f8e6db1e4046a63f8c2509723143be82ee59cd97ea69f3",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09e6c90a888e73b8006af8f8f4a45887d1ab7b3c8156e82b77",
+    "usage": {
+      "input_tokens": 2768,
+      "input_tokens_details": {
+        "cache_write_tokens": 2765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 507,
+      "output_tokens_details": {
+        "reasoning_tokens": 314
+      },
+      "total_tokens": 3275
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_46.txt",
+      "source_sha256": "e5a5d7d40d5998f5b060bcefd18eead05f053213505e637d65ebba22e27554b8"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_48.txt",
+      "source_sha256": "b338a9ba1eb9c0ae866291a9e08b5b93a97f4e9a2a85c4e61128efc8406f5b0a"
+    }
+  ],
+  "created_at": "2026-11-15T00:12:36Z",
+  "duration_seconds": 5.372,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_47.txt",
+    "source_sha256": "c86057e5de4d338c384e730dd56ff1fa4fbdd610c6bc25956ecf14770ca202f1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "51f740bd3bfdccee589e1b5dce7faa619d1370df8ff5cd09928271172b9b3c16",
+  "request_fingerprint": "c805a0bf2f1d359ba20e73253660a2fff9623ba92cb178290d0f08ef487ca69e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. Removida também a linha de fonte associada ao Gráfico 3.3; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia Mecânica, neste caso em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (30;40], um intervalo abaixo do grupo modal da prova como um todo e três intervalos abaixo do grupo modal para a Formação Geral.",
+  "text_sha256": "0e2f3daf28a003186c6a318622db2b174601b24be5639a9c240bf22a1ee95fa6",
+  "window_size": 3
+}

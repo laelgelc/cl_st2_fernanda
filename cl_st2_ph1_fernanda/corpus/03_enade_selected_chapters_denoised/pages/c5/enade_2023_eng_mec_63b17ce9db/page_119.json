@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_083205e327147bd5006af9234e736887d192a30421dbf2ffbf",
+    "usage": {
+      "input_tokens": 3138,
+      "input_tokens_details": {
+        "cache_write_tokens": 3135,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3135
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 477,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 3615
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_mec/enade_2023_eng_mec_page_118.txt",
+      "source_sha256": "6caf68df1b060274b3823ae6cdfcc77cd4a955f91fb896b68f0f780f256156bb"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_mec/enade_2023_eng_mec_page_120.txt",
+      "source_sha256": "0754ad759817f7134900abf9b79324becc069a1cdc78b284e6747b1412ee86f9"
+    }
+  ],
+  "created_at": "2026-11-15T03:13:18Z",
+  "duration_seconds": 5.497,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_mec/enade_2023_eng_mec_page_119.txt",
+    "source_sha256": "05b4b22d976c5bc1638d84891e40805aee3ce8d8f218fc7673c77124772243b2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bca3b94dfdf8241572029f560c46bae47b53531eb9039186a48920dd74bc8607",
+  "request_fingerprint": "3ce483d08df6c75ee293da3a4127335a11f6bc1349197f2fc6042e8c84e428d0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 4.1, incluindo título/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 2, ou seja, conceitos 1 e 2, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 65,2% dos cursos com conceito 2 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 39,5% dos cursos na mesma situação: com conceito 2 ou abaixo. Destaca-se que, na região Norte (linha azul), o conceito 5 não foi alcançado por nenhum curso, logo os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcança 100% no conceito 4. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Os cursos em IES situadas nas regiões Sudeste (linha vermelha) e Nordeste (linha verde) apresentam uma situação intermediária.",
+  "text_sha256": "a751c901fb8e7e41ab65e65624c67becbfdaf3222f695891987848c81ff0ccd5",
+  "window_size": 3
+}

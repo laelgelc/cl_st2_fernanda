@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dea4b1c14569d34006af8eaba9a7887d1b04b1fb0717bab97",
+    "usage": {
+      "input_tokens": 1926,
+      "input_tokens_details": {
+        "cache_write_tokens": 1923,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1923
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 426,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 2352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_39.txt",
+      "source_sha256": "df7f1e204f311d8017d1785c34c2d046ba0215cd3c218fa88a67f52402ea30ad"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_41.txt",
+      "source_sha256": "50d4d74bf7368b621f7a7f2bb38af8479cd62d4d22f56069bc8b5ed4c3390e5a"
+    }
+  ],
+  "created_at": "2026-11-14T23:11:54Z",
+  "duration_seconds": 4.611,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_40.txt",
+    "source_sha256": "135a959bf8019adb8cc87cd13a031104e7d36d6ba8e832038ec775b3126a3b30"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "23bb4240de17554d138e0c776f2067d7e5d33fafec78b619857214314df6d81f",
+  "request_fingerprint": "221337e9f3d510c35ed2131f05f59dbd4be67796f952c3f0d4be181c4a6740fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico que inicia nesta página; o conteúdo do gráfico não aparece na extração."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que há diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral da região Sudeste, a mais baixa, e as médias das demais regiões do país. Vemos que a amplitude do intervalo de confiança é pequeno, entre 1,2 e 3,2, em todas as Grandes Regiões. O intervalo de confiança um pouco maior da região Norte (3,2) está relacionado com o tamanho da população envolvida, menor nesta região.",
+  "text_sha256": "38f2affa766988154ae43c6af1e1aef688b792208eb64bdde7c55e9543ae3357",
+  "window_size": 3
+}

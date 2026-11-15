@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cfefe40e9765f13006af8eea2f49087d1b0850eaef332f67d",
+    "usage": {
+      "input_tokens": 2119,
+      "input_tokens_details": {
+        "cache_write_tokens": 2116,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2116
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 2722
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_74.txt",
+      "source_sha256": "07ec11c98562ecc4046032fa47a2bde50a99c2e15ff0d5c1f924e8a4297a5f21"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_76.txt",
+      "source_sha256": "fbd797ee9eff1c0bd284a150f6cf05d9dd12e48f39470434bb8434de3beea664"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:34Z",
+  "duration_seconds": 6.483,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_75.txt",
+    "source_sha256": "0539c74202a53694cdef77fc8193193fc13f785c3dee69e17dedcad32e7a430d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c31340d6ecf6829b6efd210899c279a9229a4a21a9bc8f844b35e893fcd5d2d6",
+  "request_fingerprint": "ddaadfd5311094369149c7035435f117543ef1d824ae20eb706a41edc1013260",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, cabeçalhos, dados e fonte. A descrição do Gráfico 3.20 foi preservada como prosa; não havia conteúdo gráfico identificável para remover na página."
+  ],
+  "status": "success",
+  "text": "A nota máxima, 80,0 pontos, foi alcançada por pelo menos um aluno das regiões Nordeste, Sudeste, Sul e Centro-Oeste. A região onde ocorreu a menor nota máxima foi a Norte (75,0). A mediana do Brasil como um todo foi 20,0, e foi a mesma nas regiões Sudeste e Centro-Oeste. A maior mediana ocorreu na região Sul (25,0) e a menor na região Norte (10,0). A nota mínima (0,0) foi obtida em todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico da área de Química para alunos do Bacharelado e da Licenciatura. As distribuições do Bacharelado (azul) e da Licenciatura (verde) são bimodais, com modas nas questões em branco e no intervalo (20;30]. Os coeficientes de assimetria são positivos: 0,32 para o Bacharelado e 0,54 para a Licenciatura. A assimetria é positiva para todas as distribuições por região, sendo o da distribuição das notas dos alunos de Licenciatura da região Norte o maior (0,97) e o do curso de Bacharelado da região Centro-Oeste o menor (0,08).",
+  "text_sha256": "b70a5a38e5a86dea3cc0036617dd6e79c1e5d39f1af6d917195ba2e96ebb2cb9",
+  "window_size": 3
+}

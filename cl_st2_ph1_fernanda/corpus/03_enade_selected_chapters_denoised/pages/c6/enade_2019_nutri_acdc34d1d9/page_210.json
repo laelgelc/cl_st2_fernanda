@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e7eb471b84b6942006af914b83a8887d19869c17597edd118",
+    "usage": {
+      "input_tokens": 2477,
+      "input_tokens_details": {
+        "cache_write_tokens": 2474,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2474
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 535,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 3012
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_209.txt",
+      "source_sha256": "35b299d2d2e92157a1786922e384c6fca4d5b73a086c1bdd8629220b283eb6b6"
+    },
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_211.txt",
+      "source_sha256": "0ddb4e8e760cf50d4a597bde66a1354eaf535c30f352e2955b4fb3104ba6fb44"
+    }
+  ],
+  "created_at": "2026-11-15T02:11:04Z",
+  "duration_seconds": 6.199,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 210
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_210.txt",
+    "source_sha256": "bfdd1d816aa84197e03b7af5ca8a4f3461a551abb8c910c0857abc3998972d5a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e26e82ea23aa56262034152cd9a229bb8c95e949f031ab36b53b98cade23eb6f",
+  "request_fingerprint": "f2b930226bca0cfdb89f829ee1e2c4394af905577eb2936aa5ee49db4a6cb4d7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados e fonte. O texto sobre o Gráfico 6.14 foi preservado; o material gráfico não aparece no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "Enquanto o maior desvio foi encontrado na região Nordeste (28,4), o menor foi encontrado na região Sul (25,7).\nA Mediana para o Brasil como um todo foi 55,0, mesmo valor obtido na região Sudeste. A Mediana nas demais regiões foi 45,0, na região Norte; 50,0, na região Nordeste e 60,0 nas regiões Sul e Centro-Oeste. Para o conjunto de estudantes de Nutrição do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um estudante de todas as regiões. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo (40; 50], correspondendo a 15,0% dos respondentes. Apenas 8,4% dos participantes deixaram a resposta a essa questão da prova em branco. Destacam-se, também, os participantes que ficaram com notas nos intervalos (50; 60] e (60; 70], pouco 13,5% e 13,9% do total de participantes, respectivamente.",
+  "text_sha256": "567ffc25ebbe01e8637945b7256e0095be8a8d79460564d20bbb29a067e156df",
+  "window_size": 3
+}

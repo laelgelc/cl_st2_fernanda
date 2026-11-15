@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c57874b676eb965006af9072c001887d1b9f8a0af3948aec3",
+    "usage": {
+      "input_tokens": 2725,
+      "input_tokens_details": {
+        "cache_write_tokens": 2722,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2722
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1012,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3737
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_103.txt",
+      "source_sha256": "a53a743522ab733a836ee5ee6d41afb4c232039ab3575cd8fa41412e24e72524"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_105.txt",
+      "source_sha256": "8918185ec964339a8123e21d17c1525bda0b682148ef92ba22011a0abc89a491"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:15Z",
+  "duration_seconds": 13.869,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_104.txt",
+    "source_sha256": "944dd65f281fdf4ec74b83b35a8f6e21f9468329d377156a8bb9eb5f4a14d326"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bdf49eb6c52f59292f31adb2f3f2f3e20819d5379714559988d4032f74f281ec",
+  "request_fingerprint": "dedf7ad580a363a2993e855cf5ecc681e42af949ade1d8f93b6811976c9039ae",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e fonte.",
+    "O Gráfico 6.2 é referido no texto; o conteúdo gráfico não aparece na extração fornecida para a página-alvo. A linha de fonte aparece na página de contexto seguinte e foi excluída."
+  ],
+  "status": "success",
+  "text": "região Norte (15,9), e o menor, na região Sudeste (14,8). Os demais desvios padrões foram: 15,3 na região Nordeste, 15,7 na região Sul e 14,9 na Centro-Oeste.\nA maior nota no Componente de Formação Geral da prova do Enade/2017 foi 98,4, obtida por, pelo menos, um aluno na região Sudeste. A menor nota Máxima foi obtida na região Sul (91,8). A Mediana do Brasil, como um todo, foi 60,5, sendo a menor Mediana encontrada na região Norte (57,9), e a maior, encontrada na região Sudeste (65,6). A nota Mínima nessa parte foi zero, encontrada nas regiões Norte e Sul. Na região Nordeste a nota Mínima foi 9,0, no Sudeste foi 15,0 e no Centro-Oeste foi 7,5.\nConsiderando-se as notas, segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre a maior Média das notas do Componente de Formação Geral, obtida na região Sudeste (64,0), e todas as demais médias. Já as diferenças entre as quatro médias menores não são estatisticamente significativas.\nO Gráfico 6.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (60; 70], intervalo imediatamente superior ao intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda que, no Gráfico 6.2, as notas apresentam dispersão ligeiramente maior do que a do Gráfico 6.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,0 para a nota da prova, como um todo, e 15,6 para o Componente de Formação Geral.",
+  "text_sha256": "15b1e15f0a97e911ea905af21c61d7e86795aa26973906c544ae04aae832b02c",
+  "window_size": 3
+}

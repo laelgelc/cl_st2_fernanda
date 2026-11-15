@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ae18eb8f57da671006af901510f6487d1b832d095eabbcc07",
+    "usage": {
+      "input_tokens": 2676,
+      "input_tokens_details": {
+        "cache_write_tokens": 2673,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2673
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 359,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 3035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_55.txt",
+      "source_sha256": "60337e16188154a04e1b31270186f64ce2da99e6ca956a358f3972da0676fbd1"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_57.txt",
+      "source_sha256": "5e3092f3fce8b0fd340d37d871634c46424cbce905c5dec69aef641327002073"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:16Z",
+  "duration_seconds": 3.494,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TURISMO.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_56.txt",
+    "source_sha256": "8df9ad77f9d402302b0f03e2c04957d254eb6a54b7219edfc3cf05e48635dbbf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a31c7510e02bc5654102dfacebb373aea464677876b8440a83537c014137cb23",
+  "request_fingerprint": "70171e2d331f753e8569bcfbc7803ca5687b8899da5de4bc4ad5c6438c253720",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da página e sua linha de fonte: “Fonte: MEC/Inep/Daes - Enade/2015”."
+  ],
+  "status": "success",
+  "text": "A alternativa correta A, representada no gráfico pela curva em azul, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta A aumenta gradativamente, chegando a atingir 100% para 21 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nessa parte da prova.\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "0a71989a72e3aaf5874be42884723f3b15cbe1ebf93fb7fdbeb2fa868da9f263",
+  "window_size": 3
+}

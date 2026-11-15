@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07d23d6d13a7cce4006af923541c2c87d180bbc2316f5201ce",
+    "usage": {
+      "input_tokens": 3121,
+      "input_tokens_details": {
+        "cache_write_tokens": 3118,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3118
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 3530
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_131.txt",
+      "source_sha256": "b5ef4108302bb8b6a30af275199bcfd173202abe3ae4b74fe1c6200d2d542fc6"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_133.txt",
+      "source_sha256": "4d2207b200dbe5c3f4c85764b11fb00452d01beb66acfa79cadccd8a01a7183a"
+    }
+  ],
+  "created_at": "2026-11-15T03:13:24Z",
+  "duration_seconds": 4.114,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_132.txt",
+    "source_sha256": "6dfe0228c8b0ef01d14b887d0ca9f781a9546329ec1f113a7eb67d837d7fb924"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c3dce9a22f530d4b9190ac88f636f63f88e2344ef4d0119ce88ae254f0c637e3",
+  "request_fingerprint": "6c30b425f8c865459ef698912ddf9088bfab7fe63423b05679be9caf42d0bb2e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.1 (histograma), sua legenda e a linha de fonte.",
+    "Removidos a Tabela 5.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Engenharia Mecânica de todo o Brasil: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (47,8) do que a média das IES privadas (35,8). O desvio-padrão",
+  "text_sha256": "eded252984507d6a10e2e1667e5e8b449d086b7de67d2796181b8c6f0274ad5c",
+  "window_size": 3
+}

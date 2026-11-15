@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e38dace6e4b29ed006af8f1383b4487d192dd6fba9f0f7f59",
+    "usage": {
+      "input_tokens": 1897,
+      "input_tokens_details": {
+        "cache_write_tokens": 1894,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1894
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 2333
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_42.txt",
+      "source_sha256": "2ecf77941d9653df73c9a280946c596a47a451095ddeb67cdfea3836a39a109c"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_44.txt",
+      "source_sha256": "1489ca210c7270eff3376b018d22e7a5342f4ab20af60b0556c884ee25af231e"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:36Z",
+  "duration_seconds": 4.69,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_43.txt",
+    "source_sha256": "b6096eb70c478a25bf54f5213e50165183557f2552158593f4bb937d65005586"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5992555cd48bbfc5327f32fdd37a698b3199621d314f0110814ad40feeb97249",
+  "request_fingerprint": "855ee7f578225b3562b886c32511915429f0717c304fa6f4ee8a84a77cd59497",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico da página e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2012”)."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa entre a maior média das notas no Componente de Formação Geral, obtida na região Sul (43,4), e a menor, obtida na região Norte (40,4). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "3a30c85297105a59f7c3358349887a2954072426afdf9503def1d59745f1d23b",
+  "window_size": 3
+}

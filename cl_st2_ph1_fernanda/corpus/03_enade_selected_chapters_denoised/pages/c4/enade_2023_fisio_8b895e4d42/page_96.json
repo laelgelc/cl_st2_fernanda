@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ef2eb81b77110f1006af9239cce0087d1a7e7b68f703f5eeb",
+    "usage": {
+      "input_tokens": 1818,
+      "input_tokens_details": {
+        "cache_write_tokens": 1815,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1815
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 258,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 2076
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_95.txt",
+      "source_sha256": "c73b9a94c9456e5cfd76760df145f13ab3cdb8c2b26a32c385b1d1942bd3d4b3"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_97.txt",
+      "source_sha256": "dc927f0a5afe92f0847934fc3ff2296f3644224f978019557b306d808b4f05ac"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:36Z",
+  "duration_seconds": 3.035,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_96.txt",
+    "source_sha256": "1938b5b693257207b6e2f59bc52cbb7096fa509bd367a9e951e26af347443924"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b061952789f241e3bb4e48747505fa832de8ad72a51e84bf01b0a96fff197159",
+  "request_fingerprint": "b8f6b6ba0c65fa098457b5983c6abc90cd1e4780b16b0cad8d3fb0a36b26418a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.18, incluindo título, legenda, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém, por quartos de desempenho.\n\nOs dados do Gráfico 3.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “compreensíveis e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho, com percentual mais elevado no quarto superior (91,4%), se comparado ao quarto inferior (79,4%). As diferenças entre os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "be652019ca5990f921093554f667cfaf656aa79535557d14de2defb31a1bfddf",
+  "window_size": 3
+}

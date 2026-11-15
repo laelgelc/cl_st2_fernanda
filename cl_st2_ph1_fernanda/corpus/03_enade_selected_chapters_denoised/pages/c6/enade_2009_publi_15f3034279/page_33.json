@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dff7054518f36de006af8e6850a4487d1b8e21d743be6f629",
+    "usage": {
+      "input_tokens": 2399,
+      "input_tokens_details": {
+        "cache_write_tokens": 2396,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2396
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 382,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2781
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_32.txt",
+      "source_sha256": "2f2aecfbbebcfdee111248d70ac4bd48c43c813624827a5b41ca9b71bf349683"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_34.txt",
+      "source_sha256": "c827d4e35a909e70cd947a7e4a808c99f12d06cfdf474555407179c6436de8c9"
+    }
+  ],
+  "created_at": "2026-11-14T22:53:56Z",
+  "duration_seconds": 4.071,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_publi/enade_2009_publi_page_33.txt",
+    "source_sha256": "cbff7a73f8eae7a94916d8e059a79601a556bd44abb3efcd87254a180edbdace"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "24edcf9f6683c0bcd023acd288dd30cd469c57f4e0c6d6bc923214ba15b1ff71",
+  "request_fingerprint": "9a4bee91c18827921f665607a3f48d5dcb2f9fc53dbeab640ce135157832a035",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1 e sua fonte, incluindo título, cabeçalhos e dados.",
+    "Removidos o Gráfico 3.1 e sua fonte, incluindo título, eixos, legendas e dados."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 48,0 entre os concluintes e 41,2 entre os ingressantes. Nas faixas de notas até 50 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. Constatou-se que, aproximadamente 28,3% dos ingressantes e 45,4% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos",
+  "text_sha256": "b103843815e4e2771315eba67884b182d380c3e8bff5396c9f0ed1dfb2f07c95",
+  "window_size": 3
+}

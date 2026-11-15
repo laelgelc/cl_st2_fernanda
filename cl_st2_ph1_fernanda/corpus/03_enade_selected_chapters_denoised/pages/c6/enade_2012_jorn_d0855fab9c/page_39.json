@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c439ed3f8e4bbe6006af8f10f52ec87d19ea5de92807c226e",
+    "usage": {
+      "input_tokens": 1608,
+      "input_tokens_details": {
+        "cache_write_tokens": 1605,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1605
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 1904
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_38.txt",
+      "source_sha256": "812c76a7bc870a10f4511b014a9ef279e4a49a1b0dc51da77675d24047756798"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_40.txt",
+      "source_sha256": "f46a28ae4dccc44730b3349444fd932bca07e38902452f1409b7a249867a9980"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:55Z",
+  "duration_seconds": 3.302,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_39.txt",
+    "source_sha256": "dbff2df973040e715081c030c5014b920c63ccfdbb894fa89314e2127718369c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b39a17351eabd97601f163a64487013f87052f5b1271ffab3481645f2908ddc9",
+  "request_fingerprint": "c322d2f64d235decb999136eb7f9e8a42de26cabcc57b531fd3f630e8bf97698",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que pertence ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% entre as médias das notas dos estudantes provenientes de Universidades em relação aos estudantes provenientes Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (46,0), e a menor, pelos de Centros Universitários (44,5).",
+  "text_sha256": "863ae1588263a0e1183107ba3b3a92b8e515002fcb7264e17016e763700fa490",
+  "window_size": 3
+}

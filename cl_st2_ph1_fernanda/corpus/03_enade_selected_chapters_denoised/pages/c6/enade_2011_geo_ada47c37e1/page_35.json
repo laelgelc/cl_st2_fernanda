@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c69d862f6fbad81006af8ed813f3887d1930a0463b82f45e9",
+    "usage": {
+      "input_tokens": 2104,
+      "input_tokens_details": {
+        "cache_write_tokens": 2101,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2101
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2567
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_34.txt",
+      "source_sha256": "bdaac85736c76736c9c7c023820da70fb4d22edbf14f793707c18c7a34b75b15"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_36.txt",
+      "source_sha256": "598cd27defc68ce83d4c5503d9b02cc91b7de3c1799c5bc11226e2366de2b983"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:45Z",
+  "duration_seconds": 6.424,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_35.txt",
+    "source_sha256": "c82e88bdf09dad803ea34414beeb87af85a5b721da751c39c4e1f3ce10da1e07"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ec5385636bd87461fb4145a8cf85d517d994ccf17815578af626bf19003d3737",
+  "request_fingerprint": "7dd7cb2691dd722b5ce55ce3ee437f4c203f379465ad6245ea484e72189b64d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao material gráfico que continua na página-alvo."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (41,1) e a menor, obtida na região Sudeste (37,8).",
+  "text_sha256": "55d2396f38187f1e8a974175a9cd54007be4d2c52a675e95d2f1666877a3e053",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f9e39cec4e26c2006af90c1cb6dc87d1b59cc924bdaefed2",
+    "usage": {
+      "input_tokens": 2444,
+      "input_tokens_details": {
+        "cache_write_tokens": 2441,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2441
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 405,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 2849
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_159.txt",
+      "source_sha256": "e153c168cd0b9bc1b4209e7bef3646d1d2c0d324bc8b6adc7228fda388246717"
+    },
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_161.txt",
+      "source_sha256": "0f76f2c2f8cedce863db63a8391ad19358a4e4fafb7b12528c962271d55240d9"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:20Z",
+  "duration_seconds": 4.076,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 160
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_160.txt",
+    "source_sha256": "ddffe404deb259139a56c3ec8233a3082192d46c6a45636991ec6dad63a7d994"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70a5fa036127ab42bcb895b4e40b12f9c0daa09ee3dedec60a23fc3226da4dc6",
+  "request_fingerprint": "ff35d3804c5f4333847072eed3c1dbe6e8bdfff84eb25367d500e23d4cd43c42",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Quanto à variabilidade das notas, o Desvio padrão dos alunos do Brasil, como um todo, foi 27,4. Enquanto o maior desvio foi encontrado na região Sudeste (27,7), o menor foi encontrado na região Centro-Oeste (26,8). A Mediana para o Brasil e em todas as regiões foi 25,0. Para o conjunto de alunos de Administração do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um aluno de todas as regiões. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.13, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem modal o intervalo (40,50], correspondendo a cerca de 33% dos respondentes. Aproximadamente 27% dos participantes tiraram zero nessa questão. Somando-se a frequência desse intervalo com a daqueles que deixaram a questão em branco, chega-se próximo a 45% dos participantes.",
+  "text_sha256": "3fb40cba3c7c4ad23988c6c9b3af8640bf337d7e3931bf5e3035b748a239495f",
+  "window_size": 3
+}

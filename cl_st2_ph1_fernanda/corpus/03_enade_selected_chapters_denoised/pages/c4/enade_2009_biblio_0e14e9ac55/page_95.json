@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0870d3aaa1728aea006af8e4b02f9487d197e16a65a25a7172",
+    "usage": {
+      "input_tokens": 2563,
+      "input_tokens_details": {
+        "cache_write_tokens": 2560,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2560
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 563,
+      "output_tokens_details": {
+        "reasoning_tokens": 371
+      },
+      "total_tokens": 3126
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_biblio/enade_2009_biblio_page_94.txt",
+      "source_sha256": "fa085d243565c96de6002cdb2a47c2b97649d92f41f06aa897589c8e8a8ba50e"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_biblio/enade_2009_biblio_page_96.txt",
+      "source_sha256": "6806bc9dd14ab77f29fa245e6a7d5f350fcec335f2fc83a1064f4e300935f3a3"
+    }
+  ],
+  "created_at": "2026-11-14T22:46:08Z",
+  "duration_seconds": 6.236,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_biblio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_BIBLIOTECONOMIA.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_biblio/enade_2009_biblio_page_95.txt",
+    "source_sha256": "b17b0501df583e4170eba81149b8bb70d24466bbbb63f6dc389313cdc7676506"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d090aad89d217e3f2d351b293f46ef2c8a9ef101825909a04c0db30e840186df",
+  "request_fingerprint": "8c317047376190bcf522038bd98ab56cb09953aebd71015b5921d7f2fc600fc6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os gráficos 4.17b e 4.17c, incluindo títulos, dados, rótulos, legendas e linhas de fonte.",
+    "A prosa termina em “o” e continua fora da página-alvo; não foi completada."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de BIBLIOTECONOMIA. A proporção de concluintes que gastaram entre uma e duas horas foi maior na Região Sudeste (44,5%) e menor na Região Norte (19,0%). Para ingressantes, o",
+  "text_sha256": "661739a8f137cecca2f30fd8645738af2a8ced7767ed1b0dbf036a5f983c41bf",
+  "window_size": 3
+}

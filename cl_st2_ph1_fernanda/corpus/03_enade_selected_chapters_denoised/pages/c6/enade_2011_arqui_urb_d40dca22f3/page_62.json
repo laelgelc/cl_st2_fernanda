@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_040b779ce2dc4d6f006af8eac7ea4c87d1b5100afea8adc2d5",
+    "usage": {
+      "input_tokens": 2405,
+      "input_tokens_details": {
+        "cache_write_tokens": 2402,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2402
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 510,
+      "output_tokens_details": {
+        "reasoning_tokens": 282
+      },
+      "total_tokens": 2915
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_61.txt",
+      "source_sha256": "17424fe87d63a5b95537ce17f840017c8e67bfa8c7d5280420769314667a76ab"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_63.txt",
+      "source_sha256": "2fc8ebfc38ab20bb1078765a3a55f80e547171df1f0da137ace3c6511d6efd12"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:07Z",
+  "duration_seconds": 6.316,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_62.txt",
+    "source_sha256": "d3418077d59f915497f069d43f9454b7efe2564e0157b1c3449d9468ade39f07"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a6ac8e9e80a1d1dc0a172e213f5768084ef9a571210e09198c81397917ae2cef",
+  "request_fingerprint": "d97db910b8c3cb7719a3623657069245eb468499b33dcd2aea34921ee48deabc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral. Neste gráfico, desconsiderando-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 31%), observa-se a moda no intervalo (50;60]. Nota-se, ainda, que as notas maiores do que zero até 100 formam uma distribuição aproximadamente simétrica, com notas melhor distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.\n\nO coeficiente de simetria das notas nesta questão é positivo e muito próximo de zero (0,005), indicando que a distribuição é aproximadamente simétrica. O mesmo ocorre para as regiões Nordeste e Sudeste, cujos coeficientes são 0,003 e 0,184, respectivamente. Nas demais regiões a assimetria é negativa, apesar de também pequena, em torno de -0,2.",
+  "text_sha256": "a61c6a99dd80891ce324a9c19c6270d91fe12d7479bf399f243f7b089ef6c156",
+  "window_size": 3
+}

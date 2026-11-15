@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060e6ac477789eb4006af901a33f8487d19b497ac259c9b30c",
+    "usage": {
+      "input_tokens": 3158,
+      "input_tokens_details": {
+        "cache_write_tokens": 3155,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3155
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1579,
+      "output_tokens_details": {
+        "reasoning_tokens": 392
+      },
+      "total_tokens": 4737
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_48.txt",
+      "source_sha256": "be11d4a3d9263cee82ed0a68792e78d65de366e8bc7bad67abab99f253931d8c"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_50.txt",
+      "source_sha256": "30386abeefb7a816de0f81f29ac84a42c58b094df539dbe36bb37d43cfbcb24c"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:39Z",
+  "duration_seconds": 11.669,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_49.txt",
+    "source_sha256": "a61f4452a8cc1520988cd81852903349b92f4abddfcb95aed1e05dc48978cc16"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "265dad87e68ba0b285deeb1aefa9b019fd089195115db5955b697750379e1580",
+  "request_fingerprint": "c3593a8a7b95ca77aa97291776a27803dfb2094c5fe38d54f98f58c983788401",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo título, estatísticas, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "3.2.1 - Componente de Formação Geral\n\nA Tabela 3.9 apresenta as Estatísticas Básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A Média do Brasil foi 41,9. A menor Média foi encontrada na região Norte (36,4), e a maior, na região Sul (46,3). As demais médias foram: 38,0 na região Nordeste, 38,2 na Centro-Oeste e 44,5 na região Sudeste. O Desvio padrão do Brasil foi 20,4, sendo o maior Desvio padrão encontrado nas regiões Sul e Centro-Oeste (20,5 em cada uma), e o menor, na região Norte (19,1). Os demais desvios foram: 19,6 na região Nordeste e 20,3 na região Sudeste.\n\nAs medianas do Brasil como um todo e de quatro das cinco regiões foi 37,5 — a única região com mediana diferente foi a Sul, com 50,0. As notas máximas (100,0) e as notas mínimas (0,0) foram iguais para todas as regiões.\n\nA Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n• Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n• As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e duas questões foram tida como Fácil, por ter índice de acertos entre 0,61 e 0,85. Duas questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, uma questão apresentou menos de 15% de acertos (13%), razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto-bisserial). Nesta análise, as questões foram assim avaliadas: sete das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice Muito bom para esse grupo de estudantes. Uma questão tive Índice de Discriminação Bom, com valor entre 0,30 e 0,39, e nenhuma questão foi classificada com índice de discriminação Médio (entre 0,20 e 0,29) ou com nível Fraco de discriminação (abaixo de 0,20).\n\nO Índice de Facilidade variou de 0,13 a 0,81, e o de Discriminação, de 0,30 a 0,53. As sete questões com Índice de Discriminação Muito bom figuraram entre níveis de dificuldade Fácil, Médio e Difícil: duas classificadas na categoria Fácil (as questões 3 e 6) do Índice de Facilidade, duas, na categoria Médio (questões 1 e 2) e três na categoria Difícil (questões 4, 7 e 8). Em particular, a questão 3 foi uma que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,61 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,81. A questão de número 5 apresentou um Índice de Facilidade de 0,13, ou seja, menos do que um quinto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,30). Já a questão 6 obteve Índice de Discriminação Muito bom, 0,42, e seu Índice de Facilidade foi Fácil (0,81), a questão com maior Índice de Facilidade dentre as oito objetivas do Componente de Formação Geral.",
+  "text_sha256": "42c449114bd6901ae21da72fd070743d52ac1009a8565a209d355050f1123b03",
+  "window_size": 3
+}

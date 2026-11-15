@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ece033547de87d8006af91112259087d1aac940c3bd60ebd0",
+    "usage": {
+      "input_tokens": 1980,
+      "input_tokens_details": {
+        "cache_write_tokens": 1977,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1977
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 735,
+      "output_tokens_details": {
+        "reasoning_tokens": 466
+      },
+      "total_tokens": 2715
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_111.txt",
+      "source_sha256": "99ec2b14bc3f4e7a71a5666bcd5051ddc5d31d1181b82a0260f70fb8845bc547"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_113.txt",
+      "source_sha256": "d28cda1b4c46b65bc70b91cc4033a4ed15232befe21f79e535c1fd8a832421b3"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:30Z",
+  "duration_seconds": 6.827,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_112.txt",
+    "source_sha256": "12713ae38f6818b0d0bc97826a9f717e582b7b67dc182dc9a0affe20461b8738"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f00a3e3f6933bf2c54572f922ec5892608ea95fec739df2b62895bbd9cb834e",
+  "request_fingerprint": "83b5650ec89d2674a96bdfc195b0ccb2edaaf07a76955e79df73502c8215520c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.29, incluindo título e fonte.",
+    "Removidos valores numéricos extraídos do gráfico de desempenho que continua na página seguinte; confirmar sua associação ao Gráfico 4.30."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 62,5% na região Norte a 80,7% na região Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 4,8% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,7% os do quarto superior com a mesma resposta. A diferença dentre os alunos que optaram por esse motivo de dificuldade no quarto inferior em relação aos dois quartos superiores de desempenho é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 83,6% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 62,7% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "5618eeada7a94a932436c92bf088a77dce1e531ef1ce4c86473e0ff4d3f8cf25",
+  "window_size": 3
+}

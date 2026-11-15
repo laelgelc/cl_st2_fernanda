@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0558af6bed09d227006af911208db087d1add6491c754a61f2",
+    "usage": {
+      "input_tokens": 2827,
+      "input_tokens_details": {
+        "cache_write_tokens": 2824,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2824
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 649,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 3476
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_144.txt",
+      "source_sha256": "50b5df81482d40e119104b95984e9d66429159a17c48e307b97c1cb4503c0191"
+    },
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_146.txt",
+      "source_sha256": "e6fd01020831dd064b1c0b8748d62a74dda1631732a007b21b323d572f68d7e9"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:44Z",
+  "duration_seconds": 6.358,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 145
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_145.txt",
+    "source_sha256": "5bdb4cbbc3e14007569eb5789257d893d9c07e40ea219c34bbe19ea5792da396"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "efdc92ffdaa7256d2af94a22532089424c36798d641c1cb00b74d029e4362f5e",
+  "request_fingerprint": "9ee89d1dced149940860086d81e03a0b7982dd4bc43c82853fd5ca8bcaa97af6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,77. Das duas questões que tiveram Índice de Discriminação Bom, a questão 3 foi considerada Fácil, com Índice de Facilidade 0,69, e a questão 5 foi considerada Difícil, com índice de Facilidade 0,18.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 11,4% escolheram a alternativa E (em vermelho), 15,7% escolheram a alternativa D (em laranja), 24,7% escolheram a alternativa B (em verde, gabarito), 6,0% escolheram a alternativa A (em azul), e 42,2%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, nenhum deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.",
+  "text_sha256": "d8427926b0e9eef4bc82b42a9285c0f3c1e5fcdaab1f992f6b3699a8206b45b8",
+  "window_size": 3
+}

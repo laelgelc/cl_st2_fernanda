@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e75d7d0b752dbfd006af9121614e087d1876201a53984404c",
+    "usage": {
+      "input_tokens": 1905,
+      "input_tokens_details": {
+        "cache_write_tokens": 1902,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1902
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 447,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 2352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_flo/enade_2019_eng_flo_page_125.txt",
+      "source_sha256": "ef5f0e00d22e43f7c6f4ad3ed6b3bfd3d5417ac64a55b554ba7bf9b289fe5ffd"
+    }
+  ],
+  "created_at": "2026-11-15T01:59:50Z",
+  "duration_seconds": 4.71,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_flo/enade_2019_eng_flo_page_126.txt",
+    "source_sha256": "e222dd9d5f0766ca04f8900875b9c43130cc230767025d4967246a0e05d37417"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad3d524b28bb6a8857ff1ad9325e02ac9164ce1673e68fbdec1caed3d42999d1",
+  "request_fingerprint": "6cfade449f78524a2d886f79f1d438a7c2a813a5ccfda280f3c0c5e2298cf0c6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos elementos gráficos do Gráfico 5.3, incluindo a linha de fonte e o rótulo “CEFET/IF”."
+  ],
+  "status": "success",
+  "text": "Os Centros Universitários da região Centro-Oeste contaram com apenas um curso, o qual foi avaliado com conceito 1. Nesta região, nenhum curso é oferecido em Faculdades. Já os CEFET/IF participaram com um curso na região Centro-Oeste, ao qual foi atribuído o conceito 3.\nNo Gráfico 5.3, apresenta-se a distribuição do Conceito Enade dos cursos de Engenharia Florestal, segundo a Organização Acadêmica da IES. As Universidades (linha azul) apresentam cursos com conceito 5, já que a poligonal cumulativa alcança 100% para o conceito 5. Os cursos em CEFET/IF (linha laranja) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, com distribuição muito semelhante entre si, encontram-se os cursos mantidos por Centros Universitários (linha verde) e Faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, distribuição de Conceitos Enade com menores valores. Os cursos em Universidades apresentam distribuição intermediária em seus conceitos.",
+  "text_sha256": "242e7c76dddbc85aa0666bdcef6b06b5a33abc62d02508279476c5f91d2a217e",
+  "window_size": 3
+}

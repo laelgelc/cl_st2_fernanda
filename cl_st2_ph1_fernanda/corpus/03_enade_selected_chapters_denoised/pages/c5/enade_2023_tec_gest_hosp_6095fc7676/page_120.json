@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e1d8047b7afadbc006af9252008ec87d18e600da3665f133b",
+    "usage": {
+      "input_tokens": 2469,
+      "input_tokens_details": {
+        "cache_write_tokens": 2466,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2466
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 428,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 2897
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_119.txt",
+      "source_sha256": "26abed642a64e32cf99a0f3640e1137f0d7a3d4d5deb47b77152db325ac6156f"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_121.txt",
+      "source_sha256": "fe85eb3c231a27215046fd560d8b5adf1e6e414b7f3eaee17229c99510f58241"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:03Z",
+  "duration_seconds": 4.125,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC G HOSPITALAR.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_120.txt",
+    "source_sha256": "8eba51d4fd52bb020a0591ee31453ebd984dd0987f316edcad022d1650098f48"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f00f43367a35373acea907d8c57c99309d9d07cf771c3fb25142085ba5dfe78e",
+  "request_fingerprint": "ced8faf7e3057d5679ce0eedfa662eb6689eb287899741bb7135ace649ef51bb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Sudeste (linha vermelha) apresenta 92,0% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 70,8% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Nordeste (linha verde), nas quais todos os cursos têm conceito menor ou igual a 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4. A região Sudeste (linha vermelha) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Sul (linha roxa) e Centro-Oeste (linha laranja) apresentam a distribuição com valores maiores. Os cursos em IES situadas na região Nordeste (linha verde) e Norte (linha azul) apresentam uma situação intermediária.",
+  "text_sha256": "c82901f71d256e7f819917d53e67036b3f8474e42c6915fe57e8ae25e6c543eb",
+  "window_size": 3
+}

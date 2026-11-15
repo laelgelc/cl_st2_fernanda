@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bcec4fa7c9608df006af9105d4d0087d1b7c9de9cdab845e1",
+    "usage": {
+      "input_tokens": 2752,
+      "input_tokens_details": {
+        "cache_write_tokens": 2749,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2749
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1069,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 3821
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_amb/enade_2019_eng_amb_page_134.txt",
+      "source_sha256": "2645fa5837133637c927839367074990a03bc8a6fee22a8abdf3ec9cda40bf7a"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:29Z",
+  "duration_seconds": 8.69,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 133
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_eng_amb/enade_2019_eng_amb_page_133.txt",
+    "source_sha256": "0626bc00c5151d9137a2224edc75dcc4255d834fa6525eba2c3f700e0e40956e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9efcaed8684369beec6d3b203ad6403f67d38c5cebe89aa7343d1df43f22e024",
+  "request_fingerprint": "71cd4f83c49c6e4ce1a69c5a32418fb29fc3751a73ed9cecf25501fae8727bd3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.1, incluindo título, dados e fonte. A discussão da tabela antes e depois dela foi preservada.",
+    "A última frase termina incompleta na página-alvo; foi mantida sem completar com o texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "CAPÍTULO 5\nDISTRIBUIÇÃO DOS CONCEITOS\n5.1 PANORAMA NACIONAL DA DISTRIBUIÇÃO DOS CONCEITOS\n\nO Conceito Enade é um indicador de qualidade que avalia os cursos por intermédio dos desempenhos dos estudantes a partir dos resultados do Enade. Os valores possíveis vão de 1 (pior situação) a 5 (melhor situação). Os cursos com apenas um ou sem nenhum concluinte participante não obtêm o Conceito Enade, ficando Sem Conceito (SC).\n\nNa Tabela 5.1, são apresentadas a quantidade e a distribuição de cursos de Engenharia Ambiental participantes do Enade/2019, por faixa de conceito e Grande Região. Enfatiza-se, mais uma vez, que a diferença entre os cursos tabulados neste capítulo e no capítulo 2 corresponde aos cursos que não foram avaliados, ou seja, àqueles, em princípio, sem alunos concluintes que tivessem sido inscritos para a prova.\n\nObservando-se os dados da Tabela 5.1, nota-se que, dos 292 cursos participantes, 116 (39,7%) classificaram-se com conceito 3, o valor modal. Esse foi também o conceito modal nas regiões Norte (40,0%, ao conceito 2 também foram atribuídos 40% dos cursos), Nordeste (31,3%), Sudeste (41,4%) e Sul (50,0%). Os conceitos 2 e 4 foram o segundo mais frequente em nível nacional (22,3%, correspondendo a 65 cursos cada um), e o conceito 5, o quarto (5,8%, correspondendo a 17 cursos). Houve, ainda, 14 cursos (4,8%) que receberam conceito 1, e 15 cursos (5,1%) ficaram Sem Conceito (SC).\n\nA região Norte participou com 20 cursos ou 6,8% do total nacional. Desses, oito cursos receberam os conceitos 2 e 3, o que equivale a 40,0% do total regional para cada conceito. A três cursos (15,0%) atribuiu-se conceito 1, e a um curso (5,0%), conceito 4. Nenhum curso ficou Sem Conceito (SC) ou recebeu conceito 5.\n\nNo Gráfico 5.1, é apresentada a distribuição cumulativa do Conceito Enade segundo Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (conceito Enade). Observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar que, por exemplo, a região Norte (linha azul) apresenta 95% dos cursos com conceito 3 ou abaixo deste valor. A região Centro-Oeste (linha laranja), por outro lado, apresenta 65% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que em algumas regiões o conceito 5 pode não ter sido alcançado por nenhum curso, como ocorre na região Norte (linha azul), na qual todos os cursos têm conceito menor ou igual a 4, e sua poligonal alcança 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com",
+  "text_sha256": "896296417e63144ad523b326678e5ed9f25d8906cf83c72990ef39edca0b5d4f",
+  "window_size": 3
+}

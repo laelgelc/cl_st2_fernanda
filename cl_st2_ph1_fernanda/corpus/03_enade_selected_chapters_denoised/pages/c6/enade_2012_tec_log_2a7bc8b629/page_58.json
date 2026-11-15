@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cacfc0596ff5525006af8f25bef1487d1a4ff6293574128f7",
+    "usage": {
+      "input_tokens": 2268,
+      "input_tokens_details": {
+        "cache_write_tokens": 2265,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2265
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 751,
+      "output_tokens_details": {
+        "reasoning_tokens": 273
+      },
+      "total_tokens": 3019
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_57.txt",
+      "source_sha256": "bb236d71302be81a2fbecd5d8cc164df77e4e0fc687e9e9f00ae37a8d99c5d68"
+    },
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_59.txt",
+      "source_sha256": "daaa34212c259af6f5e19607d0d0165ee8f76f6010d73f9c2293b8d34bd1634f"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:27Z",
+  "duration_seconds": 6.633,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 58
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_58.txt",
+    "source_sha256": "8396155f3d356367f42b32cb279f7e76e68ab6477063f075cf96bbeaed943c17"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95dec11493c99ce59d74fc40c44bf4b248f620b4df376ea6a31747761d8871ba",
+  "request_fingerprint": "1b473543ed9cc994c79f0a3013c7cf0989357e7ee1fdb4b1beca09a7cf1b5967",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.16; mantidas as observações em prosa sobre a distribuição."
+  ],
+  "status": "success",
+  "text": "3.3.1.1 Análise da Questão Discursiva 1 do Componente de Formação Geral\nOs dados de Tecnologia em Logística, obtidos a partir das respostas à questão 1, encontram-se na Tabela 3.9 e no Gráfico 3.16. Nessa questão – de pior desempenho dentre as duas de Formação Geral – os alunos de todo Brasil tiveram média, 29,7. A maior média para a questão 1 foi obtida na região Norte (33,7), e a menor, na região Centro-Oeste (29,0). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 23,5. O menor desvio padrão foi obtido na região Sudeste (23,4) e o maior desvio padrão foi obtido na região Norte (25,6).\nAs medianas (30,0) e as notas máximas (95,0) da questão discursiva 1 foram as mesmas em quase todas as regiões do Brasil, exceto na região Norte onde a mediana foi 35,0 e a nota máxima foi 85,0. Além disso, a nota mínima (0,0) foi obtida em todas as regiões do país, sem exceção.\nO Gráfico 3.16 mostra a distribuição das notas na questão discursiva 1 do componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que deixaram a questão em branco, correspondendo à moda. Considerando apenas os estudantes que tentaram resolver a questão, a moda ocorre no intervalo (20;30]. Também se observa grande concentração de nota no intervalo (30;40].\nO coeficiente de assimetria da distribuição é positivo (0,29), indicando uma assimetria à direita. Em todas as regiões do Brasil este coeficiente se mantém positivo (entre 0,10 na região Norte e 0,33 nas regiões Sul e Centro-Oeste).",
+  "text_sha256": "5f578e7e5296a73f72be97aaf3700943fe67f0a4138ab58f23ce3216b4a20139",
+  "window_size": 3
+}

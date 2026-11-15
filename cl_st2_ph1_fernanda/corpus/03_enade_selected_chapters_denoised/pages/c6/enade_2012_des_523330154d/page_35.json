@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07b4ba168b95bbc3006af8f0bc480887d18d03c7fae761da54",
+    "usage": {
+      "input_tokens": 2463,
+      "input_tokens_details": {
+        "cache_write_tokens": 2460,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2460
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 743,
+      "output_tokens_details": {
+        "reasoning_tokens": 457
+      },
+      "total_tokens": 3206
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_34.txt",
+      "source_sha256": "19498e89cb4adb0790377458088299b3672b56143a6fb303664b95482f235e7c"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_36.txt",
+      "source_sha256": "512f3cd75e49ba0e4a1e48db8c1fac602f84ea8b92fe5cde59d48ea5afd8a4c4"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:32Z",
+  "duration_seconds": 6.785,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_35.txt",
+    "source_sha256": "a28b8f570fb62819834574a9dc8b69644cd29c937b7400261a6adcdf2ffca1b8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5ded0a71ffcf983e87c7d895dbce666fb9710fcca6113622a9bd04568fe8143e",
+  "request_fingerprint": "e9eb73c65ab824c94fc32cee9eb151d00f33a5439fc63c03903bab1242642fa6",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.1, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Sudeste (85,6), ao passo que a região que atingiu a menor nota máxima foi a Norte (73,4). A mediana do Brasil como um todo foi 47,0, sendo a maior mediana obtida na região Sul (48,5) e a menor obtida na Norte e na Sudeste (46,1). A nota mínima foi zero em todas as regiões, com exceção da região Norte com 15,2.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. O coeficiente de assimetria da distribuição das notas é negativo (-0,54), indicando que a distribuição é assimétrica à esquerda. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A única exceção é a região Norte, com coeficiente de assimetria positivo (0,14), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "b6339de512865cabbed4d82e62b13c7fb22d45007d1f1b8ba37f21d04387b6a4",
+  "window_size": 3
+}

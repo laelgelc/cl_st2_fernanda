@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b8cf4d39341bf0a006af919abf0ec87d18da02896295c5316",
+    "usage": {
+      "input_tokens": 3133,
+      "input_tokens_details": {
+        "cache_write_tokens": 3130,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3130
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 602,
+      "output_tokens_details": {
+        "reasoning_tokens": 228
+      },
+      "total_tokens": 3735
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 170,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por_esp/enade_2021_letras_por_esp_page_170.txt",
+      "source_sha256": "7ba890cec13dfc28a88889139cace3397cc4de68a49bc77d1647b1ff2435dc1f"
+    },
+    {
+      "page_number": 172,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por_esp/enade_2021_letras_por_esp_page_172.txt",
+      "source_sha256": "aaacaadd2681eb83b9743feccb75d10099992ae5223635b9116c5eeb2292c7cf"
+    }
+  ],
+  "created_at": "2026-11-15T02:32:11Z",
+  "duration_seconds": 7.234,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Espanhol.pdf",
+    "page_number": 171
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por_esp/enade_2021_letras_por_esp_page_171.txt",
+    "source_sha256": "1ce6dd34f08a9c656d2955ffc3733bc342c0b95dee4b3319e92193491a0d16ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b02c060ab83a473c49dc20bc1ccad7e424fc14e46e09c636d83afe964fe8e4ea",
+  "request_fingerprint": "8d96457c81250ca8de06762dc79c269d6260fd18562738f23b58f9b64733d983",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao Gráfico 6.1; o histograma não aparece na extração fornecida."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 40,5. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (43,8) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (35,4). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sudeste e Norte (12,9), a maior e a menor Média, é superior à diferença entre as Médias das IES Públicas e Privadas (8,4), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (15,7) foi igual ao do Brasil, como um todo (15,7), indicando uma dispersão das notas igual à do Brasil nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades (43,1) obtiveram Média mais alta que a nacional (40,5). A Média dos CEFET/IF (42,6) também foi maior do que a nacional.",
+  "text_sha256": "ed78fa5e352e064b2f1a4ac41447d435dde4976eab2c96d2897dddeb92133155",
+  "window_size": 3
+}

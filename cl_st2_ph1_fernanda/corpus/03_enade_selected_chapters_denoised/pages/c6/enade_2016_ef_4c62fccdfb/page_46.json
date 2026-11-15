@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b6a38812f3f787006af901cdaf2087d1b8df853d5292c328",
+    "usage": {
+      "input_tokens": 2450,
+      "input_tokens_details": {
+        "cache_write_tokens": 2447,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2447
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 415,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 2865
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_45.txt",
+      "source_sha256": "4be1897e2c0c099bb3b45f39d21f17151478b48703f93e7359ba8e4fa071b4df"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_47.txt",
+      "source_sha256": "d9d21d171bf60a51ed163e2466261b3a81409ff435977a55d6ac6e827a11d3a1"
+    }
+  ],
+  "created_at": "2026-11-15T00:50:21Z",
+  "duration_seconds": 4.358,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_46.txt",
+    "source_sha256": "170341912295de2acd79c9177625bdec70447ac33d073ac79e4ec23909133df0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "52e9323d77fcd72f5b72f456ba4b852472d980668580e4374bcc8752ef00b910",
+  "request_fingerprint": "b092f34be1283762ab00bd27d33760d5827e316e68589d9d2bd9d264a2ef107f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2016”, que parece pertencer ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.6 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior Média foi obtida por estudantes de IES Públicas (45,5), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (41,1).\n\nNota-se que também há diferença estatisticamente significativa entre as médias dos três tipos de Organização Acadêmica, valor maior para Universidades (43,0) e menor para Faculdades (39,8).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou menor média do que a Educação a Distância (médias 41,7 e 43,0, respectivamente). Tais médias também apresentam diferenças estatisticamente significativas.",
+  "text_sha256": "b8cbbf0e2e649ae8f7544f65d544f69db1aa288b7d69d3ebe27d4260979e0e4c",
+  "window_size": 3
+}

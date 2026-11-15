@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c1487914a095d39006af8f339485c87d19818f6fb6300e701",
+    "usage": {
+      "input_tokens": 1602,
+      "input_tokens_details": {
+        "cache_write_tokens": 1599,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1599
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 275,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 1877
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_ef/enade_2013_ef_page_95.txt",
+      "source_sha256": "6df16b97bb497dc563cc781aa0031fb681ab9325a3840cd54ffdff3d91de11b2"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_ef/enade_2013_ef_page_97.txt",
+      "source_sha256": "4387809670e5e333a95ca89688e361e85cf85fb12fff45e401cf8631bfba9659"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:09Z",
+  "duration_seconds": 3.651,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_ef/enade_2013_ef_page_96.txt",
+    "source_sha256": "e741df765d5d230f293ea0b1484d94f922e429bb9e7725b9fa1589b36625869d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91c133100f70968c727616cd44a763b47491f46c0b26c8e85061a614a134b533",
+  "request_fingerprint": "12e17a6e34197c773e8e61b26676725d3b126949bb65a6ab70d45a4b0e1b87f9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», aparentemente associada a gráfico(s) nesta página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (82,7%) se comparada ao quarto inferior de desempenho (67,6%). As diferenças dos resultados entre os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "7b8d9756d9c2405f517bf2fa63feba59a5a978a474a05fcc8f901e2f20c29384",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bae38bde925d9ec006af923e0fe0c87d18f5e587d276776c8",
+    "usage": {
+      "input_tokens": 2458,
+      "input_tokens_details": {
+        "cache_write_tokens": 2455,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2455
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 2639
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 155,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fono/enade_2023_fono_page_155.txt",
+      "source_sha256": "2eb247d328928d7eab400e7c9eade971b334d1f4847e140babc798095cc856a4"
+    },
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fono/enade_2023_fono_page_157.txt",
+      "source_sha256": "5a98422eaf5889d209e6359946ba81f8a190df454b2412a8548edad931602d8c"
+    }
+  ],
+  "created_at": "2026-11-15T03:15:44Z",
+  "duration_seconds": 2.192,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FONOAUDIOLOGIA.pdf",
+    "page_number": 156
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fono/enade_2023_fono_page_156.txt",
+    "source_sha256": "b112ee8568610af23c7e50626f27d55960151d5cbf4df3b3262156c079470412"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "29841e2ead41d4f75fa2cc53a92e7c1ab4f6ea3da634ee0b4caff3f2f68ebd70",
+  "request_fingerprint": "cfc4b47ab710646cca9030ce3b25dd3beed95a148ba0db1fb50b34f9b5998ef4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.8, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.8, mostra-se a distribuição das notas de desempenho linguístico do componente de Formação Geral.\n\nO Gráfico 5.8 demonstra que 5,9% dos participantes correspondem ao intervalo [0; 10]. A moda dessa distribuição ocorre no intervalo (70; 80], com uma frequência de 28,8% dos participantes.",
+  "text_sha256": "ddb85ba47dcbbc9edcf7bdcb721dcaf38ac1c55fe7e90ebf10d8dd5f44ceeb4a",
+  "window_size": 3
+}

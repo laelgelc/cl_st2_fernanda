@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d0968b9f71e348b006af90f08dd7887d18b2fbbfb7189c2ea",
+    "usage": {
+      "input_tokens": 3096,
+      "input_tokens_details": {
+        "cache_write_tokens": 3093,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3093
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 411,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 3507
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_120.txt",
+      "source_sha256": "77feb11ac952d285f7da35460b04353eabea5f1db99294f3e48251af7ab36269"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_122.txt",
+      "source_sha256": "78cf0fc3c4578b60f4b0acf3661152f4b704fbafe3209c5800d7178eb98e3dc9"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:48Z",
+  "duration_seconds": 3.775,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DA QUALIDADE.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_121.txt",
+    "source_sha256": "1a769131670bcb9dac61efce2786aa58442f81856b64a5fe00eef43aaf6e9108"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f3e91566c3adebd96c7db1975254d16411bb4749f3f2040cdffa78abdd7890d9",
+  "request_fingerprint": "f445ecfbcc748a5d3636b9a51ee7f9689772303b0f869b24970a6654fe7f8a5a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.3; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como nos Gráficos 6.1 e 6.2, no Gráfico 6.3, apresentado a seguir, é possível ser feita uma avaliação do desempenho de concluintes de Tecnologia em Gestão da Qualidade em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova, como um todo, e acima do grupo modal para a Formação Geral. Salienta-se que o intervalo de notas (50; 60] tem frequência muito próxima ao modal e ambos acima de 25,0%.",
+  "text_sha256": "d492716465827548266e96dcaec1ddea5e4ea777f8891f9a9654e87f56d8b6ff",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00d3994b18ab7d11006af8eba421c887d186cb15e9c8710ea7",
+    "usage": {
+      "input_tokens": 2316,
+      "input_tokens_details": {
+        "cache_write_tokens": 2313,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2313
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 242
+      },
+      "total_tokens": 2907
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_50.txt",
+      "source_sha256": "787a25778005f0e979220946b3b6c67023ed53b0f7dc3e6e59819b4912058b9d"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_52.txt",
+      "source_sha256": "0612030063cd4f35e5c8e7b319e36baf3767599b80c91942a3a42e9152041eb9"
+    }
+  ],
+  "created_at": "2026-11-14T23:15:48Z",
+  "duration_seconds": 6.191,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ef/enade_2011_ef_page_51.txt",
+    "source_sha256": "13fb6f6769526c56a6fd4b51181f5be5e29d1bc28748cde2a05484690349a076"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a302180e47e3ea2c24c2a0b56dbb1b89a2e534133532157282b348a94e1525bf",
+  "request_fingerprint": "b3025190147aaf744df253db5fa64afe75d95299fbe3279ed2090bc472a92f8c",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da segunda questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, notadamente para o número zero de acertos, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "a3819783fdad4802eac1d56e316dfddb16afcd1e0120da30f2586ab7a2f7629d",
+  "window_size": 3
+}

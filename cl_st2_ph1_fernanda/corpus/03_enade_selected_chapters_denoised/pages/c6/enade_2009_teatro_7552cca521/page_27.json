@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f48b46091276470006af8e71b61a087d1b0ba3fca8a5f84b9",
+    "usage": {
+      "input_tokens": 2868,
+      "input_tokens_details": {
+        "cache_write_tokens": 2865,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2865
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1125,
+      "output_tokens_details": {
+        "reasoning_tokens": 694
+      },
+      "total_tokens": 3993
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 26,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_26.txt",
+      "source_sha256": "04d8b5d31278e9de9599ac71a557e72e91eb05b22ebbb9ec0d17b80c1e46e784"
+    },
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_28.txt",
+      "source_sha256": "11612b495a1143cab9cae19491f07c41a56280e12e062fff19b06745498d1681"
+    }
+  ],
+  "created_at": "2026-11-14T22:56:27Z",
+  "duration_seconds": 10.759,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_teatro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEATRO.pdf",
+    "page_number": 27
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_27.txt",
+    "source_sha256": "a5e7c71a20cd9c6c7bade56b735a38d007394cfaec55bf85ce0ec883aea69667"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1b3d740de33adef9d3edc8e11dcf382912525fefaa34a284f5805c8493d4cc7f",
+  "request_fingerprint": "d0d7510aeaee65e86c000ee5f2fc011cd7d5bbfae5a82d519936edd16fbb6b9c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "nota bruta do Componente Específico, C_CE^OBJ é a nota bruta nas questões objetivas do Componente Específico, e C_CE^DIS é a nota bruta nas questões discursivas do Componente Específico.\nA nota bruta da prova, C_GER, por sua vez, é também uma média ponderada da nota de cada uma das partes, Formação Geral/Componente Específico:\nC_GER = 0,25 × C_FG + 0,75 × C_CE.\n\n3.1 Estatísticas Básicas da Prova\n3.1.1 Estatísticas Básicas Gerais\nA Tabela 3.1 apresenta as estatísticas básicas da prova por grupo de estudantes. O total de estudantes inscritos para a prova foi de 2.838. Destes, 72,9% compareceram, sendo que a presença foi maior entre concluintes (82,9%) do que entre ingressantes (67,7%). A média geral da prova foi de 43,43, sendo que os ingressantes obtiveram média mais baixa, de 40,12, que os concluintes, cuja média foi 48,60. O desvio-padrão geral foi de 16,9, sendo o do grupo de ingressantes menor (15,6), do que o do grupo dos concluintes (17,5), aqueles possuíram uma distribuição mais homogênea nas notas. A nota máxima foi 89,1, obtida por pelo menos um concluinte ao passo que a maior nota obtida por um ingressante foi 86,1. Os coeficientes de assimetria para os dois grupos considerados, o de concluintes e o de ingressantes, bem como para a população como um todo foram todos negativos, indicando uma maior concentração à direita da distribuição e um maior espalhamento à esquerda.",
+  "text_sha256": "8668329cf8a0eca93ca6447b40565b1ebc2a97405b94203ed41934feb4c77254",
+  "window_size": 3
+}

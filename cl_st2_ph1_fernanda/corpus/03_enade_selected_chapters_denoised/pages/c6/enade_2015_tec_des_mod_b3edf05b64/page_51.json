@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d55d8f795f53ca8006af8ff746ee087d181b7a7d154978b84",
+    "usage": {
+      "input_tokens": 2796,
+      "input_tokens_details": {
+        "cache_write_tokens": 2793,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2793
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 726,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 3522
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_50.txt",
+      "source_sha256": "4d4a76d2623c398c7593c68cfdb40bd59b9d372335c26b174f74e83d5b0024cb"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_52.txt",
+      "source_sha256": "80d0a8ef4315861354ab8df99b9bd5b9f28a008a280c99501c6c774d838e7d53"
+    }
+  ],
+  "created_at": "2026-11-15T00:40:20Z",
+  "duration_seconds": 7.224,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_mod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM DESIGN DE MODA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_51.txt",
+    "source_sha256": "63a50f846730871fb6f422b97a46adbb0c45ad0685ab0ca88e293d653c64e316"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e0c051c6b9b3cffd578913160d2b718d59061faa27ed21210a8ccd63db2338c",
+  "request_fingerprint": "6f3eb24346c83d0fa8adadebe7cc04f602826a178672de0588514a91cb384869",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.9, incluindo título, dados e fonte, removida. O texto da página termina com a frase sobre o Índice de Discriminação; a continuação está na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil. Duas questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto",
+  "text_sha256": "30316885ad7a9ee1ba16ebff61d6adaf43acffbebbd363bb1be27f6b2d83754b",
+  "window_size": 3
+}

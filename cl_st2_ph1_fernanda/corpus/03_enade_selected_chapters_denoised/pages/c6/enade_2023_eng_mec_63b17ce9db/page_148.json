@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e21b519d6e8aedb006af9235d01b087d1855ea787fcc06c3e",
+    "usage": {
+      "input_tokens": 2895,
+      "input_tokens_details": {
+        "cache_write_tokens": 2892,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2892
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 3307
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_147.txt",
+      "source_sha256": "24b62b46acf27418c6ebd4acc3f2a331289c369e56d10342bf3705af9fbaaa06"
+    },
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_149.txt",
+      "source_sha256": "c023f54e1540233c3632e0be428dcde8fbe75009e7f8f1d96c202c392991fc76"
+    }
+  ],
+  "created_at": "2026-11-15T03:13:32Z",
+  "duration_seconds": 4.367,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 148
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_148.txt",
+    "source_sha256": "fd87d23e5047adabfd0782a544b1d6775778f0123c92a589c0294f92ef8e12e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "976c1ffbc932c6fe97a5480bd5618876318660d414cfe5d254e71d8ba8db09f3",
+  "request_fingerprint": "68f1d471415e95b935f6ae7bef4ab3ecd9abea05cb780b3cefeb982c61688ca2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 5.6, incluindo título, conteúdo gráfico e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.13, observa-se que os estudantes de todo o Brasil obtiveram, em Formação Geral, média de 43,6 nas questões discursivas. Pode-se notar, também, que o desvio-padrão nesse conjunto de questões foi de 24,7. A maior média foi obtida na região Sudeste (44,4), e a menor, na região Sul (42,5). A mediana de todo o Brasil, neste componente, foi 44,5, e na região Sudeste (45,4) foi encontrada a maior mediana. A nota máxima (100,0) foi obtida por, pelo menos, um estudante das regiões Nordeste, Sudeste e Sul. A nota mínima (0,0) foi a mesma em todas as regiões do Brasil.\nNo Gráfico 5.6, está representada a distribuição das notas na questão discursiva do componente de Formação Geral.",
+  "text_sha256": "5785470aec44c5dc4f8cc373ecf600c16564bb9200e5db7579ff842114a0d11e",
+  "window_size": 3
+}

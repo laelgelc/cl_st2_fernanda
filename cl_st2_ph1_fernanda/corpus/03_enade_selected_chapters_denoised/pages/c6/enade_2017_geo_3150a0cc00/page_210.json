@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_084bd2e9b5454967006af908846efc87d1a2ea0a0b821cde38",
+    "usage": {
+      "input_tokens": 2947,
+      "input_tokens_details": {
+        "cache_write_tokens": 2944,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2944
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 286
+      },
+      "total_tokens": 3563
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_209.txt",
+      "source_sha256": "06d3ed8f41eeed58afbce44ae19b3aae5f61fa0da6afe34607b030582abf13d2"
+    },
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_211.txt",
+      "source_sha256": "0ee74ead4b24ed102c9c054ffa44d21ad7789c5aabd6705cde15541bd7b65d4b"
+    }
+  ],
+  "created_at": "2026-11-15T01:19:00Z",
+  "duration_seconds": 6.081,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 210
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_210.txt",
+    "source_sha256": "f16f3f025d744a46261e98cec8f579f7278a5f2f7bf441a156673378fa999a16"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "45ef1eed0de0531c4c79a15da60968ca887b6ecc95c058d0ad631c03ff5afce0",
+  "request_fingerprint": "c1291b3c2f4af81f7478fcec98214913a9c1f29ca38332eb7a82ca2b303191e4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, identificada pelo contexto como pertencente ao Gráfico 6.2 da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Habilitação.\n\nPrimeiramente, com respeito aos alunos de Licenciatura, observa-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (50,6) e a menor pelos de IES Privadas (48,6). A ordenação por Organização Acadêmica foi: CEFET/IFET (51,5), Universidades (50,3), Faculdades (49,5) e Centros Universitários (47,9). A Média dos Centros Universitários, a menor das Médias, apresenta diferença estatisticamente significativa em relação às das duas organizações com maiores notas, CEFET/IFET e Universidades.\n\nJá entre os alunos de Bacharelado, a situação das médias com relação à Categoria Administrativa se inverte (maior para IES Privadas), mas a diferença não é estatisticamente significativa. Como não são oferecidos cursos de Bacharelado nem em Faculdades, nem em CEFET/IFET, a análise da situação com respeito às organizações, se restringe à comparação",
+  "text_sha256": "dd17463cf4297bb73b3c6fae7c73045040b8448555cdeb1207ec14b6c2c984b5",
+  "window_size": 3
+}

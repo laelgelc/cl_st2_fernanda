@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06fc7a9509c13f43006af906aa65c887d183b82f2ce7b9c9ed",
+    "usage": {
+      "input_tokens": 2451,
+      "input_tokens_details": {
+        "cache_write_tokens": 2448,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2448
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 611,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 3062
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_151.txt",
+      "source_sha256": "d00320e10c6b13e97b461879da2443ce85dcba961cb7defcf25e5c1d34fbe904"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_153.txt",
+      "source_sha256": "e27f06a3752701159b163def44a05ea8484a70af3096141a209bc6dd5fe3040b"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:06Z",
+  "duration_seconds": 5.802,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_152.txt",
+    "source_sha256": "5701fc638452f93a4a71775b4629113ea859c0f73b101840990ffd86d2488718"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3cdc3da826faf2772358bb235ac1bd4a22cb08aa1c71faf30d2e4d87d6da5508",
+  "request_fingerprint": "ffae3a8667652460071a06150006785bc2e30f48f493012d94800f5ab1361f3e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the graph source line at the start of the target page; it appears to belong to the graph introduced on the preceding context page."
+  ],
+  "status": "success",
+  "text": "6.3.2.6 Comentários sobre as respostas à Questão Discursiva 5\n\nO enunciado da Questão 5 era claro e objetivo. O conteúdo, a abordagem e a linguagem empregada foram adequados e integralmente aderentes às Diretrizes da Engenharia de Controle e Automação. O nível de profundidade exigido é básico na área de Robótica.\n\nO padrão de resposta foi apresentado em linguagem adequada e de acordo com a terminologia e procedimentos das respectivas áreas. A questão era bastante objetiva, solicitava um cálculo no item ‘a’, a partir dos dados disponíveis e, no item ‘b’, a especificação das equações da cinemática direta para o manipulador que descrevem o movimento do plano horizontal em função dos ângulos das duas primeiras articulações (1 e 2). Assim, no item ‘a’, a menos de erros de cálculos, não se esperava resposta diferente da prevista no padrão. O item ‘b’, que era mais difícil, envolvia conhecimento do modelo físico do robô SCARA e algumas manipulações algébricas. Para este item o padrão apresentava dois caminhos de resposta, uma a partir das relações geométricas do mecanismo que representa o robô e outra a partir dos parâmetros de Denavit-Harteenberg.\n\n6.3.3 Considerações Finais\n\nDe maneira geral, fica evidente que os futuros engenheiros não estão conseguindo apreender o ferramental fundamental da área como se esperaria. Os resultados apontam no sentido de que os estudantes não estão sendo expostos de forma adequada/correta aos",
+  "text_sha256": "4befb1ba55615656370bf708ce67d10f66783f273b845670e9f862e7c7024737",
+  "window_size": 3
+}

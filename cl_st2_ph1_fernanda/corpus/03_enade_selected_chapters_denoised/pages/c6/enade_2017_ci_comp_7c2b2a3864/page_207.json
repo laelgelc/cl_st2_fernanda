@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a34e3c3dbe63497006af904f7eed887d19b6e227bf1cfc240",
+    "usage": {
+      "input_tokens": 2595,
+      "input_tokens_details": {
+        "cache_write_tokens": 2592,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2592
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 642,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3237
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 206,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_206.txt",
+      "source_sha256": "a0c48dff10032b163651d27964aaca4d992e40a8a3b8d319d8f2a3d4bf9b19c4"
+    },
+    {
+      "page_number": 208,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_208.txt",
+      "source_sha256": "a6a9bbc50da3c0c8f3b2a214c7b809146188f6dbc075016636542cfc4c46dddb"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:51Z",
+  "duration_seconds": 6.569,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 207
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_207.txt",
+    "source_sha256": "4961af0bf52ec4e3998e57f71856915791b2976f8d4b9e8c1049ece48d1ecbfe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cc9678093b009e6386eedff326a21fe29c6f175df35c715d22c1da465e0ac922",
+  "request_fingerprint": "6d46285f902e1583dd846b1c52cf723a553b46b2794d24c0e4e57fe07425edc8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, que parece pertencer ao Gráfico 6.3 iniciado na página anterior.",
+    "Removidos o título, os dados e a linha de fonte da Tabela 6.6."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.6 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, segundo a Habilitação, agora levando-se em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, para os alunos de Licenciatura, a maior Média foi a dos Centros Universitários (43,0), vindo a seguir a de Universidades (38,5), a dos CEFET/IFET (36,0), e, por último, a das Faculdades (29,8). O maior Desvio padrão, acima do valor para o Brasil, como um todo, (14,3), foi o das Faculdades (15,9). As Universidades obtiveram a maior nota Máxima, igual a 83,0, com os Centros Universitários em segundo lugar, com 80,0. As Faculdades obtiveram nota Máxima igual a 71,8, e os CEFET/IFET, 70,6. As medianas foram: 42,9 nos Centros Universitários, a maior Mediana, 38,2 nas Universidades, 35,7 nos CEFET/IFET, e 25,8 nas Faculdades, a menor Mediana. A nota Mínima foi zero para Universidades e Faculdades.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, a Média das IES Públicas",
+  "text_sha256": "b13d1fa76c3db05d46b0259bc0caec99c926d59d788dca9a161b6eb39a59bdcb",
+  "window_size": 3
+}

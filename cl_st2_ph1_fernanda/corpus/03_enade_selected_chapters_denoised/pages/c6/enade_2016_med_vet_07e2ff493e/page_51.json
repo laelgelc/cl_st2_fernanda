@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ecc5fb730ea2918006af902a2c79887d1ab046e7c1cc14a45",
+    "usage": {
+      "input_tokens": 2735,
+      "input_tokens_details": {
+        "cache_write_tokens": 2732,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2732
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 835,
+      "output_tokens_details": {
+        "reasoning_tokens": 378
+      },
+      "total_tokens": 3570
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_50.txt",
+      "source_sha256": "1e58dcc7449d78b9e7879b67b4b773b7a9cdeedd7eddd23e6fbced5905f2eb69"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_52.txt",
+      "source_sha256": "6eb0852a297348d28c6a66595cc1d57036d197d746eaf22db4aca96948c86483"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:54Z",
+  "duration_seconds": 7.91,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_51.txt",
+    "source_sha256": "ea836ae298f106f34daf7d635f7a913b29a59b399c8c11dc4dd4f348bca5caba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "27cd8d0c8cbb1cd9c7aee7e2d5b24048536d3c1bc6c2c2e7a5c4dd252f8aba7f",
+  "request_fingerprint": "a58dce10d4ad69ab0391a5f441d12c2136deefdd2db34900c8e6ad40092bf39e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Médio, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 23,9% escolheram a alternativa E, 29,7% escolheram a alternativa B (em verde), 2,1% escolheram a alternativa C (preto) e 1,4% a D (roxo). Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,1% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, até atingir 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo",
+  "text_sha256": "86482be0f3a18ccb4ba2403eb352517eaa7d10f309772c1ad63f2616e9bbbeea",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01af7db2a6cf4fb3006af91bc6465087d19d46b2be0fcc5f65",
+    "usage": {
+      "input_tokens": 2373,
+      "input_tokens_details": {
+        "cache_write_tokens": 2370,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2370
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 257,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2630
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 190,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_190.txt",
+      "source_sha256": "2cfdce504b8dcf948472b0f35afad47dc3bb06cbd08dfe155b4ac58dfc4b4411"
+    },
+    {
+      "page_number": 192,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_192.txt",
+      "source_sha256": "90d6bace19fbdebe4aea0943c632d3b71fa4db371899d4349ac4b204c31a44c1"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:10Z",
+  "duration_seconds": 3.089,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADMINISTRAÇÃO.pdf",
+    "page_number": 191
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_191.txt",
+    "source_sha256": "3a8219f8437030d948417e8ed6ea8915913582145dd1f157c7ae4d1b809311ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf491577cee8259fd381b400dc3cfae23b96c3a09690e92e5e3bd8cb4520237f",
+  "request_fingerprint": "96ce6d9cc35bd9eec2d774a8b9647aa636b4483b0b8436dfe7db52b6dfc2f62d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 7.11, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 7.11, mostra-se a distribuição das notas na Questão Discursiva 3, do Conhecimento Específico da área de Administração.\n\nDestaca-se, com base nos dados do Gráfico 7.11, que pouco mais 15,0% dos estudantes deixaram a resposta à questão em branco. A moda dessa distribuição ocorre no intervalo (40; 50], com cerca de 17% do total de participantes.",
+  "text_sha256": "2277c0c15df5957eed1507ab0543aab90dcff0640643502cf9fd16e3254c57a6",
+  "window_size": 3
+}

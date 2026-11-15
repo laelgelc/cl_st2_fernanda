@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00cf13d29ac629df006af8ee1d7f8887d18d06004256896440",
+    "usage": {
+      "input_tokens": 2775,
+      "input_tokens_details": {
+        "cache_write_tokens": 2772,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2772
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 451,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 3226
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mat/enade_2011_mat_page_59.txt",
+      "source_sha256": "ab7a5cf94d73a604a6d49cd4644dff41e8dbbe66242c9be0389fe64fb254b116"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mat/enade_2011_mat_page_61.txt",
+      "source_sha256": "7ba211ac2a3ad1deba41517ac76efdbb0357567a1aadc29ee2c66d4e915a5159"
+    }
+  ],
+  "created_at": "2026-11-14T23:26:21Z",
+  "duration_seconds": 5.799,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MATEMÁTICA.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mat/enade_2011_mat_page_60.txt",
+    "source_sha256": "2a7a307e20cdcc47d377f1d2986650b10079371a5d6a04120d9ccbad0c10f6ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6869986647270bfced3fe2d3af4e8e38328a8395a54dbeb02f8bdb69c0b81ff",
+  "request_fingerprint": "ef5e0406032a415a4ebc7a88ee62a814b0459a7b6aeca43c284c5522bc321524",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 32, em função do número de acertos dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta C, representada no gráfico pela curva em preto, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta C aumenta gradativamente, chegando a atingir 100% para 18 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três acertos, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "e15386ed560e8da525b384c4e9d6b7588bf1002572c58d437613d222c74664ff",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_082ef72f9641b38d006af8f467723887d1a1af14a4d539755e",
+    "usage": {
+      "input_tokens": 2342,
+      "input_tokens_details": {
+        "cache_write_tokens": 2339,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2339
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 236,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 2578
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_79.txt",
+      "source_sha256": "320ad70ec0a294108472af61993e4881cd3a9a0bd355f17da6763d94add18b29"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_81.txt",
+      "source_sha256": "e19ed3be0f44939380543cae86de7f394f26f661cd6d4d9bc31366a82a101464"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:11Z",
+  "duration_seconds": 3.127,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_80.txt",
+    "source_sha256": "02e52b357930519df3d8186e3d4f8562cb14c62b53c1d0c6673c01ecf554676f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f8b80ee23864ff6a9888b19252fb929e073eaab7c63e2a6b225e24c4291ca66b",
+  "request_fingerprint": "7e1c08f1d895625dd7620d3534759c659a57c02c3a57325b45cd988857cc90b4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.20 e sua linha de fonte: “Fonte: MEC/INEP/DAES - ENADE/2013”."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo (20; 30]. O coeficiente de assimetria é positivo para todo o Brasil (0,27) e para todas as regiões (entre 0,09 na região Sul e 0,64 na região Norte), indicando uma assimetria à direita.",
+  "text_sha256": "b2ce4c478449e35cc8457a729ffc9e6f28842f03a1111e1a12495995fd5c52d6",
+  "window_size": 3
+}

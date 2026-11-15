@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0918d1b993d25782006af9016d94d887d19f54fa023a0072be",
+    "usage": {
+      "input_tokens": 2635,
+      "input_tokens_details": {
+        "cache_write_tokens": 2632,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2632
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 3083
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_agro/enade_2016_agro_page_109.txt",
+      "source_sha256": "d186a09c7f25d43a9e640e6ee118944d300c87eb577835221aa6c5adb81698ba"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_agro/enade_2016_agro_page_111.txt",
+      "source_sha256": "bec1e8e1052aa2da856db5a0b52f6c481b2d7eca29cccb395c1d411a2e043892"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:45Z",
+  "duration_seconds": 4.853,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_agro/enade_2016_agro_page_110.txt",
+    "source_sha256": "c76355681a1afd13e15907c70495f0ebf1d10130f3864e04ef3252e0e9b18ef2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "92e82d9c9faeb9f1bcda671fc3b33368d1a99d95bf7c76dc04bc5689b9cc5227",
+  "request_fingerprint": "5451a2e3547081f6f393e7968b5a2a8fad0735a0ce1fadfd9e9457fd05009d39",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 5.1 e sua linha de fonte (“Fonte: MEC/Inep/Daes – Enade/2016”)."
+  ],
+  "status": "success",
+  "text": "mesmo número de cursos, dez (22,7%), enquanto que o conceito 5 não foi atribuído a nenhum curso. Nessa região, nenhum curso ficou sem conceito (SC).\n\nO Gráfico 5.1 apresenta a distribuição do Conceito Enade segundo Grande Região: poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Cursos em IES situadas nas regiões Nordeste (linha verde) e Centro-Oeste (linha preta) apresentam uma situação intermediária. A região Sudeste (linha vermelha) apresenta uma distribuição com conceitos melhores do que as regiões Norte, Nordeste e Centro-Oeste, mas pior do que a Sul.",
+  "text_sha256": "0b1cc9bd23956eb435f08f5bba984419fd74f0f802fa93cf51009681d9bf9585",
+  "window_size": 3
+}

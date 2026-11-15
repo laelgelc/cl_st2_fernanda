@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06d3ec5810b52fdc006af8ebc1f42487d1880061e8034af18c",
+    "usage": {
+      "input_tokens": 1150,
+      "input_tokens_details": {
+        "cache_write_tokens": 1147,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1147
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 306,
+      "output_tokens_details": {
+        "reasoning_tokens": 247
+      },
+      "total_tokens": 1456
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_1/enade_2011_eng_g_1_page_94.txt",
+      "source_sha256": "900cfc2e042c6a6305baf5aa7d1ce1b5e234a7437b27406182f9cf38da2cee57"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:17Z",
+  "duration_seconds": 4.091,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_1/enade_2011_eng_g_1_page_95.txt",
+    "source_sha256": "e7be134d3fb39b343a6ee12950825e44dde27fb4ff21b85898e6bb44cabf32c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "39b2e144fff6040afc7ac7c4345cf5863a295210a680ea7998d1db2386bbcdd9",
+  "request_fingerprint": "9714d48f567edfce6a9c9f995664f512136e8c96d7366f43c7032e06bdfdc1c6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to table or graph material; the associated material is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

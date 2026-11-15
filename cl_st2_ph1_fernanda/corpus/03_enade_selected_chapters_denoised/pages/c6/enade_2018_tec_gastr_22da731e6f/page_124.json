@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03950df4248cdeef006af90eb5135087d1953e608034edfce2",
+    "usage": {
+      "input_tokens": 2721,
+      "input_tokens_details": {
+        "cache_write_tokens": 2718,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2718
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 920,
+      "output_tokens_details": {
+        "reasoning_tokens": 364
+      },
+      "total_tokens": 3641
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_123.txt",
+      "source_sha256": "2f39bac43fa6e5deef64ed4a4af512667790767eb2e12b646f52bd0a896fc4fc"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_125.txt",
+      "source_sha256": "abf341adf90032ed2ca5a652852389249b0c09242c30a1648c85e08ee99eacd3"
+    }
+  ],
+  "created_at": "2026-11-15T01:45:24Z",
+  "duration_seconds": 7.809,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GASTRONOMIA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_124.txt",
+    "source_sha256": "ed95b9bb338ee90bbd27c740f5fc81117ed9050a0504049bf972948090a95bfb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "27c3532dc83b98ff76049a920b70cb6ddf858a28694a2aa615e4589a64b45797",
+  "request_fingerprint": "d7091a6c674bf9f16feb63a771497290ba584723ceaab9b47cc4bec73440df42",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.9, incluindo título, dados e fonte, removida. O Gráfico 6.4 é discutido em prosa, mas seu conteúdo gráfico não aparece na extração fornecida."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve, juntamente com a questão 1, o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 37,0% escolheram a alternativa C (em preto), 22,6% escolheram a alternativa E (em vermelho), 17,7% escolheram a alternativa D (em laranja), 13,1% escolheram a alternativa B (em verde), e 9,1%, a A (em azul). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco, e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 20% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50%.",
+  "text_sha256": "8b86fc6f1ec4d08eb5bf70fa9cbec714a9c9989e34a1f290b0283caed8c7ca84",
+  "window_size": 3
+}

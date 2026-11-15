@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0240f986191a3e84006af8f31375b087d191bf5cd3d7179a7b",
+    "usage": {
+      "input_tokens": 1380,
+      "input_tokens_details": {
+        "cache_write_tokens": 1377,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1377
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 623,
+      "output_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "total_tokens": 2003
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_102.txt",
+      "source_sha256": "9702d1b5b964134ee732cf1ddeccfdf40568d99e277bd0d41165b1ccfdfaaf1e"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_104.txt",
+      "source_sha256": "279a2f807ffd83b4d4adeb6d31cd62b003375c76eb3b6e99c5e4a950a63b665a"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:31Z",
+  "duration_seconds": 6.325,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_103.txt",
+    "source_sha256": "6b4e3a14d488c2edd6c58a6e674cdc4c042ad2bb620f520dbe901197fdf8804c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4984f61ed4dc3b96c51da449f46f1105dbac7cc4a43ddbdb2b4e6ed1d5a710de",
+  "request_fingerprint": "b9bf2c64cb34ab1ca26ddd46769283bc1264b5e320c733ce26c7184404a13cb1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», que parece pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 83,7% e 72,6%. As diferenças entre o quarto inferior e os demais quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "c52a24bdc3f6fa224debc4e36820166791f1900e55d1ab471254820e88096ae4",
+  "window_size": 3
+}

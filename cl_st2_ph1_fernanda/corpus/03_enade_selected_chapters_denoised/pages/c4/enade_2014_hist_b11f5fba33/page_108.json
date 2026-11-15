@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07d56db99e0d0f57006af8fa13307c87d1a19882637a284f1f",
+    "usage": {
+      "input_tokens": 1576,
+      "input_tokens_details": {
+        "cache_write_tokens": 1573,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1573
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 407,
+      "output_tokens_details": {
+        "reasoning_tokens": 295
+      },
+      "total_tokens": 1983
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_107.txt",
+      "source_sha256": "d6ea9832f34b9cb122eef8bfdc0ad2bbf11692e7edf147435f5806a47a8c7cbc"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_109.txt",
+      "source_sha256": "6db728649e6d7b8df5dbf57c0f76d644204b0e63c15c2e30190ab3e5d5a75b91"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:23Z",
+  "duration_seconds": 5.024,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_108.txt",
+    "source_sha256": "94a6db4844dc35d8a4f0e533090f250582fe962f6d12df56f5caa431bac5b314"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "01ce8c60654257c159fb713fd4b97de9fc6ba16f3664144f910050b00a2f5854",
+  "request_fingerprint": "d9b4d2b65e8e5a3211073a102e1218e1a9311855ca03b26a1b6bc9fd8b53790a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, provavelmente pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (78,5%) se comparada ao quarto inferior de desempenho (58,3%). As diferenças entre todos os quartos são estatisticamente significativas.",
+  "text_sha256": "44f93ea31a2948efe5580eccfe2dc9a891f8d172d057ed9370177afe138b2bd8",
+  "window_size": 3
+}

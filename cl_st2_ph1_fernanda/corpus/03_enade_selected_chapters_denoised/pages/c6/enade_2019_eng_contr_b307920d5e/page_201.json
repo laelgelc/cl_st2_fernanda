@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_008a3e94befd1a84006af9117bcf9487d190d065f9536530c9",
+    "usage": {
+      "input_tokens": 2720,
+      "input_tokens_details": {
+        "cache_write_tokens": 2717,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2717
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 3014
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 200,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_200.txt",
+      "source_sha256": "a98c9eb997c409de92c881ed9f616fd73c49e3407f33fdbd6ee5912a1538cd3d"
+    },
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_202.txt",
+      "source_sha256": "4e920fed7f2f3eee15c99b94c5bf89cb05493fc52d3cf245c97185967f2a1667"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:15Z",
+  "duration_seconds": 3.702,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 201
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_201.txt",
+    "source_sha256": "84ecaef6d89c9665684448b3b8d726ca334e0fd6abf6bde7fdc376a4bc25f8ea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "127114ecca7579e8ca317297ffd90f62f006e7d4352860d87f284cc299d1e3af",
+  "request_fingerprint": "40231873236ebf5ad1fed1ccd408d0af60d2ae48222842c49978a968e250812b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.11 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, representa-se a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo [0; 10], com 67,4% do total de participantes. Observa-se que nesses intervalos estão computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos.\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "3e90e2f5395b7e3bc16254b00facc546f9ab4de8a33fea9519c31a0beb16566e",
+  "window_size": 3
+}

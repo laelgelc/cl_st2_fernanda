@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2d0490580f8860006af911d7a93887d1aad30548fbc42088",
+    "usage": {
+      "input_tokens": 2705,
+      "input_tokens_details": {
+        "cache_write_tokens": 2702,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2702
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3321
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_145.txt",
+      "source_sha256": "f33f3a6c2900c38ab69643f0cd37fee6d67efb2061e4f3978cd2756298a25fd6"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_147.txt",
+      "source_sha256": "6dea4f1d3e7a8d896418013bbf6ed75afe33ef4828ccf0f959f617ca333e0139"
+    }
+  ],
+  "created_at": "2026-11-15T01:58:47Z",
+  "duration_seconds": 5.436,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_146.txt",
+    "source_sha256": "ed1c05c374070c51f821aeee815ddca2bb9111dd1e54e53e20054db218dba106"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2acb5acf857a7a95bda99cbbecb8a335dad5ffcff0c803e3be52a85f7de14801",
+  "request_fingerprint": "9c61109e206db36fa42c612c475250fbd6538ec119d9ad9f7af8651761f87404",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, estatísticas e fonte."
+  ],
+  "status": "success",
+  "text": "6.1 ESTATÍSTICAS BÁSICAS DA PROVA\nEsta seção apresenta estatísticas selecionadas e histogramas da nota geral (6.1.1) e de cada componente: Formação Geral (6.1.2) e Conhecimento Específico (6.1.3). São também apresentadas estatísticas selecionadas de subpopulações, caracterizadas por Grande Região, Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\n6.1.1 Estatísticas Básicas Gerais\nNa Tabela 6.1, são apresentadas as Estatísticas Básicas da prova, por Grande Região, dos estudantes concluintes de Engenharia Elétrica. A Média das notas da prova, como um todo (nas seções seguintes serão analisados os Componentes de Formação Geral e de Conhecimento Específico), foi 33,4, sendo que os estudantes da região Norte obtiveram a Média mais baixa (29,5) e os da região Centro-Oeste obtiveram a Média mais alta (35,6). As demais Médias foram: 35,2, na região Nordeste, 34,7, na região Sul e 32,6, na região Sudeste.\nO Desvio padrão para o Brasil, como um todo, foi 13,3, sendo o maior Desvio padrão encontrado na região Nordeste (13,7), e o menor, na região Norte (11,5), indicando uma dispersão um pouco menor das notas dessa última região.\nA região que obteve a maior nota Máxima foi a Sudeste (89,8), ao passo que a região que atingiu a menor nota Máxima foi a Nordeste (75,9). A Mediana do Brasil, como um todo, foi 31,5, sendo a maior Mediana obtida na região Centro-Oeste (33,4), e a menor obtida na região Nordeste (27,8). A nota Mínima zero foi obtida em todas as regiões, com exceção da região Centro-Oeste, que teve nota Mínima 4,7.\nConsiderando-se as notas segundo Grande Região, observa-se que não existe diferença estatisticamente significativa ao nível de 95% entre as Médias, obtidas nas regiões Nordeste, Sul e Centro-Oeste.",
+  "text_sha256": "f6588b38368cc39cfdf87a0f79134ff29a6c37fee90e53f2f074a52efea650b3",
+  "window_size": 3
+}

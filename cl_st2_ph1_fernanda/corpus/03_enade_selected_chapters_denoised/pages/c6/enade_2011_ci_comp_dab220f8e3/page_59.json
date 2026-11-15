@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cdafc60dac1d3d3006af8eb47e2e087d1bbf4b81c1b82b88c",
+    "usage": {
+      "input_tokens": 2853,
+      "input_tokens_details": {
+        "cache_write_tokens": 2850,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2850
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 871,
+      "output_tokens_details": {
+        "reasoning_tokens": 334
+      },
+      "total_tokens": 3724
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_58.txt",
+      "source_sha256": "a096a60ad4795b547c5e28ce40da73c49ce34ed10de423484fc29edc6ca63043"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_60.txt",
+      "source_sha256": "88c663596ba2083a5230b22f57b433828c42308aa7952451166eec9d6a10668a"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:15Z",
+  "duration_seconds": 11.553,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_59.txt",
+    "source_sha256": "ecdad93186c2d2e07f9979ca2afd092637f58165c6ce212b21aa204cc17173e6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5b9aabf919a5f5a9a6158df45fb22f63f83e265601e7c9486235a782cc04451d",
+  "request_fingerprint": "223285fc62500d66d4cfe0aad45b5fe24291716949acb20e42810ee8f421ef6e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados estatísticos e fonte. O texto termina no meio de uma frase; não foi completada com conteúdo da página de contexto."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão: Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\nAs questões classificadas com índice fraco receberam a cor vermelho (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Uma questão foi considerada de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade (entre 41,0% e 60,0% acertos). Outras duas questões foram classificadas na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, uma das questões apresentou menos de 15% de acertos, razão pela qual foi classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise as questões foram assim avaliadas: quatro das oito questões apresentaram",
+  "text_sha256": "1dfef6e90ead7e808a92e68f5b4619db5c34f6c5849f41ca276cdf0803d30ca7",
+  "window_size": 3
+}

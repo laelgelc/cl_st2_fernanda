@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c449ebc9380b246006af923be886487d1b9a1bfb7aeb01930",
+    "usage": {
+      "input_tokens": 2251,
+      "input_tokens_details": {
+        "cache_write_tokens": 2248,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2248
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 2612
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_80.txt",
+      "source_sha256": "ef8422956e9f1c614e88b13573cf648a74c115950e6966156a77feee481ca530"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_82.txt",
+      "source_sha256": "2a55735f4b23fdd88e3e46161b745375115d16ade2a264e4d9d6fd0adb25d41f"
+    }
+  ],
+  "created_at": "2026-11-15T03:15:10Z",
+  "duration_seconds": 4.024,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FONOAUDIOLOGIA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fono/enade_2023_fono_page_81.txt",
+    "source_sha256": "38e900c9ab9c7230cc64630c1cadd9a2b11a9fa07ad1d9dc5f749729cb7c56f0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "65eee31c34bc442805e289e79a057b705affaeebc909c2e8a12e0dacd1b57250",
+  "request_fingerprint": "5da0a73d6ad01d1602a421abaacbf20d4be7b12f85c2c5ca4894cd270d2d8e92",
+  "retry_count": 0,
+  "review_notes": [
+    "Material do Gráfico 3.1 removido, incluindo a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2023.”"
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Norte, onde a proporção foi de 30,9%, enquanto a menor proporção foi identificada na região Nordeste, com 16,8%. O maior intervalo foi observado na região Sul, com variação de 8,1% entre o mínimo e máximo. Além disso, é possível observar que as diferenças entre a região Nordeste e as regiões Norte e Sul são estatisticamente significativas. Nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 68,4% na região Centro-Oeste, 70,9% na região Nordeste, 63,9% na região Norte, 69,4% na região Sudeste e 64,2% na região Sul.",
+  "text_sha256": "45fe9dc94d230dba98702ff57fc11a0515b74ce62e91d054ff1401595d4b58fa",
+  "window_size": 3
+}

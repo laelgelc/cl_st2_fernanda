@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e4989d05706d06e006af8e9ce327087d196dd27ec26bd2c05",
+    "usage": {
+      "input_tokens": 2581,
+      "input_tokens_details": {
+        "cache_write_tokens": 2578,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2578
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 524,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 3105
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_71.txt",
+      "source_sha256": "2f78fd07c9c93456c2871ff152852ef02c5b638ace3e8672419e8bd8922aa876"
+    },
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_73.txt",
+      "source_sha256": "6ea62e2ad47051a1d851a751f826e16a8d1c14f8b6f46382ca158ecc440c1a0e"
+    }
+  ],
+  "created_at": "2026-11-14T23:07:58Z",
+  "duration_seconds": 5.257,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2010_tec_agro_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM AGROINDÚSTRIA.pdf",
+    "page_number": 72
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_72.txt",
+    "source_sha256": "70a28418aa0a491a2379e8faef76a6d59fe7829a7f4b78a4117100cadd6ff74d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c7450494feccaa3cad0862e5a4852de0edf4bdd5b31a6bca7526d77eb4745558",
+  "request_fingerprint": "c4d28a2d84db01d52b05f853b5a63e33daae11ecc0111ded496823a37245e5d8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, rótulos, legenda, título, caption e fonte do Gráfico 4.6.",
+    "A forma “SNordeste” no texto pode ser um artefato de OCR; foi preservada sem correção."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças entre as opiniões de estudantes, Ingressantes e Concluintes, dos quartos inferior e superior de desempenho, como mostra o Gráfico 4.6. O percentual de participantes que avaliaram as informações/instruções como excessivas ou suficientes em todas ou na maioria das questões foi mais elevado nos quartos superiores, correspondendo a 87,5% dos Ingressantes e a 89,5% dos Concluintes, percentuais superiores à média nacional para cada um dos dois grupos. Já nos quartos inferiores, a suficiência das informações/instruções declarada como excessiva em todas ou na maioria das questões foi percebida com o mesmo percentual, por 81,2% dos Ingressantes e dos Concluintes.\n\nQuanto à distribuição de respondentes nas Grandes Regiões, observa-se que as proporções de estudantes que perceberam como excessivas ou suficientes em todas ou na maioria das questões as informações/instruções fornecidas para a resolução das mesmas superaram as médias nacionais, em maior medida, entre os Ingressantes da região SNordeste (91,7%). Entre os Concluintes, os percentuais para as duas regiões participantes foram 81,2% na Sul e 85,7% na Norte.",
+  "text_sha256": "b6a120aa7d24d5ec239f1669addb92158f11e2e3f53ac7bd6734f83579052c56",
+  "window_size": 3
+}

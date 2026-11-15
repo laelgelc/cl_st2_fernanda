@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0224430cb7c71aea006af8fff22d8087d1a24d7caf73fcab9a",
+    "usage": {
+      "input_tokens": 2337,
+      "input_tokens_details": {
+        "cache_write_tokens": 2334,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2334
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 608,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 2945
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_47.txt",
+      "source_sha256": "56510c46c191b5f43026ca9bd9ac5e504981503a0a22d671576bf745ed54e6e7"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_49.txt",
+      "source_sha256": "83df5f27c3f01472cb5e16e9d54c42ef7775e3b307fee58b5328dfc4748ac024"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:26Z",
+  "duration_seconds": 6.09,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_48.txt",
+    "source_sha256": "986b6bd2ad10d752ca56869a6f0012349dcad698ec5b2844c929bf030ff90de6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3a801c7591dfbee254eb163498ba02ec6f86c6738dadbb3470f74336bad9d510",
+  "request_fingerprint": "9ffa9fd3ea04b9ef39ca52c5c9ba53a7c30c83b201386bf2ea42fe59c0555a77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, que, pelo contexto, pertence ao Gráfico 3.3."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (46,5), vindo a seguir a dos Centros Universitários (46,0) e, depois, a das Faculdades (45,0). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o dos Centros Universitários (14,7). Os Centros Universitários também obtiveram as maiores notas Máxima (86,8) e Mediana (46,3). Por sua vez, as Universidades também obtiveram a maior Mediana (46,3), e, além disso, obtiveram a nota Máxima (85,2). Já as Faculdades, obtiveram 84,5 e 45,0 como nota Máxima e Mediana, respectivamente. A nota Mínima foi zero para as Faculdades, 8,5 para as Universidades e 4,3 para os Centros Universitários.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (51,5) e IES Privadas (45,5).",
+  "text_sha256": "2c9fce046c2f18c8663bfe57d1cbef9fb6c21fddbec621e850b00119667be2b0",
+  "window_size": 3
+}

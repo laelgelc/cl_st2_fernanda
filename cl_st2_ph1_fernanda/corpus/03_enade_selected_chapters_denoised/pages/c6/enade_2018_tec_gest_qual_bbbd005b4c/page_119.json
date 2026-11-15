@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba9771099fe5873006af90f07514c87d1a025ec10a45934f1",
+    "usage": {
+      "input_tokens": 2819,
+      "input_tokens_details": {
+        "cache_write_tokens": 2816,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2816
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 476,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 3295
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_118.txt",
+      "source_sha256": "3b5ed6d3c3e4ef473490b316076875cf97def5767e3aa4b651ca873e909393eb"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_120.txt",
+      "source_sha256": "77feb11ac952d285f7da35460b04353eabea5f1db99294f3e48251af7ab36269"
+    }
+  ],
+  "created_at": "2026-11-15T01:46:47Z",
+  "duration_seconds": 4.106,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DA QUALIDADE.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_119.txt",
+    "source_sha256": "0e1b44e8d9afb65465b7c30ac554c185550ab0dd35a80aae29cbb62f34b18e89"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c519d5b11d00b53935b4426e01ecbe3c2eedbc1c3b06e891f1b89b754aa1b582",
+  "request_fingerprint": "cc23e634cec1078b9c22f7a7610630e57f66de61b07c8c28545ec56b1a53159f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2018”, identificada como pertencente ao Gráfico 6.2 iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (44,7) e a menor, pelos de IES Privadas (38,5).\n\nNota-se, porém, que não há diferença estatisticamente significativa entre a maior das médias dos quatro tipos de Organização Acadêmica e a menor delas, o valor maior para os CEFET/IFET (40,1) e a menor para as Faculdades (38,4).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou menor Média do que a Educação a Distância (médias 38,8 e 40,0, respectivamente). Tais médias não apresentam, entretanto, diferença estatisticamente significativa.",
+  "text_sha256": "95824bf92a0db0d3d22e516c0e1e24876c566d6eb86b555fdf166094cc810532",
+  "window_size": 3
+}

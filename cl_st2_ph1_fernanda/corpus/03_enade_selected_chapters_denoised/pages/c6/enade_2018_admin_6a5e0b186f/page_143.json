@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b35abe32952b438006af90c13a19087d1a9f48d00d2c2370f",
+    "usage": {
+      "input_tokens": 2561,
+      "input_tokens_details": {
+        "cache_write_tokens": 2558,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2558
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 313,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 2874
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_142.txt",
+      "source_sha256": "8684e7ae961fa990edb427ef565d079847651dc5f144734607ce113506a8200b"
+    },
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_144.txt",
+      "source_sha256": "2992d64d427c87f5c3e265cc0b9dddbebb41509b9b498a909286654ac0a6b440"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:11Z",
+  "duration_seconds": 3.33,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 143
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_143.txt",
+    "source_sha256": "54cd4874f923dcb51859530f99acadde3b42db77df6d21f088403865f37df093"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b4054e76100bfa0eb5efbe8dab7bdea88d808eadd4648ab33bff6fc43f19211",
+  "request_fingerprint": "0bef2c2fd3e3c5790008977daf579c40bdb3f3b972d17280fc1c11b255876b20",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.16.",
+    "Removida a fonte associada ao Gráfico 6.9; a descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (um pouco mais do que 30%) corresponde à dos alunos que obtiveram nota no intervalo (60; 70]. Destacam-se, também, os alunos que deixaram ambas as questões em branco, representando, aproximadamente, 7% do total.",
+  "text_sha256": "b595ff40878aafde2da58762f96e8e8e67b3b86f4545bc479239b1e7e4ccf91c",
+  "window_size": 3
+}

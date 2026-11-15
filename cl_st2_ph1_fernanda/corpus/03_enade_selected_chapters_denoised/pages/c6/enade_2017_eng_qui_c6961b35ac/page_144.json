@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_009e2c71a8c532ea006af907b00b0087d1bb5cf3b576c0c5e1",
+    "usage": {
+      "input_tokens": 2436,
+      "input_tokens_details": {
+        "cache_write_tokens": 2433,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2433
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 390,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 2826
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_143.txt",
+      "source_sha256": "cb68d58bb45e782631632ca8b7baa4a8e19809935c8322cdc0942129600bc556"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_145.txt",
+      "source_sha256": "9126f9a35e66490dc5f32120a2cf541e5df1f547ec88c455a6cd6abaa29d68c8"
+    }
+  ],
+  "created_at": "2026-11-15T01:15:27Z",
+  "duration_seconds": 4.567,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_144.txt",
+    "source_sha256": "9c7a687b1a7c942bc6f75edfeecac014246684c896df23e02cf7bb84cf610e64"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b0d03cf518ff3728ea42735c885eea1ad02be4f4928137f6f5029ccb3b41ba2a",
+  "request_fingerprint": "9dcda6e49dde108c67f8c51f7c543ee9dd1a88dc5e5e7247dd810acd4f01a444",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, cabeçalho, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Mediana para o Brasil foi zero, a mesma de quatro das regiões, indicando que a quantidade de notas zero foi maior do que 50% nessas regiões. Para o conjunto de alunos de Engenharia Química do Brasil, a nota Máxima foi 100,0, obtida em todas as regiões. A nota Mínima foi zero, também, em todas as regiões.\n\nO Gráfico 6.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda principal na categoria dos estudantes que deixaram a questão em branco, seguida das notas zero. Destaca-se que a frequência de notas zero somada a de estudantes que não responderam à questão chega a mais de 50% do total de participantes. Desconsiderando-se esse grupo, observam-se dois máximos locais nos intervalos (60; 70] e (90; 100].",
+  "text_sha256": "aed9de8b8733f2e04fd36579a11b7dd32b62b6d7e461385531871fbf1e842cfb",
+  "window_size": 3
+}

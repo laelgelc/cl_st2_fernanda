@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d05f26943f5d1f4006af92455250487d185afb5037816ecdd",
+    "usage": {
+      "input_tokens": 3110,
+      "input_tokens_details": {
+        "cache_write_tokens": 3107,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3107
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 503,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 3613
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_129.txt",
+      "source_sha256": "8b55e0b6ba71ca5c988aa84a5a080cfb5ddb9da4e0b635f06bca1974bef647c5"
+    },
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_131.txt",
+      "source_sha256": "6503221574a4f2f4c04247def0fcaf0eaf13a8e039bcd307d79cb7ddf57a7599"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:41Z",
+  "duration_seconds": 5.36,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 130
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_130.txt",
+    "source_sha256": "384aa558a5cf20b376db7a60fd17d8506de987e66a72718f3b9bd1646f4e7156"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "705f41c87a8f3edef57500a8495785c331d4fcd5604a405ceddef27f7cdde1ec",
+  "request_fingerprint": "249b0cd29e1251a03cb389770f9ff8a5e97f0e27674cf1460ea84b106d1b5e4a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1, sua legenda e fonte, e a Tabela 5.2, incluindo dados e fonte.",
+    "A página termina no meio de uma frase; o texto foi mantido sem completar a continuação."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Nutrição de todo o Brasil: uma distribuição unimodal com a moda no intervalo (50; 60].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES pública obtiveram média mais alta (58,2) que a média das IES privada (47,1). O desvio-padrão para as IES",
+  "text_sha256": "f0f3ed7ee2fc6ad9e21b3ac544f0d91d9d8257180e719ca2863ce048de7beda4",
+  "window_size": 3
+}

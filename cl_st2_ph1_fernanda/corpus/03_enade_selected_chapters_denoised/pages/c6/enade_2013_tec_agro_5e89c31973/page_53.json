@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f7d69e43f0e9ee4006af8f5179b3c87d1b62e980956de53a4",
+    "usage": {
+      "input_tokens": 2859,
+      "input_tokens_details": {
+        "cache_write_tokens": 2856,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2856
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 336
+      },
+      "total_tokens": 3805
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_52.txt",
+      "source_sha256": "341eb2e93b96379863defe4f64957b04d6bf9ea4bca018f02d210d538a08558c"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_54.txt",
+      "source_sha256": "5631f46862f05c696a87b35502ca50ceb7408241e8be4b108cdbc21dd18731ff"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:07Z",
+  "duration_seconds": 7.658,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_53.txt",
+    "source_sha256": "9cee756aa142ab6d4e3a4cfea3ec93d91144688b1df33791f27e62b18ea86681"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bd6c63ee6c8fd386557ce762bd0fbe59be4859b86fad54d7a8d765247406ae9",
+  "request_fingerprint": "57c1556cb7e10ce4cc388641ca9659d3603bedd0ed205330978a0736caf209b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte.",
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. O texto introdutório e as análises em prosa foram preservados."
+  ],
+  "status": "success",
+  "text": "mínima foi obtida na região Norte (25,0). Todas as demais regiões, Nordeste, Sul e Centro-Oeste, obtiveram a mesma nota mínima: 12,5.\n\nA Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e duas como fácil. Duas questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Três questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da quinta questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto",
+  "text_sha256": "b80041ca5461cc40395ce52af10bd858835435eb26f7fa354d98c5e0654012a9",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0105b868dff3361c006af8e7bb0b6487d1bfcde1efd468d7f7",
+    "usage": {
+      "input_tokens": 2708,
+      "input_tokens_details": {
+        "cache_write_tokens": 2705,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2705
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 290,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 2998
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_60.txt",
+      "source_sha256": "c00999cfde7f646687f1417e97945bc19475574a69f60c4a0521a0149a486807"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_62.txt",
+      "source_sha256": "e2fe382462be3e20272d40123743e673366b879c28b6d02be87d0fbb8036df04"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:06Z",
+  "duration_seconds": 3.143,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM RECURSOS HUMANOS.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_61.txt",
+    "source_sha256": "9d23d9048d284107c8929f3cb9743e790e46e1174c135f298dbf07e8746e0612"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "57a256e787f753eccd6c8a79c1f4744fd13875d12c4d64231356b4db6bec053b",
+  "request_fingerprint": "8468316385be62283e65cfe4c2d20a21508d85b1488d009532e21aed0a7bf699",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.10 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de simetria informada pelos coeficientes de assimetria nulos (Tabela 3.11) pode desviar a atenção da concentração no primeiro intervalo.",
+  "text_sha256": "4d21fbf7437e11c71d8b9348032535e362e72fc90621cd5e8a075f5fcf9355d6",
+  "window_size": 3
+}

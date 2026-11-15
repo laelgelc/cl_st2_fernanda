@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f8ba307e839cfa6006af8eed67d7887d18f67025d39c7e73c",
+    "usage": {
+      "input_tokens": 1735,
+      "input_tokens_details": {
+        "cache_write_tokens": 1732,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1732
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 482,
+      "output_tokens_details": {
+        "reasoning_tokens": 250
+      },
+      "total_tokens": 2217
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_79.txt",
+      "source_sha256": "3b98eba94e61a70b7ac63c69b649c25ddea88d684bac458c4957a9b6bbb7c2f5"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_81.txt",
+      "source_sha256": "f97f2f3c4d55f8e1378375e21d1c4ff7d36ac07c4249e643f5300a2d27ffc01e"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:26Z",
+  "duration_seconds": 5.158,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_autom/enade_2011_tec_autom_page_80.txt",
+    "source_sha256": "a8f482a42bdf78fcfded4b4a0ae8fb3a787d56e3338bd67592a2650d7460ed16"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "06ec2451789a0bf61094d80a676dee4ba5921ac4f52767ca9d9becd11b321bc4",
+  "request_fingerprint": "eb1d6de21368c95880d104831432c3b6ecbff97176a30d62960358de89008be9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”), aparentemente associada a material gráfico na página; o gráfico em si não está visível no texto fornecido."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa. Em todos os quartos, a proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 47,6% (4º quarto) a 58,0% (3º quarto). A opção grau de dificuldade médio foi escolhida por 40,6% dos estudantes do 1º quarto, 41,1% do 2º quarto, 39,4% dos que tiveram desempenho no 3º quarto e 49,9% daqueles do quarto superior. Apenas no 4º quarto a escolha modal foi considerar a dificuldade era média para as questões do Componente de Conhecimento Específico.",
+  "text_sha256": "c320f8663d2841d39de0d4d4a1cccb1e9a2d02adf22868d4a0a3a3bc6c117bd8",
+  "window_size": 3
+}

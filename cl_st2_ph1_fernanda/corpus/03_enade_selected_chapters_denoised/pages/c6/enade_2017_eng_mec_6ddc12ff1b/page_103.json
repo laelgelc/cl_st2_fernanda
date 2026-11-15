@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03bd07d29f36b177006af9075c85d887d1b045009714b3e145",
+    "usage": {
+      "input_tokens": 2706,
+      "input_tokens_details": {
+        "cache_write_tokens": 2703,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2703
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 207,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 2913
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_102.txt",
+      "source_sha256": "a5e5ae7b7230d285a32cdfda3507184e6baab3c866b626285c2cd307dfc92378"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_104.txt",
+      "source_sha256": "e1b23040d27b77949be051fd256fe1520ceef900c7e8d4d9ded0a6bf6dd5c447"
+    }
+  ],
+  "created_at": "2026-11-15T01:14:04Z",
+  "duration_seconds": 3.172,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_103.txt",
+    "source_sha256": "2dddbd974c876f393d447b6c0fd213391f6344e213e5ef1df97751b415e68fb0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f48db4a7cd7426e931fcce22be8979b40b4f1a1ddabf1869299acd8e318c495f",
+  "request_fingerprint": "295159732b11abbcfc217f1c5f5ebb813498c2fc45282e68a85db52dab63e591",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte. Removido o Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "5aab33396b91bbe260b584d2d600314e47585da14cc567c282ca2b702486f13f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03815bb0ffe6a736006af8eb42aa7087d1ad3d805a1fe78111",
+    "usage": {
+      "input_tokens": 1409,
+      "input_tokens_details": {
+        "cache_write_tokens": 1406,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1406
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 1756
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_50.txt",
+      "source_sha256": "319716a34efa847e4fa6013e55730b537a1370a91b2a9a7dbe50e0612f0eb2c0"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_52.txt",
+      "source_sha256": "f8bf9bb4c4dbfc1878c21b478b20d246299a79a21c43160a0beb23b155a60224"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:10Z",
+  "duration_seconds": 4.439,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_51.txt",
+    "source_sha256": "b1e4c01f96985fc62bc89a8afc9c66a95efe202e211459196f95b8d62e44b710"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "829f8a40a000fe7214e5408d8d789f60dd4d23ea8e98a401001c777347c2d7ac",
+  "request_fingerprint": "2a42d4b281a6e1db932f0c6e686f1a535d9ed67264dde2b8eaf425ae1f8cd872",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Como para as notas da prova como um todo, no componente de Formação Geral, os concluintes de Computação (Bacharelado, Licenciatura, Sistemas de Informação e Engenharia de Computação, considerados em conjunto), das IES Públicas (51,1) obtiveram uma média maior do que os das IES Privadas (49,3).",
+  "text_sha256": "33e881967bf4461cbfce1416ee7e40f0f90f52588455c844dd75c5bbfe2d177e",
+  "window_size": 3
+}

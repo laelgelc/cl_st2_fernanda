@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f5d03af006e96f9006af92379923087d1bb8802e1b96924a6",
+    "usage": {
+      "input_tokens": 3094,
+      "input_tokens_details": {
+        "cache_write_tokens": 3091,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3091
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 630,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 3724
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_115.txt",
+      "source_sha256": "01e9556c691a818129e684eea85a4dcc2745469be53a11f01073374caf9dd254"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_117.txt",
+      "source_sha256": "234a4700c7573c533740214a67e131d54c5056d918fcccf07bb64a88f92befef"
+    }
+  ],
+  "created_at": "2026-11-15T03:13:59Z",
+  "duration_seconds": 8.268,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FARMÁCIA.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_116.txt",
+    "source_sha256": "9c7572aa851f452a54620c494ede69e560bb22b8ce79db462a360a0e89e4ca3a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7c405dbaef82fa872db24289640c04d94dcb723aba0a25b74be53831af86336b",
+  "request_fingerprint": "031916e2574cf2c4d5189c2085b0df74a7425de7f5d5c89312afe4af0db7dc28",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico (Gráfico 4.1), seu título/caption e a linha de fonte; preservado o texto que introduz e interpreta o gráfico."
+  ],
+  "status": "success",
+  "text": "Nessa região, três cursos (4,3%) obtiveram o conceito 5 e três cursos (4,3%) ficaram sem conceito (SC).\n\nEm um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 2, ou seja, conceitos 1 e 2, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 71,7% dos cursos com conceito 2 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 30,6% dos cursos na mesma situação: com conceito 2 ou abaixo. Destaca-se que, a região Norte, o conceito 5 não foi alcançado por nenhum curso, na qual todos os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcança 100% no conceito 4. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "184c0c9ead5419c1044a0cf3ac63b603cc7660e1b5813eb0a77b6b8b51a27202",
+  "window_size": 3
+}

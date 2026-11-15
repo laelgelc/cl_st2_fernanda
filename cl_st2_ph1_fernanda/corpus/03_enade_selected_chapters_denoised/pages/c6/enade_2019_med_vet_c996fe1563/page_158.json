@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b08dcdb70f479cc006af91418b06c87d1940ac5148ec7c4a5",
+    "usage": {
+      "input_tokens": 2535,
+      "input_tokens_details": {
+        "cache_write_tokens": 2532,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2532
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2886
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_157.txt",
+      "source_sha256": "5852f6d00cb1174ee9b448c85b17d42b409780d1b07fe92c382e00296691bac4"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_159.txt",
+      "source_sha256": "a721afc1f8c49de10220daecc41e99c4849bca8609814188cc6e7ad17276e067"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:24Z",
+  "duration_seconds": 3.986,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_158.txt",
+    "source_sha256": "f370f74a1856052a98074ce1908b3e5c56e0c5b66e7fb55034b8f768525ac580"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4ff10e0cdcdfe142b7b1439d8d2d81fe4b89a053306dff64400324dcbb88bbd3",
+  "request_fingerprint": "6c38aa0a45a91a4a615d496586aa72a4e6f38d58e647c6123a4b58483625b70e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.14, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.7; mantido o parágrafo de análise em prosa."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.7, mostra-se a distribuição das notas na questão discursiva 1 do Componente de Formação Geral. Observa-se que 8,8% dos participantes deixou em branco a resposta a essa questão. A maior frequência foi a dos que, tendo respondido, receberam nota zero, 40,8%. Somando-se as frequências desses dois grupos, chega a quase 50% o contingente daqueles que zeraram questão. Excetuando-se esses grupos, o intervalo modal seria (40; 50], que se caracteriza como um máximo local com 15,5% das notas.",
+  "text_sha256": "8b4e5b063dfbec258361fcc7df49917f6a652de9066dfcab2cce25109dfe4ea4",
+  "window_size": 3
+}

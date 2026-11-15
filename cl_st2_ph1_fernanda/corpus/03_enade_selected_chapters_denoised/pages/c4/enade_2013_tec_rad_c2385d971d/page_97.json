@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08c69bfe2bf9c788006af8f58ac6e487d1a72cbfc7b74b055a",
+    "usage": {
+      "input_tokens": 1551,
+      "input_tokens_details": {
+        "cache_write_tokens": 1548,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1548
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 402
+      },
+      "total_tokens": 2192
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_rad/enade_2013_tec_rad_page_96.txt",
+      "source_sha256": "ba6e5734c11677cfeee6ad430e7c88342e591ced17cad3aff26b83b3ce200d78"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_rad/enade_2013_tec_rad_page_98.txt",
+      "source_sha256": "37d0939ef2d9617483ee835e38f76940900f35967ba99aa3bd48bb0e263d49bf"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:02Z",
+  "duration_seconds": 6.634,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_rad/enade_2013_tec_rad_page_97.txt",
+    "source_sha256": "0b087084be0c381bcd1fd4d4e7390ef0f20da684f666b3056f7e4e9d6618ba20"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "460e2c4faa35594e4de110e822aad8cf515bdb44c0597de6d64c662bbf5d61ae",
+  "request_fingerprint": "b65788425b1ea882152060f5c82dddf37257882c3c6942566a01677d6c733abd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graph material on the page; verify the boundary."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 76,5% dos respondentes da Área de Tecnologia em Radiologia de todo o Brasil afirmaram que estas eram até excessivas ou suficientes em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12 e, no Anexo II, a Tabela II.6).\nQuanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou suficientes em todas ou na maioria das questões foi sempre superior a 73,0%, chegando a 79,0% na região Centro-Oeste. As diferenças entre as proporções das regiões não são estatisticamente significativas.",
+  "text_sha256": "e5f01d42071b146806da152861724cacbf7929cc2953c12827c06107cc94a83c",
+  "window_size": 3
+}

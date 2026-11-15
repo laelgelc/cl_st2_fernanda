@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09acca1105f50e0c006af8f21f2ad887d19ee969cff89a9b98",
+    "usage": {
+      "input_tokens": 1732,
+      "input_tokens_details": {
+        "cache_write_tokens": 1729,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1729
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 341,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 2073
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_81.txt",
+      "source_sha256": "e738214e1eafdd3cf8b8a1235bf77a1035e5e6c6d7dbb239392df6509d1ffe58"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_83.txt",
+      "source_sha256": "ee45f68f7a98e224220efdd83eef34ab1b71ac30c55fdfaa0013446831a9e62d"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:27Z",
+  "duration_seconds": 3.801,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_82.txt",
+    "source_sha256": "01a7a8973f452522c9b45d94b0f70c231f4206bdedde7bcf82ab4a581ee7690f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b523eab65c11526884e87d65bb44953a7bbf5e2f570610adfea555061f440e4",
+  "request_fingerprint": "cf44049a186673498fbc4867e11370bb46eaefed847c943585470de1a834cb57",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, provavelmente associada ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada variou de 51,6%, no quarto de melhor desempenho, a 58,0% no primeiro quarto. Apresentando uma tendência decrescente conforme os quartos de desempenho.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 39%, com diferenças estatisticamente significativas do 4º quarto com o 1º e com o 2º quarto, e com tendência crescente com o desempenho.",
+  "text_sha256": "242bd2db01a2c4fb99ef607dcad287a85e106aa5e92e85ecdebe1640237e299a",
+  "window_size": 3
+}

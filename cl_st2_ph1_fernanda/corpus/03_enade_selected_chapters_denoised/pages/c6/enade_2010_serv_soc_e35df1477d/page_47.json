@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00389739809b961c006af8e9b4a90887d1a876c4effc2340b1",
+    "usage": {
+      "input_tokens": 2753,
+      "input_tokens_details": {
+        "cache_write_tokens": 2750,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2750
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 674,
+      "output_tokens_details": {
+        "reasoning_tokens": 339
+      },
+      "total_tokens": 3427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_serv_soc/enade_2010_serv_soc_page_46.txt",
+      "source_sha256": "e0448d2d884e79d7ad031f7f2dfaed583b582da3fd563c1253cdcf9178a1864f"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_serv_soc/enade_2010_serv_soc_page_48.txt",
+      "source_sha256": "47ca34f8a44006a4d266c24da9a0c9944e34f6ec78810497597007590795d431"
+    }
+  ],
+  "created_at": "2026-11-14T23:07:32Z",
+  "duration_seconds": 8.086,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_SERVIÇO SOCIAL.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_serv_soc/enade_2010_serv_soc_page_47.txt",
+    "source_sha256": "8726d5a5f9d3e0a96b41df824127949e3ee06a9686dde9250d051fd692db3687"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "473e4eea71bfc80babfe62746755a718fc93b5a59c9eb12331d046edcec49356",
+  "request_fingerprint": "41a4080102c4c509cdb60cc189649c5dd67e1051b621d046b35f05197f093abf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o conteúdo tabular da Tabela 3.8 e da Tabela 3.9, incluindo dados, cabeçalhos, legendas e fontes.",
+    "O texto termina em “sendo quatorze, por” no alvo; a frase continua na página de contexto e não foi completada."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.9 apresenta as classificações das questões objetivas da parte da prova relativa ao componente de Conhecimento Específico, segundo o índice de facilidade. A partir dos índices obtidos, pode-se concluir que, a maioria das questões objetivas da prova foram tidas como pelo menos difíceis: das 27 questões, dezesseis foram classificadas como difíceis e cinco como muito difíceis. Não houve questões classificadas como muito fáceis ou fáceis, ao passo que seis foram tidas como médias, na faixa de 0,41 a 0,60 do índice de facilidade.\n\nNa Tabela 3.10 são apresentados os índices de discriminação das questões objetivas do componente de Conhecimento Específico da prova. Observa-se, segundo os índices estabelecidos, que a capacidade de discriminação das questões objetivas desse componente da prova foi classificada, para nove das 27 questões, como boa, enquanto quatro delas tiveram índice de discriminação muito bom. Menos da metade das questões – 13 em 27 – proporcionou, portanto, índices de discriminação bons ou muito bons. Dez delas foram classificadas como médias e outras quatro como fracas, sendo quatorze, por",
+  "text_sha256": "63d56a69c58e002b4526b8a1d1b057c238cbb3de5cd5eb382042543985b51cb0",
+  "window_size": 3
+}

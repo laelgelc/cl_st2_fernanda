@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04344c85352406f6006af8f994c92887d1a5cfc31b70dad3b5",
+    "usage": {
+      "input_tokens": 1435,
+      "input_tokens_details": {
+        "cache_write_tokens": 1432,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1432
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 1727
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_123.txt",
+      "source_sha256": "07623340ea002f3244a42e7f4996f12bf58bd5197fe0e036b228e98263627036"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_125.txt",
+      "source_sha256": "86bd8895e722e5ebb0a424aa9cc908144c0e343b010f74dc4659bb975b7f6da7"
+    }
+  ],
+  "created_at": "2026-11-15T00:15:16Z",
+  "duration_seconds": 4.79,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FÍSICA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_124.txt",
+    "source_sha256": "42ee9feb539b78cd9f6d33bcd24736de7a7ac479a56790a7052216e28f8acc4f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6af294f61538e86998060dea6cbb5e8a40f1c7d630a18f4a6b26a48d6f100e64",
+  "request_fingerprint": "a0ec0d331cdc1c61c9b011d7aa597c9014aed622a9d0e2f4aa9f84511c8fe1d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014», que parece pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. As diferenças entre o primeiro (58,1%) e o terceiro (71,1%) e quarto (75,5%) quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "966c2f30683d9e81fa976e0ea0a6852f88118ce73880664451be96248b5d7b94",
+  "window_size": 3
+}

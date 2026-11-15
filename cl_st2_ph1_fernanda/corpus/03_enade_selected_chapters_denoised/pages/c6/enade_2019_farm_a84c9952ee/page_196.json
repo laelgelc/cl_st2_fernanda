@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b5fe31b1823d41006af9131f96ec87d1bd0d060b7ef2a051",
+    "usage": {
+      "input_tokens": 2818,
+      "input_tokens_details": {
+        "cache_write_tokens": 2815,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2815
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 376,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 3194
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 195,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_195.txt",
+      "source_sha256": "a76cbad7aa2aa45af506bc7142573cf02d0c04adad68f31af18b75f6b051c940"
+    },
+    {
+      "page_number": 197,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_197.txt",
+      "source_sha256": "a5de5d7fd3300b8c50e7fc6b529913db268c367124c37cfffe6271a4170e052d"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:15Z",
+  "duration_seconds": 5.291,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 196
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_196.txt",
+    "source_sha256": "5797aa5cb9e14fadbfc58d3513d10aee1e34ea8564e0e6e5a2657bf375a92ec8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cf8b9b1563bb47273320a70343baf41803ae98c7f925fe3b065526143c3757d8",
+  "request_fingerprint": "fccf60b62c9a83974d0c407352fd4d43542e793c58bc436d60871f02e07c59e4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados e fonte.",
+    "Removidos a fonte e o material gráfico do Gráfico 6.14; a descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um estudante de todas as regiões. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem moda no o intervalo (50; 60], correspondendo a 33,6% dos respondentes. Somente 2,2% dos participantes que responderam à questão 5 tiraram nota zero. A soma da frequência desse intervalo com a daqueles que deixaram a questão em branco não chega a 10% dos participantes.",
+  "text_sha256": "993a4567742aef709b560f1dc7e428c69370d71467fb160350ef190c1d496aee",
+  "window_size": 3
+}

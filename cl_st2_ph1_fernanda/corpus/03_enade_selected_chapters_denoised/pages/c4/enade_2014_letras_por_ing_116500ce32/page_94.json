@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bcbac1114836279006af8fb32b64887d1b47054037ce69ea6",
+    "usage": {
+      "input_tokens": 2155,
+      "input_tokens_details": {
+        "cache_write_tokens": 2152,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2152
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1567,
+      "output_tokens_details": {
+        "reasoning_tokens": 1030
+      },
+      "total_tokens": 3722
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_93.txt",
+      "source_sha256": "0c34dae011383885ff38d525dc0ec5868963b7a07a3548c283041b8eb03d4511"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_95.txt",
+      "source_sha256": "22279919b184daa9a1f67bed86fd37c29319c3d1ac0a7bba8310423ce6360c0c"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:10Z",
+  "duration_seconds": 14.893,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_94.txt",
+    "source_sha256": "a7fee6be6b279a957a6448a5102a84f658c78806383ee6ef0e0f257c62b2c467"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41d209afb9937c99d961f3b06786f4d1fb799c28c39e3536e9bd31c8f866fdb1",
+  "request_fingerprint": "702bfea16297c87b7ec0bc543132537cd37e23daaa0e55bc14df906781f0a4d2",
+  "retry_count": 0,
+  "review_notes": [
+    "A página menciona os Gráficos 4.1 e 4.2, e a página contextual seguinte começa com uma linha de fonte; nenhum conteúdo gráfico foi incluído na extração da página-alvo. Verificar se há material gráfico não capturado."
+  ],
+  "status": "success",
+  "text": "A seguir, serão apresentados gráficos com resultados selecionados, relativos às nove questões avaliadas por grupos de estudantes. Os gráficos apresentam nas barras o percentual de alunos que assinalaram uma das opções ou a soma das porcentagens daqueles que assinalaram duas (ou três) delas. Por exemplo, para as questões 1 e 2, os gráficos apresentam a porcentagem total de participantes que assinalaram as opções (D) difícil e (E) muito difícil. Em cada barra foram assinalados também os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nAs Tabelas no Anexo II apresentam os valores absolutos e a distribuição percentual21 das alternativas válidas das nove questões, segundo o mesmo recorte de desempenho dos alunos e Grande Região de funcionamento do curso.\n\n4.1 GRAU DE DIFICULDADE DA PROVA\n4.1.1 Componente de Formação Geral\nAo avaliarem “Qual o grau de dificuldade desta prova na parte de Formação Geral?” (Questão 1), 33,0% do grupo de inscritos e presentes optaram pelas alternativas difícil ou muito difícil. Entretanto, para mais da metade dos estudantes (57,6%), o Componente de Formação Geral da prova foi considerado com grau de dificuldade médio (Gráfico 4.1, Gráfico 4.2 e, no Anexo II, a Tabela II.1).\n\nO percentual de estudantes que consideraram a prova como difícil ou muito difícil foi maior na região Norte, onde a proporção foi de 37,9%, enquanto a de menor incidência foi a Sudeste, com 30,4%. No Gráfico 4.1, é possível observar que esta diferença é estatisticamente significativa. Nas Grandes Regiões, a proporção de presentes à prova que consideraram o Componente de Formação Geral como sendo de grau de dificuldade médio esteve entre 54,5% na região Norte e 59,4% na região Sudeste.\n\n21 Cumpre lembrar uma das convenções para tabelas numéricas (pág. iii) sobre a possibilidade da soma das partes não resultar em 100% por questões de arredondamento.",
+  "text_sha256": "b633723806a26ec32b941181115a2212f6159942bf7c72bc8f7d7b10046ff267",
+  "window_size": 3
+}

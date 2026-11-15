@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dfb97e0fe47ccf6006af8e5aca62487d19cfb4f00b1fdf536",
+    "usage": {
+      "input_tokens": 2431,
+      "input_tokens_details": {
+        "cache_write_tokens": 2428,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2428
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 2872
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_100.txt",
+      "source_sha256": "f25f6ac69698a9bd97dabf1b73b637346ecb77a9c92e9d28a3bb266a5c5fa1f4"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_102.txt",
+      "source_sha256": "88f5a176e1104f91a0813f61b1277f1ca50b5904546bf1a383c49af510a575f4"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:20Z",
+  "duration_seconds": 5.245,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_DIREITO.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_dir/enade_2009_dir_page_101.txt",
+    "source_sha256": "1ed9abc0a989263e4d09d156df83af4f3b9e22d5013b0a44ac07e6828179cbfa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "65bbde4e1a7cf625dd02d5e6f55908d13ac73710b229b9ed8cfa09e78e331b22",
+  "request_fingerprint": "631c63f6cfe878b3f89f066bffe16a6c5dfa562a2846ed1acfc244f2eea19cfb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.17b e 4.17c, incluindo títulos, dados, rótulos, legendas e fontes."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de DIREITO. A proporção de concluintes que gastaram entre uma e duas horas foi maior nas Regiões Sudeste e Nordeste (32,0% cada) e menor na Região Norte (26,5%). Para ingressantes, o maior percentual para este tempo ocorreu na Região Sul (36,4%) e a menor na Região Norte (28,3%).",
+  "text_sha256": "0599dc97c8a1b1fc4048be4a2cf8aa4c0898fbc0092b6af1a2f82f1677f38a56",
+  "window_size": 3
+}

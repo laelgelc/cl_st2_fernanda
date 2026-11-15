@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b524e2ae813cbea006af8ed7760bc87d1be9a7efa96a3d9f9",
+    "usage": {
+      "input_tokens": 1807,
+      "input_tokens_details": {
+        "cache_write_tokens": 1804,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1804
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 270
+      },
+      "total_tokens": 2376
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_geo/enade_2011_geo_page_99.txt",
+      "source_sha256": "18e5f6688ac736f7baa1a1ab283266019412f5ca6790acd3decf38fc7c10dceb"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_geo/enade_2011_geo_page_101.txt",
+      "source_sha256": "07769c07b3603dd5b265307fa8a134100d5cf4dc6dcb8db67a4279de9d7272e8"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:35Z",
+  "duration_seconds": 6.309,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_geo/enade_2011_geo_page_100.txt",
+    "source_sha256": "6c6ca6f58604f8e09cb89267436cce3978e61859303174c13d6c2cc8cff4bf38"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c7524680eb8c4eebbaa308a7d9424af1eeaf7cb7d25366d548b0bce1f0d8faf7",
+  "request_fingerprint": "9b384289096fe2f01fa28b4219ff4177c6eb137591afa40753329fe72ce34d7a",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”) removidos; revisar o gráfico omitido."
+  ],
+  "status": "success",
+  "text": "A forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 35,9% (região Sudeste) a 50,1% (Norte); destaca-se o fato de que as regiões Nordeste (40,5%), Sul (40,7%) e Centro-Oeste (40,7%) apresentaram valores percentuais muito similares. O percentual de alunos que citou a falta de motivação como dificuldade variou de 16,1% (região Norte) a 29,6% (região Sudeste). Os que declararam não ter qualquer dificuldade para responder à prova variaram de 13,2% na região Norte a 18,0% na Sul.\n\nCom relação aos quartos de desempenho, o desconhecimento do conteúdo, foi a opção escolhida por 12,4% dos estudantes do quarto superior e 16,3% do quarto inferior. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, foi que a dificuldade encontrada foi causada pela forma diferente de abordagem do conteúdo: 35,3% no quarto inferior e 39,0% do quarto superior, sem apresentar uma tendência de crescimento conforme o desempenho.",
+  "text_sha256": "96c4a87cf7dff4c6b38572d7852cbbe455c1f74af4109f5e8912ce775d1b211a",
+  "window_size": 3
+}

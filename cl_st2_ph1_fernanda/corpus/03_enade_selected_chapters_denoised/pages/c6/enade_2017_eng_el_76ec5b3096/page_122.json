@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06bcb50c1f3ee0dd006af906fbc4c887d1a45e4d5b602bd199",
+    "usage": {
+      "input_tokens": 3082,
+      "input_tokens_details": {
+        "cache_write_tokens": 3079,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3079
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 3636
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_121.txt",
+      "source_sha256": "b2d876fece597ee1d7cb83e422a225b34632aa1b32576ec0ef95b6a957e9ee45"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_123.txt",
+      "source_sha256": "6699f7592d9c5e21034b739f74b916ba5ed940088fc27272136aa33aa1caab4c"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:27Z",
+  "duration_seconds": 5.539,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_122.txt",
+    "source_sha256": "81597893865c5d95e7b12fe6d37cd71c8e9eecbc600d97604160ec9fc85686b9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d302a0601cd99afb3a90ad4a39e46cfe9e707edddd7fbfe58d7762968b89ba46",
+  "request_fingerprint": "ba68cd0652f4cd80b30932c9414ee7db638f905fa22baaddd92ff36281226165",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, cabeçalhos, valores, classificações e fonte.",
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, valores e fonte."
+  ],
+  "status": "success",
+  "text": "O Índice de Facilidade variou de 0,37 a 0,86, e o de Discriminação, de 0,41 a 0,52, levando todas as oito questões a serem consideradas com discriminação muito boa.\n\nA Tabela 6.9 apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices. As oito questões foram classificadas pelo Índice de Discriminação como Muito bom e figuraram entre quatro níveis de dificuldade Muito fácil, Fácil, Médio e Difícil: uma classificada na categoria Muito Fácil (a questão 6), duas na categoria Fácil (questões 4 e 5), quatro na categoria Médio (questões 2, 3, 7 e 8) e, por fim, uma na categoria Difícil (questão 1). Em particular, a questão 4 foi a que apresentou o maior poder discriminatório, com índice 0,52, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,70 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,86. A questão 1, considerada Difícil, teve índice de facilidade 0,37. Já as questões 2, 3, 7 e 8, que também tiveram índices de discriminação Muito bom, tiveram índices de facilidade: 0,55 (questões 2 e 3), 0,41 (questão 7) e 0,51 (questão 8).",
+  "text_sha256": "40b02742596fd9ab5f80e2e51049b71a4de38ebb338d71c7fb85c7141e01e1e7",
+  "window_size": 3
+}

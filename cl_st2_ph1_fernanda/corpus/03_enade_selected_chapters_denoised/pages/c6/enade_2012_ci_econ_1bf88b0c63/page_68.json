@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d0254746753ac61006af8f0a710f487d1bdff9043d0826340",
+    "usage": {
+      "input_tokens": 2291,
+      "input_tokens_details": {
+        "cache_write_tokens": 2288,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2288
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 418,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 2709
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_67.txt",
+      "source_sha256": "887a1f9299deca9afa7ae69a30f73c35a355d4ec34d813efed3d549fecd98219"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_69.txt",
+      "source_sha256": "4df2ff6a3b021655b556d0d4a10014ca2c377aca7f5b6fecc10fc3a9299e5a64"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:10Z",
+  "duration_seconds": 4.522,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_econ/enade_2012_ci_econ_page_68.txt",
+    "source_sha256": "0787c6ae866c4c11499e5bff6935e70e78c5a405cd6a4b46a89e9eb06ea7dc7d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "15f60719c2f351a0e921f0a8410cd6eec84a579cb54de035c12b278d2adc902c",
+  "request_fingerprint": "2322872e79e9e5949a7f989182b0b3e6fdc602cc54193ed3c9a350cc7a295118",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. Removida a linha de fonte associada ao material gráfico; a prosa que descreve o Gráfico 3.19 foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é unimodal, com moda nas questões em branco (também com nota zero). Considerando-se em separado a distribuição das notas dos alunos que resolveram a questão 3, observamos que o gráfico é fortemente assimétrico à direita, com alto coeficiente de assimetria positivo 2,33. Em todas as regiões do Brasil o coeficiente de assimetria foi positivo (entre 2,16 para a região Sudeste e 2,75 para a região Norte).",
+  "text_sha256": "dd79e8edc7825e24d3e486dd09be01f8bee1f7751d9d997e608454185d82d930",
+  "window_size": 3
+}

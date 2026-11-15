@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_099fd9fd5eb6281c006af8fa52d63487d192758afc5ce800c9",
+    "usage": {
+      "input_tokens": 1605,
+      "input_tokens_details": {
+        "cache_write_tokens": 1602,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1602
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 1956
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_98.txt",
+      "source_sha256": "06354f57df0a0bf480921ffb7350e44e857e885e79db542abe705b3f2e9c3ade"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_100.txt",
+      "source_sha256": "c787dcf302c4fdf1467038d67420bb595b23fc990013b48887a68f944075fcc1"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:26Z",
+  "duration_seconds": 4.542,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_99.txt",
+    "source_sha256": "f8f493c2fd5e3525409476da1463124058903035a4eee25eb9f2cf99426dbbf6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c3b9a5115652647e5fdd89024df1a3bdc0a798f1e556bd1168bd629d0b34461e",
+  "request_fingerprint": "9b16d00d49efa56d749649a80fdd1cfc166b3d49c09b97b853f54f41e6078ba3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (78,7%) se comparada ao quarto inferior de desempenho (55,0%). A diferença entre todos os quartos são estatisticamente significativa, com exceção da diferença entre os quartos centrais.",
+  "text_sha256": "ba9f45bd8dcd1fd04e27c4a3871cace04c21e206f0fceb64a3b56496ff4a0b93",
+  "window_size": 3
+}

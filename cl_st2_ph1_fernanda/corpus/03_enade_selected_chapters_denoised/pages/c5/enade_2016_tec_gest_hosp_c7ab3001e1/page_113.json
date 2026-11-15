@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b731383d6293846006af903fafe7087d1a8bc212de178e47e",
+    "usage": {
+      "input_tokens": 2521,
+      "input_tokens_details": {
+        "cache_write_tokens": 2518,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2518
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 221,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 2742
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_112.txt",
+      "source_sha256": "5af2925b5c407ea72a370c11714fe57c969650a166ceb9fc6fa1c9b51e5c0743"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_114.txt",
+      "source_sha256": "139a4633b5f9f583d983886e4a3faa89145223206627688f538622ac69073940"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:38Z",
+  "duration_seconds": 4.535,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_113.txt",
+    "source_sha256": "297797dea35de8ef49c75bc42f275364a7b0a638ca4b1042a510388200cd872c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f867af67c3ed8ec837648f262bc07e4f78a17a6e61736e6664752ad9a43ba922",
+  "request_fingerprint": "8aad70c50b3dfefc00350417187529a47a1ce56328efb4c765b48a51b94ead42",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo seus dados e a linha de fonte. A frase final continua na página seguinte; foi preservada apenas até o ponto em que aparece nesta página."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com sete cursos (87,5% do total regional), dos quais nenhum ficou sem conceito (SC) ou recebeu conceitos 4 ou 5. O conceito modal para as Instituições Privadas na região foi 2, atribuído a quatro cursos, correspondendo a 57,1% dessa",
+  "text_sha256": "432a0236fbc5096463a75da17dea9515a86d9d212ef1e3536edc533cffe56075",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_091acfa7b3e866c2006af8fc9bc75c87d190d071aaf663634b",
+    "usage": {
+      "input_tokens": 2565,
+      "input_tokens_details": {
+        "cache_write_tokens": 2562,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2562
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2930
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_63.txt",
+      "source_sha256": "89a3cdee8cfe8bf1e60a8c32e3652c16894061277d465cdc94187b6bc217dcaf"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_65.txt",
+      "source_sha256": "691d2ac121056dd537ec96a44a8a6dd8f1c417fb3d8601faf155b5c0d7a13637"
+    }
+  ],
+  "created_at": "2026-11-15T00:28:11Z",
+  "duration_seconds": 3.835,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_64.txt",
+    "source_sha256": "eabc1942f48efd876d08b82663713a735d52c5c60ffc5ac06d793c2a6c69e6bb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0a09054ce4d6ff42c4b88f3d2127c41c7586bd5a3350c43abde273fa4f153f4",
+  "request_fingerprint": "cf11c27025eee796a53acf9a87ba2781114e960ca126dab4d2a497ad411392fe",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.8 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota situada no intervalo (40; 50]. Destacam-se também, os alunos que deixaram a questão 2 em branco (acima de 10,0%).",
+  "text_sha256": "ddd054e06e1f2d5269f047ec7c02bb36168bb040b4d7f97fe0e31cfb34043ad2",
+  "window_size": 3
+}

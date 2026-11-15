@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ae542cbc0cdccec006af8f2558f5487d1a38bbb6c7fdf9022",
+    "usage": {
+      "input_tokens": 1542,
+      "input_tokens_details": {
+        "cache_write_tokens": 1539,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1539
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 284,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1826
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_46.txt",
+      "source_sha256": "2d6865664ed96e89fc8b8895adaa471ecc80212c153e3c75d8cee3ae911a0091"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_48.txt",
+      "source_sha256": "ff9a8ddb2cdd86b8ee7561caf377765d206f722a94defeed3d10cb15a5b8701e"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:21Z",
+  "duration_seconds": 3.098,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_47.txt",
+    "source_sha256": "9c13180b275d06bfc5066f150988cfa9af0e3a04980bf770a1cb0ba89712adbd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e1454b010f20d5fed273071137d3d3e86d8d7f7e5357a56e26ecd9e7982d2828",
+  "request_fingerprint": "59830ad0ed71f3e34b77700be665ea492225148ce1bd0bb52f6552418d440c91",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico; o gráfico não está presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no componente de Conhecimento Específico dos diferentes tipos de Organização Acadêmica. Sendo que a média dos Concluintes das Faculdades (46,4) foi maior do que de Centros Universitários (44,9) e de Universidades (43,0).",
+  "text_sha256": "5ce9ef91aaee67fa932e9d59dcf211f7f13deda9e375a95e39ea2e2cd26dd9e4",
+  "window_size": 3
+}

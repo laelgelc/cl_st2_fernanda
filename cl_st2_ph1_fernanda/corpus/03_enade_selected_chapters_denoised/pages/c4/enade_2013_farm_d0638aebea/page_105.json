@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b8e65575cdd87e8006af8f399d6cc87d195f22d7bbd8e3992",
+    "usage": {
+      "input_tokens": 1166,
+      "input_tokens_details": {
+        "cache_write_tokens": 1163,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1163
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 200,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 1366
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_104.txt",
+      "source_sha256": "7f16864be35aa8f7c46c874eb39fd39fcc195980f93ab23f31d9bbd8e8a0db3c"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:45Z",
+  "duration_seconds": 3.34,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_105.txt",
+    "source_sha256": "c2f176cda2364973bfd18008627dce12dd14dfc2747e9a7a51e5c1c30973037a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0c5bd048a24358d0a8cdf6f35b1a898fea50144f28943418a4acef77cb7ba830",
+  "request_fingerprint": "ab020aba578368ee7e5414d32d70548be61321c226a9270cc55c45f506a235ba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graph or table material; the associated visual content is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

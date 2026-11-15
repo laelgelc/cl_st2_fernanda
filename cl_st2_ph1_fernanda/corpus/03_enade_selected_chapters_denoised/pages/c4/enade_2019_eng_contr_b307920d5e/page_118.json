@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01219732460e1558006af9114d183487d191d7ca798ebe4459",
+    "usage": {
+      "input_tokens": 1878,
+      "input_tokens_details": {
+        "cache_write_tokens": 1875,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1875
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 464,
+      "output_tokens_details": {
+        "reasoning_tokens": 311
+      },
+      "total_tokens": 2342
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_117.txt",
+      "source_sha256": "f59a180b96b1256bfe7f8c959fe77ffe18c7132aebb87505d4fc498e4405161f"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_119.txt",
+      "source_sha256": "7894e2a54a81f94a70931b17a66c8e3823c90c4e48ce45b6485bb6daa961bed6"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:29Z",
+  "duration_seconds": 5.637,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_118.txt",
+    "source_sha256": "431a702635c636ca50f447dac1a17d5027a937064802af54f99fc1c2dbff0222"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fd49625d87ab411aa0bf865144e0e54aedb235efe39ba53a971b53669d640585",
+  "request_fingerprint": "41cf71fc3f4397841869f76c027392056e35d4ff6e64e4f87b10de6355493526",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. O rótulo isolado “CEFET/IF” parece pertencer a material gráfico, possivelmente ao Gráfico 4.24; removido."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi maior para os estudantes de cursos de IES Públicas (88,3%), uma diferença estatisticamente significativa da proporção em IES Privadas (79,5%) (ver Gráfico 4.24 e Tabela II.12 no Anexo II).",
+  "text_sha256": "8b913d7e0e961aab50258978d1a6168e5f4bca8081b32363a2e98c3cb80be7ff",
+  "window_size": 3
+}

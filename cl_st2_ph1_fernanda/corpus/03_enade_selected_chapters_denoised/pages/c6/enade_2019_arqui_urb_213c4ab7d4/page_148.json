@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_083b8ec49d7b1bd2006af90fa4de8887d1a2c684a720663691",
+    "usage": {
+      "input_tokens": 2909,
+      "input_tokens_details": {
+        "cache_write_tokens": 2906,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2906
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1265,
+      "output_tokens_details": {
+        "reasoning_tokens": 607
+      },
+      "total_tokens": 4174
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_147.txt",
+      "source_sha256": "690623056d2f062e14ce9c1faf73b2671fd695bff18ec332620734487feb193c"
+    },
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_149.txt",
+      "source_sha256": "f0c35f4615728af02f1b9c4bdc622e2cf9f9528da2d9df3b5c9a2775bf5cb973"
+    }
+  ],
+  "created_at": "2026-11-15T01:49:24Z",
+  "duration_seconds": 11.195,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 148
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_148.txt",
+    "source_sha256": "cf64287076e5d3e33ae63b0a91c522395542a0946df1286cf897478e47061671"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8598b020e1cbc677e91de36c307f3b5b1c6adf997b5603dbf0e693b50f749d33",
+  "request_fingerprint": "c4f036925a71e02d5ff33721a1d49fbe0743fb80e643fd243808abb70def71e1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo seu título, dados e fonte.",
+    "O Gráfico 6.4 é discutido na prosa; material gráfico associado, se presente na página, foi excluído."
+  ],
+  "status": "success",
+  "text": "Médio (questões 3, 4, 6, e 8), e uma, na categoria Difícil (questão 5). A questão 7 teve Índice de Discriminação Bom e foi considerada Fácil. Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Médio em termos de facilidade, com uma proporção de 0,58 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,75. A questão 5 foi considerada Difícil, com Índice de Facilidade 0,21 e com Índice de Discriminação Muito bom (0,41).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada com Índice de Facilidade Médio e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 16,6% escolheram a alternativa E (em vermelho), 15,7% escolheram a alternativa D (em laranja), 36,0% escolheram a C (em preto), 9,6% escolheram a alternativa A (em azul), e 21,3% escolheram a alternativa B (em verde, gabarito). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,6% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,53) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das",
+  "text_sha256": "c394215dc5c660ec79f2924864184a73312b50d401a8b552bc55e3ced7893e94",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a90f81c8156e51a006af8f0f8548487d1b23fd090892dced9",
+    "usage": {
+      "input_tokens": 2339,
+      "input_tokens_details": {
+        "cache_write_tokens": 2336,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2336
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 279,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 2618
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_67.txt",
+      "source_sha256": "48f8ff0f9a77d27e53c4a20fb6a147f7c462bd33c1a423a69f8610f87c75a711"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_69.txt",
+      "source_sha256": "c8fc35b0ae749c832e45fba0d1b746bc20c00e16cd9e51afb203b857582e2f8a"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:32Z",
+  "duration_seconds": 3.325,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_68.txt",
+    "source_sha256": "6c897f9eef305f1984422c9ccbb5210e888c20cef66231f66ce9b68ff5847e5b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91ff8cc28ba0cd5ecd0087b7d8e1cc35a375c9c54a5a9fd81283a0cc0f0823e1",
+  "request_fingerprint": "46fd61bacaefd088d14cef8ce153b105527c0bd980fcfaad67ac92cd7e7e53cb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo seu título, dados e fonte.",
+    "Removido o material do Gráfico 3.19 e sua linha de fonte; preservado o parágrafo que descreve o gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é bimodal, com modas nas questões em branco e no intervalo (20;30]. O coeficiente de assimetria é positivo para o Brasil como um todo (0,74), e também para todas as regiões (entre 0,67 para a região Sudeste e 0,85 para a região Nordeste).",
+  "text_sha256": "14d005079d8c29ed86c3e97494765cd860ac96ab3f9b7317059e86f0d07b025e",
+  "window_size": 3
+}

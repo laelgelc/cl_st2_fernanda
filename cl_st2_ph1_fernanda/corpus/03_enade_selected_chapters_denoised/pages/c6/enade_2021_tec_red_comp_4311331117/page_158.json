@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fdb016a8b0445e3006af91b1d9e7487d1a374ecb3b3a1dc6c",
+    "usage": {
+      "input_tokens": 3305,
+      "input_tokens_details": {
+        "cache_write_tokens": 3302,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3302
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1171,
+      "output_tokens_details": {
+        "reasoning_tokens": 413
+      },
+      "total_tokens": 4476
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_157.txt",
+      "source_sha256": "a1fd28e9aba3a1714d3229cf05d9707b73afb56072046e455dd8fe9590a153a9"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_159.txt",
+      "source_sha256": "6d7853d4f6e0735b79b6cca8be474fa9b915b3a33b2505124ea87c40bd9b0d33"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:21Z",
+  "duration_seconds": 11.138,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_REDES DE COMPUTADORES.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_158.txt",
+    "source_sha256": "f1079aefbececfb9ee92e00cc03acd5c820ed6e3f930953d8621be62dd286f47"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1be9acec37a61fb8a507081ab9da0c8378682048d825c160fc412b5eaa347ff",
+  "request_fingerprint": "86754b34a3f051b5a4ff64d051305c2106d3894ddcce3e19cfddf28777e6ade6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo título, dados e fonte.",
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das Questões Objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: nenhuma teve o Índice de Facilidade classificado como Muito fácil ou como Fácil. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto outras quatro questões foram classificadas na categoria Difícil, apresentando acertos na faixa entre 16% e 40%. Nenhuma questão apresentou menos de 16% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,18 a 0,54, e o de Discriminação, de 0,23 a 0,47. Seis questões, quanto ao Índice de Discriminação, foram tidas como Muito bom, uma questão foi tida como Bom e uma questão foi tida como Médio.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. Como já comentado, nenhuma questão foi anulada. As seis questões que tiveram Índice de Discriminação Muito bom figuraram em dois níveis de dificuldade Difícil e Médio: duas classificadas na categoria Difícil (Questões 1 e 4) do Índice de Facilidade, e quatro, na categoria Médio (Questões 3, 5, 6 e 7). Em particular, a Questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,47, e foi considerada Médio em termos de Facilidade, com uma proporção de 0,54 acertos, o máximo de acertos alcançado. A Questão 2 foi considerada Difícil, com Índice de Facilidade 0,18. O Índice de Discriminação foi Bom para a Questão 2 (0,37).",
+  "text_sha256": "e56a9ffda0db7f3d47f45309f80972c4a923ba55fbd4b344766c729f3c525454",
+  "window_size": 3
+}

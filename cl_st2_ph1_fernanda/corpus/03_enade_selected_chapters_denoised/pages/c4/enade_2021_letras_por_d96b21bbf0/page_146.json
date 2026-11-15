@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d2e7dd926f19c90006af91a04f1a487d1a120dafeed30759d",
+    "usage": {
+      "input_tokens": 1933,
+      "input_tokens_details": {
+        "cache_write_tokens": 1930,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1930
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 302
+      },
+      "total_tokens": 2432
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_145.txt",
+      "source_sha256": "fabef8eef06c4cb5dcac6234f37c8acb369ef794a405c941242e1ef3ddccd037"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_147.txt",
+      "source_sha256": "a9642af75e901fc8eb43c1b8096892f84c7a8b823ce1cddac9f6bc3940a82fac"
+    }
+  ],
+  "created_at": "2026-11-15T02:33:40Z",
+  "duration_seconds": 6.179,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_146.txt",
+    "source_sha256": "c28d54bb7d057817dffa4dbe664a6ba853b9f8e204d0a28e04b82a5f3ca8d1af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1088750253ca23dc6d451fce488c5096e7fbe3711e79a4ff5530555455c56e3",
+  "request_fingerprint": "72965f4a295ef6d44667d522a32d8bb5fcae3bbe3c904ca0bd62533a37d85bf6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.27, incluindo título e fonte. O elemento isolado “CEFET/IF” foi removido por parecer rótulo de gráfico; revisar sua associação ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, o Desconhecimento do conteúdo foi a opção escolhida por 16,3% dos estudantes nas IES Privadas e por 12,6% nas IES Públicas. São observadas diferenças estatisticamente significativas entre essas duas categorias. A alternativa modal entre os alunos, quando agregados pelas Categorias Administrativas, para a dificuldade encontrada, foi causada pela Forma diferente de abordagem do conteúdo: 43,4%, entre os estudantes de IES Privadas, e 42,4%, entre os de IES Públicas (ver Gráfico 4.28 e Tabela II.14, no Anexo II).",
+  "text_sha256": "af5c6d5d5e0dfd48c50f7670aa966bff60ad43fe3c89fad3a4cad976aefb4806",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ca9bd4b3378fa18006af8ebcc864887d1800ba4ed71511ab9",
+    "usage": {
+      "input_tokens": 2102,
+      "input_tokens_details": {
+        "cache_write_tokens": 2099,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2099
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 695
+      },
+      "total_tokens": 3048
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_43.txt",
+      "source_sha256": "0779ff80d0c788956ef4dd9a4ef6e070a7231e5879fe9088e406774be20553de"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_45.txt",
+      "source_sha256": "171efd1ae177337d4093dc499023f0723f71b0681b9879fe4a5566a68b516e34"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:28Z",
+  "duration_seconds": 9.466,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_44.txt",
+    "source_sha256": "d2f37af0b3455218543c7ba14b2fc52114d7968fef9cda73225d9f506b624f4b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9d85f69770d7f203f759763b0f35aee0685e5fbed3ca1a4d95d8d01229f200a",
+  "request_fingerprint": "11c0c2bc94ad1ebada46ec959f57e21ddbb5ab5c2811dd09365516f0a28db9df",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página; provavelmente pertence a material gráfico ou tabular, mas a associação exata é incerta."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Engenharia Grupo I. A média do desempenho dos alunos do Brasil como um todo foi 43,5. A maior média foi obtida na região Sul (45,9), e a menor, na região Norte (37,5). As demais médias foram: 42,2 na região Nordeste; 43,4 na região Sudeste e 44,9 na região Centro-Oeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 15,4, sendo o maior desvio padrão observado na região Nordeste (15,8) e o menor na região Norte (14,4). Os demais desvios foram: 15,4 da região Sudeste; 15,2 da região Sul; e 14,6 da região Centro-Oeste.",
+  "text_sha256": "2d777b5bf06a415093b7ee496408cfdbf246ba52cf0912e6d4bc3a87f9bef9e9",
+  "window_size": 3
+}

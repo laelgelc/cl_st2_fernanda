@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0853a31806795977006af8fe83512087d1b3276f9f0e81dc7c",
+    "usage": {
+      "input_tokens": 1996,
+      "input_tokens_details": {
+        "cache_write_tokens": 1993,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1993
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 442
+      },
+      "total_tokens": 2640
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_80.txt",
+      "source_sha256": "6c7576c57196c728da400f38eaac738cf7735f058ff0aa042a46ee12c290d866"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_82.txt",
+      "source_sha256": "6ac0e9f1dbd6033c27c807828269eb290fde5c07f4fe2a1633e33adc5291ecee"
+    }
+  ],
+  "created_at": "2026-11-15T00:36:19Z",
+  "duration_seconds": 7.274,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_81.txt",
+    "source_sha256": "b4329f6bb129ae7bb8fff15b8fa933510546115158c618c59aea26d88a1ae0f8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e49c80172e8a2a8de57ce16822cf7135c8b07580dc8f8b557b1c50a0ab9fc90f",
+  "request_fingerprint": "ac54d7221c5d7370a91f6cb98d6756acd8eb67f2aecbbf4f0f37a0e53f8672dd",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.18, incluindo título, dados e fonte, removida.",
+    "O Gráfico 3.11 parece continuar na página seguinte, onde aparece sua linha de fonte; nenhum conteúdo gráfico estava visível no texto fornecido para a página-alvo."
+  ],
+  "status": "success",
+  "text": "As medianas (10,0), as notas mínimas (0,0) e as notas máximas (90,0) foram as mesmas em quase todas as regiões do pais, exceto a nota Máxima nas regiões Norte (80,0) e Nordeste (70,0).\n\nO Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Publicidade e Propaganda. Sem levar em consideração que mais de 20% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda no intervalo (0; 10].",
+  "text_sha256": "9987ee7b672a4f3cf2cc3f0824a248b8d9b1ea200031f0a4fe0fe37d9084032a",
+  "window_size": 3
+}

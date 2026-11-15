@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00687295e32c3695006af9001f958c87d1bd66f4784be66de9",
+    "usage": {
+      "input_tokens": 2675,
+      "input_tokens_details": {
+        "cache_write_tokens": 2672,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2672
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 575,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 3250
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_52.txt",
+      "source_sha256": "c08b54b188c2fbc5de1785b08054516ed528635207420de367fddf1ea689345c"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_54.txt",
+      "source_sha256": "44f293b90b49ea19c03e9d8905c6be6421b922d4d72fc6c87602d8192f2871df"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:11Z",
+  "duration_seconds": 6.124,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_53.txt",
+    "source_sha256": "17227964b6e8f6941dc7468c819ab9a579440e6988ea723ba989a2e5a76dafc6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "041bd473ba564b1dbc6a08f257689e20df5cf9b4a352e0ff1f9c6bf76bee8321",
+  "request_fingerprint": "3057be9378ae5c95b2c06e9b2ffa605f8a300c2ad726b259c5b8a8771b180edd",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico removido; a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2015» foi excluída como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n3.2.2 Componente de Conhecimento Específico\nA Tabela 3.11 apresenta as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Tecnologia em Gestão de Recursos Humanos por Grande Região. A Média do Brasil deste componente foi de 39,8. A menor Média foi observada na região Centro-Oeste (37,2), e a maior, na",
+  "text_sha256": "541d03bed8128c51ce30de06a78c7b43ffa01dd2f7d4b79e00ae776eb8448461",
+  "window_size": 3
+}

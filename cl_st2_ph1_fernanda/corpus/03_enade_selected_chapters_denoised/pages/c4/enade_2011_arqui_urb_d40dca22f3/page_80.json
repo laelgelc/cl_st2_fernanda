@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c1f2a8ec0f38353006af8eaa906cc87d19977d8dd8b60d519",
+    "usage": {
+      "input_tokens": 1602,
+      "input_tokens_details": {
+        "cache_write_tokens": 1599,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1599
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 326
+      },
+      "total_tokens": 2240
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_79.txt",
+      "source_sha256": "123144a5ef3146d60c48880d81aef794523097c5b2f5f9dabe0a42c5ecb3247a"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_81.txt",
+      "source_sha256": "420672b76ab0a3a2abd8907d02df5d8024c7bd0117ebc896a3ef82fb09428d95"
+    }
+  ],
+  "created_at": "2026-11-14T23:11:36Z",
+  "duration_seconds": 6.683,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_arqui_urb/enade_2011_arqui_urb_page_80.txt",
+    "source_sha256": "5c7d2e556f055030a7b218598d767a3039e8ede35d8099e48fe4e8416304f92b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d79674a561eb1765ae22a4a2af4ce03a9d03b3544c0dd256230a3db6d9db96ee",
+  "request_fingerprint": "3df56912c6902c5929511a8aee9b6b7412c370f20ee1d9035477cff1136d552f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2011), provavelmente associada a material gráfico na página; o material gráfico em si não aparece na extração fornecida."
+  ],
+  "status": "success",
+  "text": "4.2 EXTENSÃO DA PROVA EM RELAÇÃO AO TEMPO TOTAL\n\nIndagados quanto à extensão da prova, em relação ao tempo total oferecido para a sua resolução (Questão 3), os estudantes apontaram, com maior incidência, a alternativa que considerava a extensão adequada, para todas as agregações consideradas (Gráfico 4.5, Gráfico 4.6, e, no Anexo II, a Tabela II.3).\n\nO percentual de alunos que responderam ser a extensão da prova adequada foi de 53,5%. Já 42,2% dos inscritos presentes consideraram que o exame foi longo ou muito longo e menos do que 5% o avaliaram como curto ou muito curto.\n\nEntre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou pouco: de 35,4% na região Centro-Oeste até 46,0% na região Sul. A proporção dos que consideraram a prova longa ou muito longa na região Centro-Oeste é significativamente diferente da proporção dos que deram as mesmas respostas nas regiões Sul, Sudeste e Nordeste.",
+  "text_sha256": "501cc195ba4e1e4543623976a121c4960308e77466476b2875aa1580a0058eca",
+  "window_size": 3
+}

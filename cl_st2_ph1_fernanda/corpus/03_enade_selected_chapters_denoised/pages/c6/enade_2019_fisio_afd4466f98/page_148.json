@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd6baea91e156e3006af91345cf0087d18a5bad33bd824c2b",
+    "usage": {
+      "input_tokens": 2829,
+      "input_tokens_details": {
+        "cache_write_tokens": 2826,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2826
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1013,
+      "output_tokens_details": {
+        "reasoning_tokens": 429
+      },
+      "total_tokens": 3842
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_147.txt",
+      "source_sha256": "822a1e65fe043fc9b52323883b24be5a33b1155f13f981dd8d5509ffdccfa635"
+    },
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_149.txt",
+      "source_sha256": "1318b70028d9097714f6bb3236b7c5c1d91dae7f93f34fc8d4089987eb99d1c4"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:53Z",
+  "duration_seconds": 9.56,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 148
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_148.txt",
+    "source_sha256": "ef1c360258d7c20249ad35b3b4b592c3af7ea8dc2a5deb26a1743c90b58ec628"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9cfa555152dbf3828e388a064adffc6e5c4e4f87f1d78cf7c91c0ca7e76e56a",
+  "request_fingerprint": "c04af08b55ba8fe1874d0caf329db1a2c2872d1d02ddb940ba5605cce6edf392",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Médio (0,28) e foi classificada na categoria Muito Difícil do Índice de Facilidade por ter uma proporção de 0,14 acertos. Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,51, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,63 acertos, o máximo de acertos alcançado.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com um acerto, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Entre os estudantes que acertaram duas questões, 10,9% escolheram a alternativa A (em azul), 11,0% escolheram a alternativa E (em vermelho), 13,8% escolheram a alternativa D (em laranja), 25,4%, a alternativa C (em preto) e 38,5% escolheram a alternativa B (em verde, gabarito). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "580311fa0c6e4a5447580d4b031a6220d5b0179447d06adba3d2b740fb4fc6b3",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000f135f9e92db21006af924cadf5087d1a61e59ecdcb0c4ec",
+    "usage": {
+      "input_tokens": 3155,
+      "input_tokens_details": {
+        "cache_write_tokens": 3152,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3152
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 3657
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_est_cos/enade_2023_tec_est_cos_page_118.txt",
+      "source_sha256": "696984033debd92f3a994c2ec1bb959cc2e646a1dd9b5ff9557960e1b5a8bb63"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_est_cos/enade_2023_tec_est_cos_page_120.txt",
+      "source_sha256": "8e26c763d8ce46fc5e670350371ba3f071dd4a4bb425a0ced87647ff8f181072"
+    }
+  ],
+  "created_at": "2026-11-15T03:19:38Z",
+  "duration_seconds": 4.508,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_est_cos/enade_2023_tec_est_cos_page_119.txt",
+    "source_sha256": "c3205e1fda3a0ddf1b87e32d8311c01e015cf2ad4e4894a44a3d4bd7b3b5d8dc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "917d8fb69631d53ed7c5da097fca9bdeff5d97c9ab23301a88a43a8210c0740c",
+  "request_fingerprint": "d74c0d69775972baad316b0e913a79ac879af65fa2c6f5cc02805e86a321b147",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico, sua legenda/caption (Gráfico 4.1) e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 94,1% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 54,7% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, na região Norte, o conceito 5 não foi alcançado por nenhum curso, na qual todos os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcança 100% no conceito 4. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Sudeste e Sul (linhas vermelha e roxa, respectivamente) apresentam a distribuição com valores maiores. Os cursos em IES situadas na região Centro-Oeste (linha amarela) apresentam uma situação intermediária.",
+  "text_sha256": "35577a747e7fca1c88385bdc274e2c745d0f239874d64084a71c88bd416b6010",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000c1c0406da5557006af8f5a3332487d1b20887331704b4a3",
+    "usage": {
+      "input_tokens": 2596,
+      "input_tokens_details": {
+        "cache_write_tokens": 2593,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2593
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 522,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 3118
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_67.txt",
+      "source_sha256": "11b7abee6c830c155afb7dd8b12ec1062c2fee23f3a7ad0df093f3b31d3449b3"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_69.txt",
+      "source_sha256": "e4253b6959c187eef60ee16b3dc0ef79a959f977520c980d3ea47d85f125b958"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:27Z",
+  "duration_seconds": 5.253,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_68.txt",
+    "source_sha256": "ec8d03422f88fb71d24a9f2a9df8d09fa4421aa095e1e140c067450653a7649d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "82dcb473a5f2fe4ba39c53220fdb6c009f196469fa962a035f3c3eea18bd1a23",
+  "request_fingerprint": "03dc93d2c2f9d512af38451512b03fdaceeadb0bbe8fd7aa5266cc18c90e1358",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "obtido na questão de número 1 (25,1). O maior desvio nessa questão foi obtido na região Nordeste (29,4), enquanto o menor foi obtido na região Norte (24,1).\nA mediana foi 40,0 em quase todas as regiões, exceto nas regiões Norte (20,0) e Sul (35,0). A mediana do Brasil como um todo também foi 40,0. A nota máxima (100,0) foram as mesmas em quase todas as regiões do Brasil, exceto na região Norte (85,0). A nota mínima foi zero em todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Neste gráfico, desconsiderando-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 22%, a moda principal), observa-se a moda no intervalo (40; 50].\nO coeficiente de assimetria das notas nesta questão é positivo (0,07), indicando que a distribuição é assimétrica à direita. O mesmo ocorre para quase todas as regiões do Brasil (0,63 na região Norte, 0,09 na região Nordeste e 0,17 na Sul), exceto nas regiões Sudeste (-0,03) e Centro-Oeste (-0,06) que possuem assimetria negativa.",
+  "text_sha256": "97a2aa5217a7380a320c3e5cddf9aa4d9608cd5cf4fe4c4960f4b7cc497823f1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00139142e091f17b006af922f1ad8087d1baff5c503621e6ef",
+    "usage": {
+      "input_tokens": 1819,
+      "input_tokens_details": {
+        "cache_write_tokens": 1816,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1816
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 225,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 2044
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_el/enade_2023_eng_el_page_95.txt",
+      "source_sha256": "b1a806808401ee2448abed80375b113ffa88be660b6e92b0b63d49c03a1339bb"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_el/enade_2023_eng_el_page_97.txt",
+      "source_sha256": "e0a1c0ff2d13d3974f5229ef20d45ad41284cb2da28a67fa9ba78943d37e8a2b"
+    }
+  ],
+  "created_at": "2026-11-15T03:11:45Z",
+  "duration_seconds": 2.691,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_el/enade_2023_eng_el_page_96.txt",
+    "source_sha256": "ccd3af574aa0f5563cf91368ee6f3d33626eca0f44e7ac3272974a1921cdeb25"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "548f8d010de342cff3e56923343ddfacfb69f5fd94ab2f4f467317154554762c",
+  "request_fingerprint": "cba15f511cda73ab95ca0b8176c9451b8f870897edd9a2fb974913b887b065d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, a legenda, os dados e a fonte do Gráfico 3.18."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 3.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “compreensíveis e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho, com percentual mais elevado no quarto superior (81,9%), se comparado ao quarto inferior (69,5%). As diferenças entre todos os quartos de desempenho são estatisticamente significativas, exceto entre o primeiro e o segundo.",
+  "text_sha256": "e6e2007bf26a037d5ed1e08933e46859420f77323cbda15ce517d929b7103893",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e28bbe4e25b277006af907aa283c87d1886ff007c1246993",
+    "usage": {
+      "input_tokens": 2712,
+      "input_tokens_details": {
+        "cache_write_tokens": 2709,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2709
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 376,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 3088
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_134.txt",
+      "source_sha256": "076fa7cc22cc9781602953d14a103322d25b2c535782fd2cc289b1e4cb7dedfb"
+    },
+    {
+      "page_number": 136,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_136.txt",
+      "source_sha256": "37addc339071e4e723231213656e0458e22a4b0440fdc74236c167bb14295589"
+    }
+  ],
+  "created_at": "2026-11-15T01:15:22Z",
+  "duration_seconds": 5.478,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 135
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_135.txt",
+    "source_sha256": "52ba9fb8beaa18620d24b63660e71ffa989bcf00fdf38db43262ef01b3ef9ae2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3c06d9afdc6657ca4add44f91985ff4d0927f9a8533092da8917c0e00e583720",
+  "request_fingerprint": "6b06f6f03ae6b1a1ae151a73615c204451ca9913cf9d42363142bc7236019919",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.17, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.10 e sua linha de fonte; mantido o texto que comenta o gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no intervalo (10; 20], com mais do que 25% do total de participantes. Mas, com frequência muito próxima à modal, tem-se o intervalo [0; 10], onde estão computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos. Observa-se, ainda, que o intervalo (40; 50] caracteriza-se como um máximo local.\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "8db910d00486e5679015c15890cca20163bb59e8c74add9fd0535e347395cdc5",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0690f05a90f6ade9006af9142a393087d1aef509a7347eed70",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 2618,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2618
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 677,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 3298
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 187,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_187.txt",
+      "source_sha256": "0929d6da3911db6c39ff7839bd1680afe46460e4164edd32c1e0e4b19589ab82"
+    },
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_189.txt",
+      "source_sha256": "574860a9bee55750e17fe01afe3a3de6bd9ab582ef4850df139179c89796247f"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:42Z",
+  "duration_seconds": 6.015,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 188
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_188.txt",
+    "source_sha256": "197066a91adf8e1cf6b64e057efc84d5d8f3ab398b793cacd6254052994d1a57"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "127d56341b233ab43a65cdbe6e495160538172cf43ee8704bcf89357d1aceec6",
+  "request_fingerprint": "b33ab7689fe5fa1feff75a9d948f18b8a0bff0bd3e911f0ce37ba87505a6aa5d",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Desvios de concordância nominal e verbal:\n ausência ou presença indevida de marca de plural (com sujeito anteposto ou posposto). Exemplos:\n“Os setores público e ensino superior poderiam desenvolverem (por “desenvolver”)\npesquisas para empresas seja (por “sejam”) elas do tipo tecnologico (por\n“tecnológico”), saúde, transporte entre outros”;\n“já as empresas poderiam financiar projetos de pesquisas para os setores público\ne ensino superior que também poderia se utilizarem (por “utilizar”) de suas partes\nestruturais e acadêmicas para desenvolvimento tecnologico” (por “tecnológico”);\n“as empresas que produz (por “produzem”) os materiais”;\n“o engajamento entre ambos elevam (por “eleva”) a economia”.\n Aparecimento da marca de plural em verbos ou adjetivos relacionados a núcleos\nsubstantivos no singular devido à presença de modificadores no plural. Exemplos:\n\"o financiamento das bolsas de estudo devem (por “deve”) ser ampliados” (por\n\"ampliado”);\n“o acesso aos cursos deveriam (por “deveria”) ser incentivados (por \"incentivado\")\npelas empresas”, evidenciando um processo de hipercorreção.\n Ausência de acento circunflexo na forma plural do presente do indicativo dos\nverbos “ter” e “vir”, considerada como um desvio na concordância verbal e não na\nacentuação gráfica. Exemplos:\n“ganhos na economia vem (por “vêm”) através dos aumentos com exportação”;\n\"as universidades públicas tem (por \"têm\") recebido menor quantidade de verbas\npara suas atividades\".\n Ausência de concordância de gênero, no âmbito de sintagmas nominais longos,\nem que o adjetivo antecede ou está afastado do substantivo. Exemplos:\n\"seria necessário uma reeducação\" (por \"necessária\");\n\"é necessário (por \"necessária\") a mobilização\";\n Emprego de “onde” não locativo. Exemplo:\n“Com isso o custo seria inferior ao comprador, onde iria igualar aos países mais\ndesenvolvidos”.",
+  "text_sha256": "b655bf7dc9cf94d71e26588fbf5a9531e337c127c34b2498fb8f86beff8caf2e",
+  "window_size": 3
+}

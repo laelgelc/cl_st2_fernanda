@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b7e4c354b70d9c006af9133a3e0c87d18c2d732854382f3a",
+    "usage": {
+      "input_tokens": 2506,
+      "input_tokens_details": {
+        "cache_write_tokens": 2503,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2503
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 500,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 3006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fisio/enade_2019_fisio_page_127.txt",
+      "source_sha256": "3a028eb53c3a4e1c22bd40b2b351627d7ef71177e36f833aa8c4bd9db9efb251"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fisio/enade_2019_fisio_page_129.txt",
+      "source_sha256": "1c77f0d3d52de3e6ebaaf40200d85fa689b4ec4dd2f71849775935aa3f9f42f3"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:42Z",
+  "duration_seconds": 5.595,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fisio/enade_2019_fisio_page_128.txt",
+    "source_sha256": "977b81dc23b8532d5384a3dc46f9d5311aa15459e714d03bedba56edfae68cd2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aa19921c9dac6b0a7ae71c077584561f6d16de194ecba539c3c0f548de762d4e",
+  "request_fingerprint": "8380bdd9599a3806278a1bc07bbb4e4b4b4e84e6b9a195f01ad28efb375cc3d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes – Enade/2019», pertencente ao Gráfico 5.2."
+  ],
+  "status": "success",
+  "text": "Na região Centro-Oeste, 38 dos 44 cursos participantes eram de Instituições Privadas (86,4% em termos regionais). Desses, 17 receberam conceito 3, o conceito modal. Dos demais cursos, um curso recebeu conceito 1, 13 cursos receberam conceito 2. O conceito 4 foi atribuído a cinco cursos, e o conceito 5 a dois cursos. Nenhum curso ficou Sem Conceito (SC). Quanto aos seis cursos oferecidos por Instituições Públicas na região Centro-Oeste (13,6% do total regional), três cursos receberam conceito 4, conceito modal. Os conceitos 1, 2 e 3 foram atribuídos a um curso cada. Nenhum curso recebeu conceito 5 ou ficou Sem Conceito (SC), nessa combinação de categoria e região.\n\nTodos os cursos oferecidos na região Centro-Oeste eram presenciais.\n\nNo Gráfico 5.2, apresenta-se a distribuição do Conceito Enade, segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceitos Enade com valores maiores.",
+  "text_sha256": "f7fe9b41d14bcabb675f3466fff9a6f680a1168a07eeb46c834a9dfd1b7df46b",
+  "window_size": 3
+}

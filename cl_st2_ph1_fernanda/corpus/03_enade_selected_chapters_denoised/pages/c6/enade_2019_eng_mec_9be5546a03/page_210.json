@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c26563d7f22d998006af9128d985c87d1949ebbe5c5afbd02",
+    "usage": {
+      "input_tokens": 2986,
+      "input_tokens_details": {
+        "cache_write_tokens": 2983,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2983
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 816,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 3802
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_209.txt",
+      "source_sha256": "27a86e16c92427f710c2ad1817eeed57552df5c8796ee66d0ec0ff80ee68fdf6"
+    },
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_211.txt",
+      "source_sha256": "8c04cd1f065fa963f13ab8476fb51a46a02333c15b0b1b606de5936e0d9fe0ed"
+    }
+  ],
+  "created_at": "2026-11-15T02:01:49Z",
+  "duration_seconds": 6.419,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 210
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_210.txt",
+    "source_sha256": "694948b852c88b6c9fbdfce2b190f7109f3ba5ce5422b5d2254f7eb8c3b6521b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8f6726e59aa2713bff78fb84312c546f85e33abfa787cb0e1557831f7aa5dea0",
+  "request_fingerprint": "aa3043fe6697930c060f51834e2e05f9ddae1c4086ac945475ead815f7716810",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No item ‘c’, os principais erros cometidos foram:\n(i) utilização da potência líquida do ciclo ao invés da potência da turbina nos cálculos;\n(ii) erro ao expressar o resultado obtido em kW em MW;\n(iii) ausência do cálculo da vazão mássica em kg/s;\n(iv) equacionamento correto do cálculo da potência da turbina e da potência elétrica, mas com erro em contas resultando numa resposta incorreta;\n(v) apresentação da potência da turbina como resposta final do item ‘c’.\n\nObservou-se também que muitos optaram por colocar apenas a resposta final de cada item, tendo realizado os cálculos possivelmente na folha de rascunho. Esse tipo de abordagem impediu pontuações parciais por não permitir ao corretor acompanhar o raciocínio do estudante e identificar onde ocorreu uma eventual falha.\n\nNo geral, os estudantes apresentaram baixo desempenho na Questão 5, na medida em que a maioria demonstrou não conhecer os conceitos abordados ou ter uma ideia equivocada sobre o que foi solicitado. De um total de 18.812 participantes, 9.415 deixaram a resposta a essa questão em branco, outros 163 tiveram suas respostas consideradas como nulas, desconsideradas ou, ainda, eram respostas sobre tema de outra questão da prova (resposta trocada). Como nesses dois casos a nota é zero, a correção já partiu de mais da metade dos participantes obtendo nota zero. As demais 9.234 respostas foram corrigidas e classificadas, segundo as notas alcançadas, em três grupos: fracas, medianas e boas, como discriminado a seguir.\n\nAs respostas válidas e classificadas como fracas, por receberem notas de zero a 30, constituíram o maior grupo, 7.503 respostas. A quantidade de respostas com notas de 31 a 70 foi 1.516. O grupo menos expressivo foi o das 215 respostas que receberam notas maiores do que 70, consideradas boas, com apenas oito delas chegando à nota máxima 100.\n\nNa categoria de respostas fracas, alguns estudantes, além de fornecer uma resposta insatisfatória no item ‘a’, tentaram resolver de forma equivocada o item ‘b’, acertando apenas o valor do calor fornecido à caldeira, ou dando como resposta final ao item ‘c’ a potência da turbina e não do gerador, ou apresentando o cálculo da potência líquida do ciclo Rankine, não atendendo, assim, ao padrão de resposta. Esses respondentes tipicamente pontuaram na faixa de 25 a 30 pontos no total. Foi grande o número de respostas que apresentaram diagramas desconexos no item ‘a’, e cálculos errados nos itens ‘b’ e ‘c’.\n\nUma reduzida quantidade de estudantes logrou pontuar satisfatoriamente o item ‘a’, geralmente errando a determinação do estado 4 e não apresentando o sentido em que ocorrem os processos através de setas. Além disso, observaram corretamente a expressão",
+  "text_sha256": "a8351c5dacbb53461a8b80a6852fde98b0ca4968f51b570ec04d0283305760b7",
+  "window_size": 3
+}

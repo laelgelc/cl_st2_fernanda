@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0916e2b7488e3195006af8f18e434487d1b0b4c38c3fc6b0d2",
+    "usage": {
+      "input_tokens": 1590,
+      "input_tokens_details": {
+        "cache_write_tokens": 1587,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1587
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 252
+      },
+      "total_tokens": 1984
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_46.txt",
+      "source_sha256": "33d4d9ed5df6fcbec7c500348cb34eb2d5a893784d1223caba0607b2b80a4a1f"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_48.txt",
+      "source_sha256": "4a11f0aff3ceefa84d0b60723a3ff5e55717e4f4aa38dada0c9fd946890cbaec"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:02Z",
+  "duration_seconds": 5.218,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_47.txt",
+    "source_sha256": "92f5d82f5f7923c5a7ce6871442a1e61c4e77ef82da2806f130dbf056d9bec40"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "80b331d9703e588c51d309feb9ca3fe745c91d9e4728e3a2d5dfa98b38081d7d",
+  "request_fingerprint": "d33795d12125a5ce9802e31eab3b7950e70036cf92891be35e397c1bb8648e3f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o identificador de página e a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2012”), aparentemente associada ao Gráfico 3.12; nenhum dado gráfico foi incluído na extração."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no componente de Conhecimento Específico dos estudantes provenientes de Universidades (43,1), em relação aos provenientes de Centros Universitários (40,7) e Faculdades (41,0).",
+  "text_sha256": "082b45cc89108c895abbab579fe01cf9b7235712e726ca74908fa9536a77ee4a",
+  "window_size": 3
+}

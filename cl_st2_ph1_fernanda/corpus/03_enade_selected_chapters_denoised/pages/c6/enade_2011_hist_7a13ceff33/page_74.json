@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b094d8ca021c83006af8edc6280c87d1a10120121d034512",
+    "usage": {
+      "input_tokens": 2181,
+      "input_tokens_details": {
+        "cache_write_tokens": 2178,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2178
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 768,
+      "output_tokens_details": {
+        "reasoning_tokens": 381
+      },
+      "total_tokens": 2949
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_73.txt",
+      "source_sha256": "5552ac2c6f40ae95c9f6c30599598487c9ef218236c7c84b2472787acc327a5c"
+    },
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_75.txt",
+      "source_sha256": "35dca16b9755b77ecb2179c0fa3d601ea23662944ce53f8a443093340e3d3fcd"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:54Z",
+  "duration_seconds": 10.035,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 74
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_74.txt",
+    "source_sha256": "1a3c5a3156712bdd49687a6e60300c3501e2cc230431b600c84750d13279c7cc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9754af673bf5f9c68896852ed4447556d467d0aa1c4a175569db153640990aee",
+  "request_fingerprint": "be393e428842c39d0e3eb3986a4638c1e41d1a3e660220f372cf9f7bd8a88712",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, estatísticas, dados e fonte.",
+    "O Gráfico 3.20 foi removido; a linha de fonte associada aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A nota máxima, 95,0 pontos, foi alcançada por pelo menos um aluno da região Sudeste. A região onde ocorreu a menor nota máxima foi a Norte (65,0). A mediana do Brasil como um todo foi 0,0, a mesma de todas as regiões, sem exceção. Este dado mostra que em todas as Grandes Regiões, mais da metade dos concluintes, tomando-se as duas habilitações em conjunto, obtiveram nota zero ou não resolveram a questão discursiva 3, que fez parte do componente de Conhecimento Específico.\n\nO Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico da área de História para alunos do Bacharelado e da Licenciatura. Essa distribuição tem moda nas questões em branco, com percentual maior para os alunos de Bacharelado, chegando a quase 60% dos alunos. Tomando-se o percentual de concluintes que não resolveram a questão 3 ou tiraram nota zero em conjunto chega-se a mais do que 70% dos alunos para as duas habilitações. O coeficiente de assimetria é maior do que 2 para os dois cursos: 2,14 para o Bacharelado e 2,44 para a Licenciatura. A assimetria é acentuadamente positiva para todas as distribuições por região, com os maiores coeficientes de assimetria sendo das Licenciaturas nas regiões Norte (2,90) e Nordeste (3,02).",
+  "text_sha256": "ec738a9f28b92732c06411993bae172531352ae6af5c2e7b385146e30922539d",
+  "window_size": 3
+}

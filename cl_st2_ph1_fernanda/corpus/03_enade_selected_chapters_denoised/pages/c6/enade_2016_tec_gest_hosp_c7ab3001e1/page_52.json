@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d9a457204cb99fb006af9040530bc87d1852cd3afdb50ea9f",
+    "usage": {
+      "input_tokens": 3130,
+      "input_tokens_details": {
+        "cache_write_tokens": 3127,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3127
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 864,
+      "output_tokens_details": {
+        "reasoning_tokens": 285
+      },
+      "total_tokens": 3994
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_51.txt",
+      "source_sha256": "473f0a816cb2dd6086907fd1a3eaa1232b21354bf99bccf68679174fa0e87b36"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_53.txt",
+      "source_sha256": "c780f626bd1ce18f699413961372912a3e9bf67154f670082d9b2e2b4bc301ee"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:49Z",
+  "duration_seconds": 7.718,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_52.txt",
+    "source_sha256": "2968f1593af81b4cf47cdcedb4b989729f279bf118c9e47ef59fe91407bba1cc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8921e146c0b1f1b97bf4782f835604bb8ce653269cb1dd22c454d02b88d0ec9e",
+  "request_fingerprint": "de55c77c134215fd50dcf0710d797aef312c8aa227ec8cfbf1d0782e2b52131c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados, classificações e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, duas questões apresentaram menos de 15% de acertos, razão pela qual foram classificadas como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto-bisserial). Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice Muito bom para esse grupo de estudantes. Duas questões tiveram Índice de Discriminação Bom, com valor entre 0,30 e 0,39, e uma questão teve nível Fraco de discriminação para esse grupo de estudantes (índice 0,15 < 0,19). Nenhuma questão foi classificada com índice de discriminação Médio (entre 0,20 e 0,29).\n\nO Índice de Facilidade variou de 0,05 a 0,70, e o de Discriminação, de 0,15 a 0,52. As cinco questões com Índice de Discriminação Muito bom figuraram entre níveis de dificuldade Fácil, Médio e Difícil: uma classificada na categoria Fácil (a questões 6) do Índice de Facilidade, uma na categoria Médio (questões 3) e três na categoria Difícil (questões 1, 2 e 7). Em particular, a questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,52, e foi considerada Difícil em termos de facilidade, com uma proporção de 0,28 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,70. A questão de número 8 apresentou um Índice de Facilidade de 0,18, ou seja, menos do que um quinto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,35). Já a questão 5 foi a mais difícil para esse grupo de alunos, apenas 5% dos estudantes escolheram a opção correta, e seu Índice de Discriminação Fraco, 0,49, confirma a grande dificuldade. Essa questão, para os estudantes de Tecnologia em Gestão Hospitalar, foi eliminada do cômputo da nota final, pelo critério de ponto-bisserial.",
+  "text_sha256": "18b3fd2e890cc148ff87731d5281e44fa1030a18ae7c2a7bb4c6adcdc4da3117",
+  "window_size": 3
+}

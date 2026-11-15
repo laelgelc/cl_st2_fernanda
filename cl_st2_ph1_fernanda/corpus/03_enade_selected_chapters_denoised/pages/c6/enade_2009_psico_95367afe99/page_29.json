@@ -1,0 +1,55 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_010278a2682eb785006af8e66849d887d1beb25ebde14b5dfd",
+    "usage": {
+      "input_tokens": 2116,
+      "input_tokens_details": {
+        "cache_write_tokens": 2113,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2113
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1249,
+      "output_tokens_details": {
+        "reasoning_tokens": 681
+      },
+      "total_tokens": 3365
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_30.txt",
+      "source_sha256": "061ab95b57f7fb1a0d15cfe1116eb2599a26c933bd560528adc7fb0bd1c498d3"
+    }
+  ],
+  "created_at": "2026-11-14T22:53:28Z",
+  "duration_seconds": 11.576,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PSICOLOGIA.pdf",
+    "page_number": 29
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_29.txt",
+    "source_sha256": "19a80fe8873177c715e91f10331b2e688e3385f1752bb223b1beab4c9e4c3165"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "76d19f243a00869978af8357c0548d977791cbc33c81e12fa10fb3352ae4acc5",
+  "request_fingerprint": "87c810fc5b6590cfd8e37fd90c89e8fd6fd6dfabeff0b2acc8bd471d98661363",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Capítulo 3\nAnálise Técnica da Prova\n\nEste capítulo tem por objetivo apresentar o desempenho dos estudantes de PSICOLOGIA no ENADE/2009. Para isso, foram calculadas as estatísticas básicas da prova como um todo, bem como as estatísticas das questões relacionadas à Formação Geral e ao Componente Específico. Nas Tabelas, são apresentadas as seguintes estatísticas: total da população, de presentes, média, erro-padrão da média, desvio-padrão, mediana, nota máxima, nota mínima e coeficiente de assimetria (ver definição em 1.4.3). Nas estatísticas das questões discursivas, foram detalhadas também as notas nulas: em branco, por protesto ou por insuficiência. As estatísticas apresentadas neste capítulo contemplam, separadamente, os ingressantes, os concluintes e o total de estudantes, e foram calculadas tendo-se em vista as seguintes agregações: (a) Região Geográfica e País como um todo e (b) a Categoria Administrativa e a Organização Acadêmica.\n\nAs notas brutas das questões discursiva em cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir da média simples das notas de cada uma das questões correspondentes. A primeira questão discursiva de Formação Geral foi desconsidera e, portanto, a nota bruta referente às questões discursiva de Formação Geral foi igual à nota da questão mantida, a segunda. Na Componente Específica, a nota bruta correspondeu à média das notas nas três questões.\n\nAs notas brutas das questões objetivas de cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir dos acertos dos estudantes considerando-se uma regra de três para a conversão para a escala de 0 a 100, descontando-se aquelas questões que foram desconsideradas pela comissão ou que não passaram pelo teste do índice de discriminação ponto-bisserial (ver seção 1.4.6 para a descrição do índice). As questões com índices de discriminação inferior a 0,2 foram excluídas do cômputo da nota do estudante. As notas brutas de Formação Geral e do Componente Específico para cada um dos estudantes foram calculadas como médias ponderadas das suas notas nas questões objetivas e discursivas, ponderação diferente para cada parte:\n\nC_FG = C_FG^OBJ × 0,6 + C_FG^DIS × 0,4\nC_CE = C_CE^OBJ × 0,85 + C_CE^DIS × 0,15,",
+  "text_sha256": "49b9b24f4e04708b116f1bd8bb2bb70be72c7957a04b0365036cb7412503e5bc",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_050d298f493a81f1006af8f5df27c887d1b13add91ad413038",
+    "usage": {
+      "input_tokens": 1596,
+      "input_tokens_details": {
+        "cache_write_tokens": 1593,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1593
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 543,
+      "output_tokens_details": {
+        "reasoning_tokens": 422
+      },
+      "total_tokens": 2139
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_104.txt",
+      "source_sha256": "a48d3a37b4bc3f950949733c6c93b921ec84b9a9749f0d3fdecf0312676cfe25"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_106.txt",
+      "source_sha256": "f68a95a031a1a40460146422b6495cdf2de2656196153df7ded0579e71aee59c"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:27Z",
+  "duration_seconds": 5.919,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_105.txt",
+    "source_sha256": "554fab6ef7ad5a01d27b2cc31e7c462aacb564568c639acc0bafb98efa891627"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cbfdb6999f2321b0c8bba8c6835582a686668f764512414ec58706c8585f26f4",
+  "request_fingerprint": "8097578740e17798642e0bf0c33d6b0f9840a60a138d1629b7d7db97602f2280",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente vinculada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (74,8%) se comparada ao quarto inferior de desempenho (65,2%). As diferenças do primeiro para os demais quartos e do segundo para os dois seguintes são estatisticamente significativas.",
+  "text_sha256": "ea2f7cc833e53a6a9229157b025c86ecd8ebae452f2b5c8cf402658877b6fc8d",
+  "window_size": 3
+}

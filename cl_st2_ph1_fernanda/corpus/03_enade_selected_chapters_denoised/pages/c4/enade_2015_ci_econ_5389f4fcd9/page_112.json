@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_092fb22c7fde30ee006af8fd7b566887d19ebd4c5e351d5920",
+    "usage": {
+      "input_tokens": 1772,
+      "input_tokens_details": {
+        "cache_write_tokens": 1769,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1769
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 252,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 2024
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_111.txt",
+      "source_sha256": "1d8d38b4425f769a92795923930a32c5f38d9bf62ec0af4c46539528e5964c12"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_113.txt",
+      "source_sha256": "237748aaffac38e386352d06d3cdadebf0d00fb4b0eaa3f40b1092e1da4a04d7"
+    }
+  ],
+  "created_at": "2026-11-15T00:31:55Z",
+  "duration_seconds": 2.868,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_112.txt",
+    "source_sha256": "9cf279ba3d2af14855c467275b29827be9feccd9fae71c465b2e7d1b520b6034"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5985439554c2f9331042fdceaecec3926cb2da31ef8d91dabfff83232c8f78d9",
+  "request_fingerprint": "e2e91c0cf895d1e16b17028b6eba1c0dd08538b67624d4fcedfdfc10b9bd461a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.15, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 46,4% na região Norte e 72,3% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,2% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,0% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade no quarto superior em relação ao primeiro e segundo quartos é estatisticamente significativa.",
+  "text_sha256": "b778a15932e06c378693d6ca222f4b65dc790d7bc5dab00f90c3d1b12e144c07",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a821e7ceda7228006af9212ea6e487d1a59eb9b5173f5901",
+    "usage": {
+      "input_tokens": 3079,
+      "input_tokens_details": {
+        "cache_write_tokens": 3076,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3076
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 596,
+      "output_tokens_details": {
+        "reasoning_tokens": 357
+      },
+      "total_tokens": 3675
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_agro/enade_2023_agro_page_127.txt",
+      "source_sha256": "36690ebbe3eb498dbe86b9be195aef582724896541b8faa12e9396288c4a4a7f"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_agro/enade_2023_agro_page_129.txt",
+      "source_sha256": "c09c20441ceb57b425e6568e7e69745d01e01d9ce6f72a476cfc9842e20229d1"
+    }
+  ],
+  "created_at": "2026-11-15T03:04:14Z",
+  "duration_seconds": 5.915,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_AGRONOMIA.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_agro/enade_2023_agro_page_128.txt",
+    "source_sha256": "b1ee6471b069710453a413ca26d743a863c855dab5cd9ade4ad83d51107dbf4e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b59254e213a1d93014ca766b06e80e123483e47e764023e39143e492440b99f4",
+  "request_fingerprint": "1fd57ce1c2229b7e077a26a8f9236ab5ced88375edc110991b19da578cc6d886",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.1, sua legenda e fonte, e a Tabela 5.2, incluindo título, dados e fonte.",
+    "A página termina no trecho incompleto “O desvio-padrão para as”; a continuação da página seguinte não foi incluída."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Agronomia de todo o Brasil: uma distribuição unimodal com a moda no intervalo (50; 60].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (53,8) que a média das IES privadas (45,9). O desvio-padrão para as",
+  "text_sha256": "145590ee6bea0d993679a5bd46e917d04d95b965e5194b1074be0c790c6e8802",
+  "window_size": 3
+}

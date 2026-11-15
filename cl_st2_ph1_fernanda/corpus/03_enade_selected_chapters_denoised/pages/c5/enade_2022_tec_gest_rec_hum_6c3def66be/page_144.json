@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_041ad966a5c6224d006af91f7c128487d1adfb7fe725677e54",
+    "usage": {
+      "input_tokens": 3310,
+      "input_tokens_details": {
+        "cache_write_tokens": 3307,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3307
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 917,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 4227
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_rec_hum/enade_2022_tec_gest_rec_hum_page_143.txt",
+      "source_sha256": "adc27e61af2413caa2a8ad91bf73670f859496a396024c07a293285765f177db"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_rec_hum/enade_2022_tec_gest_rec_hum_page_145.txt",
+      "source_sha256": "cc38971568b336572fea8d8f94f8d0f524a36597bbb44daf85e01d7f0f6cc08e"
+    }
+  ],
+  "created_at": "2026-11-15T02:56:59Z",
+  "duration_seconds": 7.876,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2022_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_rec_hum/enade_2022_tec_gest_rec_hum_page_144.txt",
+    "source_sha256": "aa9767a17ea57960e2a20205d98e5d0be8e391eadedecba8f95f12bc509799ae"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9903d681afcb52ff0c10bd1a9824c0cb1e02333568b3fd4040a649b5b8a7f04",
+  "request_fingerprint": "e16d1b949008e3c4dfdfd44aa6b8cc55790758bb5ba8c0e2c689393edf6237fc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2022”, pertencente à Tabela 6.3, que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Como mostram os dados da Tabela 6.3, dos 1.249 cursos de Tecnologia em Gestão de Recursos Humanos participantes, 157 eram oferecidos em universidades, 249 em centros universitários, 213 em faculdades e 5 em CEFET/IF. Esta distribuição corresponde a, respectivamente, 25,2%, 40%, 34,1% e 0,8% dos cursos.\n\nDe acordo com os dados apresentados na mesma tabela, de todos os 20 cursos avaliados com o conceito 5, 6 eram vinculados a universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 69 cursos (43,9%). Os demais cursos ofertados pelas universidades receberam os conceitos 1 (seis cursos), 2 (22 cursos), 4 (28 cursos) e conceito 5 (6 cursos, como já mencionado). Vinte e seis cursos ficaram Sem Conceito (SC).\n\nDos cursos vinculados a centros universitários, o conceito modal também foi o 3, atribuído a 106 cursos (42,6%). Quarenta e oito cursos vinculados a esse tipo de Organização Acadêmica ficaram Sem Conceito (SC), e os outros cursos receberam os conceitos 1 (3 cursos), 2 (39 cursos), 4 (49 cursos) e 5 (4 cursos).\n\nDos 213 cursos mantidos por faculdades, 66 (31%) receberam conceito 3, o conceito modal. O segundo conceito mais frequentemente atribuído aos cursos oferecidos por essa categoria de IES foi o conceito 2, recebido por 43 cursos. Na sequência, 42 cursos obtiveram conceito 4; 6 cursos, o conceito 1; e nove cursos, o conceito 5. Dos cursos oferecidos em faculdades, 47 ficaram Sem Conceito (SC).\n\nDos 5 cursos mantidos por CEFET/IF, dois (40%) receberam conceito 3, o conceito modal. O segundo conceito mais frequentemente atribuído aos cursos oferecidos por essa categoria de IES foi o conceito 1, 3 e 5, recebido por um curso. Nenhum curso ficou Sem Conceito (SC) ou com o conceito 2.\n\nConsiderando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as universidades participaram com 8 cursos avaliados, aos quais foram atribuídos os seguintes conceitos: 2, a 1 curso; 3, o conceito modal, a 4 cursos; 4 a um curso; 1, a um curso; e 5, a nenhum curso. Um curso ficou Sem Conceito (SC) nessa combinação de categoria e região.\n\nOs centros universitários da região Norte foram representados por onze cursos, dos quais 8 obtiveram conceito 3, o valor modal, e um curso, os conceitos 2 e 4. Os conceitos 1 e 5 não foram atribuídos a nenhum curso. Um curso ficou Sem Conceito (SC). As faculdades participaram com 8 cursos na região Norte, os quais receberam os conceitos 1 (um curso), 3 (três cursos, conceito modal). Quatro cursos ficaram Sem Conceito (SC), e nenhum curso oferecido em faculdades da região obteve os conceitos 2, 4 e 5. Nessa região e Organização Acadêmica, nenhum curso foi oferecido em CEFET/IF.",
+  "text_sha256": "61b2ee290cb3a9581958ee3be1379badaebf230860a4ece63c8872c45894a57a",
+  "window_size": 3
+}

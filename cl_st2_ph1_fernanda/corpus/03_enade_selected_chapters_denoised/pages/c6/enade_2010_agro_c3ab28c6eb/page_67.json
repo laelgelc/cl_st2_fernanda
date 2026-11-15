@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03de0bf3478c758f006af8e84faae487d1828013d109a7389c",
+    "usage": {
+      "input_tokens": 2696,
+      "input_tokens_details": {
+        "cache_write_tokens": 2693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "total_tokens": 3056
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_66.txt",
+      "source_sha256": "f367a395994fbcba6e22dc12076a41add8a0f3b2141cd76f83b2dd8046499e4d"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_68.txt",
+      "source_sha256": "63776cfb12cd71f8817524ace894e42d61beaa06ce8295609ba9076e532d02a3"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:35Z",
+  "duration_seconds": 3.678,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_AGRONOMIA.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_67.txt",
+    "source_sha256": "2c397841e64cdd0d6899595fd01be93b5e00ce92ba67f51b43fb14886c8e6150"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a95e6ce8f3bc3396d417d39e51b10ed4cab315a15abc062ff08cde47f9658e4",
+  "request_fingerprint": "2c1f4a89e4289ae5536dd006f0863fc491a3c010b1b04730f1e61932f6633a81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.15, incluindo rótulos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "em branco por 52,9% dos Ingressantes e por 26,8% dos Concluintes. O intervalo de notas no qual foi observada maior frequência corresponde à faixa que vai de zero até 10 pontos o que demonstra ter sido esta a questão de desempenho mais baixo. Existe uma segunda moda no intervalo de 20 a 30 pontos para os Concluintes, A distribuição de notas nos dois agrupamentos pode ser observada no Gráfico 3.15.",
+  "text_sha256": "fb8aabec437ebd842954b547a9873e53a4755422793af9dd41584b6594ce2478",
+  "window_size": 3
+}

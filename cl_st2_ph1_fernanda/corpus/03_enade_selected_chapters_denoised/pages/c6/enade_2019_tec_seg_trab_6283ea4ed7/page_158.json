@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_087a052272f3d3b8006af9165598a087d19a53f31d2610a0d5",
+    "usage": {
+      "input_tokens": 2854,
+      "input_tokens_details": {
+        "cache_write_tokens": 2851,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2851
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1614,
+      "output_tokens_details": {
+        "reasoning_tokens": 1000
+      },
+      "total_tokens": 4468
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_157.txt",
+      "source_sha256": "15cd30dba58021a2f2fb280a660817c67295ee27316f67bc30869db58cac528f"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_159.txt",
+      "source_sha256": "d3de4b843686783a95dd0aed8b4febe9b175c8604315e08292ca993f1fec7fee"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:57Z",
+  "duration_seconds": 15.581,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_158.txt",
+    "source_sha256": "330a00f0e04da1936dd883a111d290ad8b1b8545ce07b46b04209411272149af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5b75ddf01e0032264468afa7dc2d1bc5efef03b0cc36d5ce08fc87579deb6363",
+  "request_fingerprint": "3acb9639df5e3487206adb6c76b37cb4a851ac949c5eb3a5393361f59db8ee74",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.9 removida. O material gráfico do Gráfico 6.4 foi excluído; a prosa que o apresenta e analisa foi preservada.",
+    "O texto do alvo termina no meio da frase («No caso»); a continuação da página vizinha foi deliberadamente excluída."
+  ],
+  "status": "success",
+  "text": "A questão 7 também apresentou o Índice de Facilidade mais elevado entre as questões objetivas do Componente de Formação Geral: 52% dos estudantes acertaram essa questão. As questões 4 e 6 foram consideradas Difícil, com Índice de Facilidade 0,34, para ambas. Os Índices de Discriminação foram Bom e Muito bom para as duas questões (0,38 e 0,47, respectivamente).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio pelo Índice de Facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 19,4% escolheram a alternativa E (em vermelho), 11,3% escolheram a alternativa D (em laranja), 33,1% escolheram a alternativa B (em verde, gabarito), 8,1% escolheram a alternativa A (em azul)., e 28,2%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, nenhum estudante deixou a questão em branco ou marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com seis acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso",
+  "text_sha256": "e5004d84a38ffdbe1107a7e4564d3947304fdfe4c3a55e6224b83a8143250893",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06200f571e7a0ac9006af8f0f6752487d1818bfb01068a1d56",
+    "usage": {
+      "input_tokens": 2656,
+      "input_tokens_details": {
+        "cache_write_tokens": 2653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1192,
+      "output_tokens_details": {
+        "reasoning_tokens": 666
+      },
+      "total_tokens": 3848
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_65.txt",
+      "source_sha256": "ef09de5891feaf2b203e2b62aa72c269361f3a2f3457a1b5f3b7b2470f999afc"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_67.txt",
+      "source_sha256": "48f8ff0f9a77d27e53c4a20fb6a147f7c462bd33c1a423a69f8610f87c75a711"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:30Z",
+  "duration_seconds": 10.833,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_66.txt",
+    "source_sha256": "6f68628d73ddfdf20db321fa6a368808a60bc01634458f9813d0343b413e081e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a58f6147fdf60739e19ae10cd8aab93b64a4abe2b6c223743e847a07b7162c28",
+  "request_fingerprint": "2196f0db123240ddae82d4759b32a5624a50cf34ec03858661b4fd5548cd92bc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e linha de fonte.",
+    "O texto menciona o Gráfico 3.18, mas não há dados ou rótulos gráficos visíveis no texto fornecido da página-alvo; a linha de fonte aparece apenas na página de contexto. Verificar se o gráfico foi omitido na extração."
+  ],
+  "status": "success",
+  "text": "3.3.2 Componente de Conhecimento Específico\n\nNa parte da prova relativa às questões discursivas no componente de Conhecimento Específico (Tabela 3.11), observa-se que a média foi mais baixa do que para as questões discursivas do componente de Formação Geral. Enquanto no componente de Formação Geral a média das questões discursivas para estudantes de Direito de todo o Brasil foi 41,1, na parte de Conhecimento Específico a média foi 22,7. A maior média deste componente foi obtida pelos estudantes da região Sudeste (24,1), e a menor, pelos da região Centro-Oeste (20,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 18,0. O maior desvio padrão foi encontrado na região Nordeste (18,4), e o menor, na região Sul (17,7).\n\nA maior nota máxima, nas questões objetivas do componente de Conhecimento Específico, foi obtida na região Sul (98,3) enquanto a menor nota máxima foi encontrada nas regiões Sudeste e Centro-Oeste (86,7). Além disso, a mesma nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 21,7, também encontrada nas regiões Norte e Sul. As demais medianas foram: 23,3 na região Sudeste, 20,0 na região Nordeste e 18,3 na região Centro-Oeste.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0;10]. Nota-se que a partir desse intervalo há outra concentração de notas no intervalo (20;30].\n\nO coeficiente de assimetria é positivo (0,38), indicando uma assimetria à direita. Este coeficiente também é positivo em todas as regiões do Brasil (entre 0,28 na região Sudeste e 0,50 na região Centro-Oeste).",
+  "text_sha256": "ba6d28e9e571c6a4b4c63aeb9bed611ba4f107b16657f5ab10bf6b74ebf0a282",
+  "window_size": 3
+}

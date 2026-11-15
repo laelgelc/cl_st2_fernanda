@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d3c20c53a4c66ae006af8f26215d887d1b3d72f54cd5c0438",
+    "usage": {
+      "input_tokens": 2476,
+      "input_tokens_details": {
+        "cache_write_tokens": 2473,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2473
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 328,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 2804
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_68.txt",
+      "source_sha256": "0e094db510ef93ddbfdbd55ce439f7f53226ea07aa645709b3c7fce62456907c"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_70.txt",
+      "source_sha256": "f1e9909f7b475d54b5812987e4ffbee252a9b8c3c47cdf598bb8b39b0d9475c8"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:34Z",
+  "duration_seconds": 3.634,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_69.txt",
+    "source_sha256": "6dca35a1d0560d9fef6670fca3a58357eea85f0b855405b06c0d1b3c257ae210"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ed94ca844db3940bf568e689b325df64461ae60878678127b7896b3f786d15c2",
+  "request_fingerprint": "6f58a20ae240d29089215a4fecbb6aa7e8e3d8d9bdde2e4480fceec3c80565ed",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 3.19; o gráfico em si não foi transcrito."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é bimodal, com modas nas questões em branco e no intervalo (10;20]. Considerando-se em separado a distribuição das notas dos alunos que resolveram a questão 3, observamos que o gráfico possui assimetria à direita, com coeficiente de assimetria 0,66. Em todas as regiões o coeficiente de assimetria também é positivo (entre 0,59 na região Sudeste e 0,86 na região Centro-Oeste).",
+  "text_sha256": "21f7e21355a843d7ae713c14cd6e2127ee03d480c09fe018c8aceaba9a6e70c0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b45e79d11b2471b006af8f613a6fc87d1bfa143a7448ebbf6",
+    "usage": {
+      "input_tokens": 1388,
+      "input_tokens_details": {
+        "cache_write_tokens": 1385,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1385
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 492
+      },
+      "total_tokens": 2029
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_109.txt",
+      "source_sha256": "59fab8c474696f93a684f0358dc1619d381aa8d26f20d9f6f2342e35a26301f8"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_111.txt",
+      "source_sha256": "a04dd80bdefe5ceb4a18ce1b997c5fab9c863076c99f3ed930646a100763b381"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:19Z",
+  "duration_seconds": 6.475,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_110.txt",
+    "source_sha256": "ef2f74b33ed171135599097eff534bceb27f27181332c57760d0f9b4454165dc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a017f0ef3c8d56b189e990e9448eb2f484aaf43f0bf4b8caf4732fdbfe6c580e",
+  "request_fingerprint": "5cd7ebd64041c2373040738c54fdb16912a1f4305a849f49621562dc43c200f7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova. A diferença entre as proporções do primeiro (62,4%) e do segundo (68,1%) não são estatisticamente significativas, mas são estatisticamente significativas as diferenças entre estes e o quarto de maior desempenho (75,3%).",
+  "text_sha256": "1dac4154d2986df489a20209c6426aa008d350d17ec4f9e2e251814082177286",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1713738eeec19e006af8f9219b3c87d18b23ccaa97945a81",
+    "usage": {
+      "input_tokens": 1361,
+      "input_tokens_details": {
+        "cache_write_tokens": 1358,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1358
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 394
+      },
+      "total_tokens": 1892
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_108.txt",
+      "source_sha256": "7cb41091d2a09256d5338b624040be38b1c648f1000cf33c404875f6d0c28390"
+    },
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_110.txt",
+      "source_sha256": "42ec07ffae08adcb7b0e85a30808eb7f0a00939f0a629f6dd65428a29a369b0b"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:21Z",
+  "duration_seconds": 7.543,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 109
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_109.txt",
+    "source_sha256": "61deb9319fc64f71f4766d3f136005bb9706bf8defcfab3be3ac5d53102eb0b9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2d1693970f64a0f0d26ffee3531cd037e99297f27ef9134ba7c0fccbb7fb86f9",
+  "request_fingerprint": "75503be77fedab0c7522e5b375e7cff42329ac97fd017bcbc02c4509be97a464",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. A diferença entre o primeiro (65,2%) e os demais quartos é estatisticamente significativa, conforme mostra o Gráfico 4.18.",
+  "text_sha256": "2f359d147a153f4f160e50056046e66c5c8f6de6f3e02d35c757c5c77a2ddc96",
+  "window_size": 3
+}

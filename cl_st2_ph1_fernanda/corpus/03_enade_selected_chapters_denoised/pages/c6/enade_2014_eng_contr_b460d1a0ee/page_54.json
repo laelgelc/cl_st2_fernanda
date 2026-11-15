@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea2763028ecbfbd006af8f827186087d1b134bbc86cb31e9a",
+    "usage": {
+      "input_tokens": 2463,
+      "input_tokens_details": {
+        "cache_write_tokens": 2460,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2460
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 911,
+      "output_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "total_tokens": 3374
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_53.txt",
+      "source_sha256": "fc1f9b80ce7f9a73e82e694047fc38f97b90142891eb32ab11ddb1f6d163ed69"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_55.txt",
+      "source_sha256": "3d973ba541e74b8e4318dfd0febbbccac7365303d5d861535d7aebacb7619593"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:11Z",
+  "duration_seconds": 8.343,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_54.txt",
+    "source_sha256": "995ed183865f4016a258296bbd7ab651f39779e0c768b4b07c77184da5a3e8c3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db54e662bbf041dfe2cfb13d4f6e46b0dbe54ef5acb7b474b9cf3a422e3eaef5",
+  "request_fingerprint": "095320972b0c79fe3891e2cc72d8cb5dd982e4e83d54f1fbb4e24eb984e4b5ab",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.5 foi removido; a página de contexto seguinte contém uma linha de fonte associada a material gráfico, que não foi incluída."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 32 do Componente de Conhecimento Específico. Esta questão foi classificada como médio. Apresentou índice de facilidade 0,50, ou seja, 50,0% dos estudantes assinalaram acertadamente a opção E, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,48, classificado como muito bom, também sendo esta questão a que apresentou o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 32, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de estudantes que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para 21, 23 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "be68ef20ae6266b47ec851282f86bad3facb09f14bd150eccc24359f56463dbb",
+  "window_size": 3
+}

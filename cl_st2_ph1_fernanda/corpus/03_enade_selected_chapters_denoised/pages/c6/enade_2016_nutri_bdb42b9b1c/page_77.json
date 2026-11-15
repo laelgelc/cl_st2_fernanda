@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0855e29d5c7d6098006af90307ac7887d191607bedb87ecde4",
+    "usage": {
+      "input_tokens": 2306,
+      "input_tokens_details": {
+        "cache_write_tokens": 2303,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2303
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 657,
+      "output_tokens_details": {
+        "reasoning_tokens": 331
+      },
+      "total_tokens": 2963
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_76.txt",
+      "source_sha256": "82820460f93b47fe283797fa58c62401cd1539456ece124b88bb17be5e130844"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_78.txt",
+      "source_sha256": "7f381a685e2fc93b9f9b2b02cd513858c8efc72a1ae45a59ce29f9291914c77d"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:35Z",
+  "duration_seconds": 6.025,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_77.txt",
+    "source_sha256": "681140344543ed05466951b00ad099455ee6bbe7d457f87e6ea686dce8ad2003"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9607b3cad238a168e154415d4121db1dc6cae04bd5bb87c122c089c530ab52e",
+  "request_fingerprint": "60eb640bfd1005b9d2c07711332a2fb12f124a4bc48ccb3dd3f0238f6a6e7f5a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2016”, pertencente a material gráfico; o gráfico em si não aparece no texto extraído da página."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 - Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.18, a Média dos estudantes de todo o Brasil foi 50,9. A menor Média nessa questão foi obtida pelos alunos da região Norte (42,8), enquanto a maior Média foi obtida na região Sul (56,1). Quanto à variabilidade das notas, o Desvio padrão de todo o Brasil foi 28,3. O maior Desvio padrão foi obtido na região Nordeste (29,0), enquanto o menor foi obtido na região Sul (26,7).\n\nA nota Máxima, 100,0 pontos, foi alcançada por, pelo menos, um aluno de todas as regiões. A Mediana do Brasil como um todo foi 55,0. Nas regiões Norte e Nordeste a Mediana foi menor (45,0 e 50,0, respectivamente) e nas regiões Sudeste, Sul e Centro-Oeste foi maior, 60,0 nestas três Grandes Regiões. A nota Mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil.",
+  "text_sha256": "17314ca5325c6340ee557b4ccf980afa27b3ca759fafb8a9db220a10524fdba6",
+  "window_size": 3
+}

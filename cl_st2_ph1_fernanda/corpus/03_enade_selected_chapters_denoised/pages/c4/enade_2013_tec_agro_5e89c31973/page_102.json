@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c900b5d8352ed2f006af8f50978c487d198c750305aa6835a",
+    "usage": {
+      "input_tokens": 1677,
+      "input_tokens_details": {
+        "cache_write_tokens": 1674,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1674
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 514,
+      "output_tokens_details": {
+        "reasoning_tokens": 322
+      },
+      "total_tokens": 2191
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_101.txt",
+      "source_sha256": "d819df8fd57660112d70a59d2b32da487264b64202bf923f500b8f3d2ce3a21a"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_103.txt",
+      "source_sha256": "06affd30f1d85c8fe18ab19f4321070476530aa40d229681248ef4f80f7b3a58"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:53Z",
+  "duration_seconds": 5.798,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_102.txt",
+    "source_sha256": "6df62a044eeb4193dd5a72a8b48a3f95e9814f1b81e55c89a41110e9fb234860"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ccdff6ba6ef48b4b4e1b0d05a8eba4eff371c57269dbcbc4cf0c31c8e6a9ec2b",
+  "request_fingerprint": "e7ed256925f474f6b824c4d378d875cd2561c65504048de1e084fb33fa78b21d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2013”), aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 6,8% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,6% os do quarto superior com a mesma resposta. As diferenças entre os alunos que optaram por este motivo de dificuldade não são estatisticamente significativa entre os quartos de desempenho e não se reconhece uma tendência.\n\nNo quarto superior, 86,5% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 69,1% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "d61e9b41690ac7cfc2e22499217a3d0c2f227fcc16d8d2a5d93813e9ff797ac3",
+  "window_size": 3
+}

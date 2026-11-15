@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1d77b80313fac4006af9132a321487d181552aadf432caf7",
+    "usage": {
+      "input_tokens": 1810,
+      "input_tokens_details": {
+        "cache_write_tokens": 1807,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1807
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 563,
+      "output_tokens_details": {
+        "reasoning_tokens": 381
+      },
+      "total_tokens": 2373
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_95.txt",
+      "source_sha256": "02b34ea27b4553a9973f0ac29d2c42ad4e6aa445e878a880804d603df6954d47"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_97.txt",
+      "source_sha256": "ac0eb07ac955f5b158766b39b16209bd300a0cbfc62679e4db2535faef4db740"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:26Z",
+  "duration_seconds": 7.57,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_96.txt",
+    "source_sha256": "f6c01ca3a5550487d08f44a2df52121cc9648753c417cf433043d46c0f92f87b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b1f14b727caa45e306b196fc504940860c680838bd69c328d7a4d83e268d1d5e",
+  "request_fingerprint": "9731a4a89d22750d4f3b4a836f129684cbcac0a6dfb7535b1e36eb197dd038fc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.11. O rótulo isolado “CEFET/IF” foi removido como provável material gráfico do Gráfico 4.12."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram a prova como Longa ou Muito longa, em relação ao tempo total destinado à sua resolução foi maior para os estudantes de cursos de IES Privadas (34,6%), sem diferença estatisticamente significativa da proporção em IES Públicas (33,7%). Já a proporção de presentes à prova que consideraram a extensão como Adequada foi 62,2% para os de IES Públicas e 58,5% para os de IES Privadas (ver Gráfico 4.12 e Tabela II.6 no Anexo II).",
+  "text_sha256": "4ab6a652681dd1107cefb3373f95e52a1b641169944c737070eb66ec7e9cfb74",
+  "window_size": 3
+}

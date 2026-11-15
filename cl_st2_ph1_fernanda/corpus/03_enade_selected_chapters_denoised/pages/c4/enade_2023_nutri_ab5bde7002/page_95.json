@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e0224155a07127f006af92445973887d199b620130aa8e765",
+    "usage": {
+      "input_tokens": 1824,
+      "input_tokens_details": {
+        "cache_write_tokens": 1821,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1821
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 199,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 2023
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_94.txt",
+      "source_sha256": "0d4077b21156ff37c3f187882a5f5bcbc18cc075b456cca1126d132f1cfeaf8a"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_96.txt",
+      "source_sha256": "f7d4f097509c7ca75be12a64591d886b4e5b8b9e85ea1a0ed7de77c0baa21685"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:25Z",
+  "duration_seconds": 2.689,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_95.txt",
+    "source_sha256": "e0ca14921022185fa62983c8954316f42db11616fa09e4f13731f5e7c1c50355"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8a8a054213996d742249ea512493af3926b20b2592ceb82dad72b926d86d3d6e",
+  "request_fingerprint": "6c93b95e1b9522a0c387cf531b3c8358d67606c339f3e82d7d9a891c48eedcfb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.18, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 3.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “compreensíveis e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho, com percentual mais elevado no quarto superior (87,1%), se comparado ao quarto inferior (72,7%). As diferenças entre os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "1c21a8fb16da558dc1421ddb3017ddd70eecf7c11580193ede4eb070775b798d",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f4d483ffe356494006af8fa79262887d1ae7e8622b357e969",
+    "usage": {
+      "input_tokens": 2428,
+      "input_tokens_details": {
+        "cache_write_tokens": 2425,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2425
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 688,
+      "output_tokens_details": {
+        "reasoning_tokens": 428
+      },
+      "total_tokens": 3116
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_77.txt",
+      "source_sha256": "1ceeeaa56760458edd805ebd7ec56518dc1609ada129cfed486f87acbcda624f"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_79.txt",
+      "source_sha256": "6581cd95a42728bddeae3de7ab8c43bb8c51b6d088f03f5dae072899ff2918a0"
+    }
+  ],
+  "created_at": "2026-11-15T00:19:05Z",
+  "duration_seconds": 9.352,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_78.txt",
+    "source_sha256": "eb5596f859f0b7312e5d4e9b1ca4242cbc3c487106fbdabffe0c5dcc229419b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a6d95d37285bf1da9d2ee289f6f057d8184e90cbbff30322b2ffaaa9b7b6bbb",
+  "request_fingerprint": "81b381b062e9a7107bfec147e1cb5295529be56a95f099bfe48533be4ff320c6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e linha de fonte.",
+    "Removido o material gráfico do Gráfico 3.10; a linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima foi obtida na região Nordeste (90,0) e a menor nota máxima foi obtida nas regiões Norte e Centro-Oeste (73,3). Além disso, a nota mínima (0,0) foi obtida por pelo menos um estudante em todas as regiões do Brasil. A mediana do Brasil como um todo foi 10,0. Na região Norte a mediana foi 3,3; nas regiões Nordeste e Centro-Oeste, foi 6,7; na região Sudeste, foi 13,3; e na região Sul, foi 16,7.\n\nO Gráfico 3.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no primeiro intervalo, [0;10]. Nota-se que a distribuição é decrescente até o intervalo (80; 90].\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "e07522930847fb960cb6edbfdd5d906342089008f9ad658fa5c58f28eaa7fd40",
+  "window_size": 3
+}

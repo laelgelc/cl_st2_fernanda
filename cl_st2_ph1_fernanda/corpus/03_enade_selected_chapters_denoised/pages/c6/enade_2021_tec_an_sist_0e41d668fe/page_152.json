@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0095a1a8bff3089f006af916d673f487d1b150cbef860972b0",
+    "usage": {
+      "input_tokens": 3112,
+      "input_tokens_details": {
+        "cache_write_tokens": 3109,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3109
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 526,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 3638
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_151.txt",
+      "source_sha256": "b811e320569812ef8200596f258a4a7a9ec845c6b1a2d313e99cc1c2ad8a4186"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_153.txt",
+      "source_sha256": "2c29cf7ae01196406f3a8564d4b61b33b161eda7ec592b699e4b1449be609d55"
+    }
+  ],
+  "created_at": "2026-11-15T02:20:06Z",
+  "duration_seconds": 5.455,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_ANÁLISE E DESENVOLVIMENTO DE SISTEMAS.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_152.txt",
+    "source_sha256": "48a82ef754c7ebcd172d6c3ea233192e5acf7672f919c07dfb9c8bea2ea064c5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d20c485576f6ad6377b74a3feb2a7cfeb0080679834d3bb7352f7474fd032661",
+  "request_fingerprint": "ae70b6a1e4312d8106f7ead021f1a7a1c027e2c2ec2a0c393ce6b47c3ab3fb79",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.3; removida também a linha de fonte do Gráfico 6.2."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (20; 30], mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 11,9 para a nota da prova, como um todo, e 14,7 para o Componente de Formação Geral.",
+  "text_sha256": "49e03beada9f4d3c854d064d996df32f2c0b3a46a127cc3bc8834b545bf4a16f",
+  "window_size": 3
+}

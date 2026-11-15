@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1aa8c7b2090773006af8f208e9f087d190594702993d03cc",
+    "usage": {
+      "input_tokens": 1912,
+      "input_tokens_details": {
+        "cache_write_tokens": 1909,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1909
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "reasoning_tokens": 186
+      },
+      "total_tokens": 2299
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_39.txt",
+      "source_sha256": "8e923c0bb430210ed57216ebd1b4a020caea457cd93ec3a291507a1495dc0918"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_41.txt",
+      "source_sha256": "14088c328578f28330d87f845a97373930ca292d9d2baac2bd2084175fad1ca4"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:04Z",
+  "duration_seconds": 4.001,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_40.txt",
+    "source_sha256": "2345ac3101c7564e6f6504c95742717c895a05f4cbdc5c34df79fb193ad02121"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7cb968cbcd69c705689ef423938ef16364ae14c839decb91211cfd9904f6769c",
+  "request_fingerprint": "0bdecd5185781cd13303859b55388a489639e82929ca30af8666aeebb3c8942d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2012”."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa entre a maior (39,8) e a menor (36,8) média das notas no Componente de Formação Geral, respectivamente das regiões Sul e Norte. Vemos que o intervalo de confiança mais largo é o da região Norte e o mais estreito é observado na região Sudeste. Este fato está relacionado com o tamanho da população envolvida, menor na região Norte do que na região Sudeste.",
+  "text_sha256": "3f1fa7b16579b7a62e24df0df319ab5641e8646b2ab55338b349d72a1bb84770",
+  "window_size": 3
+}

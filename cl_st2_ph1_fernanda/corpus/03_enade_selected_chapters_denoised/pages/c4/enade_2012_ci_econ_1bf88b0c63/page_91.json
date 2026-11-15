@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee2ee9b1456a498006af8f08abc8887d19eb61a7adfd53e91",
+    "usage": {
+      "input_tokens": 1785,
+      "input_tokens_details": {
+        "cache_write_tokens": 1782,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1782
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 626,
+      "output_tokens_details": {
+        "reasoning_tokens": 410
+      },
+      "total_tokens": 2411
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_90.txt",
+      "source_sha256": "22abeb751db1d4054180250bd4fca5375ade9b275514520921d5fd56eb1a3b43"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_92.txt",
+      "source_sha256": "a9007ae2f94bcb8619fbe6e6ceb9dc14794e6e60e28530069e9f9d6479f634ca"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:42Z",
+  "duration_seconds": 6.461,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_ci_econ/enade_2012_ci_econ_page_91.txt",
+    "source_sha256": "e3f85359d360ab32882151034229642d6ffd850a019d0790c510f10ef118c375"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6645ef319c23d8dfafbee353e1705bee424bb181fedf546d705ddcb8710be148",
+  "request_fingerprint": "58c808051b9fb1f9ec8d398c52c1c9b8ce710751f242e7553c265d22cdb01e08",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, considerada associada a material gráfico ou tabular."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 7,6% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo menos de 2% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade no quarto superior é estatisticamente significativa em relação a todos os três quarto inferiores, porém estas não são estatisticamente diferentes entre si.\n\nTendo em conta o quarto superior, 76,4% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo no quarto inferior, 51,7% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "5ffdfec161823f36db1bf53f96acbb6fe91986683ce44a39df8068cc665a6f43",
+  "window_size": 3
+}

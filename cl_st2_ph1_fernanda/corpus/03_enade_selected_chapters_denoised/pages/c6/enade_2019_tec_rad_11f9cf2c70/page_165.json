@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03a183c8277eb9b2006af91619d99087d18340640ec721e766",
+    "usage": {
+      "input_tokens": 2688,
+      "input_tokens_details": {
+        "cache_write_tokens": 2685,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2685
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 673,
+      "output_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "total_tokens": 3361
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_164.txt",
+      "source_sha256": "ebbe8d30f641ddc2044ac25e8174a4c935b9ab2cc233bc1cc73014992d7c0874"
+    },
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_166.txt",
+      "source_sha256": "cd16056e3e59b8bb0b3a756b36d29c5334a10bd61eb2c55e131a60a2ba6a32fa"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:57Z",
+  "duration_seconds": 6.651,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 165
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_165.txt",
+    "source_sha256": "9174d65d4fa591b58c249cb94d347dcae490dcc9cbc388a97e9d55be6591601f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d94c66267f0ad32b094ec4df108f4242c1a43d0526102b2e122ce5a304bc964a",
+  "request_fingerprint": "0fb1422d613d6a703ca73da80234a5320b48e72d95af30c83752bf04dd07f30a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/Inep/Daes - Enade/2019”, identificado como linha de fonte de material gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco, não são detectadas neste pré-processamento automático. A presença de pequenos riscos, ou manchas, podem fazer o",
+  "text_sha256": "a974429d920d6b9945b4bce1364319c11238df245a1255c35e778fbecc393dbf",
+  "window_size": 3
+}

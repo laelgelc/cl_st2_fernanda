@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00690dc3d3fb3863006af8f5143e2087d1a78ab5cdfeacba35",
+    "usage": {
+      "input_tokens": 1451,
+      "input_tokens_details": {
+        "cache_write_tokens": 1448,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1448
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 564,
+      "output_tokens_details": {
+        "reasoning_tokens": 415
+      },
+      "total_tokens": 2015
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_44.txt",
+      "source_sha256": "da2d949430444d3348c316953fe0f07160e82254bd70e44133bdac405efd2e1b"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_46.txt",
+      "source_sha256": "7ace32bc5c88cf3a027d73af5b8c86b59401c28d05f356022c3aa8f4add63d13"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:04Z",
+  "duration_seconds": 5.619,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_45.txt",
+    "source_sha256": "713c20cffdb5a1bf7f828322d08bd9c1ab964ac4aa46d736418b80c81fc9d462"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d1fecdf7855d37f760c7dee83c8819aa98639fac01b5a109719ddc63c53d1fa7",
+  "request_fingerprint": "0bf76176be888550a9d180d6341018b548872019ee63395dfdbc1ee2bc978eb2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, que aparenta pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Tecnologia em Agronegócio, das IES Públicas (49,0) obtiveram uma média maior do que os das IES Privadas (44,8).",
+  "text_sha256": "fca2706fbe1a128b72ab6e1548a768a08120f367b8833486c195765913afc5a1",
+  "window_size": 3
+}

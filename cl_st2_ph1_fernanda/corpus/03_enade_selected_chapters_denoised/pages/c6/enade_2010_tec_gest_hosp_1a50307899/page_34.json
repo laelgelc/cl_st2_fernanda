@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0463b6c45e05bfca006af8ea32514487d1afd640fcca84e0bb",
+    "usage": {
+      "input_tokens": 2539,
+      "input_tokens_details": {
+        "cache_write_tokens": 2536,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2536
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 663,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 3202
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_33.txt",
+      "source_sha256": "aa153dc131aa61794963a5a5f62eb3d945d4bc9ce58cb5807c42ddcb52bf0a03"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_35.txt",
+      "source_sha256": "d1c4a937efea49cc0a69f7f53facd28acc53d59d0f90287f54c2283a4306d472"
+    }
+  ],
+  "created_at": "2026-11-14T23:09:38Z",
+  "duration_seconds": 6.998,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_34.txt",
+    "source_sha256": "76b4dc83fd0b0e170d2659ed9489e3f3b5ad13ba8b5cdcdd01e089df29d1a6ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b1c5b48435407cd4c1d1c919089121c7461b25211cb6496a72fc80319a6fb37",
+  "request_fingerprint": "b843c3b36143f6f57323808c54ec8505538d58a3f6b34728e0dbf2cb5630c0f2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.1 (título e fonte) e o Gráfico 3.2 (título, fonte, rótulos e dados)."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 apresenta informações referentes à nota final de Ingressantes e Concluintes, comparando-se os resultados de acordo com as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica.\n\nConsiderando-se as notas médias dos alunos em cada Grande Região, observa-se que, em relação às notas aferidas em âmbito nacional (média de 33,5 para Ingressantes e de 39,8 para Concluintes), existe uma diferença estatisticamente significativa ao nível de 95%, para Ingressantes, entre a menor média, obtida na região Centro-Oeste (31,0) e a maior, obtida na região Sul (41,4).\n\nEntre os Concluintes, também existe uma diferença estatisticamente significativa das médias ao nível de 95%. A maior média de notas foi obtida pela região Norte (45,9), ao passo que a menor foi identificada também na região Centro-Oeste (34,6). As demais médias de notas foram 36,7 para a região Nordeste, 39,4 para a Sudeste e 44,9 para a Sul.\n\nLevando-se em conta os grupos dos estudantes em Categorias Administrativas, observa-se que a pontuação média mais elevada entre os Concluintes foi encontrada em instituições públicas (48,9), com desempenho acima da média nacional. Já os Concluintes provenientes de instituições privadas obtiveram média 39,0, um pouco abaixo da média nacional.\n\nQuanto aos Ingressantes, as notas mais elevadas, também acima da média nacional para esse grupo de estudantes, ocorreram nas instituições públicas (42,3). Os Ingressantes vinculados a instituições privadas obtiveram nota média 32,9, abaixo da média nacional.",
+  "text_sha256": "86e33052cb550be8e34eb2a91d14149e987c4089fd3752bcffaf741f0cd8d068",
+  "window_size": 3
+}

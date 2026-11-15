@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01de86a5b7a17036006af8e6a83f9487d18a2a3a8791b1a54f",
+    "usage": {
+      "input_tokens": 2457,
+      "input_tokens_details": {
+        "cache_write_tokens": 2454,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2454
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 2808
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_28.txt",
+      "source_sha256": "0ef8cf4bee27426a828f77c90f574db2e3971694d6df317c30972fefe72da65b"
+    },
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_30.txt",
+      "source_sha256": "c7a7d73a2937796629fe05b6acd587b0fa1d23f0fe34471a72fa6b63a8984235"
+    }
+  ],
+  "created_at": "2026-11-14T22:54:32Z",
+  "duration_seconds": 3.505,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 29
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_29.txt",
+    "source_sha256": "4ba456269b8b857cfbed6e04396c6c3d4d33a52c433a459a6b73b4d3ea5c8d54"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a3d7089d3afde32c26be46e370e48d906a443e8c6969c909bb9343d6ac9b8eb0",
+  "request_fingerprint": "611a1f87b73764a156eeae60e21192813c0727682194a566bf102e1b223c2987",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1 e o Gráfico 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 53,4 entre os concluintes e 44,3 entre os ingressantes. Nas faixas de notas até 50 pontos, o percentual de concluintes é menor que o dos ingressantes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. A exceção é o primeiro intervalo de 0 a 10 que inclui uma quantidade maior de concluintes do que de ingressantes. Constatou-se que aproximadamente 35,5% dos ingressantes e 58,5% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "d906d664980b55b72820316c07cd9274c55ce8a23905fa46246bd77caf81c601",
+  "window_size": 3
+}

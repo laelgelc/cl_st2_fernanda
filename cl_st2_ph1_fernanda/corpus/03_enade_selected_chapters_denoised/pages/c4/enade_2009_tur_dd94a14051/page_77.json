@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e9504c6925b9422006af8e80a706487d1bc6cb1270526e114",
+    "usage": {
+      "input_tokens": 2532,
+      "input_tokens_details": {
+        "cache_write_tokens": 2529,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2529
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 2907
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_76.txt",
+      "source_sha256": "2b7b1b559cb6719aab945d5576a0cd9c60166ff855977cc6a39f288c4c2e2fe0"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_78.txt",
+      "source_sha256": "416d1131ae92e17c5defe8d935bc807de07854bbaa4f73fe9d65fba28f2c771a"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:26Z",
+  "duration_seconds": 4.765,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tur/enade_2009_tur_page_77.txt",
+    "source_sha256": "a07b65171cee8b5fe192c47a7c52b42bb6c798a0f1b6b23460922694005c658a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "75ab2d9f49cb5c1ed2abe952efbc477d0e5acf2f05ad7c31032e746a29d7181a",
+  "request_fingerprint": "a510c38a8c3ae62739cc944fda3952b969034c251dad3774e8e0fd7f309975ce",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.3b e 4.3c, incluindo dados, escalas, rótulos e linhas de fonte. A frase em prosa continua na página de contexto 78; manteve-se apenas o trecho presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.4a e 4.4b apresentam a distribuição das respostas à questão “Qual o grau de dificuldade desta prova na parte do Componente Específico?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TURISMO. Entre os concluintes, a maior proporção de estudantes que considerou a parte do Componente Específico da prova como de dificuldade média entre todas as Regiões brasileiras, foi na Região Norte com 69,7%, já entre os ingressantes, foram",
+  "text_sha256": "ca5f897bed97f0bbee575a6604f734d3034580aa33d21763ee306b54cc85885d",
+  "window_size": 3
+}

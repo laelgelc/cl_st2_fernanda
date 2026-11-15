@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08e00dcd87ce96e1006af92277064087d18ac65ce033f5ed2e",
+    "usage": {
+      "input_tokens": 3007,
+      "input_tokens_details": {
+        "cache_write_tokens": 3004,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3004
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 506,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 3513
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_alim/enade_2023_eng_alim_page_116.txt",
+      "source_sha256": "e4178d13672ca2e25469f27243abbeaad621e1826e9388010337419733dff123"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_alim/enade_2023_eng_alim_page_118.txt",
+      "source_sha256": "9d1b69a7284f429f551a2376be3db565d7c5bc89e4233b3a25cc8b7dc1285e71"
+    }
+  ],
+  "created_at": "2026-11-15T03:09:42Z",
+  "duration_seconds": 4.738,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_alim/enade_2023_eng_alim_page_117.txt",
+    "source_sha256": "00a7c9842a1db6bb99f611b6d56acefc397e7a1930459119ccdac6fa362d284a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "24ae6d26b4784c663fcba04b7b65df635d3e9b491c17999018242cd0cc862f27",
+  "request_fingerprint": "9c72b1a02087e668710d6b4c21d80ff924490fbd8045734ac830157e86cb13c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.1, incluindo seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Sul (linha roxa) apresenta 90,9% dos cursos com conceito 3 ou abaixo deste valor. As regiões Centro-Oeste e Norte (linhas laranja e azul, respectivamente) apresentam 100,0% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que nessas regiões os conceitos 4 e 5 não foram alcançados por nenhum curso. Diante disso, as respectivas poligonais cumulativas alcançam 100% no conceito 3. As regiões Centro-Oeste e Norte apresentam os cursos com conceitos mais baixos, ao passo que as regiões Sudeste e Nordeste apresentam a distribuição com valores maiores. Os cursos em IES situadas na região Sul (linha roxa) apresentam uma situação intermediária.",
+  "text_sha256": "534a2eb9cb7e7f5f2f2c218045b43571b2c89e57d977a491bf398c5919e2ea2b",
+  "window_size": 3
+}

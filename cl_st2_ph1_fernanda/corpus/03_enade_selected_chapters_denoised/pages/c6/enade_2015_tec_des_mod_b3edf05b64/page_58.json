@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_075a6f8448bfb0bf006af8ff7752a087d19116281a9651a56c",
+    "usage": {
+      "input_tokens": 2715,
+      "input_tokens_details": {
+        "cache_write_tokens": 2712,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2712
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 485,
+      "output_tokens_details": {
+        "reasoning_tokens": 237
+      },
+      "total_tokens": 3200
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_57.txt",
+      "source_sha256": "71c184c72537efe37389fd4bb5b3c31615943a0ed08b9f436e68527553ce63b6"
+    },
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_59.txt",
+      "source_sha256": "262a093312bc3d2d8702c78303fa285effa1af549a4d423c044c2304b8e703e1"
+    }
+  ],
+  "created_at": "2026-11-15T00:40:23Z",
+  "duration_seconds": 5.458,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_mod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM DESIGN DE MODA.pdf",
+    "page_number": 58
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_mod/enade_2015_tec_des_mod_page_58.txt",
+    "source_sha256": "40523bfeb24ca02c46453fd73ab4585ceaa11ead185dace721c080f8cb45e5bf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "803253e6468694965dc4364664aa52079b568d7ac6aeecfbc5e4cbc63a2472fc",
+  "request_fingerprint": "5ff97de578d32d8086372e95dc7be74fe47a496dab20225d6c21d7f8ec317e92",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico removido; a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015” parece pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para 20 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "a626f2a648851b59269317581aa20649c5a0891e495d45b450cf7c16301be497",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c83c21c09af518f006af8efec5a5c87d1b52f087905bb2ddc",
+    "usage": {
+      "input_tokens": 2056,
+      "input_tokens_details": {
+        "cache_write_tokens": 2053,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2053
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 2472
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_37.txt",
+      "source_sha256": "3a5e4b36681d459f46fa6d24ddb63c87d972ce16c183713e37025c1ddfc66440"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_39.txt",
+      "source_sha256": "496d6d544a60763dbcc9a30d60da50cbf92b56fc25e7d88f3606ce652d63ee44"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:04Z",
+  "duration_seconds": 5.508,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_38.txt",
+    "source_sha256": "f962cbdfea6c6647504d2d3868e6d7d3eb1adc1e5a6275eef72f0e5541848e79"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7c128cb53b343867d75c2f85dfe901c73b9d06c67a5aaf1a1e478a9cc49238c",
+  "request_fingerprint": "3615aa2023307bc5f2183b5b7ad691d6cec9d423351529ed5dcb9396e5d557ba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor média, obtida na região Norte (34,8) e as médias de todas as outras regiões.",
+  "text_sha256": "1c83564b62784ca7fac3e54d6ce9c928b25e551779491db7c9281420fc37ae86",
+  "window_size": 3
+}

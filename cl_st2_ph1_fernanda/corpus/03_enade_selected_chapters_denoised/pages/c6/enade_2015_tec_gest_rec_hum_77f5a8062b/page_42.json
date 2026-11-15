@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e085cf5f991f49e006af900194a9c87d19ca9030ae9c8b57e",
+    "usage": {
+      "input_tokens": 2620,
+      "input_tokens_details": {
+        "cache_write_tokens": 2617,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2617
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 3014
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_41.txt",
+      "source_sha256": "ce6dcc8b87c227eda71767b38e62a5aba1c4f8c418a08702fe56d5f16ed60d3e"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_43.txt",
+      "source_sha256": "0f3cd24555539db7ab49c8f499745fc3e462021c9709541d86b8c7487ee133d0"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:05Z",
+  "duration_seconds": 3.745,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_42.txt",
+    "source_sha256": "28e79912a81abd1b8d623c5b46f4ad0320267dff4a638ee09c49b18098e7210e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb8b10717095406ffa4f2dc8def2b61c26e962f133b5794ef8c7dffed3a272bb",
+  "request_fingerprint": "451c34b98eca937e76e155268f1023a996e55f720a8181efb1a03ee1bfbdb010",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte.",
+    "Removida a linha de fonte no início da página, que parece pertencer ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.3 apresenta informações referentes à Condição de Presença desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de Inscritos, 39.384 são de IES Privada e 254 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (18.640), seguido de Faculdades (11.906) e Centros Universitários (9.092). A Categoria Administrativa de maior abstenção foi a Privada (29,1%), e entre as Organizações Acadêmicas foi a das Universidades (34,6%), que ficou acima da abstenção nacional de 29,0%.",
+  "text_sha256": "7546f8ece0a3f45282ccef73c13f9e3ccb161cda0a236e34186c44eb693b0078",
+  "window_size": 3
+}

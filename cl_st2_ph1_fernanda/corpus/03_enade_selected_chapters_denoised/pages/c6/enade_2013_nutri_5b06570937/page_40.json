@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f79fab21b74224c006af8f47ed30887d1af6c145bec5fab1d",
+    "usage": {
+      "input_tokens": 2210,
+      "input_tokens_details": {
+        "cache_write_tokens": 2207,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2207
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 576,
+      "output_tokens_details": {
+        "reasoning_tokens": 354
+      },
+      "total_tokens": 2786
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_39.txt",
+      "source_sha256": "cdae54b5fda4d86f7e7204a4d9aae048d86b95e0991975dd2d0aa9f4268f76e2"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_41.txt",
+      "source_sha256": "3e77006307ffbd259c4eed07263424f9428934bee746aef628e6d46dd3a6ff71"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:34Z",
+  "duration_seconds": 5.206,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_40.txt",
+    "source_sha256": "38084eb46fafc737b0c970dde95478fb2c299dd09f4b3958adb2d20e049b54f1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb1f20ffe18ac99a79bf45da754f23540e51e0bbe9bc65c728093182111c48f4",
+  "request_fingerprint": "f03cbcab20a44709354cfdad0bb4674c9d1c3502e076bf837b01c77170b04f81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», identificada como pertencente ao material gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sudeste (44,3) e a menor, obtida na região Norte (37,0).",
+  "text_sha256": "57e53f0fe9291ba0bb11afe32e806cc9fcb1e3c07438387b070786a51820e0a0",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0180d0a42ea36ecd006af8ffdc830c87d18553cdb694cd9e14",
+    "usage": {
+      "input_tokens": 2306,
+      "input_tokens_details": {
+        "cache_write_tokens": 2303,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2303
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 745,
+      "output_tokens_details": {
+        "reasoning_tokens": 509
+      },
+      "total_tokens": 3051
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_86.txt",
+      "source_sha256": "2b9b32c2844dbf3e7aba97cd599bbccb56907baffbf4a0f5871d528e9b758489"
+    },
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_88.txt",
+      "source_sha256": "43011e41fa8d38686678e05f82c508f3af8403f48175bfed68ac4b0e08cf2680"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:04Z",
+  "duration_seconds": 7.219,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 87
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_87.txt",
+    "source_sha256": "75230a7e26cdf4f9dadd7293cd8242d75b70739ebb5f35ac82cb55266ae95bcf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1ab74ee1092f629316d7817cb7aa153bae311a88bbac3e9d9e68d1b88d40be3b",
+  "request_fingerprint": "cf64cf888cca15084d331152a0a95b0165ff5d9dab434d402bb6204787284ad3",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.20 (título, dados e fonte) removida.",
+    "Gráfico 3.13 removido; sua linha de fonte aparece no contexto da página seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "Nordeste (23,2). Quanto à variabilidade das notas, o Desvio padrão dos alunos do Brasil, como um todo, foi 24,1. Enquanto o maior desvio foi encontrado na região Sudeste (24,2), o menor foi encontrado na região Norte (23,3).\n\nAs medianas (25,0), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para todas as regiões, sem exceção.\n\nO Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição apresenta uma moda no intervalo (40; 50]. Destaca-se, o grande número de estudantes que ou deixaram esta questão em branco ou tiveram nota zero, que somadas tiveram mais de 30% do total.",
+  "text_sha256": "617021342cfbf7ebd26294d7b8772db1cd230782bbff7b9243a985414fa30218",
+  "window_size": 3
+}

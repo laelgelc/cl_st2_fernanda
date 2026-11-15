@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d92e373f9a7648d006af8f49562a087d18c2c3463d88d61d8",
+    "usage": {
+      "input_tokens": 2303,
+      "input_tokens_details": {
+        "cache_write_tokens": 2300,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2300
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 447,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 2750
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_75.txt",
+      "source_sha256": "72a2905e1735dd34cc9d4a153989f6d1fe4f963010d17223e192ee379a6a8d7d"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_77.txt",
+      "source_sha256": "e1ed62230f13474f201156124f39191e01ba360eefdd887c16d3ee1a45d3809d"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:57Z",
+  "duration_seconds": 4.436,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_76.txt",
+    "source_sha256": "ec96804e92b36f882242961c9a01d06d456b90d94b90d3db07f97a8563639e63"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5ddaf1955604d759060dbb4ef9dd93f9f167221bd4c9bd0564d91cfda55ac0d9",
+  "request_fingerprint": "8482c343129f04acbf853526e7ef41ab51194b48c87f261d8699c857076c1982",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, identificada como pertencente ao Gráfico 3.19 iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.13, a média dos estudantes de todo o Brasil foi 21,3, mais elevada que a médias questões 4 e 5. A menor média nessa questão foi obtida pelos alunos da região Sul (20,5), enquanto a maior média foi obtida na região Norte (22,5). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 16,7. O maior desvio padrão foi obtido na região Norte (19,7), enquanto o menor foi obtido na região Sudeste (15,9).\n\nA nota máxima, 90,0 pontos, foi alcançada por pelo menos um aluno em todas as regiões, exceto na região Sul (70,0). A mediana (20,0) e a nota mínima (0,0) foram as mesmas para todas as regiões, sem exceção.",
+  "text_sha256": "e78bcb0d8591d13e79eb6127f5b696d8c7e162813701c6543015e549a8a8646f",
+  "window_size": 3
+}

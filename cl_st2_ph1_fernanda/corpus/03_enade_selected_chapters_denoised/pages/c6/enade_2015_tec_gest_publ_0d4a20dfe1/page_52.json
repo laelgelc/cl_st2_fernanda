@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_028ea56f5ce93a9d006af90073067487d1a54ddf6298f0784c",
+    "usage": {
+      "input_tokens": 2536,
+      "input_tokens_details": {
+        "cache_write_tokens": 2533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 796,
+      "output_tokens_details": {
+        "reasoning_tokens": 296
+      },
+      "total_tokens": 3332
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_51.txt",
+      "source_sha256": "105d89d187d9cc177cd649fc70f85c846fed763da79a086df6ce1b9b1da74c65"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_53.txt",
+      "source_sha256": "6a8e53dcdf1f43ae2c7e431a5b55c6225745cf3a51b8771665e65356540f3d69"
+    }
+  ],
+  "created_at": "2026-11-15T00:44:34Z",
+  "duration_seconds": 6.546,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO PÚBLICA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_52.txt",
+    "source_sha256": "8b33c0fe2dc064daa104b6f9a42d740ccff3c71f716e120a05e3fad0a03219f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b100bdd6e7b16d76faf5ea843c0abc64974aa82805809fe746c1cc0b3385b33d",
+  "request_fingerprint": "2d1335a28253a20a8d00e3590a3121a5fc7745f2a6bc12f0a4116fc9aa49706e",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 32,1% escolheram a alternativa D, 33,2% a alternativa C (correta), 14,8% a alternativa A, 13,3% a alternativa B e 6,2% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,1% deixou a questão em branco e 0,3% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "9d8ae93ae83175416675b9f8f7764cd3cc68d8e0efccd42d22f379b695ff3a81",
+  "window_size": 3
+}

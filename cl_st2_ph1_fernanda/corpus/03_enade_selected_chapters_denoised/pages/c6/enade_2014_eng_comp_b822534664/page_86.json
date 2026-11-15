@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05d7687f277ea935006af8f7d00b8087d1a78d40e8f3998d39",
+    "usage": {
+      "input_tokens": 2498,
+      "input_tokens_details": {
+        "cache_write_tokens": 2495,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2495
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 2935
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_85.txt",
+      "source_sha256": "c1f01091b78849b6abc3533bc5983bc98b35947e55e39570e28f7e23c17c0876"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_87.txt",
+      "source_sha256": "f2f046fb058beec2afd7b098954232aa9c1783772775e4dcf40e818a72b9c2bf"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:43Z",
+  "duration_seconds": 4.603,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_86.txt",
+    "source_sha256": "a5a9b29c52d5eb4f29ddd0b120f0d342ed8674992bc0d5374a26e5751f892120"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "37674a8341a1b8006122734e762f2991a5803555abce61e92ea0cdd81598b38b",
+  "request_fingerprint": "5e929551f59ee1aef4abd94d6247722bdc45eb1b99ee34b90387ec2bb7c1ae5f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao gráfico mencionado na página anterior; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "3.3.2.2 Comentários sobre as respostas à Questão Discursiva 3\n\nA questão abordava um tema da área de Algoritmos, mais especificamente o de Grafos e sua representação matricial. Solicitava do estudante conhecimentos ligados à manipulação dessa representação para a produção de uma matriz transposta e a identificação de ciclos. Tais conhecimentos são relevantes na formação do profissional de Engenharia de Computação e foram solicitados em profundidade pertinente ao que se espera de um estudante da graduação na Área.\n\nO enunciado foi redigido de forma clara e com linguagem adequada ao estudante de Engenharia de Computação. As informações eram suficientes e não deixavam margem para interpretações diferentes da esperada, nem na apresentação dos dados sobre o grafo, nem nas instruções específicas para a elaboração dos algoritmos solicitados nos itens ‘a’ e ‘b’. O algoritmo solicitado no item ‘a’ era bastante simples, já o do item ‘b’ era de grau de dificuldade maior. A questão pode ser classificada como sendo de média para de baixa complexidade.",
+  "text_sha256": "78f3182f86c0c4a38596e4a3041b4e0280740684c663af932a51ebb8ed52b7f6",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00dd5e6e4889ea45006af8ece137c487d1a0d05bf20d1fbb6b",
+    "usage": {
+      "input_tokens": 2456,
+      "input_tokens_details": {
+        "cache_write_tokens": 2453,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2453
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 408,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2864
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_66.txt",
+      "source_sha256": "5aa111e64038c7bd3606bcc02e33ec7a984a0fdecff737239f1cfc2d33aba208"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_68.txt",
+      "source_sha256": "ab94b96436889b755b6d60abb913289dcb084bd80c39b7afeeab6b3ec89e5774"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:05Z",
+  "duration_seconds": 5.447,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_7",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VII.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_67.txt",
+    "source_sha256": "8b3dada8859e15050c45644e6165ee433e1aa1cff178c7cbb1830d49a3feec43"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1901c1c74a9de17d0468288db46b3fdf33b8a541a93cd55c3072f0a61450c7ea",
+  "request_fingerprint": "f59d65a0b02ca0b4cac9be9788b3b5734e8333a1ec2d84c21f29db6b5999b6eb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, estatísticas, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral para alunos de Engenharia Ambiental e de Engenharia de Petróleo. Observa-se que a maior frequência corresponde aos alunos que deixaram a questão em branco para aqueles de Engenharia de Petróleo. Desconsiderando as questões em branco os intervalos (40;50], (50;60] e (60;70] apresentam um concentração de alunos em torno de 15% cada, apresentando-se como outro máximo. Já o histograma das notas de Engenharia Ambiental a moda é o intervalo (50;60], apesar de a categoria “em branco” apresentar-se como outro máximo local.\n\nOs coeficientes de assimetria de ambas as distribuições são negativos: –0,47 para a distribuição de notas do Engenharia Ambiental e –0,30 para as notas dos alunos de Engenharia de Petróleo. Em todas as regiões há também assimetria negativa.",
+  "text_sha256": "e350b6499e7c35c5841a7d29ced6010bc827d91a54fd434df23186c11b75293b",
+  "window_size": 3
+}

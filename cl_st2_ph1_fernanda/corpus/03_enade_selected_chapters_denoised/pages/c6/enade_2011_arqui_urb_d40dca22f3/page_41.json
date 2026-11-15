@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eca4a55055fb04e006af8eabb35d087d1ba34ab2b24e52bcd",
+    "usage": {
+      "input_tokens": 1405,
+      "input_tokens_details": {
+        "cache_write_tokens": 1402,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1402
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 237,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 1642
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_40.txt",
+      "source_sha256": "135a959bf8019adb8cc87cd13a031104e7d36d6ba8e832038ec775b3126a3b30"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_42.txt",
+      "source_sha256": "98070f615dec144fb0dd7d7aff889aeab2952fa9bdbf18776a9ec1db31cfeadd"
+    }
+  ],
+  "created_at": "2026-11-14T23:11:55Z",
+  "duration_seconds": 3.231,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_arqui_urb/enade_2011_arqui_urb_page_41.txt",
+    "source_sha256": "50d4d74bf7368b621f7a7f2bb38af8479cd62d4d22f56069bc8b5ed4c3390e5a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8087b10d7590ee47be3ee8cb7d64a67455b15eefdcac30945951c11042c25132",
+  "request_fingerprint": "07f99467cca454b326922da1fff5faf25fa6e1d5e503317dcde0c83c8fa88671",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do gráfico: “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que não existe diferença estatisticamente significativa entre as médias. O intervalo de confiança das médias dos concluintes das IES Públicas contém o intervalo de confiança das médias dos alunos das IES Privadas.",
+  "text_sha256": "4ab46fb1d7c8d0ef57b45904cfa113ea46b0b9439ab356398ef18c9a5de4e084",
+  "window_size": 3
+}

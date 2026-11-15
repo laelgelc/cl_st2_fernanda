@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001b551fc7fc51ec006af8e9da3a5c87d1aab220a99925407f",
+    "usage": {
+      "input_tokens": 2727,
+      "input_tokens_details": {
+        "cache_write_tokens": 2724,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2724
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 746,
+      "output_tokens_details": {
+        "reasoning_tokens": 350
+      },
+      "total_tokens": 3473
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_42.txt",
+      "source_sha256": "025bab48428ee96416c6893c4a0a0f83235125df49117c5b7a8601b532d35a07"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_44.txt",
+      "source_sha256": "c76ae2d2aa125321499be7e812045544947519718f7ae5d7d2f7900dc27378d7"
+    }
+  ],
+  "created_at": "2026-11-14T23:08:10Z",
+  "duration_seconds": 6.796,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_agro_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM AGROINDÚSTRIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_43.txt",
+    "source_sha256": "2832fa2e5ae05ae1d9abda373e740320357e0b900420645ea6ca37b8e8b5e367"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "19f06b32c0f597b13fb8d1fd160d4d12fb3881ca2e0da537a12270691cecb107",
+  "request_fingerprint": "2e04c3d9b8b6d6d0ec1ec885cbd746ba2f58c5964e814770a1a7c0de00384e0e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o conteúdo tabular da Tabela 3.8 e da Tabela 3.9, incluindo títulos, dados e fontes; removida também a nota de rodapé associada à Tabela 3.9.",
+    "A última frase termina no limite da página e continua na página seguinte; foi mantida apenas a parte presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.9 apresenta as classificações das questões objetivas da parte da prova relativa ao componente de Conhecimento Específico, segundo o índice de facilidade. Deve-se considerar o fato de as questões de números 23 e 29 terem sido anuladas pela Comissão, de modo que a classificação foi estabelecida com base em 25 das 27 questões. A partir dos índices obtidos, pode-se concluir que quase a metade das questões objetivas da prova foram tidas como pelo menos difíceis: das 25 questões, onze foram classificadas como difíceis e uma como muito difícil. Não houve questões classificadas como muito fáceis, ao passo que quatro foram tidas como fáceis, na faixa de 0,61 a 0,85 do índice de facilidade, e nove consideradas médias, entre 0,41 e 0,60.\n\nNa Tabela 3.10 são apresentados os índices de discriminação das questões objetivas do componente de Conhecimento Específico da prova. Observa-se, segundo os índices estabelecidos, que a capacidade de discriminação das questões objetivas desse componente da prova foi classificada, para cinco das 25 questões válidas, como boa, enquanto outras cinco tiveram índice de discriminação muito bom. Portanto, 10 em 25 questões proporcionaram índices de discriminação bons ou muito bons. Nove delas foram classificadas como médias e seis como fracas, sendo quinze, por conseguinte, a quantidade de questões",
+  "text_sha256": "83fd8648323dc37644ab6ff1df5488269f2817ad956950757d7108753ac75901",
+  "window_size": 3
+}

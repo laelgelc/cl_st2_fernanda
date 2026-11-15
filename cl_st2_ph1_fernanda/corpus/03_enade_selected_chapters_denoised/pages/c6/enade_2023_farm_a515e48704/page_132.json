@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d2f0f3b2cc5e2f7006af92380f3fc87d1a10c852cd4439c17",
+    "usage": {
+      "input_tokens": 2631,
+      "input_tokens_details": {
+        "cache_write_tokens": 2628,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2628
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 417,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3048
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_131.txt",
+      "source_sha256": "dc95671869332108abb8c9ee3b9ef58f43094a9fb83c0432ed6d976d1726835d"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_133.txt",
+      "source_sha256": "94871b3e7c81e121b18ec242031f049a941f14aeb38c1be3ff2cb41240e42d1f"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:08Z",
+  "duration_seconds": 4.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FARMÁCIA.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_farm/enade_2023_farm_page_132.txt",
+    "source_sha256": "cd8cdad6eed729ce509986c3b3f696da07aa91bc68533e29455a4b657c4a7381"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b317180eddf0e609ef92c10231a0850a0b2a7b0b3f6d2c64617e65d997e6ccb9",
+  "request_fingerprint": "840d41fb2ee265ec7f0b77e04656e09995cf11971c0901765919d7e22a74cb40",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os cabeçalhos, os dados estatísticos e a fonte da Tabela 5.4."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.4, são apresentadas as informações referentes ao desempenho dos concluintes no componente de Formação Geral, em diferentes agregações: categoria administrativa, organização acadêmica e modalidade de oferta.\n\nA partir dos dados da Tabela 5.4, observa-se que há diferença estatisticamente significativa entre as médias dos tipos de categoria administrativa. A maior média foi obtida por estudantes de IES públicas (58,2), e a menor, pelos de IES privadas (45,1).\n\nEm relação às médias por tipos de organização acadêmica, encontra-se: 50,5 para as universidades; 45,2 para os centros universitários, 44,1 para as faculdades e 48,9 para os CEFET/IF.\n\nA nota máxima obtida pelas IES privadas (99,0) foi igual em comparação às IES públicas. O desvio-padrão menor foi percebido nas IES públicas; e, entre as organizações acadêmicas, esse valor foi menor para as faculdades.\n\nJá no que se refere à modalidade de oferta, os cursos presenciais apresentaram média de 48,2, enquanto a média dos cursos a distância foi de 42,4. A diferença é, portanto, estatisticamente significativa.",
+  "text_sha256": "cea09bab83cf99f2e9c36ae7caf25da2bc5026f790f9f67f75172ae0da529e4a",
+  "window_size": 3
+}

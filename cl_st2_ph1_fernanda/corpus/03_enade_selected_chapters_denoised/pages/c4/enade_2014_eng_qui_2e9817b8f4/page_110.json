@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03b0f00450158023006af8f921f40087d1b0639a8d9bec1ae7",
+    "usage": {
+      "input_tokens": 1148,
+      "input_tokens_details": {
+        "cache_write_tokens": 1145,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1145
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 318,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 1466
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_109.txt",
+      "source_sha256": "61deb9319fc64f71f4766d3f136005bb9706bf8defcfab3be3ac5d53102eb0b9"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:21Z",
+  "duration_seconds": 4.215,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_qui/enade_2014_eng_qui_page_110.txt",
+    "source_sha256": "42ec07ffae08adcb7b0e85a30808eb7f0a00939f0a629f6dd65428a29a369b0b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41243fd81f700f32c0811aca7a78260ddae51311e4bd39db1f75a9f22b1beece",
+  "request_fingerprint": "e67ee761885b09271059e8301669cd3011651cf03923374d9f781d63359184be",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2014”, which appears to belong to graph material on the target page; the graph itself is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

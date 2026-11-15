@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_076db158bb143c5b006af90b70aa6887d183ab58bd4faccf7f",
+    "usage": {
+      "input_tokens": 3001,
+      "input_tokens_details": {
+        "cache_write_tokens": 2998,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2998
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 3441
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_101.txt",
+      "source_sha256": "ed3209fa0c3fb6b34f55f63f22266679fc91578944e9f838c8b8a14dbb525612"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_103.txt",
+      "source_sha256": "620bfd4a85da31ba1447df1bd24705db16f73636acf9972576675c0c85ac46f9"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:28Z",
+  "duration_seconds": 3.804,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_102.txt",
+    "source_sha256": "155c3b6d6fa82c13b3a32507bc42a9df8d9ec086dc983e62a8b50fca0be92cca"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dcba35a29df36240a5c3b1344f519c27ca3d2f3818f35baef9f2c17cbc76cc8c",
+  "request_fingerprint": "1f5120714f31cada2d477ab74a3c64f6e3d26682cdbe6e441814f01d163645ce",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o material gráfico do Gráfico 5.1 e sua linha de fonte (“Fonte: MEC/Inep/Daes – Enade/2017”)."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.1 apresenta a distribuição cumulativa do Conceito Enade, segundo Grande Região. Num gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, as regiões Norte (linha azul) e Centro-Oeste (linha preta) apresentam cerca de 60% dos cursos com conceito 2 ou abaixo desse valor. A região Nordeste (linha verde), por outro lado, apresenta um pouco menos de 20% dos cursos na mesma situação: com conceito 2 ou abaixo. Nas regiões Norte (linha azul) e Centro-Oeste (linha preta), todos os cursos têm conceitos 3 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 3.\n\nEm linhas gerais, num gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. As regiões Norte (linha azul) e Centro-Oeste (linha preta) apresentam os cursos com conceitos mais baixos, ao passo que as regiões Nordeste (linha verde) e Sul (linha roxa) apresentam as distribuições com valores maiores. Cursos em IES situadas na região Sudeste (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "e7e24b3bfa8cdf802338ebf0d257e6097b9afb5bc427c56ea558ac948e827e65",
+  "window_size": 3
+}

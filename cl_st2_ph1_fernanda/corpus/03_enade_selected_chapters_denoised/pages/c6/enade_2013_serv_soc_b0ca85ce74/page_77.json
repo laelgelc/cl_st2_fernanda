@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00f17150bcb34530006af8f4f260cc87d1ac094ca3f0e58881",
+    "usage": {
+      "input_tokens": 2396,
+      "input_tokens_details": {
+        "cache_write_tokens": 2393,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2393
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 2915
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_76.txt",
+      "source_sha256": "b04141ab12cc41edbbbe98f245fa06e6b39baac0393ceb0ecb517d03f478f13c"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_78.txt",
+      "source_sha256": "8b0a77624626db1737775a8b27579aa109e08c54245fcbd58d15ef7a7b4278de"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:30Z",
+  "duration_seconds": 5.075,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_77.txt",
+    "source_sha256": "8d0adc8329ddeb7a9940de69ddc038e927dd474fef3868a3577f57adbad8ed65"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e682842ddaa5c19643cfea3fb6e867b8863bd4fbf2a8589050a154f1b3fe9e38",
+  "request_fingerprint": "068303c47543f1b40c0d6be7d29aeed92423994175cee2ac205eb8975b5a98e4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada pelo contexto como pertencente ao Gráfico 3.19 da página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.13, a média dos estudantes de todo o Brasil foi 5,1. O desempenho dos estudantes de todo o Brasil nesta questão foi inferior ao desempenho nas questões 4 e 5. A menor média nessa questão foi obtida pelos alunos da região Sul (3,8), enquanto a maior média foi obtida na região Norte (9,7). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 11,1. O maior desvio padrão foi obtido na região Norte (16,3), enquanto o menor foi obtido na região Sul (8,6).\n\nA nota máxima foi alcançada por pelo menos um aluno tanto na região Nordeste quanto na região Sudeste (100,0), enquanto a menor nota máxima foi obtida na região Sul (80,0). A mediana e a nota mínima do Brasil como um todo foi zero, o mesmo valor para todas as regiões, sem exceção, indicando que pelo menos metade dos estudantes de cada região recebeu nota zero nesta questão, seja por terem deixado a questão em branco, seja pela inadequação da resposta.",
+  "text_sha256": "70fce67b98b199a89a344be71d547d5470afc2391236d59aab92c439027f3548",
+  "window_size": 3
+}

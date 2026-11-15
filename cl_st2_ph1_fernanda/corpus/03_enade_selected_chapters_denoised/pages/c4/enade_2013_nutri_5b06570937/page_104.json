@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_012977b402a8a47f006af8f474d6dc87d19d628ca6ce06cf7d",
+    "usage": {
+      "input_tokens": 1604,
+      "input_tokens_details": {
+        "cache_write_tokens": 1601,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1601
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 622,
+      "output_tokens_details": {
+        "reasoning_tokens": 364
+      },
+      "total_tokens": 2226
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_103.txt",
+      "source_sha256": "911797c2aadaf22887de27e172be94874cacdc6ad922beacc746536f182430d0"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_105.txt",
+      "source_sha256": "16d93b67bc74b42d972bea27de21f6dca84dd603e8687bbddee68ce32ca11744"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:24Z",
+  "duration_seconds": 5.838,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_104.txt",
+    "source_sha256": "f6fe9dbb766d18f9f707d31a5b5bf7aa300c0e17f6b2b7369b28d4071573550f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b56504fc638fe596914c38c943d3dfd4d28ced47e9d6e038d87fb80c83b4e40a",
+  "request_fingerprint": "4a175f614023c0b0aa408d340255c2602f0c03084a006628d1591dc144e1d71c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, provavelmente associada a material gráfico ou tabelar."
+  ],
+  "status": "success",
+  "text": "4.7 TEMPO GASTO PARA CONCLUIR A PROVA\nAo responderem sobre o tempo de conclusão da prova (Questão 9), mais de dois terços dos estudantes (75,0%) afirmou ter gasto entre duas e quatro horas (Gráfico 4.17, Gráfico 4.18 e, no Anexo II, a Tabela II.9).\nConsiderando-se as cinco Grandes Regiões brasileiras, nas regiões Norte (74,0%), Sul (73,7%) e Centro-Oeste (72,0%) o percentual dos que utilizaram entre duas e quatro horas para finalizar a prova foi inferior à média nacional (75,0%). Em duas das cinco Grandes Regiões, Nordeste e Sudeste, o percentual de alunos que dispensaram entre duas e quatro horas para concluir a prova, superou 75%, a média nacional, como mostra o Gráfico 4.17. Nenhuma das diferenças destas proporções segundo Grande região é estatisticamente significativa.",
+  "text_sha256": "7566405e49731679735465833225fa633fff14603c519bd5a40da117768fc4e3",
+  "window_size": 3
+}

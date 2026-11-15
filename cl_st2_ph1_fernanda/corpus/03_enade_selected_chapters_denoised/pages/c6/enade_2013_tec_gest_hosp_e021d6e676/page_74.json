@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f6ebc05bdef3ca7006af8f57fdca487d19601e123fe3e2005",
+    "usage": {
+      "input_tokens": 2578,
+      "input_tokens_details": {
+        "cache_write_tokens": 2575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 477,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 3055
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_73.txt",
+      "source_sha256": "d82dfe5d28728b780473ee984b00e7596161e028eb5d3366c77c5ef9035f48af"
+    },
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_75.txt",
+      "source_sha256": "e94708b30837cb03689b3a960b7be078ef8c1dab7bb150de0329d7544b27c47a"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:51Z",
+  "duration_seconds": 5.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 74
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_74.txt",
+    "source_sha256": "5f8e64c67df690e4782d5730e79ec47885ce6d2d9bd985441ebdd65e2ae10780"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bc922791b51b40dd2516b9384c2c044835c2af9fb8454230a4c6859ee4624fe2",
+  "request_fingerprint": "cfb61fe8e355e3b14eed86c4b69b74de8cc3d0a7a7f67417bd867d36d64a4571",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a linha de fonte da Tabela 3.12. A prosa que menciona o Gráfico 3.19 foi preservada."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima, nas questões discursivas do Componente de Conhecimento Específico, foi obtida na região Centro-Oeste (66,7), enquanto a menor nota máxima foi encontrada na região Norte (48,3). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 10,0, também encontrada nas regiões Norte e Sul. As demais medianas foram: 11,7 nas regiões Nordeste e Sudeste e 8,3 na região Centro-Oeste.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0; 10]. Nota-se que há uma tendência decrescente a partir deste intervalo até o último intervalo. O coeficiente de assimetria é positivo para todo o Brasil (1,19) e para todas as regiões (entre 0,88 para a região Nordeste e 1,39 para a região Centro-Oeste), indicando uma assimetria à direita.",
+  "text_sha256": "d07aa8b64fe2a515b6200136cdf9a04000215ec4928e8801000e49d229fe3dc7",
+  "window_size": 3
+}

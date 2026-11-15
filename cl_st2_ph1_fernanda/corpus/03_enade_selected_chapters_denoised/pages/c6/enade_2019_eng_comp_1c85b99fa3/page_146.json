@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d624400c3326f34006af910ddb75487d1a56d51ce3940c5ba",
+    "usage": {
+      "input_tokens": 2305,
+      "input_tokens_details": {
+        "cache_write_tokens": 2302,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2302
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 2783
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_145.txt",
+      "source_sha256": "4967ae7dd067d539cb0f64c56920d1412fcd2cf6ddb17cf876d6c216df7e5ccc"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_147.txt",
+      "source_sha256": "6fd00d40a563177b49f7f2b9baf402e05ebabea76f8609552be3923c8fd2c7ad"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:37Z",
+  "duration_seconds": 4.742,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_146.txt",
+    "source_sha256": "822ab5e7cb64c48914ccbab653dcd5d8f0f56a71e1cacdf20a6cf9a364a299a9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3b2036a6228761c5752d326670c152d42150ca21258914b90b83caa31de440f4",
+  "request_fingerprint": "bc4def68e358e7f1913e5d646a30e2e71b8733df1b38648f3a6285a1ef62bf46",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte (Fonte: MEC/Inep/Daes – Enade/2019)."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], cuja frequência é de 28,3%.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 39,3. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (43,4) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (34,3). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (7,7), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (9,1), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (14,7) foi um pouco superior ao do Brasil, como um todo (14,3), indicando uma dispersão levemente maior das notas nesta Categoria Administrativa.",
+  "text_sha256": "79307d447b69e009580cb0fa179e6a60c8cc8fa379f5a887d841854c64c21527",
+  "window_size": 3
+}

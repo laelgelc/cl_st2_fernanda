@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ad3bce56448fbd0006af8fe38807887d184c4b0c15ea23bd6",
+    "usage": {
+      "input_tokens": 2299,
+      "input_tokens_details": {
+        "cache_write_tokens": 2296,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2296
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 453,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 2752
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_40.txt",
+      "source_sha256": "4574acec65d62085d797c34c41504e29f6e4b292785e8c3885e65bbd43b27ae8"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_42.txt",
+      "source_sha256": "65b6b45cb77676f5103b08bc3667a789658a9de4a9a61a81e5d09409b100bfe8"
+    }
+  ],
+  "created_at": "2026-11-15T00:35:04Z",
+  "duration_seconds": 5.021,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_PSICOLOGIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_41.txt",
+    "source_sha256": "27cffb846a53cb3215fa8f06616186bc3055d7ab79ce177ffa98851af4a48183"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b9fcf16d693fca8514937ee65e178b6c71202dbdeee99ec67196d44c3436601e",
+  "request_fingerprint": "d39438d826a44f6f38231ab26bffdd1d5e4d4905c27d09cb410ff57b010abb47",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Nordeste (90,7), ao passo que a região que atingiu a menor nota Máxima foi a Norte (82,0). A Mediana do Brasil como um todo foi 47,0, sendo a maior Mediana obtida na região Sul (47,6), e a menor obtida no Norte (43,8). A nota Mínima foi zero em todas as regiões, sem exceção.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (44,2), e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "bdf103179edad2a13884091d5ba01b58d8d0fa128780176c3a5f25bb63d7ad77",
+  "window_size": 3
+}

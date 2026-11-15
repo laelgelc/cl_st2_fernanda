@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_026d520d75ec5967006af8efec279887d1a3adcf94110f7fc8",
+    "usage": {
+      "input_tokens": 2436,
+      "input_tokens_details": {
+        "cache_write_tokens": 2433,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2433
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 696,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 3132
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_36.txt",
+      "source_sha256": "840b68f84715485796c45d5bd0cca47f7bfa09941ba97f3d4250de5007b38a21"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_38.txt",
+      "source_sha256": "f962cbdfea6c6647504d2d3868e6d7d3eb1adc1e5a6275eef72f0e5541848e79"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:04Z",
+  "duration_seconds": 6.997,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_37.txt",
+    "source_sha256": "3a5e4b36681d459f46fa6d24ddb63c87d972ce16c183713e37025c1ddfc66440"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5018e14a7e15ea3835cbee25f41832130b1371ce1b913c27f49fea3e4013efbb",
+  "request_fingerprint": "a5343765acd2f1026fe2910a7172bb81219d8e5157df874cd3efd2a460ce9172",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os componentes de Formação Geral e de Conhecimento Específico) foi 37,3, sendo que os alunos da região Norte obtiveram a média mais baixa (34,8) e os da região Nordeste obtiveram a média mais alta (38,7). As demais médias foram: 37,1 na região Sudeste; 38,3 na região Sul; e 36,9 na região Centro-Oeste. O desvio padrão para o Brasil como um todo foi 12,3, sendo o maior desvio padrão encontrado na região Sudeste (12,8) e o menor na região Norte (10,3), indicando uma dispersão das notas um pouco menor nesta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (90,5), ao passo que a região que atingiu a menor nota máxima foi a Norte (67,1). A mediana do Brasil como um todo foi 36,4, sendo a maior mediana obtida na região Nordeste (37,8) e a menor obtida na Norte (35,3). A nota mínima foi zero em todas as regiões, com exceção da região Centro-Oeste com 11,5 de nota mínima.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40].\n\nO coeficiente de assimetria da distribuição das notas é positivo (0,35). Apesar de ser um coeficiente pequeno, está associado a uma maior concentração de notas no lado esquerdo e cauda um pouco mais longa à direita As distribuições por Grande Região também apresentam assimetria positiva. A única exceção é a região Norte, com coeficiente de assimetria negativo (–0,03), porém, tão próximo de zero, que esta distribuição pode ser considerada simétrica.",
+  "text_sha256": "dbd6a8a7fadb27ba9aeb4cc696e46f3d6a33a94892544bda127953f979adc8d1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cfde6a7ef57d700006af92076649887d183eb28de75e0658d",
+    "usage": {
+      "input_tokens": 1699,
+      "input_tokens_details": {
+        "cache_write_tokens": 1696,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1696
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 173,
+      "output_tokens_details": {
+        "reasoning_tokens": 44
+      },
+      "total_tokens": 1872
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_110.txt",
+      "source_sha256": "c49e1d76fe88f9f54ed52f35764feaac4551dc5e44900efe9aa04f87de96ae91"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_112.txt",
+      "source_sha256": "7e5971ceb9b18108097035c58c7e3f7a990299308095a6a168aaca29e8f684ed"
+    }
+  ],
+  "created_at": "2026-11-15T03:01:10Z",
+  "duration_seconds": 2.909,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_111.txt",
+    "source_sha256": "24ba9199d2e4997918cb49397197bff8e22be2ec9a18face501a5d14a15eadf8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8fd308ce230b328ba31d99b2c231b1375124941655b3a9638b5e599714ef4eca",
+  "request_fingerprint": "57049d4e6f72e980a62d6aacbb618d85a985b5666912e3bd24292d71dee67f04",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, a legenda e a fonte do Gráfico 5.18."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.18 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 5.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “claros e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (88,2%), se comparada ao quarto inferior de desempenho (68,2%).",
+  "text_sha256": "11a4a5a865e7213b20d39272119b993d2ec16f589629c3f796ab4ef15fb87161",
+  "window_size": 3
+}

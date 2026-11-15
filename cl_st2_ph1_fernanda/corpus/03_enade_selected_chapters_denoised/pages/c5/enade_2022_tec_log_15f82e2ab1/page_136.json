@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c88140106cfd43006af92012551c87d1a72072c6195d0e47",
+    "usage": {
+      "input_tokens": 2892,
+      "input_tokens_details": {
+        "cache_write_tokens": 2889,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2889
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 348,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 3240
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_log/enade_2022_tec_log_page_135.txt",
+      "source_sha256": "f97ec7413644cc3a6a47a62886cf69444a01553154a01e64bed480f705f6e431"
+    },
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_log/enade_2022_tec_log_page_137.txt",
+      "source_sha256": "549643c9ad869a11cac25a24c3b8fd76226c53501b1e84bc0cfe77e408de2308"
+    }
+  ],
+  "created_at": "2026-11-15T02:59:30Z",
+  "duration_seconds": 4.776,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2022_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM LOGÍSTICA.pdf",
+    "page_number": 136
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_log/enade_2022_tec_log_page_136.txt",
+    "source_sha256": "a0031679e339b09cced0f5b40fc15842b8d4e6c3dce216839edb953230254d33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "59b6e02cc60f11d01657517cc3b129506186bc2a3b195f809c52108305ae829e",
+  "request_fingerprint": "817c5c1de399e138a4ab52170875b27cb273dd28b166adf4473abbd36149f276",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.2. O texto termina em “IES” no limite da página; não foi completado."
+  ],
+  "status": "success",
+  "text": "De acordo com as informações da Tabela 6.2, dos 429 cursos participantes, 43 (10,0%) eram ministrados em instituições públicas, e 386 (90,0%), em instituições privadas. Quanto à modalidade de oferta, 163 cursos eram a distância (38,0%) e 266 eram presenciais (62,0%).\nAinda conforme as informações da mesma tabela, em termos nacionais, entre instituições públicas e privadas, observa-se que, dos 14 cursos avaliados com conceito 5, 3 foram oferecidos em IES",
+  "text_sha256": "86df14e551f596f14764045294a3494484c318ea70ad8f4dd14b74c9410a19ec",
+  "window_size": 3
+}

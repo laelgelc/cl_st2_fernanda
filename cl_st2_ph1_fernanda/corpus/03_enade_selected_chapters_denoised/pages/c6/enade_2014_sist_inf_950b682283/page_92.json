@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_063bc541b17958ef006af8fc18bc5887d1b34c71695701c71d",
+    "usage": {
+      "input_tokens": 2615,
+      "input_tokens_details": {
+        "cache_write_tokens": 2612,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2612
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 732,
+      "output_tokens_details": {
+        "reasoning_tokens": 249
+      },
+      "total_tokens": 3347
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_91.txt",
+      "source_sha256": "cdd6d99961386ed3fd306059dbe3eeeb7116318d6e8a219e659ee00cb69306e1"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_93.txt",
+      "source_sha256": "8f7cbfaf8882e0d591c010583db7422cf56c25385dd982619707ae5c8b935994"
+    }
+  ],
+  "created_at": "2026-11-15T00:26:00Z",
+  "duration_seconds": 7.304,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_SISTEMAS DE INFORMAÇÃO.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_92.txt",
+    "source_sha256": "4cf91fdb4c389a772f235b111befbde4d078cb4d465162c5edecf18ee01bc626"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d8e7f11f217a4599dcfb3b8894c7936d5e538a8b708162c7bea26640a7bb1faa",
+  "request_fingerprint": "fa2eaee42ca9aad05a4a231b5d61dd0f5e0359c8a6c7a3d5599f47573f5180a3",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "pela maioria dos estudantes, principalmente por ser usado em vários livros didáticos que tratam de modelagem de dados. Dessa forma, a questão deve ser classificada como de dificuldade média.\n\nAlgumas respostas continham pequenas variações que puderam ser perfeitamente acomodadas dentro do padrão de resposta. As mais comuns foram:\n\n O uso de N no lugar de * para representar “muitos”;\n A ausência de multiplicidade, cujo significado foi considerado como sendo “exatamente 1” (1..1), conforme previsto nas regras semânticas da UML;\n O uso de um atributo para descrever a forma de pagamento e a categoria. Nesses casos, foram concedidos pontos para o item Identificação das Classes, porém nada foi computado para o item Identificação dos Relacionamentos de Associação;\n A identificação de uma classe de nome Venda no lugar da classe Pedido_Compra, apesar de tal substituição não afetar a resposta.\n\nEm algumas situações, as respostas desrespeitaram de tal forma o comando da questão, que não houve outra opção a não ser atribuir-lhes o grau mínimo. Essas situações, que não se enquadravam no comando da questão que pedia que fosse construído um diagrama de classes UML foram as seguintes:\n\n Descrição do modelo através de texto (estruturado ou não) em vez de um diagrama UML;\n Descrição do modelo usando a notação de Peter Chen (E-R) em vez de um diagrama UML (tipo de resposta encontrado com maior frequência);\n Uso de diagramas de sequência e fluxogramas para descrever o processo de venda.\n\nMuitos estudantes responderam à questão usando linguagem textual semelhante às linguagens usadas para representar esquemas relacionais. Esse erro talvez possa ser creditado às questões objetivas de nos 30 e 31 do Componente Específico, pois o enunciado dessas duas questões apresentam esquemas relacionais usando, respectivamente, uma linguagem textual semelhante à SQL e a própria linguagem SQL.\n\nOs erros mais comumente encontrados nas respostas a essa questão foram:\n\n A existência de uma única classe para representar os clientes, sem a divisão em indivíduos e clientes corporativos. Nesse caso, o estudante não",
+  "text_sha256": "1c408d3dde927a2cb865f2a5495539e1719182a305a38a0a6423d58f62f92728",
+  "window_size": 3
+}

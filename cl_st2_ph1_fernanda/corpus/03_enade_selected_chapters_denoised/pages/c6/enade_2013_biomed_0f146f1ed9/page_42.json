@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_092d5c0990de4b8c006af8f31bafa487d18ff7dde4f9545639",
+    "usage": {
+      "input_tokens": 1674,
+      "input_tokens_details": {
+        "cache_write_tokens": 1671,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1671
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1966
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_41.txt",
+      "source_sha256": "3062705d0f73dfeecfda712d06f56a4fb3ff7f803faa34edcdea54a489ab68e1"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_43.txt",
+      "source_sha256": "33a775a78750de96555ebf292c9dee51d361fcf0740a2be14ab50ffea00f2007"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:39Z",
+  "duration_seconds": 3.041,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_42.txt",
+    "source_sha256": "d0c18004d2464710d1e3a0071b18d00880c9b05b035a372a466fd830e4f75557"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6c2e0f56395cfe58de987505126d068b28fde0407d2e65c16ecfed33d1cf0ef9",
+  "request_fingerprint": "2d4e546896b6bc62ea41b306a31d6490429a29280d78843b7fc2508c4e2d8674",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, que parece pertencer ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades. A diferença entre a média dos estudantes de Centros Universitários e Faculdades também é significativa estatisticamente. A maior média foi obtida pelos estudantes de Universidades (51,2), e a menor, pelos de Faculdades (43,4).",
+  "text_sha256": "6c10d3ca30e27773ff4696ec1e3775a06126a289858edf62f6477e12f1d8e16d",
+  "window_size": 3
+}

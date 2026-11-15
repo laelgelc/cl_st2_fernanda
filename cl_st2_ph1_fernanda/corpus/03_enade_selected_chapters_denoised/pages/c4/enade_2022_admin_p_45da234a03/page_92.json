@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c2a318a38f2116006af91b67af9487d1893183753cf63ce2",
+    "usage": {
+      "input_tokens": 2278,
+      "input_tokens_details": {
+        "cache_write_tokens": 2275,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2275
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 2894
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin_p/enade_2022_admin_p_page_91.txt",
+      "source_sha256": "198dec1cc842fbb6d18a9c8b41fbff73dc0ed9fe6acebcce12ded29bae7f09c7"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin_p/enade_2022_admin_p_page_93.txt",
+      "source_sha256": "803ed1a36c0cc516795b09062d4b09fb7e4a4c89b6db8e7b7bcc3e425402c26b"
+    }
+  ],
+  "created_at": "2026-11-15T02:39:35Z",
+  "duration_seconds": 6.833,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADM PÚBLICA.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin_p/enade_2022_admin_p_page_92.txt",
+    "source_sha256": "852f34adc652c0dd4de0ecab6c8b025ac53061c972a5fe618c9aa5328fc5f16d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "153a51b91f707e0905a0e58796c2135e8506eb714fa47027e25695ea71d4d717",
+  "request_fingerprint": "0aa25c8477f8eb156e9d6a925bdfaa79ac4fcd36fe3105bf79d7c100ac2fa5a7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Figura 5.1, incluindo sua ilustração, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "A seguir, serão apresentados gráficos com resultados selecionados, relativos às nove questões avaliadas por grupos de estudantes. Nas barras dos gráficos, apresenta-se o percentual de estudantes que assinalaram uma das opções ou a soma das porcentagens daqueles que assinalaram duas (ou três) delas. Por exemplo, para as questões 1 e 2, nos gráficos, é apresentada a porcentagem total de participantes que assinalaram as opções (D) “Difícil” e (E) “Muito difícil”. Em cada barra, foram assinalados, também, os extremos do intervalo de confiança de 95%, como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula. O estimador de um parâmetro com um certo nível de confiança (por exemplo, 95,0%) deve conter o parâmetro no intervalo de confiança em 95% das vezes. Na comparação entre os estimadores dos parâmetros de duas classes de uma dada categoria (por exemplo: Norte e Nordeste nas grandes regiões, de primeiro e último quarto dentro de desempenho, de IES públicas e privadas, ou de universidades e faculdades), associados aos seus respectivos intervalos de confiança, diz-se que não há diferença estatisticamente significativa entre os parâmetros das duas categorias quando há interseção entre os intervalos de confiança, e que há diferença, se os intervalos de confiança são disjuntos (para maiores informações vide Glossário).\nNas tabelas do Anexo V, são apresentados os valores absolutos e a distribuição percentual⁹ das alternativas válidas das nove questões, segundo o mesmo recorte de desempenho dos estudantes e da grande região de funcionamento do curso, de categoria administrativa e do tipo de organização acadêmica da IES.\n⁹ Reitera-se que uma das convenções para tabelas numéricas (subseção 2.2.3 do Capítulo 2) refere-se à possibilidade de, por questão de arredondamento, a soma das partes não resultar em 100%.",
+  "text_sha256": "3d8c514898d0e2917bce260acc1012211f9b09fb1336e021179b7a602587cc9d",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06029d1f4ca54114006af8f2f1195c87d189e9c5ad091f2b22",
+    "usage": {
+      "input_tokens": 2234,
+      "input_tokens_details": {
+        "cache_write_tokens": 2231,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2231
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 561,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 2795
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_43.txt",
+      "source_sha256": "75b8e969c1347082bfe0a9aaa6ff0d8f1dedcab6b3cce1fc8def5f25e13d7a20"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_45.txt",
+      "source_sha256": "96de2cacb41721b74d9f8492b26e92f4807e01e01151cfe4f7ff6fda38f325c2"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:57Z",
+  "duration_seconds": 6.226,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_44.txt",
+    "source_sha256": "65636b4433ecb0a059e499100f2108edf53183088ac7dbf5f9f9e260ad70e0b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "331865a64320d2ff1c57a79d5c892620f8683da0226a80ca825cdd81ed5b89d3",
+  "request_fingerprint": "7a669dafc79e244f749b0929f4fbb4065f2134ade29de69a9250742069b8fa6d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "todo foi 49,0, sendo a menor mediana encontrada na região Norte (44,7) e a maior encontrada na região Sul (50,0). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (50; 60]. Destaca-se também o intervalo (50; 60] que possui valor muito próximo do modal. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 13,0 para a nota da prova como um todo e 14,6 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é também ligeiramente negativo (-0,24). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,31 para o Sudeste e -0,20 para o Norte).",
+  "text_sha256": "41917ed84210fef588aa09271f4206497a853fe0e3292a481764fecb476f5765",
+  "window_size": 3
+}

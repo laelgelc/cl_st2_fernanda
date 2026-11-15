@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b932ba83064b514006af8f8389d3c87d1969c361af344b382",
+    "usage": {
+      "input_tokens": 2367,
+      "input_tokens_details": {
+        "cache_write_tokens": 2364,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2364
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 829,
+      "output_tokens_details": {
+        "reasoning_tokens": 493
+      },
+      "total_tokens": 3196
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_78.txt",
+      "source_sha256": "cc2afc112f065f231e064c72342f8d4958c458406ae7628698ae59a51d5cb829"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_80.txt",
+      "source_sha256": "6eeab4a6ced2165d6ef55dc03abae5b3d1ef7c8704f403dcefb6238da2090706"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:28Z",
+  "duration_seconds": 9.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_79.txt",
+    "source_sha256": "3cf1149d27a304c3b7ce518a0331528f087bf29a530c6eab05428d4eb6f793d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2b89ea1b8d2304c6a72c182ddeb249ea7f7af77a330888762fa9f56e6522900c",
+  "request_fingerprint": "310dfe369acba9487e3ce4f05666a21d5ff78eddbaa1be771295c1f97cf7f0b7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2014), aparentemente associada ao Gráfico 3.10; material gráfico não transcrito."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.16, a média dos estudantes de todo o Brasil foi 10,8. A menor média nessa questão foi obtida pelos estudantes da região Nordeste (7,2), enquanto a maior média foi obtida na região Sul (25,0). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 22,6. O maior desvio padrão foi obtido na região Sul (31,5), enquanto o menor foi obtido na região Nordeste (17,9).\n\nA nota máxima, 100,0 pontos, foi alcançada por, pelo menos, um estudante de quase todas as regiões, com exceção da região Norte, onde a nota máxima foi 95,0. A mediana do Brasil como um todo foi 0,0, o que significa que mais de 50% dos estudantes obteve nota zero ou deixou a questão em branco, e é a mesma em todas as regiões do país, exceto a região Sul (10,0). A nota mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil, sem exceção.",
+  "text_sha256": "93a0e8f4f91ff0149bc2db36ea6aa9219c4e8b5a67437f5156b0b82c3decc133",
+  "window_size": 3
+}

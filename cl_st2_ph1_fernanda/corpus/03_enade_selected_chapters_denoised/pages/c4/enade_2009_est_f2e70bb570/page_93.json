@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00d500dc52c56ce2006af8e5d1430887d1908fbb4608110409",
+    "usage": {
+      "input_tokens": 2559,
+      "input_tokens_details": {
+        "cache_write_tokens": 2556,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2556
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 468,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 3027
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_92.txt",
+      "source_sha256": "f7ca087d48637dad7545be518dfcda065b2f2e745cbf58854256bb318e478bd1"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_94.txt",
+      "source_sha256": "a79b6b21d91d01f5080eccc26da8369ff8a6bdd5f7b251666cec8459dc139485"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:57Z",
+  "duration_seconds": 4.34,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_93.txt",
+    "source_sha256": "65746807bdd3b3fe5c78284f6d6ca73722d667384a739be8a3cca733ea428ecd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5ccc9e383140483287c2eecd563705a751029a0693f6105c0f962c542a5baf1a",
+  "request_fingerprint": "b77a202d814739245d697bf00a258c106a80b68127da875b154cfe1a99c06af8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.17a, incluindo título, dados, rótulos, legenda e linha de fonte."
+  ],
+  "status": "success",
+  "text": "4.7 Tempo gasto para concluir a prova\n\nOs Gráficos 4.17a, 4.17b e 4.17c apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo quartos de nota final e grupo de concluintes e ingressantes que participaram do ENADE/2009 na área de ESTATÍSTICA.\n\nQuando perguntados quanto ao tempo de conclusão da prova, a maioria dos concluintes indicou entre duas e três horas (37,9%) seguido de entre três e quatro horas (28,6%) e entre uma e duas horas (22,4%). Entre os ingressantes, o comportamento desta questão seguiu outra ordem, pois a maioria indicou entre uma e duas horas (39,5%), seguido por entre duas e três horas (34,4%) e entre três e quatro horas (15,3%). A proporção daqueles que declararam ter usado as quatro horas, mas não terem conseguido terminar foi baixa: 1,7% entre os ingressantes e 6,7% entre os concluintes.\n\nNem entre os concluintes, nem entre os ingressantes percebeu-se uma tendência monotônica do tempo necessário para concluir a prova como função do desempenho. Entre os concluintes, a distribuição do tempo mostra que os estudantes do terceiro quarto levaram menos tempo e os do primeiro quarto mais tempo na confecção da prova. Entre os ingressantes, os mesmo se repete alterando apenas os quartos, pois os do terceiro ocuparam mais tempo e os do segundo menos tempo na confecção da prova.",
+  "text_sha256": "8c88504f36f2188e7596f96657fae577bdd602f38ac35d18c2890d47d468a95d",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd22546ea4835d7006af8fa26b2d087d19590cea8bce2805b",
+    "usage": {
+      "input_tokens": 2921,
+      "input_tokens_details": {
+        "cache_write_tokens": 2918,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2918
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 278,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 3199
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_hist/enade_2014_hist_page_42.txt",
+      "source_sha256": "c31e44baba0529dff9d9721a85e3e75ca4f90c3bef89ab244e3559f19eba22f5"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_hist/enade_2014_hist_page_44.txt",
+      "source_sha256": "f242b66273c4244d8ec3858eaf830b3bfd2ad882ab30d35aede996c5381cf1b9"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:42Z",
+  "duration_seconds": 4.39,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_hist/enade_2014_hist_page_43.txt",
+    "source_sha256": "fe686ed29419892dc5d3c8246ba271a5606247e06dd38001a35e0144f1717a44"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "baa8eb4ea6aa98f3a2534b212eb8ac6aeeb48fd21321bd305fe6b5dca9e7c61d",
+  "request_fingerprint": "1ee497f8aa34887b8e1d161a9d84323b76cc32c85d354151bc6beb953b3b7151",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, incluindo título, dados e fonte, e o histograma do Gráfico 3.1, incluindo sua fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas em colunas diferentes para estudantes de Bacharelado e de Licenciatura. As distribuições são unimodais. O intervalo modal dos concluintes de Bacharelado é o (50;60] e dos concluintes de Licenciatura é o (30;40].",
+  "text_sha256": "bf800d2d3fcfe2b3ebb34e801021b5b6002066d134eb9805e3715c0e113d9ef7",
+  "window_size": 3
+}

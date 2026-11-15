@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03a6761285b2cd22006af8f2c009a487d1927588a9ee6b7a9f",
+    "usage": {
+      "input_tokens": 1591,
+      "input_tokens_details": {
+        "cache_write_tokens": 1588,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1588
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 885,
+      "output_tokens_details": {
+        "reasoning_tokens": 629
+      },
+      "total_tokens": 2476
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tur/enade_2012_tur_page_91.txt",
+      "source_sha256": "b4af90aa9c51ecab88fffa6d3fc533846c276781db05422a08fea8f302342898"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tur/enade_2012_tur_page_93.txt",
+      "source_sha256": "42c33fbb1e6078b7ac4c5188dd14f6b1ab5b8cdd94740ae3483eb51a19a9858f"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:07Z",
+  "duration_seconds": 9.03,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TURISMO.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tur/enade_2012_tur_page_92.txt",
+    "source_sha256": "bcac8327446edf4bfcca22eb92b4ad3ef91d0f45bbb86a2b58267a64e0078a71"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2ab6727cf8e517bf5afe647a69b4de10393dffbb3e5590b7670e4c0d3c56c8ca",
+  "request_fingerprint": "32e84ac5bb8cc4336179616a30e151988c9508d4055567870e1f05a5a4950704",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha «Fonte: MEC/INEP/DAES - ENADE/2012», possivelmente associada a gráfico(s) na página; não havia conteúdo gráfico identificável no texto extraído."
+  ],
+  "status": "success",
+  "text": "4.7 TEMPO GASTO PARA CONCLUIR A PROVA\nAo responderem sobre o tempo de conclusão da prova (Questão 9), mais da metade dos estudantes (64,2%) afirmou ter gasto entre duas e quatro horas (Gráfico 4.17, Gráfico 4.18 e, no Anexo II, a Tabela II.9).\nConsiderando-se as cinco Grandes Regiões brasileiras, nas regiões Norte (59,1%) e Sul (60,0%) o percentual dos que utilizaram entre duas e quatro horas para finalizar a prova foi inferior à média nacional (64,2%). Em duas das cinco Grandes Regiões, Nordeste e Centro-Oeste, o percentual de alunos que dispensaram entre duas e quatro horas para concluir a prova foi praticamente idêntico e acima de 65%, sendo 66,8% e 66,6%, como mostra o Gráfico 4.17.",
+  "text_sha256": "d776ad63d39085623611cf1cdd8d61a1360eff79112df91c4d0d73de7cbf6d69",
+  "window_size": 3
+}

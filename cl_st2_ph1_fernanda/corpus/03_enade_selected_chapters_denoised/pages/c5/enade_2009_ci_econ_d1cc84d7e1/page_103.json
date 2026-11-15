@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea9cc3107d80056006af8e51f2c8487d1ad0b1767e0e91db4",
+    "usage": {
+      "input_tokens": 2818,
+      "input_tokens_details": {
+        "cache_write_tokens": 2815,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2815
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 3330
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_ci_econ/enade_2009_ci_econ_page_102.txt",
+      "source_sha256": "f9508acd04a58743b79064c61844ee0afc1cc1b896398848ba9723c9f50f1818"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_ci_econ/enade_2009_ci_econ_page_104.txt",
+      "source_sha256": "a3e10182e4d361b1d088a2f16e723f2bd252c3cdab9ab346983a841504440593"
+    }
+  ],
+  "created_at": "2026-11-14T22:47:59Z",
+  "duration_seconds": 4.65,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_ci_econ/enade_2009_ci_econ_page_103.txt",
+    "source_sha256": "447b22aad1962d448b25666518241564c2503bb519a00030a7cd2aff29ccc9f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5608ae1979e9835b9982a1ff3975dbfe9e6e76c0d31a6f65f42fecf266f42d3c",
+  "request_fingerprint": "7b14145faf13ffbb1125b440b46af2cb6d83f2e0c3b01d87e2dc403a745645e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.2, incluindo título, representação gráfica e fonte."
+  ],
+  "status": "success",
+  "text": "5.3 Conceitos por Organização Acadêmica e por Região\n\nNa Tabela 5.3 encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do ENADE/2009 de CIÊNCIAS ECONÔMICAS, por Organização Acadêmica, segundo as Regiões.\n\nO Gráfico 5.3 apresenta a mesma informação sob a forma de diagrama de caixa para uma melhor visualização da dispersão dos conceitos obtidos. Somente eventuais valores atípicos apareceram com o identificador da Categoria Administrativa.\n\nOs cursos desta área estão alocados em Universidades (56,5%), em Faculdades (29,6%) e em Centros Universitários (13,9%). Não existe presença de cursos nem em Centros Federais de Educação Tecnológica (CEFET), nem em Institutos Federais de Educação, Ciência e Tecnologia (IFECT). Nas Universidades e Centros Universitários o conceito modal foi 3 para 41,8% e 46,7% dos cursos, respectivamente. Nas Faculdades, o conceito modal foi 2 para 34,4% dos cursos. Nenhum curso em Centro Universitário recebeu nem o conceito mínimo, nem o conceito máximo. Já nos outros 2 tipos de Organização Acadêmica, alguns cursos obtiveram tanto o conceito mínimo quanto o máximo: em Universidades, respectivamente 1,6% e 4,9%, e em Faculdades, valores bem maiores, respectivamente 7,8% e 7,8%. Dos 216 cursos participantes, 25 ficaram sem conceito: 14 cursos em universidades (correspondendo a 11,5% dos cursos nas universidades) e 11 cursos em faculdades (17,2% em faculdades).",
+  "text_sha256": "a64ed943a2a7c638e3f59868b3122c9c500ec6716faddad9aaed198d6c6320f8",
+  "window_size": 3
+}

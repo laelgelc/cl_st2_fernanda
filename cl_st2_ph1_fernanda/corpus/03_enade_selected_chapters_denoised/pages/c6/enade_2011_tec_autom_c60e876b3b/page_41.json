@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_041afa11dc470bb3006af8eee66d2c87d19667db4965241eb3",
+    "usage": {
+      "input_tokens": 2252,
+      "input_tokens_details": {
+        "cache_write_tokens": 2249,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2249
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 655,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 2907
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_40.txt",
+      "source_sha256": "3f8a8f1e9a050d7a96079de322cfea38a1c745816e80405c33812bc29bd52183"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_42.txt",
+      "source_sha256": "c531c69d88e542e6de77aeb577eee9add6d23b336183c958c01ac644db1f8fd0"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:42Z",
+  "duration_seconds": 6.211,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_41.txt",
+    "source_sha256": "535731b4874a658c02365f467a7e27293d12f701bad080a629a7bc8060c2c625"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "929aa9e577f0628a82554eb282c2e5a50ea60c6e2a077cfa9e5133e0ac87a4d0",
+  "request_fingerprint": "cd25a978b51b8d26a8c1c92881fab2a211633357a5aaec1894830432d4f124fd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, cabeçalho, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A maior nota no Componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Nordeste (100,0) enquanto que a menor nota máxima foi obtida na região Norte (82,5). Nas outras regiões as notas máximas foram: 92,0 na região Sudeste, 86,5 na região Sul e 84,0 na região Centro-Oeste. A mediana do Brasil como um todo foi 49,5, sendo a menor mediana encontrada na região Norte (43,3) e a maior encontrada na região Nordeste (53,8). A nota mínima nesta parte foi zero nas regiões Sudeste, Sul e Centro-Oeste. Na região Norte a nota mínima foi 25,0, e na região Nordeste, 15,0.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50;60], enquanto na prova como um todo a moda foi alcançada no intervalo (40;50] com uma concentração no intervalo (30;40] um pouco mais baixo. Verifica-se, ainda, que no Gráfico 3.5 as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova). Isso pode ser confirmado pela comparação dos desvios padrões: 12,2 para a nota da prova como um todo e 17,6 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova em sua totalidade, também é negativo (–0,29). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda. Nas regiões Sudeste, Sul e Centro-Oeste os histogramas também possuem assimetria negativa (entre –0,29 e –0,62). Nas regiões Norte (0,73) e Nordeste (0,03) as distribuições possuem assimetria positiva: maior concentração de notas à esquerda e cauda mais longa conforme as notas aumentam, ao lado direito.",
+  "text_sha256": "3c212ae3414f1b3c20dcb54a945dfabced995d46e28d845c791dc65ebbd81c07",
+  "window_size": 3
+}

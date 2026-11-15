@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_046ca09b16e3d836006af8eee6d91887d1a8be3b4b5935ba54",
+    "usage": {
+      "input_tokens": 1439,
+      "input_tokens_details": {
+        "cache_write_tokens": 1436,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1436
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 237,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1676
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_43.txt",
+      "source_sha256": "7503b3c9c615858d290c577c72039f9d8a897c1f554c299f211aa071f183b4a6"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_45.txt",
+      "source_sha256": "f5bcd182b01a5e56a5913d00b9c1ea91b21be796b7bedf737158143935ebaf07"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:42Z",
+  "duration_seconds": 3.556,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_44.txt",
+    "source_sha256": "7d997b63ca4156a09de4dd3080c6f9df97fb897507dfa18fd461597fab4beff4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e387af9eacb6ff069224e718a568d14319e5f540efe45e64963b82345c39feb",
+  "request_fingerprint": "b0ffb6f6a09b05a821b7fbefa9e12db217de104f53fec65d97cffd2909a49fcd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que pertence ao material gráfico; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que não há diferença estatisticamente significativa entre as médias das Universidades (49,1), Centros Universitários (47,5) e Faculdades (46,4).",
+  "text_sha256": "3991b188d82a65a18947e360e5c14b1beae779ea677689e2c51f307f4ca2a4b9",
+  "window_size": 3
+}

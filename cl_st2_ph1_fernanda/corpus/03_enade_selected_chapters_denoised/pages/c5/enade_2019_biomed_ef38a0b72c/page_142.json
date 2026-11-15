@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ef4bf057023ca2a006af90fdab7b487d18431c04184392412",
+    "usage": {
+      "input_tokens": 3004,
+      "input_tokens_details": {
+        "cache_write_tokens": 3001,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3001
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 266,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 3270
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_biomed/enade_2019_biomed_page_141.txt",
+      "source_sha256": "bef124cbdb09c3622de92e4c54d2559604898e6eda242b7579d36b404444fdd5"
+    },
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_biomed/enade_2019_biomed_page_143.txt",
+      "source_sha256": "122caa16fd5ec88b7e4e26670d7b6085d1c980a3836ed20db3831c92df3cf2e6"
+    }
+  ],
+  "created_at": "2026-11-15T01:50:18Z",
+  "duration_seconds": 3.178,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_BIOMEDICINA.pdf",
+    "page_number": 142
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_biomed/enade_2019_biomed_page_142.txt",
+    "source_sha256": "0ac6ea29aa70cf76db7622b2e6aeee7378c248a958b1d0378a01713bff07acb9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9be171d049fcc1cbfd75d67edad937e66b4fcf9ddc4a820d1f662c3e5da15d51",
+  "request_fingerprint": "ef76792b22f949c594975a896afc19e6562a3c0115da0a63afe16f8b55877169",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e fonte. A última frase do texto continua na página seguinte; preservado apenas o trecho que aparece na página-alvo."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com apenas quatro dos 27 cursos avaliados, aos quais foi atribuído conceito 2 para dois cursos e conceitos 3 e 4 para um curso cada. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região.\n\nOs Centros Universitários da região Norte foram representados por nove cursos, os quais quatro obtiveram conceito 2, modal. Os demais cursos foram avaliados com os",
+  "text_sha256": "28712c523ded318bbebe2d75664a27ef6c61e91d9c576b5e56028a3fbfec3d1f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1a2ae29b6b3bd9006af8ee3cdb4887d1a63f9701ebed72e5",
+    "usage": {
+      "input_tokens": 1448,
+      "input_tokens_details": {
+        "cache_write_tokens": 1445,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1445
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 319,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 1767
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_36.txt",
+      "source_sha256": "9929bfd9cb5447c761d67923e55229d9eb74d3a81312e0f495275f6b0ffde292"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_38.txt",
+      "source_sha256": "999d14299ea7f995f8749622c2ee4d4babbbdef1276242748a4eb3d580e57a0b"
+    }
+  ],
+  "created_at": "2026-11-14T23:26:52Z",
+  "duration_seconds": 3.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MÚSICA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_37.txt",
+    "source_sha256": "6675594daa97fd90edc799d81f57ec57e14bf6da2bce4924d2723f0bdce8ae95"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "da2f916dde217ab51a3e45055d83a3dd6c482f543dfe1f026b7a0f9ffeadf5e3",
+  "request_fingerprint": "04c3f0c054a9434e3e511042ecb6e236ca98cabf13fb64b40dda1718d1c5deee",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades e de Faculdades. A maior média foi obtida pelos estudantes de Universidades (51,2), e a menor, pelos de Faculdades (47,4).",
+  "text_sha256": "71d8733a8c30511038b90b62a6829cc96c6da6043012d1369db27de95841f50c",
+  "window_size": 3
+}

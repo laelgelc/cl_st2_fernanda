@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0908417de032cbba006af91499467087d19177404600de4133",
+    "usage": {
+      "input_tokens": 2672,
+      "input_tokens_details": {
+        "cache_write_tokens": 2669,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2669
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 3131
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_164.txt",
+      "source_sha256": "902f73e6a89e76f1f68e5fe364e1588ecc3ce2cf89134f1c2d15cd568b1cf215"
+    },
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_166.txt",
+      "source_sha256": "7d2f0672a14c8744f2d38b7cda815f8530a3cc5d90dc09a6f8c1b7e582fa9115"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:33Z",
+  "duration_seconds": 5.743,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 165
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_165.txt",
+    "source_sha256": "34c8ccc109a101b6d06dd6a091e753aeeaee1912952331d7f2450a114358d4f2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70ba633ce88a5642150486d5c7c2006b7892f3add8fd01395ece7222f6b6010e",
+  "request_fingerprint": "1b6d470ed4f13fe957cdb505f01eca94918e9d6c5f1470bf95151e6733f541c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2019», pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

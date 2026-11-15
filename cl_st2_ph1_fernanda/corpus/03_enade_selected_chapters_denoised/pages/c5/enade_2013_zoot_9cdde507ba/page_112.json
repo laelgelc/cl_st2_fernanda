@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07e6adf4571e7c35006af8f5bbe9d087d18f5f8637f71b4ec3",
+    "usage": {
+      "input_tokens": 2446,
+      "input_tokens_details": {
+        "cache_write_tokens": 2443,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2443
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 197,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 2643
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_zoot/enade_2013_zoot_page_111.txt",
+      "source_sha256": "27759f06bee77da860090e488a4859edaf2cf6750328124e727c7840d5aab7b8"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_zoot/enade_2013_zoot_page_113.txt",
+      "source_sha256": "ed7306a66439d7ddf17d70d0b698aaf8d0e85d59d268dc802342b90eb498280a"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:51Z",
+  "duration_seconds": 2.77,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2013_zoot",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ZOOTECNIA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_zoot/enade_2013_zoot_page_112.txt",
+    "source_sha256": "92b570f09d1e507bc79ffb3d0047091eb5a8c2ee8d980841f31637d03567e708"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "67f1f50d4f406cd230667c1c3033fe5b9f0e5ad4f88d2b2500dc7909e408edff",
+  "request_fingerprint": "554144b46654e5105f4dc2c7dcaf02fd6e01ce39cd85238c4072c1ab21b97870",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o conteúdo tabular da Tabela 5.3, incluindo título, dados e fonte. A última palavra, “Três”, inicia uma frase que continua na página seguinte; foi mantida sem completá-la."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram seis dos dez cursos participantes. Dos cursos em Universidades, nenhum ficou sem conceito (SC) ou recebeu conceitos 2 ou 5. Três",
+  "text_sha256": "4703b95873261e788987c4c1f43d574712de85258a91d3a70324f46765b35383",
+  "window_size": 3
+}

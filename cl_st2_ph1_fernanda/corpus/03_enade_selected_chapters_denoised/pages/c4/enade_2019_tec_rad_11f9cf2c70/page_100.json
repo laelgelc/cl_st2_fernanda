@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d9527e9db83a6e7006af915fa5b3887d18916fadfec94fd92",
+    "usage": {
+      "input_tokens": 1855,
+      "input_tokens_details": {
+        "cache_write_tokens": 1852,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1852
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 679,
+      "output_tokens_details": {
+        "reasoning_tokens": 505
+      },
+      "total_tokens": 2534
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_rad/enade_2019_tec_rad_page_99.txt",
+      "source_sha256": "d7c0c426906a873743cd35f1da59b55cdcb97cf9df20ace944ff612614678706"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_rad/enade_2019_tec_rad_page_101.txt",
+      "source_sha256": "eee0516c4ba9c1553a71fc1880aaa402d0d7a1b9aa628ba3fbfc3ac7e85f29af"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:26Z",
+  "duration_seconds": 6.821,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_rad/enade_2019_tec_rad_page_100.txt",
+    "source_sha256": "18ba0191546d251b45e4f645991a3849a504b523e4bba1a3820495f3d0a0f932"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "429122c4d12b1f4b97913911c46783bbbc734e4f1dc3b596ae1b2c828e40c190",
+  "request_fingerprint": "b5aecc8f676fb70c1544b076665594284daccb121b7942c40910bd588c4d1d68",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.3. O “CEFET/IF” isolado no fim da página foi tratado como provável rótulo gráfico; confirmar a classificação."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o componente de Formação Geral da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (41,9%), uma diferença estatisticamente significativa da proporção em IES Públicas (31,4%). Já a proporção de presentes à prova que consideraram o Componente de Formação Geral como sendo de grau de dificuldade Médio foi 60,6%, para os de IES Públicas e 54,4%, para os de IES Privadas (ver Gráfico 4.4).",
+  "text_sha256": "2c1c5e03c16a289395ac6929c4567f97758c4c8505958c3044a6b8bdf5a13cdd",
+  "window_size": 3
+}

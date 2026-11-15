@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08f68ce6be7399ee006af8e805fe4487d1a6ce16ba525fd447",
+    "usage": {
+      "input_tokens": 2552,
+      "input_tokens_details": {
+        "cache_write_tokens": 2549,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2549
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 398,
+      "output_tokens_details": {
+        "reasoning_tokens": 242
+      },
+      "total_tokens": 2950
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_63.txt",
+      "source_sha256": "a4bc4cfea57634f7cbdf101d65bf6e0ff3d8eb7bae6e3c73274f0ba4e3459662"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_65.txt",
+      "source_sha256": "da2bf9048536b06f98b9f157d711ee5000d9a4eb81b7559f1b6c2221b97d4d43"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:21Z",
+  "duration_seconds": 4.457,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_64.txt",
+    "source_sha256": "c21986478146c283ae125771de2518addc45a32bc905b38c891900d435a1e942"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9fba453c7bc7ca491283d52ac217b5eb65cd0f193f59859d5965f416c05808ff",
+  "request_fingerprint": "e4ca127253b6f2193f7b8a6f7d54ddceadef28e954f63a6d9bbcf34bb3a6a9b5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Quadro 3.5 e a Tabela 3.14, incluindo títulos, dados e fontes. A prosa que se refere ao Gráfico 3.12 foi preservada; o gráfico não consta nesta página."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 apresenta a distribuição das notas na questão 39 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.5) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "c0dfd626ef14138b4a8da25698f380d95e2cf520e85f7b05811ae1af75c991a5",
+  "window_size": 3
+}

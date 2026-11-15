@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a92a5582adf063006af8fbdcdd3c87d1a75608211d67a529",
+    "usage": {
+      "input_tokens": 2991,
+      "input_tokens_details": {
+        "cache_write_tokens": 2988,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2988
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 720,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 3711
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_90.txt",
+      "source_sha256": "ad379c4398568c7cd35db4b526fe71ea004af62500ca2915a8c27d0708e92193"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_92.txt",
+      "source_sha256": "017780a538de99e12662136daf9af10f45a655be688dfa7a5904de90a38acbb1"
+    }
+  ],
+  "created_at": "2026-11-15T00:25:00Z",
+  "duration_seconds": 6.887,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_QUÍMICA.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_qui/enade_2014_qui_page_91.txt",
+    "source_sha256": "096ffd11c13ccacc291d03d44efb560d7bbc3f186c6639d432843ce31c18a452"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9beb1e5e646dcaaf178968222f1b7ebbb5d999659b8de0fce7e3bfa69dec141",
+  "request_fingerprint": "797650166a51e57e3905d82a65979403ebf2b977129eb785d8c27d135bc7dddf",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No item ‘c’, os estudantes se basearam apenas na comparação entre os potenciais e consideraram que, como o potencial de oxidação do zinco é positivo e o do cobre é negativo, apenas o zinco se oxida. Esse tipo de resposta foi considerado como parcialmente correto e recebeu uma fração da pontuação do item.\n\nAs respostas foram classificadas em três grupos: respostas fracas (notas de zero a 30), medianas (notas de 35 a 70) e boas (notas de 75 a 100).\n\nForam consideradas respostas fracas aquelas que não apresentaram um mínimo de conteúdo satisfatório como solução da questão. A maioria desses casos foi de estudantes que conseguiram elaborar as reações do item ‘a’ ou realizar uma comparação em função dos potenciais no item ‘c’.\n\nForam consideradas respostas medianas aquelas que ficaram em uma faixa aceitável de argumentação. Nesse caso, o estudante conseguiu acertar dois dos três itens da questão.\n\nForam consideradas respostas boas aquelas nas quais os estudantes conseguiram desenvolver de forma satisfatória os três itens.\n\nO restante dos estudantes não obteve pontuação na questão.\n\nA resposta do item ‘a’ incluía duas reações químicas. Para a primeira reação, foram observadas respostas tanto à reação completa com os sais, como às reações envolvendo apenas as espécies iônicas. Na segunda reação, foram verificados erros de balanceamento. Duas respostas erradas, que aparecem com frequência na segunda reação, foram: ZnSO4 +2 HCl → ZnCl2 + H2SO4 e Zn + HCl → ZnCl + H.\n\nO item ‘b’ envolvia uma série de cálculos químicos. Como o item apresentava uma pontuação elevada, foram pontuadas parcialmente as respostas que apontaram 0,35 mol de cobre ou 0,7 mol de zinco. Um tipo de resposta bastante encontrado foi o cálculo da massa de cobre (0,35 mol x 63,5 g/mol = 22,2 g) e a indicação de que a massa de zinco é o dobro da massa de cobre: 44,4 g. O raciocínio está incorreto, pois foi feito em relação ao dobro da massa e não ao dobro da quantidade de matéria.\n\nNo item ‘c’, foram comuns respostas baseando-se na comparação dos potenciais de oxidação. Aquelas que informavam que o potencial de oxidação do zinco é maior que o do hidrogênio, e o do cobre é menor que o do hidrogênio foram integralmente pontuadas. A comparação entre os potenciais do zinco e cobre sem menção ao hidrogênio foram parcialmente pontuadas, assim como aquelas que compararam apenas um dos metais com o hidrogênio. Outros tipos de respostas encontradas com alguma frequência foram de estudantes que se basearam apenas na",
+  "text_sha256": "5421fa2e1a2789da15f6b93be45e96fb75799aeab7d6cb7d5b24ee6068496d28",
+  "window_size": 3
+}

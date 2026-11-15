@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c314fbcdb8c031a006af8f243ef1487d1bb648ae695c16146",
+    "usage": {
+      "input_tokens": 2036,
+      "input_tokens_details": {
+        "cache_write_tokens": 2033,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2033
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 338,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 2374
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_80.txt",
+      "source_sha256": "c8432ba03ad41d898bf5f2abd1880c021aa24150e88ef135bff039f2b16acc4b"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_82.txt",
+      "source_sha256": "c4f20fe6a6377c8e5c3e56adb68073c66901dadda9647d8df174b2c2b06fc933"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:03Z",
+  "duration_seconds": 3.256,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_81.txt",
+    "source_sha256": "b127976ac69dc71ccf9bd232cb4c12b5ce65e380bf8013319b7a109d89f685e9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "382e44a4120f9e81025f2875189769da80cd0b3dfe7bfeb30d747d00076bd063",
+  "request_fingerprint": "33f2d543cf4b86d81a15f481f766a8d87cbd07b4d06a236eced02b7a90af001f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em relação ao aumento de desempenho (Gráfico 4.2). Os dois quartos de menor desempenho, apresentaram valores muito próximos e sem que a diferença seja estatisticamente significativa, 35,6% no 1º quarto e 36,0% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos que julgaram a prova difícil ou muito difícil – 32,2% no 3º quarto e 29,1% no 4º quarto – foi menor do que nos demais e significativamente diferente entre si. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 57,0%, 58,3%, 61,5% e 63,1% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente.",
+  "text_sha256": "a7a162d61b58a94825117b4ed1851c7804e4dcb9e4a1708e10748f92bd0ac2f3",
+  "window_size": 3
+}

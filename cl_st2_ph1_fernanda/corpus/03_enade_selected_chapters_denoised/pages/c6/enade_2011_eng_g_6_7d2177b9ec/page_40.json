@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08c8f682922f0ef0006af8eca2000487d19bc680ef08e79202",
+    "usage": {
+      "input_tokens": 1466,
+      "input_tokens_details": {
+        "cache_write_tokens": 1463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 310,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 1776
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_39.txt",
+      "source_sha256": "fcb44e43fad148c73e7b141ea7856567c739fe31f67134c8c4445d151e83fe4f"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_41.txt",
+      "source_sha256": "2ec77a376c68325626cf54537af8f064a8de513eaa8320b88380e9a9ba82f301"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:01Z",
+  "duration_seconds": 4.164,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_40.txt",
+    "source_sha256": "decaafcc1b8bcb6e770f86a34d8a1cb85d559508d7a299e8cf7c270c10cddbbc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10bfae0363fedbbedc81355ead53359ed08d8c9803ecd8dedcc858d16dd81626",
+  "request_fingerprint": "7eb655b333f606e6dac5438f64e11b17c2f7f264b2c08461818dc2bc8d69c510",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.3 e sua linha de fonte: MEC/INEP/DAES - ENADE/2011."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (43,8) é maior que a dos alunos de IES Privadas (35,9). A diferença entre IES Públicas e Privadas é maior do que as diferenças entre regiões.",
+  "text_sha256": "3abec40443892eeb374444b4fb4d481c2e1de19c28d597d135e999b73a399b54",
+  "window_size": 3
+}

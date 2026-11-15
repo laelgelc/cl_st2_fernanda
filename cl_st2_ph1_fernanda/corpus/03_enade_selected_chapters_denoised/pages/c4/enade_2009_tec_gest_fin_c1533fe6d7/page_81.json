@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c4d1b5dbde1b12c006af8e7e78fb087d1b384ae424fb3ff31",
+    "usage": {
+      "input_tokens": 2541,
+      "input_tokens_details": {
+        "cache_write_tokens": 2538,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2538
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 453,
+      "output_tokens_details": {
+        "reasoning_tokens": 289
+      },
+      "total_tokens": 2994
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_80.txt",
+      "source_sha256": "666772cf3949f0167e5ee97b49d2b742aac89c5cde20f78a490de47661f6c03d"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_82.txt",
+      "source_sha256": "d7e16483779e44951ecf14b467203131e713cd8cae8a338fc550570a2ce790fb"
+    }
+  ],
+  "created_at": "2026-11-14T22:59:51Z",
+  "duration_seconds": 4.816,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_81.txt",
+    "source_sha256": "98087d337c0869da79c26f72e4a04a2d225a3768f88743a06885dccaa555a7af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "601c4d45ea261dd0f4b61cc838aab6eb255ad57fc960997d79dbf83cdd056c93",
+  "request_fingerprint": "0748e2053e26db6cd49d9beeaac231044022108ef953cea88f549497cfe97446",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os gráficos 4.7b e 4.7c, incluindo títulos, dados, rótulos e linhas de fonte.",
+    "A última frase da prosa continua na página seguinte; foi preservado apenas o trecho presente nesta página."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.8a e 4.8b apresentam a distribuição das respostas à questão “Os enunciados das questões da prova na parte de Formação Geral, estavam claros e objetivos?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM GESTÃO FINANCEIRA. Em termos regionais, as proporções de estudantes que consideraram claros",
+  "text_sha256": "19b7a654dda734847df08527c6a95a0ed6b7c5d15ebef0c0bbbbed3c114aa2ca",
+  "window_size": 3
+}

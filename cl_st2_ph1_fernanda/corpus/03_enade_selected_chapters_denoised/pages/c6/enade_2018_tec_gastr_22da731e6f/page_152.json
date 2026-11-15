@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aaf8380547eabcf006af90ec4f44087d184b2f75b13073953",
+    "usage": {
+      "input_tokens": 2326,
+      "input_tokens_details": {
+        "cache_write_tokens": 2323,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2323
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 242,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 2568
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_151.txt",
+      "source_sha256": "7b59fd94767e43a8ea97bf14cabc85f2c5dce5bd0981734a100d6bd30d75f443"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_153.txt",
+      "source_sha256": "c05511aca399fad3a450a47c22bd11494a88a5bbc947ef33a177104c00fbf3ad"
+    }
+  ],
+  "created_at": "2026-11-15T01:45:40Z",
+  "duration_seconds": 2.923,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GASTRONOMIA.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gastr/enade_2018_tec_gastr_page_152.txt",
+    "source_sha256": "1e603b0cab0a75cbdd5fc17dc4d68cc1475b20dd6a55c06cdc0eaeb987cef0a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "99a5df60fc7a38880a72217ad20c9fb9d3a14d207861f5237d1b6c01c8787f45",
+  "request_fingerprint": "2f3d6ad097233b4c62302ceb2ce641388bdf36f403061c1f17c02e754da0421d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.11 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Gastronomia. A distribuição é unimodal, com a moda no intervalo (90; 100], para quase metade dos estudantes.",
+  "text_sha256": "dacca8a7633d15c62244bab19c973edb077f7c83f425e3852912f2dba809f89b",
+  "window_size": 3
+}

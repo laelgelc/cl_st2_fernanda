@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c613325582502e0006af904b5e56887d18d8100ac854bd2d0",
+    "usage": {
+      "input_tokens": 2904,
+      "input_tokens_details": {
+        "cache_write_tokens": 2901,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2901
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 548,
+      "output_tokens_details": {
+        "reasoning_tokens": 245
+      },
+      "total_tokens": 3452
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_art_vis/enade_2017_art_vis_page_118.txt",
+      "source_sha256": "19d9ddf54f1612d1d5d83bc29be0173bd600f0505fc5de1b8b18f42d974e51aa"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_art_vis/enade_2017_art_vis_page_120.txt",
+      "source_sha256": "a1a14400082c76a8a8d54a08270373742dff32c8bff04c134347d3bc16c121c8"
+    }
+  ],
+  "created_at": "2026-11-15T01:02:45Z",
+  "duration_seconds": 6.225,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ARTES VISUAIS.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_art_vis/enade_2017_art_vis_page_119.txt",
+    "source_sha256": "ae9a88d2b231ba88e532d3b44f4b7011373c6f05ac58b0ed5aa3b110d85a62ff"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "35b46d083f86bb7f5745ff8257380249a2d41cae24c5943f14ea676416100201",
+  "request_fingerprint": "305b5d50d0bbc3fb6457bf145bdd406bec224673d84c9f83d4d4c4b74c945d96",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 5.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.1, é apresentada a distribuição cumulativa do Conceito Enade segundo a Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, a região Norte (linha azul) apresenta um pouco mais de 85% dos cursos com conceito 3 ou abaixo deste valor. A região Centro-Oeste (linha preta), por outro lado, apresenta 40% dos cursos na mesma situação: com conceito 3 ou abaixo. Nas regiões Norte (linha azul) e Nordeste (linha verde), todos os cursos têm conceitos 4 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 4. Em linhas gerais, num gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Centro-Oeste (linha preta) apresenta a distribuição com valores maiores. Cursos em IES situadas nas regiões Sul (linha roxa) e Sudeste (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "c13939fddce3b435f94c9997b42adbc1ef163bff8650eecf853dd3f587024c70",
+  "window_size": 3
+}

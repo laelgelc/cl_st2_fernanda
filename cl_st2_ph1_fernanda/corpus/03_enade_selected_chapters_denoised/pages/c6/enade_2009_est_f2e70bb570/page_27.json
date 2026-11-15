@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04be7bd0bb84edbe006af8e5d67e0487d1ad931eced183ff4b",
+    "usage": {
+      "input_tokens": 2656,
+      "input_tokens_details": {
+        "cache_write_tokens": 2653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 908,
+      "output_tokens_details": {
+        "reasoning_tokens": 448
+      },
+      "total_tokens": 3564
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 26,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_26.txt",
+      "source_sha256": "b11489e438ed8784b7287f52b97dd855892ff9f33216db108453d1da82107394"
+    },
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_28.txt",
+      "source_sha256": "0a5d4c94bf3e62e54e80f409c183d372da1b47ce9e34b204f0dbfd11101dd44a"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:02Z",
+  "duration_seconds": 7.987,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 27
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_27.txt",
+    "source_sha256": "303bff6c1db6e0c16bd681e85bab343a14870b1bb7e217c30d2d03f82a54dde6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5cbbfccd3ade2e0397dd1909314b9cdc5d2be3f12ad625c0708b4aeaf7d18163",
+  "request_fingerprint": "133c3c84170784260425cb37c53803dbb8bdb98097dd5066adca08a3988ab318",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "onde C_FG é a nota bruta de Formação Geral, C_FG_OBJ é a nota bruta nas questões objetivas de Formação Geral, C_FG_DIS é a nota bruta nas questões discursivas de Formação Geral, C_CE é a nota bruta do Componente Específico, C_CE_OBJ é a nota bruta nas questões objetivas do Componente Específico, e C_CE_DIS é a nota bruta nas questões discursivas do Componente Específico.\n\nA nota bruta da prova, C_GER, por sua vez, é também uma média ponderada da nota de cada uma das partes, Formação Geral/Componente Específico:\nC_GER = 0,25 × C_FG + 0,75 × C_CE.\n\n3.1 Estatísticas Básicas da Prova\n3.1.1 Estatísticas Básicas Gerais\n\nA Tabela 3.1 apresenta as estatísticas básicas da prova por grupo de estudantes. O total de estudantes inscritos para a prova foi de 1.557. Destes, 74,1% compareceram, sendo que a presença foi maior entre concluintes (90,4%) do que entre ingressantes (66,5%). A média geral da prova foi de 28,17, sendo que os ingressantes obtiveram média mais baixa, de 25,44, que os concluintes, cuja média foi 32,53. O desvio-padrão geral foi de 12,8, sendo o do grupo de ingressantes menor (10,1), do que o do grupo dos concluintes (15,3), aqueles possuíram uma distribuição mais homogênea nas notas. A nota máxima foi 82,4, obtida por pelo menos um concluinte ao passo que a maior nota obtida por um ingressante foi 65,6. Os coeficientes de assimetria para os dois grupos considerados, o de concluintes e o de ingressantes, bem como para a população como um todo são todos positivos, indicando uma maior concentração à esquerda da distribuição e um maior espalhamento à direita.",
+  "text_sha256": "8f734a29b5b52af73e0d595d8f7cb4cb96c20d87a83dc8c412e8771a060a94d1",
+  "window_size": 3
+}

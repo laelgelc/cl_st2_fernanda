@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d798a7a93671bc1006af8e5da4f3887d1a6b81c4f15d18fe8",
+    "usage": {
+      "input_tokens": 2407,
+      "input_tokens_details": {
+        "cache_write_tokens": 2404,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2404
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 2941
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_34.txt",
+      "source_sha256": "c4af937dddaf80ecf44728715e303c322f174c1178489a029be82ea966c33228"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_36.txt",
+      "source_sha256": "38e1fde2607cb281c8904bf5089266b98accdf72581725a12e3db31aef9ba211"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:06Z",
+  "duration_seconds": 5.145,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_35.txt",
+    "source_sha256": "1bfe72506f270c5fa43c49bb5d733e9ac1a7f127f2dd0399d4bdc3d67e00d318"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "be30c38aa8dff8db85f3f16523b0dd6b4a98e3fef481dfa0e98b01accdd303e5",
+  "request_fingerprint": "30a00eca8bebe23b892e2ff3c61367e7e589aadafd78cfee03bb80c040cc3198",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.5, incluindo título, intervalos e rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.2 e 3.4, o Gráfico 3.6 apresenta uma comparação dos resultados em relação às Regiões, Categoria Administrativa e Organização Acadêmica, agora levando em conta o desempenho dos ingressantes e dos concluintes no Componente Específico da prova. Tendo como foco as notas médias dos estudantes, em determinada Região, observa-se que, entre os concluintes, as mais elevadas foram encontradas nas Regiões Centro-oeste (42,26), Sudeste (31,93) e Sul (30,20), valores acima da média nacional para esta parte (29,03). Entre os ingressantes, as maiores notas ocorreram nas Regiões: Sul (22,71) e Sudeste (22,35), ambas acima da média nacional (19,96).\n\nNovamente, para a análise segundo a Categoria Administrativa, somente entidades federais, estaduais e privadas foram representadas. As médias mais elevadas foram encontradas em instituições de origem federal (33,10) entre os concluintes e estaduais (20,86) entre os ingressantes, enquanto as médias mais baixas foram encontradas nas instituições privadas (respectivamente 20,38 e 18,85).\n\nQuanto à Organização Acadêmica, o comentário é o mesmo já feito para a nota bruta e referente à Formação Geral: somente as universidades, centros-universitários e faculdades foram representadas com este curso. Considerando-se o tipo de Organização Acadêmica, universidades apresentaram os maiores valores, seguidas dos centros universitários e das faculdades.",
+  "text_sha256": "2d93b99110c89efaae14f53cbba048f8f9576488827114ae5865ec36c0c4c496",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0783a94482615ccd006af9029df41087d194d7c1d8a04390de",
+    "usage": {
+      "input_tokens": 2757,
+      "input_tokens_details": {
+        "cache_write_tokens": 2754,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2754
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 536,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 3293
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_42.txt",
+      "source_sha256": "7800eee5a957cc2050482fc3942cc189121949269ecc82a46773312c18498e65"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_44.txt",
+      "source_sha256": "78ace7519c91cf2f363471084fc87bd1145c721812c8f2bde1009d630a2135a2"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:49Z",
+  "duration_seconds": 4.83,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_43.txt",
+    "source_sha256": "562241fb6fbbdf0048b09aa2a12e9a92a540276c8f8e81c4d70d2eb706629a97"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4bc6764e07ebf34b80e8e3bb48993e1e06368c9ddd10d5133d0b579a22f7e3ef",
+  "request_fingerprint": "dbdbe7ce58645a07fd58ffe8cf9d860ff2c405b821b19f76f74591ba4e5d0d54",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas a Tabela 3.3 e sua fonte (título, dados e rótulos).",
+    "Removidas a Tabela 3.4 e sua fonte (título, dados e rótulos)."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 49,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (53,8), e os das IES Privadas obtiveram Média mais baixa (47,2), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (5,8), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (6,6), caracterizando uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (10,9) foi inferior ao do Brasil como um todo (11,5), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades obtiveram Média mais alta que a nacional (51,7). As médias dos Centros universitários e das Faculdades foram, respectivamente, 47,0 e 45,2. Constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos três tipos de Organização Acadêmica.",
+  "text_sha256": "d5dede6e9db50ccd4d9cad403893b6179f0eb145178fee35b7f91012edb8bb48",
+  "window_size": 3
+}

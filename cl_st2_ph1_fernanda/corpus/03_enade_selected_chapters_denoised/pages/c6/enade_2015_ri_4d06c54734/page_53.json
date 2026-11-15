@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0c9fd57489683e006af8fea19d9887d1b21ab9662a508813",
+    "usage": {
+      "input_tokens": 2551,
+      "input_tokens_details": {
+        "cache_write_tokens": 2548,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2548
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 3338
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_52.txt",
+      "source_sha256": "75dffb13a97fca7b244f15b4ca244d4ecfef1d4e60e3dd0ea55d5d24a110336b"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_54.txt",
+      "source_sha256": "140ee9f245a029ffb82bbf3d62460362817ca298de23d58f41762ef564a391a8"
+    }
+  ],
+  "created_at": "2026-11-15T00:36:49Z",
+  "duration_seconds": 7.498,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_53.txt",
+    "source_sha256": "f05beb8cbd02b7a84db746ed9c95a551f5ca7cc354fc6ab411f38eb90b9c3dcc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "59e61ab4da05e7d3820fe020efaea22be2ef8ee9541d70c8904a639478a7e124",
+  "request_fingerprint": "2a3f61f63c757c7cb073d09d1487a80833f59f88783594c96e61c903bf5298e1",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.4 é mencionado e analisado em prosa, mas seu material gráfico foi omitido."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 35,2% escolheram a alternativa D, 30,8% a alternativa C (correta), 11,0% a alternativa A, 15,9% a alternativa B e 5,8% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,6% deixou a questão em branco e 0,9% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "140f02176fe0f32dc162be0bfb3bdb9b0e680b61e0630f6fbd884615308e85e7",
+  "window_size": 3
+}

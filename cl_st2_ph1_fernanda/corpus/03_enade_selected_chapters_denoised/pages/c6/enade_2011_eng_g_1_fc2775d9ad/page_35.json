@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1afbf1547e032e006af8ebc70f1c87d198569b9e2ef91ff9",
+    "usage": {
+      "input_tokens": 2397,
+      "input_tokens_details": {
+        "cache_write_tokens": 2394,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2394
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 2856
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_34.txt",
+      "source_sha256": "6c2d364c27f16e6f4b7395fcf3f643c75431aa0146e6445e0f341a901c407343"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_36.txt",
+      "source_sha256": "34d633aaf7f682ceb9c274a4e79e00c158126334024bc29e73c3749dab35eb65"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:22Z",
+  "duration_seconds": 5.136,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_35.txt",
+    "source_sha256": "86dc3983be3192e11ca92925e82b26c44897c768383a8faa9989ef9797360595"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad6918bbb18e30ed80b83f8a41f7e5e09f09ba87ec3fcc20e8f1da4d338689c3",
+  "request_fingerprint": "8f5c36a5d00c3f843cabe558edf5d6245b558c1b30c83a1f60dae55b65abaf79",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Sudeste (90,8), ao passo que a região que atingiu a menor nota máxima foi a Norte (75,8). A mediana do Brasil como um todo foi (45,9), sendo a maior mediana obtida na região Sul (48,0) e a menor obtida na Norte (41,5). A nota mínima foi zero em todas as regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta o histograma com a distribuição das mesmas. Essa é uma distribuição unimodal, com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,19) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, com concentração pouco maior do lado direito do histograma. A única exceção é a região Centro Oeste, cujo coeficiente de assimetria é levemente positivo (0,02).",
+  "text_sha256": "d3d542cd5cea642a856ad81a81b9fc3db9086ead06195253fbde7e77756e246d",
+  "window_size": 3
+}

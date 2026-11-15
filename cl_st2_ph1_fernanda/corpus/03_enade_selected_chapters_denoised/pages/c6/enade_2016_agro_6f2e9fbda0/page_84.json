@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0005ec9f8795a524006af9018ce59487d198ffaa578706a52e",
+    "usage": {
+      "input_tokens": 2306,
+      "input_tokens_details": {
+        "cache_write_tokens": 2303,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2303
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 408
+      },
+      "total_tokens": 2950
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_83.txt",
+      "source_sha256": "e71126c21b804e5aaafbc77cab1ef5b812b5474dcd34b1c422f4a7233a38df2a"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_85.txt",
+      "source_sha256": "b6fcae90a9cee401bd8b7aba8fca1da5508d88496dfeae4dad1c5fd652cfa878"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:16Z",
+  "duration_seconds": 7.328,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_84.txt",
+    "source_sha256": "2115b252da5b879cac0f1a7e73cde98b455add7c5ff132949f28933eb4affe75"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aad742172776e9c86bf26eef65b3716098f474e82f55880137890a68de45d838",
+  "request_fingerprint": "697fa3babf4d13c2d8973dc30219d927da4d333ab1ddef2cd9430f21dad2b6bc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Quanto à variabilidade das notas, o Desvio padrão dos alunos do Brasil, como um todo, foi 25,9. Enquanto o maior desvio foi encontrado na região Norte (28,2), o menor foi encontrado na região Sul (24,1).\n\nA Mediana para o Brasil foi 80,0, a mesma obtida em todas as regiões, exceto a região Centro-Oeste, que obteve Mediana igual a 60,0. Para o conjunto de alunos de Agronomia do Brasil, a nota Máxima foi 100,0, e a nota Mínima (0,0). Os mesmos limites foram encontrados em todas as regiões.\n\nO Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição também é multimodal com moda principal no intervalo (70; 80], seguida pelo intervalo (50; 60].",
+  "text_sha256": "0110bf86228e4a797d1765f8f5bd489aa11b4505df3dc2ef93c98b978c16ba35",
+  "window_size": 3
+}

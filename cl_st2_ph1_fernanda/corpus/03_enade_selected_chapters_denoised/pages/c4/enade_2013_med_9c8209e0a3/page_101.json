@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4c03551c382e6c006af8f44af21087d1bf916cc9c1ff29ef",
+    "usage": {
+      "input_tokens": 1664,
+      "input_tokens_details": {
+        "cache_write_tokens": 1661,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1661
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 231,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 1895
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_100.txt",
+      "source_sha256": "2c218af152595067920ecb006c945ffe797547a8705dd542b9db6eeedc8887b0"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_102.txt",
+      "source_sha256": "0fcfd4c08d029705c63e73c6610df0d14d55e82109601aee3516ac1f62baa03e"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:42Z",
+  "duration_seconds": 3.021,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_101.txt",
+    "source_sha256": "ccae4c1b97b2b37d82e8bbf9137a6239e82707ad6648c765a4c168055f4a5cb3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5e4e78dc87bf2ea4a595c12cfff4e56c63289c5bed1bef13b2d43526718ee0ef",
+  "request_fingerprint": "ab3b0390620c96afbe09483c7402774735dc228ada890ba88cc0faf7cda1049e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to be attribution for graph or table material."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

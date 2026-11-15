@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_029cab27492d4177006af918f3310487d1a73d812d3d293238",
+    "usage": {
+      "input_tokens": 1808,
+      "input_tokens_details": {
+        "cache_write_tokens": 1805,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1805
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 586,
+      "output_tokens_details": {
+        "reasoning_tokens": 329
+      },
+      "total_tokens": 2394
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 200,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_200.txt",
+      "source_sha256": "b46f461e9b598ace06a297c9c9eaed33c46e0da1836500639b0c2117739ae01b"
+    },
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_202.txt",
+      "source_sha256": "6b8a5ec9bab73aa2c12c9c01d88ef0c9e3df6ca03c277e45e4c452b8a0244ff9"
+    }
+  ],
+  "created_at": "2026-11-15T02:29:07Z",
+  "duration_seconds": 6.383,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_GEOGRAFIA.pdf",
+    "page_number": 201
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_geo/enade_2021_geo_page_201.txt",
+    "source_sha256": "8ab8df058c621335a623680e46d624699f79eb5a93ea7acd3decc2d793b1ddbe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d0ba915d3772764e212ae2373faff0fc52efeab1e6c5335ee0409bbd177fe280",
+  "request_fingerprint": "073bbebbbb0cfcac4e6154e23cf70227dd8df87060dc22003e2f745703a00c43",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.11a, além de material gráfico associado. Os rótulos isolados “CEFET/IF” parecem pertencer a material gráfico; removidos, mas recomenda-se verificar essa classificação."
+  ],
+  "status": "success",
+  "text": "Considerando-se a extensão da prova, o percentual de estudantes de Bacharelado que avaliaram a prova como Longa ou Muito longa, em relação ao tempo total destinado à sua resolução foi maior para os estudantes de Universidades, para os quais a proporção foi de 40,7%, enquanto os Centros Universitários foram a Organização Acadêmica com a menor incidência, com 30,0%. No Gráfico 4.11b, é possível observar que as diferenças entre Universidades e Centros Universitários não são estatisticamente significativas. Nas Organizações Acadêmicas, a proporção de presentes de Bacharelado à prova que consideraram a sua extensão como Adequada, em relação ao tempo total destinado à sua resolução foi 58,6% nos Centros Universitários e 50,5% nas Universidades (ver também Tabela II.6b, no Anexo IIB).",
+  "text_sha256": "bdf1e6105a0e0c819059f3b77dce08f017e239b22da4ac91125748d460c59832",
+  "window_size": 3
+}

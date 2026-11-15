@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0873946542da3b82006af8f7b97fc887d1be84b47f88721698",
+    "usage": {
+      "input_tokens": 2785,
+      "input_tokens_details": {
+        "cache_write_tokens": 2782,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2782
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 334,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 3119
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_51.txt",
+      "source_sha256": "705802b94f76eeec4e4c921c1533441f4559df8be5c21a64f79140f9e2d8ca48"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_53.txt",
+      "source_sha256": "8e4b2bfa91ba8e7bfb4c778aeb743299ad9e3d156ae5e3db0b5d6a583db41e0b"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:21Z",
+  "duration_seconds": 4.228,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_52.txt",
+    "source_sha256": "9ddd85f5407198d72e5e115d497da4e610e8a502bde00043f599e50f917c98b7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "81d9bd6ca80c840f60b4eed05064e94e8b1fd0f199b35680e0cdffbd362c0de4",
+  "request_fingerprint": "152e002a56380b632eb378ca1374c09bcd09715ffb9b53ffc69a019a7c85d2a9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e linha de fonte.",
+    "Removida a linha de fonte associada ao Gráfico 3.3; o gráfico não aparece como texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia de Computação em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova como um todo e abaixo do grupo modal da distribuições de notas de Formação Geral.",
+  "text_sha256": "1f612b1fd0359630ad4fc896074bcd1ad0a59e6781954577b3e8457b00ac3f27",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01eaf15c91044d5a006af8f87b989c87d18cc300c5f01d9adf",
+    "usage": {
+      "input_tokens": 1593,
+      "input_tokens_details": {
+        "cache_write_tokens": 1590,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1590
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 276,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 1869
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_101.txt",
+      "source_sha256": "f32595379a6af437be1c013a56c0130a1d6d3299b5559200d7ac878f6fe70ec8"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_103.txt",
+      "source_sha256": "e74d2689235f11a3fe4e549daf406d06c401fff22b349deb7c60da0106a34710"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:35Z",
+  "duration_seconds": 4.384,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_102.txt",
+    "source_sha256": "0f7edb9346e07a6bd1329c305981b97699adb9a4929c8f314e636923d1228d3b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1186e0dd97b1f1be3ab4298e27c24538456bcaea1887f50051c54076be1187eb",
+  "request_fingerprint": "ae83bc2e70fd37949ae9700021a026091ce2640ea7b527d1f2d2cad0c24293c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que aparenta pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (83,2%) se comparada ao quarto inferior de desempenho (69,5%). As diferenças entre os quartos são todas estatisticamente significativas, com exceção da diferença entre os dois quartos centrais.",
+  "text_sha256": "e1da139bef195d0e8914f536ac305bd6637fed6fc3939e12fdb10670dcfddbf9",
+  "window_size": 3
+}

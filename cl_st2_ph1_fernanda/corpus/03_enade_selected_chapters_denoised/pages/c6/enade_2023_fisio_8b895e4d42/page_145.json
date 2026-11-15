@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d32a3d496425635006af923b1e0dc87d1a3d829592a5616cc",
+    "usage": {
+      "input_tokens": 2503,
+      "input_tokens_details": {
+        "cache_write_tokens": 2500,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2500
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 868,
+      "output_tokens_details": {
+        "reasoning_tokens": 310
+      },
+      "total_tokens": 3371
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_144.txt",
+      "source_sha256": "0e69f546d9c59ca9a61f9a2aff8863d1aa8500680eff163d3c027764f22a63e3"
+    },
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_146.txt",
+      "source_sha256": "f2bb6dc51f6132c337dc756e500482fe6ac18c8854e8263d9e738a487691a1b9"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:57Z",
+  "duration_seconds": 7.394,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 145
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_145.txt",
+    "source_sha256": "2c0770b6a8a5de02947cb808d1a64674b561f11ef9686f604a41d78d06f8752c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f12bb3ab02dadb34ad6ecf5e6693e641ac305adfffbfe99718ad513836748995",
+  "request_fingerprint": "9386b227febb160e770f03634d99e88c2f7da2a2b97a2b5f4a2a429c763d9056",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "5.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (5.3.1) e de Conhecimento Específico (5.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. Após a digitalização, as respostas passam por um pré-processamento de identificação automático. Algumas dessas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que, na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado nesse pré-processamento consiste em verificar, para cada questão, a partir da quantidade de pixels, o que, provavelmente, é uma resposta em branco. A partir da separação, os documentos que foram considerados em branco são enviados para uma verificação visual, feita por uma equipe de colaboradores devidamente capacitados. Desse modo, qualquer erro, presente no pré-processamento, é encontrado, e as questões preenchidas são enviadas para a correção dos avaliadores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Essas são enviadas para a correção, mas são classificadas como “branco” pelos avaliadores, no momento da correção.\n\n5.3.1 COMPONENTE DE FORMAÇÃO GERAL\nAs análises dos resultados de desempenho dos estudantes de Fisioterapia, na questão discursiva relativa à Formação Geral, encontram-se na Tabela 5.13 e no Gráfico 5.6, cujos dados são analisados de forma sequenciada.\n\nNo caso da Tabela 5.13, analisa-se a média das notas da questão discursiva de Formação Geral, que leva em conta as correções realizadas por duas bancas: uma que analisa e pontua aspectos relativos ao conteúdo das respostas, seguindo o padrão de respostas divulgado pelo Inep (ver Anexo VIII); e outra que avalia o desempenho linguístico expresso pela redação das respostas, seguindo um padrão de respostas específico da área de Língua Portuguesa, detalhado na seção 5.3.1.5 deste relatório.\n\nNo cálculo da nota da questão discursiva, consideram-se 80% relativos à nota da correção de conteúdo e 20% referentes à nota de desempenho linguístico.",
+  "text_sha256": "27658630ef9879e66f3c67d50835adba7155a77791715599f2c2a0231802ab65",
+  "window_size": 3
+}

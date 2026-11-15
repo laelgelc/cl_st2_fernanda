@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_098c71c6bb59857a006af91adc757087d1ba1717d6bef6419b",
+    "usage": {
+      "input_tokens": 3063,
+      "input_tokens_details": {
+        "cache_write_tokens": 3060,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3060
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 3597
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 255,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_255.txt",
+      "source_sha256": "6902d3175443bbc317fc26caf9d95ee3dbe68d029bcd605f4dc0f07e21269fb2"
+    },
+    {
+      "page_number": 257,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_257.txt",
+      "source_sha256": "e4709f6112720524b14f0265068f0d46a92d8dc33eba3cb7d52075358cd8359a"
+    }
+  ],
+  "created_at": "2026-11-15T02:37:16Z",
+  "duration_seconds": 5.236,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_QUÍMICA.pdf",
+    "page_number": 256
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_256.txt",
+    "source_sha256": "e65af87ccad824a120c9c41b2ec66e282ee492629d8b8856259b87c13da4156e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a34754de15e9738fbd0080249a5d6a7945b232f3a7f710e4f35890b555ef264",
+  "request_fingerprint": "8d90938b661abdb2d216a645ae98a5f3af6d0574e7b5b7b3691142eafaf6e812",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2021», pertencente ao gráfico; o material gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "valor acumulado da variável (Conceito Enade). Observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar que, por exemplo, a região Norte (linha azul) apresenta 100% dos cursos com conceito 3. A região Sudeste (linha vermelha), por outro lado, apresenta 70,7% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que em algumas regiões o conceito 5 pode não ter sido alcançado por nenhum curso, como ocorre na região Norte (linha azul), na qual o curso tem conceito igual a 3, e a poligonal alcança 100% no conceito 3, e nas regiões Nordeste (linha verde) e Centro-Oeste (linha laranja), nas quais todos os cursos têm conceito menor ou igual a 4, e a poligonal alcança 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha rosa) apresentam as distribuições com valores maiores. Cursos em IES situadas nas regiões Nordeste (linha verde) e Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "5ad0ad17eece82c0e7c002ab12b56646a79b7a3c009ef606825e8ace76c117c2",
+  "window_size": 3
+}

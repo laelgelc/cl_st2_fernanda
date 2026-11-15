@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0868691519c91994006af8fd16d9d887d191892dd64f3563e0",
+    "usage": {
+      "input_tokens": 2615,
+      "input_tokens_details": {
+        "cache_write_tokens": 2612,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2612
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 3024
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_admin/enade_2015_admin_page_112.txt",
+      "source_sha256": "952948233c7853751a77c6feeeb32df6067271c63f3aa50482b96aaa75e19399"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_admin/enade_2015_admin_page_114.txt",
+      "source_sha256": "b2527967be32d844c2e2c95f14fc6318a8027d0eefa92b08220fd9583a095ae5"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:14Z",
+  "duration_seconds": 3.125,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_admin/enade_2015_admin_page_113.txt",
+    "source_sha256": "38137d8dd252ebd9c48752549bf9f141167803d16341f1076bad6e714e968609"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f438110bb55b3d5c40899e43b81a4178030e9a2c3b678f459a479cf0caa31cb6",
+  "request_fingerprint": "cee71d59be0f1e43871a3014912f6ed8e028f81ce1d0881ba772ff0dd172c919",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 5.1 e sua linha de fonte; a descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "Já dos 189 cursos participantes na região Centro-Oeste, 79 receberam conceito 2, o conceito modal (41,8%). Nesta região, seis cursos (3,2%) ficaram sem conceito (SC). Já 14 cursos foram alocados no conceito 1, correspondendo a 7,4% dos cursos nessa região, 67 cursos (35,4%) foram avaliados com conceito 3, 18 cursos (9,5%) com conceito 4 e cinco (2,6%) com conceito 5.\n\nO Gráfico 5.1 apresenta a distribuição do Conceito Enade segundo Grande Região: poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Centro-Oeste (linha preta) apresenta os cursos em IES com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha roxa) apresentam as distribuições com valores maiores. Cursos em IES da região Norte (linha azul) apresentam uma distribuição semelhante à da região Centro-Oeste. A região Nordeste (linha verde) apresenta uma situação intermediária.",
+  "text_sha256": "2adc3d1299ce058ceba0df261dceb4c4d547503dda09b136c21d17ab684df320",
+  "window_size": 3
+}

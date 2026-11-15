@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000d13aa4a4947b0006af8ed26479487d187f25afa50061ed4",
+    "usage": {
+      "input_tokens": 2230,
+      "input_tokens_details": {
+        "cache_write_tokens": 2227,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2227
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 673,
+      "output_tokens_details": {
+        "reasoning_tokens": 412
+      },
+      "total_tokens": 2903
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_37.txt",
+      "source_sha256": "90ab7759b9f8683bd6261a33e4b79c21fd22bd3130faeeec2b754d7653e31994"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_39.txt",
+      "source_sha256": "9172f2d93016ceeff63d9bf9090206957a7660d3de9dbac1f944adda80f24940"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:14Z",
+  "duration_seconds": 9.264,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_filo/enade_2011_filo_page_38.txt",
+    "source_sha256": "08f8c02e21433138a97e05692f436a8c63f5cf1ded7efa5b605290fdd5e0a5f2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9a3edf3427a42230befb761f0b2d1e907568cc370482c6bfd66ecb003494fce2",
+  "request_fingerprint": "03b0330bc08162428d2937677a0d81d53f30835c3e6bbd5839455e258aad33a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011” at the top as likely belonging to graph or table material; its association is uncertain."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 51,1. A maior média foi obtida na região Centro-Oeste (54,7), e a menor, na região Nordeste (48,8). As demais médias foram: 53,3 na região Norte; 50,1 na região Sudeste; e 53,2 na região Sul. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 20,7. O maior desvio padrão foi obtido na região Sudeste (22,0) e o menor na região Norte (17,6). Os demais desvios padrões foram: 20,5 na região Nordeste; 19,9 na região Sul; e 18,6 na região Centro-Oeste.",
+  "text_sha256": "907fb6e01a5d9ac8c808c58a677c821b5bc2b3f3ba16f652136d5ea74fc118d4",
+  "window_size": 3
+}

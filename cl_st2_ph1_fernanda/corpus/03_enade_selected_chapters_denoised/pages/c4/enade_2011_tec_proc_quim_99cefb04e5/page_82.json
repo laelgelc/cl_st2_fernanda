@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc36937aeeac364006af8efbbfa4087d18898d9cc30dd9011",
+    "usage": {
+      "input_tokens": 1698,
+      "input_tokens_details": {
+        "cache_write_tokens": 1695,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1695
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 560,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 2258
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_81.txt",
+      "source_sha256": "284472a670ed405ba107abb511487e002d2849ffaaa865207ff3068acb4de59c"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_83.txt",
+      "source_sha256": "83ac29ab2281dbc716221b21d0066a50f7452be85bd98046f159a134a76b88b0"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:15Z",
+  "duration_seconds": 6.185,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_82.txt",
+    "source_sha256": "003971f13354076554e1a1310c2499835c79ed7ecc994cc03d6e1ad143bc2d3d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf93b88247884e5c4721e93baaf2439341da5d537d4c58ce52a6379e1237be53",
+  "request_fingerprint": "cbde9a4910ce03df489e3a0beedfebb7154606f3d8e541152e54597ca0bcf6ce",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o crédito de fonte (MEC/INEP/DAES - ENADE/2011), identificado como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos alunos, nota-se que o percentual de estudantes do 1º quarto que consideraram a extensão da prova adequada (73,9%) é superior aos demais. Nos demais quartos, os valores ficaram na casa dos 64%: no 2º quarto, 64,0%, no 3º quarto, 64,7% e no 4º quarto, 64,5%.\n\nNo Gráfico 4.6, pode-se constatar que, nos quatro quartos de desempenho, as proporções de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, não mostram diferenças estatisticamente significativas entre eles. Tais proporções variam de 21,7%, no 1º quarto, a 33,3%, no quarto superior, não apresentando, entretanto, tendência de crescimento.",
+  "text_sha256": "152094c5837aafdc21cdcfde3446fdaef013d236349cc3b41262ce98a7fdc76b",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_020cef2e18490d27006af90e96f41c87d1ae17b21019860a64",
+    "usage": {
+      "input_tokens": 2367,
+      "input_tokens_details": {
+        "cache_write_tokens": 2364,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2364
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2769
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_139.txt",
+      "source_sha256": "a5bd074ad06cca7be80eab8363c243acfa69cf04b2f45fa9b3f97e540f07bfa4"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_141.txt",
+      "source_sha256": "4bccf3ea2c08fb7067ae8dc5a23a939b17621cea0ea63a7627e8035ab667064e"
+    }
+  ],
+  "created_at": "2026-11-15T01:44:54Z",
+  "duration_seconds": 4.936,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN GRÁFICO.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_140.txt",
+    "source_sha256": "ce1ef658a57cdd15440430d8cff4a90025819e148f45f33700ad05523c38dab6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2ba9147fce81bfcf80e658bb3b94fcbc650068db7ecf2aeac092dbc49e9ffa92",
+  "request_fingerprint": "b0e6736b31a9e27fa4b009875f8f5a88d1e728f56c8c480a90502ff7f134982f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.18.",
+    "Removida a linha de fonte do Gráfico 6.11; o conteúdo gráfico não aparece no texto extraído. A frase sobre a moda termina em “(30; 40.” e pode estar incompleta."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Design Gráfico. Sem se levar em consideração que 24,3% dos estudantes deixaram a resposta em branco e que 16,6% receberam nota zero, a moda dessa distribuição seria o intervalo (30; 40.",
+  "text_sha256": "ddb51d44b0ae4fe4b0000c24970e0cdf760f4b37faec336b587ecd1bde64a3ae",
+  "window_size": 3
+}

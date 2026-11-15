@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb65379ce56aece006af9119ff98087d1863bb7f4de23e4c4",
+    "usage": {
+      "input_tokens": 2655,
+      "input_tokens_details": {
+        "cache_write_tokens": 2652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 245
+      },
+      "total_tokens": 3214
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_165.txt",
+      "source_sha256": "38ae3e30656702e062560bdfc08075ff4587c8f3f6ac1b36326ee93c3c9c060d"
+    },
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_167.txt",
+      "source_sha256": "c490f56bbe9bd1747e5808c4faf208e7b4033ec21c916690b56f76c3589eb6c6"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:51Z",
+  "duration_seconds": 5.712,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 166
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_prod/enade_2019_eng_prod_page_166.txt",
+    "source_sha256": "6908af6de89f53498bc00ada72987db716d6aa548f693d3dd1910a8b85bbefe4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d97a4ff02c2a4bc00de7d6b423002c27c39ac318b2a1bf36cb6da4b559ed6a0",
+  "request_fingerprint": "42781f1534f89cdc878338847cb1e9f3c6a128d10d691da0c95cb86a947082f5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/Inep/Daes – Enade/2019”, which belongs to the graph continued from the preceding page; no graph data was included in the extracted target text."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

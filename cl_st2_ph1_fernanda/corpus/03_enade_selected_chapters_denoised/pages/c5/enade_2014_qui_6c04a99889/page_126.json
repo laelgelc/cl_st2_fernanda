@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a6010ff9227df9006af8fbb4f81487d19de88eeb581ece59",
+    "usage": {
+      "input_tokens": 2848,
+      "input_tokens_details": {
+        "cache_write_tokens": 2845,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2845
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 579,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 3427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_qui/enade_2014_qui_page_125.txt",
+      "source_sha256": "b21af947d33d63c20a78f941a4cdfe263f4663d5ab771c7debdfc310a1bb2d02"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_qui/enade_2014_qui_page_127.txt",
+      "source_sha256": "0f7a2b2fa91d156b5beee538c058d43f500937aeb6bd5fdcf2446003bff219ce"
+    }
+  ],
+  "created_at": "2026-11-15T00:24:20Z",
+  "duration_seconds": 6.141,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_QUÍMICA.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_qui/enade_2014_qui_page_126.txt",
+    "source_sha256": "ccd1c9c2cad2c4919c1c945ce528886ef23cd46c1c35aca1b8a8313688f24123"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "636fbde5a8cecf174068a0e20282d86f81921f217c1a86621e24dd87e7eaac53",
+  "request_fingerprint": "62cc9ec4fc85fe2b25164964c5ffbeb7f54a69812965528e345d5c8bed1b1e3d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico ou tabular; a página de contexto menciona o Gráfico 5.1."
+  ],
+  "status": "success",
+  "text": "A Tabela 5.2 apresenta a quantidade e distribuição de cursos de Química (Licenciatura) participantes do ENADE/2014, por faixa de conceito e Grande Região. A diferença entre os cursos tabulados neste capítulo e no capítulo 2 são os cursos sem conceito (SC), em princípio, aqueles sem alunos concluintes que participassem da prova ou que tivessem tão somente um aluno concluinte23.\n\nObservando-se os dados da Tabela 5.2, nota-se que, dos 245 cursos participantes, 96 (39,2%) classificaram-se com conceito 3, o valor modal, diferente de Química (Bacharelado). Este foi também o conceito modal em quase todas as regiões, menos na região Norte, que teve o conceito 2 como modal. O conceito 2 foi o segundo mais frequente em nível nacional (27,3%, correspondendo a 67 cursos) e o conceito 4, o terceiro (21,2%, correspondendo a 52 cursos). Houve, ainda, 12 cursos (4,9%) que receberam conceito 5 e outros nove cursos (3,7%) que receberam conceito 1. Dos 245 cursos de Química (Licenciatura), nove cursos ficaram sem conceito (SC).\n\n23 Estes cursos com somente um concluinte não foram considerados no capítulo 2.",
+  "text_sha256": "ebe909f3b388613171c012aab93fb2e5e71a95d7b1f31d39d148a7fd43c4fdf8",
+  "window_size": 3
+}

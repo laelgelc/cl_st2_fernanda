@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c8599cd545ae13006af8f87203f887d1aab97dcb7f172600",
+    "usage": {
+      "input_tokens": 2427,
+      "input_tokens_details": {
+        "cache_write_tokens": 2424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 251,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 2678
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_85.txt",
+      "source_sha256": "e516cbb9e31d20c3d4b658a4dbbde18c964fdb60012aa96060ec04a1fd2511a1"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_87.txt",
+      "source_sha256": "729dbbfae57013dbc075d1f661526a0791b378e9e977095a9dd95e8c96eda0ab"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:25Z",
+  "duration_seconds": 5.328,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_86.txt",
+    "source_sha256": "0249a2811f119647ac42fb171cc6e77b1fc3615cbf4d98bac6a8152b45babc49"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9c8736f48066ae564af18d4e0856b7b2d5abbece38162a5c2332d487c3199fb",
+  "request_fingerprint": "6d5da0a519407ab5c449f140a3fd61384f389f0d3f05aa5255b90a7fc81ca896",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.17, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.12 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 apresenta a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo (20; 30]. Destaca-se, também, a categoria “em branco” com mais de 20% do total de estudantes, representando um máximo local.",
+  "text_sha256": "328bb53746c6b88b48ea26eb0cfd2f9cd77fdfea6c78898183de1502c83d6265",
+  "window_size": 3
+}

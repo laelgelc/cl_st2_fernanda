@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0db10b446396f621006af90d10e78087d18513787f2701a17f",
+    "usage": {
+      "input_tokens": 2573,
+      "input_tokens_details": {
+        "cache_write_tokens": 2570,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2570
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 2916
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_104.txt",
+      "source_sha256": "ce27e8020fc77e5dec3e798b42844c1866c724165feeb73bbc31134ab916f17c"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_106.txt",
+      "source_sha256": "8902acbee9d7d598f3e5b19540bcedf5b90686248c4ca53f02b5b598976c22e4"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:24Z",
+  "duration_seconds": 3.44,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PSICOLOGIA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_105.txt",
+    "source_sha256": "5f543c593d367e12327fc7973c4d57719ebbe20719454059cc65974d31654d3a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a98017930ae72a69392d6f186e33ab7fbeba884fb6fe4fa791319d4aa00cdce7",
+  "request_fingerprint": "eb1ef13e3a65f686d96e464daf8664f9a32be8373414880dca3de5d991467e37",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2018”, identificada como pertencente ao gráfico na página."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (60,9) e a menor pelos de IES Privadas (47,9).\n\nNota-se que também há diferença estatisticamente significativa entre as médias dos três tipos de Organização Acadêmica: Universidades (52,5), Centros Universitários (47,5) e Faculdades (45,4).",
+  "text_sha256": "cb3e639e5d7819f03b6094b4d19ee616c5a533a398022b31ab8d0a43b6c7ef77",
+  "window_size": 3
+}

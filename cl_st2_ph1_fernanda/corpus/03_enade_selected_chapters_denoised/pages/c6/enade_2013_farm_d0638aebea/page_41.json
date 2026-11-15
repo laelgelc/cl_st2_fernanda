@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ab8ce047ef9f288006af8f3a0b44087d19f005da6087af0e8",
+    "usage": {
+      "input_tokens": 2250,
+      "input_tokens_details": {
+        "cache_write_tokens": 2247,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2247
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 452,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 2702
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_40.txt",
+      "source_sha256": "81e0482ff3703259aa930eb9a375e4170d26c50cea42dd0e935a97ae8f19ef84"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_42.txt",
+      "source_sha256": "effb2e19ca4973b8b865ddf6fee40c24c7825b7c14c54f49f7998bc5958bbe2a"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:52Z",
+  "duration_seconds": 4.735,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_41.txt",
+    "source_sha256": "e18416eb366e116f43ac4bd6087b6ce1064efb650782e0d477456d3a50015607"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "760c5cf5d2b6763d0e1fd4d9d374927bbeaf20b765d845ae2315b3eb9320c109",
+  "request_fingerprint": "dc20b0e370514c805e7483eb49ca945226dc2a9eaa655a13386813546966ef28",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.1 (histograma da distribuição das notas) e sua linha de fonte; o material gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "apresentam coeficiente de assimetria positivo, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito, excetuando-se a região Sul que possui assimetria negativa (-0,06).\n\nOs Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (44,1) e a menor, obtida na região Norte (36,9).",
+  "text_sha256": "5946c234bb0aa032947be1d5727f4be3693adf499dec98ce09935853ddb44b5d",
+  "window_size": 3
+}

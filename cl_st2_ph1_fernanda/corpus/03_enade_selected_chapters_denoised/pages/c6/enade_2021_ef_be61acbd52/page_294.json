@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2e2dd541cf9412006af91830410c87d19a9166b08bdb79c4",
+    "usage": {
+      "input_tokens": 3623,
+      "input_tokens_details": {
+        "cache_write_tokens": 3620,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3620
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 783,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 4406
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 293,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ef/enade_2021_ef_page_293.txt",
+      "source_sha256": "16ea443d1d8fba2fed707b7012df69dc0fc12e8f05de3f39ccc83987f83766ea"
+    },
+    {
+      "page_number": 295,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ef/enade_2021_ef_page_295.txt",
+      "source_sha256": "88af7da8399c1c791cd829327bbead3d72770e5bb59c8e0389b1642fed6c5646"
+    }
+  ],
+  "created_at": "2026-11-15T02:25:52Z",
+  "duration_seconds": 9.328,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 294
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ef/enade_2021_ef_page_294.txt",
+    "source_sha256": "88bbdde589844aa46f4c2635eda95a5dea9bb2a2ffd26d1b2676ce75f44a2783"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2b0076922de6685c6626fdff8069d6014b41e59c8a0f1a2da21fb37539bfa25b",
+  "request_fingerprint": "efac38f7f44803c52c2a4b0afcd77ebdcd045f9b1d1b531400ced2ca4f4dbb19",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, identificada como pertencente ao material gráfico que continua da página anterior.",
+    "A última frase termina em “IES Públicas de ensino” nesta página; não foi completada com o texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.6, é apresentada uma comparação dos resultados em relação a Categoria Administrativa, a Organização Acadêmica e segundo a Habilitação, agora levando-se em conta o desempenho de estudantes do Componente de Conhecimento Específico da prova.\n\nNo que se refere a Organização Acadêmica, para os alunos de Licenciatura, a maior Média foi a dos CEFET/IF (44,1), vindo a seguir a das Universidades (38,3), a dos Centros Universitários e das Faculdades (35,1). O maior Desvio padrão, e superior ao valor para o Brasil, como um todo, foi o das Universidades (16,1). As Universidades obtiveram a maior nota Máxima (92,0). Os Centro Universitários obtiveram nota Máxima 83,8, as Faculdades, 86,6, e os CEFET/IF, 84,6. As Medianas foram: 36,8 nas Universidades, 33,5 nos Centros Universitários e nas Faculdades, e 44,6 nos CEFET/IF. A nota Mínima foi zero para quase todas as Organizações Acadêmicas, exceto para os CEFET/IF (6,8). Observa-se que não existe diferença estatisticamente significativa, ao nível de 95%, no Componente de Conhecimento Específico entre as notas dos Centros Universitários e das Faculdades.\n\nQuanto a Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova, como um todo, ou seja, existe diferença estatisticamente significativa entre as Médias das IES Públicas (44,6) e as das IES Privadas (34,5). Neste caso, também, a maior Média foi obtida por estudantes de Licenciatura de IES Públicas de ensino.",
+  "text_sha256": "90b32bb85ab02db298de3aa82fb7d5bae1199cb28bdf047a3a19d0e7eceb4136",
+  "window_size": 3
+}

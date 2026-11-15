@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0223c3dfbbf4553b006af8f59658e487d1911fddbf7a0b8cf8",
+    "usage": {
+      "input_tokens": 1971,
+      "input_tokens_details": {
+        "cache_write_tokens": 1968,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1968
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 2410
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_46.txt",
+      "source_sha256": "47321c28cf9bafa9df4c6aa0875f41759dc7cb0da4c295eff69047e19e105f17"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_48.txt",
+      "source_sha256": "0c3be07f78a90b614ed569e33b4e40b7cf84cdc5df4c3cbfabbbdb9c98ec7914"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:14Z",
+  "duration_seconds": 4.036,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_47.txt",
+    "source_sha256": "6c7d36002a55bf6659356e5e60640e0e02c2f778e141361acaed94d284d5784a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b8ce3d770d36909599514cfa309e7ace4a7c8f1d4bbb340da3fb4473aac3dc45",
+  "request_fingerprint": "4e2b8e8c22d84fe0633fc890c24df3468fef08afe2ea25d69772e9ffba64b6d4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Sul (42,9) e a menor, obtida na região Norte (39,8). Vemos que o intervalo de confiança mais largo é o da região Sul; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Sul do que na Sudeste.",
+  "text_sha256": "590707be315c99de1a6d7eb20d57a4fa25cd5bccffd3ef96c44f21544924b13b",
+  "window_size": 3
+}

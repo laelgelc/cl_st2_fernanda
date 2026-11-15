@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02e399f128c7141b006af8eee56f4c87d19b5cd196b187765a",
+    "usage": {
+      "input_tokens": 2157,
+      "input_tokens_details": {
+        "cache_write_tokens": 2154,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2154
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 823,
+      "output_tokens_details": {
+        "reasoning_tokens": 574
+      },
+      "total_tokens": 2980
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_39.txt",
+      "source_sha256": "82a9080d3872903b0d845c04e67ed652c3459c7d745f0c5977cdbc551343892e"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_41.txt",
+      "source_sha256": "535731b4874a658c02365f467a7e27293d12f701bad080a629a7bc8060c2c625"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:41Z",
+  "duration_seconds": 6.174,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_40.txt",
+    "source_sha256": "3f8a8f1e9a050d7a96079de322cfea38a1c745816e80405c33812bc29bd52183"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b6f08f7644f5d662c4fc5dda619284e8dcb37aadd74f429b98c02f3aa08fec8",
+  "request_fingerprint": "3ecc06db8e4d107d2c8fd5e3548364eb30734cfcf97a3aa8d4dd6023f2ad4d0f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the page number and source line at the top, which appears to belong to preceding graphic material; confirm the source-line boundary."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 47,8. A maior média foi obtida na região Nordeste (53,1), e a menor, na região Centro-Oeste (45,3). As demais médias foram: 46,8 na região Norte; 48,9 na região Sudeste; e 45,8 na região Sul. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 17,6. Já o maior desvio padrão foi obtido na região Centro-Oeste (18,3) e o menor na região Norte (17,0). Os demais desvios padrões foram: 17,8 na região Nordeste, 17,5 na região Sudeste e 17,3 na região Sul.",
+  "text_sha256": "e9c729a0a8923cb890925f701ba5a12b969adbab5159e39c9e8052c6b7f26bb8",
+  "window_size": 3
+}

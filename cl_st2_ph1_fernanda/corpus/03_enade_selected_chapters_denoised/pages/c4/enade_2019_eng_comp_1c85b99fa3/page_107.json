@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d6ba559ecd3a4e4006af910cc8f4887d1b62cac7870f68c7b",
+    "usage": {
+      "input_tokens": 1799,
+      "input_tokens_details": {
+        "cache_write_tokens": 1796,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1796
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 393,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 2192
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_106.txt",
+      "source_sha256": "f97fae70699c0c12300b6ea4bf5b48fd8a0b96bcc48123187cd512299c04af68"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_108.txt",
+      "source_sha256": "e24cf0b63ed327a5c2711630a18faf3f76cbe81ab70755658f829caeeb41eaa3"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:20Z",
+  "duration_seconds": 3.958,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_107.txt",
+    "source_sha256": "4ffb16488d69d1fbd92016807d8f41cf5ce03a4cb27ec6c1cea1949ca0a74e98"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "747321e234096d914cec707b1362123df673d3cf733ee5fe39f402d39c45f166",
+  "request_fingerprint": "c3ba8cc5204f9c9aa3eeb35a057b312670647104a4f7eda67511f086ac8de89e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.11; “CEFET/IF” foi tratado como rótulo gráfico, não como prosa."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram a prova como Longa ou Muito longa, em relação ao tempo total destinado à sua resolução foi maior para os estudantes de cursos de IES Públicas (31,8%), não há uma diferença estatisticamente significativa da proporção em IES Privadas (30,4%). Já a proporção de presentes à prova que consideraram a extensão como Adequada foi 59,1% para os de IES Públicas e 61,2% para os de IES Privadas (ver Gráfico 4.12 e Tabela II.6, no Anexo II).",
+  "text_sha256": "f4b9a96e429756e2096786624a57765856cf2f06974b7312e7e23c5e139c29fc",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0731445f972697cc006af90174dcd087d1ad428780dd71f0ab",
+    "usage": {
+      "input_tokens": 2727,
+      "input_tokens_details": {
+        "cache_write_tokens": 2724,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2724
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 481,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 3208
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_42.txt",
+      "source_sha256": "b8f05a07a2a535c6866f58b3f46e527e9e3a517f8ce1906b0382cd1abedaa217"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_44.txt",
+      "source_sha256": "87c63586891b5038628dddb9067ef6f7b36932f97792c3963343b667cbe91b9f"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:52Z",
+  "duration_seconds": 4.036,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_43.txt",
+    "source_sha256": "0f6f2bd6c46fa2259372ae5526545006ecd239a2b60ef01bbc7902b8ef19a749"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1791de7b8c2d9cb87f8c4f7cddc7959176a1ea947074356a6ce912f6756423cb",
+  "request_fingerprint": "1a2e8070ffa510af5d063da4f5e6c264fc0dae41cb61e1895b3efbe8f651314a",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.3, incluindo título, dados e fonte, removida.",
+    "Tabela 3.4, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa, e por Organização Acadêmica. A Média das notas da prova como um todo foi 57,2. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (58,9), e os das IES Privadas obtiveram Média mais baixa (54,2), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (8,3), a maior e a menor Média, é superior à diferença entre IES Públicas e Privadas (4,7), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Privadas (13,2) foi superior ao do Brasil como um todo (13,1), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, somente as Universidades obtiveram Média mais alta que a nacional (58,7). A média dos Centros Universitários e das Faculdades foram 55,2 e 52,6, respectivamente. Constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos três tipos de Organização Acadêmica.",
+  "text_sha256": "cbe6a643855f488f071f582aec857e74c1cb4d9e461ca56561c0ed0e23029e2d",
+  "window_size": 3
+}

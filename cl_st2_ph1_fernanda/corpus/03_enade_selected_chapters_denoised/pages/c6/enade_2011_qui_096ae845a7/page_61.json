@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02fc8a483954dcfc006af8ee997edc87d18d0005015e39da05",
+    "usage": {
+      "input_tokens": 2521,
+      "input_tokens_details": {
+        "cache_write_tokens": 2518,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2518
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 336
+      },
+      "total_tokens": 3040
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_60.txt",
+      "source_sha256": "9be6099d9c319b415bd801ab0013973c6e073b55d63203586d79bf1384ac1d62"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_62.txt",
+      "source_sha256": "3229dd558ac45380e8a433654d770e9515da8a1e785fb35ffaf416fd891f7c68"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:25Z",
+  "duration_seconds": 5.244,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_61.txt",
+    "source_sha256": "2ab23bc9dfda4e7ba539534f24ab129fac4ba654aca8bda5f5d9d73567ba6b27"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3f64f8c61006c24221f7e1b175503f25f7292fcc1894b6529899488da230fb14",
+  "request_fingerprint": "d269044b81e2eb6603768d2c0b5fb367b8013469e7e3e4291413ce0e5c398ff6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo título, dados e fonte.",
+    "Removido material gráfico do Gráfico 3.15; a linha de fonte ao final da página foi tratada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.15 analisa a questão 27 do componente de Conhecimento Específico. Esta foi para os estudantes avaliados a segunda questão mais fácil da prova, apresentando índice de facilidade 0,79, ou seja, 79,0% dos estudantes assinalaram acertadamente a opção B, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,44, classificado como muito bom, também sendo esta questão que apresentou o maior índice discriminatório.",
+  "text_sha256": "df65522a3c802d40aa3558d46a6aa9714601a46bd46a38c658244f12597e3a30",
+  "window_size": 3
+}

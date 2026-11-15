@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_019d6d5f09701a55006af921e3b5e487d197349f85801b3e06",
+    "usage": {
+      "input_tokens": 2402,
+      "input_tokens_details": {
+        "cache_write_tokens": 2399,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2399
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 438,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 2840
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_enf/enade_2023_enf_page_120.txt",
+      "source_sha256": "f5ded0da97692c25e703a54280a33a84927cf4662b9b88a5dfd2e60c39066cca"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_enf/enade_2023_enf_page_122.txt",
+      "source_sha256": "b08a05a1e6f33df8f5595cd61d92d62975d79afe1edeaf76af2aa6cbbf9fccb3"
+    }
+  ],
+  "created_at": "2026-11-15T03:07:15Z",
+  "duration_seconds": 4.787,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENFERMAGEM.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_enf/enade_2023_enf_page_121.txt",
+    "source_sha256": "870d5eb4062dfe7d69e10bbfa87fa4b0ee97c9131ea59a996401bd4c36a39005"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a4a420afbe2c707e1d71267278bf984e2cdfff927d01e2f3d7280a4fbdc5355",
+  "request_fingerprint": "9b0b698363d78682f32b60ab422fe2dd5ea8cc792b578e53af8cb4eaffbdec65",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, sua legenda e a linha de fonte. O conteúdo visual do gráfico não estava disponível no texto extraído."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 84,8% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 71,6% dos cursos na mesma situação: com conceito 3 ou abaixo.\n\nA região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "97e037d01b277ac57b5ea33cb246bb45446e25a8ab75d1b561582d08ed9c87a1",
+  "window_size": 3
+}

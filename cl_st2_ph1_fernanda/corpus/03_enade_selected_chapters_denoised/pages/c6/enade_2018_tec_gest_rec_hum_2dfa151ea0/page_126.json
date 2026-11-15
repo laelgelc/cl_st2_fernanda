@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00932e582190c666006af90f363c8487d1923d4944eda19e91",
+    "usage": {
+      "input_tokens": 2890,
+      "input_tokens_details": {
+        "cache_write_tokens": 2887,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2887
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1322,
+      "output_tokens_details": {
+        "reasoning_tokens": 717
+      },
+      "total_tokens": 4212
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_125.txt",
+      "source_sha256": "2f6b3c4dbbf6c22461000b401e27b226e4f7c07f1251dd6a394209d0db555dbc"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_127.txt",
+      "source_sha256": "8fdc97455deb51a78202878d030c5b1fe17c261594e7447085f1e327f7ff52db"
+    }
+  ],
+  "created_at": "2026-11-15T01:47:34Z",
+  "duration_seconds": 10.852,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_rec_hum/enade_2018_tec_gest_rec_hum_page_126.txt",
+    "source_sha256": "ad4ed51d0211be4b7c078674789f869dabe263c7b1712e88763be35c94b287f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5206e0259c8fb42764e391479b32f9f10d0decb66417c3a549f4d10a4e160ccd",
+  "request_fingerprint": "8cab41fcf6a39172cff8593fa993a2b3cc1775f5170852cdc5c47317fc330391",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.9, incluindo título, dados e fonte, removida.",
+    "Gráfico 6.4 e seus elementos gráficos removidos; sua fonte aparece na página de contexto seguinte.",
+    "A última frase continua além da página-alvo; foi mantida truncada, sem completar com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "quinto dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Muito bom (0,40). A questão 6, também considerada Difícil (0,39) quanto ao Índice de Facilidade, obteve Índice de Discriminação Bom, 0,38.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 38,3% escolheram a alternativa C (em preto), 22,4% escolheram a alternativa E (em vermelho), 17,1% escolheram a alternativa D (em laranja), 11,1% escolheram a alternativa A (azul), e 11,0%, a B (em verde). Entre os que acertaram três respostas das questões de múltipla escolha de Formação Geral, 0,04% deixaram a questão em branco, e 0,02% marcaram mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas) nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de",
+  "text_sha256": "56e97156ffdd3a26f46bc7dcfd8bcf6ce532f9ce5994712f45c2a27d2cb596e5",
+  "window_size": 3
+}

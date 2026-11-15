@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01071c33e4149b93006af901e534dc87d1aa843069af3dc6ba",
+    "usage": {
+      "input_tokens": 2574,
+      "input_tokens_details": {
+        "cache_write_tokens": 2571,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2571
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2859
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_85.txt",
+      "source_sha256": "6335b948fc3338418af7d1ecd7b6ad13708bdf8643ae98933ef64ee7d1d2d2c7"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_87.txt",
+      "source_sha256": "f625e2cac8ecbb4ed6d323619ae8dc97594b33ff559f61c46a7b0a5ae6a689a5"
+    }
+  ],
+  "created_at": "2026-11-15T00:50:45Z",
+  "duration_seconds": 3.298,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_ef/enade_2016_ef_page_86.txt",
+    "source_sha256": "10bada507bc394bc5c19ba60c22b70bf5605fc12d3f419c723924d6a71780df0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "242a80a6513afd411cba77ce98fd31ebfeabdb56ed7c864baf47d9993894b863",
+  "request_fingerprint": "24cb865500d2c5d548be02ea2c6e555b0358382f73f1ceae4a7085ec0d9386ea",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.13 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição apresenta moda no intervalo (40; 50], com quase 35% dos concluintes. Destaca-se, também, o grande número de estudantes que deixaram esta questão em branco ou que obtiveram nota zero: a soma da frequência destes dois grupos aproxima-se de 25% do total de concluintes.",
+  "text_sha256": "c8e777a6cbc758ed298075fb7def176223bd2422319ee726af7ecaa4088254a8",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ad69797b60e4cb3006af8f06a6e7c87d194a26477e74d3e0f",
+    "usage": {
+      "input_tokens": 1480,
+      "input_tokens_details": {
+        "cache_write_tokens": 1477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 289,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 1769
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_36.txt",
+      "source_sha256": "020d07eb519f4db28977c6b32af28c34d1472369a9e238f9b65663295e74a6b8"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_38.txt",
+      "source_sha256": "b90778a9bd5f471463bc1ba4f764aae6a079632ec6c118fd273e2a8bd567fb74"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:10Z",
+  "duration_seconds": 3.801,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_37.txt",
+    "source_sha256": "f41f58ed3114c5be1db7c69b46fb5934d3bd5483861963f30fd292c79ecdb6aa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dad7484b65048530de65ebe444824467a422e2cee3d71482a1131e46ebe55836",
+  "request_fingerprint": "adca9f1556df6a32bf7710b714b1c3f8e60a8ef45f7520cd85b610fd64ef4815",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (36,8) é maior que a dos alunos de IES Privadas (34,1). A diferença entre IES Públicas e Privadas (2,7) é menor do que as diferenças entre regiões Sul e Norte (4,4), a maior e a menor média das grandes regiões.",
+  "text_sha256": "31a75e3e8f5648f869b33c449207d32c3501f00179579818f1e1a26816736d76",
+  "window_size": 3
+}

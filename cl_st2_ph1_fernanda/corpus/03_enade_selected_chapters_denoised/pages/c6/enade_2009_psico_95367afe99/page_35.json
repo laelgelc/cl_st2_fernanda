@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9842268b6518b0006af8e669caec87d1a531767e245e437a",
+    "usage": {
+      "input_tokens": 2375,
+      "input_tokens_details": {
+        "cache_write_tokens": 2372,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2372
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 524,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 2899
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_34.txt",
+      "source_sha256": "c70fc863a0aa30b331e3ac13605cd0e64963c035b1d23b6af1f1d8878fafab63"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_36.txt",
+      "source_sha256": "e81d687c2faa2cb69f998c1cbb61b59f912cac697df1ec0c2604208839315f89"
+    }
+  ],
+  "created_at": "2026-11-14T22:53:29Z",
+  "duration_seconds": 5.058,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PSICOLOGIA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_35.txt",
+    "source_sha256": "cb7ca17fd5d28ad5ebf2433814ba2d00630850d66f62ed5fdb15adc9f1564e12"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1da430cdbe108abf7dabd1a2102121806efe7a4557a36ed94af68abcf4d6a6a4",
+  "request_fingerprint": "5e585b3b37dc28a5760283c1b65a31c281c726c50b83090533fded1944072ec7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 42,16 na Região Norte a 52,11 na Região Sul. Entre os ingressantes, os valores foram de 35,94 na Região Norte a 45,50 na Região Sul. Em todas as Regiões, os concluintes apresentaram médias maiores do que os ingressantes.\n\nTendo como foco as categorias administrativas, as maiores notas médias foram das instituições federais, tanto para concluintes (53,26) como para ingressantes (50,70), enquanto as das instituições estaduais e municipais foram menores para os concluintes e ingressantes, respectivamente. Os estudantes das instituições privadas se apresentam mais homogêneos do que os das demais instituições.\n\nConsiderando-se o tipo de Organização Acadêmica, Centros Universitários apresentaram os maiores valores para os concluintes (48,99) e Universidades para os ingressantes (44,48). Os Centros Federais de Educação Tecnológica e os Institutos de Educação, Ciência e Tecnologia não estavam representados nesta área.",
+  "text_sha256": "3b730348767a0b449dfe8635386a10fb50dacb66dcbd1495047c45cf59677acf",
+  "window_size": 3
+}

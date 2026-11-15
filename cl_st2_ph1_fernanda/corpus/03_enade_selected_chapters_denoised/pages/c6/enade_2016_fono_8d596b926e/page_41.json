@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_019fda444b0adc0e006af9027343f887d194e7ec1f7b89c5ab",
+    "usage": {
+      "input_tokens": 2405,
+      "input_tokens_details": {
+        "cache_write_tokens": 2402,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2402
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 883,
+      "output_tokens_details": {
+        "reasoning_tokens": 492
+      },
+      "total_tokens": 3288
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_40.txt",
+      "source_sha256": "8395113fe8ac6d01053811f154b248f11c985e8be1d0eeed53634228c4ad4714"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_42.txt",
+      "source_sha256": "64be1d61255c8088d87d7cd233088eda65c034c03b783b1e4dc019c5bdb5f523"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:07Z",
+  "duration_seconds": 7.328,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FONOAUDIOLOGIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fono/enade_2016_fono_page_41.txt",
+    "source_sha256": "d4b8c021ce9a485cc5f4bd1b4ad2a81891ba86ce78c552d743e2573d2f423d0d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d215a73fd676ef7c6cabdf983eb940637dce15d2c3cc5859bd3825e59a7e64bd",
+  "request_fingerprint": "cf60233d0daf45aa1857417f2debb471b9b3fc151631cd2528e1f542bf1873e8",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.2, incluindo título, dados e fonte, removida.",
+    "O Gráfico 3.1 é referido no texto; o material gráfico não aparece como texto extraído nesta página. A página de contexto seguinte começa com uma fonte que parece pertencer ao gráfico, mas não foi incluída."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (84,0), ao passo que duas regiões atingiram a menor nota Máxima (73,7): Norte e Centro-Oeste. A Mediana do Brasil como um todo foi 52,5, sendo a maior Mediana obtida na região Sul (54,3), e a menor obtida na Centro-Oeste (46,3). A nota Mínima foi 0,0 na região Sudeste, nas demais regiões a nota Mínima foi: 8,6 na região Norte, 12,9 na região Nordeste, 19,5 na região Sul (a nota Mínima mais alta) e 17,5 na região Centro-Oeste.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (38,0), e as três maiores médias, na ordem decrescente, das regiões: Sudeste Sul e Nordeste17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (50; 60], seguido pelo intervalo (40; 50].\n\n17 Todas as comparações deste capítulo utilizam os intervalos de 95%. Os erros-padrão da média que possibilitam os testes estão disponíveis nas tabelas.",
+  "text_sha256": "2d25f728b0331db9a7675a4b55f30d8171724ae75787dd83e365230077ef2fcf",
+  "window_size": 3
+}

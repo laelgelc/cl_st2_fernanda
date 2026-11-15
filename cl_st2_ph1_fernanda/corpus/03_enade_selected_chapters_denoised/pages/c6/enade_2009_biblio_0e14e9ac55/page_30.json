@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02eccf071f94d810006af8e4b5b2dc87d180651144b3d2e7e8",
+    "usage": {
+      "input_tokens": 2475,
+      "input_tokens_details": {
+        "cache_write_tokens": 2472,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2472
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 406,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 2881
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_biblio/enade_2009_biblio_page_29.txt",
+      "source_sha256": "3c936204c0987f144ba0f13148245f8183f28a6fdc11b7996344a0d003876366"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_biblio/enade_2009_biblio_page_31.txt",
+      "source_sha256": "31045575edc803ed34de91e030b8056362a3f222c66f5d397b6c4e128b4bd494"
+    }
+  ],
+  "created_at": "2026-11-14T22:46:13Z",
+  "duration_seconds": 3.634,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_biblio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_BIBLIOTECONOMIA.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_biblio/enade_2009_biblio_page_30.txt",
+    "source_sha256": "714cdb38c939283479860f069c6aa9aaa90ec4e0f78cfec6bc9e257e8b1451af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "26b98d6010398bba16dad36096cae02d284f03cb2fb765dec6678e80820ce11a",
+  "request_fingerprint": "d7f928a3661f4402d2a78e1d3e387ed395486f41d889fcc62f0d36a55b28711c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, incluindo seus dados e fonte, e o Gráfico 3.1, incluindo título, rótulos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 51,3 entre os concluintes e 45,9 entre os ingressantes. Nas faixas de notas até 50 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. A exceção é o primeiro intervalo de 0 a 10 que inclui uma quantidade maior de concluintes do que de ingressantes. Constatou-se que aproximadamente 20,5% dos ingressantes e 46,2% dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "790ec67ba51d01e740084df5bca962cd9f1f92f16b201b4275699d6936a03adb",
+  "window_size": 3
+}

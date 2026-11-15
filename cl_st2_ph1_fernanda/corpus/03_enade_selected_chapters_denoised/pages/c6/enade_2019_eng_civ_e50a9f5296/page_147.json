@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_044bdc010fe62919006af910a0cff887d1957c1def9d7f3f0c",
+    "usage": {
+      "input_tokens": 2310,
+      "input_tokens_details": {
+        "cache_write_tokens": 2307,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2307
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 2809
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_146.txt",
+      "source_sha256": "f6137de076417936f95c1b5ada83ef7049a72c04a7d73199ce79ce54b06956ad"
+    },
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_148.txt",
+      "source_sha256": "a797c0f68b080ad9209a392631d4758f8db362e09bc870bcc913545b35dbde31"
+    }
+  ],
+  "created_at": "2026-11-15T01:53:36Z",
+  "duration_seconds": 4.519,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA CIVIL.pdf",
+    "page_number": 147
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_civ/enade_2019_eng_civ_page_147.txt",
+    "source_sha256": "96d0ad95815e38c1b537d43dcef972fc0d6be80de65ad6af7cad321944affb42"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1060df94af62625d2b557c2023aef9c0ce7909086fb2172e9b5f1a56d755cdcb",
+  "request_fingerprint": "8ccc4850249832a413a6b020c47a5970da81c3fe1b183250485aeb840ddfbf49",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], com uma frequência de quase 27%, e sendo seguido de perto pelo intervalo posterior (40; 50], com um pouco mais de 22%, e pelo anterior (20; 30], com quase 21%.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 39,9. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (52,1) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (37,4). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (5,3), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (14,7), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (13,9) foi inferior ao do Brasil, como um todo (14,0), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.",
+  "text_sha256": "8e767df3342b69cd198910041115d2445c8bb04d6fb9f3b2b2e15aec560758b4",
+  "window_size": 3
+}

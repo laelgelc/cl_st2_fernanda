@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_061317ec7aadb137006af8f1b2ef1887d18ce87e51a6443ba4",
+    "usage": {
+      "input_tokens": 2091,
+      "input_tokens_details": {
+        "cache_write_tokens": 2088,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2088
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1612,
+      "output_tokens_details": {
+        "reasoning_tokens": 953
+      },
+      "total_tokens": 3703
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_37.txt",
+      "source_sha256": "75467b1534681f96e81700ce70de8d8f00af23bd8cd9db1c422ae5fe00e6dc6e"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_39.txt",
+      "source_sha256": "d68e01fe546367650543ffa00e4a4ccbbef4dbec9d6b2f9c8f2c82933a3f25b7"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:37Z",
+  "duration_seconds": 15.331,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_38.txt",
+    "source_sha256": "34b7ef8b7e05adb7efaf6aff18a995c056c14deac94ad0375cd39cdc721b4105"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "09b844c7b0c535dd5b3d4eac613de8185081b48563db333eb910b36e3a41d36a",
+  "request_fingerprint": "23400859fed5a6ab7bb329bb8cb74b4cf064a653f56f31b80b827f749b5c0b3b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte. A frase imediatamente antes da tabela termina em “e a maior” na página-alvo; não foi completada com texto da página de contexto.",
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2012” no início da página por parecer associada a material gráfico; confirmar a associação."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 42,4. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 15,6. A maior média foi obtida na região Sudeste (43,7), e a menor, na região Centro-Oeste (38,6). As demais médias foram: 43,1 na região Nordeste, 42,3 na região Sul e 41,0 na região Norte. Já o maior desvio padrão foi obtido na região Nordeste (16,4) e o menor na região Norte (13,9). Os demais desvios padrões foram: 15,6 na região Sudeste, 15,4 na região Centro-Oeste e 15,1 na região Sul.\nA maior nota no componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Centro-Oeste (89,0) enquanto que a menor nota máxima foi obtida na região Norte (75,0). Nas outras regiões as notas máximas foram: 78,5 na região Nordeste, 85,0 na região Sudeste e 87,0 na região Sul. A mediana do Brasil como um todo foi 43,0, sendo a menor mediana encontrada na região Centro-Oeste (38,5) e a maior\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40;50], assim como na prova como um todo. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 12,8 para a nota da prova como um todo e 15,6 para o componente de Formação Geral.\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (-0,09). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa (entre -0,27 na região Nordeste e -0,02 na região Centro-Oeste), exceto na região Sul (0,16) que possui assimetria positiva.",
+  "text_sha256": "eb75455a4efae8b2f03da61d26edf10f42ec988d584e06b9343a84af7701bf58",
+  "window_size": 3
+}

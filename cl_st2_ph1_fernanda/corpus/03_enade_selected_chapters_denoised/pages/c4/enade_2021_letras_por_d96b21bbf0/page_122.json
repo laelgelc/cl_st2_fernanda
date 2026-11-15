@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb05e0dcca14994006af919f99a1087d185790fa4d0637211",
+    "usage": {
+      "input_tokens": 1861,
+      "input_tokens_details": {
+        "cache_write_tokens": 1858,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1858
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 2208
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_121.txt",
+      "source_sha256": "a74974e60a2c91ae143126a7e5b21640b0f772f7a5dff65d661ef46eacf74830"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_123.txt",
+      "source_sha256": "566e3afae33d22b83e7899ee273208f5d4232f7692bac78437335c30b6199f8a"
+    }
+  ],
+  "created_at": "2026-11-15T02:33:29Z",
+  "duration_seconds": 4.163,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_letras_por/enade_2021_letras_por_page_122.txt",
+    "source_sha256": "fd371e9a992a8299de739df415255613a7a93723046aa5b1c84d637633edbbb2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2235426529de865e7cb1d99edcb210acc5bd762b599bc25a796fda24552a82ac",
+  "request_fingerprint": "6ee803270e6133af8ee476ae2eee89e013069db8180f3a7aa4351eb5adedddf4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.3. “CEFET/IF” foi excluído por aparentar ser um rótulo gráfico associado ao Gráfico 4.4."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o componente de Formação Geral da prova Difícil ou Muito difícil foi maior entre os estudantes de cursos de IES Privadas (41,4%), com diferença estatisticamente significativa da proporção registrada em IES Públicas (31,8%). Já a proporção de presentes à prova que avaliaram o Componente de Formação Geral como de grau de dificuldade Médio foi de 56,5%, entre os estudantes de IES Públicas, e de 51,6%, entre os de IES Privadas (ver Gráfico 4.4).",
+  "text_sha256": "40ca495fe1fd0628442b1bf37b062c5785824aed4172964b13c2fed40f42066b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_004f1024975d978d006af8efa3008c87d186371e94bed77689",
+    "usage": {
+      "input_tokens": 2417,
+      "input_tokens_details": {
+        "cache_write_tokens": 2414,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2414
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 515,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 2932
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_32.txt",
+      "source_sha256": "f99acdff7d19b38aa2c6f3a8cc734affc1a270e0080c39f3423516b87bc6a815"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_34.txt",
+      "source_sha256": "6103f4dd78f70c7407c2a913f8856ca171f7921438b0e06f9ee9a2ca6243d6a2"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:50Z",
+  "duration_seconds": 4.806,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_man_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM MANUTENÇÃO INDUSTRIAL.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_33.txt",
+    "source_sha256": "11b171aed2613f4a69f593770c9eba3d57ba1362824d963e8382d36353d012ea"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3d8a409b683c341462e91f44a696f58f46a22df1f9ecc004292fea7922b22be0",
+  "request_fingerprint": "4b87acbd0a70b79301580a6f3e2ba8439d5f4bbbb7e84954f2f9c438d1f2d416",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "na região Norte (10,8), indicando uma dispersão um pouco menor das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sul (84,6), ao passo que a região que atingiu a menor nota máxima foi a Norte (65,0). A mediana do Brasil como um todo foi 43,1, sendo a maior mediana obtida na região Nordeste (46,3), e a menor obtida na Norte (39,9). A menor nota mínima foi 11,3, obtida na região Sudeste, e a maior nota mínima foi 20,6, obtida na região Nordeste.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser positivo (0,004), é tão pequeno que podemos considerar que a distribuição é simétrica. As distribuições por Grande Região também apresentam coeficiente de assimetria positivo, com primeiro algarismo significativo na ordem dos centésimos, portanto, são aproximadamente simétricas. A única exceção é a região Sudeste, com coeficiente de assimetria negativo (–0,11), indicando pequena concentração à direita e cauda um pouco mais longa à esquerda.",
+  "text_sha256": "234e6a426db9741e59a13e407e8d4de3b3a74e0fc0c43d8bcf1395f96c9670f6",
+  "window_size": 3
+}

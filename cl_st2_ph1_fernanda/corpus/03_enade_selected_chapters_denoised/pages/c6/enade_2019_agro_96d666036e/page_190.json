@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b193668c4053dc5006af90f81283c87d19a80563de33288f5",
+    "usage": {
+      "input_tokens": 2359,
+      "input_tokens_details": {
+        "cache_write_tokens": 2356,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2356
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 2684
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_189.txt",
+      "source_sha256": "892b00af9d70f0fb3d968685ae2d73ba04c7b84a8003640c3455b98264be319e"
+    },
+    {
+      "page_number": 191,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_191.txt",
+      "source_sha256": "f2e9c53fab01adfd11ccb5cde2016e2ae55654429707c0e421c5a040f057aa9d"
+    }
+  ],
+  "created_at": "2026-11-15T01:48:49Z",
+  "duration_seconds": 3.588,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_AGRONOMIA.pdf",
+    "page_number": 190
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_190.txt",
+    "source_sha256": "766e0ae5e17157d988f487af9728e9ce33efdea0fb59b1331c971ce680e84cfc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5e32b115553d2de79f7c5ba725147a6ab1ee9afee42542c50ad0b0567ebea8bd",
+  "request_fingerprint": "a93e54396bf36d3c05f768c5768a3a54a79913522320ed5aa87296c5a74aafe8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19, incluindo título, dados e fonte. Removida a fonte associada ao Gráfico 6.12; o gráfico não aparece transcrito na página."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Agronomia. Apenas 3,4% dos estudantes deixaram a questão em branco e 4,1% receberam nota zero. A moda dessa distribuição é o intervalo (50; 60], com 20,1% dos participantes, seguido do intervalo (30; 40], com 14,5%.",
+  "text_sha256": "e08c122f03bbf19452f4897827a753eadb1944e55d5e0ed0c53ff18ee263cdf7",
+  "window_size": 3
+}

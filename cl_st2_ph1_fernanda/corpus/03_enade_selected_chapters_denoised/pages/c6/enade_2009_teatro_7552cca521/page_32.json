@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efbb63887f6674d006af8e71d860087d189062c6519b984e4",
+    "usage": {
+      "input_tokens": 2411,
+      "input_tokens_details": {
+        "cache_write_tokens": 2408,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2408
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 526,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 2937
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_31.txt",
+      "source_sha256": "86238130d9b0b97d22b536e094c59be8003f8b15fbf3908cd794f09ba88d92b6"
+    },
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_33.txt",
+      "source_sha256": "6bdadbc756f2fdbafb7f578c9fd107f0f59c4ad48b311e6e322be838e3c81c41"
+    }
+  ],
+  "created_at": "2026-11-14T22:56:29Z",
+  "duration_seconds": 4.853,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_teatro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEATRO.pdf",
+    "page_number": 32
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_teatro/enade_2009_teatro_page_32.txt",
+    "source_sha256": "fc2a267af9740a76b1732b1131e8e5d53d63379b823d10735a0e4017308ebe5d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "55cc0a491babd590cde42f4e6daed65fe59df1a5a0c3d984282f656e465fc784",
+  "request_fingerprint": "cb04d2e46b839d31e12b35a0144efa9cbe93ed1a9dc37a512bbea47d46ba74c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, intervalos e rótulos, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 38,63 na Região Nordeste a 52,77 na Região Sul. Entre os ingressantes, os valores vão de 34,36 na Região Norte a 47,21 na Região Sudeste. Nas Regiões Sul, Sudeste e Centro-Oeste, os concluintes apresentaram médias maiores do que os ingressantes, a situação inversa aconteceu no Nordeste. A Região Norte não apresentou concluintes.\n\nTendo como foco as categorias administrativas, as maiores notas médias foram das instituições privadas para concluintes (49,57) e municipal para ingressantes (55,42), enquanto as das instituições municipais foram menores para concluintes (43,68) e estaduais para ingressantes (40,10). Note que, com este recorte, ingressantes apresentaram médias de notas superiores aos dos concluintes nas instituições municipais. Os estudantes das instituições privadas se apresentaram mais homogêneos do que os das demais instituições.\n\nConsiderando-se o tipo de Organização Acadêmica, Centros Universitários apresentaram os maiores valores para os concluintes (58,86) e IFECTs para os ingressantes (61,88).",
+  "text_sha256": "2906db0cea8f4d77d753a890ee19889c8618d8dff5788169b7cb8d86a20b8635",
+  "window_size": 3
+}

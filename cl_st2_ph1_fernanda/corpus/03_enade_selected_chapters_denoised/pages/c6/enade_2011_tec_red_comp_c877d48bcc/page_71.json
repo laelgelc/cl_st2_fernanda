@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03f0deede3f23b7a006af8efffe55887d1aea3270360875f3e",
+    "usage": {
+      "input_tokens": 2285,
+      "input_tokens_details": {
+        "cache_write_tokens": 2282,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2282
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 2592
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_70.txt",
+      "source_sha256": "e3dbe30427d328ebf199d2ca86953ef15076e9f74f19a2f664e5970d03172e11"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_72.txt",
+      "source_sha256": "d877f87d9bb050f48614c34398fcc0005acfaa8deced18649b94d0853cb0fc3b"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:23Z",
+  "duration_seconds": 3.69,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_71.txt",
+    "source_sha256": "f99389dbbe698eda84796914513bf72d1818c521eca15f52bbb6d1f55ed194a5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "395b034ec6647ca98a843bf45a87f54a3407f10fb94403568a865a18aa924c36",
+  "request_fingerprint": "6c90d5465d1fef812e0c768ee95105052b49e512a9265b720b66d53f95f8ce81",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo seus dados e a fonte. Removido o material do Gráfico 3.19 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição tem moda na categoria “em branco”. O coeficiente de assimetria é positivo (0,46) indicando cauda longa à direita. O mesmo comportamento se repete para as Grandes Regiões, com coeficientes variando entre 0,15 (Sul) e 0,85 (Norte).",
+  "text_sha256": "73883aecf464c47a642fae156eaea869ed59760ab9d06e408af9c90f151d7dab",
+  "window_size": 3
+}

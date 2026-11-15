@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0973e10fb19e71ac006af8f622aba087d1a01f5ea92a7f0fba",
+    "usage": {
+      "input_tokens": 2496,
+      "input_tokens_details": {
+        "cache_write_tokens": 2493,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2493
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 814,
+      "output_tokens_details": {
+        "reasoning_tokens": 509
+      },
+      "total_tokens": 3310
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_51.txt",
+      "source_sha256": "636f2298b2908590ecf695d74018a39225a2ff685c918d6ca006b66a17da78f6"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_53.txt",
+      "source_sha256": "60f7005033a558d4404ebab8a5077cf6b6bd559d7d5816af18d8e91f71372fe2"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:34Z",
+  "duration_seconds": 8.4,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_52.txt",
+    "source_sha256": "3c182b4654c07e83a9bbb1c696374957c81cf44237dcc65ddf5d85c61503d096"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0157e47775cf0ea6918e6233395a0f6b0b128bf639e6e2e32f3e4da1fd7733b7",
+  "request_fingerprint": "99a536cb3f77714dcd2f228e7f6cc4c0a26074a662ed5308c37410337972f87b",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.8, incluindo título, dados e fonte, removida. O Gráfico 3.4 é referido no texto, mas seu material gráfico não aparece na extração desta página; verificar se a imagem foi omitida."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada de dificuldade média e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha). A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "4c6d81401308d0e89187109ac9b366b6fe2d8309b209b47d4c2f915354f6d28d",
+  "window_size": 3
+}

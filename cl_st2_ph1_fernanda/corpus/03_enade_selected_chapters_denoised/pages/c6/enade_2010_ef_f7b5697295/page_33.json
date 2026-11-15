@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f10d94ca1e486a1006af8e880096487d1b5e0fb0d3ee49cbb",
+    "usage": {
+      "input_tokens": 2667,
+      "input_tokens_details": {
+        "cache_write_tokens": 2664,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2664
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 3053
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_32.txt",
+      "source_sha256": "24b5c157e93aa558a0b41e613cae02faf70e0917befa821565dfbd6d1d374292"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_34.txt",
+      "source_sha256": "7c223cf1ed64b91104b0f538a6bfeefec442ccfc374508e8cbddc1b5ef954f5a"
+    }
+  ],
+  "created_at": "2026-11-14T23:02:23Z",
+  "duration_seconds": 3.856,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_33.txt",
+    "source_sha256": "165dbc076cfabe153a84d0e94555d465ed81932efa1d9986b38d3e8250ae1999"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bab5e179af417cca3f393d041aba50b506c828bfb181d1a4b545caa7182349bf",
+  "request_fingerprint": "91b3424c8a360b6fefcc44eea1979f3ce857b3df93bf448a444f2cbcf86780dd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 33,2 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 40,9, transparecendo uma superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1).\nOs coeficientes de assimetria indicam uma assimetria negativa (-0,2) para os Concluintes, e comportamento simétrico (0,0) para Ingressantes.",
+  "text_sha256": "25635a43c8440cd53e5b94da9353ef11932cf15cc5daebea9d8f33fe0552793a",
+  "window_size": 3
+}

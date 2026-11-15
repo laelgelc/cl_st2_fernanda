@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c5a81afefc0104006af8f5955bbc87d1b1c4e6c14074cbb9",
+    "usage": {
+      "input_tokens": 1569,
+      "input_tokens_details": {
+        "cache_write_tokens": 1566,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1566
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1861
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_42.txt",
+      "source_sha256": "34d9432bf4139ab03a56857b9215b00cf43ba80b352856f1bdea80d84d4aa25a"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_44.txt",
+      "source_sha256": "5b5f1f110f2757f60d88bd86895531876d0018cbc582ba1d76501d3d7b4043c3"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:13Z",
+  "duration_seconds": 3.283,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_43.txt",
+    "source_sha256": "c7b3e752d27bc826a04ba89d09ec91c7acaa05dd6f86b4f04b65d55a855b4e38"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dea0f820ebdd58d62fce717575ace0a5708b10ec872cf3fdbcf00c3f51c3a838",
+  "request_fingerprint": "42cff3f4925fcafd55cde3429f9cb7133b8471b093cdaa7f440094fea0fdd786",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (50,6) é maior que a dos alunos de IES Privadas (39,4). A diferença entre as médias das regiões Sul e Norte (6,1), a maior e a menor média, é inferior a diferença entre IES Públicas e Privadas (11,2).",
+  "text_sha256": "923f8d8bc27ca8ee0206c02ec8ac86f8ce1065415633dfb6c2de2506518664a1",
+  "window_size": 3
+}

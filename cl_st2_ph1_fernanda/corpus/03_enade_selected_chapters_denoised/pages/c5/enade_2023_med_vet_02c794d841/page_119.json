@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a4fa96d3f7a02bb006af923f6117487d1b8a2884b59832005",
+    "usage": {
+      "input_tokens": 3029,
+      "input_tokens_details": {
+        "cache_write_tokens": 3026,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3026
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 435,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3464
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med_vet/enade_2023_med_vet_page_118.txt",
+      "source_sha256": "880fd32a72f5b63de5a97f010673b5408f946da8ded7b5c90c079e43da5cb291"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med_vet/enade_2023_med_vet_page_120.txt",
+      "source_sha256": "deb7c53ff79933ebca67564e9db7426f3f0cb75bef4cd3ed729a39c8a18f491b"
+    }
+  ],
+  "created_at": "2026-11-15T03:16:05Z",
+  "duration_seconds": 4.085,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med_vet/enade_2023_med_vet_page_119.txt",
+    "source_sha256": "9dbe982feef72c40979aed9142fdbaf02bcbfb08681f434a6f38b9be4d32eb0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cad1822288ae319fe0ef3e5bb5aaeea9c81bab23cacb2fcfc930fdb885f33f0b",
+  "request_fingerprint": "603891c39192f16604093b48162617832903fe74289c54bbf9a707358d894f38",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.1, incluindo título/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 84,6% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 60,5% dos cursos na mesma situação: com conceito 3 ou abaixo. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Sul apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Centro-Oeste (linha laranja) apresentam uma situação intermediária.",
+  "text_sha256": "c576fc3f9aa485c903e52af0f1dbe11d3ce9d6ed06866ff0ef0950b865346062",
+  "window_size": 3
+}

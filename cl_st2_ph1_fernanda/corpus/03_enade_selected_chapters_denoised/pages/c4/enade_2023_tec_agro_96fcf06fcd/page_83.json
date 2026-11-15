@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05db0623abb09d89006af924916fc887d19e9310d63234c3ea",
+    "usage": {
+      "input_tokens": 2249,
+      "input_tokens_details": {
+        "cache_write_tokens": 2246,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2246
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 411,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2660
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_agro/enade_2023_tec_agro_page_82.txt",
+      "source_sha256": "57be851c8246484e4a07f86a439317f930f78c88364a0b9ce3e1a8f05c3dfb1a"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_agro/enade_2023_tec_agro_page_84.txt",
+      "source_sha256": "51001647ea955dd135244725118874b583e3c8088b4dde3c2c63fc869b3486eb"
+    }
+  ],
+  "created_at": "2026-11-15T03:18:41Z",
+  "duration_seconds": 5.209,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_agro/enade_2023_tec_agro_page_83.txt",
+    "source_sha256": "d72552175dee1728ed03aadb5e4306aec7d71fc42adc1f521f5ddbeefc135465"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf54677357226f76e6b1f552c83207758d982da46989f74a3d236dd5d4dfc8ca",
+  "request_fingerprint": "44e0c1758735f6fa57bd6d3e317aee58aec90b3f928d156d851e0ad9c23cf69f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título/caption e a linha de fonte do Gráfico 3.1; o conteúdo gráfico não foi incluído."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Norte, onde a proporção foi de 38,0%, enquanto a menor proporção foi identificada na região Sudeste, com 27,7%. O maior intervalo foi observado na região Sudeste, com variação de 9,8% entre o mínimo e o máximo. Além disso, é possível observar que as diferenças entre as regiões não são estatisticamente significativas. Nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 53,6%, na região Centro-Oeste; 55,6%, na região Nordeste; 59,2%, na região Norte; 66,0%, na região Sudeste; e 61,0%, na região Sul.",
+  "text_sha256": "6c6a858708c0074c8dcf631d6503c111855a98d4bef618f6ca434785f7e6c319",
+  "window_size": 3
+}

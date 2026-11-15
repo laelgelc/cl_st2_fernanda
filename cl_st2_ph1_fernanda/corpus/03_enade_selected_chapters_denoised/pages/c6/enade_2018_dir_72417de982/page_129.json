@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01cb2da31605cd21006af90cc068a087d1b6fc8d82670408ba",
+    "usage": {
+      "input_tokens": 2057,
+      "input_tokens_details": {
+        "cache_write_tokens": 2054,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2054
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 846,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2903
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_128.txt",
+      "source_sha256": "458d9f616efe3e89b9bdd58ec105968761c19b09f3d02eed675e182c4ec67064"
+    },
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_130.txt",
+      "source_sha256": "658d0022e8959aaa960dfa220fbd163c19d3e652b6a2b47e7a96a2ecacdade73"
+    }
+  ],
+  "created_at": "2026-11-15T01:37:04Z",
+  "duration_seconds": 7.748,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_DIREITO.pdf",
+    "page_number": 129
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_129.txt",
+    "source_sha256": "d4866e059f1acd61acdb5896e8448b1c4c68385de2863783d58feca315289d0e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e622c426077622b511cd11f0a2cb5c514dfa762f603e58c2709654ef6a22fb0b",
+  "request_fingerprint": "28c15ec7261f867c3c106ecef3accebad2bba5eb003ca085d9180abaeeb283a4",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.13, incluindo título, dados e fonte, removida. O Gráfico 6.6 é mencionado no texto; seu material gráfico não aparece no texto extraído do alvo, embora a fonte possa estar na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 44,5, a mesma sendo obtida na região Sul. Na região Sudeste, a Mediana foi maior (45,0), e nas demais regiões foi menor que o valor para o Brasil: Norte e Nordeste (44,0) e Centro-Oeste (42,5). A nota Máxima (97,0) foi obtida na região Sudeste, sendo 90,0 a Máxima na região Norte; 95,5, na Nordeste; 93,0, na Sul; e 96,5, na região Centro-Oeste. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo (40; 50], seguida pelo intervalo (50; 60]. Destaca-se, também, como um máximo local, o intervalo [0; 10], com distribuição em torno de 8% do total de notas, sendo que no intervalo [0; 10] inclui-se, além da nota zero, a frequência de alunos que deixaram esse tipo de questão em branco.",
+  "text_sha256": "f7d57e7410bab5ca67d141539d1f1e689c7d70b1f485dd3fb9a0bae261a929ed",
+  "window_size": 3
+}

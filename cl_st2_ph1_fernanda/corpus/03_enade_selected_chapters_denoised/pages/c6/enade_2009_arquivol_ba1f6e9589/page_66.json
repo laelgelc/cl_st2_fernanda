@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_086a1e13b9a1e65c006af8e4a2107887d18b7c787b38a06c7e",
+    "usage": {
+      "input_tokens": 2188,
+      "input_tokens_details": {
+        "cache_write_tokens": 2185,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2185
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2491
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_65.txt",
+      "source_sha256": "472707b64a1aad7f65de5a3d32f602877da08aa6954c34741b3dc12d203e6806"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_67.txt",
+      "source_sha256": "8d7f0a22f4821eb8a49eddafb534c82fab069461731e9791871b0ae7d1c1d465"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:53Z",
+  "duration_seconds": 3.658,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_66.txt",
+    "source_sha256": "08d7ba61cfcead78b45f0868895ee6b2e5fe575aec99abe62be93fe9423a3314"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b188a6db73b78bee73f21728683ca78205d365822242d39da0755d1a98f96533",
+  "request_fingerprint": "45225e47e65ad74e72d30e5c1196a6ce8f2d6699212e3af8201313085f471753",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.13, incluindo título, eixos, rótulos, legenda, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 apresenta a distribuição das notas na questão 40 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.6) foi reforçada no gráfico pela concentração no primeiro intervalo. A distribuição apresentou um máximo local no sexto intervalo, aquele com notas entre (50,60], indicando uma certa simetria entre as notas não nulas e uma polarização das habilidades dos estudantes.",
+  "text_sha256": "d7b3f1e05b50aa72827cc01f97640fd284f8d32f1e8861a0f1787533811e267f",
+  "window_size": 3
+}

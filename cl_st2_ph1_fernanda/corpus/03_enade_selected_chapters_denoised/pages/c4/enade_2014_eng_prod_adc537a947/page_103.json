@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_028eee4d0bc1237f006af8f845bcdc87d1b76cb632630e36bf",
+    "usage": {
+      "input_tokens": 1582,
+      "input_tokens_details": {
+        "cache_write_tokens": 1579,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1579
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 330,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 1912
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_102.txt",
+      "source_sha256": "1bfa287e73d6da68e5d501ef40dfb2927f659a5ba8e64f11c254928bb5757305"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_104.txt",
+      "source_sha256": "f0095def4302a1dcd69d3ed0f77ff6c26b5566ea2025c9c020407cff858158e2"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:41Z",
+  "duration_seconds": 4.216,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_103.txt",
+    "source_sha256": "83cf63d17adaac51044c39227891d5f4b6085396634365206b9fe8d9ef6bd65e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a4d9b8592e51f8a27322992aad882dcc6e4827f19ad391b856e6137964dba1af",
+  "request_fingerprint": "95727d8a6929bc3a56719c4dfcaac6aea77d48036da47649f508ba69866cc873",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014», que parece pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (81,5%) se comparada ao quarto inferior de desempenho (69,7%). A diferença do primeiro para os demais quartos é estatisticamente significativa.",
+  "text_sha256": "d22fbdce2a9cefcb0f19dd2f7e3c80e60e89bf30ba95206ed82cfa0d6202434f",
+  "window_size": 3
+}

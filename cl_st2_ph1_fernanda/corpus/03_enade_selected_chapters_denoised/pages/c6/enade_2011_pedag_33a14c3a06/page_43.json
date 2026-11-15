@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00d5098ee2f4f380006af8ee693d0887d1aa18dac7bc3dbf25",
+    "usage": {
+      "input_tokens": 1482,
+      "input_tokens_details": {
+        "cache_write_tokens": 1479,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1479
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 273,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1755
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_42.txt",
+      "source_sha256": "b3d188418bb439ea02d6e45864d293ca60b93294f2bd4257ece515abbcfa46a9"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_44.txt",
+      "source_sha256": "941dd95d366f7dc4c605a49fedca4ab53efa8aa299a9c623a913fcf717ee352a"
+    }
+  ],
+  "created_at": "2026-11-14T23:27:37Z",
+  "duration_seconds": 5.109,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_PEDAGOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_43.txt",
+    "source_sha256": "b7ee6a22acca8e7e4159ae40608c236809bc14cac23198145f5d713950a65989"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "934d24a5647aa0aa4dd2637fd94702f85ae00bc6e142e39bd5becaba4bc68150",
+  "request_fingerprint": "090680c8756545cc9278a6f6c05c8312abec4d0f7f580db6e7535280d0026648",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre a média das Faculdades (48,9) e as médias obtidas nas Universidades (48,1) e Centros Universitários (48,4). Observa-se que nas Faculdades a média é mais elevada. Por outro lado, não há diferença estatisticamente significativa entre as médias obtidas pelos alunos das Universidades e dos Centros Universitários.",
+  "text_sha256": "9137253e4081f782e878ea1f2f8c4ce9ea44a0cc768ee8db84bf4d810d5d9ab5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05e3bc8a2a3944f4006af90b6496c487d19c6bae5faa295e68",
+    "usage": {
+      "input_tokens": 2340,
+      "input_tokens_details": {
+        "cache_write_tokens": 2337,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2337
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 908,
+      "output_tokens_details": {
+        "reasoning_tokens": 616
+      },
+      "total_tokens": 3248
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_152.txt",
+      "source_sha256": "6ab67029cab1406782553fc77891940a9bec977b87b0b764e4075bd8b5a8f0c8"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_154.txt",
+      "source_sha256": "82e8375e84ae77bb6b744dfc07cd780ddc5a2d96ba509704265c5da600db4fb2"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:16Z",
+  "duration_seconds": 9.319,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_153.txt",
+    "source_sha256": "05641dcc6d6b87b26fffc62602e7492735cfc1f110575ce72b39f0a2ac628c37"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f018a6297e1a39593a840c976cdfd9034311a36c8260eb52f5b1a58d18edf0b8",
+  "request_fingerprint": "88f60ee98e47b82bcadd6bf852152d9ece57726b68feb73b1fabb70241f61b22",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.19. O Gráfico 6.12 é mencionado na prosa; o material gráfico não aparece como texto extraído na página-alvo, embora a fonte do gráfico apareça no contexto da página seguinte."
+  ],
+  "status": "success",
+  "text": "foi 28,4, sendo a menor Média registrada na região Nordeste (21,3), e a maior, na região Centro-Oeste (36,4).\nA nota Máxima (90,0) foi atingida por, pelo menos, um concluinte das regiões Sudeste e Sul. A Mediana em todo o Brasil foi 30,0, o mesmo valor obtido nas regiões Norte, Sudeste e Sul. A nota Mínima foi zero em todas as regiões.\n\nNo Gráfico 6.12, é representada a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que, tendo respondido à questão, obtiveram notas contidas no intervalo (30; 40]. Destaque para o intervalo (20; 30], com distribuição próxima a 17,5% do total e para os estudantes que deixaram as respostas desta questão em branco, com mais de 15% e se caracterizando como um máximo local.",
+  "text_sha256": "208f5acc303c861070446025962ee27369844f9f65d52d340cfbdde3b6672c0b",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07056b69201e951a006af902f546d487d18f21b5d12cc76a11",
+    "usage": {
+      "input_tokens": 2727,
+      "input_tokens_details": {
+        "cache_write_tokens": 2724,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2724
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 3159
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_42.txt",
+      "source_sha256": "ef177d5a726267981501053e696401da39f00407f2f6ba3f533c994b0a4d952d"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_44.txt",
+      "source_sha256": "5e5173ed180827f6aba7af6c123322b6349805c9ed955ae43b69155b3f6430da"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:17Z",
+  "duration_seconds": 3.537,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_nutri/enade_2016_nutri_page_43.txt",
+    "source_sha256": "5c89c951a5aad395d452b78875879bc4d2f3d8555a214ad6bdb1a3253429c822"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d9b20c4aef620aee71d34d8d5635662f64e1a8a70afe37fef6cc9914770a3102",
+  "request_fingerprint": "61a92e74fdd1e26aef8281938c12d1adef523bba919709c126ae653dff1f1216",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte.",
+    "Removida a Tabela 3.4, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 48,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (55,8), e os das IES Privadas obtiveram Média mais baixa (46,8), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (8,5), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (9,0), caracterizando uma diversidade administrativa um pouco maior do que regional. O Desvio padrão para as IES Públicas (12,6) foi inferior ao do Brasil como um todo (13,6), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.\nNo tocante à Organização Acadêmica, as Universidades e os Centros Universitários obtiveram Média mais alta que a nacional (51,9 e 49,2, respectivamente). A Média das Faculdades foi 43,4. Constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos três tipos de Organização Acadêmica.",
+  "text_sha256": "810b93ba1ccde43fdde6ed274a86f5673acd73fea676a6c9927f879d5a94eb43",
+  "window_size": 3
+}

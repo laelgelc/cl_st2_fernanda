@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e70245b1b1745ad006af903bf97e087d1829b39985d24002d",
+    "usage": {
+      "input_tokens": 2229,
+      "input_tokens_details": {
+        "cache_write_tokens": 2226,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2226
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 267,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2496
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_est_cos/enade_2016_tec_est_cos_page_77.txt",
+      "source_sha256": "171db8b521144e808311a718985706256612456e928f06637d7336f7fc349a89"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_est_cos/enade_2016_tec_est_cos_page_79.txt",
+      "source_sha256": "c4a960beddb34f0f125a1f87729534372c00e8cf9c235ea7a2e2a69bd9114e11"
+    }
+  ],
+  "created_at": "2026-11-15T00:58:39Z",
+  "duration_seconds": 2.874,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_est_cos/enade_2016_tec_est_cos_page_78.txt",
+    "source_sha256": "15938360be9821b1a57835b114e272386f3e54e1c20ffbcffd0d92fc793201b0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fde0c637f26b85c20f81efc215b07a2be110a30ce8194eb0c547cc18a53ee39c",
+  "request_fingerprint": "712464d40b19a81d56b16d0e3273d289196b38227ed43f9e109e49611c047d77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material do Gráfico 3.11 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Estética e Cosmética. A moda dessa distribuição ocorre no grupo daqueles que obtiveram nota zero, dentre aqueles que tentaram responder à questão. Essa distribuição revela uma concentração bem alta nas notas mais baixas.",
+  "text_sha256": "33125973a5d450377a3854284f10d6eb5cd2bd1718b854d99867e4b0ce30cb3d",
+  "window_size": 3
+}

@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f43ed5c91263ee5006af8e776087887d1933bc47102b58573",
+    "usage": {
+      "input_tokens": 2177,
+      "input_tokens_details": {
+        "cache_write_tokens": 2174,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2174
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 871,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 3048
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_mark/enade_2009_tec_mark_page_70.txt",
+      "source_sha256": "d0c4b7d4253c689d91c7fbd710debdd7b28013761ef8dc1b380b6357b880ed6d"
+    }
+  ],
+  "created_at": "2026-11-14T22:57:57Z",
+  "duration_seconds": 7.713,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM MARKETING.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_mark/enade_2009_tec_mark_page_69.txt",
+    "source_sha256": "51eca678d1cd59ceb1a18e87d72a1326113f4659c24200fb156da044c9df25f1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ef3f4d0557f669ecebb8f9ba3297a36689f11633d2d85dc7e79b1d0999fca3a4",
+  "request_fingerprint": "2aa3ff17e329fcc381ef0165de9c8a0954e7248023f81286d26da911ffc4a3f7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material da Figura 1, incluindo a legenda/caption “Figura 1 – Esquema de representação gráfica dos quartos, quartis e percentis selecionados de notas”."
+  ],
+  "status": "success",
+  "text": "Capítulo 4\nPercepção sobre a Prova\n\nAs percepções dos estudantes sobre a prova aplicada no ENADE/2009 na área de TECNOLOGIA EM MARKETING foram mensuradas por meio de nove itens que avaliaram desde o grau de dificuldade da prova até o tempo gasto para concluí-la. As questões foram analisadas separando-se concluintes e ingressantes, e as percepções sobre a prova foram relacionadas com o desempenho dos estudantes e com a Região Geográfica de localização do curso6.\n\nO desempenho dos estudantes dentro de cada Área/Subárea foi classificado em quartos (1/4) para os concluintes e para os ingressantes em separado (ver Figura 1 para o esquema de representação gráfica destas grandezas). As notas finais foram colocadas em ordem ascendente e no primeiro quarto foram colocadas as 25% notas mais baixas, limitadas superiormente pelo percentil 25 que vem a ser o primeiro quartil. No segundo quarto, as 25% seguintes, limitadas superiormente pelo percentil 50 que vem a ser a mediana. No terceiro quarto, as 25% notas após as encontradas no segundo quarto, ou seja, as primeiras 25% acima da mediana, limitadas superiormente pelo percentil 75 que vem a ser o terceiro quartil. No último quarto foram alocadas as 25% maiores notas. Potencialmente, poderia existir uma relação entre a nota do estudante e a sua percepção sobre a prova. Calculando as médias das respostas segundo os quartos de notas, seria possível reconhecer a existência (ou não) de algum gradiente nas respostas, por exemplo, uma melhor nota correspondendo a uma percepção menos negativa. Este gradiente seria traduzido, por exemplo, no gráfico 4.1a, pela diminuição das áreas laranja e vermelha (Difícil e Muito difícil) com o aumento do desempenho (indo do primeiro ao último quarto).\n\nA medida tradicional de “grau de discriminação” comparou os resultados dos estudantes do primeiro quarto (25% piores estudantes) aos do último quarto (25% melhores). Tal comparação, no gráfico disponibilizado, foi idêntica à comparação da primeira barra (primeiro quarto) com a última barra (último quarto) de cada grupo ingressante ou\n\n6 Curso, neste relatório, refere-se à unidade de análise para o Conceito ENADE e é caracterizado pela combinação de IES, Área/Subárea (quando pertinente) e município de habilitação.",
+  "text_sha256": "f42dba261f5a9b3aee29e572936ea1e730e8ff96c07200dc4c47e3eb7f47d75a",
+  "window_size": 3
+}

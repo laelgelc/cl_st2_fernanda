@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_021fe369f9c88413006af916971df887d19ab8f6addfc20698",
+    "usage": {
+      "input_tokens": 3278,
+      "input_tokens_details": {
+        "cache_write_tokens": 3275,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3275
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1788,
+      "output_tokens_details": {
+        "reasoning_tokens": 822
+      },
+      "total_tokens": 5066
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_137.txt",
+      "source_sha256": "9077a4797239308b9ea0b007dfe337faab5a15a90d6088ffe6baaa2093a6eb4f"
+    },
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_139.txt",
+      "source_sha256": "a893c3507276bc75c0e6a1adede494c54e6cb29d93bb4ed1c99c5ffc4c8bbce4"
+    }
+  ],
+  "created_at": "2026-11-15T02:19:03Z",
+  "duration_seconds": 14.925,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_zoot",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ZOOTECNIA.pdf",
+    "page_number": 138
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_zoot/enade_2019_zoot_page_138.txt",
+    "source_sha256": "c5bbc9e9a0a6ab870b4189dcee85da76720c437c3890ebecb917f6788eff597d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e85e4bf50d70e527943e5418c75362a1340bc2af92a0025d3c910e7b66bea441",
+  "request_fingerprint": "d1a6d56ec7d818019a3334afcca476337369b9355c75300bb61e6a35a221bfb4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo seu título, dados e fonte.",
+    "Removida a Tabela 6.9, incluindo seu título, dados e fonte.",
+    "O trecho final termina em “nessa parte”; preservado sem completar a frase além do conteúdo fornecido."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e duas questões foram tidas como Fácil, por terem índice de acertos 0,63 e 0,61. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,44 e 0,55 do Índice de Facilidade, ou seja, houve entre 44,0% e 55,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, com índice de acerto igual a 0,16. Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,16 a 0,63 e o de Discriminação, de 0,32 a 0,49. Quase todas as questões, quanto ao Índice de Discriminação, foram tidas como Muito bom; apenas uma questão foi tida como Bom.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Fácil e Médio: duas classificadas na categoria Fácil (questões 2 e 3) do Índice de Facilidade e quatro, na categoria Médio (questões 4 , 6, 7 e 8). A questão classificada na categoria Difícil (a questão 5) teve Índice de Discriminação Bom. Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,49, e foi considerada Médio em termos do Índice de Facilidade, com uma proporção de 0,55 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,63. Seu Índice de Discriminação foi Muito Bom (0,47).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão classificada como Médio, em relação à Facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com até dois acertos, nessa parte",
+  "text_sha256": "eeabf215443f5bf2845e9f9d4e9014b4a71afdd73d820de8a141ae302831ea48",
+  "window_size": 3
+}

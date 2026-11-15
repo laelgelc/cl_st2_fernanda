@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05798b5886a7ec4a006af9068a2f4487d19b34855978f70f64",
+    "usage": {
+      "input_tokens": 2563,
+      "input_tokens_details": {
+        "cache_write_tokens": 2560,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2560
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 2984
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_108.txt",
+      "source_sha256": "fcfd8bf60a73486481d48d76c3a21e0873faa7dacf1dc84bf5e27e04a08b5ed6"
+    },
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_110.txt",
+      "source_sha256": "50b92890fe36074e01742d6ae517548808a26ad5ea459e6a85c379d3c13d4e94"
+    }
+  ],
+  "created_at": "2026-11-15T01:10:34Z",
+  "duration_seconds": 4.287,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 109
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_109.txt",
+    "source_sha256": "ed93c041b621998b3888bf3fa0ba5223f1baa8643f98e31ae2764ab8a4cda25e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "de615c1a409c73ba88e4d08182447c3576dcbbaa44f623e2be877e1618761b1d",
+  "request_fingerprint": "93ce43af0f5fe0c204e792c43dc7c01d41f0ee49569315f1233ebb7458791a0a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, identificada como pertencente ao Gráfico 6.2 da página vizinha."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (62,5) e a menor pelos de IES Privadas (53,4).\n\nNota-se que também há diferença estatisticamente significativa entre a menor Média, obtida em Faculdades (51,3), e as médias dos demais tipos de Organização Acadêmica.\n\nNo que se refere à Modalidade de Ensino, como mencionado anteriormente, só houve estudantes de Educação Presencial, cuja Média foi 57,4.",
+  "text_sha256": "670b91e96191d9ba27a42419e83b224cf11f17547aa5f9d859f18c200a656f5c",
+  "window_size": 3
+}

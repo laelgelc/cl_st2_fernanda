@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2d75eb6bf89909006af917967e4c87d19ec251db7863bf70",
+    "usage": {
+      "input_tokens": 3610,
+      "input_tokens_details": {
+        "cache_write_tokens": 3607,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3607
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 950,
+      "output_tokens_details": {
+        "reasoning_tokens": 660
+      },
+      "total_tokens": 4560
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 300,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_300.txt",
+      "source_sha256": "feee81d11e09140494c5814993261f20526317a4353c8a2ea514c4c15f160af6"
+    },
+    {
+      "page_number": 302,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_302.txt",
+      "source_sha256": "a8d38844da70c4dcbcf1574d238e8b7f2908f3b1fbddd8b9e28cfe0cd0510994"
+    }
+  ],
+  "created_at": "2026-11-15T02:23:18Z",
+  "duration_seconds": 7.295,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS DA COMPUTAÇÃO.pdf",
+    "page_number": 301
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_comp/enade_2021_ci_comp_page_301.txt",
+    "source_sha256": "2871128b2e34ffd54023c6cbfd97050294f75794b1b56484c5440c150673902c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "23892dccf32d3e1aebb8250f217e3ee491978511d2e3b5e7a093084c5d0dec74",
+  "request_fingerprint": "034b5370e847b58b4c0167ffeea8f04591ab8472487a2cea418fe65ae704c816",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11a, incluindo título, dados e fonte.",
+    "A prosa final termina no meio de uma frase, que continua fora da página-alvo."
+  ],
+  "status": "success",
+  "text": "das 27 questões válidas foram consideradas boas, enquanto uma delas teve Índice de Discriminação Muito bom. Assim, para dez em 27 questões, os Índices de Discriminação foram Bom ou Muito bom. Dentre as demais, 12 delas foram classificadas como Médio, e outras cinco, como Fraco, sendo 17, por conseguinte, a quantidade de questões nos dois patamares mais baixos de Discriminação. Constata-se, assim, que a prova – no que se refere ao Componente de Conhecimento Específico – possuía média capacidade de discriminar entre aqueles que dominam ou não o conteúdo.\n\nO Índice de Facilidade variou de 0,09 a 0,52 e o de Discriminação, de -0,14 a 0,45.\n\nNa Tabela 6.12a, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação",
+  "text_sha256": "acd67ba0bdcd408b653a590d9f1a2faee5462535647f3d127372d8361acc19f4",
+  "window_size": 3
+}

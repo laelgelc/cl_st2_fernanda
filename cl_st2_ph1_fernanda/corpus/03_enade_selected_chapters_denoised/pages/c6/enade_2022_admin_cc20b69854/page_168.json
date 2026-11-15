@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ae02c640482e7d1006af91bb8740087d18dc1295776237748",
+    "usage": {
+      "input_tokens": 2723,
+      "input_tokens_details": {
+        "cache_write_tokens": 2720,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2720
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 313,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3036
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_167.txt",
+      "source_sha256": "3999e11f1a31d19662dd25db40dcf9d5e7a614087bffceb645387e15865820bb"
+    },
+    {
+      "page_number": 169,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_169.txt",
+      "source_sha256": "e248237cc01ce1ebda2855a4009aa836154e598d72a26e9fe59f96dad08370b4"
+    }
+  ],
+  "created_at": "2026-11-15T02:40:56Z",
+  "duration_seconds": 3.734,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADMINISTRAÇÃO.pdf",
+    "page_number": 168
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_admin/enade_2022_admin_page_168.txt",
+    "source_sha256": "01c6df95603fe103d388e55780aef6863801e13b126fd59abac434ef9d3bfe8a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2b8a7771cabe44ed9cf4c5a8ac497957167388c9f5622525fae1fd425d4f85d5",
+  "request_fingerprint": "fbe919d2545f4b8da69806312ece04efedc216b890badb34b1613a7141d0f8cd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 7.7, sua legenda e a linha de fonte (MEC/Inep/Daes – Enade/2022)."
+  ],
+  "status": "success",
+  "text": "A Mediana do Brasil, como um todo, foi 51,0, sendo igual no Sudeste. A nota Máxima da Questão Discursiva 1 foi 100,0, obtida por, pelo menos, um estudante em todas as regiões. Já a nota Mínima para todas as regiões foi zero.\nNo Gráfico 7.7, apresenta-se a distribuição das notas na Questão Discursiva 1 do Componente de Formação Geral.\nO Gráfico 7.7 mostra que mais de 10% dos participantes deixaram em branco a resposta à questão discursiva 1. A moda dessa distribuição ocorre no intervalo (50; 60], com uma frequência maior que 17% dos participantes.",
+  "text_sha256": "6f0c44dec7db292de6a24caab20300499221fcde7f89e89ba969abea3e9b4f96",
+  "window_size": 3
+}

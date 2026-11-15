@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c0641bb893473fc006af900301d6887d1897ed56b85afb986",
+    "usage": {
+      "input_tokens": 2286,
+      "input_tokens_details": {
+        "cache_write_tokens": 2283,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2283
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 336,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 2622
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_79.txt",
+      "source_sha256": "b85dbbd535c46c122f005aab4975401f9415f5869101ff42093bed64a90f12a6"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_81.txt",
+      "source_sha256": "9783e471547a6b37b4403149ecd797b21340a77b18c1223f016ba3c51d302714"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:28Z",
+  "duration_seconds": 3.72,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_rec_hum/enade_2015_tec_gest_rec_hum_page_80.txt",
+    "source_sha256": "54a41da41ef7e689481e10553461899ba8b731acd440f374352dd9594743a562"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f612bf19c96ee4600d79d186955495bc47957a78415384dbe44c7ccbfc290afd",
+  "request_fingerprint": "43a53f7ce8637dfb0da1876968bc3fa609ff5d467edc5be95c52013909aae62d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, estatísticas e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 3.11; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Gestão de Recursos Humanos. Essa distribuição apresenta moda na classe das questões em branco. Entretanto, os intervalos (10, 20], (30, 40] e (50, 60] são máximos locais.",
+  "text_sha256": "4638c994378b26877a7442b5f3dfc5693dc7f1b0e882e01a9c8f465f68fac3e0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f8bd3097f8c02cf006af8fb52755887d18925cdac1e55ad44",
+    "usage": {
+      "input_tokens": 2624,
+      "input_tokens_details": {
+        "cache_write_tokens": 2621,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2621
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 476,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 3100
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_54.txt",
+      "source_sha256": "9e29a972d8151275ed1aa530abdc06202140f6b346982c26c59082a1cc4b34bb"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_56.txt",
+      "source_sha256": "b40d6b68a7f6034e37f7c6ecc08504f5ad9f379c681c868c08b207afbbb19e06"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:42Z",
+  "duration_seconds": 5.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_55.txt",
+    "source_sha256": "ff09c568a2a8ac5aa806d4b6f5cf04addb154a1e8fb24cacae8f913a6ddb0011"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "240b0185f0def4cd68d5b4b19abd691ed08897c80dde22028af17a427f336421",
+  "request_fingerprint": "4a19db31a113359632d8290c9d934402207fa30f7f1159a9c10abbc105c38aae",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte. A frase final da prosa continua na página seguinte; mantida apenas a parte presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 21 do Componente de Conhecimento Específico. Esta questão foi classificada como fácil. Apresentou índice de facilidade 0,60, ou seja, 60,0% dos estudantes assinalaram acertadamente a opção C, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,49, classificado como muito bom, também sendo esta questão a que apresentou o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 21, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta C, representada no gráfico pela curva em preto, foi escolhida em maiores proporções pelos estudantes com desempenho",
+  "text_sha256": "a930d295919220b39dd790334e393de5fc5dce36b8ddd682563f992a15474c0c",
+  "window_size": 3
+}

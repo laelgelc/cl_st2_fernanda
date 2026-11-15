@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a967df86b6226f006af8f069c51887d189d954746f2287c6",
+    "usage": {
+      "input_tokens": 2427,
+      "input_tokens_details": {
+        "cache_write_tokens": 2424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 3018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_34.txt",
+      "source_sha256": "84de671a030f30d7a94665e1eb38da4b0a05c3e5f96f64ec2d678d40b4782db6"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_36.txt",
+      "source_sha256": "020d07eb519f4db28977c6b32af28c34d1472369a9e238f9b65663295e74a6b8"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:09Z",
+  "duration_seconds": 4.604,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_35.txt",
+    "source_sha256": "3b95e039bcb35605cac08e65b5880d8f2785446fdd2fdcdb8b0b624261153dd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7ee5c764d4e1b5b6cce6c6b5e8662cb04ec760d9ad084374ac62890357cffece",
+  "request_fingerprint": "34cdb3d3204ce18ded89d827b3b5f763bd8ada7287a0f272948d7173f8f43561",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "região Nordeste, 34,6 na região Sudeste e 32,6 na região Centro-Oeste. O desvio padrão para o Brasil como um todo foi 13,2, sendo o maior desvio padrão encontrado na região Sudeste (13,4) e o menor na região Norte (11,7), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Centro-Oeste (86,8), ao passo que a região que atingiu a menor nota máxima foi a Norte (78,8). A mediana do Brasil como um todo foi 33,8, sendo a maior mediana obtida na região Sul (35,6) e a menor obtida nas regiões Norte e Centro-Oeste (31,9). A nota mínima (0,0) foi obtida em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40]. O coeficiente de assimetria da distribuição das notas é positivo (0,29), e não podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito, com valores variando de 0,22 na região Nordeste a 0,34 na região Centro-Oeste.",
+  "text_sha256": "c11f33dbd6f729bd84dfd70152d0169e4f91eff7bc32978bd899462f509172fa",
+  "window_size": 3
+}

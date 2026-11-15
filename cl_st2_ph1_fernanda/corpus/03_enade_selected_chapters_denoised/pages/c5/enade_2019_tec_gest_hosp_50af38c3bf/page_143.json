@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f54d0be8d60d1f3006af915cd62ec87d18ab60ed9813c40ad",
+    "usage": {
+      "input_tokens": 2038,
+      "input_tokens_details": {
+        "cache_write_tokens": 2035,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2035
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 501,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 2539
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_142.txt",
+      "source_sha256": "0e733ab27e8084b37baa0ef263c3b3a3e4e2964d566b6f04aebd612d861c4a68"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:41Z",
+  "duration_seconds": 5.121,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 143
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_143.txt",
+    "source_sha256": "743c7d60500d981fdd7a6ffe4b00793206179ec555bf3d34e69a1e0d0feddfdb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1e02f29f2389a66b700d03939eed75f3cac442c4cbefc471509fe35014640a28",
+  "request_fingerprint": "2ebb53ab177da38069620ff59395b7e87eaea962c9c860f2bc583e441cdc7b98",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos materiais do Gráfico 5.3, incluindo a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2019” e o rótulo “CEFET/IF”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.3, é apresentada a distribuição cumulativa do Conceito Enade dos cursos de Tecnologia em Gestão Hospitalar, segundo a Organização Acadêmica da IES. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, os Centros Universitários (linha verde) e os CEFET/IF (linha laranja) apresentam até 50% dos cursos com conceito 3 ou abaixo deste valor. As demais organizações apresentam essa concentração entre 65% e 85% dos cursos na mesma situação: com conceito 3 ou abaixo. Nas Universidades (linha azul) e nos CEFET/IF (linha laranja), todos os cursos têm conceito 4 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 4.\n\nOs cursos em Centros Universitários (linha verde) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, com distribuição muito semelhante entre si, encontram-se os cursos mantidos por Universidades (linha azul) e os CEFET/IF (linha laranja), apresentando as respectivas poligonais mais à esquerda e, consequentemente, distribuição de Conceitos Enade com menores valores.",
+  "text_sha256": "02d396d1a58317cb32c7bf74ee52df3062766bbced0b2910231073fdfbb5efeb",
+  "window_size": 3
+}

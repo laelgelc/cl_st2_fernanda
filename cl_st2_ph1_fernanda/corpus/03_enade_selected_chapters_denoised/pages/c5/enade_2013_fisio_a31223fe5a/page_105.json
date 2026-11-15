@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d321d0691bfc36c006af8f3c90fe087d1abe564c24ddae824",
+    "usage": {
+      "input_tokens": 2436,
+      "input_tokens_details": {
+        "cache_write_tokens": 2433,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2433
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 469,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 2905
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fisio/enade_2013_fisio_page_104.txt",
+      "source_sha256": "e3e26ac9b3e0c6f35afaefc84abdce1eb5eb7b61c676cb712385ad6d3237680d"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fisio/enade_2013_fisio_page_106.txt",
+      "source_sha256": "93b326a0c639078f6007b1b0c841745fe0ed47e66bbbe74b5155cd82f707dbde"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:32Z",
+  "duration_seconds": 4.608,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fisio/enade_2013_fisio_page_105.txt",
+    "source_sha256": "15e6188292ad39040fb436cae11b68a9ec03cf68f2bf41613c993ca0dea1cd24"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ddf8e4cb7d790138250bf63d8041e9ecbd1f89ef969adcd55a12a9e06d75c3bc",
+  "request_fingerprint": "2106082be2f5c7ca2b84c298497ed88924f681bf56ecc4c7098867961614f28d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE2013”, identificada pelo contexto como fonte do Gráfico 5.1 da página anterior."
+  ],
+  "status": "success",
+  "text": "5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA E POR GRANDE REGIÃO\n\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2013 de Fisioterapia, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 372 cursos participantes, 48 (12,9%) eram ministrados em Instituições Públicas e 324 (87,1%), em Privadas.\n\nDe acordo com as informações da Tabela 5.2, em termos nacionais, das 15 IES que receberam o conceito 5, 13 eram Públicas e apenas duas Privadas. Dos 48 cursos participantes de IES Públicas, o conceito 4 foi o valor modal, atribuído a 26 cursos (54,2%), enquanto nenhum curso recebeu conceito 1. Entre os demais cursos de Instituições Públicas participantes, dois obtiveram conceito 2 (4,2% da categoria), cinco receberam conceito 3 (10,4%) e como já comentado, os 13 restantes foram alocados no conceito 5 (27,1%). Nesta categoria, apenas dois cursos ficaram sem conceito (SC).",
+  "text_sha256": "5dc797b1806ddede2bf11ec858a82298508d14639df4c573fdfe861051925a3f",
+  "window_size": 3
+}

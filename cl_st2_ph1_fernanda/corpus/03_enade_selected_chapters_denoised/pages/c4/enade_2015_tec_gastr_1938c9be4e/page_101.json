@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07f641eaace9b520006af8ff8f6fa087d1a9537e10d08bddad",
+    "usage": {
+      "input_tokens": 1838,
+      "input_tokens_details": {
+        "cache_write_tokens": 1835,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1835
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 226,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 2064
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gastr/enade_2015_tec_gastr_page_100.txt",
+      "source_sha256": "4827ef26c66a524812b60c65b15d5a4e6ecb059064b869b7e1572ac95725ed15"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gastr/enade_2015_tec_gastr_page_102.txt",
+      "source_sha256": "5acde7bd46dd20ad9f704543a5a993fe05018f241936a73fced9d05014bd394e"
+    }
+  ],
+  "created_at": "2026-11-15T00:40:47Z",
+  "duration_seconds": 2.791,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GASTRONOMIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gastr/enade_2015_tec_gastr_page_101.txt",
+    "source_sha256": "b9a4d9b578bff2481162d4c43235c81c11a430eba1e2b5963d2e91f5420281f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bbf597e083c1758cfe438484d60d0aebb6caf38deb1c5832642dacd8e93e52ed",
+  "request_fingerprint": "1918c4438753fc75c0ce54aafe84772efb945bef73c8222f4c7e45a9c3bfeac7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.9, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A maior proporção foi observada na região Sul (85,7%) e a menor na região Norte (78,4%). Não há diferenças estatisticamente significativas entre as regiões.\n\nA proporção de estudantes que consideraram os enunciados das questões “claros e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (90,9%) se comparada ao quarto inferior de desempenho (74,5%). As diferenças do primeiro para os demais quartos e do quarto superior para os demais são estatisticamente significativas.",
+  "text_sha256": "3046a9d09cd3e2fc9468ab515195ed64262c414a090f59bc4e088ac53b41128f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dbe22112118d88c006af8ffc5d6c487d1b139d6597f08cf23",
+    "usage": {
+      "input_tokens": 2329,
+      "input_tokens_details": {
+        "cache_write_tokens": 2326,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2326
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 320,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 2649
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_45.txt",
+      "source_sha256": "e4d6ea324b88db80d58720b9cb3babf55fae473db7f4f77b01b702fecc434777"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_47.txt",
+      "source_sha256": "85c4812abdb810f0df05be97a447c8af52a2a67a11ea5b8bfece6e794d832bb8"
+    }
+  ],
+  "created_at": "2026-11-15T00:41:41Z",
+  "duration_seconds": 3.216,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_com/enade_2015_tec_gest_com_page_46.txt",
+    "source_sha256": "1d7ffd64ea908d241e1c51656a2d4b21d6c03a5e082f983331870d8780933209"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fb3e44032ff53517b72e8cb5b52989aa04d5b749b8df584af867aecc74d2dde4",
+  "request_fingerprint": "1a6fba5a0216ca5bc483d71d7257fb8a3890d832fd95d2ad692266acef8f43ad",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, que aparenta pertencer ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.6 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior Média foi obtida por estudantes de IES Públicas (55,0), e a menor, obtida por estudantes de IES Privadas (50,8).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos tipos de Organização Acadêmica.",
+  "text_sha256": "c2e16342d5816dfe8449d50cfb8c87208eb5810957f0820b7bcd04ac19afdcb0",
+  "window_size": 3
+}

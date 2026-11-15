@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01845ea0db248e5a006af8edaece6487d1b2c4c3ebe9f4101d",
+    "usage": {
+      "input_tokens": 2219,
+      "input_tokens_details": {
+        "cache_write_tokens": 2216,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2216
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 2606
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_36.txt",
+      "source_sha256": "130ec3fd412d0867711c7578b14f4d69b4219584ce4c82f16caa993d51ff43e9"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_38.txt",
+      "source_sha256": "cac392a07235ad6a901ba63910fa6fb7e09ab37d242e7883623ee545a3fb8408"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:30Z",
+  "duration_seconds": 3.467,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_37.txt",
+    "source_sha256": "4cbfff8cf9e90dd07d602283efdbe459f017aa067afba085433bf4324923fb79"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "03aa960339c7b6036fb83dc31b390ed0206b45fda9d7b8d8d7badedff782e670",
+  "request_fingerprint": "81578e08109edcb0fb4f96edfc854b7d95736bf6f61eaa5945c0ae2bef2b73a4",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico removido; a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011» foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (35,3) e a menor, obtida na região Sudeste (31,6). As médias das notas das regiões Centro-Oeste (33,9) e Nordeste (32,0) também são significativamente menores do que a média da região Sul.",
+  "text_sha256": "92db609d7d8f6f9ed1aec62ce48f91061db99d275f20432e375d3057e3acc060",
+  "window_size": 3
+}

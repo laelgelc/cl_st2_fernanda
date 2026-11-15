@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f5764979dff686e006af8fd7368e487d1969dd41a940f9557",
+    "usage": {
+      "input_tokens": 1811,
+      "input_tokens_details": {
+        "cache_write_tokens": 1808,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1808
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 350,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 2161
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_100.txt",
+      "source_sha256": "6d9efaad747c0bf3c680f409db928e112799d2330122ca2b03b11055af990810"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_102.txt",
+      "source_sha256": "26f1b6d95e4dd53f37d47dc99367c071e04376be6f7704c7386db3bd99a52ec6"
+    }
+  ],
+  "created_at": "2026-11-15T00:31:47Z",
+  "duration_seconds": 9.174,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_ci_econ/enade_2015_ci_econ_page_101.txt",
+    "source_sha256": "cc7709a482f3df188f32f56523ae857020641b76b8eee802c782aafa5e359f36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "31ca10d892fcf948fc0eef300c3531c8e8c74b3125d4267576da9cac309b090f",
+  "request_fingerprint": "1074a3322fccaaf53a9d6e3b3e80e598acd9e3d9c38820a376c77a64f71e2901",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.5, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "de 38,2% na região Centro-Oeste até 44,5% na região Sul. As diferenças entre as regiões não são estatisticamente significativas.\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 50,6% consideraram a extensão da prova adequada no quarto de desempenho inferior e 53,5% no de desempenho superior. Nos demais, esta proporção foi 48,6% no segundo quarto e 51,7% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se diferença estatisticamente significativa entre as proporções de escolha desta resposta no segundo e no último quartos.",
+  "text_sha256": "f2cf10fdf6663d8593eaed6fb727aa41f5020200abc06d10d63844a261c0fe0c",
+  "window_size": 3
+}

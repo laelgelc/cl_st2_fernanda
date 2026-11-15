@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05fe7995f5249f95006af8ec668e8087d184872541fb1b2093",
+    "usage": {
+      "input_tokens": 1644,
+      "input_tokens_details": {
+        "cache_write_tokens": 1641,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1641
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 672,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2316
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_84.txt",
+      "source_sha256": "71910c5bfcacee992fb7ba763dec953b80e3d2ab1414ddf70b38b61784da8fac"
+    },
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_86.txt",
+      "source_sha256": "1f86325e70895153474d774834a1d54a4a18aad0c1f5aa920aa52818e0260465"
+    }
+  ],
+  "created_at": "2026-11-14T23:19:02Z",
+  "duration_seconds": 7.292,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_5",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO V.pdf",
+    "page_number": 85
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_5/enade_2011_eng_g_5_page_85.txt",
+    "source_sha256": "e49b9d0d2589b6072c82e3e189d0ab3d2e1266f6013f6c1949d23bfa75988f1e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ce1beaae24aae56e2939592aa5897d5b522c115d264dd2804eff82a4364d7e1b",
+  "request_fingerprint": "8c34566c6c5bc4862c59750639394f9e54070e2cdb46edee43a4e9946244055e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to graph material."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, dentre os que optaram pela extensão da prova como adequada, apresentou uma tendência crescente a partir do 2º quarto, variando de 51,9% até 65,5%.\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, também apresenta uma tendência decrescente conforme o aumento do desempenho a partir do 2º quarto, sem diferenças estatisticamente significativas.",
+  "text_sha256": "ff7adcb2fad7c0db9fbfa07c41865c51bf941276649eb0a5991f8a5d2ee3933b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fb9b93cbe759567006af8f747ca3487d1b68f8dec05c8d2bd",
+    "usage": {
+      "input_tokens": 2557,
+      "input_tokens_details": {
+        "cache_write_tokens": 2554,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2554
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 431,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2988
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_44.txt",
+      "source_sha256": "eadd9d39fefc34f3f95becddaf57df06235a27b2d3b9d2efa421618e6b758f2e"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_46.txt",
+      "source_sha256": "3ab3b13b55bf66e9bd21c6ac38c569d276e8113b89e9416cc6d8450a3d237e6f"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:27Z",
+  "duration_seconds": 5.252,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_45.txt",
+    "source_sha256": "522592f77d243b1820fcc10cd2065ba1d1f300ac48afd417f8b95a8deef62a7f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "98bb8276127678ec04c97518fa76ec10910a7777457d75c0197285e40f03d501",
+  "request_fingerprint": "e2eaf55fe05e4f7e35509f8289448efd5c77e96a858a2d5eed31082ae5efb463",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que pertence ao Gráfico 3.2 descrito na página de contexto."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias por tipo de Categoria Administrativa. A maior média foi obtida por estudantes de IES Públicas (67,0), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (59,8).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos alunos de Centros Universitários (59,6) e de Faculdades (59,2); mas a diferença é significativa entre a média obtida por esses e a dos estudantes de Universidades (63,9).",
+  "text_sha256": "efa4f76946932c1cdefc31108a61b50f1b059bea33ba08cb82baf97f374a497f",
+  "window_size": 3
+}

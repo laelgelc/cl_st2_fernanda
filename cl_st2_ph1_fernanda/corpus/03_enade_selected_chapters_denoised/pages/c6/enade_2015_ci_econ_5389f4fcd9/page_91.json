@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07d6d8773cd847b7006af8fda2b3e487d1a993046f01bee5b1",
+    "usage": {
+      "input_tokens": 2519,
+      "input_tokens_details": {
+        "cache_write_tokens": 2516,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2516
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 295,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 2814
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_90.txt",
+      "source_sha256": "283275089b2d61d49affcbcc3416e3ac388e3f0c783659abb5200bfe5ba57350"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_92.txt",
+      "source_sha256": "73bb0f2bc257b2dedeae30631d6588cca93f565473ca7da0b018aa70f57971b2"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:34Z",
+  "duration_seconds": 5.113,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_91.txt",
+    "source_sha256": "7dea6b6a7c2a164c1f096f84947f609d1fdd3f651ce842270872c083130468ff"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8b8670cc93793c347ba2cf7e10b1430eca6e246c1f0e4f3c32684497dcc40b14",
+  "request_fingerprint": "41be97e1a26092597973ce31b41a8c155c32f11344a8f296cb80bb25739193e1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.20.",
+    "Removida a fonte associada ao Gráfico 3.13; o conteúdo gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo (10;20]. Destaca-se, o grande número de estudantes que deixaram esta questão em branco, correspondendo a quase 40%.",
+  "text_sha256": "6645102e3ebdbe656db8d7263a173593c923261a796eff89cca322996b01d524",
+  "window_size": 3
+}

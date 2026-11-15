@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a5da97993d2876b006af8f2056b3087d1862a6b97398dbe53",
+    "usage": {
+      "input_tokens": 1980,
+      "input_tokens_details": {
+        "cache_write_tokens": 1977,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1977
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 372,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 2352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_34.txt",
+      "source_sha256": "e84a94c675703628964e6845d1aeb2a7339a3d5eab86a272f52e06d738f756a1"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_36.txt",
+      "source_sha256": "cc1a68c2455df16a979aa16ff888379835d667eeff22ee495bc70b6ca095c0dd"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:01Z",
+  "duration_seconds": 3.925,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_35.txt",
+    "source_sha256": "66cdfb41d7c750cb6a1ab35f90077baeb8279fc580addfd1436a76b8760038c6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e945cff7856a9d30ba5f8d48ba7fc124880a0972726d7284a8c874c56aceb54d",
+  "request_fingerprint": "2865925da61f7e7a4498fa2557ca28284a54362a1c2b383075b52b432dc90e8c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da página e sua linha de fonte («Fonte: MEC/INEP/DAES - ENADE/2012»)."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (39,4) e a menor, obtida na região Centro-Oeste (35,7).",
+  "text_sha256": "5fd00249d68090d6844ae26b05799e1c8a3bafe7d890a9d0b7a2bbdf0d324568",
+  "window_size": 3
+}

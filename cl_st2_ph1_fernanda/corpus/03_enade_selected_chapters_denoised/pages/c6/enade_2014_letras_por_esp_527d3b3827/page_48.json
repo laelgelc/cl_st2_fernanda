@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f889646138d344b006af8fa633f3487d18794d62295de6ae7",
+    "usage": {
+      "input_tokens": 3031,
+      "input_tokens_details": {
+        "cache_write_tokens": 3028,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3028
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 782,
+      "output_tokens_details": {
+        "reasoning_tokens": 258
+      },
+      "total_tokens": 3813
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_47.txt",
+      "source_sha256": "8ecd5644e291e6cd70a89ddf2ad4184ef512d028ac9153f9e16aca63625d5c9f"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_49.txt",
+      "source_sha256": "993cd33d9345e9413ece89a9f086e429e384b89bd7a797cba54c1e738258a5a7"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:43Z",
+  "duration_seconds": 7.817,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_48.txt",
+    "source_sha256": "434e1141e88654e464be7fa561d034e951f59e07d14c565eff86a6f256afda7f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9852ea79a7dac3a1d85aa48cea983959e4187db6b53919e5bd08db4f8c60b176",
+  "request_fingerprint": "68622ff3575788d29e962ef334147e1715176a0e0a053eed6222854088864fcd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "3.2.1 Componente de Formação Geral\n\nA Tabela 3.7 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A média do Brasil foi 52,1. A menor média foi encontrada na região Norte (46,3), e a maior, nas regiões Sudeste e Sul (56,1). As demais médias foram: 49,8 na região Nordeste; e 50,4 na região Centro-Oeste. O desvio padrão do Brasil foi 21,1, sendo o maior desvio padrão encontrado na região Sudeste (21,6), e o menor, na região Sul (19,3). Os demais desvios foram: 20,0 na região Norte; 21,3 na região Nordeste; e 20,2 na região Centro-Oeste.\n\nAs medianas (50,0), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para quase todas as regiões, exceto a mediana das regiões Sudeste e Sul que foi 62,5.\n\nA Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.",
+  "text_sha256": "c3b362eee9b71503eb24c6f18aaa591f80d27495fe8b4b130acde3467e8d5d37",
+  "window_size": 3
+}

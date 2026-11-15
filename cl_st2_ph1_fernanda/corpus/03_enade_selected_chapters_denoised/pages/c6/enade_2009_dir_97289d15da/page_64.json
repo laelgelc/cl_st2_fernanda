@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0858970fad1b6e20006af8e5c1136487d19dc471deb0d6bd57",
+    "usage": {
+      "input_tokens": 2939,
+      "input_tokens_details": {
+        "cache_write_tokens": 2936,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2936
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 3348
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_63.txt",
+      "source_sha256": "b7e135dc9f9c0ff9797b3581b9c93d030b420bc04a024c2c5f06a77d68e821e4"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_65.txt",
+      "source_sha256": "6c9628cce1eeb3d4ec2164c9ba229bc9533439069c46abeabfb426493a76fa1d"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:40Z",
+  "duration_seconds": 4.305,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_DIREITO.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_64.txt",
+    "source_sha256": "687d748a0797e70a362c90c12d72e927993c0c3fbc706d8f2e30b9ea3d915a70"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c7857b709452bc0537930a7794dad1fce6d09a150881f797060ddf6e9baecac9",
+  "request_fingerprint": "987b8b1c30ffc6f64d3d5376993fb1118b9e4ae782852b5c2d5ededf56f6b718",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.10, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

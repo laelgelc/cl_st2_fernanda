@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0797cbfcf606b3a0006af913647ae487d184d267039485746c",
+    "usage": {
+      "input_tokens": 2600,
+      "input_tokens_details": {
+        "cache_write_tokens": 2597,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2597
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 353,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 2953
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 189,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_189.txt",
+      "source_sha256": "27d68f3b6505e136d312cc0686f2a002d42d53c34bf956fbb616e770417d5270"
+    },
+    {
+      "page_number": 191,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_191.txt",
+      "source_sha256": "501a8bc558cb6483f6bba3b7cff3a8eee881581cdc55e747e089c49121af4c72"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:24Z",
+  "duration_seconds": 4.333,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 190
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_190.txt",
+    "source_sha256": "ddaf716af04abe2bf5be338501688efc9fff9834b1137c190e86bd78c08c59d8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bcb7a984830b2311d8f0072c84ac6d8ac2ca4474ea834dbc8b681086e396383c",
+  "request_fingerprint": "524b2a299d4c4b2f4ef981c20bb5c0e5669b56d1b13c713c0097e3cd69a8bec8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo dados e linha de fonte.",
+    "Removida a linha de fonte pertencente ao Gráfico 6.11; o gráfico e seus elementos não textuais foram excluídos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, representa-se a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo (40; 50], com 29,7% do total de participantes. Destacam-se também os intervalos contíguos, (30; 40], com 22,2%, e (50; 60], com 20,2% dos participantes.\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "5cf383380e6c1c84c3e1675a65f557d22ae4dac46856a51ef2cdebd372c59eaf",
+  "window_size": 3
+}

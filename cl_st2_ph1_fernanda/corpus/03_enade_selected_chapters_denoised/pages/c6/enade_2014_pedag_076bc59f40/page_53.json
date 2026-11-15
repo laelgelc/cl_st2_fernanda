@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_047a629791a6ddd1006af8fb15eb1487d1bc763cb07baa0809",
+    "usage": {
+      "input_tokens": 2510,
+      "input_tokens_details": {
+        "cache_write_tokens": 2507,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2507
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 671,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 3181
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_52.txt",
+      "source_sha256": "0b5f833bbc4ee8ed378e44c61f8aee36614373cc0216db4ba0ed04bccd20674f"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_54.txt",
+      "source_sha256": "e7acbacdd76ecd32644f78ee6f2b72f45c5311319a2d52d51ea06497a630b1b5"
+    }
+  ],
+  "created_at": "2026-11-15T00:21:41Z",
+  "duration_seconds": 8.021,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PEDAGOGIA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_pedag/enade_2014_pedag_page_53.txt",
+    "source_sha256": "42415bdd83522492abedff617fa60c5b6ea721d23354009470df453987472cd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3aa62dac1c1891ba487424a0f10b517bd8270b1b5a942347894fe7145dad3d9a",
+  "request_fingerprint": "fe8c536c66c027d818eba9954a98700df4a323694e47810459688ecac52b1ec1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e fonte.",
+    "Material gráfico do Gráfico 3.4 removido; a fonte aparece no contexto da página seguinte, indicando possível continuação do gráfico através da quebra de página."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada difícil, com relação à facilidade e uma das duas que obtiveram o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "bc39b2d37244d74b956f1493b7e0f958667352e6adfb5923c662875b3d594faf",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e8da761c7c4013006af9056565b487d18c122a19666d7dee",
+    "usage": {
+      "input_tokens": 3025,
+      "input_tokens_details": {
+        "cache_write_tokens": 3022,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3022
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "total_tokens": 3546
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 254,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_254.txt",
+      "source_sha256": "1061bd027fd413ff90a1051e76dda875f87f6f9f5f617abdaa20ff7bab81d596"
+    },
+    {
+      "page_number": 256,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_256.txt",
+      "source_sha256": "c3fa9f054730c7e8827d583b5feaeb5e09ace318935d14a11d0395e794d8051d"
+    }
+  ],
+  "created_at": "2026-11-15T01:05:41Z",
+  "duration_seconds": 5.889,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 255
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_255.txt",
+    "source_sha256": "a47ec4d96ffeb2566189601494290c00be57ba882d05e31bc02f2a054f7b6fe8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d093db63741649fd3c6fb499c68d057cc379c7dcd3243fe450ee5b9d26b7fd55",
+  "request_fingerprint": "91956e29e69ce021b08646f0d3f8e2ce912e8210de8bc8e096d8e759e82fe483",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.17a e 6.17b, incluindo dados e fontes. O Gráfico 6.10 foi excluído; sua linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda desta distribuição ocorre no intervalo [0; 10], com cerca de 20% do total de participantes de Licenciatura e mais do que 30% do total de participantes de Bacharelado. Observa-se que nesses intervalos estão computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos.",
+  "text_sha256": "e9b37e597b4955606a242e86421509b8b8df7704b6303fd7fdfa4e17bd582871",
+  "window_size": 3
+}

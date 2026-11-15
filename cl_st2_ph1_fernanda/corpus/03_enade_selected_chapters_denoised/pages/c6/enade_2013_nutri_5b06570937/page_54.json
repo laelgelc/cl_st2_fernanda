@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02da0401681f51ac006af8f4855db087d1bea16f3f54772685",
+    "usage": {
+      "input_tokens": 2850,
+      "input_tokens_details": {
+        "cache_write_tokens": 2847,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2847
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 869,
+      "output_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "total_tokens": 3719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_53.txt",
+      "source_sha256": "600598f36fd65e9a60d7a22677a8a130deb9435ca7915691e1cd8f01d7560116"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_55.txt",
+      "source_sha256": "2ba82a170bad89e6ea5cbd0e0f57d58e71dd298297b39ceb4fbf535cb0945b10"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:41Z",
+  "duration_seconds": 7.823,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_54.txt",
+    "source_sha256": "4ae34696c2232cd1aefd49d25f3ee80aa6c8bc8fec607c5f0114f23466bf4298"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d8d5f0e27ab3803582b949c4fbe536dbe1d76740d0f64626102f3caeffe7957d",
+  "request_fingerprint": "a068d204b6f48ba659a24a8726d1a8a760f46ed3074dfdba71baccfc0e65ab78",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte, e a Tabela 3.5, incluindo título, dados e fonte. A frase final continua na página seguinte; não foi completada."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e outra como fácil. Três questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Outras três questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram",
+  "text_sha256": "5dfaf0f7af2510d12f4583a791e8cf0722974584924c818e752ca575f93e827b",
+  "window_size": 3
+}

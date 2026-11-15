@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02d07afc7374af79006af912e4713887d18f32c19c95e4095d",
+    "usage": {
+      "input_tokens": 1570,
+      "input_tokens_details": {
+        "cache_write_tokens": 1567,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1567
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 1799
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_100.txt",
+      "source_sha256": "f37719b507192299ae667e776a7650b194ec8d09098038eb4478db79e0f38608"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_102.txt",
+      "source_sha256": "4a3d41ac5ece1c276c695de52039683d4e660e437e31402a567f28932cfd729e"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:16Z",
+  "duration_seconds": 2.789,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_101.txt",
+    "source_sha256": "feaf81c7db0d449f242f98a7642e40eadacd7a5c1af8496668fc7f76fe572722"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ea5cdaed59e076b433d7e06cc2d6664b8890ae3f66e18eecf84bf6dac24a9cbf",
+  "request_fingerprint": "35ce289be51b8b67ea7fd8f3225730053c6f3a917edeab51c03c1efacf209e5f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.18, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "A proporção dos presentes que considerou que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior entre os estudantes de Universidades, para os quais a proporção foi de 85,7%, enquanto entre os de Faculdades, a proporção foi a menor: 79,3%. No Gráfico 4.19, é possível observar que as diferenças entre Faculdades (79,3%), Centros Universitários (82,3%) e Universidades (85,7%) são estatisticamente significativas (ver também Tabela II.10, no Anexo II).",
+  "text_sha256": "0948bcaaf55b4d41d08a00ccbb0305b064a89cca21d85c92b031a3178265e6a7",
+  "window_size": 3
+}

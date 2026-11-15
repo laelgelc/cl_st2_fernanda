@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0728a6e0304b5b4a006af9080033f087d1b75a31cf687a2bcb",
+    "usage": {
+      "input_tokens": 2820,
+      "input_tokens_details": {
+        "cache_write_tokens": 2817,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2817
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 361
+      },
+      "total_tokens": 3352
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 270,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_270.txt",
+      "source_sha256": "f0debc164bf528a23baf97435053533b61ed1e53f3d85b5a4beda032d895ff26"
+    },
+    {
+      "page_number": 272,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_272.txt",
+      "source_sha256": "eb2e7eeda422223070e9c04a98461c82937b1d0f4389e4dfbd0f5c560820e58e"
+    }
+  ],
+  "created_at": "2026-11-15T01:16:48Z",
+  "duration_seconds": 5.356,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FILOSOFIA.pdf",
+    "page_number": 271
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_271.txt",
+    "source_sha256": "3adb36de99ee2ce0371c70a1cbdb02eee1614da8bd984ffdcabd9dd7089ce6e6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e12125831bb2813c5a9659d2484078ef9d4df75f09ca6d2fc55580303e834037",
+  "request_fingerprint": "2973e2a4da8cf07b4403537268660db132c3865674d4d9ec9593bb9ed6ecc304",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19b, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.12; a linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, é representada a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que deixaram a resposta dessa questão em branco, cerca de 27% dos de Bacharelado e 25% dos de Licenciatura. Somando-se esse percentual ao dos que tiraram nota zero, chega-se a cerca de 45% dos estudantes de Licenciatura e a cerca de 38% dos de Bacharelado.",
+  "text_sha256": "9efd4c49947c851543a561f80095a2751339bece3ecb51c7fac75449c7c657a6",
+  "window_size": 3
+}

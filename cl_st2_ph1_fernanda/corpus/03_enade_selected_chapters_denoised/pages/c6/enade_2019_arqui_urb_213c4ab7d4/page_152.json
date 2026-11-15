@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fb2b6e1e8001c33006af90fa66f3487d1b2c3aca249bd622a",
+    "usage": {
+      "input_tokens": 2831,
+      "input_tokens_details": {
+        "cache_write_tokens": 2828,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2828
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 937,
+      "output_tokens_details": {
+        "reasoning_tokens": 374
+      },
+      "total_tokens": 3768
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_151.txt",
+      "source_sha256": "fa8c9816a89f7a18f80c76471860641b6708bc9c9639ba30e467828f7864e5f0"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_153.txt",
+      "source_sha256": "a3548d1d59e57e4323dfa2d3c48629d8cd0fd821c922b0b3aafe3c0165753083"
+    }
+  ],
+  "created_at": "2026-11-15T01:49:26Z",
+  "duration_seconds": 8.763,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_arqui_urb/enade_2019_arqui_urb_page_152.txt",
+    "source_sha256": "8ae93b27544409842e20c0506e83e5c8fcc1e09343155b11231c4165ea97f450"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "133d48492c858e853f03260bb7a0060a5a59ab59649bad24a69f227616c9de3f",
+  "request_fingerprint": "04f5a4205ac59176c30e9d6266c2028591f257a5bd439ba75cad7b3cfdb4fa7b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte.",
+    "O Gráfico 6.5 aparece indicado e descrito em prosa; o material gráfico foi excluído. A linha de fonte aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, no Gráfico 6.5, analisa-se a questão 23 do Componente de Conhecimento Específico. Essa questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com nível de facilidade Fácil, 0,66, ou seja, 66% dos estudantes assinalaram, acertadamente, a opção D, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,44, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 23, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério Ponto-Bisserial. A alternativa correta D, representada no gráfico pela curva em laranja, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. No caso de Arquitetura e Urbanismo, como se observa no eixo horizontal do Gráfico 6.5, nenhum estudante acertou mais do que 26 questões dentre as 27 questões objetivas, considerando-se o gabarito original. A eliminação das duas questões com Índice de Discriminação Fraco do cômputo da nota é que possibilitou a existência de nota Máxima igual a 100,0 na região Sul (visto na Tabela 6.10).\n\nObserva-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, marcaram a opção B (linha verde). A proporção de estudantes que selecionaram a resposta correta D aumenta gradativamente, chegando a atingir 100% para 25 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três ou quatro acertos, em função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "c3149cef7b740a6d899df3b600623562c63a4934404b8dde79bada190dbfd333",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d78800617cad94a006af9041649f487d18b2b88e888708b92",
+    "usage": {
+      "input_tokens": 2238,
+      "input_tokens_details": {
+        "cache_write_tokens": 2235,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2235
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 290,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 2528
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_78.txt",
+      "source_sha256": "eb321f25652190fdf5b0c5618c474d0b09acd071fcc48e68398ed2ae102e5657"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_80.txt",
+      "source_sha256": "5e899d03f01d16e3b4f1a9c88c0b5f67a6a736f98c83d9569933942fa476f570"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:06Z",
+  "duration_seconds": 3.945,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_79.txt",
+    "source_sha256": "d22bacb9be76047b9cd3796522f0c6c29914f32b82fb26cd4961ae51a05ca1cf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cba54865a7cb78b6a730dbc1342a5fc130131c9608221d8d78658b81228e25e6",
+  "request_fingerprint": "825c77d4ff9973706ee4179e0ee28291b7e95929e8c38afc44395384a5d2bdb7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.18 (título, dados e fonte) e o material gráfico do Gráfico 3.11, incluindo a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Gestão Hospitalar. Sem levar em consideração que aproximadamente um terço dos estudantes deixou a questão em branco ou recebeu nota zero, essa distribuição teria moda no intervalo (10; 20].",
+  "text_sha256": "950e6ad2c7764881dc8ce50305dca1a08fd3d2fe1187c6ccb42bb318776a7bbc",
+  "window_size": 3
+}

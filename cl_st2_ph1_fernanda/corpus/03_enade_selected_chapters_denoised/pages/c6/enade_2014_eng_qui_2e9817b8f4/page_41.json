@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_078b95ed188172f3006af8f929461887d1bbf0d2d962c009b7",
+    "usage": {
+      "input_tokens": 2367,
+      "input_tokens_details": {
+        "cache_write_tokens": 2364,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2364
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 2670
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_40.txt",
+      "source_sha256": "5d5c2580671c1502facadb7ac8442289be43b78733a306676fd66a9cb95b782a"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_42.txt",
+      "source_sha256": "9d27f31197cfebd1e069a4325b0f5c43ce59902f32737451bb67ee861627b269"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:29Z",
+  "duration_seconds": 3.314,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_41.txt",
+    "source_sha256": "d582d314821f1d7661bbf07a4c74d631af8dec986e9d017c05810d5613727105"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8dceb210d787d1d376e20c9ad743b94b5084f1431eb18eeb125e0ed729db88dd",
+  "request_fingerprint": "e28ac3c81a438288cfd8e3e7516754ecbba420d5c6163d980c1c7082590f11b9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "na região Norte (42,2), e as médias das regiões Sudeste (46,2) e Sul (46,5). Nota-se que o intervalo de confiança da região Centro-Oeste (12,5) é muito mais amplo do que o das demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "f0ae77763a002d900589a99fed7dac8704b34ae5fecf62c86f2c58871fdb9574",
+  "window_size": 3
+}

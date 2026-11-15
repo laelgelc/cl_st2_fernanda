@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0341bb8032533e47006af90763850c87d1b2be40078898f945",
+    "usage": {
+      "input_tokens": 2603,
+      "input_tokens_details": {
+        "cache_write_tokens": 2600,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2600
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 620,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 3223
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_112.txt",
+      "source_sha256": "9e9645e1bd13c1c5338f7f6bd2f38cb2d4e22c3fbe08ca244e11c20ef8fbdc56"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_114.txt",
+      "source_sha256": "bd4fe94103fa0a6dfb30bd227c5673213cdfae5cb3f5555693a88511c376d07a"
+    }
+  ],
+  "created_at": "2026-11-15T01:14:11Z",
+  "duration_seconds": 5.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_mec/enade_2017_eng_mec_page_113.txt",
+    "source_sha256": "c254223e098124549223c2a201d7aca563ee9fb559df3e65238468002bd956f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2d3e60f7dce59cfbd5bb4b5eea917685d07dde5cbc0210dbf7a5defb650e71e0",
+  "request_fingerprint": "c6f7199bb746e921c001b3ed9e4f3369b2e7eb45b1c791ce35b6a4f12698e736",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha das alternativas E (em vermelho) e D (em roxo), incorretas. Por exemplo, dentre os estudantes que acertaram três questões, 20,1% escolheram a alternativa E, 45,9% a alternativa correta B (em verde), 20,3% a alternativa D, 8,7% escolheram a alternativa A (em azul), e 4,7% escolheram a alternativa C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "7f06de87e627fcfb1077ad6d7597b1917b3d48e6f8b7af429a6bd6c06e6fbda1",
+  "window_size": 3
+}

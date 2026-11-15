@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04bbc2cb7ccc0df0006af8f548fa5c87d1a68ebf960a45d057",
+    "usage": {
+      "input_tokens": 2847,
+      "input_tokens_details": {
+        "cache_write_tokens": 2844,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2844
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 995,
+      "output_tokens_details": {
+        "reasoning_tokens": 331
+      },
+      "total_tokens": 3842
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_53.txt",
+      "source_sha256": "516064e718bb1ede5c96e8ae2cd637b1262b1172a616f4085dfe4b9544e9e72d"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_55.txt",
+      "source_sha256": "5370eca39613bb282a71b63726e444b5f09979b99a01a0147256a35165431149"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:56Z",
+  "duration_seconds": 7.391,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_54.txt",
+    "source_sha256": "0b33a65aaae74b16c52fea4bc1e27d8d3fa75926e4bb0576b27579e1bdf55522"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4621331fa8f08c5a2b0a3d5339d25a261e42bb0c8a98bb105cac83350d7a9a2d",
+  "request_fingerprint": "39d020a0e4b3453caa954c57e80d0479793e84e10d127abf8fe7334d14811209",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte.",
+    "Removida a Tabela 3.5, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e duas como fácil. Duas questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Três questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\n\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da terceira questão mais difícil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C",
+  "text_sha256": "65716f27eeff975071a5e9f1b1eee319bae419a6ef79f3d6a30d38edefb65c23",
+  "window_size": 3
+}

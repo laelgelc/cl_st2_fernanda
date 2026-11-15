@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc75813c82062fb006af9180416a487d1a806956b5e27075e",
+    "usage": {
+      "input_tokens": 1766,
+      "input_tokens_details": {
+        "cache_write_tokens": 1763,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1763
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2052
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 200,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_ef/enade_2021_ef_page_200.txt",
+      "source_sha256": "330cbd9121170b889303211f36d620bcecea05a93e59a9b06aef665954bb4c92"
+    },
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_ef/enade_2021_ef_page_202.txt",
+      "source_sha256": "0cd200db3bbd2fa88315cbdb97550df063a835796c2188e87d1eb2f4cfd23f49"
+    }
+  ],
+  "created_at": "2026-11-15T02:25:08Z",
+  "duration_seconds": 4.002,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2021_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 201
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2021_ef/enade_2021_ef_page_201.txt",
+    "source_sha256": "70ef8e9520ecfc7b60dfb8d02cb1a4d8828e80fc70e41354ea328d18a01381dc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "52c36c2aaf2bde75fb4271adaf61cfa9718742066c76c209da8c2581b0cfe7ea",
+  "request_fingerprint": "9ba2b1ec88117d62cc3593f1e26b22fae39a840a10fab2f962e66687323cb24b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.11b, além de “CEFET/IF”, identificado como rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes de Licenciatura que consideraram a prova Longa ou Muito longa, em relação ao tempo total destinado à sua resolução, foi menor entre os estudantes de cursos de IES Privadas (33,2%), havendo diferença estatisticamente significativa da proporção em relação aos de IES Públicas (36,6%). Já a proporção de presentes de Licenciatura à prova que consideraram a extensão Adequada foi de 57,3%, entre os estudantes de IES Públicas, e de 60,8%, entre os de IES Privadas (ver Gráfico 4.12a e Tabela II.6a, no Anexo IIA).",
+  "text_sha256": "805261f345821f0a8d5e23f51aa915f12f0a0cdc1f1a08de6202a30621177634",
+  "window_size": 3
+}

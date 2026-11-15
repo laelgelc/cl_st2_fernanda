@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e3b1952278e2095006af8e635315c87d18d64f26104ea7f99",
+    "usage": {
+      "input_tokens": 2405,
+      "input_tokens_details": {
+        "cache_write_tokens": 2402,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2402
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 504,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 2909
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_proc_ger/enade_2009_proc_ger_page_75.txt",
+      "source_sha256": "7ed5d36f6da835b0169baabad87febfdd6dff0914b5ee93eb1924bd17406b99b"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_proc_ger/enade_2009_proc_ger_page_77.txt",
+      "source_sha256": "ec82de82b628c7b13cfada215e8e654da47b7ef9108053ce3074bd097d79063b"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:37Z",
+  "duration_seconds": 5.045,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PROCESSOS GERENCIAIS.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_proc_ger/enade_2009_proc_ger_page_76.txt",
+    "source_sha256": "664e2129c9f7ef31985fcbeec5651b5628d10a42331b36c2fd727ee5f3060928"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "69937ca64a14f1775eea3270533592cf4f0dde9be06df2e60914635895be8122",
+  "request_fingerprint": "b054ca8b5af8296132e927b0fbfca66b9b98eea76e005989d2bf2b486da8e629",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.3a, incluindo título, dados, eixos, legendas e fonte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.3a, 4.3b e 4.3c apresentam a distribuição das respostas à questão “Qual o grau de dificuldade desta prova na parte do Componente Específico?”, segundo quartos de nota final e grupo de estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM PROCESSOS GERENCIAIS. Em geral, para as desagregações consideradas, os estudantes classificaram o Componente Específico como mais difícil que a Formação Geral.\n\nNo total de concluintes, 30,6% declararam que a prova na parte do Componente Específico foi Difícil/Muito difícil, sendo um valor muito maior para os ingressantes, 34,8%. Entre os concluintes, a proporção de indivíduos que classificaram esta parte como Difícil/Muito difícil entre os concluintes é declinante com o desempenho partindo de 32,5% no primeiro quarto para 28,8% no último quarto. Entre os ingressantes esta proporção também decresceu com o desempenho. A proporção que declarou a parte Fácil/Muito fácil foi maior entre os concluintes (7,5%) do que entre os ingressantes (6,5%). Entre os concluintes a proporção dos que consideraram esta parte como fácil se mantém com valores muito próximos a média. O mesmo comportamento se verificou entre os ingressantes. Entre os concluintes, 61,9% classificaram esta parte com um nível Médio de dificuldade. A proporção entre os ingressantes foi ligeiramente menor, 58,8%. Entre os concluintes e ingressantes, esta proporção aumentou com o desempenho.",
+  "text_sha256": "aedd801918039fdff5a660a37503b74ac8004cdf08ffbed71a817231c4d8d345",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_002ec43011aabc0c006af8e7ae324087d1a219975c391f6c16",
+    "usage": {
+      "input_tokens": 2444,
+      "input_tokens_details": {
+        "cache_write_tokens": 2441,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2441
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 373,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 2817
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_29.txt",
+      "source_sha256": "c2bde4dc8d1a6772242f2330c48c765dd83bd61136074ab2bde9af1abc51bef9"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_31.txt",
+      "source_sha256": "f54acbcca4763cadbef3a4075f7edb293163cb15c5529fdc7ea74ef2e2f4fbdb"
+    }
+  ],
+  "created_at": "2026-11-14T22:58:54Z",
+  "duration_seconds": 3.72,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM RECURSOS HUMANOS.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tec_gest_rec_hum/enade_2009_tec_gest_rec_hum_page_30.txt",
+    "source_sha256": "2736ccf6c6127721f0c2abab2853d89084e519e8ba68c65ce14257ccd1173c7a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70b50a2613d74c94c1a0afbec993ee1b4d09b27df0923150e0e095f9139b5321",
+  "request_fingerprint": "770f613db548aeb8d39cca6dbb3566927915e0c5cdac17004559015d8cf482e3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, eixos, intervalos, legenda, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 44,0 entre os concluintes e 37,8 entre os ingressantes. Nas faixas de notas até 40 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. Constatou-se que aproximadamente 22,3% dos ingressantes situaram-se nas faixas de notas superiores a 50,0 pontos, por oposição a 36,3 % dos concluintes.",
+  "text_sha256": "7f4fa47abbce02148009b98c6d0a6823a09d326399038b592eb00996b6013584",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b6e4a58b8cca715006af8f1def33087d1b72fd16d96dbcacf",
+    "usage": {
+      "input_tokens": 1951,
+      "input_tokens_details": {
+        "cache_write_tokens": 1948,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1948
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 335,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 2286
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_39.txt",
+      "source_sha256": "18b7573d1931c6dc7a450043356ae0985613196c42925e9b3f01f3d5b1f798a0"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_41.txt",
+      "source_sha256": "b8ca3ecdda0bee76dc2cfe3a6fc23245b69f25f99bde9313058bfd3cc6546930"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:22Z",
+  "duration_seconds": 3.379,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_40.txt",
+    "source_sha256": "3d2736541b1b11a23c815bcbb000c0bda9f6a93e096a4dd39084a65c34589d88"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6ea2c28c981e558a1df29050893aa6fccb0e86de0cdc9c60e42ae2bcf0bcb296",
+  "request_fingerprint": "0eca16810d3be663b2d9fb5736825267a51f41f489f7b60b46b2e2c4d4c9730f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se no Gráfico 3.6 que há diferença estatisticamente significativa entre as médias das notas no Componente de Formação Geral, segundo Grande Região do país, se comparada a região Sul, que obteve a maior média (42,4), com a região Norte, que obteve a menor média (37,6). Vemos que o intervalo de confiança mais largo é o da região Norte; já os intervalos mais estreitos são observados nas regiões Sudeste e Sul. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que no Sudeste e no Sul.",
+  "text_sha256": "bdec1a6419ff0f8c50b1ade89c4286cf03622b4a8dacd9bceef694f75beac7a1",
+  "window_size": 3
+}

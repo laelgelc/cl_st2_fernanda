@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f3999d8d8c6aab006af8f5695aa887d1b096495e2e557138",
+    "usage": {
+      "input_tokens": 2299,
+      "input_tokens_details": {
+        "cache_write_tokens": 2296,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2296
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 422,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2721
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_106.txt",
+      "source_sha256": "9dc26b883c3abf1f5f4a9051cab3dfc98bb8049d707031200ed8bfc2466ebe41"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_108.txt",
+      "source_sha256": "a2fddda5b71c5acf4a7ea9b52f26afa0c654590308b95e3b031f84d22ef0832c"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:29Z",
+  "duration_seconds": 4.592,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_107.txt",
+    "source_sha256": "6a0b5087ecc236870abe5bf45d14a2f4c935b25245ada99772045424a6917e2c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "90cd10d68f5ee892ebb8fe7f0f015f7de73c741e67707cc5498b84c4bce8f3d2",
+  "request_fingerprint": "896170fdc221161b3a40d38cdd9cf3364aa22e249666d1812eb57a8b615b8c77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE2013”, identificada pelo contexto como pertencente ao Gráfico 5.1 da página anterior."
+  ],
+  "status": "success",
+  "text": "5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA E POR GRANDE REGIÃO\n\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2013 de Tecnologia em Gestão Hospitalar, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 43 cursos participantes, três (7,0%) eram ministrados em Instituições Públicas e 40 (93,0%), em Instituições Privadas.\n\nDe acordo com as informações da Tabela 5.2, em termos nacionais, todas os dois cursos que receberam o conceito 5 estavam em IES Públicas. Como já comentado, dos três cursos participantes de IES Públicas, o conceito 5 foi o valor modal, atribuído a dois cursos (66,7%). O outro curso de Instituição Pública participante obteve conceito 1 (33,3% da categoria). Nesta categoria, nenhum curso ficou sem conceito (SC) ou recebeu os conceitos restantes.",
+  "text_sha256": "44cc687904b9e432a0ff9c7ba1fa65cc9c3f3fd8eb64094f855b8e0db9876111",
+  "window_size": 3
+}

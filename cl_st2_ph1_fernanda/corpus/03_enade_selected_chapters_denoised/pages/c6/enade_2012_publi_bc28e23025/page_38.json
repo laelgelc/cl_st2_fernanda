@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_065b932d54b69425006af8f162960487d1b464b042260725d2",
+    "usage": {
+      "input_tokens": 1485,
+      "input_tokens_details": {
+        "cache_write_tokens": 1482,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1482
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 377,
+      "output_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "total_tokens": 1862
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_37.txt",
+      "source_sha256": "e0eb91d2b1be1da97fe2c3bd99f13e6b5af190d868beb4f7a9fbd86654753a36"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_39.txt",
+      "source_sha256": "fd9cb2c1934c5d91e5a013e3e85349fecde3a4f840565049d3d9dace5f51db0f"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:18Z",
+  "duration_seconds": 4.676,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_38.txt",
+    "source_sha256": "7aa780088b8945cc7dea391d5d336f296c412a81ad74426ed949bf14f3628d56"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cf391144117d1382db49368c7ed08a2b43d44ad4c35e6e79d0e027bd02770a35",
+  "request_fingerprint": "9d3b34b1a56352e728d05ab58689e94aa03996d7398b82e52eb3c26d3cc0d071",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (41,0) é maior que a dos alunos de IES Privadas (37,6). A diferença entre IES Públicas e Privadas (3,4) é menor do que a diferença entre regiões Sul e Centro-Oeste (5,2), a maior e a menor média entre as regiões.",
+  "text_sha256": "7d83e15775671b46536f8a43d82b040532614a2ef27f4fb073514a7c37d81436",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b5273329912763d006af92422b11887d1af4be116aa569a74",
+    "usage": {
+      "input_tokens": 2773,
+      "input_tokens_details": {
+        "cache_write_tokens": 2770,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2770
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 3059
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_106.txt",
+      "source_sha256": "b7bddd58882ff0b6d8b4e85d9030100bc2a647272891d120355dd29cf840b5d9"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_108.txt",
+      "source_sha256": "b8fe9666d866088a47e5467fad144dda11ed98ba740ebe139062c16091ccc950"
+    }
+  ],
+  "created_at": "2026-11-15T03:16:50Z",
+  "duration_seconds": 3.493,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_MEDICINA.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_med/enade_2023_med_page_107.txt",
+    "source_sha256": "412e3361ef6758f2eabdba05321c65b8ebf38377bc1b223e5c28667af7596797"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ef36b3fdac587a6970521fe8d070ba6c816fc31978b5b4dd29a9ea58a88183cb",
+  "request_fingerprint": "948eea93235686aa666c31695b313b89fcf0a2ef592da104f196b90ec03756dc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico e sua linha de fonte: “Fonte: MEC/Inep/Daes - Enade/2023.”"
+  ],
+  "status": "success",
+  "text": "Nesse gráfico, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "1bbd42d26e4d41d7cc0364e2ba7ca44503c42b7e177864458440127a9ef8511b",
+  "window_size": 3
+}

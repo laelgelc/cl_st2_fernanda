@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ea69dc428d73c4006af90cfc083887d1923cc72802588d66",
+    "usage": {
+      "input_tokens": 2234,
+      "input_tokens_details": {
+        "cache_write_tokens": 2231,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2231
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 446,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 2680
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_jorn/enade_2018_jorn_page_139.txt",
+      "source_sha256": "141cd4b5901ee20eb3f82cc5650b94125246840ab0821151ec7a4154e386b4b7"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_jorn/enade_2018_jorn_page_141.txt",
+      "source_sha256": "1c5f06e907e284454863ca8f229acea2c5dbd757df1fcb08fff0bcd39f5568e5"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:03Z",
+  "duration_seconds": 4.409,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_JORNALISMO.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_jorn/enade_2018_jorn_page_140.txt",
+    "source_sha256": "e3077a5e9c64d1fa37414168d054ea3ff096a26e643d7a9cf7df15ecb4aa1e1f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "640b35f60c263f0e16b6c6d2bd811da1e46a84d013f19a7c7a068e0acd81d3c7",
+  "request_fingerprint": "023f6ffccbd451387b88f82e89eaaa8f9a6e626463eec02e6c86a4e362ed1976",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.11 e sua linha de fonte; a prosa que o menciona foi preservada."
+  ],
+  "status": "success",
+  "text": "Mediana 30,0, a nota Máxima 100,0 e a nota Mínima zero, foram as mesmas em todas as regiões, sem exceção.\n\nNo Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Comunicação Social - Jornalismo. Sem se levar em consideração que cerca de 12% dos estudantes deixaram a questão em branco e que cerca de 22% receberam nota zero, a moda dessa distribuição seria o intervalo (20;30].",
+  "text_sha256": "e85e761909f89b526809a19192253154bd0bcd47958919345c793ecaf62b068d",
+  "window_size": 3
+}

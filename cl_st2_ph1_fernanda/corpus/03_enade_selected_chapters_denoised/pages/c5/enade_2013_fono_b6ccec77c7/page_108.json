@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_049371d22812f49e006af8f3f402a087d184454e01f0cf3239",
+    "usage": {
+      "input_tokens": 2382,
+      "input_tokens_details": {
+        "cache_write_tokens": 2379,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2379
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1791,
+      "output_tokens_details": {
+        "reasoning_tokens": 1332
+      },
+      "total_tokens": 4173
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fono/enade_2013_fono_page_107.txt",
+      "source_sha256": "e0b0e627668ba246fbdbdd0c2ecd3bfd7571572291255346e0e00a612eb80392"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fono/enade_2013_fono_page_109.txt",
+      "source_sha256": "9c36b767447d07c3fa87ee308484838c8a9befaa5a3d386bb74a611d06bbc3cb"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:15Z",
+  "duration_seconds": 16.489,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_fono/enade_2013_fono_page_108.txt",
+    "source_sha256": "d2c6056e1538276624b59b9425ad13ba35d30b5210b827249704bb84a54378ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "89a1f5673d3eb20c9aeddd8442c70d157cfedffeb7a9b613310c21e0c9c1ee7a",
+  "request_fingerprint": "93665b04047ef5fbca663c2e20b2e4edfa4c9cf8ffee71278a9850aec5b93bf8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 5.1, associada ao gráfico da página anterior.",
+    "Removidos o título, os dados e a linha de fonte da Tabela 5.2. A prosa antes da tabela termina em “O conceito 4 foi”; a página seguinte indica continuação, mas ela não foi completada.",
+    "A prosa final termina em “com dois” na página-alvo; não foi completada com texto de outra página."
+  ],
+  "status": "success",
+  "text": "5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA E POR GRANDE REGIÃO\n\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2013 de Fonoaudiologia, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 64 cursos participantes, 19 (29,7%) eram ministrados em Instituições Públicas e 45 (70,3%), em Privadas.\n\nDe acordo com as informações da Tabela 5.2, em termos nacionais, das cinco IES que receberam o conceito 5, todas eram públicas. Dos 19 cursos participantes de IES Públicas, o conceito 4 foi o valor modal, atribuído a sete cursos (36,8%). Dois cursos receberam igualmente os conceitos 1 e 2 (um curso, cada). Entre os demais cursos de Instituições Públicas participantes, também, outros dez obtiveram igualmente os conceito 3 e 5 (cinco cursos, cada). Nesta categoria, nenhum dos cursos ficou sem conceito (SC).\n\nNa rede privada, o conceito modal foi 3, com 19 cursos dos 45 da categoria. Entre os demais cursos participantes, seis receberam conceito 1 e dez, conceito 2. O conceito 4 foi\n\nNa análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com cinco cursos (totalidade regional), dos quais apenas um ficou sem conceito (SC). O conceito modal para as Instituições Privadas na região foi 2, com dois",
+  "text_sha256": "b51b0fcfc603365c1aa96d2ee750e818f777b26396ab202694a2a465dd96da9a",
+  "window_size": 3
+}

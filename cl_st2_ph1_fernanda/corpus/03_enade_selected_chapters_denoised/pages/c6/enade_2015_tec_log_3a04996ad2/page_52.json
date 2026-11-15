@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06ce1ad624acb4b8006af900a19b2087d1b0ba23a0cece0692",
+    "usage": {
+      "input_tokens": 2479,
+      "input_tokens_details": {
+        "cache_write_tokens": 2476,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2476
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 634,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 3113
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_51.txt",
+      "source_sha256": "1572113be3216cb4ef658a84b8e85e7d281e3f13f63626d1959b27ff333bf003"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_53.txt",
+      "source_sha256": "5466dd679e1a1978105ad4c97add11fd60ba315f492f6faf2aec2d92fb6c403b"
+    }
+  ],
+  "created_at": "2026-11-15T00:45:21Z",
+  "duration_seconds": 7.966,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM LOGÍSTICA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_log/enade_2015_tec_log_page_52.txt",
+    "source_sha256": "477570b5c487f481347600f46ae9f9a64704347ab78c30b3b35521876e9a4f12"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "494ff81abc13faa792d45e1c9c351df50625bcb60327b3da3c3e98b44b94fa50",
+  "request_fingerprint": "0bd92f7ff250582a73b030e1a5d35fab2006d20095ad9b4f818bda148d2b005f",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 33,6% escolheram a alternativa D, 20,2% a alternativa C (correta), 21,0% a alternativa A, 15,0% a alternativa B e 9,5% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,2% deixou a questão em branco e 0,5% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "516505e061e573cf5a5c7969ea7f81d215af9c46310298c4e4cc014514f2844f",
+  "window_size": 3
+}

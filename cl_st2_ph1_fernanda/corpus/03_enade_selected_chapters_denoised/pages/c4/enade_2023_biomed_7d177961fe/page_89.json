@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1ec9a32e26e01c006af92178cdc887d1aa3a0f68b757b3d3",
+    "usage": {
+      "input_tokens": 1982,
+      "input_tokens_details": {
+        "cache_write_tokens": 1979,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1979
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 329,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 2311
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_88.txt",
+      "source_sha256": "4deb8dcbc02d8b6a89d5cc3e1e3d1280ccc2606d0448b91815989e1446600e79"
+    },
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_90.txt",
+      "source_sha256": "beaa8f312c38ebc6833e04f636927a2a6ee81f11959d542251382bfc8cb0b30e"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:28Z",
+  "duration_seconds": 4.0,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 89
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_89.txt",
+    "source_sha256": "1e81da2f224138a2ee03ae2fd901b4844255230a4d82bcefd073f1fb1e72b2a0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b501476c860ba5495a7db7502f8377ec0df7511d5335a6b884c82047ec9c9a80",
+  "request_fingerprint": "03fbd7bd99be196779eef9244c3d2eb257e5c3d5a69ec5c7126326e7c3130bfa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.10, incluindo título/c legenda e fonte; dados e elementos gráficos não foram transcritos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nNo Gráfico 3.10, observa-se que a proporção de estudantes que consideraram a prova longa ou muito longa foi menor no 4.º quarto (24,9%) — grupo de estudantes com melhor desempenho — e maior no 1.º quarto (38,1%). Pode-se constatar que há diferença estatisticamente significativa entre todos os quartos de desempenho. Considerando-se o desempenho dos estudantes, nota-se que 59,6% consideraram a extensão da prova adequada, no quarto de desempenho inferior, e 71,9%, no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 63,0% no 2.º quarto e de 68,0% no 3.º.",
+  "text_sha256": "d285df89cfa5670208b49ec683d36656e94478870472c0d1b0c7ad76cf289d0c",
+  "window_size": 3
+}

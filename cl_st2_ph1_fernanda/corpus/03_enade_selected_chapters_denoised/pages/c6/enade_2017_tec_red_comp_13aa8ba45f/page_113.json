@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07232c5edc9bac98006af90ba2ca1487d1b8e1e0fc028297af",
+    "usage": {
+      "input_tokens": 2761,
+      "input_tokens_details": {
+        "cache_write_tokens": 2758,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2758
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 3055
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_112.txt",
+      "source_sha256": "c4e82786d74ca416072ad581a514da20c10a08ab87460216fd5940ca0155589c"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_114.txt",
+      "source_sha256": "1bc2516a1e8f239fc098261fa5a72aec95098e0919eadb6713b6bfac5e4ce854"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:18Z",
+  "duration_seconds": 3.478,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_113.txt",
+    "source_sha256": "1dc5711f7e88a0d07f1de75964ac4972a13e03517d55daf8099fae502e00a619"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "98b74e8112e7696e4bb56d331a9216388bd97ef0597b2e3ca566bd1f72059018",
+  "request_fingerprint": "5d9eaa8b02d10edb63c119a32c9271dfdab5eb8878056053b6a6cde89fad619c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte. Removido o material do Gráfico 6.1; a linha de fonte após o parágrafo parece pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], seguido de perto pelo intervalo (20; 30].",
+  "text_sha256": "4e7e302d73e504f4698c66eb3648fbc4828ea43cdeabacd140e2df13db4e739c",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05eefc31791f66c8006af90065d78887d1b8325de910acb6e8",
+    "usage": {
+      "input_tokens": 1756,
+      "input_tokens_details": {
+        "cache_write_tokens": 1753,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1753
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 298,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 2054
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_111.txt",
+      "source_sha256": "7e24ee2f05e646bba4b2a6a4a171a3758fd6c62eff99bc6dd6e86c1c51a26525"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_113.txt",
+      "source_sha256": "2a0762ff3b5bb47ab1d01c1d9a90dac243fff99d6f1a00d576ac1c01e5c0f839"
+    }
+  ],
+  "created_at": "2026-11-15T00:44:21Z",
+  "duration_seconds": 3.187,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO PÚBLICA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_112.txt",
+    "source_sha256": "2ec9a5ce07fd4a39e2f5aa8abf95d03f0c0c59d71a6269ccd35db68999db1052"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb40337c12c0169091e930590dc7864449076d557b93ab1f00e558967ef6a34e",
+  "request_fingerprint": "95e6866d4f73d377ea1415e2e575c9e9b14fb2b22d1cff12f223ee8481e47445",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.15, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 67,7% na região Sul e 74,2% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 10,9% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,6% os do quarto superior com a mesma resposta. Observam-se diferenças estatisticamente significativas do primeiro quarto para os demais, bem como entre o segundo quarto e o superior.\n\nTendo em conta o quarto superior, 86,9% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 48,0% optaram pelas mesmas categorias.",
+  "text_sha256": "fd46e36f71c0bddd906905c62232fcb03feeac31a33c7afbd4bf179826b9735e",
+  "window_size": 3
+}

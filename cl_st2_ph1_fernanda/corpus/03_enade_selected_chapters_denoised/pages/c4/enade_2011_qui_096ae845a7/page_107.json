@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01228e34f4c4f95f006af8ee879a0087d181a6c0b28512c2e2",
+    "usage": {
+      "input_tokens": 1146,
+      "input_tokens_details": {
+        "cache_write_tokens": 1143,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1143
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 237,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 1383
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_106.txt",
+      "source_sha256": "b09b609b0a8a157d9c8abce8b1429dafabfa12ab1821f5e6e1912f915f66430f"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:07Z",
+  "duration_seconds": 3.334,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_107.txt",
+    "source_sha256": "61d4b0f28caf4c79d177c4d6370dcd38ffef6fa13ee448b260523fa703ed502b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8101182e9d8f32caf4eacb4c1b3e05cddacca46f79a4bd2e825ce289bee5b33c",
+  "request_fingerprint": "de9baa07f921a8c4967ddad9f015b2d615f50cdf30e111288c67408185b0f22a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to table or graph material; the associated material is not present in the extracted target-page text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

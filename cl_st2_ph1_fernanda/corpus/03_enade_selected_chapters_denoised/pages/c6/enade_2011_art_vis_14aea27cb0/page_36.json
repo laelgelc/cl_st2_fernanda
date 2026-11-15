@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dea5eebd5e8e1de006af8eae2c74087d1b52d36cfe8ed4e92",
+    "usage": {
+      "input_tokens": 1476,
+      "input_tokens_details": {
+        "cache_write_tokens": 1473,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1473
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1761
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_35.txt",
+      "source_sha256": "8bbdcd9ef882f613ad81fef9ce10060ed8ec958f95030184f6fb23112004a422"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_37.txt",
+      "source_sha256": "b6aef958d5daa49618fd26a5eda3332ab597f4331e26f90e66531f92b3e7d6e0"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:34Z",
+  "duration_seconds": 3.753,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_36.txt",
+    "source_sha256": "b9ea1ad58e2b477d497b3b0e26e2f79591e21ed5c3031813c80fe8c22f7beb90"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dbe72d084bf735046bcee710f99a8966c04741474c9d23573a0bbc6598f29281",
+  "request_fingerprint": "be626260261b2154242c8b7a6562fa3b7d1658ea3702184fa7aa8bd6303c99f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», associada ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (53,6) é maior que a dos alunos de IES Privadas (49,2). No entanto, a diferença entre IES Públicas e Privadas é menor do que a diferença entre as regiões Nordeste e Sudeste (9,1).",
+  "text_sha256": "8aae59c132c18710a462960d60d8c749f420f94c1232e2b1973774310f09a544",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e550a7a87bcbbfe006af8f88d25e087d19a6890725b36b95d",
+    "usage": {
+      "input_tokens": 2788,
+      "input_tokens_details": {
+        "cache_write_tokens": 2785,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2785
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 3163
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_46.txt",
+      "source_sha256": "f20333ddb90c0264aa399b286310cb990e7bee33b16e5fba0b320cebf59d9269"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_48.txt",
+      "source_sha256": "c83db6c5c51611768ce05bc2e33c420611f03a7de6437ba8938b4f3b2797b5a8"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:53Z",
+  "duration_seconds": 4.776,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_47.txt",
+    "source_sha256": "10a37b1a9548fe71c097ffaa3725a160c26ef0b4a6c93fadbe78ba9bb846e627"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7567df9283af5d49d46b43351a817d3181b400418b348f88d28fe71476b5d3f6",
+  "request_fingerprint": "6f7ad14a9b9185ce66c72a61d232e56ab1e0b8e8e2dc96d57893193512fafd98",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. A linha de fonte após o parágrafo parece pertencer ao Gráfico 3.3; removida. O gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia Elétrica em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (30;40], abaixo tanto do grupo modal da prova como um todo quanto do grupo modal para a Formação Geral.",
+  "text_sha256": "12479a21b423dae72cf4a664860c368fffb99ac02f340ecdab4bc203a3c6e5d7",
+  "window_size": 3
+}

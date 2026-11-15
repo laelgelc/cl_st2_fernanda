@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04bd146ac9b72a69006af8f40fed7087d19b791192cc6ee21a",
+    "usage": {
+      "input_tokens": 2425,
+      "input_tokens_details": {
+        "cache_write_tokens": 2422,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2422
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 348,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 2773
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_77.txt",
+      "source_sha256": "92726bc81d8ce31b1bcd1d3bab723a23426ca98f94f1f282e2d6a33f5ad49e7a"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_79.txt",
+      "source_sha256": "92a0ce4a3407bdc8cafbbaf1c8d0807eb449d95a6a2ba3cf95ec5d6587950962"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:43Z",
+  "duration_seconds": 3.695,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_78.txt",
+    "source_sha256": "2e8b7f9916937169fdbbec621ae2fc5648ac8fc475fc5c961b5d86fed6587279"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7694986f19953ea1f43d80fbd7409cc16d5a14466d92c53443ceb20f34e41e9c",
+  "request_fingerprint": "db27c118586c57fff5544126540e0b256b1764c008adea2c94e44d85f49b6e85",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material do Gráfico 3.20 e sua linha de fonte; a interpretação em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição é, grosso modo, crescente com os valores com a moda no último intervalo, (90; 100]. As questões em branco constituem uma modesta moda secundária. O coeficiente de assimetria é negativo para todo o Brasil (-1,07) e para todas as regiões (entre -1,24 na região Sul e -0,96 na região Centro-Oeste), indicando uma assimetria à esquerda.",
+  "text_sha256": "aa5d734b8082d3dc8bb95a213d40e5bde2a609cd53e102abd4177a3656c590d2",
+  "window_size": 3
+}

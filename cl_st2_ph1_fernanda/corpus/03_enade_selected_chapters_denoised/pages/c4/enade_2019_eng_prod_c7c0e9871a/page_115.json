@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f883d0c6ebb05c8006af9118a5e5c87d1b9c0bddd7bfe37cb",
+    "usage": {
+      "input_tokens": 1728,
+      "input_tokens_details": {
+        "cache_write_tokens": 1725,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1725
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 369,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 2097
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_114.txt",
+      "source_sha256": "abbf2c89414ff9c7e8276bd3e04ba6d9044948514402bfee24ab90910245fbea"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_116.txt",
+      "source_sha256": "691654d1800722570b0bf9f18366ded10b58353f68af68217aae03c30c149a56"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:30Z",
+  "duration_seconds": 4.124,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_prod/enade_2019_eng_prod_page_115.txt",
+    "source_sha256": "7dac711bbcf93d7eb5332f381993506bf5012e284708796eba73ac4e7ea4130f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2652baa58aae9f82ef80bb5e427ef55d72bc65905769f3d4da4fe28f868571a7",
+  "request_fingerprint": "5298bbde772af80af094d1a8aed5ed372648c8664e4a36de04828020b4975876",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.19; seus dados gráficos não foram transcritos.",
+    "O texto isolado “CEFET/IF” parece ser um rótulo gráfico associado ao Gráfico 4.20, cuja legenda aparece na página seguinte; removido."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior para os estudantes de cursos de IES Públicas (84,1%), uma diferença estatisticamente significativa da proporção em IES Privadas (76,8%). Ver Gráfico 4.20 e Tabela II.10 no Anexo II para um maior detalhamento.",
+  "text_sha256": "d19636e5fc6dcd95685d960d5d327da05c7dd3acb0704ffa0dbf4a3ad6c3eeff",
+  "window_size": 3
+}

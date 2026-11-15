@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02b81906832c58df006af90544da6487d1a21de0fb290febbb",
+    "usage": {
+      "input_tokens": 3421,
+      "input_tokens_details": {
+        "cache_write_tokens": 3418,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3418
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 359,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 3780
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 207,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_207.txt",
+      "source_sha256": "994e601dcf7979fae0de6f963a10ee6d1f4d5af8b2ea519e1877cf8a2bf56dad"
+    },
+    {
+      "page_number": 209,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_209.txt",
+      "source_sha256": "a73f288f587f75873359f945986d0d17cae00bc1032a24c49b680ae2b4b6dc4c"
+    }
+  ],
+  "created_at": "2026-11-15T01:05:08Z",
+  "duration_seconds": 4.631,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 208
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_bio/enade_2017_ci_bio_page_208.txt",
+    "source_sha256": "3eb5e70fbb4c449befcbdcd94c9617f27ef6506b140d4d9505b48883ea33b6ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5d37cb7a53bfcafb469462fb1da755f9f97f7a8f575d4a8d8d232a05eba2f39b",
+  "request_fingerprint": "0ec84734bfeadbc185bebedb339fd2af28bc6923f81f5ac9d13e8d727b846c33",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, estatísticas e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Observa-se que existe diferença estatisticamente significativa da maior Média das notas do Componente de Conhecimento Específico, obtida na região Sudeste (43,5), em relação às demais regiões.\n\nPara os alunos de cursos Presenciais de Bacharelado, a Média do desempenho de Conhecimento foi 48,6. A maior Média foi obtida na região Sudeste (49,8), e a menor, na região Norte (41,5). As demais médias foram: 47,3 na região Nordeste, 48,9 na região Sul e 47,3 na região Centro-Oeste. O Desvio padrão de todos os alunos de cursos Presenciais de Bacharelado foi 14,7, sendo o maior Desvio padrão observado nas regiões Nordeste e Centro-Oeste (14,8), e o menor, na região Norte (14,2). Os demais desvios foram: 14,6 na região Sudeste e 14,4 na região Sul.",
+  "text_sha256": "0160dc57ccc2f40445d36f0104fd0095ac87226ce603fef7c33d2a6f18720b99",
+  "window_size": 3
+}

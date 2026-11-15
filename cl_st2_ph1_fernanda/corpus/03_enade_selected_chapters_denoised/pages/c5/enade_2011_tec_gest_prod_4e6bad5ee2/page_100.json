@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cf0333aaf2fb7a006af8ef7b94e487d18a005445014cc130",
+    "usage": {
+      "input_tokens": 2608,
+      "input_tokens_details": {
+        "cache_write_tokens": 2605,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2605
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 192,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2800
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_99.txt",
+      "source_sha256": "3683fde68cee7ba826ea4ddb417d52d7fb2d0a702919a38e6dc245d1e24b1e77"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_101.txt",
+      "source_sha256": "62688bcd8ed8ffd34d67fa2a5bea9c3ceef2dc7384614d0ad01089c909e1e555"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:11Z",
+  "duration_seconds": 2.647,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_100.txt",
+    "source_sha256": "d40635073a47f16108dc6c4b0991207299bbaf82428ab8750929b61d9b6182cc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9421756a80eae160d956426cd6465cf3a7cbc695986a6d6a95c24d4bf5b954c3",
+  "request_fingerprint": "921667c0f1e492aa67371426ed1d5b344f82a4084d3cdaf40a30ce0e81878f95",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, o único curso participante da região Norte, que como já comentado recebeu conceito 4, era de IES privada. A região Nordeste que também foi representada apenas por um curso da rede privada, que obteve conceito 4.",
+  "text_sha256": "404010193f223d686cf5dacf490ebb4667916e7855e01686b81c7333c557c092",
+  "window_size": 3
+}

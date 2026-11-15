@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09ae40a21044f5bc006af90167918487d1862b220a17213b2a",
+    "usage": {
+      "input_tokens": 1810,
+      "input_tokens_details": {
+        "cache_write_tokens": 1807,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1807
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 230,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 2040
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_93.txt",
+      "source_sha256": "5a076b8a7016431c400f9ed5673f67f0958bc3722ac75c94a90b2a5af074c781"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_95.txt",
+      "source_sha256": "731e49c2fa42a4f4d39987c296aff2dce0b4dd249dd99ec546d47a159406655d"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:39Z",
+  "duration_seconds": 2.628,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_94.txt",
+    "source_sha256": "9be4276ce205fbe20d16e32346893706501a494c081a74b52e161761ab61c4ec"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91d01ed10f82454d41acf52b89e23ed3748a701008f39fc7bf0539634908cb37",
+  "request_fingerprint": "c087acf509bddb309d4c088efd0acc0bc6d5c6363043bd4b74f0ae4607cca491",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.5, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 66,8% consideraram a extensão da prova adequada no quarto de desempenho inferior e 75,4% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 68,1% no segundo quarto e 71,3% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "a21f7a1b57d82ab9daef49af7055084410733d31c34d15f2b62bef69299834e0",
+  "window_size": 3
+}

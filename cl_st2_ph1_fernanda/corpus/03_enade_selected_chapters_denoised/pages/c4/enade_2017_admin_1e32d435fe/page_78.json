@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e99bf554f1e5198006af9047c585487d1ab555f18e7cbdf01",
+    "usage": {
+      "input_tokens": 1784,
+      "input_tokens_details": {
+        "cache_write_tokens": 1781,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1781
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 209,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1993
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_admin/enade_2017_admin_page_77.txt",
+      "source_sha256": "88a7384281438ea0813455943161cf1aefec2a3612a7de03d366cee6484a9705"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_admin/enade_2017_admin_page_79.txt",
+      "source_sha256": "2691b5f36a8087bd25e1a971cbe08f7186e026f8f96195ec70ff0e4646f0bfeb"
+    }
+  ],
+  "created_at": "2026-11-15T01:01:48Z",
+  "duration_seconds": 2.862,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ADMINISTRAÇÃO.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_admin/enade_2017_admin_page_78.txt",
+    "source_sha256": "ca56efe17bdc3fdc724532bd46801f70b11d592369b83c925d653ce956e384f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9c4a15b1dddcbbf55294eb71a4f43de534cf1e56d24063c8638e31a5ab457ec2",
+  "request_fingerprint": "e7311f7f3e2dc8abd060b5b3dad3f58ae38835f668c70761df8c3f128d4bf8ad",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.9, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "entre a região Norte, menor proporção, e todas as demais regiões são estatisticamente significativas.\n\nA proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (86,7%) se comparada ao quarto inferior de desempenho (72,9%). As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "c8a6ac6422f16ad6b8ab41cb9356a0c484f7c485e5c9edb666cf9e5ddf6a446f",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09070e875bdfa5ba006af8f7c48ccc87d1ab308d980e579a71",
+    "usage": {
+      "input_tokens": 2613,
+      "input_tokens_details": {
+        "cache_write_tokens": 2610,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2610
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 3033
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_68.txt",
+      "source_sha256": "9f3df9a609d52b0349ca8a04a26681aff28207e18a7af4660da12ae975030c49"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_70.txt",
+      "source_sha256": "0fda3892bcaa77ac224243ad6e6e11dbbabb33a573ab258efd0fb3a48a5fb7ed"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:32Z",
+  "duration_seconds": 5.874,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_comp/enade_2014_eng_comp_page_69.txt",
+    "source_sha256": "a739b7a92e6c9c8e371c208c8f9cb137b6770b2b2740c63cef2fbc3c5eebe1ed"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0e7c962a6a3cfb1f2905a60914634b89c75f704bc3a91402bb85fd0cf40cc9e",
+  "request_fingerprint": "92f71fe5417dedef8231b4cd943884c1aa456f3bed504cce30aab0f10d5d7bb3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removidos o gráfico e sua linha de fonte; preservado o parágrafo que descreve os resultados."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos estudantes que deixaram a questão em branco, a moda da distribuição. Desconsiderando-a categoria “em branco”, o intervalo modal desta questão 2 seria o mesmo da questão 1, (70; 80]. Nota-se, ainda, que as notas ficaram mais distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.",
+  "text_sha256": "f4f5b936ab6981b6ead5b97499178442f9c478d47921d077bcf1c916921e53e5",
+  "window_size": 3
+}

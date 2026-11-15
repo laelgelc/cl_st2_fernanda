@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0723cc11d21242fb006af910d44ebc87d1a4b9aa053df07af8",
+    "usage": {
+      "input_tokens": 1833,
+      "input_tokens_details": {
+        "cache_write_tokens": 1830,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1830
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 564,
+      "output_tokens_details": {
+        "reasoning_tokens": 286
+      },
+      "total_tokens": 2397
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_125.txt",
+      "source_sha256": "c4cc96e55d26f05a8cf11be220a11afb6eda5427e1c2f0b21108a2440a16f481"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_127.txt",
+      "source_sha256": "9b777b9b97cdb017788f4827abc54feb3130abc3d029ef9fc2898afcda271fc1"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:28Z",
+  "duration_seconds": 5.426,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_126.txt",
+    "source_sha256": "1406c5a18b4d565a9fb3581dbcc4ac50fe3e887d7df6029e26c27c4312e3ea7d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4306a29c8e95b794e9baf105e8593d7207dfca3f91fc6a50b3853ca3e09ca8b8",
+  "request_fingerprint": "2bee13ec4c859a8b7bb61fa12e53fdc881f38a051e385139c8f4faa4f1a50575",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.30.",
+    "Removidos números e o rótulo “CEFET/IF” no fim da página, identificados como material gráfico do Gráfico 4.31."
+  ],
+  "status": "success",
+  "text": "Na análise por Organização Acadêmica, a proporção de respondentes que escolheram a opção não estudou ainda a maioria desses conteúdos foi pequena. Observa-se que, nas Faculdades (5,1%) e Centros Universitários (6,2%), as proporções foram maiores do que a média nacional (4,1%). Nas Universidades e no CFET/IF, a situação foi inversa: uma proporção mais baixa, respectivamente, 3,5% e 1,7%. No Gráfico 4.31, é possível observar que as diferenças entre os Centros Universitários e Universidades são estatisticamente significativas (ver também Tabela II.16, no Anexo II).\n\nEm todos os tipos de Organização Acadêmica, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 50,5%, nos Centros Universitários a 68,8%, nos CEFET/IF.",
+  "text_sha256": "3d5046f0f735407ecdf9c29b97d2184d28c2c12b2ddd07ed1586ebee2e96649b",
+  "window_size": 3
+}

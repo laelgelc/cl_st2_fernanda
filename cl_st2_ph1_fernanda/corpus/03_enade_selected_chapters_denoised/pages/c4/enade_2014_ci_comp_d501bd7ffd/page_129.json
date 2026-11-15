@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09a87cbb5a2add4d006af8f64c1cbc87d18a0c07968685dc9c",
+    "usage": {
+      "input_tokens": 1297,
+      "input_tokens_details": {
+        "cache_write_tokens": 1294,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1294
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 242,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1539
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_128.txt",
+      "source_sha256": "33449524d5b3959a477a4cac110409485edbe41805f30a9e05ed7760abf383a9"
+    },
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_130.txt",
+      "source_sha256": "52ab6ed938c9433e31cdb73f5f05ca3ec1c4899e2d0874c1a61dafe5949207e7"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:16Z",
+  "duration_seconds": 3.712,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 129
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_129.txt",
+    "source_sha256": "899220b4dfcb63f797e02ccbbbfd6cb38d7f5ec97398db6ddae72fe7eaf43f41"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f462ae17864bfe3733fe7aa019e02640279ac3e1e03ac427f95297aa6cb0942f",
+  "request_fingerprint": "b863c6a564706f7e249838c5edb1cab63bc674749824faa782ba38411fb9bba8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. As diferenças entre os quartos de desempenho são todas estatisticamente significativas.",
+  "text_sha256": "ccf3585553ab95f7afd87744f802dbb9b2fcfd29f7092d4e49028e4318a82e06",
+  "window_size": 3
+}

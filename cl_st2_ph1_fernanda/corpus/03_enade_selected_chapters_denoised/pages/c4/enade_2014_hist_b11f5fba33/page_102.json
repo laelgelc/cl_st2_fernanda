@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d7c921bf8f162b0006af8fa0f81cc87d1b2ee96507d6a49ad",
+    "usage": {
+      "input_tokens": 1748,
+      "input_tokens_details": {
+        "cache_write_tokens": 1745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 687,
+      "output_tokens_details": {
+        "reasoning_tokens": 489
+      },
+      "total_tokens": 2435
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_101.txt",
+      "source_sha256": "800ae885f357f885fa191202728f7707a4dc4c7b1d19ff38f984f2a80c41d153"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_103.txt",
+      "source_sha256": "bcc68a929d8211055c0f09e119e003e5346f0adef0f13c87f6cc4f83dc128be4"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:19Z",
+  "duration_seconds": 9.29,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_102.txt",
+    "source_sha256": "ad7f39b7fbb5e46eaedbdfb716a17fb8c704082956479022d63d537a74348603"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3310ac84d86207107279c221eb7bcc39ff8cfe90134e5f028d6226925133721a",
+  "request_fingerprint": "a298342e709038ae9ddc10e89ce2afeeb2c49261f0dc5f8521734b39d315c937",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, aparentemente associada a material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2014”."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa do resultado do quarto de melhor desempenho em relação ao terceiro quarto, e deste em relação ao segundo. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 29,5% (4º quarto) a 41,3% (1º quarto), valores decrescentes com o desempenho. A alternativa modal para a Questão 2 foi o grau médio, com 50,3% do quarto inferior e 61,1% do superior optando por esta resposta, valores crescentes com o desempenho.",
+  "text_sha256": "20928e9fef33b0cf7ac107bf22195b4d12f2622b7403e1c3b3f82d7d4a48fa3b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007b1dc5de0ce6e8006af9113f6ecc87d1b9ae80e19f1bbce1",
+    "usage": {
+      "input_tokens": 2459,
+      "input_tokens_details": {
+        "cache_write_tokens": 2456,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2456
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 508,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 2967
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 194,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_194.txt",
+      "source_sha256": "2e1ab0c500483a67aabfe2b16cda96d4061ba42494957f51b640808001647408"
+    },
+    {
+      "page_number": 196,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_196.txt",
+      "source_sha256": "5440809aeb0caef3f2ed79b7c61cc76264f39a553bd17b69912d12170069e631"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:15Z",
+  "duration_seconds": 5.439,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 195
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_195.txt",
+    "source_sha256": "2819060acb10f3a59c5e1d1fa3924006ee656f0ed347a7eec617475c2a1dd963"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "03482b2b4aab6137a1aacf078ef1ee69105873c515cacd272ebd9f20d0bc48d1",
+  "request_fingerprint": "5da20d17771fa58816372eee1b51b329f941c0fb79446ca8456a3fe85c639fc6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.21, incluindo título, dados e linha de fonte. A prosa que se refere ao Gráfico 6.14 foi preservada; o gráfico não aparece no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "Enquanto o maior desvio foi encontrado na região Sudeste (24,1), o menor foi encontrado na região Norte (16,8). A Mediana para o Brasil e em todas as regiões foi 30,0. Para o conjunto de estudantes de Engenharia de Alimentos do Brasil, a nota Máxima foi 100,0, obtida por, pelo menos, um estudante da região Sul. A menor nota Máxima ocorreu na região Norte, 70,0. A nota Mínima do Brasil foi zero, o mesmo valor encontrado em todas as regiões.\n\nNo Gráfico 6.14, é representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição tem como moda o intervalo (10; 20], correspondendo a 18,6% dos respondentes. O percentual de participantes que tiraram zero nessa questão tendo respondido à questão foi baixo, 4,2%. Somando-se a frequência desse intervalo com a daqueles que deixaram a resposta à questão em branco, chega-se a 17,7% dos participantes.",
+  "text_sha256": "295bfae559a23c04d53d3a8c2d521ac05fdd040f77fe3223a3a32a2a5d2863d5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d31720407482267006af9198c7cb887d1ae82c29ebb02dd3c",
+    "usage": {
+      "input_tokens": 3061,
+      "input_tokens_details": {
+        "cache_write_tokens": 3058,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3058
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 649,
+      "output_tokens_details": {
+        "reasoning_tokens": 282
+      },
+      "total_tokens": 3710
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 293,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_hist/enade_2021_hist_page_293.txt",
+      "source_sha256": "80338bcaac21c285b98576ccf6c4e8f864585e9eda965429c62e409fd580cfb4"
+    },
+    {
+      "page_number": 295,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_hist/enade_2021_hist_page_295.txt",
+      "source_sha256": "9e2be2d7b1f544d5d13a5a991cfa43dc8b939b9e90c58f182866ac68f0c06fc6"
+    }
+  ],
+  "created_at": "2026-11-15T02:31:40Z",
+  "duration_seconds": 5.853,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_HISTÓRIA.pdf",
+    "page_number": 294
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_hist/enade_2021_hist_page_294.txt",
+    "source_sha256": "7b3dc96cee0b7dd69ad0ccbfdd807450d9dec306ea54f2135cbee9847c6c4318"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "37b914df30c2258f15ceceacecee33cecd3d74dc99fc45b787f34f5cb90dc37f",
+  "request_fingerprint": "2a4a562dd2e1f6026ca6f745ca7779114b68ab5ede26469d9988e2ccfd091db6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, identificada pelo contexto como pertencente ao gráfico da seção anterior."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma Média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo IA.\n\n6.2.2 COMPONENTE DE FORMAÇÃO GERAL – HISTÓRIA (BACHARELADO)\n\nNa Tabela 6.7b, são apresentadas as Estatísticas Básicas relativas às oito questões objetivas válidas do componente da prova que abrange a Formação Geral dos estudantes de Bacharelado. A Média do Brasil é 51,4. A menor Média é encontrada na região Norte (37,1), e a maior, na região Centro-Oeste (56,9). As demais Médias são: 45,6 na região Nordeste, 52,6 na região Sudeste e 50,3 na região Sul. O Desvio padrão do Brasil é 18,9, sendo o maior Desvio padrão encontrado na região Centro-Oeste (25,3), e o menor, na região Nordeste",
+  "text_sha256": "3798b7be29ff9f32a13cd6af29b61df9cb18015d504ac6404a2238c283fb47da",
+  "window_size": 3
+}

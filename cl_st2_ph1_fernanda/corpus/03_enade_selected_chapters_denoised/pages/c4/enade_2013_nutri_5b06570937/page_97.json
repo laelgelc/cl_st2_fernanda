@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e3312cb3a466737006af8f470d8c487d1bc7ea847a4a2df1b",
+    "usage": {
+      "input_tokens": 1552,
+      "input_tokens_details": {
+        "cache_write_tokens": 1549,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1549
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 628,
+      "output_tokens_details": {
+        "reasoning_tokens": 498
+      },
+      "total_tokens": 2180
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_96.txt",
+      "source_sha256": "0e4fd175e3591d99ac71bb4175ce9ef7e0f25614831e586e38b71a0e993dd395"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_98.txt",
+      "source_sha256": "99b3705193e2c6684f9a26e8b8cbfae4a2cb789771f09c5aacf2afae52228bc6"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:20Z",
+  "duration_seconds": 7.066,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_97.txt",
+    "source_sha256": "f415ca210148b2763699766ec6dc36aa3d052ba56b2900e14feeec5c59de8d7b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3cdb4452de42a62559a9e03d3ab6459b92754f23bb3a1ae46b5b3a4190b8aa6b",
+  "request_fingerprint": "cd73da4093c5ec6c70f60558e2bbf3132eb2ba67ef0023b807b6654d23dabf01",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (80,9%) se comparada ao quarto inferior de desempenho (71,1%). As diferenças dos resultados entre os quartos de desempenho não são estatisticamente significativas, a exceção da comparação do 1º quarto com os demais.",
+  "text_sha256": "c99c1130dc777081ec475af0743a4f7a7958ce8e1e5cf82e94c9d5ee685528db",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08fa71fddd1cdc28006af9035ea9b487d1862e4b258c2eb5b2",
+    "usage": {
+      "input_tokens": 2261,
+      "input_tokens_details": {
+        "cache_write_tokens": 2258,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2258
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 274,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 2535
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_80.txt",
+      "source_sha256": "6f8473b258b5533817d47e268a1256d596bcae021a93d845fb7d05a851b777de"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_82.txt",
+      "source_sha256": "279bea999b743b4ff1b30ff3a5a0b5a158f3b40b4f3d812d9d6d12f39403886e"
+    }
+  ],
+  "created_at": "2026-11-15T00:57:02Z",
+  "duration_seconds": 3.18,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_SERVIÇO SOCIAL.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_81.txt",
+    "source_sha256": "d5f9ec4c513abc35f0ccbbda03a50b5e652801dbaa8a62d06fa4f9d2d410f8b6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "09238de76bad66573aebcfa4378be5d6726d41576ed568335931806f0ce767eb",
+  "request_fingerprint": "c6ca38237334fb0305d5cab7a8a47b4f687a8aeaf8fc0d532f772fe3f966a214",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.18 (título, dados e fonte) e o material do Gráfico 3.11; a fonte indicada após o parágrafo foi tratada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Serviço Social. Sem levar em consideração que em torno de 31% dos estudantes deixaram a questão em branco e cerca de 3% receberam nota zero, a moda dessa distribuição seria o intervalo (10; 20].",
+  "text_sha256": "e0c12b20ab5ff87423addf4717e45d7781536c8fdd767973827db4daf9ec59d0",
+  "window_size": 3
+}

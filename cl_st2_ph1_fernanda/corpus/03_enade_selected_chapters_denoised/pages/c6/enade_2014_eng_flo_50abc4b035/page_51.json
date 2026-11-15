@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0179346f91aa31a0006af8f8c23c2c87d1b88d3143584b17fc",
+    "usage": {
+      "input_tokens": 3152,
+      "input_tokens_details": {
+        "cache_write_tokens": 3149,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3149
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1646,
+      "output_tokens_details": {
+        "reasoning_tokens": 645
+      },
+      "total_tokens": 4798
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_50.txt",
+      "source_sha256": "5008f691ee38e9bb5d8ac2b37efb64bdd5313119699cb3f71809dfa853ae6903"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_52.txt",
+      "source_sha256": "6017a8f3bf2e1c7c5176c1dc94b126a2fd0af25721ad5c2eddc3907ccfa0b15d"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:46Z",
+  "duration_seconds": 18.295,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_51.txt",
+    "source_sha256": "0e9257757f7ab5343ce07e80501d0b6dc66ecb5b2d87c5cccce3880a9cca0389"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "61a474a4adc841d90ec725f57d36f26542252a6505062a2f8eb3c59739df3499",
+  "request_fingerprint": "aa6e2e67956e2668919f3372706ef0ac482122676af42d63ceeb41848cb4c887",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 3.7 e 3.8, incluindo títulos, dados e fontes. A última frase sobre o Gráfico 3.4 termina incompleta na página-alvo."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade médio, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto nenhuma questão foi classificada na categoria difícil, situando-se no intervalo entre 0,16 e 0,40, ou apresentou menos de 15% de acertos, razão pela qual seria classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o índice de discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: seis das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice muito bom para esse grupo de estudantes. Duas questões tiveram índice de discriminação bom, com valor entre 0,30 e 0,39, para esse grupo de estudantes. Nenhuma questão teve nível médio ou fraco de discriminação para esse grupo de estudantes.\n\nO índice de facilidade variou de 0,41 a 0,87, e o de discriminação, de 0,36 a 0,51. As seis questões com índice de discriminação muito bom figuraram entre os diversos níveis de dificuldade desse conjunto: três classificadas na categoria fácil (questões 3, 6 e 7) do índice de facilidade, e outras três, na categoria médio (questões 1, 2 e 5). Em particular, a questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,51, porém foi considerada fácil em termos de facilidade, com uma proporção de 0,65 acertos. O máximo de acertos foi alcançado pela questão 4 com um índice de facilidade de 0,87. A questão de número 1 apresentou um índice de facilidade de 0,49, ou seja, quase a metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu índice de discriminação foi muito bom (0,41). Já a questão 5 obteve índice de discriminação muito bom, 0,44, porém seu índice de facilidade foi médio (0,41).\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada mediana, com relação a facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à",
+  "text_sha256": "8cce887635d60c650228c10f260cf0171da734a9bf4e423361ac5e9933b24d02",
+  "window_size": 3
+}

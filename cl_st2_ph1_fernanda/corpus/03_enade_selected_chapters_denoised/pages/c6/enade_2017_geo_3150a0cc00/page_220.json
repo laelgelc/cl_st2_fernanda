@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_022f2c806aabc250006af9088a2e4887d187b1f87a0f89878d",
+    "usage": {
+      "input_tokens": 2756,
+      "input_tokens_details": {
+        "cache_write_tokens": 2753,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2753
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 759,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 3515
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 219,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_219.txt",
+      "source_sha256": "42e8130bcf0b030a60f4651eb6c80de747324288167d1ff9277187db18a94454"
+    },
+    {
+      "page_number": 221,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_221.txt",
+      "source_sha256": "09545ee5f55973e49ec3fbb5ba2e4d27e9dc2da7f50672c214972dd44267e0ab"
+    }
+  ],
+  "created_at": "2026-11-15T01:19:06Z",
+  "duration_seconds": 6.694,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 220
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_220.txt",
+    "source_sha256": "d0a8dd6cf19d9f5edb3242f3061ec537df73a36c0fb0da37048497f113679baa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9c8a86eebc1a67337b9451adfdacbbdfe321bb8166c9d001b2c7fe46cd4dd067",
+  "request_fingerprint": "d89efd3fcaa67ebba745a40150afe1923ce3be6711a24bbede820dcc5a8be47b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9a, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.4a, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, mais da metade (57,8%) escolheu a alternativa correta B (em verde), 17,6% escolheram a alternativa E (em vermelho), 12,1% a D (roxo), 7,6% a alternativa A (em azul) e 4,6% escolheram a alternativa C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo Ia.",
+  "text_sha256": "da605806462048410a0501ca1cc07ba096829e3d7de6f2f2982a4d084cd83c1d",
+  "window_size": 3
+}

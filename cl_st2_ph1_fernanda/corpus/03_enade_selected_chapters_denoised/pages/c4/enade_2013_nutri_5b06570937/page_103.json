@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0752064c05b0a680006af8f4744fa887d1a8a2e827b20e4c80",
+    "usage": {
+      "input_tokens": 1753,
+      "input_tokens_details": {
+        "cache_write_tokens": 1750,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1750
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 956,
+      "output_tokens_details": {
+        "reasoning_tokens": 733
+      },
+      "total_tokens": 2709
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_102.txt",
+      "source_sha256": "f8ce0dc9d7347b94370df92142d69f48f195d2591108c71bcd3c7428aea91c52"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_104.txt",
+      "source_sha256": "f6fe9dbb766d18f9f707d31a5b5bf7aa300c0e17f6b2b7369b28d4071573550f"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:24Z",
+  "duration_seconds": 9.534,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_103.txt",
+    "source_sha256": "911797c2aadaf22887de27e172be94874cacdc6ad922beacc746536f182430d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "59d005d86f40e4371891a223a31f8c188bcfcd6c6907a1923b5d3ae09b0302c0",
+  "request_fingerprint": "220161c37f61b269cef61bb5220276806dfeac43913c0912588d8ecb8eeda28d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2013”, provavelmente uma atribuição de fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 4,4% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,7% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre as proporções de alunos que optaram por este motivo de dificuldade por quarto de desempenho é estatisticamente significativa, com exceção da diferença entre o 2º e o 3º quarto de desempenho que é não significativa.\n\nTendo em conta o quarto superior, 90,8% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 73,9% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "d9d8f5fe370cafabc6ad5d29c90f2e9adb74bd94fcbeeadc6505106ecb7ecdcf",
+  "window_size": 3
+}

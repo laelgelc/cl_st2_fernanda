@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05c1928be1b65fed006af8f22d0bb887d1a5c3b5b24672ca4d",
+    "usage": {
+      "input_tokens": 2165,
+      "input_tokens_details": {
+        "cache_write_tokens": 2162,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2162
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 364,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 2529
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_39.txt",
+      "source_sha256": "f7218cbae8bd3ff69cd63a6742568bfc2ddaf694f91da21a52e6d1a39b39b702"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_41.txt",
+      "source_sha256": "7b331a939d9abe7a581ac10ad0940eaa5c6a5fb6d6901949fc8214c2b616ebc3"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:40Z",
+  "duration_seconds": 3.051,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_40.txt",
+    "source_sha256": "49987b1e89d2d7d7d8eaee841dde586f2295a4454aa41d68d96d704678f9b7c1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bc6a1e25bf5bad4de7f24d70c3a8ecee8734d05afd44968cd801aa2786e5fb34",
+  "request_fingerprint": "a5cea145d100c2d0cd8f92b2b71dc03232f5aa4a1baaf7deb9eae2d897801de3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40;50], enquanto na prova como um todo a moda foi alcançada no intervalo (30;40]. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,9 para a nota da prova como um todo e 15,7 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, ao contrário da prova como um todo, é negativo (-0,09). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda. Já nas regiões Norte e Nordeste os histogramas possuem assimetria levemente positiva (respectivamente 0,27 e 0,03).",
+  "text_sha256": "de510d7de5466f8883c89797212a8ddbd9f098ce262e906f911b5d2edb8fda6b",
+  "window_size": 3
+}

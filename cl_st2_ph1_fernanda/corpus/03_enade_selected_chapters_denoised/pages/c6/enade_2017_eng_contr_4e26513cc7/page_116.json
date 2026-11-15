@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03057cbf100f275d006af9068ffd1487d1a3e24adb5d8af741",
+    "usage": {
+      "input_tokens": 2616,
+      "input_tokens_details": {
+        "cache_write_tokens": 2613,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2613
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 3232
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_115.txt",
+      "source_sha256": "3903deb8ea2f625d0a6b0da564242afc1f8023a800278f5515343e5458340dce"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_117.txt",
+      "source_sha256": "0b06985171711d36824c543e4eeed01bfb8a4a11c608cebdc837b28631d68808"
+    }
+  ],
+  "created_at": "2026-11-15T01:10:39Z",
+  "duration_seconds": 6.455,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_116.txt",
+    "source_sha256": "7f6f9e0b5d84b43e3c99f651c4304a60854370bd345e9b447890d0faf905fffa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe5f0fdd0785cddb307c7407af5423bebf9407417d334bf161bb7d6f04707e82",
+  "request_fingerprint": "dff7c801286b87fc19db2ebfcb76ee554c9e8b48074dafcd921f69a452b2abb2",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 19,2% escolheram a alternativa E, 49,1% escolheram a alternativa B (em verde), a alternativa correta, 17,9% escolheram a alternativa D (em roxo), 8,5% escolheram a alternativa A (em azul) e 5,1% a C (em preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "bf3d39cc493845c48162761a4208ae11966308544a21f7f6e96ab67806eebb49",
+  "window_size": 3
+}

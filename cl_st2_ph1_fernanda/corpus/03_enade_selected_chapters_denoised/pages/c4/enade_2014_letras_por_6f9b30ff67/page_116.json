@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00e2f0218dd9e820006af8fb768a8c87d1acc598f76113f958",
+    "usage": {
+      "input_tokens": 1698,
+      "input_tokens_details": {
+        "cache_write_tokens": 1695,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1695
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 665,
+      "output_tokens_details": {
+        "reasoning_tokens": 431
+      },
+      "total_tokens": 2363
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_115.txt",
+      "source_sha256": "3fe1dddc7f9834d612d2c4352d4926eebe9feb19a2039fc0747c9495b6557fcf"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_117.txt",
+      "source_sha256": "75615912044f80120c40f98456e238fa5e15d2ce40daac5fd7796620cb6a42a9"
+    }
+  ],
+  "created_at": "2026-11-15T00:23:18Z",
+  "duration_seconds": 6.997,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_letras_por/enade_2014_letras_por_page_116.txt",
+    "source_sha256": "75d8bbb0efbe07fcc52547c536f84ba360177ccca0c222b2e47a4b006a0d0547"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c1cc8cb6c0d8d7a9f30df30111dbadc53612a322713cf4b692b101d38d2061fc",
+  "request_fingerprint": "61d12709a71914293027374cd4aec4b36ca31742f51514060af7358d51a1ca5c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”)."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 56,3% na região Norte e 71,7% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 15,6% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 3,5% os do quarto superior com a mesma resposta, valores decrescentes com o desempenho. As diferenças entre os alunos que optaram por este motivo de dificuldade nos diferentes quartos são estatisticamente significativas.\nTendo em conta o quarto superior, 79,7% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 44,7% optaram pelas mesmas categorias, valores crescentes com o desempenho.",
+  "text_sha256": "c0fcbb27084ad8f86125c77a06494f8169ded8003e94c57fa2c7b6f7455bcb31",
+  "window_size": 3
+}

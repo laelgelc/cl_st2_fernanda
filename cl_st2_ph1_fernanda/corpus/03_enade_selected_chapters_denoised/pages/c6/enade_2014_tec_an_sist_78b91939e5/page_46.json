@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fca64902e505639006af8fc30c31087d18acaea2f82dc1863",
+    "usage": {
+      "input_tokens": 2358,
+      "input_tokens_details": {
+        "cache_write_tokens": 2355,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2355
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 428,
+      "output_tokens_details": {
+        "reasoning_tokens": 208
+      },
+      "total_tokens": 2786
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_45.txt",
+      "source_sha256": "50d17b0aedb1dd29031b58583a2f864a53432b25f51224e4f0884e03f7204a27"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_47.txt",
+      "source_sha256": "a97dc8a6fd99894abdd30f31cb58567997a4744fa260b0f70cea9bb2357ab6fb"
+    }
+  ],
+  "created_at": "2026-11-15T00:26:24Z",
+  "duration_seconds": 5.408,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM ADS.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_46.txt",
+    "source_sha256": "53ea591ee7a6b64872557d430b91ee0a7c46439b66a20a5c64dc19c7625d5d41"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "782add066f1a77aaf2e42b1f74ff96907b955caa47ea5a464e100acc144ad963",
+  "request_fingerprint": "11999fc1b6575767df8ca1381435c9ff3d1600901957070d89cf190a82f1018e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior média foi obtida por estudantes de IES Públicas (59,1), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (54,1).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Universidades (56,1) e de Faculdades (56,2); mas existe diferença entre essas e a dos Centros Universitários (53,4).",
+  "text_sha256": "3590d926aeabade39d71cfd457a5cbabb50df40f6a7b1523c8f41a80793ff64c",
+  "window_size": 3
+}

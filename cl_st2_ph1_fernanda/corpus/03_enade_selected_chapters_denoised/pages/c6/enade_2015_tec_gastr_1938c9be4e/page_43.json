@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bc6192a209136ed006af8ff98bb0c87d19736c505c14b1a68",
+    "usage": {
+      "input_tokens": 2366,
+      "input_tokens_details": {
+        "cache_write_tokens": 2363,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2363
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 513,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 2879
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gastr/enade_2015_tec_gastr_page_42.txt",
+      "source_sha256": "1cbd2194c7b3fae7616419580370c9db8b448111b6ce6ce8e221f29a3aa34096"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gastr/enade_2015_tec_gastr_page_44.txt",
+      "source_sha256": "454712fb39f6e9f70c723c9619547e8a1a75426570f399f3544a344b78ca2323"
+    }
+  ],
+  "created_at": "2026-11-15T00:40:56Z",
+  "duration_seconds": 4.558,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gastr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GASTRONOMIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gastr/enade_2015_tec_gastr_page_43.txt",
+    "source_sha256": "b6d20c9cc61194cd74e83cd8b7b51b8faff680bedce82a9e28342260d46cbb1c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bea5d7a89adb50766d9458f13cbb85f9293fd379895acd264ff3259776a99f59",
+  "request_fingerprint": "aa7eb517086749715f86926be142d5f8229929f3daab8a3b635bb9088de5866b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 51,5. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (55,7), e os das IES Privadas obtiveram Média mais baixa (51,3), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Sul, e Norte (9,7), as maiores e a menor Média, é superior à diferença entre IES Públicas e Privadas (4,4), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Faculdades obtiveram Média mais baixa (49,0) que a nacional. As demais médias foram: 53,4 nas Universidades e 51,9 nos Centros Universitários. O Desvio padrão para as IES Privadas (13,6) foi igual e para os Centros Universitários (13,7) foi superior ao do Brasil como um todo (13,6), indicando uma dispersão um pouco maior das notas nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes das Faculdades em relação aos demais tipos de Organização Acadêmica.",
+  "text_sha256": "61852df3fa6ede7bb713dac337543569b354cebc659436dadf86d3e973dfc581",
+  "window_size": 3
+}

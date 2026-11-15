@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001f22bfb1231184006af8ea3ce24887d18c5ba46e1f08932c",
+    "usage": {
+      "input_tokens": 2709,
+      "input_tokens_details": {
+        "cache_write_tokens": 2706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 309,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 3018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_51.txt",
+      "source_sha256": "2700d47f33c3ee783686bb36eb5b4e8ad5580cf5b19c68e60a2610527dae2e32"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_53.txt",
+      "source_sha256": "40f13eaafea297bb4aa779eac72d40245bc0aa2a6d6187e9be7f691b3a04430e"
+    }
+  ],
+  "created_at": "2026-11-14T23:09:48Z",
+  "duration_seconds": 3.965,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_hosp/enade_2010_tec_gest_hosp_page_52.txt",
+    "source_sha256": "5b4ced2c3cb2a6f41c52eb6f28e2ecc0d6167b29d80a6e3125d5ca5dc57811a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "66b12e562f13d524618d754f81f2c5c2352217e0d0a74f4dc80266fade60cccf",
+  "request_fingerprint": "0b87408e9add13fcf233cf02892c2bfaf0b8d3b74115a76869a250c115ac8652",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo estatísticas, título e fonte.",
+    "Removido o Gráfico 3.10, incluindo título, fonte, rótulos e dados."
+  ],
+  "status": "success",
+  "text": "24,1% dos Ingressantes e 18,2% dos Concluintes. Quanto às notas zero mesmo não tendo deixado a questão em branco, foram 2,6% para os primeiros e 3,9% para os segundos. Entre Ingressantes, a nota mediana foi 40,0 pontos, enquanto Concluintes obtiveram 45,0. Ingressantes e Concluintes tiveram como faixa modal de notas (40; 50] pontos com respectivamente 13,0 e 15,0% dos estudantes do grupo nessa faixa. A nota máxima, de 100,0 pontos, foi alcançada tanto pelos Concluintes quanto pelos Ingressantes.",
+  "text_sha256": "3a52fb5644774d413edf7b14bf49d327dee6d01879f24f84e1cd8cbd8189ef3d",
+  "window_size": 3
+}

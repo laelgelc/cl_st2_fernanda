@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_081798554784969a006af90ba6462487d18be4df0ac28596a2",
+    "usage": {
+      "input_tokens": 3009,
+      "input_tokens_details": {
+        "cache_write_tokens": 3006,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3006
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 348,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 3357
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_117.txt",
+      "source_sha256": "9e3622e86e3ab8a90b4365d3f57c6961af316062fc32ddbdfa8ab4bd99436fbc"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_119.txt",
+      "source_sha256": "8bad537ba95eaeb58edfe19c9a35ecbf12e5c77cb7a0ce960833aaf9a12582e0"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:22Z",
+  "duration_seconds": 4.246,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_118.txt",
+    "source_sha256": "d9b6db22deb1a59cd3116212d5c2e0b9d734761ff8e4cfdf2c953f21e4ee0c29"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d64e7d170cd4ab05c62de573c049f4130bc7c49923fe111523afb5b40e18d966",
+  "request_fingerprint": "cb84ae458be3af8822827ab19a46e3055d163263aed19403810e8cac404487f3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.3, incluindo a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Assim como nos Gráficos 6.1 e 6.2, no Gráfico 6.3, apresentado a seguir, é possível ser feita uma avaliação do desempenho de concluintes de Tecnologia em Redes de Computadores em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (20; 30], abaixo do grupo modal da prova, como um todo, e do grupo modal para a Formação Geral.",
+  "text_sha256": "cd6fe4fa794d0e43b193fb8a07eb2dcd2625ad010f90b0a94065755fcd578ac9",
+  "window_size": 3
+}

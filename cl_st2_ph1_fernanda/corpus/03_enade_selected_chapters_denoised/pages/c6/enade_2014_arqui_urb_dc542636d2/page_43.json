@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f6f2d54157650e5006af8f5eb6ff487d1bad6a06948924b46",
+    "usage": {
+      "input_tokens": 2806,
+      "input_tokens_details": {
+        "cache_write_tokens": 2803,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2803
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 327,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 3133
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_42.txt",
+      "source_sha256": "6755382be04926f5870c30fe8f8e618da7ddc22eed3e3b8da45e7d911a608bd4"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_44.txt",
+      "source_sha256": "c9547450e025ec41d669a011adbd3fcc2ef8950f9ee601ffc6fcad0ee9a3e939"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:39Z",
+  "duration_seconds": 4.173,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_43.txt",
+    "source_sha256": "2d6589aa4eba7aef7597ba670d18928eea82b0b732bbf599212b26824dae7cda"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bc93f2342fe65d2f1d8d6eeea0f6542673c8d91db9b8a90b088c2e0aefe86678",
+  "request_fingerprint": "f9ac467ae3a4ff863a1658dbc0e6892ed3b858a1a8176268df116a33771b6a25",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo seus dados, título e fonte.",
+    "Removido o Gráfico 3.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "d86a7cd3e928d85925d788740f98bcf9a1d6a46467a048b701dce6f5a2805451",
+  "window_size": 3
+}

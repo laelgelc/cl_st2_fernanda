@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_018da002a0dbf56f006af8f02b65c487d198f801ed8fa56fdf",
+    "usage": {
+      "input_tokens": 2061,
+      "input_tokens_details": {
+        "cache_write_tokens": 2058,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2058
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 2448
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_81.txt",
+      "source_sha256": "a2f4a48911a3e5a72ff4dab7465addf1854b5cbf1dd8e916de2be0758a26cda8"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_83.txt",
+      "source_sha256": "287ddc1fe89dd93377f5bf88da8467bb3618e24393aa0171001e7004fbb4e238"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:07Z",
+  "duration_seconds": 4.577,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_82.txt",
+    "source_sha256": "953851f255a5be626a1e3c50a23caa08e5c27268d8a51e287a28653fd7cf59b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "93f8f7a3d5986901e1548b4b5d0260027d4bcb923203296b3ce7b23c67d0f03f",
+  "request_fingerprint": "285e67827ad532242fb635f8b9be07fe30227bec431223259fa29879c136a0fa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em relação ao aumento de desempenho (Gráfico 4.2). Nos dois quartos de menor desempenho, com diferença estatisticamente significativa, 36,5% no 1º quarto e 34,8% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos que julgaram a prova difícil ou muito difícil – 32,4% no 3º quarto e 25,0% no 4º quarto – foi menor do que nos demais e significativamente diferente entre si. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 54,3%, 57,0%, 58,6% e 60,8% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente, valores crescentes.",
+  "text_sha256": "4d24602ed00e1a1a14436716e17520c7e011c9490ef05c691f3b19fd8f83a9e5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b57f6002cd7992e006af8f165694c87d1b38bb07be6dc8956",
+    "usage": {
+      "input_tokens": 1617,
+      "input_tokens_details": {
+        "cache_write_tokens": 1614,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1614
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 1920
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_43.txt",
+      "source_sha256": "7f327d23132662664174bb41afddb1f4be6ef7f33f66543332005391662bac0b"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_45.txt",
+      "source_sha256": "a49c82facb11dd8bd38ff5248912490e08e6bf5aff11c5822f57b5d30171e604"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:21Z",
+  "duration_seconds": 3.373,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_44.txt",
+    "source_sha256": "6bff857a29f394fbb88b56fade30d7738cbe7ed57fe42f5358b1abc21d32ebad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aa037daff906bf5645c9d34c8be5ee6eb876e71e2e18b7cda7a27b34947be33a",
+  "request_fingerprint": "17a0c40b5cf48d2a7ac26d81391806cd01c6e7bc59a12677795fc5b52f6c9d79",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», identificada como pertencente ao Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, uma diferença estatisticamente significativa entre a maior e a menor média. Nas Universidades (41,2), a média é mais elevada do que em Faculdades (40,3) e Centros Universitários (39,8).",
+  "text_sha256": "50574da755012963e0547dbf306b2b222e419fcc40e237a71b973d361b776eb3",
+  "window_size": 3
+}

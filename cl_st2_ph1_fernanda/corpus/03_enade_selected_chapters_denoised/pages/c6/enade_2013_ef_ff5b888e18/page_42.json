@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02d594d0d7a90d2b006af8f346d5e087d190d967d776ef8542",
+    "usage": {
+      "input_tokens": 2170,
+      "input_tokens_details": {
+        "cache_write_tokens": 2167,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2167
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 981,
+      "output_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "total_tokens": 3151
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_41.txt",
+      "source_sha256": "b8e88f20a274416eaff8b95699ba6794dc81e0e0e807b082abed494f8aa6bb2d"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_43.txt",
+      "source_sha256": "b0a837641015ceb0212c43e1d864dea7e948a8f0ac42a7a623a48ba4eb0a80a3"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:22Z",
+  "duration_seconds": 7.812,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_42.txt",
+    "source_sha256": "d11408791671461937c71446608551ec28e358cdaa4f8abe225749e480d4a552"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5944611616bc075c9b7514a142a6d55fb932c60ced804c223d7187d5d72782e3",
+  "request_fingerprint": "2fc2071921351a1222bb3c4e4ece77423439921c1b6fd4816348dd7f1a415432",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte. A linha de fonte no início da página parece pertencer a material gráfico da página anterior e foi excluída.",
+    "A frase sobre a mediana termina em “a maior encontrada na” no alvo e continua na página seguinte; foi preservada sem completar."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao Componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 43,6. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 14,7. A maior média foi obtida na região Sul (44,0), e a menor, na região Norte (40,0). As demais médias foram: 41,9 na região Nordeste, 43,9 na região Sudeste e 42,3 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Nordeste (15,6) e o menor na região Norte (12,8). Os demais desvios padrões foram: 14,7 na região Sudeste, 14,5 na região Sul e 15,2 na região Centro-Oeste. A maior nota no Componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Sul (90,4) enquanto que a menor nota máxima foi obtida na região Norte (78,2). Nas outras regiões as notas máximas foram: 82,8 na região Nordeste, 89,5 na região Sudeste e 87,2 na região Centro-Oeste. A mediana do Brasil como um todo foi 44,3, sendo a menor mediana encontrada na região Norte (41,5) e a maior encontrada na\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (50; 60]. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma menor dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 15,0 para a nota da prova como um todo e 14,7 para o Componente de Formação Geral.\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,15). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,15 para a Sudeste e -0,04 para a Norte).",
+  "text_sha256": "f311dab67f5ab8a3329cc821a7553925e94e6865a54f661351b28602365539d7",
+  "window_size": 3
+}

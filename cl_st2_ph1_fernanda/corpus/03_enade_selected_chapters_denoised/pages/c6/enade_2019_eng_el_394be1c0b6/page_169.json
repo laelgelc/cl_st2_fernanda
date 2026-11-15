@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_019e727d4d5b3d17006af911e4805c87d1891ab368261fb8a8",
+    "usage": {
+      "input_tokens": 2550,
+      "input_tokens_details": {
+        "cache_write_tokens": 2547,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2547
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 364,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2914
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_168.txt",
+      "source_sha256": "25dff21b66494c971c1ffde9f725b01044e71443c63a25c0e6cf938ce5826be6"
+    },
+    {
+      "page_number": 170,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_170.txt",
+      "source_sha256": "0e5b6e198cb44a676cd3fd92532ce66a947024417f02bc2e713c30492831a0b7"
+    }
+  ],
+  "created_at": "2026-11-15T01:59:00Z",
+  "duration_seconds": 4.291,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 169
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_169.txt",
+    "source_sha256": "d2e0bd20a191deb7195fcaecfc3b7a77f248b93bdd644b6d4c5f31e994565a41"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ce2056b0d9913af7142f11ff1a242de33e1fdbaca7a37d44e35f3e6a84353c75",
+  "request_fingerprint": "29012c0923efd50a1ab17c1b44951218b527745cfb5e1039cfe146ccf9a59b48",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.14, incluindo título, dados e fonte. Removida a linha de fonte associada ao Gráfico 6.7; o gráfico em si não aparece na extração."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.7, mostra-se a distribuição das notas na questão discursiva 1 do Componente de Formação Geral. Observa-se que 13,0% dos participantes deixaram em branco a resposta a essa questão. Somados à frequência dos que, tendo respondido, receberam nota zero (valor modal), chega a 61,6% o contingente daqueles que zeraram a questão. O intervalo (20; 30], se caracteriza como um máximo local com 12,5% do total de respondentes.",
+  "text_sha256": "e10064e1778d54d344a18452c76700f0cd991efd6329be8933b3408d6ff636da",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0be167c48dbfaf9c006af90c32725887d1a4542d0ca93b54c4",
+    "usage": {
+      "input_tokens": 2574,
+      "input_tokens_details": {
+        "cache_write_tokens": 2571,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2571
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 690,
+      "output_tokens_details": {
+        "reasoning_tokens": 443
+      },
+      "total_tokens": 3264
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_117.txt",
+      "source_sha256": "b800306f37d5e4cf614d9172358e13b464b3bc25a6ca5e82988718c29167ca84"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_119.txt",
+      "source_sha256": "33417997914b91879caf62c0d09523fc92d45e2769a0c600df7705e8d198b9d5"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:42Z",
+  "duration_seconds": 6.494,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_118.txt",
+    "source_sha256": "c483adb246893baf17bde121b265a6191748b38222501d7652b6fe8ae7a064be"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "29ac35165afe58b84dc4c09176e0a781800002c197085a68d1f10b0bd5febf7c",
+  "request_fingerprint": "a81f9f9544a58575ff049e06519e49ba1569c6df4b7c37466eb910b0e00e58d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3 e sua fonte. O Gráfico 6.2 é mencionado no texto; o material gráfico não aparece na extração fornecida, e a linha de fonte está na página de contexto seguinte e foi excluída."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], intervalo imediatamente seguinte ao modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrão: 12,5 para a nota da prova, como um todo, e 16,5 para o Componente de Formação Geral.\n\nVale a pena ressaltar que o intervalo anterior ao modal, (30; 40], tem frequência muito próxima ao modal.",
+  "text_sha256": "edcf4b83dbf027864059a0669d39390d42f1debd5d9e3f18cca48dd797a4cc77",
+  "window_size": 3
+}

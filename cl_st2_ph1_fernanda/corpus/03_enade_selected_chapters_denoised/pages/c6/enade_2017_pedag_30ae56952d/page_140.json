@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_059c150c708cef0a006af90a32abc487d19ba06bb789fd6852",
+    "usage": {
+      "input_tokens": 3324,
+      "input_tokens_details": {
+        "cache_write_tokens": 3321,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3321
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 332
+      },
+      "total_tokens": 4163
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_pedag/enade_2017_pedag_page_139.txt",
+      "source_sha256": "f3be650a4e42c929dc71ee385f194bac6ea26f4426c03dd01aee5a2ab412dbfa"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_pedag/enade_2017_pedag_page_141.txt",
+      "source_sha256": "2d6a6cfc79371362128489f6d7df9363183e0eac97de08f02012b5446c335ead"
+    }
+  ],
+  "created_at": "2026-11-15T01:26:10Z",
+  "duration_seconds": 7.188,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_PEDAGOGIA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_pedag/enade_2017_pedag_page_140.txt",
+    "source_sha256": "a00c6f475442fc67242f2fd554f904f5181b399f1436b828a38f7411d010326e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "37ba91eaa6c2961743028acfb07235ed39b6503047eac8ff700270ef4ff00578",
+  "request_fingerprint": "74ef04f461bf54c78b9a2aeec0ed6335cbb74ad1cde148cb8ccf91029f0394a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.8 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e uma questão foi tida como Fácil, por ter índice de acertos 0,75. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto duas questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, uma questão apresentou menos de 15% de acertos, razão pela qual foi classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,08 a 0,75, e o de Discriminação, de 0,17 a 0,53.",
+  "text_sha256": "e1d7c281ef35d564248be1b54d7742bf22855760e19ad15e443c1839228a11a7",
+  "window_size": 3
+}

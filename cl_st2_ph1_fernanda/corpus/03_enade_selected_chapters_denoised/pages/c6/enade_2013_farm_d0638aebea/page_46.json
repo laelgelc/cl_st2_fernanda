@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0988754eab8b4e2d006af8f3a2336487d1976ced26eaa4d6e6",
+    "usage": {
+      "input_tokens": 1949,
+      "input_tokens_details": {
+        "cache_write_tokens": 1946,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1946
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 365
+      },
+      "total_tokens": 2543
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_45.txt",
+      "source_sha256": "d2e31df4094a844420c908caef9136c1f9bab5a2c048bdc0974af96a1e678052"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_47.txt",
+      "source_sha256": "1805aa21093b1b414216fd91b816205665ca74c18adbe879d55bbc127f2dc42f"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:54Z",
+  "duration_seconds": 6.503,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_46.txt",
+    "source_sha256": "0e25d3a1fbaad59e4a4fb08b10f9bca58bbc3cc1f36ed6739621694f140b93f8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af75f1b0f9def47c3dd764d28ad1d50f82e349d5a73631fded35a188ee75ba87",
+  "request_fingerprint": "29d495d85f0b2cb493325a0529ecaecaeee1c8e765cfba1b4c0e1702421e5ae8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico; o gráfico em si não foi extraído."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas no Componente de Formação Geral, obtida na região Sudeste (48,3) e a menor, obtida na região Norte (42,5). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "34a40cfc46e6ee2401fce986128edd49f01066d66ece75db48b6b4b15b7d9e93",
+  "window_size": 3
+}

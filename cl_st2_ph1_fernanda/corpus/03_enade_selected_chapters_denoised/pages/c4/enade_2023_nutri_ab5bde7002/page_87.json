@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d4bd4208529950f006af924430e8487d18992db5f4554ce7e",
+    "usage": {
+      "input_tokens": 2019,
+      "input_tokens_details": {
+        "cache_write_tokens": 2016,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2016
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 2350
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_86.txt",
+      "source_sha256": "5e24a0bd3876fd3330fa227389d4b5866e50ef68b9ca454b4084650d0ac72d88"
+    },
+    {
+      "page_number": 88,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_88.txt",
+      "source_sha256": "a49137ca6b450d148d39c1c80b2ae5c35814a3ff4adaabe1bea981f49f8d7856"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:22Z",
+  "duration_seconds": 3.523,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 87
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_87.txt",
+    "source_sha256": "8d43a68e4a6cd2b9aae6628e1387bf8f9c16e34cfcc1af4f58ab62e654bd331d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ba6d8e2bf42f25c4d5d55fe00750256fc091803f15f8f29c2e96c74b3c8ac1df",
+  "request_fingerprint": "995fe4b7d1613301b13edb9895dd86272e4fbb397209641ba0d632cede02f771",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte do Gráfico 3.10."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nNo Gráfico 3.10, observa-se que a proporção de estudantes que consideraram a prova “Longa” ou “Muito Longa” foi menor no 4.º quarto (34,5%) – grupo de estudantes com melhor desempenho – e maior no 1.º quarto (41,8%). Pode-se constatar que há diferenças estatisticamente significativas entre o 1.º quarto e os demais quartos de desempenho. Considerando-se o desempenho dos estudantes, nota-se que 55,3% consideraram a extensão da prova “Adequada”, no quarto de desempenho inferior, e 62,1%, no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 58,0% no 2.º quarto e de 60,3% no 3.º.",
+  "text_sha256": "0c6429333eb0bee2b3472880f57151a3ddb1ec01ea60b795c89ae5008f61e01d",
+  "window_size": 3
+}

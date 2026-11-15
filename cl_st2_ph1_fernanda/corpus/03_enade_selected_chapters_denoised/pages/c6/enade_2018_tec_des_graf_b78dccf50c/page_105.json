@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_004f638dfd7c8e8c006af90e832b4487d19fe22132d10e3e05",
+    "usage": {
+      "input_tokens": 2647,
+      "input_tokens_details": {
+        "cache_write_tokens": 2644,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2644
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 686,
+      "output_tokens_details": {
+        "reasoning_tokens": 407
+      },
+      "total_tokens": 3333
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_104.txt",
+      "source_sha256": "ac8c1ce7cb92f676f3950538fbc2521c7df7e42c7eaaef0257434086280ef045"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_106.txt",
+      "source_sha256": "e10107955a90d49501cf62b9fc09efc850876282b86c6ea9043ff98a6199dc51"
+    }
+  ],
+  "created_at": "2026-11-15T01:44:35Z",
+  "duration_seconds": 6.798,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC DESIGN GRÁFICO.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_des_graf/enade_2018_tec_des_graf_page_105.txt",
+    "source_sha256": "ece786343472ec2c5c9a730388adcb92491ececf5eb07b1760ce2135c836df7b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "363e994ec64f543c30da4e3e52938b92a474dc3f4d8e6bdd75be308f5a6b32e7",
+  "request_fingerprint": "9a5a6bbab4a0c2ade95fd6179de7d69b3177e8fe80204f4058e4ece054a5daa3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e fonte. O Gráfico 6.2 é mencionado no texto, mas seu conteúdo gráfico não aparece na extração da página-alvo."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas, segundo Grande Região, observa-se que só existe diferença estatisticamente significativa entre a Média das notas do Componente de Formação Geral obtida na região Sul, a maior, e as médias obtidas nas regiões Norte, Nordeste e Sudeste. As diferenças entre as demais Médias não são estatisticamente significativas.\n\nNo Gráfico 6.2, pode-se verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], intervalo imediatamente anterior ao modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se ainda que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,0 para a nota da prova, como um todo, e 18,0 para o Componente de Formação Geral.",
+  "text_sha256": "d8b56578b588688e235f729603cc2643ff37ca76b33e8ee2a1a6be74c6b6f3d9",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e658eb2af64ccf6006af9208e08bc87d1addf1b8638c558dc",
+    "usage": {
+      "input_tokens": 2204,
+      "input_tokens_details": {
+        "cache_write_tokens": 2201,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2201
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 601,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2805
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_159.txt",
+      "source_sha256": "50e31676a4f1097928de4471daaf7d7c5fd966461a019ad1b2552c56e5b268e8"
+    },
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_161.txt",
+      "source_sha256": "f2e21bddec849308e55fc106f3a4e4c855c9b1a5dccb85fb1a6cf78f8d210cfa"
+    }
+  ],
+  "created_at": "2026-11-15T03:01:33Z",
+  "duration_seconds": 6.871,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 160
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_proc_ger/enade_2022_tec_proc_ger_page_160.txt",
+    "source_sha256": "bf93a36871599948bc688f9baaf61338ff454e3d8404d85945dc51f8cf1c8454"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f67292672342a0039451991f3171c67698aa625bbc665cad7c2c9f4794b66c16",
+  "request_fingerprint": "6cb1a0e6d08388414fa78c98f86767d4c31d1fca50bd91d9c77819265aaf248d",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (7.3.1) e Conhecimento Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.\n7.3.1 COMPONENTE DE FORMAÇÃO GERAL\nAs análises dos resultados de desempenho dos estudantes de Tecnologia em Processos Gerenciais, nas duas questões discursivas relativas à Formação Geral, encontram-se na Tabela 7.13 e no Gráfico 7.6, cujos dados são analisados de forma sequenciada.\nNo caso da Tabela 7.13, analisa-se a média das notas de cada Questão Discursiva de Formação Geral que leva em conta as correções realizadas por duas bancas: uma que analisa e pontua aspectos relativos ao conteúdo das respostas, seguindo o padrão de respostas divulgado pelo Inep (ver Anexo IX); outra que avalia o desempenho linguístico expresso pela redação das respostas, seguindo um padrão de respostas específico da área de Língua Portuguesa.",
+  "text_sha256": "cd2e99a587444d4162b86f6e10fb53fe8067b82b27d5bff571ffe9fe95a25909",
+  "window_size": 3
+}

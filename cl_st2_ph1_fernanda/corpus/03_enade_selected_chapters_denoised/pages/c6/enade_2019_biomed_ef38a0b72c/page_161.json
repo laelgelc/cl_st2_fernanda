@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_099632e54751224a006af90fe663ec87d1a284f4a757527a64",
+    "usage": {
+      "input_tokens": 2883,
+      "input_tokens_details": {
+        "cache_write_tokens": 2880,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2880
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 651,
+      "output_tokens_details": {
+        "reasoning_tokens": 314
+      },
+      "total_tokens": 3534
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_160.txt",
+      "source_sha256": "c3552269e03cdb4165f8d470c472b31e09a7502ee534acb6d779a63a4f4e0931"
+    },
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_162.txt",
+      "source_sha256": "c580d55494edeed48b16f5880915db1ceb64152686ab17ea2ced07b258648903"
+    }
+  ],
+  "created_at": "2026-11-15T01:50:30Z",
+  "duration_seconds": 5.536,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_BIOMEDICINA.pdf",
+    "page_number": 161
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_161.txt",
+    "source_sha256": "615acebb222a1d9749fb49e7e54b622d65959f208ad4b33d62c724850978ea58"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "940c64e202b3e4f8cd85e15d99bb3d736a4d807aae1ad90d04bfe420c4822f38",
+  "request_fingerprint": "b3fd3813f52e2d5aeb0a924c954a4a0066514486e17a8d52db07fb2393e55531",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico: “Fonte: MEC/Inep /Daes - Enade/2019”."
+  ],
+  "status": "success",
+  "text": "Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 70,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n6.2.2 Componente de Conhecimento Específico\n\nNa Tabela 6.10, são apresentadas as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Biomedicina por Grande Região. Nessa parte da prova, como será discutido ainda nesta seção, duas questões objetivas do Componente de Conhecimentos Específicos foram anuladas pela CAA (questões 30 e 32) e três questões não foram usadas no cômputo das notas por terem sido descartadas",
+  "text_sha256": "0b0ead0a5af51b776a18fb1e1b7895c5aeede1ff4463bcaff66928d76e0fbe3f",
+  "window_size": 3
+}

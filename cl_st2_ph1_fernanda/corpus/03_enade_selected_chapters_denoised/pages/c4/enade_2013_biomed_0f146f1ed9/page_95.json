@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_013cf6be16945aa9006af8f30e1ba487d1b0c67b083fb252e2",
+    "usage": {
+      "input_tokens": 1596,
+      "input_tokens_details": {
+        "cache_write_tokens": 1593,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1593
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 528,
+      "output_tokens_details": {
+        "reasoning_tokens": 392
+      },
+      "total_tokens": 2124
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_94.txt",
+      "source_sha256": "5827526b17c4df22bc78e53955d66550f290946fd8e618b7410b2056bdf2f57e"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_96.txt",
+      "source_sha256": "d75e810f47500bb8801ac6541880df6849ce12f392cedaaf17bb51f05afacba9"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:26Z",
+  "duration_seconds": 5.502,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_biomed/enade_2013_biomed_page_95.txt",
+    "source_sha256": "8d4615998f182680fca25eee0b26dad13a2ee4f3788f0c67464268a9c554dfa3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0931ef03c34bba5150334be8f45331f47815504e244f7d8926de97fcbe2019e",
+  "request_fingerprint": "70abe33694fa26d61ab8a36af8c4aba1959c5725139e2e922e470fea38cd1f2c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (88,8%) se comparada ao quarto inferior de desempenho (76,2%). As diferenças dos resultados entre o quarto inferior e os demais quartos de desempenho são estatisticamente significativas, bem como a diferença entre o 2º e o último quarto de desempenho.",
+  "text_sha256": "a9ec5a20223fdd72368ab4dfe07f971f6ec68cb781a190f7025503ee0f5ba350",
+  "window_size": 3
+}

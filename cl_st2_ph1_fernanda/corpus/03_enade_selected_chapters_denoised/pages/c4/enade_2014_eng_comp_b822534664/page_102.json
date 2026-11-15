@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d81de14b49095b8006af8f7a49a7887d1ae42de2839cef0a0",
+    "usage": {
+      "input_tokens": 1709,
+      "input_tokens_details": {
+        "cache_write_tokens": 1706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 422,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 2131
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_101.txt",
+      "source_sha256": "ad2ddec7c3d6f1716ea4f45cfd14ead6c264e592e583fc23d215ae84f01a3be3"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_103.txt",
+      "source_sha256": "30ee877d7b446a289d09ea5f87fad65dd5e4fbf8864f1aa7a6b178d8da754e9c"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:00Z",
+  "duration_seconds": 5.663,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_102.txt",
+    "source_sha256": "a432c378db841bea26e18fe595e4ea07380eeba2721de1800dcab39a996938ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "88b4dcd8d657ca7512c8c26876549e1d36ecb3b5a11b88d84624d304a57b252f",
+  "request_fingerprint": "a50a2777adc5bdfd8baa5fcf3c0c3dbc2e4444db20fb43f62280dd5377873108",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 56,5% consideraram a extensão da prova adequada no quarto de desempenho inferior e 57,9% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 61,9% no segundo quarto e 55,9% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "a253afd19c768f2c18f39cde88ad08232d1e1d8597399daba9e657ff7e6e7f5f",
+  "window_size": 3
+}

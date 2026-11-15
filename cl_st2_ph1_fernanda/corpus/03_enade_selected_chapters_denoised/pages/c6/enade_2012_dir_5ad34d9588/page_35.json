@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f4b35b3d4270f6006af8f0e57c1887d1a52e7da5ee6eebc2",
+    "usage": {
+      "input_tokens": 1478,
+      "input_tokens_details": {
+        "cache_write_tokens": 1475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 218
+      },
+      "total_tokens": 1853
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_34.txt",
+      "source_sha256": "25ce0225f918010468443742fbcf2bdc5ba593dd25bfeba621b3a52c04fb842f"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_36.txt",
+      "source_sha256": "09917c9774573e177545bf1aeaab360e03851652dbb424cac98b9f60ea0bd6df"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:13Z",
+  "duration_seconds": 4.334,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_35.txt",
+    "source_sha256": "070c608d97e440de172366ae55a354949e55d7c6e751ccec2d59b0b92a9a1e88"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9ab6009a32ecf49323ee5bd9ccc5dfb6848d26df4f41ad55558685e661a29474",
+  "request_fingerprint": "5882ca6366a9b968bf51cc02f2ed20f18171555a53709affc079f8e33e118017",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, que aparenta pertencer ao material gráfico do Gráfico 3.3."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas é maior (44,6) que a dos alunos de IES Privadas (40,3). A diferença entre IES Públicas e Privadas (4,3) é maior do que as diferenças entre regiões Sul e Centro-Oeste (1,5), a maior e a menor média.",
+  "text_sha256": "02890e52aaa400692e35d81926de0436447031a1f897413217d0fe047ef91ae0",
+  "window_size": 3
+}

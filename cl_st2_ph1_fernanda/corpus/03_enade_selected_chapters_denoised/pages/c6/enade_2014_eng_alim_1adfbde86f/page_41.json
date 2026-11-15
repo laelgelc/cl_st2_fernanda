@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f8e0f07493c510006af8f7ea3b9c87d192393e086c21d75a",
+    "usage": {
+      "input_tokens": 2375,
+      "input_tokens_details": {
+        "cache_write_tokens": 2372,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2372
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 279,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 2654
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_40.txt",
+      "source_sha256": "d3fee522dc91f19072bc20b7190551c6934266c93a70d9ec53d7e727242486f5"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_42.txt",
+      "source_sha256": "c64dce04da42a0fc0b4419fc6018f4bf67d71f93265cbe83c3492170c7f836a0"
+    }
+  ],
+  "created_at": "2026-11-15T00:08:10Z",
+  "duration_seconds": 4.418,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_alim/enade_2014_eng_alim_page_41.txt",
+    "source_sha256": "a163cef162c42da3c331f0b5812e29bf200034aadf56c268f28d8985b27c56cc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "38f601bee982ab4834c5c0a955d295bcf585dc970fa8e8754cf0c11b700205cd",
+  "request_fingerprint": "d5314eacaa9607d53cdfa6130ca7d1591200cd589335c655464517166eba03fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sudeste (55,2), e a menor média, obtida na região Centro-Oeste (45,7).\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (50; 60]. Destaca-se que a frequência do intervalo anterior, (40; 50], é muito próximo da modal.",
+  "text_sha256": "af6824ba53e87010b1b6bd1c41aef6a55469dda7a4cd78d79c23cf62dd064fed",
+  "window_size": 3
+}

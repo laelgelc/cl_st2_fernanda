@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_021e7faa10755d02006af8f412cbb087d1bb6be34acdbc2248",
+    "usage": {
+      "input_tokens": 2523,
+      "input_tokens_details": {
+        "cache_write_tokens": 2520,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2520
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 418,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2941
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_82.txt",
+      "source_sha256": "b9a8dd39ac364b9ec3dd94e6be025e4406f7bfe800c1502c29b72068b90d7393"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_84.txt",
+      "source_sha256": "5116b3347e037b5f3e9b23d9ee3cf5cc0ec16fb238488171c33481d9b0d0d0f2"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:46Z",
+  "duration_seconds": 4.306,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_83.txt",
+    "source_sha256": "0a94c254df20f51697fdb2f855f21468ecd5441874c7ce11eb465d12348ef9d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8281e214dda46783f95b7c0d1ad4bd3756e4c455858527f5f8274fadfe341fd6",
+  "request_fingerprint": "085283f95739dc3dbc41f9129db4b9e5902ef2a89782e81ccc2c3fbc424ae9dc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.15, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "um todo foi zero, o mesmo valor para todas as regiões, sem exceção, indicando que pelo menos metade dos estudantes de cada região recebeu nota zero nesta questão, seja por terem deixado a questão em branco, seja pela inadequação da resposta.\n\nO Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Destaca-se, como na questão discursiva 4, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda da distribuição. Além da moda no extremo inferior da distribuição, aparecem ainda dois máximos locais: (10; 20] e (60; 70].\n\nO coeficiente de assimetria para todos os alunos é 1,15 e para todas as regiões se mantém positivo, variando entre 0,91 na região Sul e 1,62 na região Norte.",
+  "text_sha256": "b5ce404d9542c9154bed766a0b3446ad4b5c15c03f72b1600664f3582414e6a9",
+  "window_size": 3
+}

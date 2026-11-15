@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c09d7f106e8e575006af902c641d887d18bb146822e264cbd",
+    "usage": {
+      "input_tokens": 2362,
+      "input_tokens_details": {
+        "cache_write_tokens": 2359,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2359
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 624,
+      "output_tokens_details": {
+        "reasoning_tokens": 321
+      },
+      "total_tokens": 2986
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_40.txt",
+      "source_sha256": "9f65a91005d71cfa4ae1b5c386a67e4b08ddc2dffc672ebf4573c221be3a1704"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_42.txt",
+      "source_sha256": "cb58b030011f94661893e125df5f7511a47a59a2baeedfa77b74da7320b875ad"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:30Z",
+  "duration_seconds": 6.42,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_41.txt",
+    "source_sha256": "6b31675f9be89af42343d20c7bf832552d76f447ab7e4af4e48467b6b5c303a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "30b1eadf231aaee6e86354b902a64f886d48db12929f4fff318208cb856cc5ee",
+  "request_fingerprint": "0325108f8a9ef78889ccb06b8fcb88a3ca983f5f064399107052324a755d0fd8",
+  "retry_count": 0,
+  "review_notes": [
+    "A Tabela 3.2, incluindo seus dados e a linha de fonte, foi removida."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (90,7), ao passo que a região que atingiu a menor nota Máxima foi a Nordeste (87,9). A Mediana do Brasil como um todo foi 66,6, sendo a maior Mediana obtida na região Sul (68,9), e a menor obtida na Norte (62,7). Na região Norte, a nota Mínima foi 16,5, na região Sul foi 5,8 e em todas as demais regiões a nota Mínima foi zero.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (61,8), e as médias de todas as demais regiões17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (60; 70], seguido pelo intervalo (70; 80].\n\n17 Todas as comparações deste capítulo utilizam os intervalos de 95%. Os erros-padrão da média que possibilitam os testes estão disponíveis nas tabelas.",
+  "text_sha256": "d2ee2e1c837ced7d6a55c32f1c5c239466a4a2ecb5a0b0a8b8ff92e02037b67a",
+  "window_size": 3
+}

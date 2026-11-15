@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a3db1bc2bc80f5006af8f9c94af887d181195c9fc8cf78b7",
+    "usage": {
+      "input_tokens": 2374,
+      "input_tokens_details": {
+        "cache_write_tokens": 2371,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2371
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 563
+      },
+      "total_tokens": 3186
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_99.txt",
+      "source_sha256": "f1a7d657942b67f27a28c8df29472dd107d2850a6aba252843c858295bc44d79"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_101.txt",
+      "source_sha256": "ffc44d8de6c33a841de808091cbc2f342e63f5da687eff29ec569af1afaeb231"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:09Z",
+  "duration_seconds": 9.794,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FÍSICA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_100.txt",
+    "source_sha256": "8dae3163d271f82712dc72234a19d4e1737361bd16e8c2df27f851250f5a85aa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d0285112244f1485d6e5ecd7562c3f44d948284cd2e6ef81c97c8e423852e6ef",
+  "request_fingerprint": "cea5b6272f5c3a1e6977f7055ca30bbae765c0da0fa26c991bf046f26477d0c9",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.21: título, dados e fonte removidos. O Gráfico 3.15 é referido em prosa preservada; a figura pode continuar até a página seguinte, mas nenhum conteúdo gráfico textual foi incluído na página-alvo."
+  ],
+  "status": "success",
+  "text": "A nota mínima (0,0) e a nota máxima (100,0) foram as mesmas em todas as regiões. Para o conjunto de estudantes de Licenciatura em Física do Brasil, a mediana foi 0,0, o que também ocorreu nas regiões Norte, Nordeste e Centro-Oeste. Ou seja, pelo menos a metade dos estudantes de todo o Brasil tirou nota zero nessa questão. Apenas nas regiões Sudeste e Sul a mediana foi diferente de zero (20,0).\n\nO Gráfico 3.15 representa a distribuição das notas da questão discursiva 5 no Componente de Conhecimento Específico (Licenciatura). Mais uma vez, destaca-se o grande número de estudantes que deixaram a questão em branco (categoria modal), seguido de perto por aqueles que tiraram nota zero para a resposta apresentada.",
+  "text_sha256": "0e695b601443c45b15acf41ee1054b4f373449ea8d52f6afe61757653ff1b6c9",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_043caad5e56756f1006af8f27788e087d1aac91ce08923ae62",
+    "usage": {
+      "input_tokens": 1941,
+      "input_tokens_details": {
+        "cache_write_tokens": 1938,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1938
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 472,
+      "output_tokens_details": {
+        "reasoning_tokens": 242
+      },
+      "total_tokens": 2413
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_34.txt",
+      "source_sha256": "d47d7094295210fac43cd6aaddec95650a1a74190aa173cc270b703e99216df2"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_36.txt",
+      "source_sha256": "100c5991b8214b4fb6ed58900a39b116182f1b25e27f57180a1f6aacafb219ed"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:55Z",
+  "duration_seconds": 4.616,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM MARKETING.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_35.txt",
+    "source_sha256": "c4be5dbacddbb5a64ac8e8dc04999be29d5c13b00ac032d9cf846f8497f1548a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d682f29212f5a7765315cdfa070097a265e49f9b07b85d79b8f5678359f9d3ac",
+  "request_fingerprint": "67c39f9f0da804b2fb9e2675c8631ac3f2d62c4ab04bb4d7cadfaeaaa962d0da",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente associada ao Gráfico 3.1; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sul (43,4) e a menor, obtida na região Centro-Oeste (37,3).",
+  "text_sha256": "948ef54d7f2767c70dbbad48e59a21b46395e342ab20ed51e4a1fb703af9b572",
+  "window_size": 3
+}

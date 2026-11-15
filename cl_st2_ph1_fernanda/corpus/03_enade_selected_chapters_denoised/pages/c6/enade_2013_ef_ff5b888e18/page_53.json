@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af1da135ec79db6006af8f34cb99887d1ae418edb18ca9e7d",
+    "usage": {
+      "input_tokens": 2899,
+      "input_tokens_details": {
+        "cache_write_tokens": 2896,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2896
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 943,
+      "output_tokens_details": {
+        "reasoning_tokens": 302
+      },
+      "total_tokens": 3842
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_52.txt",
+      "source_sha256": "f240d1648283e17f5751991f10130b391119009647d4117c18341d1f7f959156"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_54.txt",
+      "source_sha256": "2abd7d0251e77c361539320ae110104f9b304c1ed985c6951d3373a35b6b018a"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:28Z",
+  "duration_seconds": 9.101,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_53.txt",
+    "source_sha256": "e9407484c0c43f88d5b05b4fdcb87c3fe6b79005de7cd616227347a143dc9f6a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "98271e9faedd7e7471f352c216895c1800978559ee192038bae552f3fd692017",
+  "request_fingerprint": "750c55636394b1574a82f4ed3be8ea1c7ee37fb434027aa85140623a8818ae64",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, apenas duas tiveram o índice de facilidade classificado como muito fácil ou fácil. Três questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Outras três questões, foram consideradas de nível difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da terceira questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A",
+  "text_sha256": "32c82cdcbf607082febd157f42b15075058d0a81e440d14dfc8bfb2d5f20b2ec",
+  "window_size": 3
+}

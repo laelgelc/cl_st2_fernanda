@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_097cdbc0a04c5b0d006af8fe3ea44c87d181e3ed08867aff98",
+    "usage": {
+      "input_tokens": 2556,
+      "input_tokens_details": {
+        "cache_write_tokens": 2553,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2553
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 480,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 3036
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_51.txt",
+      "source_sha256": "a74d9e820ff6721a19895bf836b37b28747852b1faf56e5f36fcf8e78fb71818"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_53.txt",
+      "source_sha256": "350c6a163787ebec2d8e14b5dbbc949555a268493e9ca9c7ed61701c674a32c1"
+    }
+  ],
+  "created_at": "2026-11-15T00:35:10Z",
+  "duration_seconds": 4.345,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_PSICOLOGIA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_52.txt",
+    "source_sha256": "32cf26cb1acd04b1fa6702495ada55bc6cddd4c54e6bb62a0a05010f95224bfd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cfbe626cc92a1afffe286f26e1fef6db4b873f1a859cd5e5321c58794add9b56",
+  "request_fingerprint": "0d72268d336f7bb92b087bd6380e947a624a936e283d485cc3d8a5a63ae6daed",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, que aparenta pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "5aa652d62206547eda0859166e42b9c4e2fc9c86a4fad69aeea07269dcaa024c",
+  "window_size": 3
+}

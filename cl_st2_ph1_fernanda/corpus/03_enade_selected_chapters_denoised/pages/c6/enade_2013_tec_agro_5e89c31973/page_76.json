@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f486bac73e3bf95006af8f5276b6887d1ab819832d1b7c384",
+    "usage": {
+      "input_tokens": 2366,
+      "input_tokens_details": {
+        "cache_write_tokens": 2363,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2363
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 2729
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_75.txt",
+      "source_sha256": "3b87d96e35ea8ba1dc2f9a71f4fc06e8108b37b9d8be9781bc5b4c40a5e659d1"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_77.txt",
+      "source_sha256": "7f82a2b4d351fa736d303d95da142be399007f8acf437853c0a7a4d4752262d1"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:23Z",
+  "duration_seconds": 3.876,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_76.txt",
+    "source_sha256": "c30b13f2bcec1138a2fabbbdaede64e9c56d758bae36a491737ee51a32fcb8b3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ceb3a361ed64ce1d603e6ce0f605dc4fe795ae1fb2935e3f3c64789c1ac83894",
+  "request_fingerprint": "c7bc6580cf1264eba97ebdbb814c770fc339dbd6de4a736322ba946659ee3063",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte. A linha de fonte após o parágrafo foi removida por pertencer ao material do Gráfico 3.20; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo (40; 50]. Questões em branco constituem uma moda secundária. O coeficiente de assimetria é negativo para todo o Brasil (-0,38) e para todas as regiões (entre -0,50 na região Sul e -0,20 na região Centro-Oeste), indicando uma assimetria à esquerda.",
+  "text_sha256": "2bdeef5f596d2e5c5fbb8acb75847fc463c34a93177e191099fce957f603c813",
+  "window_size": 3
+}

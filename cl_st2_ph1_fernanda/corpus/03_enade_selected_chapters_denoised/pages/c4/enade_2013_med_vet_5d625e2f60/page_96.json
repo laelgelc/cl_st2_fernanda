@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1bd9bc24647785006af8f41a5f0087d1882449007b4f695e",
+    "usage": {
+      "input_tokens": 1567,
+      "input_tokens_details": {
+        "cache_write_tokens": 1564,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1564
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 588,
+      "output_tokens_details": {
+        "reasoning_tokens": 466
+      },
+      "total_tokens": 2155
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med_vet/enade_2013_med_vet_page_95.txt",
+      "source_sha256": "b7012cf61939f77df01f7c97140f316ab78760b8845ddb67ce12c56f67039652"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med_vet/enade_2013_med_vet_page_97.txt",
+      "source_sha256": "6d2fb82169b42e624fb25f01c16015463afc7877f3353f778978eb4e526a3adb"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:54Z",
+  "duration_seconds": 6.042,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med_vet/enade_2013_med_vet_page_96.txt",
+    "source_sha256": "e9036355903464837f51e29276d3c884bf8c0ecea8ac77113423980db63346a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c16aa06f383583bf8e8249baa6ce6a0d7fd9a62846a04f9b7ac80d3fc2897f41",
+  "request_fingerprint": "f1b63d434769c487211f55e1bde856bc7bfafc40d213839c6b763ff7e3c0e36f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, possivelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (86,9%) se comparada ao quarto inferior de desempenho (76,1%). As diferenças dos resultados entre o 1º quarto de desempenho e os demais são estatisticamente significativas.",
+  "text_sha256": "236ba8f10346384bfa2331cfdd2a123662721bf9f26ca49349b09a490bb6e82d",
+  "window_size": 3
+}

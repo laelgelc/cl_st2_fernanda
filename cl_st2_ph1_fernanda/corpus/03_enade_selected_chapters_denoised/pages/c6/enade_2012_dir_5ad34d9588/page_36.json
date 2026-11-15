@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fcacf363c7a2106006af8f0e59a4487d19a0c517aac54106e",
+    "usage": {
+      "input_tokens": 1626,
+      "input_tokens_details": {
+        "cache_write_tokens": 1623,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1623
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 299,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 1925
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_35.txt",
+      "source_sha256": "070c608d97e440de172366ae55a354949e55d7c6e751ccec2d59b0b92a9a1e88"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_37.txt",
+      "source_sha256": "3fbd69317edbe7a2a6d0590613f400eb61cbf1283664245bd0bcb02a6bd1e923"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:13Z",
+  "duration_seconds": 3.389,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_36.txt",
+    "source_sha256": "09917c9774573e177545bf1aeaab360e03851652dbb424cac98b9f60ea0bd6df"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4bf3fa0353c0f2e19649c85796e25d842edb8e87b7a7fcfe19d68d2db3df4756",
+  "request_fingerprint": "7f2e2ebb362b743d29fde411defbf7a1a7aed806abc304ed5faf9526c9d31977",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número da página e a linha de fonte (MEC/INEP/DAES - ENADE/2012), associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades, Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (41,7), e a menor, pelos de Faculdades (40,0).",
+  "text_sha256": "f341c7344380555539703dd5a2fae04f0a3bcd2fbf793e5ea436665e83438a5b",
+  "window_size": 3
+}

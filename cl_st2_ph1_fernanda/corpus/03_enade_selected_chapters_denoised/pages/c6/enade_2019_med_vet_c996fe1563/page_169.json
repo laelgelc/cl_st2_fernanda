@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0235f63affce78d8006af9141ea98487d18ff04e891cd5ebe0",
+    "usage": {
+      "input_tokens": 2617,
+      "input_tokens_details": {
+        "cache_write_tokens": 2614,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2614
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 410,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 3027
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_168.txt",
+      "source_sha256": "fd9375bd349da08752e576225d3fc33ae8a47d800c5273f570218ba0de09d46f"
+    },
+    {
+      "page_number": 170,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_170.txt",
+      "source_sha256": "b097c17144bcd06fbe95a87ea64ed73b5ce7c5d0baa7e3e13dfd38a047d3a9c4"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:30Z",
+  "duration_seconds": 4.955,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 169
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med_vet/enade_2019_med_vet_page_169.txt",
+    "source_sha256": "146c0d6042fea9a982b056a7daf1aa0c2e0e8bdbf93293e075e26bacd974930d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0eaf56f5362267d413422b3ca1f9569fdc9dac40031b83ad69d54dd84cc89830",
+  "request_fingerprint": "d01d56c06ff57bf696fcdbbe6ec09017bd3ff60fcb68c371646c03b7ab74ba5b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, estatísticas, dados regionais e sua linha de fonte.",
+    "Removido o material gráfico do Gráfico 6.9 e sua linha de fonte; o parágrafo que descreve os resultados foi preservado."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral da questão 1. Observa-se que a maior frequência corresponde à dos estudantes que obtiveram nota no intervalo (10; 20], com frequência de 21,8%, seguido pelo intervalo imediatamente inferior, (0; 10], com 19,0% das notas. Destacam-se, também, os estudantes que deixaram a questão 1 em branco, representando 8,8% do total e o intervalo (40; 50], que se constitui como um máximo local, com 15,5% do total de notas.",
+  "text_sha256": "6728530a5474378919b305addbb32ea045d7b09c0f80e577bdd0448b5805d100",
+  "window_size": 3
+}

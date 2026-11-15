@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07683b825550fcff006af9164fa62c87d18644468999c9a4f5",
+    "usage": {
+      "input_tokens": 2304,
+      "input_tokens_details": {
+        "cache_write_tokens": 2301,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2301
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 2929
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_144.txt",
+      "source_sha256": "d1fb2f9fc0251b454ff108fc13f9d70b219d187593568246395314c6258a3e13"
+    },
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_146.txt",
+      "source_sha256": "2342fbeaebaddeec9cf0958ada3b8abd2ebc768356c54afa25a034f92f448ae8"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:51Z",
+  "duration_seconds": 5.465,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 145
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_145.txt",
+    "source_sha256": "2a3a8c88d8882c93ef11f40d7140db69edecfb8879d5e7db711769fb2308e61e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3d55d18b4dbe1f119f237d1cf391b9a6ef1fce9cc148f6e525138e0caf60bcc3",
+  "request_fingerprint": "4978541e77552ec61e72248e8d84adb0cbb849b8afe53a51f8206fb593fba64d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte MEC/Inep/Daes - Enade/2019, identificada como pertencente ao Gráfico 6.1. O gráfico em si não aparece no texto extraído; conferir a página original."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], seguido de perto pelo intervalo (20; 30].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 32,9. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (37,2) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (31,9). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Norte e Sudeste (5,2), a maior e a menor Média, é, praticamente, a mesma que à diferença entre a das IES Públicas e Privadas (5,3), não podendo assim caracterizar uma maior diversidade tanto administrativa quanto regional. O Desvio padrão para as IES Públicas (10,7) foi inferior ao do Brasil, como um todo (11,9), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.\n\nNo tocante a Organização Acadêmica, os Centros Universitários, as Faculdades e os CEFET/IF obtiveram Média mais alta que a nacional (33,0, 34,7 e 39,3, respectivamente). A",
+  "text_sha256": "b582894b21f990db72b8d2172f94e8a1792a3e785e829e013389ca2f49e651ee",
+  "window_size": 3
+}

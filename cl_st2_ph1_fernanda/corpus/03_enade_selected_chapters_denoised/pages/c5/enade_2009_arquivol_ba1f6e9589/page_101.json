@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d548a84223931cc006af8e48d39b087d1b8445e4103170f94",
+    "usage": {
+      "input_tokens": 2445,
+      "input_tokens_details": {
+        "cache_write_tokens": 2442,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2442
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 456,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 2901
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_arquivol/enade_2009_arquivol_page_100.txt",
+      "source_sha256": "9d3995b15ab93c8c0a7432f9f9b21eca0f35c50168c1a4294e0618eaea9e6e1a"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_arquivol/enade_2009_arquivol_page_102.txt",
+      "source_sha256": "8219f1b47b5f3b017f37fada56be33acad64f13c7a5e589c230bf5010cd072e3"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:33Z",
+  "duration_seconds": 4.982,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_arquivol/enade_2009_arquivol_page_101.txt",
+    "source_sha256": "b7957e4978f8d7303e513640223716abee27ddd258ae73f515c100d8da069e28"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e9ca5cf7ae5d5de99eba9b57d50e9aca4f9e04779c8c28aaab480e99d3b16d33",
+  "request_fingerprint": "4de999982429e261add73a6707bd61ba92a3db0be35aa9fe125612844a78ca77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.1, incluindo seus dados e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Região Sudeste, dos 4 cursos avaliados, 2 cursos, equivalentes a 50,0% do total regional, classificaram-se com conceito 4 e 1 curso, equivalente a 25,0%, com conceito 1, e 1 curso não obteve conceito.\n\nNa Região Sul, 2 dos 4 cursos avaliados, equivalentes a 50,0% do total regional, classificaram-se com conceito máximo, 5. O conceito 4 foi atribuído a 25,0% dos cursos, ou seja, 1 curso, e 1 curso não obteve conceito.\n\nAssim como na Região Nordeste, na Região Centro-Oeste, apenas 1 curso participou da avaliação. Foi-lhe atribuído o conceito 4. Obviamente, os outros conceitos ficaram sem representação.",
+  "text_sha256": "5d8cfcc51088c08b07bedce4c3b2b44ba352db4cb6c4449055999c27eb867c0e",
+  "window_size": 3
+}

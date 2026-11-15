@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f6a78fabdb57167006af8f4cd7e0087d18660039c0f34a526",
+    "usage": {
+      "input_tokens": 1662,
+      "input_tokens_details": {
+        "cache_write_tokens": 1659,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1659
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 718,
+      "output_tokens_details": {
+        "reasoning_tokens": 414
+      },
+      "total_tokens": 2380
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_100.txt",
+      "source_sha256": "4c78cbe3ab10973afa27f60610218dee8250f8b1de8b80c5bace1f0c9e32b759"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_102.txt",
+      "source_sha256": "d04a7f5876feb0f3d1bc6c88e53d5fbbecd47206a74cce10d2c80adf10ddb668"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:53Z",
+  "duration_seconds": 7.274,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_101.txt",
+    "source_sha256": "afb980a851c7594dac7e59dd5fb2f1dbfc6b945d44e5f92a1835f5af7efcee7e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e02b16d6954fcc51fe8c4020cda7207fce20529f51bc53768e4fa962d60ad89a",
+  "request_fingerprint": "d2d67abc8b163813b9c3c22c18f7e0bff2c2f96cddc7dd2b0ef50392f755b4c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graphic material; the associated graphic is not present in the extracted page text."
+  ],
+  "status": "success",
+  "text": "4.2 EXTENSÃO DA PROVA EM RELAÇÃO AO TEMPO TOTAL\nIndagados quanto à extensão da prova, em relação ao tempo total oferecido para a sua resolução (Questão 3), os estudantes apontaram, com maior incidência, a alternativas que considerava a extensão adequada, para todas as agregações consideradas (Gráfico 4.5, Gráfico 4.6 e, no Anexo II, a Tabela II.3).\nO percentual de alunos que responderam ser a extensão da prova adequada foi de 48,5%. Já 43,3% dos inscritos presentes consideraram que o exame foi longo ou muito longo e 8,2% o avaliaram como curto ou muito curto.\nEntre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou de 38,2% na região Norte até 46,2% nas regiões Nordeste e Sudeste. A proporção dos que consideraram a prova longa ou muito longa na região Norte é significativamente diferente da proporção dos que deram as mesmas respostas nas demais regiões, a exceção da região Centro-Oeste.",
+  "text_sha256": "1114e45216c8d61d34324b23aaecee7ea2e6606b7c0a9bed5b651ea3fb416255",
+  "window_size": 3
+}

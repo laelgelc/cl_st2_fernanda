@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0944323b20cac210006af91127f6b487d19418d605e9700be6",
+    "usage": {
+      "input_tokens": 2574,
+      "input_tokens_details": {
+        "cache_write_tokens": 2571,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2571
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 2976
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_153.txt",
+      "source_sha256": "f40abe17d4d2f76bb317e045d935f2b62b180fcdcc5ad6da6d33145d4254ba83"
+    },
+    {
+      "page_number": 155,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_155.txt",
+      "source_sha256": "88d11174b7520bfba2fa78539efa319fe5f16604b1e72ed2c8c10b917d3d7153"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:51Z",
+  "duration_seconds": 4.224,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 154
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_154.txt",
+    "source_sha256": "7c9729dbfea21a96b4a7f06a59ae701a050be7251d26f8499fcb223651a4e01e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a1f135a8cb5bc758da76fde6c1d8f3942d7c2b20c577570d5e378824659d0841",
+  "request_fingerprint": "6fff9486957066d3399be152844c8623984453b9e166490cfa69afc6f3017df3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.14, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.7; o gráfico e seus elementos não textuais foram excluídos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.7, mostra-se a distribuição das notas na questão discursiva 1 do Componente de Formação Geral. Essa distribuição tem moda na classe de estudantes que, tendo respondido à questão, obtiveram nota zero (28,5%). Observa-se 7,3% dos participantes deixaram em branco a resposta a essa questão. Somados à frequência dos que, tendo respondido, receberam nota zero (classe modal), chega próximo de 36% o contingente daqueles que zeraram questão. O intervalo (40; 50] caracteriza um máximo local com 16,6%, seguido de perto do intervalo (20; 30], com 15,1%.",
+  "text_sha256": "b21742fe94b5a28c56e1b2d6b844d5f49a9f7a251b42be0f0f48f13ddfa4c9ec",
+  "window_size": 3
+}

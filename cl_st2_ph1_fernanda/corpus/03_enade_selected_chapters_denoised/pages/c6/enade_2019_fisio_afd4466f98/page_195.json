@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_069a07dab9e06c29006af91368d12087d19ef53ff5ff9e0f15",
+    "usage": {
+      "input_tokens": 2720,
+      "input_tokens_details": {
+        "cache_write_tokens": 2717,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2717
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 403,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 3123
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 194,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_194.txt",
+      "source_sha256": "7c98a22249292882febd918285071221a6db7f8a2e2e0bfe47996ad10f703065"
+    },
+    {
+      "page_number": 196,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_196.txt",
+      "source_sha256": "191df4e6d3eb9e6327b48f6ef79213d96fafcdff68e3e8347cd87ac61e58bb69"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:28Z",
+  "duration_seconds": 4.938,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 195
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_195.txt",
+    "source_sha256": "903a1d59aa60a7935e46d5b03b985435a5368588bc5840fd4852cb033f7f15c0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "daf6e36961c01679caeadcb244f023f534c9663a5f562c1dc6a29925fd3cdb2b",
+  "request_fingerprint": "a09aa1f6310d40f06c884bf65648e44bbc7aef27fc30021a9d9f0f8907f678ae",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e fonte.",
+    "Removidos os materiais do Gráfico 6.13 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Brasil foi 20,0, o mesmo valor foi obtido nas cinco Grandes Regiões. Também foi zero a nota Mínima de todas as regiões.\n\nNo Gráfico 6.13, está representada a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que teve nota no intervalo (10; 20], com 37,0% do total. Chama atenção a frequência daqueles que, tendo respondido à questão, obtiveram nota zero, que, acrescida da classe de estudantes que deixaram a questão em branco, perfazem 26,5% dos respondentes.",
+  "text_sha256": "6e7b98d96d789ed7f8dc15020bc33629b0dd445c9472e5e1738a2e55e170f727",
+  "window_size": 3
+}

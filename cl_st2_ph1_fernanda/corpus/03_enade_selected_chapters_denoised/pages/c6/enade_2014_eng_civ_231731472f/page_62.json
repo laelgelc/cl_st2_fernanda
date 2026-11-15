@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd200f6644aad10006af8f78f489c87d1ab6c8b0f110fd327",
+    "usage": {
+      "input_tokens": 2575,
+      "input_tokens_details": {
+        "cache_write_tokens": 2572,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2572
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 431,
+      "output_tokens_details": {
+        "reasoning_tokens": 302
+      },
+      "total_tokens": 3006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_61.txt",
+      "source_sha256": "cd8ba35d55b1b77847a11f78a8253f5d4aa8ece4f76923495cbb70e7d0c0d133"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_63.txt",
+      "source_sha256": "78e7c569e1f4c71af583e5acafc432ea7429c2bdf359a5872edc0cda787fd840"
+    }
+  ],
+  "created_at": "2026-11-15T00:06:39Z",
+  "duration_seconds": 5.061,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA CIVIL.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_62.txt",
+    "source_sha256": "aa43727df9fb81a3eeae58c3456bc82901d335de0dd129333fa7bf343c49bb89"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10c137b86a15ce28c9a956885ab21de7a5cc99036fd55b9102951186d61e6100",
+  "request_fingerprint": "7108ccb615bef9d8d077233c217c5a5fe15b2e26e6dbf75f60b3139202423cae",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.8 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos estudantes que deixaram a questão em branco (acima de 15%). Nota-se, ainda, que as notas ficaram mais distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.",
+  "text_sha256": "ca4177b755d110cf8e877eb148a856481e1c217a2d315df4ff479ddc0a71f3be",
+  "window_size": 3
+}

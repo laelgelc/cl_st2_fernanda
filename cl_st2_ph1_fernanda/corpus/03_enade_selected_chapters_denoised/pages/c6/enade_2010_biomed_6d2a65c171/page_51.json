@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0052bc053223046b006af8e863363487d1929f1725cb52eb7a",
+    "usage": {
+      "input_tokens": 2514,
+      "input_tokens_details": {
+        "cache_write_tokens": 2511,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2511
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 2935
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_50.txt",
+      "source_sha256": "fc1b015cd333ca36fa81bd8f24891b34da39762c806994802fce699dbaf839ca"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_52.txt",
+      "source_sha256": "5547c5f0da97b9f19c33738b95da966e1cc4642c8b2b2dcb68253e689215423f"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:55Z",
+  "duration_seconds": 3.451,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_BIOMEDICINA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_51.txt",
+    "source_sha256": "12c676341d8c65d8ea7716013ce923fea2665bfa5ff7037495dd00c1aee9c453"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "168b8190cd28625dd4d83aedcea20fe7e793c269720537fe0f5ab009132c6c9d",
+  "request_fingerprint": "1b321078a65d1448bec5b225d074384a4063b0188daed5abcc6de938d5ebf586",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o gráfico 3.8, incluindo eixos, valores, legenda, título/caption e fonte."
+  ],
+  "status": "success",
+  "text": "correspondente ao gabarito. Seu índice de discriminação foi igual a 0,40, classificado como muito bom.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 29, em função da nota dos estudantes nesta parte da prova antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul marinho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova, enquanto as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas, ainda que aqueles com nota zero, na sua quase totalidade deixaram em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionaram a resposta correta A aumenta gradativamente com a nota dos alunos chegando a atingir 100% para notas acima de 70,0, enquanto a proporção dos que escolhem alternativas incorretas, decai a partir da primeira nota não nula como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "2b36cf0d8745dc3f6bd61fc667e7bebacf41eec4267139e6574dc3cc542a8e65",
+  "window_size": 3
+}

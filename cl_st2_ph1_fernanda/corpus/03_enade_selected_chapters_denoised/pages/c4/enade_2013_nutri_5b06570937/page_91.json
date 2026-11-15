@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_090a68034b756e61006af8f46d585887d19707791f61463d21",
+    "usage": {
+      "input_tokens": 1768,
+      "input_tokens_details": {
+        "cache_write_tokens": 1765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 407,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 2175
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_90.txt",
+      "source_sha256": "b876c45ce9ed4b2704980e834d38cef2ed34e9d0e7e35120aab5c246a094cbc4"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_92.txt",
+      "source_sha256": "d035cdb0d0fb0e254e95b0e249a48eba5e9834f2585e35e588b800834698e703"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:17Z",
+  "duration_seconds": 4.416,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_91.txt",
+    "source_sha256": "5a1a5fa5c5dbae5987cc23b4f160b70282dff6d1fe7cc669cee073d6e870480a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a50f061095121f685b7dbad0153f6e879845147790bf3064758e93d0ae60f91e",
+  "request_fingerprint": "902d9fe46c6500d3c20cc7eaea3342169e24127b23cf542e26d61daf135d4eb5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES - ENADE/2013 source line, which appears to accompany graph material on the page."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se diferença estatisticamente significativa entre o 1º e o 4º quarto de desempenho. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 21,7% (4º quarto) a 27,2% (1º quarto), decrescente com o desempenho. Já a alternativa modal para a Questão 2 foi o grau médio, com 64,8% do quarto inferior e 68,4% do superior optando por esta resposta, com proporções crescentes com o desempenho.",
+  "text_sha256": "a48b806ceede6400c7546c75fa8465683e46b5ade28f2c28b72a39f6e4138172",
+  "window_size": 3
+}

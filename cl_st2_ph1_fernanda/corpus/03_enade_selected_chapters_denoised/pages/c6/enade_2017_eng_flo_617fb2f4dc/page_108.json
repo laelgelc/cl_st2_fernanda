@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01d73e433bf82aa5006af9072e471887d1a8fc56dab63b05a5",
+    "usage": {
+      "input_tokens": 2578,
+      "input_tokens_details": {
+        "cache_write_tokens": 2575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 595,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 3173
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_107.txt",
+      "source_sha256": "fa8da2b7be44574bded3235cc158ee76e45dfdc9a297b9d332c35ed1b3186a81"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_109.txt",
+      "source_sha256": "30cac7b747e3d9e83d0f5d5242bd0a32bfedd39d0f48f94074e46f323b626d7f"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:18Z",
+  "duration_seconds": 5.294,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_108.txt",
+    "source_sha256": "f9e8989156e541056b6af4d3968aa6e42cc06a67c3a9ff0ace4451b92685f3c0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e1f7522d1e55d4f630fda13f256312b3e28b83781d5950879124d5d64e031066",
+  "request_fingerprint": "c0e4f679af80e609a1e76a01bf260fff3fd25ba0226357ba2089e168288af60a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, que pertence ao Gráfico 6.3 iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.6 apresenta uma comparação dos resultados em relação à Categoria Administrativa, à Organização Acadêmica e à Modalidade de Ensino, agora levando-se em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (48,8), vindo a seguir a dos CEFET/IFET (43,0) e a das Faculdades (39,2). A menor Média foi a dos Centros Universitários (33,5). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o dos Centros Universitários (16,4). As Universidades também obtiveram a maior nota Máxima (95,0). Os Centros Universitários obtiveram nota Máxima de 61,3, as Faculdades obtiveram nota Máxima igual a 74,5, e os CEFET/IFET, 67,8. As medianas foram: 49,5 nas Universidades, a maior Mediana; 29,8 nos Centros Universitários, a menor delas; 37,3 nas Faculdades e 42,3 nos CEFET/IFET. A nota Mínima foi zero apenas nas Universidades. Observa-se que existem diferenças estatisticamente significativas ao nível de 95% no Componente de Conhecimento Específico entre a maior das Médias, das Universidades, e as médias das Faculdades e dos CEFET/IFET. A baixa participação de estudantes de Centros Universitários torna o intervalo de confiança muito grande.",
+  "text_sha256": "b0caf554020d4f2a55a1dd1c45ca0b8e52e7586d387dfe7c7bd59778850d362a",
+  "window_size": 3
+}

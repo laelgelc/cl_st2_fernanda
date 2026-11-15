@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a7fe5ccf1ea41b006af90ba7a66c87d1a053b11b820648a3",
+    "usage": {
+      "input_tokens": 3245,
+      "input_tokens_details": {
+        "cache_write_tokens": 3242,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3242
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 895,
+      "output_tokens_details": {
+        "reasoning_tokens": 375
+      },
+      "total_tokens": 4140
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_120.txt",
+      "source_sha256": "bcd504e8f0c9414ef27a986e3bca3ceb03c3d64b26575d2049834ab797b12d07"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_122.txt",
+      "source_sha256": "06fa74a3e3018f2e63693caa40f929061da5045e1075ca82d156cb114109d6b1"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:23Z",
+  "duration_seconds": 7.441,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_121.txt",
+    "source_sha256": "67a7d14ac53ec7c602ffd1354805d57a9af068c5ac1a8c19fc8524bc76b28e84"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b4d2cfc085aa9a8f718f4d58b1c2d7a9c7e4e346b8d40b5952bad9334aa74516",
+  "request_fingerprint": "ccd133d1b75be0768f66f6646430603b1489a8f95ad9721d796c7dab07e61b75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e uma questão foi tida como Fácil, por ter índice de acertos 0,77. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto quatro questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,16 a 0,77, e o de Discriminação, de 0,37 a 0,53.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta simultaneamente a classificação dos dois índices. As seis questões com Índice de Discriminação Muito bom figuraram dentre três níveis de dificuldade Fácil, Médio e Difícil: uma classificada na categoria Fácil (a questão 6) do Índice de Facilidade, três na categoria Médio (questões 2, 4 e 5), e duas, na categoria Difícil (questões 7, e 8). Em particular, a questão 5 foi a que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Médio",
+  "text_sha256": "12b2006a0013b06b8d0b8c09a6548dc60feb8220df7916dc30fb005838882d2c",
+  "window_size": 3
+}

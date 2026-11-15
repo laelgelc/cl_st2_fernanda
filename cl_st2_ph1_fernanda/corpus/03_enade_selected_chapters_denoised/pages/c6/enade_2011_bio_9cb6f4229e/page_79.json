@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08fef4e2359e4d2d006af8eb2adfac87d1a68ee9b2385be4f5",
+    "usage": {
+      "input_tokens": 2761,
+      "input_tokens_details": {
+        "cache_write_tokens": 2758,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2758
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 374,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 3135
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_78.txt",
+      "source_sha256": "deae997ef1dc11c7c82d04a489b2451cefeaab79418f654b3dc26af4a37af389"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_80.txt",
+      "source_sha256": "a2aa815bed8735ff604d7165fda9442ea71e3f0b3fd914799b188b35780fa4e8"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:46Z",
+  "duration_seconds": 3.862,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_79.txt",
+    "source_sha256": "f48054fb022adb86bc3de7d7519afb5516115132231eb19fd8576c00f7b0b665"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0071e8dfe2c396f7522fc2f6a356d102d22cc61827548fe8f0a32617ea514987",
+  "request_fingerprint": "3f1db49faa6b4094129dcf328f4c8c49c9cd54d111e07b5538a9d5371de26bd0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, estatísticas, valores e fonte.",
+    "Removida a representação gráfica do Gráfico 3.22 e sua linha de fonte; a descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico para alunos do Bacharelado e da Licenciatura. Mais uma vez, destaca-se o grande número de estudantes que deixaram a questão em branco, para duas modalidades de curso. Como nas questões discursivas do Componente de Conhecimento Específico anteriores, esta tem assimetria positiva e maior do que 1, o que explica a longa cauda à direita do gráfico. Para alunos do Bacharelado o coeficiente de assimetria é de 1,23 e para Licenciatura de 1,36. Este tipo de assimetria também ocorre em todas as regiões, com coeficientes sempre maiores do que 1 para ambos as habilitações.",
+  "text_sha256": "80219395ac17d67e954f8a3fb74d2e98bd8c87e0d701f0631d6974c8de3962fd",
+  "window_size": 3
+}

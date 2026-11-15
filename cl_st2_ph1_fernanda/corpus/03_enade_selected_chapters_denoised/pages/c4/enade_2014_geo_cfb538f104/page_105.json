@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ab06f0ae90a3257006af8f9d1337c87d184639493b4d87224",
+    "usage": {
+      "input_tokens": 1623,
+      "input_tokens_details": {
+        "cache_write_tokens": 1620,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1620
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 703,
+      "output_tokens_details": {
+        "reasoning_tokens": 421
+      },
+      "total_tokens": 2326
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_104.txt",
+      "source_sha256": "cc78d43d72802d62f7d2ff372f5893d97d8883beb903d668f41b0a75b575a201"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_106.txt",
+      "source_sha256": "5358621c869c0ed40748951c79c318cf68de83e5d75fdd2ff35b277876dcbfc0"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:17Z",
+  "duration_seconds": 8.856,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_105.txt",
+    "source_sha256": "a89b8d3515fef71818018b4a052137e451fcc21c032206046afb3f0a980178a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9894b9e73b574dc74eb7169f0c3ed606fc54aca286226d56c5424b960f251f1e",
+  "request_fingerprint": "a439264a1abde2fa95fc82875eda9f9af301e691b12ac6fc4da8e45a6a18c599",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico da página; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "4.2 EXTENSÃO DA PROVA EM RELAÇÃO AO TEMPO TOTAL\nIndagados quanto à extensão da prova, em relação ao tempo total oferecido para a sua resolução (Questão 3), os estudantes apontaram, com maior incidência, a alternativa que considerava a extensão adequada, para todas as agregações consideradas (Gráfico 4.5, Gráfico 4.6, e, no Anexo II, a Tabela II.3).\nO percentual de alunos que responderam ser a extensão da prova adequada foi de 43,6%. Já 48,6% dos inscritos presentes consideraram que o exame foi longo ou muito longo e 7,8% o avaliaram como curto ou muito curto.\nEntre as Grandes Regiões a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou pouco: de 40,1% na região Norte até 51,1% na região Sudeste. A diferença entre as regiões Norte e Sudeste é estatisticamente significativa.",
+  "text_sha256": "af4f5067543fe55a258b01d72333c839681eae8f8e30f026e235c4afed54174d",
+  "window_size": 3
+}

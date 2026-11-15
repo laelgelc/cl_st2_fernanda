@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cd7fea5d556a3b8006af8eaf8909887d1835ae05903336df4",
+    "usage": {
+      "input_tokens": 2576,
+      "input_tokens_details": {
+        "cache_write_tokens": 2573,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2573
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 449,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 3025
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_71.txt",
+      "source_sha256": "84f325e3ba19c78558d297eb40ef56dd575a9a5d99f93c13fb2c702f65daaa37"
+    },
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_73.txt",
+      "source_sha256": "7ab773328e43e5af7761eb3fe62320f448854943098ed4374e56629e2e5036b5"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:56Z",
+  "duration_seconds": 5.229,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 72
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_72.txt",
+    "source_sha256": "1bfdd9a5bcd34134f60ca720fc8db06077ff29be723fb72f00f7fa59c1f4779c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "40df2b5c9bbb31a70a24e75ec0ada93ea645a4220348fdf0315febff95056da7",
+  "request_fingerprint": "fb0f643f0f146cf2eb33ef3cef3a5024f07ec56553295d198134142055175875",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 3.20; a descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20, representa a distribuição de notas na questão discursiva 4, no componente de Conhecimento Específico. O percentual de presentes que deixou esta questão em branco foi alto, em torno de 32,5%, a moda da distribuição. Dentre os que tentaram resolver a questão, pouco mais do que 10% teve nota zero ou no intervalo (0;10] e o percentual de alunos nos intervalos subsequentes foi, grosso modo, decrescente. Este aspecto do histograma é confirmado pelo coeficiente de assimetria (1,08), positivo e maior do que 1. Para todas as regiões o coeficiente de assimetria também é positivo e em torno de 1,sendo maior na região Sudeste (1,27) e menor na região Centro-Oeste (0,77).",
+  "text_sha256": "cf31bb095b11e1018b9f6349148b0e1a989117a5418b936447e92f6055be51fc",
+  "window_size": 3
+}

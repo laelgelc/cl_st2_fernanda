@@ -1,0 +1,55 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b743fc69387c631006af8e81b230c87d1b34de69b397038e8",
+    "usage": {
+      "input_tokens": 2104,
+      "input_tokens_details": {
+        "cache_write_tokens": 2101,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2101
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 912,
+      "output_tokens_details": {
+        "reasoning_tokens": 350
+      },
+      "total_tokens": 3016
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_30.txt",
+      "source_sha256": "f206418891ff8a61b81531c0ead5d6ad7d4e1f5f4d124a674399710a89c1844f"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:43Z",
+  "duration_seconds": 8.236,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 29
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_29.txt",
+    "source_sha256": "db8be9e273c41040aed47dc4e197753286cb8fa64f701968a441ebf7bf7c3490"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e8f1e12bc80d54eb26a7e6617473a5110c38cf49b473da70294ef28e793eae41",
+  "request_fingerprint": "4616ce0cd314ab08bb8633588d61a50f695f1cedf31c6ec6ef8ca0693b6bdc02",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Capítulo 3\nAnálise Técnica da Prova\n\nEste capítulo tem por objetivo apresentar o desempenho dos estudantes de TURISMO no ENADE/2009. Para isso, foram calculadas as estatísticas básicas da prova como um todo, bem como as estatísticas das questões relacionadas à Formação Geral e ao Componente Específico. Nas Tabelas, são apresentadas as seguintes estatísticas: total da população, de presentes, média, erro-padrão da média, desvio-padrão, mediana, nota máxima, nota mínima e coeficiente de assimetria (ver definição em 1.4.3). Nas estatísticas das questões discursivas, foram detalhadas também as notas nulas: em branco, por protesto ou por insuficiência. As estatísticas apresentadas neste capítulo contemplam, separadamente, os ingressantes, os concluintes e o total de estudantes, e foram calculadas tendo-se em vista as seguintes agregações: (a) Região Geográfica e País e (b) a Categoria Administrativa e a Organização Acadêmica.\n\nAs notas brutas das questões discursivas em cada uma das partes, Formação Geral/Componente Específico, foram calculadas a partir da média simples das notas de cada uma das questões correspondentes. A primeira questão discursiva da Formação Geral foi desconsiderada e, portanto, a nota bruta referente às questões discursivas de Formação Geral foi igual à nota da questão mantida, a segunda. Na componente específica, a nota bruta correspondeu à média das notas nas três questões.\n\nAs notas brutas das questões objetivas de cada uma das componentes, Formação Geral/Componente Específico, foram calculadas a partir dos acertos dos estudantes considerando-se uma regra de três para a conversão para a escala de 0 a 100 descontando-se aquelas questões que foram desconsideradas pela comissão ou que não passaram pelo teste do índice de discriminação ponto-bisserial (ver seção 1.4.6 para a descrição do índice). Questões com índices de discriminação inferior a 0,2 foram excluídas do cômputo da nota do estudante. As notas brutas de Formação Geral e no Componente Específico para cada um dos estudantes foram calculadas como médias ponderadas das suas notas nas questões objetivas e discursivas, ponderação diferente para cada parte:\n\nC_FG = 0,6 × C_FG^OBJ + 0,4 × C_FG^DIS\n\nC_CE = 0,85 × C_CE^OBJ + 0,15 × C_CE^DIS,\n",
+  "text_sha256": "015a82a5713686cf7969becc5f4f6cf57657c6d4713c4d58a19411e8b75e90ec",
+  "window_size": 3
+}

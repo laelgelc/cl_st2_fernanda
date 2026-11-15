@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04e003d93d251cf5006af90d42861c87d1a138c10a90231ac8",
+    "usage": {
+      "input_tokens": 2767,
+      "input_tokens_details": {
+        "cache_write_tokens": 2764,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2764
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 3589
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_111.txt",
+      "source_sha256": "52aceab564e9cc63413798d446be01379a8b4b5666aca3ea449278b3995fbecb"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_113.txt",
+      "source_sha256": "ecac0029a0a52e8915013d70a42ee6c71dab78ec5cf50e6c0efb9a0740370ee3"
+    }
+  ],
+  "created_at": "2026-11-15T01:39:14Z",
+  "duration_seconds": 7.483,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_112.txt",
+    "source_sha256": "85017f322c5bcc2cd6df47776fe4b1f94d3864206875c7a83073b64f9219855b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "97164d6b04a9640b89ee8103681c7db717eddbb3f8f6dcdde43babbebbd08749",
+  "request_fingerprint": "7ff884c3c006462b28d8a557cd6c602c0a9744ec2b51b9ba107e700c97fd84d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 35,7% escolheram a alternativa C (em preto), 18,7% escolheram a alternativa E (em vermelho), 16,7% escolheram a alternativa D (em laranja), 15,2% escolheram a alternativa B (em verde) e 13,5%, a A (em azul). Entre os que acertaram três respostas das questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco, e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 25% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "5cc4407a998ab19e88a25f8011f65a44a9ccd0be7e6d25b0738b27965bb9ad14",
+  "window_size": 3
+}

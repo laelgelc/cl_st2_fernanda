@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_085f33f97460d138006af8f3a1733c87d1b805d5b7d2727dcb",
+    "usage": {
+      "input_tokens": 1656,
+      "input_tokens_details": {
+        "cache_write_tokens": 1653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 246,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 1902
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_42.txt",
+      "source_sha256": "effb2e19ca4973b8b865ddf6fee40c24c7825b7c14c54f49f7998bc5958bbe2a"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_44.txt",
+      "source_sha256": "ea7431ed0b313aed0cc6a70bcd625e04cd700db8aa6042cb2f11e0d916d58b94"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:53Z",
+  "duration_seconds": 2.73,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_43.txt",
+    "source_sha256": "9ba92c37b8e35a9e0cf9f49602b102095ecb6aa857d69e6a147cbc635ec1cf5f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "26f999d2036b54a348393e8d90515fbb3660c18b72ad1d9281bc5d64533104e0",
+  "request_fingerprint": "d558f4b6bd4c76c5a7ade6e5f9b9b9165c62762656071fd9e5f6e6eeb2638dc5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (44,7), e a menor, pelos de Centros Universitários e de Faculdades (38,3).",
+  "text_sha256": "b9f9c9380016bd5f6afbbe2370dca677574497cfa93291321524e85b4835c50c",
+  "window_size": 3
+}

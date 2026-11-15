@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02c930ef4d1400b0006af9222ffbc087d1a85db94373e5cdbf",
+    "usage": {
+      "input_tokens": 2260,
+      "input_tokens_details": {
+        "cache_write_tokens": 2257,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2257
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 354,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 2614
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_77.txt",
+      "source_sha256": "6c8016e925fc13f27839962973fabc26928d547d92c6279ced8139b191919c9c"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_79.txt",
+      "source_sha256": "99559f1c7048983e526108349c91a679609deaa31570b2a245044503d45f2c1f"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:31Z",
+  "duration_seconds": 4.599,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_78.txt",
+    "source_sha256": "977826f4f7e834663085502b7b5d720ea8c8754054fc7c68ba2001de35843422"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "01a6f7bb136d4d88fe80f5fffb009a0c5114fc0c88c18655b739dc7821148077",
+  "request_fingerprint": "a5b2e8623e9c3a4c2f61f9f64500f5a0f8ef13a0963e2beda56fe0a316fc8595",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.1, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Norte, onde a proporção foi de 28,9%, enquanto a menor proporção foi identificada na região Nordeste, com 19,3%. O maior intervalo foi observado na região Sul, com variação de 6,3% entre o mínimo e máximo. Além disso, é possível observar que as diferenças entre a região Nordeste em relação às regiões Norte, Sudeste e Sul são estatisticamente significativas. Nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 56,5% na região Centro-Oeste, 57,2% na região Nordeste, 54,1% na região Norte, 54,5% na região Sudeste e 57,5% na região Sul.",
+  "text_sha256": "dced37571cd6a7ce068c9ce35df1d90388030f0de962cb3e51d2c63e31896213",
+  "window_size": 3
+}

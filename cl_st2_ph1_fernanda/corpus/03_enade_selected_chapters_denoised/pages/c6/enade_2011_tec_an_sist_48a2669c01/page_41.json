@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09b534d810de8e64006af8ef0d859087d1917dafccc96c514d",
+    "usage": {
+      "input_tokens": 2160,
+      "input_tokens_details": {
+        "cache_write_tokens": 2157,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2157
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 2554
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_40.txt",
+      "source_sha256": "0f26882a490caffe3cb8e9a937a97d0c46c04e476d0c0473d015c251f60971e7"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_42.txt",
+      "source_sha256": "7899cb8454840771f5b341652f1efb4c3313fce0f1e54bd79a17f4b517f071d0"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:21Z",
+  "duration_seconds": 4.679,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_41.txt",
+    "source_sha256": "7a11484b645e835d65314064cd24d83a885de6d455404fc57aa4a9b9603de9c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "521563205dd96b1f9f277b472546f100086b392f17f96ae28dfc387502e19125",
+  "request_fingerprint": "63d24f6bfeeffa3a20a020797ff5620ef24896949616e384ce272d4357b39832",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50;60], enquanto na prova como um todo a moda foi alcançada no intervalo (30;40]. Comparando-se este histograma com o apresentado no Gráfico 3.1 (nota final na prova em seu todo) notam-se algumas diferenças. Para o Componente de Formação Geral há notas no intervalo (90;100]; a assimetria é negativa; e a dispersão é um pouco maior, o que é confirmado pela comparação dos desvios padrões: 15,4 para a nota da prova como um todo e 17,5 para o Componente de Formação Geral.\n\nNeste componente, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (–0,40). Por isso, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa, variando entre –0,48 (Norte) e –0,37 (Sul).",
+  "text_sha256": "1e8be1b2f4fa1c0ec76a2df4ace7884875798280f8a06bc1a7da4f795afca438",
+  "window_size": 3
+}

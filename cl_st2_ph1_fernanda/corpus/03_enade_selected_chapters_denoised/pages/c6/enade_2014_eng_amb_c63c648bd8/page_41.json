@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02a1651309391464006af8f745be4887d18f0b9c81ae9bae9b",
+    "usage": {
+      "input_tokens": 2366,
+      "input_tokens_details": {
+        "cache_write_tokens": 2363,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2363
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 242,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2608
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_40.txt",
+      "source_sha256": "e08af29fc21277733b45f9eb7de158cabba08d6b8d4917be3d164cc7cd78b06a"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_42.txt",
+      "source_sha256": "dee0b95f12e60f29d43eff199949dd160896d2ff7f8d45b75e694fb60aab9999"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:25Z",
+  "duration_seconds": 3.271,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_41.txt",
+    "source_sha256": "d0f3959b0d20b275f7a93ab3c0096eff64ab7fd7b6e53ccfab101a1eb9ba01a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5a3b0bb14133b7af61b639d95692846a5cc9c243b0d37a8f8304e6fb9e5dec69",
+  "request_fingerprint": "f3d092401450b4b6e45a1123ee8889730a1992dc676bf9acd8d0ad7e1c86005f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor média, atingida na região Centro-Oeste (43,9), e as médias de quase todas as regiões, menos a região Norte.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50].",
+  "text_sha256": "6b3e646c450c90605e211175ccfac125322fe4f4229b655c55f922c1f0d1c48b",
+  "window_size": 3
+}

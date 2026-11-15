@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d853aed53c494a9006af9024e1b9487d18d049d8d6b4eef8f",
+    "usage": {
+      "input_tokens": 2742,
+      "input_tokens_details": {
+        "cache_write_tokens": 2739,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2739
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 456,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 3198
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_42.txt",
+      "source_sha256": "73eaba7d976e4ae9b7e5f52613afaee1e8c8ba816300e3c62c846f17d57f5c6d"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_44.txt",
+      "source_sha256": "a8fc69f39a4c5cafd0e09fa96ce125d79837c89c390a589628ff8a872fbd449e"
+    }
+  ],
+  "created_at": "2026-11-15T00:52:30Z",
+  "duration_seconds": 4.133,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FISIOTERAPIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_43.txt",
+    "source_sha256": "8031a552eeed70d63636d23c3e8f2a17d30570a2f0f0fc1f9e2eea5dbf01d9f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "102935734ee768406de5f262727b669421bb94cf90ad801da6f3422219b53afe",
+  "request_fingerprint": "7a4be6874e4ef717d31b47a0fd228266085cbd087a8691ec9da3fd88e1c7ca1b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo dados e fonte.",
+    "Removida a Tabela 3.4, incluindo dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 39,8. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (44,6), e os das IES Privadas obtiveram Média um pouco mais baixa (39,1) que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (4,8), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (5,5), caracterizando uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (13,6) foi superior ao do Brasil como um todo (11,3), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades e os Centros Universitários obtiveram Média mais alta que a nacional (42,5 e 40,2, respectivamente). A média das Faculdades foi 36,8. Constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos três tipos de Organização Acadêmica.",
+  "text_sha256": "b8937d6bb4fd619fa11c36ec100eb416701754acc6f6b080a0102a529840d444",
+  "window_size": 3
+}

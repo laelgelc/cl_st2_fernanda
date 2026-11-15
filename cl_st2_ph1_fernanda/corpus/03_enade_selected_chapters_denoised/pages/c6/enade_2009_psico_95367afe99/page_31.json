@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f137600cb8bbf5006af8e668f6d487d1b80c87328b710d25",
+    "usage": {
+      "input_tokens": 2415,
+      "input_tokens_details": {
+        "cache_write_tokens": 2412,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2412
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 367,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 2782
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_30.txt",
+      "source_sha256": "061ab95b57f7fb1a0d15cfe1116eb2599a26c933bd560528adc7fb0bd1c498d3"
+    },
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_32.txt",
+      "source_sha256": "33bd58b054c9373bb47c03eee2bb14f5ba786a77064ec3535969a7dcf0d18ca9"
+    }
+  ],
+  "created_at": "2026-11-14T22:53:28Z",
+  "duration_seconds": 3.95,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PSICOLOGIA.pdf",
+    "page_number": 31
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_psico/enade_2009_psico_page_31.txt",
+    "source_sha256": "05bf3469b9d393880d3bbd630cec3403900d0a9c384b2cea407dd32d8de7fdcd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0ec26abd5abaeb15243eefdda077bbee1b81ad2abba65d21ac45bd705ee82233",
+  "request_fingerprint": "1c195b068a3ae11327571d73ef690357d7e3aefb220ca8539df4bd9e449693c4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1 e o Gráfico 3.1, incluindo títulos, dados, rótulos e linhas de fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 47,9 entre os concluintes e 35,0 entre os ingressantes. Nas faixas de notas até 50 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. Constatou-se que aproximadamente 17,4% dos ingressantes e 45,1% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "4be4dc014361e3e5cb4fa90c5abcde5fb42c15c87673ab1523b0b8f10ac5a5df",
+  "window_size": 3
+}

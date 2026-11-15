@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f0b5f4cfd1f5dbc006af901215b2487d1b07780c8e9792877",
+    "usage": {
+      "input_tokens": 2668,
+      "input_tokens_details": {
+        "cache_write_tokens": 2665,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2665
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 471,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 3139
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_43.txt",
+      "source_sha256": "6638d261970944f6fac70ab66ce3a49d32734e230a6d3371717795030fe0be9c"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_45.txt",
+      "source_sha256": "993f91c09bf5747c5df50eac64d71479a0abb15dbb8adf93cbcd8e525d9d11d2"
+    }
+  ],
+  "created_at": "2026-11-15T00:47:29Z",
+  "duration_seconds": 4.572,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_teo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEOLOGIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_44.txt",
+    "source_sha256": "ab0e528b1f86a60f4d6f70c0b9a89ec007388f9f334d6d86093b7824997bccb3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "deed9445539cd8862f6bde268072e51ee038547badca59c5346d110b6a832d71",
+  "request_fingerprint": "6a1877e8509ddeda93d17acac49e70886560ca801ba53cbb553eee8ec1ea175a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o número de página e a linha de fonte (“Fonte: MEC/Inep/Daes - Enade/2015”), que parece pertencer ao gráfico mencionado na página anterior; o gráfico não está visível no texto extraído."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.6 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nComo mencionado anteriormente, não houve Inscritos em IES Públicas, e, portanto, todas as estatísticas relacionadas às IES Privadas são as mesmas que os valores para o Brasil todo.\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que há diferença estatisticamente significativa entre a Média das dos estudantes das Faculdade (53,5) em relação aos demais tipos de Organização Acadêmica.",
+  "text_sha256": "80a562eb416b5b777dc488ecee53937f892e37aa156d4affaa906bee8064e18f",
+  "window_size": 3
+}

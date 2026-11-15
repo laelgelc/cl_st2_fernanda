@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08769d0496ef0782006af913fdbec087d19ae25857988a2919",
+    "usage": {
+      "input_tokens": 1796,
+      "input_tokens_details": {
+        "cache_write_tokens": 1793,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1793
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 388,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 2184
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_107.txt",
+      "source_sha256": "31917f9dd547b39e45667630ad1757e8366f504b903de3a3f25e6fcfeb982400"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_109.txt",
+      "source_sha256": "9e840e5803c4c3603b20373a5b349a84cb5608d1791ad5f9e00c899ab1fbdae7"
+    }
+  ],
+  "created_at": "2026-11-15T02:07:57Z",
+  "duration_seconds": 4.174,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_108.txt",
+    "source_sha256": "0505a4e84725509eb7ef14400257bf7b4ec390ad59cd07d739440e39cae47cad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b74b1a1bc7bd474896da31d86b4d975c693ea006008dbc90e4742efd86389a95",
+  "request_fingerprint": "0225a444a746f68f133a3d0c75aaf0d9efd865fc923423f1e4614ed852080487",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.23, incluindo legenda e fonte. O texto isolado “CEFET/IF” ao final da página parece ser um rótulo do gráfico e foi removido."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi maior para os estudantes de cursos de IES Públicas (90,1%), uma diferença estatisticamente significativa da proporção em IES Privadas (88,1%) (ver Gráfico 4.24 e Tabela II.12 no Anexo II).",
+  "text_sha256": "30bd4a47d99bff33690892160ada890ad6070e6377dec8ba002db46b845a2572",
+  "window_size": 3
+}

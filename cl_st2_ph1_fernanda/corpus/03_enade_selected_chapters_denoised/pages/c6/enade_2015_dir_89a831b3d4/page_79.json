@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05a205202aaf8006006af8fdf4ea1087d18ea30492b8e08d45",
+    "usage": {
+      "input_tokens": 2180,
+      "input_tokens_details": {
+        "cache_write_tokens": 2177,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2177
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 2511
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_78.txt",
+      "source_sha256": "352520347831a9bcda9f5be8b9f1b8c52c45be28a1e9db19452031c72007af6f"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_80.txt",
+      "source_sha256": "50bae4bfc783635884dc0bfc0198d10b658856ca5bf279949acd20752129dc42"
+    }
+  ],
+  "created_at": "2026-11-15T00:33:56Z",
+  "duration_seconds": 3.974,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_DIREITO.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_79.txt",
+    "source_sha256": "b45486275267b6137ac3131d502df9570972ca4803f4f788b9642f5c0071f1fc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "65f511212c77aec5d52fb6ef9f1eccf89c577e32b4f2919e3f036e8f920e4b69",
+  "request_fingerprint": "48800ee302a9f066da3a3bb3ffc6626dc335d345e79a717cacaa93fc2cb3e583",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e linha de fonte.",
+    "Removidos o material gráfico do Gráfico 3.11 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "As medianas (40,0), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para todas as regiões, sem exceção.\n\nO Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Direito. Sem levar em consideração que mais de 10% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda contida no intervalo (50;60].",
+  "text_sha256": "aa20a10a75c272c525d214a93a78c21e6c667b9da51673016ede93178a789b57",
+  "window_size": 3
+}

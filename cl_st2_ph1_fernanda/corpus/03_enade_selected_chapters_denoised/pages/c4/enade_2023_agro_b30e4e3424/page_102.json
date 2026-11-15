@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00151442889dad4f006af9211f56a887d1bd4e1742f40632c1",
+    "usage": {
+      "input_tokens": 1872,
+      "input_tokens_details": {
+        "cache_write_tokens": 1869,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1869
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 2227
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_agro/enade_2023_agro_page_101.txt",
+      "source_sha256": "e1599bb76d992c7688c431eeb11d3a9160c511bf1435f76130f3a392173ed96c"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_agro/enade_2023_agro_page_103.txt",
+      "source_sha256": "573dc205e8aa04ae6ba54dcebffcc4979bfb3b81068411c9f861cf039364f576"
+    }
+  ],
+  "created_at": "2026-11-15T03:03:59Z",
+  "duration_seconds": 4.419,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_AGRONOMIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_agro/enade_2023_agro_page_102.txt",
+    "source_sha256": "cea692ca19800218e2ec8c71c937a6aa72e19588145463ff96220e51e3027572"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9480a7c1f830dd1dd693031e7061805a52123221562c1af33915414efcbea44a",
+  "request_fingerprint": "ff2f08b7a48c953a7a3446d2d29adb2740377dc7f31663840e6c3c4ab437e58a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.27, seu título e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.27 apresenta outros resultados em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 3.27, na análise por organização acadêmica, o percentual de inscritos e presentes que apontaram o “Desconhecimento do conteúdo” como “dificuldade ao responder à prova” não superou 12,1%. Os percentuais variaram de 9,4%, nas faculdades a 12,1%, nos CEFET/IF. É possível observar que as diferenças entre as organizações acadêmicas são estatisticamente não significativas.\n\nO tipo de dificuldade “Forma diferente de abordagem do conteúdo” foi a escolha modal dos estudantes, com percentuais que variaram de 41,6% (universidades) a 46,9% (faculdades). Além disso, o percentual de estudantes que citaram a dificuldade “Espaço insuficiente para responder às questões” variou de 2,5% (centros universitários) a 3,4% (CEFET/IF).",
+  "text_sha256": "8ca37a8781d59d80f0d4f861119ad1516f7c58462fb4d1777536d25b18d2a38b",
+  "window_size": 3
+}

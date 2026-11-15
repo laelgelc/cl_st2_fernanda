@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d44299b4d355de1006af920ba852087d19789b998cdf1feba",
+    "usage": {
+      "input_tokens": 2820,
+      "input_tokens_details": {
+        "cache_write_tokens": 2817,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2817
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 477,
+      "output_tokens_details": {
+        "reasoning_tokens": 251
+      },
+      "total_tokens": 3297
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_tur/enade_2022_tec_gest_tur_page_133.txt",
+      "source_sha256": "1e0b073d184f86a38b2cdec6e0336f6f5c81bbf9ba7b96a4a763f8a77ce4dde4"
+    },
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_tur/enade_2022_tec_gest_tur_page_135.txt",
+      "source_sha256": "33a74df70c9892790224aedfc39fc68c5ebb1c36f19daab1a6339c445cba73df"
+    }
+  ],
+  "created_at": "2026-11-15T03:02:18Z",
+  "duration_seconds": 4.421,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2022_tec_gest_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM TURISMO.pdf",
+    "page_number": 134
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2022_tec_gest_tur/enade_2022_tec_gest_tur_page_134.txt",
+    "source_sha256": "d85caa29e6d72c5b024f7bffa6378536ce8f614a22531c849d9e4f90b82f2431"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5cbd89bdeb194c3ab4e9dc4daca41f83a0b7846cd9b7321a170c1bd71b1d5ec3",
+  "request_fingerprint": "c14101f82eaada0b12fad8d7eada403f98f3fec2462d94feaec146e6a290cd42",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título/caption do Gráfico 6.2; a prosa explicativa sobre o gráfico foi preservada.",
+    "Removidos o título e os dados da Tabela 6.3, que continua na página de contexto."
+  ],
+  "status": "success",
+  "text": "Nesse gráfico, como dito anteriormente, poligonais mais à esquerda representam valores mais baixos do Conceito Enade, e poligonais mais à direita, valores mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y se refere ao universo de cursos oferecidos por instituições públicas (poligonal vermelha) ou privadas (poligonal azul).\n\n6.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\nNa Tabela 6.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2022, na área de Turismo, por organização acadêmica, segundo as grandes regiões brasileiras.",
+  "text_sha256": "96445adb2f8a32169e2a5334b9a79424617fabfce491bbd26392b1eb04a18932",
+  "window_size": 3
+}

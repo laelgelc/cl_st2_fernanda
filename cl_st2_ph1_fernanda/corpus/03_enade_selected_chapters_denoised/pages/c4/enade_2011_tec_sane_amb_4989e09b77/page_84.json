@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0baaf465501eaabb006af8f007776887d1bc0ebdada646e175",
+    "usage": {
+      "input_tokens": 1744,
+      "input_tokens_details": {
+        "cache_write_tokens": 1741,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1741
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 395
+      },
+      "total_tokens": 2341
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_83.txt",
+      "source_sha256": "e2edb1f76c6ed98ff23d7f1cdbb40c8f3b4fd0fe775321a69bbc5eea17e725ca"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_85.txt",
+      "source_sha256": "568eceada338b704fadccdf1be89119f57d73612f5a4d1b98bafd7973e6a4f41"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:31Z",
+  "duration_seconds": 5.759,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_sane_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM SANEAMENTO AMBIENTAL.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_84.txt",
+    "source_sha256": "e6a3434bbe1b94f0c74a976f26c9d33be24909a53ee2d7433bee287193796cc3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41a284153b01f6fb2ae47fbb5613729931ccb22939ec775249a4bb01d543715a",
+  "request_fingerprint": "b56a00fada4da943ea80dc9d20de2eeab989215056f99e3dd80a9dcc5064b4b2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que independente do quarto de desempenho entre 63% e 70% dos estudantes considerou a extensão da prova adequada. E o comportamento em relação às demais opções desta pergunta não difere muito entre os quartos de desempenho.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, varou de 27,5% no quarto superior a 31,3% no 2º quarto, sem diferenças estatisticamente significativas. A partir do 2º quarto nota-se uma tendência decrescente em relação ao aumento de desempenho.",
+  "text_sha256": "05c92c95051370eee97ce36f996a1c9b4cb9dce71af054590835396267b7eb3d",
+  "window_size": 3
+}

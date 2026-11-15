@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af904f4dfbe371e006af8f31ebb7887d1b970930383f60772",
+    "usage": {
+      "input_tokens": 2088,
+      "input_tokens_details": {
+        "cache_write_tokens": 2085,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2085
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1481,
+      "output_tokens_details": {
+        "reasoning_tokens": 1070
+      },
+      "total_tokens": 3569
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_47.txt",
+      "source_sha256": "7498a6816987747bb49d779d045e418ccb018b879f0e25090ad74311dfad96fd"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_49.txt",
+      "source_sha256": "b9c628af2f4bca13465a4cb81007def377d302bfded2a4f454729d8fe9fd2633"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:42Z",
+  "duration_seconds": 14.976,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_48.txt",
+    "source_sha256": "00eaa3fac6701bc41ba463fdaa3b5003db5e3c2d7585412de3cc2f6ccc4462b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d2984fdc063b5e29e7b8f3caf2aa4bbf30fd5ddb81d148f4e824d1dde6f04ce0",
+  "request_fingerprint": "0b64a38c7904369a3801605845509b4bd1f1bc83a44a2aaaa1fa09b8de2f642c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the opening “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to be a graph source line.",
+    "The final sentence ends mid-thought on the target page; it was not completed from the neighboring page."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao Componente de Conhecimento Específico da área de Biomedicina. A média do desempenho dos alunos do Brasil como um todo foi 46,9. A maior média foi obtida na região Sul (52,2), e a menor, na região Norte (40,7). As demais médias foram: 46,5 na região Nordeste, 48,6 na região Sudeste e 40,8 na região Centro-Oeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 15,7, sendo o maior desvio padrão observado na região Norte (16,1) e o menor na região Sul (14,7). Os desvios padrão das demais regiões foram: 15,0 na região Nordeste, 15,3 na região Sudeste e 15,9 na região Centro-Oeste.\nA mediana das notas dos estudantes de todo o Brasil foi 47,2. A maior mediana ocorreu na região Sul (53,2) e a menor nas regiões Norte e Centro-Oeste (40,3). As demais medianas foram: 47,0 na região Nordeste e 48,7 na região Sudeste. A nota máxima do Brasil como um todo foi 92,0, sendo obtida por pelo menos um aluno da região Sudeste. As demais notas máximas foram: 88,0 na região Norte, 85,7 na região Nordeste, 88,1 na região",
+  "text_sha256": "53804e0989ad2526614870a8fcf90baf123a10ba8f2c51c70c1d2cc4e2d9096b",
+  "window_size": 3
+}

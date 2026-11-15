@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05118c6abccd4ede006af90c01b7f487d182473efbc675646e",
+    "usage": {
+      "input_tokens": 2983,
+      "input_tokens_details": {
+        "cache_write_tokens": 2980,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2980
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 670,
+      "output_tokens_details": {
+        "reasoning_tokens": 360
+      },
+      "total_tokens": 3653
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_115.txt",
+      "source_sha256": "b2e95bde69a7dfa6b2dd6f1e07f90a13379e1c1bad88f55ae8c4650ff1a92385"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_117.txt",
+      "source_sha256": "0482808c6ea6fbe1771feca1c118670fc02b21ac45a22d7992c8d61f3b0575d2"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:53Z",
+  "duration_seconds": 6.653,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_admin/enade_2018_admin_page_116.txt",
+    "source_sha256": "53b70ea350614a3ee7af4929947ff8bdc1f72b81134690bf4d0a272b3d5c8ec9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b23cf35bb77332d1314ccb0849b88b49ca813f9ecb11c62489e25162b0e8b80e",
+  "request_fingerprint": "99e0e983c2a3864c3eed6f27ad90b03c8fda57794ca76c5318f422b1e6d4a176",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 38,5. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (44,7) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (37,5). Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e as das Privadas. A diferença entre as médias das regiões Sudeste e Centro-Oeste (2,0), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (7,3), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (14,0) foi superior ao do Brasil, como um todo (13,2), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.",
+  "text_sha256": "3ec10d97583d1212257071a9fc475b5f716d6a9d93239cdfb40ef7f6624a4176",
+  "window_size": 3
+}

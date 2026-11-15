@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f9562cac156fbf4006af907d2b68c87d1ae7b349b64ffaef7",
+    "usage": {
+      "input_tokens": 2681,
+      "input_tokens_details": {
+        "cache_write_tokens": 2678,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2678
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 907,
+      "output_tokens_details": {
+        "reasoning_tokens": 595
+      },
+      "total_tokens": 3588
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 204,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_204.txt",
+      "source_sha256": "17f5b44990ce1725f4efa6f47f9c09da72abb4bc9547b031fcc4d0e26337ede4"
+    },
+    {
+      "page_number": 206,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_206.txt",
+      "source_sha256": "caba5fcfe21fb9f70e2fbde80edb322e4ce968929473508e7595bdbfc0251f4e"
+    }
+  ],
+  "created_at": "2026-11-15T01:16:02Z",
+  "duration_seconds": 11.864,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FILOSOFIA.pdf",
+    "page_number": 205
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_205.txt",
+    "source_sha256": "97cedbed25a23bd7d64fcaec3765c290f624e709c5c34e7db1c7c2a1413fb019"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2ebc80383c17498c4ccf3d3788e5e6ad7eba82a8e3c6a86b6a80320182361ec6",
+  "request_fingerprint": "2489c475374085f412acf800f4be6ab06bcc82b72c157b81eb42fcb6e3875307",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, que parece pertencer ao Gráfico 6.1 da página anterior.",
+    "A frase final “Não houve” continua na página seguinte; foi mantida sem completar."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.2 apresenta informações referentes às Estatísticas Básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica, segundo a Habilitação. Os estudantes de Licenciatura de IES Públicas obtiveram Média mais baixa (43,8), e os das IES Privadas obtiveram Média mais alta (47,5) que a Média nacional para esta habilitação (45,3). Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. O Desvio padrão para as IES Públicas (15,8) foi ligeiramente superior ao do Brasil, como um todo (15,7), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa do que para o conjunto de alunos de cursos de Licenciatura.\n\nNo tocante à Organização Acadêmica, alunos de Licenciatura de Centros Universitários obtiveram nota média mais alta (47,2) do que os de Faculdades (45,8), que por sua vez obtiveram nota Média mais alta do que os de Universidades (44,8). Não houve",
+  "text_sha256": "e28d5cef6b9a271581625d2735f7cca2b82ccacea0149967e1a92bd1380fcbec",
+  "window_size": 3
+}

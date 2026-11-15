@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bbdbd6060464ad5006af9134582fc87d1bdae03a202ef114b",
+    "usage": {
+      "input_tokens": 2865,
+      "input_tokens_details": {
+        "cache_write_tokens": 2862,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2862
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 2069,
+      "output_tokens_details": {
+        "reasoning_tokens": 1008
+      },
+      "total_tokens": 4934
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_145.txt",
+      "source_sha256": "b766e6536cac8a9bc4be04af0f14398d7d861b1c9d2abd3dc9463a24c35a6d2f"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_147.txt",
+      "source_sha256": "822a1e65fe043fc9b52323883b24be5a33b1155f13f981dd8d5509ffdccfa635"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:53Z",
+  "duration_seconds": 17.966,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_146.txt",
+    "source_sha256": "aeb269f4a0ff6ea80d35a256deb06f09ef1bf23d3f7cb42be2fa19336173fe91"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9060cbba4f711426019a192a6912cf0800b1019302dbff937968be41847b1cb",
+  "request_fingerprint": "7673f32a3704e78fc0788cb06a43112d377627066be98c3f68bdd2d6c48bd9af",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, títulos/cabeçalhos e fonte das Tabelas 6.7 e 6.8.",
+    "A lista sobre as cores do Índice de Facilidade termina no alvo em “vermelho para as questões”; não foi completada com o texto da página de contexto.",
+    "O texto do alvo termina no meio da frase sobre a questão 5; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "6.2 ANÁLISE DAS QUESTÕES OBJETIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Objetivas de Formação Geral (6.2.1) e de Conhecimento Específico (6.2.2). São, também, apresentadas e comparadas as médias das subpopulações caracterizadas por Grande Região.\n\n6.2.1 Componente de Formação Geral\nComo uma questão foi anulada pela Comissão Assessora de Área (CAA), a questão 1, na Tabela 6.7, são apresentadas as Estatísticas Básicas relativas às sete questões objetivas válidas do componente da prova que abrange a Formação Geral dos estudantes. A Média do Brasil foi 48,1. A menor Média foi encontrada na região Norte (45,0), e a maior, na região Sul (50,3). As demais Médias foram: 47,5, na região Nordeste, 48,5, na região Sudeste e 47,4, na região Centro-Oeste. O Desvio padrão do Brasil foi 20,8, sendo o maior Desvio padrão encontrado na região Centro-Oeste (21,4), e o menor, na região Sul (20,2). Os demais desvios foram: 21,1, na região Norte, 20,9 na região Nordeste e 20,7 na região Sudeste.\nAs Medianas do Brasil, como um todo, e em quatro das cinco regiões foram iguais a 42,9. Na região Sul, a Mediana foi maior, 57,1. A nota Máxima 100,0 foi alcançada nas cinco Grandes Regiões. A nota Mínima (0,0) foi a mesma para todas as regiões.\n\nNa Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil, e duas questões foram tidas como Fácil, por terem índices de acertos 0,61 e 0,63. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,45 e 0,60 do Índice de Facilidade, ou seja, houve entre 45,0% e 60,0% de acertos, enquanto nenhuma questão foi classificada na categoria Difícil, situando-se no intervalo entre 0,27 e 0,40. Uma questão apresentou menos de 15% de acertos, razão pela qual foi classificada como Muito difícil.\nO Índice de Facilidade variou de 0,14 a 0,63, e o de Discriminação, de 0,28 a 0,51. Quanto ao Índice de Discriminação, seis questões foram tidas como Muito bom e uma como Médio.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Fácil e Médio: duas classificadas na categoria Fácil (questões 2 e 8) do Índice de Facilidade, e quatro, na categoria Médio (questões 3, 4, 6 e 7). Uma questão (questão 5) teve Índice de Discriminação",
+  "text_sha256": "6afdf9010fbc95bc274aa4434f76030bb010618f0fe84a01419e6f975a99bc51",
+  "window_size": 3
+}

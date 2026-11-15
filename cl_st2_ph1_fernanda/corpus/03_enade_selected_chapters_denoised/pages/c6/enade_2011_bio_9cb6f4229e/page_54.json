@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01d979a94317362a006af8eb1a99e087d1b44a724e571be8d6",
+    "usage": {
+      "input_tokens": 2551,
+      "input_tokens_details": {
+        "cache_write_tokens": 2548,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2548
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 313
+      },
+      "total_tokens": 3105
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_53.txt",
+      "source_sha256": "d62c4957d0bf9c1738a864302dacc0f097cd02ec222b1a4b12a57eacb96a1da0"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_55.txt",
+      "source_sha256": "acd8e21423ede545317a5944f31de14c370e4e5563bfa2b2e59af079c4bebf15"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:30Z",
+  "duration_seconds": 6.926,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_54.txt",
+    "source_sha256": "73995cef82f98f41f54a8096ad73847610faa4a537cd4aa683a51ddfa8ba3390"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8aa1318f1f31b3cf97e1b6c113d16c311fbbb3dd8b3ec8a9af7eebc351d0eeae",
+  "request_fingerprint": "23a7f3eedc9ca85b00c71e0b54393b47cc9f8ea81821eddd591f0080e04ba977",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e linha de fonte. A frase final termina em “curva” no alvo; mantida sem completar com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.14 analisa a questão 17 do componente de Conhecimento Específico. Esta foi considerada pelos estudantes avaliados a questão mais fácil da prova, apresentando índice de facilidade 0,84, ou seja, 84,0% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,50, classificado como muito bom, também sendo esta questão que apresentou o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 17, em função do número de acerto dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva",
+  "text_sha256": "b511bf7d5f212cd003535375c3a8aa8151c494e06b4a51c5e6260c4b435f4c2a",
+  "window_size": 3
+}

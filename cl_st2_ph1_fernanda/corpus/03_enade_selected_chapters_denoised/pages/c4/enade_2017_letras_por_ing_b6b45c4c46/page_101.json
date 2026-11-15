@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b73094f2b460d6e006af909649e4887d19a2996ace049f018",
+    "usage": {
+      "input_tokens": 1870,
+      "input_tokens_details": {
+        "cache_write_tokens": 1867,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1867
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 308,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 2178
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_100.txt",
+      "source_sha256": "af32422fd6cd1a8ed2c7bb44ab6932c6117baafe72a245ad82f9350a6694697f"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_102.txt",
+      "source_sha256": "085b061cbe1f68eb83ad3212fa9c07b83540f6c3d1a91be6348a286a5db9859d"
+    }
+  ],
+  "created_at": "2026-11-15T01:22:44Z",
+  "duration_seconds": 3.23,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_101.txt",
+    "source_sha256": "e57af387e69f81d92bc59eb8e14c18ed8363a959692a9c0b2785ccc681397f03"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "890ece0ec62d3da646cba368488ac541727d236413e4a4b3f41f097933d5d78c",
+  "request_fingerprint": "8d67b2317ace40abed457506ab8c24658fe62d4ff8bf32736298680c37354384",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.3, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "alunos que classificaram o grau de dificuldade como Médio, no Componente de Conhecimento Específico, variou de 50,6%, para as regiões Centro-Oeste e Norte, a 57,9%, para a região Nordeste.\n\nConsiderando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa dos resultados entre o último e os demais quartos de desempenho, bem como entre o primeiro e o terceiro quartos. A proporção dos que classificaram a parte específica como Difícil ou Muito difícil variou de 28,2% (último quarto) a 42,1% (primeiro quarto). A alternativa modal para a Questão 2 foi o grau Médio, com 52,3% do quarto inferior e 60,5% do superior optando por esta resposta.",
+  "text_sha256": "e3c0ba6fae27f66d6ea04370ba9bbe7eb79b741e6d775e06e344c0792d1f3fe1",
+  "window_size": 3
+}

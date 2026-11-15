@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb5cab7cf2e28a6006af8e4dab7c887d18ad2e7d71cea8745",
+    "usage": {
+      "input_tokens": 2259,
+      "input_tokens_details": {
+        "cache_write_tokens": 2256,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2256
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 456,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 2715
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_cine/enade_2009_com_soc_cine_page_35.txt",
+      "source_sha256": "8f4a6169b00dddbcbca4cdf08620ab36137eb943229c309dd20324eee420aea2"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_cine/enade_2009_com_soc_cine_page_37.txt",
+      "source_sha256": "c01705fa262b9da39711a4c6149a87d630fe02358ed306d91edd7df909bfd47a"
+    }
+  ],
+  "created_at": "2026-11-14T22:46:50Z",
+  "duration_seconds": 3.946,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_com_soc_cine",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CINEMA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_cine/enade_2009_com_soc_cine_page_36.txt",
+    "source_sha256": "485b58903df004c93c24da1b6806bdba94ce81e695d62f82eaaba967249a879d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0641f8a5fb8c50026d834195a7839301b760218fe410144a9d631dd8529d215f",
+  "request_fingerprint": "a7b90c7443c0186463a54a425a134e15f80e6be3411828584af7cb2c9c93e032",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 35,05 na Região Sul a 47,69 na Região Centro-Oeste. Entre os ingressantes, os valores foram de 31,68 na Região Sul a 55,56 na Região Nordeste. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Sul para os concluintes e no Nordeste para os ingressantes. Nas Regiões Sul e Centro-Oeste, os concluintes apresentaram médias maiores do que os ingressantes, a situação inversa aconteceu no Sudeste. A Região Nordeste não apresentou concluintes e a Região Norte nem concluintes nem ingressantes.\n\nTendo como foco as categorias administrativas, destacou-se que somente as instituições federais, estaduais e particulares estavam representadas, sendo que as notas médias das federais foram superiores para ingressantes (57,49). Por outro lado, as notas médias das particulares foram superiores para concluintes (48,75). Os estudantes das instituições particulares se apresentam mais homogêneos, já que o desvio padrão para concluintes e ingressantes é o menor dos valores encontrados.",
+  "text_sha256": "49ba6fdcf30e947d519f5288b5d9330e3950c8ffb8783ff6dda6405bc83eddd8",
+  "window_size": 3
+}

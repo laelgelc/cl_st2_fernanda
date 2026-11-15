@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e823b536e609f7006af9217becc887d1b9dfd467a1fba0bb",
+    "usage": {
+      "input_tokens": 1842,
+      "input_tokens_details": {
+        "cache_write_tokens": 1839,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1839
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 2071
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_96.txt",
+      "source_sha256": "71ba2d513ccd1fb216ea78c6fa99d74ebde511a28a90cd15c09ecccabe0cb5a0"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_98.txt",
+      "source_sha256": "f069549658a47eb85fe96f06467f552f9002c9d925df4f4f1339e2b9d5d802b8"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:31Z",
+  "duration_seconds": 3.179,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_biomed/enade_2023_biomed_page_97.txt",
+    "source_sha256": "fc87c5eee2302e78cc3172d0b17423772e1f833fe4cc4fe0e6cb32337bffde17"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bf9569ed61ac6d709171266eb3d1f7610eaa674367b09ea6d66702cbcb12540",
+  "request_fingerprint": "4f9baf05238e751ac505bee35cbd224170a224316db7fe8a5b8649f17b53fbed",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.18, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 3.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “compreensíveis e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho, com percentual mais elevado no quarto superior (91,8%), se comparado ao quarto inferior (74,2%). As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "d4c862354f153ddb3f3f84ea3c816b8777bb7a5dcfaf7b5ed703549c88aa469a",
+  "window_size": 3
+}

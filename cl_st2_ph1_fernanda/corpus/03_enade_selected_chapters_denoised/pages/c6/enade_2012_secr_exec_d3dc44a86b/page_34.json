@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ae4ebc78547c9e006af8f1b0e85087d18209439fa9965b44",
+    "usage": {
+      "input_tokens": 2487,
+      "input_tokens_details": {
+        "cache_write_tokens": 2484,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2484
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 609,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 3096
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_33.txt",
+      "source_sha256": "6a2b1a08c3b4d6c5c85e1fc0722b0ddced43b211d1f03d3f2f82bc6ffd03bea1"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_35.txt",
+      "source_sha256": "0950732ea64455ad776881fe760dc422d9d408221f7827039ca13c1eb2eef7d7"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:36Z",
+  "duration_seconds": 4.674,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_34.txt",
+    "source_sha256": "150409b8f336ce2c0ce8a46cb7ed4e2241c296fb4aa51677eead4ad6c8770228"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "61d7b985a13568bdfc37e6057f5233a2d62742e6abe5363f087a9b1426fd4094",
+  "request_fingerprint": "15459e3f883cfc227548c3445aa3c674620ad629fc2afffb2cce204febe5be28",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "12,8, sendo o maior desvio padrão encontrado na região Sudeste (13,0) e o menor na região Norte (11,6), indicando uma menor dispersão das notas desta última região.\nA região que obteve a maior nota máxima foi a Sudeste (80,3), ao passo que a região que atingiu a menor nota máxima foi a Norte (70,3). A mediana do Brasil como um todo foi 46,7, sendo a maior mediana obtida na região Sul (47,9) e a menor obtida na Centro-Oeste (42,4). As demais medianas foram: 47,7 na região Sudeste, 47,2 na região Nordeste e 45,3 na região Norte. A nota mínima do Brasil com um todo foi 5,6, a mesma obtida na região Nordeste. As demais notas mínimas foram: 15,0 na região Norte, 12,1 na região Sul e 7,4 nas regiões Sudeste e Centro-Oeste.\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,17), este é pequeno, e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A única exceção é a região Norte, com coeficiente de assimetria positivo (0,04), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "310ad14dee0cefb3b4a0da6cfff85e2848d59232955fb1b95c2433a2646fe8e2",
+  "window_size": 3
+}

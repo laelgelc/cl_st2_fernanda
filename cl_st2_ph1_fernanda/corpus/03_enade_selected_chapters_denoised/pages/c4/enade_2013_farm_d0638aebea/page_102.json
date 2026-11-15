@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_025c4ba0d92031c9006af8f3984a1c87d1a713cd2f27c0f675",
+    "usage": {
+      "input_tokens": 1731,
+      "input_tokens_details": {
+        "cache_write_tokens": 1728,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1728
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 505,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 2236
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_101.txt",
+      "source_sha256": "7ed61c5a837305957951d28b5f6150461b85e9c814d77b5e4b9b83ebefbdbf92"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_103.txt",
+      "source_sha256": "cbb773124e1fb83991ffa221fbb56c9e37d7b80598792a0dd991ab1e098ed21b"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:44Z",
+  "duration_seconds": 4.915,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_102.txt",
+    "source_sha256": "8dfb10eac5427cd9ccf348d623bf6cd439125b0b47d11e603120aebe85869746"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f734932de13bf42d86d8e1c584166b81904c19da258f160fc0524edbbbb181d0",
+  "request_fingerprint": "04debd5ee69f46cf25d5e1b4a48745062c799ae2350d8839d1f47e2d45803127",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 63,9% na região Norte e 76,7% na Centro-Oeste, com uma porcentagem próxima para a região Sudeste, 76,6%.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,0% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,0% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade é estatisticamente significativa entre todos os quartos de desempenho, a exceção da comparação entre o 2º e o 3º quarto.\nTendo em conta o quarto superior, 84,5% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 65,2% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "fec75a030a2eab08f565ce63b91e1b82472de1f5fb471bfa51e06841dacb8ef0",
+  "window_size": 3
+}

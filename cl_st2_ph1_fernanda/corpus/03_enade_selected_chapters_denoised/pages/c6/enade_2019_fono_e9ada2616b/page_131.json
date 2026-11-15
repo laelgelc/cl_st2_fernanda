@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba5318f7ae0f87e006af91383f36487d1804d1dfa00fd107a",
+    "usage": {
+      "input_tokens": 2342,
+      "input_tokens_details": {
+        "cache_write_tokens": 2339,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2339
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 489,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 2831
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_130.txt",
+      "source_sha256": "602f4996509e9bd057275304bcfe752cb2ba0b9824942e0bef1eb325a6c6cabe"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_132.txt",
+      "source_sha256": "bd191fb169a28bcc636a99051196a66e6c90eed7e7b204bd96e5cef7b16ef132"
+    }
+  ],
+  "created_at": "2026-11-15T02:05:55Z",
+  "duration_seconds": 5.421,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_131.txt",
+    "source_sha256": "b345a036e0dad1cb14cccbc735e14b260ad5ce3a9c75965638c658ba3476fdba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "069dc1097821ce946765453d7ab609d42d99da203eec12eb5095fff01f8199e4",
+  "request_fingerprint": "3ee5afe5fdec0cfbf5afbed892bd2d1436685260ff40656e6d346200d4716ac3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material do Gráfico 6.1 (histograma) e sua linha de fonte: “Fonte: MEC/Inep/Daes – Enade/2019”."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (50; 60].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 51,2. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (58,5) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (48,0). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sudeste e Norte (8,6), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (10,5), caracterizando-se uma maior diversidade administrativa do que regional. Os Desvios padrão para as IES Públicas (10,5) e para IES Privadas (11,7) foram inferiores ao do Brasil, como um todo (12,3), indicando uma menor dispersão das notas dentro de cada Categoria Administrativa.",
+  "text_sha256": "dfad32011beb3927560fb6fd0d1a396e735f23eacc57f1f478826b76e35bd509",
+  "window_size": 3
+}

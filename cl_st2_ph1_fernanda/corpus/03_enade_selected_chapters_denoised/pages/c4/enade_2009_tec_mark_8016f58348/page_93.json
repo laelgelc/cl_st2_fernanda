@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea013abdf957d7b006af8e7817ce887d1891f19c55513e5ec",
+    "usage": {
+      "input_tokens": 2750,
+      "input_tokens_details": {
+        "cache_write_tokens": 2747,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2747
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 3125
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_mark/enade_2009_tec_mark_page_92.txt",
+      "source_sha256": "3881ea94083871c1df316da564ad716cad7b3e34559776175f8585b919a11b23"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_mark/enade_2009_tec_mark_page_94.txt",
+      "source_sha256": "199ac66c0dd0e116db62e110d19b5fcd03bda1cdf61f87a4a15719119452a473"
+    }
+  ],
+  "created_at": "2026-11-14T22:58:09Z",
+  "duration_seconds": 4.539,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO EM MARKETING.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_tec_mark/enade_2009_tec_mark_page_93.txt",
+    "source_sha256": "05236641477a634e791e507469938716a9bf8b949e003e07bf8c318a2fc0402e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3face01b78609d20fac670f82c8bbbe3fba032388b24b0c05d1674c019294fab",
+  "request_fingerprint": "68992be92a9f3c932af9089326a348c56139ed35ffff18c7781ef19f33e0e402",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.15b e 4.15c, incluindo títulos, dados, legendas e fontes.",
+    "O texto termina no meio da frase (“dos”); não foi completado com conteúdo da página seguinte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.16a e 4.16b apresentam a distribuição das respostas à questão “Considerando apenas as questões objetivas da prova, você percebeu que:...”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de TECNOLOGIA EM MARKETING. Em relação às Regiões brasileiras, concluintes que afirmaram não ter estudado ainda a maioria dos",
+  "text_sha256": "305903e73d7b95b2e814df3ebe660c17412574f6b8e60bebc8e2eb3593104a2e",
+  "window_size": 3
+}

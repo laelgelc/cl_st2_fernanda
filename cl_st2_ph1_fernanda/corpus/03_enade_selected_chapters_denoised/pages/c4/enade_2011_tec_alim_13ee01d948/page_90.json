@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e1048be9983b851006af8eeadefd487d1a509a1687ab0a849",
+    "usage": {
+      "input_tokens": 1630,
+      "input_tokens_details": {
+        "cache_write_tokens": 1627,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1627
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 515,
+      "output_tokens_details": {
+        "reasoning_tokens": 351
+      },
+      "total_tokens": 2145
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_89.txt",
+      "source_sha256": "c2952835dbc7c1533f728f27acb0da2ca84fcbb78a948ac40ac60bb58d329faa"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_91.txt",
+      "source_sha256": "688cd8f1e57f9b057954aaa117cc99f7bbab154be1c82a5494374c65423ec618"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:45Z",
+  "duration_seconds": 6.29,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_90.txt",
+    "source_sha256": "eb466a015e6c16b33ef610417530c12aaae73d554c66784fa2565a603c978f28"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ed05bc2869545a301b340d4eefe9d5d08e44d42c5f7bef1c3c70cb36ce2a0cc6",
+  "request_fingerprint": "e061e4e797149162ef4462553f617f7c85332d08aefc634e7de0f7b3c82fc9c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, o percentual de estudantes que considerou a extensão da prova adequada ficou na faixa de 60% a 70% não apresentando uma tendência conforme o desempenho.\n\nNo Gráfico 4.6, verifica-se uma tendência decrescente com a melhora do desempenho, no 1º quarto 33,9% do percentual de estudantes considerou a extensão da prova longa ou muito longa e no 4º quarto este percentual cai para 25,6%. Não existem diferenças estatisticamente significativas entre os quartos de desempenho.",
+  "text_sha256": "d0e3cace942ce380239d863049b9c8a4a6fe688e69524a39f36795cb6011a04a",
+  "window_size": 3
+}

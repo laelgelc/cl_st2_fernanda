@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dd714abd74226e9006af8f369e18887d1b7325886cbf4cd92",
+    "usage": {
+      "input_tokens": 1737,
+      "input_tokens_details": {
+        "cache_write_tokens": 1734,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1734
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2180
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_104.txt",
+      "source_sha256": "42b414cd501b138aa2b4003f0e4aea3ff7f9210416d936977cb251bc4b24487e"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_106.txt",
+      "source_sha256": "faee26e3d16196b283294abe56c48608d1f40b5b2e146d893e9e59e19e5dc13d"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:57Z",
+  "duration_seconds": 4.356,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_105.txt",
+    "source_sha256": "528722b25a60ad52cf17abf3a29193581fd421254949344359a0d66df26b74be"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cd3b62f85a6d8e4c866610ed648e50c26dbb1959647cbb27f6e962ad377c4d25",
+  "request_fingerprint": "1b561c8db8a742dfe3d11c4971b7ad57cea565b36adc1944f1ecc2553e1410b5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», que aparenta pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 71,7% na região Norte e 79,9% na região Sul.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 7,0% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,1% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. As diferenças entre os alunos que optaram por este motivo de dificuldade são estatisticamente significativas entre todos os quartos de desempenho.\n\nTendo em conta o quarto superior, 88,3% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 63,2% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "7ac11a0f1c37be010c1b8a535096415dcc15f91fa51142d7d137eb68e28b06a8",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08fc626318b4e442006af8fecb1e4487d19ef0012f5612d581",
+    "usage": {
+      "input_tokens": 2803,
+      "input_tokens_details": {
+        "cache_write_tokens": 2800,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2800
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 392,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 3195
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_45.txt",
+      "source_sha256": "0c0bcc71e7307e73d795bc4eafaea781b14b4af18885a990d74767deda10e93b"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_47.txt",
+      "source_sha256": "c39817c10db04f0b7959a1d1d633c3483efad55e9c9cb813efa84d6e18cf18db"
+    }
+  ],
+  "created_at": "2026-11-15T00:37:30Z",
+  "duration_seconds": 4.415,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_46.txt",
+    "source_sha256": "746fc58b44407b2c31aedbd89c2661709788668c185d462d0dd305775d68c003"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "93370aa81ad4899285d14575355c4621ccb96472a0a4b2a450d1a28a15faa1e9",
+  "request_fingerprint": "1426ed29e03bc6cc64e6de48b245f778049bca69445356d5c96bedcb64d48276",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 3.2 e sua linha de fonte; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (50; 60], a mesma da prova como um todo (Gráfico 3.1). Nota-se, ainda que, no Gráfico 3.2, as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 12,7 para a nota da prova como um todo e 15,6 para o Componente de Formação Geral.",
+  "text_sha256": "24200d60a1235b2d386ba3e1324cb46d4f184ac0e7039a7b4a794aff94d5b01f",
+  "window_size": 3
+}

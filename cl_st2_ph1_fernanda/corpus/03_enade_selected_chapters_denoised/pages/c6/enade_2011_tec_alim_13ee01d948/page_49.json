@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03eca9d55eb9f40a006af8eebdd34887d19d6379bdebaf9c70",
+    "usage": {
+      "input_tokens": 2135,
+      "input_tokens_details": {
+        "cache_write_tokens": 2132,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2132
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1815,
+      "output_tokens_details": {
+        "reasoning_tokens": 1137
+      },
+      "total_tokens": 3950
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_48.txt",
+      "source_sha256": "27aa4b0b6166431e9ccb3aa4ab25b22e973011f21b9fa5c52d80fa4b73b7a983"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_50.txt",
+      "source_sha256": "7528ea100b72c715bda46b1d2747045caed72ea20b2ab4fe2b80fe982e0b8536"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:01Z",
+  "duration_seconds": 16.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_49.txt",
+    "source_sha256": "226d17c13695a281c1bda382bc490d93c451110ef543b1f57819d7ae99832ca4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5963a91aba145cb14de5880750bd7812995c28bb8f90fc1d93807a73d43f006f",
+  "request_fingerprint": "8faaca436f3a357340419adffdd750d6095343c126b01528d60b5a5f297b0e64",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e sua linha de fonte.",
+    "Removida a linha de fonte no início da página, provavelmente associada a material gráfico; sua associação exata não é clara.",
+    "A frase sobre a menor nota mínima termina em “obtida por” nesta página; não foi completada com texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao Componente de Conhecimento Específico da área de Tecnologia em Alimentos. A média do desempenho dos alunos de todo o Brasil foi 34,2. A maior média foi obtida na região Sul (37,2), e a menor, na região Norte (24,9). As demais médias foram: 32,0 na região Nordeste; 36,5 na região Sudeste; e 28,8 na região Centro-Oeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 12,6, sendo o maior desvio padrão observado na região Nordeste (12,8) e o menor na região Norte (9,7). Os demais desvios foram: 12,1 da região Sudeste e 11,9 das regiões Sul e Centro-Oeste.\nA mediana das notas dos estudantes de todo o Brasil foi 33,3. A maior mediana ocorreu na região Sul (35,8) e a menor na região Norte (25,6). As demais medianas foram 30,9 na região Nordeste; 35,7 na região Sudeste; e 28,4 na região Centro-Oeste. A nota máxima do Brasil como um todo foi 82,7, sendo obtida por pelo menos um aluno da região Nordeste. As demais notas máximas foram: 42,0 na região Norte; 69,9 na região Sudeste; 74,3 na região Sul e 63,6 na região Centro-Oeste. A menor nota mínima foi 1,0, obtida por\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (30;40].\nDentre as 3 distribuições apresentadas, esta é a mais concentrada nas notas baixas, o que é confirmado pelo coeficiente de assimetria. Na distribuição das notas do Componente de Conhecimento Específico o coeficiente positivo (0,31) é maior do que o encontrado para a distribuição das notas como um todo (0,14) e para a distribuição das notas do Componente de Formação Geral (–0,32). Em todas as regiões o coeficiente de assimetria das notas do Componente de Conhecimento Específico é positivo, variando entre 0,16 (Sudeste) e 0,70 (Nordeste), o que também caracteriza histogramas com cauda maior à direita.",
+  "text_sha256": "aaf9634b4fe9e6c61983e09566e0d5745633ff0084de2c189b2fd56b3f0b271d",
+  "window_size": 3
+}

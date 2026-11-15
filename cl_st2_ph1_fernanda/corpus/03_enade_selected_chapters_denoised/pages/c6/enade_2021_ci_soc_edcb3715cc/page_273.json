@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0490d5e3833d3ff3006af917c43d7087d1af067801c836bd7d",
+    "usage": {
+      "input_tokens": 3541,
+      "input_tokens_details": {
+        "cache_write_tokens": 3538,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3538
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "reasoning_tokens": 257
+      },
+      "total_tokens": 4205
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 272,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_272.txt",
+      "source_sha256": "5885791ffa839508cb4124b41bca37044dae84627ddafa26aca178855c3837dc"
+    },
+    {
+      "page_number": 274,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_274.txt",
+      "source_sha256": "15217c083cd1f8607f33d1e162c0a04c004f167125530e3a389d4212a911c5ee"
+    }
+  ],
+  "created_at": "2026-11-15T02:24:04Z",
+  "duration_seconds": 6.279,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 273
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_soc/enade_2021_ci_soc_page_273.txt",
+    "source_sha256": "ef35138f9e587b7345c5c5e1af0fc401bdb9af578f8e9036666334b6f1edd415"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f9a6ee44632cd543b6b114c43df71df8fce91788565e6358ea157762004c3254",
+  "request_fingerprint": "289cc90825744fd0db67d22269702cf52b152ab7e6e261124b506b08eeaa1878",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da distribuição das notas e sua linha de fonte; revisar se havia legenda ou outros elementos gráficos não capturados na extração.",
+    "Removidos os dados da Tabela 6.2 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Habilitação. Essa é uma distribuição unimodal para os alunos de cursos de Licenciatura e de Bacharelado, com ambas as modas no intervalo (40; 50].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica, segundo a Habilitação. A Média das notas da prova, como um todo, dos alunos de Licenciatura, foi 45,3 (Tabela 6.1). Em relação à Categoria Administrativa, os estudantes de Licenciatura das IES Públicas obtiveram Média mais alta (47,4) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (41,4). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sudeste e Norte (11,1), a maior e a menor Média, é superior à diferença entre a das IES Públicas e Privadas (6,0), caracterizando uma menor diversidade administrativa do que regional. O Desvio padrão, igual para as IES Públicas e Privadas (15,6) foi um pouco inferior ao do Brasil, como um todo (15,9).\n\nNo tocante à Organização Acadêmica, as Universidades (46,1) obtiveram Média mais alta que a nacional (45,3). A Média dos Centros Universitários e dos CEFET/IF foram menores que a nacional. Constata-se que existe diferença estatisticamente significativa, ao nível de",
+  "text_sha256": "ba9b8441b33d61fa3ce2d165739875694a43b508e0eacb44f90a8502c132831a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f7a5ad0da5908b006af8ee8032b087d193313afbaa588913",
+    "usage": {
+      "input_tokens": 1633,
+      "input_tokens_details": {
+        "cache_write_tokens": 1630,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1630
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 450,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 2083
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_93.txt",
+      "source_sha256": "eb36f1394501d618d3dee9a3b1c2da7c72df7e94f401e0a208ed658b481d6fc0"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_95.txt",
+      "source_sha256": "d013a8a29b1e8ed9e676ad2f17dff90492cd0165b4d5ba4259fd34b3bda9e9a0"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:00Z",
+  "duration_seconds": 4.888,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_94.txt",
+    "source_sha256": "cdf589b808df22af045e8d43273e955613a429f9e604da70760a385bc9f2b7fb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9669eeeb55ab908b420181cde25332f60b77fbc20dbcfc10156712ac976ce3f9",
+  "request_fingerprint": "336c8d355988400ee60312eff9f7e794766ac6167a3475c09bd411365b9fc992",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que em todos os quartos de desempenho um percentual em torno de 55% dos estudantes considerou a extensão da prova adequada.\nNo Gráfico 4.6, pode-se constatar que tal comportamento não foi muito diferente entre aqueles que consideraram a extensão da prova longa ou muito longa, pois 38,5% do percentual de estudantes assim considerou no 2º quarto e 40,3% assim considerou no 1º quarto, sendo esses os valores extremos e sem apresentar diferenças significativas estatisticamente entre os quartos.",
+  "text_sha256": "df0219459d443b62e0deb1923fa97e0b525dad0f5506a9cdc99b9f3f881eaf00",
+  "window_size": 3
+}

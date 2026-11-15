@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df508980266c7e3006af9227c00bc87d1a9ad6a681af59494",
+    "usage": {
+      "input_tokens": 3141,
+      "input_tokens_details": {
+        "cache_write_tokens": 3138,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3138
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 593,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 3734
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_alim/enade_2023_eng_alim_page_127.txt",
+      "source_sha256": "ef83baec9734a2bf8ecb25ee43a3646079efb291e7337f8df55e7e0023959fdb"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_alim/enade_2023_eng_alim_page_129.txt",
+      "source_sha256": "a96008febcda7ac95f1aa7a32fdfeda85ad3a8078ff7afa89096b84e9ec3aaa5"
+    }
+  ],
+  "created_at": "2026-11-15T03:09:47Z",
+  "duration_seconds": 3.646,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_alim/enade_2023_eng_alim_page_128.txt",
+    "source_sha256": "ee2646498a8dc27ab473ac2bc41aebde4679b42901fcb4c49f7972c1f345379e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c99423e59e0e34f14501e6de4d09ac558e57b61a353cc7ec0705de884f4c4ca8",
+  "request_fingerprint": "4ec7a65469bf1bc234c4d15e06dc811a54fe7f801a622afb1de4da1f7c58e04b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1 e sua legenda e fonte, e a Tabela 5.2, incluindo título, dados e fonte.",
+    "A última frase termina em “categorias” na página-alvo e continua na página de contexto; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Engenharia de Alimentos de todo o Brasil: uma distribuição unimodal com a moda no intervalo (40; 50].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES privadas obtiveram média mais alta (47,8) que a média das IES públicas (46,1). O desvio-padrão para as IES públicas e privadas foi de 11,9, indicando uma dispersão similar das notas nas duas categorias",
+  "text_sha256": "83eb7a6df3528f3265f0e12972a7f74a95d10fc5c9ea178194c84f975e9fcdba",
+  "window_size": 3
+}

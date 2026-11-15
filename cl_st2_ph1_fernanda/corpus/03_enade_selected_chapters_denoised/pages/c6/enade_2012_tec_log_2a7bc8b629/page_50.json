@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03bbb39bc18b9b27006af8f258318c87d1bb76a087d0524e38",
+    "usage": {
+      "input_tokens": 2912,
+      "input_tokens_details": {
+        "cache_write_tokens": 2909,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2909
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 733,
+      "output_tokens_details": {
+        "reasoning_tokens": 191
+      },
+      "total_tokens": 3645
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_49.txt",
+      "source_sha256": "5fc7b49c3f04f7c1267bb0f371b25d504f515794fee323a09745f94265e128d0"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_51.txt",
+      "source_sha256": "2d22ee8fbd3b17ffd63484b924d83e66506cb1b8acfe15bde09b0791a90d1e15"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:24Z",
+  "duration_seconds": 6.006,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_50.txt",
+    "source_sha256": "57062008878dfedfcb452295bb4bc0a0c7d7239d53672b32bc50fc243986c580"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dd34c9df80573175cde272de31d680c5b308b46042ffcc949b6c94007cade883",
+  "request_fingerprint": "d64e6a9f15ea747a7347a6c882b70a9337e04cc4f96f2993f14cd04dbe4eebcd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. A explicação em prosa sobre o Gráfico 3.13 foi preservada; o gráfico em si não aparece no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "O índice de facilidade variou de 0,31 a 0,55, e o de discriminação, de 0,31 a 0,45. As questões com índice de discriminação muito bom, de números 1, 2, 4, 6 e 7, figuraram entre as que tiveram mais acertos desse conjunto: quatro classificadas na categoria médio (questões 1, 4, 6 e 7) do índice de facilidade e uma na categoria difícil (questão 2). Em particular, a questão 1 foi a que apresentou o segundo maior poder discriminatório, com índice 0,43, e foi também a mais fácil, com uma proporção de 0,55 de acertos, respectivamente. A questão de número 5 apresentou índice de facilidade 0,31, ou seja, um quantitativo de 31,0% dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Apesar de seu índice de discriminação ser o menor entre as oito questões, ela não foi eliminada do cômputo da nota final, já que o índice foi classificado como bom. A questão 3 também obteve índice de discriminação bom, 0,38, e seu índice de facilidade foi difícil. Já a questão de número 8, considerada difícil, obteve índice de discriminação 0,37, considerado bom.\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão de dificuldade média e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em verde corresponde à alternativa B, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). Na medida em que a nota aumenta, indicando desempenho melhor",
+  "text_sha256": "62e7b957994632d41913e8398cac2a31e7604ca503a37c5f18628c7a60f8627a",
+  "window_size": 3
+}

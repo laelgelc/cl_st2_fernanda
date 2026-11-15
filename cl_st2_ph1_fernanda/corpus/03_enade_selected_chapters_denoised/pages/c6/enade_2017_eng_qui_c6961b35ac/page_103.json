@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e13ed2f25a9678c006af90794252487d183b5894ab96364b0",
+    "usage": {
+      "input_tokens": 3050,
+      "input_tokens_details": {
+        "cache_write_tokens": 3047,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3047
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 3361
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_102.txt",
+      "source_sha256": "359df079b0bccb62af136892067a818371bf0cede67ccf7549e37e74545382fc"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_104.txt",
+      "source_sha256": "31f160833c5133ba2894753eef47b5c9303eec3d85792406748225d66fa93225"
+    }
+  ],
+  "created_at": "2026-11-15T01:15:00Z",
+  "duration_seconds": 4.577,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_103.txt",
+    "source_sha256": "5deff5e578fb39f2518b96cd227d511e74cc696d6cf814ff88326675cd08f035"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d1f7afdd23028aceaed792e01067b34f52d84df45cd9eefc33b5baba2fa63b2",
+  "request_fingerprint": "c6379da66a744b0b55338675d905cbcbe4b798515710c7d0573912fe1287a610",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removido o material gráfico do histograma e sua linha de fonte; a prosa que o descreve foi preservada."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 6.1 e 6.2, o Gráfico 6.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia Química em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (30; 40], inferior ao grupo modal da prova, como um todo, e ao grupo modal para a Formação Geral.",
+  "text_sha256": "a3d8db413c9c0c6607085ac3726ff132794a4fdd71618b0d3df99367ed1a2889",
+  "window_size": 3
+}

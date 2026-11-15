@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b960257cf03158006af92237b43487d18858be33adfedb00",
+    "usage": {
+      "input_tokens": 1870,
+      "input_tokens_details": {
+        "cache_write_tokens": 1867,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1867
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 313,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 2183
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_87.txt",
+      "source_sha256": "95b157cb14a74701146efb434e711d62a5b24ac847336f64754558199f5088c3"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_89.txt",
+      "source_sha256": "8345c69eb3c50f7c66dddabb224d3346a2e4bf0b81a597544707dd2ff06d6420"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:39Z",
+  "duration_seconds": 3.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_comp/enade_2023_eng_comp_page_88.txt",
+    "source_sha256": "181367a85c14e61a196b47eaa68a8de42c1f9a930113339d6f32ccd3f3c744f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70b00d687ee082527dc35645b073fc9449e438027cc643bc4febb32ce5d0c023",
+  "request_fingerprint": "5be882a0a38d2d77024b5c4a2da4d134185745640f9adf7bc83b64b4e79b82e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.11, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 traz outros resultados também em relação à questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 3.11, considerando-se a extensão da prova, o percentual de estudantes que avaliaram a prova como “Longa” ou “Muito Longa”, em relação ao tempo total destinado à sua resolução, foi maior entre os estudantes de faculdades (35,0%), enquanto os de CEFET/IF, a organização acadêmica com a menor incidência, esse índice atingiu 31,4%. Pode-se constatar que não há diferença estatisticamente significativa entre os dois extremos. A proporção de presentes, na prova do Enade 2023, que consideraram a sua extensão “Adequada”, em relação ao tempo total destinado à sua resolução, esteve entre 61,5% nas universidades e 62,7% nas faculdades (ver Anexo V, Tabela V.6).",
+  "text_sha256": "87daf44807472a9d9301142b0f45b0a8d7407573dfe1d33ffe0918b4d6aa4133",
+  "window_size": 3
+}

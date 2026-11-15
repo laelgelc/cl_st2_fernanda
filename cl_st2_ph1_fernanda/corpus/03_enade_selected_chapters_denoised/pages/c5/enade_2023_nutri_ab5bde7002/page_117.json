@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09253962ba7bac2a006af9244df98887d1b4abd16a11e0c879",
+    "usage": {
+      "input_tokens": 3087,
+      "input_tokens_details": {
+        "cache_write_tokens": 3084,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3084
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 3640
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_nutri/enade_2023_nutri_page_116.txt",
+      "source_sha256": "0907c51a4bcbdf94c9a2ec236f6465f693825ac76509d9b9c13695445168e80e"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_nutri/enade_2023_nutri_page_118.txt",
+      "source_sha256": "c7fa512be45df99991e7106b83284d578bebd94d88dc901cd7a3e52117c0265d"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:33Z",
+  "duration_seconds": 4.539,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_nutri/enade_2023_nutri_page_117.txt",
+    "source_sha256": "6e572683bed33d55d24608e7a4faeed9c79e194cc7bcfa0022bd45410fca9732"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe2a03a606722a5207516eb4a09c7eaa7f42098737884d62d3327d33dc6a94bf",
+  "request_fingerprint": "91905260a3f98e7097a8f053b52e4672d31b3bc907b097847c6ce56d31c0c815",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 81,8% dos cursos com conceito 3 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 52,6% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, na região Norte, o conceito 5 não foi alcançado por nenhum curso, na qual todos os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcança 100% no conceito 4. A região Norte apresenta os cursos com conceitos mais baixos, ao passo que a região Sul apresenta a distribuição com valores maiores. Os cursos em IES situadas nas regiões Centro-Oeste e Nordeste (linhas laranja e verde, respectivamente) apresentam uma situação intermediária.",
+  "text_sha256": "f658532811e9814ac60a022d5661be137b5409f23d2395eaf0f5e10cf3a72a40",
+  "window_size": 3
+}

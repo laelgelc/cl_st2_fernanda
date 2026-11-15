@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ec94a337aed9525006af903d6ab2c87d1b093a67ded57a30b",
+    "usage": {
+      "input_tokens": 2795,
+      "input_tokens_details": {
+        "cache_write_tokens": 2792,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2792
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 596,
+      "output_tokens_details": {
+        "reasoning_tokens": 291
+      },
+      "total_tokens": 3391
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_53.txt",
+      "source_sha256": "235081e2583e76bac698ceab70536d8fcd30dc1ffb79230a7131b4fc91656a8f"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_55.txt",
+      "source_sha256": "feac005dffadb3524d62d5694798a8a39eb0e6b0a1949278ef2100c7ef3d060b"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:02Z",
+  "duration_seconds": 5.397,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_amb/enade_2016_tec_gest_amb_page_54.txt",
+    "source_sha256": "0ec1d243990f46591261f2e9f4107411504ced05c9353744fe27ee4a891abd92"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ae85c44613b7a3cef4aae70361d8379251f6bbea656ae95183f6cb87681f30a5",
+  "request_fingerprint": "4be5cd6e4eae044a2fe206db00b1d6acbe57d6fc9c181ef51c774d17a288abc0",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 3.4 e sua linha de fonte foram removidos."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n3.2.2 - Componente de Conhecimento Específico\n\nA Tabela 3.11 apresenta as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Tecnologia em Gestão Ambiental por Grande Região. A Média do Brasil deste componente foi de 42,2. A menor Média foi observada na região Norte (38,0), e a maior, na região Sudeste (43,3). O Desvio padrão de todo o Brasil foi 14,6, sendo o menor Desvio padrão encontrado na região Centro-Oeste (13,8), e o maior, na região Sudeste (15,0).",
+  "text_sha256": "e098cf9e1c0e5af2edead1568eb23d8ff8eb34413c0dee846f089fca451829c3",
+  "window_size": 3
+}

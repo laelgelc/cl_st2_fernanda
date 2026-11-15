@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e6224ab1fbb94b7006af8fc1263a087d183172e43f96c5339",
+    "usage": {
+      "input_tokens": 2299,
+      "input_tokens_details": {
+        "cache_write_tokens": 2296,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2296
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 318,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 2617
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_80.txt",
+      "source_sha256": "1584b59e09cf3e2112da242b49fee090d8af0dcfb626d296004ff02198989ee7"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_82.txt",
+      "source_sha256": "c24fe097327ba2c335d2e43baa4ffbcb4a3bdc40797ac938ae65a68ea2e9357b"
+    }
+  ],
+  "created_at": "2026-11-15T00:25:54Z",
+  "duration_seconds": 3.807,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_SISTEMAS DE INFORMAÇÃO.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_81.txt",
+    "source_sha256": "286ffd20710d1bd9aaa0728680dc1659e931b43fc6efb2846ecc59abcf0c26d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2c84f58feb9b82743c13608db197c33effa455aebfa9db94358913f90e3efde3",
+  "request_fingerprint": "b56c48921e597b742d5d107fd46c4025b6373427b30712b4d6c84bba440b5743",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.16, seus dados e sua fonte, e o material gráfico do Gráfico 3.11 e sua fonte."
+  ],
+  "status": "success",
+  "text": "branco, e é a mesma em todas as regiões do Brasil. A nota mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Sistemas de Informação. Sem levar em consideração que mais de 55% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda nas notas 0,0.",
+  "text_sha256": "4b795e1adb2dc2b97efde9c2f9056787b44b510c4d56fd4e3c8a172eefa4a709",
+  "window_size": 3
+}

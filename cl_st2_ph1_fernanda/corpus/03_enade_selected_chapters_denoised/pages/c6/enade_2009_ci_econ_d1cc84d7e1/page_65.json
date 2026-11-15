@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f5f597194604d71006af8e532796087d18b78120d9cc66d7c",
+    "usage": {
+      "input_tokens": 2293,
+      "input_tokens_details": {
+        "cache_write_tokens": 2290,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2290
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 265,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 2558
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_64.txt",
+      "source_sha256": "cc15ba5768a94b78c23bd7f6fbe330627aa480267c67fa5f7f5967ee09f32346"
+    },
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_66.txt",
+      "source_sha256": "95f68ade98ac2c1364bda22b2127f6fb577dd383f86f071423e47124c665f8ca"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:18Z",
+  "duration_seconds": 3.408,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 65
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_65.txt",
+    "source_sha256": "437319629126ece223af9818c1c575aecaaa892df869749e155308eb32944a86"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e0752e841128518612e27a4584456167b0c90a61c8917ffceb194eb46b39dffe",
+  "request_fingerprint": "46d70ee9a1d0424b07166f4168fd6bd03a9663744e7ee64eddf216b0a4d60d0f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.13, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 apresenta a distribuição das notas na questão 40 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.7) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "546c701149a1a94b53a37e6145ddbeadb36bbdd24a51f438951fb9875edef36a",
+  "window_size": 3
+}

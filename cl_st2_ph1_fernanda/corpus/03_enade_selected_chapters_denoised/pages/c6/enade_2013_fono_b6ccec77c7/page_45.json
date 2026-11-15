@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02fc57bf2fe04263006af8f3fbbef087d19ef855a6ab5db0c3",
+    "usage": {
+      "input_tokens": 2206,
+      "input_tokens_details": {
+        "cache_write_tokens": 2203,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2203
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 468,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 2674
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_44.txt",
+      "source_sha256": "30907998833cd89452bb3ed807a1ba29e3b40de111d37aeac8606c201a4e6f70"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_46.txt",
+      "source_sha256": "c6596a4adbf27fb979e5f87665bf75d68cc8d0792b1c66fdfdfba5d1e4457f1a"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:23Z",
+  "duration_seconds": 4.374,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_45.txt",
+    "source_sha256": "7dd83dbd46c196e8dc0504d8e4bbfc4527aa928ee7c5d87a7abf4d2ae2869fb5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6511cb65b4ce9d0d2e505b5076c1280a02dc8089ce6b4370ab4d68c7ab058c70",
+  "request_fingerprint": "ffb80bb86fe20dddc109e7a78574de0411a0bb04263c7316316e5fabe916b1b4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é, grosso modo, unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (50; 60]. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 15,1 para a nota da prova como um todo e 17,1 para o Componente de Formação Geral. O intervalo [0; 10] pode ser considerado como uma discreta moda secundária.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,44), e apresenta uma concentração à direita e cauda maior à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa (entre -0,46 para o Nordeste e -0,12 para o Centro-Oeste).",
+  "text_sha256": "ce10e2b0face1aec347c0d59c51d6735f9ec140bbee10e015b83e6ec282d3782",
+  "window_size": 3
+}

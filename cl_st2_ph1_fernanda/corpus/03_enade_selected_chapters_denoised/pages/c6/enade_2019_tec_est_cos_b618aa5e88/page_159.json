@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e8a51c71aacfa93006af91550412887d186941569bb8d3e86",
+    "usage": {
+      "input_tokens": 2919,
+      "input_tokens_details": {
+        "cache_write_tokens": 2916,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2916
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1428,
+      "output_tokens_details": {
+        "reasoning_tokens": 828
+      },
+      "total_tokens": 4347
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_158.txt",
+      "source_sha256": "c30ed95f968cc5f658e4d1514a658f967af7fe92bb7af63166489312dcf82eac"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_160.txt",
+      "source_sha256": "5097c5949e8a1e0c6f9a350564d39734210262e4729c482c7825b06be02ee10b"
+    }
+  ],
+  "created_at": "2026-11-15T02:13:36Z",
+  "duration_seconds": 10.624,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_159.txt",
+    "source_sha256": "209bdc1f39ffb9a91f58dd47a6b59b9e5bb7de1268e2b42f5ac58dd28758da6b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f6670780a2580709f80d6589b46696ee9d49efb2b750bf08672d3ecc17d555bd",
+  "request_fingerprint": "69097d05e0e0e8402cb896788476953f1a30809d7a603d3e263f2a196f151ebf",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 6.9, incluindo título, dados e fonte, removida."
+  ],
+  "status": "success",
+  "text": "uma proporção de 0,40 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,53. As questões 6 e 8 foram consideradas Difícil, com índices de Facilidade 0,39 e 0,40, respectivamente. Os índices de Discriminação foram Muito bom para as duas questões (0,46 e 0,49 respectivamente).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 11,9% escolheram a alternativa E (em vermelho), 16,4% escolheram a alternativa D (em laranja), 24,9% escolheram a alternativa B (em verde, gabarito), 10,8% escolheram a alternativa A (em azul), e 35,6%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,49) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas), nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "306e755922fd64f3fd934f8e136af456ef805902f96fd10d9e210a346e589a89",
+  "window_size": 3
+}

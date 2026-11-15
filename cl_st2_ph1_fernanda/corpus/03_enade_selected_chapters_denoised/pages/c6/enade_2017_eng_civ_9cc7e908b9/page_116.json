@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03a017d95aabd083006af905e8ec6887d1a1718cc100582574",
+    "usage": {
+      "input_tokens": 2647,
+      "input_tokens_details": {
+        "cache_write_tokens": 2644,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2644
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 3110
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_115.txt",
+      "source_sha256": "a452d8a64058b3a006d0068548992da7832c98559ec7a7b872f044911dc0970b"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_117.txt",
+      "source_sha256": "40074e0dae541fd864df230a8508b783870fb9bd32d0dff349f327b16163fca8"
+    }
+  ],
+  "created_at": "2026-11-15T01:07:52Z",
+  "duration_seconds": 4.664,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA CIVIL.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_116.txt",
+    "source_sha256": "0700d30bc80ebbaeb11d3060c88f582e4827580ba38995fd04c72f324002af56"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "955f654a4427d81eac4f6ebaa9a5ea364bc818b4f07a2f1aeb719c0c501d0417",
+  "request_fingerprint": "3d36591dffa825c15e1bfd8bfb6d1c6ee407603f3dc495ec3bc3888dcd2d4ad8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, identificada como pertencente ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (63,5) e a menor pelos de IES Privadas (52,7).\n\nNota-se que também há diferença estatisticamente significativa entre as médias dos CEFET/IFET (65,6), a maior, e de todas as demais categorias: Universidades (56,7), Centros Universitários (53,1) e Faculdades (50,9), a menor.\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou maior Média do que a Educação a Distância (médias 54,7 e 52,5, respectivamente). Tais médias apresentam diferenças estatisticamente significativas.",
+  "text_sha256": "55af5d3399013af0e8068b41d711926fe2076425a04c4aae46ddf31b70276a75",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0958f842d91370fb006af8f6649d5887d19a45d5e404752474",
+    "usage": {
+      "input_tokens": 2533,
+      "input_tokens_details": {
+        "cache_write_tokens": 2530,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2530
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 505,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 3038
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_58.txt",
+      "source_sha256": "0e35f40cf3a310824228f4597583b76411be62a24128d5c7e1fda4abc9e8d4d6"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_60.txt",
+      "source_sha256": "a96c2f486dcc960bf0bc428a7234e92d7d373efcccb7b88e4170cfc9020210f2"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:40Z",
+  "duration_seconds": 5.374,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_59.txt",
+    "source_sha256": "343dd2468290aca6d5a10e35f6785ba7c92d2fe5add7b818c6db569d2c7c9869"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f3b47a8c94ceeed2c1028a6c279c5b6e93b4f14de0ea1a13501c3c61ec60f965",
+  "request_fingerprint": "dca9aee7d8eddf62bab087efc70313bd0e0104522d53eb168847f31d4bca343a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada de nível médio, com relação à facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em Azul) ou C (em preto). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "643b14a5e3fc8f3d30f565ba4aac41441cd7c8c819534305c045bb0a0afd1368",
+  "window_size": 3
+}

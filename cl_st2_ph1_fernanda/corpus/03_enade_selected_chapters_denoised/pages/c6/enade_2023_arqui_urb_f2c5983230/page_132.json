@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df6fdc10d75ca1a006af9215e71e887d180c3cfbf499f0e82",
+    "usage": {
+      "input_tokens": 3163,
+      "input_tokens_details": {
+        "cache_write_tokens": 3160,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3160
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 600,
+      "output_tokens_details": {
+        "reasoning_tokens": 356
+      },
+      "total_tokens": 3763
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_131.txt",
+      "source_sha256": "e697839884d862667c59d59fb25f7203910a31a00ef43c281350931f9a7f7b47"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_133.txt",
+      "source_sha256": "c397e2db93d55bb2d315044ba28e00708aeb20eb8fa1bd3c330bd557eb3e3500"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:02Z",
+  "duration_seconds": 8.529,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_132.txt",
+    "source_sha256": "f9c7ef8ad709a17ec0989d5fb5b07d434f097760635ecc5b5c0428d739024917"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a95393f479c3e9b4f61935a9e90fdd92bb455f739fbf785d410c17a38ba5ca0f",
+  "request_fingerprint": "9d6bb6d56ee455cb448b7d9d895fa35e27063ce0e5b0d2298341f8220af686db",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 5.1, sua legenda e fonte, e a Tabela 5.2, incluindo título, dados e fonte.",
+    "O texto termina em “para as” na página-alvo; a frase continua na página de contexto e não foi completada."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Arquitetura e Urbanismo de todo o Brasil: uma distribuição unimodal com a moda no intervalo (50; 60].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (66,2) que a média das IES privadas (54,2). O desvio-padrão para as",
+  "text_sha256": "d6ff61650d92c3465a0c9bc96e053e47a82c403e9f47832e08f52d31bec50cb5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c6f64daf692d90006af8ede1c1b887d1bc21759277313dcc",
+    "usage": {
+      "input_tokens": 1454,
+      "input_tokens_details": {
+        "cache_write_tokens": 1451,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1451
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 306,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1760
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_41.txt",
+      "source_sha256": "77eaf8e022938b9fa4e89138ad07bc77dded8fe8b02fdec84fdd0b6e8dca42fe"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_43.txt",
+      "source_sha256": "2cb861fff57e7e67c0436c1ec9e67ed0adb9fc71b6e8a400389f8e1623e10fc4"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:21Z",
+  "duration_seconds": 3.621,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_42.txt",
+    "source_sha256": "69900167934c632b19d7d9fb87a12ef0cabb5c250ecec523ba927d6164838360"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b8f005f771bdf55462981b7efbabfba43a659de50d9fc6a6ebd7071ca40d662c",
+  "request_fingerprint": "0e86c048d0b45214b64332b56afee4d7fb67b04c34f2113a2bdc508d78ad41c2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Ao contrário do que ocorreu com as médias globais da prova, em Formação Geral os concluintes de Letras (Bacharelado e Licenciatura considerados em conjunto) das IES Públicas (49,8) obtiveram uma média menor do que os das IES Privadas (51,3).",
+  "text_sha256": "67b7e8c48555236575355f9a6bc5a9954a343c59f66ad2c27313472c39f74eb9",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00aeadffd1a26402006af8f3806d4c87d1aeec81f21e23a0bc",
+    "usage": {
+      "input_tokens": 2584,
+      "input_tokens_details": {
+        "cache_write_tokens": 2581,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2581
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 637,
+      "output_tokens_details": {
+        "reasoning_tokens": 347
+      },
+      "total_tokens": 3221
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_65.txt",
+      "source_sha256": "c8534e4de1c25f11afb295e4cd8d8e1f30d0221b62ecd77fb74a11798df1d692"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_67.txt",
+      "source_sha256": "035f30f1f17f0d79fe1c063b5984ae2eb386beffabb6801f3d56709ce4a733e0"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:20Z",
+  "duration_seconds": 6.252,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_66.txt",
+    "source_sha256": "13c7236b69c098686983e59b389c9ebcfadef958e804b7f0b014ca64ef18598b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "97be239486db0214372ea7c9a44380c975ab4c9031cad014e88b2efb8779733b",
+  "request_fingerprint": "31e00cb74fea63e48f2fc772f0452f4e97b0ca1443a74fe5ea3513aa807ea3d5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O maior desvio nessa questão foi obtido na região Nordeste (27,9), enquanto o menor foi obtido na região Norte (24,6). A mediana foi 40,0 em todas as regiões, exceto na região Norte (30,0). As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Neste gráfico, desconsiderando-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 23%), observa-se a moda no intervalo (40; 50].\n\nO coeficiente de assimetria das notas nesta questão é negativo (-0,03), mas quase nulo, evidenciando o balanço dos alunos que deixaram a questão em branco (e receberam nota zero) e os demais. O mesmo ocorre para todas as regiões da Brasil (entre -0,17 na região Sul e -0,04 na Centro-Oeste), exceto para a região Norte (0,36) que possui coeficiente de assimetria positivo.",
+  "text_sha256": "63796b4a6f747f3c64c6ff77a582873a767b29005957ab6b4f56eb64a54b906c",
+  "window_size": 3
+}

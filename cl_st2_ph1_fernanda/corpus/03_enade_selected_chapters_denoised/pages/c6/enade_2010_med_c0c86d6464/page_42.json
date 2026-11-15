@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0620d6442e1a1e12006af8e94ee6e887d1a7182fb0c8533aa4",
+    "usage": {
+      "input_tokens": 2792,
+      "input_tokens_details": {
+        "cache_write_tokens": 2789,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2789
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1094,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 3886
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_41.txt",
+      "source_sha256": "bca51486cf3ff2480958fc6a805090923a8f55cc2ffd427e64867afa8a9ba531"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_43.txt",
+      "source_sha256": "9891b9bda59b4471e009633f98923746213e21beb19f0b834cd740c095c651fb"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:50Z",
+  "duration_seconds": 8.96,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_42.txt",
+    "source_sha256": "98e5c53454eb54c1c71b76ef589df6c17675b1c343b8f944ff1c198b74fc19a7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2648eb904702693f2b8627bf6071c7cc4acda391173b3e6fd9dcb1bca8656c5f",
+  "request_fingerprint": "9bb2c9eaaf6af7f9e514850cc9bbaf09255000a163c4767307c1f6fd367c9e59",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, com estatísticas básicas das questões objetivas de Formação Geral, incluindo dados e fonte.",
+    "Removida a Tabela 3.6, com classificações das questões por índice de discriminação, incluindo dados e fonte."
+  ],
+  "status": "success",
+  "text": "3.2 ANÁLISE DAS QUESTÕES OBJETIVAS\n3.2.1 Componente de Formação Geral\n\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. Como pode ser observado, os estudantes Concluintes obtiveram desempenho um pouco acima, com nota média 62,9, em relação aos alunos Ingressantes, cuja nota média foi 61,2. As medidas de dispersão nos dois grupos de alunos foram similares, como indicam os desvios padrões, assim como a amplitude total das notas, sendo que a nota mínima foi zero e a máxima, 100,0, para os dois grupos de alunos avaliados.\n\nOs coeficientes de variação, 30,4% no grupo dos Ingressantes e 27,0% no grupo dos Concluintes, indicam menor dispersão relativa nas notas desses últimos. A mediana foi igual a 62,5 nos dois grupos. O coeficiente de assimetria do total de estudantes revelou assimetria negativa (-0,8).\n\nA Tabela 3.5 apresenta as classificações das questões objetivas do componente de Formação Geral, segundo o índice de facilidade. As questões objetivas da prova foram assim avaliadas: das oito questões, duas tiveram o índice de facilidade classificado como muito fácil. Duas questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Uma questão foi considerada de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Três questões foram classificadas como difíceis, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma questão foi classificada como muito difícil.\n\nA Tabela 3.6 descreve os resultados das análises das questões objetivas relativas à Formação Geral, segundo o poder de discriminação, utilizando-se para tal, do índice de discriminação ponto bisserial. Sete das oito questões apresentaram índices iguais ou acima de 0,40 e, assim, foram classificadas como muito boas nesta característica para esse grupo de alunos; uma questão teve bom índice de discriminação, entre 0,30 e 0,39. Nenhuma das questões do Componente de Formação Geral foi classificada como de média e de fraca discriminação.\n\nNa sequência, na Tabela 3.7, estão especificadas, por questão, os resultados da análise relativa aos índices de facilidade e de discriminação de cada questão no componente relativo à Formação Geral da prova de Medicina.\n\nO índice de facilidade variou de 0,17 a 0,94, e o de discriminação, de 0,33 a 0,51. Das questões com índices de discriminação muito bom, de números 1, 2, 3, 4, 5, 6 e 8, somente duas delas (questões 3 e 8) figuraram como muito fácil nesse conjunto. As questões 5 e 8 foram as que apresentaram maior poder discriminatório, ambas com índice 0,51. A questão de número 7 apresentou índice de discriminação 0,33, bom, mas foi classificada no índice de facilidade como difícil, com 0,17, ou seja, um quantitativo pequeno de estudantes conseguiu resolvê-la, dentro do universo de participantes.",
+  "text_sha256": "911be881750de284e648fb16f2d5b1139fa93e4e1245c8ded4c8ba6ebfad55d7",
+  "window_size": 3
+}

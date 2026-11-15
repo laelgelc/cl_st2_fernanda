@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a2525d8d0e5bcd7006af925108cfc87d1a8bfb8450f20da97",
+    "usage": {
+      "input_tokens": 2263,
+      "input_tokens_details": {
+        "cache_write_tokens": 2260,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2260
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 2557
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_79.txt",
+      "source_sha256": "50f163bbbaac7909e4568ab156f3997e7250ff42357423d351ac6e46c8f1f707"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_81.txt",
+      "source_sha256": "b9f0c41b2e06837ccfe4ae76d8a65d2de0ded630b73e20f2089e865816c25710"
+    }
+  ],
+  "created_at": "2026-11-15T03:20:48Z",
+  "duration_seconds": 2.768,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC G HOSPITALAR.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_80.txt",
+    "source_sha256": "aa54c844cc08aaaedb74c6e7ec5275b4a5560b11df6b5885e26d7f76ef9a024f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5a9458be6d760e7e010ee5173fa2b80f6ed73f98e01e29e2700d6f3af0ccc334",
+  "request_fingerprint": "37fd96f657b474e9e82e6a94ac048d92237f030780d765911389b98d7c8e272f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1, incluindo título, representação gráfica e linha de fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Sul, onde a proporção foi de 29,1%, enquanto a menor proporção foi identificada na região Norte, com 23,8%. O maior intervalo foi observado na região Nordeste, com variação de 9,1% entre o mínimo e máximo. Além disso, é possível observar que as diferenças entre as regiões não são estatisticamente significativas. Nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 64,3% na região Centro-Oeste, 68,2% na região Nordeste, 64,4% na região Norte, 69,4% na região Sudeste e 64,5% na região Sul.",
+  "text_sha256": "3f01290602f705bb9020935af23b252d5144424f8cea75af435ec50d12a70e28",
+  "window_size": 3
+}

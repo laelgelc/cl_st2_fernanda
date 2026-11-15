@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b78ed58c1c96d34006af9215905e887d19c8452f50a7e5667",
+    "usage": {
+      "input_tokens": 2659,
+      "input_tokens_details": {
+        "cache_write_tokens": 2656,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2656
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 2955
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_arqui_urb/enade_2023_arqui_urb_page_123.txt",
+      "source_sha256": "100478abdb9581deb3ade52a0d93873135c14e0bd8b24bd780f013981bc16f78"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_arqui_urb/enade_2023_arqui_urb_page_125.txt",
+      "source_sha256": "27637e8cd85ccf7f18babe497859b6540095797abebd505ba1a53bf4c5aed4d9"
+    }
+  ],
+  "created_at": "2026-11-15T03:04:56Z",
+  "duration_seconds": 3.735,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_arqui_urb/enade_2023_arqui_urb_page_124.txt",
+    "source_sha256": "8b91da8ff71bc8b9430b6aaaf73dd666f8ca4c40a126938a3d057b9298a08f3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "44ec6b31f520b380e78f469cd5af9a09f5020bd17ca0f7ca63e4d4814eb1888d",
+  "request_fingerprint": "6e9167c5e544e06ec99c2414a914d796731621d5e31daa98f59877313579cd46",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.2, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "47907d24dcc0eca40b5f74dba877b47e5a19f3534828513d372585be3078e9db",
+  "window_size": 3
+}

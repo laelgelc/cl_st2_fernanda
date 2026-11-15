@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08394cd06fcf2d43006af8eb52923887d180bdca4592e2b117",
+    "usage": {
+      "input_tokens": 2830,
+      "input_tokens_details": {
+        "cache_write_tokens": 2827,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2827
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 3474
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_72.txt",
+      "source_sha256": "41a877572bbbc6a82187cbc199dee137490aaecc9700b98cb08a22e2379cc2b4"
+    },
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_74.txt",
+      "source_sha256": "5eb786659fe3bdbcf954c5b4b79202e11ee33cd349a7e750a6dca631d89d80f0"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:26Z",
+  "duration_seconds": 6.961,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 73
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_73.txt",
+    "source_sha256": "3f4ad6ace7cffa8061214c1aca7c6c33775b252d34b22648419a0115d5349810"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7590affabb66072a81ac8be67ce92c3ec2f79cf1e43190354581d02b1ba8626d",
+  "request_fingerprint": "ceb2bde44e882dd8b16cf5ff37f80c207a717d5a900178ccd5cb2777145a7445",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 19, em função do número de acerto dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelha, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido e, por isso, não aparece esta abscissa no eixo horizontal. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para os que obtiveram 16, 19 e 20 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "43f4123c41d044684b6efeb861ae557402d6b6adda6ac14689d312918346c4f8",
+  "window_size": 3
+}

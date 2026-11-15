@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0caedc57acb43e7c006af9160fd1e887d1b6610a0302cd2e75",
+    "usage": {
+      "input_tokens": 2305,
+      "input_tokens_details": {
+        "cache_write_tokens": 2302,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2302
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 471,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2776
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_146.txt",
+      "source_sha256": "a9956173c9a51b075240a2fe48612beffd770081f53a5b898abe899a67d7bbdb"
+    },
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_148.txt",
+      "source_sha256": "71ce64444dfa8dd9e98ff42b28367f8daacdfd60529c71639023635ea9e9e288"
+    }
+  ],
+  "created_at": "2026-11-15T02:16:47Z",
+  "duration_seconds": 4.811,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 147
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_147.txt",
+    "source_sha256": "0cd1ec50ff0f28e507314865561c53388aa8518949ecceedd6ded5a7a3a8ca83"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9a184f8618b96851d164b7085484b3bbf12a4c0c6eff21747dcaa8d13d9fb575",
+  "request_fingerprint": "21d2a9ae8dcf31b8005f0df341e6c729c484d0e806ee1d12614b338213c9797b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 44,3. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (51,9) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (43,5). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (5,0), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (8,4), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (13,2) foi superior ao do Brasil, como um todo (12,1), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.",
+  "text_sha256": "1c312aeb8de7d8eaa9083220f0c37443eddca4e96e29560a868a9353b59a542b",
+  "window_size": 3
+}

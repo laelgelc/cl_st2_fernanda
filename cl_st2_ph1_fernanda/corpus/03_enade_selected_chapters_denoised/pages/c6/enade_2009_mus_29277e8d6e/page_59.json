@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba3191486414ea4006af8e62fffe887d1aa1f80bcac24b595",
+    "usage": {
+      "input_tokens": 2730,
+      "input_tokens_details": {
+        "cache_write_tokens": 2727,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2727
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 271,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 3001
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_58.txt",
+      "source_sha256": "9236665816593344daf5b658b6d3305fbdf595ac080e0f574ebf7a994460c038"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_60.txt",
+      "source_sha256": "fa6848666bc351c077c4818daf65dd1cf50dbf842d6643707657d86c856a8c8e"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:31Z",
+  "duration_seconds": 2.914,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_MÚSICA.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_59.txt",
+    "source_sha256": "11db1cd813d9b0f71ee63a8bef63e53349d47dbdf5ea925951019d3420e804ed"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e95bdb4c8ae027131e2732eae78f6ff2eb2e3a9bb30161309cb816ed94a9e3d",
+  "request_fingerprint": "a76e462edba51d2ebf98ba532294ac2bf41d9acc01d3915d3342b27e7943d40f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. Removido o Gráfico 3.10, incluindo título, eixos, intervalos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

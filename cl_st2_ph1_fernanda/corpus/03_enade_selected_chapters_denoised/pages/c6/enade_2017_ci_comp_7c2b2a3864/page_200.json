@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1f0ced26260578006af904f4c14087d183cf5a8ca8650b39",
+    "usage": {
+      "input_tokens": 3428,
+      "input_tokens_details": {
+        "cache_write_tokens": 3425,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3425
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 3790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 199,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_199.txt",
+      "source_sha256": "337c6f792842ef85dc0c260a00079780e0cb384761ee60617bbff17a749fb97b"
+    },
+    {
+      "page_number": 201,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_201.txt",
+      "source_sha256": "359f89acfb2fd88d2c5e984be19a05f4a91b2f4d7942c44e9faefae944c3f9f4"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:48Z",
+  "duration_seconds": 4.028,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 200
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_200.txt",
+    "source_sha256": "d48302baf6528e1c2aebeaaa42ba9cedf668dd7ab46d2b56e6cd8a1f40272798"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab9055868ecaca89bcf6ac77f48d8738567a68533a67bb1cd99cb5458a56531c",
+  "request_fingerprint": "eeba723b847db6913c4fde5e37d3942831b1fc02b311147256b49e09a421d15f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "região Norte a nota Mínima foi 36,8, na Sudeste foi 7,5 e na região Sul, 54,8. Considerando-se as notas segundo Grande Região, observa-se que só existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida nas região Centro-Oeste (41,2), e a Média da região Sudeste (51,3).\n\nNão há registro de participante de curso a Distância de Bacharelado. Isso significa que os valores tabelados para os cursos de Educação Presencial coincidem com os valores do Brasil, como um todo. A Média das notas dos alunos de cursos de Bacharelado, foi 54,1, sendo que os alunos da região Norte obtiveram a Média mais baixa (50,2), e os da região Sul obtiveram a Média mais alta (55,9). As demais médias foram: 54,7 na região Nordeste, 54,0 na região Sudeste e 51,7 na região Centro-Oeste.",
+  "text_sha256": "d148750317d9e189284e7cd150e5f628936e9da2e77fbea0d4e146faa653ad04",
+  "window_size": 3
+}

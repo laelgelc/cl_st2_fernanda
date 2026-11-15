@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_030a131e6fff7995006af8f0afa88887d18000ee6daafd80b0",
+    "usage": {
+      "input_tokens": 1567,
+      "input_tokens_details": {
+        "cache_write_tokens": 1564,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1564
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 528
+      },
+      "total_tokens": 2251
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_des/enade_2012_des_page_89.txt",
+      "source_sha256": "66ffd2636c384b883f26c7ec552fa05900b8c158d5e5fdbb06dd7627206188be"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_des/enade_2012_des_page_91.txt",
+      "source_sha256": "d15edf341facc5d35fa2edd85bee3ac16fa188a749c4b01063a612a63a43182c"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:19Z",
+  "duration_seconds": 7.123,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_des/enade_2012_des_page_90.txt",
+    "source_sha256": "1f08b3d983380b289c6506e6b3da85b8ba814a178bdada83ddbfdd4056662a12"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e9610a79590ac4a96730bc9c0ba5781b6f675eb1005c9b562387ad00747baf67",
+  "request_fingerprint": "89f068acfaaf7417b4097107e088bbeaf3d4a5e154950b350eaaacf8d2bf2329",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, aparentemente associada a material gráfico; o gráfico não está visível no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (81,7%) se comparada ao quarto inferior de desempenho (67,3%).. A diferença entre os quartos é estatisticamente significativa, a exceção da diferença entre o 2º quarto e o 3º quarto de desempenho e a entre o 3º quarto e o último quarto de desempenho.",
+  "text_sha256": "9fdf5965791f67ebcf075dbe75d98b455db6747b243969a0b83d5263e0ee26f2",
+  "window_size": 3
+}

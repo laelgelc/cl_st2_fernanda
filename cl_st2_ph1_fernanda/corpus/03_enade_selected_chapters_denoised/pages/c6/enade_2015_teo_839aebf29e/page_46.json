@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e8c0f6c30eacf72006af90123106087d1b563a463e6c74264",
+    "usage": {
+      "input_tokens": 2773,
+      "input_tokens_details": {
+        "cache_write_tokens": 2770,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2770
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 373,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 3146
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_45.txt",
+      "source_sha256": "993f91c09bf5747c5df50eac64d71479a0abb15dbb8adf93cbcd8e525d9d11d2"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_47.txt",
+      "source_sha256": "0f4ba391157725a6a67e733c9fd7a37b7e69231cb78482ed55a129ed4f70051b"
+    }
+  ],
+  "created_at": "2026-11-15T00:47:30Z",
+  "duration_seconds": 4.018,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_teo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEOLOGIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_46.txt",
+    "source_sha256": "d854283f1c52c7c8c94ad84e22f92ce9bb1f95269529cc2c55e064c92cbbace3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "699a8ce33b305f9f7e79a6c1802c489efc9a1ae15921e1879570f6388d452408",
+  "request_fingerprint": "94b254d8b31fe0e968df6134c470369b7a0438720d6d04df701f3fdcf2cd6cb7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "Removido o histograma do Gráfico 3.3 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Teologia em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (60; 70], o mesmo grupo modal da prova como um todo e acima do grupo modal para a Formação Geral.",
+  "text_sha256": "b8e638379f579ed3def26f7094db9c3cf3bcfd5033d429666c0bddf7e8613d07",
+  "window_size": 3
+}

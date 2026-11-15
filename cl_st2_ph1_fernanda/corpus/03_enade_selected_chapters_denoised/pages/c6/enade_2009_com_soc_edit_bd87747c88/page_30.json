@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea2f59dcf338c5b006af8e567e5b487d1b221c54535943815",
+    "usage": {
+      "input_tokens": 2685,
+      "input_tokens_details": {
+        "cache_write_tokens": 2682,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2682
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 965,
+      "output_tokens_details": {
+        "reasoning_tokens": 465
+      },
+      "total_tokens": 3650
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_29.txt",
+      "source_sha256": "96ec7e7e040477599f5e4f6313b5e7e03023cc38f48da2edab8ef4f45887041b"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_31.txt",
+      "source_sha256": "e9fac9fe0f507de6959c0e2547517a243b57731f107a6fbbc8719aa5d35b8b31"
+    }
+  ],
+  "created_at": "2026-11-14T22:49:11Z",
+  "duration_seconds": 9.368,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_com_soc_edit",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_COMUNICAÇÃO SOCIAL EDITORAÇÃO.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_30.txt",
+    "source_sha256": "c3f11af8cc4250663a2db7c931394b3a36135728383b3a467a74fc8a4f798ee7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c623aef9a418c246ecabba21db6f64e67fd45a81d431cf0a2912d9d631a467ea",
+  "request_fingerprint": "7aafac5f30d7730ba6d9605e7a1e4eb293a3b3f1de6104495c13fba8528c2eb7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, cabeçalhos, estatísticas e linha de fonte."
+  ],
+  "status": "success",
+  "text": "onde C_FG é a nota bruta da Formação Geral, C_FG^OBJ é a nota bruta nas questões objetivas da Formação Geral, C_FG^DIS é a nota bruta nas questões discursivas da Formação Geral, C_CE é a nota bruta do Componente Específico, C_CE^OBJ é a nota bruta nas questões objetivas do Componente Específio, e C_CE^DIS é a nota bruta nas questões discursivas do Componente Específico.\n\nA nota bruta da prova, C_GER, por sua vez, é também uma média ponderada da nota de cada uma das partes, Formação Geral/Componente Específico:\nC_GER = C_FG × 0,25 + C_CE × 0,75.\n\n3.1 Estatísticas Básicas da Prova\n3.1.1 Estatísticas Básicas Gerais\n\nA Tabela 3.1 apresenta as estatísticas básicas da prova por grupo de estudantes. O total de estudantes inscritos para a prova foi de 604. Destes, 71,2% compareceram, sendo que a presença foi maior entre concluintes (86,2%) do que entre ingressantes (64,0%). A média geral da prova foi 46,59, sendo que os ingressantes obtiveram média mais baixa, 44,74, que os concluintes, cuja média foi 49,44. O desvio-padrão geral foi de 16,6, sendo o do grupo de ingressantes menor (14,7), indicando que, em contraposição ao grupo dos concluintes (18,8), aqueles possuíram uma distribuição mais homogênea nas notas. A nota máxima foi 80,6, obtida por pelo menos um concluinte, ao passo que a maior nota obtida por um ingressante foi 80,2. Os coeficientes de assimetria para os dois grupos considerados, o de concluintes e o de ingressantes, bem como para a população como um todo foram todos negativos, indicando uma maior concentração à esquerda da distribuição e um maior espalhamento à direita.",
+  "text_sha256": "047469288342432ee0f77041f11e46296daf5b5c2622859a7f7657b27677f470",
+  "window_size": 3
+}

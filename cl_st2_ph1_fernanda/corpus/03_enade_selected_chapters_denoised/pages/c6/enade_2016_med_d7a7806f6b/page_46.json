@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e2220afeea69fe006af902c9df7887d1a7068b4191999a7b",
+    "usage": {
+      "input_tokens": 2302,
+      "input_tokens_details": {
+        "cache_write_tokens": 2299,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2299
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 503,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 2805
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_45.txt",
+      "source_sha256": "170fc75336da2024867472ede21cc1ebb15d15adfe04a242ad3ff270a104546f"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_47.txt",
+      "source_sha256": "95a94e13c4637b63ed64bb9e5190c7f71ae1257f774fe402cd1eb6db2c768b04"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:33Z",
+  "duration_seconds": 5.148,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_46.txt",
+    "source_sha256": "441a792091f2632ddd4d56820327b24f87b9867898964b43d55a0bf4b291b9e1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "24bae5842f2d5113dcdceb259346e53c1f9f30ca5165322e66f83e96228c31af",
+  "request_fingerprint": "d6de457e4e7d042b7c2c585c66dd04851afb5e8e6e98c6d2879708bdaecf6980",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/Inep/Daes - Enade/2016”, identificado como fonte de material gráfico."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.6 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior Média foi obtida por estudantes de IES Públicas (62,7), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (58,3).\n\nNota-se que também há diferença estatisticamente significativa entre as médias dos Centro Universitários, a menor Média (57,6) e os outros dois tipos de Organização Acadêmica. Já a diferença entre a maior Média, das Universidades (60,4), e a Média das Faculdades (60,0), não é estatisticamente significativa.",
+  "text_sha256": "4b41cf0e1733f081b0c249c6ca61ef4653f5eeeb7847eec8d054551aebf560e8",
+  "window_size": 3
+}

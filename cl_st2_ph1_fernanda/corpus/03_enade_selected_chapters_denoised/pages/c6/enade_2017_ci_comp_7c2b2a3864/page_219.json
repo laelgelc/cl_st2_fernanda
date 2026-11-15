@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0746119c10329bbd006af9050011dc87d1b8592eac1726e646",
+    "usage": {
+      "input_tokens": 3450,
+      "input_tokens_details": {
+        "cache_write_tokens": 3447,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3447
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 3913
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 218,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_218.txt",
+      "source_sha256": "28df48b9baf5fc1d6796bc3d4ea331da2e69d41cb0d1009a6e29f04b31b7281a"
+    },
+    {
+      "page_number": 220,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_220.txt",
+      "source_sha256": "96b93071af558d9116854b03a534cf9f3480522380c1e429224411d3ee26aac9"
+    }
+  ],
+  "created_at": "2026-11-15T01:04:00Z",
+  "duration_seconds": 5.245,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 219
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_ci_comp/enade_2017_ci_comp_page_219.txt",
+    "source_sha256": "3927943ff6615469dfc05bee16d692d4ccba0b6e9767b2ef2421ef83e02f20dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e8d62c3f080cdb3d985b07b9ee3d2bfaba2e373ac78958a0196e5bededa928e1",
+  "request_fingerprint": "a43e71556c5ca639a056e0d6df2d8ed36c844df6c9e04db1f15ed06322cbf55c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11a, incluindo título, dados, cabeçalhos e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.12a apresenta a distribuição das questões, considerando-se simultaneamente a classificação dos dois índices. Dentre as questões que alcançaram os maiores índices de discriminação, classificadas com Índice de Discriminação Muito bom, uma delas, a de número 22, obteve o índice mais elevado (0,49) e foi classificada como Médio quanto ao Índice de Facilidade, com 60% dos estudantes, marcando a opção correta. A questão de número 10 foi a mais difícil dentre as 27 questões específicas, com baixo Índice de Facilidade, apenas 10% de acertos. Essa questão apresentou poder discriminatório baixo, 0,09, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 21, com Índice de Facilidade 0,17, o que, em termos percentuais, corresponde a 17% de estudantes, que responderam acertadamente e com Índice de Discriminação de 0,08. Tais questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por isso, as questões 9, 10 e 21, além da questão 27, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "0568f6822021318fdaecc7fc6a53bd944a16e07a946fcde87618529b2225b087",
+  "window_size": 3
+}

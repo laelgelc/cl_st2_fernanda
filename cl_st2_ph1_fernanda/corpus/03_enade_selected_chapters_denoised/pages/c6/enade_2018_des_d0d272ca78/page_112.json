@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a55eeb0c3fd801006af90c90725487d19f2613ecd9504906",
+    "usage": {
+      "input_tokens": 2720,
+      "input_tokens_details": {
+        "cache_write_tokens": 2717,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2717
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 669,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 3389
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_des/enade_2018_des_page_111.txt",
+      "source_sha256": "e770e1db08bb95b3fc23b6989943203f01776456c42a796111c61b663b6fe758"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_des/enade_2018_des_page_113.txt",
+      "source_sha256": "8e12641fddeec8b7ce3bb64cb8a8915012108362f4372d9c601bfced2d006f4a"
+    }
+  ],
+  "created_at": "2026-11-15T01:36:16Z",
+  "duration_seconds": 5.746,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_DESIGN.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_des/enade_2018_des_page_112.txt",
+    "source_sha256": "9066dc598399d00241bf28fadc8a4a5e6a99fcae3cc3bce7c5c195651e2fc468"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "619de158cd2710dc35617f038bf9b1f549241c00bb744d2003a0468d24ae3ea2",
+  "request_fingerprint": "60aa30a43fe49a385fa089c87a67a5aa9aea69b02ccf473a05c613bf0caa4530",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova, juntamente com a questão 5.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 33,1% escolheram a alternativa C (em preto), 18,9% escolheram a alternativa E (em vermelho), 16,2% escolheram a alternativa B (em verde), a alternativa correta, 15,8% escolheram a alternativa A (em azul), e 15,7%, a D (em laranja). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir desse gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 30% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50%.",
+  "text_sha256": "d7b81d19b6f9954c05a221035f21046d2e36fa147d667fa89e8c5f44e5ed931b",
+  "window_size": 3
+}

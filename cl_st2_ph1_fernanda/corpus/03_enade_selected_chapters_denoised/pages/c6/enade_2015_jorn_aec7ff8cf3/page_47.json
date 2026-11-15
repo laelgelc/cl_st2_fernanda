@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb8ac7f3dea2c90006af8fe104ac087d19538ba7c6a7ed95b",
+    "usage": {
+      "input_tokens": 2297,
+      "input_tokens_details": {
+        "cache_write_tokens": 2294,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2294
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 556,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 2853
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_46.txt",
+      "source_sha256": "e9e0416a1125432697b9bf3fcf942a574178a6b243e00d71dd0afc5f89f06820"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_48.txt",
+      "source_sha256": "ce46b48d3949597141cc62ae6ab1cecd05b41419472a4e4c1b4e8b97f3bd1b06"
+    }
+  ],
+  "created_at": "2026-11-15T00:34:24Z",
+  "duration_seconds": 5.002,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_JORNALISMO.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_47.txt",
+    "source_sha256": "44c9ecf61f1f6b42e663a8f3003359fe0ba5e04d6e4c3046024ca7ffdd25ab79"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b6fe2b0a1465d91e9ba8fe0a4403d813da361c1f4d2439797aaca67ec9fecca2",
+  "request_fingerprint": "11f78662933fa4fc96836fa14c5e2c25b139ac079c0fa1828cb20fb3559f19dc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, identificada pelo contexto como pertencente ao Gráfico 3.3 da página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (44,3), vindo a seguir a dos das Faculdades (41,9) e, depois, a Centros Universitários (39,4). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Universidades (15,8). As Universidades também obtiveram as maiores notas Máxima (95,8) e Mediana (45,0). Por sua vez, os Centros Universitários obtiveram, respectivamente, 85,5 e 39,3 como nota Máxima e Mediana. Já as Faculdades, obtiveram, respectivamente, 89,2 e 41,3 como nota Máxima e Mediana. A nota Mínima foi zero para todas as Organizações Acadêmicas, sem exceção.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (45,5) e IES Privadas (42,1).",
+  "text_sha256": "4cdc1fb6575c5a70a8ed1c8f3665dc6ac935377cad4d7a9866323bcd64702870",
+  "window_size": 3
+}

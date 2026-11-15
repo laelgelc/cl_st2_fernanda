@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b7315b74a549b97006af8e96b623c87d18e724b49cb4f4df6",
+    "usage": {
+      "input_tokens": 2535,
+      "input_tokens_details": {
+        "cache_write_tokens": 2532,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2532
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 611,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 3146
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_32.txt",
+      "source_sha256": "7d70aea94c357ea3168d1cc23b3568032d1fc86ce5453fe52e2543c7fea2c673"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_34.txt",
+      "source_sha256": "59f43c1a2d625e45a3ced9551efcf4d4306e1e124168a5e833a1bee28c4b7b29"
+    }
+  ],
+  "created_at": "2026-11-14T23:06:19Z",
+  "duration_seconds": 5.696,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_NUTRIÇÃO.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_33.txt",
+    "source_sha256": "c2898065e3323a6a322f37c0a9dd843455d9fc0efdc8cb88e23270d3592416df"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "936dd5891b65fea7e24a2f9ca97be6bcee2474b71ca2a7ffb79d36832344655b",
+  "request_fingerprint": "0d2a1c64e35f3458a4fa09ff12b0fa5a8e4ecc6f90fbe9c29ded70ca547c563f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1: eixos, intervalos de notas, rótulos dos grupos, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 apresenta informações referentes à nota final de Ingressantes e Concluintes, comparando-se os resultados de acordo com as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica.\n\nConsiderando-se as notas médias dos alunos em cada Grande Região, observa-se que, em relação às notas aferidas em âmbito nacional (média 33,3 para Ingressantes e 46,2 para Concluintes), existe diferença estatisticamente significativa ao nível de 95% entre a menor média de Ingressantes, obtida na região Norte (30,8) e a maior, na região Sudeste (33,9), no grupo de Ingressantes.\n\nEntre os Concluintes, também existe diferença estatisticamente significativa ao nível de 95% das médias. A maior média de notas foi obtida pela região Sul (46,6), ao passo que a menor foi identificada na região Norte (43,3). As demais médias de notas foram 45,9 para as regiões Nordeste e Centro-Oeste e 46,3, para a Sudeste.\n\nLevando-se em conta os grupos dos estudantes em Categorias Administrativas, observa-se que a pontuação média mais elevada entre os Concluintes foi encontrada em instituições públicas (53,8), com desempenho acima da média nacional. Já os Concluintes provenientes de instituições privadas obtiveram média 44,4, abaixo da média nacional.\n\nQuanto aos Ingressantes, as notas mais elevadas, também acima da média nacional para esse grupo de estudantes, ocorreram nas instituições públicas (41,1). Os Ingressantes vinculados a instituições privadas obtiveram nota média 31,2, abaixo da média nacional.",
+  "text_sha256": "a400d2314b6c88099311dc71d5d7d672e86b7a07163b481f66442b6c74d94184",
+  "window_size": 3
+}

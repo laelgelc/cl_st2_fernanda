@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ffce595d9b7b81f006af90c56daa087d1b74859fd91b8d97e",
+    "usage": {
+      "input_tokens": 2009,
+      "input_tokens_details": {
+        "cache_write_tokens": 2006,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2006
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 442,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2451
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_ci_econ/enade_2018_ci_econ_page_95.txt",
+      "source_sha256": "152ef90673beaefb3a9deedc26f05d6223262a5d599d6ff34bbf73d7ff6b1218"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_ci_econ/enade_2018_ci_econ_page_97.txt",
+      "source_sha256": "218f86334a657b4f4353b30d0f0afb71870d5ab81a43366bdf8fb014b93f75f0"
+    }
+  ],
+  "created_at": "2026-11-15T01:35:18Z",
+  "duration_seconds": 4.255,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2018_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2018_ci_econ/enade_2018_ci_econ_page_96.txt",
+    "source_sha256": "2a8095a25e232a697300801ef1357b0dddc765cbb7aa3fd487c00a63bb6ad38f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "907b06364a987f2d20afe6d2adbceaa14b3252d3aa5d2599e9db8b486f6ded7d",
+  "request_fingerprint": "779fbd49b3d6f669403386de9907eaa85c1afff4186ef256f19b86667c6b2ab7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.13; material gráfico e eventuais dados associados excluídos."
+  ],
+  "status": "success",
+  "text": "A Forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 30,8% (região Sudeste) a 41,5% (região Centro-Oeste). O percentual de alunos que citaram a Falta de motivação como dificuldade variou de 22,9% (região Norte) a 29,9% (região Sudeste). Os que declararam não ter qualquer tipo de dificuldade para responder à prova variaram de 11,8%, na região Norte, a 16,1%, na Sudeste.\n\nEm relação aos quartos de desempenho, o Desconhecimento do conteúdo foi a opção escolhida por 18,5% dos estudantes do quarto superior e por 16,2% do quarto inferior. A alternativa modal para os alunos, quando agregados pelos quartos de desempenho, foi que a dificuldade encontrada foi causada pela Forma diferente de abordagem do conteúdo: 38,5% no quarto inferior, 37,5% no segundo quarto, 33,9% no terceiro quarto e 27,8% no último quarto. No quarto superior, 28,9% apontaram a Falta de motivação para fazer a prova. Não há diferenças estatisticamente significativas.",
+  "text_sha256": "1aa955dac250a98a3aa332d5f2315e2344dcd351c6ab24a790ad0f5d124de9c1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e14b0e7bea8d84d006af91b9f977087d1844e966f56285be4",
+    "usage": {
+      "input_tokens": 1668,
+      "input_tokens_details": {
+        "cache_write_tokens": 1665,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1665
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 207,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 1875
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_111.txt",
+      "source_sha256": "7d87bc3bde16974c803ec7a29a94f39c11c6f88f8640aa79b85d32ac997fa301"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_113.txt",
+      "source_sha256": "d531a51bce50c63304031afde52274c9116223aa5809b03cd964bba2f1ee1728"
+    }
+  ],
+  "created_at": "2026-11-15T02:40:31Z",
+  "duration_seconds": 3.232,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADMINISTRAÇÃO.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_112.txt",
+    "source_sha256": "aeb51b1ef58f1aa06c611a8fcc5e7338c699bd80593af51692d37af00a9f2773"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "057f5ec8b62c4fb9f22b61126667852759f529d932ed65af2d8f6786879be483",
+  "request_fingerprint": "d9b5015eb2dff8c745737782cbe6fc2f2656edf3d1b3e69e065151fe65c7c855",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.18, sua legenda e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.18 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 5.18 mostram que a proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (85,7%), se comparada ao quarto inferior de desempenho (66,2%).",
+  "text_sha256": "f16dd53d2a67d89f580c2c0d74081e53c7e266dd901271bcc2b431f7f09a83fb",
+  "window_size": 3
+}

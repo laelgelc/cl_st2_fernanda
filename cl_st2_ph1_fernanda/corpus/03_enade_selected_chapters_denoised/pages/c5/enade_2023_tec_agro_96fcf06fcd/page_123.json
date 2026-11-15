@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0209504259659ec6006af924a2d91c87d1b5bdbe9dd1b883c4",
+    "usage": {
+      "input_tokens": 2351,
+      "input_tokens_details": {
+        "cache_write_tokens": 2348,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2348
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 370,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 2721
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_122.txt",
+      "source_sha256": "ba186ec1de3d383e66fbf11c3768ec57d074d8a48805a69446cb457c547528a2"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_124.txt",
+      "source_sha256": "8ad617dee0bf99dfa4b97914fc6f3093fa06bbc459575f8c3050455b5b634b89"
+    }
+  ],
+  "created_at": "2026-11-15T03:18:58Z",
+  "duration_seconds": 4.516,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_agro/enade_2023_tec_agro_page_123.txt",
+    "source_sha256": "1f7ca91d52db0826886f169eda2ed31f70796c60afc545bca8cf684e90b95075"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "378c71fb65a975d0f8a1cb9481e801b443d2e4411e9db6e29de8a029b9faabc2",
+  "request_fingerprint": "66b8a60579aecd4fb9daac830e13052af4c03bb8e9cab66dd559a13a07e3b84b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, incluindo seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Sul (linha roxa) apresenta 88,9% dos cursos com conceito 3 ou abaixo deste valor. A região Norte (linha azul), por outro lado, apresenta 100,0% dos cursos na mesma situação: com conceito 3 ou abaixo.\n\nDestaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, por exemplo, como ocorre nas regiões Centro-Oeste (linha laranja) e Sul (linha roxa), nas quais todos os cursos têm conceito menor ou igual a 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que os cursos das outras regiões apresentam uma situação intermediária.",
+  "text_sha256": "ead56eaabeeef372069d09e96c59861930ffb960550e913ff6fff0de7aca3e58",
+  "window_size": 3
+}

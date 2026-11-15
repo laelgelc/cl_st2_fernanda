@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007227719066cd63006af8f5dc8a9087d181ed240b0ac9c832",
+    "usage": {
+      "input_tokens": 1699,
+      "input_tokens_details": {
+        "cache_write_tokens": 1696,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1696
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 427,
+      "output_tokens_details": {
+        "reasoning_tokens": 276
+      },
+      "total_tokens": 2126
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_100.txt",
+      "source_sha256": "b077c8bf15dfc037e961fef1166b2091325cb607a46c9f08d88279bed7ed820c"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_102.txt",
+      "source_sha256": "8544e5e64f758fe1f476d191e9cba89331d1c82cdb939afd2a569aca7050a868"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:24Z",
+  "duration_seconds": 5.231,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_arqui_urb/enade_2014_arqui_urb_page_101.txt",
+    "source_sha256": "bdc7d548fd0932752a028735b09933e630b485f433b0fc839ee9441462957ef8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c2f3e6053897b54626f6f5d9a217b241aa4dd60bc331531939ce9c6906e1c713",
+  "request_fingerprint": "ac09ada28443bf12a70880fe76a9d12c0c6c76adfa2b184eeb781f59ecfbd29c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, aparentemente associada a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 43,6% consideraram a extensão da prova adequada no quarto de desempenho inferior e 48,2% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 46,0% no segundo quarto e 46,3% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que, grosso modo, há uma tendência decrescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho.",
+  "text_sha256": "af886a6be60ef95a8c60a8dd52add801b00b290ca80aa8a403126796ff7c4990",
+  "window_size": 3
+}

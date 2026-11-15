@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00fbad12262986c4006af8f1dd3c8487d1ac61e9cdcbfea42c",
+    "usage": {
+      "input_tokens": 1641,
+      "input_tokens_details": {
+        "cache_write_tokens": 1638,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1638
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 259,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1900
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_36.txt",
+      "source_sha256": "b1a6f095957081c7dd7c870fc50da70ec7aafd71746ea6189ba3c4737ed372b9"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_38.txt",
+      "source_sha256": "3754fd6642a592f18421731ccf853116615fffd23a791179ff17765fcfdc1257"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:21Z",
+  "duration_seconds": 3.096,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_37.txt",
+    "source_sha256": "2e44befbe1cabbd9601c5d6935190ac7f902bc8fe2632e8ac3281e44917d4692"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3cc7fb998821818cdf0a33a88f82372fbd641f3c70e69de9206562b0005b5406",
+  "request_fingerprint": "4dc37ee8290681cbacac0f8c20af49f818a1e14eb6404babe6d7cf8400a40389",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», identificada como pertencente ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes dos diferentes tipos de Organização Acadêmica. A média dos estudantes provenientes de Universidades (40,4) foi menor do que a dos estudantes provenientes de Centros Universitários (42,2) e Faculdades (43,3).",
+  "text_sha256": "ebedeaca3065dedd71586cf6b86113c5ff833b6177997c4136c8237ddc0f3bd6",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04d1cb3d4a094e24006af8f459a4ec87d19582c11de36a4708",
+    "usage": {
+      "input_tokens": 1447,
+      "input_tokens_details": {
+        "cache_write_tokens": 1444,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1444
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 222,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 1669
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_46.txt",
+      "source_sha256": "934e484c52a25e60eba735a469fc063f84eb7e8b96267f57aeacc56ed2c4b902"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_48.txt",
+      "source_sha256": "239074a3c757b791c56133203d8df3ec988bb7aa41698f4e7e4c414b8fa10971"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:57Z",
+  "duration_seconds": 2.606,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_47.txt",
+    "source_sha256": "706e4a48b2202c93aa5124f017a45beff04f800a2b6415f14a508acd3460a19c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6dfd755108bec67b735233047be8ae74d71d0e43b2f08c1e7e6e8f134cabf9f7",
+  "request_fingerprint": "de5ef0bb1200f9997e865088c63fa0860ad921cdb28225a7a2bf6829ec961929",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico associado ao Gráfico 3.7 e sua linha de fonte (MEC/INEP/DAES - ENADE/2013)."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Medicina, das IES Públicas (58,7) obtiveram uma média maior do que os das IES Privadas (54,6).",
+  "text_sha256": "8aab34122e4375f31fa213776299625dcbd1a24ad41460f3131840721573ebae",
+  "window_size": 3
+}

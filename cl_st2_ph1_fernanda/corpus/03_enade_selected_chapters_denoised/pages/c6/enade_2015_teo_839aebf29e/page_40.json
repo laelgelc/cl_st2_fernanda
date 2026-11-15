@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd132bddd6e9342006af9011f98c887d1b2d0f0d8410098d1",
+    "usage": {
+      "input_tokens": 2294,
+      "input_tokens_details": {
+        "cache_write_tokens": 2291,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2291
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 834,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3128
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_39.txt",
+      "source_sha256": "918a7939194dd9a4c4ab7d05b957846bd2e214bf4b3031d59aea31d7bfeb7e1a"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_41.txt",
+      "source_sha256": "9bf5f6d207b4da75229c7734af9135e5b6a5db5cb61f5f55e3785767e03f7986"
+    }
+  ],
+  "created_at": "2026-11-15T00:47:27Z",
+  "duration_seconds": 7.061,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_teo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEOLOGIA.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_40.txt",
+    "source_sha256": "1830e8eb77b0f1466857a9dfe4b0edb4856930eaf0f0364859fbdea7b0e3960a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "800b0c827a28733942bfe16066de41160c756dbc20c0ceab062b721501806897",
+  "request_fingerprint": "5f36681dc41423b0909ace3c3b219be3eb7b8f9a4099e0bdc320fe0f969d580c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte. O início do texto é continuação de uma frase da página anterior; foi preservado somente o trecho presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "padrão encontrado na região Nordeste (16,6) e o menor, na região Sul (14,4), indicando uma dispersão um pouco menor das notas desta última região.\n\nA região que obteve a maior nota Máxima foi a Sudeste (95,4), ao passo que a região que atingiu a menor nota Máxima foi a Centro-Oeste (83,7). A Mediana do Brasil como um todo foi 58,7, sendo a maior Mediana obtida na região Sudeste (60,5), e a menor obtida na região Norte (45,6). A nota Mínima foi zero apenas na região Nordeste, ao passo que a maior nota Mínima foi atingida na região Sul (15,5).\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (47,1), e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (60; 70].",
+  "text_sha256": "558996898e8b1db9f73842e02ab2225b4e4ab639412ef206631e042b20c75bdc",
+  "window_size": 3
+}

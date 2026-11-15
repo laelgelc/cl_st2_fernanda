@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fffc07f8e661357006af916d9b4f087d18fdd56ed2d975858",
+    "usage": {
+      "input_tokens": 2765,
+      "input_tokens_details": {
+        "cache_write_tokens": 2762,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2762
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 730,
+      "output_tokens_details": {
+        "reasoning_tokens": 309
+      },
+      "total_tokens": 3495
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_154.txt",
+      "source_sha256": "05cd94523ea3c3281ddfb65b84e6061c594442ef4d7d83b303bed7ca040bf869"
+    },
+    {
+      "page_number": 156,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_156.txt",
+      "source_sha256": "76eeb44bbafdc4c7025712553d24cb5eecac654b93a7908718367656d1b9391f"
+    }
+  ],
+  "created_at": "2026-11-15T02:20:09Z",
+  "duration_seconds": 7.127,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_ANÁLISE E DESENVOLVIMENTO DE SISTEMAS.pdf",
+    "page_number": 155
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_an_sist/enade_2021_tec_an_sist_page_155.txt",
+    "source_sha256": "4ca6705ae34676bafb6270591b46819410f22b825d684d8d3cbbdfccd7b8d6c4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9d8238a9dd505a0d1567dad1248f8b024f7db0c559132ff9a9c26aee8ce34f03",
+  "request_fingerprint": "eb8535d0590c3bc1d6ab338f0e74e7fe722de70aff954f05bbe54f4883ed4485",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2021», aparentemente pertencente ao Gráfico 6.3 mencionado na página anterior; o material gráfico não está presente na extração da página-alvo."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.6, é apresentada uma comparação dos resultados em relação a Categoria Administrativa, a Organização Acadêmica e a Modalidade de Ensino, agora levando-se em conta o desempenho de estudantes do Componente de Conhecimento Específico da prova.\n\nNo que se refere a Organização Acadêmica, a maior Média foi a dos CEFET/IF (35,2), vindo a seguir a das Faculdades (31,5), a dos Centros Universitários (28,5) e, por fim, a das Universidades (26,5). O maior Desvio padrão, e maior que o valor para o Brasil, como um todo, foi o dos CEFET/IF (14,5). As Universidades obtiveram a maior nota Máxima (91,9). Os Centros Universitários obtiveram nota Máxima 81,4, as Faculdades, 84,4, e os CEFET/IF, 77,1. As Medianas foram: 24,3 nas Universidades, 28,3 nos Centros Universitários, 29,3 nas Faculdades e 33,9 nos CEFET/IF. A nota Mínima foi zero para todas as Organizações Acadêmicas. Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, no Componente de Conhecimento Específico entre as notas dos tipos de Organização Acadêmica.\n\nQuanto a Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova, como um todo, ou seja, existe diferença estatisticamente significativa entre as Médias das IES Públicas (34,8) e as das",
+  "text_sha256": "9c4559a97f9001f0c24ab03be478441700723c937d4c9cba8aa0e677176d7313",
+  "window_size": 3
+}

@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_032384cd0731656e006af8eb0927ac87d1bbcbfaf7dd1e4864",
+    "usage": {
+      "input_tokens": 1155,
+      "input_tokens_details": {
+        "cache_write_tokens": 1152,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1152
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 278,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 1433
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_101.txt",
+      "source_sha256": "b99fcabe5e191cfc3211cc8658acd169cdc067bf2903a4189fd9229eb15a72c3"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:13Z",
+  "duration_seconds": 4.322,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_102.txt",
+    "source_sha256": "909e1d8d9a2406941dc1a99b8b54b0abb849c1b70beb4366a2913fac02f2cc73"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e438f148225dffd7843e280e0811e777f7ae3f8f4f8ae8cbb987d870c8b74690",
+  "request_fingerprint": "d06904746572e3841798d964425a10b0680efa8c947821eb96cabb48c7beeda3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed “Fonte: MEC/INEP/DAES - ENADE/2011”, likely a source line for graph or table material; the visual content is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

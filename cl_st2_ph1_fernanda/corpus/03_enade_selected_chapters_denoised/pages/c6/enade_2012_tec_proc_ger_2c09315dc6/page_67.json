@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09f181be196165df006af8f2b1a7cc87d18e64dde729493dc9",
+    "usage": {
+      "input_tokens": 2564,
+      "input_tokens_details": {
+        "cache_write_tokens": 2561,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2561
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 724,
+      "output_tokens_details": {
+        "reasoning_tokens": 385
+      },
+      "total_tokens": 3288
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_66.txt",
+      "source_sha256": "f4bc1b61bee09fd0cd3d7387ed34f3b0c5b79e1e7e02392d731bbcdd17131f08"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_68.txt",
+      "source_sha256": "66955d36f121b30a0fd566794e590b8710c824c3bd30e2bddaca5187f3c19bc6"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:53Z",
+  "duration_seconds": 6.567,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_67.txt",
+    "source_sha256": "61f64a618bc462f517e094b4a579c783aa593d639cddd9e3a0b39d41fb032424"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a51e94e7bf098b5a367605f51dcca276bfd92b6f95737245ec6e2381382bfda",
+  "request_fingerprint": "52fb152bb4a1fc99464156b8e5485562b7a82f33b740efa0b9e3ca31ee0fef2c",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.11, incluindo título, dados e fonte, removida.",
+    "O Gráfico 3.18 é referido no texto; o gráfico parece ocupar parte da página, mas não está representado no texto extraído. A fonte aparece na página contextual seguinte."
+  ],
+  "status": "success",
+  "text": "Brasil foi 15,8. O maior desvio padrão foi encontrado na região Sudeste (17,0), e o menor, na região Norte (14,6).\n\nA maior nota máxima, nas questões discursivas do componente de Conhecimento Específico, foi obtida na região Sudeste (88,3) enquanto a menor nota máxima foi encontrada na região Norte (60,0). Além disso, a mesma nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 13,3, também encontrada nas regiões Norte, Sudeste e Sul. As demais medianas foram 10,0 nas regiões Nordeste e Centro-Oeste.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo [0;10]. Nota-se que a partir desse intervalo há um decaimento da frequência nos intervalos, também sendo relevante não terem sido registradas notas acima de 90,0. O coeficiente de assimetria é positivo (0,99). Este coeficiente também é positivo em todas as regiões (entre 0,77 na região Norte e 1,20 na região Centro-Oeste).",
+  "text_sha256": "c1720c0bd0529c35b40ef241514afc237402b164c73920cb18e31bf9482ab6e8",
+  "window_size": 3
+}

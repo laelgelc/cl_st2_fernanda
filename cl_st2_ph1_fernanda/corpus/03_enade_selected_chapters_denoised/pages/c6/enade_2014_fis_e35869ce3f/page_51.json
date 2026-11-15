@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f4fc4f48f60ab0f006af8f9a6013087d1aef0920fe29ec29a",
+    "usage": {
+      "input_tokens": 2818,
+      "input_tokens_details": {
+        "cache_write_tokens": 2815,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2815
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 3230
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_50.txt",
+      "source_sha256": "b9ed06501759bdac6564faec7cbaea18b462eded27c2ec168205bb37e7bbfb8e"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_52.txt",
+      "source_sha256": "8d3f9b014e402b3ce8b925180b6f734b9e425d67fc2caff009b5504aa65740a0"
+    }
+  ],
+  "created_at": "2026-11-15T00:15:33Z",
+  "duration_seconds": 5.153,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FÍSICA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_fis/enade_2014_fis_page_51.txt",
+    "source_sha256": "dfbdb38cfb1388281df6ae622e15f7e12956e14492a5269395388930a74d2668"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d2822127948d0d6d68725e94da34fb1693b7bf041ba08ad6dc4089de708911fb",
+  "request_fingerprint": "24398208e6a146cee8c1a7a9de10b3d2e796d2a5a65cacbb5398e166a0f065c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte.",
+    "Removido o histograma do Gráfico 3.3 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes dos cursos de Bacharelado e de Licenciatura em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada nas notas baixas. Ambas são distribuições unimodais. O grupo modal é o (30;40] para o Bacharelado e o (20;30] para a Licenciatura.",
+  "text_sha256": "ccf863adb5b27c8f472050ec5fca5b0a5fd05052c36b20e65a09f0dbec2f4f57",
+  "window_size": 3
+}

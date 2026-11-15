@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0220ee7d89af46ab006af8f48d1e5c87d1bf1fc8ba7fac46b1",
+    "usage": {
+      "input_tokens": 2505,
+      "input_tokens_details": {
+        "cache_write_tokens": 2502,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2502
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1347,
+      "output_tokens_details": {
+        "reasoning_tokens": 1032
+      },
+      "total_tokens": 3852
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_65.txt",
+      "source_sha256": "1949cb2f4423a2d404a349cf0ef708a41d8fa626607663eed9592c4373b5b412"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_67.txt",
+      "source_sha256": "035f30f1f17f0d79fe1c063b5984ae2eb386beffabb6801f3d56709ce4a733e0"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:49Z",
+  "duration_seconds": 11.412,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_66.txt",
+    "source_sha256": "e15bb69d3acd9fbd0fcfe12da59bdbb1b0ed29cf9c1463d1a63eb9f406a4a05c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1e64f21acc378f60c4310ed6f88f435e19fc6b58d01d925b7d943f80ad8c2aae",
+  "request_fingerprint": "71cacb0af5666716910f352f44bab3f749b3027700336bcaccad4f2fb1d8beb1",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.10, incluindo título, dados e fonte, removida. A prosa refere-se ao Gráfico 3.17, mas não há dados ou rótulos gráficos visíveis na extração da página-alvo; a linha de fonte no início da página de contexto adjacente pode pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "A mediana foi 40,0 nas regiões Nordeste, Sul e Centro-Oeste, mais alta na região Sudeste (45,0) e mais baixa na região Norte (25,0). A mediana para o Brasil como um todo também foi 40,0. As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Neste gráfico, desconsiderando-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 23%), observa-se a moda no intervalo (40; 50].\nO coeficiente de assimetria das notas nesta questão é negativo (-0,07), indicando que a distribuição é assimétrica à esquerda. O mesmo ocorre para a região Sudeste (-0,26), enquanto que para as demais regiões, a assimetria é positiva (entre 0,02 na região Sul e 0,43 na Norte).",
+  "text_sha256": "e52de248d8fa3076e21f8cdb1829d9a4b975fd539689ccddd6ea055faef17267",
+  "window_size": 3
+}

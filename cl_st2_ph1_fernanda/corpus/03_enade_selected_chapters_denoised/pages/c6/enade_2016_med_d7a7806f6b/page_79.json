@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a88ce0d034806f3006af902dccad087d1ac7ae6305885547a",
+    "usage": {
+      "input_tokens": 2226,
+      "input_tokens_details": {
+        "cache_write_tokens": 2223,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2223
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 293,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 2519
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_78.txt",
+      "source_sha256": "29be0754950b51f3adf2495341d2d6782cbceb7275f83e38c19f503af70f66fe"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_80.txt",
+      "source_sha256": "02f7a3bc3de3b7363b7a37b1b381b0ad656c4309e1ef8dd542e8609159e2a5cd"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:52Z",
+  "duration_seconds": 3.761,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_79.txt",
+    "source_sha256": "f2961cdfa608441d096abe56ac1743505722d9718ec2366c689f8355fd5de4d2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ea4ebc5b3f29199a3d67ec2edc6b371bb0f282555a7dcc30e8d345eb13ea22ee",
+  "request_fingerprint": "0bc0a46b16183d8c6e097a7d83d0e0c4989b57a3bf76a4da5b8cb2d094b17a77",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.18, incluindo título, dados e fonte, e o material gráfico do Gráfico 3.11, incluindo sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Medicina. Poucos estudantes deixaram a questão em branco, mas muitos receberam nota zero, quase a mesma quantidade daqueles que obtiveram notas no intervalo modal (0; 10]. Destaca-se, ainda, outro máximo local no intervalo (30; 40].",
+  "text_sha256": "c78507869448431bc3c7d2d38d2438170935aebe625423465976be2f36e8a8c4",
+  "window_size": 3
+}

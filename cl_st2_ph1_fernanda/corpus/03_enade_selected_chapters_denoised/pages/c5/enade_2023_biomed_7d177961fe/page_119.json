@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e12762eb6eaedbd006af921841fc487d1bd8119ee4c28d41c",
+    "usage": {
+      "input_tokens": 3137,
+      "input_tokens_details": {
+        "cache_write_tokens": 3134,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3134
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 528,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 3665
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_118.txt",
+      "source_sha256": "c312a8778406149481235488fad0e5f5f09feccd575cdeaf1786ca92b68502e0"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_120.txt",
+      "source_sha256": "575ca1dac19539ac10550b4214bd1a482e2f6bf45d162e1da295b368fbbb935d"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:40Z",
+  "duration_seconds": 5.533,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_119.txt",
+    "source_sha256": "4d69f3e4a5857364fc0025be24a9f3f727d31f6bcbfbd0d0dfd8185f72c009e6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1d33653a1cf3eaf97c5e2bda3ca51217910bddf86006ee47ad9e173b7facb517",
+  "request_fingerprint": "4f95db12ca4de703bafed78287e3860d00cd5d8e6e2b6ffc105dc2cbbd795cf8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, sua legenda/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 2, ou seja, conceitos 1 e 2, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 76,3% dos cursos com conceito 2 ou abaixo deste valor. A região Sul (linha roxa), por outro lado, apresenta 41,6% dos cursos na mesma situação: com conceito 2 ou abaixo. Destaca-se que, na região Centro-Oeste (linha laranja), o conceito 5 não foi alcançado por nenhum curso, diferentemente das regiões Nordeste (linha verde), Norte (linha azul), Sudeste (linha vermelha) e Sul (linha roxa), nas quais todos os cursos têm conceito menor ou igual a 5, por isso as respectivas poligonais cumulativas dessas regiões alcançam 100% no conceito 5. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Sudeste (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "40a3de1b99374111fe076438560a0775cd8575f7aac27526a41342bebca5a963",
+  "window_size": 3
+}

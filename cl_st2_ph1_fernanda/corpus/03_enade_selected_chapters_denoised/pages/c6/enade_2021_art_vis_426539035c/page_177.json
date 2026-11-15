@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05f80de5570ed158006af916fae16887d19ccd1e8919863b49",
+    "usage": {
+      "input_tokens": 2624,
+      "input_tokens_details": {
+        "cache_write_tokens": 2621,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2621
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 558,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 3182
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 176,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_art_vis/enade_2021_art_vis_page_176.txt",
+      "source_sha256": "3afbb1150af8382bf7650993ab828fb4988ad8b4a382b08e2573a973a2b101f9"
+    },
+    {
+      "page_number": 178,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_art_vis/enade_2021_art_vis_page_178.txt",
+      "source_sha256": "3e70437371371745ed15e58cf036852f4f9bec681b482d61769bdf2f8f348607"
+    }
+  ],
+  "created_at": "2026-11-15T02:20:42Z",
+  "duration_seconds": 4.518,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_ARTES VISUAIS.pdf",
+    "page_number": 177
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_art_vis/enade_2021_art_vis_page_177.txt",
+    "source_sha256": "350b03b2b54825bd9b981ca5132dfce53e6f4587d96856883d58704fb41e8eac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5d0cf59584a2f5fbfd4ccbeccd6588a6ce0506a01b6020944dffb72604c25977",
+  "request_fingerprint": "cc48779753799517cbda441428a40de00c2468e5e88e61b16fe7a9088991b718",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 45,0% escolheram a alternativa E (em vermelho), 27,6% escolheram a alternativa B (em verde, gabarito), 11,9% escolheram a alternativa D (em laranja), 9,9% escolheram a alternativa A (em azul) e 5,0% escolheram a alternativa C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,5% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,47) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 80,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "c3b5e2e809ed0124a34b1d447256ce1afddf99e34f96750ae8cc325ff5a45353",
+  "window_size": 3
+}

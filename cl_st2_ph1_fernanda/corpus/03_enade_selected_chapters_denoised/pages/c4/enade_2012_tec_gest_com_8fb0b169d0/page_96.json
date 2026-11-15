@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001d5676ce20ae52006af8f1d5bf1087d1a212183d73694837",
+    "usage": {
+      "input_tokens": 1359,
+      "input_tokens_details": {
+        "cache_write_tokens": 1356,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1356
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 813,
+      "output_tokens_details": {
+        "reasoning_tokens": 678
+      },
+      "total_tokens": 2172
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_95.txt",
+      "source_sha256": "bd674a7841f8ccea0ac22def44feac906b86d23e2c39b0854d770a4defc5c251"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_97.txt",
+      "source_sha256": "ecb3b9d463a8e8f09ac6834955b9313c1a89119be15cae8cc07d8afd3ce0b124"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:13Z",
+  "duration_seconds": 9.205,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_96.txt",
+    "source_sha256": "d5f19097a0f328feab14202a723157f577635c5dd25069ca2f4dc96582ab5f64"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "67f79ebe1bbc8c123c8531de946d0622d2ce25439492a7ab640e019d5052d59b",
+  "request_fingerprint": "5f1365646ca500605bbba0650f4dd35703a66915ebbffaf70f8814027eb66d50",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», possivelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 79,9% e 47,5%. As diferenças entre os quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "eed5c1a4d4d27ecaf2db2570d0fe3f399ed25ea68b4faa3750c055ada0e4e003",
+  "window_size": 3
+}

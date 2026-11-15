@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a3a73e197dadfa2006af8eb40b36087d18a77e292938293a3",
+    "usage": {
+      "input_tokens": 1696,
+      "input_tokens_details": {
+        "cache_write_tokens": 1693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 259,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1955
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_46.txt",
+      "source_sha256": "6362fb91f98238954482ae2839ebedcd9f290e4c676287cf697c72f4406c2384"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_48.txt",
+      "source_sha256": "88ac9bfcaa41e06784590190aad1880afe65f5e1ff81a9d5ccde2e3d67addacd"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:08Z",
+  "duration_seconds": 3.699,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_47.txt",
+    "source_sha256": "dd523a6d6bf95da53abc88b5cf5b7311bfb88f0589f7613b0a457a303cc6e5c2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ddf36e7eb80f504454c7ff137f910f208467c4551d1478dcd1bbd21a26569e18",
+  "request_fingerprint": "8a8bc63b135780b18dc2aa8db796bdc48ecf9bc2958f170e0f60b073de82fcbd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades, Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (33,6), e a menor, pelos de Faculdades (29,4).",
+  "text_sha256": "2081590caebc77d109ad70a113679f65bf6bbe5cf67c3bb053d7376a48a0c4d9",
+  "window_size": 3
+}

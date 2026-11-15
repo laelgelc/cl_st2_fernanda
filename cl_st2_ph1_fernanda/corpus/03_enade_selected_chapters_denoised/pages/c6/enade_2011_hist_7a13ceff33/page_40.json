@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0515bfa1420e8f75006af8edb0700487d18a6a6c3c805c92df",
+    "usage": {
+      "input_tokens": 2295,
+      "input_tokens_details": {
+        "cache_write_tokens": 2292,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2292
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 772,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3067
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_39.txt",
+      "source_sha256": "7b5d3397a3f600445b9da885b5e3ccd3c5ca491eab72e5b20fa8f0bcee7d5618"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_41.txt",
+      "source_sha256": "45f91f36705861627065db52c75b343d2c1898290eba9ddd57c0017c6167ee29"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:32Z",
+  "duration_seconds": 8.588,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_40.txt",
+    "source_sha256": "2f71541e9a6e0c5dbd3efe064c0ad5836c5dfe1babde580a67a2969b756e84ef"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "49b96706d200dc0142fd6c8bd9a44c57b0265118927cf09e5fbd642b000b4976",
+  "request_fingerprint": "657d55705cae404459de0acf8f9d046057f5d4f6f344083304d5fcdf4952e535",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES - ENADE/2011 source line at the top, which appears to belong to graph or other visual material."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 45,9. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 23,4. A maior média foi obtida na região Centro-Oeste (49,6), e a menor, na região Sudeste (43,8). As demais médias foram: 49,5 na região Norte; 45,2 na região Nordeste; e 48,3 na região Sul. Já o maior desvio padrão foi obtido na região Sudeste (25,1) e o menor na região Centro-Oeste (18,8). Os demais desvios padrões foram: 20,5 na região Norte; 23,7 na região Nordeste; e 22,0 na região Sul.",
+  "text_sha256": "d0afa0d84bced6b9636950a63da4c3a1060e9c9e94b7e63bf54a7e6b1c70eae4",
+  "window_size": 3
+}

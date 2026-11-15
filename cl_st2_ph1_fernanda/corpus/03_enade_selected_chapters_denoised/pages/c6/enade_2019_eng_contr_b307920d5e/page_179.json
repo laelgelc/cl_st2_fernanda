@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07116d9d68ad7d9b006af9116c837887d1bd02d3639fae3cd8",
+    "usage": {
+      "input_tokens": 2594,
+      "input_tokens_details": {
+        "cache_write_tokens": 2591,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2591
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 309,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 2903
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 178,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_178.txt",
+      "source_sha256": "e1b7c2592caf6eda6cb2c5b1bb78adeba63f620a47f4d482841d182e0a0602c5"
+    },
+    {
+      "page_number": 180,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_180.txt",
+      "source_sha256": "911efafdfe545771031ec8b5378b48b5dd4080ce523d2634489adf564ebfaadf"
+    }
+  ],
+  "created_at": "2026-11-15T01:57:00Z",
+  "duration_seconds": 3.704,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 179
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_contr/enade_2019_eng_contr_page_179.txt",
+    "source_sha256": "467e4b93abece0f29d337f4276c4d360f344c9cff4da8fbfeacabc402e4c3781"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9586a98ac31c636a927c27a26602b0e9007d8a84f748455de157381a39aacf78",
+  "request_fingerprint": "4fca77a44847ed07c054c33cb11868e532ff223111c4d45afb1443d5c900408c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.9; o gráfico e seus elementos visuais não aparecem no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral da questão 1. Observa-se que a maior frequência (18,7%) corresponde à dos estudantes que obtiveram nota no intervalo (10; 20]. Destacam-se, também, os estudantes que deixaram as respostas à ambas as questões em branco, representando, aproximadamente, 13% do total.",
+  "text_sha256": "af87f332b280e8d0c8289ed84dfa2f38f9df1a3248a55aaa64d489748eebe009",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fead42fd465f982006af8e85c77c087d1bca1b7abfc3a759d",
+    "usage": {
+      "input_tokens": 2273,
+      "input_tokens_details": {
+        "cache_write_tokens": 2270,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2270
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 2775
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_34.txt",
+      "source_sha256": "b12d7ecb714e24182e983705872c3c90f6fc290d5f1e4b6514c332566e328d20"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_36.txt",
+      "source_sha256": "e03660add71d5d0e2dcf180c5f07211de6e1987901e6d9479240e685535cf603"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:48Z",
+  "duration_seconds": 5.11,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_BIOMEDICINA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_35.txt",
+    "source_sha256": "45f225f0ef355aef7e6a9dc7ef93ca2b7d389fcdc5ee47ecb5dcc1887a52fd99"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "40ba19fe4c34c976b6f4867c42068af27c5b6411d6fc810831076f48f685e3cb",
+  "request_fingerprint": "0928a5b22b430be31515734257af5a2dd6264e37ccca1a7b34dce7e4e81aebe6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1: distribuição de notas, intervalos, percentuais, grupos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 apresenta informações referentes à nota final de Ingressantes e Concluintes, comparando-se os resultados de acordo com as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica.\n\nConsiderando-se as notas médias dos alunos em cada Grande Região, observa-se que, em relação às notas aferidas em âmbito nacional (média 33,3 para Ingressantes e 43,7 para Concluintes), existem diferenças a serem postas em destaque. A menor média obtida por Ingressantes foi encontrada nas regiões Norte e Centro-Oeste, ambas 33,1, apenas um pouco inferiores para esse grupo em relação à média nacional. A maior foi detectada na região Sul (34,9).\n\nEntre os Concluintes, a maior média de notas foi obtida também pela região Sul (45,6), ao passo que a menor foi identificada na região Centro-Oeste (42,8). As demais médias de notas foram 43,5, tanto para a região Norte quanto para a região Sudeste, e 43,0 para a região Nordeste. Destaca-se a região Sul com médias superiores às nacionais, tanto para o grupo de Ingressantes quanto para o de Concluintes.\n\nLevando-se em conta os grupos dos estudantes em Categorias Administrativas, observa-se que a pontuação média mais elevada entre os Concluintes foi encontrada em instituições públicas (48,7), com desempenho acima da média nacional. Já os Concluintes provenientes de instituições privadas obtiveram média de 43,0, um pouco abaixo da média nacional.",
+  "text_sha256": "d761a8b12461c07d03134fc8e74ae02b2b5684eb3ef300a85d307c1f0d590136",
+  "window_size": 3
+}

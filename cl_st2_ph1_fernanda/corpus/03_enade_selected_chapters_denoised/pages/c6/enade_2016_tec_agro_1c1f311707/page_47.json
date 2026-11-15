@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02df840c97f407cb006af9038065e887d18fbfe8a673049adf",
+    "usage": {
+      "input_tokens": 2719,
+      "input_tokens_details": {
+        "cache_write_tokens": 2716,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2716
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 832,
+      "output_tokens_details": {
+        "reasoning_tokens": 364
+      },
+      "total_tokens": 3551
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_46.txt",
+      "source_sha256": "1de77936d66a7218d89c17da963a2039044271560580a99259fdb5a328ff499c"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_48.txt",
+      "source_sha256": "2fde1b14e582ec529a6fd98ed0abc549b3c5ef8666db8a40c5d89774dabf5ce2"
+    }
+  ],
+  "created_at": "2026-11-15T00:57:36Z",
+  "duration_seconds": 7.057,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_47.txt",
+    "source_sha256": "699f30e1891040d02040a1141119694532869a4490ccb330b91a44471a9dd6a3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db6988389c82169452f838cc830e66b5d43d8696625b604031cd67d4656fdb3f",
+  "request_fingerprint": "cbf4fb3d7e9a9093ffec25ae8ff43126590c5ba007f978352ee5a9d40163aad5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "O contexto indica material gráfico do Gráfico 3.3 associado à página-alvo; foi excluído. A fonte do gráfico aparece no contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "Sudeste (13,4). Os demais desvios foram: 13,7 na região Norte, 13,8 na região Centro-Oeste e 14,3 na região Sul.\nA Mediana das notas dos estudantes de todo o Brasil foi 43,0. A maior Mediana ocorreu na região Sul (47,4), e a menor, na região Nordeste (36,3). As demais medianas foram: 39,5 na região Norte, 41,5 na região Centro-Oeste e 43,0 na região Sudeste. A nota Máxima do Brasil, como um todo, foi 89,0, sendo obtida por, pelo menos, um aluno na região Sul. As demais notas máximas foram: 70,8 na região Nordeste, 76,5 na região Norte, 78,0 na região Centro-Oeste e 78,8 na região Sudeste. A nota Mínima foi 2,0 e foi obtida na região Nordeste. A região Centro-Oeste teve nota Mínima 4,0, nas regiões Sudeste e Sul a Mínima foi 10,0 e na Norte, foi 10,5.\nObserva-se que existe diferença estatisticamente significativa da menor Média das notas do Componente de Conhecimento Específico da região Norte (38,6) em relação à maior Média da região Sul (46,6).\n\nAssim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Tecnologia em Agronegócio em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo grupo modal da prova como um todo e acima do grupo modal para a Formação Geral.",
+  "text_sha256": "12ab0fce29261b0d91059243ffd434ca196391fcbc758a4f56265423a92ff94a",
+  "window_size": 3
+}

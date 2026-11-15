@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_061ece1ab4776a73006af8f43af66c87d1b98a8c9525d3dca7",
+    "usage": {
+      "input_tokens": 2081,
+      "input_tokens_details": {
+        "cache_write_tokens": 2078,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2078
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 332,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 2413
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_75.txt",
+      "source_sha256": "e723346667c5c1164788dc10e5932d06240ac1c40d0e936c703c0344a6cb5eb0"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_77.txt",
+      "source_sha256": "3235cc70fa8d30b630a90e8834e676407a0709462bca73a1f54273498c1dae0e"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:26Z",
+  "duration_seconds": 3.136,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_76.txt",
+    "source_sha256": "dd70a0df2d9c9341e08fbbedfcf805d71ec3089e65b6b06f0900ade9fe3d2315"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "49695f5f004539f6d8a4ebf22b5c257551c73d7711d6a2d3007da4c98e16898f",
+  "request_fingerprint": "5b45ea325871c917e0c8a39db1a0eb48ebf293b52f4571f374713a98d4b5c015",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "a mediana da região Sul (10,0), indicando que pelo menos metade dos estudantes de cada região recebeu nota zero nesta questão, seja por terem deixado a questão em branco, seja pela inadequação da resposta.\n\nO Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico. Essa distribuição apresenta uma moda nas questões com nota zero. O coeficiente de assimetria é positivo para todo o Brasil (1,15) e para todas as regiões (entre 0,85 na região Sul e 1,91 na região Norte), indicando uma assimetria à direita.",
+  "text_sha256": "76718228896628bb1020b3f24fd9f86cfcc94f8a35b0915186ca894933820b1f",
+  "window_size": 3
+}

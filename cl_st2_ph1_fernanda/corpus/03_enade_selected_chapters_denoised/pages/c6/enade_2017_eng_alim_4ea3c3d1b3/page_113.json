@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0390345ea45a8552006af9065ba80487d1a6e12a858c935d1e",
+    "usage": {
+      "input_tokens": 2855,
+      "input_tokens_details": {
+        "cache_write_tokens": 2852,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2852
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 604,
+      "output_tokens_details": {
+        "reasoning_tokens": 289
+      },
+      "total_tokens": 3459
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_112.txt",
+      "source_sha256": "73ffaf3141df39ee0f871fda1a894fe0b2d6c3cfdb43dd78659f72d333f63b98"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_114.txt",
+      "source_sha256": "ca25b089d1b8af94c10c008c69d71af14938897a56e6cde8469fca1ba09f66b6"
+    }
+  ],
+  "created_at": "2026-11-15T01:09:40Z",
+  "duration_seconds": 23.89,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_alim/enade_2017_eng_alim_page_113.txt",
+    "source_sha256": "933c9a58cc5a2607295b5052bf3abad2f0d51e985bfa48fdbb805eee0a8488a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b9fcb1b17409a1c7c8da03c6e2f17e148cf63635049cc2019e03ec2227f6bb3a",
+  "request_fingerprint": "03bc86d4bc414345adfbb6024b99317a95e173fd9262f343a9cfd983b04f2ad4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n6.2.2 Componente de Conhecimento Específico\n\nA Tabela 6.10 apresenta as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Engenharia de Alimentos por Grande Região. Nessa parte da prova, nenhuma questão foi anulada pela Comissão Assessora da Área. Porém, como será discutido ainda nessa seção, sete questões objetivas do Componente de Conhecimentos Específicos não foram usadas no cômputo das notas por",
+  "text_sha256": "67f385d33e1cb2c61c178c5f287d005db0838acfb8d8874f1cb72a913778d417",
+  "window_size": 3
+}

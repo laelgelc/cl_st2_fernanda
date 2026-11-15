@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00dac81eece729a7006af8fb04bd4487d1ba606caa25afbdec",
+    "usage": {
+      "input_tokens": 1675,
+      "input_tokens_details": {
+        "cache_write_tokens": 1672,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1672
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 2018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_112.txt",
+      "source_sha256": "ae7c94027865a0d8d482e1072bb8f9bd65ad8e51f7ebe25c014bd61d50e4c370"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_114.txt",
+      "source_sha256": "82c735aea88643b1ae25b08f97cad79e21a49006646379129522cd505ec94595"
+    }
+  ],
+  "created_at": "2026-11-15T00:21:24Z",
+  "duration_seconds": 4.105,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PEDAGOGIA.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_pedag/enade_2014_pedag_page_113.txt",
+    "source_sha256": "6f210392e9bc1bd66e09cf179bb884b8c30730f9852cf7995c24b82fbd11a845"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a81c86bd51869b5d9a5403aedab0f08f0cdf93165368c67ac4c5e8a8047c74eb",
+  "request_fingerprint": "74a1d35e7821ab48a3f32b35e4c76e17f64744b202d044a932997bcc68f06b50",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 11,6% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,9% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa e os valores são decrescentes com o desempenho.\n\nTendo em conta o quarto superior, 85,7% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 50,2% optaram pelas mesmas categorias.",
+  "text_sha256": "daf230272d05ccc7eb4886de61e3fc34ab9e7ee61e96af04e4ab293f6cbadeca",
+  "window_size": 3
+}

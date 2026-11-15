@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af319d68e66c87d006af91151acc887d18046bce4cc02783b",
+    "usage": {
+      "input_tokens": 1480,
+      "input_tokens_details": {
+        "cache_write_tokens": 1477,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1477
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 1884
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_129.txt",
+      "source_sha256": "00ae83e0a25032c431fba82412c067d402acf1409624da6af0e1d260eca968f2"
+    },
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_131.txt",
+      "source_sha256": "8714b8498a23c365636bd479e8d89f3d8f45b0b1057555f21f5bc0b1ccf3aa3c"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:33Z",
+  "duration_seconds": 5.274,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 130
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_130.txt",
+    "source_sha256": "4b99954a260b8bae8eb03329afa69e7f24db6177a7a65d0be7130d4ae4314c0a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "56a83e9a3b0e3e3550ba7f7854d01d8c5e377681a7f30001ae36a6a8ac8ee7cf",
+  "request_fingerprint": "be590e93cc4d9e265c24fb62ec543af4bf4effb160afa41f6fd73b0308298bc4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.35. “CEFET/IF” aparece isolado ao final da página e pode ser um rótulo do Gráfico 4.36; removido como provável material gráfico."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, observa-se que, nas IES Públicas, 72,3% declararam ter gasto Entre duas e quatro horas para concluir a prova, sendo 78,3% nas IES Privadas com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade nas duas categorias é estatisticamente significativa (ver Gráfico 4.36 e Tabela II.18 no Anexo II).",
+  "text_sha256": "db77af3bc2eb79f6177da764ffee551c9b3d9751000b369b59941a8496f02673",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_088af36ff512b45a006af912e6373c87d1bbde82aa2a88b0c9",
+    "usage": {
+      "input_tokens": 1787,
+      "input_tokens_details": {
+        "cache_write_tokens": 1784,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1784
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 382,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 2169
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_105.txt",
+      "source_sha256": "6507f809ee6dd232ee6613e6535d9c6e95089ba140c1ad6011ec3809bcd6b57e"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_107.txt",
+      "source_sha256": "8268780de56a0b3a837419ac858336030747b03af0aa10f7a018b83161f4e0dc"
+    }
+  ],
+  "created_at": "2026-11-15T02:03:18Z",
+  "duration_seconds": 6.388,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_farm/enade_2019_farm_page_106.txt",
+    "source_sha256": "4b96f767706490eeff0ea96b4063a06727dd1c36fc100cfdf4cdd545dfdde24c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d804663a7f1420e56df1a51d460e99939dffd4158eec8ee69967dad652830aa4",
+  "request_fingerprint": "0f9070440e80189fc31a5d4aa5d58764c7941c3335e7341b99f41dc70d770036",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. “CEFET/IF” parece ser um rótulo do Gráfico 4.24, cuja legenda e fonte aparecem na página seguinte; removido como material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que considerou que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi menor entre os estudantes de cursos de IES Privadas (83,3%), uma diferença estatisticamente significativa da proporção em IES Públicas (89,8%) (ver Gráfico 4.24 e Tabela II.12 no Anexo II).",
+  "text_sha256": "25db5cf21ea096f68fef8db818ea8a06a3c37ab92111a45fa3dda8ed040b99dd",
+  "window_size": 3
+}

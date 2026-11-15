@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0484f3ca4a3bc66a006af92551021c87d18632982ea3f69a7f",
+    "usage": {
+      "input_tokens": 2585,
+      "input_tokens_details": {
+        "cache_write_tokens": 2582,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2582
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 468,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 3053
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_140.txt",
+      "source_sha256": "11d4c03cbd2e04c93e4b164188ab90b58cca17f305f2ab2725e5951144dcc73f"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_142.txt",
+      "source_sha256": "6c7631e0f70c4804d40bd13cb32be4daab46e98c324a382ba8cc82e8e43a2b42"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:52Z",
+  "duration_seconds": 3.552,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC RADIOLOGIA.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_rad/enade_2023_tec_rad_page_141.txt",
+    "source_sha256": "172db03ee8a9686099d97490de09aed94ac20787cbb5644c84e72f7f1acf88a8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b4a8a261bc199e7d73ac6528845aabd134874e8e3cdcf7edc2cb5dec1ceb83d9",
+  "request_fingerprint": "54ca687c5880e6ff3a33ffc94d3a54277d9a7c1eb866059ae269529d66837d90",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 5.6."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.6, é apresentada uma comparação dos resultados em relação à categoria administrativa, à organização acadêmica e à modalidade de oferta, levando-se em conta o desempenho de estudantes do componente de Conhecimento Específico da prova.\n\nDe acordo com os dados expostos na Tabela 5.6, no que se refere à organização acadêmica, a maior média foi dos CEFET/IF (55,5), seguida das faculdades (48,7), e dos centros universitários (43,2) e, por fim, das universidades (42,7). O maior desvio-padrão foi o das faculdades (15,7). Os CEFET/IF obtiveram a maior mediana (56,0). Já as notas máximas foram: 86,2 nas universidades, 91,8 nos centros universitários, 87,2 nas faculdades e 85,6 nos CEFET/IF. A nota mínima foi zero para apenas para universidades. Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, no componente de Conhecimento Específico entre as notas dos tipos de organização acadêmica, exceto entre universidade e centro universitário.\n\nQuanto à categoria administrativa, existe diferença estatisticamente significativa entre as médias das IES públicas (54,3) e as das IES privadas (42,6). Neste caso, assim como no componente de Formação Geral, a maior média foi obtida por estudantes de IES públicas de ensino.\n\nOs cursos de educação presencial apresentaram maior média (47,2) em relação aos cursos a distância (39,6), sendo a diferença estatisticamente significativa.",
+  "text_sha256": "40325239661f5c1c5462dec3d17fc727c33ac184536db139447f13dc27861913",
+  "window_size": 3
+}

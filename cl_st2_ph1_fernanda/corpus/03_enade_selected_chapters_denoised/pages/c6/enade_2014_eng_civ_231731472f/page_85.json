@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c0b8c2ee50d53ec006af8f79edc3487d1b485774f0f202b9b",
+    "usage": {
+      "input_tokens": 2383,
+      "input_tokens_details": {
+        "cache_write_tokens": 2380,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2380
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 2610
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_84.txt",
+      "source_sha256": "f05637d805285ac4d56278b7029d49252f2ad3f358d93d1c4ba075ad4098d9bf"
+    },
+    {
+      "page_number": 86,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_86.txt",
+      "source_sha256": "094fb3d8343e3b1a845b6a67e172be69d8ab71b0d0ffe11f73789128bc905161"
+    }
+  ],
+  "created_at": "2026-11-15T00:06:54Z",
+  "duration_seconds": 3.001,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA CIVIL.pdf",
+    "page_number": 85
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_civ/enade_2014_eng_civ_page_85.txt",
+    "source_sha256": "4d669a4dba67daa246413b255a7daa87d882658f55bf3d8773f64a6fb773f1b2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "58aa41045e1f7ef275d3417d064a76deba7e075c07b156193e1353494d71015c",
+  "request_fingerprint": "bf6f749e023b2e262c38aef1aaa333b70eb17fdc2f740a2bb084cafa4bc2bda0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material do Gráfico 3.13 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 apresenta a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico de Engenharia Civil. Destaca-se, o grande número de estudantes que deixaram esta questão em branco, quase alcançando o valor modal, que está no intervalo (20; 30].",
+  "text_sha256": "0154bad904e91ff723b3bb14fa88f4422dfb2ebea9678e254f66d4eb708a567b",
+  "window_size": 3
+}

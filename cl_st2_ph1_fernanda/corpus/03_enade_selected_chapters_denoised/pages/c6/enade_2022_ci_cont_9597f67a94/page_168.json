@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c04fec8f6b9a1f2006af91becf07487d19e86345bd2210871",
+    "usage": {
+      "input_tokens": 2230,
+      "input_tokens_details": {
+        "cache_write_tokens": 2227,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2227
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 2625
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_167.txt",
+      "source_sha256": "d55141b8b3d04479797d567cc277a0aad43d2eba56c2d97b8dbdf9129ee9b1be"
+    },
+    {
+      "page_number": 169,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_169.txt",
+      "source_sha256": "59aab7d9e35060914d1f7e384caaff7db5e4e63c7f8d86c1b0b7f91a67bd45b6"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:48Z",
+  "duration_seconds": 4.254,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 168
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_168.txt",
+    "source_sha256": "ea41476df449348086b1a6005f58ca283dee44acfa23a930bb4e5ae002c4fb96"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3b5ef435a8d53f4eeabb7517944a57154e5dc16c4ba7e30c5a4560e2a262a9ab",
+  "request_fingerprint": "eaf1dad2b3931862ee48a514fd5fb187fb6d95e6c1ee9b1fa3f3c4d096b697f7",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que, na segunda fase, a de inspeção visual seja constatada uma resposta). O critério usado nesse pré-processamento é verificar para cada questão, a partir da quantidade de pixels, o que provavelmente, é uma resposta em branco. A partir da separação desses documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Desse modo, quaisquer erros desse pré-processamento são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.",
+  "text_sha256": "8c9edfbd02a7148564ff083cc4a00fbb59a9ddbe5e708ac458486ebab0d33d6f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_018ea2e06a5359c1006af906c5c5c087d19960f0ed8da105cc",
+    "usage": {
+      "input_tokens": 2856,
+      "input_tokens_details": {
+        "cache_write_tokens": 2853,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2853
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 850,
+      "output_tokens_details": {
+        "reasoning_tokens": 316
+      },
+      "total_tokens": 3706
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_125.txt",
+      "source_sha256": "fcd106904c3211e9742cbbf78b8cb1bd97c0e7df8a788178f0a200dcc7c41206"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_127.txt",
+      "source_sha256": "aa2731ba41a091935439cb137a25b1259213469f8750e3ec8ceec9e8c8dc2ac5"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:33Z",
+  "duration_seconds": 8.745,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_126.txt",
+    "source_sha256": "cc04b5776679a8ecdce1c987dad710eb1a8433de7d55298660bdd12535225b3e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "990ee5920442ca6a762612143d1a4361455a50784c4bf3759c2d746dc25cd1b2",
+  "request_fingerprint": "94710e59c0e06c695d1f47480e89377ebf74efae02e0a7ad08fdc869559f39e8",
+  "retry_count": 0,
+  "review_notes": [
+    "A Tabela 6.9 foi removida, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "que apresentou o maior poder discriminatório, com índice 0,51, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,62 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,87. A questão 1 foi considerada a mais difícil, com índice de facilidade 0,28.\n\nO Gráfico 6.4, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 26,2% escolheram a alternativa E, 42,9% escolheram a alternativa B (em verde), a alternativa correta, 18,6% escolheram a alternativa D (em roxo), 7,3% escolheram a alternativa A (azul) e 4,8% a C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das",
+  "text_sha256": "5596c9a7b02c1626a31556c6a44011b6f1aceb16c8fd9b67d639f9172b615b80",
+  "window_size": 3
+}

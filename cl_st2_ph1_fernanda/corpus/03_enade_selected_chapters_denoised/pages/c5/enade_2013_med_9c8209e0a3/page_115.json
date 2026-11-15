@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_080c180e37d2dcb9006af8f451a05087d19aa62bdc2ab57db6",
+    "usage": {
+      "input_tokens": 2464,
+      "input_tokens_details": {
+        "cache_write_tokens": 2461,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2461
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 338,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 2802
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_med/enade_2013_med_page_114.txt",
+      "source_sha256": "b3b3269ec473cca0cdbf521a590af91c3b1329249aa52214405e8d3de97014a6"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_med/enade_2013_med_page_116.txt",
+      "source_sha256": "54fcdb4cbb4b69841f1839ab36028a957f94f2292f25d73cf07608d4f6dc32eb"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:49Z",
+  "duration_seconds": 3.111,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2013_med/enade_2013_med_page_115.txt",
+    "source_sha256": "1417bc28342b30fa678e177e249db3ba1c75f06d753b59f2c5035af2d18c157c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d6c47e58f6651ffb6c0c1dff6ee53d044187f9792b9574b7eb5bddfe7e21737f",
+  "request_fingerprint": "fa3dd06df8d7ecb6fa41880169ffb54587f4088a48c13fd7444cda8c9bea6cbf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico e sua linha de fonte («Fonte: MEC/INEP/DAES - ENADE2013»)."
+  ],
+  "status": "success",
+  "text": "Na região Centro-Oeste, seis dos 12 cursos participantes eram de Instituições Privadas (50,0% em termos regionais, tal como na região Norte). Destes, todos foram alocados igualmente aos conceitos modais 2, 3 e 4 (dois cursos, cada). Nenhum curso ficou sem conceito (SC) ou recebeu os conceitos 1 ou 5 nessa categoria. Dos seis cursos de Instituições Públicas, quatro foram avaliados no conceito 5, conceito modal, seguido de dois cursos que receberam o conceito 2. Nesta região, nenhum curso de IES Pública ficou sem conceito (SC) nessa categoria.\n\nO Gráfico 5.2 apresenta a distribuição do Conceito ENADE segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e consequentemente uma distribuição de Conceitos ENADE com valores maiores.",
+  "text_sha256": "6f6a3001708564f5a7aa651f108ead68b4ef4a2a172228bfa4b7ae71e623d3ec",
+  "window_size": 3
+}

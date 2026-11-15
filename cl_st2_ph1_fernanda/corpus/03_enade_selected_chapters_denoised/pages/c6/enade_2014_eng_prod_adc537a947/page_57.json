@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e8f29adb1bc7740006af8f85b4f6c87d1ba61b75e9d5bd065",
+    "usage": {
+      "input_tokens": 2283,
+      "input_tokens_details": {
+        "cache_write_tokens": 2280,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2280
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 997,
+      "output_tokens_details": {
+        "reasoning_tokens": 729
+      },
+      "total_tokens": 3280
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_56.txt",
+      "source_sha256": "4957d98a48e6fa2f2d1d35ef50cd98306268b7793397f128c371c3fcdf3078f4"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_58.txt",
+      "source_sha256": "9ef5aadf098e54e0fbc41f87037f3a14ff37ddbf2f4f2c03c83107984d05e64e"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:03Z",
+  "duration_seconds": 10.22,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_57.txt",
+    "source_sha256": "9f95d54d593eb0a055410f3e792ac746cca0f3798cc13a4e2495c0af42b32fcd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "463339a7a6afe08ac509fe90571b393b96f3ea4663957583379cfba1ef772abe",
+  "request_fingerprint": "00a5ff55ed2e956f0ea9e7d7b772cd1c342dcdfe50782ba1ff9999aed3ffdcd8",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.10, incluindo título, dados e fonte, removida. O texto da página termina no meio da frase; não foi completado com texto da página de contexto. O gráfico é mencionado, mas nenhum conteúdo gráfico foi identificável no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 19 do Componente de Conhecimento Específico. Esta questão foi classificada com índice de facilidade médio, com índice 0,58, ou seja, 58,0% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,49, classificado como muito bom, o maior índice discriminatório das questões objetivas de Conhecimento Específico. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 19, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos estudantes com desempenho",
+  "text_sha256": "b6af3507964596b6117ef67cf2b92cbfa31d59be12a5d6d7b35e2d7a912d2983",
+  "window_size": 3
+}

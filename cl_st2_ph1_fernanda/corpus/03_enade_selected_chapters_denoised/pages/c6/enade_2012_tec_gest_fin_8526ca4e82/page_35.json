@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a90be828a8f3771006af8f22aeb0087d18c20e732bd9758b2",
+    "usage": {
+      "input_tokens": 2399,
+      "input_tokens_details": {
+        "cache_write_tokens": 2396,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2396
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 391,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 2790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_34.txt",
+      "source_sha256": "4011157234c5b0daea2d1f52f81b69efc84b59dd191a59eaa39ad053c3834d78"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_36.txt",
+      "source_sha256": "9635b3716f04683256b3070685be93d95d3d34a054c446085e4d8fe81454a4d2"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:38Z",
+  "duration_seconds": 3.455,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_35.txt",
+    "source_sha256": "555fe82b3118714031666263197c54c0f6d895338585645dea28ef69ccbe0c31"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "76b3f1d0b5f09551fd87dc482b90c22c312b8b700089361720a990b39e5d680d",
+  "request_fingerprint": "34fc54ed097e84338bdb7040159abbd76b53f8574d4796213f9db9339bfd1f74",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "foi 11,9, sendo o maior desvio padrão encontrado na região Centro-Oeste (13,9) e o menor na região Norte (10,8), indicando uma menor dispersão das notas desta última região.\nA região que obteve a maior nota máxima foi a Sul (83,8), ao passo que a região que atingiu a menor nota máxima foi a Norte (64,6). A mediana do Brasil como um todo foi 31,8, sendo a maior mediana obtida na região Nordeste (32,8) e a menor obtida na Norte (27,4). A nota mínima não foi zero na maioria das regiões, excetuam-se as regiões Norte (10,8) e Nordeste (3,6).\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40]. O coeficiente de assimetria da distribuição das notas é positivo (0,41), logo a distribuição possui assimetria à direita. As distribuições por Grande Região também apresentam assimetria positiva, concentração pouco maior do lado esquerdo do histograma e mais espalhada do lado direito.",
+  "text_sha256": "6d715cf9518ec2d8b6c6b006595cbb73ce18b7a83e2687b3f2633fb2f7e4e380",
+  "window_size": 3
+}

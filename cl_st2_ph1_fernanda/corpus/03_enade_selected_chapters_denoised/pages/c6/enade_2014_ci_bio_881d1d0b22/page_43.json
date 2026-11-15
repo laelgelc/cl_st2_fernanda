@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0805fd443d9a2235006af8f6a0843887d1b5757e28c8fbb576",
+    "usage": {
+      "input_tokens": 2442,
+      "input_tokens_details": {
+        "cache_write_tokens": 2439,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2439
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 360,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2802
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_42.txt",
+      "source_sha256": "66bc006bebcbc5a19e4e3568e830b2f3c23419f599e186c6722f70a6f74afb22"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_44.txt",
+      "source_sha256": "9bed79c64d5d5288ad232dc5dafdfd90f8919930ff6616026fa3c00c8a08cdee"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:40Z",
+  "duration_seconds": 4.858,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_43.txt",
+    "source_sha256": "253448f8a7dce5ac4ddc0e26569abcca3d87146eef3d3337ed9dcba41bafdb39"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "94d73ff8afb9f546306f7d63784cf534708580df6f5d6a4c4a8f021a2c17f6be",
+  "request_fingerprint": "a602840340d49729219e94762a0a8538faa2a2ea52ddcd6839f3ee7443254b1c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a maior média, obtida na região Sudeste (47,6) e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas em colunas diferentes para estudantes de Bacharelado e de Licenciatura. As distribuições são unimodais. O intervalo modal dos concluintes de Bacharelado e de Licenciatura é o mesmo, (40;50].",
+  "text_sha256": "300c58360fd58cfe9a70b28ef439d26daa78441b63194756bc283df95ce5d34e",
+  "window_size": 3
+}

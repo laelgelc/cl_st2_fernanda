@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dd9290ccb802a84006af91402bb5087d18c4affce991e08f0",
+    "usage": {
+      "input_tokens": 1473,
+      "input_tokens_details": {
+        "cache_write_tokens": 1470,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1470
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1830
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_119.txt",
+      "source_sha256": "614fed896163853870499b083f55a6daf8729d5b8a51b6fcd845d86ad3f09492"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_121.txt",
+      "source_sha256": "3a08ec4407870376aa15a77aca7f7761721f61b7daec7a63c4e5fa52f1e0a9fa"
+    }
+  ],
+  "created_at": "2026-11-15T02:08:02Z",
+  "duration_seconds": 4.43,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_med_vet/enade_2019_med_vet_page_120.txt",
+    "source_sha256": "8adfc3e7df99ff6dc7848d93a79e6bf1c60acaa01cf51834f293679f9c063ff9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "90a90bfdf2aeb29bbf18bb9e54626327237cc892cf1eb60be1c6f335a50210df",
+  "request_fingerprint": "6427d795a9182d57238ac98c2832d3ce4fd512be70a374abf0390a2c956577dd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.35. O fragmento isolado “CEFET/IF” ao final da página parece pertencer a material gráfico do Gráfico 4.36; removido."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, observa-se que, nas IES Públicas, 78,0% declararam ter gasto Entre duas e quatro horas para concluir a prova, sendo 84,1% nas IES Privadas com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade nas duas categorias é estatisticamente significativa (ver Gráfico 4.36 e Tabela II.18 no Anexo II).",
+  "text_sha256": "f209f79744e958183ac19b50821c0376ba98eaeafff261edfdedae25bce64df1",
+  "window_size": 3
+}

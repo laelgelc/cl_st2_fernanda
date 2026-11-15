@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_055b56eeb6c9d91a006af8f06c496087d1a43038f12f796738",
+    "usage": {
+      "input_tokens": 2134,
+      "input_tokens_details": {
+        "cache_write_tokens": 2131,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2131
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 778,
+      "output_tokens_details": {
+        "reasoning_tokens": 387
+      },
+      "total_tokens": 2912
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_38.txt",
+      "source_sha256": "b90778a9bd5f471463bc1ba4f764aae6a079632ec6c118fd273e2a8bd567fb74"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_40.txt",
+      "source_sha256": "94c4c344697cc66164bf2c6a8bce53055e8ad0de16f2860a90420c2fa3dbffbb"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:12Z",
+  "duration_seconds": 6.19,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_39.txt",
+    "source_sha256": "f4c8a49e3d6a730e37ad7fbe86e6fd60038feb9bc0f37b519a5fcbe0d41c8066"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cfde77ca7ead913e0a0e7b4abb74d9378e347141699b4bb76e119d7ce4d3dbf5",
+  "request_fingerprint": "e13186035b65ca25e8e21664ca739e01eb63b38f64d6e23db1eb1a7b054c1ae4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES source line at the top; it appears to belong to the graph on the preceding page.",
+    "The final sentence continues onto the next page; it is left incomplete here and has not been joined to context."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 39,4. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 16,4. A maior média foi obtida na região Sul (40,7), e a menor, nas regiões Norte (38,2). As demais médias foram: 39,4 na região Nordeste, 39,1 na região Sudeste e 38,9 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Nordeste (17,0) e o menor na região Norte (15,8). Os demais desvios padrões foram: 16,6 na região Sudeste, 16,4 na região Centro-Oeste e 15,9 na região Sul.\n\nA maior nota no componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Sul (94,0) enquanto que a menor nota máxima foi obtida na região Norte (85,5). Nas outras regiões as notas máximas foram: 93,0 na região Sudeste, 89,0 na região Centro-Oeste e 86,5 na região Nordeste. A mediana do Brasil como um todo foi 39,5, sendo a menor mediana encontrada na região Norte",
+  "text_sha256": "e51cb3e5fba7937cf8f16dc97285800e451892a36986d6343fb6890006392b3f",
+  "window_size": 3
+}

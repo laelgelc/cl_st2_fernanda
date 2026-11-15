@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05de07b51d094405006af8f0e6647087d18a40ca2a49be6cb4",
+    "usage": {
+      "input_tokens": 2218,
+      "input_tokens_details": {
+        "cache_write_tokens": 2215,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2215
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 556,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 2774
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_37.txt",
+      "source_sha256": "3fbd69317edbe7a2a6d0590613f400eb61cbf1283664245bd0bcb02a6bd1e923"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_39.txt",
+      "source_sha256": "262c3f60c0fa846a31887467058e3e78fe91f2a3730e3e5341ae5d0d5e596a4f"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:14Z",
+  "duration_seconds": 5.312,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_dir/enade_2012_dir_page_38.txt",
+    "source_sha256": "2d4d284f81dca2fee97cbff7687ff520e2c5ab680250e4fbd7a8aebc45086898"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eff15f9a123d9e2c809b1d08217b543fd53f369ef2d6600b24c97d64da1ddca2",
+  "request_fingerprint": "8e59075d8b5b6cbd3ac89f3dcdf68a68e929132d409430c59e1cde200d6d09a4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Sudeste (47,5). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40;50], assim como na prova como um todo. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 13,2 para a nota da prova como um todo e 17,4 para o componente de Formação Geral. Destaca-se ainda, o intervalo (50;60] que possui concentração muito próxima da modal.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (-0,33), porém maior em módulo, indicando um maior grau de assimetria. Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,35 para a região Nordeste, e -0,24 para a região Norte).",
+  "text_sha256": "9420fc84745132bb78d0d65d25e1b414c9833fbd8fdae758a00ec37e337bfc27",
+  "window_size": 3
+}

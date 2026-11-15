@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001f5b4f99958069006af8f67c195087d180ca337f9ec3da5e",
+    "usage": {
+      "input_tokens": 2678,
+      "input_tokens_details": {
+        "cache_write_tokens": 2675,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2675
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 609,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 3287
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_95.txt",
+      "source_sha256": "23bfad1993c7b7307cf8e7926de15f052e4f279d5fb0b26b0858f50101a15600"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_97.txt",
+      "source_sha256": "f9efa1e735da2afa2624575047930e39e2ee5f8f3a1d99db40afd3934dd3b49a"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:04Z",
+  "duration_seconds": 6.282,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_96.txt",
+    "source_sha256": "75b4df60ac5afc603df56f815471cd70a398f16319b3c71ddcc8f61a0136f5c6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d7606046d4c09157d8e591e79d0628b17077926f77abda912c2e63d59b3d4322",
+  "request_fingerprint": "97973dfef00d187498b779e39334915d6bf9eb5afb82c0bd4b59c04a343de60c",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "dificuldade com o conceito do “backtracking”. As soluções dadas foram muito parecidas, a ponto de serem identificados alguns \"clusters\" de soluções com os mesmos erros. Em algumas respostas os estudantes tentaram reproduzir algum algoritmo conhecido por eles, mas sem qualquer relação com a questão, aparentemente uma tentativa de \"pescar\" pontos. Em outras, como já comentado, sugeriram algoritmos para implementar funções consideradas como preexistentes, demonstrando falta de compreensão do enunciado. Em respostas que obtiveram pontuação mais elevada, dois erros muito comuns foram: a falta de indicação do processo de “backtracking” e do controle dos loops. Esse último, mais grave, já que se tratava de conteúdo considerado básico em programação.\n\nAs respostas mais fracas demonstraram uma falta de conhecimento muito grande de programação, visto que foram pontuadas respostas parciais, mesmo que fora do contexto da recursão. Ademais, o padrão de correção era suficientemente flexível para permitir uma nota 4,0 para estudantes que tivessem simplesmente montado uma resposta coerente e suficientemente estruturada, mesmo que ineficaz na solução do problema dado. Dessa forma, notas abaixo desse patamar denotam desconhecimento quase total dos conceitos básicos de programação.\n\nLicenciatura:\nNo caso dos estudantes de Licenciatura, o resultado foi ainda mais sofrível. As soluções, quando tentadas, continham muitos erros. Além disso, a maioria das tentativas de solução apresentadas sequer tinha o formato de um algoritmo, denotando baixo nível de conhecimento sobre esse tópico.\n\nAs respostas demonstraram despreparo acentuado em programação, visto que o padrão de correção era suficientemente flexível, como já comentado. Os estudantes de Licenciatura demonstraram enorme dificuldade para lidar com qualquer dos conceitos básicos de programação. Ficou claro que não dominam conceitos básicos de algoritmos, não sabem usar estruturas de repetição, sequer identificar variáveis, e até mesmo de montar algoritmos que façam algum sentido, mesmo que inadequados para resolver o problema proposto.\n\nÉ previsto que os estudantes licenciados estejam aptos a liderar turmas de Educação Básica. Nesse nível existem vários programas que exigem a aplicação de estruturas de repetição simples, como o Logo e outros programas de desenho mais avançados. Se os estudantes não compreendem estruturas de repetição, sem dúvida, terão dificuldades para ensinar.",
+  "text_sha256": "26442dfdbc48ddb3da8d00a667dc9659ac8a71f24095e43398752e79e7b7d4ab",
+  "window_size": 3
+}

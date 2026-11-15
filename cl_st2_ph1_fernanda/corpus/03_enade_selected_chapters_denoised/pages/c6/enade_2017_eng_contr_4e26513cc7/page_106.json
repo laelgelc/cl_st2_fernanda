@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_072a5fffcdbf319b006af9068807ec87d1b69b833359acf4e5",
+    "usage": {
+      "input_tokens": 2726,
+      "input_tokens_details": {
+        "cache_write_tokens": 2723,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2723
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 358,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 3084
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_105.txt",
+      "source_sha256": "50335a29472f58ee377fd96bdd4198e58467ea4105f54e183278afee25e82f23"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_107.txt",
+      "source_sha256": "5c7c4d5d892d96534b454306dd7220d928b8fa8fc9b36496155c5b6f87e100b5"
+    }
+  ],
+  "created_at": "2026-11-15T01:10:31Z",
+  "duration_seconds": 4.617,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_106.txt",
+    "source_sha256": "e90a6c41d2b5d7d3e2d9aa1c459354e9081f562a7c66a24c8ddaa315142d00ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7bd5690322250672c545d48cf8f8296a6ebe60dd6239dabbab50692a8c7c2405",
+  "request_fingerprint": "636dbc7abc1280e47746311a0e5e461dfc874074dec6b045f2fc4d7f9da0d7ac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.1; a linha de fonte que o seguia foi excluída como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50], seguido pelo intervalo (30; 40].",
+  "text_sha256": "dad08314bfd7c9bdc322e7bbf2017ed97961c1323efdd738b995b61e8669f0b1",
+  "window_size": 3
+}

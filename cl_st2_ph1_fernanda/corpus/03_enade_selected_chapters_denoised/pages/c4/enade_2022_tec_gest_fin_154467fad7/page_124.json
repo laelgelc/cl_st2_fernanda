@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c74565ff22491c5006af91faa567087d1a9887d630603bb65",
+    "usage": {
+      "input_tokens": 1714,
+      "input_tokens_details": {
+        "cache_write_tokens": 1711,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1711
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 243,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 1957
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_fin/enade_2022_tec_gest_fin_page_123.txt",
+      "source_sha256": "3f2d14eb8b12369d4e2afa90e0777c54edc20c0770621608107ba91c429643ba"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_fin/enade_2022_tec_gest_fin_page_125.txt",
+      "source_sha256": "f8260ebcc5382a985e12e6ff604d897976bae6a66338da1c8f6eede0a31a6c9c"
+    }
+  ],
+  "created_at": "2026-11-15T02:57:46Z",
+  "duration_seconds": 4.289,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_fin/enade_2022_tec_gest_fin_page_124.txt",
+    "source_sha256": "926617e779216deaf3e27432f6e19bb72d7c7273c0e2d09176fdab42ebd405b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a53d56aff1391b9d711b2507b72c21e20a0b68296a8568d0ad8d67711ea80d71",
+  "request_fingerprint": "06db9d8dc41cd1bd65bab4ece28010bf752f2a6323a28562e4ba41ded00803d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.26, incluindo dados, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.26 traz resultados sobre o ponto tratado no gráfico anterior, porém, por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 5.26, em relação aos quartos de desempenho, o desconhecimento do conteúdo foi a opção escolhida por 17,3% dos estudantes do quarto inferior e por 13,4% do quarto superior, caracterizando uma tendência decrescente.",
+  "text_sha256": "e6fa2ebb20886becf15fd1e51f0d8697eae3d119942e83065f361287bc443fbd",
+  "window_size": 3
+}

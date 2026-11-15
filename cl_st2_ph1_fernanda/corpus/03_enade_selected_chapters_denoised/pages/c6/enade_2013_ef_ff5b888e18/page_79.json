@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_038f3e8bcfd0f7c8006af8f35be00887d1a9520499fd5840bc",
+    "usage": {
+      "input_tokens": 2558,
+      "input_tokens_details": {
+        "cache_write_tokens": 2555,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2555
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 584,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 3142
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_78.txt",
+      "source_sha256": "f576dcc18eb743f9238eb7523187e46e211108077d0cc3a8291b65070a5d143e"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_80.txt",
+      "source_sha256": "410a11034e27f55fbab37a9cb013f93b7c66999e63d091b9f3046d0cbfcfc210"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:43Z",
+  "duration_seconds": 4.896,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_79.txt",
+    "source_sha256": "fe7946df3906bba56e53a5dd54812d7e6351129eaced9c9a08406e6521d1cac4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5d672e4914c0f838c9e30daa423efa55df5614447b0f49d6b8b1552bd4c969f6",
+  "request_fingerprint": "1b3c8eb7ad8ab22686cfe278a7cc196da646bd14112df9e89dac6e711e69abac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) e a nota mínima (0,0) foram as mesmas em todas as regiões do Brasil, sem exceção. A mediana foi 30,0 para as regiões Sudeste e Sul, mais alta nas regiões Norte e Centro-Oeste (40,0), e mais baixa na região Nordeste (20,0). Para o conjunto de regiões, a mediana foi também 30,0.\n\nO Gráfico 3.21 representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico. Devido ao alto o número de estudantes que deixou a questão em branco, esta corresponde à moda da distribuição (quase ¼ dos alunos). Para os que não deixaram a questão em branco, a moda foi (40; 50]. O coeficiente de assimetria é positivo para todo o Brasil (0,42) e para todas as regiões (entre 0,21 para a região Norte e 0,55 para a região Nordeste), indicando uma assimetria à direita.",
+  "text_sha256": "bbddda95093e24c59c697263a3fb19ad444111a30fe5852f66e9944d9ac8dea0",
+  "window_size": 3
+}

@@ -1,0 +1,59 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_073e60f636bf24a8006af8e6ef2c8887d1902e21aaacd6b0f0",
+    "usage": {
+      "input_tokens": 3006,
+      "input_tokens_details": {
+        "cache_write_tokens": 3003,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3003
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 10000,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 13006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_secr_exec/enade_2009_secr_exec_page_102.txt",
+      "source_sha256": "9b003212e3e23afc2be1d9b4dac12b15a76c6f2187e225d1d5195b76be9e3e8e"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_secr_exec/enade_2009_secr_exec_page_104.txt",
+      "source_sha256": "1da903512a9a5b654e49585db5d3daf7bee47a73bec457c86d97cb245ceec639"
+    }
+  ],
+  "created_at": "2026-11-14T22:55:43Z",
+  "duration_seconds": 59.262,
+  "error": "Malformed JSON response: Unterminated string starting at",
+  "error_type": "invalid_json_or_schema",
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_secr_exec/enade_2009_secr_exec_page_103.txt",
+    "source_sha256": "01979221df1cc02dbfe670b04a7ee0101feaf167ed4f07c59cf7a86a606a23e4"
+  },
+  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c5/enade_2009_secr_exec_8db19b640f/page_103.json",
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "acd63a96581c4b449a287e2ff111073af1b76f21575573450fe4184184cb026a",
+  "request_fingerprint": "4f4a33975a227370eb4107549ced00703d7be8ba6de0b2844baa79d3093d9c29",
+  "retry_count": 0,
+  "status": "invalid_response",
+  "window_size": 3
+}

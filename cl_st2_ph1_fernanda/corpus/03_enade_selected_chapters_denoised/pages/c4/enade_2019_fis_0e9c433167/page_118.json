@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09cf25eb8fa9e83b006af913b9049487d194f7f082953b5da8",
+    "usage": {
+      "input_tokens": 1861,
+      "input_tokens_details": {
+        "cache_write_tokens": 1858,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1858
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 2242
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_117.txt",
+      "source_sha256": "ac58101c7056f125b89d4fcb55234306f67161772c38939b2e5931472b55355f"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_119.txt",
+      "source_sha256": "fc23bbe90477aeb30f5b769113fe7e9f055caf6af8c10c2e374ef24aa5adbf6e"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:48Z",
+  "duration_seconds": 4.401,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fis/enade_2019_fis_page_118.txt",
+    "source_sha256": "45b85d175b233be1d083ce39304cdf33f5005d7836fcb431e46ff90cfa6f456c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c52c3eba7bfde8de9a26c32b29760d3069bd4935718f00f3d10ab7871d518059",
+  "request_fingerprint": "7fcda09fea8a3f8ada494ff694c33b54c94fb455816666bf71ccaed72e2514eb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. O item isolado “CEFET/IF” parece ser material gráfico do Gráfico 4.24 e foi removido; revisar essa atribuição."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi menor para os estudantes de cursos de IES Privadas (85,1%), uma diferença estatisticamente significativa da proporção em IES Públicas (89,5%). Ver Gráfico 4.24 e Tabela II.12, no Anexo II para maiores detalhes.",
+  "text_sha256": "0ef50b0838008519138669fa263b9782c09bf92c4b84c3476c73dc814dc972a3",
+  "window_size": 3
+}

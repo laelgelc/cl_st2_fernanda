@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c0ebfdb771bdd49006af9004057f487d1a2d96c72ad08127b",
+    "usage": {
+      "input_tokens": 2355,
+      "input_tokens_details": {
+        "cache_write_tokens": 2352,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2352
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 198,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 2553
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_111.txt",
+      "source_sha256": "21c42bad7fa0ea3a58c2bbfade700c630e740e37746ac5ecf0cb5cd9df7ef9d1"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_113.txt",
+      "source_sha256": "467391d1a347749f5c76dc636eaf850f1b733bfbd0ee935c9ffb7ae7386800b3"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:44Z",
+  "duration_seconds": 2.721,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2015_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_112.txt",
+    "source_sha256": "b7d8ffa389f27b03e9bffe978a3d0c22dc7fe90a6374023b835b048deb49dfb8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "44b38878fc0f59f5570c7ba9b5adb7bf14c51f115f7e665149af86891e5156b9",
+  "request_fingerprint": "7572a07ad7350ba8edf1dc36b3a8a773c612892771498e07ea524f95ef51eab1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que as Instituições Privadas participaram com todos os cinco cursos contidos na região Norte, dos quais dois obtiveram conceito 2, o conceito modal, e um curso recebeu conceito 3. Dois cursos ficaram sem conceito (SC) enquanto nenhum recebeu os demais conceitos nesta categoria e região.",
+  "text_sha256": "2287f4a1df67c6bd787f65932c00518060156ca1400116d571f341ec602c8bb7",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06c68313045ef8ea006af8ecd6477487d199adaf5b004b994f",
+    "usage": {
+      "input_tokens": 2848,
+      "input_tokens_details": {
+        "cache_write_tokens": 2845,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2845
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 496,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 3344
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_51.txt",
+      "source_sha256": "71b2231983f2426dd591c0d246013557be5373c62e171da7fffb4c62e829c5b4"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_53.txt",
+      "source_sha256": "faad4f1d3b3d3fbb8fe2de2e48016b1a6058aee0724eecae4d3e6a436fda7709"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:54Z",
+  "duration_seconds": 5.422,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_7",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VII.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_52.txt",
+    "source_sha256": "0eae0fe8b7a639ded4b26f1683d5ef515830b2cce9bd1a67b5e2e6b8087bf058"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b298664e8d8ef7cefa1bd13c59cfbbe3dec9e8b93694dd9a1c7b650869a566eb",
+  "request_fingerprint": "464dbc3ae0d26dc71833d11ad9187c1f29263eaa09d5e8a0a17e1267825b7d17",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta também a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "fc9dd86e3c738fdd461757207449f82dc72a86aafce104af52f7713e6373892a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_046c4a451fb194b1006af9110eca5087d1b1a16eb5d2c911e1",
+    "usage": {
+      "input_tokens": 1578,
+      "input_tokens_details": {
+        "cache_write_tokens": 1575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 246,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1824
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_100.txt",
+      "source_sha256": "6c46930f46a9386eb42cc551a2c58628bdbdd87276e7d7afb38b7cfc0be876b7"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_102.txt",
+      "source_sha256": "a705b285f4f591b3d2b30eeca8cb842b4522a8eec37829f3d2d824857a1abe62"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:26Z",
+  "duration_seconds": 2.674,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_alim/enade_2019_eng_alim_page_101.txt",
+    "source_sha256": "ce546e2a13c3aa13422fb4921db75e27cdc41505a6762435fe419ea00244505c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eddfdc44d035471b9069698099afdf7527059c1e282879ad445825e52c4aa63f",
+  "request_fingerprint": "f64f1a51cae8766286f47c637860f7e39dda082680c5b756ca685ce14b88de9e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título, os dados e a fonte do Gráfico 4.18."
+  ],
+  "status": "success",
+  "text": "A proporção dos presentes que considerou que todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico estavam claros e objetivos foi maior para os estudantes de Faculdades, atingindo 86,3%. Já entre os estudantes de CEFET/IF, a proporção foi a menor entre todas as Organizações Acadêmicas: 73,9%. No Gráfico 4.19, é possível observar que a diferença entre Universidades (84,6%) e CEFET/IF é a única que é estatisticamente significativa (ver também Tabela II.10, no Anexo II).",
+  "text_sha256": "f9405170c6301a74a8ee9a1d424b1373d07fbe7f834ca565af22054f08f2e44e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d56d9b3b8e6641c006af90aeff97887d18f1275734df80610",
+    "usage": {
+      "input_tokens": 2923,
+      "input_tokens_details": {
+        "cache_write_tokens": 2920,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2920
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 3457
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_117.txt",
+      "source_sha256": "3a8884c7e63ebe5cba2069736c81cf1cd062421b4aa41599b20e3bcbe87d87e0"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_119.txt",
+      "source_sha256": "5d42eba6b9d834947fbbeef190e20edc6189dd09bd83f1ca02c85e08f69b16ee"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:19Z",
+  "duration_seconds": 6.054,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_118.txt",
+    "source_sha256": "b0035e43c4bc70ce037d0e12b48a74a9e4ce4e2b3b974c3f42c3abea40973373"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "243c1324be39a5a11ddf64ad96a554a6209b176f7525bd1ecc018a9183d0ef90",
+  "request_fingerprint": "7ebcdd24bf04076258a1b0e99e59c246822575f0660620ca461ccdd293901d32",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o histograma do Gráfico 6.1 e sua linha de fonte. A última frase termina em “maior” na página-alvo e continua fora dela; não foi completada."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal, com a moda no intervalo (40; 50], com quase 30% dos participantes.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 44,7. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (47,8), e os das IES Privadas obtiveram Média mais baixa (43,6), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre a média das regiões Norte e Centro-Oeste (42,1) e a média da região Sudeste (45,3), a maior e a menor Média, diferença igual a 3,2, é inferior à diferença entre a das IES Públicas e Privadas (diferença igual a 4,2), caracterizando uma maior",
+  "text_sha256": "0328ad0edcb4e022e648264214274ba7ee35e84b80a52d314690c02bc131b835",
+  "window_size": 3
+}

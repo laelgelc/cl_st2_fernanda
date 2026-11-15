@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_025e11703a6b8124006af90cbcebe487d1b111bbfa2ea63e03",
+    "usage": {
+      "input_tokens": 2566,
+      "input_tokens_details": {
+        "cache_write_tokens": 2563,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2563
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 720,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 3286
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_122.txt",
+      "source_sha256": "24089f1635ce2ab61d9c49174f628746061cbae76e478f32a4c1d07be9697989"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_124.txt",
+      "source_sha256": "ab5cc57bed283554f4eebc60f4fc1985876ced5d7829d8bc5835052ce4d3d83c"
+    }
+  ],
+  "created_at": "2026-11-15T01:37:00Z",
+  "duration_seconds": 6.87,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_DIREITO.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_dir/enade_2018_dir_page_123.txt",
+    "source_sha256": "545c6f8b541b4ea1fa808e726214c03c2fedbe9e4ca517c3f02239fbcc18f18d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c0381d443169071600c4c3c9ee172bf33063adc143b46b5681f026c20815b9cf",
+  "request_fingerprint": "3906f9e05581201cebfb4cd583dc34ad75066b7d8a9bab9d47cc3bdb10bd6095",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 39,2% escolheram a alternativa C (em preto), 18,4% escolheram a alternativa E (em vermelho), 16,1% escolheram a alternativa B (em verde), 15,1% escolheram a alternativa D (em laranja), e 11,1%, a A (em azul). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria, obrigatoriamente, abaixo de 20% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria, obrigatoriamente, acima de 50%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "e163179103b65914f9ed3b53c7bddc4e38d7e26fad9f917eaac7c2e42f2a269d",
+  "window_size": 3
+}

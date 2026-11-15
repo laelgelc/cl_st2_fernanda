@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01009e67290bfbfc006af9096932a887d1b77347df622139a0",
+    "usage": {
+      "input_tokens": 1837,
+      "input_tokens_details": {
+        "cache_write_tokens": 1834,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1834
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 305,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 2142
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_110.txt",
+      "source_sha256": "47fa12f90b08e54279310962766b2e4cb63988f22e5adb11caf0aa71a502e893"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_112.txt",
+      "source_sha256": "9dafe7f8882ad4e22a88618403068367de24bca623c8c83fa2897c0f5b4e92e6"
+    }
+  ],
+  "created_at": "2026-11-15T01:22:49Z",
+  "duration_seconds": 3.956,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_111.txt",
+    "source_sha256": "59fcceb88a78beb56fe6567756af3146ac1d2df380c6de5ddbdaa0bdf9dbfc4e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "60ce7a506b21a8a5aab0f78f6a1bbb3c56f7d981fb2666899dcefb5d6974f783",
+  "request_fingerprint": "43bee33732743ec26c215316a8926257daabe599e9916d6afdf79ef463c63b69",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.13, sua legenda e a fonte."
+  ],
+  "status": "success",
+  "text": "Na análise por Grandes Regiões, o percentual de inscritos e presentes que apontaram o Desconhecimento do conteúdo como dificuldade ao responder à prova não superou 23,8%. Os percentuais variaram de 18,8%, na região Nordeste, a 23,8%, na Sul. Não são observadas diferenças significativas estatisticamente entre as regiões.\nA Forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 39,9% (região Sudeste) a 45,9% (região Centro-Oeste). O percentual de alunos que citaram a Falta de motivação como dificuldade variou de 13,7% (região Centro-Oeste) a 16,8% (região Norte). Os que declararam não ter qualquer tipo de dificuldade para responder à prova variaram de 10,6% na região Norte a 16,8% na Sudeste.",
+  "text_sha256": "bfccd3c57d1d3a074b0b44a310274521c82991b3db0294a911a031588493f797",
+  "window_size": 3
+}

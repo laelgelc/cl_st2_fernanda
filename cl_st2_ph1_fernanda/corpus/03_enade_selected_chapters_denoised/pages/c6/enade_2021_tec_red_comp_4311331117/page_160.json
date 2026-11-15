@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a887de60f7c2ad0006af91b1f10f887d1bde1699295360848",
+    "usage": {
+      "input_tokens": 2617,
+      "input_tokens_details": {
+        "cache_write_tokens": 2614,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2614
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 3211
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_159.txt",
+      "source_sha256": "6d7853d4f6e0735b79b6cca8be474fa9b915b3a33b2505124ea87c40bd9b0d33"
+    },
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_161.txt",
+      "source_sha256": "cb955906aa26c54fb07265167b7d47e0ed79066ee68a9190525c426dcb6ec05b"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:22Z",
+  "duration_seconds": 6.784,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_REDES DE COMPUTADORES.pdf",
+    "page_number": 160
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_160.txt",
+    "source_sha256": "329c8c817d8fec45a73a8d32be7e314e73920f458f4ca70f4dba9cd68c22276d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8e45825b4e77e0b66b2e32e1f54afc176bad2f8d88afeec12eb0866560a406af",
+  "request_fingerprint": "e346eb20ff6e15e0361b1810616bc9397424b5b7125ec1235daa4b12bee2264a",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Como nenhuma Questão Objetiva do Componente de Formação Geral foi anulada pela Comissão Assessora de Área o número de acertos alcança o máximo de oito questões para esse componente.\n\nA curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 51,8% escolheram a alternativa E (em vermelho), 28,4% escolheram a alternativa B (em verde, gabarito), 10,2% escolheram a alternativa D (em laranja), 5,4% escolheram a alternativa A (em azul) e 4,0% escolheram a alternativa C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a resposta questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,46) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 80,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "f55dd82bd5a849c7722afdb4e1cc52033fca672fa324fc2f7baa5bcbab30fe52",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09b7380f20eea1a6006af92211ef5c87d19d7ca65afe12b8ff",
+    "usage": {
+      "input_tokens": 3124,
+      "input_tokens_details": {
+        "cache_write_tokens": 3121,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3121
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 584,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 3708
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_qui/enade_2023_eng_qui_page_116.txt",
+      "source_sha256": "57412556d51175c49482142150967d0f963641ba27c25cd44ccddd057ce04a20"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_qui/enade_2023_eng_qui_page_118.txt",
+      "source_sha256": "1e9ee2123ed5db567ec59dc90776756fe404fd26de57938c613c084f80bd7996"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:01Z",
+  "duration_seconds": 6.377,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARI QUÍMICA.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_qui/enade_2023_eng_qui_page_117.txt",
+    "source_sha256": "33b3671b3366e63e59f8fef26d0c02989e07e9046b79043777f478a807dfe1eb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a4433ddee8a2fa4a259ab788b3c0d481ed06a3d87d081f330e6ce8ef500a5525",
+  "request_fingerprint": "22de97523837029c97b0d8d8dda47ae73f0eb5c9409ea9c312c8be4476a6ae21",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1 (incluindo título, elementos gráficos e legenda) e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (Conceito Enade). Em linhas gerais, em um gráfico desta mesma tipologia, poligonais mais à esquerda representam, no caso dos dados apresentados nesta seção, as grandes regiões com a pior distribuição, e poligonais mais à direita, as grandes regiões com os melhores conceitos.\n\nA partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que as regiões Sul (linha rosa) e Sudeste (linha vermelha) apresentam 78,5% dos cursos com conceito 3 ou abaixo deste valor. A região Norte (linha azul), por outro lado, apresenta 100,0% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Nordeste (linha verde), nas quais todos os cursos têm conceito menor ou igual a 3 na região Norte e menor ou igual a 4 na região Nordeste, e as poligonais cumulativas alcançam 100% nos conceitos 3 e 4, respectivamente. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Centro-Oeste (linha laranja) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Nordeste (linha verde) apresentam",
+  "text_sha256": "57d0e14ca1f3a8d8863e6c43c32162cd7d2de30fc3232a2a4f203c91edf557bf",
+  "window_size": 3
+}

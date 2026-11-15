@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e6ebf8613a4b9c2006af8fce8eba087d1a0e534da21b40c96",
+    "usage": {
+      "input_tokens": 1579,
+      "input_tokens_details": {
+        "cache_write_tokens": 1576,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1576
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1875
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin_p/enade_2015_admin_p_page_110.txt",
+      "source_sha256": "13fc86115cb091a16ff1470937c944198d392a3fde1dc2992ecf94894d2eee12"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin_p/enade_2015_admin_p_page_112.txt",
+      "source_sha256": "83d12f5fee245201a03ea66c6e68d656a81072187366b8de9b6e47c2619e3252"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:28Z",
+  "duration_seconds": 2.986,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_admin_p/enade_2015_admin_p_page_111.txt",
+    "source_sha256": "1e05819bbb9e70d0dfeb6a94007b198891090f554199ffc12998a70a55990d3f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5f79b459ef2b02767831bafa0884a46f59fab6882eb6faf5680e4e8a18285c90",
+  "request_fingerprint": "a19880e354e33665b719cb896d8170c2029547ff2310fe79226ec50866e2ea6a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.17, incluindo título, conteúdo gráfico e fonte."
+  ],
+  "status": "success",
+  "text": "percentual de alunos que dispensaram Entre duas e quatro horas para concluir a prova variou de 85,7% na região Norte e 73,2% na região Nordeste, como mostra o Gráfico 4.17.\n\nUma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto Entre duas e quatro horas “para concluir a prova” quando comparadas com os dos quartos inferiores. As diferenças entre o primeiro (60,9%) e o segundo (72,7%) quartos, bem como entre o quarto de maior desempenho (80,7%) e os demais, são estatisticamente significativas.",
+  "text_sha256": "2a827a3dda2502e4f08ca9b9322faaa15b6464e745709ecd2d55a15fbd44258a",
+  "window_size": 3
+}

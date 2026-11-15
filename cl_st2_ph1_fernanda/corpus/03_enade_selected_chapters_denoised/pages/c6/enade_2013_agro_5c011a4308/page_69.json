@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d9321db2b9c1df1006af8f2ff962887d182167d16ab16c7ed",
+    "usage": {
+      "input_tokens": 2398,
+      "input_tokens_details": {
+        "cache_write_tokens": 2395,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2395
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2755
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_68.txt",
+      "source_sha256": "36e0ec8dd76e6837f0feedb6443fdb4405512e141bdae71be94eb2334606ed05"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_70.txt",
+      "source_sha256": "93ebf9321befdeaff8c7d30d525b8ab5ba1bdbc3fc8f8407adff1826bb30c538"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:11Z",
+  "duration_seconds": 4.342,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_69.txt",
+    "source_sha256": "74a053aaebfbbe83faa1beed5493f7825806bebce0bd88c99e5013caf8b10632"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9f4ba1e80d56c2495cd6b42dc17eeda80393c9fadb1dc69f99054618fdf4f49a",
+  "request_fingerprint": "4de93fa16189a1487e9972e559f84b3e34327d3fc64c07c649cb0e4859a2e91d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota no intervalo (50; 60], a moda da distribuição. Destacam-se, também os alunos que deixaram a questão em branco com quase 10% do total.\n\nA distribuição das notas possui assimetria negativa (-1,08), assim como em todas as regiões do Brasil (entre -1,21 para a Sul e -0,82 para a Norte).",
+  "text_sha256": "2f912bca0d2dacab75504b60e3d4640190b43cc46bb3df0a080f9d341c1e7485",
+  "window_size": 3
+}

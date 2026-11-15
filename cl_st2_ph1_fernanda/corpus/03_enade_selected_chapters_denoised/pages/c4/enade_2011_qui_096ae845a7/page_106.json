@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_006d9b1e90cd8cdf006af8ee86ec0487d1b13a6f0d410b7fe9",
+    "usage": {
+      "input_tokens": 1328,
+      "input_tokens_details": {
+        "cache_write_tokens": 1325,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1325
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 367
+      },
+      "total_tokens": 1830
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_105.txt",
+      "source_sha256": "9f7cf7adbeae85ff147aec0a4e9cd1233b3846bb5957564d0c113629f7bd30c5"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_107.txt",
+      "source_sha256": "61d4b0f28caf4c79d177c4d6370dcd38ffef6fa13ee448b260523fa703ed502b"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:06Z",
+  "duration_seconds": 4.767,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_qui/enade_2011_qui_page_106.txt",
+    "source_sha256": "b09b609b0a8a157d9c8abce8b1429dafabfa12ab1821f5e6e1912f915f66430f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e59b02068cfa1c2b1382a98ba2986dd3f645b40942a460699eadd8ec15c034b4",
+  "request_fingerprint": "12ca28afa6a8ce7f7e0269542d524d53c1105668c40733b4455293383ebd669f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 81,3% e 60,3%. As diferenças entre os quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "cb0a503fa3df6a519e8072deb0ba4781c1888ebaa28eeb64c7b06496a0b008d6",
+  "window_size": 3
+}

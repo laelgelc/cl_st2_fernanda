@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_053badf5dfa9dce4006af92457222087d1ad13e343247c4fe2",
+    "usage": {
+      "input_tokens": 2581,
+      "input_tokens_details": {
+        "cache_write_tokens": 2578,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2578
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 3020
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_135.txt",
+      "source_sha256": "e224c17a2d9071f3d0f3a9aaf5048e1d5e88236761b06b92682be52773810dc3"
+    },
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_137.txt",
+      "source_sha256": "e5e5aa793c6ca74da83eaad5892f7f82adc2289c1ed0b80f7c7f03b31cecc176"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:43Z",
+  "duration_seconds": 3.999,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 136
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_nutri/enade_2023_nutri_page_136.txt",
+    "source_sha256": "fe9eacf99a7d6ae87343de3d6f5e6bc29b1fbc1d97c087af4a60e9fd762147d4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1ba5b4f3e3528bfc867b35e3439a1c74200b9decb4c7efe641bd64063aaca5f5",
+  "request_fingerprint": "9e75b5a17bbfc8de544ecf4edbd8f6e777c66f525c5f50d5173c16dcf44fefbf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.6, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados expostos na Tabela 5.6, no que se refere à organização acadêmica, a maior média foi dos CEFET/IF (51,2), seguida das universidades (50,5), dos centros universitários (47,6) e, por fim, das faculdades (44,9). O maior desvio-padrão foi o das universidades (14,7). Os CEFET/IF obtiveram a maior mediana (52,0). Já as notas máximas foram: 95,1 nas universidades, 96,1 nos centros universitários, 85,7 nas faculdades e 76,8 nos CEFET/IF. A nota mínima foi zero para as universidades e para os centros universitários, sendo 3,9 para faculdades e 24,0 para CEFET/IF. Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, no componente de Conhecimento Específico entre as notas dos tipos de organização acadêmica, exceto entre universidade e CEFET/IF.\n\nQuanto à categoria administrativa, existe diferença estatisticamente significativa entre as médias das IES públicas (58,1) e as das IES privadas (47,2). Neste caso, assim como no componente de Formação Geral, a maior média foi obtida por estudantes de IES públicas de ensino.\n\nOs cursos de educação presencial apresentaram maior média (49,7) em relação aos cursos a distância (45,8), sendo a diferença estatisticamente significativa.",
+  "text_sha256": "f177d44117be13d03b0fc24323226f2af678418197e39df9fd6ec9015f5f9567",
+  "window_size": 3
+}

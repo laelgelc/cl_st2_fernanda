@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03aed6d6c2f1da87006af8f2e542e087d18ed5df843cbf8d26",
+    "usage": {
+      "input_tokens": 1726,
+      "input_tokens_details": {
+        "cache_write_tokens": 1723,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1723
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1031,
+      "output_tokens_details": {
+        "reasoning_tokens": 822
+      },
+      "total_tokens": 2757
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_100.txt",
+      "source_sha256": "411ab0de40c5fec08ff2ef4bee23126aea00417f2dca60c3ee59cc0b03e14a76"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_102.txt",
+      "source_sha256": "f6f828294ff305b663d397bf26a4e479f00ca9d4d59de2e1d977f8864c3662d6"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:45Z",
+  "duration_seconds": 10.358,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_101.txt",
+    "source_sha256": "756cf7da9850365d3777dc62ac9b36183fc4482ab75a84416700ae3cf1be8fce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6adfb39f9d631c020a728910ee1cb3cf561c867f953eaecc2b42bf3cd355c3ca",
+  "request_fingerprint": "c8471271d0b97f9ec16c92d2d1d5ff3d3a069abe840336d41a5e6b558658db58",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, possivelmente vinculada a gráfico ou tabela; verificar a associação no documento original."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 5,3% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,0% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade é estatisticamente significativa entre os quartos superior e inferior de desempenho.\n\nTendo em conta o quarto superior, 90,3% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 69,2% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "9be7591b8624d4ea84a60449e501c37d8a3d3a0640d1924795487537dc747d12",
+  "window_size": 3
+}

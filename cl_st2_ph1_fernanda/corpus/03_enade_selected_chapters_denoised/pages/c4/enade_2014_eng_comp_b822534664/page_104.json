@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cb7a284a29ef706006af8f7a5524c87d1920190ad80a9f8c6",
+    "usage": {
+      "input_tokens": 1655,
+      "input_tokens_details": {
+        "cache_write_tokens": 1652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 576,
+      "output_tokens_details": {
+        "reasoning_tokens": 390
+      },
+      "total_tokens": 2231
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_103.txt",
+      "source_sha256": "30ee877d7b446a289d09ea5f87fad65dd5e4fbf8864f1aa7a6b178d8da754e9c"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_105.txt",
+      "source_sha256": "c639f1efff8de1f9ebed5d2ac355d75883bf25dd1b0ce1310554c94fd80dadba"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:01Z",
+  "duration_seconds": 6.079,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_104.txt",
+    "source_sha256": "4f1a88db219ec733dd5e8555d209ed21939ac8f49f74a1cb8ed83d408bce2f75"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "777c62ba4ba4be53e4ea65b4d42ab4753f38d62e69474ba58fb7dd62700937c6",
+  "request_fingerprint": "1d8b189b1ab801f80a9b483e135559b0f41a85fa0ee21e393333722072bed98c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”); revisar se o gráfico estava completo na extração."
+  ],
+  "status": "success",
+  "text": "para a maior parte dos respondentes (maior do que 77% em todas as regiões e maior do que 73% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferença estatisticamente significativas do primeiro para o terceiro quarto. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 83,4% dos alunos sem que seja estatisticamente significativa a diferença deste para o quarto imediatamente inferior, onde a proporção foi de 80,6%.",
+  "text_sha256": "5dc979150891c5b21eea393259c274fe087e37ea2667e339799b404c6710e6ea",
+  "window_size": 3
+}

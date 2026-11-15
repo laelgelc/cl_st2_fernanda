@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c73e8678903cb7e006af901a78e2487d19d8afc472a59257a",
+    "usage": {
+      "input_tokens": 2043,
+      "input_tokens_details": {
+        "cache_write_tokens": 2040,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2040
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 542,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 2585
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_56.txt",
+      "source_sha256": "adfb24f4a0e1709d60232cca1b56081bebf1f1c0b5d61e4a1caf81d6a8a85301"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_58.txt",
+      "source_sha256": "81370be9156d16a85ba717dc7432b41cf1290bab050dd1cd57e313fe18721461"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:43Z",
+  "duration_seconds": 6.344,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_57.txt",
+    "source_sha256": "9331e87769ad22fba2f43129e7c48411c80bfd166774f973d814e458d9aa889c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "695ed243a17e2a959821de7177009ccad8c5b6ae333b2a86462a066b76da9740",
+  "request_fingerprint": "4f4cd96274687cffcd0210b94eac3422ac83499b032955d50256ca7126725378",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil, neste componente, foi 62,0. Nas regiões Norte, Nordeste e Centro-Oeste a Mediana foi menor, 58,0, 61,0 e 59,5, respectivamente. Nas demais regiões foi maior que o valor para o Brasil: Sudeste (64,0) e Sul (63,5). A nota Máxima (97,0) foi obtida na região Sudeste, sendo 92,5 na região Norte, 94,0 na Centro-Oeste, 94,5 na Nordeste e 95,5 na região Sul. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nO Gráfico 3.6 representa a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda desta distribuição ocorre no intervalo (60; 70]. Destaca-se também o intervalo [0; 10] com distribuição próxima a 5% do total de notas, sendo que no intervalo [0; 10] incluem-se além da nota zero, a frequência de alunos que deixaram este tipo de questão em branco.",
+  "text_sha256": "109aba4e9166705b0aa60f4167629d8490f410d3d458a9712e3c8004c100f57d",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08677954efb3e4dd006af8e5d1dff887d1b0434036ada3d01c",
+    "usage": {
+      "input_tokens": 2608,
+      "input_tokens_details": {
+        "cache_write_tokens": 2605,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2605
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 539,
+      "output_tokens_details": {
+        "reasoning_tokens": 353
+      },
+      "total_tokens": 3147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_93.txt",
+      "source_sha256": "65746807bdd3b3fe5c78284f6d6ca73722d667384a739be8a3cca733ea428ecd"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_95.txt",
+      "source_sha256": "02cfe83778dc60223a12d506ce53f55a9dce046e1f7a2687af96f77e33cf015c"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:57Z",
+  "duration_seconds": 5.913,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_94.txt",
+    "source_sha256": "a79b6b21d91d01f5080eccc26da8369ff8a6bdd5f7b251666cec8459dc139485"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0ac86959ef0614a13cfdb31390f9f45da319f352e85aa90f6bfca6e0d41432bc",
+  "request_fingerprint": "a9316f33d0d630b2d6ab230d59c40f2337a494ef251205dc22edc043bc6d2717",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os Gráficos 4.17b e 4.17c, incluindo títulos, dados, escalas e legendas; também foram removidas as linhas de fonte associadas a material gráfico. A frase termina em “o maior” na página-alvo e continua na página seguinte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ESTATÍSTICA. A proporção de concluintes que gastaram entre uma e duas horas foi maior na Região Sul (34,2%) e menor na Região Norte (8,6%). Para ingressantes, o maior",
+  "text_sha256": "bd364729a5ba086cb4603d077268c315af91bc39c6d5c2ad7494f0a7713ba3d8",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09912f96102c1113006af8f2dd93bc87d1b0b61bb7acbe7f50",
+    "usage": {
+      "input_tokens": 1693,
+      "input_tokens_details": {
+        "cache_write_tokens": 1690,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1690
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 790,
+      "output_tokens_details": {
+        "reasoning_tokens": 488
+      },
+      "total_tokens": 2483
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_87.txt",
+      "source_sha256": "8c61982963cbc08733286b4d109ef852d8392fef85cfb47083b6d970e8e459b4"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_89.txt",
+      "source_sha256": "eee2f0db7feff7d2cf33931cfa4d6f8cdeae4fd57fc1fc27ccd64c31d3c7480c"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:37Z",
+  "duration_seconds": 7.667,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_88.txt",
+    "source_sha256": "4577d65295bdbee150281985086386c6aa1780030cf68a67e65ef13434a5e377"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d6982a56d10f35cb70b70f1f29811ad7db31a103be7e4a87338798810f155a35",
+  "request_fingerprint": "9b590f8b8ac87ef18544f0652c6c1ad4d7e70d1bac7c69d7b76011a398a44dd6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graph material; the associated graph itself is not present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "4.1.2 Componente de Conhecimento Específico\nAo responderem à Questão 2 – “Qual o grau de dificuldade desta prova na parte de Componente Específico?” – 27,5% do grupo de estudantes classificaram-na como difícil ou muito difícil. Além disso, o Componente de Conhecimento Específico da prova foi considerado com grau de dificuldade médio por 62,9% dos alunos (Gráfico 4.3, Gráfico 4.4 e, no Anexo II, a Tabela II.2).\nA análise das respostas dos estudantes quanto ao grau de dificuldade do Componente de Conhecimento Específico da prova, agregados por Grande Região, mostra que a diferença entre a maior e a menor proporção de alunos que a avaliaram como difícil ou muito difícil é estatisticamente significativa: 31,6% na região Norte e 23,7% na Sudeste. O percentual de alunos que classificaram o grau de dificuldade como médio, no Componente de Conhecimento Específico, variou de 60,6% a 65,5%, para as regiões Centro-Oeste e Sudeste, respectivamente.",
+  "text_sha256": "d7f495155679e0a8c9a7b4345e37a9666e35a72972d54823e7e910efadde8074",
+  "window_size": 3
+}

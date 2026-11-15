@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03cc787296f1cba8006af91bf01e4487d192ef00d82c0cec14",
+    "usage": {
+      "input_tokens": 2443,
+      "input_tokens_details": {
+        "cache_write_tokens": 2440,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2440
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 246,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 2689
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_175.txt",
+      "source_sha256": "8cf09c6bccad743460d77186b4a8428950e481d29c33d91082ed6cd56675dffe"
+    },
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_177.txt",
+      "source_sha256": "5a616d97448a8037728a6104f677fe4ab5e314a35b2ab1af358a3e4096b2e00a"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:52Z",
+  "duration_seconds": 3.192,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 176
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_ci_cont/enade_2022_ci_cont_page_176.txt",
+    "source_sha256": "04b14d351d4a0195731397c45e9389771402cfe239fde621ebd9b4f32fb5cdc2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aabf1a717b6a1ee466c5140f594f0a9e9fcc5c59afb158e4fcee0ae14602e09f",
+  "request_fingerprint": "ce3e66347f89511a2047d4f2dea6e6539e6efafc9b5e41ac134d7b2d9b0a5b68",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 7.8, seu título e a linha de fonte MEC/Inep/Daes – Enade/2022."
+  ],
+  "status": "success",
+  "text": "No Gráfico 7.8, mostra-se a distribuição das notas na questão discursiva 2 do Componente de Formação Geral.\n\nO Gráfico 7.8, mostra que a modal dessa distribuição ocorre no intervalo [0; 10] com uma frequência de quase 20% dos participantes. A segunda maior proporção é referente ao intervalo de notas (70;80], também com frequência maior que 15,0%.",
+  "text_sha256": "89dc566abc3984d4db0eb8062b83816ad20be8113d91ed797df224fc4dd89bb2",
+  "window_size": 3
+}

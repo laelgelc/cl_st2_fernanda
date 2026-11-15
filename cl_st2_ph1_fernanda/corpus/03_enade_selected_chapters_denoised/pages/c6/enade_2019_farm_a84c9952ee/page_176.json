@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a4fd12e8ab749b9006af9131187a887d19186800bda7231e1",
+    "usage": {
+      "input_tokens": 2560,
+      "input_tokens_details": {
+        "cache_write_tokens": 2557,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2557
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 530,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 3090
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_175.txt",
+      "source_sha256": "f83ca15c7f250aee8835516e890c0be6fa82003e699868d94ea462e1568fe30a"
+    },
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_177.txt",
+      "source_sha256": "199704c863c07e6eb2f0faa0d16fb72b686bc605b2953ab839da3d9206df0f74"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:01Z",
+  "duration_seconds": 6.088,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FARMÁCIA.pdf",
+    "page_number": 176
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_farm/enade_2019_farm_page_176.txt",
+    "source_sha256": "f7850921e2304e2565618e543348e8d81cef7fddd2a04cd7acd17464497fb692"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d107c2feb36237089c470a75c726ec5fcdbe563cd21f596c656ce43875a95d51",
+  "request_fingerprint": "d2ff397a60645eac2144cf64be574b618e6c6c4595d717ce7daa033120f0dc7b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/Inep/Daes – Enade/2019”, identificada pelo contexto como fonte do gráfico da página anterior. A frase final da página termina em “e,”; não foi completada com texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "6.3.1.9 Comentários sobre a correção de Língua Portuguesa das respostas à Questão Discursiva 2\n\nA Questão 2 de Formação Geral abordava o tema do desenvolvimento científico e do desenvolvimento tecnológico do Brasil, tomando como base um fragmento de texto publicado em site oficial de um órgão governamental de pesquisa na internet, o Ipea. O texto motivador informava que o Brasil está em posição intermediária em todos os indicadores de produção e utilização de conhecimentos e novas tecnologias. Além desse texto, a questão apresentava uma imagem que estabelecia uma ligação entre Instituição de Ensino Superior - Empresa - Setor Público.\n\nCom base nessa reflexão inicial despertada pelo texto motivador, o comando solicitava que o participante citasse dois ganhos para o campo científico e dois ganhos para o campo econômico no país, resultantes da relação entre Instituição de Ensino Superior - Empresa - Setor Público.\n\nComo o comando solicitava apenas uma “citação” de ganhos, sem referência à exigência de justificativas ou explicações que ensejariam a elaboração de um texto dissertativo sobre o tema, observou-se uma grande fragmentação do pensamento abstrato e,",
+  "text_sha256": "6c8c68dc8ccd43dc59ac8306ed03d9bcc26f58f8d96e2d9dc710827fdf5cfe77",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04e5072bbdf5c45f006af8f61e17fc87d1aaacb794b992e920",
+    "usage": {
+      "input_tokens": 2713,
+      "input_tokens_details": {
+        "cache_write_tokens": 2710,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2710
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 3108
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_45.txt",
+      "source_sha256": "31bb7400f1afbf0e7df86a61b5736bd1d7784f6c844dd1eb473ac4acba6997cd"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_47.txt",
+      "source_sha256": "9eb7bd7041593ed119b04720d5a66f104ade09bd72e3e210510f54f15b9d7ece"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:29Z",
+  "duration_seconds": 4.911,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_46.txt",
+    "source_sha256": "b9c648b8e41806d9e1c9545adb67e7cc82ef44c5e32c176a982395506d339fd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "811ddb1625175b1cd78eff0b275ded1d37b995b1db983bedb95f40c12f9dc2b9",
+  "request_fingerprint": "595df60dff23d92babb8dc2b1983fc68b3c24f250cad66c9d7d2cf8a2c2c3004",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, pertencente ao Gráfico 3.2, cuja discussão continua do contexto para a página-alvo."
+  ],
+  "status": "success",
+  "text": "desvios padrões: 15,2 para a nota da prova como um todo e 17,6 para o Componente de Formação Geral.\n\nNa Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\nA maior média foi obtida por estudantes de IES Públicas (52,6), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (50,1). Considerando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Centros Universitários (50,9), de Faculdades (49,7) e de Universidades (51,0).",
+  "text_sha256": "0223e23f8fbf74780f61beba29537020830de29db1ab71d13d35fde53fa3efe7",
+  "window_size": 3
+}

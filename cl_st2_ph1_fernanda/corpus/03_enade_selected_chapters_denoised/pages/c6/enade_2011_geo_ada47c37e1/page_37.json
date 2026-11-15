@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ffaa4c581d937a8006af8ed836cb887d18175defe09c08c33",
+    "usage": {
+      "input_tokens": 1462,
+      "input_tokens_details": {
+        "cache_write_tokens": 1459,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1459
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 277,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 1739
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_36.txt",
+      "source_sha256": "598cd27defc68ce83d4c5503d9b02cc91b7de3c1799c5bc11226e2366de2b983"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_38.txt",
+      "source_sha256": "87b23ed93e8adcfb4a0295c7bc26eefdeccfd77ce0ea6ecb0e358726084c7a86"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:47Z",
+  "duration_seconds": 3.146,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_37.txt",
+    "source_sha256": "42ccdb1c5821da92dd0f47ccc897a1d467c9227b7ae917050236bd1c5316dec2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "894f7b80abfd21e3692ffa0e1706684bb77b88c12f74bf7fbfaa0483b21fbb8b",
+  "request_fingerprint": "2448b3ab326be1ca85c8bf047badbbf1a6ae3012846438f187118df21a29c238",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, associada ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Centros Universitários (42,0) em relação aos de Universidades (39,2) e Faculdades (39,9).",
+  "text_sha256": "46ba84cba22d5965a5af64e6d2e6200b35fdecd9d87e958d88e56816cabee017",
+  "window_size": 3
+}

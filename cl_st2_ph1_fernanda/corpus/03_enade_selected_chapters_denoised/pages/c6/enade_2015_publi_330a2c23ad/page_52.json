@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a85a2f0fba45f86006af8fe712bc487d18d1be361582da15b",
+    "usage": {
+      "input_tokens": 2485,
+      "input_tokens_details": {
+        "cache_write_tokens": 2482,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2482
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 703,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 3188
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_51.txt",
+      "source_sha256": "1ae4b5f13b46e289829d054a48728af2720ebde19f83cbc1c66718a928d11010"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_53.txt",
+      "source_sha256": "86b62076d142902a03e8c3c0f68537e45c988d3f13d05263920d1fb30094d38b"
+    }
+  ],
+  "created_at": "2026-11-15T00:36:01Z",
+  "duration_seconds": 6.308,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_publi/enade_2015_publi_page_52.txt",
+    "source_sha256": "87dcc8048e27b4bb26341713608e7381c84db742de0f7ff860425eb614c7d363"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b3761f25fe174210d11c1c113d375468fca4de8ada28ec4640debf9efecfe083",
+  "request_fingerprint": "6d9447c29b53ea832cc133a039cb25ddf7681cc12d19624ebc7eca9fa6da1e11",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 41,3% escolheram a alternativa D, 19,3% a alternativa C (correta), 14,2% a alternativa A, 14,7% a alternativa B e 10,1% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,3% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "6ba6163bcbc84dc97b2d7db0ecb33cf557c68fb7db8a0d944dfe2d0891631aa4",
+  "window_size": 3
+}

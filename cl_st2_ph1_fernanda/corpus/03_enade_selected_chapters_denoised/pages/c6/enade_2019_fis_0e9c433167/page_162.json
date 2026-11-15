@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05d9150e69de7a5b006af913ccaf5487d18652b00a09b22ae8",
+    "usage": {
+      "input_tokens": 2921,
+      "input_tokens_details": {
+        "cache_write_tokens": 2918,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2918
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 380
+      },
+      "total_tokens": 3867
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_161.txt",
+      "source_sha256": "755ff7d26bd578b62ca54fd8943ea5c1aeb15dbc84e328aa2566320e02c56697"
+    },
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_163.txt",
+      "source_sha256": "f37b922ecebfb72636b2889aca1be13b3a087ccfbf4091210a089d1719afa2e5"
+    }
+  ],
+  "created_at": "2026-11-15T02:07:08Z",
+  "duration_seconds": 7.976,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 162
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_162.txt",
+    "source_sha256": "7ac58b7274a2a582c03ebf1a5040304146e7bdabffb5c58a7a5ddd33003b70b6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "61d97427ddf8268bd5b51ec0f45ff90f3d6f57b7c160b1f120f4630844a05b37",
+  "request_fingerprint": "ad8888131569f37c1f93a143490076a005e6aaf971ff69744bb573e2aa1d1e71",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.5. A página de contexto seguinte começa com uma linha de fonte, possivelmente referente a esse gráfico; ela não foi incluída."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, no Gráfico 6.5, analisa-se a questão 30 do Componente de Conhecimento Específico. Essa questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com nível de facilidade Fácil, 0,71, ou seja, 71% dos estudantes assinalaram, acertadamente, a opção E, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,49, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 30, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério Ponto-Bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. No caso de Educação Física (Bacharelado), como se observa no eixo horizontal do Gráfico 6.5, nenhum estudante acertou mais do que 25 questões dentre as 26 questões objetivas válidas, considerando-se o gabarito original. Mesmo com a eliminação das duas questões com Índice de Discriminação Fraco do cômputo da nota, nenhum participante atingiu a nota Máxima, igual a 100,0, nessa parte da prova (visto na Tabela 6.10).\n\nObserva-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, marcaram as opções A (em azul) ou D (em laranja). A proporção de estudantes que selecionaram a resposta correta E aumenta gradativamente, chegando a atingir 100% para 24 e 25 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três ou quatro acertos, em função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "15b91414d358a29ce1f79df8da3aa8038a16016a3e3bee1e16a3240129326205",
+  "window_size": 3
+}

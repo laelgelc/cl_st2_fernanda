@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07ed9bed6595a539006af9218d36a887d18e1009ac0ffa7f4a",
+    "usage": {
+      "input_tokens": 3134,
+      "input_tokens_details": {
+        "cache_write_tokens": 3131,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3131
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 3666
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 131,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_biomed/enade_2023_biomed_page_131.txt",
+      "source_sha256": "789620d218e058ac3e0819cec5b7a0bbf78ae08f3edd558f9736efa641549b54"
+    },
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_biomed/enade_2023_biomed_page_133.txt",
+      "source_sha256": "374dcc18da99e6bcd2547602e48cd7a9da40070c7f14bac144b1ca737b4ff0ae"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:49Z",
+  "duration_seconds": 6.911,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 132
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_biomed/enade_2023_biomed_page_132.txt",
+    "source_sha256": "c378f38ddb33efb9d16483c0e2049c0a62b33651825b8a151db1dcb263b19cce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e56369794d3e97d1a7854eb41437097f34e584839a0823a678ec69fa246fd0a0",
+  "request_fingerprint": "9491f5744a650400f78fa4cdfa1663ed202e862064c85c52b7d07d21e1f7df39",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o histograma do Gráfico 5.1, incluindo título e fonte.",
+    "Removida a Tabela 5.2, incluindo título, cabeçalhos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Biomedicina de todo o Brasil: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (58,8) que a média das IES privadas (38,6). O desvio-padrão para as IES públicas foi de 13,9, indicando uma dispersão baixa das notas nesta categoria administrativa. Já o",
+  "text_sha256": "17cf972453e7fea5c0e9e282ff3c04df178fab55d2230d1e6a7fabcec1a62da5",
+  "window_size": 3
+}

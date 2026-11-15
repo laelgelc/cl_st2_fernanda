@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0235a35ddbe7c980006af8f8b2c5a087d19f8e12c13da27b97",
+    "usage": {
+      "input_tokens": 1683,
+      "input_tokens_details": {
+        "cache_write_tokens": 1680,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1680
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 451,
+      "output_tokens_details": {
+        "reasoning_tokens": 251
+      },
+      "total_tokens": 2134
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_101.txt",
+      "source_sha256": "bbece2fd0bbaaa3661ecc93e181f25a81f1668c610745f3fa831c5a0286cd14c"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_103.txt",
+      "source_sha256": "ae857696142d5bf67b1c2354325c5e4fcc6ed3bdebf0677bfbcbf5783e19f222"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:30Z",
+  "duration_seconds": 6.058,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_102.txt",
+    "source_sha256": "e6cf29525bf88e0ee4716a2d43dc254f26d42ccc57acf11e323a46276f848613"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b45cbc3558a27c129036fc66b4054611d0a2d9299d79a1ffcb06d5f887df227",
+  "request_fingerprint": "27b60c102680a776e9e89a91bf8eff7d5e43ce6214f9572e87c451faddc9327a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, provavelmente pertencente a material gráfico da página; o gráfico em si não estava presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (90,4%), percentual superior à média nacional (86,9%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 79,3% dos respondentes. Estas proporções são crescentes com os quartos de desempenho. Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes do quarto inferior e dos demais, como mostra o Gráfico 4.12.",
+  "text_sha256": "ddbfbf0a5c75a6ca4642e8cd0cb0c9dfbf22e39cb18ce266d13374d51e6a187a",
+  "window_size": 3
+}

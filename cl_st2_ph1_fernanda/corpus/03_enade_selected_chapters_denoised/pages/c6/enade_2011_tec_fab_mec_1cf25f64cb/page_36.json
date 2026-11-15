@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0593bf182433c4ff006af8ef5c081887d1bcbcd90d7ab8c2cc",
+    "usage": {
+      "input_tokens": 1567,
+      "input_tokens_details": {
+        "cache_write_tokens": 1564,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1564
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 1828
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_35.txt",
+      "source_sha256": "a7d4970248ba2b3ed53a535015b058620be203ec9b7c8c4fd0b9b97c359fe7db"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_37.txt",
+      "source_sha256": "221d6cbc0602a9f11ba2c1e725794854c3da522aeca8e228d95c9c2e5479ee56"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:39Z",
+  "duration_seconds": 3.11,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_36.txt",
+    "source_sha256": "8284478f4f573cddfbf7b0ba7558affd66108101815c81a0ca9e667768b14814"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f3e97c420004da3ce0de2493e536e2c51850595073abb70db12ff9318dc22bdd",
+  "request_fingerprint": "5ec95f7d336f4087c73a391e54489466239d39b293d79b123bee0129e935b1fd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, que pertence ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, contata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Centros Universitários (38,0) e os demais grupos. Já a diferença das médias dos alunos de Faculdades (45,5) e de Universidades (46,8) não é estatisticamente significativa.",
+  "text_sha256": "6035c6a0e95c2eb0492d1c2676c3a251966ad8715d28107ccb134ac31a57dc02",
+  "window_size": 3
+}

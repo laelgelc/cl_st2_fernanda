@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c1d595dac2cb62006af90d94133887d1900b9928f88788b9",
+    "usage": {
+      "input_tokens": 2847,
+      "input_tokens_details": {
+        "cache_write_tokens": 2844,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2844
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 528,
+      "output_tokens_details": {
+        "reasoning_tokens": 325
+      },
+      "total_tokens": 3375
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_112.txt",
+      "source_sha256": "6e24bf523518947419dcd2ff429958eb5a2e3f6cf7fbb29d6cda6b2d612d0bd0"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_114.txt",
+      "source_sha256": "e60a6c3bb4b6cbbe1d8d3467b4145795489dd12667491057e9419aa56bec3b0e"
+    }
+  ],
+  "created_at": "2026-11-15T01:40:36Z",
+  "duration_seconds": 5.303,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_113.txt",
+    "source_sha256": "7286b06ec78f62ee4e57a7a736cf16d3de30c42a2f348c389db96febcab7412f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91c8df99b4ddd571b7c8f73d6ae3c5e0485e4249f96dc02aa60ed0fac0ddcf00",
+  "request_fingerprint": "e6a2b8eccc8ad593f933361ace2c48c4c6ab6a24d94bec72d4db7ebb8de13971",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 6.1, incluindo sua linha de fonte.",
+    "Removida a Tabela 6.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (50,60].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 52,3. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (52,8) que a Média",
+  "text_sha256": "619d42f1d2c07d34f8577f45815f0b7a58c7420f9d4fc7f71bb07eaf1488cc90",
+  "window_size": 3
+}

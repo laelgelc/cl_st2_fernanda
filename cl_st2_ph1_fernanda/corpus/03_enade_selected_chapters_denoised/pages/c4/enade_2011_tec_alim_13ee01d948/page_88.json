@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c0ead03daea269006af8eeab993087d1b1ff27e9fcef9610",
+    "usage": {
+      "input_tokens": 1739,
+      "input_tokens_details": {
+        "cache_write_tokens": 1736,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1736
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 529,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 2268
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_87.txt",
+      "source_sha256": "570b19f0173ff86b4aa04d50cdca171541f7d058b2d0e919ce8346c589479f29"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_89.txt",
+      "source_sha256": "c2952835dbc7c1533f728f27acb0da2ca84fcbb78a948ac40ac60bb58d329faa"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:43Z",
+  "duration_seconds": 5.175,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_88.txt",
+    "source_sha256": "e739ae69601e14fad1ea00de88eb037f9676a77369da2ee264c9a02490aa676f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8b1beac74b537ff80889e19bcc5025f5ed59ebac09851c0fd2df4414cb987685",
+  "request_fingerprint": "84d68ec89f2655cdbb0e208a25dcd62d990ed845d5be2b20fc5f8aea90e3641e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que classificaram o grau de dificuldade como médio, no Componente de Conhecimento Específico, variou de 54,2% a 60,8% para a região Sul e Nordeste, respectivamente.\n\nConsiderando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa. Em todos os quartos, a proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 34,0% (4º quarto) a 41,7% (1º quarto), numa tendência decrescente conforme aumentam os quartos de desempenho. A alternativa modal para a Questão 2 foi médio, crescendo de 51,1% do quarto inferior a 62,4% do dos estudantes do quarto superior optando por esta resposta.",
+  "text_sha256": "601dcaa31b653a37cefba5f9a4489c9929b1198efa298f33f47a4a2e773e4cf3",
+  "window_size": 3
+}

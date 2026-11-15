@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07192c9df391b606006af8f641bbcc87d19992b34ddfd3f1f5",
+    "usage": {
+      "input_tokens": 1689,
+      "input_tokens_details": {
+        "cache_write_tokens": 1686,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1686
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 379
+      },
+      "total_tokens": 2201
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_114.txt",
+      "source_sha256": "ec92df07b550f2ff3e35b80d0202bc755027c2043e1990dec9cf7bf25b87cea7"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_116.txt",
+      "source_sha256": "a3d4e9927948684d40a248ac86984f83301705d1c15014aca2c36ab9c3095910"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:05Z",
+  "duration_seconds": 6.749,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_115.txt",
+    "source_sha256": "9e351e318a11ec44e2d689f4a895c4b7d5ebcf02e2a2dd50d3df9418f181273a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "efb5f5ce530aa334efa8d8aa1fcebfe08623cab7f6e298215183b30cd6b3b9c9",
+  "request_fingerprint": "c04a114c67779333f94139c2eaf221f8e3f925a17a56b00daf82202e37806d72",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES - ENADE/2014 source line, which appears to belong to graph material."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que há diferença estatisticamente significativa do resultado do quarto de melhor desempenho em relação aos demais. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 43,2% (4º quarto) a 60,5% (2º quarto).",
+  "text_sha256": "d42fa12d165bc24eae7e0e24fcef5ea8573096d2018dc2103ee128acc7a167a1",
+  "window_size": 3
+}

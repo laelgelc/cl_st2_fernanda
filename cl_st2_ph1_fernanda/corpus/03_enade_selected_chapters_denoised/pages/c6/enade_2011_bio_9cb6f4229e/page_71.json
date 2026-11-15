@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c81845fc795377f006af8eb25087087d1a969b8f0857514e9",
+    "usage": {
+      "input_tokens": 2718,
+      "input_tokens_details": {
+        "cache_write_tokens": 2715,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2715
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 536,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 3254
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_70.txt",
+      "source_sha256": "4eb66a4abc6836cdabdcd0937159ecba1e57fb2a23ee9b257e9832ce3ed62545"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_72.txt",
+      "source_sha256": "d5385a93a4d454bd63fcb53fd7007ff1d4717029a451e11977040af0f3915b4d"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:40Z",
+  "duration_seconds": 5.672,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_71.txt",
+    "source_sha256": "8d305ca7aab23041a00b25bc0922edc54c57a204895779c4932edb410ff5aa16"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9738d6923221564e9993c17831c2bfa728a65af1662bd1b6e46212f4de72171",
+  "request_fingerprint": "c0e128cf2cb3f252ee4b391b519d22468197e9f34bfe7c7055a612541376de6e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 3.19, cujo conteúdo gráfico está na página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.14, a média dos estudantes de todo o Brasil foi 15,2. A menor média nessa questão foi obtida pelos alunos da região Norte (10,7), enquanto a maior média foi obtida na região Sudeste (17,2). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 19,2. O maior desvio padrão foi obtido na região Sudeste (19,8), enquanto o menor foi obtido na região Norte (16,3).\n\nA nota máxima, 100,0 pontos, foi alcançada por pelo menos um aluno de todas as regiões, com exceção da região Norte, onde a nota máxima foi 90,0. A mediana do Brasil como um todo foi 10,0, a mesma da região Sul. A maior mediana nesta questão foi a da região Sudeste (15,0), e nas demais regiões a mediana foi 0,0, o que significa que mais de 50% dos alunos obteve nota zero ou deixaram a questão em branco. A nota mínima (0,0) foi obtida por pelo menos um estudante em todas as regiões do Brasil, sem exceção.",
+  "text_sha256": "6069b5d14af2d7627a1b06ed16b5ae46ae6ae26a517ad0b9aea350113580a15e",
+  "window_size": 3
+}

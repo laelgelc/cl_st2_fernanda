@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09d79255ef0e5c90006af8fba0760887d1b23f50569ef7147b",
+    "usage": {
+      "input_tokens": 2300,
+      "input_tokens_details": {
+        "cache_write_tokens": 2297,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2297
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 295,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 2595
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_85.txt",
+      "source_sha256": "630cb915f9952864511633b3d7e494cad8289d1be2a6e0bf3a54a058a0f802ee"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_87.txt",
+      "source_sha256": "bd1b62291521202712d2ae74a6340813b1ac03cac7049286f2ef2fd88a36a666"
+    }
+  ],
+  "created_at": "2026-11-15T00:24:00Z",
+  "duration_seconds": 3.397,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por/enade_2014_letras_por_page_86.txt",
+    "source_sha256": "4121201f981cb74e0af359e2ab797682ac039282c3a99dde27db8c837b1d70b2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e145838b22ae2457f7bb39db453c257a0302b103d7b065b1182773f2bf3f2de8",
+  "request_fingerprint": "ff5e8bd2793e943724e21431906abb58006102fbf7b71828be1f3f6f4f83b19b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.12 mostra a distribuição das notas na questão discursiva 3 do Componente de Conhecimento Específico da área de Letras - Português para estudantes do Bacharelado e da Licenciatura. Essa distribuição tem moda nas questões em branco, com percentual maior para os estudantes de Licenciatura.",
+  "text_sha256": "2f3d4ca7fc3aa36f72e9670570e70a786ecc91d73630c6033d02dce6d310042f",
+  "window_size": 3
+}

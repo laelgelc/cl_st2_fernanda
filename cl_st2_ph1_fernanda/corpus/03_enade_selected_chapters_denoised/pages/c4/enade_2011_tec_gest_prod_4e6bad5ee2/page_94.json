@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0469cbdf003bab0d006af8ef76042487d191f5f8f981e97c79",
+    "usage": {
+      "input_tokens": 1583,
+      "input_tokens_details": {
+        "cache_write_tokens": 1580,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1580
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 301
+      },
+      "total_tokens": 2043
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_93.txt",
+      "source_sha256": "9e582ec9e9f43067439e8cff5b496f6e08349cd5dd976abf0fa7c564baed1556"
+    },
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_95.txt",
+      "source_sha256": "d586ffe553ac77f1a530ebe3914566f44389a8d2c26f5f7a0ea3d08c04619e4d"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:05Z",
+  "duration_seconds": 5.562,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 94
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_94.txt",
+    "source_sha256": "96d61b8a2e81a5f29a8fd7737fec54b5754211e88767453909a26592199ae059"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7467c89516e6d6b3c37b9202b2142eb4247fca41c83f5251e755e5c0c94796a7",
+  "request_fingerprint": "56fc459a92442fb87f2fcbe4175c8104e4b66189b9a1d931e8c8b08920fac660",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the MEC/INEP/DAES source line, which appears to belong to graph material; the graph itself is not present in the extracted text."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no 1º quarto, 10,3% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, percentual pequeno na comparação com o quarto de melhor desempenho (0,8%). A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa.\n\nTendo em conta o quarto superior, 85,8% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos.",
+  "text_sha256": "67c7b62425bb63d2aae1aace80a7bbd9ad1ae42849683416e52df1c7baacd8a9",
+  "window_size": 3
+}

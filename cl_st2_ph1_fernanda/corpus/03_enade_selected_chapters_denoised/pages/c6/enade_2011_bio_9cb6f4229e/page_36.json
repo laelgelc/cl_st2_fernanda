@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aa997f2d2b98f59006af8eb102b0487d18739e133182e430b",
+    "usage": {
+      "input_tokens": 1495,
+      "input_tokens_details": {
+        "cache_write_tokens": 1492,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1492
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "reasoning_tokens": 237
+      },
+      "total_tokens": 1850
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_35.txt",
+      "source_sha256": "f598860dc77bb54d9bddddabfdb3869b56968f9b3c91070e6a6acefcd25b83c6"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_37.txt",
+      "source_sha256": "164a72d2cbbb3847f0f369b5cd318b8d8176b4339b49cf43aac8545399b0b4ba"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:20Z",
+  "duration_seconds": 4.099,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_36.txt",
+    "source_sha256": "aeca2be409bd721a522f88d70c8a543369cf565c926c850cbbeb49ef57e5458e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "68260482ae6f06910a71981ef7331c1c2ce96e07bf6e6dcb79fa9a15eafe5c47",
+  "request_fingerprint": "e4366fe12c0ef5964a9a2036ebc9b8bb33138af5987bd581fbfd97678053641a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the graph source line: “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes desagregados por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas, e que a média dos alunos de IES Públicas (45,8) é maior que a dos alunos de IES Privadas (44,2).",
+  "text_sha256": "ec6cc4d1f99792f3430ddbbf9e266c87caa75850d38a160aa68efc628e7c2f31",
+  "window_size": 3
+}

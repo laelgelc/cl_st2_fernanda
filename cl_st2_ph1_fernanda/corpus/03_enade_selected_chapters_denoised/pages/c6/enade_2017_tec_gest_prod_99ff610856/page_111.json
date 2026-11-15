@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f7738c250949be006af90b49908887d18e386346a8f7af29",
+    "usage": {
+      "input_tokens": 2768,
+      "input_tokens_details": {
+        "cache_write_tokens": 2765,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2765
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 289,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 3057
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_110.txt",
+      "source_sha256": "c139e6fca57c4fcb3839b53a8e70cbf6eeae3f6bc50933ed5fd3e77721fbbc7d"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_112.txt",
+      "source_sha256": "4a9fc37f32425e305abf2b610d892a1b3015098b36bc955da70a0ff9e546b63b"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:49Z",
+  "duration_seconds": 4.112,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_111.txt",
+    "source_sha256": "fd4c22e3fd3e6b2427914538af375627ae2353a9dda26e69438ed77e0163d953"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6acda0459345780b20a36d0d88343f16bff02a64833e6c29e02dd1a4302403a7",
+  "request_fingerprint": "0b20404c4f845861487253a9ae905b8677f1210dedde060fdc65b63cf09d2377",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, dados e fonte. Removido o histograma do Gráfico 6.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a sua distribuição. Essa é uma distribuição unimodal, com a moda no intervalo (40; 50], seguido pelo intervalo (30; 40].",
+  "text_sha256": "6da438f1fcc30949b1743238ad1746b0c285676f45554e8c2f865fea3ae4027c",
+  "window_size": 3
+}

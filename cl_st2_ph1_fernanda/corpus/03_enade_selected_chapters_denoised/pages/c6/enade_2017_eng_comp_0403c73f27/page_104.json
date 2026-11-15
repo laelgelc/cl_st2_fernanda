@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aac6a7485c62ce2006af9061b1d3087d1961b579148d33bdd",
+    "usage": {
+      "input_tokens": 2735,
+      "input_tokens_details": {
+        "cache_write_tokens": 2732,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2732
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 960,
+      "output_tokens_details": {
+        "reasoning_tokens": 385
+      },
+      "total_tokens": 3695
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_comp/enade_2017_eng_comp_page_103.txt",
+      "source_sha256": "2d464a07fb206693a47c9ddff0441b925bb242d6ac9749f21b9d88c6763c9219"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_comp/enade_2017_eng_comp_page_105.txt",
+      "source_sha256": "880520e4e3d658ac364556c371f3a02cc2164f96bcbaa671c565704bf9a30495"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:43Z",
+  "duration_seconds": 9.152,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_comp/enade_2017_eng_comp_page_104.txt",
+    "source_sha256": "385ff0cfb6ce00da399aec3358da5bafa495b003b92fe6bb015328e04d6d0fd6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91ca52a90e534d752eda9cbfe622ab438a235708f657c488f22f0f11cdf1b073",
+  "request_fingerprint": "511384ae756e4df4338e957df280bc84267e459e37a5fc66def77dbbe3bf3d7b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.1, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "6.1 ESTATÍSTICAS BÁSICAS DA PROVA\nEsta seção apresenta estatísticas selecionadas e histogramas da nota geral (6.1.1) e de cada componente: Formação Geral (6.1.2) e Conhecimento Específico (6.1.3). São também apresentadas estatísticas selecionadas de subpopulações caracterizadas por Grande Região, Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\n6.1.1 Estatísticas Básicas Gerais\nA Tabela 6.1 apresenta as Estatísticas Básicas da prova, por Grande Região, dos estudantes concluintes de Engenharia de Computação. A Média das notas da prova, como um todo (nas seções seguintes serão analisados os Componentes de Formação Geral e de Conhecimento Específico) foi 45,4, sendo que os alunos da região Norte obtiveram a Média mais baixa (41,7), e os da região Sul obtiveram a Média mais alta (48,1). As demais médias foram: 45,2 na região Nordeste, 45,1 na região Sudeste e 44,6 na região Centro-Oeste. O Desvio padrão para o Brasil, como um todo, foi 14,1, sendo o maior Desvio padrão encontrado na região Sudeste (14,5), e o menor, na região Norte (11,8), indicando uma dispersão um pouco menor das notas dessa última região.\nA região que obteve a maior nota Máxima foi a Nordeste (96,2), ao passo que a região que atingiu a menor nota Máxima foi a Norte (76,1). A Mediana do Brasil, como um todo, foi 44,4, sendo a maior Mediana obtida na região Sul (46,7), e a menor, obtida na Norte (40,9). A nota Mínima foi zero apenas na região Nordeste. Nas demais regiões as notas mínimas foram: 1,9 na região Sudeste, 10,2 na região Sul, 11,3 na região Centro-Oeste e 14,2 na região Norte.\nConsiderando-se as notas, segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (38,5), e as médias das demais regiões Nordeste, Sudeste e Sul²¹.\n\n²¹ Todas as comparações deste capítulo utilizam os intervalos de 95%. Os erros-padrão da média que possibilitam os testes estão disponíveis nas tabelas.",
+  "text_sha256": "cf9c32c9c6ab1e5195fa0d753be2b2c8fa57cb82b36ec046a188021ef7868a79",
+  "window_size": 3
+}

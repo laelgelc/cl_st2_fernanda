@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0afba8c8179b47ad006af901b3b71087d1a949352e541ac38c",
+    "usage": {
+      "input_tokens": 2324,
+      "input_tokens_details": {
+        "cache_write_tokens": 2321,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2321
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2616
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_77.txt",
+      "source_sha256": "a246fc8ffbec209713110f13948083dbffe11e411c005a156d9803c6cea3ecac"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_79.txt",
+      "source_sha256": "b1d3eb8ed0cb215058007cd74aab2634624e3f6e546a0c59a0466ccac204eaf4"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:55Z",
+  "duration_seconds": 3.48,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_biomed/enade_2016_biomed_page_78.txt",
+    "source_sha256": "3a4f00e11dd00310ab40bd009f5cdbb4bad84098c79ed53263b2f31bc1e906e4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a55b50af506273168a7f0fc8b9288ce8c91365bd37f839821c9c18831b434dcc",
+  "request_fingerprint": "748134d4e10d558ad5e9e0aa85468c86d93cde0165e0623b30daf4895b757682",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte; removido o material gráfico do Gráfico 3.11 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Biomedicina. Essa distribuição tem moda no intervalo (40; 50], com mais de 27% das notas, um máximo local no intervalo (20, 30], com quase 25% das notas, e outro máximo local, menos acentuado, no grupo daqueles que deixaram a questão em branco.",
+  "text_sha256": "198b6b23c1db657bfbf4f62ff7f24a3b37362c3b06c97ef4b66b0dd37a952deb",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c9a7b6be72b0bbe006af9088af93087d181bf2c0e5fcaa5f5",
+    "usage": {
+      "input_tokens": 2973,
+      "input_tokens_details": {
+        "cache_write_tokens": 2970,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2970
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 663
+      },
+      "total_tokens": 4022
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 222,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_222.txt",
+      "source_sha256": "68a8a9ae550e7e7cf3c0658df6ab14337c4ecb5ef171a780a919de03e3c01066"
+    },
+    {
+      "page_number": 224,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_224.txt",
+      "source_sha256": "5b76a7b95e5383a2347614bbbfeedf20b92b67e4d5a2809b6136dc53dbe50e19"
+    }
+  ],
+  "created_at": "2026-11-15T01:19:06Z",
+  "duration_seconds": 7.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 223
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_223.txt",
+    "source_sha256": "435ca004862d326ca526cdd3740155180ff02d2202d38c628b30d7790189b27d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2f180719d2f9839e1d30c696135d2d55a9d1b99c3a0a138f7e01664355853275",
+  "request_fingerprint": "545dead441c229276cc758dca2739d5b34b49868ebfd6e904d85b359a457d2a7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, rótulos, legenda e fonte da Tabela 6.8b e da Tabela 6.9b.",
+    "A última frase termina em “(Formação” na página-alvo e continua na página de contexto; o trecho não foi completado."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.9b apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices, semelhantemente ao apresentado na Tabela 6.9a, mas aqui para os alunos de Bacharelado. As seis questões com Índice de Discriminação Muito bom figuraram entre três níveis de dificuldade Muito fácil, Fácil e Difícil: uma classificada na categoria Muito fácil (a questão 6) do Índice de Facilidade, quatro na categoria Fácil (questões 2, 4, 5 e 8) e, por fim. uma na categoria Difícil (questão 7). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,61 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,90.\n\nO Gráfico 6.4b, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade e a com Índice de Discriminação Muito bom.\n\nSemelhantemente ao apresentado no Gráfico 6.4a, neste gráfico também, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação",
+  "text_sha256": "b6d17707e17b1b343ef80ffcd66d810d9651d29a643cbc0ddeb8f8e04f5280a8",
+  "window_size": 3
+}

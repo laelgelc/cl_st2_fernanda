@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b751a4b4c947909006af8f290497087d19f4f54ad3cb568fb",
+    "usage": {
+      "input_tokens": 2031,
+      "input_tokens_details": {
+        "cache_write_tokens": 2028,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2028
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 2426
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_78.txt",
+      "source_sha256": "319c2ff80eddee7f8529274c33c99c99acd5830909932be574669a0bc389ecd8"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_80.txt",
+      "source_sha256": "6cefd3549a8d7aa640606301358b1373fd96a551540af0d7bb2f184c162b7843"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:20Z",
+  "duration_seconds": 3.889,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_79.txt",
+    "source_sha256": "8df95b5b68b0e5d89d5caef7899dc40af04d3bf02ac0fc06950e51df835ac2ce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "995c5fe566485f67ef55b421b3608ca203e8eaebafa7c6a202366cea33baaf2a",
+  "request_fingerprint": "6cab4e27954545b6f6e27258cc8ebe65dd12dfef3b4d30c5fbfe271059d13db6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em relação ao aumento de desempenho (Gráfico 4.2). Nos dois quartos de menor desempenho, a diferença não é estatisticamente significativa, 36,4% no 1º quarto e 34,7% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos julgaram a prova difícil ou muito difícil – 31,4% no 3º quarto e 27,6% no 4º quarto – foi menor do que nos demais e significativamente diferente entre si. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 56,4%, 59,1%, 61,7% e 63,8% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente, valores crescentes com o desempenho.",
+  "text_sha256": "689451bd2b62497883b7ad2fc3e700bedb36630d1c6a88221ece0e4e085022e4",
+  "window_size": 3
+}

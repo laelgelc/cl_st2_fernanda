@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0092e1ef19e6f927006af912a0d3f887d1a8610eca7d6341ec",
+    "usage": {
+      "input_tokens": 1470,
+      "input_tokens_details": {
+        "cache_write_tokens": 1467,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1467
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 247
+      },
+      "total_tokens": 1886
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_116.txt",
+      "source_sha256": "71d85f5cc0be90c0cb61512716b8ec4b63b6e674baf19179910e8d583570920b"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_118.txt",
+      "source_sha256": "b0486c60e304603fa5d79e74a6d2187b3df52a4d437e5d5ae8e2019aa871cb1c"
+    }
+  ],
+  "created_at": "2026-11-15T02:02:08Z",
+  "duration_seconds": 5.393,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_117.txt",
+    "source_sha256": "074b260dd204dad9868a288f095c84966a08220207d01fee2d53276b1bb0e4eb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b399667f8ca0963420efc6ea07cda76aae483916b3e5b521c1e737f06aee006",
+  "request_fingerprint": "708da7ff882505562491df86c4503350a4cb16416584b249c68eb17f89b43fec",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.35; seus dados gráficos foram excluídos.",
+    "“CEFET/IF” aparece isolado ao final da página e foi tratado como rótulo gráfico, possivelmente pertencente ao Gráfico 4.36."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, observa-se que, nas IES Públicas, 72,8% declararam ter gasto Entre duas e quatro horas para concluir a prova, sendo 76,9% nas IES Privadas com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade nas duas categorias é estatisticamente significativa (ver Gráfico 4.36 e Tabela II.18, no Anexo II).",
+  "text_sha256": "043a1c8501a80a708941fbf2f8d65e1f8b0caf427de32d796f9a7a556ebc8645",
+  "window_size": 3
+}

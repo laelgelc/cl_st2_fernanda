@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05971dc8413bf0e0006af8f45917a887d189739145e9108ea7",
+    "usage": {
+      "input_tokens": 1608,
+      "input_tokens_details": {
+        "cache_write_tokens": 1605,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1605
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1973
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_45.txt",
+      "source_sha256": "4d64ac00ebc7883105e6b70726d90ed1219e7d8c14cb3f42ed8379051e0d56c9"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_47.txt",
+      "source_sha256": "706e4a48b2202c93aa5124f017a45beff04f800a2b6415f14a508acd3460a19c"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:56Z",
+  "duration_seconds": 3.848,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_46.txt",
+    "source_sha256": "934e484c52a25e60eba735a469fc063f84eb7e8b96267f57aeacc56ed2c4b902"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "803be717ed4a86e688892415a9c2aaf929b4027d5851a8ff08949bbd1a3b2ca5",
+  "request_fingerprint": "c1cd3533e2dee7e446948d8af99fe43d5a355092cd3e88268f9f4fb3f6ce70b1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico associado aos Gráficos 3.6, 3.7 e 3.8; a linha de fonte MEC/INEP/DAES - ENADE/2013 foi removida como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Centro-Oeste (60,4) e a menor, obtida na região Norte (51,8). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "90e0d51ec3b1107ba903d30be8c57b14577817a131a04db65f611a8df909cb27",
+  "window_size": 3
+}

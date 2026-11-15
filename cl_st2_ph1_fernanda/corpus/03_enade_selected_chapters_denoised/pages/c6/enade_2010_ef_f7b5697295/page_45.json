@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08cc2e8232f0f6ab006af8e887789087d19165d9d628dfe15e",
+    "usage": {
+      "input_tokens": 2575,
+      "input_tokens_details": {
+        "cache_write_tokens": 2572,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2572
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 342,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 2917
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_44.txt",
+      "source_sha256": "bbc0c075efe8af0a5756c721a71a5010371a00fef412175d7a21db0245c6177e"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_46.txt",
+      "source_sha256": "af260ce29d58e58998f6d963bc75cfc4cf3c841382d4b8e3d36ea5c803cf6c75"
+    }
+  ],
+  "created_at": "2026-11-14T23:02:31Z",
+  "duration_seconds": 3.437,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_ef/enade_2010_ef_page_45.txt",
+    "source_sha256": "ca043d71ed8641e9893da83a6f37d7a70460244963ac28ea7418dd6adc893951"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b544a818c443ffe7923206ffef8f006194a48d32dc83c1038327fe5164d61401",
+  "request_fingerprint": "b0afaab3a37435b3fa3a09baad2e78531610cda93c59d01331ffd364c355c4cd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico da Questão 08, incluindo eixos, escala e legendas, e sua legenda e fonte."
+  ],
+  "status": "success",
+  "text": "3.2.2 Componente de Conhecimento Específico\n\nA Tabela 3.8 apresenta as estatísticas básicas em relação às questões objetivas do componente de Conhecimento Específico da prova. Nesse conjunto de questões, os estudantes Concluintes (46,3) obtiveram nota média superior aos Ingressantes (37,9).\n\nQuanto à variabilidade das notas, o desvio padrão no grupo dos Ingressantes foi 15,4, e no grupo dos Concluintes, 16,1. Os coeficientes de variação foram 40,6% e 34,8%, respectivamente, indicando menor dispersão relativa nas notas dos Concluintes. Com relação à mediana, no grupo dos Ingressantes, esta foi igual a 36,4, estando pouco abaixo da média desse grupo, enquanto no grupo dos Concluintes, a mediana foi igual a 45,5, também abaixo. O coeficiente de assimetria foi zero para Ingressantes e negativo (-0,2) para Concluintes.",
+  "text_sha256": "573cc67cd41520b17afb7976bb28758fd9d8953be711aa634b2fbf81fd4da95f",
+  "window_size": 3
+}

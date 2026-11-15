@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09ab5076d13887c6006af8eb4115c487d191fe62253ae28789",
+    "usage": {
+      "input_tokens": 2326,
+      "input_tokens_details": {
+        "cache_write_tokens": 2323,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2323
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1534,
+      "output_tokens_details": {
+        "reasoning_tokens": 723
+      },
+      "total_tokens": 3860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_47.txt",
+      "source_sha256": "dd523a6d6bf95da53abc88b5cf5b7311bfb88f0589f7613b0a457a303cc6e5c2"
+    },
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_49.txt",
+      "source_sha256": "3744bfa04e3bc3726a8de99641a6a8e7644b10970cf192b210fe2f6032af62c6"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:09Z",
+  "duration_seconds": 13.228,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 48
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_48.txt",
+    "source_sha256": "88ac9bfcaa41e06784590190aad1880afe65f5e1ff81a9d5ccde2e3d67addacd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3f9d0ab04604de673907ab55e45bd8f3797b81d3f461b28aae12b26d3576a71b",
+  "request_fingerprint": "2a8cc432339761aa1d5b3c9e842eff83fdd6b19755d668123015f99e1e4b9738",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.2, seus dados e sua linha de fonte. A linha de fonte no início da página foi excluída por parecer associada a material gráfico; confirmar essa atribuição."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 49,7. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 18,2. A maior média foi obtida na região Norte (52,0), e a menor, na região Sudeste (48,9). As demais médias foram: 51,2 na região Nordeste, 50,5 na região Sul e 49,2 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Nordeste (18,6) e o menor na região Sul (17,3). Os demais desvios padrões foram: 17,9 na região Norte, 18,2 na região Sudeste e 18,5 na região Centro-Oeste.\nA maior nota no componente de Formação Geral da prova do ENADE foi obtida por pelo menos um aluno da região Nordeste (99,0) enquanto que a menor nota máxima foi obtida na região Norte (88,5). Nas outras regiões as notas máximas foram: 98,0 na região Sudeste, 92,5 na região Sul e 94,0 na região Centro-Oeste. A mediana do Brasil como um todo foi 51,5, sendo a menor mediana encontrada nas regiões Sudeste e Centro-Oeste\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes ao Bacharelado (azul), Licenciatura (verde), Sistemas de Informação (bege) e Engenharia de Computação (roxo). As distribuições são unimodais, com modas no mesmo intervalo, (50;60], enquanto na prova como um todo (Gráfico 3.1), a moda foi alcançada em intervalos inferiores: (20;30] para Bacharelado e Sistemas de Informação e (30;40] para Licenciatura e Engenharia de Computação. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no gráfico da distribuição das notas da prova, confirmado pela comparação dos desvios padrões: 11,6 para a nota da prova como um todo e 18,2 para o componente de Formação Geral.\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, diferentemente do que ocorreu com a prova como um todo, é negativo para as quatro habilitações. Observa-se que as distribuições têm causa mais longa à esquerda, nos intervalos abaixo das modas. No entanto, nota-se um deslocamento dos histogramas: para as distribuições de Engenharia de Computação e Licenciatura a proporção de notas nos intervalos mais altos do que para as outras duas habilitações. Os coeficientes de assimetria são: –0,51 para o Bacharelado, –0,63 para Licenciatura, –0,35 para Sistemas de Informação e –0,57 para Engenharia de Computação. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa, tomando-se os alunos em conjunto ou por habilitação. A assimetria à esquerda mais acentuada é a da Licenciatura da região Norte (–1,91) e a mais suave é de alunos também de Licenciatura, mas da região Centro-Oeste (–0,16).",
+  "text_sha256": "e01568883539b4619faede7a44b852bf2e12c47b0420e39200183a2197cacd9a",
+  "window_size": 3
+}

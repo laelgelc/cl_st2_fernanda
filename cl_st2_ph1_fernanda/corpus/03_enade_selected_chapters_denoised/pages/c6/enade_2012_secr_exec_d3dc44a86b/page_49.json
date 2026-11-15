@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cb57a91ede480eb006af8f1b736ac87d1afcc322559d772ca",
+    "usage": {
+      "input_tokens": 2834,
+      "input_tokens_details": {
+        "cache_write_tokens": 2831,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2831
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 886,
+      "output_tokens_details": {
+        "reasoning_tokens": 396
+      },
+      "total_tokens": 3720
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_48.txt",
+      "source_sha256": "bb4a71cabed844a0037fe474231f25b3fa7945a058630d35d227e0980d1342e1"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_50.txt",
+      "source_sha256": "c3c0d422f7b8773dfc19e98630dbdaefabc74d057f4b00ff063cc257df7883f8"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:43Z",
+  "duration_seconds": 8.661,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_49.txt",
+    "source_sha256": "1cd2c685c0fc55f3b158d5f65caa5078ac732fd15d641a36747bb2dc961f4e80"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a8b068cfd3f39f5944f7884517485377042e9df011e7a4b26c04c9455d0dc3e2",
+  "request_fingerprint": "efe2b531059d51721bd632c2fcaf4ed842d7c762a561e8bb90c7cb46d172d67d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4 e a Tabela 3.5, incluindo títulos, dados e fontes.",
+    "O texto do alvo termina no meio de uma frase, que continua na página seguinte; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor roxa (índice <=0,19), as classificadas com médio receberam a cor vermelho (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil, fácil ou muito difícil. Seis questões foram consideradas de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Duas questões foram classificadas como difícil, situando-se no intervalo entre 0,16 e 0,40.\n\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise as questões foram assim avaliadas: seis das oito questões apresentaram",
+  "text_sha256": "3c6ccf5a87a97fcedb91bd60c65ffe49ff2e77528433e16a6e9babdb500aa31a",
+  "window_size": 3
+}

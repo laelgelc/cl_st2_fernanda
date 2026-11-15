@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b8d1297656e238006af8fe24ffb487d1a351fa095837cbb1",
+    "usage": {
+      "input_tokens": 2607,
+      "input_tokens_details": {
+        "cache_write_tokens": 2604,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2604
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 273
+      },
+      "total_tokens": 3027
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_82.txt",
+      "source_sha256": "acce5e1da9af82ab836e3c61593ba686d09d8b6c02aabb3c5dab7093a40562d4"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_84.txt",
+      "source_sha256": "8d09cf785de0b387ef80f14e39f44dbd16b59b4e3f4a2e9bc20c05e09f4032b9"
+    }
+  ],
+  "created_at": "2026-11-15T00:34:44Z",
+  "duration_seconds": 4.504,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_JORNALISMO.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_jorn/enade_2015_jorn_page_83.txt",
+    "source_sha256": "4f09edb84c346194f3787f9d8bd376e7c8db431a62b7f6f417c158adc52cd389"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "32106284ebf5dcf34c840e81a90d0d5b6f5a8ca9d1d20880743170114459720b",
+  "request_fingerprint": "a7c144e976d85fd1af8e536933e26612311564803446311c3b9a34ce9526d10c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.19, incluindo dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.12 e sua linha de fonte; preservadas as frases descritivas sobre o gráfico."
+  ],
+  "status": "success",
+  "text": "Brasil foi 20,0, enquanto foi maior nas regiões Sudeste e Sul (25,0 cada) e menor nas regiões Norte, Nordeste e Centro-Oeste (10,0 cada).\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda nas questões deixadas em branco.",
+  "text_sha256": "2121fb61c74a3231a822d79f3a9f2f9bf71d5233734547346928b90e76973cd9",
+  "window_size": 3
+}

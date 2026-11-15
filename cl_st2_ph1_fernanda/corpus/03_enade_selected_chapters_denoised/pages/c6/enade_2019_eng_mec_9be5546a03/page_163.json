@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_047499cd2ffb7eee006af91267ef9487d1ba8e4d12b10f48fb",
+    "usage": {
+      "input_tokens": 3218,
+      "input_tokens_details": {
+        "cache_write_tokens": 3215,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3215
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 607,
+      "output_tokens_details": {
+        "reasoning_tokens": 282
+      },
+      "total_tokens": 3825
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_162.txt",
+      "source_sha256": "ef4eec5c86b3ca97368fc344fe18a2790b55a7989a843ca76f719c15ca72363f"
+    },
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_164.txt",
+      "source_sha256": "79ab374f401d1d38f495a7f9baa6c9acdfb46cf39d13056e5f9b5c983b89d3bb"
+    }
+  ],
+  "created_at": "2026-11-15T02:01:11Z",
+  "duration_seconds": 6.23,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 163
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_163.txt",
+    "source_sha256": "0cf755daaa210b0503569d3577c32193e2dd2110a53bdf8c3795fe5bfe93772f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f38f6607efefe5f8d4d94fea29c5234a97bb2a9e49d875c67452c9a9836a5aa",
+  "request_fingerprint": "47bc1f645786840559c1fecd741c5a2a5f2155db509e5e80f53255d8c09c0f87",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, uma delas foi classificada com índice mais alto, Muito bom, a de número 23. Seu índice foi 0,42, e, quanto ao Índice de Facilidade, foi classificada como Difícil, com 40% dos estudantes marcando a opção correta. A questão de número 17 foi a mais difícil entre as 24 questões específicas válidas, com baixo Índice de Facilidade, apenas 13% de acertos (Muito difícil). Essa questão apresentou poder discriminatório muito baixo, 0,07, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 25, com Índice de Facilidade 0,20, o que, em termos percentuais, corresponde a 20% de estudantes que responderam acertadamente. Já 0,07 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 17 e 25, além das questões 22 e 34, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "c64017ffb05e58e820f69ef2a4b65c04f46b43346afd505a0f2decec1c5ac61f",
+  "window_size": 3
+}

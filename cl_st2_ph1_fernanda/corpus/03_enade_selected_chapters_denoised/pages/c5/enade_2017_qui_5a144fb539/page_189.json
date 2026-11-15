@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1c4a689b26cd9d006af90ab035f487d19ca47be4c5896358",
+    "usage": {
+      "input_tokens": 1953,
+      "input_tokens_details": {
+        "cache_write_tokens": 1950,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1950
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 2533
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 188,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_qui/enade_2017_qui_page_188.txt",
+      "source_sha256": "c82f2f97246ffd785388bfe0abe166eec350a75d3a0be380072509c8a018bab1"
+    },
+    {
+      "page_number": 190,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_qui/enade_2017_qui_page_190.txt",
+      "source_sha256": "6a92c1488f82fa83cfa10f28c811a4780ea94536ddd3db9d71a9bdd3add090cf"
+    }
+  ],
+  "created_at": "2026-11-15T01:28:16Z",
+  "duration_seconds": 6.153,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_QUÍMICA.pdf",
+    "page_number": 189
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_qui/enade_2017_qui_page_189.txt",
+    "source_sha256": "5677c81ee66bbc21a92e8aef0b96f7e530540f1fe496e719daf09512dae4115d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "53fed372ffb780797de96e3bde224c46a6fcfe49baf871c2cdd084cb6195eeb6",
+  "request_fingerprint": "e0514b6f497faa2f9cbe9c1e08e1c68ddfa269c593b848c5196d59d05dcaf484",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2017”, identificada pelo contexto como pertencente ao gráfico da página anterior. A Tabela 5.3b é mencionada no texto, mas nenhum conteúdo tabular foi incluído no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.3b, encontra-se a distribuição dos conceitos atribuídos aos cursos de Bacharelado participantes do Enade/2017 na Área de Química, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 128 cursos participantes, 110 eram oferecidos em Universidades, oito em Centros Universitários, sete em Faculdades e três em CEFET/IFET. Esta distribuição corresponde a, respectivamente, 85,9%, 6,3%, 5,5% e 2,3% dos cursos.\n\nDe acordo com os dados apresentados, todos os oito cursos avaliados com conceito 5 eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 45 cursos (40,9%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (nove cursos), 2 (27 cursos), 4 (18 cursos) e conceito 5 (oito cursos, como já mencionado). Ficaram Sem Conceito (SC) três cursos.\n\nEntre os cursos em Centros Universitários, o conceito modal foi 2, atribuído a cinco cursos (62,5%). Nenhum curso vinculado a esse tipo de Organização Acadêmica ficou Sem Conceito (SC) ou recebeu conceito 4 ou 5, e os outros cursos receberam os conceitos 1 (um curso) e 3 (dois cursos).",
+  "text_sha256": "0703a4e1280cf26252d1ba4ade33ccd685156f02ee370a5cc6833c9698363ae3",
+  "window_size": 3
+}

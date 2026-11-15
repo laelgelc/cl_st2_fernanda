@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d3ebcc8eaf664e7006af8fccc6f8c87d1b379961027b44f65",
+    "usage": {
+      "input_tokens": 2555,
+      "input_tokens_details": {
+        "cache_write_tokens": 2552,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2552
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 349,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 2904
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_64.txt",
+      "source_sha256": "b8936234d4eac036bf9308693213123d3cbd97ca311deb415b4c2469d8683793"
+    },
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_66.txt",
+      "source_sha256": "16590ba1fff60162f43a99eae3cb719b2ff5cdfdc9a491ae7fa7d1dc02031bc1"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:00Z",
+  "duration_seconds": 4.748,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 65
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_red_comp/enade_2014_tec_red_comp_page_65.txt",
+    "source_sha256": "80411349efea5452f1e820c9ea71a626744e57b90108d315750be1f8930cbeba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bcf363436425e349c435a46910b44c7c3cacd2ba117670cec80e745d9008805a",
+  "request_fingerprint": "b0c5e991ae06f7470b531fe0cde2752dd6a4bda6dcd1e33ba4149e449ae0cd5d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.13, incluindo título, dados e fonte, e o material gráfico do Gráfico 3.8, incluindo a fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que deixaram a questão em branco (quase 20%). Nota-se, ainda, que as notas ficaram menos distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.",
+  "text_sha256": "b29bb2df74bbd37512e15562d4695ec3bce76e26e5d9a517f26ed40c77ac7f8d",
+  "window_size": 3
+}

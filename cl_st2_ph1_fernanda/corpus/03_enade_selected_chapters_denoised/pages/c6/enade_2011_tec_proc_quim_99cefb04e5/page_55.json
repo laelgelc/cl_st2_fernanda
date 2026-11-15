@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_017406b46d8ddc75006af8efcfbe3887d1a94ad2c90aea3f85",
+    "usage": {
+      "input_tokens": 2754,
+      "input_tokens_details": {
+        "cache_write_tokens": 2751,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2751
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 494,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 3248
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_54.txt",
+      "source_sha256": "1e922f5159ea27ea078b591fd3b3cc5daef6f8e6aa92521fa48b67463446551d"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_56.txt",
+      "source_sha256": "a66c7a54187d1916219bcf3b14526b6d6445e895f2ec66313b9f2faa2d5d2850"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:35Z",
+  "duration_seconds": 5.686,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_55.txt",
+    "source_sha256": "f430afd03fbb9cf4e5842dcf73598888936a1967f21af3d12e16c2c498206043"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b3c0938765e70e9286afa6b2d62c8d69502b21206b092e64d5b103ecac07dd5",
+  "request_fingerprint": "2a1207b60d5e425772f5affd13da45e6bc12ead818115beca9c5cc8416e4a78a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, pertencente ao gráfico da questão 9."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de resposta em determinada alternativa da questão 9, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta A, representada no gráfico pela curva em azul, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas, observa-se que entre esses estudantes, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou E (em vermelho). Aqueles com nota zero, deixaram essa questão em branco ou marcaram mais de uma alternativa, comportamento considerado invalido. A proporção de alunos que selecionou a resposta correta A aumenta gradativamente, a partir de quatro acertos, chegando a atingir 100% para 13, 14 ou 16 acertos em diante, ao passo que a proporção dos que escolheram alternativas incorretas decai, a partir da primeira nota não nula, como função da nota nesta parte da prova\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "bcb903bee33a989e9cf22c1a7bf6c2bb36468ba0f631f9f4200057f173e79730",
+  "window_size": 3
+}

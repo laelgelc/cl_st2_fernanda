@@ -1,0 +1,59 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02d29347f497e4ce006af9194b565887d1bbe0082de51c9de5",
+    "usage": {
+      "input_tokens": 2606,
+      "input_tokens_details": {
+        "cache_write_tokens": 2603,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2603
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 3386
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 353,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_353.txt",
+      "source_sha256": "f36a6f315b2bd51ff555e15104670629c92333b3330d9ab0ffd3c26e638c3b24"
+    },
+    {
+      "page_number": 355,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_355.txt",
+      "source_sha256": "84aff17bd0e28935520ff0b8e2182b115d94bf1d071fa066fd25c50efc362a48"
+    }
+  ],
+  "created_at": "2026-11-15T02:30:35Z",
+  "duration_seconds": 7.114,
+  "error": "Response object must contain exactly 'text' and 'review_notes'",
+  "error_type": "invalid_json_or_schema",
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_GEOGRAFIA.pdf",
+    "page_number": 354
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_354.txt",
+    "source_sha256": "2b32573290d0be819a2c9df548990b82a17b4b40067c315354943cbd9fdd2cdb"
+  },
+  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2021_geo_b7744036e1/page_354.json",
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8ee3958265ba6fbe007ed86a126c04cc07f2d1fd4c789362e937d68322fe2b0a",
+  "request_fingerprint": "ee0532b7195b19ccefbdd518fa30a70bae700c7b32db7b3237725c94ec8a724b",
+  "retry_count": 0,
+  "status": "invalid_response",
+  "window_size": 3
+}

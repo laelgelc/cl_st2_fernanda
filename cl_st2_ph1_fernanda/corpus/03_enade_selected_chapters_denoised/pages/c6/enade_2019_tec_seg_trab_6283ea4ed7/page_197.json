@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0399081f3a206825006af916710c3487d1946e14cb75bf9dc2",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 2618,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2618
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 827,
+      "output_tokens_details": {
+        "reasoning_tokens": 339
+      },
+      "total_tokens": 3448
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 196,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_196.txt",
+      "source_sha256": "5dae5c2b8f4a15ad72a7fa96288b014d5b4c7ccfa8054a129c1f5eeb3b6c6a8b"
+    },
+    {
+      "page_number": 198,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_198.txt",
+      "source_sha256": "ccf4962f3713b0aab13ee727665550c0126a98c1173762b08903a6b0119ea8bc"
+    }
+  ],
+  "created_at": "2026-11-15T02:18:24Z",
+  "duration_seconds": 7.476,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 197
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_197.txt",
+    "source_sha256": "97716883d6183db92af0a2332d9d5d3fca96e5f2a61476e9e37b4ea2686ff2a0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b6ba5dab7ece6cadf32af5af723a89f89fbd4275a5646b95fae1396da93d469e",
+  "request_fingerprint": "70e490fe6d1e928648fec3f31f38cbfdb6370c9797179cab739d4b94f9518ccf",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Desvios de concordância nominal e verbal:\n ausência ou presença indevida de marca de plural (com sujeito anteposto ou posposto). Exemplos:\n“Os setores público e ensino superior poderiam desenvolverem (por “desenvolver”) pesquisas para empresas seja (por “sejam”) elas do tipo tecnologico (por “tecnológico”), saúde, transporte entre outros”;\n“já as empresas poderiam financiar projetos de pesquisas para os setores público e ensino superior que também poderia se utilizarem (por “utilizar”) de suas partes estruturais e acadêmicas para desenvolvimento tecnologico” (por “tecnológico”);\n“as empresas que produz (por “produzem”) os materiais”;\n“o engajamento entre ambos elevam (por “eleva”) a economia”.\n Aparecimento da marca de plural em verbos ou adjetivos relacionados a núcleos substantivos no singular devido à presença de modificadores no plural. Exemplos:\n\"o financiamento das bolsas de estudo devem (por “deve”) ser ampliados” (por \"ampliado”);\n“o acesso aos cursos deveriam (por “deveria”) ser incentivados (por \"incentivado\") pelas empresas”, evidenciando um processo de hipercorreção.\n Ausência de acento circunflexo na forma plural do presente do indicativo dos verbos “ter” e “vir”, considerada como um desvio na concordância verbal e não na acentuação gráfica. Exemplos:\n“ganhos na economia vem (por “vêm”) através dos aumentos com exportação”;\n\"as universidades públicas tem (por \"têm\") recebido menor quantidade de verbas para suas atividades\".\n Ausência de concordância de gênero, no âmbito de sintagmas nominais longos, em que o adjetivo antecede ou está afastado do substantivo. Exemplos:\n\"seria necessário uma reeducação\" (por \"necessária\");\n\"é necessário (por \"necessária\") a mobilização\";\n Emprego de “onde” não locativo. Exemplo:\n“Com isso o custo seria inferior ao comprador, onde iria igualar aos países mais desenvolvidos”.",
+  "text_sha256": "732011603b90ddfbe3c9e0082d27e32f63b82ef1936cc19f37966845aed92561",
+  "window_size": 3
+}

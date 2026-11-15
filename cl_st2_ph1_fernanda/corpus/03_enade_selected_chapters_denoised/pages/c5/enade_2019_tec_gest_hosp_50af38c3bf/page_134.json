@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f69336efa8bf7de006af915c910e887d1a3e64aec7cc94450",
+    "usage": {
+      "input_tokens": 3067,
+      "input_tokens_details": {
+        "cache_write_tokens": 3064,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3064
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1333,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 4400
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 133,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_133.txt",
+      "source_sha256": "c03a474a73118ece3f0d5b16b3094739fa49b8c609f93974d1f273a19c2fc679"
+    },
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_135.txt",
+      "source_sha256": "723306afe1ad20b51595856851f0d1dda844d89670319fa9bf484d348158f4e9"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:36Z",
+  "duration_seconds": 13.973,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 134
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_134.txt",
+    "source_sha256": "478f707b16b22a34f2180763a447ca1046130fb75e472c53a16aff223ca27b8e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "099fee0f0815417c56255f6be9c5604cf65541a4a82f01ced1cd6a7e87958cc4",
+  "request_fingerprint": "391e5a0765ab4a1460a3cc74e372a08670f8a650e706eb04b283d134ec588af0",
+  "retry_count": 0,
+  "review_notes": [
+    "A frase “conceito igual ou menor do que,” parece incompleta no original; preservada sem reconstrução. O parágrafo final continua além do limite da página, portanto não foi completado."
+  ],
+  "status": "success",
+  "text": "atribuídos os conceitos 2, 4 e 5 (um curso, cada). Nenhum curso ficou Sem Conceito (SC) ou recebeu o conceito 1 nessa região.\n\nA região Nordeste participou com 12 cursos ou 21,4% do total nacional. Nessa região, quatro cursos (33,3% em termos regionais) foram avaliados com os conceitos 3 e 4, distribuição bimodal para a região, como já comentado. Os conceitos 1 e 2 foram atribuídos, respectivamente, a um e a dois cursos (8,3% e 16,7%, respectivamente). Ainda nessa região, nenhum curso foi avaliado com o conceito 5 e um curso ficou Sem Conceito (SC).\n\nDos 22 cursos participantes da região Sudeste (39,3% do total nacional), o conceito 3 foi o conceito modal, como já anteriormente assinalado, tendo sido atribuído a nove cursos (40,9%). O conceito 2 foi atribuído a quatro cursos (18,2%), o conceito 4, a seis cursos (27,3%) e o conceito 5, a um curso (4,5%). Nessa região, dois cursos ficaram Sem Conceito (SC) e nenhum curso recebeu conceito 1.\n\nOs 13 cursos da região Sul corresponderam a 23,2% do total nacional. Como já indicado, houve predominância do conceito 4, atribuído a 30,8% dos cursos da região (conceito modal), ou seja, atribuído a quatro dos 13 cursos participantes na região Sul. O conceito 1 foi atribuído a dois cursos (15,4%) e os conceitos 2 e 3, a três cursos, cada (23,1% cada). Um curso ficou Sem Conceito (SC) na região Sul, e nenhum curso recebeu conceito 5.\n\nNa região Centro-Oeste houve quatro cursos participantes (7,1% do total nacional). Os conceitos 2, 3 e 5 foram atribuídos a um curso, cada (25,0%). Um curso ficou Sem Conceito (SC). Nessa região, nenhum curso recebeu os conceitos 1 e 4.\n\nNo Gráfico 5.1, é apresentada a distribuição cumulativa do Conceito Enade segundo Grande Região. Em um gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável (conceito Enade). Observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar que, por exemplo, as regiões Sul (linha rosa) e Centro-Oeste (linha laranja) apresentam mais de 66% dos cursos com conceito 3 ou abaixo deste valor. As demais regiões apresentam essa concentração entre 60% e 65% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que em algumas regiões o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Nordeste (linha verde) e Sul (linha rosa), nas quais todos os cursos têm conceito igual ou menor do que, e as respectivas poligonais cumulativas alcançam 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. As regiões Sul (linha rosa) e Centro-Oeste (linha laranja)",
+  "text_sha256": "86032208c49d461a5de49d9d82e38def483c406c13c83a4c633c3832fac9d881",
+  "window_size": 3
+}

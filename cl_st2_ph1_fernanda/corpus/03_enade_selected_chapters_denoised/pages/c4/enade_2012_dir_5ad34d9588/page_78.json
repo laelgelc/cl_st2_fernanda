@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08c0ad07c0a866f7006af8f0d7149487d198463d99393cfaca",
+    "usage": {
+      "input_tokens": 2036,
+      "input_tokens_details": {
+        "cache_write_tokens": 2033,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2033
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 345,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2381
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_77.txt",
+      "source_sha256": "0364828c30122989ab69c9c3d0f7019424cec407b5635afdcdd0fdbee6e57fe6"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_79.txt",
+      "source_sha256": "c772f73d9ddaa929a0bbe4097c2b70c5be4e0e4f9449cf6cb18c233ff0b77f90"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:59Z",
+  "duration_seconds": 3.4,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DIREITO.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_dir/enade_2012_dir_page_78.txt",
+    "source_sha256": "13cf973065a44b09fb196eba0a4efa63e05772d3759042d041ec2ec28948ce0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3bc8594f4611e3b54dc6824d1a03c5a073ebb57686fe81fd31234a45c2dcb431",
+  "request_fingerprint": "d540a5fb7c9bd9115fb0b5f05db62acb926e01ab9ddfa04c5ec0c82da6cbd424",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do gráfico: “Fonte: MEC/INEP/DAES - ENADE/2012”."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em relação ao aumento de desempenho (Gráfico 4.2). Nos dois quartos de menor desempenho, sem que a diferença seja estatisticamente significativa, 28,6% no 1º quarto e 29,2% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos julgaram a prova difícil ou muito difícil – 27,6% no 3º quarto e 24,0% no 4º quarto – foi menor do que nos demais e significativamente diferente entre si. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 54,6%, 59,3%, 59,8% e 60,8% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente, valores crescentes.",
+  "text_sha256": "edd5a99a1e96010235a5c51a3949f52d8fcd2e03d5dbc58a56e1d4ffccd45f94",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01af9db76c23d91f006af9079f863c87d1b16126a9d6900f5c",
+    "usage": {
+      "input_tokens": 2352,
+      "input_tokens_details": {
+        "cache_write_tokens": 2349,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2349
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 533,
+      "output_tokens_details": {
+        "reasoning_tokens": 267
+      },
+      "total_tokens": 2885
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_118.txt",
+      "source_sha256": "b3ef4bfc7a7315ddc7ff31450556ebaefe5b4d9a362d9b93d7d85f0c97fbad67"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_120.txt",
+      "source_sha256": "4b93b512a0f9c46957cc8437430b40760cb0ef7e3f172674aab8b4cbf503073a"
+    }
+  ],
+  "created_at": "2026-11-15T01:15:11Z",
+  "duration_seconds": 6.564,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_119.txt",
+    "source_sha256": "226d721019f180e5260b7a98358e095eb044887604c9a074ace61e2ed6014f97"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d389e15e13890490791b6b21df7be38887b33ea805bc9aa0f13f3222afbf3992",
+  "request_fingerprint": "08049d74270e2a5ca7403c91f8955897eed157227e794d622284bd867baaae07",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.15, incluindo título, dados e fonte. A discussão em prosa do Gráfico 6.8 foi preservada; não há conteúdo gráfico a remover nesta página."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil foi 70,0, a mesma de todas as regiões. A nota máxima (100,0) e a nota mínima (0,0) também foram as mesmas em todas as regiões, sem exceção.\n\nO Gráfico 6.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde e dos alunos que obtiveram nota dentro do intervalo (70; 80]. Destacam-se, também, os alunos que deixaram a questão em branco e os alunos que obtiveram nota dentro do intervalo (90; 100], caracterizando-se como máximos locais. Nota-se, ainda, que as notas ficaram menos concentradas em comparação à questão discursiva de número 1, o que isto pode ser constatado também pela comparação do desvio padrão das notas da questão discursiva 2 (31,5) com o da questão discursiva 1 (26,9).",
+  "text_sha256": "c3f20c97ff00b03408525ba0c703bdcb14c1a67338ea58f09522c8ff2d682256",
+  "window_size": 3
+}

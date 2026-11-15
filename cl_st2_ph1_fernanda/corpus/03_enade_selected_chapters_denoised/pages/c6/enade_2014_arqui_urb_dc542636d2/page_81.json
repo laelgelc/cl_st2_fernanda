@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c84dee2945540b4006af8f600d57487d1aab3e002fd003c6f",
+    "usage": {
+      "input_tokens": 2342,
+      "input_tokens_details": {
+        "cache_write_tokens": 2339,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2339
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 542,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 2884
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_80.txt",
+      "source_sha256": "0481406b65d4ab9403ccec93d79b1524d535c928b7b913e43c45a90a8b1d32ed"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_82.txt",
+      "source_sha256": "d25313fe214d70da576af4c6b60328f1b2c437b5deab788a068d028f9fba6cde"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:00Z",
+  "duration_seconds": 4.77,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_81.txt",
+    "source_sha256": "e96a74717f5f9dbe1065362c4c6bee77274b51f8fa9042fc27ecdfe40c6dba4b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "18288a70a6c015a4e040e2840ad7a0088f8bf45862c3b489928aaeb767bece89",
+  "request_fingerprint": "a91d348fa623a0e35d77b2fd9c0608ff9d058606a2a6abf589e43c7ef6ef772f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte pertencente ao gráfico que aparece no início da página; o gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.16, a média dos estudantes de todo o Brasil foi 13,9. A menor média nessa questão foi obtida pelos estudantes da região Norte (8,4), enquanto a maior média foi obtida na região Sul (15,5). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 20,2. O maior desvio padrão foi obtido na região Sul (20,9), enquanto o menor foi obtido na região Norte (16,1).\n\nA nota máxima, 100,0 pontos, foi alcançada por, pelo menos, um estudante de quase todas as regiões, com exceção da região Centro-Oeste, onde a nota máxima foi 90,0. A mediana do Brasil como um todo foi 0,0, o que significa que mais de 50% dos estudantes obteve nota zero ou deixou a questão em branco, e é a mesma nas regiões Norte e Nordeste. A maior mediana nesta questão foi nas regiões Sudeste e Sul (5,0), e na região Centro-Oeste a mediana foi 2,5. A nota mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil.",
+  "text_sha256": "058ada42d432980d1898a155caa86385c030f34ecd1b4c4220ad377b7641cfc8",
+  "window_size": 3
+}

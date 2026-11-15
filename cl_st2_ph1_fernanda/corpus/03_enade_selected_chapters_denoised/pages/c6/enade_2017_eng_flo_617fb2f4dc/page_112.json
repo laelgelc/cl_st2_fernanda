@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eec05af5011a74a006af90732973887d1bf11ca773d880602",
+    "usage": {
+      "input_tokens": 2662,
+      "input_tokens_details": {
+        "cache_write_tokens": 2659,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2659
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 727,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 3389
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_111.txt",
+      "source_sha256": "61df0381043d23b58db70d55d2044ff8d0399f19f5581826f9fc5a46d89d71b5"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_113.txt",
+      "source_sha256": "eb049baf08ef5806b004d76b91a4053572ca838c1881afb5d827640389106d62"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:22Z",
+  "duration_seconds": 6.413,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_112.txt",
+    "source_sha256": "4ae33c2f861a73e5e1b2472667500f5d2515dd954eecf7f276793a366c404cc3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3976aaba0dd3e1a99b6eac7db913bf42436688cae00ab4dea730851671163c7d",
+  "request_fingerprint": "72ed2cd3f9a66b4e60e6744ffebe18806745526c2f18b23852f90c9f63446076",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "uma das duas que obtiveram o segundo maior Índice de Discriminação dessa parte da prova (0,48).\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para a esta questão. Observa-se que, dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha das alternativas E (em vermelho) e D (em roxo), incorretas. Por exemplo, dentre os estudantes que acertaram três questões, 32,1% escolheram a alternativa E (em vermelho), 42,2% escolheram a alternativa correta, B (em verde), 14,5% escolheram a alternativa D (em roxo), 8,0% escolheram a alternativa A (azul) e 2,8% a C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "ace3ce20a040a619d7874b2c06b861cabeb418acb59860a1b93a28fae6a75c00",
+  "window_size": 3
+}

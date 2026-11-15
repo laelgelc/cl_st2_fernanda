@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aeacf60889cf9c8006af8f13905e487d1810e1ef7fc9e6a55",
+    "usage": {
+      "input_tokens": 1428,
+      "input_tokens_details": {
+        "cache_write_tokens": 1425,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1425
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 236,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 1664
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_43.txt",
+      "source_sha256": "b6096eb70c478a25bf54f5213e50165183557f2552158593f4bb937d65005586"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_45.txt",
+      "source_sha256": "e1f9782d4cdc5d185f6cf4c5ae71968300d2d3c199d5b33ca91a024ec1c4b4b5"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:36Z",
+  "duration_seconds": 2.754,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_44.txt",
+    "source_sha256": "1489ca210c7270eff3376b018d22e7a5342f4ab20af60b0556c884ee25af231e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d40a205dceeb650c28938ecfe4cb21868e62e478a2e6236fed45341bb8f99793",
+  "request_fingerprint": "6bc83f196104fae0d26b9257bcd907ebae7e0f5a1a9be63537ecca54db6336c3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Psicologia, das IES Públicas (37,9) obtiveram uma média menor do que os das IES Privadas (42,9).",
+  "text_sha256": "c503c1dfd4553d2b54389ad871987c60c011eb0bc56e4e72f1c67998f0cc64ca",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0233905d55c96208006af9144f13f887d1b829187d351318aa",
+    "usage": {
+      "input_tokens": 2923,
+      "input_tokens_details": {
+        "cache_write_tokens": 2920,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2920
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 729,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 3652
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_139.txt",
+      "source_sha256": "5be16f54683e71990391650ae404031c2850a358deef0d155b358780e4a987ae"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_141.txt",
+      "source_sha256": "c2557cc691f23f29a90e54c3f93beecf3508730e65e3fcd04a686ba9215e3614"
+    }
+  ],
+  "created_at": "2026-11-15T02:09:19Z",
+  "duration_seconds": 6.389,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_140.txt",
+    "source_sha256": "87af74593297e15622413a11a7e4af954a67cc04dbef0172ee09cc28fae53670"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6070aec256067bba75b2159ed10e207b69a8f408f445b5d5742942198a357b8b",
+  "request_fingerprint": "33caf356a014568130a14d6abfeb24d945e671815641070e20c97e8e26eb922a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Muito Fácil, em relação à facilidade e a que obteve o segundo menor Índice de Discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão.\n\nObserva-se que apenas entre os estudantes com até um acerto, nessa parte do exame, a situação mais frequente foi a escolha da alternativa A (em azul) ou da alternativa C (em preto), ambas incorretas. Por exemplo, entre os estudantes que acertaram duas questões, 9,0% escolheram a alternativa A (em azul), 52,2% escolheram a alternativa B (em verde, gabarito), 13,4% escolheram a alternativa C (em preto), 13,2% escolheram a alternativa D (em laranja), e 11,7%, a alternativa E (em vermelho). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,6% deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com seis acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,42) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 20,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 50,0%.",
+  "text_sha256": "2900e3c653f6316b0ccdbc38e7012aadf0db78016b6900551afed7053fa731c1",
+  "window_size": 3
+}

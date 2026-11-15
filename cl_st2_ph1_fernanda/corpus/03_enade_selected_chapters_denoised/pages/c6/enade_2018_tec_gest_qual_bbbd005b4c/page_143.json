@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_038daa5187929b30006af90f17a30087d1915a6d6e45bcf104",
+    "usage": {
+      "input_tokens": 2624,
+      "input_tokens_details": {
+        "cache_write_tokens": 2621,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2621
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 257,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 2881
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_142.txt",
+      "source_sha256": "fbd716992dbf7918dc2ade881062e2d00d6e33c2015d2e10c8e4e120b1813780"
+    },
+    {
+      "page_number": 144,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_144.txt",
+      "source_sha256": "2992d64d427c87f5c3e265cc0b9dddbebb41509b9b498a909286654ac0a6b440"
+    }
+  ],
+  "created_at": "2026-11-15T01:47:03Z",
+  "duration_seconds": 2.918,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC GESTÃO DA QUALIDADE.pdf",
+    "page_number": 143
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_gest_qual/enade_2018_tec_gest_qual_page_143.txt",
+    "source_sha256": "56c5f1ec44119f49dd8f62a46c9afd2f6711bf821556daeea3e5bfe227bc6ff6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b279229345188c74bf978eb7559995e17109cd786a4200a2feef024efb80f6d5",
+  "request_fingerprint": "ff5baf0e583c855c3ba7fea5d82a59d58e452ad8c90e5b06aaac60951faabf30",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removido o Gráfico 6.9 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (quase 30,0%) corresponde à dos alunos que obtiveram nota no intervalo (60; 70]. Destacam-se, também, os alunos que obtiveram nota no intervalo anterior ao modal, com 21,0%. A soma das frequências desses dois intervalos perfaz a metade dos participantes.",
+  "text_sha256": "b90575150137125949e23e628377cd6f650d17cddb49d2139c1a775db3bd213d",
+  "window_size": 3
+}

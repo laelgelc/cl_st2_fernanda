@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08a859172a7caf11006af924835c2087d18ad98242e998a6c6",
+    "usage": {
+      "input_tokens": 2607,
+      "input_tokens_details": {
+        "cache_write_tokens": 2604,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2604
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 537,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 3144
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_124.txt",
+      "source_sha256": "7f29c502c546aaca3a4ba80418f977dcf30f93303086b62ec908e2236e38f2ce"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_126.txt",
+      "source_sha256": "41219195b6d9eeafce4206209a066ebd0f7b4fe876b45cf8603935dd8ccdbe0a"
+    }
+  ],
+  "created_at": "2026-11-15T03:18:27Z",
+  "duration_seconds": 4.425,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ODONTOLOGIA.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_125.txt",
+    "source_sha256": "99c2141a93ed675ac2460040b7c5eef107cade3672774969311ee1b2a36343f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "41a67b9159144c223844557ff2106f13f70eef744cb695ca4750887300aefd3a",
+  "request_fingerprint": "b01e87c35741f706fab339b8166d2031222b5ff9a24715196690187661650531",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.4, incluindo sua análise gráfica, legenda/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.4, para exemplificar, analisa-se o comportamento da Questão Objetiva 3 de Formação Geral. Trata-se de uma questão considerada com nível “Médio” de dificuldade, em relação à facilidade, e que obteve o índice de discriminação 0,48 (muito bom).\n\nNo Gráfico 5.4, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/múltipla escolha), antes de possíveis eliminações pelo critério ponto-bisserial.\n\nA curva em mostarda corresponde à alternativa B, a alternativa correta para essa questão.\n\nObserva-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em azul), incorreta. Por exemplo, entre os estudantes que acertaram até duas respostas, 27,7% escolheram a alternativa A (em vermelho); 12,5% escolheram a alternativa B (em mostarda); 14,4% escolheram a alternativa C (em verde); 32,1% escolheram a alternativa D (em azul, gabarito); e 12,9% escolheram a alternativa E (em lilás). Entre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos.",
+  "text_sha256": "60c7409e1fbf29d8535109e3e54c6fe1d500e1807a4cd14839b06247cc2fe90b",
+  "window_size": 3
+}

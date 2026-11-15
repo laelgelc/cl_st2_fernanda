@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a136b1d4ebb01a4006af8f24af54c87d18570fd9116b06b12",
+    "usage": {
+      "input_tokens": 1384,
+      "input_tokens_details": {
+        "cache_write_tokens": 1381,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1381
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 382
+      },
+      "total_tokens": 1903
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_96.txt",
+      "source_sha256": "09135e07cccf34a117a9b1c240e84fefcbdb09bd6c623ff09b9cdb8b8af25877"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_98.txt",
+      "source_sha256": "c0f2aa6bdffabc92aa2dd33acb2f21fceb341c56230f5d658e9f78968d23d214"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:10Z",
+  "duration_seconds": 6.084,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_97.txt",
+    "source_sha256": "54406261446449559a0066d473ef6a1ec8e4d0a5728b701e57702fcb65458e3d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f6aa2336fd77e4d26b32ca2de27e9710defb7c1bbcf9bd0810532ad895010ec2",
+  "request_fingerprint": "9053bb32adc740392af6e54a60e6f6a256caab45bba6a73e7813ca7339892456",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que parece pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 77,5% e 56,4%. As diferenças entre os quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "bf78a000cdd78092535de94377d88f8a588a7b527a7c576adaf7c4946ee74cc5",
+  "window_size": 3
+}

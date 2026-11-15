@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af8b54ee97036fa006af9129b651887d1b2a5aaf6ace52b9e",
+    "usage": {
+      "input_tokens": 1821,
+      "input_tokens_details": {
+        "cache_write_tokens": 1818,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1818
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 395,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 2216
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_104.txt",
+      "source_sha256": "663db0aea6c266aa44f3b16dd4635e48f812d77bc23cc5f25cdcb3868537ee44"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_106.txt",
+      "source_sha256": "542babd4ff9415a7d7c9a849db1d7b39b6406ac36c8757fac70fe00dff0baaec"
+    }
+  ],
+  "created_at": "2026-11-15T02:02:03Z",
+  "duration_seconds": 5.368,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_qui/enade_2019_eng_qui_page_105.txt",
+    "source_sha256": "2a223ad01e0d6042eb06a7bb9552b0074d5e105df8ddbfaf8159338fe83290f3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "266963c732c0c45667acee1d447690a5630c390cc3f2d6ddd3469c3e3c9c078c",
+  "request_fingerprint": "01638a66db154fa769ceeb1ed2b13170845e36e1ec1dad724608f1bbc12a5284",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. O item isolado “CEFET/IF” ao final parece ser rótulo gráfico e foi removido."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi maior para os estudantes de cursos de IES Públicas (86,0%), com uma diferença estatisticamente significativa da proporção registrada em IES Privadas (79,7%), como pode ser visto no Gráfico 4.24 e Tabela II.12, no Anexo II.",
+  "text_sha256": "05ec9676ec7a0c9e75afe87b24b5e123482fc50a385da20338c73db1d1774497",
+  "window_size": 3
+}

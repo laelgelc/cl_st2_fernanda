@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ea83d79d3f73ab1006af8f3ffcce887d18d69f38289d6dc66",
+    "usage": {
+      "input_tokens": 1536,
+      "input_tokens_details": {
+        "cache_write_tokens": 1533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1790
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_52.txt",
+      "source_sha256": "59acde3b88a22497c38c7c79aa56f29f7c0ba846da09c973e1de9e6c0b1e8169"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_54.txt",
+      "source_sha256": "37b2d825ef37ec474b23999e8285cbdc8fc6c7d8e5adaf72d5b43b44ae3625bc"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:27Z",
+  "duration_seconds": 2.513,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_53.txt",
+    "source_sha256": "edf1aee3764af30e389b424fdef22057e94acb3c4b3837a90c30fc797e746073"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "20acfa69bf805441b3155b690f8e9185b69e68a5ec4f09396509bfa466d35051",
+  "request_fingerprint": "4bc3065a0d474bef068f8751a41ebec04eb90927dbf6f4bc299f9927b10a9bdd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (55,3) foi maior do que de Centros Universitários (51,1) e de Faculdades (50,6).",
+  "text_sha256": "ec48dfe58072ee005e88d9d8b0fe6a033beec54cdb5ab19f385c4e117ccd75f6",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08de7d7610aabe70006af914836abc87d1a240d99a401b6a18",
+    "usage": {
+      "input_tokens": 1778,
+      "input_tokens_details": {
+        "cache_write_tokens": 1775,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1775
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 557,
+      "output_tokens_details": {
+        "reasoning_tokens": 407
+      },
+      "total_tokens": 2335
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_118.txt",
+      "source_sha256": "e1e495d1ce308b93054aceaf6104553ab0d93581a9abfa46f57f2fda0db36597"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_120.txt",
+      "source_sha256": "75dcb91f9e65cfd34c8f8e65a82ad5c29aa835eae6f8ea7544166ead7134f779"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:11Z",
+  "duration_seconds": 5.943,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_119.txt",
+    "source_sha256": "7904abc58de6d0ab543a63da974dedc251df36a5a8b49adf8bee508bd6a67e5b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5e8881a954b993e19c7e2145fa6f2e81c41df22a337e3bf4b04e415e87f7d14e",
+  "request_fingerprint": "787994772907d70cac576c707ba447a3abeaf1ccb1e2fe877d9a8ca17a7eec2d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. O fragmento isolado “CEFET/IF” parece ser rótulo de gráfico; removido por provável vínculo com material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi maior para os estudantes de cursos de IES Públicas (92,6%), uma diferença estatisticamente significativa da proporção em IES Privadas (87,7%) (ver Gráfico 4.24 e Tabela II.12, no Anexo II).",
+  "text_sha256": "00a95d4d714581d7cba935f91141114d3fd9cf646486f4f751fd895dea69a267",
+  "window_size": 3
+}

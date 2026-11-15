@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_032c24d1def7159b006af8f562089c87d1be5203ec13267fe1",
+    "usage": {
+      "input_tokens": 1709,
+      "input_tokens_details": {
+        "cache_write_tokens": 1706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 2153
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_96.txt",
+      "source_sha256": "86319d0e86fd443451f5ba2b5fd53dd94bb80944c98a1d5cf421ffcb3754cd97"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_98.txt",
+      "source_sha256": "26306f912f86da80e65b5486f342cabf949a73b0d658129926fca0f0c1886e4f"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:21Z",
+  "duration_seconds": 4.71,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_97.txt",
+    "source_sha256": "7be89ac2254c414cb3eee8a37792de706a2142f6dc7860707a5ac88275d26454"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e66de381708aedc920824accacbeb22deea1e9916e35d4d4dba6155bc95dda50",
+  "request_fingerprint": "bc9435e7db1e43586573a24219df06e29eb80157ec5d611b52fd1068dcf844a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o número de página e a linha de fonte (MEC/INEP/DAES - ENADE/2013), identificada como pertencente a material gráfico; o gráfico não aparece transcrito no texto fornecido."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas das opiniões de estudantes entre o 1º quarto com o 3º e com o 4º quarto de desempenho, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no 3º quarto (82,7%), percentual superior à média nacional (77,1%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 69,0% dos respondentes, com um comportamento crescente com os quartos de desempenho até o 3º quarto.",
+  "text_sha256": "b1aac1da35cca155339fe1ac69dfcf498e9dd3e7fe2a3099ec1dd1a3739e67fe",
+  "window_size": 3
+}

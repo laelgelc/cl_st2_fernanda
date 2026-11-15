@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0356d1d86aa108e4006af92067ea7887d1af3b53771b280fc3",
+    "usage": {
+      "input_tokens": 2351,
+      "input_tokens_details": {
+        "cache_write_tokens": 2348,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2348
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2770
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_177.txt",
+      "source_sha256": "8932cb8510b32bea5119452b260b029f76be3cc2f4c82436c250097cf91deb03"
+    },
+    {
+      "page_number": 179,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_179.txt",
+      "source_sha256": "b336e4671b54c14d0ff4a195982eba278267cd5cf6b1125a11f9b7304af9bdc2"
+    }
+  ],
+  "created_at": "2026-11-15T03:00:55Z",
+  "duration_seconds": 4.744,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM MARKETING.pdf",
+    "page_number": 178
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_mark/enade_2022_tec_mark_page_178.txt",
+    "source_sha256": "df12dcbfa02edeb1377470791a77406a405d24ac65ceb85c8db99494b503efa1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ca2eee342acd6981b578379d1471b4260ef87e18cbe189331aa960e98f6e402c",
+  "request_fingerprint": "8680cb22367aa79e11e67f8fddcfa375469fe0c8105e9381426f5fee290bc403",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados da continuação da Tabela 7.18 e sua linha de fonte.",
+    "Removido o título do Gráfico 7.11; a linha de fonte do gráfico aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "Como mostrado na Tabela 7.18, na Questão 3, a Média dos estudantes de todo o Brasil foi 44,3. O desempenho dos estudantes nessa questão foi superior ao da Questão 5. A menor média na questão, em evidência, foi obtida pelos estudantes da região Centro-Oeste (40,4), enquanto a maior Média foi obtida na região Norte (47,5). Quanto à variabilidade das notas, o desvio-padrão de todo o Brasil foi 25,8. O maior desvio-padrão foi obtido na região Sul (26,3), enquanto o menor foi obtido na região Centro-Oeste (25,1).\nA nota máxima, 100,0 pontos, foi alcançada por, pelo menos, um estudante em cada região. A mediana do Brasil foi 50,0, para todas as regiões, exceto para o Centro-Oeste, que obteve a mediana de 37,5. A nota mínima zero foi a mesma em todas as regiões do Brasil.",
+  "text_sha256": "93b08045b280ffe30b318f9e7ee433a0b5143817f57eaf15d1a3090c7f66781c",
+  "window_size": 3
+}

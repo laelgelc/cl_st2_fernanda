@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01cb249f91e429ef006af91d80a66887d1ab1bf10eecf6888f",
+    "usage": {
+      "input_tokens": 2325,
+      "input_tokens_details": {
+        "cache_write_tokens": 2322,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2322
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 523,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 2848
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_145.txt",
+      "source_sha256": "2886b89022e482563c05bea2d137665e1c8841bdfc335075b5d9a0865fa616cc"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_147.txt",
+      "source_sha256": "2a50cd43bed9ff3714e6fe461e32102b4c7834466c94925a02c27901bfa8e261"
+    }
+  ],
+  "created_at": "2026-11-15T02:48:32Z",
+  "duration_seconds": 5.806,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PSICOLOGIA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_146.txt",
+    "source_sha256": "2a4f3b60bfb0c45dc4eff9faacd3566f44140b1cc00d0d7edb6f754d9f4865a9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "085c27068ce0767bad812784ce86f4466a558f991a04f228e08ae43b0f5ca543",
+  "request_fingerprint": "b74a7699cecee2c65da484ef1fc262cb042180456de70e73799c01bb94118fa7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 7.2, incluindo título, dados e fonte.",
+    "Removida a Tabela 7.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 7.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 7.2 mostram que, em relação à categoria administrativa, os estudantes das IES públicas obtiveram média mais alta (66,5) que a média das IES privadas (54,9). O desvio-padrão para as IES públicas foi de 15,3, indicando uma dispersão baixa das notas nessa categoria administrativa.\n\nNo tocante à organização acadêmica, os estudantes de centros universitários obtiveram a média de 55,1, enquanto os de universidades e faculdades obtiveram, respectivamente, média de 58,7 e 52,8.\n\nA média da modalidade presencial foi 56,4, com desvio-padrão de 16,3.\n\n7.1.2 ESTATÍSTICAS BÁSICAS NO COMPONENTE DE FORMAÇÃO GERAL\n\nNa Tabela 7.3, são apresentadas as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. A nota de Formação Geral é obtida levando-se em conta os acertos nas oito questões objetivas e a nota média obtida nas Questões Discursivas 1 e 2, sendo a nota de cada questão discursiva obtida levando-se em conta 80% da nota relativa ao conteúdo e 20% da nota relativa ao desempenho linguístico.",
+  "text_sha256": "949268757333ac0416b3604c459b0d62fda2ca9e3dc6550d1cc140170c6444eb",
+  "window_size": 3
+}

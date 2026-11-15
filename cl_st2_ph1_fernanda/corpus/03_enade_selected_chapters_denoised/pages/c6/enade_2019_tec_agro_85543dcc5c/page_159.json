@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0134c9113328ed94006af91514211087d1b21b443a9902a3de",
+    "usage": {
+      "input_tokens": 2913,
+      "input_tokens_details": {
+        "cache_write_tokens": 2910,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2910
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 910,
+      "output_tokens_details": {
+        "reasoning_tokens": 321
+      },
+      "total_tokens": 3823
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_158.txt",
+      "source_sha256": "7f6d29a2f85d05b52c031e045afb66a17bc1244df5e2c91764e66b1d50913a46"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_160.txt",
+      "source_sha256": "6f985b5f7f7be28f05c19c793036c70ba3a093184cde56f715cd5a114a9663d8"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:36Z",
+  "duration_seconds": 6.872,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_159.txt",
+    "source_sha256": "1531503ce04c3c0e9e884a3a10417e39f00b6e7a0c456868156d1b3d3d297641"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aaf8ea04892d1e79a006463b8aada30b6af091b3016c2c231f85df7b5fd01757",
+  "request_fingerprint": "2f13d5dd12a3b0d84197ae2fba1b85c309a5cba03cad9b682a8204a877557406",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "de Facilidade de 0,57. A questão 5 foi consideradas Muito difícil, com Índice de Facilidade 0,11, e foi a de menor Índice de Discriminação, 0,21, considerado Médio.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova. Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 15,2% escolheram a alternativa E (em vermelho), 14,7% escolheram a alternativa D (em laranja), 26,9% escolheram a alternativa B (em verde, gabarito), 9,1% escolheram a alternativa A (em azul), e 33,9%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e 0,0% marcou mais de uma alternativa. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,48) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade (que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas), nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente de 100,0%.",
+  "text_sha256": "da38a2f000f98253df1a8e752eb01c8c399df62cabdd01a303792ee663d120d2",
+  "window_size": 3
+}

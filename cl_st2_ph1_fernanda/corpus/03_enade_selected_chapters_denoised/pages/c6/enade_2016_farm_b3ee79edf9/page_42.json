@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05320e5e89f13dcb006af902236b3887d19331efcd07f50f59",
+    "usage": {
+      "input_tokens": 2383,
+      "input_tokens_details": {
+        "cache_write_tokens": 2380,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2380
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 652,
+      "output_tokens_details": {
+        "reasoning_tokens": 342
+      },
+      "total_tokens": 3035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_41.txt",
+      "source_sha256": "0509fb99edcfbfe1d72a8e62313177375734e2312a5718163f535f1c40db57eb"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_43.txt",
+      "source_sha256": "e588e9b965189caf8debe91ce4ede531bd6f4a24706a5ef81ae4f43ad6b1f6d2"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:47Z",
+  "duration_seconds": 5.792,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FARMÁCIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_42.txt",
+    "source_sha256": "b71c7549e42233973ee49a604afe5bb4c0117bb9f7fcdee612bda3c0c175162a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "005de3f20989e276210f45c11b99e0049e0d62c620f18c1fcf199bb53b0e674a",
+  "request_fingerprint": "393aec117d03b66e0c6e6a6beab8bb9d5917f32114cae6226975615ce2a801d0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (92,0), ao passo que a região que atingiu a menor nota Máxima foi a Norte (80,5). A Mediana do Brasil como um todo foi 50,7, sendo a maior Mediana obtida na região Sul (54,3), e a menor obtida na Norte (43,1). A maior nota Mínima ocorreu na região Nordeste (8,7). Na região Norte a nota Mínima foi 5,6, na região Sul foi 5,3 e nas demais regiões foi zero.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (43,6), e as médias de todas as demais regiões.17\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (50; 60], seguido bem de perto pelo intervalo (40; 50].\n\n17 Todas as comparações deste capítulo utilizam os intervalos de 95%. Os erros-padrão da média que possibilitam os testes estão disponíveis nas tabelas.",
+  "text_sha256": "f1e9007d1dbe4f84082a7aa0db4ed453a6e2437596aafbc18373a5a6ee88172f",
+  "window_size": 3
+}

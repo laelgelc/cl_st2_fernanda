@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03f4917cadbe05e4006af8e491fa1887d1bb0d8e03cf91ff33",
+    "usage": {
+      "input_tokens": 2462,
+      "input_tokens_details": {
+        "cache_write_tokens": 2459,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2459
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 2837
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 27,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_27.txt",
+      "source_sha256": "78f7f0a591290a46770ca73d7ef3514855254f1ce96f91c6aebabc27c94b18f9"
+    },
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_29.txt",
+      "source_sha256": "586b832578a5db777136e8d643f079fcf02bd7eeffbf079db78b56520a3a17bd"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:37Z",
+  "duration_seconds": 3.778,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 28
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_arquivol/enade_2009_arquivol_page_28.txt",
+    "source_sha256": "9aa0b9258ef442315bdf55971443b172c4fc68fd62b57d81d764ccaf78411880"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "46fbee84fe7b4f1c30ce7ee2cfc5cd5869d2f5762bafecb96cfb72a401613d3f",
+  "request_fingerprint": "2cfb29d6b348b106ec24a54287631cfbb0c9c992d75d52bd07da4377d3d5dd43",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 51,3 entre os concluintes e 45,9 entre os ingressantes. Nas faixas de notas até 50 pontos, o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. A exceção é o primeiro intervalo de 0 a 10 que inclui uma quantidade maior de concluintes do que de ingressantes. Constatou-se que aproximadamente 41,2% dos ingressantes e 54,0% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "866a705181a4ca2fc0f130ee97e236b1ac25f0f723bc67a5bcaddacd4e6e060f",
+  "window_size": 3
+}

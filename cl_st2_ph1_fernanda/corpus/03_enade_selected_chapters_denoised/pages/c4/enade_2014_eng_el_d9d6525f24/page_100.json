@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_021fc517edd0a27a006af8f87b6f4887d1a6f163e8bc7397fa",
+    "usage": {
+      "input_tokens": 1664,
+      "input_tokens_details": {
+        "cache_write_tokens": 1661,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1661
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 545,
+      "output_tokens_details": {
+        "reasoning_tokens": 353
+      },
+      "total_tokens": 2209
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_99.txt",
+      "source_sha256": "26a8dd2597bc526330d71e1a347242bcfdedf5bef67e39fb9959101197b7546b"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_101.txt",
+      "source_sha256": "f32595379a6af437be1c013a56c0130a1d6d3299b5559200d7ac878f6fe70ec8"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:35Z",
+  "duration_seconds": 6.724,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_el/enade_2014_eng_el_page_100.txt",
+    "source_sha256": "a5b8d43b483c2be29db8c9dd15f89844cbeb2579c5f6a46c5816d7d7fa4f553d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9599890ddd21fd8ad22af1cc078bd34f694c38335e4690c7eedd94d56a8d1fc8",
+  "request_fingerprint": "66ba52bc0d33f483a6e7f21f1b97d7b7cee5914acdbc50996af8201d0e854a29",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2014), identificada como pertencente a material gráfico; os dados do gráfico não aparecem no texto fornecido."
+  ],
+  "status": "success",
+  "text": "para a maior parte dos respondentes (maior do que 71% em todas as regiões e maior do que 68% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas do primeiro para os demais quartos. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 80,5% dos alunos sem ser estatisticamente significativa a diferença deste para o quarto imediatamente inferior, para o qual a proporção foi de 79,7%.",
+  "text_sha256": "bd9ba557fd603ef8e7988937c820a0aaf0717273469da5df5cf5bc434c4cd61b",
+  "window_size": 3
+}

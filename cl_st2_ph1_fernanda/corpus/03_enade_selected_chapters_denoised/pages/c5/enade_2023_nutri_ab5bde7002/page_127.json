@@ -1,0 +1,55 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_077ea01837370f34006af92452863487d1b31d70b5de8ccb57",
+    "usage": {
+      "input_tokens": 1702,
+      "input_tokens_details": {
+        "cache_write_tokens": 1699,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1699
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 344,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 2046
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_nutri/enade_2023_nutri_page_126.txt",
+      "source_sha256": "d9fd1c9f72497cd13f5fe6e7620399f8714134cd9cf4071ca503caa00f7d638f"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:38Z",
+  "duration_seconds": 2.899,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 127
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_nutri/enade_2023_nutri_page_127.txt",
+    "source_sha256": "4410e7f28aba7b6fcd3c0a98825ee5d4d2b626f451d5ab67a99c5e523e144bee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af9d59beae3c2d174cdead3d76a36feabd5d18e8a8130e035c197b3a9c78173e",
+  "request_fingerprint": "98d074e59f1899d3c2b8e81d94ca5c0b2396a0143de3164cdf12f5a33c6df7b9",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "da IES. A leitura desse último gráfico é semelhante à dos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de universidades apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por centros universitários (linha verde) e CEFET/IF (linha laranja) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "68e003f0541bf41d35006f19df508e3c937e241a3acda9369b10da89c6b8b53c",
+  "window_size": 3
+}

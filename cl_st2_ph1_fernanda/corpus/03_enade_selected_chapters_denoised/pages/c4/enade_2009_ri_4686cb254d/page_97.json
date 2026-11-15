@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dee1f4c3ec59951006af8e6a265d887d1a920edd98d259f50",
+    "usage": {
+      "input_tokens": 2579,
+      "input_tokens_details": {
+        "cache_write_tokens": 2576,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2576
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 485,
+      "output_tokens_details": {
+        "reasoning_tokens": 319
+      },
+      "total_tokens": 3064
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_96.txt",
+      "source_sha256": "691266c4aeb1129f511ad6193ccd40c9fe6dddf14987eedacefa6531e1e5c23d"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_98.txt",
+      "source_sha256": "d9dcdbfbee4b824e8c546d7fd09e72712d24c8cb37758d949ff7304fdb95783b"
+    }
+  ],
+  "created_at": "2026-11-14T22:54:26Z",
+  "duration_seconds": 5.461,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_97.txt",
+    "source_sha256": "ff8d4c9d9f1fca43910a36316efa5ace760d673ddaa882767d075b76ef22136d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bc6bbcafb1d1a8e2192ba61ed3adbd286e0e9c87510f37157c4e324dc8d80d6c",
+  "request_fingerprint": "099b7891a3d874c79e4bab9a06ba5582d20e87eb5216bb6e88e4b19181db1b1a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os gráficos 4.17b e 4.17c, incluindo dados, legendas e linhas de fonte.",
+    "O texto termina em “Para” e continua na página seguinte; foi preservado sem completar."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.18a e 4.18b apresentam a distribuição das respostas à questão “Qual foi o tempo gasto para concluir a prova?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de RELAÇÕES INTERNACIONAIS. A proporção de concluintes que gastaram entre uma e duas horas foi maior na Região Nordeste (51,8%) e menor na Região Norte (35,7%). Para",
+  "text_sha256": "cfbe9b281c74ee12318fb1b4dcbf118100a73bb92f5ac8f7df00eb25d62afb3b",
+  "window_size": 3
+}

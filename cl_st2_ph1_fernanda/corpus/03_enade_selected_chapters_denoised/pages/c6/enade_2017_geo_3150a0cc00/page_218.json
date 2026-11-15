@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b62326161485bbb006af908892b9887d1843b4475ec1eb489",
+    "usage": {
+      "input_tokens": 3336,
+      "input_tokens_details": {
+        "cache_write_tokens": 3333,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3333
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 600,
+      "output_tokens_details": {
+        "reasoning_tokens": 228
+      },
+      "total_tokens": 3936
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 217,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_217.txt",
+      "source_sha256": "e4f97ca462949d12c11f6143177e2f27740db3b3983a4215bb93f80045fc29c9"
+    },
+    {
+      "page_number": 219,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_219.txt",
+      "source_sha256": "42e8130bcf0b030a60f4651eb6c80de747324288167d1ff9277187db18a94454"
+    }
+  ],
+  "created_at": "2026-11-15T01:19:05Z",
+  "duration_seconds": 6.931,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 218
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_geo/enade_2017_geo_page_218.txt",
+    "source_sha256": "288e46848dd535fc5c92fcf23774fb35afa3c9147d7ec7c7b4655d8e32923ad3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "21cb60be8189c296a52386ddec43a2d37bf9b5a3bec1f4a3f9ec1c2cf6ca2493",
+  "request_fingerprint": "2d9f4d9d2054b460f40aa02a9e6330ab237be6e3a32394ed2629b8a846cba6b4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7a, com estatísticas básicas das notas, e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.8a apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e três questões foram tidas como Fácil. Duas questões foram",
+  "text_sha256": "7ef57d350630af3667563d017453e740e67e85a53d336b98b62dde2234e62302",
+  "window_size": 3
+}

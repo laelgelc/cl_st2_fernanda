@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07acbd57a0409615006af8f133cba887d1bdfedded8655fa7c",
+    "usage": {
+      "input_tokens": 2386,
+      "input_tokens_details": {
+        "cache_write_tokens": 2383,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2383
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 392,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 2778
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_36.txt",
+      "source_sha256": "70765257c57c072e10f9f80d9acf1f73dc852243ad45fe7e98c8e4592c74c4af"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_38.txt",
+      "source_sha256": "0f270664928ac670e0545f37fe558df01e0375a1107997f202347366e0a53e11"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:31Z",
+  "duration_seconds": 4.149,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_37.txt",
+    "source_sha256": "cd0e1261439336cc682451206b98b5f585e052c64d7089ac6c5ec1fecedb7dfa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9de8dc6ad5f38e8e89a70392bbd8d3b083f01b6bc72d91f978f103185ead63a4",
+  "request_fingerprint": "01b92e0e69baedfeeb937804a61fe1e7f15303075387d4ed79bd9688b42ad7e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, cabeçalhos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Nordeste (80,0), ao passo que a região que atingiu a menor nota máxima foi a Norte (75,0). A mediana do Brasil como um todo foi 39,5, sendo a maior mediana obtida na região Sul (41,7) e a menor obtida na Norte (35,6). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. O coeficiente de assimetria da distribuição das notas é negativo (-0,45), indicando que a distribuição é assimétrica à esquerda. As distribuições por Grande Região também apresentam assimetria negativa (entre -0,59 na região Sudeste e -0,13 na região Norte), concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo.",
+  "text_sha256": "fec7f82f5945c7a4aa79a0896d2a632cb4bd9cb87bc4acce5eedf736ae9d1320",
+  "window_size": 3
+}

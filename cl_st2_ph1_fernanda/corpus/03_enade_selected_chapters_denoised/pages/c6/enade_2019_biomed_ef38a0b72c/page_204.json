@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0253e2c4026d0bd1006af91003751c87d1909af90dfc0a6865",
+    "usage": {
+      "input_tokens": 2313,
+      "input_tokens_details": {
+        "cache_write_tokens": 2310,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2310
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2616
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 203,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_203.txt",
+      "source_sha256": "67a58552f7a513fe31aca26918d1e559a5fbcf6343e37f4a2ca2be914c4b5468"
+    },
+    {
+      "page_number": 205,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_205.txt",
+      "source_sha256": "92883c222a0c47299cb5ff4eb2c59b97709202ec1c62b5631ed65e6ad4e6fdc1"
+    }
+  ],
+  "created_at": "2026-11-15T01:50:59Z",
+  "duration_seconds": 3.398,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_BIOMEDICINA.pdf",
+    "page_number": 204
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_biomed/enade_2019_biomed_page_204.txt",
+    "source_sha256": "21eb617d6d828305dd2166682ecd0237037d37615d53ea326b8d2d3b804a9f07"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bb067afccfa3f5cbde6f634b715c8b6db02dbf0fa0a0898b69f9f2f532f33147",
+  "request_fingerprint": "528461432acb6a44424a594910f4e0950490cf6bbc2bd7efecdd50488f9097eb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19, incluindo título, dados e fonte.",
+    "Removida a fonte do Gráfico 6.12; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Biomedicina. Sem levar em consideração que 17,0% dos estudantes deixaram a resposta à questão em branco e que 20% receberam nota zero, a moda dessa distribuição seria o intervalo (0; 10], seguido do intervalo (10; 20], com 19,9% e 19,6%, respectivamente, do total de participantes.",
+  "text_sha256": "967ae396baa3da9bd53679cf55266c4485102d3438678b408ec4883eacf43de6",
+  "window_size": 3
+}

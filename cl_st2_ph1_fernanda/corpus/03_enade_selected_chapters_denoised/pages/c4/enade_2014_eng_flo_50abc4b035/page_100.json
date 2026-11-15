@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bb7bd8d5e42c34d006af8f8b1822887d1a814791f3d244a86",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cache_write_tokens": 1574,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1574
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 433,
+      "output_tokens_details": {
+        "reasoning_tokens": 325
+      },
+      "total_tokens": 2010
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_99.txt",
+      "source_sha256": "094e6edaddc4401d09f9f0d2f81b453ba14c3b3e60fbd185e23bd4e692c079c8"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_101.txt",
+      "source_sha256": "bbece2fd0bbaaa3661ecc93e181f25a81f1668c610745f3fa831c5a0286cd14c"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:29Z",
+  "duration_seconds": 4.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_flo/enade_2014_eng_flo_page_100.txt",
+    "source_sha256": "869491356ac964d20eb11187488c6e227054f3e1c11d13a506b42088d55c5a3c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8584d8c3600e9a2d6454ae0391bddf9606bdc86441d4e620839b841c067c1b52",
+  "request_fingerprint": "c6d3c5cd5e13e216a56f641e5875e4d6c7fbf0d1502a03ae4c1c9fcd93e23218",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos não apresenta uma tendência reconhecível em relação ao aumento de desempenho: mais elevada no quarto superior (84,2%) se comparada ao quarto inferior de desempenho (76,7%), diferença estatisticamente significativa.",
+  "text_sha256": "e4198f778cb7fd1e28e656f135c6d61dfb34d42823bc5a1624c1f77253ddc8e5",
+  "window_size": 3
+}

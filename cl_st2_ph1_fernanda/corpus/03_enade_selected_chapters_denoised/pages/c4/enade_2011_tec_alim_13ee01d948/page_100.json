@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_006cae1699d3dcff006af8eeb2905887d19fda527d2f226df7",
+    "usage": {
+      "input_tokens": 1654,
+      "input_tokens_details": {
+        "cache_write_tokens": 1651,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1651
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 551,
+      "output_tokens_details": {
+        "reasoning_tokens": 372
+      },
+      "total_tokens": 2205
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_99.txt",
+      "source_sha256": "e970e7359d8f265e37e9f045c93641a07f541f898b2c4c9fc63800c089fb51bc"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_101.txt",
+      "source_sha256": "53244fa06b2417c2dcea64939eb5032e7577b409995baeb8a7b173b77eb49e7b"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:50Z",
+  "duration_seconds": 5.47,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_alim/enade_2011_tec_alim_page_100.txt",
+    "source_sha256": "5810adf0e3cc9ec01b35bf15b327754a67b4fd1f85b5cddd667336789a37aee0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "af9cb1d10bc8410462485176656db95438774a85571dae9469e2736d87dc0626",
+  "request_fingerprint": "74b4239ffe4197087265f0e7bf3458a8012d840d30ab4b4d52f4ce567afa37fe",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, aparentemente associada a material gráfico; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior 7,8% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo menos de 1,0% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa e se observa uma tendência decrescente conforme aumenta o desempenho.\n\nTendo em conta o quarto superior, 82,0% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos.",
+  "text_sha256": "5ecec7077b0d388a01f3eb18464e8efbab94330b29bdfc091281f1cab2160d5d",
+  "window_size": 3
+}

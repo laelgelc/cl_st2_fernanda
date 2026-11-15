@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_085788369d464b4f006af8eae9a2c487d1abd9387b31efc7cf",
+    "usage": {
+      "input_tokens": 2888,
+      "input_tokens_details": {
+        "cache_write_tokens": 2885,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2885
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 857,
+      "output_tokens_details": {
+        "reasoning_tokens": 386
+      },
+      "total_tokens": 3745
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_48.txt",
+      "source_sha256": "247bb281a66e301df3b8809c39021e7cbd7d974f4c3270ebb2bbf4594a246ea7"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_50.txt",
+      "source_sha256": "79d41d07489c264ecf995dfaead0c90d5fd454bdef615c9dfdcdfae18c923e25"
+    }
+  ],
+  "created_at": "2026-11-14T23:12:41Z",
+  "duration_seconds": 9.243,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ARTES VISUAIS.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_art_vis/enade_2011_art_vis_page_49.txt",
+    "source_sha256": "e6d80a281478820d3ffa5888f7931999a30ecffb72fbf8e7ba8a7c77a22bda1d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72326086e6e63b94c1fd5216199cc5c7c29f8eeaba0c08e024b89a2b4865470b",
+  "request_fingerprint": "672cd0668f2469b57461af6fc4748f19fd297bc5526fdf25e6490a2e5f4bb399",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Três questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Duas questões foram consideradas de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Outras três questões foram classificadas na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seriam classificadas como muito difíceis.",
+  "text_sha256": "4f88a86d615de99e9b32e6dd536fa3ebf2f95f5571a961f6a6444e0211e32133",
+  "window_size": 3
+}

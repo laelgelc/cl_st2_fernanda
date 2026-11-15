@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00900cd1d7d50680006af8f45be33087d18180f9ce795206e2",
+    "usage": {
+      "input_tokens": 1834,
+      "input_tokens_details": {
+        "cache_write_tokens": 1831,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1831
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 278,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2112
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_52.txt",
+      "source_sha256": "b878de914ac484ad1ae35813737b8e82dbbc39a6c6fa973c433ba6405a918163"
+    },
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_54.txt",
+      "source_sha256": "f019274b8679f1d38a91331346e4f9d4de9e5024051a21b085a51cc99e84827a"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:59Z",
+  "duration_seconds": 3.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 53
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med/enade_2013_med_page_53.txt",
+    "source_sha256": "b469b9b96599c1ac4ad907431cc7fb630304cabacc20c940fe55ce87d4e281ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b47aad2ca1b67de0281573e77b010597cb7c276623d7957e5a8ba5f6a7bd3d82",
+  "request_fingerprint": "7bdc64eb4de7935248efbea6bdac97cb09830ec968681c6c13b102dc5f388147",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (45,6) foi maior do que de Centros Universitários (41,6) e de Faculdades (44,2).",
+  "text_sha256": "193cd8c3fc138a812536a7bf3927c5ff2296409ba9b19fdcb113cf75341b4ac4",
+  "window_size": 3
+}

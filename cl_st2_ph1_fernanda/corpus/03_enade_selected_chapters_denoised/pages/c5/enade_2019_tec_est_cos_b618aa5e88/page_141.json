@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_017aef0486b41f67006af91545e1f087d186ba041fffc677a6",
+    "usage": {
+      "input_tokens": 2751,
+      "input_tokens_details": {
+        "cache_write_tokens": 2748,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2748
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 284,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 3035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_140.txt",
+      "source_sha256": "36bc5cd6f14ec0320bdbff7641c0ffa3d305bcb4d03a86a02f859f10692adc4b"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_142.txt",
+      "source_sha256": "4852d50eb7a5d47cd6f0a3e294a399828b4eed901db9607e6ebcf43d329ac97e"
+    }
+  ],
+  "created_at": "2026-11-15T02:13:25Z",
+  "duration_seconds": 3.133,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_141.txt",
+    "source_sha256": "5496d91ec99fa5cf7752f17d8014ab943255d5c6968bd593ae9339979f5fec39"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c2a4206209a558bac8a550ff9778f56feb8a34ade9668baeb5d6287abe4ebbf7",
+  "request_fingerprint": "ae84648d653b858c674b07b994aaca1c7b593a14211ddd44d2e243ac86dd24e9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.3, incluindo seus dados, título e fonte. A frase final da página termina em “As Faculdades participaram com” e continua na página seguinte; nenhum texto de contexto foi incluído."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com apenas dois dos 11 cursos avaliados, aos quais foram atribuídos os conceitos 1 e 2. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região.\n\nOs Centros Universitários da região Norte foram representados por cinco cursos, que receberam os conceitos 1, 2 e 3. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região. As Faculdades participaram com",
+  "text_sha256": "0ffb8f82f2e9cb3c243a086891b08237cfb04c6fb09a70cdc61bc7960eb9040f",
+  "window_size": 3
+}

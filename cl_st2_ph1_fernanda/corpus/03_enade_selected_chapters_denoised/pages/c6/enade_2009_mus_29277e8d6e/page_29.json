@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0478058a1b2bd6eb006af8e621a54c87d1b48a675504a21799",
+    "usage": {
+      "input_tokens": 2450,
+      "input_tokens_details": {
+        "cache_write_tokens": 2447,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2447
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 398,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2848
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 28,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_28.txt",
+      "source_sha256": "c53826fb42c40a20743ae84a26c11feca51bdf88a4a8cfb39bc3e7a90133c5b7"
+    },
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_30.txt",
+      "source_sha256": "027af35f9c517907f7be0b49a75e6eca22a4e683a058696654e37eac712ec800"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:17Z",
+  "duration_seconds": 4.61,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_MÚSICA.pdf",
+    "page_number": 29
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_mus/enade_2009_mus_page_29.txt",
+    "source_sha256": "9ac71f6012d3be5c265c2a5459a4652f460073ced2c210d91c97cd8e794f9fd7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0e6467f48ec39a0a113a5e0fbf05ae80392859de4bb489993ec9f73ca3182418",
+  "request_fingerprint": "e2f16e1bae6ef90b0cfbb3e6eedc417bc47d64f0166ae8017f034bad6e92064f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, eixos, intervalos, legenda, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A idéia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 49,7 entre os concluintes e 40,0 entre os ingressantes. Nas faixas de notas até 50 pontos o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 50 pontos. A exceção é o primeiro intervalo de 0 a 10 que inclui uma mesma proporção de concluintes e de ingressantes. Constata-se que aproximadamente 1/4 dos ingressantes e cerca da metade dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "797b79791cb2c998083630d8b09e27af6c51138f22ee7aafb4e63b86de0f0ffa",
+  "window_size": 3
+}

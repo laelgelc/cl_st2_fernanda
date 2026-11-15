@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c4a2af443da75a0006af8f9dd5bac87d1b97e60375aa84cc3",
+    "usage": {
+      "input_tokens": 2452,
+      "input_tokens_details": {
+        "cache_write_tokens": 2449,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2449
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 457
+      },
+      "total_tokens": 3501
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_geo/enade_2014_geo_page_122.txt",
+      "source_sha256": "31dc83a077c35fab969f98108316b8cf5f699757a6a66acf01236ce3ce74eb64"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_geo/enade_2014_geo_page_124.txt",
+      "source_sha256": "0682c7267811f24ebbc73cdd59470dbedc24d948a306e0f46c520b75c29c13c3"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:29Z",
+  "duration_seconds": 9.933,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_geo/enade_2014_geo_page_123.txt",
+    "source_sha256": "658d5c8bf21b713f6d5d9016f6d83e3840876d73bc04a564e4a99cf2038ed9d3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b7a0418e0c3303f68e49cc916e949d7e6017a641dd80641c187f1362acbadd1",
+  "request_fingerprint": "1e4e0657ce1fcc086d5bbd6b0e44c9731d52875c1125f21e5f00f2790ad915ca",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte.",
+    "A página termina no meio da frase, após “conceito”; a continuação pertence à página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A região Norte participou com 25 cursos ou 10,7% do total nacional. Nesta região, o conceito 2 foi atribuído a dez cursos dos 25 participantes, o que equivale a 40,0% do total regional, além de ser o conceito modal na região. Nenhum curso ficou sem conceito (SC) ou com conceito 5. Dois cursos (8,0%) foram avaliados com conceitos 1, já o conceito 3 foi atribuído a oito cursos, correspondendo a 32,0%, e, cinco cursos (20,0%) receberam o conceito 4.\n\nA região Nordeste participou com 65 cursos ou 27,8% do total nacional. Nesta região, 31 cursos, 47,7% em termos regionais, obtiveram conceito 3, também o conceito modal para a região. Os conceitos 2 e 4 foram atribuídos a, respectivamente, 17 e 13 cursos (26,2% e 20,0%). Enquanto um curso obteve conceito 5, nenhum curso ficou com conceito 1. Três cursos (4,6%) ficaram sem conceito (SC) nessa região.\n\nDos 70 cursos participantes da região Sudeste (29,9% do total nacional), o conceito 3, também conceito modal, foi obtido por 25 (35,7%) cursos. O conceito 1 foi atribuído a quatro cursos (5,7%) e os conceitos 2 e 4, a, respectivamente, 11 (15,7%) e 22 (31,4%) cursos. O conceito 5 foi atribuído a oito cursos (11,4%). Nenhum curso ficou sem conceito (SC).\n\nOs 41 cursos da região Sul ficaram distribuídos em todas as faixas de conceitos. A predominância, foi dos conceitos 3 e 4 com 34,1% cada (conceitos modais), correspondendo a 14 cursos cada. O conceito 2 foi atribuído a quatro cursos (9,8%) e o conceito 1, a dois cursos (4,9%). O conceito 5 foi recebido por cinco cursos (12,2%), enquanto dois cursos (4,9%), na região Sul, ficaram sem conceito (SC).\n\nJá dos 33 cursos participantes na região Centro-Oeste, 14 receberam conceito 3, mais uma vez o conceito modal (42,4%). Nesta região, nenhum curso ficou sem conceito (SC) ou com conceito 5. Já, nove (27,3%) cursos foram alocados no conceito",
+  "text_sha256": "a3f9cdefedeada193de83511fd117518061f07642275775d4d641ff2b92f3f9e",
+  "window_size": 3
+}

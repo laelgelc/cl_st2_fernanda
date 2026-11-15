@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bf00528097b3b26006af8f54394b487d19be761319a0404f0",
+    "usage": {
+      "input_tokens": 1979,
+      "input_tokens_details": {
+        "cache_write_tokens": 1976,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1976
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 2345
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_44.txt",
+      "source_sha256": "e20f253320d3b598fa285110043b100beb8a0891bdae450076ae4afbf5ba66b0"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_46.txt",
+      "source_sha256": "434d8a269e292d0552f4db118ad869beb64ab5408c0f34bce758502041aca16e"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:51Z",
+  "duration_seconds": 3.916,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_45.txt",
+    "source_sha256": "42e3bb945622f6749214cc55e3ef3489b825d33c840ba68188df5b2a379e684b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9b44f932fa2b892ce22297fe28233d2cc73c381617650e1ba228f8264cc538c8",
+  "request_fingerprint": "419233bf3e0c81bc0abea5018b3df69efa51d8a3dcfe69b465e2808cf2362fa2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Nordeste (49,1) e a menor, obtida na região Norte (44,1). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sul. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sul.",
+  "text_sha256": "c1ae0c8145e0bc02c1b8ef1a9ae79666741e835e8e7d6d1d5bf4df543173ada4",
+  "window_size": 3
+}

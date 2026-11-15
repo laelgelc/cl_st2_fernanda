@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ca961ec77d7672006af8f1e1c68487d1bc519cb396de7837",
+    "usage": {
+      "input_tokens": 1433,
+      "input_tokens_details": {
+        "cache_write_tokens": 1430,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1430
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 342,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 1775
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_45.txt",
+      "source_sha256": "f0119599af602f3497411e6ca6631c16a1bd81afc66ae8dd3a46a583126d3943"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_47.txt",
+      "source_sha256": "28a7cd12298123b429e5ac3c2d25f68f0f9e9da95f6b3bbe2216d192ff3b843e"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:25Z",
+  "duration_seconds": 3.665,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_com",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO COMERCIAL.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_com/enade_2012_tec_gest_com_page_46.txt",
+    "source_sha256": "92f251073a98b3f3a33c05631ac9fa683e1df23cadb9fc7f9100c60e90042bc9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fb7015bf4919775750c596206b15a9f77cfaa623fbb07e1a90ba657cea6e1ef4",
+  "request_fingerprint": "ce6fa10ca7f11eb8c1a00aee39d1718fd7f4f7edb20c260810574a4c1dc85bd8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que parece pertencer a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "Quanto à Categoria Administrativa (Gráfico 3.11), observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas e Privadas, sendo que a maior média foi obtida por alunos de IES Públicas de ensino (48,2).",
+  "text_sha256": "8a90feb1a813b8be97b6822251ca27325295d9e2e4578dbef892b1fc565d9798",
+  "window_size": 3
+}

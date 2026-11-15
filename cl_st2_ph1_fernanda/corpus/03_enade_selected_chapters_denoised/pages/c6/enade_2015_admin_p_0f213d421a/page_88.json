@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b59d91dc99a2c6a006af8fd0ab46487d18a516aad8b2eaa45",
+    "usage": {
+      "input_tokens": 2441,
+      "input_tokens_details": {
+        "cache_write_tokens": 2438,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2438
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 238,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2679
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_87.txt",
+      "source_sha256": "914c4285f542c800918d36c79dcafcc70c3fcaefae5dc8711411b7fccef2a0c9"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_89.txt",
+      "source_sha256": "12cb13d7d6e966bef311bce594d103dca28efccb6a26e194ab253e329492c905"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:02Z",
+  "duration_seconds": 3.079,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_88.txt",
+    "source_sha256": "5acb04d1291581ea35a78e41a0d51f57c9910009f3323fe5246844648f9f664c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "30ad487563fed6663d97df15f7d6680921d1eee42d01de3864e858268f3259c3",
+  "request_fingerprint": "c02ac168b63695e0286dff8506a617df35f3c6bc1363d31865a34f3e8a65c69d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, dados e fonte.",
+    "Removidos os elementos gráficos do Gráfico 3.13 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição apresenta a moda principal no intervalo (90;100]. Destaca-se, o grande número de estudantes que deixaram esta questão em branco, correspondendo a aproximadamente 25%, constituindo uma moda secundária.",
+  "text_sha256": "f49270514403e10659b2ca672a4093577fc55106e9d563eec659dba37b3e4803",
+  "window_size": 3
+}

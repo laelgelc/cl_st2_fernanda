@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01135e471ccb1fe7006af8e9498e0087d193128c8d62172699",
+    "usage": {
+      "input_tokens": 2245,
+      "input_tokens_details": {
+        "cache_write_tokens": 2242,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2242
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 2744
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_32.txt",
+      "source_sha256": "ceca136630de5ca2001ef95c273141be181370275d1125b5a0651553014cb6b3"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_34.txt",
+      "source_sha256": "aca217f8c3d0003265b489320f801f61fb8f802f912186ce0b9705fcaf8f3274"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:45Z",
+  "duration_seconds": 5.577,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_33.txt",
+    "source_sha256": "2450143dd19990d86fef53fc9de8b47122f660c303d201316aab28d838515d97"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8517879877383057a80a7abba0512c3b16d947dfb7b2464b5c01bc511ddca998",
+  "request_fingerprint": "e088be65d307126c3e5c6d8a0e6a6c6df3bb3435dbe0ebe6db95d91a7c4f00fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1, incluindo dados, rótulos dos eixos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.2 apresenta informações referentes à nota final de Ingressantes e Concluintes, comparando-se os resultados de acordo com as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica.\n\nNo que diz respeito às notas médias dos alunos em cada Grande Região, observa-se que, em relação às notas aferidas em âmbito nacional (média de 40,0 para Ingressantes e de 58,8 para Concluintes), existe diferença estatisticamente significativa ao nível de 95% entre a menor média, obtida na região Sudeste (38,7) e a maior, na região Nordeste (42,8), no grupo de Ingressantes.\n\nEntre os Concluintes, também existe diferença estatisticamente significativa ao nível de 95% das médias. A maior média de notas foi obtida pela região Sul (61,7), ao passo que a menor foi identificada na região Norte (54,9). As demais médias de notas foram 57,6 para a região Sudeste, 60,4 para a região Nordeste e 60,7 para a região Centro-Oeste. Destaca-se a região Sul com médias superiores às nacionais, tanto para o grupo de Ingressantes quanto para o de Concluintes.\n\nLevando-se em conta os grupos dos estudantes em Categorias Administrativas, observa-se que a pontuação média mais elevada entre os Concluintes foi encontrada em instituições públicas (62,0), com desempenho acima da média nacional. Já os Concluintes provenientes de instituições privadas obtiveram média 56,1%, abaixo da média nacional.",
+  "text_sha256": "a96b7610fd6073366b1a3769681a3840d01f9af30563b990feb33d003ea61fb7",
+  "window_size": 3
+}

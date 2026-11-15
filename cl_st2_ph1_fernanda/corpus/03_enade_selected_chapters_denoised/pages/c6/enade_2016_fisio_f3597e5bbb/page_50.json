@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ab4a1e6304173d3006af902518b4c87d1a960ab12a44bc813",
+    "usage": {
+      "input_tokens": 3224,
+      "input_tokens_details": {
+        "cache_write_tokens": 3221,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3221
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1376,
+      "output_tokens_details": {
+        "reasoning_tokens": 660
+      },
+      "total_tokens": 4600
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_49.txt",
+      "source_sha256": "e2ef1e1da9d065201447953db4089f06a4540bec5235f75d66d44df21a95eec2"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_51.txt",
+      "source_sha256": "4e374e690a452df3dbed20129e36df3eab244aadb605f7f9568099cb2beadc10"
+    }
+  ],
+  "created_at": "2026-11-15T00:52:33Z",
+  "duration_seconds": 11.145,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FISIOTERAPIA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_50.txt",
+    "source_sha256": "6423184082b7bcee6f1af54c58fe8a324d14ed11389337fcacf270ae92ee6be8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d04e5dbda584ab676d32b7ed49e288d4dbf302d0d842de58206c029bef06a9bf",
+  "request_fingerprint": "b9deb67ca4ec36d5d6197899a3e86243fc23c413f5473af356c63667d0be135d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, título e fonte da Tabela 3.9 e da Tabela 3.10; a prosa que as introduz ou comenta foi preservada.",
+    "O trecho final termina no meio de uma frase, que continua na página de contexto; não foi completada."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e uma questão foi tida como Fácil, por ter índice de acertos 0,80. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, e outras três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, a questão 5 apresentou menos de 15% de acertos (13%), razão pela qual foi classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto-bisserial). Nesta análise, as questões foram assim avaliadas: seis das oito questões\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Médio, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com",
+  "text_sha256": "caeabe37dac1f0e1bb8532164f0287f48b574ab24323897e59fda3178849d7e1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0073f7c28023750c006af8ebec0b7c87d1b4544e14372009cf",
+    "usage": {
+      "input_tokens": 2805,
+      "input_tokens_details": {
+        "cache_write_tokens": 2802,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2802
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 994,
+      "output_tokens_details": {
+        "reasoning_tokens": 209
+      },
+      "total_tokens": 3799
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_eng_g_2/enade_2011_eng_g_2_page_106.txt",
+      "source_sha256": "6edb4c9900c9c0722a120d04067bcc5ed59b7df8bc12a81b372bcc6033e55112"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_eng_g_2/enade_2011_eng_g_2_page_108.txt",
+      "source_sha256": "7c9771eacf28e6b543c469ad133dfc9036c85ee72e02069b62704ec5431312ee"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:59Z",
+  "duration_seconds": 8.896,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2011_eng_g_2",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO II.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_eng_g_2/enade_2011_eng_g_2_page_107.txt",
+    "source_sha256": "0497d3b9620e3ebdc5c48dcbbbdb1d0dffffb73d7e69e0500c4a42c6d90fd34e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "63383a929e89ae83f1c62aebd607dec027567f68f295921db622e12496c9eabb",
+  "request_fingerprint": "c3cc14ef51b4821f577aaa76d38539902d0b1ed6eb48383ad857ff22bc189626",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo seus dados e a linha de fonte. A prosa termina no alvo com “tiveram um”; não foi completada com o texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que na região Norte as Universidades concentraram 12 dos 16 cursos participantes. Dos cursos em Universidades, dois ficaram sem conceito e nenhum recebeu conceitos 1 ou 5. Seis cursos receberam conceito 3, conceito modal, e os demais quatro ficaram distribuídos igualmente nos conceitos 2 e 4. Os Centros Universitários da região Norte foram representados por um curso, que recebeu conceito 2.\n\nNa região Nordeste, as Universidades participaram com 32 dos 43 cursos na Área de Engenharia – Grupo II da região. Um dos cursos oferecidos em Universidades no Nordeste ficou sem conceito. O conceito modal foi 3, com 13 cursos. Os demais receberam conceito 2 (seis cursos) e conceito 4 (12 cursos). Nesta combinação de Organização Acadêmica e região nenhum curso foi recebeu conceitos 1 ou 5.\n\nOs Centros Universitários contaram com três cursos participantes na região Nordeste, todos eles com conceito 2. As Faculdades foram representadas por oito cursos na região Nordeste e todos receberam conceito. O conceito modal foi 2, com quatro cursos. Dos cursos restantes, três receberam conceito 1 e um recebeu conceito 4.\n\nNa região Sudeste, as Universidades concentraram 93 dos 177 cursos da região. Entre os cursos em Universidades, o conceito modal foi 2 com 32 cursos, seguido de perto pelo conceito 3, com 31 cursos. Nenhum curso ficou sem conceito. Os demais cursos receberam os conceitos: 1 (11 cursos), 4 (17 cursos) e 5 (dois cursos).\n\nOs Centros Universitários participaram com 40 cursos na região Sudeste, dos quais 20 obtiveram conceito modal, 3, e nenhum ficou sem conceito. Os demais receberam os conceitos: 1 (seis cursos), 2 (12 cursos), conceito 4 e 5 (um curso, cada). As Faculdades foram representadas por 44 cursos na região Sudeste, que se distribuíram nos conceitos 1 (sete cursos), 2 (25 cursos, conceito modal), 3 (cinco cursos), 4 (quatro cursos) e 5 (três cursos). Nenhum curso ficou sem conceito.\n\nDos 57 cursos da região Sul, 44 eram de Universidades, para os quais o conceito modal foi 3, com 20 cursos. Nesse tipo de organização, um dos cursos ficou sem conceito e os demais receberam os conceitos: 1 (dois cursos), 2 (cinco cursos), 4 (nove cursos) e 5 (sete cursos).\n\nOs Centros Universitários da região Sul tiveram três dos seis cursos participantes no conceito modal, 2. Os outros três cursos receberam conceitos 3 (um curso) e 4 (dois cursos). Foram sete os cursos vinculados a Faculdades na região Sul e nenhum destes ficou sem conceito. Os cursos receberam conceito 2 (um curso) e conceito 3 e 4 (três cursos cada, os valores modais).\n\nNa região Centro-Oeste, 13 dos 16 cursos eram de Universidades. Nesse tipo de organização, nenhum curso ficou sem conceito e o conceito modal foi 2, com cinco cursos. Os outros cursos obtiveram os conceitos 3 (quatro cursos), 4 (um curso) e 5 (três cursos). Os Centros Universitários da região Centro-Oeste tiveram um",
+  "text_sha256": "365ee0741ccb6c4c723d37666137b3690119cebf789b61d89298f05d0d573ecd",
+  "window_size": 3
+}

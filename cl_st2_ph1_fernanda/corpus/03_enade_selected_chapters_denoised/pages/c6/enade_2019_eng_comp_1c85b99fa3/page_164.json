@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_056666394a680b4e006af910e6fb1887d19bc9f5ab5c7420dc",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 2713,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2713
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 584,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 3300
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_163.txt",
+      "source_sha256": "6c2aafd721073168db995f19964c1ebfc78d42d9b83dc2d3f70ab5e7e1359872"
+    },
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_165.txt",
+      "source_sha256": "2b3040469e673224241acebff554d7b3aff4a08713a4770c8801877ab84ca259"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:46Z",
+  "duration_seconds": 5.061,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 164
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_164.txt",
+    "source_sha256": "2b5e407739f98772450cdef7741552894c77e9f1eefa4c00dad3547e49a5747a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "250f430841afd6eaea47561f397d5cf2bf706db195105010822f2cde51d246ba",
+  "request_fingerprint": "dae1fd716c54ae608b95a26384bc37c0e935ae75424e6860f737055b5cfb9e37",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o crédito de fonte (MEC/Inep/Daes – Enade/2019), identificado pelo contexto como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco, não são detectadas neste pré-processamento automático. A presença de pequenos riscos, ou manchas, podem fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco”, pelos professores quando da correção.",
+  "text_sha256": "d4df00d170ee608970ee406927a56a1017bcab0f7cf6cb714ae1d920bf4cd87e",
+  "window_size": 3
+}

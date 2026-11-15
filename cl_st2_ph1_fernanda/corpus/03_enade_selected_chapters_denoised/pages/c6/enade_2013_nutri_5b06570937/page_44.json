@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06180316a33ac5ac006af8f480664887d1a824602d2d359937",
+    "usage": {
+      "input_tokens": 2194,
+      "input_tokens_details": {
+        "cache_write_tokens": 2191,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2191
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 413,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 2607
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_43.txt",
+      "source_sha256": "440f7c7276583f76b17ccd56e060603c5c5e921c939149d9502c2b37c95acce3"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_45.txt",
+      "source_sha256": "1a3db4be5558873991ea9da6701f9df5668937caa508ef8e177c9dbd31ab9b3c"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:36Z",
+  "duration_seconds": 3.18,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_nutri/enade_2013_nutri_page_44.txt",
+    "source_sha256": "bdf11d7afca0aedf43c15e4df5745d8f2a696e4f30e66204ecc0b0d348fd92a8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e8ed59d3d44aac8ef58ecfc1e6128a9923026e34c7816e43d5e90663ddc93e6",
+  "request_fingerprint": "3a45291725a3b10143faba8c33c16a2aed03576b70e665d68c137bdaa54e2e6d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Sudeste (47,4). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], assim na prova como um todo. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 12,7 para a nota da prova como um todo e 15,1 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,19). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,21 para o Sudeste e -0,01 para o Norte).",
+  "text_sha256": "e224fbb4294a66cbb2be380d532e5750d5a601d24cbaf89b94f0e8fcf84c71bd",
+  "window_size": 3
+}

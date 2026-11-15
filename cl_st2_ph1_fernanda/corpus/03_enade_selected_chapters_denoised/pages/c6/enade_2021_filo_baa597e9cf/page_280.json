@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05d94b71c9b19646006af918906f7487d1af61c76964e66acf",
+    "usage": {
+      "input_tokens": 3328,
+      "input_tokens_details": {
+        "cache_write_tokens": 3325,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3325
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 588,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 3916
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 279,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_filo/enade_2021_filo_page_279.txt",
+      "source_sha256": "cfe3dba74263748844ac89435caf45ea478885deb3c3ae88338cf92fe4f81ad3"
+    },
+    {
+      "page_number": 281,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_filo/enade_2021_filo_page_281.txt",
+      "source_sha256": "61fdc45edbf72addc5878445cab262f7616e1cff62ee4c07f9dd3a14dfa55d9e"
+    }
+  ],
+  "created_at": "2026-11-15T02:27:28Z",
+  "duration_seconds": 7.071,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_FILOSOFIA.pdf",
+    "page_number": 280
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_filo/enade_2021_filo_page_280.txt",
+    "source_sha256": "21caa8fe5cec84cff35e7929e891a3b27d73de6e041fa462ef13dcefef7504dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c619bfa487e6e9821638b2b5a7a0d77c0a7474e84d7b19cad6f53ce315240371",
+  "request_fingerprint": "f58c9d2be90f5a2e0155069f1179c7202ede9c6f1fb8c178eaf510740dbf3237",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, identificada pelo contexto como pertencente ao gráfico da página anterior. A prosa termina em frase incompleta no limite da página; mantida sem completar."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica, segundo a Habilitação. A Média das notas da prova, como um todo, dos alunos de Licenciatura, foi 48,8 (Tabela 6.1). Em relação a Categoria Administrativa, os estudantes de Licenciatura das IES Públicas obtiveram Média mais alta (49,3) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (48,3). Observa-se que não existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (8,6), a maior e a menor Média, é superior à diferença entre a das IES Públicas e Privadas (1,0), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (16,8) foi superior ao do Brasil, como um todo (16,5), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades (49,4) obtiveram Média mais alta que a nacional (48,8). A Média dos Centros Universitários (47,4) e a das Faculdades (48,4) foram menores do que a nacional. Constata-se que não existe diferença",
+  "text_sha256": "ed28e0a68163db15180d7a8ca990165e1a824cd29636c8a964e8089f79875ae1",
+  "window_size": 3
+}

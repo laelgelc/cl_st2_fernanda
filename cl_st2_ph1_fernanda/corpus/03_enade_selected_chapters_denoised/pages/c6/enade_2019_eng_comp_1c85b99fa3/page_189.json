@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a841eafba30ba27006af910f685e487d18bf0484be5aa3e90",
+    "usage": {
+      "input_tokens": 2470,
+      "input_tokens_details": {
+        "cache_write_tokens": 2467,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2467
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 274,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 2744
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 188,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_188.txt",
+      "source_sha256": "79251853d06e727604c122c1a4f32f594c0428952702d744d51bab845caa3322"
+    },
+    {
+      "page_number": 190,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_190.txt",
+      "source_sha256": "17dcf5a22b55e0bfe53572cafe756c2357ddae15690ae9fd17c8f8d9bb39c5b2"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:02Z",
+  "duration_seconds": 2.93,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 189
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_comp/enade_2019_eng_comp_page_189.txt",
+    "source_sha256": "76775e2b05c4e335cee013ffa8a36b75c84ab053a95f18bddbb72cf62d6eb63d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f5b4d2120d8e3690c0c9f33dcb777642109f78e7d3f31582ce477443e4e93ff6",
+  "request_fingerprint": "324cd93703781e3714945a2fa12bbbf74362b2f8aefd9952dd4ced102b941e22",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.17, incluindo título, dados e fonte. Removida a fonte do Gráfico 6.10; o gráfico e seus dados não foram transcritos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.10, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral em relação à questão 2. Observa-se que a maior frequência (24,2%) corresponde à dos estudantes que obtiveram nota no intervalo (60; 70]. Destacam-se, também, os estudantes que deixaram a resposta à questão 2 em branco, representando 10,6% do total.",
+  "text_sha256": "5a4f703846953643efdf9c2373d047906ddc821131f2ed8b0aece5c76540a6fa",
+  "window_size": 3
+}

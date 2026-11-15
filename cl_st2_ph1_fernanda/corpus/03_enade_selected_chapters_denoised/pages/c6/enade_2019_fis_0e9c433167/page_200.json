@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09e986abfb399cbf006af913e8613c87d193d999049ea451c3",
+    "usage": {
+      "input_tokens": 2674,
+      "input_tokens_details": {
+        "cache_write_tokens": 2671,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2671
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 321,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 2995
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 199,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_199.txt",
+      "source_sha256": "b13766470d6fa547e845a82d77300c8e58c4d636c17b164f95c49b408071d0fd"
+    },
+    {
+      "page_number": 201,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_201.txt",
+      "source_sha256": "b5c3358c299a80b7d46191ef15444d77b178ff1cb54ef6f44f7c5eedbab6f245"
+    }
+  ],
+  "created_at": "2026-11-15T02:07:36Z",
+  "duration_seconds": 4.121,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 200
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fis/enade_2019_fis_page_200.txt",
+    "source_sha256": "bac696885b4d55df0d0faa4de461e4bfa83429df97836125b17bb8507120b4ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "378b2df502d74381e97fc3c0d0cbe6f1e8cbe39bfbc06b3dc1c56843490df660",
+  "request_fingerprint": "1c8c0534ae2443c8a532d29a78815c344ce8781c292163097f8c8fc4fdb6ec2b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.11; o gráfico e seus elementos não aparecem na extração fornecida."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, representa-se a distribuição das notas nas questões discursivas do Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo (40; 50], com 22,1% do total de participantes. No intervalo [0; 10], com 9,5% do total das notas, estão também computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos.\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "aa97b995a8c0bdaef8fb1f869d77de5923f3490ce34750869edd8eb6a480f18e",
+  "window_size": 3
+}

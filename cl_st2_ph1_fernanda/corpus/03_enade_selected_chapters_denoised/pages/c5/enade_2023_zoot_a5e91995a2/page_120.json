@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bde07751970468c006af92593213487d1a02aeacb8a994050",
+    "usage": {
+      "input_tokens": 2473,
+      "input_tokens_details": {
+        "cache_write_tokens": 2470,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2470
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 377,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 2850
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_zoot/enade_2023_zoot_page_119.txt",
+      "source_sha256": "a0cc89502bdcd82d363633cf2f6280977bd38e50c1504faee60a7f63a0dba11e"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_zoot/enade_2023_zoot_page_121.txt",
+      "source_sha256": "9745df228fb324b8d75962d0ccd63a06af7f7ba465240b89c8a27b2ea55a6463"
+    }
+  ],
+  "created_at": "2026-11-15T03:22:59Z",
+  "duration_seconds": 3.665,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_zoot",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ZOOTECNIA.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_zoot/enade_2023_zoot_page_120.txt",
+    "source_sha256": "e9d69feafc7656881010913141d425a43f4449500273cf4e1ebf137053736e40"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b46870abb2adb56ccc9b14e0cbc172b6cadb50adf884d42888b6d2a92e44d48a",
+  "request_fingerprint": "23e91b2facda8d57e06ab5b3da915ebf77589cea12aa559de4c9c893212e122f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.1, seu título/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Norte (linha azul) apresenta 93,8% dos cursos com conceito 3 ou abaixo deste valor. A região Sudeste (linha vermelha), por outro lado, apresenta 50,0% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, em algumas regiões, o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Centro-Oeste (linha laranja), nas quais todos os cursos têm conceito menor ou igual a 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4. A região Norte (linha azul) apresenta os cursos com conceitos mais baixos, ao passo que a região Sudeste (linha vermelha) apresenta a distribuição com valores maiores. Os cursos em IES situadas na região Nordeste (linha verde) apresentam uma situação intermediária.",
+  "text_sha256": "a262c886b0d75c2fb8e5da59a574af5e54442e0a9b080bad2320eb5e68fc8510",
+  "window_size": 3
+}

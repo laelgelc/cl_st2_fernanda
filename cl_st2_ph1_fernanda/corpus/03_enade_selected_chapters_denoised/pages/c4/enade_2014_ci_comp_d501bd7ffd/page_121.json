@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00de975cda41d1d1006af8f6488e5087d18e9028e4f8411ada",
+    "usage": {
+      "input_tokens": 1578,
+      "input_tokens_details": {
+        "cache_write_tokens": 1575,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1575
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 733,
+      "output_tokens_details": {
+        "reasoning_tokens": 615
+      },
+      "total_tokens": 2311
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_120.txt",
+      "source_sha256": "9826bbc0795dc7d6252a6d5ae14306e39b68740f49d116877a793376fff57c9f"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_122.txt",
+      "source_sha256": "f576c6538684d89c44a5a256becd384ea063c3898de12635160ac98273b125aa"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:12Z",
+  "duration_seconds": 9.231,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_121.txt",
+    "source_sha256": "379d4a6caf569f46f5cdbf9251e915ffb2d7a8131880b8bd814b76927ca02270"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d35c20d4b02bba3050f9f38b76906bb5b41db4a7b6f9277bca35000f19cf3212",
+  "request_fingerprint": "afaa109d83b575f3f879dd36a3bae3e7234915d29c30f0676ff0db6ce2d4aae1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/INEP/DAES - ENADE/2014”, que aparenta ser a linha de fonte de material gráfico da página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (84,1%) se comparada ao quarto inferior de desempenho (64,8%). As diferenças entre quartos contíguos são todas estatisticamente significativas.",
+  "text_sha256": "13606929095e2feb94f0e07fe55d66018b83ab55ab2bcdde3b4416ce60f71210",
+  "window_size": 3
+}

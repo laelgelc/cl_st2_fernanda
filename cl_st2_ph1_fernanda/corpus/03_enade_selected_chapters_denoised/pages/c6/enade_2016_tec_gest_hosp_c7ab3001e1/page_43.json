@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0462e53fd91445a3006af904001c8087d1b85d3279c16fdb50",
+    "usage": {
+      "input_tokens": 2598,
+      "input_tokens_details": {
+        "cache_write_tokens": 2595,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2595
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 3100
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_42.txt",
+      "source_sha256": "89405d7a6d4d1923200c1fe4c320c7f7502c700b1652dc788e599a2d9cc86535"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_44.txt",
+      "source_sha256": "9fbc516409e50cdf4046531cfb4a33bd4b347610cb74dc42e3c16d704c654400"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:44Z",
+  "duration_seconds": 4.583,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_43.txt",
+    "source_sha256": "ae52890811ca545706b4dd2a0517b1f22cd3c5a431956ab71808f9932529b4f3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a54a3bb102bc325a61d26d166c7ef683176f83699788ccdce1d57c3e4cca8b6",
+  "request_fingerprint": "5cb98d807df86342b1af20dd091d64444aabbc1db6c05153b609f6c3a0d41550",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova como um todo foi 41,0. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (46,6), e os das IES Privadas obtiveram Média mais baixa (39,9), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Centro-Oeste e Norte (11,6), a maior e a menor Média, é bem superior à diferença entre IES Públicas e Privadas (6,7), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (12,2) foi ligeiramente superior ao do Brasil como um todo (12,0), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, as Universidades obtiveram Média mais alta que a nacional (45,1 e 41,0, respectivamente). As médias dos Centros Universitários e das Faculdades foram iguais: 39,3. Constata-se que existe diferença estatisticamente significativa ao nível de 95% entre as médias das notas dos estudantes das Universidades e os outros dois tipos de Organização Acadêmica.\n\nA média da Modalidade Educação a Distância (41,7) foi superior à media da Educação Presencial (40,8), mas não há diferença estatisticamente significativa ao nível de 95% entre essas duas médias.",
+  "text_sha256": "0d9c71307de33e03aef3983ac63bf1de616d2336cc1666a7c754b0a682df20a4",
+  "window_size": 3
+}

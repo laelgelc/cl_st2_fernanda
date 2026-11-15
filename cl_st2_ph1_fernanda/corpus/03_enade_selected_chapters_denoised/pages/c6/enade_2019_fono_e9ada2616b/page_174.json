@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a7836dccb114e7006af9139ed21887d187c48de91fe398e8",
+    "usage": {
+      "input_tokens": 2528,
+      "input_tokens_details": {
+        "cache_write_tokens": 2525,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2525
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 2894
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 173,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_173.txt",
+      "source_sha256": "c3ead6a437c38460150a9b0b69ec0ea6553046765bab27a1d0dc6dd4e51cef1d"
+    },
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_175.txt",
+      "source_sha256": "6b280bd2a49e23f846aea176aa0bd8ec576aabd67460cfe6defca68f2f8d013d"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:22Z",
+  "duration_seconds": 4.541,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 174
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_174.txt",
+    "source_sha256": "e72e8c61c7de232a14dea4a531a4413d5805a2cfba7aca6e641a1e826f1142af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4f3c500d21b883008717146efeddf9161f822166008478a7d600f6a6a097be19",
+  "request_fingerprint": "fae01b6738516d655542e2fbb9be355f4d2c5246dced8089a318e54ae732f19b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.17.",
+    "Removida a linha de fonte associada ao Gráfico 6.10; não havia dados do gráfico presentes no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.10, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (25,1%) corresponde à dos estudantes que obtiveram nota no intervalo (60; 70], seguido de perto do intervalo (50; 60], com frequência de 24,1%. Destacam-se, também, os estudantes que deixaram a questão 2 em branco, 14,1% do total, e aqueles que obtiveram notas no intervalo (70; 80], 13,2% dos participantes.",
+  "text_sha256": "d3422903f04deb33bb8b7b2bb12423d97aac555008d5eaa17e66bccac5b8b487",
+  "window_size": 3
+}

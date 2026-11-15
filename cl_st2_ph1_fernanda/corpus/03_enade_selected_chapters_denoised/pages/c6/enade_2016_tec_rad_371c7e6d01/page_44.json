@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b60fdc1438ce61006af9042850dc87d18a9ec6245df412f3",
+    "usage": {
+      "input_tokens": 2474,
+      "input_tokens_details": {
+        "cache_write_tokens": 2471,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2471
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 545,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 3019
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_43.txt",
+      "source_sha256": "d3177e8172472908f0bea7e93fb3c6d08bba91631f333ae5551efdaaf773687d"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_45.txt",
+      "source_sha256": "031222e1a2c9276b850a5fb21264b2492bcea17a93d4484818dccba2632303ab"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:24Z",
+  "duration_seconds": 6.307,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM RADIOLOGIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_44.txt",
+    "source_sha256": "0a6c371adb8cd57adfe640fa98d6a72a6632d51d8b5743e0e4becdb85f148bb5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "54f9e319753ef571852897b16d8c7f66802183acad942c5d54e2bf5fad7c8daf",
+  "request_fingerprint": "350c283e8bf3eb8b6b47547fc2b59c9cd872cad405392c59e5278d4ce23de583",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Sudeste (88,3), ao passo que a região que atingiu a menor nota Máxima foi a Centro-Oeste (70,9). A Mediana do Brasil como um todo foi 40,6, sendo a maior Mediana obtida na região Sul (43,1), e a menor obtida na Norte (38,1). A nota Mínima do Brasil como um todo ocorreu na região Nordeste (5,3). A maior nota Mínima ocorreu na região Sul (16,4) e nas demais regiões as notas mínimas foram: 8,6 na região Norte, 6,7 na região Sudeste e 11,9 na região Centro-Oeste.\n\nConsiderando-se as notas segundo Grande Região, observa-se que só existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Norte (38,2), e as duas maiores médias, obtidas nas regiões Sudeste e Sul17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (40; 50], seguido de muito perto pelo intervalo (30; 40].",
+  "text_sha256": "75a253d574d0ab01c26d7b15505da79c825d31e6fc1319cddb6b694382ccd819",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01548a6f835ac7f4006af8f15a362887d1b389702dd8740235",
+    "usage": {
+      "input_tokens": 1384,
+      "input_tokens_details": {
+        "cache_write_tokens": 1381,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1381
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 258,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 1642
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_95.txt",
+      "source_sha256": "f99334802697ad7cdd87b990c8dc4322045fd80af7259da0fddb3f41115cc4c6"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_97.txt",
+      "source_sha256": "ecb3b9d463a8e8f09ac6834955b9313c1a89119be15cae8cc07d8afd3ce0b124"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:10Z",
+  "duration_seconds": 3.294,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_publi/enade_2012_publi_page_96.txt",
+    "source_sha256": "59a6631c3bcd4b82d69136ba02928a4e079ecba4c9a43aeb5d5ee9f4622d8376"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "885438caf9851a772b6c5b4ac422629bd6e555812edeeac98cf9dd3603637bf3",
+  "request_fingerprint": "77ead2912146a636a13d728e419b5a6142832ba4c41f4db1cd01470cec11a583",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, aparentemente pertencente a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 62,9% e 30,4%. As diferenças entre os quatro quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "d1b136186c25ffac0fe49d0e2abc04044e7cf051c1fa2a032a444b73bc718c9e",
+  "window_size": 3
+}

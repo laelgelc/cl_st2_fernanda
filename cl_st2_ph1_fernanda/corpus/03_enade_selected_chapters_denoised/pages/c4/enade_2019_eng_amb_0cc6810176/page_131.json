@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d581515aa0548dd006af9105c7b0c87d19d139ea388d76d0c",
+    "usage": {
+      "input_tokens": 1465,
+      "input_tokens_details": {
+        "cache_write_tokens": 1462,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1462
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 549,
+      "output_tokens_details": {
+        "reasoning_tokens": 392
+      },
+      "total_tokens": 2014
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 130,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_130.txt",
+      "source_sha256": "255a672cb770d8e9dda1a48e66601e5ebb93219c8e5faa55608d210e336aeff2"
+    },
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_132.txt",
+      "source_sha256": "e6cad5d4dfbc2f2294c58eab3de87eb85f6fdac7f3c09d9bc67a05952b44addc"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:28Z",
+  "duration_seconds": 6.178,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 131
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_131.txt",
+    "source_sha256": "ccefae6d32f8fb3682966f2341a92f56892fcd81711e34ac13908cc0b65b1929"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bebaa027c6095e93f68946f2975d405db86bd79aac494fe41ec92f8ab31cfc85",
+  "request_fingerprint": "e12e39ff2b48240daf480c85a1ba636b716da0a1c84f8cc0183df7e9d551bea5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.35, incluindo título e fonte.",
+    "Removido “CEFET/IF”, aparentemente rótulo de gráfico; verificar a associação, pois aparece isolado no fim da página."
+  ],
+  "status": "success",
+  "text": "Em relação às Categorias Administrativas, observa-se que, nas IES Públicas, 80,5% declararam ter gasto Entre duas e quatro horas para concluir a prova, sendo 81,1% nas IES Privadas com a mesma resposta. A diferença entre os alunos que optaram por esse motivo de dificuldade nas duas categorias não é estatisticamente significativa (ver Gráfico 4.36 e Tabela II.18, no Anexo II).",
+  "text_sha256": "b1a0600bdc027eb804a2c9772608b767c663d1629e5ab5983494ee1541769226",
+  "window_size": 3
+}

@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efeb82b06d46ecb006af8f29a310887d1b1c0ef80f9ace390",
+    "usage": {
+      "input_tokens": 1149,
+      "input_tokens_details": {
+        "cache_write_tokens": 1146,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1146
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 178,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1327
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_95.txt",
+      "source_sha256": "cfdef54639b3b5d46f2eb5fe9919f69e98eccdd0bdf6903dc73dfc514f7daa8c"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:30Z",
+  "duration_seconds": 2.711,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_96.txt",
+    "source_sha256": "bfb1d7e4ab1309025e36b98c309f8ff7308a443b36177de6515f79590dfc32ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e8405aa82ec9960ea572e7bbdce795bc643a466ab156579c7fa77a0ab0504439",
+  "request_fingerprint": "37a81496491a8baa2323d6ae44f003a11b04947f1b727fe13d6dd6e132b6a9eb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source attribution “Fonte: MEC/INEP/DAES - ENADE/2012”, which appears to belong to graphical material on the target page; the graph itself is not visible in the extracted text."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

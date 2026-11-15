@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e5c9cffcd74f82c006af912b3757087d1944a8d4b5d0319ce",
+    "usage": {
+      "input_tokens": 2656,
+      "input_tokens_details": {
+        "cache_write_tokens": 2653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 479,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 3135
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_148.txt",
+      "source_sha256": "d0e717b7af822e7a6f93ded1cb735224cc52dc900b679870cc22618066b0b25c"
+    },
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_150.txt",
+      "source_sha256": "c74aeae0897402bfa549abf02270f2f3efbb936bc253fa858e57479bd4968d59"
+    }
+  ],
+  "created_at": "2026-11-15T02:02:27Z",
+  "duration_seconds": 5.907,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 149
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_149.txt",
+    "source_sha256": "1293f0351e140e4e1aed8c60502add86aaae6f5cf7b4e52537bff8007635a376"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "01899da493bdf2e92eb19eb89c6678ab5685630a5dfed4f1596683376f67898d",
+  "request_fingerprint": "fa4ca22a296a0fd368791f0122a0e8eff539d289f216ea546f57f7cf2fc3c92c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2019”, identificada pelo contexto como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0207a3cf57c8b8e8006af8f02c83a087d1908b12d5fda569ed",
+    "usage": {
+      "input_tokens": 1750,
+      "input_tokens_details": {
+        "cache_write_tokens": 1747,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1747
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 678,
+      "output_tokens_details": {
+        "reasoning_tokens": 495
+      },
+      "total_tokens": 2428
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_83.txt",
+      "source_sha256": "287ddc1fe89dd93377f5bf88da8467bb3618e24393aa0171001e7004fbb4e238"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_85.txt",
+      "source_sha256": "834174bb4a559f4a17c27e4ebb66937b89cb946911b29fb47accfa5d65849de1"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:08Z",
+  "duration_seconds": 7.061,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_84.txt",
+    "source_sha256": "1ec2156834c1afbd7e9011e7705c76f31a95d9487e04f7b7d1762bd080b1ba32"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6c739b9f5569736255c050458a499bcc84638d7152f270186b0712ca8b26d387",
+  "request_fingerprint": "b5b2f5e3ef3e6c0916a972afa25833087a418914b7862173c428b2166477efb2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número isolado da página e a linha «Fonte: MEC/INEP/DAES - ENADE/2012», provavelmente associada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observam-se diferenças estatisticamente significativas entre alguns quartos, como a existente entre o quarto inferior e os demais. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 40,7% (1º quarto) a 45,7% (3º quarto). Já a alternativa modal para a Questão 2 foi o grau médio, com 51,5% do quarto inferior e 50,3% do superior optando por esta resposta.",
+  "text_sha256": "520f1a553d4e4db81aa76aaec36afe4c1e85c9f1d313f3ec59b330571b969b01",
+  "window_size": 3
+}

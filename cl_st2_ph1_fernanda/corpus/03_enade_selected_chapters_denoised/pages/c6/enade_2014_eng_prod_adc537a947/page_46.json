@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b29c3bd71762145006af8f854ded487d1a6f738427f02ad33",
+    "usage": {
+      "input_tokens": 2740,
+      "input_tokens_details": {
+        "cache_write_tokens": 2737,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2737
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 824,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 3564
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_45.txt",
+      "source_sha256": "0f50a4de4e65c4ebb41a337337aaf9d8ac023253346b76096711543bf713d939"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_47.txt",
+      "source_sha256": "f5b2f323b0331f51d7168d3490a593caddf3dfd8ecc82d0e3b6e4ca5b88b7b7f"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:56Z",
+  "duration_seconds": 8.19,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_prod/enade_2014_eng_prod_page_46.txt",
+    "source_sha256": "5b6eae5fc2dd06765fb96a6d98f42c87aacbb8cd26dd97bb15c4cb672e581c36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0eb2fc77de83ffbf6e3babffd4589a508115e67cdf4f7afe1fc0c44f6dca99dd",
+  "request_fingerprint": "b0add8f33ea261e87b1335c49b15f2900fdd4021ca3c7c9647d2c4a55e37fe30",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo seus dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.2; a fonte associada aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 3.3 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os estudantes de todo Brasil obtiveram desempenho médio de 60,5. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil, como um todo, foi 16,8. A maior média foi obtida na região Sul (61,2), e a menor, na região Norte (57,8). As demais médias foram: 60,1 na região Nordeste; 60,6 na região Sudeste; e 59,6 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Nordeste (17,1), e o menor, nas regiões Norte e Sul (16,3 em ambas). O desvio padrão foi 16,8 na região Centro-Oeste.\n\nA maior nota no Componente de Formação Geral da prova do ENADE/2014 foi 98,8, obtida por, pelo menos, um estudante nas regiões Sudeste e Sul. A menor nota máxima foi obtida na região Centro-Oeste (96,2). A mediana do Brasil, como um todo, foi 62,1, sendo a menor mediana encontrada na região Norte (59,7); e a maior encontrada na região Sul (63,1). A nota mínima nesta parte foi zero na maioria das regiões, com a exceção das regiões Norte (15,0) e Centro-Oeste (13,3).\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre a maior média das notas do Componente de Formação Geral, obtida na região Sul (61,2), e na região Norte (57,8), a menor média.\n\nO Gráfico 3.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (60; 70], enquanto na prova, como um todo (Gráfico 3.1), a moda foi alcançada dois intervalos abaixo (40; 50]. Nota-se, ainda, que no Gráfico 3.2, as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), o que se confirma pela comparação dos desvios padrões: 13,6 para a nota da prova como um todo e 16,8 para o Componente de Formação Geral.",
+  "text_sha256": "380626a860921402a735527d204fe0e327864882d9f17229ac03596186451b25",
+  "window_size": 3
+}

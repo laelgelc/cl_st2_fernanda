@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0acaa2f92727523c006af903f3161887d18c51953327646baa",
+    "usage": {
+      "input_tokens": 1829,
+      "input_tokens_details": {
+        "cache_write_tokens": 1826,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1826
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 350,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2179
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_91.txt",
+      "source_sha256": "ab967d53f6ee170bf1450dfc8b7b02d151e03933761bc1b325931cbfc860e51b"
+    },
+    {
+      "page_number": 93,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_93.txt",
+      "source_sha256": "37f2b95804e4057a8ba29a7ae94589822d9589ce540ab3fda592ebeb2e38ec5b"
+    }
+  ],
+  "created_at": "2026-11-15T00:59:31Z",
+  "duration_seconds": 4.419,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 92
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_tec_gest_hosp/enade_2016_tec_gest_hosp_page_92.txt",
+    "source_sha256": "88a4e35dbf3cb5cab81c497a76e03a348c55bdfac553d401002b4f4b920b36e0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d7118d43b5023c2e7b182ee19c3e2c68f2491b122aee2c2eaaf2ff6056f967fb",
+  "request_fingerprint": "6beb8b6b87430478260f6f24ac8e5fe1c20e42bf2ded8680e228eac95ba7eaf9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.3, incluindo título, rótulos/dados e fonte."
+  ],
+  "status": "success",
+  "text": "classificaram o grau de dificuldade como Médio, no Componente de Conhecimento Específico, variou de 20,0% a 66,8%, para as regiões Centro-Oeste e Norte, respectivamente.\n\nConsiderando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, observa-se que não há diferença estatisticamente significativa dos resultados entre os quartos de desempenho. A proporção dos que classificaram a parte específica como Difícil ou Muito difícil variou de 29,9% (último quarto) a 26,1% (primeiro quarto). A alternativa modal para a Questão 2 foi o grau Médio, com 62,7% do quarto inferior e 61,1% do superior optando por esta resposta.",
+  "text_sha256": "017e79f5f377c2bd8b538684d65651f9614e18c824d581639406cd1d9ab17d00",
+  "window_size": 3
+}

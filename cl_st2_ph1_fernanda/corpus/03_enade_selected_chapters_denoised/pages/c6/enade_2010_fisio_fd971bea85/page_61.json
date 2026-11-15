@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_014bca7baa7a8c1b006af8e8f8660087d1b7b08b9370e45700",
+    "usage": {
+      "input_tokens": 2697,
+      "input_tokens_details": {
+        "cache_write_tokens": 2694,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2694
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 712,
+      "output_tokens_details": {
+        "reasoning_tokens": 410
+      },
+      "total_tokens": 3409
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fisio/enade_2010_fisio_page_60.txt",
+      "source_sha256": "c85fc0c779c50092c68b4fe3b1a4110611b4833ae8dfb378073bd081999fe52a"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fisio/enade_2010_fisio_page_62.txt",
+      "source_sha256": "5e63437c1a0281634809ce8ff8c503428382105998b375d543299168c6f8dd29"
+    }
+  ],
+  "created_at": "2026-11-14T23:04:24Z",
+  "duration_seconds": 6.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_FISIOTERAPIA.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_fisio/enade_2010_fisio_page_61.txt",
+    "source_sha256": "581a77975e6ee020db07f3d4df777223084b2c8f361d0963d51eae45139f06fd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9a188492a1c3ca63d01aaa3846ee353b2f29b6ac5c2f388f5463a31ff232822d",
+  "request_fingerprint": "853a495b0123084f1d8aa1bbdc7e5cafc44f25a37e01e6a47073dddb4bf20c73",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.16, incluindo seus dados e fonte, e o Gráfico 3.13, incluindo eixos, legenda, título e fonte.",
+    "O texto fornecido termina no meio da frase (“Entre os que não deixaram a prova em”); preservado sem completar. Verificar possível perda de texto na página."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 38 do Componente de Conhecimento Específico\n\nNa questão 38, cujos resultados aferidos encontram-se descritas na Tabela 3.16, o grupo dos Ingressantes obteve nota média 2,4, enquanto a média dos Concluintes foi 9,3. Deixaram a questão em branco 65,6% dos Ingressantes e 35,2% dos Concluintes. Entre os que não deixaram a prova em branco, estes últimos obtiveram mais notas zero nesta questão do que Ingressantes, 32,2% e 24,0%, respectivamente. As proporções de Ingressantes e Concluintes nas faixas são, grosso modo, decrescentes com a nota. Em ambos os grupos, a nota máxima, 100,0 pontos, foi alcançada.\n\nEntre os que não deixaram a prova em",
+  "text_sha256": "128005899909f0d1dbedc65a93912b05794ac4f608567c48246008a9e2093857",
+  "window_size": 3
+}

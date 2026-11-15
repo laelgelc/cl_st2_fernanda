@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a411481ccf51278006af92160ba4c87d1ae467315e228b59a",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 2713,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2713
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 407,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 3123
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_134.txt",
+      "source_sha256": "d1644d47ba38300e8f8121d8a66735befcc7b2d29062d20d999e4870d441b062"
+    },
+    {
+      "page_number": 136,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_136.txt",
+      "source_sha256": "03fb535a4dfbff853ec5053b6210bd8925a90e7b296d5cf7ee8692de1f4d7557"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:04Z",
+  "duration_seconds": 4.355,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 135
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_arqui_urb/enade_2023_arqui_urb_page_135.txt",
+    "source_sha256": "54ed4d4705640a1e50fe697ba5ff07358adac1434879adb9e9a4ade7a1683bd1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6a61ca78a438e92296980787342c388fd546bf191450e17534e1c211fd764af0",
+  "request_fingerprint": "bf6dd3f34958fc817f1cf9bae519a7fefc3c8d69a6756eeff12c5ec9736e5378",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.4, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.4, são apresentadas as informações referentes ao desempenho dos concluintes no componente de Formação Geral, em diferentes agregações: categoria administrativa, organização acadêmica e modalidade de oferta.\n\nA partir dos dados da Tabela 5.4, observa-se que há diferença estatisticamente significativa entre as médias dos tipos de categoria administrativa. A maior média foi obtida por estudantes de IES públicas (64,2), e a menor, pelos de IES privadas (53,0).\n\nEm relação às médias por tipos de organização acadêmica, encontram-se: 57,9 para as universidades; 52,6 para os centros universitários, 51,3 para as faculdades e 58,1 para os CEFET/IF.\n\nA nota máxima obtida pelas IES privadas (99,1) foi menor em comparação às IES públicas. O desvio-padrão menor foi percebido nas IES públicas; e, entre as organizações acadêmicas, esse valor foi menor para os CEFET/IF.\n\nJá no que se refere à modalidade de oferta, os cursos presenciais apresentaram média de 55,7, enquanto a média dos cursos a distância foi de 49,6. A diferença é, portanto, estatisticamente significativa.",
+  "text_sha256": "9efd37fc03ff48aca4bc956cfe8d6da6a807593c536fd4175bfeee45c8de7834",
+  "window_size": 3
+}

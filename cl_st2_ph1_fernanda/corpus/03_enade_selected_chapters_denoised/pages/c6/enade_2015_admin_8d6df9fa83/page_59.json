@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e06e9a247202cda006af8fd2a3fcc87d1acc6929425b0809a",
+    "usage": {
+      "input_tokens": 2475,
+      "input_tokens_details": {
+        "cache_write_tokens": 2472,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2472
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 390,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 2865
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_58.txt",
+      "source_sha256": "07b8e8a6b22306048fd223bd26227d6ddf9800ffa86994ffcbe6d96392c94b2f"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_60.txt",
+      "source_sha256": "53ed17dad9ea2b97dc64fc182427b87fef6b85a5f0f09de5a08ea4405cb42b36"
+    }
+  ],
+  "created_at": "2026-11-15T00:30:34Z",
+  "duration_seconds": 4.654,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin/enade_2015_admin_page_59.txt",
+    "source_sha256": "a0f253abbe5922f0cb28722a8ba0ffdea37445ef0ba67f653327454ddf2693a3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5d34979f4438fe6baa73bd5f6651f4a0b98f1db29202f0ef69bea2adc84a6b23",
+  "request_fingerprint": "4a4e3e6ef2cbcefa8ace9c3f52876b83157ac7efebf4f21f0b847c39837cbe01",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o identificador de página isolado e a linha “Fonte: MEC/Inep/Daes - Enade/2015”, que, pelo contexto, pertence ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "3.3.1.2 Comentários sobre a correção de Conteúdo das respostas à Questão Discursiva 1\nO enunciado da Discursiva 1 de Formação Geral estava claro e indicava um tema de extrema relevância, qual seja: a busca pela educação universal, especificamente, que apontava um caso onde ocorreu a discriminação de acesso ao ensino formal atingindo uma menina, representando a categoria das mulheres discriminadas em tantos campos da vida e, mais ainda, em sociedades que cultuam o poder soberano dos homens.\nA linguagem utilizada foi clara, indicando a existência dos fatos vinculados à luta da menina Malala pelo acesso ao ensino formal das jovens do seu país, e o confronto ideológico que gerou o ataque à sua integridade física. Diante da repercussão internacional, houve o reconhecimento pelo prêmio Nobel, e a ONU resolveu apoiá-la como símbolo da luta pela igualdade entre os sexos buscando a universalização da educação.",
+  "text_sha256": "fc88ec0acc0296c01bce6ca8a55d391f0ce9a997e74217498ab519f636d2aae7",
+  "window_size": 3
+}

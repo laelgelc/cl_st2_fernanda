@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c901011ed0c5ac0006af8f2a3aa2087d1a69d7fe869f204ad",
+    "usage": {
+      "input_tokens": 1444,
+      "input_tokens_details": {
+        "cache_write_tokens": 1441,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1441
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 300,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1744
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_40.txt",
+      "source_sha256": "f890cc8f5468fd5c0090d38901eae5695fa513e2f2c861164175fbced094a736"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_42.txt",
+      "source_sha256": "67ab794e83309956ac122733ed0eac859887ac861eab94a6218c3272ca66e8fe"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:39Z",
+  "duration_seconds": 3.463,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_41.txt",
+    "source_sha256": "e10d4971a269bf29405f42f63b68bf6b0b6420ee1b065800fa95be66c5b48e02"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "66613296719a55a0b9f155f003d5851f7f6efe817a7c39a5e5e31e430958854c",
+  "request_fingerprint": "b054c558c1fd3aa617d3e038a3e8511d4116983166902009ca1108a988ce7eb8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Tecnologia em Processos Gerenciais, das IES Públicas (46,2) obtiveram uma média maior do que os das IES Privadas (41,8).",
+  "text_sha256": "efa47fe3c05f568d8e898c30bd4d040306a39c72d17a2f2b43581fb332b75344",
+  "window_size": 3
+}

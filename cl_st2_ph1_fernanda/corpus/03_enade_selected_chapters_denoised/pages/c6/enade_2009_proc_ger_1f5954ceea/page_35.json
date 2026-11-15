@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0952d1bd0a61a477006af8e648875887d1b1309e0dd01b3d3a",
+    "usage": {
+      "input_tokens": 2438,
+      "input_tokens_details": {
+        "cache_write_tokens": 2435,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2435
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 2950
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_34.txt",
+      "source_sha256": "b0cc1b9283d6b35a6010c67cf6edb08706399e1ca98dcc5193868fa3ef2ca740"
+    },
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_36.txt",
+      "source_sha256": "0c22070b56de5ae77af5a50d5d1ac339c19fc021fe921db89a4faae665a67b7c"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:56Z",
+  "duration_seconds": 4.293,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PROCESSOS GERENCIAIS.pdf",
+    "page_number": 35
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_35.txt",
+    "source_sha256": "faea6a6692e38a60cf8a80f112b714f09b933e25225b4508e30e19de5d727ae2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9c28f0540c61f597db64a024047ac0b9405377d1fd520972ab98398e4da6f43",
+  "request_fingerprint": "1ea04817504479bbf7f97ac22aa419a69c6eafc8445d00555d9b15e9b94955eb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, escala, intervalos de notas, legendas e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4, são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 33,58 na Região Norte a 44,08 na Região Sudeste. Entre os ingressantes, os valores foram de 32,67 na Região Centro-Oeste a 41,87 na Região Sudeste. A maior dispersão de notas dos estudantes de uma dada Região foi encontrada no Norte tanto para os concluintes quanto para os ingressantes. Nas Regiões Nordeste, Sudeste, Sul e Centro-Oeste os concluintes apresentaram médias maiores do que os ingressantes, a situação inversa aconteceu no Norte. Todas as Regiões apresentaram concluintes.\n\nTendo como foco as categorias administrativas, destacou-se que todas as categorias estavam representadas. Sendo que as notas médias mais elevadas tanto para ingressantes (53,05) quanto para concluintes (53,40) foram nas instituições estaduais. As notas médias mais baixas para ingressantes (36,52) ocorrem nas instituições federais e para concluintes (40,02) nas instituições municipais.\n\nConsiderando-se o tipo de Organização Acadêmica, os Institutos Federais de Educação, Ciência e Tecnologia apresentaram os maiores valores para concluintes (46,43). E os Centros Universitários apresentaram os maiores valores para ingressantes (42,75).",
+  "text_sha256": "2000cc9cdfd76849eaf76bcb28f7daf7bf4690ceaf3cbe0ba91243a59bd970d5",
+  "window_size": 3
+}

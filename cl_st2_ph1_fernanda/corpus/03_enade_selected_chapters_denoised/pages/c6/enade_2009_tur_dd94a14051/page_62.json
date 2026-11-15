@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ff7d75a0e43459b006af8e82a671487d1b0d911c3646887cb",
+    "usage": {
+      "input_tokens": 2733,
+      "input_tokens_details": {
+        "cache_write_tokens": 2730,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2730
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 3018
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_61.txt",
+      "source_sha256": "70233e3e2a9edb0023e4e044b33d78c4fcafda7462dd43c3f0c6541e8dbbaec6"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_63.txt",
+      "source_sha256": "608310fdd61699fbf45e0bef53fad02569f2aede6e4766edebf27d0da805a204"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:58Z",
+  "duration_seconds": 3.625,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TURISMO.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_tur/enade_2009_tur_page_62.txt",
+    "source_sha256": "a84e42ba248d6c996413543d7a1df4699502cd60c6d112305f228f29b78b7706"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9ceefd08b20d35a0066bd440cfabb39e5ec9670893b0c03e7513f13e3a6960fd",
+  "request_fingerprint": "2908dbd0eaeca2aaa3aea316fe02542dac5feebac8357999f1897f6aa2f37177",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.10, incluindo título, intervalos, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. Dentre os concluintes 32,7% obtiveram notas acima de 50 pontos, percentual menor entre os ingressantes, 24,2%.",
+  "text_sha256": "9bf1b6b6c149a8fdf0980ca40321cefe38b042b704b26c60d368342ab3b3781f",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d45708a778a3573006af8f5576f9887d1912abaadee142d0b",
+    "usage": {
+      "input_tokens": 2427,
+      "input_tokens_details": {
+        "cache_write_tokens": 2424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 337,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2764
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_76.txt",
+      "source_sha256": "d45a8fd39e0ed7bb7f63faee730f9b11801dc7c03fd7fb7e4726329d9522301c"
+    },
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_78.txt",
+      "source_sha256": "f2812ffef93d00435438034b5a35ee771ffcb4bb564e0a18d060968055f12217"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:11Z",
+  "duration_seconds": 3.769,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 77
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_77.txt",
+    "source_sha256": "6c035e86da74f82d96199ef19b83328436b73806dc7dee3161d06a966a64b779"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "832c99c06d438ef1495790f7a4922c5398c0e47e98a6d13488ea17a442efc732",
+  "request_fingerprint": "f4b853917406e2a1f5cc19d914f377fa87aa738a83f84434dd6d2df61df504f4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.20 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.20 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição apresenta uma moda principal nas questões em branco. O coeficiente de assimetria é positivo para todo o Brasil (0,76) e para todas as regiões (entre 0,54 na região Sudeste e 0,98 na região Sul), indicando uma assimetria à direita.",
+  "text_sha256": "58e8f4ed0e09f500a3e4b005fc653e1bf9c57263a1e62a17cdb708ba5a3418dc",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02384b2172056101006af90c38f06087d1966955f1369dc257",
+    "usage": {
+      "input_tokens": 3213,
+      "input_tokens_details": {
+        "cache_write_tokens": 3210,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3210
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 504,
+      "output_tokens_details": {
+        "reasoning_tokens": 196
+      },
+      "total_tokens": 3717
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_127.txt",
+      "source_sha256": "396d1d93c25955598d53f4423475507bf95d979ec4d6135a9b583fb10fa8efd1"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_129.txt",
+      "source_sha256": "bc83c009ee9615f0bd7c31f26f2d83e325332dd417f83305665d5edba9fa3a4a"
+    }
+  ],
+  "created_at": "2026-11-15T01:34:48Z",
+  "duration_seconds": 5.66,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_cont/enade_2018_ci_cont_page_128.txt",
+    "source_sha256": "54d84d46748bf3cc0701d7543e7832785e547b23cf368bb98c534c75cf9cff9c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "15ad802f18417775acc99eba107ad1e8fedc45599ba5767eef327735ce18c47c",
+  "request_fingerprint": "85df1c90af3fc04927412352c0f728c556bde928f9aaef14a5099eb9f352358d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte.",
+    "A página termina com “Por isso,”, no meio da frase; mantida sem completar."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Entre as questões que alcançaram os maiores índices de discriminação, com Índice de Discriminação Bom e Muito bom, a questão de número 32 teve índice 0,42, e, quanto ao índice de Facilidade, foi classificada como Médio, com 44% dos estudantes marcando a opção correta. A questão de número 10 foi a mais difícil entre as 25 questões específicas válidas, com baixo Índice de Facilidade de apenas 9% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,05, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 28, com Índice de Facilidade 0,14, o que, em termos percentuais, corresponde a 14% de estudantes que responderam acertadamente, com 0,01 de Índice de Discriminação, considerado Fraco. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso,",
+  "text_sha256": "f2dfef98680eed1289d9c6a81cb3153a63e732099582b110cebceeefa98a1fdc",
+  "window_size": 3
+}

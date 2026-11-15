@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efcd0ba8eb61dad006af8f98eae4887d192684d11c48e397c",
+    "usage": {
+      "input_tokens": 1737,
+      "input_tokens_details": {
+        "cache_write_tokens": 1734,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1734
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 462,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 2199
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_111.txt",
+      "source_sha256": "af7da32827b31f9cf49abe52ad702c69e5292ec10caac41eff1feeab91b2681c"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_113.txt",
+      "source_sha256": "b2c2f9461735186a14663f5773ff1c3d36fec72b0f406a03eb556733223db2fc"
+    }
+  ],
+  "created_at": "2026-11-15T00:15:10Z",
+  "duration_seconds": 5.322,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FÍSICA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_fis/enade_2014_fis_page_112.txt",
+    "source_sha256": "e5251678f183dc286e98720897e85cc8f5b3aba28004729397ad6ca470858ae7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "faa78e921ab2281c07034c6139d95d143c383cf14c52247f1398e089c29e66d6",
+  "request_fingerprint": "797af5ae4392ebd2c732dbbe763b96d94442fc9ab8f9dd8307c4be4f6cf1da68",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, possivelmente associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 50,7% consideraram a extensão da prova adequada no quarto de desempenho inferior e 47,8% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 48,5% no segundo quarto e 50,4% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há, grosso modo, uma tendência crescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho, com 39,9% e 45,7% dos estudantes do primeiro e último quarto, respectivamente, optando por essa alternativa. Observa-se que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "0e1ac691dbcf2225a7a497df174525b0eaa20d758eeb0e370fce358d399adc73",
+  "window_size": 3
+}

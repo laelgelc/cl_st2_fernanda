@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08b113a7e877441f006af8f1c3984887d1a51e51779d599149",
+    "usage": {
+      "input_tokens": 2659,
+      "input_tokens_details": {
+        "cache_write_tokens": 2656,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2656
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 659,
+      "output_tokens_details": {
+        "reasoning_tokens": 213
+      },
+      "total_tokens": 3318
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_66.txt",
+      "source_sha256": "b160bc871c193b75ee1e4a8a190f2d6afe67d9b8b8b3d4a3361a89be99ee1dfa"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_68.txt",
+      "source_sha256": "512db9c20f5974d89bbc9a7ac6814b2167f27ef0463660bb6828b554ecafe745"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:55Z",
+  "duration_seconds": 5.704,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_secr_exec/enade_2012_secr_exec_page_67.txt",
+    "source_sha256": "90f416ac4f0eecd660f9e5e27e98280a523621ab9876ec8f509fb937d612fd49"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3dc1c4237ad6df41ed31256f9fd12b8e7269df194a5d4867c57ca68374138cb0",
+  "request_fingerprint": "0e8101a1511cb42944dc3004c92a1047660beb8ac99d5abaddfdc95970a0fadf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e linha de fonte. A descrição em prosa do Gráfico 3.18 foi preservada."
+  ],
+  "status": "success",
+  "text": "Geral a média para estudantes de Secretariado Executivo de todo o Brasil foi 39,2, na parte de Conhecimento Específico a média foi 29,8. A maior média deste componente foi obtida pelos estudantes da região Sudeste (36,4), e a menor, pelos da região Norte (19,5). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 22,5. O maior desvio padrão foi encontrado na região Sul (22,7), e o menor, na região Norte (18,1).\nA maior nota máxima, nas questões discursivas do componente de Conhecimento Específico, foi obtida na região Sul (91,7) enquanto a menor nota máxima foi encontrada na região Norte (66,7). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 30,0, sendo a maior mediana obtida na região Sudeste (40,0) e a menor obtida na região Norte (15,0). As demais medianas foram: 33,3 na região Sul, 23,3 na região Nordeste e 18,3 na região Centro-Oeste.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0;10]. Nota-se que a partir desse intervalo há outra concentração de notas no intervalo (40;50]. O coeficiente de assimetria é positivo (0,16), indicando um assimetria à direita. Este coeficiente também é positivo em quase todas as regiões (entre 0,03 na região Sul e 0,63 na região Centro-Oeste), exceto na região Sudeste (-0,17) onde há uma assimetria à esquerda.",
+  "text_sha256": "74e6623a732e8b04efc8d8768b0d7e5415b24f21cbc82c1f86c2576c1318804e",
+  "window_size": 3
+}

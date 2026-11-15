@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cbb7ee76daf26b006af8eddf77e487d198f4a29f96d429e5",
+    "usage": {
+      "input_tokens": 1515,
+      "input_tokens_details": {
+        "cache_write_tokens": 1512,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1512
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 270,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1785
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_37.txt",
+      "source_sha256": "b655baf7657aca0140e8a53457e919cdecb4e265f5d4a2b009bc0b36b9303cfc"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_39.txt",
+      "source_sha256": "6fd940f7b11942f8859f8ad6ba0cd699efb68411e43bcb131547a234fa658202"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:19Z",
+  "duration_seconds": 4.783,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_38.txt",
+    "source_sha256": "9f7b0a3b828b4335fa482b9e10ee9d725f1970859dcf7a5a920ec50ad3257065"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a3117cca85a8c80211f042ff33ba7208e120ca741a711a7b13e822d81b4f89b4",
+  "request_fingerprint": "03495900eb1899f997b79ff8357feb911846d6ff3b5f0224bcb6c48f22f62cc2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Centros Universitários (44,6) em relação aos concluintes de Universidades (42,5) e Faculdades (41,9).",
+  "text_sha256": "836c926ef30cf95fc88af0bd88cd673080875c9d19504cf1b55f04ea6b3d5724",
+  "window_size": 3
+}

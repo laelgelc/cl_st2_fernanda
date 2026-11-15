@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a210f5646d836de006af9192ce3e087d18c902a46f6816132",
+    "usage": {
+      "input_tokens": 2724,
+      "input_tokens_details": {
+        "cache_write_tokens": 2721,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2721
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 3374
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 310,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_310.txt",
+      "source_sha256": "292b47e498335bae62a33ce4f9d2189a3e4d63f908d18aec54ba28f0882f1102"
+    },
+    {
+      "page_number": 312,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_312.txt",
+      "source_sha256": "acebb5f31ebab5c73a77e813bdae1e50425699a3d3f0b99d69e9cc03e486fae9"
+    }
+  ],
+  "created_at": "2026-11-15T02:30:04Z",
+  "duration_seconds": 6.616,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_GEOGRAFIA.pdf",
+    "page_number": 311
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_geo/enade_2021_geo_page_311.txt",
+    "source_sha256": "403c143d76e4fb58fec522622ece7c5191531f03dc1bfd67c389fb34d1e3229b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "625fc5929f94594a6a5388072abc690ed80825d55c8f4c943fff91c95f1068c3",
+  "request_fingerprint": "9bbe9ca54b6f8095300cbdc20ee36a4bed4a9278bfeea0df3ed41d0c1b9a97d5",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco, não são detectadas neste pré-processamento automático. A presença de pequenos riscos, ou manchas, podem fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco”, pelos professores quando da correção.\n\nNo caso da Área de Geografia (Licenciatura), foram identificados como brancos “automáticos”, 4.610 respostas de Questões Discursivas de Conhecimento Específico e 2.297 de Formação Geral. Pelos professores corretores foram identificadas mais 52 e 18 questões em branco, respectivamente, para Conhecimento Específico e para Formação Geral.\n\nNo caso da Área de Geografia (Bacharelado), foram identificados como brancos “automáticos”, 857 respostas de Questões Discursivas de Conhecimento Específico e 475 de Formação Geral. Pelos professores corretores foram identificadas mais nove e quatro questões em branco, respectivamente, para Conhecimento Específico e para Formação Geral.\n\nUma outra situação a ser mencionada é a ocorrências de atendimento a portadores de necessidades especiais. O Anexo XI apresenta, para o exame como um todo e para a Área de Geografia (Licenciatura/Bacharelado), por tipo de deficiência, o protocolo usado para permitir a correção das respostas dos alunos em cada situação.",
+  "text_sha256": "cb7ae34408110054bc2d8e98ac7aeacb1549067437924016abcb075f1b847bd6",
+  "window_size": 3
+}

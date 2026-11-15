@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0723285e9d9b998c006af8f040877087d18724d09e9484bb44",
+    "usage": {
+      "input_tokens": 1444,
+      "input_tokens_details": {
+        "cache_write_tokens": 1441,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1441
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1668
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_40.txt",
+      "source_sha256": "c6c90f517d1849aa7584a8bedbbcfeb050cb7b5838099fe46bb5128d76387b43"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_42.txt",
+      "source_sha256": "dfa36a9822476470330eb6d1e68ead861738c73cb48f5f98c6b34f75ffb854a0"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:28Z",
+  "duration_seconds": 2.565,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_41.txt",
+    "source_sha256": "85939b1005301848dfe0c7acd5a9bb25e067617cf762be8b6ed85e57bc8e7a2b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "abc491d7ecea23c4de737f847837b17167843206534af855a0b7b7828a219ae4",
+  "request_fingerprint": "156a4bf8dd78d80498fafb26e2f6e035309a02351dfef5d3cc50353fa2c62bf0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do material gráfico: “Fonte: MEC/INEP/DAES - ENADE/2012”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Administração, das IES Públicas (47,0) obtiveram uma média maior do que os das IES Privadas (42,4).",
+  "text_sha256": "6d8a607012bb0d29eadc4a7849649867aeb274b71444f3d3f1e913f0c306c021",
+  "window_size": 3
+}

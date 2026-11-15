@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04ab5752a1e76977006af8f3cf65b487d1aa82e7147a37339f",
+    "usage": {
+      "input_tokens": 1586,
+      "input_tokens_details": {
+        "cache_write_tokens": 1583,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1583
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 283
+      },
+      "total_tokens": 2029
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_40.txt",
+      "source_sha256": "9735cd65c29c27babe3855fadcc25ad8d8dcdf7d100dc8f85d950bbe0ea65129"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_42.txt",
+      "source_sha256": "1100c4e34aba6da9c2f1e4adf45c03a1eeb6a0333bcb8972a574206bc4d7fb27"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:39Z",
+  "duration_seconds": 4.39,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_41.txt",
+    "source_sha256": "9bf6fdd26513ef20064d4e28043737414b8f2c42ed7ea5c35d80bfe0d963db44"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db76a714ce438658ab5569ac56f0990826ea60531cc19e985e75b2cdb2d1fe74",
+  "request_fingerprint": "56617c977a468ca1df8eb798c8cafd7e890b98c56d0ef0603d7206065463a7a7",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico e respectiva fonte (“Fonte: MEC/INEP/DAES - ENADE/2013”) foram removidos."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (56,3) é maior que a dos alunos de IES Privadas (47,3). A diferença entre as médias das regiões Sul e Norte (6,5), a maior e a menor média, é inferior a diferença entre IES Públicas e Privadas (9,0).",
+  "text_sha256": "d8dc90c7898b72dbbc2e48fa4578f15b5c5c2dd826dd47190a1e63d775593bbe",
+  "window_size": 3
+}

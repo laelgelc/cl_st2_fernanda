@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4d07bb1c6f9350006af8f82136e887d188b1c55cf0a8a94a",
+    "usage": {
+      "input_tokens": 2828,
+      "input_tokens_details": {
+        "cache_write_tokens": 2825,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2825
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 319,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 3147
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_45.txt",
+      "source_sha256": "c9544ee32f42eb81e10651e311889eb9df84b36427b2c792881a01a445a5ec9f"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_47.txt",
+      "source_sha256": "6c8b03e77d40793863c4b27922a594125ac9bc780d78cfa71b60a77df30cf723"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:05Z",
+  "duration_seconds": 5.173,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_46.txt",
+    "source_sha256": "e9f9eb1503a2d8eb0656b9e6b73f8e75c8f346651eb76f3d462ae06d5a075ba3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d2e074a511ec494cd5e3435a441ee249b16de9f365775cab56a3c143d35449c9",
+  "request_fingerprint": "1ee178f415c3c5b8801a9d58ed083b55cd96f89c8d7ba641a84f288e8e52b5c9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e linha de fonte. Removida também a linha de fonte associada ao Gráfico 3.3; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia de Controle e Automação em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Dentre as três distribuições apresentadas, esta é a mais concentrada em notas baixas. Esta também é uma distribuição unimodal, e o grupo modal é o (20; 30], abaixo tanto do grupo modal da prova como um todo e quanto do grupo modal para a Formação Geral.",
+  "text_sha256": "d90750a450d70a44b9d4e6f84c89049d9a50ce651f7bf4770457428fdb933a87",
+  "window_size": 3
+}

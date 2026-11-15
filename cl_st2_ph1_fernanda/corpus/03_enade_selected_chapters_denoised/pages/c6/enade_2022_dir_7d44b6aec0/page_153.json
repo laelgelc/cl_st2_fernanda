@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d79d437b2cf6632006af91d1ef39487d1a6c4490c1b65e5d0",
+    "usage": {
+      "input_tokens": 2400,
+      "input_tokens_details": {
+        "cache_write_tokens": 2397,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2397
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 722,
+      "output_tokens_details": {
+        "reasoning_tokens": 252
+      },
+      "total_tokens": 3122
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_dir/enade_2022_dir_page_152.txt",
+      "source_sha256": "ecefef096522ee10d1adde098b5d1d7603e5b0615ea45f572c68c45a0d3d68be"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_dir/enade_2022_dir_page_154.txt",
+      "source_sha256": "f803717b68c4dfb62572697befed25f9cd9ec47d61b929cc7f497e47f335831a"
+    }
+  ],
+  "created_at": "2026-11-15T02:46:54Z",
+  "duration_seconds": 7.669,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_DIREITO.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_dir/enade_2022_dir_page_153.txt",
+    "source_sha256": "1320dc6ce0f8cc4873bcee09be9b737291f9adafe825369bec892e503e26c4a5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4a1244a98b9cc9fab75ede0333c715a60bcec917f2347a2a333e0cf0aaf75245",
+  "request_fingerprint": "e8455282ea444dda4cefa881509273c307894a9a8d65125333fdc85430cde108",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 7.13 e sua linha de fonte foram removidas."
+  ],
+  "status": "success",
+  "text": "7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de pixels, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.\n\n7.3.1 COMPONENTE DE FORMAÇÃO GERAL\nAs análises dos resultados de desempenho dos estudantes de Direito, nas duas questões discursivas relativas à Formação geral, encontram-se na Tabela 7.13 e no Gráfico 7.6, cujos dados são analisados de forma sequenciada.\n\nNa seção 7.3.1.7 deste relatório na seção 7.3.1.7 deste relatório. A nota de cada questão é composta de 80% da nota da correção de conteúdo e 20% da nota de desempenho linguístico.",
+  "text_sha256": "4f4f537c2b8a87e3362bdfc268adbd26f6665a4a662c200e43340779cf78a61a",
+  "window_size": 3
+}

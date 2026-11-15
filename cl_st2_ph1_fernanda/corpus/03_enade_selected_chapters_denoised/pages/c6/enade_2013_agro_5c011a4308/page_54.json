@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02f893caccb21999006af8f2f5d4a887d194441e8e6b0d3bf2",
+    "usage": {
+      "input_tokens": 2889,
+      "input_tokens_details": {
+        "cache_write_tokens": 2886,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2886
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 850,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 3739
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_53.txt",
+      "source_sha256": "ef3016911f3b13d7724d46307dd4631af767f32a1947dfa32476fb16594c505b"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_55.txt",
+      "source_sha256": "ce6f9ef097bea8090d29d95ec937f42bdd598d9bf1f9b593520c99ae1a682eac"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:01Z",
+  "duration_seconds": 8.338,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_54.txt",
+    "source_sha256": "505f4d979cd654c39454a7bd4404c813607d7acbcae97a4a4a5787d531980c5f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a2b7617eb7730b62abb1c0339716b7122f0fff53f88f9ea22a14d0a23635704f",
+  "request_fingerprint": "df045942f21569cf4a32cacb523b8ae87881ad87f1033b7f79622e3d646e86c3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, título e fonte da Tabela 3.4 e os dados, título e fonte da Tabela 3.5. A última frase está incompleta no limite da página; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o Índice de facilidade e o Índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n\tAzul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao Índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n\tAs questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de facilidade, foram assim avaliadas: das oito questões, apenas uma teve o Índice de facilidade classificado como muito fácil e duas como fácil. Três questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Duas questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do Índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\n\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o Índice de discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram índices acima de 0,40 e, assim, foram classificadas com índice muito bom para esse grupo",
+  "text_sha256": "4cee51b0960e8e234655c4290f8d5055701fcb2418857d23523581b1de18e560",
+  "window_size": 3
+}

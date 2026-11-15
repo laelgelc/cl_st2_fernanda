@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02ad3a9745fbce08006af90b250fa887d1990cb1fe24370e56",
+    "usage": {
+      "input_tokens": 2704,
+      "input_tokens_details": {
+        "cache_write_tokens": 2701,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2701
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 804,
+      "output_tokens_details": {
+        "reasoning_tokens": 371
+      },
+      "total_tokens": 3508
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_127.txt",
+      "source_sha256": "7179e2349935526f18308adc11d216785745857aeab1d24a0e04c73d82561825"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_129.txt",
+      "source_sha256": "bc4eaa28514f3bd4c3106940f0664fb10a1d97b381dbd2df6915059b5829b7a2"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:12Z",
+  "duration_seconds": 5.741,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM ADS.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_128.txt",
+    "source_sha256": "14d5d49c97ff7fe771dff7aacbf5a016e64b04fca0677a37500627f861cbd4f8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1b3177965d7d177a4bfd3a37ed6b8a8f0ad0d28c46564952dc0701b6adbe6249",
+  "request_fingerprint": "2eadfd69629642d0acb9469e32b5f49e65ef2f63d18ca59ead240d2c9db9e199",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.12, incluindo título, dados e fonte, e o material gráfico do Gráfico 6.5; a prosa que descreve o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 6.5 analisa a questão 12 do Componente de Conhecimento Específico. Esta questão foi considerada pelas respostas dos estudantes avaliados na prova como uma questão com nível de facilidade Fácil, 0,67, ou seja, 67% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,43, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 12, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta D aumenta gradativamente, chegando a atingir 100% para 18 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "5513aec4916bd82cc60ead27601d2842fb99dc9955d52e93e987a4049f6b1083",
+  "window_size": 3
+}

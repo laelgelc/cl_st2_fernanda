@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c6cd852b445edc7006af91a16656887d182d63494213d5c0a",
+    "usage": {
+      "input_tokens": 3302,
+      "input_tokens_details": {
+        "cache_write_tokens": 3299,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3299
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 900,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 4202
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_177.txt",
+      "source_sha256": "c5cf5e6d159019824619fceb92ae4cc61571b0af81468324bb71b0fef8a14e1e"
+    },
+    {
+      "page_number": 179,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_179.txt",
+      "source_sha256": "6c4108dbc241f8ce2d4726b5c8dd02515e6db5901aeea9446dca9aac81b58779"
+    }
+  ],
+  "created_at": "2026-11-15T02:33:58Z",
+  "duration_seconds": 8.714,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 178
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_178.txt",
+    "source_sha256": "c60b81dc61fa170d6a51a2b7ce8d087164fc05067e70bc4271f3ed630145ca1a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5583279fec794189479a357f0ab597c15b642b966c5f27f1a5f608691351f179",
+  "request_fingerprint": "2ef3afa432356bcf0a2c0201d1c52713827802eed264852a0f649ea01ae66702",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo título, dados e fonte. A página termina com a frase “enquanto quatro”, que continua na página seguinte; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "encontrado na região Sudeste (20,1), e o menor Desvio padrão encontrado na região Nordeste (19,0).\nAs Medianas do Brasil, como um todo, e das cinco Grandes Regiões foram iguais a 37,5. A nota Máxima 100,0 foi alcançada em três regiões: Nordeste, Sudeste e Sul. Nas demais regiões a nota Máxima foi 87,5. As notas Mínimas (0,0) foram iguais para todas as regiões.\n\nNa Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das Questões Objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\nAs Questões Objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: nenhuma foi classificada como Muito fácil ou como Muito difícil, e uma questão foi tida como Fácil, por ter índice de acertos 0,61. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,46 e 0,52 do Índice de Facilidade, ou seja, houve entre 46,0% e 52,0% de acertos, enquanto quatro",
+  "text_sha256": "56672fed97cd337b597b754a47a393c1d8e47df66ada16c27b67cf358a164acf",
+  "window_size": 3
+}

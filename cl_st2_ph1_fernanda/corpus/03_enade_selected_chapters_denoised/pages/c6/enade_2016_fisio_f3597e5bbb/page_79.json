@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_014995ea71336f46006af90264288887d19d8323951361bd13",
+    "usage": {
+      "input_tokens": 2205,
+      "input_tokens_details": {
+        "cache_write_tokens": 2202,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2202
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 2445
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_78.txt",
+      "source_sha256": "76128185e7856f351abe1fba42513cce60a4bb1d1b9522ce0ff2f9314fcf1a1a"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_80.txt",
+      "source_sha256": "98d7439c4c191b6f4f790b30a069c601f7fd51f3198aca7049190f0e9c8a4b0c"
+    }
+  ],
+  "created_at": "2026-11-15T00:52:52Z",
+  "duration_seconds": 3.135,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FISIOTERAPIA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_79.txt",
+    "source_sha256": "0857067b4d4394404e5017dc56b7344e0daf8fa6e3209617434f72b168ce5589"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "178ca4853f588cefc2648beb835946892b5fd9992fb9498b7ccba9bfc4b211ef",
+  "request_fingerprint": "e899898ff9e2364d4a47b79a644032c06c3dfabd0dc7c6251b7b26db8724124c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo seus dados e a fonte.",
+    "Removidos o material gráfico do Gráfico 3.11 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Fisioterapia. Sem levar em consideração que mais de 25% dos estudantes deixaram a questão em branco ou receberam nota zero, o intervalo modal seria (10; 20].",
+  "text_sha256": "f935b3c2f8979b2238e2b96ef4b01293689efe347ad90c90974082d8fd891fde",
+  "window_size": 3
+}

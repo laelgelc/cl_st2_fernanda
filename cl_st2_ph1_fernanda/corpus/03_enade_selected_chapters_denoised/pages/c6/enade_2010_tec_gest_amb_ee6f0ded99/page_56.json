@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0121440627767542006af8ea2023a887d18df5fdddb4a75fd8",
+    "usage": {
+      "input_tokens": 2762,
+      "input_tokens_details": {
+        "cache_write_tokens": 2759,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2759
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 737,
+      "output_tokens_details": {
+        "reasoning_tokens": 391
+      },
+      "total_tokens": 3499
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_amb/enade_2010_tec_gest_amb_page_55.txt",
+      "source_sha256": "c2873dee59dade6a1bd10657066e9af9329ea7ea228fa8dd6d272f5839c4ef93"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_amb/enade_2010_tec_gest_amb_page_57.txt",
+      "source_sha256": "2434cd61a8e34033a886889e60a6c0dfa123f9dafe77f895ccdc2334b4e078d0"
+    }
+  ],
+  "created_at": "2026-11-14T23:09:20Z",
+  "duration_seconds": 6.187,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_gest_amb/enade_2010_tec_gest_amb_page_56.txt",
+    "source_sha256": "b36b141b05125dd9074f4f29f0065d1e35d5496fd7b079ff1fa900dfcc4b2dc4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a23fc77ff4847b95e77b6395ef64b8793b47013246e1e181dd7a264d838ce1a9",
+  "request_fingerprint": "6b1a6c6e48d1dac52aa41f06e7b3516f84597302637a9bf4bc1d5e9328e79fa1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados estatísticos e linha de fonte. A referência à tabela no texto foi preservada.",
+    "O trecho iniciado por “houve maior percentual” aparece em minúscula e sem pontuação após “(Concluintes)”; preservado como fornecido, mas vale revisar essa fronteira."
+  ],
+  "status": "success",
+  "text": "3.3.1.3 Análise da Questão Discursiva 10 do Componente de Formação Geral\nO desempenho dos estudantes na questão 10 foi inferior ao obtido na questão de número 9, com nota média 34,4 para Ingressantes e 36,1 para Concluintes. A nota máxima também foi atingida em ambos os grupos, sendo que os percentuais de alunos que deixaram a questão em branco, tanto no grupo dos Ingressantes quanto no dos Concluintes, foram ligeiramente superiores àqueles apresentados na questão 9, correspondentes a 20,2% (Ingressantes) e 19,3% (Concluintes)\nhouve maior percentual de alunos, considerando-se a distribuição de notas não nulas, no intervalo entre 40 e 50 pontos, tanto para Ingressantes (16,8%) quanto para Concluintes (17,7%). Não se manifestou superioridade expressiva, de Concluintes, nas diferentes faixas de notas posteriores a esse intervalo, com equilíbrio no desempenho dos dois grupos, só ligeiramente superior no intervalo de notas entre 70 e 80. Essas informações estão ilustradas na Tabela 3.14 e no Gráfico 3.11.",
+  "text_sha256": "0c2f53161a7d7ae0d85ccb423894df72e0babc61ed5a542e8b08199d2ab2e540",
+  "window_size": 3
+}

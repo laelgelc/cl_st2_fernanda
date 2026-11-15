@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0efe4df46db3ea48006af8ef3356b487d1af591fabd78cc769",
+    "usage": {
+      "input_tokens": 1981,
+      "input_tokens_details": {
+        "cache_write_tokens": 1978,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1978
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 350,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 2331
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_35.txt",
+      "source_sha256": "d42e786f189eb9d7bc12da13c36514b62354b77c637c51255c38fb22cb7f2949"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_37.txt",
+      "source_sha256": "3afff755bc70cf76ffe56e5f976d22a632affca11bbe4c04fc89743f2b59b887"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:59Z",
+  "duration_seconds": 4.464,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_36.txt",
+    "source_sha256": "2557202953ab87b6cc62a9676d4378c4a732dbad4bbdb68981b9af1c4a345837"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9a80223dfb15892a2a0e691b198ec63a6f391790b3e474e824e6b80cadf744c6",
+  "request_fingerprint": "893736d67971644d891a559f37ae2556b2a983cfa974e3fbbcdea2facfa7caac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o material gráfico presente na página e a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\n\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa, ao nível de 95%, entre a maior média, obtida na região Sudeste (51,7) e as obtidas nas regiões Nordeste (43,6) e Norte (44,0).",
+  "text_sha256": "408e227efda8d1f08aa8202bcca89321d978b094def598c38e6b398006cad4b5",
+  "window_size": 3
+}

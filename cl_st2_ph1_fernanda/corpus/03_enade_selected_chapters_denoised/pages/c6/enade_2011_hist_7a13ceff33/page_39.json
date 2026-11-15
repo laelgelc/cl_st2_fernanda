@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fbdfa7ce0d63348006af8edb046d487d1a7a7fb767981e963",
+    "usage": {
+      "input_tokens": 1508,
+      "input_tokens_details": {
+        "cache_write_tokens": 1505,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1505
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 396,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 1904
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_38.txt",
+      "source_sha256": "cac392a07235ad6a901ba63910fa6fb7e09ab37d242e7883623ee545a3fb8408"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_40.txt",
+      "source_sha256": "2f71541e9a6e0c5dbd3efe064c0ad5836c5dfe1babde580a67a2969b756e84ef"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:32Z",
+  "duration_seconds": 4.56,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_39.txt",
+    "source_sha256": "7b5d3397a3f600445b9da885b5e3ccd3c5ca491eab72e5b20fa8f0bcee7d5618"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "29adce32b085b03ab92431eae654b230877e07da8fb1138c1a0562f07d10914f",
+  "request_fingerprint": "fd98e141f15c87955df2c3fa305001bc5c67cedae21e5968a3404476ab80105f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “MEC/INEP/DAES - ENADE/2011”, associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Centros Universitários em relação aos oriundos de Universidades e Faculdades. A maior média foi obtida pelos estudantes de Centros Universitários (35,8). A média das notas obtidas nas Universidades (32,3), a menor delas, também é estatisticamente diferente da obtida pelos alunos de Faculdades (33,3).",
+  "text_sha256": "bfcfda2b5bad6ebbc0a8c6bf9db05e27f4f791ca734c3dcbb9877402f54037f1",
+  "window_size": 3
+}

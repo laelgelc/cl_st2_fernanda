@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_098e5885eb32a80c006af8e6a9aa4c87d1a540d16251da69e4",
+    "usage": {
+      "input_tokens": 2411,
+      "input_tokens_details": {
+        "cache_write_tokens": 2408,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2408
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 483,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2894
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_32.txt",
+      "source_sha256": "a56adf2b1f97938d622be6909ace23c4a967309f06a2604dec875380aed8f7b7"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_34.txt",
+      "source_sha256": "2a27ed85a5b602c8a5a0819249c875080ca1288925917909f7e2484e6e8bd096"
+    }
+  ],
+  "created_at": "2026-11-14T22:54:33Z",
+  "duration_seconds": 4.675,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ri/enade_2009_ri_page_33.txt",
+    "source_sha256": "0d7424f5daf99aea9e1279d54ee0d6ee34d2399802df99b63655bd137963ad86"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8fb99a4fe6d3d3de01071cbf02c934236458134f3d0cbe060dd3171dca5bac6a",
+  "request_fingerprint": "c6706139e9d92e7aeadeb9a46996f46c5772680e2ac11315bd14c06302267ea1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3: título, intervalos e escala, rótulos dos eixos, legenda, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região do País, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 47,39 na Região Norte a 61,11 na Região Centro-Oeste. Entre os ingressantes, os valores vão de 41,22 na Região Norte a 55,55 na Região Centro-Oeste.\n\nTendo como foco as categorias administrativas, as maiores notas médias foram das instituições federais para concluintes (64,99) e nas instituições estaduais para ingressantes (67,84), enquanto as das instituições privadas foram menores tanto para concluintes quanto para ingressantes (57,87 e 51,47, respectivamente). Note que, com este recorte, ingressantes apresentaram médias de notas superiores às dos concluintes nas instituições estaduais.\n\nConsiderando-se o tipo de Organização Acadêmica, as Universidades apresentaram os maiores valores para os ingressantes e as Faculdades para os concluintes. Os Centros Universitários apresentaram os menores valores tanto para os concluintes quanto para os ingressantes. Os Centros Federais de Educação Tecnológica e os Institutos de Educação, Ciência e Tecnologia não estavam representadas nesta área.",
+  "text_sha256": "ae4b14dd8f99f5ea7c06af8f01023a160ba2ff702cff33c835a0ee30d548dcd5",
+  "window_size": 3
+}

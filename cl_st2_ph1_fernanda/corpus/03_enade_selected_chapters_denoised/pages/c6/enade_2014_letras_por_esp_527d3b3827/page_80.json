@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bcce903a8ac5ef2006af8fa7b468087d1b835459c8d3cfb33",
+    "usage": {
+      "input_tokens": 2323,
+      "input_tokens_details": {
+        "cache_write_tokens": 2320,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2320
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 239,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 2562
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_79.txt",
+      "source_sha256": "6581cd95a42728bddeae3de7ab8c43bb8c51b6d088f03f5dae072899ff2918a0"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_81.txt",
+      "source_sha256": "bf27d5df0b1b8d7da040e63c42d72e1a9525d1e295fc70d76ba466cc1b8f751a"
+    }
+  ],
+  "created_at": "2026-11-15T00:19:07Z",
+  "duration_seconds": 3.615,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_80.txt",
+    "source_sha256": "56fe536b9feea56a4450d2aca9dcbc90fbe179089ab1a45bba4a1eed21d3968a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "10352f8ab9970b5f9e08b36151b8502e296a8f1b98ebcdab943faa8ee7e55e00",
+  "request_fingerprint": "2bc626fee5c9b27f79e12437c2343c1c7bba12640c6180f9c211aa407d23623c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados e fonte. Removidos o gráfico e sua linha de fonte; o gráfico não aparece como conteúdo extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Letras - Português e Espanhol (Licenciatura). A distribuição é unimodal com um pouco mais de 30% das notas concentradas no zero. Cerca de 15% dos estudantes deixaram esta questão em branco.",
+  "text_sha256": "1c81d9f128a41f355065a5e0bef4fefee5d2a0702a5a68c7b7b8aaeea0383554",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04acf66e15fe1c8e006af8f471bf2887d18ecf06261fc13e19",
+    "usage": {
+      "input_tokens": 1713,
+      "input_tokens_details": {
+        "cache_write_tokens": 1710,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1710
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 606,
+      "output_tokens_details": {
+        "reasoning_tokens": 387
+      },
+      "total_tokens": 2319
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_98.txt",
+      "source_sha256": "99b3705193e2c6684f9a26e8b8cbfae4a2cb789771f09c5aacf2afae52228bc6"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_100.txt",
+      "source_sha256": "0ed2c14fa2368292b02be72304c3fb6ec2a9b87de83df1b7a3efdc88906e0865"
+    }
+  ],
+  "created_at": "2026-11-14T23:53:21Z",
+  "duration_seconds": 6.01,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_NUTRIÇÃO.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_nutri/enade_2013_nutri_page_99.txt",
+    "source_sha256": "11ae98ca868afc3a33886e75541af00633a291b13a93b86a7f90215e7f3ce132"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "185817fe7471c6c579de77b7fad71bc92b9f6ec6d076c8cd6b13ae8ec8debacb",
+  "request_fingerprint": "35ffe21e81a58a93d8756096b00a6a9d579d614fb3fdb4c6d9474f99d4f2dd57",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, possivelmente associada ao Gráfico 4.12."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas das opiniões de estudantes entre os quartos de desempenho, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (91,7%), percentual superior à média nacional (86,9%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 80,8% dos respondentes, com um comportamento crescente com os quartos de desempenho e com todas as diferenças estatisticamente significativas para esta proporção, com exceção da observada entre o 2º e o 3º quarto.",
+  "text_sha256": "0d61575130284dfd0f66e95e05cfc6eb3231db36673c9ec6b753147721299a8a",
+  "window_size": 3
+}

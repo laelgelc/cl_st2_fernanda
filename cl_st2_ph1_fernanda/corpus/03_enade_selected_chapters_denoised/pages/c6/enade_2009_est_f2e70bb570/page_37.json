@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_053f7b6983938d74006af8e5db482487d1bd7b2f2ad82d356b",
+    "usage": {
+      "input_tokens": 2771,
+      "input_tokens_details": {
+        "cache_write_tokens": 2768,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2768
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 908,
+      "output_tokens_details": {
+        "reasoning_tokens": 406
+      },
+      "total_tokens": 3679
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_36.txt",
+      "source_sha256": "38e1fde2607cb281c8904bf5089266b98accdf72581725a12e3db31aef9ba211"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_38.txt",
+      "source_sha256": "fc37f6e821c9c4d33c13eac82ad252a869238767efa6997382c1e86b357cad60"
+    }
+  ],
+  "created_at": "2026-11-14T22:51:07Z",
+  "duration_seconds": 8.746,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_est/enade_2009_est_page_37.txt",
+    "source_sha256": "5b2b0e794a112a9fb2ade02b1adfdf1f9453db7e6ffe2c5ceb5eebba4f0de5dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b455565932381824d922678015c2c2dc8b4973a7cde31362a957adba45479e3b",
+  "request_fingerprint": "e092dcc007b751b6681cd04cdf2898ae8f1d8f69390af1f880f17fe55d2009a6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte.",
+    "O texto termina em “medianas,” no limite da página; a frase continua no contexto, mas não foi completada."
+  ],
+  "status": "success",
+  "text": "3.2 Análise das Questões Objetivas\n\n3.2.1 Formação Geral\n\nA Tabela 3.4 apresenta as estatísticas básicas relativas às oito questões objetivas da Formação Geral dos estudantes. Adiantamos que a primeira questão foi desconsiderada pelo critério da correlação ponto-bisserial.\n\nComo pode ser observado na Tabela 3.4, os estudantes concluintes obtiveram desempenho superior, com nota média de 57,94, em relação aos estudantes ingressantes cuja nota média foi 56,30. A variabilidade entre os concluintes foi um pouco maior do que entre os ingressantes, como indicaram os desvios-padrão de, respectivamente 22,7 e 22,3. A amplitude total das notas foi a mesma para ambos os grupos: nota mínima de 0 e máxima de 100. A mediana foi igual para ambos os grupos: 57,1. A assimetria, medida pelo coeficiente de assimetria (skewness) foi um pouco menor em módulo para os ingressantes (-0,3) do que para os concluintes (-0,4), ainda que ambos fossem negativos indicando uma assimetria para a direta.\n\nA Tabela 3.5 apresenta a classificação das questões objetivas da Formação Geral, segundo o índice de facilidade (questões em vermelho foram desconsideradas pelo critério ponto-bisserial). Como as questões foram comuns a todas as áreas, a tabela apresenta a classificação considerando-se os concluintes de todas as áreas e aqueles do curso de ESTATÍSTICA. De acordo com os índices obtidos, as questões objetivas da prova foram assim avaliadas para a área de ESTATÍSTICA: das oito questões, uma teve percentual igual ou maior de 85% de acertos e foi classificada como muito fácil (nenhuma para o total de concluintes); uma teve entre 60%, inclusive, e 85% de acertos e foi classificada como fácil (somente uma para o total de concluintes); outras três foram consideradas medianas,",
+  "text_sha256": "f4a22006bc36f7e4d81f44d38147b07928b279d8d2fa94345a5025fc7cbb28c0",
+  "window_size": 3
+}

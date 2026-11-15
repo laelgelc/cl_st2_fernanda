@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07afeba2aa76f3ca006af9114f1db087d197eb96cd4ba45cdf",
+    "usage": {
+      "input_tokens": 1900,
+      "input_tokens_details": {
+        "cache_write_tokens": 1897,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1897
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 776,
+      "output_tokens_details": {
+        "reasoning_tokens": 553
+      },
+      "total_tokens": 2676
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_123.txt",
+      "source_sha256": "8eb0ad1071eff8f37c22c9a916f81cd07476502b41ee62a2d2d1af5444013213"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_125.txt",
+      "source_sha256": "4fe703ebb36e7481a8d79048dfae270cca5a18c7b2dcdc867d6d664f73a26cec"
+    }
+  ],
+  "created_at": "2026-11-15T01:56:31Z",
+  "duration_seconds": 7.774,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE AUTOMAÇÃO E CONTROLE.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_contr/enade_2019_eng_contr_page_124.txt",
+    "source_sha256": "9992f9ae31d0be6e480daa85c51c4ea7492fbef8101dc4b021238fad1414a9ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9e5bf44490c65528bfec05315a3d293683ea61eeb1ea7f4a3fb81410574127c2",
+  "request_fingerprint": "b7f14cf8716d78fc0a4e03b8489823b206fd1bfdaac07ed3ad877a226fd0b8ea",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.29, material gráfico.",
+    "Os valores isolados “3,3 0,9” parecem ser rótulos de dados de um gráfico; removidos. A associação exata do material gráfico deve ser conferida."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 6,7% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,6% os do quarto superior com a mesma resposta. A diferença dentre os alunos que optaram por esse motivo de dificuldade nos quartos inferiores, em relação aos quartos superiores de desempenho, é estatisticamente significativa.\n\nTendo-se em conta o quarto superior, 74,3% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 47,9% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "4a17e326e5d02f4960b30db11e550ea2c6563eb9fbf95e9dbac394b25733b55d",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0639320e867bc1c2006af8fd83cc2c87d1862fe84d2a65c882",
+    "usage": {
+      "input_tokens": 2367,
+      "input_tokens_details": {
+        "cache_write_tokens": 2364,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2364
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 547,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 2914
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_42.txt",
+      "source_sha256": "1fd43d22c304a56ae3eb8f5c612935551bfc2b5c7fccaaff8662c32b08c9fa13"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_44.txt",
+      "source_sha256": "481976f12fb5a3dbc6b1f9edf6afc351bb0e6e880821c131791c9cd193d7d894"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:03Z",
+  "duration_seconds": 5.757,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_43.txt",
+    "source_sha256": "5d3a3087b1c8400ec71ad21649add9c3589bd598d94de889cbdb784d0034b6bd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "beecec0f9d7521370dece03f1b648626c87b3c181708d860943620d33143acbd",
+  "request_fingerprint": "31a12946fbf8d3779460f278613ca143b0fdf1ffe8a89766e07e29a188f24280",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 42,1. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais baixa (42,0), e os das IES Privadas obtiveram Média mais alta (42,3), que a Média nacional. Observa-se que não existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Norte (8,7), a maior e a menor Média, foi superior à diferença entre IES Públicas e Privadas (0,3), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Faculdades obtiveram Média mais alta (44,4) que a nacional. As demais médias foram: 41,9 nas Universidades e 41,7 nos Centros Universitários. O Desvio padrão para as IES Públicas (13,8) e para as Faculdades (15,3) foi superior ao do Brasil como um todo (13,7), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes de Faculdades em relação aos estudantes de Universidades e Centro Universitários.",
+  "text_sha256": "18c4755af10a2da36231510c227930a4e64221b5a8cbdc8b47069fe4d23e841c",
+  "window_size": 3
+}

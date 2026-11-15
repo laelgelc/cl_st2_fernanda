@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06fae30405af3a4a006af90f66f7b487d1a5c625cf83e25c89",
+    "usage": {
+      "input_tokens": 2859,
+      "input_tokens_details": {
+        "cache_write_tokens": 2856,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2856
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 811,
+      "output_tokens_details": {
+        "reasoning_tokens": 236
+      },
+      "total_tokens": 3670
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_146.txt",
+      "source_sha256": "fd14016459a3943ac3c42dba21703f5aa164ce91398000e6030da90d1dcb5b62"
+    },
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_148.txt",
+      "source_sha256": "24b54ebdc1c85bdd790e50ffb3a0442496914171623c1f2393d41ff59dd6a8fa"
+    }
+  ],
+  "created_at": "2026-11-15T01:48:22Z",
+  "duration_seconds": 6.412,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_AGRONOMIA.pdf",
+    "page_number": 147
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_agro/enade_2019_agro_page_147.txt",
+    "source_sha256": "050b889545b82f79c90b478f6c5d03f743796dee2986a558919af88fdbaa8c1d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c31d229437c4b0bec29ccac491e3bbe75eda18d93761b51cd0e581da345f7600",
+  "request_fingerprint": "5a8aaa72ed01b42722850882010ebe7a4a76a951351e62019a7f0bdf678cd337",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "de Facilidade de 0,66. A questão 5 foi considerada Muito difícil, com Índice de Facilidade 0,15 e Bom, com o Índice de Discriminação de 0,32. As demais questões tiveram Índices de Discriminação considerados Muito bom, variando no intervalo de 0,42 a 0,51.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 16,4% escolheram a alternativa E (em vermelho), 16,4% escolheram a alternativa D (em laranja), 23,8% escolheram a alternativa B (em verde, gabarito), 8,9% escolheram a alternativa A (em azul), e 34,2%, a C (em preto). Dentre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,04% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "2febf6ab0384257b0c6d7c89e7351ebb02eef09b89b0254800512e728ab06b4b",
+  "window_size": 3
+}

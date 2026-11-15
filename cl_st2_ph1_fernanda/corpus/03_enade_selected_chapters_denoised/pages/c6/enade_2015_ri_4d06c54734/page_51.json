@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a78263ef202e4e006af8fea0efe887d19eb67024d9026031",
+    "usage": {
+      "input_tokens": 3123,
+      "input_tokens_details": {
+        "cache_write_tokens": 3120,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3120
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 931,
+      "output_tokens_details": {
+        "reasoning_tokens": 385
+      },
+      "total_tokens": 4054
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_50.txt",
+      "source_sha256": "dc8e5e7ccaa7e8394e21ce5254cb26b576680025fd9df539dc3420b61f396fdf"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_52.txt",
+      "source_sha256": "75dffb13a97fca7b244f15b4ca244d4ecfef1d4e60e3dd0ea55d5d24a110336b"
+    }
+  ],
+  "created_at": "2026-11-15T00:36:48Z",
+  "duration_seconds": 6.802,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_51.txt",
+    "source_sha256": "53275b5d35619f22a5ca6a8b5ef4e1f9c05a3b8f3b97c77e83d769a82f9b82e9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d61be97b38b1fcaf164d11bdf30855a5812fbaced87f7f76b8c827a962121c5",
+  "request_fingerprint": "ef6ac324bd394a5f9045e14418078911aac78521c96e91c220e76b46846667f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, com estatísticas básicas das notas por Grande Região, e sua fonte.",
+    "Removida a Tabela 3.10, com valores e classificações dos índices por questão, e sua fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, uma questão teve o Índice de Facilidade classificado como Muito fácil, situando-se na faixa de 0,86 ou mais (86,0% de acertos ou mais). Cinco questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Uma questão foi considerada de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.",
+  "text_sha256": "60278dca884a96096f4407773cfbce90d2c55e143ab6bf9f6c16ccbb4e3deda3",
+  "window_size": 3
+}

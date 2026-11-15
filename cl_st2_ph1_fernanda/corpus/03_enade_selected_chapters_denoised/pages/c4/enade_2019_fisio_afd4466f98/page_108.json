@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060f9c5e769fd29a006af91331c5b887d19c4e39d2fc9b670e",
+    "usage": {
+      "input_tokens": 1784,
+      "input_tokens_details": {
+        "cache_write_tokens": 1781,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1781
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 2244
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_107.txt",
+      "source_sha256": "69174b5b26f2206c31d432ee582b401274325cc988a896edcdf7033ba169c522"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_109.txt",
+      "source_sha256": "346280dd254e3715f457b970e50801dadc86e4893af7b44fbcedf82855e6332d"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:33Z",
+  "duration_seconds": 5.224,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_fisio/enade_2019_fisio_page_108.txt",
+    "source_sha256": "54f9d4a637158c44d3f14441b2ba1106a50a1573b41b659731d2f7b6d47ea15e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6689962df8003ffac627b58381d1674e338e092bedb367fd66227cbe00226437",
+  "request_fingerprint": "5bba2ee031d7050811ec513520a78a20bc2adfaa631c4f2848bb1f4a294ea2d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.23. “CEFET/IF” parece ser um rótulo de gráfico; removido, mas sua associação ao Gráfico 4.24 ou ao material gráfico da página anterior deve ser conferida."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram que as informações/instruções fornecidas para a resolução das questões eram até excessivas ou suficientes em todas ou na maioria das questões foi maior para os estudantes de cursos de IES Públicas (89,1%), uma diferença estatisticamente significativa da proporção em IES Privadas (85,4%) (ver Gráfico 4.24 e Tabela II.12 no Anexo II).",
+  "text_sha256": "d0a762baee3782167022510075aedc131efbdea3d7f54aa8c83d86030d7f1744",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d58e6d97e0d3d1b006af902674e5487d1973d3e8d85e06ca0",
+    "usage": {
+      "input_tokens": 2544,
+      "input_tokens_details": {
+        "cache_write_tokens": 2541,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2541
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 341,
+      "output_tokens_details": {
+        "reasoning_tokens": 186
+      },
+      "total_tokens": 2885
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_83.txt",
+      "source_sha256": "447746b1f9c3d0edfbec2f487000c021596f5940f405962f06d85a2804f019e6"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_85.txt",
+      "source_sha256": "37b82e0c1ca9d6a58056b98bbed773b0e83869adc675fd1b5adaf1aa7d6724b3"
+    }
+  ],
+  "created_at": "2026-11-15T00:52:55Z",
+  "duration_seconds": 4.53,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FISIOTERAPIA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_fisio/enade_2016_fisio_page_84.txt",
+    "source_sha256": "0970b18cae2912d2019705213a15c014fa3afd2c033a137fd032c7a632a3a008"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d1052964bf551a0396cc465f0825f181da067e38a857d1e303664478d9952bae",
+  "request_fingerprint": "97ba6141bb9e89db0b23fb05b70f0eeabb5a3ed1a92c73d261de9393c6bf7700",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.20 (título, dados e fonte) e o material gráfico do Gráfico 3.13; também removida a linha de fonte associada ao gráfico."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição também apresenta máximos locais, com moda no intervalo (30; 40]. São máximos locais os intervalos (50; 60] e (70; 80]. Destaca-se também, o grande número de estudantes que deixaram esta questão em branco, correspondendo a pouco menos de 10% do total.",
+  "text_sha256": "34ad30bbfa01c87e7f9e237feb612147319ed43bc681703e6984bdfe58323a6a",
+  "window_size": 3
+}

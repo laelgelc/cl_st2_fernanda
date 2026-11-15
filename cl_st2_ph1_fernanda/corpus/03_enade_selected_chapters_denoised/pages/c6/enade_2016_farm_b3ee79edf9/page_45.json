@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a74c52930c84132006af902257db487d184649ed57700a5ae",
+    "usage": {
+      "input_tokens": 2747,
+      "input_tokens_details": {
+        "cache_write_tokens": 2744,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2744
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 3594
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_44.txt",
+      "source_sha256": "d3fdf7c3b2ecfe53782ce0e26a455ca23fb9cb3b4e602f4885b373b959421aee"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_46.txt",
+      "source_sha256": "3d7af155fc911bf4930ee58a6bea86db822d3b7f515836e778e31ce834ea2a0a"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:49Z",
+  "duration_seconds": 6.935,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FARMÁCIA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_45.txt",
+    "source_sha256": "609ebc4143e8b65d6beb00e47474558d745e14e70921f09715f7e59c8279ff15"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "651e1ab6752dd504c92092b7ca0508375f9052db45fa7cc0d34b8be86ceea2ac",
+  "request_fingerprint": "eb9b85cdef9774c9be3465c06bca8695fcc781c4352bcd499889795b05ec633a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. O Gráfico 3.2 é mencionado no texto preservado, mas seu material gráfico não aparece no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "3.1.2 - Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 3.5 apresenta as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 46,6. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 16,5. A maior Média foi obtida na região Sudeste (48,4), e a menor, na região Norte (41,2). As demais médias foram: 45,3 na região Nordeste, 48,2 na região Sul e 44,6 na região Centro-Oeste. Já o maior Desvio padrão foi obtido na região Norte (16,8), e o menor, na região Sudeste (16,1). Os demais desvios padrões foram: 16,4 na região Nordeste, 16,5 na região Sul e 16,3 da região Centro-Oeste.\n\nA maior nota no Componente de Formação Geral da prova do Enade/2016 foi 95,8, obtida por, pelo menos, um aluno na região Sul. A menor nota Máxima foi obtida na região Centro-Oeste (91,2). A Mediana do Brasil, como um todo, foi 47,1, sendo a menor Mediana encontrada na região Norte (41,0), e a maior, encontrada na região Sudeste (48,8). A nota Mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa entre a maior Média das notas do Componente de Formação Geral, obtida na região Sudeste (48,4), e a Média das regiões Norte, Nordeste e Centro-Oeste. No entanto, não há diferença estatisticamente significativa entre as médias das regiões Sudeste (48,4) e Sul (48,2).\n\nO Gráfico 3.2 propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova, como um todo (Gráfico 3.1), a moda foi alcançada no intervalo (50; 60]. Nota-se, ainda que, no Gráfico 3.2, as notas apresentam maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 13,5 para a nota da prova como um todo e 16,5 para o Componente de Formação Geral.",
+  "text_sha256": "f08b0198ca718829f0dee162f68f3745fb690ee7d64c23b3571ae3b586155c08",
+  "window_size": 3
+}

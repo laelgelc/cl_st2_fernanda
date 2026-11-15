@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007a033d48bbe088006af8e94603a087d193181267fac1419f",
+    "usage": {
+      "input_tokens": 2758,
+      "input_tokens_details": {
+        "cache_write_tokens": 2755,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2755
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 2854
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2010_med/enade_2010_med_page_81.txt",
+      "source_sha256": "027c0591f9330b490562fcb6fec8693335ce8322264f0cfca4f904084c59bc1d"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2010_med/enade_2010_med_page_83.txt",
+      "source_sha256": "0d69c2726dbcf54cc8621b7a2718330ddc8349cf11c438b18a747919fe766e0a"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:41Z",
+  "duration_seconds": 1.79,
+  "empty_text": true,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2010_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2010_med/enade_2010_med_page_82.txt",
+    "source_sha256": "c5a59929af1670472592ec607173820b84c5da4ed91b120b232b4fd14d8f7e71"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "120e5fe377820cae2a66e8e74928dfacdcabe6db7813d92277b5ef65a8ffbbea",
+  "request_fingerprint": "e89b1d956a1ece1198a21799baa0c6009e125a40ae06d549e411c25677dceae6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados, rótulos e linha de fonte (MEC/INEP/DAES - ENADE2010)."
+  ],
+  "status": "success",
+  "text": "",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "window_size": 3
+}

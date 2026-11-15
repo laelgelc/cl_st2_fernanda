@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03de0004ff46fa8c006af91f4418e087d1a9313df09455f486",
+    "usage": {
+      "input_tokens": 1676,
+      "input_tokens_details": {
+        "cache_write_tokens": 1673,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1673
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 184,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 1860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_100.txt",
+      "source_sha256": "3e015c327ac2a511d51ed33190abd302606edc4989e15c013946e6232bd97c77"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_102.txt",
+      "source_sha256": "0e22a2f5e856d754618afb6df19d256c386b7b58a3b905e549c4742774419e83"
+    }
+  ],
+  "created_at": "2026-11-15T02:56:04Z",
+  "duration_seconds": 2.49,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_101.txt",
+    "source_sha256": "4f662aed22b5434bfa4f4a4f6fe56f703a47df0c3cb3e0f867140ab838cfcca7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7434497b66f7ad0ee1cec9b7c3763966a3158b68163507bf8e61da9cfb370f6e",
+  "request_fingerprint": "d54fd23c195693362140d89632836d8558e6bc290aeb0306e56c00982325b459",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.10, sua legenda/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.10 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nNo Gráfico 5.10, observa-se que o percentual de estudantes que consideraram a prova “Longa” ou “Muito longa” foi menor no 4.º quarto de desempenho (29,9%), e maior, no 1.º quarto (41,1%).",
+  "text_sha256": "6571166c03adff7884c7e053d39e871543a4bfb6fcb522ce60cec96a54dabafa",
+  "window_size": 3
+}

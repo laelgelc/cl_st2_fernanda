@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ba66223cd78909006af8f60c61f487d19854a57bd3d178ac",
+    "usage": {
+      "input_tokens": 1709,
+      "input_tokens_details": {
+        "cache_write_tokens": 1706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "reasoning_tokens": 250
+      },
+      "total_tokens": 2141
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_97.txt",
+      "source_sha256": "cdc95ddf5a19dadc99dc6e759406b3005aa6585472aba395c65e4d1aa04f12f0"
+    },
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_99.txt",
+      "source_sha256": "9644feb05fc15e93092a910969f5049a4cd9bb0d2a129cdbd4379fbdb0a8fbf8"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:12Z",
+  "duration_seconds": 4.291,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 98
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_art_vis/enade_2014_art_vis_page_98.txt",
+    "source_sha256": "9ca80a38bbf0358a883bf7ddb9f0ba835f376c6db715df083278df91ce625e48"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a2f992d262452a6667e24c254400102c9a3f1615f5c1650a340ba66b43213398",
+  "request_fingerprint": "7dce6ce2a8bd77ae3c64968accfc1e64eb35988c4259ee3ce4057f5d3509b4a3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que parece pertencer ao material gráfico da página; o gráfico em si não estava presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 51,8% consideraram a extensão da prova adequada no quarto de desempenho inferior e 53,8% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 54,2% no segundo quarto e 52,5% no terceiro.\n\nNo Gráfico 4.6, em relação à extensão da prova longa ou muito longa em função dos quartos de desempenho, observa-se que não se apresenta diferença estatisticamente significativa entre as proporções de escolha por quarto de desempenho.",
+  "text_sha256": "0b322b422cc04e01b6f08fa93bbd413a338e550e2325000d10fc1728a9c1c032",
+  "window_size": 3
+}

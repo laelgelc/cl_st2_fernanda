@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01e04f8a78783728006af8eca1fc6c87d1bb6fcc64b57eee4c",
+    "usage": {
+      "input_tokens": 2128,
+      "input_tokens_details": {
+        "cache_write_tokens": 2125,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2125
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 535,
+      "output_tokens_details": {
+        "reasoning_tokens": 309
+      },
+      "total_tokens": 2663
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_38.txt",
+      "source_sha256": "d70a4301af6c25023bdc9771cb3e8316e378a463c6084ec559d70ff19487cfe2"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_40.txt",
+      "source_sha256": "decaafcc1b8bcb6e770f86a34d8a1cb85d559508d7a299e8cf7c270c10cddbbc"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:01Z",
+  "duration_seconds": 6.291,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_6",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VI.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_6/enade_2011_eng_g_6_page_39.txt",
+    "source_sha256": "fcb44e43fad148c73e7b141ea7856567c739fe31f67134c8c4445d151e83fe4f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4814d90e8aad0bd08fba24b0ae45385b696b055b6da346cbbbc099dbcbed9e16",
+  "request_fingerprint": "c89de7e259d202833bfe7eac8af3f4b64cb10ede0eda2612187d550672221da5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.2, 3.3 e 3.4 apresentam informações referentes à média da nota final dos Participantes, desagregando os resultados de acordo com, respectivamente, as Grandes Regiões do país, a Categoria Administrativa e a Organização Acadêmica. Os gráficos apresentam o valor da média das notas como uma barra e os extremos do intervalo de confiança de 95% como linhas verticais unidas por uma linha horizontal na forma da letra H maiúscula.\nConsiderando-se o gráfico de notas segundo Grande Região (Gráfico 3.2), observa-se que existe diferença estatisticamente significativa ao nível de 95% entre as maiores médias, obtidas nas regiões Sul (38,6) e Sudeste (37,7), e a menor, obtida na região Centro-Oeste (35,1).",
+  "text_sha256": "0877900d0e739180722926b999517f4987730161e964610613780291c429e970",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c207d8a763a6d15006af8f841b89c87d1a608616c2a5fb57a",
+    "usage": {
+      "input_tokens": 1701,
+      "input_tokens_details": {
+        "cache_write_tokens": 1698,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1698
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 301,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 2002
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_98.txt",
+      "source_sha256": "bd3c7c0851bab3ed5cfdfe6c2547d32747f6285679d9969dfd2e8a1f52f29163"
+    },
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_100.txt",
+      "source_sha256": "944de06e913f0ffb1dce58201e4940db068bf3309d347e7036fbca653a77b83d"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:37Z",
+  "duration_seconds": 4.847,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 99
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_prod/enade_2014_eng_prod_page_99.txt",
+    "source_sha256": "04c80ba6cde956e36d4d5a30a792762b338db96c90eb9b3889e3e6b5ab229a0a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "303515a4dae788030a613a27633367e97cf0a337032bafed7fe918e4cb880c33",
+  "request_fingerprint": "29b81c46e605dfbc2614f6a26393f7957968dd866b6aa00f4e72a0635fb089e2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que 52,4% consideraram a extensão da prova adequada no quarto de desempenho inferior e 51,4% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 51,9% no segundo quarto e 50,6% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que há uma tendência crescente da proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que não há diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "67cbfb68885dc3e9f61adde49d8aa88e4ae2f99cc8eba8758fdae3e0e72bdfd6",
+  "window_size": 3
+}

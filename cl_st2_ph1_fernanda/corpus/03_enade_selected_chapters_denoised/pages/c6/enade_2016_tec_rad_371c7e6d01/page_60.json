@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc7278a78c7d012006af90433756487d1927ff21854df7fca",
+    "usage": {
+      "input_tokens": 2795,
+      "input_tokens_details": {
+        "cache_write_tokens": 2792,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2792
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 3235
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_59.txt",
+      "source_sha256": "7601bec76babfa6056e6828c380f9c19e39854a1ab15a58f601daf89fde004b0"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_61.txt",
+      "source_sha256": "d730e32d94f40055d1eeffd1591bca9a65824203ef0fd07749af26ce61f61c7b"
+    }
+  ],
+  "created_at": "2026-11-15T01:00:35Z",
+  "duration_seconds": 5.715,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM RADIOLOGIA.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_rad/enade_2016_tec_rad_page_60.txt",
+    "source_sha256": "53e28bc954874638ad540ef108f9b3c622751a78005a9d6bbc8ea7ba9813a597"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3b4b8c9f257dcba865f5ac1db520b1a517f096af48569c77b262ec96addc9e29",
+  "request_fingerprint": "c542e56a4bf3494ef2db73c751a36eec364ff39c09ba26ac3a6bdb3ec197832b",
+  "retry_count": 0,
+  "review_notes": [
+    "Material gráfico removido; a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2016” foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso, também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionaram a resposta correta E aumenta gradativamente, chegando a atingir 100% para os que tiveram 17 e 21 acertos (observa-se uma queda para os que acertaram 18 e 19 questões). Já a proporção dos que escolheram alternativas incorretas decai, a partir de quatro acertos, como função do número de acertos nessa parte da prova, com exceção da alternativa C (em azul), que apresenta um crescimento no último intervalo.\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "287258bf9d7b7e8fac538203d75c36fbc84c4ce36441e2ac9af71a71e97283e0",
+  "window_size": 3
+}

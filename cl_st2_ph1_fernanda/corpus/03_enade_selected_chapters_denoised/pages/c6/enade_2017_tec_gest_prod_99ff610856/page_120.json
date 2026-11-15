@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03dcff00e59b15f6006af90b4ed5f487d1b98ab999278469a2",
+    "usage": {
+      "input_tokens": 2734,
+      "input_tokens_details": {
+        "cache_write_tokens": 2731,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2731
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 902,
+      "output_tokens_details": {
+        "reasoning_tokens": 308
+      },
+      "total_tokens": 3636
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_119.txt",
+      "source_sha256": "06308bf52b4bc2e01ceb3aa94147b91468002a1a5be68aaab1bdb72b4fcf1e91"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_121.txt",
+      "source_sha256": "2b9cb16310967c1e018540e66101129573cdc905571c9602ac25cfbd5e3b6417"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:54Z",
+  "duration_seconds": 8.521,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_120.txt",
+    "source_sha256": "d2a7758bdbd1b5470a69a4e1e4ff3523bba4bc89c6ce337af520e8883951348d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "090ad7c223a0306ccc993135ac08ebe18bb2d2e51aaf330d2b4332f7d6445162",
+  "request_fingerprint": "3e2d930dedd02664f5451b7251b7951773e01ea4327a13340b05546b78d3a7dc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.9. A discussão do Gráfico 6.4 foi preservada como prosa; nenhum conteúdo gráfico do gráfico está transcrito no texto da página-alvo."
+  ],
+  "status": "success",
+  "text": "classificada na categoria Fácil (a questão 6) do Índice de Facilidade, e duas, na categoria Médio (questões 4 e 5). Em particular, a questão 4 foi a segunda que apresentou o maior poder discriminatório, com índice 0,48, tendo sido considerada Médio em termos de facilidade, com uma proporção de 0,44 acertos. Já cinco questões com Índice de Discriminação Bom figuraram entre três níveis de dificuldade: Médio, Difícil e Muito difícil: uma classificada na categoria Médio (questão 2), três classificadas na categoria Difícil (questões 3, 7 e 8) do Índice de Facilidade e uma outra classificada na categoria Muito difícil (questão 1). Seu Índice de Discriminação foi Bom (0,36).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 29,8% escolheram a alternativa E (em vermelho), 16,8% escolheram a alternativa D (em roxo), 39,5% escolheram a alternativa B (em verde), 7,9% escolheram a alternativa A (azul) e 5,5% a C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,5% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com oito acertos. Essa análise",
+  "text_sha256": "b2c1f4be09d6469365347164dd52efef979d4958de0c872f91555281bdd6a9f1",
+  "window_size": 3
+}

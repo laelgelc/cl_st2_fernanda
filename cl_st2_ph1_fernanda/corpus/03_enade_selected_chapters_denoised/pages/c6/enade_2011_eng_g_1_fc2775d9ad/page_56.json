@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e764c28f4eb189b006af8ebd1ddb487d1bf24da1430575a6a",
+    "usage": {
+      "input_tokens": 2648,
+      "input_tokens_details": {
+        "cache_write_tokens": 2645,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2645
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 418,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 3066
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_55.txt",
+      "source_sha256": "8984bdf6c6c154632271ae8c83c8b9c5865b26ff2a7e861e3307ddcde19ea35d"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_57.txt",
+      "source_sha256": "063bd745351c14924e0ed5d724e196dd68b311bcf445472edaa8356e736afd66"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:33Z",
+  "duration_seconds": 4.603,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_56.txt",
+    "source_sha256": "7f5dc790641436a4ed07307a255bb2e00cadfdbe5ca47e0b492c329394339f9c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb1f4b84db171442adf8748b2197ae99660b1a812fafaf5fb15b44baef756b10",
+  "request_fingerprint": "74cc0135ffe79f3e31d161aa8e6ff2ac8c6527dd39c73a848afb735b037b7a62",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico (Gráfico 3.14) e sua linha de fonte: “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 21, em função da nota dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. A proporção de alunos que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para 18 acertos, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de 3 ou 4 acertos, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "96d18c7b58f7db9ec28fdc6db46bb98fc3f8e43d8f99081178cdb7e43107e700",
+  "window_size": 3
+}

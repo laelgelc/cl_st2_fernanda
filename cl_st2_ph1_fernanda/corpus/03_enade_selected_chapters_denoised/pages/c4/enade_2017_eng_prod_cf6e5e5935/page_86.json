@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01dd56e38c3d7d7f006af906b013ec87d1993754323185871e",
+    "usage": {
+      "input_tokens": 1685,
+      "input_tokens_details": {
+        "cache_write_tokens": 1682,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1682
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 659,
+      "output_tokens_details": {
+        "reasoning_tokens": 411
+      },
+      "total_tokens": 2344
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_prod/enade_2017_eng_prod_page_85.txt",
+      "source_sha256": "2bff9c3d21e689599fe913d6f9f7af7495ab1b7356a75cef360c90d9c532dd47"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_prod/enade_2017_eng_prod_page_87.txt",
+      "source_sha256": "92639fb2f7d5b3e84415c19b35947d6cd726d1f778ce636225e16313e087ae85"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:11Z",
+  "duration_seconds": 8.352,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_eng_prod/enade_2017_eng_prod_page_86.txt",
+    "source_sha256": "5b5c516a74ce99e9502ca3b578eea38dee4a09f12ba683994635ec28b288a361"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95e8c436e379bfcbb1d579585199807b3a7cc24b70c86c621058d1b067bfd6cd",
+  "request_fingerprint": "1659d97b15d60b855a0bf6d9b242937ca0f0f98dad38de5b399c8d882a195097",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.5, incluindo título e fonte. O trecho final da prosa parece continuar na página seguinte; foi mantido sem completar."
+  ],
+  "status": "success",
+  "text": "região Norte até 46,7% na região Nordeste. A diferença entre a região Norte e as demais (exceção da região Centro-Oeste) é estatisticamente significativa, bem como a diferença entre a região Nordeste e as regiões Sudeste e Centro-Oeste.\n\nConsiderando-se o desempenho dos alunos, nota-se ainda que 49,8% consideraram a extensão da prova adequada no quarto de desempenho inferior e 47,6% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 46,7% no segundo quarto e 45,6% no terceiro.\n\nO Gráfico 4.6 mostra as proporções de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. A proporção no quarto de desempenho inferior é 40,0% e, no superior, 43,1%. Nos quartos intermediários as proporções foram 42,2%",
+  "text_sha256": "335f3a1d4cb5a1f57ed037ef466d4278f8b0df388f4701b0d3a3f98915b1c6de",
+  "window_size": 3
+}

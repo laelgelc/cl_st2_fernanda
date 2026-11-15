@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01bf734dc09fb4d1006af8e961d8a087d1bccac27ffeaa968a",
+    "usage": {
+      "input_tokens": 2596,
+      "input_tokens_details": {
+        "cache_write_tokens": 2593,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2593
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 642,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 3238
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_nutri/enade_2010_nutri_page_70.txt",
+      "source_sha256": "9c27b2f151c14175059b2262a478d09487194034a6e9fd50d70e0159ef2c4708"
+    },
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_nutri/enade_2010_nutri_page_72.txt",
+      "source_sha256": "d8973db49679f37f40899ff37757289940b8d3711ff1cf01b995d287403babf9"
+    }
+  ],
+  "created_at": "2026-11-14T23:06:09Z",
+  "duration_seconds": 5.837,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2010_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_NUTRIÇÃO.pdf",
+    "page_number": 71
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2010_nutri/enade_2010_nutri_page_71.txt",
+    "source_sha256": "3109eafab55573636cb5be28e1e9a5b4af00a1c9bb334e14c5d4f4d5e188d850"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3b0ccb988610aac24d535555418fe9174abe8a6af5c3da9afa25468e0497476c",
+  "request_fingerprint": "7ec8d4f00c3f29fb0f33011ef927e524d08be04e70c55bb026a556b75a004780",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.3, incluindo seus rótulos e dados, e a respectiva linha de fonte. A frase final da página termina em “na região”; foi mantida sem completar com texto da página vizinha."
+  ],
+  "status": "success",
+  "text": "No grupo de Ingressantes, a maioria, 61,0%, respondeu ser a extensão da prova adequada, ao passo que, no grupo de Concluintes, este valor foi menor: 49,4% tiveram a mesma opinião. Para 35,3% dos Ingressantes o exame foi longo ou muito longo. Essa mesma consideração foi feita por 47,5% dos Concluintes.\n\nNo grupo de Ingressantes, a maioria, tanto para o quarto de desempenho inferior (58,4%) quanto para o de melhor desempenho (60,8%) respondeu ser a extensão da prova adequada. Já entre os Concluintes, esses valores foram menores, situados em 49,1% nos dois quartos. Considerando-se ainda os quartos extremos de desempenho, observa-se que a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, acompanhou a percepção de Ingressantes e Concluintes. Para o grupo de Ingressantes, entre os estudantes no quarto de desempenho inferior, 36,6% declararam ter esta percepção, ao passo que entre aqueles no quarto de melhor desempenho, esta proporção foi de 35,8%. O mesmo pode ser constatado entre os Concluintes: 47,3% no quarto de menor desempenho e 47,9% no quarto de maior desempenho declararam ter tido esta percepção.\n\nNa análise por Grandes Regiões, o percentual de Ingressantes que responderam ser a extensão da prova adequada variou de 59,3% no Nordeste a 65,9% no Norte. Já entre os Concluintes, estes valores estavam compreendidos entre 49,0% (Sudeste) e 52,0% (Centro-Oeste). Aqueles Ingressantes que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou de 28,4% na região",
+  "text_sha256": "8d17784385b6f819db321200fb54b3d2bc5a728c9de95567b8f627e665cabb46",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0598010e4b8ad1b9006af91c06ec7c87d190a020042ad25f12",
+    "usage": {
+      "input_tokens": 1696,
+      "input_tokens_details": {
+        "cache_write_tokens": 1693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 233,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1929
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_105.txt",
+      "source_sha256": "fe343fa0f8960aa2b71e574f840da04e54e6f935c8a4348610f62b9cbb839f23"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_107.txt",
+      "source_sha256": "7584f064010fec1c77263794f9e0eee0bfb712a688d6b61ae0dadb088bf8b9a7"
+    }
+  ],
+  "created_at": "2026-11-15T02:42:14Z",
+  "duration_seconds": 3.48,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS ECONÔMICA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_106.txt",
+    "source_sha256": "59aeff6ed577a940a85362393f4def1758507e1d7ae7dc0fa6249c955e439abd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fda320d80ff1a9859696f0d9b523e2ed74cbaf77594ab72c97037a23429d1c2a",
+  "request_fingerprint": "5fbe4e7d9707ca8bbc353c7458ba10947b5dfd5a1db01b7f9e7a4a46dff67019",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.10, incluindo título/caption, material gráfico e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.10 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nNo Gráfico 5.10, observa-se que a proporção de estudantes que consideraram a prova “Longa” ou “Muito longa” foi menor no 3.º quarto de desempenho (32,9%), e maior, no 2.º quarto (35,6%). Constata-se que houve pouca variação quando comparados os quartos com diferenças menores que 3% entre eles.",
+  "text_sha256": "f02da5bfb4f309e8f5d4aee9956edadd5f880852c2091c7656ff7562c766a6ba",
+  "window_size": 3
+}

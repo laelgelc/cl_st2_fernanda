@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_013532b80c75226c006af900cd023087d182e2ed1b7e48bc1e",
+    "usage": {
+      "input_tokens": 3093,
+      "input_tokens_details": {
+        "cache_write_tokens": 3090,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3090
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1362,
+      "output_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "total_tokens": 4455
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_50.txt",
+      "source_sha256": "97de8ab5b063a364ba8324ba7123280c4f3eed8adb2807bb58e67291e964351c"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_52.txt",
+      "source_sha256": "2db8bc0cd0d91482fd58112a00d4874c67e5bbd1beb0ed72f2a51ae6f5ceb870"
+    }
+  ],
+  "created_at": "2026-11-15T00:46:04Z",
+  "duration_seconds": 11.874,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM MARKETING.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_mark/enade_2015_tec_mark_page_51.txt",
+    "source_sha256": "89ecd40e2da7c813dc7ba14e6d8a1232d92b091f500b29dc9f917e6db675dab8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b3c8eb27b657e7e0f0da1b6f94516b7e793ce83fd9653efbdd0fd9cfc34547b3",
+  "request_fingerprint": "0159d87d47d3f6f4cb32e849adf764ef1a75091fe677d9035fbfedfc4d2f4efb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.9, incluindo seus dados e fonte.",
+    "Removida a Tabela 3.10, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.10 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil. Duas questões foram tidas como Fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto outras três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como Muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o Índice de Discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: seis das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice Muito bom para esse grupo de estudantes. Duas questões tiveram Índice de Discriminação Bom, com valor entre 0,30 e 0,39, para esse grupo de estudantes. Nenhuma questão teve nível Médio ou Fraco de discriminação para esse grupo de estudantes.\n\nO Índice de Facilidade variou de 0,26 a 0,72, e o de Discriminação, de 0,37 a 0,45. As seis questões com Índice de Discriminação Muito bom figuraram entre os diversos níveis de dificuldade desse conjunto: duas classificadas na categoria Fácil (questões 5 e 6) do Índice de Facilidade, duas, na categoria Médio (questões 3 e 8) e outras duas, na categoria Difícil (questões 2 e 7). Em particular, a questão 3 foi a que apresentou o maior poder discriminatório, com índice 0,45, porém foi considerada difícil em termos de facilidade, com uma proporção de 0,35 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,72. A questão de número 1 apresentou um Índice de Facilidade de 0,46, ou seja, quase a metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,38). Já a questão 7 obteve Índice de Discriminação Muito bom, 0,43, porém seu Índice de Facilidade foi Difícil (0,26).",
+  "text_sha256": "09b92aff0f2c831b3b0b42e2693f6900e44b274e165a8c8fccca0160d9d9803d",
+  "window_size": 3
+}

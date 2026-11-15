@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0909742734fd9fa3006af8fbf96d1487d1b19772ed2fda9a83",
+    "usage": {
+      "input_tokens": 3010,
+      "input_tokens_details": {
+        "cache_write_tokens": 3007,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3007
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 593,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 3603
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_42.txt",
+      "source_sha256": "0a9a5174687d19e0faed68a28d88a7ef92c4798d4b22aad32d6ace9e6cbd1748"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_44.txt",
+      "source_sha256": "9075e057ee44a35cfa4b11b2b2007678a8027b9fb3b3f5dd34f3d7ef75eebfba"
+    }
+  ],
+  "created_at": "2026-11-15T00:25:29Z",
+  "duration_seconds": 5.093,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_SISTEMAS DE INFORMAÇÃO.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_sist_inf/enade_2014_sist_inf_page_43.txt",
+    "source_sha256": "26f61e92805c0e578ebd53e3e3c3486836dd69f53979ac089e1377a0619e9b50"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c7e72c23e142ba7ac59ee82aab87b4c0fc8b6475eaa24ccddbe470ef0ffbb81c",
+  "request_fingerprint": "8fe6a2f09ff83ff1c1ba5c1a9046800706e0077bfc8773501535fb01591b132e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 13.788 são de IES Privadas e 2.500 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (7.236), seguido de Faculdades (6.830) e Centros Universitários (2.222). A Categoria Administrativa de maior abstenção foi a Privada (19,2%), e entre as Organizações Acadêmicas foi a dos Centros Universitários (20,1%), ambos acima da média nacional de 18,5%.\n\nA média das notas da prova como um todo foi 43,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram média mais alta (47,2), e os das IES Privadas obtiveram média mais baixa (42,9), que a média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (6,1), a maior e a menor média, é superior à diferença entre IES Públicas e Privadas (4,3), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Faculdades não obtiveram média mais alta (41,6) que a nacional. As demais médias foram: 45,3 nos Universidades e 43,7 nos Centros Universitários. O desvio padrão para as IES Públicas e para as Universidades foi o mesmo, 13,0, valor superior ao do Brasil como um todo (12,8), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes dos três tipos de Organização Acadêmica: Universidades, Centros Universitários e Faculdades.",
+  "text_sha256": "b3100a58404855853434baba26d876c2706ff65af642f8f0c16a4fbe764a2ec5",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09012a078cd9bc21006af8ec7ca11c87d1ab73ef371a62ed7b",
+    "usage": {
+      "input_tokens": 2422,
+      "input_tokens_details": {
+        "cache_write_tokens": 2419,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2419
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 790,
+      "output_tokens_details": {
+        "reasoning_tokens": 471
+      },
+      "total_tokens": 3212
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_51.txt",
+      "source_sha256": "f215d6eecd974a93dd09bc9ef4b3e35f08c82ab842bd7ae8cedf7e71a9bac6b9"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_53.txt",
+      "source_sha256": "b8e67e4c87c2b477d02ceeecb8f7de43dd067081f3bc5c52bcb725fa7b2ae040"
+    }
+  ],
+  "created_at": "2026-11-14T23:19:24Z",
+  "duration_seconds": 9.466,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_5",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO V.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_5/enade_2011_eng_g_5_page_52.txt",
+    "source_sha256": "f528a8eb468a84291d9d31de673e916111b954d694b58b364d62473c675533a3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8607349280e02ba6b6bcde90f3ca2257aaf97b8c1b094c7f32a1769135faa550",
+  "request_fingerprint": "3f81388ae6520fb86a59d6fcc2ab346db5ca3f8170523d632aebe23089fcd859",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. O material gráfico do Gráfico 3.13 não foi representado no texto extraído; a prosa que o descreve foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da questão mais fácil e uma das que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). Na medida em que a nota aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "5931431de4ffefa793948f08480924f2fdd9fd33750d662bb8beb6e55872191d",
+  "window_size": 3
+}

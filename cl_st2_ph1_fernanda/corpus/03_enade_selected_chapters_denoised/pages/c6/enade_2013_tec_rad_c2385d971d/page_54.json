@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0a79310fb0a882006af8f59ac7c887d192eb304262e333c5",
+    "usage": {
+      "input_tokens": 1523,
+      "input_tokens_details": {
+        "cache_write_tokens": 1520,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1520
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 324,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 1847
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_53.txt",
+      "source_sha256": "9242b0d29026bfcbcef1046f163992d5ce681ae54633004094440c7be16f80d9"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_55.txt",
+      "source_sha256": "21560ffe70331fc1aaa5105af514d63d55cbbb0925e860e8ef5ebf56df42f97e"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:18Z",
+  "duration_seconds": 4.167,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_54.txt",
+    "source_sha256": "b54aa114fead3166850a70164bca3211fa3b9e5e3d5cc8f465fcaf559f078db1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1007991a337b672d49f497ded44d9526165f0cf8cddf1de511c80359bb0a534b",
+  "request_fingerprint": "fb12461c882ca333b2a93664e15bb6a41c7cf72e522df9a232c5b31bb5aa8222",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente ao material gráfico do Gráfico 3.12."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (41,9) foi maior do que de Centros Universitários (38,9) e de Faculdades (38,7).",
+  "text_sha256": "e43457d84340c441af5d5870b8bdf2ffb62bb4246d487973bc3d7512f8ea5a25",
+  "window_size": 3
+}

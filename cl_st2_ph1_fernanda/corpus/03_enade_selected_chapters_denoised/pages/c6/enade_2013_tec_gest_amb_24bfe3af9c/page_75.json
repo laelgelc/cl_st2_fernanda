@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_015f0708f6e83bcd006af8f5555f5887d1933d384bd2e2f0a3",
+    "usage": {
+      "input_tokens": 2562,
+      "input_tokens_details": {
+        "cache_write_tokens": 2559,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2559
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 818,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3380
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_74.txt",
+      "source_sha256": "f5be29a0fe0486a351f91ddb928384dc1a4df7b01caff5711871632185ad4a84"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_76.txt",
+      "source_sha256": "d45a8fd39e0ed7bb7f63faee730f9b11801dc7c03fd7fb7e4726329d9522301c"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:09Z",
+  "duration_seconds": 8.414,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_75.txt",
+    "source_sha256": "1c773e50d212bf1c8c6f0ceb2fb23d72aea6c30f7648a45d8be76c1bdc301403"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a96613f4847ee3a2e79b977ddff402ca91f0f9328d5f7951cba14b4a88aa1f3c",
+  "request_fingerprint": "f4653ec47bfca6db9d051f136258bf89d25ac37e412d32b97a509e7fcd700782",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.12.",
+    "Removido o material gráfico do Gráfico 3.19; a prosa que o descreve foi preservada."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima, nas questões discursivas do Componente de Conhecimento Específico, foi obtida na região Sul (81,7), enquanto a menor nota máxima foi encontrada na região Centro-Oeste (76,7). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 20,0, também encontrada na região Sul. As demais medianas foram: 18,3 nas regiões Norte e Centro-Oeste, e 21,7 nas regiões Nordeste e Sudeste.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0; 10]. Nota-se que há uma tendência decrescente a partir deste intervalo até o último intervalo, este sem observações. O coeficiente de assimetria é positivo para todo o Brasil (0,45) e para todas as regiões (entre 0,34 para a região Sudeste e 0,60 para a região Centro-Oeste), indicando uma assimetria à direita.",
+  "text_sha256": "5b7da5617d87cd67615364c812423771bce7e35472481cfd2bd14bdba9aead4f",
+  "window_size": 3
+}

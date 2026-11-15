@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d7e7bf717105973006af90698060087d1aa03ee4639d280cc",
+    "usage": {
+      "input_tokens": 2323,
+      "input_tokens_details": {
+        "cache_write_tokens": 2320,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2320
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 475,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 2798
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_127.txt",
+      "source_sha256": "7e36f74bcbbdccf07b87cc97cc3af201163ca2e5f565248e85451cb79a699a0d"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_129.txt",
+      "source_sha256": "4ab07d56b3d7fbc9edcab8d2c4e8808d14bf0480efb4d1f4b2d1c098c4212ed9"
+    }
+  ],
+  "created_at": "2026-11-15T01:10:47Z",
+  "duration_seconds": 6.073,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_contr/enade_2017_eng_contr_page_128.txt",
+    "source_sha256": "c692e38550b1cb2cbc05cdbad10a76b968bb5000b8b5223290f2051b12971a36"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "71599ed19e78193cb98961601a3a498eb605fd8d1e6edce38edeed28089a5452",
+  "request_fingerprint": "22155294b07114da0a62f6cf87488ca0d5dd37274779b9a315e744617841928d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.15, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "desvio nessa questão foi obtido na região Nordeste (36,0), enquanto o menor foi obtido na região Sul (32,2).\nA Mediana de todo o Brasil foi 70,0, a mesma de todas as regiões, com exceção das regiões Nordeste e Centro-Oeste que tiveram Mediana menor, 50,0. As notas máximas (100,0) e as notas mínimas (0,0) também foram as mesmas em todas as regiões, sem exceção.\n\nO Gráfico 6.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota dentro do intervalo (70; 80]. Destacam-se, também, os alunos que deixaram a questão em branco e os alunos que obtiveram nota dentro do intervalo (90; 100], caracterizando-se como máximos locais.",
+  "text_sha256": "9c82dea9e43176dde0f915a480f489a7e0a80e418c4643462b0db89f5e30b456",
+  "window_size": 3
+}

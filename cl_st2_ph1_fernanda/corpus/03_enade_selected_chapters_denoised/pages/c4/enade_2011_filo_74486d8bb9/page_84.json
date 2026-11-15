@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001c23501c07fc65006af8ed173b4087d191d3abf41dbc6286",
+    "usage": {
+      "input_tokens": 1895,
+      "input_tokens_details": {
+        "cache_write_tokens": 1892,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1892
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 2206
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_83.txt",
+      "source_sha256": "eae6983621676a8a29bb5671a14d822acfa0081b98ac34be6922b8fa24b6cf79"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_85.txt",
+      "source_sha256": "fcf71ff9786959b4aa2f9b8fee5dbf4f0b1e8d9e3096d0d9fc7bc7d2273e4533"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:59Z",
+  "duration_seconds": 3.601,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_84.txt",
+    "source_sha256": "1ffc169397b3e1583bef66767fbdd7cf25885d1c690a294b289039db15468a6e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "95c1fe7402717ee3e76ad057473fa0b367dd1b416f9c625d084108f7e4b69db7",
+  "request_fingerprint": "5cce8b1fc1af99aa92dc95aafe9d76afa964416fba6d6611223c3af6aa229d38",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil apresentou uma tendência decrescente com o aumento do desempenho, variando de 36,6% (1º quarto) até 18,2% (4º quarto). A alternativa modal para esta pergunta foi médio, com 49,1% no quarto inferior e com os valores nos outros três quartos de desempenho ficando em torno de 57% com menos de 2% de diferença entre o maior e o menor percentual.",
+  "text_sha256": "c095d6eb9640c063799ec2b0f2ba8a0d816bc5102151548e0ba56b7be3d55632",
+  "window_size": 3
+}

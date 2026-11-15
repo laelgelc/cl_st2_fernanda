@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b61dd876eb98832006af8f540c46487d18cff40a67e2428ba",
+    "usage": {
+      "input_tokens": 1580,
+      "input_tokens_details": {
+        "cache_write_tokens": 1577,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1577
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 1942
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_40.txt",
+      "source_sha256": "233ffe00ad0a0c705618c81cd1f40d9a2866135e317d5d37dfa3dc10a4c1b5f1"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_42.txt",
+      "source_sha256": "472a86b3f609c099a9635acf283b84e7bb96d1da6d767724dadbe62d5b5c260f"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:48Z",
+  "duration_seconds": 4.065,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO AMBIENTAL.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_amb/enade_2013_tec_gest_amb_page_41.txt",
+    "source_sha256": "9e93f5d8dd2e778cab036b5bc12d48def5ac54d430c9ebfbe24840c54ff0efdd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "803d3a3d14d57136e31c08a48be20a8507abbe0a793f7ec346195d4a1a534069",
+  "request_fingerprint": "6ef724b4c0a79c3f8fb729a0581270d65bcf9fed884540803ce435eb226b0418",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o material gráfico do Gráfico 3.3 e sua linha de fonte (MEC/INEP/DAES - ENADE/2013)."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (41,2) é maior que a dos alunos de IES Privadas (36,6). A diferença entre as médias das regiões Nordeste e Sul (4,0), a maior e a menor média, é inferior a diferença entre IES Públicas e Privadas (4,6).",
+  "text_sha256": "d46e95fe8ee2514b955688cd759291d7534d3b8f890e7a20b1b91a5720d45717",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e435209528a1cda006af90bceca5c87d18629759febb7da15",
+    "usage": {
+      "input_tokens": 2686,
+      "input_tokens_details": {
+        "cache_write_tokens": 2683,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2683
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 262,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 2948
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_admin_p/enade_2018_admin_p_page_103.txt",
+      "source_sha256": "1e5cba0e2d49e550e9ec1d7eb6b10053eb2f474347e85c720030186866d4c09e"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_admin_p/enade_2018_admin_p_page_105.txt",
+      "source_sha256": "064afa9f332a4c7223e21d4f6792247373707a5d87ccb6a9dfc7f5289279f764"
+    }
+  ],
+  "created_at": "2026-11-15T01:33:02Z",
+  "duration_seconds": 2.808,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2018_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2018_admin_p/enade_2018_admin_p_page_104.txt",
+    "source_sha256": "16fe70f87462ffc88bc4feb4cca5328c3d0f447c27b4b333236541210258939a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f99a92502dbb343ee915a3cf7427bc870ff6fd885caf3228034e1dd96a940c5b",
+  "request_fingerprint": "ecbfb2bb1e68c3321f506e5a2cdafcce0a5b09f4bf75ca8a0e8bc8af43ae3b43",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e fonte. A última frase da página continua na página seguinte; não foi completada."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas não contaram com cursos. As Instituições Públicas contaram com quatro cursos na região Norte",
+  "text_sha256": "1dba0f4fe096b6dda90b4fd9298d0ea06e168f46742f15fe1320f27d94f9fc72",
+  "window_size": 3
+}

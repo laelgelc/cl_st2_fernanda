@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07b2490f4007a962006af8e4fcd0ac87d1bd6950b3046b681f",
+    "usage": {
+      "input_tokens": 2442,
+      "input_tokens_details": {
+        "cache_write_tokens": 2439,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2439
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 332,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 2774
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_29.txt",
+      "source_sha256": "d849aae81a6b4545e965f722c3eeb554de2cb0129259eafe0005fdcc235538a9"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_31.txt",
+      "source_sha256": "1e6959001d8e6acfacb4a0e7ed3f4b4df1334c28f6243744d47904206e2b70f9"
+    }
+  ],
+  "created_at": "2026-11-14T22:47:24Z",
+  "duration_seconds": 3.91,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_30.txt",
+    "source_sha256": "8646fd995a0117a61d158f6860a26bd6bc6da01dd14ab1d2090ec4b3510bf7d1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "11054177a811af7cc5d7b3074324468b3d1fb06eed6a4c3fb5f3f21496034830",
+  "request_fingerprint": "2b480480a793479b8126931d16c74b8ac437ec00411b91aa7054fc3184ca840b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte, e o Gráfico 3.1, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A ideia de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 33,2 entre os concluintes e 26,3 entre os ingressantes. Nas faixas de notas até 30 pontos, o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 30 pontos. Ainda assim, aproximadamente 3,3% dos ingressantes e 13,4% dos concluintes situaram-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "f37c4122164fc5f6c1ebce17e6ef2366777a0a5694260eb9b75746787c1dc65c",
+  "window_size": 3
+}

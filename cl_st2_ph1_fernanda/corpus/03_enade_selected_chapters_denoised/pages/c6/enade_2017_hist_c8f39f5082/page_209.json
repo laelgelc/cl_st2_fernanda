@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d1e3405a3a56575006af908dd0ddc87d1982580588ff8c5dc",
+    "usage": {
+      "input_tokens": 2930,
+      "input_tokens_details": {
+        "cache_write_tokens": 2927,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2927
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 566,
+      "output_tokens_details": {
+        "reasoning_tokens": 225
+      },
+      "total_tokens": 3496
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 208,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_208.txt",
+      "source_sha256": "2d6a417764774fb869ad053393a06bafdbc63d6419f2abf9c3269fb979e4501e"
+    },
+    {
+      "page_number": 210,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_210.txt",
+      "source_sha256": "79e8cccd950cadf8566c49b9cfb5be10c889528558c110210d16fd41e102e246"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:28Z",
+  "duration_seconds": 5.92,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 209
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_209.txt",
+    "source_sha256": "c98166c5a06ba4fd70e4ad5252eb64b34f54d890954cfa479bc087e02d6ea2b8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cd921bfb7c860f08ae0443c1cb1d63ab5b773a691c97ced16eebb80210ddb55d",
+  "request_fingerprint": "a5f6c4a5b2a98607ee358a412bac2f5958b837328755bd07fb5f9c0afc9f79b7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico da página e a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo Ia.\n\n6.2.2 Componente de Formação Geral – História (Bacharelado)\n\nA Tabela 6.7b apresenta as Estatísticas Básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes de História (Bacharelado) segundo a Modalidade de ensino. A Média dos alunos de Bacharelado nestas questões foi 54,8. A menor Média foi encontrada na região Norte (47,2), e a maior, na",
+  "text_sha256": "d2edd732059dca07ed8123cc9934e2bb68671d78de0418cebd4efd9ce83b3d63",
+  "window_size": 3
+}

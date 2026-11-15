@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c2d12e12ec8a045006af8f40251c887d180c7b850ea61631c",
+    "usage": {
+      "input_tokens": 2933,
+      "input_tokens_details": {
+        "cache_write_tokens": 2930,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2930
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 855,
+      "output_tokens_details": {
+        "reasoning_tokens": 310
+      },
+      "total_tokens": 3788
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_55.txt",
+      "source_sha256": "89ffdd1ee7c2be0d3518734218634c5fe4a25eda5b9747d7be5dd8ee820e4c9d"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_57.txt",
+      "source_sha256": "df00190532e1bc342b57c18f106ca185d4fb8560b64ade8dcc13acbea1bed172"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:30Z",
+  "duration_seconds": 7.355,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_56.txt",
+    "source_sha256": "d8e477ca9794365e1dd34392cc8bfac561b6a04af7d695f504e2978405fab253"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8503b378e189c88fc118eb5ae457361e2ddbb1e3fd8a4093ea054649fd04b4a9",
+  "request_fingerprint": "02d64ac7ceed92c793ded17ed03e19231d11be347ca43c2ea4e9676c8058d369",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e fonte. O texto termina no meio de uma frase na página-alvo; não foi completado com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "de alunos; duas questões tiveram índice de discriminação bom, entre 0,30 e 0,39. Nenhuma questão foi classificada com um índice fraco e, portanto, nenhuma questão foi eliminada pelo critério ponto bisserial.\n\nO índice de facilidade variou de 0,17 a 0,93, e o de discriminação, de 0,33 a 0,52. As questões com índice de discriminação muito bom, de números 1, 3, 4, 6, 7 e 8, distribuíram-se entre os diferentes níveis de facilidade desse conjunto: uma (questão 1) classificada na categoria muito fácil, outra (questão 8) na categoria fácil, três na categoria médio e uma (questão 7) na categoria difícil do índice de facilidade. Em particular, a questão 8 apresentou maior poder discriminatório, com índice 0,52, e foi a segunda mais fácil, com uma proporção de 0,61 de acertos. A questão de número 5 apresentou índice de facilidade 0,17, ou seja, um quantitativo de 17,0% de estudantes conseguiu resolvê-la, dentro do universo de participantes. Além disso, seu índice de discriminação foi bom, com valor igual a 0,33.\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da quarta questão mais fácil e a que obteve o terceiro maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). Na medida em que a nota aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que",
+  "text_sha256": "125de0ac328379dab75a1e363f378ca2ef07d3eeb775f48204665ebbc6e286a5",
+  "window_size": 3
+}

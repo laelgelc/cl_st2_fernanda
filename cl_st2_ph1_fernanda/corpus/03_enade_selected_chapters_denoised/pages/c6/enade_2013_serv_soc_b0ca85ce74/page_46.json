@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee9cf9531d15c60006af8f4e0266887d1ba697bce6a5f35be",
+    "usage": {
+      "input_tokens": 2008,
+      "input_tokens_details": {
+        "cache_write_tokens": 2005,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2005
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 666,
+      "output_tokens_details": {
+        "reasoning_tokens": 457
+      },
+      "total_tokens": 2674
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_45.txt",
+      "source_sha256": "ac00a4c5b55e2477860dddc19a9b699ab6498e115b798e9786f928a2f6bb8b2c"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_47.txt",
+      "source_sha256": "d0f77f95b88126a45bd0254a0e6559c1aad4d8b33420b2313927a9b16a8f449c"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:12Z",
+  "duration_seconds": 6.011,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_46.txt",
+    "source_sha256": "b733de03aa22271f8369e5d9c7fa35d8082ce45dc7c1ac0d9b4ec5f174a26914"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "18cd7eed6d0ecdbcf492424eb2ae5b172786ae833028ff4071e33b6039a4b7b8",
+  "request_fingerprint": "f03e09ec723a47c8e0d6d4e2ee306df7649cf0522297e67df119a416346f409a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico, provavelmente o Gráfico 3.6, e a linha de fonte associada."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Sul (41,7) e a menor, obtida na região Sudeste (39,8). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sul. Este fato está relacionado, também, com o tamanho da população presente envolvida, menor na região Norte do que na Sul.",
+  "text_sha256": "15af1fe96f2512ee36fee31f5084f8766b04fe24713104201d5ac832dde8408d",
+  "window_size": 3
+}

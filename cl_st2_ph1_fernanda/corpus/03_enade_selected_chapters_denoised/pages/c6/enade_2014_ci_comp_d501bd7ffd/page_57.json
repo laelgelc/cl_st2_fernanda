@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0879bbb3b30945ea006af8f662418087d18e17565141d7f5c1",
+    "usage": {
+      "input_tokens": 3085,
+      "input_tokens_details": {
+        "cache_write_tokens": 3082,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3082
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 890,
+      "output_tokens_details": {
+        "reasoning_tokens": 401
+      },
+      "total_tokens": 3975
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_56.txt",
+      "source_sha256": "891e46b8322124cb47a186b449a59e9867f3d8eb65b09e16fea9902e98ed2c37"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_58.txt",
+      "source_sha256": "0e35f40cf3a310824228f4597583b76411be62a24128d5c7e1fda4abc9e8d4d6"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:38Z",
+  "duration_seconds": 10.327,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_57.txt",
+    "source_sha256": "cb2eb2118762d9610ee4d31ea851c5b5dfd476cca2e7d233a6feedad65b7a807"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "edcf78755078163ea5e4d95399017f0a4a46273552acf81b13fbedae27591668",
+  "request_fingerprint": "1cc6ea3c33473e91c3aa7080f6044614c3dc358061fe94e58e24e4b697098add",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte. A última lista textual termina em “0,20 a” no limite da página; foi mantida sem completar."
+  ],
+  "status": "success",
+  "text": "3.2.1 Componente de Formação Geral\n\nA Tabela 3.7 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A média do Brasil foi 63,1. A menor média foi encontrada na região Norte (56,3), e a maior, na região Sul (65,9). As demais médias foram: 62,0 na região Nordeste; 64,0 na região Sudeste; e 62,2 na região Centro-Oeste. O desvio padrão do Brasil foi 21,0, sendo o maior desvio padrão encontrado na região Centro-Oeste (22,0), e o menor, na região Sul (20,0). Os demais desvios foram: 20,8 nas regiões Norte e Sudeste; e 21,4 na região Nordeste.\n\nAs medianas (62,5), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para todas as regiões, sem exceção.\n\nA Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a",
+  "text_sha256": "f877b847fe50f67eabf2e20a2711a751788b642576b3bc4d18304b7d43089d94",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0325ab60dc67a999006af908da631487d184d8a068b4e20692",
+    "usage": {
+      "input_tokens": 3485,
+      "input_tokens_details": {
+        "cache_write_tokens": 3482,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3482
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1360,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 4845
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 206,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_206.txt",
+      "source_sha256": "06ab6059e0e320f3bdcdb0074083fc60b53ee42984bfdd5a27aec8ede90b4fcc"
+    },
+    {
+      "page_number": 208,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_208.txt",
+      "source_sha256": "2d6a417764774fb869ad053393a06bafdbc63d6419f2abf9c3269fb979e4501e"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:26Z",
+  "duration_seconds": 11.611,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 207
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_207.txt",
+    "source_sha256": "f777cf312381712df71fb3f42010f2b6e0a5d9b0ccc57d8186071339caa92344"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b13612ffb036c4542449e996ac01c5fd14c61b0de72605eeb066dda57a62382",
+  "request_fingerprint": "c857622cd06fac88abfc6d2654aca521b29b58e3d903ba14375fd15e7aa787ba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8a, incluindo título, dados e fonte. A página termina com uma frase incompleta; preservado o trecho final tal como aparece."
+  ],
+  "status": "success",
+  "text": " Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, uma teve o Índice de Facilidade classificado como Muito fácil e, também, uma questão foi tida como Fácil. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto duas questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, uma das questões apresentou menos de 15% de acertos, razão pela qual foi classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,14 a 0,87, e o de Discriminação, de 0,30 a 0,53.\n\nA Tabela 6.9a apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices. As seis questões com Índice de Discriminação Muito bom figuraram entre quatro níveis de dificuldade Muito fácil, Fácil, Médio e Difícil: uma classificada na categoria Muito fácil (questão 6) do Índice de Facilidade, uma classificada na categoria Fácil (questão 4), três, na categoria Médio (questões 2, 5 e 8) e uma, na categoria Difícil (questão 7). Já duas questões com Índice de Discriminação Bom figuraram entre dois níveis de dificuldade Difícil e Muito difícil: uma classificada na categoria Difícil (questão 3) do Índice de Facilidade e uma outra classificada na categoria Muito difícil (questão 1). Em particular, a questão 5 foi a que apresentou o maior poder discriminatório, com índice 0,53, e foi considerada Médio em termos de facilidade, com uma proporção de 0,56 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,87. A questão de número 1 apresentou um Índice de Facilidade de 0,14 (Muito difícil), ou seja, um pouco mais de um décimo dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,30).\n\nO Gráfico 6.4a, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, mais da metade (63,6%) escolheu a alternativa correta B (em verde), 14,0% escolheram a alternativa E (em vermelho), 10,4% escolheram a alternativa D (roxo), 8,0% escolheram a alternativa A (azul) e 3,6%, a C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,3% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de uma",
+  "text_sha256": "0b317965f55928aa3008ee73794e788f89494a72dff9ae8b121d379dd9042b53",
+  "window_size": 3
+}

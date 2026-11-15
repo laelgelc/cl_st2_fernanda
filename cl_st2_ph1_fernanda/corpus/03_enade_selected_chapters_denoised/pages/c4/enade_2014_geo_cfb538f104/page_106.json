@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_014877f58aa8392c006af8f9d137f087d18c5b8cdf64f20f5a",
+    "usage": {
+      "input_tokens": 1700,
+      "input_tokens_details": {
+        "cache_write_tokens": 1697,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1697
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 503,
+      "output_tokens_details": {
+        "reasoning_tokens": 311
+      },
+      "total_tokens": 2203
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_105.txt",
+      "source_sha256": "a89b8d3515fef71818018b4a052137e451fcc21c032206046afb3f0a980178a2"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_107.txt",
+      "source_sha256": "51e86976e1407748f45e9283c3dc3e1d272a63b8dabf9f2515226e1f00b62063"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:17Z",
+  "duration_seconds": 6.598,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_106.txt",
+    "source_sha256": "5358621c869c0ed40748951c79c318cf68de83e5d75fdd2ff35b277876dcbfc0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "aeb9f960c17a4b16e7b7ab4aeed7010e69ca281eab39e6bd0c72e4d35efc1b10",
+  "request_fingerprint": "aeacdeec6ae6885b241eba913b177e7e691a50f296165afb13d9c0da99b9ba84",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico; o gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 41,1% consideraram a extensão da prova adequada no quarto de desempenho inferior e 46,1% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 43,5% no segundo quarto e 43,3% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que não há uma tendência discernível na proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que, entre os quartos, não há diferença estatisticamente significativa entre as proporções de escolha desta resposta.",
+  "text_sha256": "6d1b36b0ae0c362c3e72d5c6a9599ae2dc8869f9d567b21ab5058ed2041112f7",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_032ab378ab663afd006af902dc595887d18093281189a155c9",
+    "usage": {
+      "input_tokens": 2334,
+      "input_tokens_details": {
+        "cache_write_tokens": 2331,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2331
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 523,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 2857
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_77.txt",
+      "source_sha256": "b323b27cbd094eb0245ff215d1685aec22c6df6c9ab03c2c11855a7e75c030ff"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_79.txt",
+      "source_sha256": "f2961cdfa608441d096abe56ac1743505722d9718ec2366c689f8355fd5de4d2"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:52Z",
+  "duration_seconds": 4.794,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med/enade_2016_med_page_78.txt",
+    "source_sha256": "29be0754950b51f3adf2495341d2d6782cbceb7275f83e38c19f503af70f66fe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "19363abe473710e6959f9639c72cd49abe21c83c2c69eef2f0ed33e99fdf80e3",
+  "request_fingerprint": "3ae32135bd68ea0baed4874764b188e5edc87ae4be942ebd89cb3b07a7a3d155",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2016”, provavelmente pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 - Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.18, a Média dos estudantes de todo o Brasil foi 18,3. A menor Média nessa questão foi obtida pelos alunos da região Norte (16,5), enquanto a maior Média foi obtida na região Centro-Oeste (21,3). Quanto à variabilidade das notas, o Desvio padrão de todo o Brasil foi 17,8. O maior Desvio padrão foi obtido na região Centro-Oeste (18,6), enquanto o menor foi obtido na região Norte (17,3).\n\nA nota Máxima, 80,0 pontos, foi alcançada por, pelo menos, um aluno de todas as regiões, com exceção da região Norte, onde a nota Máxima foi 75,0. A Mediana do Brasil como um todo foi 10,0, a mesma para todas as regiões. A nota Mínima (0,0) foi obtida por, pelo menos, um estudante em todas as regiões do Brasil.",
+  "text_sha256": "37e42e5b068d4d9823c5d3112d03baf5cb96ee9c6e63059a139d1bab0d240dc5",
+  "window_size": 3
+}

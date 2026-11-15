@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06b0e2da15e06f66006af8f31e4d5487d1b56bb0b73c869409",
+    "usage": {
+      "input_tokens": 1447,
+      "input_tokens_details": {
+        "cache_write_tokens": 1444,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1444
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 345,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1792
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_45.txt",
+      "source_sha256": "70f852a3b463bb2a37f419720621d54cef00f059e52b748b68e9a00eb0fc551f"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_47.txt",
+      "source_sha256": "7498a6816987747bb49d779d045e418ccb018b879f0e25090ad74311dfad96fd"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:42Z",
+  "duration_seconds": 3.888,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_46.txt",
+    "source_sha256": "a84fcc50668e131e75f61d5ff935d8d04e595154a8e547b887c41db64e3a43dc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc090e284987c13af1185c18e43486e68c99f1afbd8ffdbe06227c98a54c36a9",
+  "request_fingerprint": "78e8d87132e7891e78f38f64b75c8c0c26bc72a414ab35edbeff6329a44687c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Biomedicina, das IES Públicas (54,0) obtiveram uma média maior do que os das IES Privadas (48,8).",
+  "text_sha256": "93833a354bd76f950eb6ad63f1151eda15c4653aa904ea1ec268e51b0299f810",
+  "window_size": 3
+}

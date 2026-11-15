@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cceee9bb0f0f700006af906ff45d487d1a5d2962b57c11b23",
+    "usage": {
+      "input_tokens": 2734,
+      "input_tokens_details": {
+        "cache_write_tokens": 2731,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2731
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 927,
+      "output_tokens_details": {
+        "reasoning_tokens": 510
+      },
+      "total_tokens": 3661
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_126.txt",
+      "source_sha256": "00adccaffa45fe00ebd4e38a1a1ef394dee200a2a54d2b1ecb2691f9ee6a7621"
+    },
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_128.txt",
+      "source_sha256": "ca02cd9795a5b0a7aaed41ca583cdfa197756abeec4ca7ab27fa0a889dda3345"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:31Z",
+  "duration_seconds": 8.293,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 127
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_127.txt",
+    "source_sha256": "5424be814f2e48ddb7511e0c4e09459358fae64311240a6621d95295c1779179"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b537ee574820c8485aac0971ec222c2c4c78649d484fb095db44cfb28ab78ecc",
+  "request_fingerprint": "cf85a84ce3b9ebd28c5660dcc2e184b4fbf0584f61e370c1d049cec95073fefc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 6.5 analisa a questão 16 do Componente de Conhecimento Específico. Essa questão foi considerada pelas respostas dos estudantes avaliados na prova, como uma questão com nível de facilidade Médio, 0,59, ou seja, 59% dos estudantes assinalaram acertadamente a opção C, correspondente ao gabarito. Seu Índice de Discriminação, como o da questão 24, foi igual a 0,41, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 16, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta C, representada no gráfico pela curva em preto, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade, deixaram essa questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta C aumenta gradativamente, chegando a atingir 100% para 20 e 22 acertos, enquanto a proporção dos que escolheram alternativas incorretas começa a decair a partir de dois ou três acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "e692d7da698a88cc61b65bd55d179bb10141d938b5a6f97e1cca615aec4997f7",
+  "window_size": 3
+}

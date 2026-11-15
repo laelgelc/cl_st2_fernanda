@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fe4c7f192e96362006af8fca6c24487d18e7668532b505bc8",
+    "usage": {
+      "input_tokens": 2093,
+      "input_tokens_details": {
+        "cache_write_tokens": 2090,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2090
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 2734
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_79.txt",
+      "source_sha256": "0fa4a6bb9bb5ab16edac9ab2c4c3df806ed80a056a12f40f7ea250d07b252849"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_81.txt",
+      "source_sha256": "750d40488880b68c1c2e5b78daa0a2b3e668788445d8cc323f1c406d4746f2cf"
+    }
+  ],
+  "created_at": "2026-11-15T00:28:22Z",
+  "duration_seconds": 6.411,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_gest_prod/enade_2014_tec_gest_prod_page_80.txt",
+    "source_sha256": "66c301fffb24769a51a5391afbfd6e3d777060a1fc27bd2cf68ae3b3b1ab5946"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4f2e285f442fa64e3f94e22a89e5122acbe1db06534d73c4b0afff15c05bfe95",
+  "request_fingerprint": "3d99255a34034053524b139ca364f76fbd8866c679d8101bfee0da7d201888e3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente ao Gráfico 3.10, cuja discussão aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.16. O desempenho dos estudantes de todo o Brasil nesta questão foi mais baixo dentre as três questões discursivas desse componente, e a média dos estudantes de todo o Brasil foi 29,0. A menor média nessa questão foi obtida pelos alunos da região Nordeste (25,6), enquanto a maior média foi obtida na região Norte (35,9). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 27,9. O maior desvio padrão foi obtido na região Nordeste (33,0), enquanto o menor foi obtido na região Sudeste (27,1).\n\nA nota máxima, 100,0 pontos, e a nota mínima (0,0) foram alcançadas por, pelo menos, um aluno em todas as regiões do Brasil. A mediana do Brasil como um todo foi 30,0, a mesma obtida nas regiões Sudeste e Sul. Nas regiões Norte e Nordeste a mediana foi 35,0 e 0,0 respectivamente.",
+  "text_sha256": "b32a2e74d6f8fee8f2e06a0a8b5a7c8484ef673453ca59532d55a1d615cde5ee",
+  "window_size": 3
+}

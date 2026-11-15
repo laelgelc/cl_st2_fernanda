@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c090adb87614e41006af8f28addd487d1bd9684a289b616de",
+    "usage": {
+      "input_tokens": 2420,
+      "input_tokens_details": {
+        "cache_write_tokens": 2417,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2417
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 334,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 2754
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_68.txt",
+      "source_sha256": "9155110313a8f834c77078f46353b470f64799dcc38191384b96dff5d0dd99f3"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_70.txt",
+      "source_sha256": "8cddfa28200566dfb364fffa8078f6f19fc15d3a0137e4188bc0418b10854824"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:14Z",
+  "duration_seconds": 3.761,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM MARKETING.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_69.txt",
+    "source_sha256": "a697b54814b42d80c207cba2218f26a2270fa1e33044642cfc03014f5c813e1e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "201a92ab86160b4588fcc173defa40018c1d8a77332e96d5ecb5cf739cd37194",
+  "request_fingerprint": "c636386e3a5f94bd31016c9568db10a5c4d12fbaa130a394157b970edd25b71e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.19 e sua linha de fonte; a prosa que interpreta o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Desconsiderando os alunos que deixaram a questão em branco (moda principal), essa distribuição tem como moda o intervalo (0;10]. A distribuição das notas possui assimetria à direita, com coeficiente 1,48. Em todas as regiões o coeficiente de assimetria também é positivo e maior do que 1 (entre 1,19 na região Norte e 1,88 na região Centro-Oeste).",
+  "text_sha256": "21afbfdf6cf1def12599ef8d47e91d2cc1030e2ac5fc95801eaddebe1b158767",
+  "window_size": 3
+}

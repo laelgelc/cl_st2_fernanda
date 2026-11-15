@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07a2a3857394aca5006af9029be2b087d189a29bc55697c3c1",
+    "usage": {
+      "input_tokens": 2386,
+      "input_tokens_details": {
+        "cache_write_tokens": 2383,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2383
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 518,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 2904
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_40.txt",
+      "source_sha256": "57cd7e2d32645334eb32b596d31a13ea9c00c383c9d31349d9c81639389ccafd"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_42.txt",
+      "source_sha256": "7800eee5a957cc2050482fc3942cc189121949269ecc82a46773312c18498e65"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:47Z",
+  "duration_seconds": 4.874,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_41.txt",
+    "source_sha256": "8d3580c0092c99e1d038b26863921b1f46b0fcb25a1bd3a49e064fae3f432c4f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "32b2e129b770e30a84ba98fbcb99df21856a961b530c5c078eeadb79f9271976",
+  "request_fingerprint": "47ed9e06f68c865daa679d6f0e659fdc66e19c19ce297bdde04e7c61f2db4dd1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Desvio padrão encontrado na região Centro-Oeste (12,5) e o menor, na região Norte (10,4), indicando uma dispersão um pouco menor das notas desta última região.\nA região que obteve a maior nota Máxima foi a Sul (83,7), ao passo que a região que atingiu a menor nota Máxima foi a Norte (70,3). A Mediana do Brasil como um todo foi 50,1, sendo a maior Mediana obtida na região Sul (51,4), e a menor obtida na Centro-Oeste (45,9). Na região Norte a nota Mínima foi 16,9, na região Nordeste foi 8,8, na região Sul foi 9,7 e nas duas outras regiões a nota Mínima foi zero.\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Centro-Oeste (45,1) e as médias das regiões Nordeste, Sudeste e Sul¹⁷.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (50; 60], seguido de perto pelo intervalo (40; 50].",
+  "text_sha256": "14f117df6113bb64f1506df306ca84d84020a048c43c9362851a03284a1d01a8",
+  "window_size": 3
+}

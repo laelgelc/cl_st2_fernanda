@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b228fcffcb5c722006af8f36bd5c487d19032d0874e9266c2",
+    "usage": {
+      "input_tokens": 1369,
+      "input_tokens_details": {
+        "cache_write_tokens": 1366,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1366
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 793,
+      "output_tokens_details": {
+        "reasoning_tokens": 646
+      },
+      "total_tokens": 2162
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_106.txt",
+      "source_sha256": "faee26e3d16196b283294abe56c48608d1f40b5b2e146d893e9e59e19e5dc13d"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_108.txt",
+      "source_sha256": "d2cb8b0241422083425d25aac99381532fc6d11395f3da39fe661b4f3a9adca4"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:59Z",
+  "duration_seconds": 7.087,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_enf/enade_2013_enf_page_107.txt",
+    "source_sha256": "e048f49bd5b98910fa372a7f117e85ec62f828c728d92393b18768923bca0b5d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "08dc3674cfb8e4d2790d2b272b61a87bad74d523d9854ac04badd3615bbd97f0",
+  "request_fingerprint": "fe610520d18f92cef47bfd18f78b8df809b0ef40a16f93973e997c9b35bef67c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha “Fonte: MEC/INEP/DAES - ENADE/2013”, provavelmente pertencente a material gráfico; não há dados de gráfico identificáveis no texto extraído da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 81,7% e 65,9%. As diferenças entre os quatro quartos são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "a7a8879b4cb96116c34ff9b728a34ef30e7b0f114b875a460df5e5f261791f28",
+  "window_size": 3
+}

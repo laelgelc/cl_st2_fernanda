@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f7d61893219b802006af9045df1cc87d18b1a73cc10516b26",
+    "usage": {
+      "input_tokens": 2782,
+      "input_tokens_details": {
+        "cache_write_tokens": 2779,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2779
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 323
+      },
+      "total_tokens": 3569
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_zoot/enade_2016_zoot_page_51.txt",
+      "source_sha256": "d0db7578e06df6e3adb014cdbe02bdec7e09edd9b4eeee30bddeb7842e419e3d"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_zoot/enade_2016_zoot_page_53.txt",
+      "source_sha256": "b5572a9b164a0b937cf3b1351c959a773f4e8ff65a3960f934eb20beca731889"
+    }
+  ],
+  "created_at": "2026-11-15T01:01:17Z",
+  "duration_seconds": 5.843,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_zoot",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ZOOTECNIA.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_zoot/enade_2016_zoot_page_52.txt",
+    "source_sha256": "2961bb1d3623148963c1035624d21a50b46dc66a1b7de32cb92c7a03c64b8007"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "217da65efb7ef67177b0d00c3a249a7c1aceb80dbab922d5e720c9c4b2bbbe49",
+  "request_fingerprint": "183b845b6ba404eb82242329f598e8a07a9ccc8fc95fcc5867fa1986309e18e8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Médio, com relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa incorretas E (em vermelho) ou B (em verde). Por exemplo, entre os estudantes que acertaram três questões, 29,2% escolheram a alternativa E, 30,9% escolheram a alternativa B (em verde), 0,9% escolheram a alternativa C (preto) e 0,5% a D (roxo). Entre os que acertaram três das questões de múltipla escolha de formação geral, 0,4% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo",
+  "text_sha256": "bf8e6e89662939b74c1c2cb099e85e80c8b09a9f22c77536891cc44fa8f56f23",
+  "window_size": 3
+}

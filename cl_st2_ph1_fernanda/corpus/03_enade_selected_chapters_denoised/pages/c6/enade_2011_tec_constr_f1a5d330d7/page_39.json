@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0930ce8d6e349dcf006af8ef3560c087d1949694ea888c927f",
+    "usage": {
+      "input_tokens": 2138,
+      "input_tokens_details": {
+        "cache_write_tokens": 2135,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2135
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 331
+      },
+      "total_tokens": 2735
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_38.txt",
+      "source_sha256": "c695fd36fb26be872a8640de1c5d220d33668db1768437336aea98129105704c"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_40.txt",
+      "source_sha256": "5807f91efe87fa74635e756984eed1bb02a28f6f0b3908b2682d334c702eece7"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:01Z",
+  "duration_seconds": 5.838,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_39.txt",
+    "source_sha256": "35c7dd38ab4e343c302186edfd7a704b17fa523d552e8a66c5060d7b1c55e701"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7b2271086ff4e379382e4f360bba70efe3505ba0a9db46397e64789a0bc8b065",
+  "request_fingerprint": "0aa91e9f4d130a9e7622545b13d9e3be39246f1b21ec1a2d6b1f235960ce493e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011”, which appears to belong to graph material; any associated graphic is not represented in the extracted target text."
+  ],
+  "status": "success",
+  "text": "3.1.2 Estatísticas Básicas no Componente de Formação Geral\nA Tabela 3.2 apresenta as estatísticas básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo Brasil obtiveram desempenho médio de 53,0. Quanto à variabilidade, o desvio padrão das notas dos estudantes do Brasil como um todo foi 17,4. A maior média foi obtida na região Norte (55,0), e a menor, na região Nordeste (51,2). As demais médias foram: 54,6 na região Sudeste; 52,9 na região Sul; e 51,5 na região Centro-Oeste. Já o maior desvio padrão foi obtido na região Norte (19,9), e o menor, na região Sudeste (16,3). Os demais desvios padrões foram: 17,9 na região Nordeste; 19,2 na região Sul; e 17,8 na região Centro-Oeste.",
+  "text_sha256": "d08f038b346aa4717efff1e617a26bb760e67c1bdc32cd06f49d61ca1ba1b9d4",
+  "window_size": 3
+}

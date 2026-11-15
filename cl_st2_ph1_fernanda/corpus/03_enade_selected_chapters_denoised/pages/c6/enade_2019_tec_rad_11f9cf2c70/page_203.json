@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08eb84170ff0d529006af91632343c87d187f3daabfc5bf3ee",
+    "usage": {
+      "input_tokens": 2417,
+      "input_tokens_details": {
+        "cache_write_tokens": 2414,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2414
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 2783
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 202,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_202.txt",
+      "source_sha256": "a51e316c01da4fa09615417b05d75febcd1f000a70c65fa83748f90260c43acb"
+    },
+    {
+      "page_number": 204,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_204.txt",
+      "source_sha256": "24fa74889a7abac009e938cc42e0e6096f115085ccc0cad60959356718cd1d9b"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:22Z",
+  "duration_seconds": 3.836,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC RADIOLOGIA.pdf",
+    "page_number": 203
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_rad/enade_2019_tec_rad_page_203.txt",
+    "source_sha256": "acb4daf865000f524204b472e4b0d0f49bd07b9378e78f1b38bf3bb96e2e86bd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3485fee8b589bd7b42d0f891cfa3d0783548af34c55d6963553fb196a2dab9be",
+  "request_fingerprint": "3bb7ab154831a1d4b9341b991ff141b0a9f534c94e5db2f5d1181aa0a310292e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.19, seus dados e fonte, e o material gráfico do Gráfico 6.12, incluindo a fonte associada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Radiologia. Apenas 2,7% dos estudantes deixaram a resposta à questão em branco e 1,0% tirou nota zero. A moda dessa distribuição é o intervalo (50; 60], com 18,7% do total de estudantes, seguido dos intervalos (60; 70] e (70; 80], com 17,3% e 17,1%, respectivamente.",
+  "text_sha256": "210f6ad2396fd9013b20697c370cc6fbe56a4af4a5569a7a2847656215598fb8",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02f98d85540771f7006af9255f812c87d191a6668809a288b9",
+    "usage": {
+      "input_tokens": 2266,
+      "input_tokens_details": {
+        "cache_write_tokens": 2263,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2263
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 382,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 2648
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_80.txt",
+      "source_sha256": "170f5c1b2dacf463ef30ce3aa9a19423a232627d7487cdb3cf766ba9a0407c4b"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_82.txt",
+      "source_sha256": "6a335ea30541634b26ff9ff986588791db7a5ef16463b49cd5fc958e0d500b9d"
+    }
+  ],
+  "created_at": "2026-11-15T03:22:07Z",
+  "duration_seconds": 4.352,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC SEGURANÇA NO TRABALHO.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_seg_trab/enade_2023_tec_seg_trab_page_81.txt",
+    "source_sha256": "df50055e107743d70618f7f13d455f35edd5daf0991de987212724ca8a62855f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cd98daa96a1635f1f72ca7a01c7b945b35c9c665a4ccf7a20a193fb7ab355562",
+  "request_fingerprint": "e4d2975bba930b4e8620467589c88f2331fd09e0ca4e44248734a3b6d45d2eee",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.1, sua legenda/caption e a linha de fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Nordeste, onde a proporção foi de 32,3%, enquanto a menor proporção foi identificada na região Norte, com 0,0%. O maior intervalo foi observado na região Sudeste, com variação de 16,1% entre o mínimo e o máximo. Além disso, é possível observar que as diferenças entre as regiões não são estatisticamente significativas. Segundo dados da Tabela V.1 (Anexo V), nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 62,2% na região Nordeste, 50,0% na região Norte, 62,7% na região Sudeste e 62,9% na região Sul.",
+  "text_sha256": "254b677ef8eefa5787d4f8ca6572fed8000047a8f8ae4fa0316b630e7937dc28",
+  "window_size": 3
+}

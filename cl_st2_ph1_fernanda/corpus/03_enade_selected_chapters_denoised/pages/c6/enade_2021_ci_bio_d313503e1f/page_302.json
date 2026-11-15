@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06f7bf7ea6f7f62c006af91752d80887d1a575901885d03171",
+    "usage": {
+      "input_tokens": 3043,
+      "input_tokens_details": {
+        "cache_write_tokens": 3040,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3040
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1020,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 4063
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 301,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_301.txt",
+      "source_sha256": "fc22aa1ab51574b5f5e74d8fd2d45069792fe48c488cd310693ed5709f4399ba"
+    },
+    {
+      "page_number": 303,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_303.txt",
+      "source_sha256": "932ebe98c77a2d2cfc05cd4abb6e752df7f62b581895bcb900bb977532e2984f"
+    }
+  ],
+  "created_at": "2026-11-15T02:22:10Z",
+  "duration_seconds": 8.67,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 302
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_302.txt",
+    "source_sha256": "27bc73ec2e3e79bab25020ce31f2390bcc6c1fc3d0f5b69852263f98dadea793"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "496e4faa325fa8d69a7d3d7452f1bcf13c7704dbd86f51a53182e617061ebd07",
+  "request_fingerprint": "09966fe2323593671d57d9f64bc19a01f2b1b35d66421ab3b2e990ba1c6b5773",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.7b, 6.8b e 6.9b, incluindo títulos, dados e fontes.",
+    "A última frase termina em “pelo” na página-alvo e continua além da página; não foi completada."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.8b, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das questões objetivas do Componente de Formação Geral. A convenção das cores é a mesma da Tabela 6.8a.\n\nAs Questões Objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões válidas, nenhuma teve o Índice de Facilidade classificado como Muito fácil, e duas questões foram tidas como Fácil, por ter índice de acertos entre 0,61 e 0,85. Três questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,59 do Índice de Facilidade, ou seja, houve entre 41,0% e 59,0% de acertos, enquanto outras três questões foram classificadas na categoria Difícil, apresentando acertos na faixa entre 16% e 40%. Nenhuma questão apresentou menos de 14% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,22 a 0,73 e o de Discriminação, de 0,28 a 0,46. Seis das oito questões válidas, quanto ao Índice de Discriminação, foram tidas como Muito bom, uma questão foi tida como Bom e uma questão foi tida como Médio.\n\nNa Tabela 6.9b, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre três níveis de dificuldade Fácil, Médio e Difícil: duas classificadas na categoria Fácil (questões 6 e 7) do Índice de Facilidade, três na categoria Médio (questões 1, 3 e 5) e uma, na categoria Difícil (Questão 4). Em particular, as Questões 1 e 3 foram as que apresentaram o maior poder discriminatório, ambas com índice 0,46, e foram consideradas Médio em termos de facilidade, com uma proporção de 0,55 e 0,56 acertos, respectivamente. O máximo de acertos foi alcançado pela Questão 7, com um Índice de Facilidade de 0,73. A Questão 8 foi considerada Difícil, com Índice de Facilidade 0,22. Seu Índice de Discriminação foi o mais baixo dentre as oito questões válidas: Médio (0,28).\n\nNo Gráfico 6.4b, para exemplificar, analisa-se o comportamento da Questão 3 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à Facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo",
+  "text_sha256": "4ed8de263eef069f540c2f966bb4b42ed411bee43c07330548069879765eb643",
+  "window_size": 3
+}

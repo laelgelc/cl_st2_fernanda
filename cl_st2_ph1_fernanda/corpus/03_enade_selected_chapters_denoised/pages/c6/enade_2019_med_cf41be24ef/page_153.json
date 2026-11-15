@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08e45d76cd6aff80006af91457850087d19b4bee42e1f2af26",
+    "usage": {
+      "input_tokens": 2696,
+      "input_tokens_details": {
+        "cache_write_tokens": 2693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 3100
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_152.txt",
+      "source_sha256": "72d030f589227fc9b143b4c17a61e2fb3d161b5131aa2cce1ea71c86161ba514"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_154.txt",
+      "source_sha256": "fed11d257e5e8c7dae5724592f289ec9d7bc9393e0bd0a6fdddee34d3961bae0"
+    }
+  ],
+  "created_at": "2026-11-15T02:09:27Z",
+  "duration_seconds": 4.396,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_153.txt",
+    "source_sha256": "8310bf64e7f7adc0cea785065073ec1cda261a3672ef6e674a01e4936510f2cb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "441e75aac5bafcf08b5e35a1efd94bee2a9ebf17076a07603eec34620a815d76",
+  "request_fingerprint": "5a5c5eb44e7ee99c4c3432cb2be4805d55da135f0c2d9f9cb48fc79d33140589",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.15.",
+    "Removida a fonte associada ao Gráfico 6.8; o gráfico e seus elementos visuais não foram incluídos na extração."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.8, mostra-se a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que 2,9% dos estudantes deixaram a questão em branco. Chega a quase 55%, se agregado à frequência de 51,8% daqueles que, tendo respondido, receberam nota zero (classe modal). O intervalo (30; 40] caracteriza um máximo local com 22,4%. Nota-se, ainda, que as notas ficaram menos dispersas em comparação às da questão discursiva de número 1, o que pode ser constatado, também, pela comparação do desvio padrão das notas da questão discursiva 2 (22,7) e o das notas da questão discursiva 1 (31,4).",
+  "text_sha256": "0a8b8f14ccef53a41bcf32495b10b662a5cf4e7e666bb4ac562bff0f1485904d",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dcf1d62c1df8a96006af90862c02487d1a15cb46077a97b22",
+    "usage": {
+      "input_tokens": 1718,
+      "input_tokens_details": {
+        "cache_write_tokens": 1715,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1715
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 2139
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_148.txt",
+      "source_sha256": "de168aca29c88305e53351d9b639f8855c8c9afc67ec1f4249af9cbe9d90c2a6"
+    },
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_150.txt",
+      "source_sha256": "3b80b43e0dc98d4181a0ec750510971a82743835fb6f95b3e11acdd80fb63428"
+    }
+  ],
+  "created_at": "2026-11-15T01:18:26Z",
+  "duration_seconds": 5.043,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 149
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_geo/enade_2017_geo_page_149.txt",
+    "source_sha256": "64ae3d592ee1e88cb2d64fa4f8753eaf361b5b1dd899d6123d6d55ba8d417ebc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2aeb5110e848201d6056124ff58072ecd943a06bee0ef540d30c57f3468c7159",
+  "request_fingerprint": "dca9758873bd2edd6b128eabaddd96fcadfa66ae9ab21bf6ff905d3959ebd715",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.5b; o gráfico e seus dados não foram transcritos.",
+    "A frase sobre estudantes que consideraram a prova longa ou muito longa termina em “em.” na página-alvo; possível corte ou perda de texto."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos de Licenciatura, nota-se ainda que 47,9% consideraram a extensão da prova adequada no quarto de desempenho inferior e 53,3% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 48,2% no segundo quarto e 50,4% no terceiro.\n\nNo Gráfico 4.6a, pode-se constatar que, a partir do segundo quarto de desempenho, há uma tendência decrescente da proporção de estudantes de Licenciatura que consideraram a prova longa ou muito longa em. Observa-se, porém, que apenas entre o segundo e o último quarto de desempenho há diferença estatisticamente significativa entre as proporções de escolha desta resposta.",
+  "text_sha256": "e1025c30462fcc7d94b1c4e3e642b7b7318a229245f631345baabc4d7496de60",
+  "window_size": 3
+}

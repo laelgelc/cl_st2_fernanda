@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0409428ab8fc3cd7006af92217352487d1b18c66dad0f4266f",
+    "usage": {
+      "input_tokens": 1993,
+      "input_tokens_details": {
+        "cache_write_tokens": 1990,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1990
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 408,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 2401
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_qui/enade_2023_eng_qui_page_125.txt",
+      "source_sha256": "68d95d3bfd8a58cce4ff411daf377fdb956ed8c501cf57bee9f0139db3b447d5"
+    }
+  ],
+  "created_at": "2026-11-15T03:08:07Z",
+  "duration_seconds": 4.347,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARI QUÍMICA.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_eng_qui/enade_2023_eng_qui_page_126.txt",
+    "source_sha256": "3949b4c0b41b91554e68c4dc4a2bb182281c06bf5176d3dc98b4f1e759486692"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4e0421c21f220154ba530d5aae61d521c6a09239e12a792dfd20f73006dc5f40",
+  "request_fingerprint": "549748617f7ef0c5c411cbe54be107a198332602e78c94c6153a7ee7c90e0455",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.3, seu título/caption e a linha de fonte (Fonte: MEC/Inep/Daes - Enade/2023)."
+  ],
+  "status": "success",
+  "text": "De maneira semelhante à forma como se procedeu em relação à seção anterior, esta seção encerra-se com o Gráfico 4.3, que apresenta a distribuição do Conceito Enade dos cursos de Engenharia Química segundo a organização acadêmica da IES.\n\nNo Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante aos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de universidades apresentam uma poligonal mais à direita do que os Centro Universitários e faculdades, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por CEFET/IF (linha laranja), apresentando as respectivas poligonais mais à direita e, consequentemente, uma distribuição de Conceitos Enade com os maiores valores.",
+  "text_sha256": "9281a16fbeae744cb19b3c36dc30c684fddccd6215c356e77cdd1b430f30d926",
+  "window_size": 3
+}

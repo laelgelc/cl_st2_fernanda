@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0580f754a9331e33006af9006e0d5c87d197a2db4d82f0e235",
+    "usage": {
+      "input_tokens": 2370,
+      "input_tokens_details": {
+        "cache_write_tokens": 2367,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2367
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 417,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 2787
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_41.txt",
+      "source_sha256": "a5ac0b6f16ed54e9693faf1cab9ac1699556dbe6e46d6647b87a168e6440cbbb"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_43.txt",
+      "source_sha256": "8c334bb894fe13dcc90bdd5a1a0a77bc7f1aae53bb75ed5d2ba152184a1c0471"
+    }
+  ],
+  "created_at": "2026-11-15T00:44:29Z",
+  "duration_seconds": 4.18,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO PÚBLICA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_42.txt",
+    "source_sha256": "ab47c451aa386d96ccfaf057df04fb1f4120dfe72ea324d362f812ec28d63297"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "70ad40ffccd7159f2118af93ca348acdcf2214cd4982e68c9e9c46b1d778d46b",
+  "request_fingerprint": "5f9096b4298483ec76698504173780c70e2712d609cf12b0c9896c13d7d4c7ea",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 45,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (50,6), e os das IES Privadas obtiveram Média mais baixa (44,9), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Sul (6,6), a maior e a menor Média, é superior à diferença entre IES Públicas e Privadas (5,7), caracterizando uma maior diversidade regional do que administrativa.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (49,8) que a nacional. As demais médias foram: 44,1 nos Centros Universitários e 40,7 nas Faculdades. O Desvio padrão para as IES Privadas (15,1) e para as Faculdades (15,8) foram superiores ao do Brasil como um todo (15,0), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos tipos de Organização Acadêmica.",
+  "text_sha256": "9f491d85d3beb00ef3bfbe000f212470a3f6d210e7c7f95576b96f2dab064ca3",
+  "window_size": 3
+}

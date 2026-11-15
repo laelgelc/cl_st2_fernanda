@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dd2aec65af31a90006af8f75590d887d1a8355aa8119dc37f",
+    "usage": {
+      "input_tokens": 2612,
+      "input_tokens_details": {
+        "cache_write_tokens": 2609,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2609
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 2999
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_63.txt",
+      "source_sha256": "a517bf7c293145d948168e4276bc3ac277fc6b7496670d0de909aafdba140a5c"
+    },
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_65.txt",
+      "source_sha256": "691d2ac121056dd537ec96a44a8a6dd8f1c417fb3d8601faf155b5c0d7a13637"
+    }
+  ],
+  "created_at": "2026-11-15T00:05:41Z",
+  "duration_seconds": 11.052,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 64
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_amb/enade_2014_eng_amb_page_64.txt",
+    "source_sha256": "bbf7ce0d3aa7f5e6cd6f4220775be382e3338bdcebbc11fe881aa9c648fa534e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0f0e5bd37ceb38e8a7f9596d4744270cb8a0977cbccd640e9d95ac8091557c22",
+  "request_fingerprint": "43c35c5c0c6fa9edcc3e7d4bdae739cf236c3ba7b9824705dfd0296cdc0a76ad",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.8 e sua linha de fonte; a descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Destaca-se o intervalo (70; 80], o modal, com uma frequência superior a 17%. Os intervalos (40; 50], (60; 70] e (90; 100] são os intervalos com as maiores frequências, abaixo do modal e acima de 12%. Nota-se, ainda, que as notas ficaram mais distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.",
+  "text_sha256": "88cc9cca09d951c42931998ac4ffe7d1b5961ea212f56a7a58392d7791fe1f12",
+  "window_size": 3
+}

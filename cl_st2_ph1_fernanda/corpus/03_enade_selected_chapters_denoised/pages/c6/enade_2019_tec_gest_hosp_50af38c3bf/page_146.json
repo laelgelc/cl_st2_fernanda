@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ffbd9e0802d6f4d006af915cf2c1c87d1a8459a0ac92e62bf",
+    "usage": {
+      "input_tokens": 2333,
+      "input_tokens_details": {
+        "cache_write_tokens": 2330,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2330
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 2823
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_145.txt",
+      "source_sha256": "c37c03629cfb9f8e918aa91199bde018c94696d7a1ccd0c0e2018b4420a4b72a"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_147.txt",
+      "source_sha256": "b8707f994dc9855937af29046a7a834d1fda3fa1b1d2513152f43617c9b3da1b"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:43Z",
+  "duration_seconds": 4.752,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_146.txt",
+    "source_sha256": "b02d51ce1737ca448c7a2d24d375bb56f9eb8e2b597858e6f0938feb61b39c0d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0b45f32b69a55d0a17d181b0d9dce2cb2887280f6374f996e9117aaf07b65e20",
+  "request_fingerprint": "15c5b192795f65a5cb30f7397c55513040c4bb3d7e1d9ecf2fdc5d94219996ab",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 6.1 (histograma e dados visuais), incluindo a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2019”."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50], seguida de perto pelo intervalo (50; 60].\n\nNa Tabela 6.2, são apresentadas informações referentes à média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 48,9. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (54,7) que a Média nacional, e os das IES Privadas obtiveram Média um pouco mais baixa (48,2). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Norte e Centro-Oeste (4,7), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (6,5), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (11,3) foi inferior ao do Brasil, como um todo (12,9), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.",
+  "text_sha256": "20a2da233054c519bcca1418fc19bfa3a9992dbb340857a7149534b72b0a4d4d",
+  "window_size": 3
+}

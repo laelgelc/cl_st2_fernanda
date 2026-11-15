@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0748440e65e6dfb6006af8f90ab99c87d1a78adc3af67911e4",
+    "usage": {
+      "input_tokens": 2303,
+      "input_tokens_details": {
+        "cache_write_tokens": 2300,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2300
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 283,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 2586
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_80.txt",
+      "source_sha256": "e927e8ee996ba74d2a8708d00e40e65d30606bc40ed08e12ff4647e069cc476f"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_82.txt",
+      "source_sha256": "25ac77250cdec007c5dcb977fee99cf75609308a0eb3296a0e6d00f0f663d75e"
+    }
+  ],
+  "created_at": "2026-11-15T00:12:58Z",
+  "duration_seconds": 3.804,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_mec/enade_2014_eng_mec_page_81.txt",
+    "source_sha256": "c87420e00b14ec3ec4bce15b0d9c39b3be0b7317809a38d798b1c064131d10af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6d9bdcdd0936a45c267ae0b3c6a7a577e7a391a9c19dbf788d9e78698ac1014f",
+  "request_fingerprint": "214c42eff0ea49f192b5c2573db72f603b8438851a1ce036e4061cf09a5f011a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados e fonte.",
+    "Removido o material do Gráfico 3.11 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Engenharia Mecânica. Sem levar em consideração que quase 40% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda nas notas 0,0 (acima de 30%).",
+  "text_sha256": "bbab05768cd889704a8b43e7944cd227a1f265cbfd1b1f910d0b0a0492e2166f",
+  "window_size": 3
+}

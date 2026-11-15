@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e04a0fe8ca0ea7e006af8edaeb4f087d180c7e5b5f8d61d28",
+    "usage": {
+      "input_tokens": 2680,
+      "input_tokens_details": {
+        "cache_write_tokens": 2677,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2677
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 818,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 3498
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_35.txt",
+      "source_sha256": "3f0c52d95526b3086da4ec6163c719781fc7c990e7879f8ebba90956c912a234"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_37.txt",
+      "source_sha256": "4cbfff8cf9e90dd07d602283efdbe459f017aa067afba085433bf4324923fb79"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:30Z",
+  "duration_seconds": 8.405,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_36.txt",
+    "source_sha256": "130ec3fd412d0867711c7578b14f4d69b4219584ce4c82f16caa993d51ff43e9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dd4092dcd5eca442e9dacf28c9a972cb4549e8975fa62834ff32075eb25ad6a2",
+  "request_fingerprint": "dee158200ab100a7374437f9449b5e677b36e96cc3e97b370e8e8cd83f5a0ec3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os componentes de Formação Geral e de Conhecimento Específico) foi 32,8, sendo que os alunos da região Sudeste obtiveram a média mais baixa (31,6) e os da região Sul obtiveram a média mais alta (35,3). As demais médias foram: 33,9 nas regiões Norte e Centro-Oeste; e 32,0 na região Nordeste. O desvio padrão para o Brasil como um todo foi 15,7, sendo o maior desvio padrão encontrado na região Sudeste (17,1) e o menor na região Centro-Oeste (11,9), indicando uma dispersão um pouco menor das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Sudeste (82,7), ao passo que a região que atingiu a menor nota máxima foi a Centro-Oeste (72,8). A mediana do Brasil como um todo foi 34,2, sendo a maior mediana obtida na região Sul (36,3) e a menor obtida nas regiões Nordeste e Sudeste (33,6). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta a distribuição das mesmas em colunas diferentes para alunos de Bacharelado e de Licenciatura. As distribuições são bimodais. O intervalo modal principal dos concluintes de Bacharelado é [0;10] e o secundário é o (30;40]. Para os estudantes de Licenciatura a situação se inverte: a moda principal está no intervalo (30;40] e a secundária no primeiro intervalo.\n\nOs coeficientes de assimetria das distribuições das notas das duas habilitações são negativos: –0,28 para o Bacharelado e –0,46 para a Licenciatura. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. Apenas para concluintes de Bacharelado da região Sudeste o coeficiente de assimetria é positivo. A menos da região Centro-Oeste, a assimetria das distribuições das notas é mais acentuada para os cursos de Licenciatura do que para os de Bacharelado.",
+  "text_sha256": "1fc936ed46674d850a94b59185d955fb73a37723e9af24383e49eabb65844fb3",
+  "window_size": 3
+}

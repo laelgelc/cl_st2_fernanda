@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03757cb177621d0b006af8fa85ccf087d1bc23a363cd8d5c85",
+    "usage": {
+      "input_tokens": 1507,
+      "input_tokens_details": {
+        "cache_write_tokens": 1504,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1504
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 710,
+      "output_tokens_details": {
+        "reasoning_tokens": 465
+      },
+      "total_tokens": 2217
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_mat/enade_2014_mat_page_114.txt",
+      "source_sha256": "b9d98f49c2aca4eefe4b89a88f3083aaf06e69bda08194fa587c577b0a587086"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_mat/enade_2014_mat_page_116.txt",
+      "source_sha256": "44b28eb2cb87fce710e4e04dbde44cb38c4011af6d80fc20641ff0a6a3b2ee5a"
+    }
+  ],
+  "created_at": "2026-11-15T00:19:17Z",
+  "duration_seconds": 7.315,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_MATEMÁTICA.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_mat/enade_2014_mat_page_115.txt",
+    "source_sha256": "582a84a1383fabfd998d1d625caad54973ca07aaaac5244c75af130a6eb98760"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a5058c6cb7937460791e6de8ac2175fd444aae185a3d0842477a41c83a065f28",
+  "request_fingerprint": "32ac0cec73b584e9988cd8f532233343954e93e9900800a0d1eef5f973554d86",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2014”, apparently belonging to graph material; no graph data or labels were present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "4.3.2 Componente de Conhecimento Específico\nCom relação aos enunciados das questões do Componente de Conhecimento Específico da prova, para 65,8% dos estudantes avaliados da Área de Matemática, a clareza e a objetividade (Questão 5) estavam presentes em todas ou na maioria das questões (Gráfico 4.9, Gráfico 4.10, e no Anexo II, a Tabela II.5).\nA maioria dos estudantes de todas as Grandes Regiões brasileiras considerou claros e objetivos todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico da prova, percentual sempre maior ou igual a 61,1%. A diferença entre a maior e a menor proporção, 70,1% (Centro-Oeste) e 61,1% (Norte), é estatisticamente significativa.",
+  "text_sha256": "49c62a2e140ffa0d3b54284309cf0ab5202eb4e557b14665069438288f16dea1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d7200ffbde336a3006af8f39581fc87d1a8ba3dd2828bd714",
+    "usage": {
+      "input_tokens": 1541,
+      "input_tokens_details": {
+        "cache_write_tokens": 1538,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1538
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 434,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 1975
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_96.txt",
+      "source_sha256": "e4e406d52545035c4a107371697532e5a6d0179f06756200797685f72ca93e33"
+    },
+    {
+      "page_number": 98,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_98.txt",
+      "source_sha256": "cfa2b8b669d5e48091f451f02deedbe93f3c6ae1b71cb511e191663aec3a1fe5"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:41Z",
+  "duration_seconds": 4.08,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 97
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_97.txt",
+    "source_sha256": "e5e92221bdc9b10e3fc041b10e1b68e21add90b35f8879ca70604d9f02e21ba3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "808be6cd0a34a5fddc2746f6dc6ef46c7d0eebbcaa141387b59d5911a1498008",
+  "request_fingerprint": "0212ead824c54cbafc8e9527512966b951c31bff7e488acbc41064736ab10e75",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graph material on the preceding page."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 85,2% dos respondentes da Área de Farmácia de todo o Brasil afirmaram que estas eram até excessivas ou suficientes em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12 e, no Anexo II, a Tabela II.6).\nQuanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou suficientes em todas ou na maioria das questões foi sempre superior a 80%, chegando a 87,3% na região Sul. As diferenças entre as proporções da região Sul (87,3%) e as regiões Norte (80,9%) e Sudeste (84,9%), são estatisticamente significativas.",
+  "text_sha256": "09454f6f597ad7029325d8908d65c62c2ee2267d6a9803095981f3888f230386",
+  "window_size": 3
+}

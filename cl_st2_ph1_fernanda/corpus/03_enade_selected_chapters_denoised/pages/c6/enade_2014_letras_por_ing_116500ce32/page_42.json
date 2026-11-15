@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_012a318b658a5b8c006af8fb4814a487d1b891d2c05ce5e1cb",
+    "usage": {
+      "input_tokens": 2861,
+      "input_tokens_details": {
+        "cache_write_tokens": 2858,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2858
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 3186
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_41.txt",
+      "source_sha256": "da28daa7821c9c551d380915805b1f74b1018779eb027c943f6884df00186300"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_43.txt",
+      "source_sha256": "89a874c843a6105b15d42c57ea0ccf3239677e147a0b71b0e3265828f88da470"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:32Z",
+  "duration_seconds": 4.185,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_42.txt",
+    "source_sha256": "79e8ffa24baa881f271cb1b04a02f4135bf54ae763525aed2d4cbf64badd312b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b4c2d7f895f247b3dda26bdb703855edecaef56fd228e5bdee239fc061ff68a6",
+  "request_fingerprint": "1f4ecc6697e4bd909e4d6fe4c5d7bd42102960fc195448aa467d72e2a9c73394",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte. Removido o histograma do Gráfico 3.1 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (30; 40]. Nota-se que o intervalo (40; 50] apresenta uma frequência muito próxima à modal. As notas encontram-se distribuídas por todos os intervalos.",
+  "text_sha256": "51a2f9e693b3b2015cfbcac3a3eed6f7a9ccf139e7d591ae3b3e1accd3db4d4b",
+  "window_size": 3
+}

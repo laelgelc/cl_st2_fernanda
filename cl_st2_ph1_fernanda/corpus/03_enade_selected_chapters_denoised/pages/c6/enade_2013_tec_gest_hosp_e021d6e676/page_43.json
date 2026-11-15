@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_099eb4a19613a294006af8f56df48087d18748c05c00bad40d",
+    "usage": {
+      "input_tokens": 2236,
+      "input_tokens_details": {
+        "cache_write_tokens": 2233,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2233
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 487,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 2723
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_42.txt",
+      "source_sha256": "94af101fa2507f44b1b3f9a8e41a6893877b043815959a1d06ce4722a854f73a"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_44.txt",
+      "source_sha256": "9820b196b486c668728b176c1589c515164b7aa19074369078b6fe79c7fa9f30"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:33Z",
+  "duration_seconds": 4.405,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_43.txt",
+    "source_sha256": "e9a94952b9caf884891c06b6caddae723fd204e5a02b80485b308784efb9950f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a9834de10517bfd0c7ad4a2b3f000aafaa253b101d24b3fd6a6cad9438602508",
+  "request_fingerprint": "04511e582f999e42f150e2d5186a28deaac4ddb89a8c7d20ab7e0b4efa76c596",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Nordeste e Sul, enquanto nas demais regiões as notas mínimas foram: 6,4 na região Norte e 7,5 nas regiões Sudeste e Centro-Oeste.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], enquanto na prova como um todo a moda foi alcançada no intervalo (30; 40]. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,5 para a nota da prova como um todo e 13,4 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,03). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em quase todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,22 para o Sudeste e -0,08 para o Norte), excetuando-se a região Sul (0,08) que possui assimetria levemente positiva.",
+  "text_sha256": "0f3bce8305809a0d3c9d77f463789ecdde1d2cb2529f3d055399801d3395a66e",
+  "window_size": 3
+}

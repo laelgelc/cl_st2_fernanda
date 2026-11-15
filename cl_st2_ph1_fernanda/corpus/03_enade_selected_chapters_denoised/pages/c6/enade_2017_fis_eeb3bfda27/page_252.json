@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ef45af9adf3d012006af9084d992887d183cd3fbf3572f76e",
+    "usage": {
+      "input_tokens": 2823,
+      "input_tokens_details": {
+        "cache_write_tokens": 2820,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2820
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 287,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 3110
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 251,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_251.txt",
+      "source_sha256": "ac844120b49683756c4903bd428a524283758013490a35bc620f633700765fd4"
+    },
+    {
+      "page_number": 253,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_253.txt",
+      "source_sha256": "e5105ee1b9b82fcaaeed6c5ddd7fcbd7a676a0d2bc61cf736f194a3a91e738a6"
+    }
+  ],
+  "created_at": "2026-11-15T01:18:05Z",
+  "duration_seconds": 3.301,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FÍSICA.pdf",
+    "page_number": 252
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_fis/enade_2017_fis_page_252.txt",
+    "source_sha256": "51b0e97b32d62b2ed6e96732d9b1b2cc8bb98148e4c9825ed27dee3687df1746"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d66f2dd235cae4ce751247129d867ef595d70486f4fb3d263c96d50732466c8d",
+  "request_fingerprint": "2333e5ee0b6f4c8b0929291bc25509696bdc2573544e1432e64424b317bfd8fe",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.17b, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.10, está representada a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo [0; 10], com cerca de 26% para os estudantes de Bacharelado e de 32% para os de Licenciatura. Observa-se que nesses intervalos estão computadas as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos. O padrão das frequências é descrescente com o aumento da nota.\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "aad9b51a37606ddc81c34dad863b5e212a9c67735fbbfcb905b6aad88ea37128",
+  "window_size": 3
+}

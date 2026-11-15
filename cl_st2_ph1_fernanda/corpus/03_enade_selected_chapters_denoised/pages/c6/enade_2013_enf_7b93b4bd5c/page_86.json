@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0700e9cf7965080a006af8f38e37f887d1ac9033ff115143ab",
+    "usage": {
+      "input_tokens": 2374,
+      "input_tokens_details": {
+        "cache_write_tokens": 2371,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2371
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "reasoning_tokens": 482
+      },
+      "total_tokens": 3083
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_85.txt",
+      "source_sha256": "8990fccfb8b090237d2668f803cc35371fc909d514d111dc6c724f6a44cc1127"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_87.txt",
+      "source_sha256": "83ee2c65aa0a4420fb44852024b14d7d7fbfd948a212eda49ed95f2b6c56ddd0"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:34Z",
+  "duration_seconds": 6.661,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_86.txt",
+    "source_sha256": "4247d94eea4d535262a9a134ba6159dfcde6fde97e27dc2d90091e96396dc2b1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "df7845a997f26ef799e4d5426f9709643835ff996fbfaa0c13358c01c79459a3",
+  "request_fingerprint": "02e366618b5b27e87d4e44eb6ac32904b69cb2e793a0fd21abb590a69bdd8180",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.15. O texto menciona o Gráfico 3.22, mas nenhum conteúdo gráfico foi identificado na extração do alvo."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda da distribuição. Entre as três questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou um maior espalhamento das notas daqueles que resolveram a questão. Além da moda na nota zero, aparecem ainda dois máximos locais: (30; 40] e (60; 70].\n\nO coeficiente de assimetria para todos os alunos é 0,29 e para todas as regiões se mantém positivo, variando entre 0,14 na região Sul e 0,44 na região Norte.",
+  "text_sha256": "e376ba9e7891a133aceb9a53b437e72fadbc40bb95d4e025b9f4707da7f6d6b6",
+  "window_size": 3
+}

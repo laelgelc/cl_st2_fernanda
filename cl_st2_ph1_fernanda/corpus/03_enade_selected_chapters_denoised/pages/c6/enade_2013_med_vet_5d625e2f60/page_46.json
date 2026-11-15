@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06acd85889be472d006af8f42b58b887d1b97cb4931e10ffaf",
+    "usage": {
+      "input_tokens": 1449,
+      "input_tokens_details": {
+        "cache_write_tokens": 1446,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1446
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 262,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1711
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_45.txt",
+      "source_sha256": "161fdb54fbc8c88f1c1059ec0bae66f633bc12220b50b94718095c019c6eb839"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_47.txt",
+      "source_sha256": "1c468e870ee5cf2f5a1eb69c2cd084069803b3886c6099940eeae59da7a5b68f"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:11Z",
+  "duration_seconds": 3.639,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_46.txt",
+    "source_sha256": "e134aabaa1465cfde01901c7698eb28032e4ca8bfe0739956affbc39f64e6501"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a09a45299bcd6a5c7c9e1efbe24d3d9e15116750b72b0ac3e764b7c81e45c0d9",
+  "request_fingerprint": "2b0506c70f3d1d901bc551a5c6b3c341ce598efdd2b8b772f6b3a2ff48c848e0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/INEP/DAES - ENADE/2013”, associado ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o Componente de Formação Geral, os concluintes de Medicina Veterinária, das IES Públicas (50,9) obtiveram uma média maior do que os das IES Privadas (46,1).",
+  "text_sha256": "bb203a0193cb92bb84adde2351fb08e655d499ee6c679ddbc9e7d169b024c993",
+  "window_size": 3
+}

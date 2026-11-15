@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e88b86ecf5f046d006af8f2447dac87d194b3e8397f59494c",
+    "usage": {
+      "input_tokens": 1729,
+      "input_tokens_details": {
+        "cache_write_tokens": 1726,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1726
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 632,
+      "output_tokens_details": {
+        "reasoning_tokens": 457
+      },
+      "total_tokens": 2361
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_82.txt",
+      "source_sha256": "c4f20fe6a6377c8e5c3e56adb68073c66901dadda9647d8df174b2c2b06fc933"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_84.txt",
+      "source_sha256": "9246c4949538d63861ea773821547be3bccb20687a0350921b348882c380f325"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:04Z",
+  "duration_seconds": 7.067,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_log/enade_2012_tec_log_page_83.txt",
+    "source_sha256": "01c478c2d36ff7f0dac888e31b314ac69572624845aa500d156746e6e6762a20"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c3872dc238cdbc961e99608fc9b47bb8c44be304e4ed9e6b8e5a5a15392391c8",
+  "request_fingerprint": "49cc977c6a48108dd17ebeab72800006cf37bc90977866c5e82e84562e60aa0e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, provavelmente associada a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, se observa diferença estatisticamente significativa entre o quarto das maiores notas e o das menores notas. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 30,6% (4º quarto) a 36,3% (2º quarto). Já a alternativa modal para a Questão 2 foi o grau médio, com 56,6% do quarto inferior e 62,2% do superior optando por esta resposta.",
+  "text_sha256": "25a99bd1aed95ab7c7b163dbb8d0cfe38c9f4266de40b05d3cbc83eec1acf8e8",
+  "window_size": 3
+}

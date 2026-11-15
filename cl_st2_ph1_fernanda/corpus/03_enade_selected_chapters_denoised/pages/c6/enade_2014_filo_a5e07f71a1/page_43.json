@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b6e8b913f4c1651006af8f962d53487d1b81d11bef0d8a5f1",
+    "usage": {
+      "input_tokens": 2612,
+      "input_tokens_details": {
+        "cache_write_tokens": 2609,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2609
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 451,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 3063
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_filo/enade_2014_filo_page_42.txt",
+      "source_sha256": "83cc8843e49dbf225d0f0925a6417e672185896d9e0c256024fe4ae7294beef4"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_filo/enade_2014_filo_page_44.txt",
+      "source_sha256": "c9afd96fcced91bd55b5475930b2278397bb9a51eb628ccc97939f1fa5b47be4"
+    }
+  ],
+  "created_at": "2026-11-15T00:14:26Z",
+  "duration_seconds": 4.806,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_FILOSOFIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_filo/enade_2014_filo_page_43.txt",
+    "source_sha256": "a1b0c16c9e226f2d81ac206d05fe1121076fd23aa902e197e40e6aea0c54cc19"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "26477c1c1b02d34b2f92b7a6e3a8b36f292719a1d7d7e9c568584e4d239f6c5c",
+  "request_fingerprint": "95a6b6b4b3cf103f5b46c338803ccc0c72d26c242cddd51f596590dd41d26a9e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a fonte «Fonte: MEC/INEP/DAES - ENADE/2014», identificada como pertencente ao gráfico iniciado na página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.2 apresenta as estatísticas básicas da prova, desagregadas por Categoria Administrativa e por Organização Acadêmica. Da população total de inscritos, 2.916 são de IES Privadas e 3.817 de IES Públicas. Em relação à Organização Acadêmica, a maior participação foi obtida por estudantes de Universidades (5.150), seguido de Faculdades (889) e Centros Universitários (694). A Categoria Administrativa de maior abstenção foi a Pública (33,2%), e entre as Organizações Acadêmicas foi a das Universidades (32,6%), ambos acima da média nacional de 29,8%.\n\nA média das notas da prova como um todo foi 42,0. Em relação à Categoria Administrativa, os estudantes das IES Privadas obtiveram média mais alta (42,3), e os das IES Publicas obtiveram média mais baixa (41,8), que a média nacional. Observa-se que não existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (10,7), a maior e a menor média regional, é superior à diferença entre IES Públicas e Privadas (0,5), caracterizando uma maior diversidade regional do que administrativa.",
+  "text_sha256": "d8d962bc64a5bfacd84f9a3de5b456964e4d7d054924f92889d31ba85c73879b",
+  "window_size": 3
+}

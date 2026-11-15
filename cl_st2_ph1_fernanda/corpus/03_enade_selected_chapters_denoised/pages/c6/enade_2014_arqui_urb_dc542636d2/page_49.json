@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_033166eb5d7cf7bc006af8f5eeeda887d1b0722113db1f6019",
+    "usage": {
+      "input_tokens": 2770,
+      "input_tokens_details": {
+        "cache_write_tokens": 2767,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2767
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 680,
+      "output_tokens_details": {
+        "reasoning_tokens": 258
+      },
+      "total_tokens": 3450
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_48.txt",
+      "source_sha256": "c2ad1ffcb7c750ea6c55371ded90d0eacef13be3d9204116ef343dce3b4fb378"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_50.txt",
+      "source_sha256": "304d2655986c37833d369363f644be4fa8840b2e0e745866f69fc9f6f7315d98"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:42Z",
+  "duration_seconds": 5.926,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_49.txt",
+    "source_sha256": "f7d4fc064eea46ee260ea20279ad622377bd0f76a8d243af3cdb51dd7a626ac7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3d8b7c19bb5d999ab609a58e7a9571f3735b031a693fd5abda66566dfe83a230",
+  "request_fingerprint": "c865cc799ef43e26b04c9d410abf78c982eabde418b4bcbc39c4f1bbb1894617",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, identificada pelo contexto como pertencente ao gráfico da página anterior. Removidos o título, os dados e a linha de fonte da Tabela 3.6."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.6 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de estudantes do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior média foi das Universidades (44,3), vindo a seguir a dos Centros Universitários (42,1) e, depois, a das Faculdades (41,6). Existem diferenças estatisticamente significativas entre a média das Universidades e das demais organizações acadêmicas. O maior desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Universidades (14,5). As Universidades também obtiveram as maiores notas máxima (84,9) e mediana (45,2). Por sua vez, os Centros Universitários e as Faculdades obtiveram a mesma nota máxima (80,9), no entanto as medianas foram diferentes, sendo 42,0, para os Centros Universitários, e 41,7, para as Faculdades. A nota mínima foi zero para todas as Organizações Acadêmicas.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (47,0) e IES Privadas (42,5). Neste caso também, a maior média foi obtida por estudantes de IES Públicas de ensino.\n\nObserva-se que existem diferenças estatisticamente significativas ao nível de 95% no Componente de Conhecimento Específico entre as notas das Universidades em relação aos Centros Universitários e Faculdades.",
+  "text_sha256": "e57642b91a6cdacdb7a4f97fb257c3bca8cc23b7f667464ff285e2358d8888ec",
+  "window_size": 3
+}

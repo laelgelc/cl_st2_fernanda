@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dd61dfa2eddbfba006af8f02de17487d18a1e5e2badecd78a",
+    "usage": {
+      "input_tokens": 1732,
+      "input_tokens_details": {
+        "cache_write_tokens": 1729,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1729
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 569
+      },
+      "total_tokens": 2499
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_85.txt",
+      "source_sha256": "834174bb4a559f4a17c27e4ebb66937b89cb946911b29fb47accfa5d65849de1"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_87.txt",
+      "source_sha256": "9e595e5c445cb034379c1c630ec433b18922ddb71719c60ff48ee88714e4e41e"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:09Z",
+  "duration_seconds": 11.788,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_86.txt",
+    "source_sha256": "d6a160f4afebd5d0688e3118c6bc1f8cbb977aa19772b7ccee50d310aac4464b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4e0e9eb0f957fd2ca83d1aa901fb83ac9f3feebff6a4f893caa83e70fc39e8d3",
+  "request_fingerprint": "f2e9ed2422379594c970171585dd70d3c88766d9f91725bcdd42912a5c367ed7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2012”, which appears to belong to graph material."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada variou de 42,7%, no 4º quarto de desempenho, a 45,8% no quarto de desempenho inferior. Observa-se tendência de crescimento conforme o desempenho.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 50%, crescente com o desempenho, mas sem diferenças estatisticamente significativas, com exceção do 1º quarto de desempenho com valor estatisticamente mais baixo do que os demais.",
+  "text_sha256": "c23b4e7dabffcdfcd2ea6673cd2e849c40740257819ce378e7fe8d4bfb2713bc",
+  "window_size": 3
+}

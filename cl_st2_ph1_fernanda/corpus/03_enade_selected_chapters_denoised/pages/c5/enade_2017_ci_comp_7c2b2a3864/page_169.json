@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00ecfc06c3e17c37006af904eef12087d1947bcb33d6dc5ab7",
+    "usage": {
+      "input_tokens": 2332,
+      "input_tokens_details": {
+        "cache_write_tokens": 2329,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2329
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 601,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 2933
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 168,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_ci_comp/enade_2017_ci_comp_page_168.txt",
+      "source_sha256": "5ef06178faeae172edccfb92572e93e6f6de7e99bae77fda0f9294a3e11aae37"
+    }
+  ],
+  "created_at": "2026-11-15T01:03:42Z",
+  "duration_seconds": 5.812,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 169
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_ci_comp/enade_2017_ci_comp_page_169.txt",
+    "source_sha256": "f0be2a7662e10ac70697fbb19ae25e501c4c37c842e77d97423bdcf236763b52"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2d9f886875623d89a424a13f48625e9bc4668d6b9a7182c08f438652ec0be717",
+  "request_fingerprint": "d021210b60912966bf06336aa514e9849a0b6b04fae66cd29bebfb0d060549fd",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 5.1a e sua linha de fonte foram removidos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.1a apresenta a distribuição cumulativa do Conceito Enade dos cursos de Licenciatura segundo Grande Região. Num gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, a região Norte (linha azul) apresenta cerca de 70% dos cursos com conceito 3 ou abaixo deste valor. A região Nordeste (linha verde), por outro lado, apresenta cerca de 50% dos cursos na mesma situação: com conceito 3 ou abaixo. Nas regiões Norte (linha azul), Nordeste (linha verde), todos os cursos têm conceitos 4 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 4, indicando que nenhum curso recebeu o conceito 5. Em linhas gerais, num gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Sul (linha roxa) apresenta os cursos com conceitos mais altos, ao passo que a região Centro-Oeste (linha preta) apresenta a distribuição com valores menores. Cursos em IES situadas nas regiões Sudeste (linha vermelha), Nordeste (linha verde) e Norte (linha azul) estão em uma situação intermediária.\n\nA Tabela 5.1b apresenta a quantidade e distribuição de cursos de Bacharelado de Ciência da Computação participantes do Enade/2017, por faixa de conceito e Grande Região.",
+  "text_sha256": "2f815998ee5a0454a872712187181b313ff37ffd292b3fd60aec8d2a87a14056",
+  "window_size": 3
+}

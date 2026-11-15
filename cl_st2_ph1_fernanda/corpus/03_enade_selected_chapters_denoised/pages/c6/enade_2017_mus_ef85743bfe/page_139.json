@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_070af0dae09efafc006af90a0361dc87d193f8964eb29fcf22",
+    "usage": {
+      "input_tokens": 2889,
+      "input_tokens_details": {
+        "cache_write_tokens": 2886,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2886
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 3628
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 138,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_138.txt",
+      "source_sha256": "feb1662c139d731a92824990581c524257b3c6f927aa62fccd08b60f45a0e779"
+    },
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_140.txt",
+      "source_sha256": "7777644b12cb5c8245c75441a2b7b0d1ede1b4541a6b8c7b037765cbbe30d413"
+    }
+  ],
+  "created_at": "2026-11-15T01:25:23Z",
+  "duration_seconds": 7.879,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MÚSICA.pdf",
+    "page_number": 139
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_139.txt",
+    "source_sha256": "0422bc6bf417d7250ccea1f9fda7b88365b177db109f18214930749ac57c1842"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c847b3ed55c566703bdb9a93cb6a24207d6ca0ae67e6c3a65ec70c52e83bf0fc",
+  "request_fingerprint": "9174ade491ab57ad6bf63e883d4a77fcf55a762676d00931c2041880a4a2c908",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.4, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, em 13,4% escolheram a alternativa D, 11,1% escolheram a alternativa E (em vermelho), 7,0% escolheram a alternativa A (azul) e 2,8% a C (preto). Dos que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 60%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "1cf0f068c946ac4884c48ccbed67ed55eca0b3a40bea4d8cc529ff4106898661",
+  "window_size": 3
+}

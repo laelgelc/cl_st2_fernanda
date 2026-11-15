@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0883968132877eb5006af8eb3173b887d1a74575614b313977",
+    "usage": {
+      "input_tokens": 1655,
+      "input_tokens_details": {
+        "cache_write_tokens": 1652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 2006
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ci_comp/enade_2011_ci_comp_page_106.txt",
+      "source_sha256": "f5cb7c8ad0b79857dff12c4af5b3b930a550d7add174e8bfb367d73e4490852a"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ci_comp/enade_2011_ci_comp_page_108.txt",
+      "source_sha256": "3a16e142f3e056ae14aeed4aa929432a5abe01d7e889319a1f10ec7a19e7d8d0"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:53Z",
+  "duration_seconds": 5.135,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_ci_comp/enade_2011_ci_comp_page_107.txt",
+    "source_sha256": "d4c5e00df766178d61a0c0479a02b7ae77e3c1e1f01ad62adff3efd64df96b6a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "21b98cdab7c6acdeb9b25fab14195939cb04682d78b4ec8b5679a0062ced7d01",
+  "request_fingerprint": "54c4b9c8d0214fac76d3665e7ae2ef5ce068f98db2f0adc3c83f07b8c491d7f8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», que aparenta pertencer a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que os percentuais dos que consideraram a extensão da prova adequada, a partir do segundo quarto de desempenho diferem pouco, em torno de 63%. Para o de pior desempenho (primeiro quarto), 60,0% consideraram a extensão da prova adequada.\n\nNo Gráfico 4.6, pode-se constatar que para três dos quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 31,5%, sem diferenças estatisticamente significativas.",
+  "text_sha256": "f67efc6902f480063b64d97b50bb16fb54de27581327f2044f7dc4bb091a2b14",
+  "window_size": 3
+}

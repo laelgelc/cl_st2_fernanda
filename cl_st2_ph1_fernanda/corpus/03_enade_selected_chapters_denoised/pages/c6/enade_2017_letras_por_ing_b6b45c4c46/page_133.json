@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00514b24e5d4cfd8006af90972866087d195ab2949120a373c",
+    "usage": {
+      "input_tokens": 2818,
+      "input_tokens_details": {
+        "cache_write_tokens": 2815,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2815
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 863,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 3681
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_132.txt",
+      "source_sha256": "6de2acec923b14e01dd5371c539524ae8fd4fb4cfee36c0656cfb5e8b8fa9747"
+    },
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_134.txt",
+      "source_sha256": "7dcd51f3002f063516f0a9f9d7752ba1d9b896b0ef6926ee1a1badb93406f348"
+    }
+  ],
+  "created_at": "2026-11-15T01:22:58Z",
+  "duration_seconds": 7.622,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 133
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_133.txt",
+    "source_sha256": "767ef7271d6d6d6bfc5fed56fb2c1091fd3aabf426d47d96067049abfda6d0cf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "07a074362a61ddaf3f70c6ecdb1c13b81e9ebe1178c303114a26e2d8fb1f66c8",
+  "request_fingerprint": "64052686e35d9a9bb171e4a02a8363f548843c2dc5c54901575909126ffa6fe4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.2, incluindo título, dados e fonte.",
+    "A última frase da página termina em “52,6 na” e continua na página seguinte; mantida apenas a parte presente na página-alvo."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.2 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova como um todo foi 44,1. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média um pouco mais baixa (43,8) que os das IES Privadas (44,2) e que a Média nacional. Observa-se que não existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Norte e Sul (12,4), a menor e a maior Média, é superior à diferença entre IES Públicas e Privadas (0,4), caracterizando uma maior diversidade regional do que administrativa. O Desvio padrão para as IES Públicas (14,9) foi superior ao do Brasil como um todo (14,2), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, CEFET/IFET, Centros Universitários e Universidades obtiveram Média mais alta que a nacional (47,5, 45,6 e 45,3, respectivamente). A Média das Faculdades foi a menor 40,0. Constata-se que existe diferença estatisticamente significativa ao nível de 95% entre a Média mais baixa, 40,0 das Faculdades, e a dos demais tipos de Organização Acadêmica.\n\nA Média da Modalidade Educação a Distância (43,0) foi inferior à Média da Educação Presencial (44,3), e a diferença entre elas é estatisticamente significativa ao nível de 95%.\n\n6.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nA Tabela 6.3 apresenta as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 52,3. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 15,6. A maior Média foi obtida na região Sul (55,9), e a menor, na região Norte (46,4). As demais médias foram: 52,1 na região Nordeste, 52,6 na",
+  "text_sha256": "2e31d1f0319c82ff729c7675ed48c97014710ff7cf879cd009797b83e3d84195",
+  "window_size": 3
+}

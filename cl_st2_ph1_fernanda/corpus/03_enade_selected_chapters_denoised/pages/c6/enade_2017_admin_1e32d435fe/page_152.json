@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a652ff58661a0b0006af904a7c5c087d1a394e779d21bdbdc",
+    "usage": {
+      "input_tokens": 2435,
+      "input_tokens_details": {
+        "cache_write_tokens": 2432,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2432
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 308,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 2743
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_151.txt",
+      "source_sha256": "4536729a7dbf7033611ea6dd60c44191574837f10c77b0ee0e76021b6c5f27ea"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_153.txt",
+      "source_sha256": "1e2bc2a2ae230046e103848e504e95df7e035b10e6ecc998158f36306ac28e0c"
+    }
+  ],
+  "created_at": "2026-11-15T01:02:31Z",
+  "duration_seconds": 3.808,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ADMINISTRAÇÃO.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_152.txt",
+    "source_sha256": "9cb0bc0e962c3a1050a8d8ddb33933b3526ced49ed898374508b65ec83140740"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4de61e642df6921a938387c7144a7022526a2458a834c770edee63e9925b38e6",
+  "request_fingerprint": "cb97b285a668f1dce10d32ea43b61b396d2c6e559e1fa7e0364580ab03142755",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 6.13 e sua linha de fonte; a prosa que o descreve foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição, como a relativa à questão discursiva 4, também tem moda na categoria “em branco”. Destaca-se que a frequência de notas zero somada a de estudantes que não responderam à questão ultrapassa 20% do total de participantes. Além desse grupo modal, observa-se um máximo local no intervalo (20; 30], seguido de perto pelo intervalo (30; 40].",
+  "text_sha256": "825311dbbd63f2f9e747f9ad3cea7d5e452087084cadfef7dc8279e47fdb8fd1",
+  "window_size": 3
+}

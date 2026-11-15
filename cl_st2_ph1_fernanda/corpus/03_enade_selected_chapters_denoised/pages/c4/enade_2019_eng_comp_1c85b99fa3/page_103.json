@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0147ef107db7d87c006af910cbd27c87d19356e0e23c782976",
+    "usage": {
+      "input_tokens": 1858,
+      "input_tokens_details": {
+        "cache_write_tokens": 1855,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1855
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 539,
+      "output_tokens_details": {
+        "reasoning_tokens": 351
+      },
+      "total_tokens": 2397
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_102.txt",
+      "source_sha256": "66d242517fdb3df4f60ad17fea46bb2c9968a6e61825df5cd81e42a552d1665b"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_104.txt",
+      "source_sha256": "831ee74187bc3946e1a8e8461b07f2ddd16b05667c30de93998e1237c4a829dd"
+    }
+  ],
+  "created_at": "2026-11-15T01:54:19Z",
+  "duration_seconds": 5.223,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_comp/enade_2019_eng_comp_page_103.txt",
+    "source_sha256": "bd2d5968ed50182598ad0e539af5bdc745b0e5f1c604342a8791dce12ea84fa7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "636cd08d372bc4c7c9ef5638da17d4d75e858aff4479b642db6268e822411c45",
+  "request_fingerprint": "df9e17647510637dd5c65fbce04726d8a4cb38f8a0a7617ea16f7c29eb848b1f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 4.7, sua legenda e fonte. O fragmento “CEFET/IF” foi removido como provável rótulo gráfico; verificar a atribuição."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (67,5%), uma diferença estatisticamente significativa da proporção em IES Públicas (55,7%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 40,7% para os de IES Públicas e 30,4% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "f73e6fe8f628c7a3b02cfe94ec2ebdba2caffe696ef7677ba479edd4a4cc7178",
+  "window_size": 3
+}

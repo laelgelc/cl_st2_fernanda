@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08caa03e76658f6d006af91267353c87d1b5eaaba1782c0c6f",
+    "usage": {
+      "input_tokens": 2925,
+      "input_tokens_details": {
+        "cache_write_tokens": 2922,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2922
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 815,
+      "output_tokens_details": {
+        "reasoning_tokens": 218
+      },
+      "total_tokens": 3740
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_159.txt",
+      "source_sha256": "8a4f6705e3569a2594e5b2d5860d44d994c0187b158b9a694b83c2db19c7f586"
+    },
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_161.txt",
+      "source_sha256": "aa16e9807068335ab3b6668469575c87602afa7a20cf298a8a1c08022672da29"
+    }
+  ],
+  "created_at": "2026-11-15T02:01:11Z",
+  "duration_seconds": 6.776,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 160
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_mec/enade_2019_eng_mec_page_160.txt",
+    "source_sha256": "f86ec6a9ceda01ea6a455c24cbe0afb98edb56151ac7e85c3aa68327cac3a406"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0aa7c583a0671fae6f8aab8b29491b4401c8c78f190281981af688a24650569",
+  "request_fingerprint": "9be205844ea12c7254fa26f6b6ec6e18461dd1c24fe260edd5d327fd29de42c8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "de facilidade, com uma proporção de 0,59 acertos. A questão 5 foi considerada Difícil, com índice de Facilidade 0,16 e índice de Discriminação 0,33 (Bom).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Médio, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 16,5% escolheram a alternativa E (em vermelho), 14,1% escolheram a alternativa D (em laranja), 26,7% escolheram a alternativa B (em verde, gabarito), 9,5% escolheram a alternativa A (em azul), e 32,6%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,53) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma Média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 70,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%.",
+  "text_sha256": "3127a94cfa7b895d7a88841771b0748663e203b3550762808bfdc48a71140461",
+  "window_size": 3
+}

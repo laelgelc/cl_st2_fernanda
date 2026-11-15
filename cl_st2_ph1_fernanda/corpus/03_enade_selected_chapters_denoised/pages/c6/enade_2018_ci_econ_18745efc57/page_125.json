@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02a0081c5325f23e006af90c64da1487d1a355fc1b126f2a95",
+    "usage": {
+      "input_tokens": 3109,
+      "input_tokens_details": {
+        "cache_write_tokens": 3106,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3106
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 3668
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_124.txt",
+      "source_sha256": "18520e9381481ec69dcf8f479e4b54fe0d9ad1d6918a991f6c46fed2504d47e4"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_126.txt",
+      "source_sha256": "bcb3ad4288ffd8726b757f315f8877a30a3141f9c87f5dc3f2d8d7e5eaa72bd8"
+    }
+  ],
+  "created_at": "2026-11-15T01:35:32Z",
+  "duration_seconds": 5.255,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_ci_econ/enade_2018_ci_econ_page_125.txt",
+    "source_sha256": "128d29b083265023e014cb2d654622264e33b5ae5aa394068fd172567c19fbff"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8bc6f85083607114693dd8961a15cb591dd5714547f22b05b45cff15062f59bb",
+  "request_fingerprint": "a2d95e01f897ce8b6582a5c802d3d474c5af249787c2c1a34ecb3a320bc8b1f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte.",
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Índice de Facilidade variou de 0,51 a 0,75, e o de Discriminação, de 0,45 a 0,56.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta simultaneamente a classificação dos dois índices. Todas as oito questões, com Índice de Discriminação Muito bom, figuraram dentre dois níveis de dificuldade Fácil e Médio: quatro classificada na categoria Fácil (questões 1, 2, 7 e 8) do Índice de Facilidade e quatro na categoria Médio (questões 3, 4, 5 e 6). Em particular, a questão 4 foi a que apresentou o maior poder discriminatório, com índice 0,56, e foi considerada Médio em termos de facilidade, com uma proporção de 0,51 acertos. O máximo de acertos foi alcançado pelas questões 2 e 8 com um Índice de Facilidade de 0,75, e seus índices de Discriminação foram 0,45 e 0,52, respectivamente. As questões 1 e 7 também foram consideradas Fácil, com índices de Facilidade 0,73 e 0,62, respectivamente. Já seus os índices de Discriminação também foram Muito bom (0,47 e 0,50, respectivamente). As questões 3, 5 e 6 apresentaram um Índice de Facilidade Médio (0,58, 0,55 e 0,60, respectivamente). Seus índices de Discriminação foram Muito bom (0,45, 0,52 e 0,45, respectivamente).",
+  "text_sha256": "63b4151fd45cda548dc57e8b7f6db8501818d9ec2316f3e987387d4af68a6d1b",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02871447a0808a96006af8f52af89887d19cbe5b2d73b4c807",
+    "usage": {
+      "input_tokens": 2493,
+      "input_tokens_details": {
+        "cache_write_tokens": 2490,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2490
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 616,
+      "output_tokens_details": {
+        "reasoning_tokens": 383
+      },
+      "total_tokens": 3109
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_81.txt",
+      "source_sha256": "d406f1cad3ec388d11ef05c5a6e62f96fa040a0fd5c7be861cfe1a2eedb81445"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_83.txt",
+      "source_sha256": "bc43742bd7ea828ad7362f46819fe741c07915fb640fa60d179f19f2a8adcd98"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:26Z",
+  "duration_seconds": 6.979,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_82.txt",
+    "source_sha256": "601675bdb9e2ce7304f6c7a6ac7daf6f8cc3a33d157351e8587b8d5e3226402d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "879d603196f2bf2623272784527f930e30eea38043226293a3a5d87cb72db154",
+  "request_fingerprint": "14d5f582138e8d63dc60c6dd7db51f5001f173c4621f3c99dfe484a209258374",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima foi alcançada nas regiões Sudeste e Sul (75,0), enquanto a menor nota máxima foi obtida na região Norte (55,0). A mediana foi 20,0 para o Brasil como um todo, sendo a maior mediana encontrada na região Sul (25,0) e a menor na região Nordeste (10,0). A nota mínima foi zero para todas as regiões do Brasil, sem exceção.\n\nO Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo (20; 30]. Além disso, as questões deixadas em branco aparecem como uma moda secundária.\n\nO coeficiente de assimetria para todos os alunos é 0,51 e para todas as regiões se mantém positivo, variando entre 0,41 na região Sudeste e 1,01 na região Nordeste.",
+  "text_sha256": "f4fb9eb5ae8056f87cd88ba550a0513d1f725175e2ef676afc1537ac3f43debe",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c4279706d94a43e006af8f44f59a087d18554069e9dab64ea",
+    "usage": {
+      "input_tokens": 1427,
+      "input_tokens_details": {
+        "cache_write_tokens": 1424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 267,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1694
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_107.txt",
+      "source_sha256": "be8aff85d526b8c1647f6c258e44a8f281f389a152b54b76de607fcad5ed8a4f"
+    },
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_109.txt",
+      "source_sha256": "a65ee48c27918d89760240cf5e43a3bb748894bf32cde1f4cd98f6cdaf7880ca"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:47Z",
+  "duration_seconds": 3.089,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA.pdf",
+    "page_number": 108
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_med/enade_2013_med_page_108.txt",
+    "source_sha256": "0bc6d2b6d822b977874619d1d65535ca7eb4f23c5c45fa697d4a40b68e6aa92c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b6725b07a32fe0b38a49e84fabcce713fca737277ed2f46334bcc40c3a2616e4",
+  "request_fingerprint": "793a28f9f570252928ddc3dd6a50625f84e98226be27991a27bd0fd93c492616",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, identificada como pertencente a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 82,3% e 65,5%. As diferenças entre os quatro quartos são estatisticamente significativas, a exceção da diferença entre o 2º e o 3º quarto, e evidenciam uma tendência crescente.",
+  "text_sha256": "395b79f0812440e66bdfceb3f185545a4f8d6d744166b76c425e45b7e2fac47d",
+  "window_size": 3
+}

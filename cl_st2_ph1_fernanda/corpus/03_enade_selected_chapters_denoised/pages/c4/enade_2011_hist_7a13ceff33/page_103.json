@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d6168ad5ddc3a85006af8eda7d71087d1b9bec632c8617c54",
+    "usage": {
+      "input_tokens": 1380,
+      "input_tokens_details": {
+        "cache_write_tokens": 1377,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1377
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 297,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1677
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_102.txt",
+      "source_sha256": "fa07a44715cbeaf296081591f2fb95942b08abe0d36bbc6f4be330d254fe703c"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_104.txt",
+      "source_sha256": "ba88ff1923d441347bba444a5c24370aec9b2bf1d90a8dad46e65304ea382fd4"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:23Z",
+  "duration_seconds": 4.06,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_hist/enade_2011_hist_page_103.txt",
+    "source_sha256": "6b16f048ee3b016833070097b24f24700883a3c2698d3b51bdfaef93c3cb370a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0138d243a6fa40ba726a6c20787f9855f41152b3462784db87f8fbbcfef0f5b7",
+  "request_fingerprint": "39bf84db07336027c19bbc65bfca9dbe1807488fd131b1b852f820d5c9c7ad19",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 75,0% e 47,8%. A diferença entre os quartos extremos é estatisticamente significativa e os valores das proporções de participantes registrados no gráfico 4.18 apresentam uma tendência crescente.",
+  "text_sha256": "3c44991300a4cfe510231370b62168e0aead6da119ab3f791f9785442384c256",
+  "window_size": 3
+}

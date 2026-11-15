@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_036fef9e8a363e1a006af8eb485ce887d1a522121b25ef0165",
+    "usage": {
+      "input_tokens": 2820,
+      "input_tokens_details": {
+        "cache_write_tokens": 2817,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2817
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 3256
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_60.txt",
+      "source_sha256": "88c663596ba2083a5230b22f57b433828c42308aa7952451166eec9d6a10668a"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_62.txt",
+      "source_sha256": "1d9cae95ba755daeb5792601a99a3a7081d11eea65e11c2d070e246a8af82e6a"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:16Z",
+  "duration_seconds": 11.565,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_61.txt",
+    "source_sha256": "3769a1d2cbb488d0ae3bf2fd2bccddb122861f678c575b2176045d7ac0449b0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fc77ade3ba741768c0a0e2ac54b188ff7f1b30da5dcf65d9be9ad8a40eae7a1d",
+  "request_fingerprint": "4038dde1e9d15aedab1c6e224b4711d26eae031727c1c7ce8b46cdeed526b911",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 3.13 e sua linha de fonte foram removidos."
+  ],
+  "status": "success",
+  "text": "100%. Não é este o caso, pois são computadas no gráfico a quantidade de questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b935961da99ca9eca4f730d1bc506dfa00eed811fbb2a61735d678525798ae55",
+  "window_size": 3
+}

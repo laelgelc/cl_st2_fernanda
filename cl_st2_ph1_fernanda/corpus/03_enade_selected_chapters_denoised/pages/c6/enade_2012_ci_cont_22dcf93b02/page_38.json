@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_009c9ee2c78378cb006af8f06acfdc87d1a65a925355a7af37",
+    "usage": {
+      "input_tokens": 1632,
+      "input_tokens_details": {
+        "cache_write_tokens": 1629,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1629
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 1914
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_37.txt",
+      "source_sha256": "f41f58ed3114c5be1db7c69b46fb5934d3bd5483861963f30fd292c79ecdb6aa"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_39.txt",
+      "source_sha256": "f4c8a49e3d6a730e37ad7fbe86e6fd60038feb9bc0f37b519a5fcbe0d41c8066"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:10Z",
+  "duration_seconds": 2.819,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_38.txt",
+    "source_sha256": "b90778a9bd5f471463bc1ba4f764aae6a079632ec6c118fd273e2a8bd567fb74"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7c4c59a327349470ab5198ee5c0e97565ac5b47b0df9ff2af6325ca1a92a463",
+  "request_fingerprint": "6ebd04ece9aa3d523fc471011d8097e06f5563bc25e860776ff86e4c73707d36",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades, Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (35,5), e a menor, pelos de Faculdades (33,5).",
+  "text_sha256": "455faa64e196ae8664f95666ed0375eb86d2efd2cc02831882205f2e1f5e209a",
+  "window_size": 3
+}

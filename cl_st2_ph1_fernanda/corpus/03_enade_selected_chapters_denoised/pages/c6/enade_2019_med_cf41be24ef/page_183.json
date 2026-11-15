@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cb765bd68f7682d006af9146bdd4c87d1b82369620460253c",
+    "usage": {
+      "input_tokens": 2370,
+      "input_tokens_details": {
+        "cache_write_tokens": 2367,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2367
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 411,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 2781
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 182,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_182.txt",
+      "source_sha256": "baf4701fa570e1967ee9312f03bfdd5cd83d74096f9b697d314d10607cb04731"
+    },
+    {
+      "page_number": 184,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_184.txt",
+      "source_sha256": "55e32011bf0d5b5c1c79562c4e71c598dbb89aa707571875a876258f43e48200"
+    }
+  ],
+  "created_at": "2026-11-15T02:09:47Z",
+  "duration_seconds": 3.581,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_MEDICINA.pdf",
+    "page_number": 183
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_med/enade_2019_med_page_183.txt",
+    "source_sha256": "b5873f495784027f0753116232501f1b3066c485a6b781ff508d66ee49807d65"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8975a1fa9c76fb11fa51a82e4e06a98e82eb828e8168a458e4d490297d1a9ce1",
+  "request_fingerprint": "362ca3becf10fa40126c2f9a5811b2a836dc47df5fd765f4e7fb64158230c5d0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19, incluindo título, dados e fonte.",
+    "Removido material do Gráfico 6.12; a linha de fonte após a descrição foi excluída como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.12, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Medicina. Observa-se que apenas 1,1% dos estudantes deixaram a questão em branco e 1,7% receberam nota zero. A moda dessa distribuição é o intervalo (50; 60], com 19,2% das notas, seguido do intervalo (60; 70], com frequência de 18,8%.\n\n6.3.2.2 Comentários sobre as respostas à Questão Discursiva 3\nNa Questão 3, abordou-se a anemia ferropriva, um dos principais problemas de saúde pública mundial. É a deficiência nutricional mais prevalente e negligenciada no mundo,",
+  "text_sha256": "473e92cb047706ce9d862cbd61366cf0ca0e178cf3d64799ca61f63e28876724",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07be10c648245bdf006af90d14352887d1844487ec3823134a",
+    "usage": {
+      "input_tokens": 3218,
+      "input_tokens_details": {
+        "cache_write_tokens": 3215,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3215
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1380,
+      "output_tokens_details": {
+        "reasoning_tokens": 500
+      },
+      "total_tokens": 4598
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_108.txt",
+      "source_sha256": "2d4c9a6cbcb86f1c52ebb6072d6ceb226ce8f26ea0991da1532d149460ab1ca0"
+    },
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_110.txt",
+      "source_sha256": "821b394e9a67e0b558b10850fd86eb6a4fea066dca2e68b464bbbfb5162fe3c8"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:28Z",
+  "duration_seconds": 11.281,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PSICOLOGIA.pdf",
+    "page_number": 109
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_109.txt",
+    "source_sha256": "7afd6ee83cba46c2616314a42b53b52512bbd48a6e5380671bfb662a7e317abc"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7ff69d46039aa8916b807bfa46af3cd9dd9ce30d27156f9e503ecaca1a3f76e6",
+  "request_fingerprint": "d4363f9a23c9a738977c4b48b9a9a659ccd94c711344ba323292db3c252da273",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas a Tabela 6.7 e sua fonte. A última frase termina em “pelo” no limite da página; não foi completada a partir da página de contexto."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.8, são apresentados o Índice de Facilidade e o Índice de Discriminação (Ponto-Bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e duas questões foram tidas como Fácil, por terem índices de acertos 0,68 e 0,74. Cinco questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,45 e 0,58 do Índice de Facilidade, ou seja, houve entre 45,0% e 58,0% de acertos, enquanto uma questão foi classificada na categoria Difícil, com Índice de Facilidade 0,35. Nenhuma questão apresentou menos de 15% de acertos, razão pela qual não houve questão classificada como Muito difícil.\n\nO Índice de Facilidade variou de 0,35 a 0,74, e o de Discriminação, de 0,45 a 0,54.\n\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta simultaneamente a classificação dos dois índices. As oito questões tiveram Índice de Discriminação Muito bom, e figuraram dentre três níveis de dificuldade Fácil, Médio e Difícil: Duas classificadas na categoria Fácil (questões 2 e 8) do Índice de Facilidade, cinco na categoria Médio (questões 1, 3, 5, 6 e 7), e uma, na categoria Difícil (questão 4). Em particular, a questão 4 foi a que apresentou o maior poder discriminatório, com índice 0,54, e foi considerada Difícil em termos de facilidade, com uma proporção de 0,35 acertos. O máximo de acertos foi alcançado pela questão 8 com Índice de Facilidade de 0,74, seguida pela questão 2, com Índice de Facilidade de 0,68, ambas classificadas como Fácil. As demais questões tiveram Índice de Facilidade entre 0,45 e 0,58 (Médio).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo",
+  "text_sha256": "2f430820051218ceb1dadef695f496f4b9fca2df0ff0a88475c6f19d14e5b582",
+  "window_size": 3
+}

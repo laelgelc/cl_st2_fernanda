@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08258a0e723427cf006af8f14b855887d1a273526926205d2c",
+    "usage": {
+      "input_tokens": 2504,
+      "input_tokens_details": {
+        "cache_write_tokens": 2501,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2501
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 757,
+      "output_tokens_details": {
+        "reasoning_tokens": 458
+      },
+      "total_tokens": 3261
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_78.txt",
+      "source_sha256": "dcb2265100878da1887fdbefd8623ab7f558b29549f78555be9e5982018da927"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_80.txt",
+      "source_sha256": "dc050c4c1d5f7d672213eed5545aaed8703c9be916065b686e2b969201f0f0ca"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:55Z",
+  "duration_seconds": 8.021,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_79.txt",
+    "source_sha256": "939e5cbe095ac9d6e969efba6e67174f151b69c40de70f8b461b419855ab8fef"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7340021ad8b9f33941283876eb4663e9532e0d9ca29302ed760dd57f1ed16b00",
+  "request_fingerprint": "56d79714546362af7187f64e1dff404d1d2d3ef6dba0905f5a18b8a55859d96e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e fonte.",
+    "O Gráfico 3.21 é mencionado na prosa; o material gráfico não foi incluído. A página de contexto seguinte começa com uma linha de fonte, que não foi incorporada ao texto do alvo."
+  ],
+  "status": "success",
+  "text": "A mesma nota máxima (100,0), mediana (10,0) e nota mínima (0,0) foram obtidas em quase todas as regiões do Brasil, exceto a mediana na região Sul (15,0) e a nota máxima na região Norte (90,0).\n\nO Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 do componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda. Dentre as notas dos que resolveram a questão 5, o intervalo modal foi (10;20], com o intervalo (0;10] com valor próximo ao da moda principal, neste caso.\n\nO coeficiente de assimetria para todos os alunos é 1,30, e para todas as regiões se mantém positivo, variando entre 1,23 na região Sul e 1,55 na região Norte. Por ser positivo, o coeficiente indica uma assimetria à direita.",
+  "text_sha256": "d471095f406fbc68bef47e8fe7d7abd7aaf4237d9378ef05ba3e0905667214f0",
+  "window_size": 3
+}

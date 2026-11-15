@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_097b0354d5c99867006af91b43960887d1a6bfcb764ef52340",
+    "usage": {
+      "input_tokens": 2500,
+      "input_tokens_details": {
+        "cache_write_tokens": 2497,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2497
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 781,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 3281
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_162.txt",
+      "source_sha256": "0a668eb599be610d89307c076d2e7c17861d4cb82b1905f31fa212e5dc4ffb02"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:59Z",
+  "duration_seconds": 8.429,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 163
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_163.txt",
+    "source_sha256": "82860b2988efee4db75b29030abbdd06eb6ffc0b1de900a93b01163c08519817"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bbcaf7a8c85e3f0bc696dcfcf3ba2aea8489942bbc682597ef14d0f8328de3fd",
+  "request_fingerprint": "805328ef6764a9d32cb760aae98eb1a0ed0e412a72dc0d0140f628e046ca1508",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12, incluindo título, dados e fonte. O Gráfico 6.5 é discutido em prosa, mas seu material gráfico não aparece na página fornecida."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, no Gráfico 6.5, analisa-se a Questão 26 do Componente de Conhecimento Específico. Essa questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com nível de Facilidade Médio, 0,56, ou seja, 56% dos estudantes assinalaram, acertadamente, a opção A correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,42, classificado como Muito bom, o maior valor de Discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da Questão 26, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério Ponto-Bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. No caso de Sistemas de Informação, como se observa no eixo horizontal do Gráfico 6.5, nenhum estudante acertou mais do que 22 questões dentre as 26 questões objetivas válidas, considerando-se o gabarito original. A eliminação das três questões com Índice de Discriminação Fraco do cômputo da nota não possibilitou a existência de nota Máxima igual a 100,0 por pelo menos um estudante (visto na Tabela 6.10).\n\nObserva-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com um acerto, 30% marcaram a opção B (linha verde), 30% a opção D (laranja) e 10% a opção E (linha vermelha). A proporção de estudantes que selecionaram a resposta correta E aumenta gradativamente, chegando a atingir 100% para 21 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três acertos, em função do número de acertos nessa parte da prova.",
+  "text_sha256": "d02d40d7ad6569df9d5fe60fcaad062ec19fbeb9ba5a7f3ab18afb3399aa1b11",
+  "window_size": 3
+}

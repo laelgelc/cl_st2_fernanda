@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b3290248962017e006af8f64575cc87d1af5cf6cf7de71ae5",
+    "usage": {
+      "input_tokens": 1656,
+      "input_tokens_details": {
+        "cache_write_tokens": 1653,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1653
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 497,
+      "output_tokens_details": {
+        "reasoning_tokens": 347
+      },
+      "total_tokens": 2153
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_118.txt",
+      "source_sha256": "9e083fa83bb1c6e2bb626433cd5139f68b815250ed8fcb07d8b4f1dc0a6294ac"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_120.txt",
+      "source_sha256": "9826bbc0795dc7d6252a6d5ae14306e39b68740f49d116877a793376fff57c9f"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:09Z",
+  "duration_seconds": 6.655,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_119.txt",
+    "source_sha256": "26c62b60a2cb0ef55518f829db2ec0cf577596a9007be07a710da8952edb9c66"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0308dd44457ef3f2be236d1cf47b4b38e929bfde214df2a490c207cac2161c35",
+  "request_fingerprint": "9448a5e499bc9a51b03c8458ed7cbcda762f45961552638244cab4bd5f320c47",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2014), aparentemente vinculada a material gráfico."
+  ],
+  "status": "success",
+  "text": "Segundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas do primeiro para o segundo quarto e do segundo para o terceiro quarto. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 82,5% dos estudantes sem que seja estatisticamente significativa a diferença deste para o quarto imediatamente inferior, onde a proporção foi de 82,1%.",
+  "text_sha256": "a528663e73acb107ea1a5e366bd532d487b7a87849c2ce39fc98e2b1958c781d",
+  "window_size": 3
+}

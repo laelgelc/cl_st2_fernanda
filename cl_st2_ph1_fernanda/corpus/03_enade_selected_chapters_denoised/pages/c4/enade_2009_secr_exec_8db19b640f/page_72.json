@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02fe5d99fae6c283006af8e6e27f7087d1bb0ca56c406639a9",
+    "usage": {
+      "input_tokens": 2179,
+      "input_tokens_details": {
+        "cache_write_tokens": 2176,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2176
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2536
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_secr_exec/enade_2009_secr_exec_page_71.txt",
+      "source_sha256": "6f93eb0b7fdd60285b231431a2b415c47625a8e379cfde703ca9c5b4c1bdcaf1"
+    },
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_secr_exec/enade_2009_secr_exec_page_73.txt",
+      "source_sha256": "dc0474a56edb810e0d8b782f97b6fd7a043ad462636f3fe785cce55d4a7d8370"
+    }
+  ],
+  "created_at": "2026-11-14T22:55:30Z",
+  "duration_seconds": 4.021,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 72
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_secr_exec/enade_2009_secr_exec_page_72.txt",
+    "source_sha256": "6a6b8712d7ba8bb8dcff29b9547e8b0f3b89e5730fa4606195b62aef846c5116"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "30793da906882f7c1aa420b1f08fe5eb2374206a8fff65503e2d2200d0993e91",
+  "request_fingerprint": "99d90b71d809dd888d5bb3d54f2e88b1655fbc71f57652d08da8d1893982621c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.1c, incluindo título, dados, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.2a e 4.2b apresentam a distribuição das respostas à questão “Qual o grau de dificuldade desta prova na parte de Formação Geral?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de SECRETARIADO EXECUTIVO.\n\nEntre os concluintes, a maior proporção de estudantes que considerou a parte de Formação Geral da prova como de dificuldade média entre todas as Regiões brasileiras, foram os da Região Norte com 69,4%, já entre os ingressantes, foram os estudantes da Região Norte, também, com 67,6%. A Região com as menores proporções desta resposta foram respectivamente para os concluintes e ingressantes, a Centro-Oeste (55,5% e 57,3%).",
+  "text_sha256": "0b0615c7dd3e2c570f17781eb7f22af13f334ef2de09c6ddd3f94f1e728583a0",
+  "window_size": 3
+}

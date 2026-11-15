@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4956749f5b3734006af8ffeeb83c87d19274ada91fc8c320",
+    "usage": {
+      "input_tokens": 2342,
+      "input_tokens_details": {
+        "cache_write_tokens": 2339,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2339
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 454,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 2796
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_41.txt",
+      "source_sha256": "f98674bff2f7570bc7ba859af4368c18a285a453a844d0f6cc1d086ab4669d48"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_43.txt",
+      "source_sha256": "50ee873b3feff653ccea038d31659c1791ef7586f55788781834dd3355a76b64"
+    }
+  ],
+  "created_at": "2026-11-15T00:42:22Z",
+  "duration_seconds": 4.389,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_qual/enade_2015_tec_gest_qual_page_42.txt",
+    "source_sha256": "7ac59f5aa1d14b4db828b8db37c603fabe2945c53c319a5f1725fcc144b8a8d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "87a305092bb4c4828c9ed4c4ffd1e38b846228144fb051abb6dc5b6f70a30b23",
+  "request_fingerprint": "cc1b106352baf717e24f07cdfad3df49692aeac1ccaa570c4ed12eea005e7dbd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 46,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (52,0), e os das IES Privadas obtiveram Média mais baixa (46,7), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sudeste e Nordeste (3,1), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (5,3), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (47,7) que a nacional. As demais médias foram: 46,9 nos Centros Universitários e 46,0 nas Faculdades. O Desvio padrão para as IES Públicas (13,8) e para os Centros Universitários (13,1) e as Faculdades (12,4) foi superior ao do Brasil como um todo (12,3), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nestas Organizações Acadêmicas.\n\nConstata-se que não existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos tipos de Organização Acadêmica.",
+  "text_sha256": "a8d1be3ba8a48e8d7d1dd47691b7d64742c6451da85a51658ed2dce67384112b",
+  "window_size": 3
+}

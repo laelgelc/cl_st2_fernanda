@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02a2059e57292530006af8f3d0e31487d19a82e981121b394c",
+    "usage": {
+      "input_tokens": 1989,
+      "input_tokens_details": {
+        "cache_write_tokens": 1986,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1986
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 2433
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_44.txt",
+      "source_sha256": "f32a4b02ce6f27a43538da3b939b2cd656c0b0cbf517485213efe5f9d55a8291"
+    },
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_46.txt",
+      "source_sha256": "3eed2602f3950f231e56d52b99e1dc3a5e2d9c75837890b0b850b09872ddb2f3"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:40Z",
+  "duration_seconds": 4.98,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 45
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_45.txt",
+    "source_sha256": "7f8304133a7af122a5e819176425218dfa1fc10cbfaff32d75ef8ce944c8cca7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ef96f4ceb9418ceeb770f9490316d4b9c7f8dfafb36a1e8223dbc336a7c799e4",
+  "request_fingerprint": "8df086e35d585f4a455c2de1046aed4fd9e3e2e9e3876b63ba3a65bf7875f7fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Sudeste (46,7) e a menor, obtida na região Norte (41,7). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "b8e6a15f45d6ce6f3fe2dac5abddb329356b78078a455772de1bf9913c45848d",
+  "window_size": 3
+}

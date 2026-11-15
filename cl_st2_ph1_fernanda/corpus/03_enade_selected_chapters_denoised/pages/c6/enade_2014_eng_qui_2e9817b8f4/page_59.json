@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fcd4e64109e46cf006af8f936bab087d18ce89c612e0d8513",
+    "usage": {
+      "input_tokens": 2158,
+      "input_tokens_details": {
+        "cache_write_tokens": 2155,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2155
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 669,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2827
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_58.txt",
+      "source_sha256": "ee2707b2b35c1d777862bf2b76abffba3c69aab02c7b57ed4088bde28132fa8e"
+    },
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_60.txt",
+      "source_sha256": "238ec4fcbf29dea5150558d9c19615ee91fef392e31e6695d6f732ba65a3d049"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:42Z",
+  "duration_seconds": 7.215,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 59
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_59.txt",
+    "source_sha256": "e5dd4cd64c3d8a7c87fac278c9cb9083211134468902a99ebaebc601d7381aac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c507208ea38fc56443f077ce34adabd1b275f872b2979553073af98009640cbf",
+  "request_fingerprint": "3f0d0aa0e554665fee156c5f32070384bd5915a026ae7738f6ae9450816f7d83",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte.",
+    "O texto menciona o Gráfico 3.7, mas nenhum conteúdo gráfico correspondente aparece na página-alvo."
+  ],
+  "status": "success",
+  "text": "3.3.1.1 Análise de Conteúdo da Questão Discursiva 1 do Componente de Formação Geral\n\nOs dados de Engenharia Química, obtidos a partir das respostas à questão 1, encontram-se na Tabela 3.12 e no Gráfico 3.7. Nessa questão – de melhor desempenho dentre as duas de Formação Geral – os estudantes, de todo o Brasil, tiveram média 63,4. A maior média para a questão 1 foi obtida na região Sul (64,5), e a menor, na região Nordeste (58,8). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 30,9. O menor desvio padrão foi obtido na região Centro-Oeste (25,6), e o maior desvio padrão foi obtido na região Nordeste (32,8).\n\nAs medianas das regiões Sudeste, Sul e do Brasil, como um todo, foram iguais (70,0). Nas regiões Norte e Nordeste, a mediana foi 65,0; e na região Centro-Oeste, foi 60,0. As notas máximas e mínimas da questão discursiva 1 foram as mesmas para quase todas as regiões do Brasil, respectivamente, 100,0 e 0,0; exceto pela nota mínima da região Centro-Oeste (15,0).\n\nO Gráfico 3.7 mostra a distribuição das notas na questão discursiva 1 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos estudantes que obtiveram nota dentro do intervalo (70; 80], correspondendo à moda da distribuição. Destacam-se, também, os estudantes que a nota ficou situada no intervalo (90; 100] com distribuição próxima da modal (quase 20%). Nota-se, também, os estudantes que deixaram a questão em branco com 10% do total.",
+  "text_sha256": "6a708e688032df3850cf37c2a82b01351edc81fe2fa4fb0bb87d054b3de3de89",
+  "window_size": 3
+}

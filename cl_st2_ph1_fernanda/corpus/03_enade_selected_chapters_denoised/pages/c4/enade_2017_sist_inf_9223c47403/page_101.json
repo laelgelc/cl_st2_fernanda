@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eb6630c5b86dae7006af90ae7a75887d188c27d000f32ed19",
+    "usage": {
+      "input_tokens": 1467,
+      "input_tokens_details": {
+        "cache_write_tokens": 1464,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1464
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 263,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1730
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_sist_inf/enade_2017_sist_inf_page_100.txt",
+      "source_sha256": "42ca7b87a33f0006a857dfd9c01f1904671339b37d846f891036596e777c2658"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_sist_inf/enade_2017_sist_inf_page_102.txt",
+      "source_sha256": "c2a5836a221fd263ae1a713f82f1326728902363a5991097ab1760b80ef96954"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:11Z",
+  "duration_seconds": 3.099,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_sist_inf/enade_2017_sist_inf_page_101.txt",
+    "source_sha256": "2c222c0c6dec18fe9f63b66be1ec3476d4743e1e3f3dee23e86d2f82f92433e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d6bb00ad7cd4ee428dab3fb8d768fe5a7ac3369d93e06934b16e4438854a1b3b",
+  "request_fingerprint": "4046c91a4ad6fa5c135584f76c6aa4f8ce41743930255d6bb6b090398afc185e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, a legenda e a fonte do Gráfico 4.17."
+  ],
+  "status": "success",
+  "text": "Uma vez analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma proporção maior de participantes no quarto superior (80,3%) declarou ter gasto Entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. Observam-se diferenças estatisticamente significativas dentre todos os quartos de desempenho.",
+  "text_sha256": "efdff7a06187fb5abb1019059cdf715e2e35587d27445a027196e921af2c0d10",
+  "window_size": 3
+}

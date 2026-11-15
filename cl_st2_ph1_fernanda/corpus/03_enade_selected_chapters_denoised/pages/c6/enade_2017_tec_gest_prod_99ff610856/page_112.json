@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b55676bbc2aa5d7006af90b49998887d19e1297981c5a147f",
+    "usage": {
+      "input_tokens": 2844,
+      "input_tokens_details": {
+        "cache_write_tokens": 2841,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2841
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1099,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 3943
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_111.txt",
+      "source_sha256": "fd4c22e3fd3e6b2427914538af375627ae2353a9dda26e69438ed77e0163d953"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_113.txt",
+      "source_sha256": "afe0be7194f1609fcf2b4681cbc597f8581b9ffdada2f090d88aa1799d12b607"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:49Z",
+  "duration_seconds": 9.718,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_112.txt",
+    "source_sha256": "4a9fc37f32425e305abf2b610d892a1b3015098b36bc955da70a0ff9e546b63b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "28280d2c9b9be14ba2e3b6280c8d89da07e4d2102e632618e3f8f70914548f4c",
+  "request_fingerprint": "86b977803e969a330e65d77db2a96e2f4e7a42ec1701173e76cb10b71ae98db4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.2, incluindo título, dados e fonte. A prosa final da página termina em “região”, com continuação na página seguinte; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.2, apresentam-se informações referentes à Média da nota final, desagregada por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 43,0. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (48,0), e os das IES Privadas obtiveram Média mais baixa (42,2) que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Centro-Oeste e Nordeste (8,1), a maior e a menor Média, é superior à diferença entre as das IES Públicas e Privadas (5,8), caracterizando menor diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (11,4) foi inferior ao do Brasil, como um todo (12,1), indicando uma dispersão um pouco menor das notas nesta Categoria Administrativa.\n\nNo tocante à Organização Acadêmica, os CEFET/IFET, as Faculdades e as Universidades obtiveram Média mais alta que a nacional (47,6, 45,9 e 44,3, respectivamente). A Média das Centros Universitários foi a menor: 40,7. Constata-se que existe diferença estatisticamente significativa ao nível de 95% entre a Média mais baixa, 40,7 dos Centros Universitários, e a dos outros três tipos de Organização Acadêmica.\n\nA Média da Modalidade Educação a Distância (40,8) foi inferior à Média da Educação Presencial (45,3), e a diferença entre elas é estatisticamente significativa, ao nível de 95%.\n\n6.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nNa Tabela 6.3, apresentam-se as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 43,8. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 15,9. A maior Média foi obtida na região Sudeste (48,2), e a menor, na região Nordeste (40,5). As demais médias foram: 42,6 na região Norte, 42,0 na região Sul e 46,4 na região Centro-Oeste. Já o maior Desvio padrão foi obtido na região Norte (16,7), e o menor, na região Centro-Oeste (11,5). Os demais desvios padrões foram: 16,4 na região Nordeste, 16,0 na região Sudeste e 15,4 na região Sul.\n\nA maior nota no Componente de Formação Geral da prova do Enade/2017 foi 91,8, obtida por, pelo menos, um aluno na região Nordeste. A menor nota Máxima foi obtida na região Centro-Oeste (67,9). A Mediana do Brasil, como um todo, foi 44,4, sendo a menor Mediana encontrada na região Nordeste (41,6), e a maior, encontrada na região Sudeste (49,3). A nota Mínima nesta parte foi zero apenas para as regiões Sudeste e Sul, enquanto as demais regiões apresentaram as seguintes notas mínimas: 7,5 nas regiões Norte e Nordeste, e 30,0 na região Centro-Oeste.\n\nConsiderando-se as notas, segundo Grande Região, observa-se que existe diferença estatisticamente significativa apenas entre a maior Média das notas do Componente de Formação Geral, obtida na região Sudeste (48,2), e as duas menores médias, obtidas nas regiões Sul e Nordeste. Já as diferenças dentre as demais médias não são estatisticamente significativas.",
+  "text_sha256": "6298bc3ed2e8797516b36154f1678a94a43a0462e36944181388b3638c15b3f3",
+  "window_size": 3
+}

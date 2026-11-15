@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07dd8b7edce45132006af8ed1e6d9087d182de25a321bc94a9",
+    "usage": {
+      "input_tokens": 1356,
+      "input_tokens_details": {
+        "cache_write_tokens": 1353,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1353
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 426,
+      "output_tokens_details": {
+        "reasoning_tokens": 284
+      },
+      "total_tokens": 1782
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_99.txt",
+      "source_sha256": "696028cc350709ecb12d0660629e6a95bfb9c2f936c5ee30e43be7b972464c02"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_101.txt",
+      "source_sha256": "eeba757223f92d11eab6af72fed5c2a763277f3fefca9d222811940b80455da0"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:06Z",
+  "duration_seconds": 6.568,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FILOSOFIA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_filo/enade_2011_filo_page_100.txt",
+    "source_sha256": "eb55d91b590ca75c99f171c0a6eee28edc3b608e00ea5698b96029e713d0c9d8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "83e11ffd9dfcce502891bcf0e49ff57add177d61ba96c1d2b280d6152995b9b6",
+  "request_fingerprint": "cff24aebe2905652e9c0e31c087effef186c3bd212213e770ed7b5935a9f92b7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, que parece pertencer a material gráfico na página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 79,6% e 55,1%. As diferenças entre os quartos extremos são estatisticamente significativas e os valores evidenciam uma tendência crescente com o desempenho.",
+  "text_sha256": "1a19167711c2549d223874224620e8c3f6f40b3c3f2cc2bb4abe18f27190fbfe",
+  "window_size": 3
+}

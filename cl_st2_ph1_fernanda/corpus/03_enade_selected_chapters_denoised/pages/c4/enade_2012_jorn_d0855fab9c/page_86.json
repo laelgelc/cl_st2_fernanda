@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a569932c7c52d20006af8f10105fc87d189e8922d3d9b4eef",
+    "usage": {
+      "input_tokens": 1626,
+      "input_tokens_details": {
+        "cache_write_tokens": 1623,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1623
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 858,
+      "output_tokens_details": {
+        "reasoning_tokens": 702
+      },
+      "total_tokens": 2484
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_85.txt",
+      "source_sha256": "1f90ca22aa6192a2e96813acb4c5949f71494323123a9f75d5266c0da9223661"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_87.txt",
+      "source_sha256": "fe98447550d3e864f4c60fbcdf6006d38d9234c90cc67dc3c7e5448e918e7edd"
+    }
+  ],
+  "created_at": "2026-11-14T23:38:40Z",
+  "duration_seconds": 8.699,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_jorn/enade_2012_jorn_page_86.txt",
+    "source_sha256": "c5fb14d7dc32a8e9113b312433f9d6b0601556c76291382bf1d91cea6191d283"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "103a781ae0eff175a4df6427f0f7978b2cec48b00a7442843109ee2dbc5fa257",
+  "request_fingerprint": "ed64131c25e70835560e0387786716a8788b927337049871bb7576bccb51fe56",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que pode pertencer a material gráfico; o conteúdo gráfico não está disponível no texto extraído."
+  ],
+  "status": "success",
+  "text": "Segundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas entre o primeiro e todos os demais e entre o último e todos os demais. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 81,9% dos alunos e no quarto de desempenho inferior tal avaliação foi emitida por 65,7% deles.",
+  "text_sha256": "fe227fbde679601d6a8861d227db168819c2c91dc47151466c254a50725a090d",
+  "window_size": 3
+}

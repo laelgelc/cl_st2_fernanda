@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d73931d2a84b7cf006af8f771b93887d18bda5229c7b84842",
+    "usage": {
+      "input_tokens": 1712,
+      "input_tokens_details": {
+        "cache_write_tokens": 1709,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1709
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 2114
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_civ/enade_2014_eng_civ_page_99.txt",
+      "source_sha256": "3b1706924c802d4b9bb0bf3be541b0c1a7d8d3d3c7eb5afa50f96dfacb4db60b"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_civ/enade_2014_eng_civ_page_101.txt",
+      "source_sha256": "f48ef354ec8677b10bee0d15ccf02b2ec6ec7f28152534e5e04df0894f7106f9"
+    }
+  ],
+  "created_at": "2026-11-15T00:06:09Z",
+  "duration_seconds": 4.358,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA CIVIL.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_civ/enade_2014_eng_civ_page_100.txt",
+    "source_sha256": "171a66df9e9bfc6343490a9c7344d7766743b0fdb63f56a777d713124f92bdf9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "270182ac40fe12e4a43955adac18129a208b68b86b46622bc788bfb61fbf8e7d",
+  "request_fingerprint": "556546c219494d84cd66a354d47b9cc697858aaa15a3fcc0802eb23028419b3f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, que parece pertencer a material gráfico (provavelmente o Gráfico 4.12); o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes do quarto inferior e superior de desempenho, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (93,2%), percentual superior à média nacional (87,0%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 80,6% dos respondentes. Estas proporções são crescentes com os quartos de desempenho.",
+  "text_sha256": "3d5783e271ed24f1c814aa6c7e693d90f0cd5ee229b4753bff8e0f776683f7c2",
+  "window_size": 3
+}

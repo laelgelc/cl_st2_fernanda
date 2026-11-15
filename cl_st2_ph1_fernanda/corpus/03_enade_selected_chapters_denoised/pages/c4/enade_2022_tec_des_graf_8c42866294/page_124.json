@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_010dc28154f58230006af91c425b7087d19d4eae76d81ff3f3",
+    "usage": {
+      "input_tokens": 1646,
+      "input_tokens_details": {
+        "cache_write_tokens": 1643,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1643
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 192,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1838
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_123.txt",
+      "source_sha256": "eec40af91925a4ff9926905649d93d4fbe86bd627ae31c0ed8157bdc3bc4c334"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_125.txt",
+      "source_sha256": "46b0b16fd0fd5131fe33f9ea3977eb990776359a2de76ac33a63038d6ec525de"
+    }
+  ],
+  "created_at": "2026-11-15T02:43:14Z",
+  "duration_seconds": 3.188,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_DESIGN GRÁFICO.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_124.txt",
+    "source_sha256": "b71fa7ea1ee1917ac2fd65e75174a8648aebfd0d3cfddc90bb5404a44224e192"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "54a2119fcaf022c4269790efff1dd3595e15f2d42e6a8efa2b940b3ee676a4e4",
+  "request_fingerprint": "272db072eeae4dce3f582154782cad8954fa86f512fe1e7f0bff07cd35cdab36",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.30, incluindo dados, título/caption e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.30 traz resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 5.30, considerando-se separadamente as opiniões dos estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 7,4% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,9% no quarto superior.",
+  "text_sha256": "f158755094ef13e124c0316af9a5fe30a5f6b9ef140b1f9905a9603a3f08ab20",
+  "window_size": 3
+}

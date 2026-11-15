@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00f251c93a5401d8006af902116ba087d187e7145b9a82743f",
+    "usage": {
+      "input_tokens": 2598,
+      "input_tokens_details": {
+        "cache_write_tokens": 2595,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2595
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 345,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 2943
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_90.txt",
+      "source_sha256": "8d5694bf703ba65430dd58792be1555fcd99ebfca3b69173fa731ed967cdf410"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_92.txt",
+      "source_sha256": "05f435bc06aeb71fc5bdeda5147804253c2fbcb56af9f13b6fa7d6182716671a"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:29Z",
+  "duration_seconds": 3.495,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ENFERMAGEM.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_enf/enade_2016_enf_page_91.txt",
+    "source_sha256": "20135d5260f5824594de60fcf715a028855247b0dcb4679d3ce38e1523f5b9f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "921a2b1e067109fcac192a036e0843350f351f4fd77bcc6b95529eb679300659",
+  "request_fingerprint": "fa881c37faeb06f24a4171d288ef7946af3aae2491d3e011e37377a31ae227ce",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 3.13 e sua linha de fonte; a prosa que descreve o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição também é multimodal com moda principal no intervalo (40; 50], seguida de perto pelo intervalo contíguo (50; 60]. Destaca-se também, o grande número de estudantes que deixaram esta questão em branco ou que obtiveram nota no intervalo (70; 80], correspondendo respectivamente a cerca de 10% e 16% do total.",
+  "text_sha256": "2f765f9e4a7d6916dce53b523c420640f2b800dede22e94233aeb34e45b45a46",
+  "window_size": 3
+}

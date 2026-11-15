@@ -1,0 +1,59 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_065e736627d95018006af9174449b887d1866d12b8679ba49a",
+    "usage": {
+      "input_tokens": 3267,
+      "input_tokens_details": {
+        "cache_write_tokens": 3264,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3264
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 837,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 4104
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 281,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_281.txt",
+      "source_sha256": "95e9540532502d4aedb855e555c3c3852a2ab93f0b768b064cb6b7ecbe007e51"
+    },
+    {
+      "page_number": 283,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_283.txt",
+      "source_sha256": "c9a739a2fdb2a25dda81564ee8616159f19fc4f7599a0b419d84f563a7b9ee88"
+    }
+  ],
+  "created_at": "2026-11-15T02:21:56Z",
+  "duration_seconds": 6.24,
+  "error": "Response object must contain exactly 'text' and 'review_notes'",
+  "error_type": "invalid_json_or_schema",
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 282
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_ci_bio/enade_2021_ci_bio_page_282.txt",
+    "source_sha256": "7779950f530c4459b2eee4f0a34f290306dfd5b3e336a6e4863cc76dccb3700a"
+  },
+  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2021_ci_bio_d313503e1f/page_282.json",
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fe221bc7dd3c4b3d5635c29cf4e3aa07766939092bf02f28fc346c49169553b9",
+  "request_fingerprint": "2efdd53c04365f9866bc90d0512a3c859c5e21a26db549b8e48ed870b1c1f373",
+  "retry_count": 0,
+  "status": "invalid_response",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c0901f1660e7a5006af8e841b57087d19157d648288d2897",
+    "usage": {
+      "input_tokens": 2521,
+      "input_tokens_details": {
+        "cache_write_tokens": 2518,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2518
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 389,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 2910
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_45.txt",
+      "source_sha256": "7fa2da944906ed20221fa156b2b58f4746a1b1bb9e61264a6f8c94d4af12bcb2"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_47.txt",
+      "source_sha256": "925255af80b984a966596da3c850cd8ddf7be46f3366e73e2ceaf3e5cca63a6c"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:21Z",
+  "duration_seconds": 3.646,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_AGRONOMIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_46.txt",
+    "source_sha256": "011e194765bf5ffdbd588397d908e8d99422b4fd28bc57a1f80dd638d8dcdd1e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a3193067ffa78d75772093508c2b9f9e25d5baf2ce502b9538dcf90b7bb1ba4b",
+  "request_fingerprint": "f7cde701610988a4e9dbc8bd4b1f3edcc8f1a114ed22a8e7c9a14082beed70e3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.7 analisa o comportamento da questão de número 8 de Formação Geral. Trata-se de uma das questões mais fáceis e com o maior índice de discriminação desse componente da prova.\n\nNo gráfico a seguir, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha) antes de possíveis eliminações pelo critério do ponto bisserial. A curva em rosa corresponde à alternativa B, a correta para este item. Assim, observa-se que entre os estudantes com notas mais baixas, desempenho mais fraco nesta parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em verde) ou E (em roxo). Na medida em que a nota aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para as notas acima de 80,0. Essa análise permite verificar como a questão discriminou entre os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "11c0649b0bab3f8794ff4b143614926cb940ceb53c7399470ba72432bff44140",
+  "window_size": 3
+}

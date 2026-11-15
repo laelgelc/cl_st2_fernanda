@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bee25c9b4a2270b006af8fa1132d487d1ad4e3cfe95eea41f",
+    "usage": {
+      "input_tokens": 1709,
+      "input_tokens_details": {
+        "cache_write_tokens": 1706,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1706
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 741,
+      "output_tokens_details": {
+        "reasoning_tokens": 540
+      },
+      "total_tokens": 2450
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_103.txt",
+      "source_sha256": "bcc68a929d8211055c0f09e119e003e5346f0adef0f13c87f6cc4f83dc128be4"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_105.txt",
+      "source_sha256": "62e34a788b739523be0d4d557df9f43f42edaca530103bf4604bbdd1467c95cd"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:21Z",
+  "duration_seconds": 9.592,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_104.txt",
+    "source_sha256": "efe2bf29cfc069f73db31c144dfd6b86b27b63847d9c741c8b265747276d6379"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a047e0b01f8514cb340c93bd3d4c3f7ac5162277f2904221b38b179a47b9a5d",
+  "request_fingerprint": "1fa1a2871f7c090fc5821ce585c3f0b7bac19b582a4d7d0fce1662bb1c556338",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, provavelmente associada a material gráfico nesta página; o gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que 44,3% consideraram a extensão da prova adequada no quarto de desempenho inferior e 49,6% no de melhor desempenho (quarto superior), valores crescentes com o desempenho. Nos quartos intermediários, esta proporção foi 45,4% no segundo quarto e 46,9% no terceiro.\n\nNo Gráfico 4.6, pode-se constatar que não há uma tendência discernível na proporção de estudantes que consideraram a prova longa ou muito longa em função dos quartos de desempenho. Observa-se que não diferença estatisticamente significativa entre as proporções de escolha desta resposta no primeiro e no último quarto.",
+  "text_sha256": "c23930ba77cc86c717e161f7d7b7e719cf4ae5348793d5da395b2c09d03e725a",
+  "window_size": 3
+}

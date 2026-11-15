@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08cd96348087e2f9006af90a19c22087d1bd47448a558cefb5",
+    "usage": {
+      "input_tokens": 2507,
+      "input_tokens_details": {
+        "cache_write_tokens": 2504,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2504
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 274,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2781
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 175,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_175.txt",
+      "source_sha256": "61975e7afe4c55cf4d43e779f1b94f03b538dd5ac09acf91b25ec88493d7ff33"
+    },
+    {
+      "page_number": 177,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_177.txt",
+      "source_sha256": "b73f3437fea19928ec3dded8275c71b603e945278b9407dd3ead87784446cd0e"
+    }
+  ],
+  "created_at": "2026-11-15T01:25:45Z",
+  "duration_seconds": 3.067,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MÚSICA.pdf",
+    "page_number": 176
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_mus/enade_2017_mus_page_176.txt",
+    "source_sha256": "f6ee2d20b748c24f26c1a996f959a0bdc6839cbed9d839d8771a894d6d50f483"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "008cb888de5b2d9d35d5a1f1ff67747f59549ccba048197e42159403920944a9",
+  "request_fingerprint": "ad1d18504a7e66036ad710934bfeb64374a75e5614f7cf7525e185407c71ae0d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.20, incluindo título, dados e fonte. Removido o material gráfico do Gráfico 6.13 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.13, está representada a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição, diferentemente das relativas às outras duas questões discursivas dessa parte da prova, tem moda na classe “em branco”. Desconsiderando-se esse grupo, a moda seria o intervalo (20; 30].",
+  "text_sha256": "5b792d2068660670be12d5426b4a67650aadd497dd426b2273606bb5262bb714",
+  "window_size": 3
+}

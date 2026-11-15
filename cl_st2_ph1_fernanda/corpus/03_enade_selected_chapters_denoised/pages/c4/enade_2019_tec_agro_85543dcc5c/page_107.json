@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0585720e36eb1c4f006af914fe883087d1b6b7d019e79c36bb",
+    "usage": {
+      "input_tokens": 1824,
+      "input_tokens_details": {
+        "cache_write_tokens": 1821,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1821
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 329
+      },
+      "total_tokens": 2345
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_106.txt",
+      "source_sha256": "cb0b282e808cf95bf234079805bfeaf158dbfb7411385b0bd8d7be7d492a9922"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_108.txt",
+      "source_sha256": "55d69c62b261a6cea373acb5d08a631f06e94003c586f2323ec0b47d9fc1f17a"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:14Z",
+  "duration_seconds": 5.158,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_agro/enade_2019_tec_agro_page_107.txt",
+    "source_sha256": "2538cc62c96e3ba1632901525cc91d8c01ca0b2cf636b2239a4579be80e187e8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4718703268cb14164a4084bb8899fb51c3e1a55244ff9ece2729f943d0934b06",
+  "request_fingerprint": "29e7cca5c58077a243c357ccd6f8c16cffe2ff63ef03d595b7e6f38bd0a9135f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material do Gráfico 4.11, incluindo título e fonte. “CEFET/IF” foi omitido por parecer um rótulo de gráfico, possivelmente relacionado ao Gráfico 4.12; revisar a atribuição."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram a prova como Longa ou Muito longa, em relação ao tempo total destinado à sua resolução foi maior para os estudantes de cursos de IES Privadas (27,4%), sem diferença estatisticamente significativa da proporção em IES Públicas (26,3%). Já a proporção de presentes à prova que consideraram a extensão como Adequada foi 69,6% para os de IES Públicas e 68,1% para os de IES Privadas (ver Gráfico 4.12 e Tabela II.6, no Anexo II).",
+  "text_sha256": "79c87fa537607ff159e562d292c3691f9fa344483bb7ba614aa963f4eeae5eb1",
+  "window_size": 3
+}

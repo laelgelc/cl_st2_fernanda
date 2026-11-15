@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cb1a4f6c38fda9006af8e4821e2487d1a14d7831997fb872",
+    "usage": {
+      "input_tokens": 2358,
+      "input_tokens_details": {
+        "cache_write_tokens": 2355,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2355
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 679,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3037
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_arquivol/enade_2009_arquivol_page_77.txt",
+      "source_sha256": "c3b68d9fc1d5283404f5c17333c495f62867c08997a44563a8077ebf1375b9a5"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_arquivol/enade_2009_arquivol_page_79.txt",
+      "source_sha256": "0d621292fe572e4b49f51f0215169ee715eef15e9a93643824fe2f35fee48d94"
+    }
+  ],
+  "created_at": "2026-11-14T22:45:21Z",
+  "duration_seconds": 7.387,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_arquivol",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ARQUIVOLOGIA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_arquivol/enade_2009_arquivol_page_78.txt",
+    "source_sha256": "3b66b6869301465e9e02c73fe6b1bc3efe18d9f8e603217c584325cd3dcaa365"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2dc22c2d81927c076b63f7435f291d3ae37b1b056e7f77d02b3bf4db9c119576",
+  "request_fingerprint": "8d122c66736985f11268d1d8d8e758ad4f05dd887f0426c8b9ea8edb264c4492",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os gráficos 4.6a e 4.5c, incluindo títulos, dados, legendas e fonte. A fonte no início da página parece pertencer a um gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.6a e 4.6b apresentam a distribuição das respostas à questão sobre a extensão da prova em relação ao tempo total, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ARQUIVOLOGIA. Em todas as Regiões brasileiras, a maioria dos estudantes, tanto concluintes, quanto ingressantes, percebeu a prova como adequada.",
+  "text_sha256": "bc6b313ea5f3ff382654f9cf7021843880537ef531be9922e2e566e75347b102",
+  "window_size": 3
+}

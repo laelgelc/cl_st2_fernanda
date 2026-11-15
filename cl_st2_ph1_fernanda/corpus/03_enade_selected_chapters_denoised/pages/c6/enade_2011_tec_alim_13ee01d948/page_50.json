@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03175332dd4c6c8e006af8eebde9a087d19f2fe46c19320979",
+    "usage": {
+      "input_tokens": 2212,
+      "input_tokens_details": {
+        "cache_write_tokens": 2209,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2209
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 631,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 2843
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_49.txt",
+      "source_sha256": "226d17c13695a281c1bda382bc490d93c451110ef543b1f57819d7ae99832ca4"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_51.txt",
+      "source_sha256": "8af8dcedf52499c54a1671b268ed65429a74b6c51bc143ddcfd922f658da8c17"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:01Z",
+  "duration_seconds": 6.721,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_50.txt",
+    "source_sha256": "7528ea100b72c715bda46b1d2747045caed72ea20b2ab4fe2b80fe982e0b8536"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cdda7a55f993422798783f1ba86261e96717575c8b9d6f7a6c0a5066e1cceaf6",
+  "request_fingerprint": "a4f27604f7bb702171579ef2844171fb7626a70f8c66caf405a6b50a824f6018",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte. O contexto seguinte contém uma linha de fonte possivelmente referente ao Gráfico 3.9, cuja representação gráfica não aparece no texto extraído da página-alvo."
+  ],
+  "status": "success",
+  "text": "pelo menos um aluno da região Centro-Oeste. Nas demais regiões as notas mínimas foram: 10,7 na região Norte; 5,0 no Nordeste; 5,3 no Sudeste; e 7,5 no Sul.\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (30;40].\n\nDentre as 3 distribuições apresentadas, esta é a mais concentrada nas notas baixas, o que é confirmado pelo coeficiente de assimetria. Na distribuição das notas do Componente de Conhecimento Específico o coeficiente positivo (0,31) é maior do que o encontrado para a distribuição das notas como um todo (0,14) e para a distribuição das notas do Componente de Formação Geral (–0,32). Em todas as regiões o coeficiente de assimetria das notas do Componente de Conhecimento Específico é positivo, variando entre 0,16 (Sudeste) e 0,70 (Nordeste), o que também caracteriza histogramas com cauda maior à direita.",
+  "text_sha256": "c97a5b3a279a9fb9edd6e6313a0e362e3564583402c811ed78abdd68e01df698",
+  "window_size": 3
+}

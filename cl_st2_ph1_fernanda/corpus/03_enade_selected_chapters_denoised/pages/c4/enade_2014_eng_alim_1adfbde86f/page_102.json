@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d8f5dc7e72fef2e006af8f7df811c87d1b36ee1ca71bb4a04",
+    "usage": {
+      "input_tokens": 1537,
+      "input_tokens_details": {
+        "cache_write_tokens": 1534,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1534
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 624,
+      "output_tokens_details": {
+        "reasoning_tokens": 377
+      },
+      "total_tokens": 2161
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_101.txt",
+      "source_sha256": "311c6be65c006c4e0bcea496c43fbf8bb40478d4ce359f09ae0ce9c426c01265"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_103.txt",
+      "source_sha256": "bfd82f219bfe7bd212933df60ef6c3bd31551e2d35f2ddcf76e4df72bf211cf5"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:59Z",
+  "duration_seconds": 7.895,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_102.txt",
+    "source_sha256": "a7d3b250153a4bc5cf4d5b42652204bd0e51cff4bda23fa6a8e08ab020ffb28a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8993d2b1a3b9c01bdf392f01d60b23c7d8fdbdc0e0eb73cf75e39dd1071867f0",
+  "request_fingerprint": "1fbeb2ffacd95443735286e3195a9d4ebdb845716c3bc28b7abcd51fe4bd55e2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line; it likely belongs to table or graph material not otherwise visible in the extracted target-page text."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 83,3% dos respondentes da Área de Engenharia de Alimentos de todo o Brasil afirmaram que estas eram até excessivas ou suficientes em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12, e, no Anexo II, a Tabela II.6). Quanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou suficientes em todas ou na maioria das questões foi sempre maior ou igual a 76,1%, chegando a 88,5% na região Sudeste. A diferença entre o maior percentual, obtido na região Sudeste (88,5%), e o menor, da região Norte (76,1%) é estatisticamente significativa.",
+  "text_sha256": "27ba97341e18644cdeb126439d8fe0d84965ac1b2479ff0fea851ae5ca61a111",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0aa864fb9396c11d006af8e577016087d18b9888615965e5f7",
+    "usage": {
+      "input_tokens": 2830,
+      "input_tokens_details": {
+        "cache_write_tokens": 2827,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2827
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 298,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 3128
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_61.txt",
+      "source_sha256": "b4fed34abcfe4e734199f4aa5fd4172400c813c219c59e81f87ad36ea2ef71ef"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_63.txt",
+      "source_sha256": "dbefcc529ad24d4ea9efa045832fe11f55454363de6152d51d5bbcbc525cac25"
+    }
+  ],
+  "created_at": "2026-11-14T22:49:26Z",
+  "duration_seconds": 3.566,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_com_soc_edit",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_COMUNICAÇÃO SOCIAL EDITORAÇÃO.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_com_soc_edit/enade_2009_com_soc_edit_page_62.txt",
+    "source_sha256": "20bb40ad25f01518bebb33f9267741067f9ac5532ee741b98d84564c2f966412"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a85ee5e2ecdb69ccabd77fc881e1ac6b4bc8e20653f354d67f068d0fa064732d",
+  "request_fingerprint": "aa67621bd35f8eae01e7d08044773b1f5b1b07747d7e1054a7b979854275ee84",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo seus dados e a linha de fonte.",
+    "Removido o Gráfico 3.10, incluindo título, rótulos, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

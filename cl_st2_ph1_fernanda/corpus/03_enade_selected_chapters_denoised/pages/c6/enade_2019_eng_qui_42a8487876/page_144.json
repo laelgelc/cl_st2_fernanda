@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05a2ee4da9078015006af912afae0087d19ed33ea7a491f5d1",
+    "usage": {
+      "input_tokens": 2859,
+      "input_tokens_details": {
+        "cache_write_tokens": 2856,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2856
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1017,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 3876
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_143.txt",
+      "source_sha256": "4199a1daacb9e2e91b7a1b052dd2be83bc9a9c9e5bbcffac1b0ea8ff28ba241e"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_145.txt",
+      "source_sha256": "bf5f62fc85f96d3ebea5b4b57c7670436c267055d662cab769ae7e8922c93ad0"
+    }
+  ],
+  "created_at": "2026-11-15T02:02:23Z",
+  "duration_seconds": 10.067,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_144.txt",
+    "source_sha256": "9df1ac3a1b12a83b824564fc9d8cefecd7a0427983e13fc352832d2ff7cecb75"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7a939d810dbfeaa732ed9bb205e6326e476c2b8dce9cfbe4f48827ffe42fb066",
+  "request_fingerprint": "d4ba86c14d3b064ce11f52b971e26a76849a00519eee08507530a817e8648dd5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Fácil e Médio: três, classificadas na categoria Fácil (questões 2, 3 e 8) do Índice de Facilidade e as outras três na categoria Médio (questões 4, 6, e 7). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,51, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,70 acertos. O máximo de acertos foi alcançado pela questão 2, com um Índice de Facilidade de 0,81. A questão 5 foi considerada Difícil, com índices de Facilidade 0,21 e seu Índice de Discriminação foi Bom, igual a 0,39.\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade, e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 15,6% escolheram a alternativa E (em vermelho), 14,3% escolheram a alternativa D (em laranja), 32,0% escolheram a alternativa C (em preto), 29,4% escolheram a alternativa B (em verde, o gabarito), e 8,4%, a A (em azul). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,3% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,51) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro,",
+  "text_sha256": "a964d673cc1f0c1d79b78a89dc82d272a18098aa99ce225780152f1671437fed",
+  "window_size": 3
+}

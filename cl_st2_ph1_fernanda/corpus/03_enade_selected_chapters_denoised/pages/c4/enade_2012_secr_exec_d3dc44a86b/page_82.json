@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c21b4aeef7f888a006af8f1a0f23c87d1b436c791f0ab5c9e",
+    "usage": {
+      "input_tokens": 2032,
+      "input_tokens_details": {
+        "cache_write_tokens": 2029,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2029
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 2468
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_secr_exec/enade_2012_secr_exec_page_81.txt",
+      "source_sha256": "1f2ec9a0c709c815c5c6a43712aec1fa9e2ee512d669017d141e662e7a6fc20f"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_secr_exec/enade_2012_secr_exec_page_83.txt",
+      "source_sha256": "2a6c49b01920464af8a4175199a24d618b4bfa11af383d1d7313f4fd92a67693"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:20Z",
+  "duration_seconds": 4.215,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_secr_exec/enade_2012_secr_exec_page_82.txt",
+    "source_sha256": "08c01a426fa38b2fffeb6f860726179aea31a85163a363efe92f733bf0cd4076"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "53c71630e2033fbc0a33cba673e39a49c66a98f257519dfcac536e9079362286",
+  "request_fingerprint": "f8b8b8ba2c04b27849c6c8d9d637a9d8612acf9e699b4b575ae6a507253e7cb3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil não apresentou uma tendência de crescimento conforme o desempenho e as diferenças entre os quartos não é significativa estatisticamente. Nos dois quartos de menor desempenho, 24,0% no 1º quarto e 25,5% no 2º consideraram a prova difícil ou muito difícil. Nos quartos de maior desempenho a proporção de alunos julgaram a prova difícil ou muito difícil – 21,7% no 3º quarto e 24,5% no 4º quarto. Para todos os quartos de desempenho a alternativa modal para esta pergunta foi médio, com 65,4%, 65,0%, 69,3% e 64,5% dos respondentes de cada um dos quartos, de 1 a 4 respectivamente.",
+  "text_sha256": "801cbbbb76550cc49d72017565281ea72e876d9487093f0ee109796fe7b06ecb",
+  "window_size": 3
+}

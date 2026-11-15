@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c29556680e6dbd2006af90b4b716487d1ba158079c0f53dd0",
+    "usage": {
+      "input_tokens": 2696,
+      "input_tokens_details": {
+        "cache_write_tokens": 2693,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2693
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 488,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 3184
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_113.txt",
+      "source_sha256": "afe0be7194f1609fcf2b4681cbc597f8581b9ffdada2f090d88aa1799d12b607"
+    },
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_115.txt",
+      "source_sha256": "f889dd249caf939cbdbb9b5ea227917ad2d8f2d579f7464d9681d48cf82a9b42"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:51Z",
+  "duration_seconds": 4.789,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 114
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_114.txt",
+    "source_sha256": "bad3b374cc5265e736c25a55702089e267863674bcc6324e99b89dfe29e5ac91"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0ed5c4cbb161a71130e313e3b2b911c07ef16666874ccabd2586eddadedaa6fa",
+  "request_fingerprint": "ee8471d634b2fdca8e18f80ecac5f5323cd8831490ad320f54589a5fc4ad37d9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2017”, pertencente ao Gráfico 6.2; o material gráfico não foi transcrito."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa dentre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (53,0) e a menor, pelos de IES Privadas (42,4).\n\nNota-se que também há diferença estatisticamente significativa entre as médias de valor maior para CEFET/IFET (53,4) e entre as de menor para Centros Universitários (40,6).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou maior Média do que a Educação a Distância (médias 46,9 e 40,8, respectivamente). Tais médias apresentam diferença estatisticamente significativa.",
+  "text_sha256": "dfbbf4378e4fd26747b4742eab3d54e77ce1fe81a6638c4cd070fb33b6ae047f",
+  "window_size": 3
+}

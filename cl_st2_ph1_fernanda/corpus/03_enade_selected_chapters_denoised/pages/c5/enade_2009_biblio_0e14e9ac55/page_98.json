@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cf82076ac49be9f006af8e4b1113487d195b0257ff5b6cb67",
+    "usage": {
+      "input_tokens": 2921,
+      "input_tokens_details": {
+        "cache_write_tokens": 2918,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2918
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 301,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 3222
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_97.txt",
+      "source_sha256": "81f4de24e75d0b5d8466267a8c0179aa0274c6d286d64aa4b2c5de70c6940584"
+    },
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_99.txt",
+      "source_sha256": "bf9c67a412e4a3f706e89e2c3eaaeb90df52f1c3e41250631f2aa70feeb4ed66"
+    }
+  ],
+  "created_at": "2026-11-14T22:46:08Z",
+  "duration_seconds": 4.407,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_biblio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_BIBLIOTECONOMIA.pdf",
+    "page_number": 98
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_98.txt",
+    "source_sha256": "de70dd83d60691b250b41866f43dc545d7d6babab6cf755c961d9fe9710968fd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e6a71f7c57d438932900039216f0cc30ce8bde158fbca2d55c9726da9a961a8d",
+  "request_fingerprint": "8b32d2d3fcf4944acb507cd2fcb8e71d5e972645c88c72616d44b362ee1d6ee4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 5.1, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "Na Região Sul, foram avaliados 5 cursos dos quais 3 com conceito 3, 1 com conceito 4 e 1 com conceito máximo, 5.\n\nNa Região Centro-Oeste, foram avaliados 4 cursos, 2 com conceito 2, 1 com conceito mínimo e 1 com conceito 4.",
+  "text_sha256": "7fd45117f72b7e982d4555a7b5e3836515af981321e9e2af29e35aa5a9e1dd66",
+  "window_size": 3
+}

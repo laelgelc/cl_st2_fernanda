@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00f1f316e317b5db006af8f9ea5acc87d19d5a1ee2723b1840",
+    "usage": {
+      "input_tokens": 2502,
+      "input_tokens_details": {
+        "cache_write_tokens": 2499,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2499
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 398,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 2900
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_46.txt",
+      "source_sha256": "4c19469365777928a531d5eab15b3968537967417c9ecc11c04f0d98dc8e480c"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_48.txt",
+      "source_sha256": "0e4b6ca9a4ac092af3db3b589bd952333baf098d566d9053c931c4162aad2e31"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:42Z",
+  "duration_seconds": 4.874,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_47.txt",
+    "source_sha256": "4cb45b8be2f7c042cfd516ca76cd4818d8e8ce149e0c69ca4fba45d64904acf8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2f700643e6ed5b98e217d8756fc28d21299cb44ecbed33e295f6e5e084cf9f17",
+  "request_fingerprint": "1fa99432fb850b942e349f8476d1e343f1204073599ef11105af582fadff887c",
+  "retry_count": 0,
+  "review_notes": [
+    "Excluído o texto “Fonte: MEC/INEP/DAES - ENADE/2014”, identificado como fonte do Gráfico 3.2, cuja discussão aparece na página de contexto."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que não existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior média foi obtida por estudantes de IES Públicas (54,0), com uma diferença estatisticamente não significativa da obtida por estudantes de IES Privadas (53,7).\n\nConsiderando-se o tipo de Organização Acadêmica, nota-se que não há diferença estatisticamente significativa entre as médias dos estudantes de Centros Universitários (54,5) e de Universidades (54,1); mas existe diferença entre esses e as Faculdades (51,6).",
+  "text_sha256": "bf613d3a4f52c842dadb462b93c311d547687e32de3c95da18864b6c2126e34f",
+  "window_size": 3
+}

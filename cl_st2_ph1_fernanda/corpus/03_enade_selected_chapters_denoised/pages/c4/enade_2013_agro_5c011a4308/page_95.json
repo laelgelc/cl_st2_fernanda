@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0acba8beb83df946006af8f2e1cbe887d18a97cf8fc88f7167",
+    "usage": {
+      "input_tokens": 1622,
+      "input_tokens_details": {
+        "cache_write_tokens": 1619,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1619
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 768,
+      "output_tokens_details": {
+        "reasoning_tokens": 623
+      },
+      "total_tokens": 2390
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_94.txt",
+      "source_sha256": "1b1c15e6bee6e38c93c24c8749a1f6cefcc05fe2381f80c5f6efaaac69a4b2cd"
+    },
+    {
+      "page_number": 96,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_96.txt",
+      "source_sha256": "9287e3fb031ecc95f28844f71888926f2a13fa1b5fb51afeaacebd2ee5d7085c"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:41Z",
+  "duration_seconds": 7.968,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 95
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_agro/enade_2013_agro_page_95.txt",
+    "source_sha256": "e66d91a2a3932107eee311971438b27154e414503dea0f0ac94eaf251ebc38e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c75e6aeea1d71b1d942576977643879c3e63fc251543e91529673c72d4dc7cfb",
+  "request_fingerprint": "58ce08eb77dc5e4424f76e9cd7869ea2e83619910fccdbbf808122065f9cc966",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico; o gráfico não consta da extração."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: valor maior no quarto superior (87,2%) se comparado ao quarto inferior de desempenho (74,1%). As diferenças dos resultados entre o 1º e os demais quartos de desempenho são estatisticamente significativas, bem como a diferença entre o 2º e o 4º quarto.",
+  "text_sha256": "29375bde107ab1fbe0520ae8274e9638f07bf76ffbf2e8898098224467ee713d",
+  "window_size": 3
+}

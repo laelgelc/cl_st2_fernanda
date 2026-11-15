@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_025a00abe08cd85d006af908dd829487d1b029ac215408c848",
+    "usage": {
+      "input_tokens": 2590,
+      "input_tokens_details": {
+        "cache_write_tokens": 2587,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2587
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1091,
+      "output_tokens_details": {
+        "reasoning_tokens": 615
+      },
+      "total_tokens": 3681
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_211.txt",
+      "source_sha256": "03aa133a1e9d2b4ce071a3f4c0a4ebe44a81a8f5c3226dd75cfb0f5245b8d856"
+    },
+    {
+      "page_number": 213,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_213.txt",
+      "source_sha256": "86b7824ce3c81755df0aabeb2191679fcc8dea6b7a8cfeab05c5c0c8bfcc9000"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:29Z",
+  "duration_seconds": 11.44,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 212
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_212.txt",
+    "source_sha256": "dea813b28444a19c78f72d8db2dc72115e13e1b8232a50bb3225c979f64b47ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3d8bd24c94f269343a9a5f6f3e7326590d2d64e8131dc9323dfb8d2bb781ab8a",
+  "request_fingerprint": "63d3915a48f3b674fdf71636ca3847001cf624ca9a4646c894c2e8ab75f9fe1b",
+  "retry_count": 0,
+  "review_notes": [
+    "O texto descreve o Gráfico 6.4b, mas nenhum conteúdo gráfico foi transcrito no material extraído da página-alvo. A página de contexto seguinte começa com uma linha de fonte; não é possível confirmar se há material gráfico omitido na página-alvo."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.4b, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, com relação à facilidade e a com Índice de Discriminação Muito bom.\n\nSemelhantemente ao apresentado no Gráfico 6.4a, neste gráfico também, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, mais da metade (63,1%) escolheu a alternativa correta B (em verde), 13,6% escolheram a alternativa D, 11,2% escolheram a alternativa E (em vermelho), 7,8% escolheram a alternativa A (em azul) e 3,9% escolheram a alternativa C (preto). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,5% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo Ib.",
+  "text_sha256": "d0ded4c2e9d4555af88423a24e2fa3a2f92922b2261cf0f04232813f457b4b60",
+  "window_size": 3
+}

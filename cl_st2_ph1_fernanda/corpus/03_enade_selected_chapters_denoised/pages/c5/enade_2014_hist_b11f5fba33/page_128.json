@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_001a4317965007f3006af8fa1e8ae487d18bd097c276976748",
+    "usage": {
+      "input_tokens": 2419,
+      "input_tokens_details": {
+        "cache_write_tokens": 2416,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2416
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 233,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 2652
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_hist/enade_2014_hist_page_127.txt",
+      "source_sha256": "84755b020d42a04e9a0d5ce02379457e974196d5887edbc10cf6bd2404deed4d"
+    },
+    {
+      "page_number": 129,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_hist/enade_2014_hist_page_129.txt",
+      "source_sha256": "85cbb6b512b79978019d5fa9a01f10bfc75d588749262cf27d3948d731e41b13"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:34Z",
+  "duration_seconds": 3.585,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 128
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_hist/enade_2014_hist_page_128.txt",
+    "source_sha256": "1352c5ab0145bab77ffb1fc2fb1cc274e9ad4161c1b1ac56d6208021ca20a99c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b0822ee0e933acc156458e4d48cdc515f14c97d6c6d46c7987036398c61493e2",
+  "request_fingerprint": "aadb6565694ee570b0b1b1722bce4b021e266f8377c57d9c0319212145ec8531",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.4, incluindo título, dados e linha de fonte. A prosa termina com “As Instituições” e continua na página seguinte; não foi completada."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com sete cursos (31,8% do total regional), dos quais um ficou sem conceito (SC) e nenhum obteve os conceitos 1, 4 ou 5. Os conceitos modais para as Instituições Privadas na região foram 2 e 3 (três cursos, cada). As Instituições",
+  "text_sha256": "2d3023cb935f110f6a63113f2a842316609050a334b18b0ad08dfc1bacdf4fe6",
+  "window_size": 3
+}

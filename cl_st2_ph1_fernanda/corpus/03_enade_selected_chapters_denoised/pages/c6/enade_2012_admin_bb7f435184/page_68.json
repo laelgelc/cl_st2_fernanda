@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00f0099d7c05df6d006af8f0512d4487d190b08172078f5b78",
+    "usage": {
+      "input_tokens": 2585,
+      "input_tokens_details": {
+        "cache_write_tokens": 2582,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2582
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 675,
+      "output_tokens_details": {
+        "reasoning_tokens": 263
+      },
+      "total_tokens": 3260
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_67.txt",
+      "source_sha256": "0b1e93e9328e7295e26d9613db55e72ca4e9ebd8bc1a6688a2ebfc4ba77e2bb0"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_69.txt",
+      "source_sha256": "1e8d08cbef73d79c5638dc7bbf18ac48d770841060ff94d07ce6eaa9d91cd263"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:45Z",
+  "duration_seconds": 6.136,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_68.txt",
+    "source_sha256": "edbe72f1fb24ba49964a8b4b68aafd1669816e235ada1442f923974da0878738"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "26fdfca96bcdb1a62aa2a16f46ae1a3bd81fa95c07b0346f32b0401d401912c3",
+  "request_fingerprint": "5d5b8001e8c8f50577adc4589982be89cbf833fe578eae142f38c7c381a8429b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, que parece pertencer ao gráfico da página anterior (Gráfico 3.18).",
+    "Removida a linha de fonte no final da página, associada ao Gráfico 3.19."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.12, a média dos estudantes de todo o Brasil foi 11,5. A menor média nessa questão foi obtida pelos alunos da região Centro-Oeste (8,9), enquanto a maior média foi obtida na região Sudeste (12,4). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 20,3. O maior desvio padrão foi obtido na região Sudeste (21,3), enquanto o menor foi obtido na região Centro-Oeste (17,7).\n\nA nota máxima, 100,0 pontos, foi alcançada por pelo menos um aluno em todas as regiões, sem exceção. A mediana e a nota mínima do Brasil como um todo foi zero, o mesmo valor para todas as regiões, sem exceção, indicando que pelo menos metade dos estudantes de cada região recebeu nota zero nesta questão, seja por terem deixado a questão em branco, seja pela inadequação da resposta.\n\nO Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é unimodal com moda nas questões em branco (também com nota zero). O coeficiente de assimetria é positivo para todo o Brasil (2,05) e para todas as regiões (entre 1,96 na região Sudeste e 2,45 na região Centro-Oeste), indicando uma assimetria à direita.",
+  "text_sha256": "d2ba7239660fb639f9a493a42d8baa7b490834d9af5662c96a96ab0b8682a722",
+  "window_size": 3
+}

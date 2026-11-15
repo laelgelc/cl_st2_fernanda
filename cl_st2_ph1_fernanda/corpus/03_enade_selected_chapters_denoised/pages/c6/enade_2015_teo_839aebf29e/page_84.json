@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_099050e6edbf44aa006af90138eabc87d1967b40ff8d494d41",
+    "usage": {
+      "input_tokens": 2479,
+      "input_tokens_details": {
+        "cache_write_tokens": 2476,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2476
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 266,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2745
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_83.txt",
+      "source_sha256": "90025adc86d2743af468fe9c551e7a290bba85e460b7e2bd8b2f29435dd7ee83"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_85.txt",
+      "source_sha256": "51a3bd83b380c08f99496cd5d4180a9a973f290eaa8fb660a124a71e4ba3681b"
+    }
+  ],
+  "created_at": "2026-11-15T00:47:52Z",
+  "duration_seconds": 3.505,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_teo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEOLOGIA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_teo/enade_2015_teo_page_84.txt",
+    "source_sha256": "f7dacb45595e1672bd59548cbf619d9f8c14f40ef47a715e52cf8bb4e0009631"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e00ccbe0d33dd5540be59713cb6948ce9e12fb775df792681c028c2f3c6fe125",
+  "request_fingerprint": "b8a70c2b579970fdde175a4638cbdc64a47b8b243df2ae46e2885db93286ec63",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.20, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.13 e sua fonte; a frase que descreve o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição apresenta moda no intervalo (40; 50]. Destaca-se a frequência das questões em branco, que chega a quase 20%.",
+  "text_sha256": "2cedb8c82b5971543470fbff00d0bbaf0a6fb495f0deddfc6649520a2ac0cf22",
+  "window_size": 3
+}

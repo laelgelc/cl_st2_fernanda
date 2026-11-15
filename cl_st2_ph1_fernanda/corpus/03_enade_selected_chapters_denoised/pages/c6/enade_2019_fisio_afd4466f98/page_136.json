@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b14e0164a06f51a006af9133fddcc87d1b34ecdc1d22671a6",
+    "usage": {
+      "input_tokens": 2293,
+      "input_tokens_details": {
+        "cache_write_tokens": 2290,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2290
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 461,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 2754
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 135,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_135.txt",
+      "source_sha256": "ffa23c1aad0453d9d1f9faad3e83971fb86df582ac014896702acf5a96683ac0"
+    },
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_137.txt",
+      "source_sha256": "bc31f5dcc1576fe9f13eda828860348ec83817e7c46b0896ea1a2e99aefba9a5"
+    }
+  ],
+  "created_at": "2026-11-15T02:04:47Z",
+  "duration_seconds": 5.892,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FISIOTERAPIA.pdf",
+    "page_number": 136
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fisio/enade_2019_fisio_page_136.txt",
+    "source_sha256": "4bf3d1df84c884e3ad86c9e06ee399f0bd4582f53b2f32b2f2d23d1af8eb1510"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "97b77e9fefae9da4eb52b0cf16aeae381f0c0ca0f97fcc9a889acacf885f31df",
+  "request_fingerprint": "ff22f1c01c15cc04c59aca046d937f98ac3946b44d9de814478dc41ce491f1d0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 6.1 e sua linha de fonte (Fonte: MEC/Inep/Daes – Enade/2019)."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 38,2. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (45,8) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (37,4). Observa-se que existe diferença estatisticamente significativa entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Sul e Norte (4,2), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (8,4), caracterizando uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (11,9) foi superior ao do Brasil, como um todo (11,3), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.",
+  "text_sha256": "43f3134faa3a51d4448467d501b96696c018dad6d79a56869405b16a76af16f4",
+  "window_size": 3
+}

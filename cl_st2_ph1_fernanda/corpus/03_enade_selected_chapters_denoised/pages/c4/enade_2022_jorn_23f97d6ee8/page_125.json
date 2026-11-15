@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000fc4147cd32c8a006af91d42110c87d1a3c95232ddefbd15",
+    "usage": {
+      "input_tokens": 1646,
+      "input_tokens_details": {
+        "cache_write_tokens": 1643,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1643
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 208,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 1854
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_124.txt",
+      "source_sha256": "7ac23e7d81691d93d1d375a2faa9928cefe56d3a280d72ad1c122191713ae863"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_126.txt",
+      "source_sha256": "0ebca653d2d1658a38d39a7ac5725d6f6b191b45f589c8323f5c35fb5e802113"
+    }
+  ],
+  "created_at": "2026-11-15T02:47:29Z",
+  "duration_seconds": 2.641,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_JORNALISMO.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_jorn/enade_2022_jorn_page_125.txt",
+    "source_sha256": "fe24958d2f654a1c027ad75735caaa9672925c7bd5ae388c2e3479c67ead72bd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e92f667097df6855f32a0948f7d9cc31b6d7b2434d0c91279bb0e2a81f0d65fa",
+  "request_fingerprint": "8cb293475e21b1a50fdec8914769584e8422efe20dffd2cd3053a21ac2453bc1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.30, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.30 traz resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nDe acordo com os dados do Gráfico 5.30, considerando-se separadamente as opiniões dos estudantes dos quatro quartos de desempenho, observa-se que, no primeiro quarto inferior, 4,5% ofereceram como resposta que não estudaram ainda a maioria desses conteúdos, sendo 0,4% os do quarto superior com a mesma resposta. Nota-se uma tendência decrescente, ou seja, ao se aproximar do grupo de melhor desempenho na prova, os percentuais caem.",
+  "text_sha256": "268335c400d92912cd2e676f716267a60a24754d4278945a1eb7d5c7c17f62f0",
+  "window_size": 3
+}

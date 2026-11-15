@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08cb66e8fc558423006af8f32f421887d1bd4f280ec1766491",
+    "usage": {
+      "input_tokens": 2568,
+      "input_tokens_details": {
+        "cache_write_tokens": 2565,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2565
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 510,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 3078
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_74.txt",
+      "source_sha256": "80449d2deafe34f7f527240ad767f20561fedabed05227e4775b273fa15c8d0e"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_76.txt",
+      "source_sha256": "9ebc77772cdfd2f525049172a1698d426fcf81168fa897793468c750167fac26"
+    }
+  ],
+  "created_at": "2026-11-14T23:47:59Z",
+  "duration_seconds": 5.617,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_BIOMEDICINA.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_biomed/enade_2013_biomed_page_75.txt",
+    "source_sha256": "c571b2ea20b257f5275a43b379f89d518ab6e28421f08877ed4931d98063eca8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3bf612a000a3f3957583d59706d2b1b5dcf446c1bc6b08d627cb048c879dc93c",
+  "request_fingerprint": "977c9e71177eaa664c40a29f3f45e725fc7728f14acb4bff403b4e4486139729",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Centro-Oeste (66,7). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 18,3. As medianas das regiões do Brasil foram: 15,0 nas regiões Norte e Centro-Oeste, 16,7 na região Nordeste, e 21,7 nas regiões Sudeste e Sul.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de (10; 20]. Destaca-se, também, o intervalo [0; 10] com distribuição muito próxima à modal. Nota-se que há uma tendência decrescente a partir do intervalo modal até o último intervalo. O coeficiente de assimetria é positivo para todo o Brasil (0,64) e para todas as regiões (entre 0,57 para a região Sudeste e 1,16 para a região Norte), indicando uma assimetria à direita.",
+  "text_sha256": "2d9f14cb1b0dda751a5867050f10f456807437a25632bbcfe670b0f28372c8ae",
+  "window_size": 3
+}

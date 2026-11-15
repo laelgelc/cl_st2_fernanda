@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b2344caaf644c34006af8ecec89ec87d1826d83185f5189a1",
+    "usage": {
+      "input_tokens": 1874,
+      "input_tokens_details": {
+        "cache_write_tokens": 1871,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1871
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 250,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2124
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_77.txt",
+      "source_sha256": "5d916157b8764b7170b0c5c04b52b8e9f36a2d3dd0f02ebb747436c99c3f2659"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_79.txt",
+      "source_sha256": "6ce3f55dcaf9644e48c7e215013c9fed5596bd0ed5f941117c325886bb8d595f"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:16Z",
+  "duration_seconds": 3.951,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_eng_g_8",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VIII.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_eng_g_8/enade_2011_eng_g_8_page_78.txt",
+    "source_sha256": "1dfc4c49cb2d453d464ee424ac30d2e9eab9993d795490a7ef127852f84a2908"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ac29b646523c0bf575ef83db357e670673c8818f05e305ac4dc002ae6a55c9af",
+  "request_fingerprint": "e4fb48a45abaae9d49cc07815c4875ab627033d5ccea551758d1f4afc079d177",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil apresentou uma tendência decrescente com o aumento do desempenho, variando de 25,1% (1º quarto) a 12,1% (4º quarto). A alternativa modal para esta pergunta foi médio, variando de 60,4% (1º e 4º quartos) até 65,5% (3º quarto).",
+  "text_sha256": "570f5c49bb3b11ef1c9ea7680ee82579ab0a87655597c839f31b0e9777617d50",
+  "window_size": 3
+}

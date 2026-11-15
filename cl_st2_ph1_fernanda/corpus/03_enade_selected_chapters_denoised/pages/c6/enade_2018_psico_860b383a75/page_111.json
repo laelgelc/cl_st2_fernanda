@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04cbfa5b1b28249d006af90d14b6a887d1af4ed637ca66e264",
+    "usage": {
+      "input_tokens": 2540,
+      "input_tokens_details": {
+        "cache_write_tokens": 2537,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2537
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1403,
+      "output_tokens_details": {
+        "reasoning_tokens": 994
+      },
+      "total_tokens": 3943
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_110.txt",
+      "source_sha256": "821b394e9a67e0b558b10850fd86eb6a4fea066dca2e68b464bbbfb5162fe3c8"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_112.txt",
+      "source_sha256": "31a0bec2228b70cf2b6957bb6fd619ba38a50d2edfc1bafe10457ddd28223702"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:28Z",
+  "duration_seconds": 10.374,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PSICOLOGIA.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_111.txt",
+    "source_sha256": "4c0e9d376de1e5e73f3192282ffb17b52674a9e25cd9c0a186bedfab53e4d98c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72a106d06c0f2fd9a4f3a7246999b610fb0601115a2a7a3551bf7006bd770663",
+  "request_fingerprint": "5aacb1ca4fc5a2d670edae337893d9f244c814923ec6506f1eca09fc6b9f1ee1",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "critério do Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que dentre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 35,5% escolheram a alternativa C (em preto), 19,4% escolheram a alternativa D (em laranja), e outros 19,4% escolheram a alternativa E (em vermelho), 13,0% escolheram a alternativa B (verde), e 12,4%, a A (azul). Entre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos alunos fosse abaixo de quatro, o índice de facilidade seria obrigatoriamente abaixo de 20% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 40%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "142c894a8f44f0f9a0647afe3608e576019a4815070daba42124686e4e648aa1",
+  "window_size": 3
+}

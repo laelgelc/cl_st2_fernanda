@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0188eb4f47c1671a006af9120007c087d1bd7aa232be930a9f",
+    "usage": {
+      "input_tokens": 2588,
+      "input_tokens_details": {
+        "cache_write_tokens": 2585,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2585
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 314
+      },
+      "total_tokens": 3178
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 211,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_211.txt",
+      "source_sha256": "bafb65319a82add1a364497966888b416324e9431466c5397db8126b948becbc"
+    },
+    {
+      "page_number": 213,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_213.txt",
+      "source_sha256": "07cb4adc19a847b9d29e89cec67f8047ef23de7d2febc445f4a006c23aafdb19"
+    }
+  ],
+  "created_at": "2026-11-15T01:59:27Z",
+  "duration_seconds": 6.001,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 212
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_212.txt",
+    "source_sha256": "3315a29d1b32abcd457bf143166d6ce075075e526d1883d270ec516607c463d8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "826237b9eeed1049e107bcfb2cf76be273662dc7a79cc11a4549cf3cc77c1ead",
+  "request_fingerprint": "44fb9de6469da1d240ab69a448f78825ba07f328dec41104fe7a931cab685214",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do Gráfico 6.14, pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "6.3.2.6 Comentários sobre as respostas à Questão Discursiva 5\n\nA Questão 5 abordava um circuito de Eletrônica Analógica usando Amplificadores Operacionais (Amp Op) numa configuração voltada para o uso em instrumentação. Ela exigia do estudante: habilidade na extração e extrapolação de medidas gráficas; conhecimentos das leis que envolvem as grandezas físicas dos Circuitos Elétricos; habilidade na análise de circuito com divisor de tensão resistivo e habilidade nas operações de estruturas montadas com Amplificadores Operacionais.\n\nO enunciado estava bem claro e mostrava a curva característica de um Termistor usado como sensor de temperatura, onde a Resistência (Ω) é função da Temperatura (°K). Mostrava também que o sensor está acoplado a um circuito eletrônico, analógico e montado com Amplificadores Operacionais.\n\nO item ‘a’ era objetivo e de solução rápida, pedia apenas o valor da resistência, obtida na leitura gráfica a partir de uma dada temperatura dada em °C, que deveria ser convertida em °K.",
+  "text_sha256": "d1287944ce798ffacbb625fcec31170ab0497d184969ccf2512763c2b5c0a4d3",
+  "window_size": 3
+}

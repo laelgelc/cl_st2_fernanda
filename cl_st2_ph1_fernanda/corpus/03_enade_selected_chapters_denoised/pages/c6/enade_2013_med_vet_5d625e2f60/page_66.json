@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_082ea20fee17ea25006af8f435252087d1af7239fa3d36349b",
+    "usage": {
+      "input_tokens": 2588,
+      "input_tokens_details": {
+        "cache_write_tokens": 2585,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2585
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 244
+      },
+      "total_tokens": 3115
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_65.txt",
+      "source_sha256": "78e411c59732f5f95831fc3403d2b019dbadceba87eb1bc58ab930e68f634428"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_67.txt",
+      "source_sha256": "035f30f1f17f0d79fe1c063b5984ae2eb386beffabb6801f3d56709ce4a733e0"
+    }
+  ],
+  "created_at": "2026-11-14T23:52:21Z",
+  "duration_seconds": 5.451,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_med_vet/enade_2013_med_vet_page_66.txt",
+    "source_sha256": "f05d7f374e8cde4ffbf8d473e922fab622954dc15d83104fc05e1f5920a2293e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "53f8daca72e3a705e55bc315f294f43c6f02c48680046545ea0a433b17ea1b43",
+  "request_fingerprint": "182cf10c1fe64a4db701dc969f4769229a971ad604b7504f11d5560201998f8d",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.10, incluindo seus dados e a linha de fonte, foi removida."
+  ],
+  "status": "success",
+  "text": "A mediana da questão discursiva 2 foi 45,0 para as regiões Sudeste e Sul, e mais baixa para as regiões Norte (20,0), Nordeste (40,0) e Centro-Oeste (40,0). Para o Brasil como um todo foi também 45,0. As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Neste gráfico, observa-se a grande quantidade de alunos que deixaram a questão 2 em branco (em torno de 17%), além da moda no intervalo (40; 50].\nO coeficiente de assimetria das notas nesta questão é negativo (-0,21), indicando que a distribuição é assimétrica à esquerda. O mesmo ocorre para quase todas as regiões da Brasil (entre -0,30 na região Sudeste e -0,02 na Nordeste), excetuando-se apenas a região Norte (0,46) que possui assimetria positiva.",
+  "text_sha256": "3f21a578761b5cc9c67d51b8838087832886122731ed53bb277fe257e9790204",
+  "window_size": 3
+}

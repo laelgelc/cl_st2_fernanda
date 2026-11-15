@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_035b0754ce3c8327006af9106d8bb087d1816ad012166dff3d",
+    "usage": {
+      "input_tokens": 2664,
+      "input_tokens_details": {
+        "cache_write_tokens": 2661,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2661
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 544,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 3208
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_164.txt",
+      "source_sha256": "0d1f3e197d78c474ebdd20fc2e6b0f887afdff7b1672ebf6a2d66145640e37b1"
+    },
+    {
+      "page_number": 166,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_166.txt",
+      "source_sha256": "240455bebaccd214d5c7308b8ec4c35d087625c55b2cf85ebf74a4a89d423950"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:45Z",
+  "duration_seconds": 4.506,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 165
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_amb/enade_2019_eng_amb_page_165.txt",
+    "source_sha256": "039f845bfe50eabccd71cfeb544bca4425c73baa70f437af4365943706a1ed51"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "77134bb3330a9a70705dcc115b856ca2f21003a3893eae44bc304d37538062a8",
+  "request_fingerprint": "1abcc03746cea53faeb9edc548bd267d620f487608c0c26d39e9c62df2128433",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido “Fonte: MEC/Inep/Daes – Enade/2019”, identificado como a fonte do gráfico discutido na página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "d36aca86a7e5bf0be84bb42ba5de3d588eb5fdd74b880c0b105627ad86321551",
+  "window_size": 3
+}

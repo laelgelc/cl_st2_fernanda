@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c78e69f2078581f006af90148a3a487d190f26052b212b219",
+    "usage": {
+      "input_tokens": 2320,
+      "input_tokens_details": {
+        "cache_write_tokens": 2317,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2317
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 505,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 2825
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_39.txt",
+      "source_sha256": "30d3f9f7ffa14241d2186f759c04fdee0b3a95bcf8b0e1d3d91edbb9da35dd9e"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_41.txt",
+      "source_sha256": "6d8bb1b77a20416281f4071c2bcc0f8b51e7bf725a0a4cc054ace4febe815638"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:08Z",
+  "duration_seconds": 4.339,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tur",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TURISMO.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tur/enade_2015_tur_page_40.txt",
+    "source_sha256": "94b7408d6c2d0a820179cfeb460c13e9a65a8167176097a32cc9bb93a5d42952"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bcd7ec6aa5bcb6a1175d24af349c01498e5d0e28332e986c632775feffe07dce",
+  "request_fingerprint": "4f5bf9be9b72555cdac056d6caf74e6d92e73c48a71553567020ac3ed49c5102",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, estatísticas e fonte."
+  ],
+  "status": "success",
+  "text": "Desvio padrão encontrado na região Centro-Oeste (15,4) e o menor, na região Nordeste (13,8), indicando uma dispersão um pouco menor das notas desta última região.\nA região que obteve a maior nota Máxima foi a Sudeste (93,1), ao passo que a região que atingiu a menor nota Máxima foi a Sul (85,6). A Mediana do Brasil como um todo foi 54,2, sendo a maior Mediana obtida na região Sudeste (55,2), e a menor obtida na região Centro-Oeste (47,5). A nota Mínima foi zero nas regiões Norte e Sul, enquanto nas demais regiões foi: 8,3 na região Nordeste; 7,3 na região Sudeste; e 7,6 na região Centro-Oeste.\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Centro-Oeste (38,8), e as médias das regiões Nordeste, Sudeste e Sul.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (50; 60].",
+  "text_sha256": "b4c39ea99ae34af7f627a386d7427f0a11a8c9ae250a138bf7f6a4160424ca40",
+  "window_size": 3
+}

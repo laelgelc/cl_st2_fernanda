@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04ed52bcbf758a4a006af8f56bf2e887d1a92aa8d451edf176",
+    "usage": {
+      "input_tokens": 1509,
+      "input_tokens_details": {
+        "cache_write_tokens": 1506,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1506
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1801
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_39.txt",
+      "source_sha256": "d5df65e5185bad0bfe6f34e47c2465c859475a25ac877409b4a70eccd075b7d0"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_41.txt",
+      "source_sha256": "b52e97e19b0ad96f323a43addc2cf58ea01deb514eee58133bfe35494806a90e"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:31Z",
+  "duration_seconds": 6.04,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_40.txt",
+    "source_sha256": "7560f60ab9bf479566702bd32051e711ddaa35df9fe0a882dacf7f74903cefce"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "44c796f3cd63185bbf1d633a4b5f432a3c94e84817d527f79b1ef867df77a358",
+  "request_fingerprint": "fbd1aa6146812486385ea0ebec1cfc51b509ea286634506d653a5de112ac3dac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta os estudantes por Categorias Administrativas (Gráfico 3.3), observa-se que existe diferença estatisticamente significante entre as médias das notas das IES Públicas e Privadas. Pode ser observado ainda que a média dos alunos de IES Públicas (45,0) é maior que a dos alunos de IES Privadas (36,5). A diferença entre as médias das regiões Nordeste e Centro-Oeste (7,5), a maior e a menor média, é inferior a diferença entre IES Públicas e Privadas (8,5).",
+  "text_sha256": "e40c0d41b8f0408f4e52e3c814ff7408f15d64084ab44084784eda7704b4509b",
+  "window_size": 3
+}

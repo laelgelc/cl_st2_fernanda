@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ece975018024754006af90d94c34087d19e43ac86d56be967",
+    "usage": {
+      "input_tokens": 2883,
+      "input_tokens_details": {
+        "cache_write_tokens": 2880,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2880
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 714,
+      "output_tokens_details": {
+        "reasoning_tokens": 394
+      },
+      "total_tokens": 3597
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_113.txt",
+      "source_sha256": "7286b06ec78f62ee4e57a7a736cf16d3de30c42a2f348c389db96febcab7412f"
+    },
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_115.txt",
+      "source_sha256": "569a0bef4ef13ff70c0f171646d3dcebbb0742585f1d1172d91bee6d1199fdfe"
+    }
+  ],
+  "created_at": "2026-11-15T01:40:36Z",
+  "duration_seconds": 6.971,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 114
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_114.txt",
+    "source_sha256": "e60a6c3bb4b6cbbe1d8d3467b4145795489dd12667491057e9419aa56bec3b0e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4c8430b280956e925eed1cccabb93dc9c241b66c41011f3df4ec4e96d6e7b877",
+  "request_fingerprint": "488c1e5f563efb0646e24a923344af69d1c932a3b1955ecc68887f8888aadc57",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas as Tabelas 6.2 e 6.3, incluindo títulos, dados e linhas de fonte.",
+    "A última frase termina em “na região Sudeste” e continua na página seguinte; foi mantida sem completar."
+  ],
+  "status": "success",
+  "text": "No tocante à Organização Acadêmica, as Universidades e os Centros Universitários obtiveram Média mais alta que a nacional (53,7 e 55,1, respectivamente). A Média das Faculdades e a dos CEFET/IFET foram menores do que a nacional (46,2 e 46,5, respectivamente). Constata-se que entre as Organizações Acadêmicas existe diferença estatisticamente significativa ao nível de 95% entre as duas Médias mais altas e as duas mais baixas.\n\nA Média da Modalidade Educação a Distância (51,2) foi inferior à Média da Educação Presencial (52,3), e a diferença entre elas não é estatisticamente significativa.\n\n6.1.2 Estatísticas Básicas no Componente de Formação Geral\n\nNa Tabela 6.3, são apresentadas as Estatísticas Básicas em relação ao componente da prova que avalia a Formação Geral dos estudantes concluintes. Os alunos de todo o Brasil obtiveram desempenho médio de 42,5. Quanto à variabilidade, o Desvio padrão das notas dos estudantes do Brasil, como um todo, foi 16,9. A maior Média foi obtida na região Sudeste",
+  "text_sha256": "e840b08ccbcfe331e3c1a327ad32badb639739e1c09282676610add8a02795ce",
+  "window_size": 3
+}

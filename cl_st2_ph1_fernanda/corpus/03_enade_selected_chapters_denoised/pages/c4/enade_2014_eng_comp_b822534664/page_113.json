@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a52cd3719e1856a006af8f7ac356c87d190e704efbd7778d2",
+    "usage": {
+      "input_tokens": 1533,
+      "input_tokens_details": {
+        "cache_write_tokens": 1530,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1530
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 593,
+      "output_tokens_details": {
+        "reasoning_tokens": 360
+      },
+      "total_tokens": 2126
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_112.txt",
+      "source_sha256": "83c60d37cea714af32305ebab818ec908973bb2b15387758b7b302cf5fca24d3"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_114.txt",
+      "source_sha256": "95fa283b35f1deee88196762acb178a5c3b133a9751f197fb116a2a787419f21"
+    }
+  ],
+  "created_at": "2026-11-15T00:07:08Z",
+  "duration_seconds": 6.4,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_comp/enade_2014_eng_comp_page_113.txt",
+    "source_sha256": "a1be533dcbdd0f18b55b33480f9b1663ac01ebacf474e8dbcdb97fe9148c1628"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8199e1dca45b3834bb9b71eba260ef58f1476a2ef50dd5be6b3102479dc3b09d",
+  "request_fingerprint": "e12e3c77cbd030929156a372c519da425bcaca10e27d3efb81ca596794884ab8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada como pertencente a material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "4.7 TEMPO GASTO PARA CONCLUIR A PROVA\nAo responderem sobre o tempo de conclusão da prova (Questão 9), mais da metade dos estudantes (67,6%) afirmou ter gasto entre duas e quatro horas (Gráfico 4.17, Gráfico 4.18 e, no Anexo II, a Tabela II.9).\nConsiderando-se as cinco Grandes Regiões brasileiras, o percentual dos que utilizaram entre duas e quatro horas para finalizar a prova apenas nas regiões Nordeste (62,8%) e Centro-Oeste (64,7%) foi inferior ao percentual nacional. Nas demais Grandes Regiões o percentual de alunos que dispensaram entre duas e quatro horas para concluir a prova, não foi superior a 70,5%, como mostra o Gráfico 4.17.",
+  "text_sha256": "15f281476eb36e28b323a833fa7ffdbf8e282b6378b8e063ed07cf7e9d42d6e8",
+  "window_size": 3
+}

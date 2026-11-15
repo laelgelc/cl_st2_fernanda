@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e46ad0d639e6fb5006af8ef7fe26c87d1a5d8c322a96b2b88",
+    "usage": {
+      "input_tokens": 1390,
+      "input_tokens_details": {
+        "cache_write_tokens": 1387,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1387
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 236,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 1626
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_40.txt",
+      "source_sha256": "0dcb6abfe11cda862ac67d2d8156e7c5ba93227acc693705b7c06a41e9714a30"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_42.txt",
+      "source_sha256": "a18f05efef863a3a60637cf20d1e8ed9eeead0ee43e3d7432c4142e527281a2c"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:15Z",
+  "duration_seconds": 3.533,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_41.txt",
+    "source_sha256": "77ea42f0aecbe514255419925421019c425f1d33a3ee660d6e75e546c490d356"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "68ab112a730c93595edff9d625de630974d02387631619a8428bac3f052213a6",
+  "request_fingerprint": "6361e1f33add05888cf6583cd97c75b42f35e066aed4e0432715e43d1d941af6",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Os concluintes das IES Públicas (56,3) obtiveram uma média maior do que os das IES Privadas (49,2).",
+  "text_sha256": "008251d67313f4178cbf2a3fa41bd0b7e2941e57a541f01813afa0099c841b21",
+  "window_size": 3
+}

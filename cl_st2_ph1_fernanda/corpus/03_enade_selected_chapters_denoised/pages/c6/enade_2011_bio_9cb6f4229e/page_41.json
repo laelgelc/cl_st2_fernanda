@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f83be2b49ca30fd006af8eb13e9c887d1b923c203579cbc49",
+    "usage": {
+      "input_tokens": 1411,
+      "input_tokens_details": {
+        "cache_write_tokens": 1408,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1408
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 223,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 1634
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_40.txt",
+      "source_sha256": "12b89a7c276f8724e65da95b81601678dd22cde048d74bf1cccf1081cbc0e09f"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_42.txt",
+      "source_sha256": "a6c3f076d603037119774fd5db9af2edce2dd6cb3d748213f993f31eeaaffd68"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:23Z",
+  "duration_seconds": 2.875,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_bio/enade_2011_bio_page_41.txt",
+    "source_sha256": "44751ffabf63850ab4f1280918022db076f0f966ed99f7692b95608f2cfc6238"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "39b92df2d5bccb6249db48bf269ff50439a94992438b0688dfa936fe23d237bf",
+  "request_fingerprint": "06676ba3a8e408bad3afb1f92cc8833ba6fe05277e8a84b81e7fdf87c85ed148",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material do Gráfico 3.7, incluindo a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Ao contrário do que ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Biologia (Bacharelado e Licenciatura considerados em conjunto), das IES Públicas (52,7) obtiveram uma média menor do que os das IES Privadas (53,5).",
+  "text_sha256": "80c04631fbcd9e4109537006ce3568f245b32f837685e9ac9006f61f5b77c291",
+  "window_size": 3
+}

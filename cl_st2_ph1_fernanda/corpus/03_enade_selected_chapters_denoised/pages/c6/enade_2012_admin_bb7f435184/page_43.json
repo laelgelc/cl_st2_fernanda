@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_089f10230987c8e4006af8f041158487d1bf95f0fe568f2228",
+    "usage": {
+      "input_tokens": 2041,
+      "input_tokens_details": {
+        "cache_write_tokens": 2038,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2038
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 934,
+      "output_tokens_details": {
+        "reasoning_tokens": 578
+      },
+      "total_tokens": 2975
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_42.txt",
+      "source_sha256": "dfa36a9822476470330eb6d1e68ead861738c73cb48f5f98c6b34f75ffb854a0"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_44.txt",
+      "source_sha256": "1b7ce3289e47d842aa45ea40f2e6d8712d912bdd9953f38be89f22d3baf401da"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:29Z",
+  "duration_seconds": 9.019,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_43.txt",
+    "source_sha256": "0183aff28b63ebf2d254584dceda72f6d2f73067761e960d83e3da9f66187eb8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "22b23e406c278946629a2365aacb97e1f2fb708582a80d6b59d355f02e666aba",
+  "request_fingerprint": "231604d45ad49feaa882b5498420a358f6b8ec0f737bd6ee71f618c065b91f7c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, aparentemente associada a material gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Administração. A média do desempenho dos alunos do Brasil como um todo foi 31,9. A maior média foi obtida na região Nordeste (32,6), e a menor, na região Centro-Oeste (29,3). As demais médias foram: 32,5 na região Sul, 32,0 na região Sudeste e 29,5 na região Norte. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 15,1, sendo o maior desvio padrão observado nas regiões Nordeste, Sudeste e Sul (15,3) e o menor na região Norte (13,1). O desvio padrão da região Centro-Oeste foi (14,2).\nA mediana das notas dos estudantes de todo o Brasil foi 29,3. A maior mediana ocorreu na região Nordeste (30,8) e a menor na região Centro-Oeste (28,1). As demais medianas foram 30,3 na região Sul, 29,3 na região Sudeste e 28,3 na região Norte. A nota máxima do Brasil como um todo foi 95,0, sendo obtida por pelo menos um aluno da região Sul. As demais notas máximas foram: 93,7 na região Sudeste, 92,2 na região Nordeste, 91,9",
+  "text_sha256": "ba931e7ce6974f30d1dee57ff90af6eb06c7ea2f7a71fe76bf6ec39b79ec753c",
+  "window_size": 3
+}

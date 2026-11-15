@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f436762c2ccbc71006af90dc1a01c87d191a19509e0fc5a9f",
+    "usage": {
+      "input_tokens": 3021,
+      "input_tokens_details": {
+        "cache_write_tokens": 3018,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3018
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 577,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 3598
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_serv_soc/enade_2018_serv_soc_page_115.txt",
+      "source_sha256": "b3d94b75bf96ae793aa25d178ca90d1d13abdd990c65bfda67f4aaca6b938d23"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_serv_soc/enade_2018_serv_soc_page_117.txt",
+      "source_sha256": "70348e7939dc5527bcdc4bf5b64f519248cda5898037df79cf26431d45a34563"
+    }
+  ],
+  "created_at": "2026-11-15T01:41:21Z",
+  "duration_seconds": 4.814,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SERVIÇO SOCIAL.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_serv_soc/enade_2018_serv_soc_page_116.txt",
+    "source_sha256": "57354a74574ec61c2f897a25fb59028bb3da5295920ffc5eaff4c14918ac34b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cccf26725a8c1c62a9b2af41420498247512b7f46bc3ec51eb56b3f746976572",
+  "request_fingerprint": "d5799f15a3fe6db250948ce3f82c055c4075c45ac63e66e4806be5f3bcf3e24f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o histograma do Gráfico 6.1 e sua linha de fonte.",
+    "Removida a Tabela 6.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (30; 40], 25,2%, seguido de perto pelo intervalo (20; 30], 21,8%.\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa, por Organização Acadêmica e por Modalidade de Ensino. A Média das notas da prova, como um todo, foi 40,0. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média bem mais alta (53,9) que a Média nacional, e os das IES Privadas obtiveram Média mais baixa (37,3). Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e as das Privadas. A diferença entre as médias das regiões Nordeste e Sul (8,5), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e a das Privadas (16,6), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (16,4) foi superior ao do Brasil, como um todo (15,8), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa.",
+  "text_sha256": "602f54c5b635f17918c7f335cdabc8614cd28ada029963858ab68c8ccc89aefd",
+  "window_size": 3
+}

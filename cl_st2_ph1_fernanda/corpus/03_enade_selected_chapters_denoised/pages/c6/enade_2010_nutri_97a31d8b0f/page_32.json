@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_074d0cf8710add05006af8e969d17087d1960d0da0b834214b",
+    "usage": {
+      "input_tokens": 2648,
+      "input_tokens_details": {
+        "cache_write_tokens": 2645,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2645
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 3009
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_31.txt",
+      "source_sha256": "bbb7573c8bd4a324cdf749c27573c8ea5530eba064c1b7bf57d7716f6eeb6469"
+    },
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_33.txt",
+      "source_sha256": "c2898065e3323a6a322f37c0a9dd843455d9fc0efdc8cb88e23270d3592416df"
+    }
+  ],
+  "created_at": "2026-11-14T23:06:17Z",
+  "duration_seconds": 4.687,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_NUTRIÇÃO.pdf",
+    "page_number": 32
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_nutri/enade_2010_nutri_page_32.txt",
+    "source_sha256": "7d70aea94c357ea3168d1cc23b3568032d1fc86ce5453fe52e2543c7fea2c673"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f3ab2d560745d4d67f69f5fc4453ea1861709ec2d8e3cf34d79e631b03e367fa",
+  "request_fingerprint": "ae1ea11ad4c7f8f0e16ae47c65acef97f5bddd20f48ceb2dc81b7a3f53680343",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 32,7 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 46,6, transparecendo uma superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1).\n\nOs coeficientes de assimetria indicam uma assimetria negativa (-0,2) para os Concluintes, e positiva (0,2) para Ingressantes.",
+  "text_sha256": "3a539ae2ef41dc2aabb53123154ba1ac817e4f7cc8990b587054be0bd9c0aaf0",
+  "window_size": 3
+}

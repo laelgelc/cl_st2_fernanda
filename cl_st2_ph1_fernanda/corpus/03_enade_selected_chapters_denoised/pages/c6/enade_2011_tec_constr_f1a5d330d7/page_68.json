@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05c2f3859274eb9c006af8ef455c7487d187adb7bbb1922ac0",
+    "usage": {
+      "input_tokens": 2574,
+      "input_tokens_details": {
+        "cache_write_tokens": 2571,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2571
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 928,
+      "output_tokens_details": {
+        "reasoning_tokens": 556
+      },
+      "total_tokens": 3502
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_67.txt",
+      "source_sha256": "9a15cc52e8915633a7ea71fd32741c3bfa264c7b95c34023f33fe0fd77c3228f"
+    },
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_69.txt",
+      "source_sha256": "446c0b8895c8e78ffe4765d4616eb9a5de42cf9555b45b6e762167a033971af2"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:17Z",
+  "duration_seconds": 11.556,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_constr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM CONSTRUÇÃO DE EDIFÍCIOS.pdf",
+    "page_number": 68
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_constr/enade_2011_tec_constr_page_68.txt",
+    "source_sha256": "26f330aaef33cfff3a5947ce87a89faefb762d50162994e8e8601eb9450da4de"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "96db2696576c0a24ce38170652858ff0019df5e089d5e305a88c4db6cbbf01c7",
+  "request_fingerprint": "235e759cd3e87a46cb115312021ee2a0ad0d8ef30b45d1e0284684ca0706cd57",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.11, incluindo título, dados e fonte, removida.",
+    "Gráfico 3.18: o material gráfico foi excluído; sua fonte parece continuar na página vizinha."
+  ],
+  "status": "success",
+  "text": "componente foi 22,6. A maior média deste componente foi obtida pelos estudantes da região Sul (31,9), e a menor, pelos da região Norte (12,4). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 16,1. O maior desvio padrão foi encontrado na região Sul (16,8), e o menor, na região Norte (11,8).\n\nA maior nota máxima foi obtida na região Sudeste (70,0) enquanto a menor nota máxima foi encontrada na região Centro-Oeste (43,3). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil, com exceção da região Sul (3,3). A mediana do Brasil como um todo foi 21,7, também encontrada na região Centro-Oeste. As demais medianas foram: 10,0 na região Norte; 15,0 na região Nordeste; e 31,7 nas regiões Sudeste e Sul.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo de [0,10]. Nota-se que a distribuição é decrescente a partir do intervalo (20;30] até o intervalo (60;70]. Não foram registradas notas maiores que 70,0. O coeficiente de assimetria é 0,38.",
+  "text_sha256": "057d8bea874141b67d45031b6b985b35450d528b2d2adafa401534885e5d84fb",
+  "window_size": 3
+}

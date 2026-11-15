@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_083be7f29391c947006af8f5f2571887d18af645f267172bc8",
+    "usage": {
+      "input_tokens": 2535,
+      "input_tokens_details": {
+        "cache_write_tokens": 2532,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2532
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 901,
+      "output_tokens_details": {
+        "reasoning_tokens": 480
+      },
+      "total_tokens": 3436
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_55.txt",
+      "source_sha256": "6afe2ae6f0008aa9eee3e7ff48bd4343e9e36bf1de29bb9b85c0e0bcf5a2afb5"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_57.txt",
+      "source_sha256": "8458b9fd3444d5546070e25921b5fa0aa03ae735e4ca81b4a1288354d9ba5853"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:46Z",
+  "duration_seconds": 8.053,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_56.txt",
+    "source_sha256": "c470efee89d2586cc96c8885468aae850bd1110e4ee5352b2983d5dc772f39d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "626fa4f1f34b492d0cbb9abdab7c03300f44c5262873b0bf1fa374d98b92f281",
+  "request_fingerprint": "d261a8f4c259146d473a58bd54beec68d5b7a6c35acd9ea304e4045defcd8829",
+  "retry_count": 0,
+  "review_notes": [
+    "O Gráfico 3.5 é material gráfico excluído; a página de contexto seguinte começa com uma linha de fonte, sugerindo que o gráfico ocupa a parte final da página-alvo."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 23 do Componente de Conhecimento Específico. Esta questão foi classificada como fácil. Apresentou índice de facilidade 0,65, ou seja, 65,0% dos estudantes assinalaram acertadamente a opção E, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,47, classificado como muito bom, também sendo esta questão a que apresentou o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 23, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta E, representada no gráfico pela curva em vermelho, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de estudantes que selecionou a resposta correta E aumenta gradativamente, chegando a atingir 100% para 21 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "b85b23cadc05d6489071a7edcdc4c63bb6fd8453e953cd636f7e92e1b8d3ce93",
+  "window_size": 3
+}

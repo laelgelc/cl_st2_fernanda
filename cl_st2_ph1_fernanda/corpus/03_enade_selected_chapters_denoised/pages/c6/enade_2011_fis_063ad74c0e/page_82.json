@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0b0befdf2a3068006af8ed6dd19887d1bb07355ccb5d0001",
+    "usage": {
+      "input_tokens": 2491,
+      "input_tokens_details": {
+        "cache_write_tokens": 2488,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2488
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 886,
+      "output_tokens_details": {
+        "reasoning_tokens": 655
+      },
+      "total_tokens": 3377
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_81.txt",
+      "source_sha256": "a6831ced7da25b7672f256335731149f097f5f8261e6f60de53c3e5e83b1607d"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_83.txt",
+      "source_sha256": "fc60dfe411fd54350ad98ec97f6070c8d315120d599bb690cf9d10c966bcbbb1"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:25Z",
+  "duration_seconds": 9.678,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_82.txt",
+    "source_sha256": "4c236cb520e7e980c500c3f795502789e5b956c21a0b5848c312c4de0e1c9ae0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3a43dccc495f303055c55e299063af628c35418895fc0a47462c61c84d79f438",
+  "request_fingerprint": "bd150563b37c24b5d53b90556088c82106d4b30d8b7c259ab9ab9960b5be2634",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao material gráfico que aparece no início da página.",
+    "A página termina com dois-pontos após anunciar uma expressão analítica, mas a expressão não está presente no texto fornecido; verificar possível perda na extração."
+  ],
+  "status": "success",
+  "text": "3.3.2.6 Comentários sobre a correção das respostas à Questão Discursiva 5\nA questão 5 versa sobre um sistema massa-mola. Os conceitos físicos e descrições matemáticas para o sistema massa-mola são extensamente estudados ao longo do curso de Física, visto que representam o protótipo de movimentos harmônicos simples. Assim sendo, o tema abrangido nesta questão é de caráter de formação geral de um físico. Entretanto, a quantidade de provas em branco, anuladas e não consideradas foi a mais elevada dentre as três discursivas do Componente de Conhecimento Específico.\nA questão apresentava um gráfico de resposta de frequência H(ω) versus frequência angular ω. Era também fornecida a expressão analítica para a função H(ω):",
+  "text_sha256": "23177b09091641645081cb5f31d9e9cd5856e7d34cad3f188c152d6941e79832",
+  "window_size": 3
+}

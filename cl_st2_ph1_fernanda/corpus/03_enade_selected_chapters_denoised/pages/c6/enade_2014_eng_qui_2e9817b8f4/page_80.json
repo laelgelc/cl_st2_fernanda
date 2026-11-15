@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09dfe45d48bb4c98006af8f9432db887d1937591635dc24fbf",
+    "usage": {
+      "input_tokens": 2216,
+      "input_tokens_details": {
+        "cache_write_tokens": 2213,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2213
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 809,
+      "output_tokens_details": {
+        "reasoning_tokens": 403
+      },
+      "total_tokens": 3025
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_79.txt",
+      "source_sha256": "dbabcd6db8b06febc44cf7e57a7d5ae8863ed0204f40887cb96a9d1a0df44a77"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_81.txt",
+      "source_sha256": "d80bb4b5f0194890cfa70abd399c64c672bc4a81bf6748db238e488a116be12d"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:55Z",
+  "duration_seconds": 8.223,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_80.txt",
+    "source_sha256": "09b028ce62055f9664093137c5829a19700fe96a7414256bc11b255ea35da50b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d45ff4fc7804fc837814ded1b2be0825e584709ed2a490309e92f71f6de1e4e4",
+  "request_fingerprint": "e47434ab78fa6a3ca6481d636b7a9a04b70b3de400ddad038394d1692c4d13b7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo seus dados e a fonte. O Gráfico 3.11 é mencionado em prosa, que foi preservada; seu material gráfico não aparece no texto extraído do alvo. A página de contexto seguinte começa com uma linha de fonte que pode pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, a de melhor desempenho, cujos resultados aferidos encontram-se descritos na Tabela 3.16, a média dos estudantes de todo o Brasil foi 36,3. A menor média nessa questão foi obtida pelos estudantes da região Norte (27,2), enquanto a maior média foi obtida na região Centro-Oeste (47,7). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 34,8. O maior desvio padrão foi obtido na região Sudeste (35,0), enquanto o menor foi obtido na região Norte (31,0).\n\nA nota máxima (100,0) e a nota mínima (0,0) foi obtida em todas as regiões. A mediana do Brasil foi 30,0, a mesma da região Sudeste; nas demais regiões foi: 10,0 na região Norte; 25,0 na região Nordeste; 40,0 na região Sul; e 50,0 na região Centro-Oeste.\n\nO Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Engenharia Química. Sem levar em consideração que aproximadamente 22% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda nas notas zero. Nota-se, no entanto, que as notas são distribuídas pelos intervalos.",
+  "text_sha256": "9b39d937c24d9d0f030c571468ff0729d92034412abe4d09ff9ed68d7c054418",
+  "window_size": 3
+}

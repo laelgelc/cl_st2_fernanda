@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02aad664089064f5006af8ed1179a087d1ab33e07fe9169de4",
+    "usage": {
+      "input_tokens": 2654,
+      "input_tokens_details": {
+        "cache_write_tokens": 2651,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2651
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 271
+      },
+      "total_tokens": 3144
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_72.txt",
+      "source_sha256": "290391f8cc4fd26d888aea79c9bd6f86c960eedead722263b68acc33f815db8f"
+    },
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_74.txt",
+      "source_sha256": "381975b90940995c666a876f6a095303f7f626c57ab66e0e1ca08d653f45e802"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:53Z",
+  "duration_seconds": 6.719,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_8",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VIII.pdf",
+    "page_number": 73
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_73.txt",
+    "source_sha256": "82c84de529b776d94a8cfe8a6cd208eb9b8ab28b9a6150752c4f32e9710c28f5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "340d8953fe413208fd4c20947b6262b819313751b98bb2c6a69ef38008ab188c",
+  "request_fingerprint": "a7a7b39b43453260133bb2e9a15ffdbbc9e8afe436b6f85f85ebf2e0e3b3ad78",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.14, incluindo título, dados e fonte, e o material gráfico do Gráfico 3.21, incluindo a linha de fonte. A descrição em prosa do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) foi alcançada apenas na região Norte, enquanto a menor nota máxima foi registrada nas regiões Nordeste e Sul (80,0). A nota mínima foi zero para todas as regiões do Brasil. A mediana do Brasil foi 20,0 e a região Nordeste apresentou mediana zero, ou seja, nesta região pelo menos metade dos alunos tirou nota zero na questão.\n\nO Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 no Componente de Conhecimento Específico. Destaca-se o grande número de estudantes que deixaram a questão 5 em branco ou obtiveram nota zero tendo respondido a questão. O coeficiente de assimetria foi positivo, 0,42.",
+  "text_sha256": "564abbf88991a0c4a73f79ad713b4c6939d9eb7700ddc3cee7e24f99fef62a7a",
+  "window_size": 3
+}

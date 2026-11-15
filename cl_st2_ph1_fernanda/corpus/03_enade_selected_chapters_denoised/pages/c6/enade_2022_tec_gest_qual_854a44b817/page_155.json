@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a35ee306547ae1006af91f5a4e6487d1b818225fad7377a6",
+    "usage": {
+      "input_tokens": 2570,
+      "input_tokens_details": {
+        "cache_write_tokens": 2567,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2567
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 805,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 3375
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_154.txt",
+      "source_sha256": "5aab9e0e755577aa1e352d23a79bd8e372598b254d2f8ce4342d773470383a67"
+    },
+    {
+      "page_number": 156,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_156.txt",
+      "source_sha256": "c6d62c04d2bf613cfe5fb90aa2e860e65c37047bd808163874e50554f5c9eaad"
+    }
+  ],
+  "created_at": "2026-11-15T02:56:26Z",
+  "duration_seconds": 6.991,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_gest_qual",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM GESTÃO DA QUALIDADE.pdf",
+    "page_number": 155
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_gest_qual/enade_2022_tec_gest_qual_page_155.txt",
+    "source_sha256": "d830135c5138d3c7eea25eea7a1cec2f20425828a43c4d555a2e25ba0c704b4c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0a1e067f4270aed45ede7793f9b60434a342e59eeae6ba1af2ec84b059837a12",
+  "request_fingerprint": "0dc08d14b9b92bb6898b0b89ebc4ce19676c89fc3ac6c7af246a6d301754c84b",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No Gráfico 7.5, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Componente Específico), antes de possíveis eliminações pelo critério Ponto-Bisserial. Os gráficos relativos às demais questões do Componente Específico constam do Anexo IV.\n\n7.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\n\nEsta seção apresenta estatísticas selecionadas e histogramas das questões discursivas de Formação Geral (7.3.1) e de Componente Específico (7.3.2). Expõe e compara, também, as médias de subpopulações, caracterizadas por grande região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente capacitados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas são enviadas para a correção dos professores.\n\nEventualmente, algumas respostas em branco não são detectadas nesse pré-processamento automático. A presença de pequenos riscos, ou manchas, pode fazer o programa não identificar uma questão como um possível branco. Estas são enviadas para a correção, mas são classificadas como “branco” pelos professores, quando da correção.\n\n7.3.1 COMPONENTE DE FORMAÇÃO GERAL\n\nAs análises dos resultados de desempenho dos estudantes de Tecnologia em Gestão da Qualidade, nas duas questões discursivas relativas à Formação Geral, encontram-se na Tabela 7.13 e no Gráfico 7.6, cujos dados são analisados de forma sequenciada.\n\nNo caso da Tabela 7.13, analisa-se a média das notas de cada questão discursiva de Formação Geral que leva em conta as correções realizadas por duas bancas: uma que analisa e pontua aspectos relativos ao conteúdo das respostas, seguindo o padrão de respostas divulgado pelo Inep (ver Anexo IX); outra que avalia o desempenho linguístico expresso pela redação das respostas, seguindo um padrão de",
+  "text_sha256": "4ec7003b8012a35eeafe64dc976833b96cf134bfac3148ed8af146cad63d738a",
+  "window_size": 3
+}

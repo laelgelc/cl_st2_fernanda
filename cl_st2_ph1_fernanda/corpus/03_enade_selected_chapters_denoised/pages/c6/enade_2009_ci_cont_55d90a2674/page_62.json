@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0710b117609e02bb006af8e50c4c7487d182cbc846ee617d13",
+    "usage": {
+      "input_tokens": 2912,
+      "input_tokens_details": {
+        "cache_write_tokens": 2909,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2909
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 320,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 3232
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_61.txt",
+      "source_sha256": "d6a0a1f24e057dec8781d15f5a9e1fe641c9c02901203802f2c41bc47219f5df"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_63.txt",
+      "source_sha256": "1ff30fda4a77619a5b131a2d0121fba1fd19fa243fd1894ac3d6b648483d39f5"
+    }
+  ],
+  "created_at": "2026-11-14T22:47:40Z",
+  "duration_seconds": 3.661,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_cont/enade_2009_ci_cont_page_62.txt",
+    "source_sha256": "73d0b1d2051fbefcf21441a254977f942a9305e5239fa5286c761ea7d1f94977"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4487a3ce5ce3aedd3ba7ed2148e53401dd2170897fe5644c88ca7adcb37fd330",
+  "request_fingerprint": "32a43a4f9c5c4c519fe8f5fee4f1074d1239f5d5ca3872e1ed20daf1891c8265",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.11, incluindo fonte, título, eixos, intervalos e legenda."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 apresenta a distribuição das notas na questão 39 discursiva do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Quadro 3.4) foi reforçada no gráfico pela concentração no primeiro intervalo. A distribuição apresentou um outro máximo local no quinto intervalo, de notas razoavelmente baixas, não indicando uma polarização nas habilidades dos alunos.",
+  "text_sha256": "326ce48aa41e7066d6d2b7ec7be29cc5a2ef9b3edb538b160bc6a5b4ab0e44ca",
+  "window_size": 3
+}

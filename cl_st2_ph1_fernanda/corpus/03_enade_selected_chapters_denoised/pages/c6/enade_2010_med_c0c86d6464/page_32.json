@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04ac9d3bd494ad2a006af8e949503887d1afdc55100e3fec13",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 2618,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2618
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 386,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 3007
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_31.txt",
+      "source_sha256": "56f26aeed98bb80b6df74b3a31115122fbc4e039cb5128c907a4523f3ce8f675"
+    },
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_33.txt",
+      "source_sha256": "2450143dd19990d86fef53fc9de8b47122f660c303d201316aab28d838515d97"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:45Z",
+  "duration_seconds": 4.577,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA.pdf",
+    "page_number": 32
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_32.txt",
+    "source_sha256": "ceca136630de5ca2001ef95c273141be181370275d1125b5a0651553014cb6b3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "316874fdce14293bc788e1f87b13ef721d32d83e7f05d5559352faec9c9c11e1",
+  "request_fingerprint": "39d6a26390bc40fdd016c3e08c795051672036bb5f0e413f014abce5ba1e1b4a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 50,0, foram atingidas fundamentalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 40,8 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 60,0, transparecendo uma superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1).\n\nOs coeficientes de assimetria indicam uma assimetria negativa (-0,8) para os Concluintes, bem como para Ingressantes (-0,9).",
+  "text_sha256": "79a88cb0325ad951f9b60f6bfb212462fda1b8c86de1ba1cc3fa8eb202ad1351",
+  "window_size": 3
+}

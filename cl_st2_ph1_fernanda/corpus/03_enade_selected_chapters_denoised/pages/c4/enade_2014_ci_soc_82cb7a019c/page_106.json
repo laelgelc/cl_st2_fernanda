@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cdfc9dc7162597a006af8f6c8abc887d1b37d06fe62f3a5bf",
+    "usage": {
+      "input_tokens": 1590,
+      "input_tokens_details": {
+        "cache_write_tokens": 1587,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1587
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 251
+      },
+      "total_tokens": 1955
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_105.txt",
+      "source_sha256": "d16a01723d7c5edca80ae6f4cdfff6011106c9f5ed3e6051a5885e21be25884a"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_107.txt",
+      "source_sha256": "d9b98f4da820c66ed3c7028dd177d6032956ae790e89cf6e5c8bb84ea737660e"
+    }
+  ],
+  "created_at": "2026-11-15T00:03:20Z",
+  "duration_seconds": 5.511,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_106.txt",
+    "source_sha256": "d85c14026962a0555be56485b2f03dc929729dac4ad2dbe35b7cc7e3ceb336d5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "97f6d07298900c0d128cf200f39a5d78d89adea0bdccf030479cfba63648f893",
+  "request_fingerprint": "3586ef6a0d6053fa9004b77de248833b0d0b4955b7f113b8bca89c0cfd1c4216",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, provavelmente pertencente a material gráfico; o conteúdo gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (74,3%) se comparada ao quarto inferior de desempenho (56,4%). As diferenças do primeiro para o segundo e do terceiro para o último quarto são estatisticamente significativas.",
+  "text_sha256": "0f30e14f33e3d376c2807d7d352e78577bf5507354efaa21b048490d1f48f49c",
+  "window_size": 3
+}

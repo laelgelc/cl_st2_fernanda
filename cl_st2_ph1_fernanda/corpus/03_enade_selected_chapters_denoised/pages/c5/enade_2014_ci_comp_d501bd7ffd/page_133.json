@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b3b89814f364555006af8f64f320c87d19e6c06b7d852972a",
+    "usage": {
+      "input_tokens": 3039,
+      "input_tokens_details": {
+        "cache_write_tokens": 3036,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3036
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 627,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 3666
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 132,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_comp/enade_2014_ci_comp_page_132.txt",
+      "source_sha256": "829952fc2eac1f4c260c25accd6809a36d98e9a39e23e782bd404767914ed515"
+    },
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_comp/enade_2014_ci_comp_page_134.txt",
+      "source_sha256": "69c891a73fd7b0a7d2c5fead1c820a0b9253a096db14638b3f102cc0abc8f4b9"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:19Z",
+  "duration_seconds": 6.327,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 133
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_comp/enade_2014_ci_comp_page_133.txt",
+    "source_sha256": "208c9b51640950f98039903e145e32aa19ee7e772712c44c2321fb4adeb8abc7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c8ed18a52e94f6e2f556817cfec32e9d4f1c48a404d14062d2c36403a569f8b0",
+  "request_fingerprint": "d7d17559a76fa88da75b603fef5e69d3e7110a5bfd060ada8d3b3f2699efeb13",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, identificada pelo contexto como pertencente ao Gráfico 5.1 da página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 5.2 apresenta a quantidade e distribuição de cursos de Ciência da Computação (Licenciatura) participantes do ENADE/2014, por faixa de conceito e Grande Região. A diferença entre os cursos tabulados neste capítulo e no capítulo 2 são os cursos sem conceito (SC), em princípio, aqueles sem estudantes concluintes que participassem da prova ou que tivessem tão somente um estudante concluinte²³.\n\nObservando-se os dados da Tabela 5.2, nota-se que, dos 57 cursos participantes, 21 (36,8%) classificaram-se com conceito 3, o valor modal. Este foi também o conceito modal em três das regiões: Sudeste (62,5%), Sul (42,9%) e Centro-Oeste (66,7%). O conceito 4 foi o segundo mais frequente em nível nacional (31,6%, correspondendo a 18 cursos) e o conceito 2, o terceiro (12,3%, correspondendo a sete cursos). Houve, ainda, quatro cursos (7,0%) que receberam conceito 5 e dois cursos (3,5%) que receberam conceito 1. Dos 57 cursos de Ciência da Computação (Licenciatura), cinco cursos (8,8%) ficaram sem conceito (SC).\n\n²³ Estes cursos com somente um concluinte não foram considerados no capítulo 2.",
+  "text_sha256": "da865a34a595a49fc6bd0e5151b8add28fb29b2d3b18ffa7fdb3c4462b33806a",
+  "window_size": 3
+}

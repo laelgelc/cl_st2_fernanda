@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0890287cc685b861006af90d52ebe887d1b7934c04e47287cc",
+    "usage": {
+      "input_tokens": 2376,
+      "input_tokens_details": {
+        "cache_write_tokens": 2373,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2373
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 446,
+      "output_tokens_details": {
+        "reasoning_tokens": 272
+      },
+      "total_tokens": 2822
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_139.txt",
+      "source_sha256": "df77d0f3818bfae8f7037b71c5c44973966082db6b9ab3769bc5f8e563f5d8a3"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_141.txt",
+      "source_sha256": "47bea682d2bf1e7a6916a619a565881481fcf75e54d3af4e03809ec3a282fd60"
+    }
+  ],
+  "created_at": "2026-11-15T01:39:30Z",
+  "duration_seconds": 4.506,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_publi/enade_2018_publi_page_140.txt",
+    "source_sha256": "2386fddfc5175d61ee1e395f3bdc5637df2012a5f86ef76905e768bc7738ba5b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "209670726985a613631983e5b3b490640a0c6c92856911e0b93c4417ce802587",
+  "request_fingerprint": "020b8039314522355c5643f7593d5328d6a309b0ffc8bd2ff5eb248b86447e34",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.18, incluindo título, dados e fonte.",
+    "Removida a linha de fonte associada ao Gráfico 6.11; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.11, mostra-se a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Comunicação Social – Publicidade e Propaganda. Essa é uma distribuição bimodal, com a moda principal no intervalo de notas (20;30], com frequência de 18,4%. A moda secundária situa-se na nota zero, com frequência de 18,2%. Destaca-se o intervalo (10;20] com frequência muito próxima à modal, 17,2%.",
+  "text_sha256": "303c000479280c61c815500cb96597d5682ae0b18fb182a0956dcda4878831bb",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03080b7acac81889006af8f2a44c3487d19d277da91a4a52b2",
+    "usage": {
+      "input_tokens": 2078,
+      "input_tokens_details": {
+        "cache_write_tokens": 2075,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2075
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1218,
+      "output_tokens_details": {
+        "reasoning_tokens": 836
+      },
+      "total_tokens": 3296
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_42.txt",
+      "source_sha256": "67ab794e83309956ac122733ed0eac859887ac861eab94a6218c3272ca66e8fe"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_44.txt",
+      "source_sha256": "11f97b7bdffb55aa49739b774f9949ad7c6c6a6963d3ab8fe0435d20de8a2a3f"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:40Z",
+  "duration_seconds": 12.701,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_43.txt",
+    "source_sha256": "99ff6c0e1b79cc2b881a6e2afdf62ad88b327892b8ca27f56b924e3ecd65e4e5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c28bb0dd337c1bf2d0c9ff34406f7145686ae2280ff03dc50eb5be59844e1a66",
+  "request_fingerprint": "8b9f18dcb80f002910247abd7394beafa50d796e315534822f503b56c4577124",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e fonte.",
+    "Removida a linha de fonte no início da página; pode pertencer a material gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Tecnologia em Processos Gerenciais. A média do desempenho dos alunos do Brasil como um todo foi 40,0. A maior média foi obtida na região Sudeste (41,6), e a menor, na região Centro-Oeste (37,5). As demais médias foram: 39,8 na região Norte, 39,3 na região Sul e 38,1 na região Nordeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 14,1, sendo o maior desvio padrão observado nas regiões Sudeste e Centro-Oeste (14,5) e o menor na região Norte (13,6). Os demais desvios foram: 14,1 da região Nordeste e 13,8 da região Sul.\nA mediana das notas dos estudantes de todo o Brasil foi 39,8. A maior mediana ocorreu na região Sudeste (42,5) e a menor nas regiões Nordeste e Centro-Oeste (38,3). As demais medianas foram 40,3 na região Norte e 39,0 na região Sul. A nota máxima do Brasil como um todo foi 90,8, sendo obtida por pelo menos um aluno da região Sudeste. As demais notas máximas foram: 88,0 na região Sul, 76,5 na região Nordeste, 72,0 na região",
+  "text_sha256": "39162e6648cd5c16f0742d2d5019e4047fb39049f87b3f521ca83aeced084007",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0c6a70bab568e0006af8eccc965487d18b17d78781c16703",
+    "usage": {
+      "input_tokens": 1592,
+      "input_tokens_details": {
+        "cache_write_tokens": 1589,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1589
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 1853
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_37.txt",
+      "source_sha256": "58051d8d5b4e76edb2381535c6b19a972c7ab6e58f6c15de5f690e6d169ecce7"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_39.txt",
+      "source_sha256": "03256b56dadab70b794ebdc1c627df4c297746e6d926fe898f3484bf924644c1"
+    }
+  ],
+  "created_at": "2026-11-14T23:20:44Z",
+  "duration_seconds": 3.931,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_7",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VII.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_7/enade_2011_eng_g_7_page_38.txt",
+    "source_sha256": "8334f60ceea388c4039ed94c1e7811cb26eeff12ed89fe27259491e327d035de"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1a449656fd9d3597e69441a96d8a154d7c42c07d9851a2e4d91219d830a52bbd",
+  "request_fingerprint": "47e9058b42d714969aba7fb3d9e4d24d68628a5d4defdd0cb31c985a9326f3fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades, Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (43,3), e a menor, pelos de Faculdades (39,3).",
+  "text_sha256": "b042aa02f25d8676239090dd593684779438c1b9c6b873a70329371c96e2d20f",
+  "window_size": 3
+}

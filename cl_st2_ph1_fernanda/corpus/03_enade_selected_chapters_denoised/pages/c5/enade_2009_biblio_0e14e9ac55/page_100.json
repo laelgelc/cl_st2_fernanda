@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_005d93c51822f797006af8e4b1480c87d1978129bb294c7d25",
+    "usage": {
+      "input_tokens": 2610,
+      "input_tokens_details": {
+        "cache_write_tokens": 2607,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2607
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 571,
+      "output_tokens_details": {
+        "reasoning_tokens": 271
+      },
+      "total_tokens": 3181
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_99.txt",
+      "source_sha256": "bf9c67a412e4a3f706e89e2c3eaaeb90df52f1c3e41250631f2aa70feeb4ed66"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_101.txt",
+      "source_sha256": "216e8dba830a6cad9410ccc4273ad694ee5b217dba568ef9a68c256821b5cde5"
+    }
+  ],
+  "created_at": "2026-11-14T22:46:09Z",
+  "duration_seconds": 5.579,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_biblio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_BIBLIOTECONOMIA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_biblio/enade_2009_biblio_page_100.txt",
+    "source_sha256": "360ee516dbedaff2be5b07f64480196bd91af2251d6e2d24441004e93eb0f7c9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab2e0832c029f47ef3516b96504043d97561dbae4bdc0a668aa8ecbc89c5dafb",
+  "request_fingerprint": "1eeba835ea8fb4cec20ab6555ed332d0ddfaaf260f98dd6404acf2aedaba92cb",
+  "retry_count": 0,
+  "review_notes": [
+    "Há uma extensa área em branco após o texto; como o contexto menciona o Gráfico 5.2, pode haver material gráfico não capturado na extração. Revisar a página original."
+  ],
+  "status": "success",
+  "text": "Na Região Sudeste dos 14 cursos avaliados, 5 eram de instituição federal, 1 de estadual e 8 de instituições privadas. Dos 5 cursos em instituição federal, 3 receberam conceito 3, 1 o conceito 2 e 1 o conceito mínimo. O único curso avaliado em instituição estadual recebeu conceito 2. Dos 8 cursos avaliados em instituições privadas, 4 receberam conceito 3, 2 o conceito 2 e 1 o conceito 4. Apenas 1 curso de instituição privada recebeu conceito mínimo e nenhum curso o conceito máximo.\n\nNa Região Sul dos 5 cursos avaliados, 3 eram de instituição federal e 2 de estadual. Entre os 3 cursos em instituição federal, 2 receberam conceito 3 e 1 o conceito máximo. Os 2 cursos em instituição estadual receberam os conceitos 3 e 4.\n\nNa Região Centro-Oeste dos 4 cursos avaliados, 3 eram de instituições federais e 1 de instituição privada. Dos 3 cursos em instituições federais, 2 receberam conceito 2 e 1 o conceito 4. O único curso avaliado em instituição privada recebeu conceito mínimo.",
+  "text_sha256": "1da9cc43fc98fc70935c9eb46cc06fe3f49d750a3e52c4007431fed72f64937e",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b0f23f1df6c8a4a006af8e69c3b7887d18825eb81bde1b87d",
+    "usage": {
+      "input_tokens": 2245,
+      "input_tokens_details": {
+        "cache_write_tokens": 2242,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2242
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 2592
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_80.txt",
+      "source_sha256": "58caef9a65776a9d26216fbf6060a1f07208b2eb47a4fa0aa3eda58957a17f33"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_82.txt",
+      "source_sha256": "bb454fe7952d3e31b33eb0f168670dbd8d10dd9fe723baf132fbcbf6775d4ad8"
+    }
+  ],
+  "created_at": "2026-11-14T22:54:20Z",
+  "duration_seconds": 3.426,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_ri/enade_2009_ri_page_81.txt",
+    "source_sha256": "00362f462c01250f0ee80debf4f3e307fd7e9401ebe681e7654a10a248fdc867"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f0797b512aa81a5312408c8d8570f55690698956ccfe4d9b0d9b2ebc013fd525",
+  "request_fingerprint": "fe5cc373794e8855015db72131eb06c77f548775169eac99bff7ec7ed13c395a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.7c, incluindo título, dados, rótulos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.8a e 4.8b apresentam a distribuição das respostas à questão “Os enunciados das questões da prova na parte de Formação Geral, estavam claros e objetivos?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de RELAÇÕES INTERNACIONAIS. Em termos regionais, as proporções de estudantes que consideraram claros e objetivos os enunciados de todas ou da maioria das questões variaram entre os concluintes de 74,1% na Região Sul a 86,2% na Norte. Já entre os ingressantes estas proporções variaram de 84,1% na Região Centro-Oeste a 96,7% na Região Norte.\nCom relação às respostas “poucos” e “não, nenhum” tanto para concluintes como para ingressantes as maiores proporções ocorreram na Região Sul, respectivamente 12,3% e 7,4%.",
+  "text_sha256": "e916c5bb634411b15fbda3a2f802db94cf078bf46d00f6b4070ede665157d13c",
+  "window_size": 3
+}

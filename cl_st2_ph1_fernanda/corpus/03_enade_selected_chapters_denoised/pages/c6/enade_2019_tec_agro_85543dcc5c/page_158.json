@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00d61e3311adbdd4006af91513f7a887d1bfe5afc9fdefc74d",
+    "usage": {
+      "input_tokens": 3303,
+      "input_tokens_details": {
+        "cache_write_tokens": 3300,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3300
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1163,
+      "output_tokens_details": {
+        "reasoning_tokens": 599
+      },
+      "total_tokens": 4466
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 157,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_157.txt",
+      "source_sha256": "e58455992a498c58f6282c29d54e4ec952e230a022995f4f973dff9d8b8c5183"
+    },
+    {
+      "page_number": 159,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_159.txt",
+      "source_sha256": "1531503ce04c3c0e9e884a3a10417e39f00b6e7a0c456868156d1b3d3d297641"
+    }
+  ],
+  "created_at": "2026-11-15T02:12:35Z",
+  "duration_seconds": 10.205,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC AGRONEGÓCIOS.pdf",
+    "page_number": 158
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_agro/enade_2019_tec_agro_page_158.txt",
+    "source_sha256": "7f6d29a2f85d05b52c031e045afb66a17bc1244df5e2c91764e66b1d50913a46"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4fad2cff260bbbc332bc90ff7b0971923b1e2581d5910e08f0c7e842effaee69",
+  "request_fingerprint": "41f81aea917427ddca558babd4c247f8cf5be6963ad8ac98815be41284fbcfd0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte.",
+    "A frase final termina em “Índice” na página-alvo; não foi completada."
+  ],
+  "status": "success",
+  "text": "classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n As questões classificadas com índice Fraco receberam a cor vermelha (<=0,19), as classificadas com Médio receberam a cor amarela (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das sete questões válidas, nenhuma foi classificada como Muito fácil ou como Fácil; cinco questões foram consideradas de nível Médio, situando-se no intervalo entre 0,42 e 0,57 do Índice de Facilidade, ou seja, houve entre 42,0% e 57,0% de acertos; uma questão foi classificada na categoria Difícil; e uma questão apresentou menos de 15% de acertos, razão pela qual foi classificada como Muito difícil, a questão 5.\nO Índice de Facilidade variou de 0,11 a 0,57 e o de Discriminação, de 0,21 a 0,48. Todas as questões, quanto ao Índice de Discriminação, foram tidas como Muito bom, exceto uma, classificada como Médio.\nNa Tabela 6.9, é apresentada a distribuição das questões, levando-se em conta, simultaneamente, a classificação dos dois índices. As seis questões que tiveram Índice de Discriminação Muito bom figuraram entre dois níveis de dificuldade Médio e Difícil: uma classificada na categoria Difícil (a questão 6) do Índice de Facilidade e, cinco, na categoria Médio (questões 2, 3, 4, 7 e 8). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,48, e foi considerada Médio em termos de facilidade, com uma proporção de 0,42 acertos. O máximo de acertos foi alcançado pela questão 3, com um Índice",
+  "text_sha256": "bb635efb7d93cbdb04a512f33a96d41fbf4e53397418839ba9ba08fc60a17efc",
+  "window_size": 3
+}

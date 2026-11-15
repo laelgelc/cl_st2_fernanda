@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d45aeb8bef419e4006af9147fed1887d190a9f6db60b0a727",
+    "usage": {
+      "input_tokens": 1786,
+      "input_tokens_details": {
+        "cache_write_tokens": 1783,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1783
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 496,
+      "output_tokens_details": {
+        "reasoning_tokens": 310
+      },
+      "total_tokens": 2282
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_106.txt",
+      "source_sha256": "2c32f8006d1bc67fcc32b199a382447413ba6c72460e0839fb4376826a601fe4"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_108.txt",
+      "source_sha256": "4c557446ba7a1fe3a1fcdec5e55e15d7e44f48e2d6b99c95fd162e4e07ae5ea0"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:07Z",
+  "duration_seconds": 5.374,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_107.txt",
+    "source_sha256": "41ce2df9dc6279da98b4a4b9326b3833f1f63bf9784efa18d4b2a760207254ee"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb795e7080935d7dfd555cb34a86df252ac6cf895ab33e5bc950865855729e5f",
+  "request_fingerprint": "331179fd21ed3f086018376435829f0b4292bf0a300e3b53c1067fabb8197f9b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.11, seu título e a linha de fonte. O fragmento isolado “CEFET/IF” foi removido por parecer um rótulo gráfico; revisar a atribuição."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram a prova Longa ou Muito longa, em relação ao tempo total destinado à sua resolução, foi maior para os estudantes de cursos de IES Privadas (32,2%), uma diferença estatisticamente significativa da proporção em IES Públicas (26,6%). Já a proporção de presentes à prova que consideraram a extensão como Adequada foi 69,0% para os de IES Públicas e 62,1% para os de IES Privadas (ver Gráfico 4.12 e Tabela II.6, no Anexo II).",
+  "text_sha256": "5b44fe1fe3e0fc4773b7754ba3737ca7cbdf8667cf7d79f316b8410d6335c6d4",
+  "window_size": 3
+}

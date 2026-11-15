@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a6920a0a7edcfd4006af8f3d57cec87d181ebc501c09156d1",
+    "usage": {
+      "input_tokens": 2844,
+      "input_tokens_details": {
+        "cache_write_tokens": 2841,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2841
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 316
+      },
+      "total_tokens": 3666
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_53.txt",
+      "source_sha256": "5315a25c3c73768ab9119c881c164424f8063ce709923cc2380e05216febda37"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_55.txt",
+      "source_sha256": "e22ccd271368868c0036bdcde084eb59324282689221b12669530221a32fb461"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:45Z",
+  "duration_seconds": 7.132,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_54.txt",
+    "source_sha256": "dd9a77d1658c68aca451e0556cb4a7a6141f1889fd7667607269dd487fd79898"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3265bc0cb7bca5f4940edb0473dd172f7979ca076298566b3ae33cbd97877fb3",
+  "request_fingerprint": "d3865a9e1a4ddee1f2d61e7767a8da06e038d3206533f94d8967dfc2e8345125",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n•\tAzul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n•\tAs questões classificadas com índice fraco receberam a cor vermelha (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e outra como fácil. Três questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Outras três questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos.\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram índices acima de 0,40 e, assim, foram classificadas com índice muito bom para esse grupo",
+  "text_sha256": "edb6302092ca78619929477d33cffae33b6d0517bc8404b0886da08506ea6a88",
+  "window_size": 3
+}

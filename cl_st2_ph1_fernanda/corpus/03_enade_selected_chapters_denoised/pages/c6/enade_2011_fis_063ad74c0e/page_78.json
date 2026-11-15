@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2c9401b761f4a0006af8ed6a855487d195146a58bb54f2a3",
+    "usage": {
+      "input_tokens": 2383,
+      "input_tokens_details": {
+        "cache_write_tokens": 2380,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2380
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 2804
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_77.txt",
+      "source_sha256": "a15ceaad8cc8f1818b54a8278a99d12d1f30997099c2f5ea38fd5212a818c76a"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_79.txt",
+      "source_sha256": "0b8d126796f63aa9cbbc8547854d41bee10927675e8adf9febb8c3b2b61f5cec"
+    }
+  ],
+  "created_at": "2026-11-14T23:23:22Z",
+  "duration_seconds": 4.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_fis/enade_2011_fis_page_78.txt",
+    "source_sha256": "27233f3ab4db827d6239a71167cbdcc412ede967ee9819fc34d91c065314f348"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "417b83a4690f4501261dce1185b240e61760d913a32aa7962c6b8c5fbbb99072",
+  "request_fingerprint": "a30f4343236053aece92c9cfe2a6162508fa6cdbd0f9fc5210359fbe91cd4a8a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21, representa a distribuição de notas na questão discursiva 4, no componente de Conhecimento Específico para alunos do Bacharelado e da Licenciatura. A distribuição é bem semelhante à observada no Gráfico 3.20. A maior frequência, tanto para estudantes de Bacharelado quanto para Licenciatura, ocorre na categoria “em branco”. Observa-se que na categoria em branco e nos dois primeiros intervalos há uma proporção maior de alunos de Licenciatura, diferença compensada nos intervalos subsequentes.\n\nOs coeficientes de assimetria são positivos e bastante altos: 2,25 para a distribuição de notas dos concluintes de Bacharelado e 3,44 para os de Licenciatura. Este comportamento se repete para ambos os cursos em todas as regiões, sendo o menor coeficiente de assimetria igual a 1,98, da distribuição de notas de Bacharelado da região Sul, e o maior, 4,98, da Licenciatura da região Norte.",
+  "text_sha256": "54727325206cea5ef63363faff21723a2f4a811ab0b3bd73d4a287c7741a72d3",
+  "window_size": 3
+}

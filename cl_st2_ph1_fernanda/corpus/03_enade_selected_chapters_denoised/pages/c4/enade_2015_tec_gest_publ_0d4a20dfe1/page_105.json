@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01faef4f1a5917a3006af90063665087d1b19baf31d685e179",
+    "usage": {
+      "input_tokens": 1795,
+      "input_tokens_details": {
+        "cache_write_tokens": 1792,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1792
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 427,
+      "output_tokens_details": {
+        "reasoning_tokens": 225
+      },
+      "total_tokens": 2222
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_104.txt",
+      "source_sha256": "98c424a80f23be71e05dcc521afcf5bed17c5b555aa88ed871f59f19475b9a57"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_106.txt",
+      "source_sha256": "83a4c533b48f4b78643e964ee5b65580b6c87648b5ba6c2e65ef7112f78f96ba"
+    }
+  ],
+  "created_at": "2026-11-15T00:44:19Z",
+  "duration_seconds": 4.629,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2015_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO PÚBLICA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2015_tec_gest_publ/enade_2015_tec_gest_publ_page_105.txt",
+    "source_sha256": "e3bc00a420bca97a36a0c9f5eaede926f693c2b881a9f0a1b4e688b4a55d7908"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7a00ed2d34b83d51b151b53331beec101e3f543bcba05874bb9f04b78a722251",
+  "request_fingerprint": "a2078db3994ebd9dac635e59919c9e3a0ffb5d780c6d38259228d4034262a469",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.9, sua legenda e a fonte. O último período continua na página seguinte; não foi completado."
+  ],
+  "status": "success",
+  "text": "A maioria dos estudantes de todas as Grandes Regiões brasileiras considerou “claros e objetivos” todos ou a maioria dos enunciados das questões do Componente de Conhecimento Específico da prova, percentual sempre maior ou igual a 71%. A diferença entre a maior e a menor proporção, 80,2% (Sudeste) e 71,0% (Nordeste), é estatisticamente significativa, bem como a diferença entre a região Sudeste e a Sul (75,1%).\n\nA proporção de estudantes que consideraram os enunciados das questões “claros e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (85,0%) se comparada ao quarto inferior",
+  "text_sha256": "f124d8a119feebb134227bfe03c0abd97cb636ed0b63238f2e6c27fc51026348",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01c363925b86586a006af8f59ef6b087d1b777f01420169048",
+    "usage": {
+      "input_tokens": 2238,
+      "input_tokens_details": {
+        "cache_write_tokens": 2235,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2235
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 2549
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_60.txt",
+      "source_sha256": "a1900e7f1b28ca8352b673b1b3a86d219358dbacad7515eaf3ba588130e89501"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_62.txt",
+      "source_sha256": "d42e6c1a5731163b3e45f7f71f0a607d0e7995ddc47f6191a5894cd706e7de14"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:22Z",
+  "duration_seconds": 3.247,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_61.txt",
+    "source_sha256": "2290daf9d36ca47ff8ed7fc2b5f73d2c3a543b1301466fcb04ffac80d13e9244"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0703594682cba31aa9c1d39d40df29edd2490ff4479ab0d0acf516dfee837156",
+  "request_fingerprint": "22ab779217a9e8b07d4915ee66689ce324f4ceb8903beb79b81f11f124318dbd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e linha de fonte.",
+    "Removido o material gráfico do Gráfico 3.14 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.14 analisa a questão 15 do Componente de Conhecimento Específico. Esta foi uma das questões classificadas como difícil nesta prova, apresentando índice de facilidade 0,40, ou seja, 40,0% dos estudantes assinalaram acertadamente a opção C, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,41, classificado como muito bom.",
+  "text_sha256": "0c25676adebf07c16c78e72ccddc36e1db248de082a9f03f17d8cde3984db7d0",
+  "window_size": 3
+}

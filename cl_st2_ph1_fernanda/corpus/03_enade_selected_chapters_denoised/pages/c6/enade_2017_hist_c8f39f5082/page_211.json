@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ba9bb904486c75006af908dd7df887d181b23e4422d01049",
+    "usage": {
+      "input_tokens": 3043,
+      "input_tokens_details": {
+        "cache_write_tokens": 3040,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3040
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 581,
+      "output_tokens_details": {
+        "reasoning_tokens": 195
+      },
+      "total_tokens": 3624
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 210,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_210.txt",
+      "source_sha256": "79e8cccd950cadf8566c49b9cfb5be10c889528558c110210d16fd41e102e246"
+    },
+    {
+      "page_number": 212,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_212.txt",
+      "source_sha256": "dea813b28444a19c78f72d8db2dc72115e13e1b8232a50bb3225c979f64b47ab"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:29Z",
+  "duration_seconds": 5.45,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 211
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_hist/enade_2017_hist_page_211.txt",
+    "source_sha256": "03aa133a1e9d2b4ce071a3f4c0a4ebe44a81a8f5c3226dd75cfb0f5245b8d856"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "43b7e2ff40a22ec3ae764c37237a81df3378a2de530f81bfb52a8deb634f33ad",
+  "request_fingerprint": "2edffbb2d2d8b178a0ba4cf558eefb7c371adacca66d17387cb864fbee47a9bc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas a Tabela 6.8b e sua fonte, incluindo os índices e classificações das questões.",
+    "Removidas a Tabela 6.9b e sua fonte, incluindo a distribuição das questões por índices."
+  ],
+  "status": "success",
+  "text": "na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Nenhuma das questões apresentou menos de 15% de acertos, e não foram classificadas como Muito difícil. O Índice de Facilidade variou de 0,17 a 0,91, e o de Discriminação, de 0,32 a 0,57.\n\nA Tabela 6.9b apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices, semelhantemente ao apresentado na Tabela 6.9a, mas aqui para os alunos de Bacharelado. As seis questões com Índice de Discriminação Muito bom figuraram entre três níveis de dificuldade Muito fácil, Fácil e Médio: uma classificada na categoria Muito fácil (a questão 6) do Índice de Facilidade, duas, na categoria Fácil (questões 4 e 8) e, por fim, três na categoria Médio (questões 2, 5 e 7). Já duas questões com Índice de Discriminação Bom figuraram apenas no nível de dificuldade Difícil (questões 1 e 3) do Índice de Facilidade. Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,57, e foi considerada Fácil em termos de facilidade, com uma proporção de 0,63 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,91.",
+  "text_sha256": "7fd4ac40ef2cb1f79b49b5c10590e72de8b93bae5402b8e8a767132fb80ccc3b",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09779ef17d55d778006af917826a9487d18433ec36296f9026",
+    "usage": {
+      "input_tokens": 2494,
+      "input_tokens_details": {
+        "cache_write_tokens": 2491,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2491
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "total_tokens": 3140
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 267,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_comp/enade_2021_ci_comp_page_267.txt",
+      "source_sha256": "3dfdbe80781b917f5cb04ba608cb39a63aed74e26b95c7435a320facab0d8642"
+    },
+    {
+      "page_number": 269,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_comp/enade_2021_ci_comp_page_269.txt",
+      "source_sha256": "c615047de8fc57d0fcf9011e37e6f26935ae6195b971b330bb8284861b06b092"
+    }
+  ],
+  "created_at": "2026-11-15T02:22:58Z",
+  "duration_seconds": 5.909,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_CIÊNCIAS DA COMPUTAÇÃO.pdf",
+    "page_number": 268
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_ci_comp/enade_2021_ci_comp_page_268.txt",
+    "source_sha256": "883c5bd2d9a53e6bbdc625a1f2398668754e5316ae6697c27cb200dcad51d4a7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b9842d3dfa4d3f306ca07d7e78274cf1d263ea12a1e0b3688ee9bf329678b026",
+  "request_fingerprint": "b9c7ae299c040fe8f4d5e594540626583f87c33c62f3f3d05ed4acd8eae5af40",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes - Enade/2021», identificada como pertencente ao material gráfico.",
+    "A última frase fica incompleta no limite da página; foi mantida sem completar com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.3a, apresenta-se a distribuição do Conceito Enade dos cursos de Licenciatura, segundo a Organização Acadêmica da IES. Os cursos em Universidades (linha azul) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos por Faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, a distribuição de Conceitos Enade com menores valores. Os cursos mantidos por Centros Universitários (linha verde) e CEFET/IF (linha laranja) apresentam poligonais mais centrais e, consequentemente, distribuição de Conceitos Enade com valores intermediários.\n\nNa Tabela 5.3b, encontra-se a distribuição dos conceitos atribuídos aos cursos de Bacharelado participantes do Enade/2021, na Área de Ciência da Computação, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 325 cursos de Ciência da Computação participantes, 188 eram oferecidos em Universidades, 72 em Centros",
+  "text_sha256": "877d5b2d26926e3834f1902ff9e806e9a65b7cb52922f7b12c9792279fc6a723",
+  "window_size": 3
+}

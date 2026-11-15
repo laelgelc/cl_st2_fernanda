@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b473d71efe19564006af8f0c134c087d1a6285b7e1d161e03",
+    "usage": {
+      "input_tokens": 2112,
+      "input_tokens_details": {
+        "cache_write_tokens": 2109,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2109
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1490,
+      "output_tokens_details": {
+        "reasoning_tokens": 821
+      },
+      "total_tokens": 3602
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_43.txt",
+      "source_sha256": "f133c3439d32766b02361f36eaee7fed15918a98762b3606f9b11dfba226fa55"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_45.txt",
+      "source_sha256": "fd4d0cc7fe7e01f7fb8ae731087d22dbcee0c7809f5b8ec8f6d3259bd494ebbb"
+    }
+  ],
+  "created_at": "2026-11-14T23:37:37Z",
+  "duration_seconds": 11.649,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_des",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_DESIGN.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_des/enade_2012_des_page_44.txt",
+    "source_sha256": "a98d1adc65b083e25abd078fe7fbf2e3653882247947d10989a3a7aaf2966137"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0bb1a7c62c0d72eb3efdddd93f048f264fd30d1471379913d8f5e1c3046a9743",
+  "request_fingerprint": "560a6cc26b2794d6feadd9e5e2db5f740f6efbd00ac78ce824f20516f2944b27",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como atribuição de material gráfico/tabelar; verificar a qual elemento ela pertence. A Tabela 3.3 é mencionada no texto, mas seus dados aparecem na página de contexto e foram excluídos."
+  ],
+  "status": "success",
+  "text": "3.1.3 Estatísticas Básicas do Componente de Conhecimento Específico\n\nA Tabela 3.3 apresenta as estatísticas básicas referentes ao componente de Conhecimento Específico da área de Design. A média do desempenho dos alunos do Brasil como um todo foi 47,0. A maior média foi obtida na região Sul (48,9), e a menor, na região Sudeste (46,0). As demais médias foram: 47,5 na região Nordeste, 47,4 na região Norte e 46,4 na região Centro-Oeste. Quanto à variabilidade das notas, o desvio padrão do Brasil como um todo foi 14,4, sendo o maior desvio padrão observado na região Centro-Oeste (17,6) e o menor na região Norte (11,9). Os demais desvios foram: 14,4 na região Sul, 14,3 da região Sudeste e 13,8 da região Nordeste.\n\nA mediana das notas dos estudantes de todo o Brasil foi 48,0. A maior mediana ocorreu na região Sul (50,3) e a menor nas regiões Norte e Sudeste (46,8). As demais medianas foram 49,0 na região Nordeste e 48,8 na região Centro-Oeste. A nota máxima do Brasil como um todo foi 93,5, sendo obtida por pelo menos um aluno da região Sudeste. As demais notas máximas foram: 92,8 na região Sul, 78,2 na região Nordeste, 78,0 na região Centro-Oeste e 76,7 na região Norte. A nota mínima foi zero em todas as regiões, com exceção da região Norte, cuja nota mínima foi 12,8.\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (50;60], acima do grupo modal para a Formação Geral.\n\nO coeficiente de assimetria da distribuição das notas do componente de Conhecimento Específico também é negativo (-0,47), assim como na prova como um todo e no componente de Formação Geral. Nota-se pelo histograma (Gráfico 3.9) que esta é uma distribuição assimétrica à esquerda. O coeficiente de assimetria em todas as regiões também é negativo (entre -0,76 para o Centro-Oeste e -0,07 para o Norte), evidenciando que a distribuição das notas dos estudantes dessa região, no componente de Conhecimento Específico, tem cauda mais pesada à esquerda.",
+  "text_sha256": "953ae3e971cc3f7ea096d7189e9e3ac02dcf8f51a8d6a03a062693c8870b55e0",
+  "window_size": 3
+}

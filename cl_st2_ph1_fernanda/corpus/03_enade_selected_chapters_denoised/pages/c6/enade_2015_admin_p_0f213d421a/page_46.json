@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00429b5cc950a322006af8fcf1e56c87d183c146b01538a779",
+    "usage": {
+      "input_tokens": 2670,
+      "input_tokens_details": {
+        "cache_write_tokens": 2667,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2667
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 374,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 3044
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_45.txt",
+      "source_sha256": "7c1414984e8b7e98ecd87bc8151af2cd3d43ec4f15eaba64c5185d72823445bc"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_47.txt",
+      "source_sha256": "a1ef4d87e826e88ba61d67b6b5e2f477e259c128a09ff40a747cb2f3c7a4af1b"
+    }
+  ],
+  "created_at": "2026-11-15T00:29:37Z",
+  "duration_seconds": 4.067,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_admin_p",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_ADMINISTRAÇÃO PÚBLICA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_admin_p/enade_2015_admin_p_page_46.txt",
+    "source_sha256": "c33c8f8c21058d9d0f3aa3be682f1401245e68e698426cf0c78b0b130ce78f84"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e9d6f8c1567f1e01121ab0c5e882bcb7a95445ea2fb1efb884dfd0804cea47a",
+  "request_fingerprint": "9a558bf6b0e7130112bd968d60119c610742a6d558ba4d00116eb256d4b09e50",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.7, seus dados e a linha de fonte, além do material gráfico do Gráfico 3.3 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Administração Pública em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (60;70], o mesmo grupo modal para a Formação Geral.",
+  "text_sha256": "47eb4863c363777fe81d30b131e0def0ef4e85422cdf20de5f9d071a13c0c106",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04894725ca42c6a0006af8e85e505087d196c6322c134f4568",
+    "usage": {
+      "input_tokens": 2745,
+      "input_tokens_details": {
+        "cache_write_tokens": 2742,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2742
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 480,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 3225
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_41.txt",
+      "source_sha256": "aee7d9ad4d4b2c863e971bf6e23a6b068356a32e65755574cc2a25a78afb19ef"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_43.txt",
+      "source_sha256": "01a9a7e1d2c1ede2ac07a409fab4e05f3a61ab0ce0b6aba7c85b408ea44b3f8e"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:50Z",
+  "duration_seconds": 5.608,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_BIOMEDICINA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_biomed/enade_2010_biomed_page_42.txt",
+    "source_sha256": "7ee171ce9cbed94feb3ea711b64ec170c986a9fac71879f72fa0b863f30a0905"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1ad790c8993bca5367205e3a73395bc6179eda1c386cfd008e5d3b8f3dc1cd65",
+  "request_fingerprint": "c382ff4517123f824a857097048d5d6478ec4ce7c92a7fd3bba1d5e3d9447534",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.5, incluindo intervalos, rótulos, legenda, título e fonte."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.2 e 3.4, o Gráfico 3.6 apresenta uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho dos Ingressantes e dos Concluintes no componente de Conhecimento Específico da prova.\n\nAo se observar as notas médias dos estudantes, segundo cada Grande Região do país, verifica-se que, entre os Concluintes, a mais elevada foi encontrada na Região Sul (44,0), maior que a média nacional (42,2). Em relação aos Ingressantes, também a Região Sul apresenta a média mais elevada (31,8), seguida da Região Nordeste, com média igual a 30,5. As médias mais baixas entre os Concluintes (40,9) e entre os Ingressantes (29,3) foram verificadas nas Regiões Centro-Oeste e Sudeste, respectivamente.\n\nQuanto à Categoria Administrativa, observa-se comportamento semelhante àquele da parte relativa à Formação Geral e à prova como um todo, ou seja, as médias mais elevadas tanto entre os Concluintes quanto entre os Ingressantes foram encontradas em instituições de ensino públicas. Nesse tipo de IES, a nota média de Concluintes foi 47,5, enquanto a de Ingressantes, 36,8. Tais médias estão situadas acima da média nacional. Nas instituições privadas, as médias foram, mais uma vez, inferiores em relação às públicas. Concluintes obtiveram média 41,4 e Ingressantes, 29,1.",
+  "text_sha256": "367749e955ab7d8722841ea67825d0f1a05ca2da9178a776ef147d03ed06b832",
+  "window_size": 3
+}

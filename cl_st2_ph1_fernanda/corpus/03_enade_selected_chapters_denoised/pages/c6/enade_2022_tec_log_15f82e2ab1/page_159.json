@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cab51633ed02c9f006af9201fa81487d192736ca9d305045d",
+    "usage": {
+      "input_tokens": 2710,
+      "input_tokens_details": {
+        "cache_write_tokens": 2707,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2707
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 513,
+      "output_tokens_details": {
+        "reasoning_tokens": 272
+      },
+      "total_tokens": 3223
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_158.txt",
+      "source_sha256": "6f286c8fc828e7d3b0129e03c66798e7d2f6e62ed741d579fbf92cd7adaf1242"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_160.txt",
+      "source_sha256": "decc7b76e9dbaffaf6c77c2bb96cdcadd590efa0f96b1f2231b9de9c9e9c907e"
+    }
+  ],
+  "created_at": "2026-11-15T02:59:43Z",
+  "duration_seconds": 5.189,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM LOGÍSTICA.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_log/enade_2022_tec_log_page_159.txt",
+    "source_sha256": "973e32e6e5936fb0e058cfd55f97a54679c5f1dbada2b9af11cf95b46da00a75"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "658fb2ef777882cb96c2c823775a6542206b46a8bbc1391cd96817a2d915d503",
+  "request_fingerprint": "b425dfa69040747ba6d091ed82128aa003fd89d02499c5921cd6d933473968fb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 7.12, incluindo título, dados e fonte.",
+    "Removido o Gráfico 7.5 e seu título/caption; não havia dados gráficos extraídos na página."
+  ],
+  "status": "success",
+  "text": "Os dados da Tabela 7.12 atestam que dez questões que tiveram Índice de Discriminação Bom figuraram em três níveis de dificuldade – Fácil, Médio e Difícil: duas classificadas na categoria Fácil, seis classificadas na categoria Médio e duas, na categoria Difícil.\n\nA título de exemplo das análises do comportamento das questões objetivas, no Gráfico 7.5, analisa-se a Questão 11 do Componente Específico.\n\nNo Gráfico 7.5, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Componente Específico), antes de possíveis eliminações pelo critério Ponto-Bisserial. Os gráficos relativos às demais questões do Componente Específico constam no Anexo IV.",
+  "text_sha256": "76d6bd2aceecea39a4708ebc7ec18e5d78fd36639aa64f805f9f5236b843c653",
+  "window_size": 3
+}

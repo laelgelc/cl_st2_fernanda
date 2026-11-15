@@ -1,0 +1,59 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a57d0091d2f303a006af9252af72487d18e167fc04b6f5f34",
+    "usage": {
+      "input_tokens": 3034,
+      "input_tokens_details": {
+        "cache_write_tokens": 3031,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3031
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1068,
+      "output_tokens_details": {
+        "reasoning_tokens": 405
+      },
+      "total_tokens": 4102
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_143.txt",
+      "source_sha256": "e895b29ea027b2c9d28634ec57e949186faf7e0fb94942d75fdc8f15da3565b7"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_145.txt",
+      "source_sha256": "b7e7f81e3019681052aa8075126d055efa3637f26558c09686da08d917a97570"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:14Z",
+  "duration_seconds": 9.053,
+  "error": "Response object must contain exactly 'text' and 'review_notes'",
+  "error_type": "invalid_json_or_schema",
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC G HOSPITALAR.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_tec_gest_hosp/enade_2023_tec_gest_hosp_page_144.txt",
+    "source_sha256": "387a71f1c1a6ca0ccabd02abf4c08a4700f23f4c29b2bb37f5d371125400f5e8"
+  },
+  "invalid_response_path": "corpus/03_enade_selected_chapters_denoised/invalid_responses/c6/enade_2023_tec_gest_hosp_6095fc7676/page_144.json",
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "99dccba8e6ca08da530a773f12126329c76f7b7017d3fc1cc1d24f69b2a41d5a",
+  "request_fingerprint": "fffdc45c24bee40ac0b8be6742fd9eaf776ec3b0114c14a6b1c58f54822fd3ac",
+  "retry_count": 0,
+  "status": "invalid_response",
+  "window_size": 3
+}

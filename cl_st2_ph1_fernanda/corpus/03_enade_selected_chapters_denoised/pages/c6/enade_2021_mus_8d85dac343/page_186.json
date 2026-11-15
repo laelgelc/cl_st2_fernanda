@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a8c9cb6e0df774e006af91a7d958887d1bde4cc9b1db8c3f4",
+    "usage": {
+      "input_tokens": 2647,
+      "input_tokens_details": {
+        "cache_write_tokens": 2644,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2644
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 3293
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 185,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_185.txt",
+      "source_sha256": "6ed8599ada9458ec257abb2668917dc1320b9036f607674b9aab5b06415e1e61"
+    },
+    {
+      "page_number": 187,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_187.txt",
+      "source_sha256": "0d7605879c101107b048cc2af26450709179cf359031436812c5e72be2bcac32"
+    }
+  ],
+  "created_at": "2026-11-15T02:35:41Z",
+  "duration_seconds": 6.034,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_MÚSICA.pdf",
+    "page_number": 186
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_mus/enade_2021_mus_page_186.txt",
+    "source_sha256": "9f739ab17ca3bceb12c121611a23c3605c75fad3ef8e865681b9600756a41509"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "dc38f590bd59edff3fdf11e9f91afecfa62ea734085f501e52c24d219f871cd4",
+  "request_fingerprint": "fc47d5461b5e277b67a9f518142d3568892509ea946514c95ae5972a94af2dff",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, que parece pertencer a um gráfico na página-alvo."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\n\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "836e2e9cc3af2d763004758d236a222ff5bfd564d3fa3c46969dcd1d4d1fbdd0",
+  "window_size": 3
+}

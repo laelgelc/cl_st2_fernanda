@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04fcca981b915b0a006af8f20958a887d18d7480dc2e6d0f52",
+    "usage": {
+      "input_tokens": 1427,
+      "input_tokens_details": {
+        "cache_write_tokens": 1424,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1424
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 193,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 1620
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_40.txt",
+      "source_sha256": "2345ac3101c7564e6f6504c95742717c895a05f4cbdc5c34df79fb193ad02121"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_42.txt",
+      "source_sha256": "f4686d787656c4ee79427b8fcb129b78948c2d66e0b291392e111e9ccc49f9cb"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:05Z",
+  "duration_seconds": 2.675,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_41.txt",
+    "source_sha256": "14088c328578f28330d87f845a97373930ca292d9d2baac2bd2084175fad1ca4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c3947d2c378e36d89ad7f76a7da8fd7616bf985f7701cfab887680e03fd9e8cd",
+  "request_fingerprint": "a8ac7c452c41501d89327ef841c5787b04b7d34f2b99ff7e99bb804385f5eea8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número de página e a linha de fonte, que aparentam pertencer ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Assim como ocorreu para as notas da prova como um todo, para o componente de Formação Geral os concluintes de Tecnologia em Gestão de Recursos Humanos das IES Públicas (42,9) obtiveram uma média maior do que os das IES Privadas (38,6).",
+  "text_sha256": "b5651ab2dee17e256eaa63ce467aeaa86438c82a78cf6a89b81e820d66f384b5",
+  "window_size": 3
+}

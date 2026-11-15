@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d03931c03ef387c006af8f254ad3087d1b2478ac102b5a734",
+    "usage": {
+      "input_tokens": 2155,
+      "input_tokens_details": {
+        "cache_write_tokens": 2152,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2152
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 2596
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_43.txt",
+      "source_sha256": "041571d70fa4f81c166503d7a3541926a05311550ced29ba35fa148bfcb68645"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_45.txt",
+      "source_sha256": "924a85fcc10a4da9cd0fbf358a631e586858f64351f337a18bd850afaf578a37"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:20Z",
+  "duration_seconds": 4.242,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_44.txt",
+    "source_sha256": "b7c634d06347e5ac769009a386ce3a75a03e380483df36cec653e495a9a2c988"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7dfe330227f8713f7511deb603672b69ce5336a19891c52b55788cc793209db",
+  "request_fingerprint": "cded60a2b72d773235cef080549e6b8d49e0e7f1addc645d50274d0f5509d488",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Nordeste, 91,7 na região Sudeste e 84,0 na região Norte. A nota mínima foi zero na maioria das regiões do Brasil, exceto nas regiões Norte (7,0) e Nordeste (0,8).\n\nAssim como os Gráficos 3.1 e 3.5, o Gráfico 3.9, apresentado a seguir, proporciona uma avaliação do desempenho de concluintes em relação ao componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. A distribuição é unimodal, e o grupo modal é o (40;50].\n\nO coeficiente de assimetria da distribuição das notas do componente de Conhecimento Específico é negativo e bem próximo de zero (-0,03). Nota-se pelo histograma (Gráfico 3.9) que esta é uma distribuição aproximadamente simétrica. Já na região Norte, o coeficiente de assimetria é positivo, igual a 0,10, evidenciando que a distribuição das notas dos estudantes dessa região, no componente de Conhecimento Específico, tem cauda mais pesada à direita.",
+  "text_sha256": "d70a2c15e53839f0a256a8e80f483925ce28c484ba3c40191bfa626ec112f78f",
+  "window_size": 3
+}

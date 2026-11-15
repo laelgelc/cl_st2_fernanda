@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02e654ba09f55669006af908c265e087d19ef7a6a757da22fd",
+    "usage": {
+      "input_tokens": 3091,
+      "input_tokens_details": {
+        "cache_write_tokens": 3088,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3088
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1354,
+      "output_tokens_details": {
+        "reasoning_tokens": 474
+      },
+      "total_tokens": 4445
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_hist/enade_2017_hist_page_167.txt",
+      "source_sha256": "6ebd225ce86a18ad9f9d1eabc04bb5b3a15c32c8e279452f7af29cdddcd9c585"
+    },
+    {
+      "page_number": 169,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_hist/enade_2017_hist_page_169.txt",
+      "source_sha256": "2ff2c1700be91d91290151cbac92e64d2fd197575736d7fd9feeb426934806f4"
+    }
+  ],
+  "created_at": "2026-11-15T01:20:02Z",
+  "duration_seconds": 11.052,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_HISTÓRIA.pdf",
+    "page_number": 168
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_hist/enade_2017_hist_page_168.txt",
+    "source_sha256": "99f60a7fdddf6db9f9cc9e6ddc402999cd4b46bcefbbb446853abb922439c1ba"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d7bc945ab44cb1a6feb3f49325ae9579a3c73f7ca3403bc1a0b038a0508562e2",
+  "request_fingerprint": "ab2f0cd113efd2cfee80a1235cc13d74079b16c72f205b99fe99cc9446c5ab8a",
+  "retry_count": 0,
+  "review_notes": [
+    "O texto descreve o Gráfico 5.1a; o gráfico não aparece como texto extraído nesta página. A continuação e a linha de fonte aparecem na página de contexto, portanto não foram incluídas; verificar a fronteira do gráfico."
+  ],
+  "status": "success",
+  "text": "A região Norte participou com 25 cursos ou 7,3% do total nacional. Desses, 11 cursos receberam o conceito 3, o que equivale a 44,0% do total regional, além de ser o conceito modal na região, como já comentado. A quatro cursos (16,0%) atribuiu-se conceito 1, a sete cursos (28,0%), conceito 2 e a três cursos (12,0%), conceito 4. Nenhum curso ficou Sem Conceito (SC), assim como nenhum recebeu conceito 5 nessa região.\n\nA região Nordeste participou com 78 cursos ou 22,9% do total nacional. Nessa região, 40 cursos (51,3% em termos regionais) obtiveram conceito 3, o conceito modal para a região, como já comentado. Os conceitos 1 e 2 foram atribuídos, respectivamente, a dois e a 27 cursos (2,6% e 34,6%, respectivamente). Ainda nessa região, sete cursos (9,0%) foram avaliados com o conceito 4, e um curso (1,3%), com conceito 5. Um curso ficou Sem Conceito (SC).\n\nDos 136 cursos participantes da região Sudeste (39,9% do total nacional), o conceito 3 foi o conceito modal, como já anteriormente assinalado, tendo sido obtido por 66 cursos (48,5%). O conceito 1 foi atribuído a quatro cursos (2,9%), e o conceito 2, a 20 cursos (14,7%). Receberam os conceitos 4 e 5, respectivamente, 34 cursos (25,0%) e cinco cursos (3,7%). Nessa região, sete cursos (5,1%) ficaram Sem Conceito (SC).\n\nOs 60 cursos da região Sul corresponderam a 17,6% do total nacional. Como já indicado, houve predominância do conceito 4, atribuído a 45,0% dos cursos da região (conceito modal), ou seja, atribuído a 27 dos 60 cursos participantes na região Sul. O conceito 2 foi atribuído a cinco cursos (8,3%), o conceito 3, a 24 cursos (40,0%), o conceito 5, a quatro cursos (6,7%). O conceito 1 não foi atribuído a nenhum curso, assim como nenhum curso ficou Sem Conceito (SC) na região Sul.\n\nJá dos 42 cursos participantes na região Centro-Oeste (12,3% do total nacional), 17 receberam conceito 2, o conceito modal (40,5%), como já fora destacado. A dois cursos (4,8%) foi atribuído conceito 1, a 15 cursos (35,7%), conceito 3. Os conceitos restantes, 4 e 5, foram atribuídos a quatro (9,5%) e a dois (4,8%) cursos, respectivamente. Nessa região, dois cursos (2,4%) ficou Sem Conceito (SC).\n\nO Gráfico 5.1a apresenta a distribuição cumulativa do Conceito Enade dos cursos de Licenciatura, segundo a Grande Região. Num gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, as regiões Norte (linha azul), Nordeste (linha verde) e Centro-Oeste (linha preta) apresentam quase 90% dos cursos com conceito 3 ou abaixo desse valor. A região Sul (linha roxa), por outro lado, apresenta mais de 48% dos cursos na mesma situação com conceito 3 ou abaixo. A região Norte (linha azul) apresenta conceito 4 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 4. Em linhas gerais, num",
+  "text_sha256": "3b7c770aab9e35650d285dfe3ece6650cbed0e76879bb2b121aa27f40abb65e7",
+  "window_size": 3
+}

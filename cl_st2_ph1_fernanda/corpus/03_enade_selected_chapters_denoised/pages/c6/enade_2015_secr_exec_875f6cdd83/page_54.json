@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00a203fcc3bf30c0006af8fecf119487d18a36314f233ff522",
+    "usage": {
+      "input_tokens": 2652,
+      "input_tokens_details": {
+        "cache_write_tokens": 2649,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2649
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 514
+      },
+      "total_tokens": 3439
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_53.txt",
+      "source_sha256": "270d9514c77f70d2dc539000864806973048e8b769ab3a289343596d87d69231"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_55.txt",
+      "source_sha256": "ffb2ef20565e1b12e6c9d1bb9753d1b00241bb5fe4463ad0327bf6eef5d9d2f1"
+    }
+  ],
+  "created_at": "2026-11-15T00:37:34Z",
+  "duration_seconds": 7.395,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_secr_exec/enade_2015_secr_exec_page_54.txt",
+    "source_sha256": "fd86ee42f8527335ef79e2bfae597e3df4d50ea8f144b954700546dce5b6296f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e4fa8f9e1b8a3f9cbc184b2cb89611abb6a40f9d7f8e4620de291e0bdad7d785",
+  "request_fingerprint": "1bc08b2ffcb6a37aac7cb683c8e1a3fe0934c476ad72cca9447805767621bdcb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico presente nesta página, incluindo a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”."
+  ],
+  "status": "success",
+  "text": "Cumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo de 4, o índice de facilidade seria obrigatoriamente abaixo de 40% (neste exemplo). Caso a concentração fosse em 6 acertos ou mais, o índice seria obrigatoriamente acima de 60%.\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.\n\n3.2.2 Componente de Conhecimento Específico\nA Tabela 3.11 apresenta as Estatísticas Básicas em relação às questões objetivas do Componente de Conhecimento Específico da prova de Secretariado Executivo por Grande Região. A Média do Brasil deste componente foi de 49,5. A menor Média foi observada na região Norte (43,4), e a maior, na região Sudeste (52,6). O",
+  "text_sha256": "dd2764ddb949296b06f3f945dff2828cfd565efe43fcd3c2833b1611774a4e48",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d8ece8e336caa12006af90716e90487d1a525e14f64cd1531",
+    "usage": {
+      "input_tokens": 2640,
+      "input_tokens_details": {
+        "cache_write_tokens": 2637,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2637
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 2951
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_160.txt",
+      "source_sha256": "9508aeb938adcd3b961ef792b2ef846900a0fa3528bd20dd68156b3b9b6261da"
+    },
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_162.txt",
+      "source_sha256": "58186750678f4d5f125756fd62a18ec2a999b50c7db115904cf49cc33515c36b"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:54Z",
+  "duration_seconds": 4.585,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 161
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_161.txt",
+    "source_sha256": "e71e24e2b8743605be0b3d832c1a6f262b98aab0f1eae6a3e164e3af4e67d11d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1e5acc93e5a53c5400205821c7af42566fb10351076828679756d88790f9acef",
+  "request_fingerprint": "a642023e54a10c26bec2c5310fdb9949b0fea2ec4399c2501e2b0514b5213c19",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.20, incluindo título, dados e fonte, e o material gráfico do Gráfico 6.13, incluindo a linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.13 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Essa distribuição, como todas as relativas às questões discursivas dessa parte da prova, também tem moda principal na classe dos que deixaram a questão em branco. Destaca-se que a frequência de notas zero somada à de estudantes que não responderam à questão chega a, aproximadamente, três quartos do total de participantes.",
+  "text_sha256": "a4eb464a5ad9cdc0c123ce163d7c83ac6d754460d88317a3db7f8a0e0afff24c",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_026a5b5270b61620006af91555ab9c87d1a327080b479962ea",
+    "usage": {
+      "input_tokens": 2848,
+      "input_tokens_details": {
+        "cache_write_tokens": 2845,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2845
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 3250
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_165.txt",
+      "source_sha256": "47bb38f33fb240bbae66930e93e2e5e37d1f27245cab670ee2223fdb0ad49fd9"
+    },
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_167.txt",
+      "source_sha256": "164a4686c559661f3deaee534febae18a3d4fa64217d9a37734062567121996c"
+    }
+  ],
+  "created_at": "2026-11-15T02:13:41Z",
+  "duration_seconds": 4.428,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_est_cos",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC ESTÉTICA E COSMÉTICA.pdf",
+    "page_number": 166
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_est_cos/enade_2019_tec_est_cos_page_166.txt",
+    "source_sha256": "d1e2c476df685d15f4c3deef43a9248cae616cffb88c98614c153db5e04103a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "eb944699921539f8998b17fef2c52645b720cbf4e6c3a85b214906936b94ffc3",
+  "request_fingerprint": "62ea838a82a998520fd6b7b0c2a7b126dbcaa4ca4df8a80db8325fde08124679",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removida a linha de fonte pertencente ao Gráfico 6.6; a descrição em prosa dos resultados do gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo [0; 10], com 35,5% de frequência, seguida pelo intervalo (10; 20], com 19,4%. Destaca-se que no intervalo [0; 10] se inclui, além da nota zero, a frequência de estudantes que deixaram esse tipo de questão em branco.\n\nNa sequência, os resultados verificados para cada uma das questões discursivas de Formação Geral serão apresentados, estabelecendo-se relações com os conteúdos",
+  "text_sha256": "42817e7812aa2b405c93fb0edbc716ad9f77967be40621fab125c6b459f91a78",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0875f0bfe25c5b49006af8f50a0c0c87d18af0a556859bc5e6",
+    "usage": {
+      "input_tokens": 1382,
+      "input_tokens_details": {
+        "cache_write_tokens": 1379,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1379
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 384,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 1766
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_103.txt",
+      "source_sha256": "06affd30f1d85c8fe18ab19f4321070476530aa40d229681248ef4f80f7b3a58"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_105.txt",
+      "source_sha256": "c2f176cda2364973bfd18008627dce12dd14dfc2747e9a7a51e5c1c30973037a"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:53Z",
+  "duration_seconds": 4.252,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_tec_agro/enade_2013_tec_agro_page_104.txt",
+    "source_sha256": "55359d0734b907d276f151b2aa112f3a82058d5d6e25f7b873c27cd55be3a848"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cb4717bf284947ef8778443c56631da036316f3c245a24bd25fdab922fe414ad",
+  "request_fingerprint": "77f72a016499e8e29bf987393476398c575415403803e673abb0ba68101ce038",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», provavelmente referente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 87,0% e 65,6%. As diferenças entre o 2º e o 3º quarto não são estatisticamente significativas, as demais diferenças são estatisticamente significativas, e as proporções evidenciam uma tendência crescente.",
+  "text_sha256": "bb2b92ad187fb06affa8906421466ddf6d340367bb5ac26eab79e63abe194d8b",
+  "window_size": 3
+}

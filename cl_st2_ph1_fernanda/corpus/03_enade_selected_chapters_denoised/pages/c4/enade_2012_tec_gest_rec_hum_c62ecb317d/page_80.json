@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04ec10dd733a52e6006af8f1f723b887d191fb81fddd9983a1",
+    "usage": {
+      "input_tokens": 1758,
+      "input_tokens_details": {
+        "cache_write_tokens": 1755,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1755
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 493,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 2251
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_79.txt",
+      "source_sha256": "41ecfa62938fc1a1274a251acde5c560d07e297890ffd759a8651b03096f5f95"
+    },
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_81.txt",
+      "source_sha256": "a78c8d23add0ccc350f8cc9366627ff765cc268bc88fae0cc7aabd851a5d3997"
+    }
+  ],
+  "created_at": "2026-11-14T23:42:47Z",
+  "duration_seconds": 5.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_tec_gest_rec_hum",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO DE RECURSOS HUMANOS.pdf",
+    "page_number": 80
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_tec_gest_rec_hum/enade_2012_tec_gest_rec_hum_page_80.txt",
+    "source_sha256": "3a97f688c1c2c7c74670bcd063b933c0576aa250f95e58572f3f831ce5b74024"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6ed457f40751dc1d76c57c6ecdfb6758b2562ee526983862418ea642a1771fc0",
+  "request_fingerprint": "1da4eca42eec0d79e2d0dea5d2258261fa63e60801e85864fa7af5b474c661b5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», que parece pertencer a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Considerando-se a avaliação da dificuldade das questões do Componente de Conhecimento Específico da prova, de acordo com o desempenho dos estudantes, não se observa diferença estatisticamente significativa, a exceção da diferença entre o 1º e o 3º quarto. A proporção dos que classificaram a parte específica como difícil ou muito difícil variou de 33,0% (3º quarto) a 35,1% (1º quarto). Já a alternativa modal para a Questão 2 foi o grau médio, com 57,3% do quarto inferior e 61,0% do 3º quarto optando por esta resposta.",
+  "text_sha256": "07e825ac5ae481843d0b5b415ee375761dfb084fca6f0ae7a8218ba82aeaac5e",
+  "window_size": 3
+}

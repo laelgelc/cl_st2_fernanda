@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_067e87b4396be5b6006af8fe3951b487d1ab703d183ab1b8ae",
+    "usage": {
+      "input_tokens": 2705,
+      "input_tokens_details": {
+        "cache_write_tokens": 2702,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2702
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 3195
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_42.txt",
+      "source_sha256": "65b6b45cb77676f5103b08bc3667a789658a9de4a9a61a81e5d09409b100bfe8"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_44.txt",
+      "source_sha256": "7641adcc34ea170f7d71dced15764e57300d8130fd7d54a0d7df028db60b920e"
+    }
+  ],
+  "created_at": "2026-11-15T00:35:05Z",
+  "duration_seconds": 4.648,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_PSICOLOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_psico/enade_2015_psico_page_43.txt",
+    "source_sha256": "de983dc21aeb6feb7bd04da7439e8c61ae77d312929f46ac046bb93f3dd4746c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "308c86cc2f39018d6f73d53c161491e660d4ecde047529a07730f1834698b89c",
+  "request_fingerprint": "a2f767924664123ef8629059da08e00effe86c5bd1b4131fcad929ea14e1e520",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, títulos e fontes das Tabelas 3.3 e 3.4, incluindo a tabela que inicia a página."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 46,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (51,9), e os das IES Privadas obtiveram Média mais baixa (45,9), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Norte (3,5), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (6,0), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (49,0) que a nacional (46,9). As demais médias foram: 45,9 nos Centros Universitários e 44,2 nas Faculdades. O Desvio padrão para as IES Públicas (13,8) e para as Universidades (16,0) foi superior ao do Brasil como um todo (13,1), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos tipos de Organização Acadêmica.",
+  "text_sha256": "faaa0c1c56b5aab5605af887c254d51c8ab2323163bdddff41a725e29b70f818",
+  "window_size": 3
+}

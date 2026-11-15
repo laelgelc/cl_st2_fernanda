@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b9fdeb67bd5297e006af8f6245f4c87d183e00d42e07e2de6",
+    "usage": {
+      "input_tokens": 2499,
+      "input_tokens_details": {
+        "cache_write_tokens": 2496,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2496
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 868,
+      "output_tokens_details": {
+        "reasoning_tokens": 455
+      },
+      "total_tokens": 3367
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_55.txt",
+      "source_sha256": "763ae741aae542cfd739b242a9d8abc12ad337ea6e58d282841ff0d9dfe50f91"
+    },
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_57.txt",
+      "source_sha256": "0aa5f1bbe014c13105586abe8d4a5e5d29410d80eccdceea46f1a1583c130184"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:36Z",
+  "duration_seconds": 10.308,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_art_vis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARTES VISUAIS.pdf",
+    "page_number": 56
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_art_vis/enade_2014_art_vis_page_56.txt",
+    "source_sha256": "59f762af426c4964fdbed449c1135f914d6ddacde8bbb607906d2c032de6930a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a5e2bbce96685237400e84a1d534f51efcbac31158647e3e410e407473fd6a10",
+  "request_fingerprint": "42e7229c17323d76f3036336835c2f66729767a8c7b0713d3bcb2cafb6c17b29",
+  "retry_count": 0,
+  "review_notes": [
+    "O material visual do Gráfico 3.5 não aparece no texto extraído da página-alvo; a linha de fonte consta apenas na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.5 analisa a questão 16 do Componente de Conhecimento Específico. Esta questão foi classificada como média, pois apresentou índice de facilidade 0,56. Ou seja, 56,0% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,50, classificado como muito bom, e o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 16, em função do número de acertos dos estudantes nessa parte da prova, antes das eliminações de questões pelo critério do ponto bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos estudantes com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Neste caso também a soma não é sempre 100% por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de estudantes que selecionou a resposta correta D aumenta gradativamente, chegando a atingir 100% para 19 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de três acertos, como função do número de acertos nessa parte da prova.\n\nOs gráficos relativos às demais questões do Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "35379a610f86b5558a295461cce2a7c629389a4413e6843dcac39c885511ee56",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_006a2fd42fc82719006af9019608b487d1833b917908e89103",
+    "usage": {
+      "input_tokens": 1765,
+      "input_tokens_details": {
+        "cache_write_tokens": 1762,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1762
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 2021
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_biomed/enade_2016_biomed_page_104.txt",
+      "source_sha256": "71eed7805f6eb67e06e75687390f092341ed2f1d40334153d47b047e1e66c143"
+    },
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_biomed/enade_2016_biomed_page_106.txt",
+      "source_sha256": "fe213703ccea5710f2244e263a04743f322fb4da9aced2171830ac374f6c30d8"
+    }
+  ],
+  "created_at": "2026-11-15T00:49:25Z",
+  "duration_seconds": 2.996,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_BIOMEDICINA.pdf",
+    "page_number": 105
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_biomed/enade_2016_biomed_page_105.txt",
+    "source_sha256": "ec29658f0d0be57e0c9ecb07ec921ca24f052384617a693ce6b4a826dcfb69b7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "deebe56b1b8507804c8b4445ea823df0ac0680d2494e01853ea3d1499663c7c0",
+  "request_fingerprint": "912fa199285d4d8890fcf0ddb01d7170e660ec121f92305d0d7b10a2089e9b7e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.15, incluindo título e fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 65,2% na região Norte e 77,3% na Sul.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se uma tendência decrescente com o desempenho, no quarto inferior, 4,2% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,8% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade do quarto de melhor desempenho e dos dois primeiros quartos é estatisticamente significativa.",
+  "text_sha256": "df18d97419e862b257b4482752b4f875f6f31b7732e286ea83edc56c75968f81",
+  "window_size": 3
+}

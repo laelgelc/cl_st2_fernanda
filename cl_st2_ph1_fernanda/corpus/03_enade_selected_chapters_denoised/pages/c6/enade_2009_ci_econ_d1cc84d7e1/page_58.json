@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00b2c9fc65d727de006af8e52f4b1487d194a5717a30d68439",
+    "usage": {
+      "input_tokens": 2738,
+      "input_tokens_details": {
+        "cache_write_tokens": 2735,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2735
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 300,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 3038
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 57,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_57.txt",
+      "source_sha256": "9603d39005bc2b5b30e04a38d0b34ed92f8f327b8d066215a27d3eb0f639fbbb"
+    },
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_59.txt",
+      "source_sha256": "7521ecbc3cbbe86053f2f4c95509736a42af106f5adcb970417fec66c2153404"
+    }
+  ],
+  "created_at": "2026-11-14T22:48:15Z",
+  "duration_seconds": 3.915,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 58
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_ci_econ/enade_2009_ci_econ_page_58.txt",
+    "source_sha256": "11983e00c4713e209c6ad3748716fa0a9003a7dbbcac0f773bfaad1dd44e068a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db020069b2c27406226a7482231b93e56a0286d5ffc9a7ee2ef2a17c234e4744",
+  "request_fingerprint": "e089c2e3aacf1229df6819c0fc87a6417f6d9bb2aea0190ef702077aefe3a6d5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.12 e o Gráfico 3.10, incluindo dados, rótulos, legenda e linhas de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.10 apresenta a distribuição das notas nas questões discursivas do Componente Específico por grupo de estudantes. A moda se situou no primeiro intervalo, aquele com valores entre 0 e 10 incluindo os extremos do intervalo. A impressão de assimetria informada pelos coeficientes de assimetria positivos (Tabela 3.11) foi reforçada no gráfico pela concentração no primeiro intervalo.",
+  "text_sha256": "ff604cba0a4d7731a46dab5d309d6c0be2f0e19ddc5a9516725def7c6dd3877f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00c5361853a60b20006af9099c356887d1adea374e924f5115",
+    "usage": {
+      "input_tokens": 1795,
+      "input_tokens_details": {
+        "cache_write_tokens": 1792,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1792
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 2170
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_mat/enade_2017_mat_page_148.txt",
+      "source_sha256": "c34df7031d05b1fae2953e457c9fb9fd9115688f9bc5c331ce789197cae1223c"
+    },
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_mat/enade_2017_mat_page_150.txt",
+      "source_sha256": "e4500f8ad4f449d523d999c92e9b2d78a832385614e990b81d770b641e8fc369"
+    }
+  ],
+  "created_at": "2026-11-15T01:23:40Z",
+  "duration_seconds": 3.566,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_mat",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_MATEMÁTICA.pdf",
+    "page_number": 149
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_mat/enade_2017_mat_page_149.txt",
+    "source_sha256": "8f7f66c4d38aa4766eda399741643979b963399476a4b00d5b8b6f1f2bb6d298"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db315c7fd61bbf0a021d0bc57784ba9e8519e845813b5ddb804c342e70757bf5",
+  "request_fingerprint": "dd9c276146aa61d0c8c15c4c07852e5391ff5b97294820f363c3b9d5bff8060e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.5b, incluindo legenda, título e fonte. A última frase termina em “dos” no alvo e continua na página de contexto; foi preservada sem completar."
+  ],
+  "status": "success",
+  "text": "Entre as Grandes Regiões, a proporção daqueles que avaliaram a prova como longa ou muito longa em relação ao tempo total destinado à sua resolução variou de 15,4% na região Norte até 72,9% na região Nordeste. A diferença entre a região Norte e as demais é estatisticamente significativa.\n\nConsiderando-se o desempenho dos alunos de Licenciatura, nota-se ainda que 51,9% consideraram a extensão da prova adequada no quarto de desempenho inferior e 40,6% no de melhor desempenho (quarto superior). Nos quartos intermediários, esta proporção foi 51,1% no segundo quarto e 46,7% no terceiro.\nNo Gráfico 4.6a, pode-se constatar que há uma tendência crescente da proporção de estudantes de Licenciatura que consideraram a prova longa ou muito longa em função dos",
+  "text_sha256": "38b8bf796e477dfaa9fd827ffd14bde32ff8b06da8d0ac3be169221f63bac981",
+  "window_size": 3
+}

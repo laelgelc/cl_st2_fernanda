@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_006d4c44b840f056006af8ee2f15ec87d19e59e59913a17692",
+    "usage": {
+      "input_tokens": 1624,
+      "input_tokens_details": {
+        "cache_write_tokens": 1621,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1621
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 403,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 2027
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mus/enade_2011_mus_page_81.txt",
+      "source_sha256": "1780c94d24768f485d6a95ba335d9f6dc1d614d1ec13765bbd668d20374122fa"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mus/enade_2011_mus_page_83.txt",
+      "source_sha256": "0bbc272ca6fb26acea325008c5d9ae3a433945d8e3d5ca0a1565d24cc1e4447f"
+    }
+  ],
+  "created_at": "2026-11-14T23:26:39Z",
+  "duration_seconds": 4.73,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MÚSICA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_mus/enade_2011_mus_page_82.txt",
+    "source_sha256": "8875004f3d7c9d1a088b2a983a019a9af3a0635eeba5d83fd8cda9d4d1f648cd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "15cf4b9afd5ab6076a21abb5408536840b19f853912c59dd2985e819b9f40c8e",
+  "request_fingerprint": "d0d661b49ccc592874334775b637c9d0d199b097ab73b7dae3f00f0ee1cccb74",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se que o 3º quarto apresenta o maior percentual de estudantes (57,2%) que consideraram a extensão da prova adequada, no quarto de desempenho inferior o percentual encontrado foi o menor (50,9%).\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno da média nacional (42,3%), sem diferenças estatisticamente significativas.",
+  "text_sha256": "b10ffd0fd765177699ed9ded20b3a9eaba9688d207fd9e7b39bb13abb00f5653",
+  "window_size": 3
+}

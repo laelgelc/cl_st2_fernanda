@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01fd4e36eca38b61006af9096bc3f087d195080f461b9f37ca",
+    "usage": {
+      "input_tokens": 3089,
+      "input_tokens_details": {
+        "cache_write_tokens": 3086,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3086
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 595,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 3684
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_118.txt",
+      "source_sha256": "c5ba5af2c26ce3dd04b10517c41c53ea53f7582417443d882c34a02aa14eb9fc"
+    },
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_120.txt",
+      "source_sha256": "5bc4de2126f0522c1352bf5555d00334604bee09accb075d268647697aa0a5d9"
+    }
+  ],
+  "created_at": "2026-11-15T01:22:51Z",
+  "duration_seconds": 5.935,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_LETRAS PORTUGUÊS INGLÊS.pdf",
+    "page_number": 119
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_letras_por_ing/enade_2017_letras_por_ing_page_119.txt",
+    "source_sha256": "049317ca4db9f6a2c66cb6dbb16a0ee062b0208bdb5a5ab6c062577468712fec"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7accb6389f8933c97705515e9156175ab7a4c04e17fc42ac571e7b7e8d92f8dd",
+  "request_fingerprint": "d414978bd27295de1d0c0a6feb303d506b46d9d2d87afb1f6a951d2e98e63d7b",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 5.1 e sua linha de fonte (“Fonte: MEC/Inep/Daes – Enade/2017”) foram excluídos."
+  ],
+  "status": "success",
+  "text": "atribuído a dois cursos (4,4%), e o conceito 5, por sua vez, foi atribuído a um curso apenas (2,2%). Nessa região, um curso (2,2%) ficou Sem Conceito (SC).\n\nO Gráfico 5.1 apresenta a distribuição cumulativa do Conceito Enade, segundo Grande Região. Num gráfico de distribuição cumulativa, em cada valor de abscissa (eixo x), o valor apresentado no eixo das ordenadas (eixo y) é o valor acumulado da variável. Por exemplo, a região Norte (linha azul) apresenta um pouco mais de 80% dos cursos com conceito 3 ou abaixo deste valor. A região Sul, por outro lado, apresenta um pouco mais de 40% dos cursos na mesma situação: com conceito 3 ou abaixo. Nas regiões Norte (linha azul), Nordeste (linha verde) e Centro-Oeste (linha preta), todos os cursos têm conceitos 4 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 4. Em linhas gerais, num gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. As regiões Norte (linha azul) e Centro-Oeste (linha preta) apresentam os cursos com conceitos mais baixos, ao passo que a região Sul (linha roxa) apresenta as distribuições com valores maiores. Cursos em IES situadas nas regiões Sudeste (linha vermelha) e Nordeste (linha verde) apresentam uma situação intermediária.",
+  "text_sha256": "bd9361ea03cbfaa0edc92aedb7e22ba57833bcb148ce0812c33a7aedb8c2fa90",
+  "window_size": 3
+}

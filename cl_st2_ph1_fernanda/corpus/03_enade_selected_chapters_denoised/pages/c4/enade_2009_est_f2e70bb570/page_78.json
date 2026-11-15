@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b1076edded73eff006af8e5cc217087d1a8c6331e0c5734c5",
+    "usage": {
+      "input_tokens": 2466,
+      "input_tokens_details": {
+        "cache_write_tokens": 2463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 483,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 2949
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_77.txt",
+      "source_sha256": "be8dc6ceb951a337274f9875ab225b8a4827424712f34411a9fc35560390e545"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_79.txt",
+      "source_sha256": "0d28c69b6b91eec04c534e4fa026479b5383fa39b6c8c1c1abf213d4f847240c"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:52Z",
+  "duration_seconds": 5.125,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2009_est",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_ESTATÍSTICA.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2009_est/enade_2009_est_page_78.txt",
+    "source_sha256": "553f2e0c3ce506857a7a26f3c3e83600c611ab5eadb38e5ac7c99cd25c061a1a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3e2dfa335c006e6f82ca508558b828d128b10a55167bab00989950ff3e065cb7",
+  "request_fingerprint": "34a4dc05b135a4013463ad0c709148ed634d5794aacf9d7b0ab7541bb738d83d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a fonte, o título, os dados, rótulos e legenda do Gráfico 4.8a (Concluintes, por Região)."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 4.8a e 4.8b apresentam a distribuição das respostas à questão “Os enunciados das questões da prova na parte de Formação Geral, estavam claros e objetivos?”, segundo a Região onde o curso está situado para os estudantes concluintes e ingressantes que participaram do ENADE/2009 na área de ESTATÍSTICA. Em termos regionais, as proporções de ingressantes e de concluintes que consideraram claros e objetivos os enunciados de todas ou da maioria das questões variaram no máximo 12,4 pontos percentuais dentro de um grupo. Entre os concluintes, os valores foram de 69,4% no Sul a 81,8% no Centro-Oeste. Já entre os ingressantes estas proporções variaram de 76,7% no Nordeste a 83,9% no Sul.\n\nCom relação às respostas Poucos e Não, nenhum tanto para concluintes como para ingressantes, as maiores proporções ocorreram nas Regiões Norte e Nordeste, respectivamente 14,3% e 14,1%.",
+  "text_sha256": "4390c287f7c7179c7bd09dd1655c5a714dd11b7a35a6993f9bee03919463b039",
+  "window_size": 3
+}

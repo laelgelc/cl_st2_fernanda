@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b19ebfb8cad987a006af8eb4815ec87d1b467b24c64be4754",
+    "usage": {
+      "input_tokens": 2838,
+      "input_tokens_details": {
+        "cache_write_tokens": 2835,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2835
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1332,
+      "output_tokens_details": {
+        "reasoning_tokens": 783
+      },
+      "total_tokens": 4170
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 59,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_59.txt",
+      "source_sha256": "ecdad93186c2d2e07f9979ca2afd092637f58165c6ce212b21aa204cc17173e6"
+    },
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_61.txt",
+      "source_sha256": "3769a1d2cbb488d0ae3bf2fd2bccddb122861f678c575b2176045d7ac0449b0f"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:16Z",
+  "duration_seconds": 12.937,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 60
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_60.txt",
+    "source_sha256": "88c663596ba2083a5230b22f57b433828c42308aa7952451166eec9d6a10668a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d3bb8c1d67be4558be9ed257a4f1e889719a95f3f260f4d0a53033f857a763b",
+  "request_fingerprint": "e8e9199e9abdf938dc4172097eaea660fe60e3700601813ac23856a452de1736",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.5, incluindo título, dados e linha de fonte.",
+    "O texto termina no meio da frase (“deveria ser igual a”) no limite da página; não foi completado com conteúdo da página de contexto."
+  ],
+  "status": "success",
+  "text": "índices acima ou igual a 0,40 e, assim, foram classificadas com índice muito bom para esse grupo de estudantes. Três questões tiveram bom índice de discriminação, com valor entre 0,30 e 0,39, e uma foi classificada com índice médio para esse grupo de estudantes. Nenhuma questão teve nível fraco de discriminação.\nO índice de facilidade variou de 0,15 a 0,72, e o de discriminação, de 0,26 a 0,56. As quatro questões com índices de discriminação muito bom, as de números 1, 2, 3 e 5, figuraram entre dois níveis de dificuldade: três classificadas na categoria fácil (questões 1, 3 e 5) do índice de facilidade, uma na categoria difícil (questão 2). Em particular, a questão 3 foi a que apresentou o maior poder discriminatório, com índice 0,56, e foi também uma das mais fáceis, com uma proporção de 0,72 acertos, o máximo de acertos. Esta proporção de acertos, 72,0%, também foi alcançada pela questão 6. A questão de número 7 apresentou um índice de facilidade de 0,28, ou seja, apenas 28% dos estudantes conseguiram resolvê-la, dentro do universo de participantes, e seu índice de discriminação foi bom (0,35). Já a questão 8, que obteve índice de discriminação médio, 0,26, obteve índice de facilidade 0,15 e foi classificada como muito difícil.\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se de uma das duas questões mais fáceis e a que obteve o maior índice de discriminação dessa parte da prova.\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a",
+  "text_sha256": "66ca0e0b9bf97dcc0ef93b7bcad9b036e1b9b055d09522faa3c7013e65738cb1",
+  "window_size": 3
+}

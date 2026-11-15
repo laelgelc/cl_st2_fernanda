@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fc8fd661adf02cd006af90b4ad02487d181ea056e55d99d1f",
+    "usage": {
+      "input_tokens": 2748,
+      "input_tokens_details": {
+        "cache_write_tokens": 2745,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2745
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 730,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 3478
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_112.txt",
+      "source_sha256": "4a9fc37f32425e305abf2b610d892a1b3015098b36bc955da70a0ff9e546b63b"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_114.txt",
+      "source_sha256": "bad3b374cc5265e736c25a55702089e267863674bcc6324e99b89dfe29e5ac91"
+    }
+  ],
+  "created_at": "2026-11-15T01:30:50Z",
+  "duration_seconds": 7.08,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_prod/enade_2017_tec_gest_prod_page_113.txt",
+    "source_sha256": "afe0be7194f1609fcf2b4681cbc597f8581b9ffdada2f090d88aa1799d12b607"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5f4e6da1153b72c3b0e6f1563d20c920b51371697458b8e078034ac4f94f6c61",
+  "request_fingerprint": "c4738112fd8734a3bfc633ea3bf2ee7e530f6f64a2ec35d879fb3d6938dfb86d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.3, incluindo título, dados e linha de fonte. O texto menciona o Gráfico 6.2; o material gráfico não aparece na extração da página-alvo. A linha de fonte visível na página de contexto não foi incluída."
+  ],
+  "status": "success",
+  "text": "A maior nota no Componente de Formação Geral da prova do Enade/2017 foi 91,8, obtida por, pelo menos, um aluno na região Nordeste. A menor nota Máxima foi obtida na região Centro-Oeste (67,9). A Mediana do Brasil, como um todo, foi 44,4, sendo a menor Mediana encontrada na região Nordeste (41,6), e a maior, encontrada na região Sudeste (49,3). A nota Mínima nesta parte foi zero apenas para as regiões Sudeste e Sul, enquanto as demais regiões apresentaram as seguintes notas mínimas: 7,5 nas regiões Norte e Nordeste, e 30,0 na região Centro-Oeste.\n\nConsiderando-se as notas, segundo Grande Região, observa-se que existe diferença estatisticamente significativa apenas entre a maior Média das notas do Componente de Formação Geral, obtida na região Sudeste (48,2), e as duas menores médias, obtidas nas regiões Sul e Nordeste. Já as diferenças dentre as demais médias não são estatisticamente significativas.\n\nNo Gráfico 6.2 é possível se fazer propicia a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1).",
+  "text_sha256": "0db34c32e3c1385d56c085ca1d2c0e6d9975c7b8513fc1fcc298ab08f341fc63",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04d707969d78e572006af912bf4e2887d1a2854df306471b67",
+    "usage": {
+      "input_tokens": 2581,
+      "input_tokens_details": {
+        "cache_write_tokens": 2578,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2578
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 313,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2894
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_163.txt",
+      "source_sha256": "53518b57d0409891b85da1a840db453a4228d0c2657aa1d04d22409d0855aa4b"
+    },
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_165.txt",
+      "source_sha256": "b9d9ea33951c81f5073b86801fde50b69260d9562d8333cabe4b4fcdebec473e"
+    }
+  ],
+  "created_at": "2026-11-15T02:02:39Z",
+  "duration_seconds": 5.078,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 164
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_qui/enade_2019_eng_qui_page_164.txt",
+    "source_sha256": "394aac69d27a452d81e25269550892ccbc7014aa1963b34673461e56095f31ad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "32d66176dc2ed1e91f46994d8b0ee99cb300ba8d887fad944c067aa4495975ec",
+  "request_fingerprint": "ccc639113a8884d8d77d12f3893d7a4fb17a3dd4ea65aea7460aa56638afc59b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.9 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral da questão 1. Observa-se que a maior frequência (21,3%) corresponde à dos estudantes que obtiveram nota no intervalo (10; 20]. Destacam-se, também, os estudantes que receberam nota no intervalo (40; 50], 15,1% do total. Deixaram a questão discursiva 1 em branco 9,9% do total de participantes.",
+  "text_sha256": "b6b41770ac7c6768021ac84beacc22a6da9a30d292ea9ea1f1f4ed4b6ced0739",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e0ce8c3d2527de5006af8f18bb39087d1ba124e2a946c5e65",
+    "usage": {
+      "input_tokens": 1431,
+      "input_tokens_details": {
+        "cache_write_tokens": 1428,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1428
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 1692
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_40.txt",
+      "source_sha256": "78ab6fe16e248dff2799b6efc8dbd2f308ccd9a94b1c8b8cdbbbc45e99d58411"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_42.txt",
+      "source_sha256": "42698e721ace65598c17d35970b8a750933da1733731ee801cb48675b689f276"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:59Z",
+  "duration_seconds": 3.123,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_41.txt",
+    "source_sha256": "29d1e5223a1cbbb90edd4e05e7ce778ad5517354c9a65e9528835b7fb5fb22b3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8e7f5a2431159e6a2f975ed37cac5504330855d0af7a72a5c8889d511fdc71f9",
+  "request_fingerprint": "4a171456c312d89a5c160378d7774d593a6b59a935a6d5a1687010f33567179a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico do Gráfico 3.7."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Ao contrário do que ocorreu para as notas da prova como um todo, para o componente de Formação Geral, os concluintes de Relações Internacionais, das IES Públicas (44,7) obtiveram uma média menor do que os das IES Privadas (48,2).",
+  "text_sha256": "2fcef7c86c6661f6a824e1c76d9a1ef86f284b96a9d5562f1c1585252a1ed5a6",
+  "window_size": 3
+}

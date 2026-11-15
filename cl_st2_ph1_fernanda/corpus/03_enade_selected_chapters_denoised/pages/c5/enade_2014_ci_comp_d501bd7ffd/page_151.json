@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06a6aa63e96f4132006af8f65adf7487d18f4f0828e4960819",
+    "usage": {
+      "input_tokens": 1777,
+      "input_tokens_details": {
+        "cache_write_tokens": 1774,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1774
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 345,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 2122
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_comp/enade_2014_ci_comp_page_150.txt",
+      "source_sha256": "ad1b5f2bc4287d07a58be85dffd4493bb5ffae8a4a38e6db6a7cf74b13e36617"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:30Z",
+  "duration_seconds": 4.942,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_ci_comp/enade_2014_ci_comp_page_151.txt",
+    "source_sha256": "2cb9e045501e03fdb16e9a6fed92d139bc978b09b6efcf9fd1c06552f2f436bf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0f66d6b6438d98c55a504dae751e244c15ea2c4e8317eac4c284d9a910271238",
+  "request_fingerprint": "47dc0f733c7df7ddb2a21f98d3b0d82617130e499ff419430f4dcdf4789bc9f9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.6 e sua linha de fonte (Fonte: MEC/INEP/DAES – ENADE/2014)."
+  ],
+  "status": "success",
+  "text": "Os Centros Universitários e as Faculdades da região Centro-Oeste não tiveram participação,\n\nO Gráfico 5.6 apresenta a distribuição do Conceito Enade segundo a Organização Acadêmica da IES. Os cursos em Centros Universitários (linha verde) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, temos os cursos oferecidos em Faculdades (linha vermelha) com a poligonal mais à esquerda, a partir do conceito 3 e, consequentemente, uma distribuição de Conceitos Enade com menores valores. Até o conceito 3, temos os cursos oferecidos em Universidades (linha azul) com poligonal mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores.",
+  "text_sha256": "7d3f5f8075acf83aa67812370c085af7689dc8b4301337064513ec8fb1536c58",
+  "window_size": 3
+}

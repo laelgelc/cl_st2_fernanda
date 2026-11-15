@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03e8b219d1d861d5006af8ef97547c87d1917d6b79186ee4e4",
+    "usage": {
+      "input_tokens": 1650,
+      "input_tokens_details": {
+        "cache_write_tokens": 1647,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1647
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 380,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 2030
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 78,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_78.txt",
+      "source_sha256": "13ace5e692217b0a17d8a9a847459417ac59cc8286ef1e63ecaf9118f1b777dc"
+    },
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_80.txt",
+      "source_sha256": "c3db3be8bcf500475fd3a60a44834cc9d54567ba5c13ff816f40cf7f7b1a021e"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:39Z",
+  "duration_seconds": 4.207,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_man_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM MANUTENÇÃO INDUSTRIAL.pdf",
+    "page_number": 79
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_man_ind/enade_2011_tec_man_ind_page_79.txt",
+    "source_sha256": "38504168d73841bfc73dd5ed95603a998afaa1511a56a4ecd3550400295c34a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "63644769b362e139f05cb5bf44a51873ca84cb5caa09c605c7c467046f3466a2",
+  "request_fingerprint": "6f3cdaf7a7c7ecee2d4e74548e58334f8d865837158067641bac2a2ed9ffdb14",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico da página-alvo; a linha “Fonte: MEC/INEP/DAES - ENADE/2011” foi excluída por pertencer ao gráfico."
+  ],
+  "status": "success",
+  "text": "Analisando as respostas dos alunos agregados por desempenho, acima de 60% do percentual deles considerou a extensão da prova adequada em todos os quartos. A proporção foi mais elevada no 3º quarto (76,3%).\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 25,0%, com diferenças estatisticamente significativas do quarto superior em relação ao primeiro, bem como em relação ao terceiro quarto. Não se observa tendência crescente ou decrescente em função do aumento de desempenho.",
+  "text_sha256": "092a5436ea64696b7cc5f7ce3d8cc099a79ea3b4907d66376ffcb5b9159e5a44",
+  "window_size": 3
+}

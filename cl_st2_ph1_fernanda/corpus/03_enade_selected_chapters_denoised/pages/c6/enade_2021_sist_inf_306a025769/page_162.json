@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba9f8e975e2acb5006af91b43676087d1a1bc9be21ac75c34",
+    "usage": {
+      "input_tokens": 3273,
+      "input_tokens_details": {
+        "cache_write_tokens": 3270,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3270
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 659,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 3932
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_161.txt",
+      "source_sha256": "cbb88e679447f12fca8d1856a18fb6efeeb9a17dcb20e4e154982fc30b4e734a"
+    },
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_163.txt",
+      "source_sha256": "82860b2988efee4db75b29030abbdd06eb6ffc0b1de900a93b01163c08519817"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:59Z",
+  "duration_seconds": 7.408,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 162
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_162.txt",
+    "source_sha256": "0a668eb599be610d89307c076d2e7c17861d4cb82b1905f31fa212e5dc4ffb02"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2ebe75b213d10bc28f0a3913ad89f97778508f1f4dfaea58cd9bcefad26ecda4",
+  "request_fingerprint": "66d756f1c04f8d02937d24682da4dbc2e96eb6031ecb93b597ee2b478b3a0761",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte. A última frase termina em “consideradas” no alvo; a continuação está na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, uma delas foi classificada com Índice de Discriminação Muito bom, a de número 26. Seu índice foi 0,42, e, quanto ao Índice de Facilidade, foi classificada como Médio, com 56% dos estudantes marcando a opção correta. A Questão de número 9 foi a mais difícil entre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 14% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,03, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a Questão 21, com Índice de Facilidade 0,18, o que, em termos percentuais, corresponde a 18% de estudantes que responderam acertadamente, sendo, também, 0,01 seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas",
+  "text_sha256": "db6c51cdd0c8d4f7fe4cdb5f952caeffe55b05c2d4726667a622365748a5b27d",
+  "window_size": 3
+}

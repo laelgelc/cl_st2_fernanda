@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0002724e1bb5e0c8006af8f5f158e087d1b87ed8898f8ffd13",
+    "usage": {
+      "input_tokens": 2573,
+      "input_tokens_details": {
+        "cache_write_tokens": 2570,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2570
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 279
+      },
+      "total_tokens": 3153
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_51.txt",
+      "source_sha256": "aa48352dc22aeb0215c7a93be8a76f5d8a4c4db6920873d95902a0af4b0ebba9"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_53.txt",
+      "source_sha256": "9da5a03dc08c0af1dcf2bc6092afb6675d6dfcafa217f2ed81b9ebc99986f9d2"
+    }
+  ],
+  "created_at": "2026-11-14T23:59:45Z",
+  "duration_seconds": 5.119,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_52.txt",
+    "source_sha256": "d36b45ec080c388d25ac4405d80a986c16392771e546a715b7f113b8e2c532d1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cf9f177ba5d4085ec2a862b904fb68262554d32e2043e697098e6c80745dd41c",
+  "request_fingerprint": "30b718284ae6649b67588cede395a002f0208c8e46e4800d19b011e13f80daff",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.8 e sua linha de fonte foram removidas."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada fácil, com relação à facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "cd8dbcb0d75984856a959c91ae8c0dbdbc59f82bac10d8ee9876dfddc0c956b4",
+  "window_size": 3
+}

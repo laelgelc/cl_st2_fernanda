@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc23101f1c5efb1006af8f0343a4c87d18f24460c4e1f9a4c",
+    "usage": {
+      "input_tokens": 1736,
+      "input_tokens_details": {
+        "cache_write_tokens": 1733,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1733
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 388
+      },
+      "total_tokens": 2327
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_95.txt",
+      "source_sha256": "907140d0a8fdc319768490d9e51d8373e8080bc7748e66b7eb738e63df15ead2"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_97.txt",
+      "source_sha256": "093eb0d185829c4cdbc6206de66652ae9ba75bb7b78b021435586e477b57abca"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:16Z",
+  "duration_seconds": 6.941,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_96.txt",
+    "source_sha256": "793e6cf109bc80d4651598caa742c5e92091eefb911a705ac93b8a613e176a42"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7df543e18fddcaa3df503ca97ecf6a5589cde1ea560c2901b93832cf421ef64d",
+  "request_fingerprint": "d4c5d9f22897c89c79214cf19d71d2acd17ad2d848c43076ef07760f02168332",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o número de página e a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2012”), possivelmente associados a material gráfico."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 9,5% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,0% os do quarto superior com a mesma resposta, com valores decrescentes com o desempenho. A diferença entre os alunos que optaram por este motivo de dificuldade é estatisticamente significativa entre todos os quartos de desempenho.\n\nTendo em conta o quarto superior, 77,4% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no quarto inferior, 51,2% dos alunos responderam da mesma forma, com valores crescentes com o desempenho.",
+  "text_sha256": "b31a02c4bf980c02d10e6abc6ae8d8c15bc21803d0bc178d7c28383708e02a30",
+  "window_size": 3
+}

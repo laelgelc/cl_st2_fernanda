@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c9c9cf3d0cb088c006af8ed94da5c87d1b456771b8bfc63ab",
+    "usage": {
+      "input_tokens": 2679,
+      "input_tokens_details": {
+        "cache_write_tokens": 2676,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2676
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 732,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 3411
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_69.txt",
+      "source_sha256": "350763c6a3fb244dcd9d82731fecf0bd7aa85dfba1db7129dba77d532a401c07"
+    },
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_71.txt",
+      "source_sha256": "104bdc12efd464be19e5ed92595e8efecf122164d0589951b91e030b755eac73"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:04Z",
+  "duration_seconds": 6.751,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_GEOGRAFIA.pdf",
+    "page_number": 70
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_geo/enade_2011_geo_page_70.txt",
+    "source_sha256": "6ea0cbbf0edaac98bdf21ad3a7705d502f824ed4c865944f860aa3ef1cf5b8c7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "146a121b7bc771d674281a300e4aba74a5ac8106727fd23f8f162a49be7b8730",
+  "request_fingerprint": "7e1827ceb65fc56a02939126e8d2c0441db60c749a1927c3edc67f86504e2d8c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo seus dados e a linha de fonte. A referência à tabela no texto foi preservada.",
+    "O gráfico 3.19 é mencionado e interpretado em prosa nesta página; essa prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "3.3.2 Componente de Conhecimento Específico\nNa parte da prova relativa às questões discursivas no componente de Conhecimento Específico (Tabela 3.13), observa-se que a média foi mais baixa do que para as questões discursivas do componente de Formação Geral. Enquanto no componente de Formação Geral a média para estudantes de Geografia de todo o Brasil foi 45,2, na parte de Conhecimento Específico a média foi 11,1. A maior média deste componente foi obtida pelos estudantes da região Sul (11,8), e a menor, pelos da região Norte (9,6). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 14,4. O maior desvio padrão foi encontrado na região Sudeste (15,5), e o menor, na região Norte (11,9).\nA maior nota máxima foi obtida nas regiões Nordeste, Sudeste e Sul (86,7) enquanto a menor nota máxima foi encontrada na região Centro-Oeste (73,3). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 5,0, também encontrada na região Norte. As demais medianas foram: 3,3 nas regiões Nordeste e Sudeste; e 6,7 nas regiões Sul e Centro-Oeste.\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico segundo a opção de Bacharelado/Licenciatura. As modas destas distribuições ocorrem no intervalo [0;10]. O percentual de alunos de Bacharelado com notas no intervalo [0;10] é maior do que o de Licenciatura, enquanto esta proporção se inverte nos dois intervalos seguintes. Nota-se que ambas as distribuições são decrescentes até o intervalo (80;90], onde já ocorrem pouquíssimas notas. Este comportamento das distribuições, assimetria positiva acentuada, é confirmado pelos coeficientes de assimetria positivos e maiores do que 1 para os dois cursos e em todas as regiões. No Gráfico 3.19 os coeficientes de assimetria são 1,54 e 1,53 para Bacharelado e Licenciatura, respectivamente.",
+  "text_sha256": "d79b72c636d5770c8b108ebbeb1371264ffc18becb0ba34051651da1d80c2687",
+  "window_size": 3
+}

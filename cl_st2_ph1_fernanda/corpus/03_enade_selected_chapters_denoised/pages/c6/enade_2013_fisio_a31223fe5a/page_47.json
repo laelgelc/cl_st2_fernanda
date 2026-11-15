@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_042e9bfae8766a0d006af8f3d27e3487d18be24e4948b8d8f2",
+    "usage": {
+      "input_tokens": 1658,
+      "input_tokens_details": {
+        "cache_write_tokens": 1655,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1655
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 1952
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_46.txt",
+      "source_sha256": "3eed2602f3950f231e56d52b99e1dc3a5e2d9c75837890b0b850b09872ddb2f3"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_48.txt",
+      "source_sha256": "10584b531d0bba9453bcded183be981b136fd47c0eacbec36ddf7b938fab6d16"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:42Z",
+  "duration_seconds": 3.69,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_47.txt",
+    "source_sha256": "8ebf6015b43d03d4fac891983b7590e1434110795d267de0cbea5034f42a9335"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "75205a2c08f8cb8fa321d145c9a54fe32df56bcb4203b4343d7e7691e30e9090",
+  "request_fingerprint": "e95c4bba68d75ffb2aebf489d6207a62fa4421cf18a2afc162f0c99b9a6b5dac",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente ao material gráfico do Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que existe uma diferença estatisticamente significativa entre a maior e a menor média. Nas Universidades, a média (47,3) é mais elevada do que em Centros Universitários (45,3) e Faculdades (44,3). A diferença entre esses dois últimos tipos de Organização Acadêmica é também estatisticamente significativa.",
+  "text_sha256": "c4161d43699438e24570d5a9c33efa953e49378b9b92eeb0cc8480327b9fed5b",
+  "window_size": 3
+}

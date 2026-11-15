@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba0a7b213a12c9f006af8f513b61487d181eef607d162520c",
+    "usage": {
+      "input_tokens": 2028,
+      "input_tokens_details": {
+        "cache_write_tokens": 2025,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2025
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 399,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 2427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_43.txt",
+      "source_sha256": "d5b21d505a4d3dff76516700de0417418b9f5f27dd65aeb9a46d764166d78eb5"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_45.txt",
+      "source_sha256": "713c20cffdb5a1bf7f828322d08bd9c1ab964ac4aa46d736418b80c81fc9d462"
+    }
+  ],
+  "created_at": "2026-11-14T23:56:03Z",
+  "duration_seconds": 3.829,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_agro/enade_2013_tec_agro_page_44.txt",
+    "source_sha256": "da2d949430444d3348c316953fe0f07160e82254bd70e44133bdac405efd2e1b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2b246a32c9f9a851d8143496db82dc514722a639894c702a0b4e955f09191637",
+  "request_fingerprint": "f5bb5a0b49d94430b13c25e4f42d6e6afcda9c1fa4acf996437d1f2868c7a6d3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Nordeste (51,9) e a menor, obtida na região Centro-Oeste (43,4). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "733f18d731af6a9d25618e1d281893a3daac4bb69c1f5139e3d4ffdf8a612a70",
+  "window_size": 3
+}

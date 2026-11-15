@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_087dc662a60ee309006af8f56c93d887d19cf6e0fd53d0f9e3",
+    "usage": {
+      "input_tokens": 1652,
+      "input_tokens_details": {
+        "cache_write_tokens": 1649,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1649
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 243,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 1895
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_40.txt",
+      "source_sha256": "7560f60ab9bf479566702bd32051e711ddaa35df9fe0a882dacf7f74903cefce"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_42.txt",
+      "source_sha256": "94af101fa2507f44b1b3f9a8e41a6893877b043815959a1d06ce4722a854f73a"
+    }
+  ],
+  "created_at": "2026-11-14T23:57:32Z",
+  "duration_seconds": 3.667,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM GESTÃO HOSPITALAR.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_gest_hosp/enade_2013_tec_gest_hosp_page_41.txt",
+    "source_sha256": "b52e97e19b0ad96f323a43addc2cf58ea01deb514eee58133bfe35494806a90e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a86f5713538c5d957a54f29bef30b8d87f47f51c5b918ac2c0daa720e5258a78",
+  "request_fingerprint": "08fb073c99f72c7f922fc54c1d7c78d5e919fdeddeb63e7eecaa18289df326b3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que as diferenças das médias das notas dos estudantes provenientes dos vários tipos de Organizações Acadêmicas não são estatisticamente significativas ao nível de 95%. A maior média foi obtida pelos estudantes de Centros Universitários (38,4), e a menor, pelos de Universidades (36,7).",
+  "text_sha256": "fee24f3dd59a6f1a1603620c55f27cb300f3383b4ab52705ea4fe7d26bd7edb9",
+  "window_size": 3
+}

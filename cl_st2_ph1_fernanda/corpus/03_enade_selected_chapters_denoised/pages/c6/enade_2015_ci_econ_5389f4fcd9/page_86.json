@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0308857eaa4f282b006af8fd9edfec87d19424d9d9915a6c82",
+    "usage": {
+      "input_tokens": 2509,
+      "input_tokens_details": {
+        "cache_write_tokens": 2506,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2506
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1087,
+      "output_tokens_details": {
+        "reasoning_tokens": 661
+      },
+      "total_tokens": 3596
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_85.txt",
+      "source_sha256": "0fff09a4cd6f711bdde71dfbd6641d557b3e8f1aeaf710516e2d4955930e4941"
+    },
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_87.txt",
+      "source_sha256": "90ec99616a8ae743f9e670ea663f0d450f4a6808979953f5dde190307d5fccb6"
+    }
+  ],
+  "created_at": "2026-11-15T00:32:30Z",
+  "duration_seconds": 10.842,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_CIÊNCIAS ECONÔMICAS.pdf",
+    "page_number": 86
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ci_econ/enade_2015_ci_econ_page_86.txt",
+    "source_sha256": "5fba103a2382bff753957c0cb83c5813d5bf208903f06346258f38bb8f33453b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5aa6b5944264d313d5182bc9e5d400bdf64c43f8765a9bcfa9f5117dbf6e6e33",
+  "request_fingerprint": "e7cff20c58cb14e49ce406d0114fa66bbb65cf1eaa034d9dfe4ddcc58a6e1b2f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.19.",
+    "O Gráfico 3.12 é mencionado em prosa; a linha de fonte aparece na página de contexto seguinte e não foi incluída. Verificar a fronteira do gráfico."
+  ],
+  "status": "success",
+  "text": "3.3.2.3 Análise da Questão Discursiva 4 do Componente de Conhecimento Específico\n\nA Tabela 3.19 contém as informações relativas à questão 4 do conjunto de questões do Componente de Conhecimento Específico. A Média geral do Brasil foi 8,5, sendo a menor Média registrada na região Norte (5,5), e a maior, na região Sudeste (10,0). O desempenho dos estudantes de todo o Brasil nesta questão foi mais baixo dentre as três questões discursivas desse componente\n\nA nota Máxima (100,0) foi atingida por, pelo menos, um concluinte nas regiões Sudeste e Sul. Nas regiões Norte e Nordeste a nota Máxima foi 70,0, e na região Centro-Oeste foi 90,0. A Mediana em todo o Brasil foi 0,0, o mesmo valor foi obtido em todas as regiões do país. As notas mínimas foram zero em todas as regiões, o que evidencia um alto percentual de alunos (pelo menos maior do que 50%) que obtiveram nota zero ou deixaram a questão em branco.\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda na nota zero, seguida de perto pelo intervalo (0; 10]. A maior frequência ocorre na categoria em branco. Observa-se que uma maior proporção de estudantes deixou essa questão em branco, comparando-se com o ocorrido nas demais questões discursivas, como também o percentual de notas zero é superior nesta questão.",
+  "text_sha256": "8e78734a91a183e80bfed80078d5e5189413bd2d122fc2ff7fd0a2cd8dd73737",
+  "window_size": 3
+}

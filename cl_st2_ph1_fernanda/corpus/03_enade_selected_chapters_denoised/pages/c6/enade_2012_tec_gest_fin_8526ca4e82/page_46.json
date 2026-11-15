@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00265ee8f63ca8de006af8f2301b5887d19674b40c1f752e40",
+    "usage": {
+      "input_tokens": 1952,
+      "input_tokens_details": {
+        "cache_write_tokens": 1949,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1949
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 2318
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_45.txt",
+      "source_sha256": "a4279f30c1c16c5801acb0278ec9dba601092195046ec4a6bbdc50a7cede134a"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_47.txt",
+      "source_sha256": "c5992cc34bde655b8a35135eb2b900718199200d6199f52121e68da930bf7742"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:44Z",
+  "duration_seconds": 3.653,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_46.txt",
+    "source_sha256": "b35af2d01fbdb67b4ddab1ae5e49030a9812191654c96f44636dbaa2c96dfd3b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1fc52b7c0c4dd7bcf1435f95f7c58b9a75e13c058d8589981f99d2eba5ac3a9c",
+  "request_fingerprint": "56fc355ed941e4c34e16482275b0e007f2bf4a8f9f5094147309a5db0e52ff89",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico que continua da página anterior."
+  ],
+  "status": "success",
+  "text": "Os Gráficos 3.10, 3.11 e 3.12 apresentam, respectivamente, uma comparação dos resultados em relação à Grande Região do país, à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos no componente de Conhecimento Específico da prova.\n\nPelo Gráfico 3.10, observa-se que existe diferença estatisticamente significativa entre as médias das notas no componente de Conhecimento Específico, da região Nordeste (32,2) em relação às regiões Sudeste (29,8) e Sul (30,3), devido estas regiões possuírem intervalo de confiança mais estreito. Por outro lado, em relação às regiões Norte (27,9) e Centro-Oeste (29,8), devido estas regiões possuírem intervalo de confiança mais amplo, não existe diferença estatisticamente significativa. A região Nordeste foi a que obteve média mais elevada, enquanto a região Norte foi a região que obteve média mais baixa (27,9).",
+  "text_sha256": "29a0dd39806f3950ef04f754da0e3c783762c7ff27506095084e8c696b7cd735",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ee14e86c73e81dc006af8ebef9e3c87d1907f865a2369e6d3",
+    "usage": {
+      "input_tokens": 1503,
+      "input_tokens_details": {
+        "cache_write_tokens": 1500,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1500
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 275,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1778
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_37.txt",
+      "source_sha256": "38d3f459314b6480163cab79564a8f719eee3ad692956b86a8bd2d11c1e94fec"
+    },
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_39.txt",
+      "source_sha256": "1c4048593e1585c15fc649e2d2202601966e421a2fd1b2dbd20e24a2cbec2b4f"
+    }
+  ],
+  "created_at": "2026-11-14T23:17:03Z",
+  "duration_seconds": 3.867,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_2",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO II.pdf",
+    "page_number": 38
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_38.txt",
+    "source_sha256": "d90049733da26fe3655e98ebae1ec120cc68c63ef63ac4d2c9ed5a504ce24d59"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ee16702cd8ae0ffc1a12ac4c58f9743cda5242e41aba609dd755c7ee6dca813b",
+  "request_fingerprint": "0af870228c5b9caf1b93ba771c66c3f5b34177c13ebe6c7c079babb003f54a7f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% entre a média das notas dos estudantes provenientes de Universidades em relação às médias obtidas pelos de Centros Universitários e de Faculdades. A maior média foi obtida pelos estudantes de Universidades (44,8), e a menor, pelos de Faculdades (38,9).",
+  "text_sha256": "96ddd0619532cd385e2008d9f2044bf4a270e0e677f868ed582430b97ccdb000",
+  "window_size": 3
+}

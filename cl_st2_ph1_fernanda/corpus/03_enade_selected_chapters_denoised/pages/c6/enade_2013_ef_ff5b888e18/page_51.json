@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_078d887699c2143e006af8f34b78ac87d18490613d2c2fd3b3",
+    "usage": {
+      "input_tokens": 1539,
+      "input_tokens_details": {
+        "cache_write_tokens": 1536,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1536
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 327,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 1866
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_50.txt",
+      "source_sha256": "f1d5885d8f246d14eca36760ecf2a82e2cc20cbf92a9e835bd229484921d83e9"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_52.txt",
+      "source_sha256": "f240d1648283e17f5751991f10130b391119009647d4117c18341d1f7f959156"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:27Z",
+  "duration_seconds": 3.801,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_51.txt",
+    "source_sha256": "5d4f55fbc18b5863aa8797aa6bc33ea6f3fd5d0a99699a02624e2df356a49dcb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "63f49b65ae6ae2f3732d023e553dc04d0a4fdb7ece2acb3ddc2973eedce8da13",
+  "request_fingerprint": "f1ff070bfc467e38e74be5925da07aec627b701040c99c0dc57b4427eb6b9705",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Quanto ao Gráfico 3.12, observa-se, mais uma vez, que existe diferença estatisticamente significativa ao nível de 95% entre as notas no Componente de Conhecimento Específico de Universidades e dos demais tipos de Organização Acadêmica. Sendo que a média dos concluintes das Universidades (52,6) foi maior do que de Centros Universitários (51,2) e de Faculdades (49,2).",
+  "text_sha256": "1b8db8ad45714b7ed1b8faa309d9fedf4aeecdc062e03ef436bba94a00cd8991",
+  "window_size": 3
+}

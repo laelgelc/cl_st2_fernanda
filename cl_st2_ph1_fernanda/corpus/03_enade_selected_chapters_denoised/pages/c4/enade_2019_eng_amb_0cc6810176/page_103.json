@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05e159d338989fb4006af91051188c87d18f45224f76d1e033",
+    "usage": {
+      "input_tokens": 1875,
+      "input_tokens_details": {
+        "cache_write_tokens": 1872,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1872
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 2319
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_102.txt",
+      "source_sha256": "2dc3d9d6e7fe46a46df1aed6c05d982eba0f1b2091eac44afc345b31974b292c"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_104.txt",
+      "source_sha256": "b32626c97406b0db52d6c7c42806a903e4e2647b4440b2d3cec22b3c86f036e0"
+    }
+  ],
+  "created_at": "2026-11-15T01:52:17Z",
+  "duration_seconds": 4.134,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_eng_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA AMBIENTAL.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_eng_amb/enade_2019_eng_amb_page_103.txt",
+    "source_sha256": "29fb026c393add106b44f61bbaada5ca38bd9694aeeb2fe99c23f88cdd42ba17"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f62f94c71d1b1b497df72ad902d4453b37f35ba23b53d75b6ac49e01319836d9",
+  "request_fingerprint": "c1701bb988902967f8e40b532d40ff7e6444872fcc1f15f99059761238b09b90",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o título e a fonte do Gráfico 4.7; “CEFET/IF” no fim da página parece ser um rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (42,2%), uma diferença estatisticamente significativa da proporção em IES Públicas (35,3%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 59,8% para os de IES Públicas e 53,4% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "53bcb93412ca11db55da23d852a54aa82e22765e9d34e136d552f79dfcb3f6ad",
+  "window_size": 3
+}

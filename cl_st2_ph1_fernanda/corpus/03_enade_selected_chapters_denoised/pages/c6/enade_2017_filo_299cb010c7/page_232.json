@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09c4a7ac547d4ea9006af907e7c21c87d19386cb10c52760cf",
+    "usage": {
+      "input_tokens": 2728,
+      "input_tokens_details": {
+        "cache_write_tokens": 2725,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2725
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 919,
+      "output_tokens_details": {
+        "reasoning_tokens": 334
+      },
+      "total_tokens": 3647
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 231,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_231.txt",
+      "source_sha256": "0e3daf61d3b0c449a7c2eca38b23777bac1fea3e4095f08413907890ab1146f7"
+    },
+    {
+      "page_number": 233,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_233.txt",
+      "source_sha256": "ae9296e2511be0f9303f3d60945eb0a68f2bf2103a5b58aea45fef48d013a3eb"
+    }
+  ],
+  "created_at": "2026-11-15T01:16:23Z",
+  "duration_seconds": 8.623,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_filo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_FILOSOFIA.pdf",
+    "page_number": 232
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_filo/enade_2017_filo_page_232.txt",
+    "source_sha256": "07fc7061120187e2cbfeb3061bb85ea4907823751ebd7160a26790a39b1163a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cc8606df785818c6dc2c01c941c10193db6c80a093e58ee34be90c9d870c4b14",
+  "request_fingerprint": "8600cf02651af7d03b6e59f3e38107ebafc61b15abf50d0d2b465095587e359a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.12b, incluindo título, dados e linha de fonte.",
+    "O texto termina em “Aqueles com nota” no alvo; a frase continua na página seguinte, não incluída."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12b, é apresentada a distribuição das questões, considerando-se simultaneamente a classificação dos dois índices mencionados. Dentre as questões que alcançaram os maiores índices de discriminação, classificadas com Índice de Discriminação Muito bom, duas delas, as de número 16 e 29, tiveram índice mais elevado (0,50) e, foram classificadas como Médio quanto ao Índice de Facilidade; a primeira, com 55% dos estudantes marcando a opção correta, e a segunda, com 48%. As questões de números 13 e 19 foram as mais difíceis dentre as 26 questões específicas, com baixo Índice de Facilidade, ambas com apenas 13% de acertos. Essas questões apresentaram poder discriminatório muito baixo, respectivamente, 0,12 e 0,17, o que comprova terem sido as mais difíceis para os estudantes. Essas questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por isso, as questões 13 e 19 foram eliminadas do cômputo da nota final, assim como as questões 17, 30 e 34.\n\nA título de exemplo das análises do comportamento das questões objetivas, no Gráfico 6.5b é analisada a questão 16 do Componente de Conhecimento Específico. Essa questão foi considerada, pelas respostas dos estudantes avaliados na prova, como uma questão com nível de facilidade Médio, 0,55, ou seja, 55% dos estudantes assinalaram acertadamente a opção D, correspondente ao gabarito. Como já comentado, seu Índice de Discriminação foi igual a 0,50, classificado como Muito bom, o maior valor de discriminação.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 16, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto-bisserial. A alternativa correta D, representada no gráfico pela curva em roxo, foi escolhida em maiores proporções pelos alunos com desempenho melhor nessa parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas, principalmente, por aqueles com notas mais baixas. Observa-se que a soma não é 100%, por causa das questões não respondidas ou com mais de uma opção marcada. Aqueles com nota",
+  "text_sha256": "cdf992f3cb22020f039411944ce810d2f53906ed6fb8d86db8d321245fe50111",
+  "window_size": 3
+}

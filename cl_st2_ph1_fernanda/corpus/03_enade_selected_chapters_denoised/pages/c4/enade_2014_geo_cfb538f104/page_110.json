@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06e57cef300bbbc7006af8f9d3e90487d1aa1c11c3853b3ead",
+    "usage": {
+      "input_tokens": 1584,
+      "input_tokens_details": {
+        "cache_write_tokens": 1581,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1581
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 421,
+      "output_tokens_details": {
+        "reasoning_tokens": 305
+      },
+      "total_tokens": 2005
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_109.txt",
+      "source_sha256": "39b11db37906e2af555eabc04be4becb144ee979781c5b36bf05cbe10d377387"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_111.txt",
+      "source_sha256": "7e44d0836ece26e70fdf3498cc8747d2ae829332e2d6a87715285f3e0b2d162e"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:19Z",
+  "duration_seconds": 4.955,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_110.txt",
+    "source_sha256": "eb15352e9291f82d36f07269b024cb6987b79dc86fb5a0de7e38f44a77ed79d4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7c2a5928398db9741dcc7c8044a313eeb026cad781b83e85f6e687c47c0188c6",
+  "request_fingerprint": "561710777233d6ed7c539b1637dbaca180c986591575d2f1cf7fee6739bd30aa",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”), identificada como pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (78,3%) se comparada ao quarto inferior de desempenho (57,5%). As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "a44be3b682815c5cc128b146998c557fa9cfb0077214915e90bfd5d840f45b79",
+  "window_size": 3
+}

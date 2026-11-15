@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_008132e26318b413006af8f2773ac487d1bdb4d1e9c8513d72",
+    "usage": {
+      "input_tokens": 2396,
+      "input_tokens_details": {
+        "cache_write_tokens": 2393,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2393
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 639,
+      "output_tokens_details": {
+        "reasoning_tokens": 358
+      },
+      "total_tokens": 3035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_33.txt",
+      "source_sha256": "70f19208edf597d14e901561c68003175044e4231546de1bf2aee7265d7d1380"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_35.txt",
+      "source_sha256": "c4be5dbacddbb5a64ac8e8dc04999be29d5c13b00ac032d9cf846f8497f1548a"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:55Z",
+  "duration_seconds": 5.999,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_mark",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM MARKETING.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_mark/enade_2012_tec_mark_page_34.txt",
+    "source_sha256": "d47d7094295210fac43cd6aaddec95650a1a74190aa173cc270b703e99216df2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4802bac46e23dd6478db76c245b31daa656c4daa9e5a81e0bd101588e31e399c",
+  "request_fingerprint": "bcd830822e7709961205bed7ddb6eecce8004c4f6d4fe31fe33ec7c1c298bde2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1, seus dados e a linha de fonte. O Gráfico 3.1 também é material gráfico da página; sua linha de fonte aparece na página de contexto e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota máxima foi a Sudeste (84,3), ao passo que a região que atingiu a menor nota máxima foi a Norte (68,6). A mediana do Brasil como um todo foi 42,4, sendo a maior mediana obtida na região Sul (43,9) e a menor obtida na Centro-Oeste (37,5). A nota mínima foi zero em quase todas as regiões, com exceção da região Norte com 7,4.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (40;50]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,18) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo.",
+  "text_sha256": "b3fe937885a5e68cfcc84f1e37c42465fb19d81f5b054679d912d5d173027b32",
+  "window_size": 3
+}

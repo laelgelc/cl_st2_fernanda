@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eb4c0dd5cb6fefa006af907338af087d1b6abe27b77853aa3",
+    "usage": {
+      "input_tokens": 3106,
+      "input_tokens_details": {
+        "cache_write_tokens": 3103,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3103
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 602,
+      "output_tokens_details": {
+        "reasoning_tokens": 311
+      },
+      "total_tokens": 3708
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_114.txt",
+      "source_sha256": "c9639f602bc4a1fd282ecdfde5732ba95d814f0a6291d7cc641d1a1a4205f7a1"
+    },
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_116.txt",
+      "source_sha256": "73c0984056b93fd4f84ed04112fd139a00581663d58f5c201fbcf714784908a0"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:23Z",
+  "duration_seconds": 6.87,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 115
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_115.txt",
+    "source_sha256": "5408b7cfac679977826a08babf300eb074c076cd6395face0cf8d7841be16564"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "08e05a698515c1ab1b47ca215b0b8f7aa090f0b14364c3c1f02bed96f23d77d0",
+  "request_fingerprint": "ad4643008008849adba9ab90685ad6ca397d6820f4c957c1c8e69074040759ea",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte.",
+    "O texto termina com “Por”, aparentemente continuando além da página; mantido sem completar."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.12 apresenta a distribuição das questões levando-se em conta simultaneamente a classificação dos dois índices. Dentre as duas questões que alcançaram os maiores Índices de Discriminação, classificadas com Muito bom, uma delas, a de número 31, apresenta o índice mais elevado (0,45) e foi classificada como Médio quanto ao Índice de Facilidade, com 57% dos estudantes marcando a opção correta. A questão de número 33 foi a mais difícil dentre as 26 questões específicas válidas, com baixo Índice de Facilidade, apenas 18% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,13, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 27, com Índice de Facilidade 0,21, o que, em termos percentuais, corresponde a 21% de estudantes que responderam acertadamente. Já 0,17 foi o seu de Índice de Discriminação. Tais questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por",
+  "text_sha256": "49be9732b5e3aaea0644ebe46ac0176c20b03f5a08d88df322b74f519a6ac25c",
+  "window_size": 3
+}

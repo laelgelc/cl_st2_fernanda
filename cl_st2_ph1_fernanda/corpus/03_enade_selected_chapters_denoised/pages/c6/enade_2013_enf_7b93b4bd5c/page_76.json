@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0913112f11a87431006af8f3870e9487d18041855a5c419a11",
+    "usage": {
+      "input_tokens": 2453,
+      "input_tokens_details": {
+        "cache_write_tokens": 2450,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2450
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 446,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2899
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_75.txt",
+      "source_sha256": "3f91bbdb3f79bcbb7dce3480a90ef6e88299efb19c8521d55dc58d5fd2969e0f"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_77.txt",
+      "source_sha256": "d8c8ad754e43b47b827f2d565caa2b27ef0848029930691843334a64d6f79b42"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:26Z",
+  "duration_seconds": 4.485,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_76.txt",
+    "source_sha256": "88335731fb3cf8048b5419aa1e4b3cbabfe6996ef1fe7b19ab278d35fc9890e5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ef7b8d5532a4dc4c3c2622dbb5ef9307f8c1b7b48202a7d0a0db31d4acc1f33b",
+  "request_fingerprint": "70dae495b00bc2888ad3cc6812610c0bc449af96d422b69464b09ab1d633e227",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», identificada como pertencente ao gráfico da página."
+  ],
+  "status": "success",
+  "text": "3.3.2.1 Análise da Questão Discursiva 3 do Componente de Conhecimento Específico\n\nNa questão 3, cujos resultados aferidos encontram-se descritos na Tabela 3.13, a média dos estudantes de todo o Brasil foi 40,5. A menor média nessa questão foi obtida pelos alunos da região Nordeste (36,9), enquanto a maior média foi obtida na região Sul (45,4). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 30,1. O maior desvio padrão foi obtido na região Sudeste (30,4), enquanto o menor foi obtido na região Norte (29,2).\n\nA nota máxima, 100,0 pontos, foi alcançada por pelo menos um aluno em todas as regiões, sem exceção. A mediana do Brasil como um todo foi 45,0, assim como nas regiões Norte, Sudeste e Centro-Oeste, mais alta na região Sul (55,0) e mais baixa na região Nordeste (30,0). A nota mínima foi zero para todas as regiões do Brasil, sem exceção.",
+  "text_sha256": "60bcfac9478eb4973e179f72010e404ff5d8460449b3556638fbd41c31f13716",
+  "window_size": 3
+}

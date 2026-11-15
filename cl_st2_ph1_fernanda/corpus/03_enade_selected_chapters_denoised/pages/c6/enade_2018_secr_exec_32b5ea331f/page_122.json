@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_014b69b86fae6eac006af90d9a805c87d1b30fe4aa0bd578e1",
+    "usage": {
+      "input_tokens": 2757,
+      "input_tokens_details": {
+        "cache_write_tokens": 2754,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2754
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 930,
+      "output_tokens_details": {
+        "reasoning_tokens": 406
+      },
+      "total_tokens": 3687
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_121.txt",
+      "source_sha256": "559a37cdf15c2cb50db7edd79c0107fba8dcf2ffba87664d66233942af46c880"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_123.txt",
+      "source_sha256": "5f57806c8ffe03588ba5e8b16ff8171ceb6be563c56129d9559f2320c31b1670"
+    }
+  ],
+  "created_at": "2026-11-15T01:40:42Z",
+  "duration_seconds": 8.479,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_secr_exec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_SECRETARIADO EXECUTIVO.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_secr_exec/enade_2018_secr_exec_page_122.txt",
+    "source_sha256": "4a7cc7d01ef7df65a4632946ed08c82658d68d64085814b992f54a5bcda85ff8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2c4cbcb77f53cca48d05d82d90e704f727b8833a7c0e6e5fbf17b7e69d86374a",
+  "request_fingerprint": "eda43f82aa4d0b46309b0d0071bd6cb80c9b354769d96b91aff63525916bab26",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, cabeçalhos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "de acertos foi alcançado pela questão 8 com um Índice de Facilidade de 0,61. As questões 1 e 4 foram consideradas Difícil, com índices de Facilidade 0,40 e 0,27, respectivamente. A questão de número 6 apresentou um Índice de Facilidade de 0,45 (Médio), ou seja, menos da metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu Índice de Discriminação foi Bom (0,34).\n\nNo Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Difícil, em relação à facilidade e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em laranja), incorreta. Por exemplo, dentre os estudantes que acertaram três questões, 31,4% escolheram a alternativa C (em preto), 23,3% escolheram a alternativa E (em vermelho), 18,4% escolheram a alternativa D (em laranja), 15,7% escolheram a alternativa A (azul) e 11,2% escolheram a alternativa B (em verde). Dentre os que acertaram três respostas entre as questões de múltipla escolha de Formação Geral, nenhum deixou a questão em branco, e nenhum marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice obtido na questão.",
+  "text_sha256": "dd27987928efa54fef22b43ec6661506da7459edc12d68cc964a8edbebca1b2f",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02dbaeb2ca73a78e006af90048f1cc87d18d704511a7efdd49",
+    "usage": {
+      "input_tokens": 2329,
+      "input_tokens_details": {
+        "cache_write_tokens": 2326,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2326
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 588,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 2917
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_48.txt",
+      "source_sha256": "9d39a63bef6661d9574c7b9becad0c59bead8157c29d7769265437d5c87f96af"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_50.txt",
+      "source_sha256": "2273c3d4463077504f63f57c4820d8ea3fa53b767ed03f89305938ce4a6dca99"
+    }
+  ],
+  "created_at": "2026-11-15T00:43:52Z",
+  "duration_seconds": 5.139,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_gest_fin/enade_2015_tec_gest_fin_page_49.txt",
+    "source_sha256": "1a9c4225ebc13783cc3ef3da2ce57ff6e625df433eafc683b6e8327b3fd338a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "40a8462017293c1071a5538a20db342e3f00101ab628fdd14d77d5ebb62290b0",
+  "request_fingerprint": "e0f258f129c3c10b39b9687773047e6bac5207fc5988dab5457b78a9e806e114",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2015”, pertencente ao gráfico iniciado na página anterior. A última frase continua na página seguinte; o trecho foi mantido sem completar."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Universidades (35,1), vindo a seguir a das Faculdades (34,9) e, depois, a dos Centros Universitários (34,1). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Universidades (14,5). As Universidades também obtiveram as maiores notas Máxima (88,5) e Mediana (33,2). Por sua vez, os Centros Universitários obtiveram 85,5 e 33,0 como nota Máxima e Mediana, respectivamente. Já as Faculdades, obtiveram 88,1 e 33,2 como nota Máxima e Mediana, respectivamente. A nota Mínima foi zero para todas as Organizações Acadêmicas, sem exceção.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença",
+  "text_sha256": "73e49297ae47e2beb68381b0d3fdd0acbdc2438191effc5e0eca5b54594a0519",
+  "window_size": 3
+}

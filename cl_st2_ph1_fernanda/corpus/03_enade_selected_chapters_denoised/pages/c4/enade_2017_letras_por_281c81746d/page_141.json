@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05bb1c4f9429c415006af90a5232d487d185fc506a89fdab08",
+    "usage": {
+      "input_tokens": 1747,
+      "input_tokens_details": {
+        "cache_write_tokens": 1744,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1744
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 2072
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 140,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por/enade_2017_letras_por_page_140.txt",
+      "source_sha256": "eb1fc7aeb2cabb4cd51440db2db00da9c12ddb354da5b3db8db28921b3c02a56"
+    },
+    {
+      "page_number": 142,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por/enade_2017_letras_por_page_142.txt",
+      "source_sha256": "2bad22437351e481e095b9eb888f6944a404fc85d0554ed4a62384c59e457e90"
+    }
+  ],
+  "created_at": "2026-11-15T01:26:42Z",
+  "duration_seconds": 3.47,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2017_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_PORTUGUÊS.pdf",
+    "page_number": 141
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2017_letras_por/enade_2017_letras_por_page_141.txt",
+    "source_sha256": "6540c3fcf50c10306168e00432f27a1cff60a205e1ed85f2d9bf62554d50b5df"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fa300b893582524f069cd08e25d5f9ad47be5a7640d35aadee69abcf0e21aa81",
+  "request_fingerprint": "57a75350dd7bc63d4a23f1c695d4a3b2cfda098c75e8bfd7437756265b41ad0e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.6a, sua legenda e a linha de fonte. A última frase da página termina incompleta; a continuação está na página seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "No Gráfico 4.6a, pode-se constatar que há uma tendência crescente da proporção de estudantes de Licenciatura que consideraram a prova longa ou muito longa, em função dos quartos de desempenho. Observa-se, também, que há diferença estatisticamente significativa entre a proporção do quarto de maior desempenho e as proporções dos demais quartos.\n\nConsiderando-se o desempenho dos alunos de Bacharelado, nota-se ainda que 32,3% consideraram a extensão da prova adequada no quarto de desempenho inferior e 50,8% no de melhor desempenho (quarto superior). Nos quartos intermediários, essa proporção foi de 44,0% no segundo quarto e de 35,7% no terceiro.\nNo Gráfico 4.6b, pode-se constatar que o primeiro e o terceiro quartos possuem proporções de estudantes de Bacharelado que consideraram a prova longa ou muito longa",
+  "text_sha256": "390b3e023bf1b845f736c22c75578d7538c937e1b7cb629b8f3b3c93bc523954",
+  "window_size": 3
+}

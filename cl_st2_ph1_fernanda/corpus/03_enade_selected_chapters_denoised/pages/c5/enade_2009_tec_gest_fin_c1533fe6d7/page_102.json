@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cf7354ede586528006af8e7f0939c87d1b73ac786e615e32c",
+    "usage": {
+      "input_tokens": 2809,
+      "input_tokens_details": {
+        "cache_write_tokens": 2806,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2806
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 506,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 3315
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_101.txt",
+      "source_sha256": "917e586caec6805c4296e64bdcfb063cbaf3eb793ccefd034ef597531a5ee699"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_103.txt",
+      "source_sha256": "006a464f37507f8b5da50b574434d46b010fe54aede0255b60b3c7a04f986257"
+    }
+  ],
+  "created_at": "2026-11-14T23:00:00Z",
+  "duration_seconds": 4.643,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2009_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2009_tec_gest_fin/enade_2009_tec_gest_fin_page_102.txt",
+    "source_sha256": "1b5c67b99a61bbbd3a12a86dfcfae3e5c6141cd3adeabf1ddecb65ddd65b55be"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "915bd17083e5eceb6604cffaf41f6ea9107e8c19dee58e41d4d9a9faff97abd9",
+  "request_fingerprint": "438aff7efd043b8427ac09eabe6ba847f9d9ec3dac40742a0f71234c1da389e7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título/caption, o gráfico e a linha de fonte de Gráfico 5.1."
+  ],
+  "status": "success",
+  "text": "5.2 Conceitos por Categoria Administrativa e por Região\n\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2009 de TECNOLOGIA EM GESTÃO FINANCEIRA, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo Região.\n\nO Gráfico 5.2 apresenta a mesma informação sob a forma de diagrama de caixa para uma melhor visualização da dispersão dos conceitos obtidos. Somente eventuais valores atípicos aparecem com o identificador da Região na qual o curso foi habilitado. De acordo com as informações apresentadas, a grande maioria, 99,3% (correspondendo a 146 cursos), é de cursos em instituições privadas, 0,7% (1 curso) dos cursos eram vinculados a instituições federais. Nenhum curso nem em instituição federal foi avaliado. Entre os cursos avaliados nas instituições privadas, predominaram os cursos que receberam conceitos 2 e 3, correspondendo respectivamente a 31,8% e 32,7% do total dos cursos avaliados. Quase 14% (15 cursos) dos cursos foram classificados com conceito 1. Conceitos 4 e 5 foram alocados a, respectivamente, 18,2% e 3,6% dos cursos avaliados (20 e 4 cursos).",
+  "text_sha256": "2708143e22e7814f69c5b7dc39d3157207fbed8b7653c98f02cb71e414091196",
+  "window_size": 3
+}

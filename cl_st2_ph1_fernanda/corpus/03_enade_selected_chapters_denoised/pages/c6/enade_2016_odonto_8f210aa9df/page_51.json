@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_070f514a5fdfaac3006af90323b33c87d1a6f8b957e18a89d4",
+    "usage": {
+      "input_tokens": 2800,
+      "input_tokens_details": {
+        "cache_write_tokens": 2797,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2797
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 919,
+      "output_tokens_details": {
+        "reasoning_tokens": 435
+      },
+      "total_tokens": 3719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_50.txt",
+      "source_sha256": "ebe6656f7ae50c3f78040e15d312997702f3f6cf166d0a8979f01ae471068d19"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_52.txt",
+      "source_sha256": "4fea64e4c929398b85a319bfa6a8024dff0419407f7662080d11fece67af40d7"
+    }
+  ],
+  "created_at": "2026-11-15T00:56:03Z",
+  "duration_seconds": 7.347,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ODONTOLOGIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_odonto/enade_2016_odonto_page_51.txt",
+    "source_sha256": "48a88473165efdd8b5b457c9d60b06c2264a65c575260649404222b14c58f953"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e9d8c6bb02bcb245706945f8e1977d2ee5532fc48fcd8e8a7ac91d9a1c8cf46e",
+  "request_fingerprint": "8783a6937af14becaefaf81560ea0662a8e2c919351367117d8b7bd5ed1882a2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, dados e fonte. O texto-alvo termina com “abaixo”; a frase continua na página seguinte, não incluída."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada Médio, com relação à facilidade e uma das duas que obtiveram o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto-bisserial. A curva em azul corresponde à alternativa A, a alternativa correta para esta questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 29,4% escolheram a alternativa B (em verde), 25,1% escolheram a alternativa E (vermelho), 2,0% escolheram a alternativa C (preto) e 1,5% a D (roxo). Entre os que acertaram três respostas nas questões de múltipla escolha de Formação Geral, 0,1% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta A, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o índice de facilidade (que seria uma média da proporção ponderada pela quantidade de alunos com cada uma das notas), nem o índice de discriminação ponto-bisserial, por razão equivalente. No caso extremo no qual a grande concentração dos acertos dos alunos fosse abaixo",
+  "text_sha256": "0bea602de80b1b9f83a18da9f69aaf4413f4355b82991d71eeb9d9bc561a87b4",
+  "window_size": 3
+}

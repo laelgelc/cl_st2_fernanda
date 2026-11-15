@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cf08cbdc42bcc31006af8f669fc6c87d18bc7521a24fa2dce",
+    "usage": {
+      "input_tokens": 2590,
+      "input_tokens_details": {
+        "cache_write_tokens": 2587,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2587
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 669,
+      "output_tokens_details": {
+        "reasoning_tokens": 442
+      },
+      "total_tokens": 3259
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_66.txt",
+      "source_sha256": "57924d08fef83cec8af8f457e2966b5afb34bc8acd36d8ffd4148e40f154f483"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_68.txt",
+      "source_sha256": "29e28221180b2ed6a5f33674f834dc8cff241e419d96a99129829e1509d1a894"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:45Z",
+  "duration_seconds": 7.928,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_67.txt",
+    "source_sha256": "16f8e5fc5346dcd4ea42a16f7fe47f6a89e7bead469c456e437dac7d77754b4b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e65a9d1a6fe6ec1d45a4902990c0b97c847c13d59b8b8cb87ce2eb11754793c9",
+  "request_fingerprint": "0337b8902f68ad453dabdcc1a4d09694630a55229958bec3273e9ba87bc986ef",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A título de exemplo das análises do comportamento das questões objetivas, o Gráfico 3.6 analisa a questão 25 do Componente de Conhecimento Específico. Esta questão foi classificada como fácil. Apresentou índice de facilidade 0,72, ou seja, 72,0% dos estudantes assinalaram acertadamente a opção C, correspondente ao gabarito. Seu índice de discriminação foi igual a 0,47, classificado como muito bom, também sendo esta questão a que apresentou o maior índice discriminatório.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 25, em função do número de acertos dos estudantes nessa parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta C, representada no gráfico pela curva em preto, foi escolhida em maiores proporções pelos estudantes com desempenho",
+  "text_sha256": "a8c7820405e6525af5d657057937be9de5f14273af6fdfd5ba6320c56488ebbc",
+  "window_size": 3
+}

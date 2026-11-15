@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0af46b83dc6065a9006af91c04606887d194eaf39c0acc719c",
+    "usage": {
+      "input_tokens": 1680,
+      "input_tokens_details": {
+        "cache_write_tokens": 1677,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1677
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 260,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1940
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_100.txt",
+      "source_sha256": "881d9c466de8c63a40b53bfcdc6ebb5c1f3c1d0a61a344dc6892c85858d629d3"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_102.txt",
+      "source_sha256": "7332a6cbce996a712f9b96fe9918a4a98906a18a6dc5e330546286f0bd7f9505"
+    }
+  ],
+  "created_at": "2026-11-15T02:42:12Z",
+  "duration_seconds": 2.967,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS ECONÔMICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_101.txt",
+    "source_sha256": "6a439415e40c98c0ea5881f3db1b5aca49f736b91978d177b7b747bd04310b8d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d578bada2d1b93b737ae41de9a6e8d9fc99a29d98e9ed687bbe83076cea64b64",
+  "request_fingerprint": "4aaaa71365346e8689d37758ef00a6aac859a1141f046116e4d07e6a80adea06",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.5, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "5.1.2 COMPONENTE ESPECÍFICO\nO Gráfico 5.5 apresenta as respostas obtidas para a questão 2: “Qual o grau de dificuldade desta prova na parte de Componente Específico?”.\n\nDe acordo com os dados do Gráfico 5.5, a região Norte apresentou o maior percentual de estudantes que consideraram o componente específico da prova “Difícil” ou “Muito difícil”, com 45%, seguida da região Centro-Oeste com 42,8%. Na região Nordeste, a média foi de 41,7%, na região Sul 41,5% e na região Sudeste 33,6%.",
+  "text_sha256": "4f63cd9c5f958826b9a16060b8fa4d8c996dd9a40f4a65fb4e5b4b253c8914b4",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fa91244b3036a88006af8eff16efc87d1a6407ad5a04db521",
+    "usage": {
+      "input_tokens": 1347,
+      "input_tokens_details": {
+        "cache_write_tokens": 1344,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1344
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 222,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1569
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_43.txt",
+      "source_sha256": "7f8a3a5acb2e1ed91fd89f993c72b471c18ecafe34cfe10c8621209bb8db4c26"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_45.txt",
+      "source_sha256": "b5e3ae9fa5c928383dc7755868506711c4df4e0f78de58295917fbbc8b5d2fda"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:09Z",
+  "duration_seconds": 2.917,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_red_comp/enade_2011_tec_red_comp_page_44.txt",
+    "source_sha256": "dfa7517d3523321d3183ae9e7f3deb012821e44d7d4c69467b47d257494fac33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3bd6d5af0bb7bb07bf142d6f006bc58dacde1d99ebc85a34f368adfdd6249859",
+  "request_fingerprint": "8462f32b02cf1fb413a8cdea1d3d1f34148727616096cc92f0ea250834fa2dca",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2011», identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que existe diferença estatisticamente significativa entre as médias. Os concluintes das IES Públicas obtiveram uma média maior (51,5) do que os das IES Privadas (47,0).",
+  "text_sha256": "64ce57be772e1fee44af6c3535feee7439d499be4c9f21b56ae519ee9fdd431b",
+  "window_size": 3
+}

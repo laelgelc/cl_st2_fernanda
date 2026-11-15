@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0890fdeecc8f9808006af8f3950c0887d196c8266542ec571f",
+    "usage": {
+      "input_tokens": 1611,
+      "input_tokens_details": {
+        "cache_write_tokens": 1608,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1608
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 258,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 1869
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 95,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_95.txt",
+      "source_sha256": "07759ac6a9ead19fb8a70f3daea6cec532c390f76fa7d114ec5969c526a09291"
+    },
+    {
+      "page_number": 97,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_97.txt",
+      "source_sha256": "e5e92221bdc9b10e3fc041b10e1b68e21add90b35f8879ca70604d9f02e21ba3"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:40Z",
+  "duration_seconds": 3.245,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 96
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_farm/enade_2013_farm_page_96.txt",
+    "source_sha256": "e4e406d52545035c4a107371697532e5a6d0179f06756200797685f72ca93e33"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a36720aa589012dd6bd6077f14c34a3b34d1fe81320762fa0d5032c6e8caa71c",
+  "request_fingerprint": "919654e888c424fdf77c9a60f3a1bd9e8c37238829d8b236d0658f38d3d5642b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte (MEC/INEP/DAES - ENADE/2013), provavelmente pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (86,7%) se comparada ao quarto inferior de desempenho (72,9%). Todas as diferenças dos resultados dessa proporção entre os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "e2baaa6a000e175132e146eda85feaa4faa2e1bb7f29abb6b6cc024c5b6c3b24",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04de84186993f81e006af90225964887d1b4c495d66a7eca01",
+    "usage": {
+      "input_tokens": 2707,
+      "input_tokens_details": {
+        "cache_write_tokens": 2704,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2704
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 330,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 3037
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_45.txt",
+      "source_sha256": "609ebc4143e8b65d6beb00e47474558d745e14e70921f09715f7e59c8279ff15"
+    },
+    {
+      "page_number": 47,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_47.txt",
+      "source_sha256": "d2e509c08f962f9572971c98b870fdbbdabad07a2e8ded61c953180dcf07dac4"
+    }
+  ],
+  "created_at": "2026-11-15T00:51:49Z",
+  "duration_seconds": 3.752,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_FARMÁCIA.pdf",
+    "page_number": 46
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_farm/enade_2016_farm_page_46.txt",
+    "source_sha256": "3d7af155fc911bf4930ee58a6bea86db822d3b7f515836e778e31ce834ea2a0a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3ddb9de3e4b8a4aa32f5a850f62b62f3d22f30dce66b21618bf976fe2b7688ca",
+  "request_fingerprint": "f4789786d0cf89f63fc876bb2146fbc75f668923402a583b00bb514bb750d86f",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico (Gráfico 3.2) e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 3.6 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa e Organização Acadêmica.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa. A maior Média foi obtida por estudantes de IES Públicas (53,2), com uma diferença estatisticamente significativa da obtida por estudantes de IES Privadas (44,1).\n\nNota-se que também há diferença estatisticamente significativa entre as médias dos três tipos de Organização Acadêmica, valor maior para Universidades e menor para Faculdades.",
+  "text_sha256": "653fe61299509ced598cb489f4ad6321399d93fa8082e76cae18af18935f559d",
+  "window_size": 3
+}

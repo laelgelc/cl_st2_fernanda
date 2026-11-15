@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02971f5b70bc18ac006af9016ab65087d1a7dc3bf1bd861317",
+    "usage": {
+      "input_tokens": 1839,
+      "input_tokens_details": {
+        "cache_write_tokens": 1836,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1836
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 303,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 2142
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_101.txt",
+      "source_sha256": "a678da3b53b83fda7adadfef96f251af32f42dd62cdb28d815123914d5cc9bfd"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_103.txt",
+      "source_sha256": "8bd2bac1994a4ec293aec704434dd0502e56c716d056a7dbd0792715c505043d"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:42Z",
+  "duration_seconds": 2.866,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_agro/enade_2016_agro_page_102.txt",
+    "source_sha256": "3bc3e36ac2faf5420622e7fdac013fd40c47330513b59ee45281d87af79b3a07"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "556da9514046c4d7cbb8b27c29cb3912e1b480f550344aaf0f0eee2f4d307eca",
+  "request_fingerprint": "887a2cfd44e63b4e5891c6adc21d57d6b614f586b43821db2d8e7c75a937a63d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 4.13, sua legenda e a fonte (MEC/Inep/Daes - Enade/2016)."
+  ],
+  "status": "success",
+  "text": "Na análise por Grandes Regiões, o percentual de inscritos e presentes que apontaram o Desconhecimento do conteúdo como dificuldade ao responder à prova não superou 15,8%. Os percentuais variaram de 13,1% na região Sul a 15,8% na região Norte, não sendo esta diferença significativa estatisticamente.\nA Forma diferente de abordagem do conteúdo foi a escolha modal dos estudantes, com percentuais que variaram de 44,1% (região Nordeste) a 48,0% (Centro-Oeste). O percentual de alunos que citaram a Falta de motivação como dificuldade variou de 7,4% (região Sul) a 9,8% (região Nordeste). Os que declararam não ter qualquer tipo de dificuldade para responder à prova variaram de 24,2% na região Norte a 30,2% na região Sul.",
+  "text_sha256": "af02a77dda6011fa3779941c3df5e9474af8bfaaf7b8fee12de6282df3b64ff4",
+  "window_size": 3
+}

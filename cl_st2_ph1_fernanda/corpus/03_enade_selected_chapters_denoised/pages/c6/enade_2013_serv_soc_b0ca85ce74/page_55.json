@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02cb4f4428c2d2ce006af8f4e4188c87d1a84d15a90169dfc6",
+    "usage": {
+      "input_tokens": 2877,
+      "input_tokens_details": {
+        "cache_write_tokens": 2874,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2874
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 2083,
+      "output_tokens_details": {
+        "reasoning_tokens": 1348
+      },
+      "total_tokens": 4960
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 54,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_54.txt",
+      "source_sha256": "c622320da2f410b9b24ecad4efd37d5d3f25f756967f2ef7cb20d1ab013b13b2"
+    },
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_56.txt",
+      "source_sha256": "ca690d6697cf3720e8a1201aec71308cfa97d4aacaebb5eefd13bbb4acb97915"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:15Z",
+  "duration_seconds": 20.254,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 55
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_55.txt",
+    "source_sha256": "53c3fe073581b989be3e14d7008639ba36a15a31a7c64f4714bc3e43422a1816"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d528b73fddf8c1deef8342a2892d79dd391e5ae9795fe9eab45e9ae66ecf525d",
+  "request_fingerprint": "dafbb76b11bd97a3108268c799bf531052a28fe3bdec94cc9147be6af297e2c7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidas a Tabela 3.4 e sua fonte, e a Tabela 3.5 e sua fonte. A lista de cores e classificações foi preservada como prosa explicativa.",
+    "A frase final do parágrafo sobre discriminação termina em “apresentaram” no alvo; não foi completada com texto da página de contexto.",
+    "O texto sobre o Gráfico 3.13 foi preservado como prosa. O trecho final sobre a alternativa C parece continuar além do alvo; não foi completado."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\nAzul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\nAs questões classificadas com índice fraco receberam a cor vermelha (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil e uma como fácil. Duas questões foram tidas como médio, por terem índice de acertos situado na faixa entre 0,41 e 0,60 (de 41,0% a 60,0% de acertos). Quatro questões foram consideradas de dificuldade difícil, situando-se no intervalo entre 0,16 e 0,40 do índice de facilidade, ou seja, houve entre 16,0% e 40,0% de acertos. Como já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram\n\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da terceira questão mais difícil e a que obteve o terceiro maior índice de discriminação dessa parte da prova.\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C",
+  "text_sha256": "86eb33a9008974def23ca2b6e6f5defe03e959aa452361b8af4bced1e6fb31a4",
+  "window_size": 3
+}

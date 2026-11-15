@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_090e794a28e3d170006af8eef68dc887d1a3f49ac8fc17de83",
+    "usage": {
+      "input_tokens": 2285,
+      "input_tokens_details": {
+        "cache_write_tokens": 2282,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2282
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 2642
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_69.txt",
+      "source_sha256": "95165e62edc270e3ca3c235d7ecacc93ae47af732b575feb6b0991b0c154826c"
+    },
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_71.txt",
+      "source_sha256": "a327a158ae9a77070be8c17a568f11b793c981ce259a73038f1020d96c3fa865"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:58Z",
+  "duration_seconds": 5.767,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 70
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_autom/enade_2011_tec_autom_page_70.txt",
+    "source_sha256": "1da4c5a97cdc5d6186761730cb85b60b28aeeec838d4ced5eb96c59ed25ed838"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9bbd2e2b471cf6906f9cdcfb5052a07df23dbe12553f1d15e04ab07de0c00994",
+  "request_fingerprint": "227496363a0f1598ed40917f3a1a206c3c0f4295d267ae2e0d9d38b69ac73869",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. A linha de fonte após o parágrafo sobre o Gráfico 3.19 foi removida como material associado ao gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição é bimodal com moda nas questões em branco e no intervalo (40;50]. O coeficiente de assimetria, apesar de negativo, é bem pequeno (–0,04), indicando uma distribuição aproximadamente simétrica. Nas Grandes Regiões as distribuições possuem coeficiente de assimetria também negativo e próximo de zero (entre –0,27 e –0,04), a menos da região Sul cujo coeficiente é 0,04.",
+  "text_sha256": "4ef4292431e31a072c6110fb1599f217b0ce6e7b842f49af5e3c80b76880f654",
+  "window_size": 3
+}

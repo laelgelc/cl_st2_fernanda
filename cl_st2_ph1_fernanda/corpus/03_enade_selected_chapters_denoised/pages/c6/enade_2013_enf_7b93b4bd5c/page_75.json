@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c9435c965e23cd006af8f3870a4487d195e63e9e7ae4a9d6",
+    "usage": {
+      "input_tokens": 2616,
+      "input_tokens_details": {
+        "cache_write_tokens": 2613,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2613
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 913,
+      "output_tokens_details": {
+        "reasoning_tokens": 561
+      },
+      "total_tokens": 3529
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_74.txt",
+      "source_sha256": "05904f7e10848a79a24cc446fb133a554f7fd07f57458dab6dfd391370c775bd"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_76.txt",
+      "source_sha256": "88335731fb3cf8048b5419aa1e4b3cbabfe6996ef1fe7b19ab278d35fc9890e5"
+    }
+  ],
+  "created_at": "2026-11-14T23:49:26Z",
+  "duration_seconds": 8.285,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ENFERMAGEM.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_enf/enade_2013_enf_page_75.txt",
+    "source_sha256": "3f91bbdb3f79bcbb7dce3480a90ef6e88299efb19c8521d55dc58d5fd2969e0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3195bba63666ace67300ff7432089af21d1f1868f1d463eec4ffc6f6a7e5a168",
+  "request_fingerprint": "ee3ca3060b83d767c7132ea9f3f9eff2734bb75b2128195b3a56b87a0fd49146",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.12, incluindo dados e fonte, removida. O Gráfico 3.19 é mencionado em prosa preservada; a página de contexto seguinte começa com uma linha de fonte, sugerindo que material gráfico associado pode estar na página-alvo, mas não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "A maior nota máxima, nas questões discursivas do Componente de Conhecimento Específico, foi obtida na região Nordeste (86,7), enquanto a menor nota máxima foi encontrada nas regiões Sul e Centro-Oeste (80,0). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil sem exceção. A mediana do Brasil como um todo foi 30,0, também encontrada na região Centro-Oeste. As demais medianas foram: 28,3 nas regiões Norte e Nordeste, e 33,3 nas regiões Sudeste e Sul.\n\nO Gráfico 3.19 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0; 10]. Uma moda secundária pode ser reconhecida no intervalo de (30; 40]. O coeficiente de assimetria é positivo para todo o Brasil (0,04) e para a maioria das regiões (entre 0,06 para a região Centro-Oeste e 0,15 para a região Norte), indicando uma assimetria à direita. Já para as regiões Sudeste (-0,05) e Sul (-0,12) o coeficiente de assimetria é negativo, indicando uma assimetria à esquerda.",
+  "text_sha256": "154568aec45376aeb402a9467d87bbabba48c1febff165ae47069e02dd2e0053",
+  "window_size": 3
+}

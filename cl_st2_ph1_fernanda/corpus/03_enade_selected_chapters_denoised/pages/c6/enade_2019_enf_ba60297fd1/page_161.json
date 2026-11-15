@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ccbf047905b1ef1006af91026360c87d1b3d93b01f4e8ad24",
+    "usage": {
+      "input_tokens": 2885,
+      "input_tokens_details": {
+        "cache_write_tokens": 2882,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2882
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 755,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 3640
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_160.txt",
+      "source_sha256": "043dc5362cead38167d5e9ebd4542df481e74088c20f667e0c0aa79831199fb4"
+    },
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_162.txt",
+      "source_sha256": "4250a44a143b282ad849ed1494772eebf846d1ba9713244da92cbe7e0ab862d4"
+    }
+  ],
+  "created_at": "2026-11-15T01:51:34Z",
+  "duration_seconds": 5.883,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENFERMAGEM.pdf",
+    "page_number": 161
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_enf/enade_2019_enf_page_161.txt",
+    "source_sha256": "21f2323b085785936e3c684041282b7f4d935c46c6f09582367a9bb07631f056"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "939011cf922903c10622d6ded26d941c9cce131fda04c857722337016d0a4fd0",
+  "request_fingerprint": "4ecec943b79081480ae06b9ef800efe260acae5ed774a3f68896c0ad08f8c25d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.9, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 8 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova (0,52).\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com número de acertos abaixo de dois, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Entre os estudantes que acertaram duas questões, 13,1% escolheram a alternativa E (em vermelho), 13,2% escolheram a alternativa D (em laranja), 38,2% escolheram a alternativa B (em verde, gabarito), 8,7% escolheram a alternativa A (em azul), e 26,3%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,52) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 80,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "8c9eb4db6620f9facea7e7201d23fb1cb2d4b003e8a8f28e7a19826ac74a5d36",
+  "window_size": 3
+}

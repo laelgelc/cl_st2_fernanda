@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_049dc663038d484e006af8f22d50b887d18b2095b69ebc3fed",
+    "usage": {
+      "input_tokens": 1917,
+      "input_tokens_details": {
+        "cache_write_tokens": 1914,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1914
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 2203
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_40.txt",
+      "source_sha256": "49987b1e89d2d7d7d8eaee841dde586f2295a4454aa41d68d96d704678f9b7c1"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_42.txt",
+      "source_sha256": "c38a7b7844bbd7a11004a3e891c110e7d0ad3440967f0df7f62479f475946780"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:41Z",
+  "duration_seconds": 3.487,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_41.txt",
+    "source_sha256": "7b331a939d9abe7a581ac10ad0940eaa5c6a5fb6d6901949fc8214c2b616ebc3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2a0eff0f288a1e9dfec48a0d853abfb030ee0d673154547b49cac6dfb9c87973",
+  "request_fingerprint": "66486e97479dbb2324cc55d20c01f58aff74ff1dc8a01b09301c0f3c6811ad2a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que aparenta pertencer ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa entre a menor e a maior média das notas no Componente de Formação Geral, obtidas nas regiões Norte (39,7) e Sul (41,9). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "99597085273f3fa4870e3db75bfe0e60f6108d75fb0b932a6d2ecd0bd2a2f5fc",
+  "window_size": 3
+}

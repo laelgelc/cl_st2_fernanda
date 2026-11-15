@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d0eff6a071d018b006af91126874c87d1a24a3e73b6d9cbd7",
+    "usage": {
+      "input_tokens": 2649,
+      "input_tokens_details": {
+        "cache_write_tokens": 2646,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2646
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 500,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 3149
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_151.txt",
+      "source_sha256": "719e903bc361110ca75723d708c660f23551d13594e026c8b6897e5870faff28"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_153.txt",
+      "source_sha256": "f40abe17d4d2f76bb317e045d935f2b62b180fcdcc5ad6da6d33145d4254ba83"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:50Z",
+  "duration_seconds": 5.496,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_152.txt",
+    "source_sha256": "0c5c91b54e272222097d89fa55fe234486f191fe28868db29a9913b793ca893b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3886d105dcc10bf31d2fcb2ce4d9bf4f1e1f45e92f793344dbe3f6f5912cf893",
+  "request_fingerprint": "91be40adc12c04fa8259bb050dcb4ae071e4a58aca27c9b3c1a81a6fe117edc5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.13.",
+    "Removida a linha de fonte associada ao Gráfico 6.6; os dados gráficos não estavam presentes no texto extraído."
+  ],
+  "status": "success",
+  "text": "obtida na região Sudeste, sendo 71,5 a Máxima na região Norte; 82,0, na Nordeste; 84,0, na Sul; e 82,5, na região Centro-Oeste. A nota Mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo (40; 50], com 17,8% de frequência, seguida pelo intervalo (30; 40], com 17,3%. Destaca-se, também, o intervalo (20; 30], com distribuição de 16,4% do total de notas.",
+  "text_sha256": "e699d5f6bdf06ebfd9d682992dc2d2f648f0cc8ed17cc1240abd057a39bd71cd",
+  "window_size": 3
+}

@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c6160985ee76715006af91b41746087d18a939a4b4805bd83",
+    "usage": {
+      "input_tokens": 2641,
+      "input_tokens_details": {
+        "cache_write_tokens": 2638,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2638
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 607,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 3248
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_158.txt",
+      "source_sha256": "8525ba7f939eb939fb6c35d4605fcdaa9ba3900496be045b21321029cff01bee"
+    },
+    {
+      "page_number": 160,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_160.txt",
+      "source_sha256": "6dc6829ca50bfd8a3f137cf4337ba9cd9b4bcabb8674ef4c109b5bd43f627ae4"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:57Z",
+  "duration_seconds": 5.452,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 159
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_159.txt",
+    "source_sha256": "a636c5c9089b83dd66f9148128e58f1ef49b094882197b94a9d391afa48be3dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d4c0a89959a0f5a8c433f4e251c039e39621b8a514c02b863ed725c299a416ac",
+  "request_fingerprint": "6bfd4524735a7ee62e32d03b7a208f49e221b137892e06c99e353bfddbd25f47",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Como já foi mencionado, nenhuma Questão Objetiva do Componente de Formação Geral foi anulada pela Comissão Assessora de Área, por isso o número de acertos alcança no máximo oito para esse componente.\n\nA curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 42,2% escolheram a alternativa E (em vermelho), 33,6% escolheram a alternativa B (em verde, gabarito), 10,1% escolheram a alternativa A (em azul), 9,4% escolheram a alternativa D (em laranja) e 4,6% escolheram a alternativa C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,0% deixou a questão em branco e 0,1% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,44) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 60,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 85,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "ba61f339cef77f4e9f5acb7af49584f2140a812c1e64e889e219d0c1d759395d",
+  "window_size": 3
+}

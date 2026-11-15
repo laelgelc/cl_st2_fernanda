@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_012a43d0f6fbbf7d006af8f16153a087d1bbe98196d725b787",
+    "usage": {
+      "input_tokens": 2445,
+      "input_tokens_details": {
+        "cache_write_tokens": 2442,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2442
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 522,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 2967
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_35.txt",
+      "source_sha256": "12d34cfd3ca153bb0a63fff3dec1f76f45312b4a0588992af6274d8a9e4125c5"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_37.txt",
+      "source_sha256": "e0eb91d2b1be1da97fe2c3bd99f13e6b5af190d868beb4f7a9fbd86654753a36"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:17Z",
+  "duration_seconds": 4.658,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_36.txt",
+    "source_sha256": "d79f05828745ba940bd939fadff13f1542a7c86e9bc978f0394d4aa4ab088251"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3c2d1d048576d2d25109fcdd96447f80c42345f0857a3e008d804fc860e9d82b",
+  "request_fingerprint": "3f4a9232edc9b0594922d6c85eb552a1cf9d0570dd86e62a6559bfe9d7c4be6c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "sendo o maior desvio padrão encontrado nas regiões Nordeste, Sul e Centro-Oeste (13,9) e o menor na região Norte (13,0), indicando uma menor dispersão das notas desta última região.\n\nA região que obteve a maior nota máxima foi a Nordeste (81,9), ao passo que a região que atingiu a menor nota máxima foi a Norte (76,8). A mediana do Brasil como um todo foi 38,0, sendo a maior mediana obtida na região Sul (42,1) e a menor obtida na Centro-Oeste (35,9). A nota mínima foi zero em todas as regiões, sem exceção.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (30;40]. Apesar do coeficiente de assimetria da distribuição das notas ser negativo (-0,08) este é pequeno e podemos considerar que a distribuição é aproximadamente simétrica. As distribuições por Grande Região também apresentam assimetria negativa, concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. A única exceção é a região Centro-Oeste, com coeficiente de assimetria positivo (0,03), com o comportamento oposto: concentração à esquerda e cauda um pouco mais longa à direita.",
+  "text_sha256": "a8fced4c33d108dca41eb82b02c487a20ddcb2acbefb9621ba95c33ef8b8f90b",
+  "window_size": 3
+}

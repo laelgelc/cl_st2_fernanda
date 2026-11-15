@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_062b66b4728869e8006af8f928ec3087d1ba7be8e306c29526",
+    "usage": {
+      "input_tokens": 1728,
+      "input_tokens_details": {
+        "cache_write_tokens": 1725,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1725
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 222,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 1950
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_eng_qui/enade_2014_eng_qui_page_120.txt",
+      "source_sha256": "958b0da32601a4207f873d7c50245101d2b5e7c543d57b8b4f46d261347a5f7d"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:28Z",
+  "duration_seconds": 2.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_eng_qui/enade_2014_eng_qui_page_121.txt",
+    "source_sha256": "89c75a441737c5ea1ae98b389027522aedc7438466845b8417bf05dd1c3c423e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "9de0b085d2ccaf830e88330b57516000af05dbdeca5d321036173669228c3316",
+  "request_fingerprint": "d014afccb2156a614545ff3caf4e7a662a77bf6dcd64f984e4af5da32b10e8be",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.3, incluindo a fonte MEC/INEP/DAES - ENADE/2014."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.3 apresenta a distribuição do Conceito Enade segundo a Organização Acadêmica da IES. Os cursos em Universidades (linha azul) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, temos os cursos oferecidos em Centros Universitários (linha verde) com a poligonal mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores. IES de Faculdades (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "9c9cc4a5568d231e70e99c34ec607da99cd511e3e1524fbad4763a2dd9de3e81",
+  "window_size": 3
+}

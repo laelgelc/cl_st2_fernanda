@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00fb699a622551cb006af90d102fd487d18a13b238d0c79c43",
+    "usage": {
+      "input_tokens": 2820,
+      "input_tokens_details": {
+        "cache_write_tokens": 2817,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2817
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 607,
+      "output_tokens_details": {
+        "reasoning_tokens": 398
+      },
+      "total_tokens": 3427
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_101.txt",
+      "source_sha256": "bda6359d830f47e42681137abc0352bdc1d2e6e45cb560f7edbbce5b37034329"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_103.txt",
+      "source_sha256": "b6d928dae75b63209425d74ae96c8b4488c97f646b8fcd7fd62d9e05504d0c88"
+    }
+  ],
+  "created_at": "2026-11-15T01:38:24Z",
+  "duration_seconds": 5.637,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_PSICOLOGIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_psico/enade_2018_psico_page_102.txt",
+    "source_sha256": "89fcbd20211b37ecc32504f9b8adf92cb134d05ae94667343f0ce859566786a7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5d1f8bab29a855dca213f0fb3bcdd5cc286242386bf362499377037be22ea986",
+  "request_fingerprint": "95737bc4d5cd5b001a3af499332e94a7c04ae53d207b148aa63c42a35cbac8a2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.1, incluindo título, dados e fonte, e o histograma do Gráfico 6.1, incluindo sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 6.1, que apresenta um histograma com a distribuição das mesmas: uma distribuição unimodal com a moda no intervalo (40; 50], seguido de perto pelos intervalos (30; 40] e (50; 60].\n\nNa Tabela 6.2, são apresentadas informações referentes à Média da nota final, desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova, como um todo, foi 46,9. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (57,2) que a Média nacional, e os das IES Privadas",
+  "text_sha256": "832d602e1984e7f38ca55f800316bcf491a01a47af890361e42fac037b7867fa",
+  "window_size": 3
+}

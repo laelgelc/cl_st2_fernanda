@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08f8182637173be3006af8f648a32887d1b9f38883f134b264",
+    "usage": {
+      "input_tokens": 1543,
+      "input_tokens_details": {
+        "cache_write_tokens": 1540,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1540
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 1947
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_121.txt",
+      "source_sha256": "379d4a6caf569f46f5cdbf9251e915ffb2d7a8131880b8bd814b76927ca02270"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_123.txt",
+      "source_sha256": "9ed7b847cea5a367a1bd805f32f8717945edd3ad02379c3fdd157f85094a4134"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:12Z",
+  "duration_seconds": 3.942,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_comp/enade_2014_ci_comp_page_122.txt",
+    "source_sha256": "f576c6538684d89c44a5a256becd384ea063c3898de12635160ac98273b125aa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b122957dbcf322068d8eb6f14979a58528581dcb5b0dc3de36c3371048be3328",
+  "request_fingerprint": "b07ceb6f5dd8c183f974926f1ae049dca203ca33e113cb6154d6caa0d65b5977",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte MEC/INEP/DAES - ENADE/2014, considerada pertencente a material gráfico."
+  ],
+  "status": "success",
+  "text": "4.4 SUFICIÊNCIA DAS INFORMAÇÕES/INSTRUÇÕES FORNECIDAS\nAo avaliarem as informações/instruções fornecidas para a resolução das questões (Questão 6), 84,6% dos respondentes da Área de Ciência da Computação de todo o Brasil afirmaram que estas eram até excessivas ou suficientes em todas ou na maioria das questões (Gráfico 4.11, Gráfico 4.12, e, no Anexo II, a Tabela II.6).\nQuanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou suficientes em todas ou na maioria das questões foi sempre maior ou igual a 79,3%, chegando a 86,8% na região Sul. A diferença entre o maior percentual, obtido na região Sul (86,8%), e o menor, da região Norte (79,3%) é estatisticamente significativa.",
+  "text_sha256": "d6e022efe32461b1e3481eab76d2ff1a350b9186d6578fe5abbc52230737d759",
+  "window_size": 3
+}

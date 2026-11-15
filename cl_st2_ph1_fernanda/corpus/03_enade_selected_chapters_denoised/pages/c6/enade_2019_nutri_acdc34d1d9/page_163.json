@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0810a3ab528917a6006af9149738e487d18466a125250f10f3",
+    "usage": {
+      "input_tokens": 3380,
+      "input_tokens_details": {
+        "cache_write_tokens": 3377,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3377
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 575,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 3955
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 162,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_162.txt",
+      "source_sha256": "c9e91a4e78cac7f15862d572d9a8866d042c952d655a4b1308b9125d27ce77f4"
+    },
+    {
+      "page_number": 164,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_164.txt",
+      "source_sha256": "902f73e6a89e76f1f68e5fe364e1588ecc3ce2cf89134f1c2d15cd568b1cf215"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:31Z",
+  "duration_seconds": 4.988,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 163
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_nutri/enade_2019_nutri_page_163.txt",
+    "source_sha256": "dd60cba471eb9d800c7bd98313e371e726954dd418f44d42b464c2cc5d61b8bb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4606dd96e3b275fc31c71f328920e4e9959946ca77b1fdd71d7b606a6de08e1b",
+  "request_fingerprint": "be64d8d7f1aede1b00116c70315da4650cbb6437ac473a821bebff922a3ae279",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Índice de Facilidade variou de 0,07 a 0,79 e o de Discriminação, de 0,04 a 0,49.\n\nNa Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, classificadas como Muito bom, uma delas obteve o maior índice, a de número 28. Seu índice foi 0,50, e, quanto ao Índice de Facilidade, foi classificada como Médio, com 50% dos estudantes marcando a opção correta. A questão de número 33 foi a mais difícil entre as 27 questões específicas, com baixo Índice de Facilidade, apenas 7% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,05, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, as questões 14 e 21, com Índice de Facilidade 0,10 e 0,26, respectivamente, o que, em termos percentuais, corresponde a 10% e a 26%, respectivamente, dos estudantes que responderam acertadamente. Já os Índices de Discriminação foram 0,04, para a questão 14, e 0,05, para a questão 21. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 14, 21 e 33, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "75f7f418b7fa257bb8b897f309bafd72b62c1210cdb3013532543d11026111e7",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_005789a0a373e6b3006af92546d0c887d1816bc1c6efd6a1f1",
+    "usage": {
+      "input_tokens": 2466,
+      "input_tokens_details": {
+        "cache_write_tokens": 2463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 430,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2896
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_rad/enade_2023_tec_rad_page_121.txt",
+      "source_sha256": "bd6e27a1e49642f472be93b850b27f21333277a102ec69c2c34af90f3c11f8cd"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_rad/enade_2023_tec_rad_page_123.txt",
+      "source_sha256": "e83c472fa1e911962d848a404255228f20f4175f81383b1607d3a5fcdb788d4a"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:42Z",
+  "duration_seconds": 4.347,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC RADIOLOGIA.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_tec_rad/enade_2023_tec_rad_page_122.txt",
+    "source_sha256": "11c582be5c82d4eaa7789110f8b3d3146b03d005bf0deaef2d83189bb8a67237"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf6310512c50d2ea269c988145f208453b2799f4e2bf86baf289e9a07f6f27ce",
+  "request_fingerprint": "2152141ba386a6de35c5b4a07a0d641fe6be4c37db1966261b294deecc86ea87",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico, sua legenda (Gráfico 4.1) e a respectiva linha de fonte."
+  ],
+  "status": "success",
+  "text": "A partir destas diretrizes, no Gráfico 4.1, é apresentada a distribuição cumulativa do Conceito Enade, segundo a grande região.\n\nNo Gráfico 4.1, observando a linha vertical pontilhada, que ajuda a visualizar o percentual de conceitos acumulados até o valor 3, ou seja, conceitos 1, 2 e 3, pode-se notar, por exemplo, que a região Centro-Oeste (linha laranja) apresenta 91,7% dos cursos com conceito 3 ou abaixo deste valor. A região Norte (linha azul), por outro lado, apresenta 57,1% dos cursos na mesma situação: com conceito 3 ou abaixo. Destaca-se que, na região Centro-Oeste, o conceito 5 não foi alcançado por nenhum curso, na qual todos os cursos têm conceito menor ou igual a 4, e a respectiva poligonal cumulativa alcançou 100% no conceito 4. A região Centro-Oeste (linha laranja) apresenta os cursos com conceitos mais baixos, ao passo que a região Norte (linha azul) apresenta a distribuição com valores maiores. Os cursos em IES situadas nas regiões Nordeste (linha verde) e Sudeste (linha vermelha) apresentam uma situação intermediária.",
+  "text_sha256": "d8b60fdb971bc5f6915894c202bc352eb5e28323d9de812f7c665879f7b6feed",
+  "window_size": 3
+}

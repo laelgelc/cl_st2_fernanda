@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d17f247ed722a78006af91a16c36c87d19b3cc6a003dcb843",
+    "usage": {
+      "input_tokens": 2713,
+      "input_tokens_details": {
+        "cache_write_tokens": 2710,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2710
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 828,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 3541
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 179,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_179.txt",
+      "source_sha256": "6c4108dbc241f8ce2d4726b5c8dd02515e6db5901aeea9446dca9aac81b58779"
+    },
+    {
+      "page_number": 181,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_181.txt",
+      "source_sha256": "7df740f6a8075169ac8f2744133c192f0c74a7e7b014658779448841a2537f6a"
+    }
+  ],
+  "created_at": "2026-11-15T02:33:58Z",
+  "duration_seconds": 8.456,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_LETRAS_Portugues.pdf",
+    "page_number": 180
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_letras_por/enade_2021_letras_por_page_180.txt",
+    "source_sha256": "362179d1179657cc0623cd9b7f26e82f0a34b41ba36f79390d628fb54726ad97"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1dbfb2b550cf05698376ad2b82d1bfd8a378f85c73985775cb5e2eb79b90a5b7",
+  "request_fingerprint": "01f38f06be2305abdd6677c6e7847a72752982c764c86e1bd5789cbac72f0a52",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "No Gráfico 6.4, para exemplificar, analisa-se o comportamento da questão de número 3 de Formação Geral. Trata-se de uma questão considerada com nível Médio de dificuldade, em relação à Facilidade, e a que obteve o segundo maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial.\n\nA curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa E (em vermelho), incorreta. Por exemplo, entre os estudantes que acertaram duas respostas, 10,7% escolheram a alternativa A (em azul), 30,3% escolheram a alternativa B (em verde, gabarito), 6,4% escolheram a alternativa C (em preto), 12,6% escolheram a alternativa D (em laranja) e 39,6% escolheram a alternativa E (em vermelho). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,2% deixou a questão em branco e 0,2% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com oito acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,48) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação (Ponto-Bisserial), por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 70,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "240286734caa408f5fa62a68f4e872bdee006f7b1d795aea4b0fc649f771004e",
+  "window_size": 3
+}

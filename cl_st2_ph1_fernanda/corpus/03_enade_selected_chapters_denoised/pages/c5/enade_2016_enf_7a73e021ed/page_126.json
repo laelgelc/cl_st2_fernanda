@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cb0f85e37b67801006af901f2f14887d1b5bde445d53f833b",
+    "usage": {
+      "input_tokens": 2889,
+      "input_tokens_details": {
+        "cache_write_tokens": 2886,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2886
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 878,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 3767
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_enf/enade_2016_enf_page_125.txt",
+      "source_sha256": "bf0277a22c89738204852241e093eed731c7f24919c126e96f3eaf7a6e8ab709"
+    },
+    {
+      "page_number": 127,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_enf/enade_2016_enf_page_127.txt",
+      "source_sha256": "bce4d7f271604639d65329f0b3b0ae4f10b3eea0f5813678ad354b57bc68995c"
+    }
+  ],
+  "created_at": "2026-11-15T00:50:58Z",
+  "duration_seconds": 6.331,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2016_enf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_ENFERMAGEM.pdf",
+    "page_number": 126
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2016_enf/enade_2016_enf_page_126.txt",
+    "source_sha256": "9cc0a2c325119e7b65733a660d3bf0107cd5271fd2bc2f4f76f393cb2995eb31"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad251340dc2f54a074ace0a30072afb86ba269d09efcc135340a83dc827f99a5",
+  "request_fingerprint": "eca923111a1935feacf62d6ced6361aa4516863b7e2876788e28ecfd4ab5314b",
+  "retry_count": 0,
+  "review_notes": [
+    "O texto do alvo começa no meio de uma frase: a continuação anterior (“Nove cursos receberam conceito 4, conceito modal. Os demais cursos receberam”) está na página de contexto e foi excluída."
+  ],
+  "status": "success",
+  "text": "Os conceitos 2 (três cursos), 3 (dois cursos) e 5 (um curso). Nenhum curso ficou sem conceito (SC) ou recebeu conceito 1 nesta combinação de categoria e região.\n\nOs Centros Universitários da região Norte foram representados por sete cursos, aos quais foram atribuídos os conceitos 2 (recebido por três cursos) e 3 (valor modal, recebido por quatro cursos). Nenhum curso ficou sem conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região. As Faculdades participaram com 33 cursos na região Norte que receberam os conceitos 1 (quatro cursos), 2 (21 cursos, conceito modal), 3 (sete cursos) e 4 (um curso). Nenhuma Faculdade da região ficou sem conceito (SC) ou obteve conceito 5.\n\nNa região Nordeste, as Universidades participaram com 62 dos 185 cursos da Área de Enfermagem oferecidos na região, dois dos quais ficaram sem conceito (SC). O conceito modal foi 4, atribuído a 29 cursos, enquanto o conceito 5 foi atribuído a 15 cursos. Obtiveram os conceitos 2 e 3, respectivamente, quatro e 12 cursos. Nenhum curso oferecido por Universidades no Nordeste recebeu conceito 1.\n\nOs Centros Universitários contaram com 16 cursos participantes na região Nordeste. Esses obtiveram conceitos 2 (três cursos), 3 (dez cursos, o conceito modal), 4 (dois cursos) e 5 (um curso). Nenhum curso oferecido por Centros Universitários no Nordeste ficou sem conceito (SC) ou recebeu conceito 1. As Faculdades foram representadas por 107 cursos na região Nordeste, 61 dos quais obtiveram o conceito modal 2. O conceito 1 foi atribuído a dez cursos, o conceito 3, a 26 cursos e o conceito 4, a nove cursos. Na região Nordeste, nenhum curso oferecido por Faculdades recebeu conceito 5, e apenas um curso ficou sem conceito (SC).\n\nNa região Sudeste, as Universidades concentraram 117 dos 298 cursos de Enfermagem da região. Entre os cursos em Universidades, nessa região, o conceito modal foi 3, atribuído a 45 cursos. Os demais cursos receberam os conceitos 1 (um curso), 2 (18 cursos), 4 (31 cursos) e 5 (19 cursos). Três cursos ficaram sem conceito.\n\nOs Centros Universitários participaram com 60 cursos na região Sudeste, dos quais 27 obtiveram o conceito modal 3. O conceito 1 foi atribuído a um único curso, o conceito 2, a 14 cursos, o conceito 4, a 15 cursos e, por fim, o conceito 5, a um curso. Dois cursos ficaram sem conceito (SC) nessa combinação de organização acadêmica e região. Já as Faculdades foram representadas por 121 cursos na região Sudeste, sete dos quais ficaram sem conceito (SC). Aos demais cursos foram atribuídos os conceitos 1 e 5 (cinco cursos cada), 2 (35 cursos), 3 (53 cursos, o conceito modal) e 4 (16 cursos).\n\nDos 112 cursos da região Sul, 58 eram de Universidades, para os quais o conceito modal foi 3, atribuído a 32 cursos. Nesse tipo de organização, nenhum curso",
+  "text_sha256": "edd17aceadd5665ab1b02b96c13211836cbd250babdac0c5afd52a155c8ac47d",
+  "window_size": 3
+}

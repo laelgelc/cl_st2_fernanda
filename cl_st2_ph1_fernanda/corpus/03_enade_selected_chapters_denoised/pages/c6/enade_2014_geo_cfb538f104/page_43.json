@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05473bcf0ea11338006af8f9e76ac487d1874da3415d2688dd",
+    "usage": {
+      "input_tokens": 2450,
+      "input_tokens_details": {
+        "cache_write_tokens": 2447,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2447
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 308,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 2758
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_42.txt",
+      "source_sha256": "2ef07d2946511b2a0b71419141dc542281e5fbffcaa983991ad65b34c8a4e901"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_44.txt",
+      "source_sha256": "e7ad7a23549131e326f95dcc2166a154f86066fdeb46ceb0b4e4ad45f0f3d119"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:39Z",
+  "duration_seconds": 3.852,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_geo/enade_2014_geo_page_43.txt",
+    "source_sha256": "311c433b15d72c75007f14902cd49a30c7ed0fb96343db14b7758608336338a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d0ec07decf9f3396f3d1b21117ac141567cb5345890787106e727c4797d003f8",
+  "request_fingerprint": "788447e7aec52fc1193da9834949ba557b7da723f5829545826c8a30cee3b440",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A menor obtida na Norte (36,3). A nota mínima foi zero em todas as regiões, exceto na região Centro-Oeste (4,8).\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor média, obtida na região Norte (37,1), e as médias de todas as demais regiões.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas em colunas diferentes para estudantes de Bacharelado e de Licenciatura. As distribuições são unimodais. O intervalo modal dos concluintes de Bacharelado é o (40;50] e de Licenciatura, é o (30;40].",
+  "text_sha256": "3eb6efb1e27257cbde8487c3953b2605b6258f3ac53d3a62bafbabbcef8bb886",
+  "window_size": 3
+}

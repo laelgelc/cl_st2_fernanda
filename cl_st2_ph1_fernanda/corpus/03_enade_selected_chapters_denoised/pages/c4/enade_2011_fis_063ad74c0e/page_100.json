@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06067ac03daa0fca006af8ed4b61d887d1b1d1ab76c46d0dae",
+    "usage": {
+      "input_tokens": 1740,
+      "input_tokens_details": {
+        "cache_write_tokens": 1737,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1737
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 458,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 2198
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_99.txt",
+      "source_sha256": "6d0e2daab25c8c402029de7cb9b7349635e548e764332ec898b8dc09a5e605bf"
+    },
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_101.txt",
+      "source_sha256": "cb9742cbeda7d684142da537e0b1d215ac19f2756ffa6777f519b3ecbdc4ab33"
+    }
+  ],
+  "created_at": "2026-11-14T23:22:51Z",
+  "duration_seconds": 4.618,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_FÍSICA.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_fis/enade_2011_fis_page_100.txt",
+    "source_sha256": "f9b3ccfd0a232a934eb26dc1cb0cc5540bd0651d5ac41b68ac3ede3e594e1561"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e9bef8f9d2d71fcaba43b31ff9544081eaca413fd96627342d6b3741877a5e10",
+  "request_fingerprint": "b6edf7f2bd52aa51155df521fe2ad26d9e645c7de003ca9ac4d1bdf2a4471c49",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2011” at the top of the target page; it appears to belong to graph material."
+  ],
+  "status": "success",
+  "text": "4.6 CONTEÚDOS DAS QUESTÕES OBJETIVAS DA PROVA\nAo analisarem os conteúdos das questões objetivas da prova (Questão 8), um percentual muito pequeno dos estudantes avaliados, apenas 7,7%, afirmaram que não estudou ainda a maioria desses conteúdos (Gráficos 4.15, Gráfico 4.16, e a Tabelas II.8 no Anexo II). A maioria (54,5%) afirmou ter estudado e aprendido muitos ou todos os conteúdos.\nNa análise por Grande Região, a proporção de respondentes que escolheram a opção não estudou ainda a maioria desses conteúdos, foi pequena. Observa-se que nas regiões Norte (12,2%) e Nordeste (10,1%), apesar de pequenas, as proporções foram maiores do que a média nacional (7,7%). Não se observa diferença estatisticamente significativa entre essas regiões.",
+  "text_sha256": "8fef553cb7d41ef0fa6a8942ce3b41b70878f908539dbc83a401f806f39a88ab",
+  "window_size": 3
+}

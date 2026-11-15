@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ef932536c48d4ea006af8f8cda2c487d18cfe5f4ef6f0220b",
+    "usage": {
+      "input_tokens": 2501,
+      "input_tokens_details": {
+        "cache_write_tokens": 2498,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2498
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 2755
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_64.txt",
+      "source_sha256": "f07595bcf3a4d944500eaf543b76647c495bf54405dc29be84de9d58985805f3"
+    },
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_66.txt",
+      "source_sha256": "02386c55f7bb4644514c10a1a55c2b7717fd477d961bd487ffde55e209716f1e"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:57Z",
+  "duration_seconds": 3.538,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 65
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_65.txt",
+    "source_sha256": "8a2f949a64d2ebec6b94aca08151ea390c4c29b257bbbba2d67c2cadc0c1c57c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b89f9d4582d367eeffd38490bf563d22ee1cc16397d69f45d4bbdcbfd4481bcd",
+  "request_fingerprint": "a8d615c02cc20ea594c79bc2f7d5fa1e5c4665017edd55f9be706ea4d2284060",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.8, incluindo sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos obtiveram nota situada no intervalo (60;70]. Destacam-se, também, os intervalos (70;80] e (90;100] com distribuição próxima da distribuição modal e valores acima de 15%.",
+  "text_sha256": "8cd4242fa5b4bd38b3f01852282be839ed1be400cc726e2ec6c5c1cd2e4ffd00",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d09a1502023ee93006af91c56121087d19ee6fb1fcc25fe77",
+    "usage": {
+      "input_tokens": 2499,
+      "input_tokens_details": {
+        "cache_write_tokens": 2496,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2496
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 255,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 2754
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_165.txt",
+      "source_sha256": "e0f376a51d55b44772c5b12da5bacf7630c151c75223933fd24a0a8c7cfba76e"
+    },
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_167.txt",
+      "source_sha256": "e2d40d6b7590c9babb01c03d1187b070fa9f31116a6ff4783fc7d1c263f8053c"
+    }
+  ],
+  "created_at": "2026-11-15T02:43:33Z",
+  "duration_seconds": 3.574,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_DESIGN GRÁFICO.pdf",
+    "page_number": 166
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_tec_des_graf/enade_2022_tec_des_graf_page_166.txt",
+    "source_sha256": "e9f9f319e830e56d0f3bf37435bb402c447aa6b88b907e63c86c55b1829b80dd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3a8057bf41cfb1400f0920fafe4ef91c7bd6cc6aa7ad1b12d4d1c3378aba26e6",
+  "request_fingerprint": "91b1921f1217abcd22c5c3fdaa201cd3128ad2f837d09e8ed7bdb22ac52d861e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o histograma do Gráfico 7.6, sua legenda e a linha de fonte MEC/Inep/Daes – Enade/2022."
+  ],
+  "status": "success",
+  "text": "No Gráfico 7.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral.\n\nComo mostra o Gráfico 7.6, a moda da distribuição ocorre no intervalo (60;70], com frequência de quase 20% dos participantes, sendo que, no intervalo [0; 10], inclui-se, além da nota zero, a frequência de estudantes que deixaram esse tipo de questão em branco.",
+  "text_sha256": "c161106310d1796782d2da736d0307490b304aca9c23f572cbc76369ee3581c5",
+  "window_size": 3
+}

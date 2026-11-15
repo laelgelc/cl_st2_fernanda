@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03ae9321a3180289006af90347242487d18fb870d18900d47e",
+    "usage": {
+      "input_tokens": 2417,
+      "input_tokens_details": {
+        "cache_write_tokens": 2414,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2414
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 530,
+      "output_tokens_details": {
+        "reasoning_tokens": 250
+      },
+      "total_tokens": 2947
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_42.txt",
+      "source_sha256": "249beb5e76fcd64ffcbd11cac516b6a5f5536c1f29455eb156b92758f57e265a"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_44.txt",
+      "source_sha256": "5dcc60b547d661ac5356cf8fb2b85caae511bffbe9f44d0fdf01651a251b8e5b"
+    }
+  ],
+  "created_at": "2026-11-15T00:56:39Z",
+  "duration_seconds": 5.579,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_SERVIÇO SOCIAL.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_serv_soc/enade_2016_serv_soc_page_43.txt",
+    "source_sha256": "c0340987c195ea43a2013cddf5343e79928ae93168e9977cb6ac48620c1401c8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "608edd6c33149a3d648bff8f106ae17775e0434745cec873649993287f00a462",
+  "request_fingerprint": "5b045f6506fe736153d609b33e7830960e38dc45856cf885359d2e66207cff80",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, cabeçalhos, valores e fonte."
+  ],
+  "status": "success",
+  "text": "A região que obteve a maior nota Máxima foi a Nordeste (92,1), ao passo que a região que atingiu a menor nota Máxima foi a Centro-Oeste (86,4). A Mediana do Brasil como um todo foi 42,0, sendo a maior Mediana obtida na região Nordeste (46,4), e a menor obtida na Sul (37,3). A nota Mínima foi zero em todas as regiões.\n\nConsiderando-se as notas segundo Grande Região, observa-se que existe diferença estatisticamente significativa ao nível de 95% entre a menor Média, obtida na região Sul (38,7), e as médias de todas as demais regiões17.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1 que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com a moda no intervalo (30; 40], seguido pelo intervalo (40; 50].\n\n17 Todas as comparações deste capítulo utilizam os intervalos de 95%. Os erros-padrão da média que possibilitam os testes estão disponíveis nas tabelas.",
+  "text_sha256": "8dea74c3614a5bb7d16ffa4e3239006add118de0cd2bb0b492b1b2716dfca67b",
+  "window_size": 3
+}

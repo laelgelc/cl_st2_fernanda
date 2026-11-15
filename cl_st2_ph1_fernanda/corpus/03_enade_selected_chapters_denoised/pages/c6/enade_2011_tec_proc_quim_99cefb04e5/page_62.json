@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00daeb76cec28da2006af8efd4977c87d1a95ece1611937843",
+    "usage": {
+      "input_tokens": 2471,
+      "input_tokens_details": {
+        "cache_write_tokens": 2468,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2468
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 478
+      },
+      "total_tokens": 3251
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 61,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_61.txt",
+      "source_sha256": "977d6fe5f55dd96732e1d6de3b219c597d4d098b9f54d9e62bf447e3e2cc9ef2"
+    },
+    {
+      "page_number": 63,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_63.txt",
+      "source_sha256": "79a07cac16e90bb3b7fdcb1788114a1ea17eaaf7cf9ec0bd7ab7e7bf5f0692e9"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:40Z",
+  "duration_seconds": 7.348,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 62
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_62.txt",
+    "source_sha256": "0f700e4b7b3502e4a6b46d3813f8bcded27c3b5f9714b8dde34dad78ff992961"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "052b7464eb812f27a1620cbda2b522bb7720f32f5f48afa3e61bca6b8aa78130",
+  "request_fingerprint": "d787bb8995057470029570eb26514af90a86507b4830a1d8c2792fa6ab476ec4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo cabeçalho, dados e fonte.",
+    "A expressão «940;50]» no texto sobre o Gráfico 3.17 pode conter um erro de OCR; foi preservada como fornecida."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) foi obtida em todas as regiões do Brasil, com exceção da região Nordeste, onde a nota máxima foi 80,0. A nota mínima, zero, ocorreu em todas as regiões.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do componente de Formação Geral. O intervalo modal, o de maior frequência, é aquele que representa a categoria “em branco”. Nota-se que a quantidade de alunos que não resolveu esta questão é bem maior do que a relativa à outra questão discursiva de Formação Geral, chegando a quase 25%. Existe também um máximo local nos intervalos 940;50]; (50;60] e (60;70]. É possível observar, ainda, que as notas ficaram mais distribuídas ao longo dos intervalos, em comparação à questão discursiva de número 1, apesar do coeficiente de assimetria também ser negativo (–0,24). Para todas as regiões a assimetria é negativa, com coeficientes variando entre –0,82 (Nordeste) a –0,14 (Sudeste).",
+  "text_sha256": "451e0b41f8752147d091ec30553e07e79be346eb66ca1c7c39ca27d3514922c6",
+  "window_size": 3
+}

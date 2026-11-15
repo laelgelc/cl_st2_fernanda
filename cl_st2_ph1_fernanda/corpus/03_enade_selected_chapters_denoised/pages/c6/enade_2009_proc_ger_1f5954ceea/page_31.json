@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_036ad3d7301b9df4006af8e645dc3087d18a1f7547b238ed76",
+    "usage": {
+      "input_tokens": 2464,
+      "input_tokens_details": {
+        "cache_write_tokens": 2461,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2461
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 396,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 30,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_30.txt",
+      "source_sha256": "8df854229cd1b54ea734990afa1dba24cb556cbd7bfd7f2765e64a0406bdba62"
+    },
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_32.txt",
+      "source_sha256": "dee19017fab727a6a78fb24183cb39f47a93231a6cfdf44f886a7a60a32bbcf4"
+    }
+  ],
+  "created_at": "2026-11-14T22:52:53Z",
+  "duration_seconds": 4.066,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_PROCESSOS GERENCIAIS.pdf",
+    "page_number": 31
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_proc_ger/enade_2009_proc_ger_page_31.txt",
+    "source_sha256": "173a56d40374128c1565a0888e8bdaf352339684d1f39f269a3514b13e0d73f4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d119f1c0db7d76f9710f0be0476bea14af270c3345ed0019cbeb8e4a19f3aaed",
+  "request_fingerprint": "1c0d45d4b6fd21974684a06489a6b0dc7e69129fe4da608688082b06a2ab671e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.1, incluindo título, rótulos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de ingressantes e concluintes pode ser realizada a partir dos dados apresentados no Gráfico 3.1. Cumpre destacar que as notas dos concluintes, de um modo geral, foram mais elevadas do que as dos ingressantes, cuja distribuição de notas está à esquerda dos primeiros. A impressão de melhor desempenho é reforçada pelas notas medianas dos dois grupos: 38,5 entre os concluintes e 36,6 entre os ingressantes. Nas faixas de notas até 40 pontos, o percentual de ingressantes é maior que o dos concluintes, situação esta que se inverte para as faixas de notas superiores a 40 pontos. Constatou-se que aproximadamente 18,1% dos ingressantes e 22,5% dos concluintes situam-se nas faixas de notas superiores a 50,0 pontos.",
+  "text_sha256": "d79cce1f77afdda89033ec1fca4c6cb9e4652108dce28922b263988d0edbcdaa",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd96d9696890b9a006af9147d33d087d1ab51508011b3212a",
+    "usage": {
+      "input_tokens": 1866,
+      "input_tokens_details": {
+        "cache_write_tokens": 1863,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1863
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 466,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 2332
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_102.txt",
+      "source_sha256": "b3bcc47d0cc6b05829f155e932a184ef16aad9b6a41d439cf7a311d9e9cb1f26"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_104.txt",
+      "source_sha256": "cf9a02d7dc281f57792d33ac2b9005da86ba59acd288815ed073390ba6a1c3ca"
+    }
+  ],
+  "created_at": "2026-11-15T02:10:05Z",
+  "duration_seconds": 4.719,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_NUTRIÇÃO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_nutri/enade_2019_nutri_page_103.txt",
+    "source_sha256": "a3c28246bc547203efad8c375de9bed621a819612c96ac5081baa8d5a0e31f50"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bb4cde9e9ef470bbb97cee88c8161eea0d25f58d2c7a84856c0239d8507143d4",
+  "request_fingerprint": "35a9aeb6278bc5b617219dfeca7e606eaefcfe3756acc19a0dc40a5ba01f3b9b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.7. O texto isolado “CEFET/IF” ao final parece ser material gráfico, possivelmente um rótulo do Gráfico 4.8; removido, mas a associação deve ser conferida."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (21,2%), uma diferença estatisticamente significativa da proporção em IES Públicas (12,7%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 71,6% para os de IES Públicas e 71,0% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "d81f433bc8e32ab655e0a7c88f35bf3cb0a03197a9af6b104242173b3b0455b4",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0827ecddbedca82a006af8f251b61887d1822b83de613f6248",
+    "usage": {
+      "input_tokens": 1611,
+      "input_tokens_details": {
+        "cache_write_tokens": 1608,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1608
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 254,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1865
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_36.txt",
+      "source_sha256": "4b38fbebe57ebd2d05a87ec02480bb50e7ead1ea61354defec2859fc4cb86096"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_38.txt",
+      "source_sha256": "6b71432a4c3e8593599ddc860efcd704d17ff4c4334aa47257797f84f1175a2d"
+    }
+  ],
+  "created_at": "2026-11-14T23:44:17Z",
+  "duration_seconds": 3.079,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_log",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM LOGÍSTICA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_log/enade_2012_tec_log_page_37.txt",
+    "source_sha256": "7b66256faae44daac9b06fb89e60aa35108686d2f4beac3990048023c230f8de"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bcf7d3f5879a3b68723d04f031737de58e4cac19fafaecc098befa91bb89c07c",
+  "request_fingerprint": "bdae4ce87759f0fdf4ef305feb8d1f788d850865af67fe217f3a15b6fe81e746",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes dos diferentes tipos de Organização Acadêmica. A maior média foi obtida pelos estudantes de Faculdades (45,0), e a menor, pelos de Universidades (42,2).",
+  "text_sha256": "69efaf82dffa85e2313470ce4b8da6c6ff73e1b969ab4bbf5bf5505d702047b8",
+  "window_size": 3
+}

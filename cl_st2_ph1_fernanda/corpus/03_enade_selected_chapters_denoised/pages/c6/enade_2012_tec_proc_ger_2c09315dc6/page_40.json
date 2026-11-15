@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_084bbb3ba0189b89006af8f2a267e487d1a9ac0fb000dad72e",
+    "usage": {
+      "input_tokens": 1944,
+      "input_tokens_details": {
+        "cache_write_tokens": 1941,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1941
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "reasoning_tokens": 223
+      },
+      "total_tokens": 2381
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_39.txt",
+      "source_sha256": "b23060eacab5ca8b5cca76c04dbd0df6b1cf0fc3df05b83ed61cc27b792d33cb"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_41.txt",
+      "source_sha256": "e10d4971a269bf29405f42f63b68bf6b0b6420ee1b065800fa95be66c5b48e02"
+    }
+  ],
+  "created_at": "2026-11-14T23:45:38Z",
+  "duration_seconds": 4.462,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_proc_ger",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM PROCESSOS GERENCIAIS.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_proc_ger/enade_2012_tec_proc_ger_page_40.txt",
+    "source_sha256": "f890cc8f5468fd5c0090d38901eae5695fa513e2f2c861164175fbced094a736"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "784dc4041d26cb902c673e88b45a21aecae2c313a8d5b6b8ac0efcf008918bd9",
+  "request_fingerprint": "568199906e098c7362d530e162a77081f17ce6cd6ce5f28ca2232828c0ac998d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico da página, incluindo a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», que pertence ao gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos Concluintes no componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que não existe diferença estatisticamente significativa entre a maior e a menor média das notas, no Componente de Formação Geral, obtidas nas regiões Norte (43,2) e Nordeste (40,6), respectivamente. Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sul. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sul.",
+  "text_sha256": "ba5db87081b519c96570bd0da0d4d5c0009e9d67a0d754ace529e8a0f359d237",
+  "window_size": 3
+}

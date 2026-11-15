@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0822f2c070bd57b8006af915d6f4e087d1b220ae3ffb8b447d",
+    "usage": {
+      "input_tokens": 3351,
+      "input_tokens_details": {
+        "cache_write_tokens": 3348,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3348
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 454,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 3805
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 161,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_161.txt",
+      "source_sha256": "39653252612150136f291b355a69ae6de92d650110de3a88dcdf53e26c25bd45"
+    },
+    {
+      "page_number": 163,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_163.txt",
+      "source_sha256": "d02776727f872f983522e3a5c73417d2332f515d7c06fc41e429023041df1cba"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:50Z",
+  "duration_seconds": 4.17,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 162
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_162.txt",
+    "source_sha256": "a32111a8f33169887f1fab80a7da67545c20ec2497b35910d4a51c9300cd2249"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a0b7d2612347c75049f8c224e5d6540fc12f99bbbbf2b03da5e956a99eb624db",
+  "request_fingerprint": "ecaf466087ae22c73859a63e3086040a62b655086783996ded9e2ca6c5468b4a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.12, é apresentada a distribuição das questões levando-se em conta, simultaneamente, a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, duas delas foram classificadas como Muito bom, as de número 11 e 28 com o maior Índice de Discriminação (0,45, para ambas) e, quanto ao Índice de Facilidade, também ambas foram classificadas como Fácil, com 65% e 66% dos estudantes, respectivamente, marcando a opção correta de cada questão. A questão de número 9 foi a mais difícil entre as 27 questões específicas válidas, com baixo Índice de Facilidade, apenas 13% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,09, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 27, com Índice de Facilidade 0,14, o que, em termos percentuais, corresponde a 14% de estudantes que responderam acertadamente. Já 0,01 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério Ponto-Bisserial, consideradas inadequadas. Por isso, as questões 9 e 27, além das questões 13, 18, 20, 23 e 33, foram eliminadas do cômputo da nota final.",
+  "text_sha256": "2a4696ce643ef6d64f4e3a5685994ed6251dee9fb5f40f08cb915ed47e7f6028",
+  "window_size": 3
+}

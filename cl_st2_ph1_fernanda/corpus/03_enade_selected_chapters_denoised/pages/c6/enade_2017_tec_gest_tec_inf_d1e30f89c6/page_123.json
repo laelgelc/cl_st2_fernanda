@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_077c5475980f6750006af90b7aaf2087d1a8a91dc453a621f5",
+    "usage": {
+      "input_tokens": 3336,
+      "input_tokens_details": {
+        "cache_write_tokens": 3333,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3333
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1214,
+      "output_tokens_details": {
+        "reasoning_tokens": 373
+      },
+      "total_tokens": 4550
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_122.txt",
+      "source_sha256": "1ad44faed7436aacb140cb55a3184e57b68397bbac63bc2beb3cded07a175a8a"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_124.txt",
+      "source_sha256": "73b280379a229294d045153fa9d364ea62d3cae34f93bd277a81468726d87bb4"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:38Z",
+  "duration_seconds": 7.362,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_123.txt",
+    "source_sha256": "66db0929a9a79b9ec0ad5528d2a61f9c996f184a32b8a92b291985916cdc2421"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "166b2eff24e2969eb30cfc25f7e7c2ad88694884b8c1b5a583935ee5e0c8fad7",
+  "request_fingerprint": "eeb6ee7a2d94bfaa0df46069c59b1969306c927c18b83d432fcf98229aa12087",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.7, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.8 apresenta o Índice de Facilidade e o Índice de Discriminação (ponto-bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao Índice de Facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice Muito fácil (>=0,86), verde para as questões classificadas com índice Fácil (0,61 a 0,85), amarelo para as questões classificadas com Médio (0,41 a 0,60), vermelho para as questões classificadas com Difícil (0,16 a 0,40) e roxo para as questões classificadas com Muito difícil (<=0,15).\n\nJá quanto ao Índice de Discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice Fraco receberam a cor vermelho (<=0,19), as classificadas com Médio receberam a cor amarelo (0,20 a 0,29), as classificadas com Bom receberam a cor verde (0,30 a 0,39) e as classificadas com Muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o Índice de Facilidade, foram assim avaliadas: das oito questões, nenhuma teve o Índice de Facilidade classificado como Muito fácil e uma questão foi tida como Fácil, por ter índice de acertos 0,80. Quatro questões foram consideradas com índice de dificuldade Médio, situando-se no intervalo entre 0,41 e 0,60 do Índice de Facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto três questões foram classificadas na categoria Difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual não houve questão Muito difícil.\n\nO Índice de Facilidade variou de 0,18 a 0,80, e o de Discriminação, de 0,38 a 0,50.\n\nA Tabela 6.9 apresenta a distribuição das questões levando-se em conta simultaneamente a classificação dos dois índices. Foram sete as questões com Índice de Discriminação Muito bom e elas figuraram entre os três níveis de dificuldade dentre os quais as questões foram classificadas, Fácil, Médio, Difícil. Como já comentado, apenas uma questão ficou na categoria Fácil, a questão 6 e seu Índice de Discriminação foi Muito Bom (0,47). As quatro questões da categoria Médio do Índice de Facilidade (questões 2, 4, 5 e 8), também tiveram Índice de Discriminação Muito bom. Dentre as três da categoria Difícil (questões 1, 3, e 7), apenas a questão 1 teve Índice de Discriminação diferente de Muito bom, sendo considerado apenas Bom. Duas questões (4 e 5) apresentaram o maior poder discriminatório, com índice 0,50, consideradas médias em termos de facilidade, com uma proporção de 0,55 (questão 4) e 0,57 (questão 5) de acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,80.\n\nO Gráfico 6.4, para exemplificar, analisa o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Média, com relação à facilidade, e uma das duas que obtiveram o maior Índice de Discriminação dessa parte da prova.",
+  "text_sha256": "7def5f1d9d22b9586d22835c7b487307f8e94bd77f2d9a6dbd0e1a6af3894f7c",
+  "window_size": 3
+}

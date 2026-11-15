@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba894db0e445dd1006af8f3bb448c87d19649ea8ce97ed005",
+    "usage": {
+      "input_tokens": 2419,
+      "input_tokens_details": {
+        "cache_write_tokens": 2416,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2416
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 425
+      },
+      "total_tokens": 3022
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_82.txt",
+      "source_sha256": "464918060d4d394ed1209603a4c75c60eada223aedaaadb783556ffb86ad76d2"
+    },
+    {
+      "page_number": 84,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_84.txt",
+      "source_sha256": "8c51f2c1a8a320dfee6b7ea87517a2445b34b46d611d53bb6aef474aa8598e16"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:19Z",
+  "duration_seconds": 6.653,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 83
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_83.txt",
+    "source_sha256": "1072a2a212cbac26edf36e22df508ae00648d7521796a394dfdf22ec78412b7b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5e00212b7ca5496e8125749c9d6d1ba8d7ce97c18514238d197b6e9bc6e93bc4",
+  "request_fingerprint": "eccd4f27382e623759bbb654633e6c5145f4bcd9195b46917518210086c38fe9",
+  "retry_count": 0,
+  "review_notes": [
+    "Tabela 3.15, incluindo título, dados e fonte, removida. O gráfico referido no texto foi removido; a prosa que o comenta foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 representa a distribuição das notas da questão discursiva 5 do Componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco, para essa questão também correspondendo à moda da distribuição. Além da moda na nota zero, aparece um máximo local no intervalo (0; 10]. O coeficiente de assimetria para todos os alunos é 0,82 e para todas as regiões se mantém positivo, variando entre 0,55 na região Sul e 1,36 na região Norte.",
+  "text_sha256": "1783d776c76e2497ce25508d93da220595ca250ccdbf40fa963fe5a04cff5eda",
+  "window_size": 3
+}

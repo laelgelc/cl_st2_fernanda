@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bebf91024bc0b48006af902a009c887d1883394e1866ca4c5",
+    "usage": {
+      "input_tokens": 2783,
+      "input_tokens_details": {
+        "cache_write_tokens": 2780,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2780
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 370,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 3153
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_46.txt",
+      "source_sha256": "893e91e65c642435d39c8951a8de10fce5866b1ae12ff552de3c03eb4eaf2077"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_48.txt",
+      "source_sha256": "571020db9ae05bb4fe195f103db367d071d049d460dc31043faccf17e53beb39"
+    }
+  ],
+  "created_at": "2026-11-15T00:53:51Z",
+  "duration_seconds": 4.296,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_med_vet/enade_2016_med_vet_page_47.txt",
+    "source_sha256": "752f85040cf01585a84f5827640fcb210147494952d811c5ba56423a504972ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f37aef2cdf882e182b8a9a831c774dda53395237520454f2d9d09ab6298dcab3",
+  "request_fingerprint": "7078b6581faff6d8d151432fe56bf37c1a84d340c8df38ab43cf9f111b9dc8ef",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 3.7.",
+    "Removida a linha de fonte associada ao Gráfico 3.3; o gráfico não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Medicina Veterinária em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (50; 60], o mesmo grupo modal da prova como um todo da Formação Geral.",
+  "text_sha256": "f87c9985ffc1360c60d0d71402d0fafc0ea3b18e129bcd32a3c8e93a9fa0ba61",
+  "window_size": 3
+}

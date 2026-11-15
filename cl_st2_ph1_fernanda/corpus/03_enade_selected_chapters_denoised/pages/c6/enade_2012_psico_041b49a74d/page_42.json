@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09558b63bfbffbd3006af8f137f21c87d1835f13c3ef26b948",
+    "usage": {
+      "input_tokens": 2144,
+      "input_tokens_details": {
+        "cache_write_tokens": 2141,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2141
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "total_tokens": 2738
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_41.txt",
+      "source_sha256": "4db80157ec8b19dbc409f4fc5f79f3916b73647690f0e9030632fa5329586f56"
+    },
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_43.txt",
+      "source_sha256": "b6096eb70c478a25bf54f5213e50165183557f2552158593f4bb937d65005586"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:35Z",
+  "duration_seconds": 4.546,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PSICOLOGIA.pdf",
+    "page_number": 42
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_psico/enade_2012_psico_page_42.txt",
+    "source_sha256": "2ecf77941d9653df73c9a280946c596a47a451095ddeb67cdfea3836a39a109c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6122427fbc950fb3ea1769f32469ea996c00c2e2001b8e3fb7071b424aafb529",
+  "request_fingerprint": "420a19c53e31d97d29123b682fabfd76645dcba11217b87fb72b343f4a3d71d8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40;50], assim como na prova como um todo. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 14,3 para a nota da prova como um todo e 17,7 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo (-0,35), indicando uma concentração à direita e cauda maior à esquerda. Em todas as Grandes Regiões os histogramas também possuem assimetria negativa (entre -0,44 na região Sudeste e -0,17 na região Nordeste).",
+  "text_sha256": "64c1a03e4c531819682b4693b1adeeeaa5c996a67875cbbb84e8857ce04ecce0",
+  "window_size": 3
+}

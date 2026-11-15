@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04c583fd345874b0006af91ae2a99487d1a3d0005b701efc32",
+    "usage": {
+      "input_tokens": 2354,
+      "input_tokens_details": {
+        "cache_write_tokens": 2351,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2351
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 586,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 2940
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 264,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_264.txt",
+      "source_sha256": "8c321aff7207fe29de6d14cffc98b0e44166b64e3e0e03f520b96716cc41a89d"
+    },
+    {
+      "page_number": 266,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_266.txt",
+      "source_sha256": "6ae1a94a7f834425a2cd305d99aee9c1f186947a64dc97b3cf66c25eab2f0fe8"
+    }
+  ],
+  "created_at": "2026-11-15T02:37:22Z",
+  "duration_seconds": 6.766,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_QUÍMICA.pdf",
+    "page_number": 265
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_qui/enade_2021_qui_page_265.txt",
+    "source_sha256": "89a39ccea872a310be163e332157c6c0955d05fbb64d99d64d955dc79327f808"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cbe795b9359a6f951f1670813bdb627683c704aa8b55f6005ab841f785c05e2c",
+  "request_fingerprint": "1bc7d2e304022b4de60c1fce8f9d18dd8c64c51151e5d82c856d415de7d88b19",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a fonte «Fonte: MEC/Inep/Daes - Enade/2021», pertencente ao Gráfico 5.2b; o gráfico em si não aparece no texto extraído.",
+    "A última frase termina em «2» na página-alvo e continua na página seguinte; foi mantida sem completar."
+  ],
+  "status": "success",
+  "text": "No Gráfico 5.2b, apresenta-se a distribuição do Conceito Enade dos cursos de Bacharelado, segundo a Categoria Administrativa da IES. Os cursos em IES Públicas (linha azul) apresentam uma poligonal mais à direita do que os em IES Privadas (linha verde) e, consequentemente, uma distribuição de Conceitos Enade com valores maiores.\n\n5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\n\nNa Tabela 5.3a, encontra-se a distribuição dos conceitos atribuídos aos cursos de Licenciatura participantes do Enade/2021, na Área de Química, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 271 cursos de Química participantes, 170 eram oferecidos em Universidades, nove em Centros Universitários, cinco em Faculdades e 87 em CEFET/IF. Esta distribuição corresponde a, respectivamente, 62,7%, 3,3%, 1,8% e 32,1% dos cursos.\n\nDe acordo com os dados apresentados, de todos os 11 cursos avaliados com conceito 5, dez eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 58 cursos (34,1%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (cinco cursos), 2",
+  "text_sha256": "9bf32cda261ddedf9c267cf56cd3b73b900b4ba32b9724ca7501c526042337dc",
+  "window_size": 3
+}

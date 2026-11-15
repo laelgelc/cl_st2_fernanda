@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a820bcebf3f7870006af92258802c87d1b3412fa76579429e",
+    "usage": {
+      "input_tokens": 2992,
+      "input_tokens_details": {
+        "cache_write_tokens": 2989,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2989
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 379,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 3371
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 146,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_146.txt",
+      "source_sha256": "9ff6c892b63731c4cc00c48e5d1c618adc4e98633c77ea55d126cf11e3d9501c"
+    },
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_148.txt",
+      "source_sha256": "dd2ce58aa17605fe357b7a304ab909a465a086daad806e737da4aef9af02ebb0"
+    }
+  ],
+  "created_at": "2026-11-15T03:09:12Z",
+  "duration_seconds": 4.42,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DA COMPUTAÇÃO.pdf",
+    "page_number": 147
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_comp/enade_2023_eng_comp_page_147.txt",
+    "source_sha256": "56d5c1214fca546a9f33af45cce49da846b091eac41fcb68a5c6419c13c8c125"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f68880208cfea0f9acbeef2b10c92f9133e62df07dbf7af7dacfdc2739614d5",
+  "request_fingerprint": "c31c16d933644d982a099a0fd242d57bf65e1f404009e5c6da587b598f9992fc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.13, incluindo seus dados e fonte, e o Gráfico 5.6, incluindo título, conteúdo gráfico e fonte."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.13, observa-se que os estudantes de todo o Brasil obtiveram, em Formação Geral, média de 44,1 nas questões discursivas. Pode-se notar, também, que o erro-padrão nesse conjunto de questões foi de 24,9. A maior média foi obtida na região Norte (47,7), e a menor, na região Centro-Oeste (43,2).\n\nA mediana de todo o Brasil, neste componente, foi 45,1 e, na região Norte (48,9), foi encontrada a maior mediana. A nota máxima (100,0) foi obtida por, pelo menos, um estudante da região Nordeste, Norte, Sudeste e Sul. A nota mínima (0,0) foi a mesma em todas as regiões do Brasil.\n\nNo Gráfico 5.6, está representada a distribuição das notas na questão discursiva do componente de Formação Geral.",
+  "text_sha256": "22dde5ab3525eab42363badf8ac6ec68c4c3511f3b88b04a3e32b51dde17d78c",
+  "window_size": 3
+}

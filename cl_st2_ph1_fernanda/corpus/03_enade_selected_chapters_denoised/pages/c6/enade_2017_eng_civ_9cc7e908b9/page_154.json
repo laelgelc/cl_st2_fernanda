@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0436abb439d4eae4006af90605f40c87d1bd1d3390994390b5",
+    "usage": {
+      "input_tokens": 2555,
+      "input_tokens_details": {
+        "cache_write_tokens": 2552,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2552
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 2959
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_153.txt",
+      "source_sha256": "78ce0b0d2e41152d7e7556a3b6da045b4bc2a806adcad3e9ed39a873d82aca92"
+    },
+    {
+      "page_number": 155,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_155.txt",
+      "source_sha256": "5dc5714c98975ab2679314e1f303d95e30d781649ddc481b7c51d9197b6e9123"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:21Z",
+  "duration_seconds": 4.499,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA CIVIL.pdf",
+    "page_number": 154
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_154.txt",
+    "source_sha256": "4440464ceb6f9c0a3fc16574b4907bc0aa2eebdad1977d9f2ec64da1d0981947"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ab63a55c54102f5da4449f08c7030dc2bde0539820b868ef92f9d1175bc05da7",
+  "request_fingerprint": "533c8aba61a841e266500c96f6034b5dde1a92bb3aefd05f6cd6389a9e5d6362",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.19, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.12."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Essa distribuição tem moda na classe de estudantes que, tendo respondido à questão, obtiveram nota zero. Destaca-se o fato de que mais de 80% dos alunos ou deixaram a questão em branco ou obtiveram a nota zero.",
+  "text_sha256": "2d8952850245c8c3721c65a02377d1b6a75f58b258ddf15cad376eb4f4b73b44",
+  "window_size": 3
+}

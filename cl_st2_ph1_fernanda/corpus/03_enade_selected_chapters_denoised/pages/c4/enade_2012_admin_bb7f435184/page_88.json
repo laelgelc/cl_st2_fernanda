@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a492b8643e13eca006af8f02e3b4887d1bc480364cc189e61",
+    "usage": {
+      "input_tokens": 1623,
+      "input_tokens_details": {
+        "cache_write_tokens": 1620,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1620
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 587,
+      "output_tokens_details": {
+        "reasoning_tokens": 418
+      },
+      "total_tokens": 2210
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 87,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_87.txt",
+      "source_sha256": "9e595e5c445cb034379c1c630ec433b18922ddb71719c60ff48ee88714e4e41e"
+    },
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_89.txt",
+      "source_sha256": "713a19f3fa7bf184b569bcefe65c55ed8a10a78933ca31fa2fd781af8c4311a1"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:10Z",
+  "duration_seconds": 7.477,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 88
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2012_admin/enade_2012_admin_page_88.txt",
+    "source_sha256": "02887f694721912f1d6232d2754681345fc23d4964043a4310a4a413ef064bdd"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b66bc86fb0343bd9e54d82dc36a8566b069a8bfe3d6ac58f95b9eee1c37d1d25",
+  "request_fingerprint": "972e57772dbb8bdb9938316ce0d728f6cf153cd32ed6b5089e72d036f4888c0c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2012”, que parece pertencer a material gráfico excluído."
+  ],
+  "status": "success",
+  "text": "dos respondentes (maior do que 69% em todas as regiões e maior do que 60% para todos os quartos de desempenho).\n\nSegundo o desempenho, observa-se que a proporção dos que emitiram esta opinião cresce conforme o desempenho aumenta, com diferenças estatisticamente significativas entre todos os quartos de desempenho. No quarto superior, a clareza e objetividade de todos ou da maioria dos enunciados das questões foi percebida por 79,1% dos alunos e no quarto de desempenho inferior tal avaliação foi emitida por 60,6% deles.",
+  "text_sha256": "ce56e19b12b3da25d25329c1576f2b50d59b79072ff6f6ad0a545cdf7a8772fb",
+  "window_size": 3
+}

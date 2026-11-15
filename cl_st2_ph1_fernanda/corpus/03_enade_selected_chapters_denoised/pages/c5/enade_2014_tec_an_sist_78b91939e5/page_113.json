@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_010c9f081e76ffaf006af8fc26afd087d1ae2fde42f5103b2a",
+    "usage": {
+      "input_tokens": 2223,
+      "input_tokens_details": {
+        "cache_write_tokens": 2220,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2220
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 191
+      },
+      "total_tokens": 2735
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_112.txt",
+      "source_sha256": "1a72e8ba9b4c333f9d6e79fb5ec355f4dc25c0e07c1c3e3fa0d003bde04772ef"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_114.txt",
+      "source_sha256": "5ae024706df561350d8596dea72a87713d82c7db3701e96f98cb5bd1b0911987"
+    }
+  ],
+  "created_at": "2026-11-15T00:26:14Z",
+  "duration_seconds": 6.026,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM ADS.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_tec_an_sist/enade_2014_tec_an_sist_page_113.txt",
+    "source_sha256": "d3c6a481ad239b3fc24198bcec9d33fbc11ff59160fc8439cfc2de01c3370300"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4d50fc86cd47cf6e6ee553f53400f269e8a68f417596f6ee5794efa06896a7c4",
+  "request_fingerprint": "1bb876b9780753ff5d062ac3b08e3a29bca6fdce52c14fd3ca56bd0e3dd985de",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2014», identificada como pertencente ao gráfico da página anterior. A Tabela 5.2 é mencionada no texto, mas nenhum conteúdo tabular foi incluído no trecho da página-alvo."
+  ],
+  "status": "success",
+  "text": "5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA E POR GRANDE REGIÃO\n\nA Tabela 5.2 apresenta a distribuição dos cursos participantes do ENADE/2014 de Tecnologia em Análise e Desenvolvimento de Sistemas, por Categoria Administrativa, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 320 cursos participantes, 94 (29,4%) eram ministrados em Instituições Públicas e 226 (70,6%), em Privadas.\n\nDe acordo com as informações da Tabela 5.2, em termos nacionais, entre Instituições Públicas e Privadas: das 14 IES que receberam o conceito 5, sete eram Públicas e sete Privadas. Dos 94 cursos participantes de IES Públicas, o conceito 3 foi o valor modal, atribuído a 39 cursos (41,5%). Entre os demais cursos de Instituições Públicas participantes, um curso (1,1%) foi avaliado com conceito 1, 11 cursos obtiveram conceito 2 (11,7% da categoria), 35 cursos receberam conceito 4 (37,2%) e,",
+  "text_sha256": "df9f3d7865e4afdf0e6df05ece4bfa9d432c5b7930dc09e6d1b8ace29817b8ac",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00f4d0eccc91ad50006af925388a9087d1b5257d96110bfb5d",
+    "usage": {
+      "input_tokens": 2275,
+      "input_tokens_details": {
+        "cache_write_tokens": 2272,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2272
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 323,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 2598
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_81.txt",
+      "source_sha256": "4c84b42149631ee378a63c163a3a9dc45b77d0d0852fce5d7b8cc32f49d4b26a"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_83.txt",
+      "source_sha256": "14e97b5e67879db6e0c943fff5174a050fa88bd4581c5386eaafb480ba994a4d"
+    }
+  ],
+  "created_at": "2026-11-15T03:21:28Z",
+  "duration_seconds": 3.121,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_TEC RADIOLOGIA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_tec_rad/enade_2023_tec_rad_page_82.txt",
+    "source_sha256": "f56da3b7020f8749336f93989bef865174bfbea7f0442a28a1ae55702396b68d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "1835aa468bb1bdd2c7181204bfc31140b3561f550bd447170c2dcb67dfcb2395",
+  "request_fingerprint": "6656756c75ecea53d92ff0d93c654078b91a3dc61db13f34c1c3b5e8badc6498",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.1, incluindo título, rótulos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 3.1, o percentual de estudantes que consideraram a prova “Difícil” ou “Muito difícil” foi maior na região Sul, onde a proporção foi de 34,1%, enquanto a menor proporção foi identificada na região Nordeste, com 25,3%. O maior intervalo foi observado na região Nordeste, com variação de 9,0% entre o mínimo e máximo. Além disso, é possível observar que a diferença entre as regiões Sul e Nordeste é estatisticamente significativa. Nas grandes regiões, a proporção de estudantes presentes que avaliaram o componente de Formação Geral como tendo grau de dificuldade “Médio” foi de 60,2% na região Centro-Oeste, 68,8% na região Nordeste, 65,6% na região Norte, 60,2% na região Sudeste e 59,8% na região Sul.",
+  "text_sha256": "1307b481c9c2484d72ec9f8571b8a14288e87c392adb1067234314fd8f266b32",
+  "window_size": 3
+}

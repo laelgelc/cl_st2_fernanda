@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a602e103ef68bf8006af8f34909a087d18bd7d57550addbd1",
+    "usage": {
+      "input_tokens": 2010,
+      "input_tokens_details": {
+        "cache_write_tokens": 2007,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2007
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 372,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2382
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_43.txt",
+      "source_sha256": "b0a837641015ceb0212c43e1d864dea7e948a8f0ac42a7a623a48ba4eb0a80a3"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_45.txt",
+      "source_sha256": "ce170912af6cea042e4cc311254b49d242fe05a69c3c1fb08346f873920ee6ba"
+    }
+  ],
+  "created_at": "2026-11-14T23:48:24Z",
+  "duration_seconds": 3.95,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_EDUÇÃO FÍSICA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_ef/enade_2013_ef_page_44.txt",
+    "source_sha256": "00f778643fab2f1f5cb8bcd33525d158408efa703752c5b08c04496b0ab58de1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "939d23f769870941ef347c12a800a58f0b729344008476a6d79e409fa05f6bef",
+  "request_fingerprint": "659c8abd9c68f84a922fee46477bf42d9f6860113f21ae1587cbd5c19d2ed3a0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Nos Gráficos 3.6, 3.7 e 3.8 são apresentadas as informações referentes ao desempenho dos concluintes no Componente de Formação Geral, em diferentes agregações: Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nObserva-se pelo Gráfico 3.6 que existe diferença estatisticamente significativa ao nível de 95% entre a maior média das notas na Componente de Formação Geral, obtida na região Sul (44,0) e a menor, obtida na região Norte (40,0). Vemos que o intervalo de confiança mais largo é o da região Norte; já o intervalo mais estreito é observado na região Sudeste. Este fato está relacionado, também, com o tamanho da população envolvida, menor na região Norte do que na Sudeste.",
+  "text_sha256": "507d8c61b0f0c0a8ca4319e0dcedcb8a9b8a9bd2f3487b241453e329a8a6d6cb",
+  "window_size": 3
+}

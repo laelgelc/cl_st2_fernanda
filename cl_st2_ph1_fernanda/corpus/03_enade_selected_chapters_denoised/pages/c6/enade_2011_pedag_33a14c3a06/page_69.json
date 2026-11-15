@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fd97a49d33774c3006af8ee77332487d19392e4d2820e681c",
+    "usage": {
+      "input_tokens": 2321,
+      "input_tokens_details": {
+        "cache_write_tokens": 2318,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2318
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 393,
+      "output_tokens_details": {
+        "reasoning_tokens": 240
+      },
+      "total_tokens": 2714
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_68.txt",
+      "source_sha256": "6000b06e8b0136d182e023c72ec1c28fdbd17da80efe0966aa1d92300bca47c2"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_70.txt",
+      "source_sha256": "ec2b930736cffb087f350cfbe60d8d7156ffa558388b2a507a79a7d5ba16d0e7"
+    }
+  ],
+  "created_at": "2026-11-14T23:27:51Z",
+  "duration_seconds": 4.55,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_pedag",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_PEDAGOGIA.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_pedag/enade_2011_pedag_page_69.txt",
+    "source_sha256": "7098db59310a76374f98d7f6775ab4d87cdf4c4baba40825b20e3ebe9c74ee93"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b8ac03e7551d42ebcf242a553ecc6bd2dfbacbe5485945852632af80411108fa",
+  "request_fingerprint": "46e9d8900e1707954a5592d7e6e2a52669471bd4a644f3567453e1becd5def4a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo seu título, dados e fonte.",
+    "Removida a linha de fonte associada ao material gráfico; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição tem moda na categoria “em branco” e é bastante assimétrica (coeficiente de assimetria igual a 1,37). Como na distribuição das notas para todo o Brasil, por região os coeficientes de assimetria são sempre positivos e maiores do que 1, indicando histogramas similares.",
+  "text_sha256": "be6a06a28ff709d94208385de41e03cdd8b4e30653000f30bfe3f3437490e4e3",
+  "window_size": 3
+}

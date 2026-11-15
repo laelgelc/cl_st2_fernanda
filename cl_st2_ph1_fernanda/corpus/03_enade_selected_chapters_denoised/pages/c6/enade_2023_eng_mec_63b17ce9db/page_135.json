@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06f6925219db7357006af92356d23887d19197424468397719",
+    "usage": {
+      "input_tokens": 2693,
+      "input_tokens_details": {
+        "cache_write_tokens": 2690,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2690
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 3109
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_134.txt",
+      "source_sha256": "496114b65a89ae4b06f33b659b3e3cf835e84ec46a81f46e0742c26d8a1c7bde"
+    },
+    {
+      "page_number": 136,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_136.txt",
+      "source_sha256": "6ff8a36d2c54b40dd31fc6b207a70cd17d392960ad05dbdd896f1ffaa27fe0ef"
+    }
+  ],
+  "created_at": "2026-11-15T03:13:26Z",
+  "duration_seconds": 5.931,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA MECÂNICA.pdf",
+    "page_number": 135
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_mec/enade_2023_eng_mec_page_135.txt",
+    "source_sha256": "2a6db05014a1ccfd1b8ed67afebff8cef49e10cfd0908f3e9a7231b4089a2eac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "efbd430908cddab4cdc28fe43c174583258db9ff70ec45f0c5b35410d8c1bf26",
+  "request_fingerprint": "b4b6aa7d287d6a07b422a2751b4aca4a173dd53ec973b93e971df0d8b5e0debd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 5.4."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.4, são apresentadas as informações referentes ao desempenho dos concluintes no componente de Formação Geral, em diferentes agregações: categoria administrativa, organização acadêmica e modalidade de oferta.\n\nA partir dos dados da Tabela 5.4, observa-se que há diferença estatisticamente significativa entre as médias dos tipos de categoria administrativa. A maior média foi obtida por estudantes de IES públicas (57,4) e a menor, pelos de IES privadas (47,8).\n\nEm relação às médias por tipos de organização acadêmica, encontra-se: 53,5 para as universidades; 47,9 para os centros universitários, 46,9 para as faculdades e 55,2 para os CEFET/IF.\n\nA nota máxima obtida pelas IES privadas (99,7) foi menor em comparação às IES públicas. O desvio-padrão menor foi percebido nas IES públicas; e, entre as organizações acadêmicas, esse valor foi menor para os CEFET/IF.\n\nJá no que se refere à modalidade de oferta, os cursos presenciais apresentaram média de 52,3, enquanto a média dos cursos a distância foi de 47,1. A diferença é, portanto, estatisticamente significativa.",
+  "text_sha256": "e26b8a7127164bf0221d589e539f40b2be8d625c257289693747f9498d3f792d",
+  "window_size": 3
+}

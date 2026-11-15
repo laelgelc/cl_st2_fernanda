@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01e312742cb6226c006af902ec89a887d19af0c176d0e5cbf9",
+    "usage": {
+      "input_tokens": 1783,
+      "input_tokens_details": {
+        "cache_write_tokens": 1780,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1780
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 251,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 2034
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_nutri/enade_2016_nutri_page_105.txt",
+      "source_sha256": "4814396079524566e63391c795f6da0827ad6db276c004f41c8bab5ed4c6b18c"
+    },
+    {
+      "page_number": 107,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_nutri/enade_2016_nutri_page_107.txt",
+      "source_sha256": "abd20f603b050b209f15a1fc819a583a9ffe33f8405b0625d327335f0cc7eefd"
+    }
+  ],
+  "created_at": "2026-11-15T00:55:08Z",
+  "duration_seconds": 3.028,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_NUTRIÇÃO.pdf",
+    "page_number": 106
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_nutri/enade_2016_nutri_page_106.txt",
+    "source_sha256": "2ebf63c0b5d2e334fe4eb3e6c79e5b67e788ca0a2f187f98230ac3a179d1d9ec"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "706b3544f958f36bb8faa6e17e2adaa325968a193076480a1d852e0f62d04165",
+  "request_fingerprint": "1d7a56965833cacfe4e39eb268a0787184d48d9db2032f388d978b658524937a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.15, incluindo título, dados gráficos e fonte."
+  ],
+  "status": "success",
+  "text": "Em todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 73,1% na região Norte e 83,2% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 3,9% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,6% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade entre todos os quartos de desempenho é estatisticamente significativa, exceto a diferença entre o segundo e o terceiro quartos de desempenho.",
+  "text_sha256": "083a81cf081685099dcdcd967514638443bd406d9b956b867fa4fcd6aa892c4e",
+  "window_size": 3
+}

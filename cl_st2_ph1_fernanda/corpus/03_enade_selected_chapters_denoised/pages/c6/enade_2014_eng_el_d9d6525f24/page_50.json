@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01a3df60a70b7923006af8f88efbac87d19b1243724727e39e",
+    "usage": {
+      "input_tokens": 2961,
+      "input_tokens_details": {
+        "cache_write_tokens": 2958,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2958
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1182,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 4143
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_49.txt",
+      "source_sha256": "fe4c74afee058db0ac865610e45e5014f62205c772049e5f4e577f38c38e8d4a"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_51.txt",
+      "source_sha256": "4f905a0bff80b2e1c75397490cd13856e637ebc65960ca3289cdfa18384203ce"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:54Z",
+  "duration_seconds": 10.219,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_el/enade_2014_eng_el_page_50.txt",
+    "source_sha256": "ea4568c8a97804891909e42dbc91ec6106c4776d0866c28e4cd67debf758c85d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a741f98220bebda6dbfffa5a8aa287c7d4771113ca994c01a14e1b8313164560",
+  "request_fingerprint": "33625bb1415709b300d953a498e95e0e07082cfb8f5d85cf2fd594bc8576167f",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": " As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, uma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade médio, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto nenhuma questão foi classificada na categoria difícil, situando-se no intervalo entre 0,16 e 0,40, ou apresentou menos de 15% de acertos, razão pela qual seria classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o índice de discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: sete das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice muito bom para esse grupo de estudantes. Uma questão teve índice de discriminação bom, com valor entre 0,30 e 0,39, para esse grupo de estudantes. Nenhuma questão teve nível médio ou fraco de discriminação para esse grupo de estudantes.\n\nO índice de facilidade variou de 0,42 a 0,86, e o de discriminação, de 0,38 a 0,56. As sete questões com índice de discriminação muito bom figuraram entre os diversos níveis de dificuldade desse conjunto: uma classificada na categoria muito fácil (questão 4), quatro classificadas na categoria fácil (questões 3, 6, 7 e 8) do índice de facilidade, e três, na categoria médio (questões 1, 2 e 5). Em particular, a questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,56, porém foi considerada fácil em termos de facilidade, com uma proporção de 0,67 acertos. O máximo de acertos foi alcançado pela questão 4 com um índice de facilidade de 0,86. A questão de número 2 apresentou um índice de facilidade de 0,47, ou seja, quase a metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu índice de discriminação foi bom (0,38). Já a questão 5 obteve índice de discriminação muito bom, 0,45, porém seu índice de facilidade foi médio (0,42).\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada fácil, com relação a facilidade e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "6c1736297bdc5098cbe516aa6af6f5aee30edd6c738905cca896fdaf4d633d43",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007a32d499a14137006af8f23facb887d1a63c97e645b3014c",
+    "usage": {
+      "input_tokens": 2540,
+      "input_tokens_details": {
+        "cache_write_tokens": 2537,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2537
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 378,
+      "output_tokens_details": {
+        "reasoning_tokens": 209
+      },
+      "total_tokens": 2918
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_69.txt",
+      "source_sha256": "90d884e4af9b0f7eac553ef219a1add29fa92a4b078f7a2ea07ee3ec38c0eb91"
+    },
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_71.txt",
+      "source_sha256": "afa614d697f6165c304ab5700316fc6b44eeeb6bc53147152d7691dab17c7345"
+    }
+  ],
+  "created_at": "2026-11-14T23:43:59Z",
+  "duration_seconds": 4.746,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_tec_gest_fin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_TEC EM GESTÃO FINANCEIRA.pdf",
+    "page_number": 70
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_tec_gest_fin/enade_2012_tec_gest_fin_page_70.txt",
+    "source_sha256": "0d87f6e53c850403298545971a5486a0b859b6821fa035ec4b0ff0034091b1a1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "28077451ce2725826629ef13354e0954a31a2c053b6d2349d1ff7f77ca8139c6",
+  "request_fingerprint": "8b7a146b16ac693fb8d1533b567be34c6d8dd68206e673e9ad7115691ca63591",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. O gráfico referido como Gráfico 3.19 e sua linha de fonte também foram excluídos."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico. Essa distribuição é bimodal, com modas nas questões em branco e no intervalo (0;10]. Observamos que o gráfico possui assimetria à direta, comprovada pelo coeficiente de assimetria 2,54. Em todas as regiões do país também há coeficiente de assimetria positivo e alto (entre 1,72 na região Norte e 2,94 na região Centro-Oeste).",
+  "text_sha256": "f0d05f9b72bc3f1e1fbb0240cef60defbf257dab18bf1074574ffe447bd33e2b",
+  "window_size": 3
+}

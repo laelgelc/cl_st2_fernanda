@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f2af78d32f23b39006af8fb50a7b487d180e8c36e0e523015",
+    "usage": {
+      "input_tokens": 2788,
+      "input_tokens_details": {
+        "cache_write_tokens": 2785,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2785
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 481,
+      "output_tokens_details": {
+        "reasoning_tokens": 216
+      },
+      "total_tokens": 3269
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_51.txt",
+      "source_sha256": "176eb97e784c87f5e58e76539196089947361008c6db26540dfa24251c38cf35"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_53.txt",
+      "source_sha256": "86f3b521e526ea39b2bcd3b9bf87836299caca4f3e3832654bfca635a0e2cafe"
+    }
+  ],
+  "created_at": "2026-11-15T00:22:40Z",
+  "duration_seconds": 5.578,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_ing",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_PORTUGUÊS E INGLÊS.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_ing/enade_2014_letras_por_ing_page_52.txt",
+    "source_sha256": "dd25bae2289bab9c4537b007fb8ba989f065a0b7b3367bc7a730b173064c028c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7023d4811caab4c94d58cd04ebefe2733a5e6436eb71abbf2d8b223cc7659b6",
+  "request_fingerprint": "13b0b49417987998d49b24bfb382f324fd7b62ac6661e88c66196ee3ef839789",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 3.4 e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”)."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "01cd76196641c11e863866e8ab0c667ecd3b336bd7a8ed2f63473387427db0b7",
+  "window_size": 3
+}

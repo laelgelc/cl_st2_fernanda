@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b946525c6a5637c006af8ede0cd0c87d1bcde3654dc94fe66",
+    "usage": {
+      "input_tokens": 2247,
+      "input_tokens_details": {
+        "cache_write_tokens": 2244,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2244
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 618,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 2865
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 39,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_39.txt",
+      "source_sha256": "6fd940f7b11942f8859f8ad6ba0cd699efb68411e43bcb131547a234fa658202"
+    },
+    {
+      "page_number": 41,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_41.txt",
+      "source_sha256": "77eaf8e022938b9fa4e89138ad07bc77dded8fe8b02fdec84fdd0b6e8dca42fe"
+    }
+  ],
+  "created_at": "2026-11-14T23:25:20Z",
+  "duration_seconds": 6.342,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_letras_por",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_LETRAS.pdf",
+    "page_number": 40
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_letras_por/enade_2011_letras_por_page_40.txt",
+    "source_sha256": "9e1b5ddfb0b803c10fed65c82a7d58234734c60198031ef5409a21b92720db4b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f294c39283738f57f5602e9bf7fcd10ab4b804452c5c5bc35e33ce41cc131157",
+  "request_fingerprint": "b228305a091df816b7cf42bcb1c6fad6ed4e8bb4bbef6ae50eb97fbe9352b0bc",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "encontrada na região Sudeste (54,0). A nota mínima nesta parte foi zero em todas as regiões, sem exceção.\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no componente de Formação Geral a partir do histograma da distribuição das notas correspondentes ao Bacharelado e à Licenciatura. A distribuição de Letras – Licenciatura é unimodal, com moda no intervalo (50;60], enquanto na prova como um todo (Gráfico 3.1), a moda foi alcançada no intervalo imediatamente inferior, ou seja, (40;50] para as duas habilitações. Já a distribuição do bacharelado é bimodal com a moda principal coincidindo com a da Licenciatura e apresentando uma segunda moda no primeiro intervalo, [0;10]. Nota-se, ainda, que no Gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), o que pode ser confirmado pela comparação dos desvios padrões: 16,2 para a nota da prova como um todo e 18,5 para o componente de Formação Geral.\n\nPara o componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes, como na prova como um todo, também é negativo para o Bacharelado (–0,43) e para a Licenciatura (–0,45). Apenas as distribuições do Bacharelado nas regiões Norte (0,43) e Nordeste (0,02) possuem assimetria positiva. Em todas as demais Grandes Regiões os histogramas possuem assimetria negativa, tomando-se os alunos em conjunto ou por habilitação.",
+  "text_sha256": "e1e5da9ce09ac724efd57400734b031077579bb5fb6c06d431346a034da2a96c",
+  "window_size": 3
+}

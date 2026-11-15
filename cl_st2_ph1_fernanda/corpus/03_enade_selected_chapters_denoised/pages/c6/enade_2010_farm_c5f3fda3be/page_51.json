@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d029816a108811c006af8e8cd9b0887d18e4b0d87465550e3",
+    "usage": {
+      "input_tokens": 2422,
+      "input_tokens_details": {
+        "cache_write_tokens": 2419,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2419
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 2803
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_farm/enade_2010_farm_page_50.txt",
+      "source_sha256": "75a3aad514eb38f31131605a066589cd8fc64f3d2540082cb2be4304dd8f0262"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_farm/enade_2010_farm_page_52.txt",
+      "source_sha256": "82f813125f217e01baadd016ac77b230c79271aa0ce5275f58fb87d5ebc19656"
+    }
+  ],
+  "created_at": "2026-11-14T23:03:41Z",
+  "duration_seconds": 5.155,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_FARMÁCIA.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_farm/enade_2010_farm_page_51.txt",
+    "source_sha256": "554f5ab590e94c30f9817db741f1a2fa4a85f5ed24ab2c91b2413f0110df933c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f58200ec794c0dc97b94c1f2fbc9a1cfa5f0bcc25c1bbc52e3cca2f29678df74",
+  "request_fingerprint": "733f7fab41b05654beb64d19316190d39ead7bd0a5e967973fea39b7bb77581a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título/caption, a fonte e os dados do Gráfico 3.8 (gráfico de linhas)."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 35, em função da nota dos estudantes nesta parte da prova antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em rosa, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova, enquanto as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas, ainda que aqueles com nota zero, na sua quase totalidade tenham deixado em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionaram a resposta correta B aumenta gradativamente com a nota dos alunos chegando a atingir 100% para notas acima de 90,0, enquanto a proporção dos que escolhem alternativas incorretas, decai a partir da primeira nota não nula como função da nota nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "ca7e7818db72e5b7e18788b60707312696ea8ad493f08e01526060daacad1dcd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0449efc6ed62ec07006af8e83a1f7487d18ea0b7831a676313",
+    "usage": {
+      "input_tokens": 2628,
+      "input_tokens_details": {
+        "cache_write_tokens": 2625,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2625
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 379,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 3007
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_33.txt",
+      "source_sha256": "f720e7ccf24ce92433bcacdfa2900599baa02f1e9209eb3a76664e03909e28d5"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_35.txt",
+      "source_sha256": "a5fc6280dc8708265da1142f7cc7d9fcbffd598582cf7425b0f0d7c285746a09"
+    }
+  ],
+  "created_at": "2026-11-14T23:01:14Z",
+  "duration_seconds": 3.396,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_AGRONOMIA.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_agro/enade_2010_agro_page_34.txt",
+    "source_sha256": "5304a3a3e50c43c40e5f195ac1c92499653e192e7cf7cf3c93a1ac2b2448a207"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "acf750f4d139b4392197a5a0326d7013cb3be8d53c5502479c2f3b28d3065ac9",
+  "request_fingerprint": "69e7841be53ea2add2dd408a4c77cb22de52b0da054dd3fb92f0ef3a5dc7a588",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as proporções mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 36,8 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 51,3, transparecendo uma superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1).\n\nOs coeficientes de assimetria indicam uma assimetria negativa (-0,6) para os Concluintes, e (-0,1) para os Ingressantes.",
+  "text_sha256": "f3631910d1552614497fc790812907ed5ffc4ba1aed4d9cd1864f4ba82e75a5c",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02d1d47b7dd27699006af91bd556ac87d1b20dfe5394b761c4",
+    "usage": {
+      "input_tokens": 1750,
+      "input_tokens_details": {
+        "cache_write_tokens": 1747,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1747
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 231,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1981
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 116,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_116.txt",
+      "source_sha256": "1d75a1d7ed269a528ef1009ddf0fac2aaed507bddb1edbae069a54bc68b45b91"
+    },
+    {
+      "page_number": 118,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_118.txt",
+      "source_sha256": "f7597ef52ea856e0f9aade56998e0a7daf2b25380b81ae7d5a677671153bb2b6"
+    }
+  ],
+  "created_at": "2026-11-15T02:41:25Z",
+  "duration_seconds": 2.87,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 117
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_cont/enade_2022_ci_cont_page_117.txt",
+    "source_sha256": "32e43c770fd52d3fea4f070ba38ca9f67660b39183047aeb6baed9e59b368ac2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fd599f90fde4075cf4ce98ae438ddb4181acdb6ba30155b1859b145e026bf7ca",
+  "request_fingerprint": "ba10314746ee45766dfc582f62863577e9b7d1a69492110b3ddbfc990268bd3a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.18, incluindo título, dados, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.18 traz mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 5.18 mostram que a proporção de estudantes que consideraram os enunciados das questões “claros e objetivos” apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (78,3%), se comparada ao quarto inferior de desempenho (66,0%). As diferenças entre todos os quartos de desempenho são estatisticamente significativas.",
+  "text_sha256": "bb57f07840970fa9cdb9cca003579c534200a2bee41e448f6140314a38cac50a",
+  "window_size": 3
+}

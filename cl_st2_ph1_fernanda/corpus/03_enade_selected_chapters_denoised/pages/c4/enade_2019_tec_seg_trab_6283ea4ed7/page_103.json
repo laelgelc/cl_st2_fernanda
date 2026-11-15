@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b05ed0271b9c933006af9163d5a0c87d19a3c8a3b61bdd8a4",
+    "usage": {
+      "input_tokens": 1862,
+      "input_tokens_details": {
+        "cache_write_tokens": 1859,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1859
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 549,
+      "output_tokens_details": {
+        "reasoning_tokens": 374
+      },
+      "total_tokens": 2411
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_102.txt",
+      "source_sha256": "f2cd1c02e23c7a4fdd0da8da3ee440c84d5ad2198e7b21f37b4ee94b951b1513"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_104.txt",
+      "source_sha256": "d75b42757f5246432dbd722905c73e0f34c15ebf3e7708502743779276997925"
+    }
+  ],
+  "created_at": "2026-11-15T02:17:33Z",
+  "duration_seconds": 6.015,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2019_tec_seg_trab",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC SEGURANÇA DO TRABALHO.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2019_tec_seg_trab/enade_2019_tec_seg_trab_page_103.txt",
+    "source_sha256": "aa4cbc52ae06325af9f2a5e6da9eee2bb31a73255f3b8fb6ca3b35133c4a05f9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "79d25dfaa5668ca5b7ecfb98e6a10e12b69cef83527f09a0429d8ca44a0c54fd",
+  "request_fingerprint": "408271e7e73dab4a337e01aa8f5096f02abfd54ec85f62d938b7002c1374e0b7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e a fonte do Gráfico 4.7.",
+    "Removido “CEFET/IF”, aparentemente um rótulo do gráfico."
+  ],
+  "status": "success",
+  "text": "O percentual de estudantes que consideraram o Componente Específico da prova como Difícil ou Muito difícil foi maior para os estudantes de cursos de IES Privadas (38,3%), não há uma diferença estatisticamente significativa da proporção em IES Públicas (29,2%). Já a proporção de presentes à prova que consideraram este componente como sendo de grau de dificuldade Médio foi 56,3% para os de IES Públicas e 57,6% para os de IES Privadas (ver Gráfico 4.8 e Tabela II.4, no Anexo II).",
+  "text_sha256": "8ee8fe5460bb79e52edc24328f04e14364a56c21e3ac6699dd486576900100a7",
+  "window_size": 3
+}

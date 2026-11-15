@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a302422fb4cef7c006af8f3fb36f487d1aa1f4036dadcd61e",
+    "usage": {
+      "input_tokens": 1735,
+      "input_tokens_details": {
+        "cache_write_tokens": 1732,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1732
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 2097
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_42.txt",
+      "source_sha256": "1183b314d2b53e68fb6c01814360b1ec02f662ab60589f23a6a5ffa6793088ed"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_44.txt",
+      "source_sha256": "30907998833cd89452bb3ed807a1ba29e3b40de111d37aeac8606c201a4e6f70"
+    }
+  ],
+  "created_at": "2026-11-14T23:51:22Z",
+  "duration_seconds": 5.87,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FONOAUDIOLOGIA.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fono/enade_2013_fono_page_43.txt",
+    "source_sha256": "f7b019da6422d565f1c3e47b204d8c8e63daa00573cab685c13f0d5752fe82f6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4befbed896cc40cf37c6c77e83c9bac3826810f4b16c232684ba29b498546810",
+  "request_fingerprint": "b52b2530b344907941a03f6bac1bdadd0fe08d2b2484bd9753813248da0e91d4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, identificada como pertencente ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades. Já a diferença entre as médias dos estudantes de Centros Universitários e Faculdades não é significativa estatisticamente. A maior média foi obtida pelos estudantes de Universidades (52,5), e a menor, pelos de Faculdades (48,9).",
+  "text_sha256": "ad5c67c90c3be23a105e1d8ffa50dabd920a84958f04c846bdc1b2a99b22f57a",
+  "window_size": 3
+}

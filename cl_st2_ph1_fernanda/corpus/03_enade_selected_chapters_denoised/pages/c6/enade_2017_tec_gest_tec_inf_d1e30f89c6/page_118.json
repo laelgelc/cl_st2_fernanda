@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a1fa52bbf58df2b006af90b771ef487d1ae1544109da19356",
+    "usage": {
+      "input_tokens": 2803,
+      "input_tokens_details": {
+        "cache_write_tokens": 2800,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2800
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 654,
+      "output_tokens_details": {
+        "reasoning_tokens": 411
+      },
+      "total_tokens": 3457
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_117.txt",
+      "source_sha256": "3cff5f6036534cb12b87672ac2a6e82a2c91878860bb492b9b097c5de3d38389"
+    },
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_119.txt",
+      "source_sha256": "8f351b216658986e8c47dcf171bc071c38bf936907f6c9d2d607b9f19752b4b0"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:35Z",
+  "duration_seconds": 5.329,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 118
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_118.txt",
+    "source_sha256": "ec4733422061c2a722755202a3036c6e424be4c98072edee97760eb909cf4166"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d745c096075f9291425b2d29a30582ad99b0f6d470a10b288f458384c7a9169d",
+  "request_fingerprint": "7d5aeab00fc91d002b65cf6d2f5a00654787131a06e895b39a0d7fab916bb4c1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte no início da página, identificada pelo contexto como pertencente ao Gráfico 6.2."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\n\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média obtida por estudantes de IES Públicas (49,1) e a menor pelos de IES Privadas (46,6).\n\nNota-se que também não há diferença estatisticamente significativa entre as médias dos três tipos de Organização Acadêmica, valor maior para CEFET/IFET (49,6) e menor para Faculdades (46,7).\n\nNo que se refere à Modalidade de Ensino, a Educação Presencial apresentou Média menor do que a Educação a Distância (médias 46,7 e 47,4, respectivamente). Tais médias tampouco apresentam diferenças estatisticamente significativas.",
+  "text_sha256": "c520a9ec9cb6ac242aa7a2bc0f45ac61a00d55ad2bed05da7930f7259298a6ca",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_097f12cf7e3bfbc2006af923b3083887d19b4739581754b6b9",
+    "usage": {
+      "input_tokens": 2952,
+      "input_tokens_details": {
+        "cache_write_tokens": 2949,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2949
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 3450
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_145.txt",
+      "source_sha256": "2c0770b6a8a5de02947cb808d1a64674b561f11ef9686f604a41d78d06f8752c"
+    },
+    {
+      "page_number": 147,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_147.txt",
+      "source_sha256": "d300181b30a5e614a14c5e230772b5cd7145822fa8d086169db41c30cff0b1b7"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:58Z",
+  "duration_seconds": 5.042,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 146
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_fisio/enade_2023_fisio_page_146.txt",
+    "source_sha256": "f2bb6dc51f6132c337dc756e500482fe6ac18c8854e8263d9e738a487691a1b9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d5a190bedf19328272c4ce29613eff3a67b2a23b55c1b6600234e4fce2510618",
+  "request_fingerprint": "9a5aa97ecb6512066c05f375d664b330e13216068185b14ee8dc159f9d71a815",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 5.13, incluindo título, dados e fonte, e o Gráfico 5.6, incluindo título, imagem e fonte.",
+    "A última frase termina em “frequência de” na página-alvo; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.13, observa-se que os estudantes de todo o Brasil obtiveram, em Formação Geral, média de 42,6 nas questões discursivas. Pode-se notar, também, que o desvio-padrão nesse conjunto de questões foi de 24,4. A maior média foi obtida na região Sul (43,8), e a menor, na região Norte (40,0).\n\nA mediana de todo o Brasil, neste componente, foi 42,5 e, na região Sul, foi encontrada a maior mediana (44,0). A nota máxima foi 100,0 e mínima, 0,0.\n\nNo Gráfico 5.6, está representada a distribuição das notas na questão discursiva do componente de Formação Geral.\n\nComo mostra o Gráfico 5.6, a moda da distribuição ocorre no intervalo (50; 60], com frequência de",
+  "text_sha256": "1868651515ac5996e7569460352bb9e042648a0e18e567f0d371b9aa218a263c",
+  "window_size": 3
+}

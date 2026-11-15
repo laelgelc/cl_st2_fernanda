@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09d46134f33b46e5006af8f014629087d188ba9518649648ef",
+    "usage": {
+      "input_tokens": 1454,
+      "input_tokens_details": {
+        "cache_write_tokens": 1451,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1451
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1694
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_35.txt",
+      "source_sha256": "71e0f23be62bddb4d519fa07fa2295b16672ad01117f18c73c958b63b946fb63"
+    },
+    {
+      "page_number": 37,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_37.txt",
+      "source_sha256": "d8d46529c1fc93f461349cb27f57d48de4f8209804c07ba53f49bab7a905447d"
+    }
+  ],
+  "created_at": "2026-11-14T23:34:44Z",
+  "duration_seconds": 4.478,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_sane_amb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM SANEAMENTO AMBIENTAL.pdf",
+    "page_number": 36
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_sane_amb/enade_2011_tec_sane_amb_page_36.txt",
+    "source_sha256": "ca43a2b231a6a374a5c2baf7f51c23a5c93b311e57b9e8ef83b1b5aab835b2f6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ee294b8e51cd557022d39c48c07bf5aa24f88268473571eb485a955b722148de",
+  "request_fingerprint": "ab059b072910075d17486a9a7b05e3f4930281985e3ceae21c72f328f408d233",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte associada ao Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, contata-se que não há alunos de Tecnologia em Saneamento Básico proveniente de Centros Universitários. Além disso, existe diferença estatisticamente significativa ao nível de 95% entre as médias das notas dos estudantes provenientes de Universidades (45,8) e Faculdades (51,8), sendo a destes alunos maior.",
+  "text_sha256": "22e43f608caace8974055551bd2612fa6e51a5dd86f062db02978bcf539e5b00",
+  "window_size": 3
+}

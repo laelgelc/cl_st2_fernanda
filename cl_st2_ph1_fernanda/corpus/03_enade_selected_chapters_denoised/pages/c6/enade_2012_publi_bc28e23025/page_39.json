@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03d2ce62344f71f8006af8f162b90887d1b77d46411ddd2bfb",
+    "usage": {
+      "input_tokens": 1639,
+      "input_tokens_details": {
+        "cache_write_tokens": 1636,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1636
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 1844
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_38.txt",
+      "source_sha256": "7aa780088b8945cc7dea391d5d336f296c412a81ad74426ed949bf14f3628d56"
+    },
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_40.txt",
+      "source_sha256": "153730989583feab58e9819e62b9186b5153db5e9285ab5b69a0337d9524e786"
+    }
+  ],
+  "created_at": "2026-11-14T23:40:18Z",
+  "duration_seconds": 2.7,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_publi",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_PUBLICIDADE E PROPAGANDA.pdf",
+    "page_number": 39
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_publi/enade_2012_publi_page_39.txt",
+    "source_sha256": "fd9cb2c1934c5d91e5a013e3e85349fecde3a4f840565049d3d9dace5f51db0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3a202be60f2fcf5a379b145e89f6e51bffcd9cecba3875403a83a0be132de58d",
+  "request_fingerprint": "03fdf9e41b6c45fa43141a2b85f8feb3bcc85b6281563cf4f2261770ea95e354",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2012», identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes provenientes de Universidades com os de Centros Universitários e Faculdades. A maior média foi obtida pelos estudantes de Universidades (38,6), e a menor, pelos de Centros Universitários (36,7).",
+  "text_sha256": "6b51f6631cb469bfd2c3aa56ccafede2390311648730c683c16da499a4047cc5",
+  "window_size": 3
+}

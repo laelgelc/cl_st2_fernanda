@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07b5247fcdb015c4006af901789c8487d1873b1d3a642f2905",
+    "usage": {
+      "input_tokens": 2738,
+      "input_tokens_details": {
+        "cache_write_tokens": 2735,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2735
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 411,
+      "output_tokens_details": {
+        "reasoning_tokens": 250
+      },
+      "total_tokens": 3149
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_46.txt",
+      "source_sha256": "d212fa806915b7145133338710ca44f9039f9011535001fbc484a93946d5c10e"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_48.txt",
+      "source_sha256": "37c49146aebaff8a65fb4f0808bc2c009da36a1f8a73e153c94b194055a561ca"
+    }
+  ],
+  "created_at": "2026-11-15T00:48:56Z",
+  "duration_seconds": 4.018,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_AGRONOMIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_agro/enade_2016_agro_page_47.txt",
+    "source_sha256": "aebe1afc24714298dc26a2859b80f38bb751e8801c77403fc46c3fe769cd9e04"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7f861b6b733186aba14ed072bce3d156138fe0d9882ae11048136a3be5a04359",
+  "request_fingerprint": "f110e30d041101aab3626b2a2790c96789a1ba439693de14abea87482bb2c8b9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "Removido o Gráfico 3.3, incluindo a linha de fonte; o gráfico não aparece nos dados extraídos."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 3.1 e 3.2, o Gráfico 3.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Agronomia em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (60; 70], o mesmo grupo modal da prova como um todo e acima do grupo modal para a Formação Geral.",
+  "text_sha256": "514201292cc67a69bf3be54d99abbd3477cf8d535faeff8d11118a6980d2f251",
+  "window_size": 3
+}

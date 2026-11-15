@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_051429ba98155231006af8e5b4669087d183b34d5bfc449f6e",
+    "usage": {
+      "input_tokens": 2392,
+      "input_tokens_details": {
+        "cache_write_tokens": 2389,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2389
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 469,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 2861
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 32,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_32.txt",
+      "source_sha256": "4d647705db5dd5379133f53f3931097af5e96339b27be3c98a775720f5e5aa96"
+    },
+    {
+      "page_number": 34,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_34.txt",
+      "source_sha256": "f3fbb8831386e60fe5d4abdb5a2a77a5a62d42a966ad4a1f0dc6cad70d646d66"
+    }
+  ],
+  "created_at": "2026-11-14T22:50:28Z",
+  "duration_seconds": 5.406,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2009_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2009/ENADE_2009_DIREITO.pdf",
+    "page_number": 33
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2009_dir/enade_2009_dir_page_33.txt",
+    "source_sha256": "30910bf51216bbdac80ec0e645e47cac56cf2e1fd76119eab117f5e33bda2e05"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d71c716f74ccd8e2068adcf6497bc3e3022f86f5bc919c8279b893f28cc5208b",
+  "request_fingerprint": "2f6c0eb8d11dd54c8e64b17ba7d813434efa63ac9c1d70a2917ba44870d3d60a",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, distribuição de notas, eixos, intervalos, legenda e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos ingressantes e dos concluintes na parte de Formação Geral, em diferentes agregações como Região, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Região, observou-se que, tanto no grupo dos ingressantes quanto no grupo dos concluintes, houve diferenças marcantes. As médias variam, entre os concluintes, de 45,51 na Região Centro-Oeste a 52,87 na Região Sul. Entre os ingressantes, os valores foram de 41,64 na Região Centro-Oeste a 47,89 na Região Sul. Em todas as Regiões, os concluintes apresentaram médias maiores do que os ingressantes.\n\nTendo como foco as categorias administrativas, as maiores notas médias para ingressantes foram nas instituições federais (60,77), enquanto para concluintes foram nas estaduais (60,81). As menores notas médias para concluintes foram obtidas nas instituições privadas (47,21), enquanto para ingressantes foram nas instituições municipais (44,30). Note-se que, com este recorte, ingressantes apresentaram médias de notas superiores a dos concluintes nas instituições federais. Os estudantes das instituições privadas se apresentam mais homogêneos do que os das demais instituições.\n\nConsiderando-se o tipo de Organização Acadêmica, Universidades apresentaram os maiores valores, seguidas dos Centros Universitários para ingressantes e das Faculdades para concluintes.",
+  "text_sha256": "bb1ee2fa7d73cdbb2350ee57e4bc4082b8fe957d72d033a3318bf1469083e0b3",
+  "window_size": 3
+}

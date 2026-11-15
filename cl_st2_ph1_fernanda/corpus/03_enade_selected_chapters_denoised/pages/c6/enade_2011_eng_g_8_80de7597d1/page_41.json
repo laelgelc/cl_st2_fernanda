@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_059bf3baaaecd7c7006af8ecfea53887d1bf727852e8476865",
+    "usage": {
+      "input_tokens": 1407,
+      "input_tokens_details": {
+        "cache_write_tokens": 1404,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1404
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 197,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 1604
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_40.txt",
+      "source_sha256": "3e9af629532959bc6be12fe1ad61a0f23810abc9195eeed8af2521833d4ed6f3"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_42.txt",
+      "source_sha256": "7f01825a0ee1f0708bfcd7e23c77a58289159130990aca003b241418c3b86362"
+    }
+  ],
+  "created_at": "2026-11-14T23:21:34Z",
+  "duration_seconds": 2.85,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_8",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO VIII.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_8/enade_2011_eng_g_8_page_41.txt",
+    "source_sha256": "4da6da7db88b2416a6a019a7aeed6b19ddcc3db8f2482979225acc1c10142537"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "2e7d6a184fa0e6c10bd74ec7d4a27668a0566a755db3e24e91a7f8fe12eeea2d",
+  "request_fingerprint": "bb96dca41d0dea14e7d83f29b8752b87d370c045513364d11412d8c81e2e5e63",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o crédito de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, associado ao material gráfico."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.7, que representa as notas médias no Componente de Formação Geral segundo Categoria Administrativa do país, observa-se que não existe diferença estatisticamente significativa entre as médias. Os concluintes das IES Públicas obtiveram uma média menor (51,3) do que os das IES Privadas (52,9).",
+  "text_sha256": "4d3b3f68621667c5c261d8d349f12180d49cfa60e59a2e1e3d53116200908388",
+  "window_size": 3
+}

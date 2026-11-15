@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06efb298ccf66c2a006af92189c89c87d190a5d3a5a139a675",
+    "usage": {
+      "input_tokens": 1887,
+      "input_tokens_details": {
+        "cache_write_tokens": 1884,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1884
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 404,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 2291
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 128,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_128.txt",
+      "source_sha256": "c5e54398c727eea2267a3e6c940c68a7d5b7767c883292afb6d06efa0f91ea5a"
+    }
+  ],
+  "created_at": "2026-11-15T03:05:45Z",
+  "duration_seconds": 5.739,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_biomed",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_BIOMEDICINA.pdf",
+    "page_number": 129
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_biomed/enade_2023_biomed_page_129.txt",
+    "source_sha256": "857adba547b010b09d54886962bd9cf01956734164eb0453cc3dfc585272499c"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c3d685d129aae140e069463dd1829ae4a8b4b4d0b26fc918db964ba3ee219bde",
+  "request_fingerprint": "58acec7258d183b4b72e593bbacc48a6afa06280c37bd6e0bd37f97ce54b0fc7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.3, incluindo seu título e a linha de fonte (Fonte: MEC/Inep/Daes - Enade/2023)."
+  ],
+  "status": "success",
+  "text": "No Gráfico 4.3, apresenta-se a distribuição do Conceito Enade segundo a organização acadêmica da IES. A leitura desse último gráfico é semelhante à dos anteriores, seguindo-se a lógica de que poligonais deslocadas para a esquerda correspondem aos conceitos mais baixos (1, 2 e 3) e poligonais deslocadas para a direita correspondem a Conceitos Enade mais altos.\n\nNas universidades (linha azul), todos os cursos obtiveram conceito 5 ou abaixo disso, já que a poligonal cumulativa alcança 100% para o conceito 5. Além disso, os cursos de universidades apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, encontram-se os cursos mantidos pelas faculdades (linha vermelha), apresentando as respectivas poligonais mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com os menores valores. Os cursos mantidos por centros universitários (linha verde) apresentam poligonais mais centrais e, consequentemente, uma distribuição de Conceitos Enade com os valores intermediários.",
+  "text_sha256": "f900be07df85da454f133aeb0ae2105523c5b21545ef3ced6d8f046f334092da",
+  "window_size": 3
+}

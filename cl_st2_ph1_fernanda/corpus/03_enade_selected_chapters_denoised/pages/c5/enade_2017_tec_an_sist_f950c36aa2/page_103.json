@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01beb80b9cd74d0b006af90b17f69887d19e257360a5d6201e",
+    "usage": {
+      "input_tokens": 2922,
+      "input_tokens_details": {
+        "cache_write_tokens": 2919,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2919
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 313,
+      "output_tokens_details": {
+        "reasoning_tokens": 159
+      },
+      "total_tokens": 3235
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_102.txt",
+      "source_sha256": "8481d85bd5c77a54da24839c80372fd5af506674d0cc8d23a36d0ed83d67c529"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_104.txt",
+      "source_sha256": "5aa2a98144081ae89e233baca2617cf315ade04a9fd37799ed3c4ac5cdd5af3e"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:59Z",
+  "duration_seconds": 3.036,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM ADS.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_tec_an_sist/enade_2017_tec_an_sist_page_103.txt",
+    "source_sha256": "a5c2e55081941cc1eaba8a5a6dee82395051f05335e39654650991871d2cc1a6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "fa821bb0f41942e30c66024315d8462c478436524457db47ad15ddb722903ae8",
+  "request_fingerprint": "08535d283a9c3912f8ca93cdb09f1e1e6d4ce47d194a1747f7cc3b3d90573adb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.2, incluindo título, dados e linha de fonte. A prosa termina com “Dois” na página-alvo; o restante da frase está na página de contexto e não foi incluído."
+  ],
+  "status": "success",
+  "text": "Na análise por região, observa-se que, na região Norte, as Instituições Privadas participaram com dez cursos (58,8% do total regional), dos quais um ficou Sem Conceito (SC) e nenhum recebeu os conceitos 1 e 5. O conceito modal para as Instituições Privadas na região foi 2, atribuído a seis cursos, correspondendo a 60,0% dessa categoria na região. Dois",
+  "text_sha256": "914456b08bd46877373d60398a4c135f8c0dd90ffc49d09dee539feed243658e",
+  "window_size": 3
+}

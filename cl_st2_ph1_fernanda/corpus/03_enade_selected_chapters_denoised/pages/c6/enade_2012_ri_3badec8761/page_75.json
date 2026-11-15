@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b938f2af9fe2138006af8f19f542c87d180e968c0d00b12ac",
+    "usage": {
+      "input_tokens": 2315,
+      "input_tokens_details": {
+        "cache_write_tokens": 2312,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2312
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 513,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 2828
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_74.txt",
+      "source_sha256": "90c84f74f747fdd46acf9dc8c76bdb555bfa01474da0af29ae7c83ef99c23b60"
+    },
+    {
+      "page_number": 76,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_76.txt",
+      "source_sha256": "6ade2ffbd4062b4741b5061b667e7255f937738a7dfa14462165211f0d7a879e"
+    }
+  ],
+  "created_at": "2026-11-14T23:41:19Z",
+  "duration_seconds": 4.997,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 75
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ri/enade_2012_ri_page_75.txt",
+    "source_sha256": "9b57f464bea4548c55ae642d3c64100138d87c277b7b7b49c00b02d6b2d7bfc3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f7f00aa991a8ad5015a97a02efde7f20932364f0393bdd7c732145f6af35a834",
+  "request_fingerprint": "8cd73518967edd2a8ba33934adca48140567706a2f928e5b3ebf0c5cfecd0a09",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.14, seu título, seus dados e sua fonte. O texto fornecido não contém os dados ou rótulos do Gráfico 3.21; foram preservadas as frases em prosa que o descrevem."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 do componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda. Entre as três questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou uma maior quantidade de questões em branco. Dentre as notas dos que resolveram a questão 5, o intervalo modal foi (0;10].\nO coeficiente de assimetria para todos os alunos é 1,30 e para todas as regiões se mantém positivo, variando entre 0,79 e 2,05. Portanto, a distribuição se concentra do lado esquerdo do gráfico e possui uma cauda maior do lado direito.",
+  "text_sha256": "dd7c8167f16b306a88d95323a1a0612ea7c3e223d916568f2f37437119f1bba8",
+  "window_size": 3
+}

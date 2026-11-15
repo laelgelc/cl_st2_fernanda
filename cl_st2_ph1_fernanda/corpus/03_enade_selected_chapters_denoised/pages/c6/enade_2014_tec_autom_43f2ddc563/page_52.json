@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c9d739657310cbb006af8fc647d7887d184a8a1dbe5784eb7",
+    "usage": {
+      "input_tokens": 3150,
+      "input_tokens_details": {
+        "cache_write_tokens": 3147,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3147
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1395,
+      "output_tokens_details": {
+        "reasoning_tokens": 454
+      },
+      "total_tokens": 4545
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_autom/enade_2014_tec_autom_page_51.txt",
+      "source_sha256": "a11f3e8d8036c01a5f58bfa0b09f9067169a1e3dd471caebc857b4e29ef6d9cf"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_autom/enade_2014_tec_autom_page_53.txt",
+      "source_sha256": "7d32140be54ef5bca0a077c9d7dce64d178c24a861085e145c2822598ef962d0"
+    }
+  ],
+  "created_at": "2026-11-15T00:27:16Z",
+  "duration_seconds": 13.651,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_tec_autom",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_TEC EM AUTOMAÇÃO INDUSTRIAL.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_tec_autom/enade_2014_tec_autom_page_52.txt",
+    "source_sha256": "07416c2d1c4ad0ab398e5f3ecd284c3c1a8f8e2ddc97e2adec1f0bba6db8f378"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8bb0b25d1a9934d15ae28855908cd64060e77b00fee4f38ef3567242f17ece9f",
+  "request_fingerprint": "90b8302d01b2803c596d0e4b6e8de9f8bd36998a72293778861e8f5ab43d4569",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (<=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Três questões foram tidas como fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Quatro questões tiveram índice de facilidade médio, situando-se no intervalo entre 0,41 e 0,60, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o índice de discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: seis das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice muito bom para esse grupo de estudantes. Duas questões tiveram índice de discriminação bom, com valor entre 0,30 e 0,39, para esse grupo de estudantes. Nenhuma questão teve nível médio ou fraco de discriminação para esse grupo de estudantes.\n\nO índice de facilidade variou de 0,36 a 0,79, e o de discriminação, de 0,34 a 0,51. As seis questões com índice de discriminação muito bom figuraram entre dois níveis de dificuldade desse conjunto: três classificadas na categoria fácil (questões 3, 4 e 8) do índice de facilidade, outras três, na categoria médio (questões 1, 6 e 7). Em particular, a questão 6 foi a que apresentou o maior poder discriminatório, com índice 0,51, apesar de ser considerada média em termos de facilidade, com uma proporção de 0,54 acertos. O máximo de acertos foi alcançado pela questão 4 com um índice de facilidade de 0,79. A questão de número 1 apresentou um índice de facilidade de 0,55, ou seja, pouco mais da metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu índice de discriminação foi muito bom (0,42). Já a questão 5 obteve índice de discriminação bom, 0,38, porém seu índice de facilidade foi difícil (0,36).\n\nO Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada média, com relação a facilidade e a que obteve o segundo maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos",
+  "text_sha256": "f109feca9aaecb660eb08472cb6239e594f431b5abb8393dd6cb113634ff2fbc",
+  "window_size": 3
+}

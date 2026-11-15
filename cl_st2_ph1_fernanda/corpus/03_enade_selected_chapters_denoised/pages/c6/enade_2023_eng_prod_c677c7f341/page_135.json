@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ce03f9254bf4e1b006af922d6a20487d18f602c34c41e7158",
+    "usage": {
+      "input_tokens": 3105,
+      "input_tokens_details": {
+        "cache_write_tokens": 3102,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3102
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 538,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 3643
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 134,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_prod/enade_2023_eng_prod_page_134.txt",
+      "source_sha256": "e147ea044b3821c541a104547b66342593267f2b01742688ccaee9886b0ab352"
+    },
+    {
+      "page_number": 136,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_prod/enade_2023_eng_prod_page_136.txt",
+      "source_sha256": "33d60d37a4d25d15a82b20914666f1325ed75107b6cfd5e137b829d9e2059c6c"
+    }
+  ],
+  "created_at": "2026-11-15T03:11:18Z",
+  "duration_seconds": 5.639,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 135
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_eng_prod/enade_2023_eng_prod_page_135.txt",
+    "source_sha256": "db8a679680d92237e63a9d673de39252d299cbd54d9eaf2239f3a4f0a78518f1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a228b78abbba56fe0b66c0e82b6fdf72cd7b6e1ab5a929c419f8ea132c503258",
+  "request_fingerprint": "664395a274ef71534f1b3c99b257e6b2c34a8d69637699213ac45e7a2604fead",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.1 (histograma, legenda e fonte) e a Tabela 5.2 (título, dados e fonte).",
+    "A página termina com “as”, no meio de uma frase; o fragmento foi preservado sem completar o texto."
+  ],
+  "status": "success",
+  "text": "O comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 5.1.\n\nO Gráfico 5.1 apresenta um histograma com a distribuição das notas dos estudantes de Engenharia de Produção de todo o Brasil: uma distribuição unimodal com a moda no intervalo (30; 40].\n\nNa Tabela 5.2, são apresentadas informações referentes à média da nota final, desagregadas por categoria administrativa, organização acadêmica e modalidade de oferta dos cursos.\n\nOs dados da Tabela 5.2 mostram que, em relação à categoria administrativa, os estudantes das IES pública obtiveram média mais alta (44,7) que a média das IES privada (36,2). O desvio-padrão para as",
+  "text_sha256": "4e8a10891fd77ed50fee47d721764392b36fe88572fafbe91e8b302068663164",
+  "window_size": 3
+}

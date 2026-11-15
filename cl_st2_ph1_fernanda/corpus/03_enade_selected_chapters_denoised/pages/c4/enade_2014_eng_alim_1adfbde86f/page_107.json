@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a65f27b20965d56006af8f7e215c487d1a831578bbcfb736e",
+    "usage": {
+      "input_tokens": 1655,
+      "input_tokens_details": {
+        "cache_write_tokens": 1652,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1652
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 352,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2007
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 106,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_106.txt",
+      "source_sha256": "4a2f87b645c97a537cd36f8d7cc6a678e52a59a70373256be202dd133d7fb66d"
+    },
+    {
+      "page_number": 108,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_108.txt",
+      "source_sha256": "32ca370ea39d1a86cdbce1afbcbe2176a5474e47a498cd3379af2e2abb6a010b"
+    }
+  ],
+  "created_at": "2026-11-15T00:08:02Z",
+  "duration_seconds": 4.451,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 107
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_eng_alim/enade_2014_eng_alim_page_107.txt",
+    "source_sha256": "abf7e73ed5deec7b2478541a7b2418b6e6cb05ac14629a0a14c65e1b1f6a5391"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "13c6f8133b6a490667c95af9635bd7cd662a371e9f9dbbf3e46f99bd4041a48d",
+  "request_fingerprint": "bcf513b6bd5ab31fce9b2c55dae1d025fc3c7cae272ef6dbd2002f9ccbc22773",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2014”, which appears to belong to graph material on the target page."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 6,9% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 1,0% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa.\n\nTendo em conta o quarto superior, 84,3% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 57,4% optaram pelas mesmas categorias.",
+  "text_sha256": "649938e2646025c7f88e1a2ee31a7050ae79cc44236c7bb4c0768c8efd74f69f",
+  "window_size": 3
+}

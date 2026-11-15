@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05431d0897f27ccb006af8efd62c8c87d19279da9cb0b12311",
+    "usage": {
+      "input_tokens": 2536,
+      "input_tokens_details": {
+        "cache_write_tokens": 2533,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2533
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 3127
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 65,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_65.txt",
+      "source_sha256": "ded7f0b9a3ecc21bf97476eb3d71167181f45d2e8e6daf2d20f4788425ffd357"
+    },
+    {
+      "page_number": 67,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_67.txt",
+      "source_sha256": "5050797cb3459030f143639f6353e4230dddbe1bc1aaeedac51a4d516a6a697a"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:42Z",
+  "duration_seconds": 5.058,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 66
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_66.txt",
+    "source_sha256": "5523898ed832ad2fad1868aa61a164fce0fb3ab402f5c96b220272b00ae96fac"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "be655e1aa0d224d6aaf9acbbf9d895acf63c8dd47077f6a8d62ca2c776686cba",
+  "request_fingerprint": "88c48b82bdacf38ba2a6d1bc93025ed021f231220d2d41b2f659e7ca73b75396",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A maior média foi obtida pelos estudantes da região Nordeste (17,3), e a menor, pelos da região Sudeste (9,5). Quanto à variabilidade das notas, o desvio padrão de todo o Brasil foi 13,7. O maior desvio padrão foi encontrado na região Norte (16,6), e o menor, na região Sudeste (12,7).\n\nA maior nota máxima foi obtida na região Norte (68,3), enquanto a menor nota máxima foi encontrada na região Nordeste (43,3). Além disso, a nota mínima (0,0) foi obtida por alunos de todas as regiões do Brasil. A mediana do Brasil como um todo foi 8,3. A menor mediana foi zero, da região Sudeste, e a maior foi 13,3, da região Nordeste. As demais medianas foram: 2,5 da região Norte; e 10,0 das regiões Sul e Centro-Oeste.\n\nO Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição é unimodal com moda no intervalo de [0;10]. Nota-se que a distribuição é apenas decrescente e que não foram registradas notas maiores que 70. Confirmando tal comportamento o coeficiente de assimetria é positivo e maior do que um (1,07). Em todas as regiões a asimetria é positiva, longa cauda à direita, sendo o maior deles encontrado na região Norte (2,34) e o menor na região Nordeste (0,54).",
+  "text_sha256": "8fbd5a3009f3c723470fe9c414b2b7f549a8cfedb0dd3f2fa2f0ef03b9a46a6a",
+  "window_size": 3
+}

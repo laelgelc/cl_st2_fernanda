@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08a1f9afa6f94369006af8f6a5760887d18c08be22e3dcb889",
+    "usage": {
+      "input_tokens": 3089,
+      "input_tokens_details": {
+        "cache_write_tokens": 3086,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3086
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1362,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 4451
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_50.txt",
+      "source_sha256": "a18f83263c30fb7aeb755a7647a19806cd7d4c6cc06c744d5a1a2aaddb9717fb"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_52.txt",
+      "source_sha256": "ede1d7eb57d8bcfadf62ac693009930de67cff9240728d8d11f4d25e07bd73df"
+    }
+  ],
+  "created_at": "2026-11-15T00:02:45Z",
+  "duration_seconds": 13.598,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS BIOLÓGICAS.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_bio/enade_2014_ci_bio_page_51.txt",
+    "source_sha256": "e6e4b0ced62d4a154edceddd57803533140e9972e8e8f687478f762a03b0552e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72922dcf5e6841c3eb160d8831324515ec90586fe4c4a51bbeee71b02d0a94bc",
+  "request_fingerprint": "c1a7e342899086ef10f32f35532f2e0d1dbc8d67a1c3bb59c1cf22048df3d969",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.7, incluindo título, dados e fonte.",
+    "A lista explicativa sobre as cores do índice de discriminação parece continuar na página seguinte; o texto dessa página de contexto não foi incluído."
+  ],
+  "status": "success",
+  "text": "3.2.1 Componente de Formação Geral\n\nA Tabela 3.7 apresenta as estatísticas básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A média do Brasil foi 58,4. A menor média foi encontrada na região Norte (53,7), e a maior, na região Sudeste (60,9). As demais médias foram: 57,0 na região Nordeste; 57,3 na região Sul; e 58,6 na região Centro-Oeste. O desvio padrão do Brasil foi 20,9, sendo o maior desvio padrão encontrado na região Nordeste (20,9), e o menor, na região Centro-Oeste (20,3). Os demais desvios foram: 20,6 nas regiões Norte e Sul; e 20,8 na região Sudeste.\n\nAs medianas (62,5), as notas máximas (100,0) e as notas mínimas (0,0) foram iguais para quase todas as regiões, a exceção foi a região Norte que apresentou mediana 50,0.\n\nA Tabela 3.8 apresenta o índice de facilidade e o índice de discriminação (ponto bisserial) para cada uma das questões objetivas do Componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice muito fácil (>=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\nAs questões objetivas do Componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fácil, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Três questões foram consideradas de dificuldade médio, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos, enquanto uma questão foi classificada na categoria difícil, situando-se no intervalo entre 0,16 e 0,40. Por fim, nenhuma das questões apresentou menos de 15% de acertos, razão pela qual seria classificada como muito difícil.\n\nComo já comentado, para análise das questões objetivas, relativas à Formação Geral, segundo o poder de discriminação, utilizou-se o índice de discriminação (ponto bisserial). Nesta análise, as questões foram assim avaliadas: cinco das oito questões apresentaram índice acima ou igual a 0,40 e, assim, foram classificadas com índice muito bom para esse grupo de estudantes. Três questões tiveram índice de discriminação bom, com valor entre 0,30 e 0,39, para esse grupo de estudantes. Nenhuma questão teve nível médio ou fraco de discriminação para esse grupo de estudantes.\n\nO índice de facilidade variou de 0,36 a 0,83, e o de discriminação, de 0,35 a 0,53. As cinco questões com índice de discriminação muito bom figuraram entre os diversos níveis de dificuldade desse conjunto: três classificadas na categoria fácil (questões 3, 4 e 6) do índice de facilidade, uma, na categoria médio (questão 7) e outra, na categoria difícil (questão 5). Em particular, a questão 7 foi a que apresentou o maior poder discriminatório, com índice 0,53, porém foi considerada fácil em termos de facilidade, com uma proporção de 0,54 acertos. O máximo de acertos foi alcançado pela questão 8 com um índice de facilidade de 0,83. A questão de número 1 apresentou um índice de facilidade de 0,50, ou seja, a metade dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Seu índice de discriminação foi bom (0,39). Já a questão 5 obteve índice de discriminação muito bom, 0,41, porém seu índice de facilidade foi difícil (0,36).",
+  "text_sha256": "a76eb94b1af311b59ce879740987241cd23b7ecf39a76da70e4dbe7dd5ec8187",
+  "window_size": 3
+}

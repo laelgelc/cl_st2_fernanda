@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bc881e4ea78352a006af91fd63d1487d1a96b7c88f014f1c4",
+    "usage": {
+      "input_tokens": 1627,
+      "input_tokens_details": {
+        "cache_write_tokens": 1624,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1624
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 233,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1860
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_publ/enade_2022_tec_gest_publ_page_103.txt",
+      "source_sha256": "02988e8723c91a133bd2cdf8ed8bca75c6a02aa75c23b1bd52af58c2907be7a2"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_publ/enade_2022_tec_gest_publ_page_105.txt",
+      "source_sha256": "df12c7d6424ff87c09b417e25b495e7a013dbc174ef33151e6c239c1fdab835a"
+    }
+  ],
+  "created_at": "2026-11-15T02:58:30Z",
+  "duration_seconds": 3.395,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_tec_gest_publ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_TECNOLOGIA EM GESTÃO PÚBLICA.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_tec_gest_publ/enade_2022_tec_gest_publ_page_104.txt",
+    "source_sha256": "75bb5c6d78555a47d8e8896a02156e2b2bdb22d8223d3949af6683e137b41920"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d02f6ca2f4aaf033e7a0f4b97fc4942a98a68cc65ae3fe55bc43d591d9207322",
+  "request_fingerprint": "5fb78da22c83dce0889100d12d87cd46d26816b328e6b524bfdf127a74a28248",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 5.11, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados do Gráfico 5.11, considerando-se a extensão da prova, o percentual de estudantes que avaliaram a prova como “Longa” ou “Muito longa”, em relação ao tempo total destinado à sua resolução, foi maior entre os estudantes de universidades, alcançando 38,7%, enquanto entre os estudantes de CEFET/IF, a organização acadêmica com a menor incidência, esse índice atingiu 32%. Entre os participantes de centros universitários, o índice atingiu 36,8%. Entre os estudantes de faculdades, 32,8%.",
+  "text_sha256": "e9224cf2c5cb9b17c181e11f70dcb6f9a815620a658e7573ddfa73ab28ea50ca",
+  "window_size": 3
+}

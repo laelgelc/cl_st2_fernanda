@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c4be4959c518a37006af8fa18373887d19a622ff1691b099c",
+    "usage": {
+      "input_tokens": 1347,
+      "input_tokens_details": {
+        "cache_write_tokens": 1344,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1344
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 389,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 1736
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_115.txt",
+      "source_sha256": "3a269ed2628f07f8bf8c5087a721135be500c803e7a2bf7327b361077c2a4185"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_117.txt",
+      "source_sha256": "beb7bdf48b90c9a038656094b3749a0e1daf7d05473d81dcdd5c2071d0e882f2"
+    }
+  ],
+  "created_at": "2026-11-15T00:17:28Z",
+  "duration_seconds": 6.201,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_HISTÓRIA.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_hist/enade_2014_hist_page_116.txt",
+    "source_sha256": "05ade9bd51e27e2738b91ce54839d0a959653045f3121a434c71ed27140d5290"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "64435376de7c7991fe79f3eec0646ce9d2e8dd055f2a74754f63e94c269caa20",
+  "request_fingerprint": "1939094e6249bdcf2f5944a99a7acb6efafbab8b27fec5a3a4bd2a24aecab048",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido «Fonte: MEC/INEP/DAES - ENADE/2014», aparentemente pertencente a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. A diferença entre o segundo (68,0%) e o terceiro (69,2%) quartos não é estatisticamente significativa.",
+  "text_sha256": "f818b64927ba9833dd7fa89c53393ba518c22f0994dcabfd895a561dc424705b",
+  "window_size": 3
+}

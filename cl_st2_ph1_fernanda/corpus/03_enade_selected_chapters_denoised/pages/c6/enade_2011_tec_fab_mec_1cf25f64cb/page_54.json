@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0534e4ff33bb5523006af8ef63341087d18c93a31779bc8966",
+    "usage": {
+      "input_tokens": 2665,
+      "input_tokens_details": {
+        "cache_write_tokens": 2662,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2662
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 3081
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_53.txt",
+      "source_sha256": "5ea3bdaf700df6aebd35d8b1251266dc155336f190d318908dd047aa4c29dc47"
+    },
+    {
+      "page_number": 55,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_55.txt",
+      "source_sha256": "b9e941d087fddf24776d048ea83033d5b8cf28b00bb5aa1fc19d0e4c75ff99d4"
+    }
+  ],
+  "created_at": "2026-11-14T23:31:47Z",
+  "duration_seconds": 4.961,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_fab_mec",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM FABRICAÇÃO MECÂNICA.pdf",
+    "page_number": 54
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_fab_mec/enade_2011_tec_fab_mec_page_54.txt",
+    "source_sha256": "5dd82f819de99c93ef8612ff0706331f01d6ef48965be6ac4e6f22433ca745f6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5c159e4a3819eec20139daaaca014ff8eeb1cd070a0f06da17bf9f96bc98cd3c",
+  "request_fingerprint": "73afcc6b90049c43759d35a27a2981109fb2f75bde6f5e344a654c4ce9822f88",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte do material gráfico; o gráfico correspondente não aparece no texto extraído da página."
+  ],
+  "status": "success",
+  "text": "Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. Já, dentre os que marcaram alguma opção válida nesta questão, o menor número de acertos na prova foi 2.\n\nA alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções por alunos com mais acertos nesta parte da prova, chegando a atingir 100% para os que acertaram pelo menos 17 questões. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com notas mais baixas. A proporção de alunos que escolheram alternativas incorretas decai, a partir dos que obtiveram pelo menos sete acertos.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "6b28c2a114044f638a5dacf96ae67398943df544d49fb3192647ce8e8f88b5b6",
+  "window_size": 3
+}

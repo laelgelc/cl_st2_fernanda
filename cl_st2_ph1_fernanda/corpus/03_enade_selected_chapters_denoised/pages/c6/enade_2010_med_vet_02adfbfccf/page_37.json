@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_060886f53da578cd006af8e927eb2887d1bcb2e11d2f8d8882",
+    "usage": {
+      "input_tokens": 2654,
+      "input_tokens_details": {
+        "cache_write_tokens": 2651,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2651
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 677,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 3331
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med_vet/enade_2010_med_vet_page_36.txt",
+      "source_sha256": "052905d6906712084788a7bf566aeca36c6c002a885a4b69088036fdc23a98c3"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med_vet/enade_2010_med_vet_page_38.txt",
+      "source_sha256": "d3dd9cd2e109f50da9d1462391427782f60b3b7b0f6eab8bda1a296c457ad4e3"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:11Z",
+  "duration_seconds": 5.053,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_med_vet",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA VETERINÁRIA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med_vet/enade_2010_med_vet_page_37.txt",
+    "source_sha256": "1f79c9a64ba2c41cf233987b943fded4757246e4bf7e8ced30a3ff9fb4372aaa"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c9969e6ef68dcf36a0d8b8802b5bc781f3c2e302d335b2881108d2371cad66e6",
+  "request_fingerprint": "4eb2dcf459721a455d24cfe6cffef30359b85cb1bbbb45ecaad58e1a14d5a37c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3, incluindo título, fonte e rótulos/dados do gráfico. Os rótulos e dados extraídos após a prosa pertencem ao gráfico, não ao texto sobre o Gráfico 3.4."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos Ingressantes e dos Concluintes no componente de Formação Geral, em diferentes agregações como Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Grande Região, observa-se que no grupo de Ingressantes existe diferença estatisticamente significativa ao nível de 95% entre as médias na região Nordeste (45,1, a mais alta) e Sudeste (40,0, a mais baixa). No grupo de Concluintes, a nota mais elevada também ocorreu na região Nordeste (49,8), destacando-se, ainda, a Sul (49,2). A diferença entre notas mais altas e mais baixas para Concluintes não foi estatisticamente significativa ao nível de 95%: a menor nota foi 46,8, correspondente aos da região Norte. Destaca-se que a região Sudeste ficou abaixo da média nacional no componente de Formação Geral também para Concluintes (47,1).\n\nTendo como foco as Categorias Administrativas, as instituições públicas obtiveram médias mais elevadas do que as privadas: para Concluintes, notas médias de 53,1 em cursos de IES públicas e de 44,7 nos das privadas. Para os Ingressantes, as notas foram de, respectivamente, 49,9 e 36,4. Em comparação à média nacional, as notas de Ingressantes e de Concluintes vinculados às instituições públicas foram superiores, ao passo que, nas instituições privadas, foram inferiores.",
+  "text_sha256": "9d481616e080786dc0544e5c5b681ae920101f84450ad300fdd3d78b1b4ba59f",
+  "window_size": 3
+}

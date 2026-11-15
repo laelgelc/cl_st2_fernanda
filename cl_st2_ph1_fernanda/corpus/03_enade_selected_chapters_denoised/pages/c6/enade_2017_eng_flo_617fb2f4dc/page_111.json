@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01efec9f34f4edc3006af90730d05487d18dc2e51de6ef11da",
+    "usage": {
+      "input_tokens": 3094,
+      "input_tokens_details": {
+        "cache_write_tokens": 3091,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3091
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 325
+      },
+      "total_tokens": 3861
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 110,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_110.txt",
+      "source_sha256": "debbe75a9e6052bbe33863af903216a408422d8133cd8821e73a3b2add9b0d17"
+    },
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_112.txt",
+      "source_sha256": "4ae33c2f861a73e5e1b2472667500f5d2515dd954eecf7f276793a366c404cc3"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:20Z",
+  "duration_seconds": 7.658,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 111
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_111.txt",
+    "source_sha256": "61df0381043d23b58db70d55d2044ff8d0399f19f5581826f9fc5a46d89d71b5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3ffe21df60ed0028e5360fdb3ea88d009a39da2536773879a1c49d1cf8e41ad4",
+  "request_fingerprint": "60003a5c49841d63cae1aa9a85e4b08b9d54f93a4de30665a57bc3a4b7088322",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.8, incluindo título, dados e fonte, e a Tabela 6.9, incluindo título, dados e fonte.",
+    "A última frase termina em “e” na página-alvo; não foi completada com texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.9 apresenta a distribuição das questões, levando-se em conta simultaneamente a classificação dos dois índices. Sete das oito questões foram classificadas com Índice de Discriminação Muito bom e figuraram entre quatro níveis de dificuldade: Muito fácil, Fácil, Médio e Difícil: uma na categoria Muito fácil (questão 6), duas classificadas na categoria Fácil (as questões 4 e 5) do Índice de Facilidade, uma na categoria Médio (questão 8) e três na categoria Difícil (questões 1, 3, e 7). Em particular, a questão 8 foi a que apresentou o maior poder discriminatório, com índice 0,49, e foi considerada com Índice de Facilidade Médio, com uma proporção de 0,58 acertos. O máximo de acertos foi alcançado pela questão 6 com um Índice de Facilidade de 0,90. As questões 1, 3 e 7 foram consideradas de nível Difícil, com índices de facilidade 0,23, 0,40 e 0,39, respectivamente. Já os índices de discriminação foram Muito bom para essas três questões foram 0,41, 0,42 e 0,48, respectivamente. A questão de número 2 apresentou um Índice de Facilidade de 0,73 (Fácil), e foi a que obteve o menor Índice de Discriminação foi Bom (0,39).\n\nNo Gráfico 6.4, para exemplificar, é analisado o comportamento da questão de número 4 de Formação Geral. Trata-se de uma questão considerada Fácil, em relação à facilidade, e",
+  "text_sha256": "f2c051ffaf357ebcee317f25104fa891a2e43749547eec0977bbd599d67594ed",
+  "window_size": 3
+}

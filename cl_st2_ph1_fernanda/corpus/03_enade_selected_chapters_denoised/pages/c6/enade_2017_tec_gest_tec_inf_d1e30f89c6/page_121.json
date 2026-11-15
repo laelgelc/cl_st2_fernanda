@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0faf04f523995e8b006af90b79587887d1a24332c0ae095b8b",
+    "usage": {
+      "input_tokens": 2558,
+      "input_tokens_details": {
+        "cache_write_tokens": 2555,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2555
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1087,
+      "output_tokens_details": {
+        "reasoning_tokens": 343
+      },
+      "total_tokens": 3645
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_120.txt",
+      "source_sha256": "e9365c4348420b35f9843165ce1f1d15b27e20b09f02e777bd38b024bdc989c2"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_122.txt",
+      "source_sha256": "1ad44faed7436aacb140cb55a3184e57b68397bbac63bc2beb3cded07a175a8a"
+    }
+  ],
+  "created_at": "2026-11-15T01:31:37Z",
+  "duration_seconds": 9.299,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM GESTÃO DA TI.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_gest_tec_inf/enade_2017_tec_gest_tec_inf_page_121.txt",
+    "source_sha256": "86fdf19a09b9ed90cb32c8ef0bb3c159a9405b8bf29d56c594fbae637f1749b0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b6c3203d2edc2b4c7aa92b84424d0eff242f378ff9fe83c9636ddcfd57121ffa",
+  "request_fingerprint": "0b9587138a71d538f5fe417cbcf0f20ee178a7497b56804da13f9ef867bbe478",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.6, incluindo título, estatísticas, dados e fonte.",
+    "Removida a linha de fonte no início da página, identificada pelo contexto como pertencente ao Gráfico 6.3 da página anterior."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.6 apresenta uma comparação dos resultados em relação à Categoria Administrativa, à Organização Acadêmica e a Modalidade de Ensino, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior Média foi das Faculdades (45,4), vindo a seguir as das Universidades e dos Centros Universitários (44,7) e, depois a dos CEFET/IFET (43,5). O maior Desvio padrão, e acima do valor para o Brasil (14,7), como um todo, foi o dos CEFET/IFET (16,0). As Universidades obtiveram a maior nota Máxima (93,4). Os Centros Universitários obtiveram nota Máxima igual a 86,9, as Faculdades obtiveram nota Máxima igual a 84,4 e nos CEFET/IFET a nota Máxima foi 87,4. As medianas foram: 44,5 nas Universidades, nos Centros Universitários e nos CEFET/IFET. Nas Faculdades, a Mediana foi maior, 46,0. A nota Mínima foi diferente de zero nas Faculdades (2,7) e nos CEFET/IFET (8,1). Observa-se que não existem diferenças estatisticamente significativas ao nível de 95% no Componente de Conhecimento Específico entre as notas das Organizações Acadêmicas.\n\n6.2 ANÁLISE DAS QUESTÕES OBJETIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Objetivas de Formação Geral (6.2.1) e de Conhecimento Específico (6.2.2). São também apresentadas e comparadas as médias das subpopulações caracterizadas por Grande Região.\n\n6.2.1 Componente de Formação Geral\nA Tabela 6.7 apresenta as Estatísticas Básicas relativas às oito questões objetivas do componente da prova que abrange a Formação Geral dos estudantes. A Média do Brasil foi 45,5. A menor Média foi encontrada na região Centro-Oeste (39,6), e a maior, na região Sul (47,9). As demais médias foram: 42,4 na região Norte, 45,6 na região Nordeste e 45,1 na região Sudeste. O Desvio padrão do Brasil foi 20,6, sendo o maior Desvio padrão encontrado na região Sul (21,1), e o menor, na região Norte (19,5). Os demais desvios foram: 20,6 na região Nordeste, 20,4 na região Sudeste e 20,0 na região Centro-Oeste.\n\nAs medianas do Brasil como um todo e das regiões Sudeste e Sul foi 50,0. Nas outras três regiões, Norte, Nordeste e Centro-Oeste, a Mediana foi 37,5. A nota Máxima 100,0 foi alcançada nas regiões Nordeste, Sudeste e Sul e nas regiões Norte e Centro-Oeste a nota Máxima foi 87,5. As notas mínimas (0,0) foram iguais para todas as regiões.",
+  "text_sha256": "5b012041aa34b6d86ee00ce13b4261d39574248ff9207e8636ecc44e3dcac4cd",
+  "window_size": 3
+}

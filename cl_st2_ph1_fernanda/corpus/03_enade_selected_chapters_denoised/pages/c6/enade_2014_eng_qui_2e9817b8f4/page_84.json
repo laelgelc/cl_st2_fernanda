@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_053586eaa4d55324006af8f945f27887d1a44e7b6d48b26ca1",
+    "usage": {
+      "input_tokens": 2542,
+      "input_tokens_details": {
+        "cache_write_tokens": 2539,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2539
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 260,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 2802
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_83.txt",
+      "source_sha256": "8d440cc3bc37cb2b5b4e86e31cca4f10635825d847bb4d393c453baf90d9de5e"
+    },
+    {
+      "page_number": 85,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_85.txt",
+      "source_sha256": "b197dd52fa348047bf4d9383fddea92202264b8dcb3f35ce8b9c1d228797c002"
+    }
+  ],
+  "created_at": "2026-11-15T00:13:57Z",
+  "duration_seconds": 3.263,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 84
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_qui/enade_2014_eng_qui_page_84.txt",
+    "source_sha256": "0a78d3b161abc6a338b6b1e7d84030411fa3306c84e5a2b8d93322a4719ce106"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72170d1a6780ec1ad21533c7f51c73dbcead7c9512445b522afd33a5f8524b84",
+  "request_fingerprint": "87e5b437f6983a3b6b08ed63dc81f6e5d954e09f330b1e2881b18c3dc7f09806",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.17, incluindo título, dados e fonte, e o Gráfico 3.12, incluindo o gráfico e sua fonte."
+  ],
+  "status": "success",
+  "text": "zero, isso significa que pelo menos a metade de todos os estudantes zeraram ou deixaram em branco esta questão.\n\nO Gráfico 3.12 representa a distribuição de notas da questão discursiva 4, do Componente de Conhecimento Específico. Desconsiderando as questões em branco (cerca de 35%), essa distribuição é unimodal com moda nas notas zeradas, e com distribuição decrescente até o intervalo (80; 90].",
+  "text_sha256": "0c4f7d54cffc755661461bf03610dbbb99c2bb008284929474b4cfb6831b084c",
+  "window_size": 3
+}

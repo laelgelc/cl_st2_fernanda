@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07d7012f73a5464a006af9231c087887d19027c29bc079cb28",
+    "usage": {
+      "input_tokens": 1824,
+      "input_tokens_details": {
+        "cache_write_tokens": 1821,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1821
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 245,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 2069
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_flo/enade_2023_eng_flo_page_80.txt",
+      "source_sha256": "425c945287f51b143a107390986250450add05a50d283c557522a545654b0406"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_flo/enade_2023_eng_flo_page_82.txt",
+      "source_sha256": "222e0e055b711fc83d5875efe1cd7bd7fba4b0fd4bc5f125dd05014aff0bd68c"
+    }
+  ],
+  "created_at": "2026-11-15T03:12:27Z",
+  "duration_seconds": 2.474,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_eng_flo/enade_2023_eng_flo_page_81.txt",
+    "source_sha256": "a41731c51de1465c40d7b8e751ceebb53197453dc8c3fb80de1e6db1b16e32af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0a730a1670abf2f3e7a7dead09d710ff011ea148cce2cde5bf7f10bf8ef25f78",
+  "request_fingerprint": "89bf1f387f9e2b441c88b71303333152734482c807739ab5cd7e822957d40fb9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.18, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 apresenta mais resultados sobre a questão tratada no gráfico anterior, porém por quartos de desempenho.\n\nOs dados do Gráfico 3.18 mostram que a proporção de estudantes que consideraram os enunciados das questões compreensíveis e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho, com percentual mais elevado no quarto superior (91,9%), se comparado ao quarto inferior (78,7%). As diferenças entre o 1.º quarto e os demais quartos de desempenho são estatisticamente significativas, exceto entre o 2.º quarto.",
+  "text_sha256": "c7a3bb6098a1bd3797ca1f4103cf0c389f9085a7a5a88ea3f92d4b670be752f2",
+  "window_size": 3
+}

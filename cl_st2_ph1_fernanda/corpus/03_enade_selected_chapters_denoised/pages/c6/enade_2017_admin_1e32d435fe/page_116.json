@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fafc72b7ef718d5006af90490105487d180649fa0af315880",
+    "usage": {
+      "input_tokens": 3098,
+      "input_tokens_details": {
+        "cache_write_tokens": 3095,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3095
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 488,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 3586
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 115,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_115.txt",
+      "source_sha256": "478a943533c0c14149b600976773dd6cbf4742589841a3940aebdabb93bcfaaa"
+    },
+    {
+      "page_number": 117,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_117.txt",
+      "source_sha256": "f545e6f0d13e1e7b196eb58cf1b919a6af25e06021afe1d14a7edd653417be31"
+    }
+  ],
+  "created_at": "2026-11-15T01:02:07Z",
+  "duration_seconds": 5.251,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ADMINISTRAÇÃO.pdf",
+    "page_number": 116
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_admin/enade_2017_admin_page_116.txt",
+    "source_sha256": "70e6ec5d09fb93a6f51628d9b2b20f991185728e13adaefeb28da9c51ad9c67d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "27967345a79ae4b09020fb59b2efba0710ce1e5895f51b05de5ba32839e500a9",
+  "request_fingerprint": "47a6eb95fc087904347dbb5f8dea589e232a49c60fbcafeaf076f21c403dd81b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.11, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A Tabela 6.12 apresenta a distribuição das questões considerando-se simultaneamente a classificação dos dois índices. Dentre as questões que alcançaram os maiores Índices de Discriminação, classificadas com Muito bom, uma delas, a de número 23, foi a de índice mais elevado (0,47), classificada como Fácil quanto ao Índice de Facilidade, com 66% dos estudantes marcando a opção correta. A questão de número 20 foi a mais difícil dentre as 27 questões específicas válidas, com baixo Índice de Facilidade, apenas 16% de acertos. Essa questão apresentou poder discriminatório muito baixo, 0,04, o que comprova ter sido a mais difícil para os estudantes. Destaca-se, também, a questão 22, com Índice de Facilidade 0,18, o que, em termos percentuais, corresponde a 18% de estudantes que responderam acertadamente. Já 0,18 foi o seu Índice de Discriminação. Tais questões foram, portanto, pelo critério ponto-bisserial, consideradas inadequadas. Por isso, as questões 20 e 22, além das questões 11 e 32 foram eliminadas do cômputo da nota final.",
+  "text_sha256": "b87b2e7df61a5387bc7c728d981720d2be7e689733933a0f8cdb8c774782d388",
+  "window_size": 3
+}

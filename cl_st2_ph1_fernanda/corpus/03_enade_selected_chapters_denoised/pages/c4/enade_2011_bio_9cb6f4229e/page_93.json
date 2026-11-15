@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0eebf6cda1410441006af8eb04c26487d1b32c68d96b5330c6",
+    "usage": {
+      "input_tokens": 1575,
+      "input_tokens_details": {
+        "cache_write_tokens": 1572,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1572
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 330,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 1905
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_92.txt",
+      "source_sha256": "e21f53ab004fe46c45e62f5b3d620b6629ed53c52030375f685f1b68f945192d"
+    },
+    {
+      "page_number": 94,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_94.txt",
+      "source_sha256": "cf892a080d7858fc22306f822ce530c1554243e2251ad019eb9065675fce790b"
+    }
+  ],
+  "created_at": "2026-11-14T23:13:08Z",
+  "duration_seconds": 3.914,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_bio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_BIOLOGIA.pdf",
+    "page_number": 93
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_bio/enade_2011_bio_page_93.txt",
+    "source_sha256": "30c4cf9bf5ec099cf82560e3dd9e9bd11cbc608e7584e47d786918de57b4deaf"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ba11df440f477fab75413922cbe097218888f9b106299db58981de985fb3be77",
+  "request_fingerprint": "a762f865c8e2491345401d87661ac628d1008e7331461def8ed0f9a12e5eebdf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, provavelmente vinculada a gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (80,6%) se comparada ao quarto inferior de desempenho (66,1%). As diferenças do primeiro para os demais quartos e do segundo para os dois seguintes, são estatisticamente significativas.",
+  "text_sha256": "cac4dcd5029fabfdf7952ba84de375f502e2f63a883c0d7150af4fa742289425",
+  "window_size": 3
+}

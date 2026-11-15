@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ba1539a722e86b1006af8eec942ac87d18ab6da6b3cedcd46",
+    "usage": {
+      "input_tokens": 2434,
+      "input_tokens_details": {
+        "cache_write_tokens": 2431,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2431
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 675,
+      "output_tokens_details": {
+        "reasoning_tokens": 405
+      },
+      "total_tokens": 3109
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_68.txt",
+      "source_sha256": "1c5e2ebaba0e2119e7b468b10d98d87279a5bd2dcc25982fad04cbfb6bab7c57"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_70.txt",
+      "source_sha256": "7ce385fc3c5be8461260d07da9e950aff26e4a23e4f8e879d1d8399d90b9b9bd"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:13Z",
+  "duration_seconds": 6.562,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_69.txt",
+    "source_sha256": "4324daf0ba4e3784786242f3bfdc127802442396b25d13fd6d61033a6484d670"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c15321529384752294347ea96023adfae2c30c7bba393dd8c7fac33aa92ff994",
+  "request_fingerprint": "6dd4512110b3e3ffbd582e31fa9c2c1b36e7bf267b4f17b6f0a169deb9e99d15",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título e os dados da Tabela 3.10 e o gráfico do Gráfico 3.17. A linha de fonte do gráfico aparece na página de contexto seguinte e não foi incluída."
+  ],
+  "status": "success",
+  "text": "A mediana 60,0 do Brasil foi encontrada também nas regiões Nordeste, Sudeste e Sul. Na região Norte a mediana foi a maior (70,0), e na Centro-Oeste, a menor (50,0). A nota máxima (100,0) foi obtida em todas as regiões do Brasil, exceto na região Norte onde a nota máxima foi 90,0. A nota mínima foi 0,0 em todas as regiões.\n\nO Gráfico 3.17 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. O intervalo modal, o de maior frequência, é (50;60]. Nota-se que o percentual de estudantes que deixou a questão 2 em branco é maior do que o encontrado na primeira questão. Esta categoria é também uma segunda moda. A distribuição apresenta uma assimetria negativa (coeficiente –0,55) e o mesmo ocorre em todas as regiões, sendo que na região Norte este coeficiente chega a –1,67.",
+  "text_sha256": "c04f0c875718fb23e2d36285b2902fc41aa04f34a71a41006a6d0e85d3ca74e4",
+  "window_size": 3
+}

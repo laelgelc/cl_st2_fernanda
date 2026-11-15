@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0edb82895f341e08006af924813bd487d19dffa5cd9c974178",
+    "usage": {
+      "input_tokens": 2466,
+      "input_tokens_details": {
+        "cache_write_tokens": 2463,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2463
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 374,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 2840
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_120.txt",
+      "source_sha256": "19c81d3c4cc8d4d0e491f950863729a0953f07cca2ddf8950f8b818a3f344fda"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_122.txt",
+      "source_sha256": "b4afc62917ac73c3cad476bd6cf493f76a9775214635a2f2fa661939176f4161"
+    }
+  ],
+  "created_at": "2026-11-15T03:18:25Z",
+  "duration_seconds": 3.461,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2023_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_ODONTOLOGIA.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2023_odonto/enade_2023_odonto_page_121.txt",
+    "source_sha256": "ad306fbf5f9e95493d308043fd5633f4e30b84dc76d4b3deaefe3645effff91e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "82986026560300ff5ceb70e43f7d8415217511ad0837eae13dc45c13f1a57a1d",
+  "request_fingerprint": "5b170e7d81cdce7002fcc72b6be0a4066cf0eb9e6e80e0c715c3c02b9fd32a76",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.6, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "De acordo com os dados expostos na Tabela 5.6, no que se refere à organização acadêmica, a maior média foi das universidades (52,4), seguida dos centros universitários (47,6), e das faculdades (46,9. O maior desvio-padrão foi o das universidades (13,8). As universidades obtiveram a maior mediana (53,0). Já as notas máximas foram: 98,5 nas universidades, 89,5 nos centros universitários e 90,0 nas faculdades. A nota mínima foi zero para todas as organizações acadêmicas. Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, no componente de Conhecimento Específico entre as notas dos tipos de organização acadêmica.\n\nQuanto à categoria administrativa, existe diferença estatisticamente significativa entre as médias das IES públicas (58,1) e as das IES privadas (48,0). Neste caso, assim como no componente de Formação Geral, a maior média foi obtida por estudantes de IES públicas de ensino.\n\nOs cursos de educação presencial apresentaram média de 49,3.",
+  "text_sha256": "8253c38b004549d06af14361a3203a96982b51252e2431078f4a8719e1383d47",
+  "window_size": 3
+}

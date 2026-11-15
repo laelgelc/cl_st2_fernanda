@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d979c25ff1da785006af901bf69dc87d199bbcef5bc6592d6",
+    "usage": {
+      "input_tokens": 1791,
+      "input_tokens_details": {
+        "cache_write_tokens": 1788,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1788
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 332,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 2123
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_ef/enade_2016_ef_page_101.txt",
+      "source_sha256": "d5b70a21db38fb4c06281063efa4f0616e09512f3374dde60ac51ee4a70804b0"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_ef/enade_2016_ef_page_103.txt",
+      "source_sha256": "5050684de998f6fff953902a6b39275cadf33e19e87b35360adcf99a10b682b1"
+    }
+  ],
+  "created_at": "2026-11-15T00:50:07Z",
+  "duration_seconds": 3.502,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_ef/enade_2016_ef_page_102.txt",
+    "source_sha256": "fdaa3898b8c8b9c12dab06b781c3223855216d3aaf98b260d62ed306c2969583"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "7013390b52c3857a5cacd3b38e05319443052a15b362162e1c14e78539165ea7",
+  "request_fingerprint": "6155d21cd26643bdba7cd49688c98f04791c62749241723a49c9e5e13e0f1e3d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, a legenda e a fonte do Gráfico 4.11. A última frase termina em “quarto superior” na página-alvo; não foi completada com o texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Quanto à distribuição de respondentes pelas Grandes Regiões observa-se que a proporção de estudantes que consideraram as informações/instruções fornecidas até excessivas ou “suficientes” em todas ou na maioria das questões foi sempre igual ou superior a 84,7%, chegando a 90,8% na região Sul. A diferença entre o maior percentual, obtido na região Sul, e o menor, da região Norte (84,7%) é estatisticamente significativa.\n\nLevando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes do primeiro quarto de desempenho e as dos demais quartos, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram “as informações/instruções” como até excessivas ou “suficientes” em todas ou na maioria das questões foi mais elevado no quarto superior",
+  "text_sha256": "93301f4c6b575d52d7a5c146fc962abb75ef28216484c1848cb37a5aa778d10f",
+  "window_size": 3
+}

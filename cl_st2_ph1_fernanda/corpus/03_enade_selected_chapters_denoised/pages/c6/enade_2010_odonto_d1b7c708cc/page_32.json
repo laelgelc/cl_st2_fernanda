@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_028efa8eb2a21ced006af8e98b6c6087d1bc9bbd7364ec0ac8",
+    "usage": {
+      "input_tokens": 2865,
+      "input_tokens_details": {
+        "cache_write_tokens": 2862,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2862
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 3306
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_odonto/enade_2010_odonto_page_31.txt",
+      "source_sha256": "81c8824eb98eaf7e8be0662fcc54bdedade2d816e190c65d47b90f58330ec207"
+    },
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_odonto/enade_2010_odonto_page_33.txt",
+      "source_sha256": "6d6b827fd8c8ebc49f127be7e2192f43484d483270674fd3c2a05727ee3066c8"
+    }
+  ],
+  "created_at": "2026-11-14T23:06:51Z",
+  "duration_seconds": 4.815,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_ODONTOLOGIA.pdf",
+    "page_number": 32
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_odonto/enade_2010_odonto_page_32.txt",
+    "source_sha256": "e72058268071905946625eff5691da468618dce9c783f7299ddc806126a63bc8"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f5abb94f48e8a1e9a7a4457fc918ed28a0f731457b50ac3f9f50c34328c90bba",
+  "request_fingerprint": "d830062ee78279b6c34b35b831a03f70d8e4723918a960c148a266bffe17d30b",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1 e seus dados, título e fonte, além do Gráfico 3.1 e seus elementos (escalas, intervalos, legenda, título e fonte)."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 35,6 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 54,8, transparecendo uma superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1).\n\nOs coeficientes de assimetria indicam uma assimetria negativa (-0,5) para os Concluintes, e comportamento simétrico (0,0) para Ingressantes.",
+  "text_sha256": "2966482f8ffe9eb948729de96fc79ceef484f8b422ca8c10d15f70c9fdd52629",
+  "window_size": 3
+}

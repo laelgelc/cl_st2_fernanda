@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e354e6bdf7fe01e006af906033f8887d1a0b1be3bfe1d10ac",
+    "usage": {
+      "input_tokens": 2671,
+      "input_tokens_details": {
+        "cache_write_tokens": 2668,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2668
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 337,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 3008
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 149,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_149.txt",
+      "source_sha256": "22a4fc13c2aef3559f551394db2297ae8bc9f248184daba06443429c71dae147"
+    },
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_151.txt",
+      "source_sha256": "d22ee346ba27261635f11d1197ea276d3dd447b0c3197935dc4c7a2ff452fd37"
+    }
+  ],
+  "created_at": "2026-11-15T01:08:19Z",
+  "duration_seconds": 4.224,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_civ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA CIVIL.pdf",
+    "page_number": 150
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_civ/enade_2017_eng_civ_page_150.txt",
+    "source_sha256": "5ef5d524077ea0485424e295422fdd740c840cea3e87535dfa5ddfa20237916b"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "58f4c6969c586780f070f5b5e8f4adad3857afc42cae972674efbdb78a49c827",
+  "request_fingerprint": "d145e33e24cd19857d8cdcb232dc91bf892fa89ac67d6f387720bee22dc1b0b5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte da Tabela 6.17.",
+    "Removido o material gráfico do Gráfico 6.10 e sua linha de fonte; a descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.10 representa a distribuição das notas nas questões discursivas no Componente de Conhecimento Específico. A moda dessa distribuição ocorre no intervalo [0; 10], com cerca de 35% do total de participantes. A distribuição, grosso modo, é decrescente com a nota. Observa-se que nesses intervalos estão computadas também as ocorrências de respostas em branco para as três questões discursivas de Conhecimentos Específicos.\n\nA análise de cada uma destas questões será feita a seguir.",
+  "text_sha256": "c1d5dc770a9bc765894b4ac16772a56bff961293993ab7e9b99244be37ed200e",
+  "window_size": 3
+}

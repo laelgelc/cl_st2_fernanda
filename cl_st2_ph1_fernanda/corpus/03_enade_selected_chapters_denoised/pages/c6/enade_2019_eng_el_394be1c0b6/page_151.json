@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_022b8154ef043769006af911db39fc87d1b1db1bd51eb51559",
+    "usage": {
+      "input_tokens": 2381,
+      "input_tokens_details": {
+        "cache_write_tokens": 2378,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2378
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 831,
+      "output_tokens_details": {
+        "reasoning_tokens": 488
+      },
+      "total_tokens": 3212
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_150.txt",
+      "source_sha256": "aedd38a2bad7add122fbc2174c4346c792cc641c945db6768179841ae07307bd"
+    },
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_152.txt",
+      "source_sha256": "ec6d3dc9786043a70afbfee650085ade154353f944c0e7b3d670499d84cb9926"
+    }
+  ],
+  "created_at": "2026-11-15T01:58:51Z",
+  "duration_seconds": 7.815,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 151
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_el/enade_2019_eng_el_page_151.txt",
+    "source_sha256": "b8ad401f66936985861480502d7783e504db62aba769a10a5ea110949a72abe5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f9ec5d7319e9f68064993054087c4de1d0acf89f1b53ea024375cc267a03f4f6",
+  "request_fingerprint": "071589fa360234cd0d39e6e43f3848f4e673539e4ea8e787c6418e2fd95bca00",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/Inep/Daes – Enade/2019», identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 13,3 para a nota da prova, como um todo, e 16,0 para o Componente de Formação Geral.\n\nNa Tabela 6.4, são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino. Em relação a Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (47,8) que a Média nacional (41,5), e os das IES Privadas obtiveram Média mais baixa (37,5). Observa-se que existe diferença estatisticamente significativa, ao nível de 95%, entre as Médias das notas das IES Públicas e as das Privadas. A diferença entre as Médias das regiões Centro-Oeste e Norte (5,2), a maior e a menor Média, é inferior à diferença entre a das IES Públicas e Privadas (10,3), caracterizando-se uma maior diversidade administrativa do que regional. O Desvio padrão para as IES Públicas (15,3) e IES Privadas (15,1) ambos inferiores ao do Brasil, como um todo (16,0), indica uma maior diferença das notas por Categoria Administrativa do que entre os cursos em cada uma delas.",
+  "text_sha256": "75c541fc41c4389eb40d38e67c6cd656d68ec2ed745856de5354823a83558f17",
+  "window_size": 3
+}

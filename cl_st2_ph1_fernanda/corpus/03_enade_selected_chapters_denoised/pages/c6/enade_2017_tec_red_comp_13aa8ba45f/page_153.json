@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00483610cf61a5d9006af90bbceb1087d1a0c65671c7dcdc59",
+    "usage": {
+      "input_tokens": 2404,
+      "input_tokens_details": {
+        "cache_write_tokens": 2401,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2401
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 2936
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_152.txt",
+      "source_sha256": "2d99731a0034f9b3d97769ac0a1a3988524c456473ed8dee471ad5ca91a5acd6"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_154.txt",
+      "source_sha256": "b60f45e96b86a98312d888b0de5c42bf852b6c2b8f539972399c6f3d3bddfd92"
+    }
+  ],
+  "created_at": "2026-11-15T01:32:44Z",
+  "duration_seconds": 5.316,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_TEC EM REDES DE COMPUTADORES.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_tec_red_comp/enade_2017_tec_red_comp_page_153.txt",
+    "source_sha256": "b3efd00a7fca41dc8e48a19868ac78165e4ced509f073dc6e12872879397281a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f4b551ef711c0ce9ea8b5d44c1356a699f6849a65c38e72040afaf2bdea7412",
+  "request_fingerprint": "dfc9da91eabfdbed5b3bbf8670867559df4773542cde1e2d8354fdc918938522",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o material gráfico do Gráfico 6.11 e sua linha de fonte, que aparece no início da página-alvo. O texto da página termina em uma frase incompleta; não foi completada com conteúdo da página de contexto."
+  ],
+  "status": "success",
+  "text": "6.3.2.2 Comentários sobre as respostas à Questão Discursiva 3\nNa Questão 3, o objetivo era verificar o conhecimento do estudante referente a dois conceitos: (i) endereçamento IP (Internet Protocol), que implica determinar os endereços dos elementos de uma sub-rede IP, ou seja, endereço da rede, endereço do roteador, faixa de endereços dos hosts e endereço de broadcast; e (ii) notação Classless Inter-Domain Routing (CIDR) para o prefixo da rede, que implica indicar a quantidade de bits significativos de um prefixo formado por 4 octetos, através da notação prefixo/valor, na qual o prefixo é o endereço da rede e valor é um inteiro positivo entre 0 e 32. Para isso, apresentou-se uma situação clássica de interligação de três redes de dados através de dois enlaces que, respectivamente, conectavam os roteadores de borda B1 e B2 ao roteador de borda HQ.\nA linguagem utilizada no enunciado estava tecnicamente adequada ao conteúdo abordado que, por sua vez, estava em conformidade com as Diretrizes da área de Tecnologia em Redes de Computadores. Seu grau de exigência pode ser considerado médio, pois a questão requeria muita atenção do estudante, que deveria prover uma resposta de alocação",
+  "text_sha256": "7b6dcd66c625b5df2c94099b337d28afb06892fce12cc42744e6c0a0a8d5520a",
+  "window_size": 3
+}

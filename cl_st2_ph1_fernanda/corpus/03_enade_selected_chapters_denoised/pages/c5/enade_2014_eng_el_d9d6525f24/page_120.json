@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bf0fd0057e0c093006af8f8871a7487d1a224074ad5e66762",
+    "usage": {
+      "input_tokens": 2648,
+      "input_tokens_details": {
+        "cache_write_tokens": 2645,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2645
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 2888
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 119,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_eng_el/enade_2014_eng_el_page_119.txt",
+      "source_sha256": "fd697913f336cee9557406c77cb4e47061bdc91e85f93d50db68b7933012246a"
+    },
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_eng_el/enade_2014_eng_el_page_121.txt",
+      "source_sha256": "1741ba1bd70c20e9d61d73b7d018ca90b5355ad7004cd9df88d7c68ff7665c6f"
+    }
+  ],
+  "created_at": "2026-11-15T00:10:47Z",
+  "duration_seconds": 3.379,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2014_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 120
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2014_eng_el/enade_2014_eng_el_page_120.txt",
+    "source_sha256": "c8620287ee87985a3201a3368d71d4cb8dc5cd22bdda182e72b54a8238c29be4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e71b18a6703ef7df725566c17469559e663f65f4265f566277855096d6ca1590",
+  "request_fingerprint": "d6f92eca6f6bed4e61a8ac3ea70b4ec2f50cfab85ce4c05ecc6d54d6ba67e774",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e linha de fonte. A prosa termina incompleta no limite da página; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que, na região Norte, as Universidades concentraram oito dos 11 cursos participantes. Seis cursos (75,0%) ficaram alocados ao conceito 2, conceito modal, seguidos de dois",
+  "text_sha256": "46d9a079f8908a1f12bb1d9ae3b96bd78745022dcae1b1bcf6b19f2e23d270af",
+  "window_size": 3
+}

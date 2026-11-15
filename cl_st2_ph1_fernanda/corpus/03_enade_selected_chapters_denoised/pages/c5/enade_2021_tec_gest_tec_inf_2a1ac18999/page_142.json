@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_00313216e31b0f79006af91b58a50087d1aee505f77ab3974c",
+    "usage": {
+      "input_tokens": 2122,
+      "input_tokens_details": {
+        "cache_write_tokens": 2119,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2119
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 2694
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_tec_gest_tec_inf/enade_2021_tec_gest_tec_inf_page_141.txt",
+      "source_sha256": "5437d7b14f5dc3d0a88f7e07192175f5bd80208a9be714b8db399f778734fdee"
+    },
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_tec_gest_tec_inf/enade_2021_tec_gest_tec_inf_page_143.txt",
+      "source_sha256": "3fc3790a51d6189ff39361d2b679c5a5036e57640b7ddcdba26c60caa416f8f4"
+    }
+  ],
+  "created_at": "2026-11-15T02:39:20Z",
+  "duration_seconds": 5.545,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2021_tec_gest_tec_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_TECNOLOGIA DA INFORMAÇÃO.pdf",
+    "page_number": 142
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2021_tec_gest_tec_inf/enade_2021_tec_gest_tec_inf_page_142.txt",
+    "source_sha256": "fce41b7a271ce08ed0f21ec4a5335308e7cbedfab8486f0685bb2979a1598de4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "08a5de40a64bc0df8f09b21ce1465ff1ae9037e053a932b65555307eb5654f24",
+  "request_fingerprint": "6d8de5422518b6849c670a4169c1c981b1fb6434cc00f3b9303c15dc77713dbf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes - Enade/2021”, identificada pelo contexto como pertencente ao Gráfico 5.2 da página anterior. A página termina com a frase incompleta “ficou Sem”; não foi completada com texto da página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "5.3 CONCEITOS POR ORGANIZAÇÃO ACADÊMICA E GRANDE REGIÃO\n\nNa Tabela 5.3, encontra-se a distribuição dos conceitos atribuídos aos cursos participantes do Enade/2021, na Área de Tecnologia em Gestão da Tecnologia da Informação, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 148 cursos de Tecnologia em Gestão da Tecnologia da Informação participantes, 54 eram oferecidos em Universidades; 50, em Centros Universitários; 39, em Faculdades; e cinco, em CEFET/IF. Esta distribuição corresponde a, respectivamente, 36,5%, 33,8%, 26,4% e 3,4% dos cursos.\n\nDe acordo com os dados apresentados, de todos os nove cursos avaliados com o conceito 5, dois eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 3 como conceito modal, atribuído a 18 cursos (33,3%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (oito cursos), 2 (17 cursos), 4 (nove cursos) e 5 (dois cursos, como já mencionado). Nenhum curso ficou Sem Conceito (SC).\n\nDos cursos em Centros Universitários, o conceito modal também foi o 3, atribuído a 26 cursos (52,0%). Nenhum curso vinculado a esse tipo de Organização Acadêmica ficou Sem",
+  "text_sha256": "210775bfbd2f7f3baa45e8aa4a075f0f19ee315eb88ea453cddb3e89b9614c5b",
+  "window_size": 3
+}

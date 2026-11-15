@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e73e6d8c0c546c3006af90e0ace0487d1bfdb30781cb252bc",
+    "usage": {
+      "input_tokens": 2587,
+      "input_tokens_details": {
+        "cache_write_tokens": 2584,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2584
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2873
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_com_ext/enade_2018_tec_com_ext_page_139.txt",
+      "source_sha256": "ec9a6eba3cfc9ba799a659cc68b747ce4c6be589d4f8f233a906fb9aa81737f4"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_com_ext/enade_2018_tec_com_ext_page_141.txt",
+      "source_sha256": "675020a6422ff3a98a950ee039e8241ce1d8f104cc982d9eca7002aa66a05b34"
+    }
+  ],
+  "created_at": "2026-11-15T01:42:34Z",
+  "duration_seconds": 3.451,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2018_tec_com_ext",
+    "filepath_ori": "corpus/00_sources/enade_raw/2018/ENADE_2018_TEC COMÉRCIO EXTERIOR.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2018_tec_com_ext/enade_2018_tec_com_ext_page_140.txt",
+    "source_sha256": "2cd11bbef32e3c64e38765ba9ab10b471f45e9807397294ed474be960114c867"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f5c27ae0820b3713422c224a64ee62ba2d36c4175ba8250ec1f933a4d33afb8",
+  "request_fingerprint": "1dc38cab5a5d5d4077c13f20f8697d648a5e50295e4f261eeb06a0e29627c072",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removidos os elementos gráficos do Gráfico 6.9 e sua linha de fonte; a prosa que o descreve foi preservada."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.9, mostra-se a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (em torno de 26%) corresponde à dos alunos que obtiveram nota no intervalo (60; 70]. Destacam-se, também, os alunos que deixaram a questão em branco e que representam, aproximadamente, 9% do total.",
+  "text_sha256": "5ab2e8e18e8cf54113bc6b7d4393b041bd60a7cfd8fe1c817a1e2c15e6d0296c",
+  "window_size": 3
+}

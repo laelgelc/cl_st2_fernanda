@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0555159e7c0e9961006af91ba3dd5c87d1aced095a1780544e",
+    "usage": {
+      "input_tokens": 1584,
+      "input_tokens_details": {
+        "cache_write_tokens": 1581,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1581
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 42
+      },
+      "total_tokens": 1800
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_124.txt",
+      "source_sha256": "f2b12559ee21e5364a9e341ec3c1cce56c15aa9c2212a5637977cf455648f320"
+    },
+    {
+      "page_number": 126,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_126.txt",
+      "source_sha256": "1b65603ad0c64821c5f895757c0b5a9505a3e31c071fcc4373b2e0c61a12ac69"
+    }
+  ],
+  "created_at": "2026-11-15T02:40:35Z",
+  "duration_seconds": 2.68,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_ADMINISTRAÇÃO.pdf",
+    "page_number": 125
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_admin/enade_2022_admin_page_125.txt",
+    "source_sha256": "60a9814f6052aec4d8e556bc5794724f51bc836986a2733857a78875434e61b3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "874df62f50a144b05bcd50b5605c4709a8b3aa7026bb4093a9a8b1bf7fb1850e",
+  "request_fingerprint": "8df7f3d3e4fcbbaca747a24111161e741f0675dfe64c6c2924d1f55a32009547",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.31, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.31 traz outros resultados também em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 5.31, na análise por organização acadêmica, a proporção de respondentes que escolheram a opção não estudou ainda a maioria desses conteúdos foi pequena. Observa-se que as proporções nas CEFET/IF (3,6%) e nas faculdades (5,4%) foram menores. Nos centros universitários e nas universidades, a situação foi inversa: a proporção foi mais alta, 7,3% e 5,5%, respectivamente.",
+  "text_sha256": "db0d138004567db87f6ac7df037f925ebef44a8343431d92f6adaa106088a319",
+  "window_size": 3
+}

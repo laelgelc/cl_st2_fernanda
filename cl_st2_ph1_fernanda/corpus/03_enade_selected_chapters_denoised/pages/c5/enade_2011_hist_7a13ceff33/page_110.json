@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d139d3690699135006af8edac107487d190947809ad5d8d19",
+    "usage": {
+      "input_tokens": 2861,
+      "input_tokens_details": {
+        "cache_write_tokens": 2858,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2858
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 669,
+      "output_tokens_details": {
+        "reasoning_tokens": 514
+      },
+      "total_tokens": 3530
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 109,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_hist/enade_2011_hist_page_109.txt",
+      "source_sha256": "bcb795cec7b3be73b2a53a571dd4aa605200629ec9810387200d85fcdde96753"
+    },
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_hist/enade_2011_hist_page_111.txt",
+      "source_sha256": "64b512853e99cbea6e5e33bb53546d102724f41c88465c555666313d335b34e1"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:27Z",
+  "duration_seconds": 6.588,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 110
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2011_hist/enade_2011_hist_page_110.txt",
+    "source_sha256": "5fd15b9eaf4c1f4ecea9ef2a5789afac2dcb3519df07ecc74ce1beacb241d9d0"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6aff84f6d1e90f57d7f24d26a5650aad2034e7003482a257d072241c1de8be98",
+  "request_fingerprint": "dd0ec1a6351fb340121dda48500136c970348d7029e15f59c83933ba3183b9c4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo título, dados e fonte. A prosa termina em frase incompleta na página-alvo; não foi completada com texto da página de contexto."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as regiões brasileiras, verifica-se que na região Norte, as Universidades concentraram 19 dos 26 cursos participantes, ou seja, 73,1% dos cursos avaliados da região Norte são de Universidades. Destes, um ficou sem conceito e um outro ficou com conceito 1. Dez cursos receberam o conceito 3, conceito modal, e os demais sete receberam o conceito 4. Os Centros Universitários da região Norte foram",
+  "text_sha256": "22d8dc928930d5a90976e8ff4c5bd195a03ff76b8bd8dfdb02fa4c7e2b0a99a3",
+  "window_size": 3
+}

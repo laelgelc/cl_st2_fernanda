@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f87256c99427ef0006af9111edba887d184a8e764d24e8204",
+    "usage": {
+      "input_tokens": 2438,
+      "input_tokens_details": {
+        "cache_write_tokens": 2435,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2435
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 196
+      },
+      "total_tokens": 3035
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_139.txt",
+      "source_sha256": "dd026c97cae8764aec180110f735c1682b9fc8a3b2ebae9a94c0a91a7206f29c"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_141.txt",
+      "source_sha256": "85cab897bb127a1a01f2160011cc3eb8efaecaaf5c1ab2bb05e4e2f6557946e3"
+    }
+  ],
+  "created_at": "2026-11-15T01:55:42Z",
+  "duration_seconds": 5.647,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_alim/enade_2019_eng_alim_page_140.txt",
+    "source_sha256": "1c9435dd44aa1becdef9ba52f5c178907c54a9c27cdce0161b885e45268afd38"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ac20a429bae5f0ddaa0e2f73965530433d3d0f0d135225cd1be154a50a67324a",
+  "request_fingerprint": "7b5a7c075d335a3928614181b0d7a8a0d49cecb99f549a6a10ae440ba91532ad",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/Inep/Daes – Enade/2019”, which appears to belong to Gráfico 6.3. The graph itself is not present in the extracted target-page text."
+  ],
+  "status": "success",
+  "text": "notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (50; 60], o mesmo do grupo modal da prova, como um todo, e do grupo modal para a Formação Geral.\n\nNa Tabela 6.6, é apresentada uma comparação dos resultados em relação a Categoria Administrativa, a Organização Acadêmica e a Modalidade de Ensino, agora levando-se em conta o desempenho de estudantes do Componente de Conhecimento Específico da prova.\nNo que se refere a Organização Acadêmica, a maior Média foi a das Universidades (51,2), vindo a seguir a das Faculdades (50,2), a dos Centros Universitários (45,7) e, por fim, a dos CEFET/IF (44,5). O maior Desvio padrão, e acima do valor para o Brasil, como um todo, foi o das Faculdades (14,1). As Universidades obtiveram a maior nota Máxima (93,8). Os Centros Universitários obtiveram nota Máxima 78,1; as Faculdades, 81,2 e os CEFET/IF obtiveram nota Máxima 72,8.\nAs Medianas foram: 51,8, a maior delas, nas Universidades; 44,9 nos Centros Universitários; 50,4 nas Faculdades; e, a menor delas, 43,2, nos CEFET/IF. A menor nota Mínima foi 7,0 para as Universidades, e a maior foi 20,4 para as Faculdades, sendo as demais",
+  "text_sha256": "ac0bfb8c1f42772bc28bd7120508960f0d2b50653debfcc1e5af9d548d0e4087",
+  "window_size": 3
+}

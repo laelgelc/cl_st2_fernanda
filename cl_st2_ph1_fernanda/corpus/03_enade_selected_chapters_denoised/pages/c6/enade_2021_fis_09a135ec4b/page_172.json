@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0191a3ad9de2fd60006af918e040f087d18fdf87b817216107",
+    "usage": {
+      "input_tokens": 3280,
+      "input_tokens_details": {
+        "cache_write_tokens": 3277,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3277
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 3717
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 171,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_fis/enade_2021_fis_page_171.txt",
+      "source_sha256": "c6363f9d0cee0b7139a47baa10584f8ced512c2334fab9c48ad63ff56528e31b"
+    },
+    {
+      "page_number": 173,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_fis/enade_2021_fis_page_173.txt",
+      "source_sha256": "fd05dc2973c9b23fc86cb6be45014fde0a0ffead25fd233bc34896cd47a817f0"
+    }
+  ],
+  "created_at": "2026-11-15T02:28:48Z",
+  "duration_seconds": 5.007,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_FÍSICA.pdf",
+    "page_number": 172
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_fis/enade_2021_fis_page_172.txt",
+    "source_sha256": "a330c4cc458e4d61268255cf79e6ab9fae782ca291ff5b7f76be34176d1f2405"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d98837835b04bc60500a90b239c1b09cb752387eef528b75d78e8808c67261ff",
+  "request_fingerprint": "54a79480f967ed3dd83de364aa6d40eb78298a0eea4324af300f3c79c152b6ec",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e fonte.",
+    "Removida a fonte associada ao Gráfico 6.2; o gráfico e seus elementos visuais foram excluídos."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (30; 40], o mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 14,5 para a nota da prova, como um todo, e 15,8 para o Componente de Formação Geral.\n\nNa Tabela 6.4, são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.",
+  "text_sha256": "5db0a6ef59d3968cd09504d8f73f17c0287b4f151e808cd3f81a230ff0fe1f05",
+  "window_size": 3
+}

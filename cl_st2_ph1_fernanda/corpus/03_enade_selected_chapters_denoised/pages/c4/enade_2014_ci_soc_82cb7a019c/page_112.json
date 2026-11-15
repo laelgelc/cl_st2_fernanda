@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f801cc7160839f9006af8f6cc941c87d19cf8ed32b621ce1f",
+    "usage": {
+      "input_tokens": 1699,
+      "input_tokens_details": {
+        "cache_write_tokens": 1696,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1696
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 400,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 2099
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_111.txt",
+      "source_sha256": "62f41abe9224052e0debd8eed5d08da1263650e187bdbf47b9f7d7f69e6ae353"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_113.txt",
+      "source_sha256": "761868501098479a98e45ea0a3db0abef4fe8f003bf952da64d2b6c98f4a4025"
+    }
+  ],
+  "created_at": "2026-11-15T00:03:24Z",
+  "duration_seconds": 5.054,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ci_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIAS SOCIAIS.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ci_soc/enade_2014_ci_soc_page_112.txt",
+    "source_sha256": "c6428b626b581e4833ea9612ff5907d86508fd79a411b2d914d75be429e9982a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "041b137f19bf68ea83f4178b46e011996a46f17d7b2529104810f41420dcd19b",
+  "request_fingerprint": "23127f23d9261892d64c3410d60cb4ad3468f5e0e49e688a212eda6877d44f2c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, pertencente ao material gráfico da página."
+  ],
+  "status": "success",
+  "text": "nacional (6,3%). Observa-se diferença estatisticamente significativa entre essa e as demais regiões.\nEm todas as regiões, a maioria dos presentes afirmou ter estudado e aprendido muitos ou todos os conteúdos, com proporções variando entre 51,6% na região Norte e 75,0% na Sudeste.\n\nConsiderando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 13,3% ofereceram como resposta que não estudou ainda a maioria desses conteúdos, sendo 2,2% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade nos quartos extremos é estatisticamente significativa.\nTendo em conta o quarto superior, 84,8% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 51,7% optaram pelas mesmas categorias, valores crescentes com o desempenho.",
+  "text_sha256": "e75b99d7aeb05d98d50bde1b7226a0e83e6b83206441965781e01c9c96d83b0a",
+  "window_size": 3
+}

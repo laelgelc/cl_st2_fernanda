@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ce72082e140ed7006af90713e7f887d1bf41471fe230c64f",
+    "usage": {
+      "input_tokens": 2770,
+      "input_tokens_details": {
+        "cache_write_tokens": 2767,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2767
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 491,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 3261
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 156,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_156.txt",
+      "source_sha256": "e6bc3373c86ef4a536d2b5db8210ac2bb157d4a9e696b0465ad4e06f884e5f15"
+    },
+    {
+      "page_number": 158,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_158.txt",
+      "source_sha256": "bae688ce0acf328217e85b41b4871587d31ffc1b11f90765e68154d1647783ea"
+    }
+  ],
+  "created_at": "2026-11-15T01:12:51Z",
+  "duration_seconds": 5.161,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_el",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA ELÉTRICA.pdf",
+    "page_number": 157
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_el/enade_2017_eng_el_page_157.txt",
+    "source_sha256": "7c21fa9d1c39ba86ef98821c901d92215bb4dfa8a5da49ae55e68f6759432579"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "69da5d0991ec992ad143d2db9e7cd2fdf52c3f6b992c57e6e66b612c0f8b4708",
+  "request_fingerprint": "8f4731da785194331a8b36c0a5a3e10fdf168c3ca76c7d48b74f0316e729a9e7",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a linha de fonte e demais elementos gráficos da continuação do Gráfico 6.12; a frase final «Esses» permanece incompleta no limite da página."
+  ],
+  "status": "success",
+  "text": "6.3.2.4 Comentários sobre as respostas à Questão Discursiva 4\n\nO objetivo geral da Questão 4 foi avaliar se o concluinte é capaz de interpretar um projeto elétrico residencial em planta baixa, identificando os circuitos e os símbolos. Avalia, também, se o formando sabe dimensionar os condutores de um circuito, baseado na potência, tensão e fatores de correção que visam a garantir a segurança da instalação. A questão pode ser considerada de nível fácil para o aluno do curso de Engenharia Elétrica, com ênfase em eletrotécnica ou sistema de potência, contudo, pode não ser tão trivial para outras ênfases como Eletrônica e Telecomunicações, o que prejudica uma avaliação dos cursos nas mesmas bases de comparação.\n\nO enunciado da questão apresenta as informações necessárias para a sua resolução, apesar de o desenho apresentar alguns pequenos defeitos, como os apresentados a seguir: no eletroduto que sai do quadro de distribuição, as indicações dos tipos de condutores do circuito 1 estão tortas e, especificamente, para o condutor neutro, o tamanho do traço pode ser confundido com um condutor de retorno. Nesse mesmo eletroduto, o condutor terra (proteção) do circuito 2 não aparece e logo em seguida, na continuação, ele aparece. Esses",
+  "text_sha256": "3daa157b6c767057ca4f37caac1bce0e11c104f94e66b82683a9bc4311e7fe4b",
+  "window_size": 3
+}

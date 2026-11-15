@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02fc8facb90a1aeb006af8f3d0c22887d1a71e805cccaf7c3f",
+    "usage": {
+      "input_tokens": 2223,
+      "input_tokens_details": {
+        "cache_write_tokens": 2220,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2220
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 518,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 2741
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 43,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_43.txt",
+      "source_sha256": "1293165d2dccd9f2fe217e24a9c16befb9bdb418c0cf7f65437901baef8c108e"
+    },
+    {
+      "page_number": 45,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_45.txt",
+      "source_sha256": "7f8304133a7af122a5e819176425218dfa1fc10cbfaff32d75ef8ce944c8cca7"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:40Z",
+  "duration_seconds": 4.733,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FISIOTERAPIA.pdf",
+    "page_number": 44
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_fisio/enade_2013_fisio_page_44.txt",
+    "source_sha256": "f32a4b02ce6f27a43538da3b939b2cd656c0b0cbf517485213efe5f9d55a8291"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ada74c88fe1c85001d795100348281ef608c9396da5d12403cf0973c2cc6b0e8",
+  "request_fingerprint": "453f143584ae5ef0f51234ad72ad255e7784dff920dfc6a2fb4cac43f32fb425",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.2, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "região Sudeste (47,0). A nota mínima nesta parte foi zero em quase todas as regiões, exceto na região Centro-Oeste (7,5).\n\nO Gráfico 3.5 propicia a avaliação do desempenho dos estudantes no Componente de Formação Geral a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (40; 50], o mesmo intervalo modal da prova como um todo. Nota-se, ainda, que no gráfico 3.5 as notas apresentam uma maior dispersão do que no Gráfico 3.1 (distribuição das notas da prova), confirmado pela comparação dos desvios padrões: 11,5 para a nota da prova como um todo e 14,4 para o Componente de Formação Geral.\n\nPara o Componente de Formação Geral, o coeficiente de assimetria da distribuição das notas dos estudantes é negativo (-0,14). Por ser um coeficiente pequeno, a distribuição apresenta uma leve concentração à direita e cauda maior à esquerda, porém podemos considerar que a distribuição é aproximadamente simétrica. Em todas as Grandes Regiões os histogramas também possuem assimetria levemente negativa (entre -0,14 para a Sudeste e -0,01 para a Centro-Oeste), com a região Sul com valor mais expressivo: -0,27.",
+  "text_sha256": "f99fdaa153f20362a2d004c96c7d39022622b4d0323b945f6bfc6b5a3bf7258a",
+  "window_size": 3
+}

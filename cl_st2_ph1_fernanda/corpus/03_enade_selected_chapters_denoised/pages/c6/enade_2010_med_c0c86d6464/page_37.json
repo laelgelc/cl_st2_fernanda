@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c853dd230fd47d5006af8e94b4d3487d1926daea903c8d625",
+    "usage": {
+      "input_tokens": 2511,
+      "input_tokens_details": {
+        "cache_write_tokens": 2508,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2508
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 2959
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 36,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_36.txt",
+      "source_sha256": "478f135f5a0461add8415386496bb8b66f04bce3ea79c1ba63dbf7429da85bbf"
+    },
+    {
+      "page_number": 38,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_38.txt",
+      "source_sha256": "476927fd9945e860c5d0489c10565ee1bc995cbf8d926f6a52675fb12a4dd098"
+    }
+  ],
+  "created_at": "2026-11-14T23:05:47Z",
+  "duration_seconds": 5.445,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_MEDICINA.pdf",
+    "page_number": 37
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_med/enade_2010_med_page_37.txt",
+    "source_sha256": "99c906c3e860dc4fb45985a9e146aff5d239580e73fb734cc9146240e1843d2a"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6ed62759e58a346d3e53160590cab83e1b2298178b02e7e316ee5d73a5e769ed",
+  "request_fingerprint": "e31d905afe7bf926bab5b756538e9496b56b3b33f843a5029380608da63ccf13",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 3.3 completo, incluindo eixos, intervalos, séries, título e fonte."
+  ],
+  "status": "success",
+  "text": "No Gráfico 3.4 são apresentadas as informações referentes ao desempenho dos Ingressantes e dos Concluintes no componente de Formação Geral, em diferentes agregações como Grande Região do país, Categoria Administrativa e Organização Acadêmica.\n\nConsiderando-se as notas médias dos estudantes segundo cada Grande Região, observa-se que no grupo de Ingressantes existe diferença estatisticamente significativa ao nível de 95% entre as médias na região Nordeste (60,8, a mais alta) e Norte (56,6, a mais baixa). No grupo de Concluintes, as notas mais elevadas ocorreram nas regiões Nordeste (61,4), seguida pela Centro-Oeste (61,2). A diferença entre notas mais altas e mais baixas para Concluintes foi também estatisticamente significativa ao nível de 95%: a menor nota foi 56,4, correspondente aos da região Sudeste. Essa região ficou abaixo da média nacional no componente de Formação Geral, com nota 56,9 para Ingressantes e 56,4 para Concluintes.\n\nTendo como foco as Categorias Administrativas, as instituições públicas obtiveram médias mais elevadas do que as privadas: para Concluintes, notas médias de 61,1 em cursos de IES públicas e de 56,1 nos das privadas. Para os Ingressantes, as notas foram de, respectivamente, 59,9 e 56,8. Em comparação à média nacional, as notas de Ingressantes e de Concluintes vinculados às instituições públicas foram superiores, ao passo que, nas instituições privadas, foram inferiores.",
+  "text_sha256": "a45273e1641159be58ef8fde1e669046bf31207be9fadd0b4435e99142ee6734",
+  "window_size": 3
+}

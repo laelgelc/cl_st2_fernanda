@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02329e4ef8c67427006af8f82d2ba887d19d7acd6eca96b97c",
+    "usage": {
+      "input_tokens": 2623,
+      "input_tokens_details": {
+        "cache_write_tokens": 2620,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2620
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 482,
+      "output_tokens_details": {
+        "reasoning_tokens": 329
+      },
+      "total_tokens": 3105
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_62.txt",
+      "source_sha256": "c525137bd46e7f7ba6e1a8c0a3dbec19fcc1d1520c8f532918bbaf026e7fbcf9"
+    },
+    {
+      "page_number": 64,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_64.txt",
+      "source_sha256": "3b290f56c2c4e89be848ffe54aff089b1dda5be27e1b5143789d337e559a32f5"
+    }
+  ],
+  "created_at": "2026-11-15T00:09:17Z",
+  "duration_seconds": 5.859,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_contr",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA DE CONTROLE E AUTOMAÇÃO.pdf",
+    "page_number": 63
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_contr/enade_2014_eng_contr_page_63.txt",
+    "source_sha256": "23c3131f29e81f8e07b4c638b470faf097923667c0fd0d58f999aa10f8fd7c5f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "d2e8252a67f4cda95441c9b503143223cd04c2b21d4bc33cee83f24d0c4f78cc",
+  "request_fingerprint": "d739e91f297cc091eb82030153dae6befcd2aa2835fca4df160faa59e995228c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.13, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.8 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos estudantes que deixaram obtiveram nota no intervalo (70; 80]. Destacam-se, também, aqueles que deixaram a questão em branco (cerca de 15,0%). Para essa questão, as notas ficaram mais distribuídas ao longo dos intervalos em comparação à questão discursiva de número 1.",
+  "text_sha256": "709ab121e0a7eec3d64ccd7ec58578f54c1cf0e080fdf85dab761a59d97a1d13",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01ac9ef4d59a8eb4006af90395d3a887d196cdf56288df1309",
+    "usage": {
+      "input_tokens": 2278,
+      "input_tokens_details": {
+        "cache_write_tokens": 2275,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2275
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 326,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 2604
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_77.txt",
+      "source_sha256": "e03b8a13bf571a61779029de75d9178636b0a77c1869b0c0d1c6f5b0ab5d849a"
+    },
+    {
+      "page_number": 79,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_79.txt",
+      "source_sha256": "dec759f3644130f1267bc34ef514bd4e70dfe1d57e9ed8b202d7913d5c29f764"
+    }
+  ],
+  "created_at": "2026-11-15T00:57:57Z",
+  "duration_seconds": 4.303,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2016_tec_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_TEC EM AGRONEGÓCIOS.pdf",
+    "page_number": 78
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2016_tec_agro/enade_2016_tec_agro_page_78.txt",
+    "source_sha256": "ddf80868079005f921ba09b1de6a6dc46965f8bdb4e845a5463343acb52e8717"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a27601d0be87fd18e92be85ebbcfe9273db02d04dab9bf00974b69f14b7a42d3",
+  "request_fingerprint": "7fb01527b59486291278307c7b74da6598cd3852fd8af6ec229921acf8c78162",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 3.11 e sua linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Tecnologia em Agronegócio. O intervalo de maior frequência foi o (60, 70]. O intervalo (40, 50] aparece como um máximo local, assim como o grupo daqueles que obtiveram zero, com cerca de 8% do total de respostas.",
+  "text_sha256": "7f7117ea511f2e7facd16a8796be5eb69ed977f16df21a2d62ec4093473f69c3",
+  "window_size": 3
+}

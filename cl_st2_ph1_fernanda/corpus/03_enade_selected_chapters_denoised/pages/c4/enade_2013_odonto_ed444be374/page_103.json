@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01d0e6444c02bfae006af8f4a5da8487d1a361691887e6d98a",
+    "usage": {
+      "input_tokens": 1374,
+      "input_tokens_details": {
+        "cache_write_tokens": 1371,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1371
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 481,
+      "output_tokens_details": {
+        "reasoning_tokens": 341
+      },
+      "total_tokens": 1855
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_odonto/enade_2013_odonto_page_102.txt",
+      "source_sha256": "2f633fb50d6ccbaf7a6be14088e917b4a3d3fa5992565f724192cf365561819e"
+    },
+    {
+      "page_number": 104,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_odonto/enade_2013_odonto_page_104.txt",
+      "source_sha256": "eefecd6f6068ddd22c913cbd0e11f246573d6baccc0073c2552d0333db2b0cc5"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:13Z",
+  "duration_seconds": 5.216,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_odonto",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_ODONTOLOGIA.pdf",
+    "page_number": 103
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_odonto/enade_2013_odonto_page_103.txt",
+    "source_sha256": "f99775f1da3169d323605b2b9fdaa45e43124975a97e5166394c78d9e3f97920"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "cab0042f438b6b55441f48a3712b86e8e33e41e61c069b53d9badb199ae7a4f7",
+  "request_fingerprint": "d30de48ea231d63f887a7462953a289a10866e9d1b8f9a5ad61986491de0b42e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, aparentemente associada a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se que uma proporção bem maior de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparados com os do quarto inferior, respectivamente 82,5% e 65,4%. As diferenças entre os três primeiros quartos de desempenho são estatisticamente significativas e evidenciam uma tendência crescente.",
+  "text_sha256": "aae7bc6c4d22c8bbe187c890f0b3e9787e9f21b8cd1c3058ee53d76743065e66",
+  "window_size": 3
+}

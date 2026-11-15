@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0fbc10d06f9c4a11006af8ef9244fc87d188ac6478a1745fcb",
+    "usage": {
+      "input_tokens": 2306,
+      "input_tokens_details": {
+        "cache_write_tokens": 2303,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2303
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 396,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 2702
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 73,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_73.txt",
+      "source_sha256": "8fa4209bfccbc4d69221edaa836beebceae4c501f0dd41c4e20572344e130aea"
+    },
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_75.txt",
+      "source_sha256": "c5c2bf4f9a0684b4ddea4e43e291f2f11e9cd0bf458878e68be651f18086cd8b"
+    }
+  ],
+  "created_at": "2026-11-14T23:32:34Z",
+  "duration_seconds": 5.06,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_gest_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM GESTÃO DA PRODUÇÃO INDUSTRIAL.pdf",
+    "page_number": 74
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_gest_prod/enade_2011_tec_gest_prod_page_74.txt",
+    "source_sha256": "a0739077644efccdc28bdee86f001d725c1d9373af8013816dfea7c8db7ea635"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "91ab075777b07858c13f1150c468aebd36138cc3f682ee2b24d16982d44810ea",
+  "request_fingerprint": "db443173a8158e84446577950a54aac041dd3aebf76910f8d7018f69ade7a6b9",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e linha de fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico. Destaca-se o grande número de estudantes que deixaram a questão 5 em branco (em torno de 60%) ou obtiveram nota zero tendo respondido a questão (aproximadamente 23%). Entre as 3 questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou a maior proporção de alunos de “em branco”. As notas dos demais alunos se distribuem por todos os demais intervalos. O coeficiente de assimetria é positivo maior do que 2 para a distribuição de todo o Brasil (2,98) e de todas as regiões. O maior coeficiente de assimetria ocorreu na região Sul (4,53) e o menor na região Sudeste (2,12).",
+  "text_sha256": "6f2671f2124a32e85eea9d869a3fcf55e00502199e8925342c543582c647106c",
+  "window_size": 3
+}

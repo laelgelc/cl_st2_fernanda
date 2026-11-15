@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_090975a8c209b4d3006af913c0d68487d1970b5ac8815ac3bb",
+    "usage": {
+      "input_tokens": 3012,
+      "input_tokens_details": {
+        "cache_write_tokens": 3009,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3009
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 294,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 3306
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fis/enade_2019_fis_page_139.txt",
+      "source_sha256": "d62a15f30231b91340204ed86bd6088d7796a0392a924feb1eeb5300043d7450"
+    },
+    {
+      "page_number": 141,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fis/enade_2019_fis_page_141.txt",
+      "source_sha256": "ab72023b24b10c0af5c8428b7a958e6dcd800552e22f146e548548dd54782f8a"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:56Z",
+  "duration_seconds": 4.305,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_fis",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FÍSICA.pdf",
+    "page_number": 140
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_fis/enade_2019_fis_page_140.txt",
+    "source_sha256": "71ad632b3c65c32b9238a298357739fe8d8060979ae7266cf85ab089a65e6a3d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "531e561006ca6f0cd44730bbf36c6523c44762a95e9630d671139b9bca261a37",
+  "request_fingerprint": "6d86aebc73a354d135c610f667eecea22fe7be1461f423cb9ad843128bac7b56",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 5.3, incluindo dados, título e fonte. A prosa termina no alvo com “As Faculdades” e continua na página de contexto; a continuação não foi incluída."
+  ],
+  "status": "success",
+  "text": "Considerando-se, separadamente, as regiões brasileiras, verifica-se que, na região Norte, as Universidades participaram com sete cursos avaliados, aos quais foram atribuídos conceitos 1, 2 e 3. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região.\n\nOs Centros Universitários da região Norte foram representados por seis cursos, os quais obtiveram conceitos 2, 3 (quatro cursos) e 4. Nenhum curso ficou Sem Conceito (SC) ou recebeu os demais conceitos nesta combinação de categoria e região. As Faculdades",
+  "text_sha256": "9d18e9d587e088cd7e15b57899e709f87ab0bed7d75e680c1801b586e0de939c",
+  "window_size": 3
+}

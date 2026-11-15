@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_013337c611534547006af8eea740f887d1a1b910d940c1a4c8",
+    "usage": {
+      "input_tokens": 2386,
+      "input_tokens_details": {
+        "cache_write_tokens": 2383,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2383
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 662,
+      "output_tokens_details": {
+        "reasoning_tokens": 337
+      },
+      "total_tokens": 3048
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_81.txt",
+      "source_sha256": "b153c3a79a6bb26f085ba9b244d3ef0c06c131938b577a8144652ee224739490"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_83.txt",
+      "source_sha256": "5434b6794e1a0ee787dbe17b5dcfa6731a9aa0c44e77d984eb0f0a7ff8fb72a5"
+    }
+  ],
+  "created_at": "2026-11-14T23:28:39Z",
+  "duration_seconds": 6.681,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_QUÍMICA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_qui/enade_2011_qui_page_82.txt",
+    "source_sha256": "c9a783ce01c428b57734319fe306cd29cb528ccc71b8581380b8e8ed6f211ea6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0aac5e13cc6f6d235cee5a1c2b6fe6e6dc6ec9e5cef54d1672353a5f588cf344",
+  "request_fingerprint": "4872fff69aa8e2437b359d686daf30392a7bad1bd35776083e576589b009bbba",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados estatísticos e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A nota máxima (100,0) foi alcançada em todas as regiões, com exceção da região Norte onde a nota máxima foi 90,0. A mediana e a nota mínima foram zero para todas as regiões do Brasil, ou seja, pelo menos metade dos alunos tirou nota zero na questão.\n\nO Gráfico 3.22 apresenta a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico para alunos do Bacharelado e da Licenciatura. Mais uma vez, destaca-se o grande número de estudantes que deixaram a questão em branco, para as duas habilitações, ainda mais expressiva para esta questão do que para as já analisadas (mais de 60% para ambas as habilitações).\n\nComo nas questões discursivas do Componente de Conhecimento Específico anteriores, estas distribuições têm assimetria positiva. Os altos valores dos coeficientes de assimetria explicam a longa cauda à direita do gráfico: 2,72 para o Bacharelado e 4,54 para a Licenciatura. Este tipo de assimetria também ocorre em todas as regiões, com coeficientes sempre maiores do que 1 para ambos os cursos, sendo o maior igual a 6,70 (Licenciatura da região Norte) e menor 1,89 (Bacharelado da região Centro-Oeste).",
+  "text_sha256": "520c4cd204c60051fe6f26af3d5cf685eaeb546fc353b77426ab8b9aec7e87e1",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_05013707a449edc2006af8fefbb96c87d193e335085e5c58f4",
+    "usage": {
+      "input_tokens": 2295,
+      "input_tokens_details": {
+        "cache_write_tokens": 2292,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2292
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 523,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 2818
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_51.txt",
+      "source_sha256": "f0ca840c7cfa0c7c695c427b4bd1edb4aaf4b589e13626e3f812063c04175403"
+    },
+    {
+      "page_number": 53,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_53.txt",
+      "source_sha256": "23f50b07e0fe5218728e795ac77b401953ec8992b3c122ce33f40bb1e99e087e"
+    }
+  ],
+  "created_at": "2026-11-15T00:38:19Z",
+  "duration_seconds": 5.983,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_tec_des_graf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_TEC DESIGN GRÁFICO.pdf",
+    "page_number": 52
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_tec_des_graf/enade_2015_tec_des_graf_page_52.txt",
+    "source_sha256": "1e9d948b0c419bd489d15f1f83ecddb8d78803a0980b731a1591d8899a24d8af"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f0d204e5d02a92dd898d7edc24a4536d146e06a3c4f003ac115dfa0d99865aa9",
+  "request_fingerprint": "0900f8de30841bbe23c57c336bdc3b9e26502c0babf6513db771e1ff4ae991bd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.10, incluindo título, cabeçalhos, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 2 de Formação Geral. Trata-se de uma questão considerada mediana, com relação à facilidade e a que obteve o maior Índice de Discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em preto corresponde à alternativa C, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa D (em roxo), incorreta. Por exemplo, entre os estudantes que acertaram três questões, 42,7% escolheram a alternativa D, 17,0% a alternativa C (correta), 15,8% a alternativa A, 16,0% a alternativa B e 8,1% a alternativa E. Entre os que acertaram três respostas entre as questões de múltipla escolha de formação geral, 0,3% deixou a questão em branco e nenhum marcou mais de uma alternativa, invalidando a questão. À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta C, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.",
+  "text_sha256": "10549c81c5e0a9aab70b5c37bc70c9c67afe91cd6dcfe9389da10d46224abeb9",
+  "window_size": 3
+}

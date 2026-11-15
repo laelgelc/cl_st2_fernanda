@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dbb8bd6fb475e6e006af91d8415bc87d180c4d2d5c9f96411",
+    "usage": {
+      "input_tokens": 2267,
+      "input_tokens_details": {
+        "cache_write_tokens": 2264,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2264
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 524,
+      "output_tokens_details": {
+        "reasoning_tokens": 235
+      },
+      "total_tokens": 2791
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_151.txt",
+      "source_sha256": "77a365570c0ddcada929ff6c179fdd0884e68c3956b7635bc632d369284c3d7b"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_153.txt",
+      "source_sha256": "e69470575f89ae9f72aeadc65b3e39f092fe959a665efcc3e28358b1b2bd24fb"
+    }
+  ],
+  "created_at": "2026-11-15T02:48:36Z",
+  "duration_seconds": 5.402,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2022_psico",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_PSICOLOGIA.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2022_psico/enade_2022_psico_page_152.txt",
+    "source_sha256": "7a94fdd641c17c670b776c0aa9efcb2fa7d8f1b5f0c4654f046b56932acd3b0d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "db8f8af006e9ad2d180d01339fed9706e8c262e5a417cc252139c98369d72da3",
+  "request_fingerprint": "dc35e552856a3fb42eff92d27ab07584802f7fc62472cf1c09b4101363a84b40",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 7.6, incluindo título, dados e linha de fonte.",
+    "Removida a linha de fonte no início da página, que, pelo contexto, pertence ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 7.6, é apresentada uma comparação dos resultados em relação a categoria administrativa, a organização acadêmica e a modalidade de oferta, agora levando-se em conta o desempenho de estudantes do Componente Específico da prova.\n\nDe acordo com os dados expostos na Tabela 7.6, no que se refere à organização acadêmica, a maior média foi a das públicas (65,3), vindo seguida pela das universidades e centro universitários, com 57,3 e 53,8 respectivamente. O maior desvio-padrão foi das universidades (18,1). As universidades obtiveram a maior nota máxima (97,8), seguida pelos centros universitários que obtiveram nota máxima (97,4) e as faculdades (96). As medianas foram: 58,9 nas universidades, 54,3 nos centros universitários e 51,8 nas faculdades. A nota mínima foi igual em todas as organizações acadêmicas.\n\nQuanto à categoria administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova, como um todo.",
+  "text_sha256": "023cc04c25a21c7d8544b008b757b6863e154546dd621b2b55493f41b838a0d9",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01da000ae57583dd006af9087ae60087d1bf3b0ac0a357072a",
+    "usage": {
+      "input_tokens": 2467,
+      "input_tokens_details": {
+        "cache_write_tokens": 2464,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2464
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 558,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 3025
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 196,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_geo/enade_2017_geo_page_196.txt",
+      "source_sha256": "fbc50e0a1d666ed6941c2753dc61dcba87eac9b2e89452f7efd95f9e87b0c544"
+    },
+    {
+      "page_number": 198,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_geo/enade_2017_geo_page_198.txt",
+      "source_sha256": "ad073ae79eab9cb7e3b97ddac307c299affdfb6cfa867b74dbdb2004ee42b054"
+    }
+  ],
+  "created_at": "2026-11-15T01:18:50Z",
+  "duration_seconds": 5.491,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_GEOGRAFIA.pdf",
+    "page_number": 197
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_geo/enade_2017_geo_page_197.txt",
+    "source_sha256": "23ad14e6825005ab602c379bce7b5b7fc270e5cd4c9a822186d11f6cfa20b3cb"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4fdb6834c8b60ea0c5e206fdccbe50fd040c32ea8cfd82d9f4c5ea10232bc1b9",
+  "request_fingerprint": "eea114f1280140aadb51f392a189efadb94d9314a165a8c6f9d2bde7f35108fd",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2017”, provavelmente pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "Na Tabela 5.3b, encontra-se a distribuição dos conceitos atribuídos aos cursos de Bacharelado participantes do Enade/2017 na Área de Geografia, por Organização Acadêmica, segundo as Grandes Regiões brasileiras. Dos 78 cursos participantes, 76 eram oferecidos em Universidades e dois em Centros Universitários. Não houve cursos avaliados na área de Geografia (Bacharelado) em Faculdades, ou CEFET/IFET. Esta distribuição corresponde a, respectivamente, 97,4% e 2,6% dos cursos.\n\nDe acordo com os dados apresentados, os quatro cursos avaliados com conceito 5 eram vinculados a Universidades. Os cursos vinculados a esse tipo de Organização Acadêmica tiveram o conceito 4 como conceito modal, atribuído a 30 cursos (39,5%). Os demais cursos vinculados a Universidades receberam os conceitos 1 (três cursos, 3,9%), 2 (nove cursos, 11,8%), 3 (26 cursos, 34,2%) e conceito 5 (quatro cursos, 5,3%, como já mencionado). Ficaram Sem Conceito (SC), quatro cursos (5,3%).\n\nOs dois cursos em Centros Universitários receberam conceitos 2 e 3.",
+  "text_sha256": "a7c6506b2e7bfb9ef46500914acf7768734743e65d08f5c1d649e7f8af2af53d",
+  "window_size": 3
+}

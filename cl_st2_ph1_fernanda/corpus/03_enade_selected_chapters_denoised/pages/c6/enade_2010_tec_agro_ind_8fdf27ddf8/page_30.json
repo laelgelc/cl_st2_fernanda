@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_007c32044014d8c7006af8e9d48e2087d18959776448e1f7aa",
+    "usage": {
+      "input_tokens": 2704,
+      "input_tokens_details": {
+        "cache_write_tokens": 2701,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2701
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 433,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 3137
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 29,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_29.txt",
+      "source_sha256": "3536998455064c3e5cd9c38f3bb94de66dd765c476a530a1b63a9899d1bff229"
+    },
+    {
+      "page_number": 31,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_31.txt",
+      "source_sha256": "faff43973c7ac9666c2698f2a2fe1d60d51eec1f53cc58ebf8c262c4b051de43"
+    }
+  ],
+  "created_at": "2026-11-14T23:08:04Z",
+  "duration_seconds": 4.224,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2010_tec_agro_ind",
+    "filepath_ori": "corpus/00_sources/enade_raw/2010/ENADE_2010_TEC EM AGROINDÚSTRIA.pdf",
+    "page_number": 30
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2010_tec_agro_ind/enade_2010_tec_agro_ind_page_30.txt",
+    "source_sha256": "594315e7b722b3e5b3c1bbe7454d54ba8cceb416b41c74243bc489b39162d0d4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "60e60ea695670d85b773cc1cb1eb5d725872e3e1bd25a3ea553744b9e79790b3",
+  "request_fingerprint": "538a5b4122e8004091474994fb5ad6c018463308eff8fae3330402c9bed84c9e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.1, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Uma comparação entre o desempenho de Ingressantes e Concluintes também pode ser realizada a partir dos dados apresentados no Gráfico 3.1, com a distribuição de notas finais. Destaca-se que as notas mais elevadas, considerando-se o intervalo posterior à nota 40,0, foram atingidas principalmente pelos Concluintes, cuja concentração das notas está à direita dos Ingressantes. Já nas faixas de notas mais baixas, inverteu-se o quadro identificado nas faixas de notas mais altas. Essa característica é corroborada pelo valor da nota mediana 43,1 no grupo dos Ingressantes, abaixo da encontrada no grupo dos Concluintes, 49,0, transparecendo superioridade de desempenho dos Concluintes em relação aos Ingressantes na prova em tela (Tabela 3.1). A faixa modal para Ingressantes foi a que vai de 40 a 50 pontos com 35,9% dos estudantes do grupo e para Concluintes, a faixa seguinte, de 50 a 60 pontos com 27,2%.\n\nOs coeficientes de assimetria indicam uma assimetria negativa para os Concluintes (-0,6) e para Ingressantes (-0,1).",
+  "text_sha256": "c6d6054e06694f17d4058e9447bd0ed79c9abfd71998b26dcfcbd456cc3cef5b",
+  "window_size": 3
+}

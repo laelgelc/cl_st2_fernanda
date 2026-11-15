@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01b335dbd761535c006af8edbdb50487d18418179be05b38a6",
+    "usage": {
+      "input_tokens": 2765,
+      "input_tokens_details": {
+        "cache_write_tokens": 2762,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2762
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 3185
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 60,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_60.txt",
+      "source_sha256": "4cc8da579378de3804233892851f929fc9e7b651b238bff34ac5066ae4d4f4a1"
+    },
+    {
+      "page_number": 62,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_62.txt",
+      "source_sha256": "35fa72610d35680320c31a5fa61a0ef1b53a1ce1d64c84b000e53a9a9d88c77c"
+    }
+  ],
+  "created_at": "2026-11-14T23:24:45Z",
+  "duration_seconds": 5.413,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_hist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_HISTÓRIA.pdf",
+    "page_number": 61
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_hist/enade_2011_hist_page_61.txt",
+    "source_sha256": "68bf068a6e275eb5f178a8418cdcfbc104b1ff94316134b81fb6f1fc65c0eb45"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8b46564498647b05a0d04fc6aaa0034caf8aa9b3af1c79476cddc620e760d7e0",
+  "request_fingerprint": "4d07fa677ac2a94135eeca7379629a3632149fe95a6ed77923753761c4448529",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão 27, em função do número de acertos dos estudantes nesta parte da prova, antes de possíveis eliminações de questões pelo critério do ponto bisserial. A alternativa correta B, representada no gráfico pela curva em verde, foi escolhida em maiores proporções pelos alunos com desempenho melhor nesta parte da prova. Já as alternativas incorretas, também denominadas distratores, foram selecionadas principalmente por aqueles com quantidade de acertos menor. Aqueles com nota zero, na sua quase totalidade deixaram esta questão em branco ou marcaram mais de uma alternativa, comportamento considerado inválido. A proporção de alunos que selecionou a resposta correta B aumenta gradativamente, chegando a atingir 100% para alunos com 20 acertos ou mais, enquanto a proporção dos que escolheram alternativas incorretas decai, a partir de dois acertos, como função do número de acertos nesta parte da prova.\n\nOs gráficos relativos às demais questões do componente de Conhecimento Específico constam do Anexo I.",
+  "text_sha256": "1fef978dde9962ee6246861d1a9d5d8829186977789dc0c97d2515aa9c61858f",
+  "window_size": 3
+}

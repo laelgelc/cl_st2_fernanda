@@ -1,0 +1,64 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0967d3158aa5895c006af915da32b087d18780d5697c7ce7cc",
+    "usage": {
+      "input_tokens": 2859,
+      "input_tokens_details": {
+        "cache_write_tokens": 2856,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2856
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 662,
+      "output_tokens_details": {
+        "reasoning_tokens": 468
+      },
+      "total_tokens": 3521
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 165,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_165.txt",
+      "source_sha256": "febeeb4c0c81cb3a1c7e1e15fcc6c84ca15a85272d91cf12b933428e23811e0b"
+    },
+    {
+      "page_number": 167,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_167.txt",
+      "source_sha256": "3af5516e361024653357674a39684a74378f9c8fd642fd51a2bb9321bef585b8"
+    }
+  ],
+  "created_at": "2026-11-15T02:15:54Z",
+  "duration_seconds": 6.627,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_tec_gest_hosp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_TEC G HOSPITALAR.pdf",
+    "page_number": 166
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_tec_gest_hosp/enade_2019_tec_gest_hosp_page_166.txt",
+    "source_sha256": "d67adaa06433ddfffbc80644b1a6d27273005999139582e5140495ef3a2d7719"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f4a9dca37a402478a3db231d3e0a06cdcf9b516bcac90af96aa31b1f0dc62f39",
+  "request_fingerprint": "a1a08e4eae3dc389f2bcd790d1b5ebb1b9788486be0c1ccfecb81f1b1d933cdb",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.13, incluindo título, dados e fonte.",
+    "Removido o Gráfico 6.6, incluindo material gráfico e linha de fonte.",
+    "A página termina com “a”, aparentemente continuando na página seguinte; mantido sem completar."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.6, está representada a distribuição das notas nas questões discursivas do Componente de Formação Geral. A moda dessa distribuição ocorre no intervalo [0; 10], com 34,8% do total de participantes. Esse intervalo inclui, além da nota zero, a frequência de estudantes que deixaram esse tipo de questão em branco.\n\nNa sequência, os resultados verificados para cada uma das questões discursivas de Formação Geral serão apresentados, estabelecendo-se relações com os conteúdos abordados em cada uma delas. Os comentários das Bancas de docentes corretores, a",
+  "text_sha256": "6466126cb4cff503fd6fbdd370b172209654703805dea8f4b70d9a57f15f42ea",
+  "window_size": 3
+}

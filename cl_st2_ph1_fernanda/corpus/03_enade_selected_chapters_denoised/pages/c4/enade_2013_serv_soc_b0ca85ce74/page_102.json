@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0e5d0d44c9a79594006af8f4cd8ff487d183af74018e675fb6",
+    "usage": {
+      "input_tokens": 1749,
+      "input_tokens_details": {
+        "cache_write_tokens": 1746,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1746
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 2194
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_101.txt",
+      "source_sha256": "afb980a851c7594dac7e59dd5fb2f1dbfc6b945d44e5f92a1835f5af7efcee7e"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_103.txt",
+      "source_sha256": "d8383a9f7fdfcae2aee9425d3bdd237ac9bb80bff56332a0e3c84138cbae13ef"
+    }
+  ],
+  "created_at": "2026-11-14T23:54:53Z",
+  "duration_seconds": 4.624,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2013_serv_soc/enade_2013_serv_soc_page_102.txt",
+    "source_sha256": "d04a7f5876feb0f3d1bc6c88e53d5fbbecd47206a74cce10d2c80adf10ddb668"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "72e61d91cd653ec05eec65b29d6592c9f2d9e6b827d6d24ec6b207387ad27a14",
+  "request_fingerprint": "f05ce2dd8fff0f58e3463024b65f1e933b1f335a434fdcfa361dcf95cb2c9000",
+  "retry_count": 0,
+  "review_notes": [
+    "Removed the source line “Fonte: MEC/INEP/DAES - ENADE/2013”, which appears to belong to graph material; no graph data were present in the extracted target text."
+  ],
+  "status": "success",
+  "text": "Considerando-se o desempenho dos alunos, nota-se ainda que o percentual dos que consideraram a extensão da prova adequada variou de 46,7%, no 4º quarto de desempenho, a 49,4% no 2º quarto de desempenho. Observa-se, grosso modo, tendência decrescente conforme o desempenho.\n\nNo Gráfico 4.6, pode-se constatar que para os quatro quartos de desempenho a proporção de estudantes que consideraram a prova longa ou muito longa, em relação ao tempo total destinado à sua resolução, manteve-se em torno de 43%, ligeiramente crescente com o desempenho, mas sem diferenças estatisticamente significativas, com exceção do 4º quarto de desempenho com valor estatisticamente mais alto do que os demais.",
+  "text_sha256": "338327036ba45c5569ef7c04e14873407cbe9e6431902d4cff49fc3b6c8f8a08",
+  "window_size": 3
+}

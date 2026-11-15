@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_02360e8170717129006af8f66e778887d1837a100701913678",
+    "usage": {
+      "input_tokens": 2335,
+      "input_tokens_details": {
+        "cache_write_tokens": 2332,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2332
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 291
+      },
+      "total_tokens": 2833
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_75.txt",
+      "source_sha256": "965cf0b78e0d5f575241a721ab0500ac817df79026e5d879c78ef5cbe2e7a3b2"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_77.txt",
+      "source_sha256": "fc02618694850c10500f383b6d381dee4323aa9eb89d52a8d9e2627cf1c07585"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:50Z",
+  "duration_seconds": 5.333,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_76.txt",
+    "source_sha256": "7ff5728531ab57bff3a669de3b69fe4d1c7a4d8f36576606e838834615c0a0b7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a1ae940415a24444aa19f160dc6d2c54eb408950e42674174c5bd44adee9ccb5",
+  "request_fingerprint": "8f6a5bcc623a537526838fcbae0a4f8d0f3d8a2257203b6e252749b3c8cb0004",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.15, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A mediana de todo o Brasil foi 50,0, a mesma das regiões Sudeste, Sul e Centro-Oeste, enquanto a maior mediana foi encontrada nas regiões Norte e Nordeste (60,0). As notas máximas (100,0) foram as mesmas em todas as regiões do Brasil, assim como as notas mínimas (0,0), sem exceção.\n\nO Gráfico 3.9 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral para estudantes de Bacharelado e de Licenciatura. Observa-se que a maior frequência do Bacharelado corresponde aos estudantes que deixaram a questão em branco e para a Licenciatura a moda é o intervalo (60; 70]. Para as duas habilitações observa-se outro máximo local no intervalo (40; 50].",
+  "text_sha256": "8ce8f10220bdabc39313853f2695f780e622943a4621662f730cccac5862d8dd",
+  "window_size": 3
+}

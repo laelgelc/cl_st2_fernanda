@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_039ca70b043aa0f5006af90f5bd65487d1b348dc9db09dc5e9",
+    "usage": {
+      "input_tokens": 2507,
+      "input_tokens_details": {
+        "cache_write_tokens": 2504,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2504
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 3079
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_agro/enade_2019_agro_page_122.txt",
+      "source_sha256": "22abc012deb06b726836b707d618351ce45460c0bbedd3e5726cd640b7997010"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_agro/enade_2019_agro_page_124.txt",
+      "source_sha256": "bbff7d47f2224364ea96132235cf8b799c5faaf8ab176f6c1722fa204faf21f8"
+    }
+  ],
+  "created_at": "2026-11-15T01:48:11Z",
+  "duration_seconds": 5.205,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2019_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_AGRONOMIA.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2019_agro/enade_2019_agro_page_123.txt",
+    "source_sha256": "2a51db909d6e413865fab27ddd3dccdc86de5b6313f0ee5df4b179d7e113f37d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a7e59ab36979eb35d4163f4d7f89ec4be9658e106b4530a5cfb4ca33a36d85ee",
+  "request_fingerprint": "fcc77292e361926c5d57da697fa27d23666f5b34d551b4933cba8bf24bae02e3",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2019”, identificada como pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "algumas regiões o conceito 5 não foi alcançado por nenhum curso, como ocorre nas regiões Norte (linha azul) e Centro-Oeste (linha laranja), nas quais todos os cursos têm conceito menor ou igual 4, e as respectivas poligonais cumulativas alcançam 100% no conceito 4.\n\nEm linhas gerais, em um gráfico de distribuição cumulativa, poligonais mais à esquerda representam Grandes Regiões com pior distribuição, e poligonais mais à direita, Grandes Regiões com melhores conceitos. A região Norte (linha azul) e Centro-Oeste (linha laranja) apresentam os cursos com conceitos mais baixos, ao passo que as regiões Sudeste (linha vermelha) e Sul (linha roxa) apresentam as distribuições com valores maiores. Cursos em IES situadas na região Nordeste (linha verde) apresenta uma situação intermediária.\n\n5.2 CONCEITOS POR CATEGORIA ADMINISTRATIVA, POR MODALIDADE DE ENSINO E GRANDE REGIÃO\n\nNa Tabela 5.2, é apresentada a distribuição dos cursos de Agronomia participantes do Enade/2019, por Categoria Administrativa e Modalidade de ensino, de acordo com os conceitos por eles alcançados, segundo as Grandes Regiões brasileiras. Dos 299 cursos participantes, 173 (57,9%) eram ministrados em Instituições Públicas, e 126 (42,1%), em Instituições Privadas.",
+  "text_sha256": "841e58d78a09adf98d82a482978f5e7a271e46c6b8cc5aebc807abf906f7ef08",
+  "window_size": 3
+}

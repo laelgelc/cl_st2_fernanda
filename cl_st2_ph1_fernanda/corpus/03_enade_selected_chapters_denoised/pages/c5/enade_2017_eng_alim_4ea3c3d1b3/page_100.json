@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0395f2cdbcd4a726006af9064b04e487d1870d5953930710f3",
+    "usage": {
+      "input_tokens": 1982,
+      "input_tokens_details": {
+        "cache_write_tokens": 1979,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1979
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 392,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 2374
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 99,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_alim/enade_2017_eng_alim_page_99.txt",
+      "source_sha256": "2228450da99d5bb503dd61b547eb09e566d25116aafea9011849141aa496534f"
+    }
+  ],
+  "created_at": "2026-11-15T01:09:30Z",
+  "duration_seconds": 5.158,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2017_eng_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE ALIMENTOS.pdf",
+    "page_number": 100
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2017_eng_alim/enade_2017_eng_alim_page_100.txt",
+    "source_sha256": "576d7169ecef3d39deaedd1713cd2594ad7e8e3ade4e7934593c6d833b02ab56"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5394556b8e5103ed9e0e0d29bfd9cc0f0c50d9136902b9480e6118c296adafcf",
+  "request_fingerprint": "aa2a641aa582a6272ddf4129dcabb02dbb92589832b04164f9e3d879050e77e6",
+  "retry_count": 0,
+  "review_notes": [
+    "Gráfico 5.3 e sua linha de fonte (“Fonte: MEC/Inep/Daes – Enade/2017”) foram removidos; a descrição em prosa foi preservada."
+  ],
+  "status": "success",
+  "text": "Os Centros Universitários da região Centro-Oeste contaram com um curso, ao qual foi atribuído o conceito 2. As Faculdades da região Centro-Oeste não registraram cursos de Engenharia de Alimentos, e os CEFET/IFET apresentaram dois cursos, que receberam conceito 2.\n\nO Gráfico 5.3 apresenta a distribuição cumulativa do Conceito Enade segundo Organização Acadêmica da IES. Os cursos em Universidades (linha azul) apresentam uma poligonal mais à direita do que as demais, denotando uma melhor distribuição de Conceitos Enade. No outro extremo, temos os cursos oferecidos em Faculdades (linha vermelha) com a poligonal mais à esquerda e, consequentemente, uma distribuição de Conceitos Enade com menores valores. Em IES de Faculdades (linha vermelha) e de CEFET/IFET (linha roxa), todos os cursos têm conceito 3 ou abaixo e conceito 4 ou abaixo, já que as poligonais cumulativas alcançam 100% para os conceitos 3 e 4, respectivamente.",
+  "text_sha256": "b9b3cb1db2e51900823c65ee8ba8b6c343cb1542a2c0c47813f168d990d5d170",
+  "window_size": 3
+}

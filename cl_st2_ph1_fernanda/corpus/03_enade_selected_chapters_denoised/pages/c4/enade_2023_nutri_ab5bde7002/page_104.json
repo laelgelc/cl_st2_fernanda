@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0df650de4c2c8d22006af924496e8887d19d9008946d57180e",
+    "usage": {
+      "input_tokens": 1860,
+      "input_tokens_details": {
+        "cache_write_tokens": 1857,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1857
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 333,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 2193
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_103.txt",
+      "source_sha256": "0574926c7ccb4d087d24473616f6e2fa2b21c8a5c7b13eebd8f3294fe487306b"
+    },
+    {
+      "page_number": 105,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_105.txt",
+      "source_sha256": "c46e2306f2578c751d9124e40b6ee0d361d933d8c085dbd2826e2af3a7f1765f"
+    }
+  ],
+  "created_at": "2026-11-15T03:17:29Z",
+  "duration_seconds": 3.375,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_nutri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_NUTRIÇÃO.pdf",
+    "page_number": 104
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_nutri/enade_2023_nutri_page_104.txt",
+    "source_sha256": "bd0aba6ab69b82f9d2ef9ba20b9a3baa89e13a4b24b0fa4473696bc5d4245947"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "5b44e51fceb2fb9e1c4a27dcfd5ed44bf2d7767ae4ab8d93e53ce3170623ddcb",
+  "request_fingerprint": "13cc6b605732c28eefcce33c7de1646c8ead362182c384a473fbc25fabc66297",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.27, incluindo título, dados, rótulos e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.27 apresenta outros resultados em relação à mesma questão retratada no gráfico anterior, porém por organização acadêmica das IES.\n\nDe acordo com os dados do Gráfico 3.27, na análise por organização acadêmica, o percentual de inscritos e presentes que apontaram o “desconhecimento do conteúdo” como “dificuldade ao responder à prova” não superou 14,1%. Os percentuais variaram de 11,9%, nas faculdades a 14,1%, nos centros universitários. É possível observar que as diferenças entre as organizações acadêmicas não são estatisticamente significativas.\n\nO tipo de dificuldade “Forma diferente de abordagem do conteúdo” foi a escolha modal dos estudantes, com percentuais que variaram de 40,9% (universidades) a 47,7% (CEFET/IF). Em contrapartida, o percentual de estudantes que citaram a dificuldade “Espaço insuficiente para responder às questões” variou de 4,4% (universidades) a 4,9% (centros universitários e faculdades).",
+  "text_sha256": "ac3683cfba2311f025bdd2e5a3bcf1b14450fe5ed844ff566c5a5ac36aaf72fd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07cfe93c85ee1459006af8f8c1868887d1943824ed07a66eeb",
+    "usage": {
+      "input_tokens": 2571,
+      "input_tokens_details": {
+        "cache_write_tokens": 2568,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2568
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 630,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 3201
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_48.txt",
+      "source_sha256": "e6787a8941bc63724e4666fecc81a385d7df7e18f57a68e8051e27055c40d0f2"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_50.txt",
+      "source_sha256": "5008f691ee38e9bb5d8ac2b37efb64bdd5313119699cb3f71809dfa853ae6903"
+    }
+  ],
+  "created_at": "2026-11-15T00:11:45Z",
+  "duration_seconds": 6.92,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_eng_flo/enade_2014_eng_flo_page_49.txt",
+    "source_sha256": "d22c71dddd6687cb9e3a6dd02955bc2219149ddc0d04d8b028d79d5d1aab6188"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "222ef8590f6cc92c9e3e1839712803224f9a189edf46d1cd2c7e0cac42e3bf7a",
+  "request_fingerprint": "e7b88b8f0636668fe692dd454b22ee9e095fdd04292f2b9cdb7d0eb7bbe0bbb2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido material gráfico da página, incluindo a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”. O último período termina incompleto na quebra de página."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.6 apresenta uma comparação dos resultados em relação à Categoria Administrativa e à Organização Acadêmica, agora levando em conta o desempenho de alunos do Componente de Conhecimento Específico da prova.\n\nNo que se refere à Organização Acadêmica, a maior média foi das Universidades (45,7), vindo a seguir a das Faculdades (38,6) e, depois, a dos Centros Universitários (32,2). O maior desvio padrão foi o das Universidades (13,8). As Universidades também obtiveram as maiores notas máxima (87,4) e mediana (45,8), seguidas pelas Faculdades (70,5 e 39,0 respectivamente) e pelos Centros Universitários (43,0 e 32,2 respectivamente). A nota mínima foi zero para as Universidades, enquanto foi 18,9 para os Centros Universitários e 1,0 para as Faculdades.\n\nQuanto à Categoria Administrativa, observa-se um comportamento semelhante àquele da parte de Formação Geral e à prova como um todo, ou seja, existe diferença estatisticamente significativa entre as médias das IES Públicas (45,7) e IES Privadas",
+  "text_sha256": "b581b46f843bdc2f21c7ac27bd9cc3e9fa273a99c254de7901729f09417b9153",
+  "window_size": 3
+}

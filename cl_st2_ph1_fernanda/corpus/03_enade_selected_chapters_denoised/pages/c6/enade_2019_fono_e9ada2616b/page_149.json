@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_042f9b83ddf6ba30006af9138ccd5487d185eb405145efbe77",
+    "usage": {
+      "input_tokens": 2701,
+      "input_tokens_details": {
+        "cache_write_tokens": 2698,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2698
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 3137
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 148,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_148.txt",
+      "source_sha256": "7f59fde751686e6d2c13208f7028fc3effa6b70bb4dbcc055385935af17d4036"
+    },
+    {
+      "page_number": 150,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_150.txt",
+      "source_sha256": "1ba1a83e8d1e48bde7fed735c4836d94fc0157091464bae6815a935e34bc5df7"
+    }
+  ],
+  "created_at": "2026-11-15T02:06:04Z",
+  "duration_seconds": 5.043,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_fono",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_FONOAUDIOLOGIA.pdf",
+    "page_number": 149
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_fono/enade_2019_fono_page_149.txt",
+    "source_sha256": "1293f0351e140e4e1aed8c60502add86aaae6f5cf7b4e52537bff8007635a376"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b85930eb06ceab3d80eb844ebfc7ff0ae9558e0af4bb7f55d69322aead3b8d4",
+  "request_fingerprint": "53bc682e95f64b5c0212255b977a660aecdea0ee3ee46e41ab85177ecda88524",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/Inep/Daes – Enade/2019”, pertencente ao gráfico da página anterior."
+  ],
+  "status": "success",
+  "text": "6.3 ANÁLISE DAS QUESTÕES DISCURSIVAS\nEsta seção apresenta estatísticas selecionadas e histogramas das Questões Discursivas de Formação Geral (6.3.1) e Conhecimento Específico (6.3.2). São, também, apresentadas e comparadas as médias de subpopulações, caracterizadas por Grande Região.\nCumpre notar que nem todas as questões passam pelo crivo dos corretores. As respostas depois de digitalizadas passam por um pré-processamento de identificação automático. Algumas destas questões são definidas como um “branco automático” (que não são enviadas para os professores para correção, a não ser que na segunda fase, a de inspeção visual, seja constatada uma resposta). O critério usado neste pré-processamento, é verificar para cada questão, a partir da quantidade de PIXELS, o que provavelmente, é uma resposta em branco. A partir da separação destes documentos que foram considerados em branco, eles são enviados para uma verificação visual, por uma equipe de colaboradores, devidamente treinados. Deste modo, quaisquer erros, deste pré-processamento, são encontrados, e as questões preenchidas, são enviadas para a correção dos professores.",
+  "text_sha256": "2d5c0d029a75fa9c966a5cb09cda9d64c6751cebbc74deb294672af7d0a0abbd",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0badb4113a400bdf006af8ec302dcc87d18833b73b87f8a9d8",
+    "usage": {
+      "input_tokens": 2423,
+      "input_tokens_details": {
+        "cache_write_tokens": 2420,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2420
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 296,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 2719
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 66,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_66.txt",
+      "source_sha256": "ad3a372261a4bdd079eba2a02820be021a5cbd244569dd4a06d437172baf4e08"
+    },
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_68.txt",
+      "source_sha256": "18215861d7a78a99774ef8d4a11e1435c858a5010d7f14ef562ec5ae2938fbab"
+    }
+  ],
+  "created_at": "2026-11-14T23:18:08Z",
+  "duration_seconds": 3.536,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_3",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO III.pdf",
+    "page_number": 67
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_3/enade_2011_eng_g_3_page_67.txt",
+    "source_sha256": "f66203a0ad934036b8872b43fa706a0a91fb6b53e10fd98cfefd215c528105ab"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "140b0d9c28ac5fe62d9e4dd05694f7a5fc774e15a43080fc0657185598622688",
+  "request_fingerprint": "718ba7e848f8f9587b5f34c2240efcf94dc8730d02f82baf38e785a07b5f7bc0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.12, incluindo título, dados e fonte. A linha de fonte após o parágrafo foi removida por pertencer ao Gráfico 3.19; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.19 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico. Essa distribuição é unimodal com moda nas questões em branco. Com relação às notas, as frequências são decrescentes até o último intervalo (90;100]. O coeficiente de assimetria foi positivo para o Brasil como um todo, 1,87, bem como para todas as regiões.",
+  "text_sha256": "4b516fbbf405209cc81ff131bfb2d5dc3156228c2ff094efde5623980ce13e2e",
+  "window_size": 3
+}

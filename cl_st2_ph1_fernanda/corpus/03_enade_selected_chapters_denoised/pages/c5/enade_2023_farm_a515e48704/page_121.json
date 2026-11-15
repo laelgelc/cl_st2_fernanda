@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_000e2cb019f51afc006af92379358087d19faf5b65099b808b",
+    "usage": {
+      "input_tokens": 2653,
+      "input_tokens_details": {
+        "cache_write_tokens": 2650,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2650
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 325,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 2978
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 120,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_120.txt",
+      "source_sha256": "99610e42eb9dd9c7a16bcd979bda34c16a89fefc8c1327a8df74fdc2f6edc327"
+    },
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_122.txt",
+      "source_sha256": "7914f05ebdb85b493930ddc89a2cce0973cb40f0b6a6fdac9f674bb3a1aae0c2"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:01Z",
+  "duration_seconds": 3.56,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c5",
+    "filename_stem": "enade_2023_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FARMÁCIA.pdf",
+    "page_number": 121
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c5/enade_2023_farm/enade_2023_farm_page_121.txt",
+    "source_sha256": "b9796c7f296c627dcd1c80c013a1a3e52ced5f1a4131dd9ecf41de66b7c07074"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e1cef4d2c2e85c1398857a1487abda00a3ab2b47ed02edfbd41a4193f93b5548",
+  "request_fingerprint": "3a03f9639387f53f1d9de74e164f845256e6dccfdd7875054ac202e6f58fa786",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico 4.2 e seus elementos textuais: título/caption e linha de fonte."
+  ],
+  "status": "success",
+  "text": "A título de síntese, no Gráfico 4.2, apresenta-se a distribuição do Conceito Enade, segundo a categoria administrativa da IES.\n\nNesse gráfico, como dito anteriormente, poligonais mais à esquerda representam Conceito Enade mais baixos, e poligonais mais à direita, Conceito Enade mais altos. É importante observar que, para cada poligonal presente nesse gráfico, a porcentagem constante no eixo y refere-se ao universo de cursos oferecidos por instituições públicas (poligonal azul) ou privadas (poligonal verde), respectivamente. Os cursos em IES públicas (poligonal azul) apresentam uma poligonal mais à direita do que os em IES privadas (poligonal verde) e, consequentemente, uma distribuição de Conceito Enade com valores maiores.",
+  "text_sha256": "47907d24dcc0eca40b5f74dba877b47e5a19f3534828513d372585be3078e9db",
+  "window_size": 3
+}

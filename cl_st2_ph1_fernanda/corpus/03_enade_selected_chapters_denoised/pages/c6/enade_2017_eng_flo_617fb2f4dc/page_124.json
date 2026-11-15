@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_04a1577ecdd6799a006af9073a6d0887d198c4b44afb1fb09c",
+    "usage": {
+      "input_tokens": 2360,
+      "input_tokens_details": {
+        "cache_write_tokens": 2357,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2357
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 368,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 2728
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_123.txt",
+      "source_sha256": "65b634a7616e3b14a82a0fa3e5044bfab09a58349239e54c8678abe8161b591b"
+    },
+    {
+      "page_number": 125,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_125.txt",
+      "source_sha256": "e7207affb9314687064725cf0fe87ddb1464fa90d0660d1d3c7768df68adf31b"
+    }
+  ],
+  "created_at": "2026-11-15T01:13:30Z",
+  "duration_seconds": 4.111,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 124
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_flo/enade_2017_eng_flo_page_124.txt",
+    "source_sha256": "877120d8d2e42b8408127061191cc39b068c45994fbc5ebd4dc2e515dfd4c8b4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6a19552e7f9af5fd673a08e7117a1fe015585ce1111c1d172b8a55648c00a7c5",
+  "request_fingerprint": "0d59371895758e6cc17cd831ca160dcc13933655e022a5c3f321a5421210c12c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.15, incluindo título, estatísticas e fonte."
+  ],
+  "status": "success",
+  "text": "A Mediana de todo o Brasil foi 70,0, a mesma de todas as regiões. As notas máximas (100,0) e mínima (0,0) também foram as mesmas em todas as regiões, sem exceção.\n\nO Gráfico 6.8 mostra a distribuição das notas na questão discursiva 2 do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota dentro do intervalo (70; 80]. Destacam-se, também, os alunos que deixaram a questão em branco e os alunos que obtiveram nota dentro do intervalo (90; 100], caracterizando-se como máximos locais. Nota-se, ainda, que as notas ficaram menos concentradas em comparação à questão discursiva de número 1. Isto pode ser constatado também pela comparação do desvio padrão das notas da questão discursiva 2 (31,3) com o das notas da questão discursiva 1 (25,0).",
+  "text_sha256": "830ae997119307d8955a01c1a1090d62128cd61f437345f54411ca3ad6d3e266",
+  "window_size": 3
+}

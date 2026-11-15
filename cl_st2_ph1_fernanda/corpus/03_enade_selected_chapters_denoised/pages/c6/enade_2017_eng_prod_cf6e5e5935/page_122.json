@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a7d62e5cb3b04a3006af906c32d0887d195231a3ec7df05ed",
+    "usage": {
+      "input_tokens": 2964,
+      "input_tokens_details": {
+        "cache_write_tokens": 2961,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2961
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 285,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 3249
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 121,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_121.txt",
+      "source_sha256": "e167b6a11dfaffb85a95c923c90c573c7e0e12d5244430a088e35825dfefa17c"
+    },
+    {
+      "page_number": 123,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_123.txt",
+      "source_sha256": "0f385bf07dbf1960c3c28a85dade4d55ac6ccfaf4b0e1c82a0a8055c76fcbfcc"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:31Z",
+  "duration_seconds": 4.363,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 122
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_122.txt",
+    "source_sha256": "23bef10f1b327c60a4605f147ea9d511eabdec8e15070dd47cc9637b8930ff14"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f9bfd745d3c047567d54d58b3ad4a7718a219d9a3964860a80bfe62fd337042e",
+  "request_fingerprint": "d74eaad35a4729704557ee16c18643575ba98f0c4f8692812d983304af18065d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removida a linha de fonte do Gráfico 6.3; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "Assim como os Gráficos 6.1 e 6.2, o Gráfico 6.3, apresentado a seguir, permite uma avaliação do desempenho de concluintes de Engenharia de Produção em relação ao Componente de Conhecimento Específico com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (30; 40], mesmo grupo modal da prova como um todo e abaixo do grupo modal para a Formação Geral.",
+  "text_sha256": "5a3d3dd538b5b9497af15a0b0705a7c51f56633f6eaac6d1ce14536066ae2a4f",
+  "window_size": 3
+}

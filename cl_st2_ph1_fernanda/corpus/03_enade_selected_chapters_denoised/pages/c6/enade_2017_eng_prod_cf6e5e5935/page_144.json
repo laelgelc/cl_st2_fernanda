@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f1e3151fa9e6771006af906d26f3487d18ca2e3cb76653bb4",
+    "usage": {
+      "input_tokens": 2462,
+      "input_tokens_details": {
+        "cache_write_tokens": 2459,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2459
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 353,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 2815
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 143,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_143.txt",
+      "source_sha256": "8760401cc48fd93c81be317f3971f493b4882fd0bba792a6b975eb18e792ac96"
+    },
+    {
+      "page_number": 145,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_145.txt",
+      "source_sha256": "2144b5fbc3b97a55c3c0f28f36f57cf95e9aa4d2f23666de06e3d6cc323d20ad"
+    }
+  ],
+  "created_at": "2026-11-15T01:11:46Z",
+  "duration_seconds": 5.307,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_prod",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA DE PRODUÇÃO.pdf",
+    "page_number": 144
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_prod/enade_2017_eng_prod_page_144.txt",
+    "source_sha256": "5eac4fc66b74203d15e95332bf464e9208c1de477eab7833ced1c0c14dd81e9f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "037acc3c35387836500692ccb2f5b2ab75552544d6b12d02e37cc6bb3f55eb38",
+  "request_fingerprint": "c01efeeae4cec626c8393b996f1eec6964427b847481bffb5274304a1569f680",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.16, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.9 e sua linha de fonte; preservado o parágrafo narrativo que descreve os resultados."
+  ],
+  "status": "success",
+  "text": "O Gráfico 6.9 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (pouco acima de 30%) corresponde aos alunos que obtiveram nota no intervalo (60; 70]. Destaca-se, também, os alunos que deixaram em branco ambas as respostas às questões de Formação Geral, representando em torno de 7% do total.",
+  "text_sha256": "bc045b54b64bec5d2ab1aeeb0333121dd045d05b5ea044ee314257cabd433d76",
+  "window_size": 3
+}

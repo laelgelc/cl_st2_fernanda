@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_030d4bf45ca72372006af92395d96887d19712e17da0b8ba3c",
+    "usage": {
+      "input_tokens": 1938,
+      "input_tokens_details": {
+        "cache_write_tokens": 1935,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1935
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 2301
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_80.txt",
+      "source_sha256": "69c609423169370a9ca21faae623b98e4b5aac0d6491b5307de4a483aafad0be"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_82.txt",
+      "source_sha256": "a81246d5d44203cb20b68de39c73716edb4f490a10d5db24e85455aff13f7195"
+    }
+  ],
+  "created_at": "2026-11-15T03:14:29Z",
+  "duration_seconds": 4.133,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2023_fisio",
+    "filepath_ori": "corpus/00_sources/enade_raw/2023/ENADE_2023_FISIOTERAPIA.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2023_fisio/enade_2023_fisio_page_81.txt",
+    "source_sha256": "c9921f5e263d5b6302fb3cd1716ec05cd284ae4c481e905778c1e8969fcffcad"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "26dd4c9e62a3e54cc294e8595a40c822e6d00967c2113754e3c1440483965359",
+  "request_fingerprint": "2e267ad6530ff81f18ffc8fe26447dcbf372e2497374fdbf51e86c72b100a03e",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a fonte do Gráfico 3.3."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.3 apresenta outros resultados em relação à mesma questão retratada no gráfico anterior, porém, por organização acadêmica das IES.\n\nComo mostram os dados do Gráfico 3.3, o percentual de estudantes que consideraram o componente de Formação Geral da prova “Difícil” ou “Muito difícil” foi maior entre os estudantes de faculdades, alcançando 24,6%. Já entre os estudantes das CEFET/IF, organização acadêmica com as menores incidências, os percentuais alcançaram 14,9 %. É possível observar que as diferenças entre as organizações acadêmicas são estatisticamente significativas. A proporção de estudantes presentes que avaliaram o componente de Formação Geral com o grau de dificuldade “Médio” foi de 68,9% nas universidades, 67,4% nos centros universitários, 68,2% nas faculdades e 62,7% nos CEFET/IF (ver também a Tabela V.2 no Anexo V).",
+  "text_sha256": "521ba29110cbde1b10044a0cbc4e2879b74b3f64cf2ac439e533e41a3a1d3739",
+  "window_size": 3
+}

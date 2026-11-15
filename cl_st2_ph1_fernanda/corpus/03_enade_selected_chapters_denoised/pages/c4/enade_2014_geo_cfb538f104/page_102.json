@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b4fee32f90eaec6006af8f9cfb40c87d19b274c326404eadc",
+    "usage": {
+      "input_tokens": 2009,
+      "input_tokens_details": {
+        "cache_write_tokens": 2006,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2006
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 315,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 2324
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 101,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_101.txt",
+      "source_sha256": "eea7e37b2ac3ab11832a1fea7f747c3b263f63fd146b474bb357b87672564a4e"
+    },
+    {
+      "page_number": 103,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_103.txt",
+      "source_sha256": "88772518f8272ffddf24f2f084b46478edbacc1914bfb23a2aa28f43cdc92737"
+    }
+  ],
+  "created_at": "2026-11-15T00:16:15Z",
+  "duration_seconds": 4.459,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_geo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_GEOGRAFIA.pdf",
+    "page_number": 102
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_geo/enade_2014_geo_page_102.txt",
+    "source_sha256": "3e4f10a1eaa3853cd4358fa81a7d5b0525eec7ea0e2f5b5f89ace6b2d85a60e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "230443c0dd6da40ba7910f39401dc9891b574db69a55c2e538b79411a6bca46a",
+  "request_fingerprint": "c083eafa9164b6f0a3d6446140129d91fda68f3e01ac0d58530a50ae7a7e1d28",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o gráfico e sua linha de fonte («Fonte: MEC/INEP/DAES - ENADE/2014»)."
+  ],
+  "status": "success",
+  "text": "O percentual de alunos que consideraram a prova difícil ou muito difícil foi decrescente em função dos quartos de desempenho: 40,9% no primeiro quarto e 21,7% no quarto, grupo de melhor desempenho na prova. Nos quartos de desempenho intermediários, a proporção de alunos que consideraram a prova difícil ou muito difícil foi de 38,2% no 2º quarto e 31,1% no 3º quarto. As diferenças entre os quartos são estatisticamente significativas, menos entre os dois inferiores. Para todos os quartos de desempenho, a alternativa modal para esta pergunta foi médio, com 47,7% e 63,6% dos respondentes nos quartos extremos, primeiro e quarto, respectivamente, valores crescentes com o desempenho.",
+  "text_sha256": "2eb994ea7c28b53a14979a2bf4b1a057a699fdf49a490ca907ed2e5ebf6a5e03",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08bc0ed9138f1d8a006af8f114aa9487d1b60c58745e98e46a",
+    "usage": {
+      "input_tokens": 2861,
+      "input_tokens_details": {
+        "cache_write_tokens": 2858,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2858
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 1441,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 4302
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_50.txt",
+      "source_sha256": "33216d31f6e0668523a1d073af4f11c5a7889345338f88286fb03f2e2cbcc7d5"
+    },
+    {
+      "page_number": 52,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_52.txt",
+      "source_sha256": "47d2f008a185bf153a58d29ac56e913efee16f686716450ef1b63d23e0397147"
+    }
+  ],
+  "created_at": "2026-11-14T23:39:00Z",
+  "duration_seconds": 12.501,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_jorn",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_JORNALISMO.pdf",
+    "page_number": 51
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_jorn/enade_2012_jorn_page_51.txt",
+    "source_sha256": "cf3d35531437d50a40533819fba16d248dafdf44a8da5c486f9b104ec0cb87b9"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bab90d0d54896ef4071a8a27de2ab1c872e64ddde44c225d2dc24df5ac8051b9",
+  "request_fingerprint": "f1b392c9ae3613f6cdd057ae700d2a1d0f8bb4b014e17f50d323808a316558c5",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte.",
+    "O texto termina no meio de uma frase na página; não foi completado com o texto da página seguinte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n• Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n• As questões classificadas com índice fraco receberam a cor roxa (índice <=0,19), as classificadas com médio receberam a cor vermelho (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil ou muito difícil. Uma questão foi tida como fácil, por ter índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Cinco questões foram consideradas de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Duas questões foram classificadas como difícil, situando-se no intervalo entre 0,16 e 0,40.\nComo já comentado, para análise das questões objetivas relativas à Formação Geral segundo o poder de discriminação, utilizou-se, o índice de discriminação ponto bisserial. Nesta análise as questões foram assim avaliadas: seis das oito questões apresentaram\nO índice de facilidade variou de 0,25 a 0,61, e o de discriminação, de 0,27 a 0,51. As questões com índices de discriminação muito bom, de números 1, 2, 3, 4, 6 e 7, figuraram entre as mais fáceis desse conjunto: uma classificada na categoria fácil (questões 1) do índice de facilidade e cinco na categoria médio (questões 2, 3, 4, 6 e 7). Em particular, as questões 6 e 7 foram as que apresentaram maior poder discriminatório, com índice 0,51, e foram também a terceira e segundas mais fáceis, com uma proporção de 0,55 e 0,58 de acertos, respectivamente. A questão de número 5 apresentou índice de facilidade 0,25, ou seja, 25% dos estudantes conseguiu resolvê-la, dentro do universo de participantes. Além disso, seu índice de discriminação foi médio. A questão 8 obteve índice de discriminação bom, 0,37, e seu índice de facilidade foi difícil.\nO Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se da segunda questão mais fácil e uma das que obteve o maior índice de discriminação dessa parte da prova.\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função da nota dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em verde corresponde à alternativa B, a correta para esta questão. Assim, observa-se que entre os estudantes com notas mais baixas, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em",
+  "text_sha256": "7d401364ce8fb4d78a45705fb98dc8636f10b477d02d57e1b9454b6e91b96a94",
+  "window_size": 3
+}

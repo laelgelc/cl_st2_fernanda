@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_009f694908abc642006af8ee3bbe7487d1abd4968d35e7d090",
+    "usage": {
+      "input_tokens": 2394,
+      "input_tokens_details": {
+        "cache_write_tokens": 2391,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2391
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 752,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3146
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 33,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_33.txt",
+      "source_sha256": "7ed6fcbadaf0a72077c1bfbc59470cae9becafc88773b25be1bb5088cdd9dc37"
+    },
+    {
+      "page_number": 35,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_35.txt",
+      "source_sha256": "f33d25fd7270d2445a6d457cd1232fd567be9e46c7614ec3520c9164fb05378f"
+    }
+  ],
+  "created_at": "2026-11-14T23:26:51Z",
+  "duration_seconds": 7.807,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_mus",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_MÚSICA.pdf",
+    "page_number": 34
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_mus/enade_2011_mus_page_34.txt",
+    "source_sha256": "6690eea78e03fe24209996b7466147e6fb91353ea3daa00a9ea7403994d3dbe3"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "989d246bca3e2e2e459cf4198f3937813da6ff70511cf36e971e48070514e5b3",
+  "request_fingerprint": "1f42c81445378e552bb97677cc16450ac3ee4d88ba896cf8da3f6826499e52b0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.1 (incluindo título, dados e fonte) e o material gráfico do Gráfico 3.1; a prosa que comenta o gráfico foi preservada."
+  ],
+  "status": "success",
+  "text": "A média das notas da prova como um todo (nas seções seguintes serão analisados os componentes de Formação Geral e de Conhecimento Específico) foi 50,4, sendo que os estudantes da região Centro-Oeste obtiveram a média mais baixa (48,0) e os da região Sul obtiveram a média mais alta (50,9). As demais médias foram: 48,6 na região Norte; 50,6 na região Nordeste; e 50,8 na região Sudeste. O desvio padrão para o Brasil como um todo foi 15,1, sendo o maior desvio padrão encontrado na região Centro-Oeste (16,6) e o menor na região Norte (11,3), indicando uma menor dispersão das notas desta última região.\nNas regiões Sudeste e Sul pelo menos um aluno obteve a maior nota máxima (87,7), ao passo que a região que atingiu a menor nota máxima foi a Norte (68,1). A mediana do Brasil como um todo foi 51,4, sendo a maior mediana obtida na região Sudeste (51,9) e a menor obtida na Centro-Oeste (49,7). A nota mínima foi zero em todas as regiões, com exceção da região Norte, com 23,3.\n\nO comportamento das notas dos estudantes de todo o Brasil pode ser observado no Gráfico 3.1, que apresenta um histograma com a distribuição das mesmas. Essa é uma distribuição unimodal com moda no intervalo (50;60]. O coeficiente de assimetria da distribuição das notas é negativo (–0,61) indicando uma concentração pouco maior do lado direito do histograma e mais espalhada do lado esquerdo. Em todas as regiões a assimetria é negativa, variando entre –0,45 (Norte e Nordeste) e –0,75 (Sul).",
+  "text_sha256": "33df86875b3833efede4661800afe79c402e48c51fab154f7a88bac28bf89789",
+  "window_size": 3
+}

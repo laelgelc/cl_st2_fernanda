@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_021209467856bd34006af907934fdc87d194242d5c988b4716",
+    "usage": {
+      "input_tokens": 2478,
+      "input_tokens_details": {
+        "cache_write_tokens": 2475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 409,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 2887
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_100.txt",
+      "source_sha256": "97992ee910410b49e0d2e97fd03793ac73cbdf0dbd1f66baf682556be9f24a7b"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_102.txt",
+      "source_sha256": "359df079b0bccb62af136892067a818371bf0cede67ccf7549e37e74545382fc"
+    }
+  ],
+  "created_at": "2026-11-15T01:14:59Z",
+  "duration_seconds": 4.404,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_eng_qui",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_ENGENHARIA QUÍMICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_eng_qui/enade_2017_eng_qui_page_101.txt",
+    "source_sha256": "b9597a35a17d1669d8ae6f195b7f01fab84fd9e24db6ef5c7ed0c10eb5b0b924"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "b33643c42a4ef48b9362a5c580fb731a74233824e957533dac2f1575e434dab0",
+  "request_fingerprint": "744af3d0b7b24dee916cf71ade5be8f06acdfafb228a1a0d9cb9646cece9c644",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte, pertencente ao gráfico 6.2 que continua do contexto para a página-alvo."
+  ],
+  "status": "success",
+  "text": "Na Tabela 6.4 são apresentadas as informações referentes ao desempenho dos concluintes do Componente de Formação Geral, em diferentes agregações: Categoria Administrativa, Organização Acadêmica e Modalidade de Ensino.\nObserva-se que existe diferença estatisticamente significativa entre as médias dos tipos de Categoria Administrativa: a maior Média foi obtida por estudantes de IES Públicas (65,1), e a menor, pelos de IES Privadas (58,5).\nNota-se que há diferença estatisticamente significativa das duas maiores médias das Organizações Acadêmicas, obtidas em CEFET/IFET (65,2) e Universidades (63,2), em relação às duas menores médias, obtidas em Centros Universitários (58,9) e Faculdades (57,5).\nNo que se refere à Modalidade de Ensino, na Educação Presencial, as estatísticas são as mesmas da primeira coluna da Tabela 6.3.",
+  "text_sha256": "0e3a83a99061acb14042c398eebd832e637f9d62c36fe622a8e9eb8225715ecb",
+  "window_size": 3
+}

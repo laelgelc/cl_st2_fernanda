@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d01573447b96bbf006af91c08aa9c87d1a1789628ee9a31b4",
+    "usage": {
+      "input_tokens": 1643,
+      "input_tokens_details": {
+        "cache_write_tokens": 1640,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1640
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 190,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1833
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_111.txt",
+      "source_sha256": "53952224c314b87a8c97e4e0519a63cf4166b26fba02ebb53267695924b2abc9"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_113.txt",
+      "source_sha256": "f7cd867f57218214c9881a6fdd42dd9d95f8897a3c9a16230bade66f93d62f00"
+    }
+  ],
+  "created_at": "2026-11-15T02:42:16Z",
+  "duration_seconds": 3.22,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2022_ci_econ",
+    "filepath_ori": "corpus/00_sources/enade_raw/2022/ENADE_2022_CIÊNCIAS ECONÔMICA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2022_ci_econ/enade_2022_ci_econ_page_112.txt",
+    "source_sha256": "a350f38522cf3afd6f2da54e6eab29954140aa0a62d2baa42d4edfd4ec4cd348"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4b6b8702bcc2ed7ed46066e8e6e6d87f41f69e272e47da2e7cb36a93203803c9",
+  "request_fingerprint": "8991adb9cf348c8b7e5bf7dc0b260efb0db2739da4678db999fc97ee7bda5e55",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 5.16, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 5.16 apresenta os dados por categoria administrativa das IES.\n\nOs dados do Gráfico 5.16 mostram que o percentual de estudantes que consideraram que todos ou a maioria dos enunciados das questões do Componente de Formação Geral estavam “claros e objetivos” foi maior entre os estudantes de cursos de IES públicas (89%) quando comparado aos estudantes de IES privadas (84,5%).",
+  "text_sha256": "fbcced5f989d71f1661ef1313d2ccb682f8da10432e48227cb404535d10ba342",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ad948de43720852006af902c0523487d1a34bbdf4d5c12736",
+    "usage": {
+      "input_tokens": 1729,
+      "input_tokens_details": {
+        "cache_write_tokens": 1726,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1726
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 276,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 2005
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 111,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_111.txt",
+      "source_sha256": "cb8bd9b741ab46fa3163e609b9c1bd773bb2ddf98c797e60b04322ec8da3f56c"
+    },
+    {
+      "page_number": 113,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_113.txt",
+      "source_sha256": "d2be5e9dcc43d9d71b08fc223e2be791bebcc1e8711efce8951fd737fedbf365"
+    }
+  ],
+  "created_at": "2026-11-15T00:54:24Z",
+  "duration_seconds": 2.944,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2016_med",
+    "filepath_ori": "corpus/00_sources/enade_raw/2016/ENADE_2016_MEDICINA.pdf",
+    "page_number": 112
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2016_med/enade_2016_med_page_112.txt",
+    "source_sha256": "03f4794298344c00adfb800e4ed126e1597c9235645af89b9d7b0e0cf98902e1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "4278e3eeccfb258c2e357a874ce786c461b9b5adadce8eae5e6925d3817ff2e6",
+  "request_fingerprint": "ba6f5da8b95f23a7356ab5e584b72d440fa15a730f7b8ec6dd49a6d2491fc6f1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removido o Gráfico 4.16, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Considerando-se separadamente as opiniões de estudantes dos quatro quartos de desempenho, observa-se que, no quarto inferior, 1,6% ofereceu como resposta que não estudou ainda a maioria desses conteúdos, sendo 0,1% os do quarto superior com a mesma resposta. A diferença entre os alunos que optaram por este motivo de dificuldade do último quarto de desempenho e aqueles do primeiro e segundo quartos é estatisticamente significativa.\n\nTendo em conta o quarto superior, 93,4% dos alunos afirmaram ter estudado e aprendido muitos ou todos os conteúdos. No outro extremo, no primeiro quarto, 78,4% optaram pelas mesmas categorias. As proporções são crescentes com o desempenho.",
+  "text_sha256": "0c2612ddeb23859ab5fe64e4a359162d2713f67e978dcd5e22a00e3cd24e070a",
+  "window_size": 3
+}

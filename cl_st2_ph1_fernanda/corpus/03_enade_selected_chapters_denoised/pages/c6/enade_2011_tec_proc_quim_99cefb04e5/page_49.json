@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_06cb6d3116737e13006af8efcd483c87d193e0cf37300fe779",
+    "usage": {
+      "input_tokens": 2844,
+      "input_tokens_details": {
+        "cache_write_tokens": 2841,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2841
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 938,
+      "output_tokens_details": {
+        "reasoning_tokens": 474
+      },
+      "total_tokens": 3782
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_48.txt",
+      "source_sha256": "6f24b6692cf34ecd18b646689100883869cb452632ff03b2fef2c20a05fc8c70"
+    },
+    {
+      "page_number": 50,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_50.txt",
+      "source_sha256": "ccb4d36c969d7a484318f7a453367e712a596dff8477ec89badb8ff41a42e4cd"
+    }
+  ],
+  "created_at": "2026-11-14T23:33:33Z",
+  "duration_seconds": 8.899,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_proc_quim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM PROCESSOS QUÍMICOS.pdf",
+    "page_number": 49
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_proc_quim/enade_2011_tec_proc_quim_page_49.txt",
+    "source_sha256": "add594d2c960c556af55f5d1b48befc4a91452a5a7f1bb063301b5b06341615d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bd8277d876f4745b3476f75eb050da878518c9f5db1d2612fcfa693ea38a907b",
+  "request_fingerprint": "70a02c4cb7bd7b30efe273afbd6a7aa885b61c0a6a41ccef5ee2c31dbd132667",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.4, incluindo título, dados e fonte. O texto da página termina em “Nenhuma questão”; a frase continua na página seguinte."
+  ],
+  "status": "success",
+  "text": "A Tabela 3.5 apresenta os índices de facilidade e discriminação (ponto bisserial) das questões objetivas do componente de Formação Geral. Quanto ao índice de facilidade, foram usadas as seguintes cores para diferenciar o nível de dificuldade da questão:\n\n Azul para as questões classificadas com índice muito fácil (índice >=0,86), verde para as questões classificadas com índice fácil (0,61 a 0,85), amarelo para as questões classificadas com médio (0,41 a 0,60), vermelho para as questões classificadas com difícil (0,16 a 0,40) e roxo para as questões classificadas com muito difícil (<=0,15).\n\nJá quanto ao índice de discriminação, foram usadas as seguintes cores para qualificar a questão:\n\n As questões classificadas com índice fraco receberam a cor vermelho (índice <=0,19), as classificadas com médio receberam a cor amarelo (0,20 a 0,29), as classificadas com bom receberam a cor verde (0,30 a 0,39) e as classificadas com muito bom (>=0,40) receberam a cor azul.\n\nAs questões objetivas do componente de Formação Geral, segundo o índice de facilidade, foram assim avaliadas: das oito questões, nenhuma teve o índice de facilidade classificado como muito fácil. Quatro questões foram tidas como fáceis, por terem índice de acertos situado na faixa entre 0,61 e 0,85 (de 61,0% a 85,0% de acertos). Uma questão foi considerada de dificuldade média, situando-se no intervalo entre 0,41 e 0,60 do índice de facilidade, ou seja, houve entre 41,0% e 60,0% de acertos. Três questões foram classificadas como difícil, situando-se no intervalo entre 0,16 e 0,40. Nenhuma questão",
+  "text_sha256": "efc4ce9df5999259752c18ce40ad3a96b763ca0af46828d235a3763546aa8c0c",
+  "window_size": 3
+}

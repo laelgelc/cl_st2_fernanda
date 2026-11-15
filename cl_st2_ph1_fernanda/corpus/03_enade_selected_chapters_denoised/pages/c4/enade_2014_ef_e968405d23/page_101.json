@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0824e8b53b5af6cf006af8f702bc7887d19b5f0fe3d246adfd",
+    "usage": {
+      "input_tokens": 1643,
+      "input_tokens_details": {
+        "cache_write_tokens": 1640,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1640
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 2075
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 100,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_100.txt",
+      "source_sha256": "f1154ead08625d64b24cd85feac65644df2715e3ce4cbf91fdcc7c0dd6c66aa8"
+    },
+    {
+      "page_number": 102,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_102.txt",
+      "source_sha256": "6272ec29e687f41c2e3365783220f2bb9cc616be328e98aa65f6c5178f9d4c43"
+    }
+  ],
+  "created_at": "2026-11-15T00:04:18Z",
+  "duration_seconds": 5.296,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_ef",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_EDUCAÇÃO FÍSICA.pdf",
+    "page_number": 101
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_ef/enade_2014_ef_page_101.txt",
+    "source_sha256": "075113186ffb9c0ffcd07eee2007336f79e39b0d6ca88ebdd0855cdaa9318e2e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "c903767d70c553fb85e8cd3171d20baeeafc6db184e7abd00ba49922c84c7ceb",
+  "request_fingerprint": "073548e2bee5508a26b1154da9fd64eb9cf0eb65cb58414469f5476e3bc88803",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2014”, aparentemente associada a material gráfico da página."
+  ],
+  "status": "success",
+  "text": "Levando-se em conta o desempenho dos participantes, notam-se diferenças estatisticamente significativas entre as opiniões de estudantes do quarto inferior e superior de desempenho, como mostra o Gráfico 4.12. O percentual de participantes que avaliaram as informações/instruções como até excessivas ou suficientes em todas ou na maioria das questões foi mais elevado no quarto superior (89,7%), percentual superior à média nacional (84,0%). Já no quarto inferior, a suficiência das informações/instruções declarada como até excessiva em todas ou na maioria das questões foi percebida por 76,7% dos respondentes. Estas proporções são crescentes com os quartos de desempenho.",
+  "text_sha256": "61c9a29e676456fd0c1cc10bf6d28d89201fb8ef9f6e10b4e581c8a9da772a07",
+  "window_size": 3
+}

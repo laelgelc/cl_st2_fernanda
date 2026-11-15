@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0b05e4102a1ad8d5006af8fddd347087d1937649150253dc73",
+    "usage": {
+      "input_tokens": 2711,
+      "input_tokens_details": {
+        "cache_write_tokens": 2708,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2708
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 474,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 3185
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 40,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_40.txt",
+      "source_sha256": "c421a4ee6162d435aa20459cd6e29ea6362659e9a43ff60074bae9a6998c2ec8"
+    },
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_42.txt",
+      "source_sha256": "7395007a8981ed9f2a5c9f8b364d6afc2dc5c3c525833c4fd72360f47cf9d374"
+    }
+  ],
+  "created_at": "2026-11-15T00:33:33Z",
+  "duration_seconds": 3.873,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_dir",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_DIREITO.pdf",
+    "page_number": 41
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_dir/enade_2015_dir_page_41.txt",
+    "source_sha256": "f9a76db4c7efb57bd1b3238c108e664de1803bb8965306ce359308cff4c4d204"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "031598f42fb28cb25120c0153451d595373d55e2b628b261741cf44e934f8201",
+  "request_fingerprint": "7a65c977bfa5c868572db67ecd97510b062c662c61c68607d5ebbea2c0c2f225",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.3, incluindo título, dados e fonte, e a Tabela 3.4, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 45,6. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (52,3), e os das IES Privadas obtiveram Média mais baixa (44,7), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Sul e Centro-Oeste (2,4), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (7,6), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Faculdades obtiveram Média mais baixa (43,8) que a nacional. As demais médias foram: 47,2 nas Universidades e 46,0 nos Centros Universitários. O Desvio padrão para as IES Públicas (16,2) e para as Universidades (15,1) foi superior ao do Brasil como um todo (14,6), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes dos tipos de Organização Acadêmica.",
+  "text_sha256": "189cb258987fb4d938333e6a1bb21d93fc98f3c4ea128ea06b6441a34e7d0dd5",
+  "window_size": 3
+}

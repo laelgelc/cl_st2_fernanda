@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cebad672343fac3006af8f67248dc87d1b9f11a07aaedc34f",
+    "usage": {
+      "input_tokens": 2304,
+      "input_tokens_details": {
+        "cache_write_tokens": 2301,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2301
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 363,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 2667
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 80,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_80.txt",
+      "source_sha256": "4297343f63151b3731bbd6b97c3ea5e1c97a613678a11f33c0ad728d007cf63e"
+    },
+    {
+      "page_number": 82,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_82.txt",
+      "source_sha256": "572c6d780d856e8a0dcf9b01f969c999ea3537e0e7c807c1f2096d119c76981a"
+    }
+  ],
+  "created_at": "2026-11-15T00:01:53Z",
+  "duration_seconds": 4.339,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 81
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_ci_comp/enade_2014_ci_comp_page_81.txt",
+    "source_sha256": "d637e5fd9f5769bf5cab45d8cb1f516bff9798ac458d197ecb8152c804975803"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "492d0843c0c9271b895d8d91d230ff601b07a98aa674ef65c85a7a8e7a161cdc",
+  "request_fingerprint": "16841ddbc265a110f171733faee8f279b2fb2f3ca3d8f47e4bcc8568032cb91d",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.16, incluindo título, dados e fonte."
+  ],
+  "status": "success",
+  "text": "A mediana das notas de Língua Portuguesa foi 61,3 para o Brasil como um todo. A maior mediana foi obtida nas regiões Norte, Sudeste e Sul (62,5 em cada) e a menor mediana foi obtida nas regiões Nordeste e Centro-Oeste (60,0 em ambas). A nota máxima para todo o Brasil foi de 92,5, com, pelo menos, um estudante tirando essa nota nas regiões Sudeste e Sul. Nas demais regiões, a nota máxima foi 90,0. Além disso, a nota mínima foi zero em todas as regiões do país, sem exceção.\n\nO Gráfico 3.10 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência (quase 30%), em ambas as habilitações, corresponde aos estudantes que obtiveram nota no intervalo (60; 70]. Para as duas habilitações observa-se outro máximo local nas questões em branco.",
+  "text_sha256": "2758da216963d82f78027a27e2456fb6854412b030608304312855a5391410bc",
+  "window_size": 3
+}

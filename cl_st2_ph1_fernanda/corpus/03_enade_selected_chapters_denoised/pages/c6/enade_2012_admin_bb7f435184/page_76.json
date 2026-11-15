@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07ff00ed0d5071c4006af8f0569bfc87d1a40090ac1dd25d58",
+    "usage": {
+      "input_tokens": 2418,
+      "input_tokens_details": {
+        "cache_write_tokens": 2415,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2415
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 500,
+      "output_tokens_details": {
+        "reasoning_tokens": 262
+      },
+      "total_tokens": 2918
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 75,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_75.txt",
+      "source_sha256": "2c9338198592d52af2fe03e436c3992ca2655df4b865d15a6b2bf64ee093744e"
+    },
+    {
+      "page_number": 77,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_77.txt",
+      "source_sha256": "9739bd74ebc76af9922a3e4aa7fe7f6b765d0e96376c14de029b9d28c8bf08e4"
+    }
+  ],
+  "created_at": "2026-11-14T23:35:50Z",
+  "duration_seconds": 4.673,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_admin",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_ADMINISTRAÇÃO.pdf",
+    "page_number": 76
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_admin/enade_2012_admin_page_76.txt",
+    "source_sha256": "50704127115767f28f18511d50a51650a1b07f98d3f1a01db1934090c8f257d6"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "0d0b209a26a2d16618429088aca611f68b88f8d518dfae387f12d364603ff4e7",
+  "request_fingerprint": "2c84c9c97818bef8abfe8c25f4827d9557c65b0b87629ceba8deea62affb1370",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo dados e linha de fonte.",
+    "O Gráfico 3.21 e sua linha de fonte foram removidos; a linha de fonte aparece na página de contexto seguinte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 do componente de Conhecimento Específico. Destaca-se, como nas demais questões discursivas, o grande número de estudantes que deixaram esta questão em branco, correspondendo à moda da distribuição. Entre as três questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou um maior espalhamento das notas daqueles que resolveram a questão. Além da moda na nota zero, aparecem ainda dois máximos locais: (20;30] e (50;60].\nO coeficiente de assimetria para todos os alunos é 0,84 e para todas as regiões se mantém positivo, variando entre 0,71 na região Sul e 1,09 na região Centro-Oeste.",
+  "text_sha256": "5ad22d3dad1b8bd57c5182db456c4878ff924320f303857cea9d6a273c6587d6",
+  "window_size": 3
+}

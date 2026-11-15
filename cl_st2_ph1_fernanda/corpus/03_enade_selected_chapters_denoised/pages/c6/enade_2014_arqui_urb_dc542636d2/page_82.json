@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_08bd93cc345d78f0006af8f602028c87d19632f110259b404a",
+    "usage": {
+      "input_tokens": 2267,
+      "input_tokens_details": {
+        "cache_write_tokens": 2264,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2264
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 267,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 2534
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_81.txt",
+      "source_sha256": "e96a74717f5f9dbe1065362c4c6bee77274b51f8fa9042fc27ecdfe40c6dba4b"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_83.txt",
+      "source_sha256": "12c93183a5ed09a53c273ec2bb0cd9bd0bb3e56a6ee8e04f76e7407c9854db42"
+    }
+  ],
+  "created_at": "2026-11-15T00:00:01Z",
+  "duration_seconds": 3.229,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_arqui_urb",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_ARQUITETURA E URBANISMO.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_arqui_urb/enade_2014_arqui_urb_page_82.txt",
+    "source_sha256": "d25313fe214d70da576af4c6b60328f1b2c437b5deab788a068d028f9fba6cde"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "8ca31e3470bce9367982161062033b831c0bb1c41515342a821ef125babe7d36",
+  "request_fingerprint": "ab7a64e891a07000c6cb4e7197a1f06e7f2ad248127bd99a590e4b7792727805",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos a Tabela 3.16, seus dados e fonte, e o Gráfico 3.11 e sua fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.11 mostra a distribuição das notas na questão discursiva 3, do Componente de Conhecimento Específico da área de Arquitetura e Urbanismo. Sem levar em consideração que quase 40% dos estudantes deixaram a questão em branco, essa distribuição é unimodal com moda nas notas 0,0.",
+  "text_sha256": "acc14a78f32825cff2a1a30e6b19c8680b5be5147ebf48eb0534a0ee45d8bccc",
+  "window_size": 3
+}

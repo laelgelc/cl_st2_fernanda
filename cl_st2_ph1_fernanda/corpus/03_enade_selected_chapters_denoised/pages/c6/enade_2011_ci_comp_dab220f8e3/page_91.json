@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_09c13757e90a7966006af8eb5d4c5c87d1bfc50bedcd96f2a7",
+    "usage": {
+      "input_tokens": 2187,
+      "input_tokens_details": {
+        "cache_write_tokens": 2184,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2184
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 2607
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 90,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_90.txt",
+      "source_sha256": "b594bd9c134624ec55ecc169015f7f6be9c0204ed87fa4ab6d4edcad55ce08dd"
+    },
+    {
+      "page_number": 92,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_92.txt",
+      "source_sha256": "7f30314f8658e27e614c4683402fae437e1ed0f0c5077682203df76317613087"
+    }
+  ],
+  "created_at": "2026-11-14T23:14:37Z",
+  "duration_seconds": 4.126,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_ci_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_CIÊNCIA DA COMPUTAÇÃO.pdf",
+    "page_number": 91
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_ci_comp/enade_2011_ci_comp_page_91.txt",
+    "source_sha256": "b4e61f84104a79f2583931e59ae465319228c5bae2689bfbaec072f48abc8f26"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "956415effe6127dbff0174a337df187a49a13244af9e4f0b95cf162d9e851ce4",
+  "request_fingerprint": "77c79329dfe0bdcf6dd1fe6a346b50cc545ef5ad9c8630366eb76f7c6abce4ab",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.18, incluindo dados, título e fonte."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.22 mostra a distribuição das notas na questão discursiva 3, do componente de Conhecimento Específico da Área de Computação para alunos do Bacharelado, Licenciatura, Sistemas de Informação e Engenharia de Computação. Essa distribuição tem moda nas questões em branco, com percentual maior para os alunos de Licenciatura e Sistemas da Informação, próximo a 70%. Adicionando-se este percentual ao de notas zero, para estes dois cursos, a proporção quase supera 80%. Nota-se, ainda, que para o curso de Engenharia de Computação há uma porcentagem em torno de 3% de alunos com notas espalhadas em todos os intervalos.\n\nO coeficiente de assimetria é bastante alto para os quatro cursos, os maiores são 5,59 para a Licenciatura e 5,80 para Sistemas de Informação, já os menores são 1,99 para o Bacharelado e 1,64 para Engenharia de Computação. A assimetria é positiva para todas as distribuições por região. O maior coeficiente é 8,30, da distribuição das notas dos alunos de Licenciatura da região Sudeste, e o menor, 0,70, do curso de Engenharia de Computação da região Norte.",
+  "text_sha256": "46f130b912f3ab5c28e0028e59743680594b0c85101afee0c68f11762b5254fa",
+  "window_size": 3
+}

@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bffb5fc8fe5593a006af8f07c4d9c87d1b1aedffa2d1ba954",
+    "usage": {
+      "input_tokens": 2832,
+      "input_tokens_details": {
+        "cache_write_tokens": 2829,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2829
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 3207
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 68,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_68.txt",
+      "source_sha256": "67094faee8b4a49fca479d59ff2e6691423c44d401cf293626277ce3ac164d78"
+    },
+    {
+      "page_number": 70,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_70.txt",
+      "source_sha256": "a965ae0de1ab0c3e2bdf8db37ca6065c10618ca80c92ada95d997544d92c7c8f"
+    }
+  ],
+  "created_at": "2026-11-14T23:36:28Z",
+  "duration_seconds": 4.768,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2012_ci_cont",
+    "filepath_ori": "corpus/00_sources/enade_raw/2012/ENADE_2012_CIÊNCIAS CONTÁBEIS.pdf",
+    "page_number": 69
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2012_ci_cont/enade_2012_ci_cont_page_69.txt",
+    "source_sha256": "dc4d124c6601825947e8b96952b2f7bca00c4cb36a9e59fcd1e53b6c5da09047"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "f4348bc25212370bcdcb1d36e594f48bd3be145b314fdb26c22ffa2e2daaf3bf",
+  "request_fingerprint": "47555132f32dd4a7c99da95f17623e91950b1376aa4d44ddd021c8cd414030de",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.11, incluindo título, dados e linha de fonte.",
+    "Removida a linha de fonte do Gráfico 3.18; o conteúdo gráfico não estava disponível como texto extraído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 representa a distribuição das notas nas questões discursivas no componente de Conhecimento Específico. Essa distribuição tem moda no intervalo de [0;10]. Nota-se que a partir desse intervalo há outra concentração de notas no intervalo (20;30], também sendo relevante não terem sido registradas notas acima de 90,0. Além disso, o coeficiente de assimetria é positivo (0,43), indicando uma distribuição assimétrica à direita. Este coeficiente também é positivo (entre 0,25 para a região Sul e 0,55 para a região Centro-Oeste) em todas as regiões do Brasil.",
+  "text_sha256": "1c4558d85fddc35f91108a697ec99e411cd86d6fb4029e370ce036f3c312949c",
+  "window_size": 3
+}

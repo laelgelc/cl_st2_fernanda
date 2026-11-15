@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0ffdff8e2d4f1353006af8ef00229087d18b7a9f7387bec0b1",
+    "usage": {
+      "input_tokens": 1572,
+      "input_tokens_details": {
+        "cache_write_tokens": 1569,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1569
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 416,
+      "output_tokens_details": {
+        "reasoning_tokens": 296
+      },
+      "total_tokens": 1988
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 89,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_89.txt",
+      "source_sha256": "364e2670a42b962bd16fb6e8d4977a0027ad68bbc4939306a6cce94169e13572"
+    },
+    {
+      "page_number": 91,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_91.txt",
+      "source_sha256": "a67c0d1c4a23fa72696f29b21dfbd3ccc62c710204bc70d7eb9ec297b803c0bd"
+    }
+  ],
+  "created_at": "2026-11-14T23:30:08Z",
+  "duration_seconds": 5.539,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2011_tec_an_sist",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC EM ADS.pdf",
+    "page_number": 90
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2011_tec_an_sist/enade_2011_tec_an_sist_page_90.txt",
+    "source_sha256": "b6b81ae15b9445f6dd9399201ef47260a43b4803a0e7c674cce2bb5c9a6744a2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ea037c2f4cfff5c563e8543bc1a88853507d580c8b96520b160b67c45492a1a6",
+  "request_fingerprint": "c700fbba99e3434e25893d5c3fed2c03fc3c52d5175f4f6163fa3237f2b683cf",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2011”, identificada como pertencente a material gráfico; o gráfico associado não está presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "A proporção de estudantes que consideraram os enunciados das questões claros e objetivos apresenta uma tendência crescente em relação ao aumento de desempenho: mais elevada no quarto superior (80,6%), se comparada ao quarto inferior de desempenho (61,1%). Esta diferença é estatisticamente significativa.",
+  "text_sha256": "92d211b420efa8e9686bd36920bf6b533ee0298e3b0b189cef3bdc7b4b2bb61a",
+  "window_size": 3
+}

@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0cfae940ee4ce2a7006af8ebf3f1e487d18805f74f792065e3",
+    "usage": {
+      "input_tokens": 1478,
+      "input_tokens_details": {
+        "cache_write_tokens": 1475,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1475
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1683
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_42.txt",
+      "source_sha256": "e793717221ee810edd69fc8b7e963389f5d96c3ad20b40101427a8f23d2e269e"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_44.txt",
+      "source_sha256": "31dc7f1cf9ab5f8eb96d902d9546d7a370917e84c4a7081c2733708b9876135d"
+    }
+  ],
+  "created_at": "2026-11-14T23:17:07Z",
+  "duration_seconds": 2.725,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_2",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO II.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_2/enade_2011_eng_g_2_page_43.txt",
+    "source_sha256": "d2549c59e3bd808d3c4480632ce4a63b3b9f055ad8d4a928a756430defdec6a4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "e26c056bf0b24809eba63db4afaed9a614ee433ffbee997395f582822e0524ff",
+  "request_fingerprint": "12c5139118f43e7f8dcc416268e7bb14a89db1612f37ea4eb1282efb93e66fd1",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o Gráfico 3.8 e sua linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2011”)."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, existe diferença estatisticamente significativa entre a maior média, obtida pelos alunos de Universidades (53,9) e as médias dos concluintes de Centros Universitários (52,5) e Faculdades (52,7).",
+  "text_sha256": "91dce91a86b5310ddc90fdf8825b52d8dfefeccf434dd7418ed35035a8a5d2ac",
+  "window_size": 3
+}

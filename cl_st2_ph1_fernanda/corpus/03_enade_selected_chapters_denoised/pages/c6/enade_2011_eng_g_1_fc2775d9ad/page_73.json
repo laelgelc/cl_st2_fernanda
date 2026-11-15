@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a52b62d57f9b783006af8ebdc392487d18b3dd1269557e10e",
+    "usage": {
+      "input_tokens": 2500,
+      "input_tokens_details": {
+        "cache_write_tokens": 2497,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2497
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 587,
+      "output_tokens_details": {
+        "reasoning_tokens": 263
+      },
+      "total_tokens": 3087
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 72,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_72.txt",
+      "source_sha256": "7cf5b826cee8532fd9a39d342a877bb31f9adc747b7ed6f6d83a74da0724437b"
+    },
+    {
+      "page_number": 74,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_74.txt",
+      "source_sha256": "a0b1107402b1271f45dfb486ee1d96e5b073cdf76524dca227fd544067d1d807"
+    }
+  ],
+  "created_at": "2026-11-14T23:16:44Z",
+  "duration_seconds": 6.644,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_eng_g_1",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_ENGENHARIA GRUPO I.pdf",
+    "page_number": 73
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_eng_g_1/enade_2011_eng_g_1_page_73.txt",
+    "source_sha256": "dd54f5550ea91dfd463bae025922fd33b3bb39288ca56465617b38708e605c20"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "579da4586d8d86ef9a9390058ca192a32a4118b1bb5239045f1c890b3d8fc7c7",
+  "request_fingerprint": "1ec29188f6a1edda1e1463a9eecaf6765e38d0090a7ff17815106767fbe6915c",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e linha de fonte. A menção ao Gráfico 3.21 é prosa explicativa e foi preservada; o gráfico em si não aparece no texto extraído desta página."
+  ],
+  "status": "success",
+  "text": "alunos do Brasil, como um todo, foi 36,7. Enquanto o maior desvio foi encontrado na região Centro-Oeste, (38,6), o menor foi encontrado na região Norte (26,6).\nA nota máxima (100,0) foi registrada em todas as regiões. A mediana e a nota mínima foram zero para todas as regiões do Brasil, indicando que mais da metade dos alunos de cada região tirou nota zero nesta questão.\n\nO Gráfico 3.21 representa a distribuição das notas da questão discursiva 5 no componente de Conhecimento Específico. Destaca-se o grande número de estudantes que deixaram a questão 5 em branco, quase 60% dos presentes à prova. Entre as três questões discursivas do Componente de Conhecimento Específico, esta foi a que apresentou a maior proporção de alunos que deixou a questão em branco. A longa cauda à direita do gráfico está associada ao coeficiente de assimetria positivos e em torno de 1 para o Brasil (1,17). Para todas as regiões este tipo de assimetria se repete, se acentuando ainda mais para a distribuição da região Norte, cujo coeficiente chega a 2,30.",
+  "text_sha256": "9e7c93d3800458f17149b0c999215be9b16d648bf309d9126f3958db07f2444e",
+  "window_size": 3
+}

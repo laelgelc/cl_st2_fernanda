@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_07d51f90f1f3cec3006af8f2f238d487d18d7e59a3938d708c",
+    "usage": {
+      "input_tokens": 1582,
+      "input_tokens_details": {
+        "cache_write_tokens": 1579,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1579
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 261,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 1843
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 46,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_46.txt",
+      "source_sha256": "3d1515165b52e2de550aa2eaf010a860f1c5d9748d177201480b9c0a550574e3"
+    },
+    {
+      "page_number": 48,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_48.txt",
+      "source_sha256": "0dd070828b5f9d34fc8eea49e4dfde0a07dc3e246bb393234ebc65964317da26"
+    }
+  ],
+  "created_at": "2026-11-14T23:46:58Z",
+  "duration_seconds": 2.995,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_agro",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_AGRONOMIA.pdf",
+    "page_number": 47
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_agro/enade_2013_agro_page_47.txt",
+    "source_sha256": "3f16b722d0372eabf31609ab01f0e38f259ee821fb337474bee312a3d3e543e2"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "3b7133683407e455a2cf62b7849ada21eab3e4c467b8790ec73144e9a66359e4",
+  "request_fingerprint": "6fb3711f50316fdf50586db4be000480b672fcab65187cf928662f3cee6bfac8",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte «Fonte: MEC/INEP/DAES - ENADE/2013», pertencente ao material gráfico do Gráfico 3.8."
+  ],
+  "status": "success",
+  "text": "Considerando-se o tipo de Organização Acadêmica, nota-se, no Gráfico 3.8, que existe uma diferença estatisticamente significativa entre a maior e a menor média. Nas Universidades, a média (49,2) é mais elevada do que em Centros Universitários (46,0) e Faculdades (45,8).",
+  "text_sha256": "8e5902239fc2fdd306f900ebe9c678ce17ab3757ca4aa6e5234ce585144fd8fb",
+  "window_size": 3
+}

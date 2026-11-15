@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0f111526f1667221006af8f4dd6e1487d1a09186eb8c2e8543",
+    "usage": {
+      "input_tokens": 1672,
+      "input_tokens_details": {
+        "cache_write_tokens": 1669,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1669
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 304,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 1976
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_42.txt",
+      "source_sha256": "92bdb3f238199cb77fea2a0904697de3965756820ed7c10481e73a30a103d0ed"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_44.txt",
+      "source_sha256": "3581195614068455cc7a62cf8fa25328c806154fbb89c01f75a1bb40a1286282"
+    }
+  ],
+  "created_at": "2026-11-14T23:55:09Z",
+  "duration_seconds": 3.414,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_serv_soc",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_SERVIÇO SOCIAL.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_serv_soc/enade_2013_serv_soc_page_43.txt",
+    "source_sha256": "13ec0a43db122843d97bb330267108beb7a603fb6aed66a77b20198fbfe7ea4e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a251a2b5af244720e386dd2c65636eb17f08bed534706e8f2a01c6fbc8fdf309",
+  "request_fingerprint": "ec3b84b42aad1e4b41d35efb7d5c63eafe32ccf4626560011b3628a971c7ec57",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a linha de fonte “Fonte: MEC/INEP/DAES - ENADE/2013”, associada ao material gráfico."
+  ],
+  "status": "success",
+  "text": "Tendo como foco o Gráfico 3.4, que apresenta as notas médias das provas segundo Organização Acadêmica, constata-se que a diferença da média das notas dos estudantes provenientes de Universidades é estatisticamente significativa ao nível de 95% das médias das notas dos estudantes provenientes de Centros Universitários e Faculdades, assim como a diferença entre a média dos estudantes de Centros Universitários e Faculdades. A menor média foi obtida pelos estudantes de Universidades (35,4), e a maior, pelos de Faculdades (39,6).",
+  "text_sha256": "f3d7c682c78797c381ceaf329f3e6b3304b137fab6c93f58a0582406b978adac",
+  "window_size": 3
+}

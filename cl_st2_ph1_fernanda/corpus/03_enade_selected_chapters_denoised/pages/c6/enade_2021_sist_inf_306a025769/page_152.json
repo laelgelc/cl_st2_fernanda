@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0889eb5c347998a7006af91b3c1dbc87d1b27132eab994e5ed",
+    "usage": {
+      "input_tokens": 3229,
+      "input_tokens_details": {
+        "cache_write_tokens": 3226,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3226
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 575,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 3804
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 151,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_151.txt",
+      "source_sha256": "d51d9f6cbd4300acedf655e66b351b29244dc393938e3b13b8069c2969b3881f"
+    },
+    {
+      "page_number": 153,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_153.txt",
+      "source_sha256": "e4b8f6c486db303f10e834f240da30d921f32df3040bb1af15211401d30b5ee7"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:52Z",
+  "duration_seconds": 5.501,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 152
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_sist_inf/enade_2021_sist_inf_page_152.txt",
+    "source_sha256": "7332e69422e8bb0a273c5e6412ea3e867ca0a7e1e6f228d90aefb066904dcb0f"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "a90e2a1857618b2bab8c7dd701ba73c1ca4e3bb09dcfec3ad86f59c2c7d977a7",
+  "request_fingerprint": "bb2ca724359be262cf4ee68a6d9bfd014ce242833d3c15f12cae8cadc24ceac0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos os dados, título e fonte da Tabela 6.3.",
+    "Removida a fonte associada ao Gráfico 6.2; o gráfico em si não aparece no texto extraído."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (30; 40], o mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 11,8 para a nota da prova, como um todo, e 14,3 para o Componente de Formação Geral.",
+  "text_sha256": "8ffb2605ded3d3effde2a5936c84b492f6f3fbfb33fb09ab61f86239cc37b608",
+  "window_size": 3
+}

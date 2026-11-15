@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0c770b3adb5df191006af8f5ab09dc87d1be854d0ac7a07783",
+    "usage": {
+      "input_tokens": 2233,
+      "input_tokens_details": {
+        "cache_write_tokens": 2230,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2230
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 466,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 2699
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 81,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_81.txt",
+      "source_sha256": "4221a289c3fcfef1494fbcff3dbecaf0833ff0d3e0db2dc0845ed996aebcb255"
+    },
+    {
+      "page_number": 83,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_83.txt",
+      "source_sha256": "867879ab693b11745121c3c95677ca60e41d54c9da40e86d6a85e659e9d7fe44"
+    }
+  ],
+  "created_at": "2026-11-14T23:58:34Z",
+  "duration_seconds": 6.331,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_tec_rad",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_TEC EM RADIOLOGIA.pdf",
+    "page_number": 82
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_tec_rad/enade_2013_tec_rad_page_82.txt",
+    "source_sha256": "062a00ca5d797544649ffe1a99ef6ce79f4e56bf0b04a3a82569c1db73af89c5"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "424a3cc6f84087fc66c26d0120b4040f3538cfa74f49bdd764465ee25c378115",
+  "request_fingerprint": "a9490078257e86a1b199c22b17a77664c98d0b04ad84c19e780d628b04f059f4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.14, incluindo título, dados e fonte. O Gráfico 3.21 é indicado no texto; o material gráfico associado não foi incluído."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.21 representa a distribuição de notas na questão discursiva 4, no Componente de Conhecimento Específico. Como nas outras questões discursivas, o número de estudantes que deixou a questão em branco foi muito grande, correspondendo à moda da distribuição. O coeficiente de assimetria é positivo para todo o Brasil (2,31) e para todas as regiões (entre 1,58 para a região Sul e 2,70 para a região Centro-Oeste), indicando uma assimetria acentuada à direita.",
+  "text_sha256": "820e30cc16960c6419e7e439087c2750d1d451abbe5fecc81f75c033e6444cf9",
+  "window_size": 3
+}

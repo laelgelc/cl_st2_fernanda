@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0dc076baf57a8edb006af9121d13e487d1988ea1c36b01ec27",
+    "usage": {
+      "input_tokens": 2673,
+      "input_tokens_details": {
+        "cache_write_tokens": 2670,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2670
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 601,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 3274
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 137,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_137.txt",
+      "source_sha256": "e98fdd89d28ef5f621c094efe683feb020299519ba53909e53e990778313a280"
+    },
+    {
+      "page_number": 139,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_139.txt",
+      "source_sha256": "faf058b37499070326726605a92dbfbccb1d32ced480eb6bbf5320d0e9c2b6fe"
+    }
+  ],
+  "created_at": "2026-11-15T01:59:57Z",
+  "duration_seconds": 6.336,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2019_eng_flo",
+    "filepath_ori": "corpus/00_sources/enade_raw/2019/ENADE_2019_ENGENHARIA FLORESTAL.pdf",
+    "page_number": 138
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2019_eng_flo/enade_2019_eng_flo_page_138.txt",
+    "source_sha256": "5380eeaebb4b64f25cb9568d253d9ada83c8889204ff71dc72441c55d1fbe7c1"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "658d8aeeeae44d571c4cc73a39e39e46a5941d65c5ba977bc5ffb193c3cc33a0",
+  "request_fingerprint": "fd25f93068edad78375f07a9710b4013d29e9735865f381fe4b109508288e14e",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "Neste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério Ponto-Bisserial. A curva em verde corresponde à alternativa B, a alternativa correta para essa questão. Observa-se que, entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha da alternativa C (em preto), incorreta. Por exemplo, entre os estudantes que acertaram duas questões, 14,3% escolheram a alternativa E (em vermelho), 17,0% escolheram a alternativa D (em laranja), 22,4% escolheram a alternativa B (em verde, gabarito), 11,7% escolheram a alternativa A (em azul), e 34,1%, a C (em preto). Dentre os que acertaram duas respostas entre as questões de múltipla escolha de Formação Geral, 0,4% deixou a questão em branco e 0,0% marcou mais de uma alternativa, invalidando a questão. À medida que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta, concomitantemente, a proporção de estudantes que selecionaram a alternativa correta B, atingindo 100% para os estudantes com sete acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando-se o alto índice (0,55) obtido na questão.\n\nCumpre notar que não é possível inferir deste gráfico nem o Índice de Facilidade, que seria uma média da proporção ponderada pela quantidade de estudantes com cada uma das notas, nem o Índice de Discriminação Ponto-Bisserial, por razão equivalente. No caso extremo, no qual a grande concentração dos acertos dos estudantes fosse abaixo de quatro, o Índice de Facilidade seria obrigatoriamente abaixo de 70,0% (neste exemplo). Caso a concentração fosse em seis acertos ou mais, o índice seria obrigatoriamente acima de 90,0%. Os gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "b8cdf69653cbdbebeed9d784d345a0bc318ced319b018e820c398a4f65f64e8d",
+  "window_size": 3
+}

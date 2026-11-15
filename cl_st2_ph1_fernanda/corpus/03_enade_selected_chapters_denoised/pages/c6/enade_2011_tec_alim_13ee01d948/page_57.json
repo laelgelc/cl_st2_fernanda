@@ -1,0 +1,60 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0a62c9ce963e6b64006af8eec1983887d1afffd7008c4cdf81",
+    "usage": {
+      "input_tokens": 2358,
+      "input_tokens_details": {
+        "cache_write_tokens": 2355,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2355
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 747,
+      "output_tokens_details": {
+        "reasoning_tokens": 398
+      },
+      "total_tokens": 3105
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 56,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_56.txt",
+      "source_sha256": "0c4b82e844fa3aa3bef70fa5ed4e4fa1e89919fc427416d174ae19eb1e67a07f"
+    },
+    {
+      "page_number": 58,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_58.txt",
+      "source_sha256": "527599695334f02905bf0aa770f423c986f2bbfe2c094920f144563f8ca5a14a"
+    }
+  ],
+  "created_at": "2026-11-14T23:29:05Z",
+  "duration_seconds": 7.668,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2011_tec_alim",
+    "filepath_ori": "corpus/00_sources/enade_raw/2011/ENADE_2011_TEC DE ALIMENTOS.pdf",
+    "page_number": 57
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2011_tec_alim/enade_2011_tec_alim_page_57.txt",
+    "source_sha256": "8507cf9f4789b7b4796f5244619237470db0beaa5e6d44db4aa455b3b70f43fe"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "77ae3bec6d738ea4262a456887b1c98a8eca89c8febab6e782593f3df959c95b",
+  "request_fingerprint": "7bb6743fd7c9985ec05262188935bc766359891984bae3054e4902433f898fe8",
+  "retry_count": 0,
+  "review_notes": [],
+  "status": "success",
+  "text": "O Gráfico 3.13, para exemplificar, analisa o comportamento da questão de número 3 de Formação Geral. Trata-se da segunda questão mais fácil e a que obteve o maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nesta parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. Em princípio, a soma das escolhas possíveis deveria ser igual a 100%. Não é este o caso, notadamente para o número zero de acertos, pois não aparecem no gráfico as questões deixadas em branco ou com múltiplas respostas. Como foram oito as questões, os valores variam de 0 a 8 acertos. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa A (em azul) ou D (em roxo). Na medida em que o número de acertos aumenta, indicando desempenho melhor nesta parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "a3819783fdad4802eac1d56e316dfddb16afcd1e0120da30f2586ab7a2f7629d",
+  "window_size": 3
+}

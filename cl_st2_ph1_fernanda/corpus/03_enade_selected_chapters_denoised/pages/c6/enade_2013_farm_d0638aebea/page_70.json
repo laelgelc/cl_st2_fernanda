@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0bfac2dd2e057455006af8f3b3a3c887d1b569a1f415cd084e",
+    "usage": {
+      "input_tokens": 2408,
+      "input_tokens_details": {
+        "cache_write_tokens": 2405,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2405
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "reasoning_tokens": 291
+      },
+      "total_tokens": 2845
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 69,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_69.txt",
+      "source_sha256": "62163fe89d5a8cd777e4c48359d6909c83575b92bc6957f048974700912e34a7"
+    },
+    {
+      "page_number": 71,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_71.txt",
+      "source_sha256": "5a32425fd51f1fcbf781aee8735012764fa04e9010d654e4dce7928e14602da4"
+    }
+  ],
+  "created_at": "2026-11-14T23:50:11Z",
+  "duration_seconds": 4.822,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2013_farm",
+    "filepath_ori": "corpus/00_sources/enade_raw/2013/ENADE_2013_FARMÁCIA.pdf",
+    "page_number": 70
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2013_farm/enade_2013_farm_page_70.txt",
+    "source_sha256": "7a2248beb928eef5ff3122d90dae59195cd4b1928bab720568a2d87eff01c54d"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ddab7c91f069df5b3df0559b615baba641a261b65bff26923d42b965910bdcff",
+  "request_fingerprint": "c6103f793d3001d1047a3710161c6b52824f806db56064a053fa4620f0b27d24",
+  "retry_count": 0,
+  "review_notes": [
+    "Removidos o título, os dados e a linha de fonte da Tabela 3.11."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.18 mostra a distribuição das notas de Língua Portuguesa do Componente de Formação Geral. Observa-se que a maior frequência corresponde aos alunos que obtiveram nota no intervalo (50; 60], correspondendo à moda da distribuição. Uma moda secundária aparece para questões em branco.\n\nA distribuição das notas possui assimetria negativa (-0,91), assim como em todas as regiões do Brasil (entre -1,02 para a Centro-Oeste e -0,60 para a Norte).",
+  "text_sha256": "9082117c62086fc4be5fd7236c4149356bf0cdd526e3ad89f723652edab788fb",
+  "window_size": 3
+}

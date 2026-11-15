@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_03a7cf5ef0b7adce006af91b190c2887d18f69152414e59db4",
+    "usage": {
+      "input_tokens": 3202,
+      "input_tokens_details": {
+        "cache_write_tokens": 3199,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3199
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 427,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 3629
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 152,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_152.txt",
+      "source_sha256": "c796967904139e9ec764ff9202a53789c5f7a6c56294118a85dcd14d4ac066ba"
+    },
+    {
+      "page_number": 154,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_154.txt",
+      "source_sha256": "341d6dca40d708bc402ae659029d47742800c21223d979d77bf3681ee888d044"
+    }
+  ],
+  "created_at": "2026-11-15T02:38:16Z",
+  "duration_seconds": 5.64,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2021_tec_red_comp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2021/ENADE_2021_REDES DE COMPUTADORES.pdf",
+    "page_number": 153
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2021_tec_red_comp/enade_2021_tec_red_comp_page_153.txt",
+    "source_sha256": "bd19eb61815e4d9383e3f99ca716de060caa5434f08115dee1cbb81db2073540"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "6f845095b75d5fc6313b86f37a53317e86f04dbec4175ce13a4ce8d3236c002e",
+  "request_fingerprint": "2dbec2848bb0f831124f51da0d5018d3b9319206cb90d80f74d75823249b1164",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.3, incluindo título, dados e fonte.",
+    "Removido o material gráfico do Gráfico 6.2 e sua linha de fonte; verificar a extração visual do gráfico, pois seu conteúdo não aparece no texto fornecido."
+  ],
+  "status": "success",
+  "text": "No Gráfico 6.2, é possível verificar a avaliação do desempenho dos estudantes do Componente de Formação Geral, a partir do histograma da distribuição das notas correspondentes. A distribuição é unimodal, com moda em (20; 30], o mesmo intervalo modal da distribuição de notas da prova, como um todo (Gráfico 6.1). Nota-se, ainda, que, no Gráfico 6.2, as notas apresentam maior dispersão do que as no Gráfico 6.1 (distribuição das notas da prova), confirmada pela comparação dos desvios padrões: 11,8 para a nota da prova, como um todo, e 14,0 para o Componente de Formação Geral.",
+  "text_sha256": "f984bbd6c139cb95566e25cc23642072932ce8e85870461b53fdaed8efec2be4",
+  "window_size": 3
+}

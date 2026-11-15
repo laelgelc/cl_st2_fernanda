@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0123978e79b83200006af90af2788487d19060eebd8009aeb1",
+    "usage": {
+      "input_tokens": 3058,
+      "input_tokens_details": {
+        "cache_write_tokens": 3055,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 3055
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 3518
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 122,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_122.txt",
+      "source_sha256": "073b434ff2aa1d253562eec4a917e611b4caa4523ac6a3ef8c457de72a1206cb"
+    },
+    {
+      "page_number": 124,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_124.txt",
+      "source_sha256": "49dcad877b54d536760202c2631b0b24a7a47fa7761f651721097c38cdcb5454"
+    }
+  ],
+  "created_at": "2026-11-15T01:29:22Z",
+  "duration_seconds": 4.992,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2017_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2017/ENADE_2017_SISTEMA DE INFORMAÇÃO.pdf",
+    "page_number": 123
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2017_sist_inf/enade_2017_sist_inf_page_123.txt",
+    "source_sha256": "13e09967e1b6750f8f014e27ba8b2b113cf0c48fed6ebee5c87ccdfe8c138da7"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "ad4c644e2b10370df48435c88e84145ac67fdb8ab72d1066c44d2d83a0192916",
+  "request_fingerprint": "aae04978d53c1e6b99df0dcae100e4a08491cc4ba29a25a4ebad1a890a5b85d2",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 6.5, incluindo título, dados e fonte.",
+    "Removido material gráfico do Gráfico 6.3; a linha de fonte foi identificada como pertencente ao gráfico."
+  ],
+  "status": "success",
+  "text": "Assim como nos Gráficos 6.1 e 6.2, no Gráfico 6.3, apresentado a seguir, é possível se fazer uma avaliação do desempenho de concluintes de Sistemas da Informação em relação ao Componente de Conhecimento Específico, com um histograma da distribuição das notas correspondentes. Esta também é uma distribuição unimodal, e o grupo modal é o (40; 50], o mesmo intervalo modal da prova como um todo e abaixo do grupo modal para a Formação Geral.",
+  "text_sha256": "fe968ea311c4bfb0741a7b64a0c842d6231687b7296e37ba0a5061c28bf56cdf",
+  "window_size": 3
+}

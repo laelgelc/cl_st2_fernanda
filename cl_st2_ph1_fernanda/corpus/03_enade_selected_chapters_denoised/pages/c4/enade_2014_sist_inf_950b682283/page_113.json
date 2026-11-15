@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_01f428df53b845c8006af8fbef855487d1bdb0697a3493245a",
+    "usage": {
+      "input_tokens": 1379,
+      "input_tokens_details": {
+        "cache_write_tokens": 1376,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1376
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 412
+      },
+      "total_tokens": 1948
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 112,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_sist_inf/enade_2014_sist_inf_page_112.txt",
+      "source_sha256": "d3889c3253e8873015e33a4bf50e6211fb5c5fb9f6dc9d4c5339219a7c4904cd"
+    },
+    {
+      "page_number": 114,
+      "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_sist_inf/enade_2014_sist_inf_page_114.txt",
+      "source_sha256": "fcfa853dec44e29b0f6c62a16f615ea7ca0a73f0f955958524671b3451228074"
+    }
+  ],
+  "created_at": "2026-11-15T00:25:19Z",
+  "duration_seconds": 7.815,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c4",
+    "filename_stem": "enade_2014_sist_inf",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_SISTEMAS DE INFORMAÇÃO.pdf",
+    "page_number": 113
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c4/enade_2014_sist_inf/enade_2014_sist_inf_page_113.txt",
+    "source_sha256": "4f0f689e518b4a9204b0b55c3449a8741f1843285b6a27246d2a4df689c48a84"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "35b7e8149cc6f8b4fc1fbc7fe0afe53fabef5b32d7e21d288e36ca1e3fc88b5e",
+  "request_fingerprint": "644d0db2d84c8f092f5d4f06faf47ddbcda2b9267c494abc637918071a4dfab4",
+  "retry_count": 0,
+  "review_notes": [
+    "Removi a linha de fonte (“Fonte: MEC/INEP/DAES - ENADE/2014”), que aparenta pertencer a material gráfico; o gráfico associado não está presente no texto extraído."
+  ],
+  "status": "success",
+  "text": "Uma vez sendo analisadas as alternativas escolhidas pelos estudantes que se situam nos diferentes quartos de desempenho, observa-se uma tendência crescente: uma maior proporção de participantes no quarto superior declarou ter gasto entre duas e quatro horas para concluir a prova quando comparadas com os dos quartos inferiores. As diferenças entre o primeiro (55,8%) e o segundo (65,6%), bem como entre estes e o quarto de maior desempenho (76,4%) são estatisticamente significativas.",
+  "text_sha256": "227e3ffc2ce6a3975e387825472a835a21e68da4e0e54db4aab0825be547ea2c",
+  "window_size": 3
+}

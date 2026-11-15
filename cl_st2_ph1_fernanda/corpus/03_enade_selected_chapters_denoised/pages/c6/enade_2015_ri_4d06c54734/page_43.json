@@ -1,0 +1,62 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_0d22862107d7d8ee006af8fe9bf77887d1af5cc88d1339e084",
+    "usage": {
+      "input_tokens": 2368,
+      "input_tokens_details": {
+        "cache_write_tokens": 2365,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2365
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 496,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 2864
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 42,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_42.txt",
+      "source_sha256": "a2e8aed06984f0163ec75ac40a8b48fb39bb949b8df9d792acbc4c05109f880c"
+    },
+    {
+      "page_number": 44,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_44.txt",
+      "source_sha256": "202911856a70c6539315b67244cc7903c3511265f1eeda784df914ec4733514b"
+    }
+  ],
+  "created_at": "2026-11-15T00:36:43Z",
+  "duration_seconds": 4.977,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2015_ri",
+    "filepath_ori": "corpus/00_sources/enade_raw/2015/ENADE_2015_RELAÇÕES INTERNACIONAIS.pdf",
+    "page_number": 43
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2015_ri/enade_2015_ri_page_43.txt",
+    "source_sha256": "82b297017b2b43ac80f5df31b77cf617b0ac6770feba352fc24c6933cb22962e"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "952339a826d7d4ce34b05821d1699abeb251da7b26f2919c4462c731b84da38a",
+  "request_fingerprint": "973e76df0e9dd7b6565710698593b583c49f52792b10554edf1c8af80692f8c0",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.3, incluindo título, dados tabulares e fonte."
+  ],
+  "status": "success",
+  "text": "Já a Tabela 3.4 apresenta informações referentes à Média da nota final desagregadas por Categoria Administrativa e por Organização Acadêmica. A Média das notas da prova como um todo foi 50,5. Em relação à Categoria Administrativa, os estudantes das IES Públicas obtiveram Média mais alta (55,6), e os das IES Privadas obtiveram Média mais baixa (48,3), que a Média nacional. Observa-se que existe diferença estatisticamente significativa entre as médias das notas das IES Públicas e Privadas. A diferença entre as médias das regiões Nordeste e Norte (4,8), a maior e a menor Média, é inferior à diferença entre IES Públicas e Privadas (7,3), caracterizando uma maior diversidade administrativa do que regional.\n\nNo tocante à Organização Acadêmica, apenas as Universidades obtiveram Média mais alta (51,6) que a nacional. As demais médias foram: 47,9 nos Centros Universitários e 49,5 nas Faculdades. O Desvio padrão para as IES Públicas (15,9) e para as Universidades (15,5) foi superior ao do Brasil como um todo (14,7), indicando uma dispersão um pouco maior das notas nesta Categoria Administrativa e nesta Organização Acadêmica.\n\nConstata-se que existe diferença estatisticamente significativa ao nível de 95% nas médias das notas dos estudantes das Universidades em relação aos demais tipos de Organização Acadêmica.",
+  "text_sha256": "ba3b8bc87e6094223650ae0e57cfbc51e0095d68aa49d62c34b910f7fdfc1ab8",
+  "window_size": 3
+}

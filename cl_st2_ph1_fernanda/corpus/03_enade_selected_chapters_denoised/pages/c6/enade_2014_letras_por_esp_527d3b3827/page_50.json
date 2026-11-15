@@ -1,0 +1,63 @@
+{
+  "api_metadata": {
+    "model": "gpt-6-luna",
+    "response_id": "resp_037932abfda836b0006af8fa657db487d197ddc163c0af1cd9",
+    "usage": {
+      "input_tokens": 2503,
+      "input_tokens_details": {
+        "cache_write_tokens": 2500,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 2500
+        },
+        "cached_tokens": 0
+      },
+      "output_tokens": 791,
+      "output_tokens_details": {
+        "reasoning_tokens": 441
+      },
+      "total_tokens": 3294
+    }
+  },
+  "context_pages": [
+    {
+      "page_number": 49,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_49.txt",
+      "source_sha256": "993cd33d9345e9413ece89a9f086e429e384b89bd7a797cba54c1e738258a5a7"
+    },
+    {
+      "page_number": 51,
+      "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_51.txt",
+      "source_sha256": "bfa5bef69e8ede9abe273280c4030506baaff3decb225ceb10eba2d0b815eba7"
+    }
+  ],
+  "created_at": "2026-11-15T00:18:45Z",
+  "duration_seconds": 10.916,
+  "empty_text": false,
+  "identity": {
+    "chapter_of_interest": "c6",
+    "filename_stem": "enade_2014_letras_por_esp",
+    "filepath_ori": "corpus/00_sources/enade_raw/2014/ENADE_2014_LETRAS PORTUGUÊS E ESPANHOL.pdf",
+    "page_number": 50
+  },
+  "input": {
+    "source_path": "corpus/02_enade_selected_chapters/c6/enade_2014_letras_por_esp/enade_2014_letras_por_esp_page_50.txt",
+    "source_sha256": "cfde768a00c929f7c625558ed8765dbcd55fcd470fd772bc07f7b1abf675c8b4"
+  },
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  "prompt_sha256": "ad83f80db13c78efbfbc753545b7fd1caf65284c3386965ff89c2754ea75a87d",
+  "rendered_prompt_sha256": "bf384de5c6f1433fc6d40dda2f05fc1fefad6d78f8bee3e0ae4499c7a14eef44",
+  "request_fingerprint": "725449f83e8b1fc83cc95a2dfd5fd24940dc71dac583767b4d6068b879091ded",
+  "retry_count": 0,
+  "review_notes": [
+    "Removida a Tabela 3.8, incluindo título, dados e fonte.",
+    "O Gráfico 3.4 é mencionado e discutido em prosa, preservada; o contexto seguinte começa com uma linha de fonte que pode pertencer ao gráfico, mas essa linha não foi incluída."
+  ],
+  "status": "success",
+  "text": "O Gráfico 3.4, para exemplificar, analisa o comportamento da questão de número 7 de Formação Geral. Trata-se de uma questão considerada mediana, com relação a facilidade e a que obteve o segundo maior índice de discriminação dessa parte da prova.\n\nNeste gráfico, cada uma das cinco curvas representa o percentual de respostas em determinada alternativa da questão, em função do número de acertos dos estudantes nessa parte da prova (Formação Geral/Múltipla Escolha), antes de possíveis eliminações pelo critério do ponto bisserial. A curva em vermelho corresponde à alternativa E, a correta para esta questão. Assim, observa-se que entre os estudantes com menor número de acertos, nessa parte do exame, a situação mais frequente foi a escolha de uma das alternativas incorretas: a alternativa C (em preto) ou D (em roxo). À medida em que o número de acertos aumenta, indicando desempenho melhor nessa parte da prova, aumenta concomitantemente a proporção de estudantes que selecionaram a alternativa correta E, atingindo 100% para os estudantes com 8 acertos. Essa análise permite verificar como a questão discriminou os grupos de desempenho, justificando o alto índice obtido na questão.\n\nOs gráficos relativos às demais questões de Formação Geral constam do Anexo I.",
+  "text_sha256": "e6e609913c14e06501fc1a38dee03778a6c4ee4ad844bb97983882dac53bd170",
+  "window_size": 3
+}
