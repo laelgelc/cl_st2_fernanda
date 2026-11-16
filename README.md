@@ -1,6 +1,6 @@
 # Corpus Linguistics - Study 2 - Fernanda
 
-## Phase 1 - Data Collection, Preprocessing and Lexical Multi-Dimensional Analysis
+## Phase 1 - Data Collection, Preprocessing and Lexical Multi-dimensional Analysis
 
 Phase 1 has assembled the available [ENADE course reports](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade/resultados), indexed their PDFs and extracted pages, selected pages from three report sections, made manual revisions to the selections, and produced LLM-denoised text. The indexed reports span 2009–2023; this range does not imply that reports are available for every year.
 
