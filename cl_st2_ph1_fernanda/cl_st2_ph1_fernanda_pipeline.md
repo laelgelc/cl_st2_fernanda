@@ -198,3 +198,16 @@ The output directory `corpus/06_enade_keylemmas/` contains one UTF-8 tab-delimit
 Output rows are sorted deterministically by status priority (`POSKW` $\rightarrow$ `NEGKW` $\rightarrow$ `NOTKW`), descending `LL`, and ascending alphabetical `lemma`. By default, all eligible corpus lemmas are reported (`--cutoff 0.0`), with optional target presence filtering supported via `--cutoff`.
 
 An identical rerun verifies existing output without modifying it; conflicting or unexpected files are preserved and reported rather than overwritten. Relative command-line paths resolve against the phase directory.
+
+## 7. Select a stratified keyword set
+
+```shell
+python select_kws_stratified.py \
+    --input corpus/08_keylemmas \
+    --output corpus/09_kw_selected \
+    --per-group 45 \
+    --max-total 20000
+```
+
+Output: `corpus/09_kw_selected/keywords.txt
+
