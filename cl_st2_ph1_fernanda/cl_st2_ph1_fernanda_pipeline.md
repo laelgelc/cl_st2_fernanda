@@ -201,13 +201,20 @@ An identical rerun verifies existing output without modifying it; conflicting or
 
 ## 7. Select a stratified keyword set
 
+The selector reads each group's ranked profile from `corpus/06_enade_keylemmas/`. It keeps the first eligible `POSKW` lemmas in source order, applying the same quota independently to each `<year>_<chapter>` group. The consolidated cap, when active, is applied to the naturally ordered group selections before deduplication; per-group files are not truncated by that cap.
+
+For an initial run, use five lemmas per group and a consolidated cap of 220. Run the dry run first to inspect available and selected counts without creating output files:
+
 ```shell
 python select_kws_stratified.py \
-    --input corpus/08_keylemmas \
-    --output corpus/09_kw_selected \
-    --per-group 45 \
-    --max-total 20000
+    --input corpus/06_enade_keylemmas \
+    --output corpus/07_enade_kw_selected \
+    --per-group 5 \
+    --max-total 220 \
+    --dry-run
 ```
 
-Output: `corpus/09_kw_selected/keywords.txt
+Review the counts, then run the same command without `--dry-run` to publish the outputs. The stage writes one ranked selection per group, the sorted, deduplicated consolidated list `corpus/07_enade_kw_selected/keywords.txt`, and `select_kws_stratified_run.json` with parameters, counts, and input/output checksums. Existing outputs are verified on an identical rerun; conflicting or unexpected files are preserved and reported. Relative paths resolve from this phase directory.
+
+The upstream run manifest currently records 1,032 texts across 42 groups. Five per group yields at most 210 selected occurrences before deduplication, so the 220 cap will not bind for that group count. The rule of thumb of five texts per variable suggests about 206 (roughly 210) variables, but fewer unique lemmas may result when groups have fewer than five eligible candidates or selections overlap. The selector does not top up groups or guarantee a target unique count. Confirm the upstream manifest's recorded zero stopwords is intentional before interpreting the selected vocabulary.
 
