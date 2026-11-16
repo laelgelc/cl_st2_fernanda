@@ -129,3 +129,28 @@ corpus/04_enade/
 The organiser copies chapter bytes without renaming them, verifies copied SHA-256 checksums and sizes, validates the three equivalent manifests, and publishes from a staging directory. Each manifest row traces the original PDF, selected pages, denoised source, chapter checksum, and detailed chapter-status record. The corpus status is `accepted_subject_to_audit`: it records the agreed selection subject to human audit and is not a claim that boundary flags or review notes have been resolved.
 
 An identical rerun verifies the existing corpus and makes no changes. If files, manifests, or review decisions differ—or if unexpected files exist—the organiser stops and preserves the target rather than overwriting it. To intentionally rebuild, choose a separate destination or archive the existing corpus manually first. Relative command-line paths are resolved from this phase directory, independent of the current working directory.
+
+## 5. Tag the corpus
+
+This stage tags the finalized ENADE target corpus with POS tags and lemmas using TreeTagger (`tree-tagger-portuguese2`), producing 3-column tab-delimited files in `corpus/05_enade_tagged/` alongside provenance manifests.
+
+### Dry run
+```shell
+python tag.py --dry-run
+```
+
+### Production run
+```shell
+python tag.py --workers 8 --resume
+```
+
+The output layout is:
+```text
+corpus/05_enade_tagged/
+├── 2009_c4/
+│   └── enade_2009_admin_b2a0b87461.txt
+├── enade_tagged_corpus.ndjson
+├── enade_tagged_corpus.tsv
+├── enade_tagged_corpus.xlsx
+└── tagging_failures.ndjson
+```
