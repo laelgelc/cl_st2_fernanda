@@ -209,8 +209,8 @@ For an initial run, use five lemmas per group and a consolidated cap of 220. Run
 python select_kws_stratified.py \
     --input corpus/06_enade_keylemmas \
     --output corpus/07_enade_kw_selected \
-    --per-group 5 \
-    --max-total 220 \
+    --per-group 8 \
+    --max-total 400 \
     --dry-run
 ```
 
