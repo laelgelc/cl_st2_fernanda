@@ -157,9 +157,9 @@ corpus/05_enade_tagged/
 
 ## 6. Extract key lemmas by group
 
-The programme reads the validated tagged-file records in `corpus/05_enade_tagged/enade_tagged_corpus.ndjson`. For each (`year`, `chapter`) group it compares lemma presence in that group with all files in every other group combined. A lemma counts at most once per file; the per-1,000 rates are file-prevalence rates, not token frequencies.
+This stage extracts and quantifies distinctive keywords (key lemmas) across subcorpora of the ENADE dataset. The programme processes tagged token files by reading records from `corpus/05_enade_tagged/enade_tagged_corpus.ndjson` (with fallback to direct directory traversal). For each (`year`, `chapter`) evaluation group, it compares binary document presence in the target group with all documents in all other groups combined. A lemma is counted at most once per file; normalized rates (`target_per_1k`, `comparison_per_1k`) represent document-prevalence rates per 1,000 files rather than raw token frequencies.
 
-The version-controlled `keylemmas_pos.txt` profile selects base POS categories (`NOUN`, `VERB`, and `ADJ`). `keylemmas_stopwords.txt` is an initially empty project-specific exclusion list. Alternate profiles can be provided with `--pos-config` and `--stopwords`; the selected paths, hashes, effective values, tagged-file hashes, group definitions, and TSV checksums are recorded in `keylemmas_run.json`.
+POS tag filtering and stopword exclusions are externalized into auditable configuration files: `keylemmas_pos.txt` (defaulting to content word prefixes `NOUN`, `VERB`, and `ADJ`) and `keylemmas_stopwords.txt`. Alternate profiles can be supplied via `--pos-config` and `--stopwords`. The active configuration paths, cryptographic hashes (SHA-256), group definitions, document counts, and output TSV checksums are recorded in `keylemmas_run.json`.
 
 ### Dry run
 
@@ -173,6 +173,28 @@ python keylemmas.py --dry-run
 python keylemmas.py
 ```
 
-The output directory `corpus/06_enade_keylemmas/` contains one UTF-8 TSV per group, named `<year>_<chapter>.tsv`, and `keylemmas_run.json`. TSV columns include present/absent/total file counts, prevalence per 1,000 files, the signed prevalence difference, unadjusted `g2`, and descriptive direction. Every eligible corpus lemma is reported; there is no target-only cutoff.
+The output layout is:
 
-These are exploratory file-presence comparisons. No significance threshold or multiple-testing correction is applied, and chapters from the same report may not be independent observations. An identical rerun verifies existing output without changing it; conflicting or extra files are preserved and reported rather than overwritten.
+```text
+corpus/06_enade_keylemmas/
+├── 2009_c4.tsv
+├── 2009_c5.tsv
+├── 2011_c6.tsv
+├── 2021_c6.tsv
+└── keylemmas_run.json
+```
+
+The output directory `corpus/06_enade_keylemmas/` contains one UTF-8 tab-delimited file per group, named `<year>_<chapter>.tsv`, and the provenance manifest `keylemmas_run.json`. TSV columns are:
+- `lemma`: Canonical extracted lemma (lowercased).
+- `target_count`: Number of target group documents containing the lemma ($a$).
+- `comparison_count`: Number of comparison group documents containing the lemma ($b$).
+- `target_per_1k`: Target prevalence rate per 1,000 documents ($\text{perA}$).
+- `comparison_per_1k`: Comparison prevalence rate per 1,000 documents ($\text{perB}$).
+- `expected`: Expected target document count under the null distribution ($E$).
+- `LL`: Log-likelihood ($G^2$) contingency test statistic.
+- `diff_percent`: Symmetrical percentage difference in prevalence ($\%DIFF$).
+- `status`: Descriptive keyword classification (`POSKW`, `NEGKW`, or `NOTKW` using threshold $\text{LL} \ge 3.84$).
+
+Output rows are sorted deterministically by status priority (`POSKW` $\rightarrow$ `NEGKW` $\rightarrow$ `NOTKW`), descending `LL`, and ascending alphabetical `lemma`. By default, all eligible corpus lemmas are reported (`--cutoff 0.0`), with optional target presence filtering supported via `--cutoff`.
+
+An identical rerun verifies existing output without modifying it; conflicting or unexpected files are preserved and reported rather than overwritten. Relative command-line paths resolve against the phase directory.
