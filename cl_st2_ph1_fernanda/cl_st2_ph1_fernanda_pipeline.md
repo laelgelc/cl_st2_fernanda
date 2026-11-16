@@ -218,3 +218,55 @@ Review the counts, then run the same command without `--dry-run` to publish the 
 
 The upstream run manifest currently records 1,032 texts across 42 groups. Five per group yields at most 210 selected occurrences before deduplication, so the 220 cap will not bind for that group count. The rule of thumb of five texts per variable suggests about 206 (roughly 210) variables, but fewer unique lemmas may result when groups have fewer than five eligible candidates or selections overlap. The selector does not top up groups or guarantee a target unique count. Confirm the upstream manifest's recorded zero stopwords is intentional before interpreting the selected vocabulary.
 
+```shell
+=== ENADE Keyword Selection ===
+2009_c4                → selected 8/8 from 163 eligible POSKW lemmas
+2009_c5                → selected 8/8 from 67 eligible POSKW lemmas
+2009_c6                → selected 8/8 from 516 eligible POSKW lemmas
+2010_c4                → selected 8/8 from 104 eligible POSKW lemmas
+2010_c5                → selected 8/8 from 19 eligible POSKW lemmas
+2010_c6                → selected 8/8 from 1067 eligible POSKW lemmas
+2011_c4                → selected 8/8 from 157 eligible POSKW lemmas
+2011_c5                → selected 8/8 from 35 eligible POSKW lemmas
+2011_c6                → selected 8/8 from 1093 eligible POSKW lemmas
+2012_c4                → selected 8/8 from 104 eligible POSKW lemmas
+2012_c5                → selected 8/8 from 31 eligible POSKW lemmas
+2012_c6                → selected 8/8 from 886 eligible POSKW lemmas
+2013_c4                → selected 8/8 from 107 eligible POSKW lemmas
+2013_c5                → selected 8/8 from 35 eligible POSKW lemmas
+2013_c6                → selected 8/8 from 1013 eligible POSKW lemmas
+2014_c4                → selected 8/8 from 159 eligible POSKW lemmas
+2014_c5                → selected 8/8 from 55 eligible POSKW lemmas
+2014_c6                → selected 8/8 from 1708 eligible POSKW lemmas
+2015_c4                → selected 8/8 from 131 eligible POSKW lemmas
+2015_c5                → selected 8/8 from 52 eligible POSKW lemmas
+2015_c6                → selected 8/8 from 1369 eligible POSKW lemmas
+2016_c4                → selected 8/8 from 105 eligible POSKW lemmas
+2016_c5                → selected 8/8 from 44 eligible POSKW lemmas
+2016_c6                → selected 8/8 from 1498 eligible POSKW lemmas
+2017_c4                → selected 8/8 from 160 eligible POSKW lemmas
+2017_c5                → selected 8/8 from 83 eligible POSKW lemmas
+2017_c6                → selected 8/8 from 1692 eligible POSKW lemmas
+2018_c4                → selected 8/8 from 120 eligible POSKW lemmas
+2018_c5                → selected 8/8 from 63 eligible POSKW lemmas
+2018_c6                → selected 8/8 from 1537 eligible POSKW lemmas
+2019_c4                → selected 8/8 from 170 eligible POSKW lemmas
+2019_c5                → selected 8/8 from 77 eligible POSKW lemmas
+2019_c6                → selected 8/8 from 1934 eligible POSKW lemmas
+2021_c4                → selected 8/8 from 138 eligible POSKW lemmas
+2021_c5                → selected 8/8 from 75 eligible POSKW lemmas
+2021_c6                → selected 8/8 from 777 eligible POSKW lemmas
+2022_c4                → selected 8/8 from 194 eligible POSKW lemmas
+2022_c5                → selected 8/8 from 121 eligible POSKW lemmas
+2022_c6                → selected 8/8 from 1541 eligible POSKW lemmas
+2023_c4                → selected 8/8 from 237 eligible POSKW lemmas
+2023_c5                → selected 8/8 from 121 eligible POSKW lemmas
+2023_c6                → selected 8/8 from 890 eligible POSKW lemmas
+
+Group count: 42
+Selected occurrences before cap: 336
+Occurrences after cap: 336
+Unique keywords: 218
+Duplicates removed: 118
+Published outputs: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/corpus/07_enade_kw_selected
+```
