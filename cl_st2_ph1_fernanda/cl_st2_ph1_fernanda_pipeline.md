@@ -154,3 +154,25 @@ corpus/05_enade_tagged/
 ├── enade_tagged_corpus.xlsx
 └── tagging_failures.ndjson
 ```
+
+## 6. Extract key lemmas by group
+
+The programme reads the validated tagged-file records in `corpus/05_enade_tagged/enade_tagged_corpus.ndjson`. For each (`year`, `chapter`) group it compares lemma presence in that group with all files in every other group combined. A lemma counts at most once per file; the per-1,000 rates are file-prevalence rates, not token frequencies.
+
+The version-controlled `keylemmas_pos.txt` profile selects base POS categories (`NOUN`, `VERB`, and `ADJ`). `keylemmas_stopwords.txt` is an initially empty project-specific exclusion list. Alternate profiles can be provided with `--pos-config` and `--stopwords`; the selected paths, hashes, effective values, tagged-file hashes, group definitions, and TSV checksums are recorded in `keylemmas_run.json`.
+
+### Dry run
+
+```shell
+python keylemmas.py --dry-run
+```
+
+### Production run
+
+```shell
+python keylemmas.py
+```
+
+The output directory `corpus/06_enade_keylemmas/` contains one UTF-8 TSV per group, named `<year>_<chapter>.tsv`, and `keylemmas_run.json`. TSV columns include present/absent/total file counts, prevalence per 1,000 files, the signed prevalence difference, unadjusted `g2`, and descriptive direction. Every eligible corpus lemma is reported; there is no target-only cutoff.
+
+These are exploratory file-presence comparisons. No significance threshold or multiple-testing correction is applied, and chapters from the same report may not be independent observations. An identical rerun verifies existing output without changing it; conflicting or extra files are preserved and reported rather than overwritten.
