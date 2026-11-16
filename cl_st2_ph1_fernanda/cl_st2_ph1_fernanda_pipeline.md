@@ -78,6 +78,45 @@ bash run_python_ec2.sh \
     --max-retries 5
 ```
 
+## 4. Organise the final ENADE target corpus
+
+This step validates the revised page-selection manifest against the source metadata and denoising chapter status, then copies each complete assembled chapter to `corpus/04_enade/<year>_<chapter>/`. It publishes the chapter-level target manifest in NDJSON, TSV, and XLSX formats; the page-level selection manifest and earlier pipeline outputs are not changed.
+
+The organiser requires Python 3.10 or later and `openpyxl` in the same Python environment used to run the pipeline. NDJSON and TSV use only the standard library.
+
+### Dry run
+
+Run the dry run first. It reconciles the full group identities and page sets, verifies the source PDF and assembled chapter paths, checks destination safety and collisions, and prints page/chapter totals. It creates no output files or directories.
+
+```shell
+python organise_enade_corpus.py --dry-run
+```
+
+For the recorded production inputs, compare the dry-run totals with 30,770 selected pages and 1,032 complete chapter groups. These counts are a one-run cross-check, not fixed programme requirements; investigate any discrepancy before publishing.
+
+### Full run
+
+After reviewing a successful dry run, publish the corpus:
+
+```shell
+python organise_enade_corpus.py
+```
+
+The output layout is:
+
+```text
+corpus/04_enade/
+├── 2009_c4/
+│   └── enade_2009_admin_b2a0b87461.txt
+├── enade_target_corpus.ndjson
+├── enade_target_corpus.tsv
+└── enade_target_corpus.xlsx
+```
+
+The organiser copies chapter bytes without renaming them, verifies copied SHA-256 checksums and sizes, validates the three equivalent manifests, and publishes from a staging directory. Each manifest row traces the original PDF, selected pages, denoised source, chapter checksum, and detailed chapter-status record. The corpus status is `accepted_subject_to_audit`: it records the agreed selection subject to human audit and is not a claim that boundary flags or review notes have been resolved.
+
+An identical rerun verifies the existing corpus and makes no changes. If files, manifests, or review decisions differ—or if unexpected files exist—the organiser stops and preserves the target rather than overwriting it. To intentionally rebuild, choose a separate destination or archive the existing corpus manually first. Relative command-line paths are resolved from this phase directory, independent of the current working directory.
+
 ### Full run for retrying the invalid responses
 
 ```shell

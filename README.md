@@ -18,4 +18,6 @@ The chapter identifiers used in the metadata are internal labels for these targe
 
 The [latest recorded run summary](cl_st2_ph1_fernanda/corpus/03_enade_selected_chapters_denoised/runs/20261115T092418Z_000ea222/summary.json) reports 30,770 selected pages processed successfully across 1,032 complete chapter groups, with no failed pages. Processing completion is not the same as linguistic validation: the run also records 6,831 boundary flags and 23,583 review notes. These flagged boundaries and notes still need human inspection; [`chapter_status.ndjson`](cl_st2_ph1_fernanda/corpus/03_enade_selected_chapters_denoised/chapter_status.ndjson) records per-chapter status and review information.
 
+Assembled chapter filenames include a suffix containing the first 10 hexadecimal characters of the SHA-256 hash of the source PDF's path, not its contents. Chapters from the same PDF share this suffix, which helps distinguish reports with similar names; the source mapping is recorded in `chapter_status.ndjson`.
+
 For commands and the full sequence, see the [Phase 1 pipeline](cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_pipeline.md).
