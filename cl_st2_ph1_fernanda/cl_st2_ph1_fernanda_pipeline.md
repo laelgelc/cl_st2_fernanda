@@ -78,6 +78,19 @@ bash run_python_ec2.sh \
     --max-retries 5
 ```
 
+### Full run for retrying the invalid responses
+
+```shell
+python llm_denoise.py \
+    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
+    --prompt denoising_prompts/denoising_v1.md \
+    --output corpus/03_enade_selected_chapters_denoised \
+    --window-size 3 \
+    --model gpt-6-luna \
+    --resume \
+    --max-retries 5
+```
+
 ## 4. Organise the final ENADE target corpus
 
 This step validates the revised page-selection manifest against the source metadata and denoising chapter status, then copies each complete assembled chapter to `corpus/04_enade/<year>_<chapter>/`. It publishes the chapter-level target manifest in NDJSON, TSV, and XLSX formats; the page-level selection manifest and earlier pipeline outputs are not changed.
@@ -116,16 +129,3 @@ corpus/04_enade/
 The organiser copies chapter bytes without renaming them, verifies copied SHA-256 checksums and sizes, validates the three equivalent manifests, and publishes from a staging directory. Each manifest row traces the original PDF, selected pages, denoised source, chapter checksum, and detailed chapter-status record. The corpus status is `accepted_subject_to_audit`: it records the agreed selection subject to human audit and is not a claim that boundary flags or review notes have been resolved.
 
 An identical rerun verifies the existing corpus and makes no changes. If files, manifests, or review decisions differ—or if unexpected files exist—the organiser stops and preserves the target rather than overwriting it. To intentionally rebuild, choose a separate destination or archive the existing corpus manually first. Relative command-line paths are resolved from this phase directory, independent of the current working directory.
-
-### Full run for retrying the invalid responses
-
-```shell
-python llm_denoise.py \
-    --input-manifest corpus/enade_chapters_clean_up_revised_dataset.ndjson \
-    --prompt denoising_prompts/denoising_v1.md \
-    --output corpus/03_enade_selected_chapters_denoised \
-    --window-size 3 \
-    --model gpt-6-luna \
-    --resume \
-    --max-retries 5
-```
