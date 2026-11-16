@@ -164,13 +164,13 @@ POS tag filtering and stopword exclusions are externalized into auditable config
 ### Dry run
 
 ```shell
-python keylemmas.py --dry-run
+python keylemmas.py --cutoff 3 --dry-run
 ```
 
 ### Production run
 
 ```shell
-python keylemmas.py
+python keylemmas.py --cutoff 3
 ```
 
 The output layout is:

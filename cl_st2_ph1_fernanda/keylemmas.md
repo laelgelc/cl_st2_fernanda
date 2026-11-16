@@ -340,5 +340,5 @@ Automated tests for `keylemmas.py` must be implemented in `tests/test_keylemmas.
 Following the implementation and validation of `keylemmas.py`, Section 6 of `cl_st2_ph1_fernanda_pipeline.md` represents the active stage specification:
 - **Input Corpus**: `corpus/05_enade_tagged/`
 - **Output Corpus**: `corpus/06_enade_keylemmas/`
-- **Execution Commands**: `python keylemmas.py --dry-run` and `python keylemmas.py`
+- **Execution Commands**: `python keylemmas.py --cutoff 3 --dry-run` and `python keylemmas.py --cutoff 3`
 - **Manifest Reference**: `corpus/06_enade_keylemmas/keylemmas_run.json`
