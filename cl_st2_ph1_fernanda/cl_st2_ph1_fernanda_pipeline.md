@@ -407,16 +407,41 @@ An identical rerun verifies the existing TSV without rewriting it; a conflicting
 
 ## 14. Generate LaTeX/TikZ boxplots
 
-```shell
-cd latex_boxplots
-```
+This stage reads the scores-only TSV and matching model summaries exported by SAS:
+
+- `sas/output_cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_scores_only.tsv`, using `year_chapter` for group labels and the detected `fac<n>` score columns.
+- `sas/output_cl_st2_ph1_fernanda/params_year_chapter_f<n>.tsv`, using its finite `RSquare` value in the corresponding factor caption. If a parameter file includes `Dependent`, it must match that factor.
+
+Run the dry run from the phase directory first. It validates score columns and group labels, checks that every group has at least one usable value for every factor, validates all matching parameter files, renders the complete output set, and checks for conflicting or partial existing outputs without writing files:
 
 ```shell
-python latex_boxplots.py
+python latex_boxplots/latex_boxplots.py --dry-run
 ```
 
-Output: `latex_boxplots/slides/`
+After a successful dry run, generate the snippets:
 
 ```shell
-cd ..
+python latex_boxplots/latex_boxplots.py
 ```
+
+By default the plotter groups by `year_chapter`, detects all `fac<n>` columns, and writes one `boxplot_f<n>_by_group.tex` per factor plus `mosaic_by_group.tex` under `latex_boxplots/slides/`. The mosaic retains the existing one-row layout and includes up to the first four detected factors.
+
+For the currently checked-in SAS outputs, use 1,032 score rows, 42 groups, four detected factors, and captions of `97.88%`, `97.97%`, `97.15%`, and `96.61%` as cross-checks, not fixed limits.
+
+The SAS phase models `year_chapter`; the scores TSV also exports `group` as an alias. If you plot with that alias, choose the corresponding model explicitly:
+
+```shell
+python latex_boxplots/latex_boxplots.py --group-column group --params-group year_chapter --dry-run
+python latex_boxplots/latex_boxplots.py --group-column group --params-group year_chapter
+```
+
+`--params-group` defaults to `--group-column`; use it only when the SAS model filename uses another group name, and ensure that model corresponds to the plotted grouping. `--phase-dir` selects the phase directory; relative `--sas-output-dir` and `--output-dir` overrides resolve from it (not from the current working directory). For example:
+
+```shell
+python latex_boxplots/latex_boxplots.py \
+  --phase-dir /path/to/cl_st2_ph1_fernanda \
+  --sas-output-dir sas/output_cl_st2_ph1_fernanda \
+  --output-dir latex_boxplots/slides
+```
+
+An identical rerun verifies and reuses the full output set. Partial or conflicting expected outputs are rejected without overwriting existing files, and outputs may not collide with input files. These files are LaTeX snippets, not standalone documents or PDFs; include them in a compatible LaTeX document with `float`, TikZ, PGFPlots, and its statistics library configured. The SAS results are inputs to this stage and are not modified.
