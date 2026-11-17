@@ -346,3 +346,5 @@ The recorded production data contains 218 keywords; this is a cross-check, not a
 These formats label variable-name strings, not the matrix's binary values. Downstream SAS code must assign names such as `v000001` to matrix columns in `index_keywords.txt` order and load the formats in the SAS session where they are used. Confirm that the SAS session's encoding supports the UTF-8 lemmas before production. This script generates only the two format files above and their provenance; it does not create additional SAS helper formats.
 
 ## 11. Run SAS
+
+## 12. 
