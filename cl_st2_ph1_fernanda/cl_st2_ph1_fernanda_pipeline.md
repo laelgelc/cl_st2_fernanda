@@ -518,3 +518,16 @@ Output: `examples/score_details.txt`
 The project name and default paths are anchored to the script's phase directory, so the command functions seamlessly when executed from any working directory. CLI overrides include `--project`, `--phase-dir`, `--sas-output-dir`, `--varid-dir`, `--file-ids`, and `--output`; relative path arguments resolve against the phase directory while absolute paths are preserved.
 
 For the recorded corpus, cross-check the output with 1,032 texts across 4 detected factor dimensions.
+
+## 18. Generate plaintext example extracts
+
+The `examples_txt.py` programme was affected by a bug that has been fixed as reported in:
+
+- [examples_txt_bug_report.md](https://github.com/laelgelc/cl_st1_anna/blob/main/cl_st1_ph2_anna/examples_txt_bug_report.md); or
+- `examples_txt_bug_report.md`
+
+```shell
+python examples_txt.py
+```
+
+Output: `examples_txt/`
