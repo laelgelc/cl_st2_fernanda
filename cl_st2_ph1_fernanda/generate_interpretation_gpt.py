@@ -23,7 +23,7 @@ Example explicit usage:
 
 The script loads OPENAI_API_KEY from either:
     1. the system environment; or
-    2. env/.env in the current project directory.
+    2. env/.env in this script's phase directory.
 
 Expected input:
     interpretation/input/f<n>_<pole>.txt
@@ -54,7 +54,8 @@ from dotenv import load_dotenv
 # Project defaults
 # ------------------------------------------------------------
 
-DEFAULT_PROJECT = Path.cwd().name
+PHASE_DIR = Path(__file__).resolve().parent
+DEFAULT_PROJECT = PHASE_DIR.name
 DEFAULT_INPUT_DIR = Path("interpretation/input")
 DEFAULT_OUTPUT_DIR = Path("interpretation/output")
 DEFAULT_MODEL = "gpt-6.2-sol"
@@ -70,7 +71,7 @@ DEFAULT_FAILED_FILE_NAME = "failed_prompts.txt"
 # Environment loading
 # ------------------------------------------------------------
 
-load_dotenv(dotenv_path=Path("env/.env"), override=False)
+load_dotenv(dotenv_path=PHASE_DIR / "env/.env", override=False)
 
 
 # ------------------------------------------------------------
@@ -101,13 +102,19 @@ def parse_args() -> argparse.Namespace:
         "--input",
         "-i",
         default=str(DEFAULT_INPUT_DIR),
-        help="Directory containing prompt files. Default: interpretation/input.",
+        help=(
+            "Directory containing prompt files. "
+            f"Default: {PHASE_DIR / DEFAULT_INPUT_DIR}; relative paths resolve from the phase directory."
+        ),
     )
     parser.add_argument(
         "--output",
         "-o",
         default=str(DEFAULT_OUTPUT_DIR),
-        help="Directory for GPT responses. Default: interpretation/output.",
+        help=(
+            "Directory for GPT responses. "
+            f"Default: {PHASE_DIR / DEFAULT_OUTPUT_DIR}; relative paths resolve from the phase directory."
+        ),
     )
     parser.add_argument(
         "--model",
@@ -163,7 +170,7 @@ def parse_args() -> argparse.Namespace:
         default="",
         help=(
             "Optional log-file path. "
-            f"Default: <output>/{DEFAULT_LOG_FILE_NAME}."
+            f"Default: <output>/{DEFAULT_LOG_FILE_NAME}; relative overrides resolve from the phase directory."
         ),
     )
     parser.add_argument(
@@ -171,7 +178,7 @@ def parse_args() -> argparse.Namespace:
         default="",
         help=(
             "Optional failed-prompts file path. "
-            f"Default: <output>/{DEFAULT_FAILED_FILE_NAME}."
+            f"Default: <output>/{DEFAULT_FAILED_FILE_NAME}; relative overrides resolve from the phase directory."
         ),
     )
 
@@ -210,6 +217,12 @@ def setup_logging(log_file: Path) -> None:
 # ------------------------------------------------------------
 # Helpers
 # ------------------------------------------------------------
+
+def resolve_phase_path(path: str | Path) -> Path:
+    """Resolve a path relative to the phase directory, preserving absolute paths."""
+    path = Path(path)
+    return path if path.is_absolute() else PHASE_DIR / path
+
 
 def read_text(path: Path) -> str:
     """Read a UTF-8 text file."""
@@ -415,13 +428,17 @@ def main() -> None:
     """Main entry point."""
     args = parse_args()
 
-    input_dir = Path(args.input)
-    output_dir = Path(args.output)
+    input_dir = resolve_phase_path(args.input)
+    output_dir = resolve_phase_path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    log_file = Path(args.log_file) if args.log_file else output_dir / DEFAULT_LOG_FILE_NAME
+    log_file = (
+        resolve_phase_path(args.log_file)
+        if args.log_file
+        else output_dir / DEFAULT_LOG_FILE_NAME
+    )
     failed_file = (
-        Path(args.failed_file)
+        resolve_phase_path(args.failed_file)
         if args.failed_file
         else output_dir / DEFAULT_FAILED_FILE_NAME
     )

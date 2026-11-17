@@ -573,11 +573,28 @@ Missing means files and factor-specific example folders produce warnings and fal
 
 ## 20. Submit interpretation prompts to GPT
 
+Run this stage after `interpretation_prompts.py`. It submits each `.txt` file in `interpretation/input/` as one complete user message and writes the response to `interpretation/output/` using the same filename. Default paths, relative path overrides, and `env/.env` are resolved from this script's phase directory, so it can also be invoked by its path from another working directory; absolute path overrides are preserved.
+
+The Python environment needs `openai` and `python-dotenv`; both packages are listed in `env/condaenv.yaml`. Set `OPENAI_API_KEY` in the shell environment or copy `env/.env_template` to `env/.env` and set the key there (the shell value takes precedence). Keep credentials out of version control; `.env` files are ignored by this repository. The default model is `gpt-6.2-sol`, but model availability is account-dependent: verify that your account can use the selected model, or pass an available model with `--model`.
+
+Start with one prompt and one worker to check credentials, model access, and the generated format before submitting the full set:
+
 ```shell
 python generate_interpretation_gpt.py \
-    --input interpretation/input \
-    --output interpretation/output \
-    --model gpt-6.2-sol \
-    --workers 4
+    --limit 1 \
+    --workers 1
 ```
-Output: `interpretation/output/`
+
+If the test run succeeds and its output is satisfactory, submit the remaining prompts:
+
+```shell
+python generate_interpretation_gpt.py --workers 4
+```
+
+If the selected prompt already has an output file, the default skip behavior means the first command will not make an API request; add `--no-skip-existing` to force a test request, noting that it overwrites that output.
+
+Outputs are written under `interpretation/output/`; the run log is `generate_interpretation_gpt.log` there, and failed filenames are recorded in `failed_prompts.txt` if any requests fail. Use `--input`, `--output`, `--log-file`, and `--failed-file` to override these paths; relative overrides resolve from the phase directory. `--max-output-tokens`, `--retries`, and `--retry-base-sleep` control response length and retry backoff.
+
+By default, an output is skipped if a file with the same name already exists; the script does not check whether its prompt or model has changed. Use `--no-skip-existing` to overwrite existing responses. `--limit` selects the first sorted input filenames before existing outputs are skipped, so a limited run can do nothing if its selected outputs already exist; increase the limit or use `--no-skip-existing` as appropriate. The script processes every `.txt` file in the input directory, including stale prompts, so review that directory and keep input and output directories distinct before running.
+
+Review the prompts and generated interpretations before treating them as research findings. Upstream prompt generation can include fallback sections when means or examples are missing, and outstanding corpus review/audit flags are not resolved by this stage.
