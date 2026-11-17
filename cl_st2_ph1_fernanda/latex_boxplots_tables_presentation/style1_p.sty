@@ -1,0 +1,73 @@
+\ProvidesPackage{style1_p}
+
+\newcommand{\nologo}{\setbeamertemplate{logo}{}} % Command to set the logo to nothing
+\usepackage{import}
+%\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz} % Enables TikZ graphic elements package
+    \tikzset{>=latex}
+    \usetikzlibrary{shapes.geometric} % Enables the use of predefined shapes
+    \usetikzlibrary{matrix} % Enables multiple nodes inside a node
+    \usetikzlibrary{decorations.pathreplacing}
+    \usetikzlibrary{decorations.markings}
+    \usetikzlibrary{positioning}
+    \usetikzlibrary{calc}
+\usepackage{pgfplots}
+    \usepgfplotslibrary{statistics}
+    \pgfplotsset{compat=1.8}
+\usepackage{pdfpages} % Insert PDF files
+%\usepackage{showframe} % Use it to check the document's page setup
+\usepackage{amsmath} % Enhances LaTeX's math typesetting capabilities
+\usepackage{amssymb} % Provides a broader symbol set for math typesetting
+\usepackage{lipsum} % Use it to generate text to help check the document's page setup
+\usepackage{blindtext} % Use it to generate text to help check the document's page setup
+\usepackage{url} % Allows URLs to be clickable
+\usepackage{hyperref} % Allows the use of hyperlinks (due to a known conflict, make sure it is loaded before 'abntex2cite')
+%\usepackage[natbibapa]{apacite} % Use it to enable APA style with natbib
+%\usepackage[alf]{abntex2cite} % Use it to enable ABNT style
+\usepackage[style=apa]{biblatex} % Use it to enable APA style with BibLaTeX
+%\usepackage[style=chicago-authordate]{biblatex} % Use it to enable Chicago style with BibLaTeX
+    \DeclareLanguageMapping{english}{english-apa} % Use it to apply APA-specific language settings for English
+    %\DeclareLanguageMapping{english}{english-chicago} % Use it to apply Chicago-specific language settings for English
+    %\DeclareLanguageMapping{brazilian}{brazilian-apa} % Use it to apply APA-specific language settings for Brazilian Portuguese
+    %\DeclareLanguageMapping{brazilian}{brazilian-chicago} % Use it to apply Chicago-specific language settings for Brazilian Portuguese
+    \addbibresource{library.bib} % Use it to add the bibliography database for BibLaTeX
+\usepackage[utf8]{inputenc} % Sets the document encoding to UTF8
+\usepackage[brazilian, english]{babel} % Sets multilingual support to 'brazilian' and 'english'
+\usepackage{caption} % Enables better management of captions
+\usepackage{float} % Enables better management of floating objects
+\usepackage{multirow} % Enables the combination of rows and columns in tables
+%\usepackage{emoji} % Requires that the compiler is changed to LuaLaTeX
+\usepackage{longtable} % Enables multi-page tables
+\usepackage{booktabs} % Enhances the quality of tables, providing extra commands as well as behind-the-scenes optimisation
+\usepackage{tipa} % Enables phonetic symbols (IPA)
+\usepackage{listings} % Enables computer code listing
+    \lstset{breaklines=true, breakatwhitespace=true, columns=fullflexible, postbreak=\mbox{\textcolor{lightgray}{$\hookrightarrow$}\space}}
+\usepackage[T1]{fontenc} % Switch the font encoding to T1, which provides support for the '\dh' command and other special characters
+\usepackage{lmodern}
+%\usepackage[scaled]{helvet} % Set Arial-like font (Helvetica)
+\renewcommand{\familydefault}{\sfdefault} % Changes to sans serif typeface
+\renewcommand{\thesection}{\arabic{section}} % When using the 'report' document class without chapters, this setting removes the leading '0' on the numbering of sections
+\usepackage[export]{adjustbox} % Enables drawing a frame around the figures with the command '\fbox'
+\usepackage{multicol} % Enables the creation of columns of text
+\usepackage{xcolor} % Enables the use of colours
+\usepackage{soul} % Enables text highlighting with the command '\hl'
+\usepackage[normalem]{ulem} % Enables striking through pieces of text with the command '\sout'
+\usepackage{cancel} % Enables crossing out pieces of text with the commands '\cancel', '\bcancel' and '\xcancel' in both math and text modes
+
+% Define colours for highlighting text
+% https://www.w3schools.com/colors/colors_picker.asp
+% https://colorhunt.co/
+\definecolor{lightyellow}{RGB}{255, 255, 128}
+\definecolor{lightgreen}{RGB}{204, 255, 204}
+\definecolor{lightorange}{RGB}{255, 204, 128}
+\definecolor{lightmagenta}{RGB}{255, 128, 223}
+\definecolor{lightblue}{RGB}{128, 179, 255}
+\definecolor{lightpurple}{RGB}{191, 128, 255}
+
+% Define new commands for highlighting text with the defined colours
+\newcommand{\hlyellow}[1]{\sethlcolor{lightyellow}\hl{#1}}
+\newcommand{\hlgreen}[1]{\sethlcolor{lightgreen}\hl{#1}}
+\newcommand{\hlorange}[1]{\sethlcolor{lightorange}\hl{#1}}
+\newcommand{\hlmagenta}[1]{\sethlcolor{lightmagenta}\hl{#1}}
+\newcommand{\hlblue}[1]{\sethlcolor{lightblue}\hl{#1}}
+\newcommand{\hlpurple}[1]{\sethlcolor{lightpurple}\hl{#1}}
