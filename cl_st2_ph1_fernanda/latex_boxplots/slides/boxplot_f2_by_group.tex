@@ -1,0 +1,428 @@
+\begin{figure}[H]
+\centering
+\hspace*{-.25in}
+\begin{tikzpicture}
+\begin{axis}[
+  boxplot/draw direction=y,
+  enlarge x limits=0.01,
+  every boxplot/.style={draw=black, fill=blue!25},
+  ylabel={Mean Dim. 2 Score},
+  ylabel style={font=\scriptsize},
+  height=0.45\textheight, width=\textwidth,
+  yticklabel style={font=\footnotesize},
+  x tick label style={rotate=60, anchor=east, font=\scriptsize},
+  x=7.5,
+  xtick={1,...,42},
+  xticklabels={
+2009\_c4,
+  2009\_c5,
+  2009\_c6,
+  2010\_c4,
+  2010\_c5,
+  2010\_c6,
+  2011\_c4,
+  2011\_c5,
+  2011\_c6,
+  2012\_c4,
+  2012\_c5,
+  2012\_c6,
+  2013\_c4,
+  2013\_c5,
+  2013\_c6,
+  2014\_c4,
+  2014\_c5,
+  2014\_c6,
+  2015\_c4,
+  2015\_c5,
+  2015\_c6,
+  2016\_c4,
+  2016\_c5,
+  2016\_c6,
+  2017\_c4,
+  2017\_c5,
+  2017\_c6,
+  2018\_c4,
+  2018\_c5,
+  2018\_c6,
+  2019\_c4,
+  2019\_c5,
+  2019\_c6,
+  2021\_c4,
+  2021\_c5,
+  2021\_c6,
+  2022\_c4,
+  2022\_c5,
+  2022\_c6,
+  2023\_c4,
+  2023\_c5,
+  2023\_c6
+},
+]
+\addplot[red, densely dashed] coordinates {(0.5,0) (42.5,0)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(1,1) (1,1) (1,1) (1,1) (1,2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=0.0,
+  upper whisker=0.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(1,0.2222222222222222)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(2,-9) (2,-7) (2,-7) (2,-7) (2,-7) (2,-7)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-8.0,
+  lower quartile=-8.0,
+  median=-8.0,
+  upper quartile=-8.0,
+  upper whisker=-8.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(2,-7.851851851851852)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-2.0,
+  median=-1.0,
+  upper quartile=-0.5,
+  upper whisker=1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(3,-1.1481481481481481)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(4,3)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=3.5,
+  lower quartile=5.0,
+  median=6.0,
+  upper quartile=6.0,
+  upper whisker=6
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(4,5.421052631578948)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-1.0,
+  upper whisker=0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(5,-1.631578947368421)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(6,4)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=1.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=3.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(6,1.4210526315789473)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(7,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=6.5,
+  lower quartile=8.0,
+  median=9.0,
+  upper quartile=9.0,
+  upper whisker=10
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(7,8.545454545454545)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-1.0,
+  upper whisker=0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(8,-1.7272727272727273)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(9,-6) (9,-6) (9,-6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-5.5,
+  lower quartile=-4.0,
+  median=-4.0,
+  upper quartile=-3.0,
+  upper whisker=-2
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(9,-3.787878787878788)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(10,8)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=8.5,
+  lower quartile=10.0,
+  median=11.0,
+  upper quartile=11.0,
+  upper whisker=12
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(10,10.588235294117647)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(11,-1) (11,-1) (11,-1)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-2.0,
+  upper whisker=-2.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(11,-1.8235294117647058)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(12,-0.8235294117647058)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=9,
+  lower quartile=11.0,
+  median=12.0,
+  upper quartile=13.0,
+  upper whisker=13
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(13,11.882352941176471)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(14,-3) (14,-1) (14,-1) (14,-1)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2.0,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-2.0,
+  upper whisker=-2.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(14,-1.8823529411764706)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(15,-6) (15,0)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-4.5,
+  lower quartile=-3.0,
+  median=-2.0,
+  upper quartile=-2.0,
+  upper whisker=-0.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(15,-2.176470588235294)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=7,
+  lower quartile=9.0,
+  median=11.0,
+  upper quartile=11.0,
+  upper whisker=12
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(16,10.5)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(17,-3) (17,-3) (17,-2) (17,-2) (17,-2) (17,-2) (17,-2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1.0,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=-1.0,
+  upper whisker=-1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(17,-1.28125)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(18,2) (18,2) (18,4)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2,
+  lower quartile=-1.25,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1.875
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(18,-0.5625)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(19,9) (19,10) (19,10) (19,10) (19,10)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=11.0,
+  lower quartile=11.0,
+  median=11.0,
+  upper quartile=11.0,
+  upper whisker=11
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(19,10.76923076923077)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(20,-2) (20,-2) (20,0) (20,0) (20,0)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1.0,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=-1.0,
+  upper whisker=-1.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(20,-0.9615384615384616)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(21,-3) (21,2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2.5,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(21,-0.8076923076923077)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(22,9) (22,9) (22,9) (22,10) (22,12) (22,12) (22,12)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=11.0,
+  lower quartile=11.0,
+  median=11.0,
+  upper quartile=11.0,
+  upper whisker=11.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(22,10.777777777777779)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-3.0,
+  median=-2.0,
+  upper quartile=-2.0,
+  upper whisker=-1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(23,-2.2222222222222223)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(24,-2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1.5,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(24,0.1111111111111111)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=9,
+  lower quartile=10.0,
+  median=11.0,
+  upper quartile=11.0,
+  upper whisker=12
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(25,10.59375)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-3.0,
+  median=-2.0,
+  upper quartile=-2.0,
+  upper whisker=-1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(26,-2.1875)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(27,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-2.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=3.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(27,-0.9375)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=14,
+  lower quartile=14.75,
+  median=16.0,
+  upper quartile=16.0,
+  upper whisker=17
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(28,15.55)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-1.0,
+  upper whisker=0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(29,-1.5)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(30,4)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.75,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=3.875
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(30,1.3)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=15,
+  lower quartile=15.0,
+  median=16.0,
+  upper quartile=17.0,
+  upper whisker=18
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(31,16.20689655172414)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-3,
+  lower quartile=-2.0,
+  median=-2.0,
+  upper quartile=-1.0,
+  upper whisker=-1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(32,-1.6896551724137931)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(33,5) (33,5)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=1,
+  lower quartile=2.0,
+  median=2.0,
+  upper quartile=3.0,
+  upper whisker=4.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(33,2.3448275862068964)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=16,
+  lower quartile=18.0,
+  median=19.0,
+  upper quartile=20.0,
+  upper whisker=20
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(34,18.571428571428573)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(35,-3) (35,-2) (35,-2) (35,-2) (35,-2) (35,0) (35,1)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1.0,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=-1.0,
+  upper whisker=-1.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(35,-1.1428571428571428)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=3.0,
+  upper whisker=6
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(36,1.4285714285714286)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=17,
+  lower quartile=19.25,
+  median=21.5,
+  upper quartile=22.0,
+  upper whisker=23
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(37,20.76923076923077)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(38,2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(38,-0.5)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(39,3) (39,18)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=3.5,
+  lower quartile=5.0,
+  median=5.5,
+  upper quartile=6.0,
+  upper whisker=7.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(39,5.961538461538462)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(40,20) (40,21) (40,21) (40,21) (40,21)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=21.5,
+  lower quartile=23.0,
+  median=24.0,
+  upper quartile=24.0,
+  upper whisker=24
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(40,23.296296296296298)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(41,0) (41,0) (41,0) (41,0)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=-1.0,
+  median=-1.0,
+  upper quartile=-1.0,
+  upper whisker=-1.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(41,-0.8518518518518519)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(42,3) (42,3) (42,3) (42,3) (42,3) (42,3)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=1,
+  lower quartile=1.5,
+  median=2.0,
+  upper quartile=2.0,
+  upper whisker=2.75
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(42,1.962962962962963)};
+\end{axis}
+\end{tikzpicture}
+\caption{Mean Dim. 2 Scores by Group (R² = 97.97\%)}
+\label{fig:means_f2_by_group}
+\end{figure}
