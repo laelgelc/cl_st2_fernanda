@@ -1,0 +1,3725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac1</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Class Levels">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Class Level Information</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Class</th>
+<th class="r b header" scope="col">Levels</th>
+<th class="l b header" scope="col">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">42</td>
+<td class="l data">2009_c4 2009_c5 2009_c6 2010_c4 2010_c5 2010_c6 2011_c4 2011_c5 2011_c6 2012_c4 2012_c5 2012_c6 2013_c4 2013_c5 2013_c6 2014_c4 2014_c5 2014_c6 2015_c4 2015_c5 2015_c6 2016_c4 2016_c5 2016_c6 2017_c4 2017_c5 2017_c6 2018_c4 2018_c5 2018_c6 2019_c4 2019_c5 2019_c6 2021_c4 2021_c5 2021_c6 2022_c4 2022_c5 2022_c6 2023_c4 2023_c5 2023_c6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX1"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Number of Observations">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Read</th>
+<td class="r data">1032</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Used</th>
+<td class="r data">1032</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac1</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Dependent Variable: fac1   </div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Overall ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Sum of Squares</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Model</th>
+<td class="r data">41</td>
+<td class="r data">64414.81871</td>
+<td class="r data">1571.09314</td>
+<td class="r data">1115.32</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error</th>
+<td class="r data">990</td>
+<td class="r data">1394.56114</td>
+<td class="r data">1.40865</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Corrected Total</th>
+<td class="r data">1031</td>
+<td class="r data">65809.37984</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Fit Statistics">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">R-Square</th>
+<th class="r b header" scope="col">Coeff Var</th>
+<th class="r b header" scope="col">Root MSE</th>
+<th class="r b header" scope="col">fac1&nbsp;Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0.978809</td>
+<td class="r data">97.51945</td>
+<td class="r data">1.186865</td>
+<td class="r data">1.217054</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX4"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type I Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type I SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">64414.81871</td>
+<td class="r data">1571.09314</td>
+<td class="r data">1115.32</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type III Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type III SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">64414.81871</td>
+<td class="r data">1571.09314</td>
+<td class="r data">1115.32</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac1</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Means">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" rowspan="2" scope="col">Level of<br/>year_chapter</th>
+<th class="r b header" rowspan="2" scope="col">N</th>
+<th class="c b header" colspan="2" scope="colgroup">fac1</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Std Dev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">2009_c4</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-7.3333333</td>
+<td class="r data">0.83205029</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c5</th>
+<th class="r data">27</th>
+<td class="r data">0.6666667</td>
+<td class="r data">0.67936622</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-2.4074074</td>
+<td class="r data">0.93064325</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c4</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-6.5789474</td>
+<td class="r data">0.69248261</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c5</th>
+<th class="r data">19</th>
+<td class="r data">3.1578947</td>
+<td class="r data">0.83421007</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c6</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-1.1578947</td>
+<td class="r data">1.64192157</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c4</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-3.7878788</td>
+<td class="r data">0.64988344</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c5</th>
+<th class="r data">33</th>
+<td class="r data">5.0606061</td>
+<td class="r data">0.89928423</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c6</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-2.3939394</td>
+<td class="r data">1.61901579</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c4</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-4.6470588</td>
+<td class="r data">0.49259218</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c5</th>
+<th class="r data">17</th>
+<td class="r data">5.5882353</td>
+<td class="r data">0.93933644</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-1.4117647</td>
+<td class="r data">1.32565189</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c4</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-4.8235294</td>
+<td class="r data">0.39295262</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c5</th>
+<th class="r data">17</th>
+<td class="r data">8.7058824</td>
+<td class="r data">1.04670351</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-1.1764706</td>
+<td class="r data">1.59041245</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c4</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-3.7500000</td>
+<td class="r data">0.50800051</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c5</th>
+<th class="r data">32</th>
+<td class="r data">8.2187500</td>
+<td class="r data">1.45323610</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c6</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-8.5312500</td>
+<td class="r data">1.29476302</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c4</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-3.8461538</td>
+<td class="r data">0.46409548</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c5</th>
+<th class="r data">26</th>
+<td class="r data">8.2307692</td>
+<td class="r data">1.42288980</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c6</th>
+<th class="r data">26</th>
+<td class="r data">0.2307692</td>
+<td class="r data">1.68065921</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c4</th>
+<th class="r data">18</th>
+<td class="r data" nowrap>-3.5555556</td>
+<td class="r data">0.85558526</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c5</th>
+<th class="r data">18</th>
+<td class="r data">9.2222222</td>
+<td class="r data">1.55508863</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c6</th>
+<th class="r data">18</th>
+<td class="r data" nowrap>-5.2222222</td>
+<td class="r data">1.89598820</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c4</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-3.3437500</td>
+<td class="r data">0.70066213</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c5</th>
+<th class="r data">32</th>
+<td class="r data">14.2812500</td>
+<td class="r data">1.39664055</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c6</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-3.5625000</td>
+<td class="r data">1.13414740</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c4</th>
+<th class="r data">20</th>
+<td class="r data" nowrap>-3.7000000</td>
+<td class="r data">0.65694669</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c5</th>
+<th class="r data">20</th>
+<td class="r data">14.2500000</td>
+<td class="r data">1.01954582</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c6</th>
+<th class="r data">20</th>
+<td class="r data" nowrap>-2.7000000</td>
+<td class="r data">1.30182059</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c4</th>
+<th class="r data">29</th>
+<td class="r data" nowrap>-4.5517241</td>
+<td class="r data">0.68588873</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c5</th>
+<th class="r data">29</th>
+<td class="r data">16.7931034</td>
+<td class="r data">1.20650944</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c6</th>
+<th class="r data">29</th>
+<td class="r data" nowrap>-4.5517241</td>
+<td class="r data">1.21261839</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c4</th>
+<th class="r data">21</th>
+<td class="r data" nowrap>-4.7142857</td>
+<td class="r data">0.56061191</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c5</th>
+<th class="r data">21</th>
+<td class="r data">17.3809524</td>
+<td class="r data">0.66904338</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c6</th>
+<th class="r data">21</th>
+<td class="r data" nowrap>-2.1904762</td>
+<td class="r data">1.50396302</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c4</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-3.1923077</td>
+<td class="r data">0.69392972</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c5</th>
+<th class="r data">26</th>
+<td class="r data">18.1923077</td>
+<td class="r data">2.05949957</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c6</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-3.1923077</td>
+<td class="r data">2.57711825</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c4</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-2.1851852</td>
+<td class="r data">0.39584739</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c5</th>
+<th class="r data">27</th>
+<td class="r data">21.3333333</td>
+<td class="r data">0.96076892</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-2.6296296</td>
+<td class="r data">1.11452467</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX7"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac2</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Class Levels">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Class Level Information</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Class</th>
+<th class="r b header" scope="col">Levels</th>
+<th class="l b header" scope="col">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">42</td>
+<td class="l data">2009_c4 2009_c5 2009_c6 2010_c4 2010_c5 2010_c6 2011_c4 2011_c5 2011_c6 2012_c4 2012_c5 2012_c6 2013_c4 2013_c5 2013_c6 2014_c4 2014_c5 2014_c6 2015_c4 2015_c5 2015_c6 2016_c4 2016_c5 2016_c6 2017_c4 2017_c5 2017_c6 2018_c4 2018_c5 2018_c6 2019_c4 2019_c5 2019_c6 2021_c4 2021_c5 2021_c6 2022_c4 2022_c5 2022_c6 2023_c4 2023_c5 2023_c6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX8"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Number of Observations">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Read</th>
+<td class="r data">1032</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Used</th>
+<td class="r data">1032</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX9"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac2</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Dependent Variable: fac2   </div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Overall ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Sum of Squares</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Model</th>
+<td class="r data">41</td>
+<td class="r data">56411.35561</td>
+<td class="r data">1375.88672</td>
+<td class="r data">1164.71</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error</th>
+<td class="r data">990</td>
+<td class="r data">1169.49613</td>
+<td class="r data">1.18131</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Corrected Total</th>
+<td class="r data">1031</td>
+<td class="r data">57580.85174</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX10"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Fit Statistics">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">R-Square</th>
+<th class="r b header" scope="col">Coeff Var</th>
+<th class="r b header" scope="col">Root MSE</th>
+<th class="r b header" scope="col">fac2&nbsp;Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0.979689</td>
+<td class="r data">30.57129</td>
+<td class="r data">1.086881</td>
+<td class="r data">3.555233</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX11"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type I Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type I SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">56411.35561</td>
+<td class="r data">1375.88672</td>
+<td class="r data">1164.71</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX12"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type III Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type III SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">56411.35561</td>
+<td class="r data">1375.88672</td>
+<td class="r data">1164.71</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX13"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac2</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Means">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" rowspan="2" scope="col">Level of<br/>year_chapter</th>
+<th class="r b header" rowspan="2" scope="col">N</th>
+<th class="c b header" colspan="2" scope="colgroup">fac2</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Std Dev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">2009_c4</th>
+<th class="r data">27</th>
+<td class="r data">0.2222222</td>
+<td class="r data">0.50636968</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c5</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-7.8518519</td>
+<td class="r data">0.45604518</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-1.1481481</td>
+<td class="r data">1.02670885</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c4</th>
+<th class="r data">19</th>
+<td class="r data">5.4210526</td>
+<td class="r data">0.83770782</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c5</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-1.6315789</td>
+<td class="r data">0.68398557</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c6</th>
+<th class="r data">19</th>
+<td class="r data">1.4210526</td>
+<td class="r data">1.12129833</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c4</th>
+<th class="r data">33</th>
+<td class="r data">8.5454545</td>
+<td class="r data">0.75377836</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c5</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-1.7272727</td>
+<td class="r data">0.80127739</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c6</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-3.7878788</td>
+<td class="r data">1.16612542</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c4</th>
+<th class="r data">17</th>
+<td class="r data">10.5882353</td>
+<td class="r data">1.17573506</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c5</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-1.8235294</td>
+<td class="r data">0.39295262</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-0.8235294</td>
+<td class="r data">0.80895721</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c4</th>
+<th class="r data">17</th>
+<td class="r data">11.8823529</td>
+<td class="r data">1.05370495</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c5</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-1.8823529</td>
+<td class="r data">0.48507125</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-2.1764706</td>
+<td class="r data">1.28623939</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c4</th>
+<th class="r data">32</th>
+<td class="r data">10.5000000</td>
+<td class="r data">1.27000127</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c5</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-1.2812500</td>
+<td class="r data">0.58112100</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c6</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-0.5625000</td>
+<td class="r data">1.41278722</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c4</th>
+<th class="r data">26</th>
+<td class="r data">10.7692308</td>
+<td class="r data">0.51440780</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c5</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-0.9615385</td>
+<td class="r data">0.44549022</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c6</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-0.8076923</td>
+<td class="r data">1.02055792</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c4</th>
+<th class="r data">18</th>
+<td class="r data">10.7777778</td>
+<td class="r data">0.94280904</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c5</th>
+<th class="r data">18</th>
+<td class="r data" nowrap>-2.2222222</td>
+<td class="r data">0.64676167</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c6</th>
+<th class="r data">18</th>
+<td class="r data">0.1111111</td>
+<td class="r data">0.96338184</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c4</th>
+<th class="r data">32</th>
+<td class="r data">10.5937500</td>
+<td class="r data">0.75602419</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c5</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-2.1875000</td>
+<td class="r data">0.64445526</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c6</th>
+<th class="r data">32</th>
+<td class="r data" nowrap>-0.9375000</td>
+<td class="r data">1.81281282</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c4</th>
+<th class="r data">20</th>
+<td class="r data">15.5500000</td>
+<td class="r data">0.99868334</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c5</th>
+<th class="r data">20</th>
+<td class="r data" nowrap>-1.5000000</td>
+<td class="r data">0.60697698</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c6</th>
+<th class="r data">20</th>
+<td class="r data">1.3000000</td>
+<td class="r data">1.12857619</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c4</th>
+<th class="r data">29</th>
+<td class="r data">16.2068966</td>
+<td class="r data">1.11417203</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c5</th>
+<th class="r data">29</th>
+<td class="r data" nowrap>-1.6896552</td>
+<td class="r data">0.71231255</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c6</th>
+<th class="r data">29</th>
+<td class="r data">2.3448276</td>
+<td class="r data">1.07822149</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c4</th>
+<th class="r data">21</th>
+<td class="r data">18.5714286</td>
+<td class="r data">1.50237907</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c5</th>
+<th class="r data">21</th>
+<td class="r data" nowrap>-1.1428571</td>
+<td class="r data">0.79282497</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c6</th>
+<th class="r data">21</th>
+<td class="r data">1.4285714</td>
+<td class="r data">2.01423506</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c4</th>
+<th class="r data">26</th>
+<td class="r data">20.7692308</td>
+<td class="r data">1.63236497</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c5</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-0.5000000</td>
+<td class="r data">0.81240384</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c6</th>
+<th class="r data">26</th>
+<td class="r data">5.9615385</td>
+<td class="r data">2.67553014</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c4</th>
+<th class="r data">27</th>
+<td class="r data">23.2962963</td>
+<td class="r data">1.26536145</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c5</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-0.8518519</td>
+<td class="r data">0.36201399</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c6</th>
+<th class="r data">27</th>
+<td class="r data">1.9629630</td>
+<td class="r data">0.70609879</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX14"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac3</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Class Levels">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Class Level Information</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Class</th>
+<th class="r b header" scope="col">Levels</th>
+<th class="l b header" scope="col">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">42</td>
+<td class="l data">2009_c4 2009_c5 2009_c6 2010_c4 2010_c5 2010_c6 2011_c4 2011_c5 2011_c6 2012_c4 2012_c5 2012_c6 2013_c4 2013_c5 2013_c6 2014_c4 2014_c5 2014_c6 2015_c4 2015_c5 2015_c6 2016_c4 2016_c5 2016_c6 2017_c4 2017_c5 2017_c6 2018_c4 2018_c5 2018_c6 2019_c4 2019_c5 2019_c6 2021_c4 2021_c5 2021_c6 2022_c4 2022_c5 2022_c6 2023_c4 2023_c5 2023_c6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX15"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Number of Observations">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Read</th>
+<td class="r data">1032</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Used</th>
+<td class="r data">1032</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX16"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac3</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Dependent Variable: fac3   </div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Overall ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Sum of Squares</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Model</th>
+<td class="r data">41</td>
+<td class="r data">11919.91503</td>
+<td class="r data">290.72963</td>
+<td class="r data">823.63</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error</th>
+<td class="r data">990</td>
+<td class="r data">349.45610</td>
+<td class="r data">0.35299</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Corrected Total</th>
+<td class="r data">1031</td>
+<td class="r data">12269.37112</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX17"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Fit Statistics">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">R-Square</th>
+<th class="r b header" scope="col">Coeff Var</th>
+<th class="r b header" scope="col">Root MSE</th>
+<th class="r b header" scope="col">fac3&nbsp;Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0.971518</td>
+<td class="r data">61.87066</td>
+<td class="r data">0.594126</td>
+<td class="r data">0.960271</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX18"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type I Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type I SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">11919.91503</td>
+<td class="r data">290.72963</td>
+<td class="r data">823.63</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX19"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type III Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type III SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">11919.91503</td>
+<td class="r data">290.72963</td>
+<td class="r data">823.63</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX20"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac3</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Means">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" rowspan="2" scope="col">Level of<br/>year_chapter</th>
+<th class="r b header" rowspan="2" scope="col">N</th>
+<th class="c b header" colspan="2" scope="colgroup">fac3</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Std Dev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">2009_c4</th>
+<th class="r data">27</th>
+<td class="r data">1.0370370</td>
+<td class="r data">0.19245009</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c5</th>
+<th class="r data">27</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-2.8888889</td>
+<td class="r data">0.50636968</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c4</th>
+<th class="r data">19</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c5</th>
+<th class="r data">19</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c6</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-6.8947368</td>
+<td class="r data">0.45883147</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c4</th>
+<th class="r data">33</th>
+<td class="r data">0.0303030</td>
+<td class="r data">0.17407766</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c5</th>
+<th class="r data">33</th>
+<td class="r data">0.0303030</td>
+<td class="r data">0.17407766</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c6</th>
+<th class="r data">33</th>
+<td class="r data">0.5757576</td>
+<td class="r data">1.03169469</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c4</th>
+<th class="r data">17</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c5</th>
+<th class="r data">17</th>
+<td class="r data">0.0588235</td>
+<td class="r data">0.24253563</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-6.8235294</td>
+<td class="r data">0.39295262</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c4</th>
+<th class="r data">17</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c5</th>
+<th class="r data">17</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c6</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-1.6470588</td>
+<td class="r data">0.78590525</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c4</th>
+<th class="r data">32</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c5</th>
+<th class="r data">32</th>
+<td class="r data">0.0625000</td>
+<td class="r data">0.24593469</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c6</th>
+<th class="r data">32</th>
+<td class="r data">4.7812500</td>
+<td class="r data">0.90640641</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c4</th>
+<th class="r data">26</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c5</th>
+<th class="r data">26</th>
+<td class="r data">0.0384615</td>
+<td class="r data">0.19611614</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c6</th>
+<th class="r data">26</th>
+<td class="r data">0.3846154</td>
+<td class="r data">1.20256137</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c4</th>
+<th class="r data">18</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c5</th>
+<th class="r data">18</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c6</th>
+<th class="r data">18</th>
+<td class="r data" nowrap>-4.7777778</td>
+<td class="r data">0.54831888</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c4</th>
+<th class="r data">32</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c5</th>
+<th class="r data">32</th>
+<td class="r data">0.0312500</td>
+<td class="r data">0.17677670</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c6</th>
+<th class="r data">32</th>
+<td class="r data">0.7187500</td>
+<td class="r data">1.05446440</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c4</th>
+<th class="r data">20</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c5</th>
+<th class="r data">20</th>
+<td class="r data">0.9500000</td>
+<td class="r data">0.22360680</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c6</th>
+<th class="r data">20</th>
+<td class="r data">1.0500000</td>
+<td class="r data">0.75915465</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c4</th>
+<th class="r data">29</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c5</th>
+<th class="r data">29</th>
+<td class="r data">2.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c6</th>
+<th class="r data">29</th>
+<td class="r data">16.1379310</td>
+<td class="r data">0.83341543</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c4</th>
+<th class="r data">21</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c5</th>
+<th class="r data">21</th>
+<td class="r data">2.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c6</th>
+<th class="r data">21</th>
+<td class="r data">3.9523810</td>
+<td class="r data">2.24669069</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c4</th>
+<th class="r data">26</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c5</th>
+<th class="r data">26</th>
+<td class="r data">2.1538462</td>
+<td class="r data">0.61268639</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c6</th>
+<th class="r data">26</th>
+<td class="r data">5.5769231</td>
+<td class="r data">1.02657009</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c4</th>
+<th class="r data">27</th>
+<td class="r data">2.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c5</th>
+<th class="r data">27</th>
+<td class="r data">3.8148148</td>
+<td class="r data">0.39584739</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c6</th>
+<th class="r data">27</th>
+<td class="r data">1.2962963</td>
+<td class="r data">0.66880001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX21"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac4</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Class Levels">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Class Level Information</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Class</th>
+<th class="r b header" scope="col">Levels</th>
+<th class="l b header" scope="col">Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">42</td>
+<td class="l data">2009_c4 2009_c5 2009_c6 2010_c4 2010_c5 2010_c6 2011_c4 2011_c5 2011_c6 2012_c4 2012_c5 2012_c6 2013_c4 2013_c5 2013_c6 2014_c4 2014_c5 2014_c6 2015_c4 2015_c5 2015_c6 2016_c4 2016_c5 2016_c6 2017_c4 2017_c5 2017_c6 2018_c4 2018_c5 2018_c6 2019_c4 2019_c5 2019_c6 2021_c4 2021_c5 2021_c6 2022_c4 2022_c5 2022_c6 2023_c4 2023_c5 2023_c6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX22"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Number of Observations">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Read</th>
+<td class="r data">1032</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Number of Observations Used</th>
+<td class="r data">1032</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX23"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac4</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<div class="c proctitle">&nbsp;</div>
+<div class="c proctitle">Dependent Variable: fac4   </div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Overall ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Sum of Squares</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Model</th>
+<td class="r data">41</td>
+<td class="r data">14965.54666</td>
+<td class="r data">365.01333</td>
+<td class="r data">688.87</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Error</th>
+<td class="r data">990</td>
+<td class="r data">524.57737</td>
+<td class="r data">0.52988</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Corrected Total</th>
+<td class="r data">1031</td>
+<td class="r data">15490.12403</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+<td class="r data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX24"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Fit Statistics">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">R-Square</th>
+<th class="r b header" scope="col">Coeff Var</th>
+<th class="r b header" scope="col">Root MSE</th>
+<th class="r b header" scope="col">fac4&nbsp;Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0.966135</td>
+<td class="r data">76.03437</td>
+<td class="r data">0.727926</td>
+<td class="r data">0.957364</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX25"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type I Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type I SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">14965.54666</td>
+<td class="r data">365.01333</td>
+<td class="r data">688.87</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX26"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Type III Model ANOVA">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Source</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Type III SS</th>
+<th class="r b header" scope="col">Mean Square</th>
+<th class="r b header" scope="col">F Value</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">year_chapter</th>
+<td class="r data">41</td>
+<td class="r data">14965.54666</td>
+<td class="r data">365.01333</td>
+<td class="r data">688.87</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX27"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">GLM for dataset = cl_st2_ph1_fernanda year_chapter fac4</td>
+</tr>
+</table><br>
+<div class="c proctitle">The GLM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure GLM: Means">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" rowspan="2" scope="col">Level of<br/>year_chapter</th>
+<th class="r b header" rowspan="2" scope="col">N</th>
+<th class="c b header" colspan="2" scope="colgroup">fac4</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Std Dev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">2009_c4</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-5.8148148</td>
+<td class="r data">0.39584739</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c5</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-0.9259259</td>
+<td class="r data">0.26688026</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2009_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-2.9259259</td>
+<td class="r data">0.26688026</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c4</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c5</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-0.0526316</td>
+<td class="r data">0.22941573</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2010_c6</th>
+<th class="r data">19</th>
+<td class="r data" nowrap>-1.5263158</td>
+<td class="r data">0.96427411</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c4</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-0.1212121</td>
+<td class="r data">0.33143398</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c5</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-0.5151515</td>
+<td class="r data">0.61852709</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2011_c6</th>
+<th class="r data">33</th>
+<td class="r data" nowrap>-1.4242424</td>
+<td class="r data">1.14647021</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c4</th>
+<th class="r data">17</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c5</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-0.8235294</td>
+<td class="r data">0.39295262</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2012_c6</th>
+<th class="r data">17</th>
+<td class="r data">1.3529412</td>
+<td class="r data">0.70188821</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c4</th>
+<th class="r data">17</th>
+<td class="r data" nowrap>-0.0588235</td>
+<td class="r data">0.24253563</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c5</th>
+<th class="r data">17</th>
+<td class="r data">0.0588235</td>
+<td class="r data">0.24253563</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2013_c6</th>
+<th class="r data">17</th>
+<td class="r data">8.0588235</td>
+<td class="r data">0.42874646</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c4</th>
+<th class="r data">32</th>
+<td class="r data">0.5000000</td>
+<td class="r data">0.62217102</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c5</th>
+<th class="r data">32</th>
+<td class="r data">1.0312500</td>
+<td class="r data">0.17677670</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2014_c6</th>
+<th class="r data">32</th>
+<td class="r data">2.5312500</td>
+<td class="r data">0.84182501</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c4</th>
+<th class="r data">26</th>
+<td class="r data">0.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c5</th>
+<th class="r data">26</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2015_c6</th>
+<th class="r data">26</th>
+<td class="r data">12.0769231</td>
+<td class="r data">0.97665048</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c4</th>
+<th class="r data">18</th>
+<td class="r data" nowrap>-0.0555556</td>
+<td class="r data">0.23570226</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c5</th>
+<th class="r data">18</th>
+<td class="r data">1.7222222</td>
+<td class="r data">0.46088860</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2016_c6</th>
+<th class="r data">18</th>
+<td class="r data">3.8333333</td>
+<td class="r data">1.20049010</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c4</th>
+<th class="r data">32</th>
+<td class="r data">0.0312500</td>
+<td class="r data">0.17677670</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c5</th>
+<th class="r data">32</th>
+<td class="r data">0.0937500</td>
+<td class="r data">0.29614458</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2017_c6</th>
+<th class="r data">32</th>
+<td class="r data">9.5625000</td>
+<td class="r data">0.80070533</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c4</th>
+<th class="r data">20</th>
+<td class="r data">0.8500000</td>
+<td class="r data">0.36634755</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c5</th>
+<th class="r data">20</th>
+<td class="r data">0.3500000</td>
+<td class="r data">0.48936048</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2018_c6</th>
+<th class="r data">20</th>
+<td class="r data">13.0500000</td>
+<td class="r data">1.23437604</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c4</th>
+<th class="r data">29</th>
+<td class="r data">1.6206897</td>
+<td class="r data">0.62185168</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c5</th>
+<th class="r data">29</th>
+<td class="r data">0.5517241</td>
+<td class="r data">0.50612018</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2019_c6</th>
+<th class="r data">29</th>
+<td class="r data">2.0344828</td>
+<td class="r data">1.01709526</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c4</th>
+<th class="r data">21</th>
+<td class="r data">1.2857143</td>
+<td class="r data">0.46291005</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c5</th>
+<th class="r data">21</th>
+<td class="r data">0.4285714</td>
+<td class="r data">0.50709255</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2021_c6</th>
+<th class="r data">21</th>
+<td class="r data">3.0000000</td>
+<td class="r data">3.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c4</th>
+<th class="r data">26</th>
+<td class="r data">1.0384615</td>
+<td class="r data">0.34418242</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c5</th>
+<th class="r data">26</th>
+<td class="r data" nowrap>-0.9615385</td>
+<td class="r data">0.19611614</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2022_c6</th>
+<th class="r data">26</th>
+<td class="r data">2.5000000</td>
+<td class="r data">0.94868330</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c4</th>
+<th class="r data">27</th>
+<td class="r data">1.0000000</td>
+<td class="r data">0.00000000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c5</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-0.9259259</td>
+<td class="r data">0.26688026</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2023_c6</th>
+<th class="r data">27</th>
+<td class="r data" nowrap>-8.6666667</td>
+<td class="r data">0.73379939</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

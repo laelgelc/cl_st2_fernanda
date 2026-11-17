@@ -347,4 +347,40 @@ These formats label variable-name strings, not the matrix's binary values. Downs
 
 ## 11. Run SAS
 
-## 12. 
+## 12. Build factor loading lists
+
+This stage reads the factor rotation results from SAS (`sas/output_cl_st2_ph1_fernanda/rotated.csv`) and maps variable IDs (`v000001` through `v000218`) to their lemmas using `index_keywords.txt`. It extracts primary factor loadings (where `loaded = 1`) and secondary loadings meeting the absolute loading cutoff (default: `0.3`).
+
+Run the dry run first. It validates input files, calculates factor-pole assignments, checks that all output files can be published safely without colliding with inputs, and verifies existing outputs if present:
+
+```shell
+python factor_lists.py --dry-run
+```
+
+After a successful dry run, generate the factor lists and run provenance:
+
+```shell
+python factor_lists.py
+```
+
+Outputs:
+
+```text
+factors/
+    f1_pos.txt, f1_neg.txt, f2_pos, f2_neg.txt, ...  (full word version: primary and secondary loadings)
+    factor_lists_run.json                            (run metadata, counts, input/output checksums)
+factors/var_id/
+    f1_pos_var_id.txt, f1_neg_var_id.txt, ...        (variable ID version)
+factors/primary_loadings/
+    f1_pos.txt, f1_neg.txt, ...                      (primary loadings only)
+```
+
+Each factor list begins with the header line `variables loading on this pole = <count>` and lists entries sorted descending by absolute loading value. Secondary loadings meeting the cutoff are enclosed in outer parentheses, e.g., `(lemma (.35))` or `(v000001 (.35))`.
+
+For the recorded production inputs:
+- 4 rotated factors (`Factor1` through `Factor4`) across 8 factor poles (`f1_pos`, `f1_neg`, `f2_pos`, `f2_neg`, `f3_pos`, `f3_neg`, `f4_pos`, `f4_neg`).
+- 206 loaded variables out of 214 rotation rows (8 unloaded variables).
+- 25 total output files published (8 full word lists, 8 variable-ID lists, 8 primary loading lists, and `factor_lists_run.json`).
+
+An identical rerun verifies all outputs without rewriting them; partial or conflicting outputs are preserved and rejected. Relative paths resolve from this phase directory. Use `--project`, `--sas-output-dir`, `--index-file`, `--output-dir`, `--cutoff`, `--provenance`, and `--phase-dir` to override paths or parameters.
+
