@@ -570,3 +570,14 @@ The prompts describe the ENADE course-report excerpts and the project-internal s
 The defaults include the first 10 naturally ordered example files and at most the first 30 lines from each file; use `--excerpt-count` or `--excerpt-lines` to change those limits. The first ten examples may all come from the top-ranked group, so they should not be treated as a representative sample of all groups. Text IDs are detected in the full example file, even when they fall beyond the excerpt. Loading words are looked up at the document level from `score_details.txt`; they need not occur in the truncated excerpt. The excerpt itself includes example metadata, where some of those words may also appear.
 
 Missing means files and factor-specific example folders produce warnings and fallback prompt sections; examples without a detectable ID are warned about and skipped. Missing required input directories or the score-details file remain fatal. This stage does not reconcile corpus manifests/checksums or resolve outstanding chapter-boundary and review audit flags; consult the upstream corpus audit records before interpreting the prompts.
+
+## 20. Submit interpretation prompts to GPT
+
+```shell
+python generate_interpretation_gpt.py \
+    --input interpretation/input \
+    --output interpretation/output \
+    --model gpt-6.2-sol \
+    --workers 4
+```
+Output: `interpretation/output/`
