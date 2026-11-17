@@ -540,3 +540,11 @@ For each factor and pole, groups are ranked by descending means for the positive
 Outputs are written as `examples_txt/f<n>_<pole>/f<n>_<pole>_NNN.txt`. Each file contains its text ID, group, full-text path, factor score, loading words, and full chapter text. Missing corpus files and missing loading-word entries are reported in phase-root `missing_files.txt` and `missing_loading_words.txt`, respectively.
 
 Use `--group` when the scores and means files use another grouping column. `--project`, `--sas-output-dir`, `--tagged-base`, `--fulltext-root`, `--file-ids`, `--score-details`, and `--output-dir` override defaults; relative path arguments resolve from the phase directory, while absolute paths are preserved. `--top-group-examples` and `--other-group-examples` change the quotas. Existing numbered outputs are overwritten when names collide, but stale files are not removed; warning reports are written only when there are missing entries and stale reports are not removed on a clean run. Review or archive previous outputs and reports before rerunning when stale files must not remain.
+
+## 19. Build interpretation prompts
+
+```shell
+python interpretation_prompts.py
+```
+
+Output: `interpretation/input/`
