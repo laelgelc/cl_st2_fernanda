@@ -3,8 +3,8 @@
 Generate score-details file showing, for each text and factor, which loading
 words are present.
 
-The project name is inferred from the current working directory unless supplied
-explicitly with --project.
+The project name and relative paths are inferred from this script's phase
+directory unless supplied explicitly with --project or path options.
 
 Expected inputs:
     sas/output_<project>/<project>_scores.tsv
@@ -20,7 +20,7 @@ Expected file_ids.txt format:
         file_id path
 
 Example:
-    t000001 ac/ac_ef_1.txt
+    t000001 2009_c4/enade_2009_admin_b2a0b87461.txt
 
 Output:
     examples/score_details.txt
@@ -39,14 +39,15 @@ import pandas as pd
 # Defaults
 # ------------------------------------------------------------
 
-DEFAULT_PROJECT = Path.cwd().name
+PHASE_DIR = Path(__file__).resolve().parent
+DEFAULT_PROJECT = PHASE_DIR.name
 DEFAULT_VARID_DIR = Path("factors/var_id")
 DEFAULT_FILE_IDS = Path("file_ids.txt")
 DEFAULT_OUTFILE = Path("examples/score_details.txt")
 
 
 # ------------------------------------------------------------
-# Arguments
+# Arguments & Path Resolution
 # ------------------------------------------------------------
 
 def parse_args() -> argparse.Namespace:
@@ -57,11 +58,16 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--project",
-        default=DEFAULT_PROJECT,
+        default=None,
         help=(
-            "Project name, e.g. cl_st1_ph2_anna or cl_st1_ph3_anna. "
-            "Default: current directory name."
+            "Project name, e.g. cl_st2_ph1_fernanda. "
+            "Default: phase directory name."
         ),
+    )
+    parser.add_argument(
+        "--phase-dir",
+        default=None,
+        help="Phase directory root. Default: directory containing this script.",
     )
     parser.add_argument(
         "--sas-output-dir",
@@ -90,12 +96,20 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
-    """Resolve SAS output directory."""
-    if sas_output_dir_arg is None:
-        return Path("sas") / f"output_{project}"
+def resolve_phase_path(path: str | Path, phase_dir: Path) -> Path:
+    """Resolve a path relative to the phase directory."""
+    p = Path(path)
+    return p if p.is_absolute() else phase_dir / p
 
-    return Path(sas_output_dir_arg)
+
+def resolve_sas_output_dir(
+        project: str, sas_output_dir_arg: str | None, phase_dir: Path
+) -> Path:
+    """Resolve SAS output directory relative to phase directory."""
+    if sas_output_dir_arg is None:
+        return phase_dir / "sas" / f"output_{project}"
+
+    return resolve_phase_path(sas_output_dir_arg, phase_dir)
 
 
 # ------------------------------------------------------------
@@ -108,6 +122,9 @@ def load_scores(scores_file: Path) -> pd.DataFrame:
         raise FileNotFoundError(f"Scores file not found: {scores_file}")
 
     scores = pd.read_csv(scores_file, sep="\t")
+
+    if scores.empty:
+        raise ValueError(f"Scores file is empty: {scores_file}")
 
     if "filename" not in scores.columns:
         raise ValueError(f"Column 'filename' not found in {scores_file}")
@@ -203,6 +220,11 @@ def load_factor_var_lists(
         pos_file = varid_dir / f"f{factor_number}_pos_var_id.txt"
         neg_file = varid_dir / f"f{factor_number}_neg_var_id.txt"
 
+        if not pos_file.exists():
+            raise FileNotFoundError(f"Factor var-id file not found: {pos_file}")
+        if not neg_file.exists():
+            raise FileNotFoundError(f"Factor var-id file not found: {neg_file}")
+
         varlist_pos[factor_number] = load_var_ids(pos_file)
         varlist_neg[factor_number] = load_var_ids(neg_file)
 
@@ -214,7 +236,7 @@ def load_file_id_map(file_ids_path: Path) -> dict[str, str]:
     Load file_ids.txt mapping.
 
     Expected format:
-        t000001 1950/tv_com_1950_1.txt
+        t000001 2009_c4/enade_2009_admin_b2a0b87461.txt
     """
     if not file_ids_path.exists():
         raise FileNotFoundError(f"File ID map not found: {file_ids_path}")
@@ -328,14 +350,24 @@ def main() -> None:
     """Run score-details generation."""
     args = parse_args()
 
-    project = args.project
-    sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
-    varid_dir = Path(args.varid_dir)
-    file_ids_path = Path(args.file_ids)
-    outfile = Path(args.output)
+    phase_dir = (
+        Path(args.phase_dir).resolve()
+        if args.phase_dir is not None
+        else PHASE_DIR
+    )
+    project = args.project if args.project is not None else phase_dir.name
+
+    sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir, phase_dir)
+    varid_dir = resolve_phase_path(args.varid_dir, phase_dir)
+    file_ids_path = resolve_phase_path(args.file_ids, phase_dir)
+    outfile = resolve_phase_path(args.output, phase_dir)
 
     scores_file = sas_output_dir / f"{project}_scores.tsv"
     word_labels_file = sas_output_dir / "word_labels_format.sas"
+    if not word_labels_file.exists():
+        fallback_labels = phase_dir / "sas" / "word_labels_format.sas"
+        if fallback_labels.exists():
+            word_labels_file = fallback_labels
 
     scores = load_scores(scores_file)
     factor_columns = detect_factor_columns(scores)

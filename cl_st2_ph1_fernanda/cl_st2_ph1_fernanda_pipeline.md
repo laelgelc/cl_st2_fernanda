@@ -498,8 +498,23 @@ Use `--group` only when the scores and means files use another grouping column; 
 
 ## 17. Generate score-details report
 
+This stage generates a detailed per-text breakdown of factor scores and active loading words (both positive and negative poles) for each dimension.
+
+Inputs:
+
+- `sas/output_<project>/<project>_scores.tsv` (default: `sas/output_cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_scores.tsv`), containing text `filename` IDs, factor scores (`fac1`–`fac4`), and per-variable frequency columns (`v000001`–`v000218`).
+- `sas/output_<project>/word_labels_format.sas` (or fallback `sas/word_labels_format.sas`), defining format mappings from variable IDs (`v<n>`) to words/lemmas.
+- `factors/var_id/f<n>_pos_var_id.txt` and `factors/var_id/f<n>_neg_var_id.txt`, defining primary variable IDs loading on each factor pole (ignoring parenthesized secondary loadings).
+- `file_ids.txt`, mapping text IDs (e.g. `t000001`) to chapter relative paths (e.g. `2009_c4/enade_2009_admin_b2a0b87461.txt`).
+
+Run the generator from the phase directory or project root:
+
 ```shell
 python score_details.py
 ```
 
 Output: `examples/score_details.txt`
+
+The project name and default paths are anchored to the script's phase directory, so the command functions seamlessly when executed from any working directory. CLI overrides include `--project`, `--phase-dir`, `--sas-output-dir`, `--varid-dir`, `--file-ids`, and `--output`; relative path arguments resolve against the phase directory while absolute paths are preserved.
+
+For the recorded corpus, cross-check the output with 1,032 texts across 4 detected factor dimensions.
