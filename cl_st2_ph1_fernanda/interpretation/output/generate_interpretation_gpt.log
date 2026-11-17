@@ -1,0 +1,63 @@
+2026-11-17 18:26:10 [INFO] Project: cl_st2_ph1_fernanda
+2026-11-17 18:26:10 [INFO] Input directory: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/input
+2026-11-17 18:26:10 [INFO] Output directory: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output
+2026-11-17 18:26:10 [INFO] Log file: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/generate_interpretation_gpt.log
+2026-11-17 18:26:10 [INFO] Failed-prompts file: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/failed_prompts.txt
+2026-11-17 18:26:10 [INFO] Model: gpt-6.2-sol
+2026-11-17 18:26:10 [INFO] Temperature sent: False
+2026-11-17 18:26:10 [INFO] Max output tokens: 9000
+2026-11-17 18:26:10 [INFO] Retries: 5
+2026-11-17 18:26:10 [INFO] Retry base sleep: 2.0
+2026-11-17 18:26:10 [INFO] Skip existing: True
+2026-11-17 18:26:10 [INFO] Limit: 1 prompt files
+2026-11-17 18:26:10 [INFO] Submitting 1 prompts using 1 workers…
+2026-11-17 18:26:10 [INFO] [WORKER] Reading f1_neg.txt
+2026-11-17 18:26:10 [INFO] [WORKER] Sending to GPT: f1_neg.txt
+2026-11-17 18:26:21 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:26:21 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f1_neg.txt
+2026-11-17 18:26:21 [INFO] 
+2026-11-17 18:26:21 [INFO] Done. Succeeded: 1/1
+2026-11-17 18:26:21 [INFO] All prompts completed successfully.
+2026-11-17 18:26:46 [INFO] Project: cl_st2_ph1_fernanda
+2026-11-17 18:26:46 [INFO] Input directory: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/input
+2026-11-17 18:26:46 [INFO] Output directory: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output
+2026-11-17 18:26:46 [INFO] Log file: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/generate_interpretation_gpt.log
+2026-11-17 18:26:46 [INFO] Failed-prompts file: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/failed_prompts.txt
+2026-11-17 18:26:46 [INFO] Model: gpt-6.2-sol
+2026-11-17 18:26:46 [INFO] Temperature sent: False
+2026-11-17 18:26:46 [INFO] Max output tokens: 9000
+2026-11-17 18:26:46 [INFO] Retries: 5
+2026-11-17 18:26:46 [INFO] Retry base sleep: 2.0
+2026-11-17 18:26:46 [INFO] Skip existing: True
+2026-11-17 18:26:46 [INFO] Submitting 7 prompts using 4 workers…
+2026-11-17 18:26:46 [INFO] [WORKER] Reading f1_pos.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Reading f2_neg.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Reading f2_pos.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Sending to GPT: f1_pos.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Reading f3_neg.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Sending to GPT: f2_neg.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Sending to GPT: f2_pos.txt
+2026-11-17 18:26:46 [INFO] [WORKER] Sending to GPT: f3_neg.txt
+2026-11-17 18:26:55 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:26:55 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f3_neg.txt
+2026-11-17 18:26:55 [INFO] [WORKER] Reading f3_pos.txt
+2026-11-17 18:26:55 [INFO] [WORKER] Sending to GPT: f3_pos.txt
+2026-11-17 18:26:56 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:26:56 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f2_neg.txt
+2026-11-17 18:26:56 [INFO] [WORKER] Reading f4_neg.txt
+2026-11-17 18:26:56 [INFO] [WORKER] Sending to GPT: f4_neg.txt
+2026-11-17 18:26:56 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:26:56 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f1_pos.txt
+2026-11-17 18:26:56 [INFO] [WORKER] Reading f4_pos.txt
+2026-11-17 18:26:56 [INFO] [WORKER] Sending to GPT: f4_pos.txt
+2026-11-17 18:26:56 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:26:56 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f2_pos.txt
+2026-11-17 18:27:05 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:27:05 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f4_neg.txt
+2026-11-17 18:27:06 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:27:06 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f4_pos.txt
+2026-11-17 18:27:07 [INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-11-17 18:27:07 [INFO] [WORKER] Saved → /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/interpretation/output/f3_pos.txt
+2026-11-17 18:27:07 [INFO] 
+2026-11-17 18:27:07 [INFO] Done. Succeeded: 7/7
+2026-11-17 18:27:07 [INFO] All prompts completed successfully.
