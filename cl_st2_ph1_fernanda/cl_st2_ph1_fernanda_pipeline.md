@@ -384,3 +384,23 @@ For the recorded production inputs:
 
 An identical rerun verifies all outputs without rewriting them; partial or conflicting outputs are preserved and rejected. Relative paths resolve from this phase directory. Use `--project`, `--sas-output-dir`, `--index-file`, `--output-dir`, `--cutoff`, `--provenance`, and `--phase-dir` to override paths or parameters.
 
+
+## 13. Calculate corpus size summaries
+
+This stage reads the tagged texts listed in `corpus/05_enade_tagged/enade_tagged_corpus.ndjson` and reconciles them against `corpus/04_enade/enade_target_corpus.ndjson`. It rejects missing, duplicate, failed, unlisted, unsafe, or inconsistent records and checks recorded file sizes and SHA-256 checksums before counting.
+
+Run the dry run first; it validates the inputs and existing output without creating or changing files:
+
+```shell
+python corpus_size.py --dry-run
+```
+
+After a successful dry run, generate the summary:
+
+```shell
+python corpus_size.py
+```
+
+The output is `corpus_size/corpus_size.tsv`, with one row per naturally ordered `<year>_<chapter>` group and the existing `Strata`, `Text Count`, and `Word Count` TSV columns, followed by an `overall` row. Each manifest-listed text counts once. A tagged line counts as a word only when its token begins with a Unicode letter and its tag does not start with `PUNCT` or `SYM`; for example, `-la` and numeric-starting tokens are excluded, while `curso6` is included. Manifest `token_count` values are not used because they include tokens this word-count rule excludes.
+
+An identical rerun verifies the existing TSV without rewriting it; a conflicting output is preserved and reported instead of overwritten. Relative `--output` paths resolve from the phase directory; `--phase-dir` changes that base. For the recorded corpus, compare the result with 1,032 texts in 42 groups; these are cross-checks, not fixed program limits.
