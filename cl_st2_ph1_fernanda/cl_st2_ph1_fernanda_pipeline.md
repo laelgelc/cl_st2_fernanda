@@ -495,3 +495,11 @@ The selection behavior is preserved: groups are ranked by descending mean for th
 Outputs are overwritten when names collide, old snippets are not removed, and the master document includes every `.tex` file present in each factor/pole output directory. Review or archive prior generated snippets before rerunning if stale examples must not appear. Missing tagged files are listed in phase-root `missing_files.txt`; the script does not perform manifest/checksum reconciliation or resolve the corpus's outstanding boundary/review audit flags, so consult the upstream corpus audit records before interpreting examples.
 
 Use `--group` only when the scores and means files use another grouping column; `--project`, `--sas-output-dir`, `--tagged-base`, `--factor-folder`, `--examples-dir`, and `--file-ids` override defaults. Relative path overrides resolve from the phase directory, while absolute paths are preserved. `--top-group-examples` and `--other-group-examples` adjust the quotas. The script has no dry-run mode.
+
+## 17. Generate score-details report
+
+```shell
+python score_details.py
+```
+
+Output: `examples/score_details.txt`
