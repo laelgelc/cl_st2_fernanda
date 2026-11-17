@@ -2,7 +2,7 @@
 """
 Generate LaTeX example text extracts based on factor scores by group.
 
-By default, examples are selected by state.
+By default, examples are selected by year_chapter.
 
 For each factor:
     - positive pole: groups ranked by descending mean factor score
@@ -11,16 +11,16 @@ For each factor:
     - all other groups: 10 examples each
     - skip any file where the factor score == 0
 
-The project name is inferred from the current working directory unless supplied
-explicitly with --project.
+The project name and relative paths are inferred from this script's phase
+directory unless supplied explicitly with --project or path options.
 
 Default expected inputs:
-    sas/output_<project>/means_state_f<n>.tsv
+    sas/output_<project>/means_year_chapter_f<n>.tsv
     sas/output_<project>/<project>_scores_only.tsv
     factors/f<n>_pos.txt
     factors/f<n>_neg.txt
     file_ids.txt
-    corpus/07_tagged/<state>/<filename>.txt
+    corpus/05_enade_tagged/<year>_<chapter>/<filename>.txt
 
 Expected file_ids.txt format:
     No header
@@ -29,7 +29,7 @@ Expected file_ids.txt format:
         file_id path
 
 Example:
-    t000001 al/al_inf_15.txt
+    t000001 2009_c4/enade_2009_admin_b2a0b87461.txt
 
 Outputs:
     examples/f<n>_pos/*.tex
@@ -51,9 +51,10 @@ import pandas as pd
 # DEFAULTS
 # =============================================================================
 
-DEFAULT_PROJECT = Path.cwd().name
-DEFAULT_GROUP = "state"
-DEFAULT_BASE = Path("corpus/07_tagged")
+PHASE_DIR = Path(__file__).resolve().parent
+DEFAULT_PROJECT = PHASE_DIR.name
+DEFAULT_GROUP = "year_chapter"
+DEFAULT_BASE = Path("corpus/05_enade_tagged")
 DEFAULT_FACTOR_FOLDER = Path("factors")
 DEFAULT_EXAMPLES_DIR = Path("examples")
 DEFAULT_FILE_IDS_PATH = Path("file_ids.txt")
@@ -81,15 +82,15 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_PROJECT,
         help=(
             "Project name, e.g. cl_st1_ph2_anna. "
-            "Default: current directory name."
+            "Default: phase directory name."
         ),
     )
     parser.add_argument(
         "--group",
         default=DEFAULT_GROUP,
         help=(
-            "Grouping column and means-file suffix, e.g. state or decade. "
-            "Default: state."
+            "Grouping column and means-file suffix, e.g. year_chapter. "
+            "Default: year_chapter."
         ),
     )
     parser.add_argument(
@@ -103,7 +104,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--tagged-base",
         default=str(DEFAULT_BASE),
-        help="Tagged corpus root. Default: corpus/07_tagged.",
+        help="Tagged corpus root. Default: corpus/05_enade_tagged.",
     )
     parser.add_argument(
         "--factor-folder",
@@ -174,11 +175,17 @@ def normalize_group(group: str) -> str:
 
 
 def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
-    """Resolve the SAS output directory."""
+    """Resolve the SAS output directory from the phase directory."""
     if sas_output_dir_arg is None:
-        return Path("sas") / f"output_{project}"
+        return PHASE_DIR / "sas" / f"output_{project}"
 
-    return Path(sas_output_dir_arg)
+    return resolve_phase_path(sas_output_dir_arg)
+
+
+def resolve_phase_path(path: str | Path) -> Path:
+    """Resolve a path override relative to the phase directory."""
+    path = Path(path)
+    return path if path.is_absolute() else PHASE_DIR / path
 
 
 # =============================================================================
@@ -513,10 +520,10 @@ def main() -> None:
     group = normalize_group(args.group)
 
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
-    tagged_base = Path(args.tagged_base)
-    factor_folder = Path(args.factor_folder)
-    examples_dir = Path(args.examples_dir)
-    file_ids_path = Path(args.file_ids)
+    tagged_base = resolve_phase_path(args.tagged_base)
+    factor_folder = resolve_phase_path(args.factor_folder)
+    examples_dir = resolve_phase_path(args.examples_dir)
+    file_ids_path = resolve_phase_path(args.file_ids)
 
     examples_dir.mkdir(exist_ok=True, parents=True)
 
@@ -677,7 +684,7 @@ def main() -> None:
             print(f"  ✓ Wrote {example_id - 1} examples for {label}\n")
 
     if missing_files:
-        missing_path = Path("missing_files.txt")
+        missing_path = PHASE_DIR / "missing_files.txt"
         missing_path.write_text("\n".join(sorted(missing_files)), encoding="utf-8")
         print(f"⚠ Missing files written to {missing_path}")
 

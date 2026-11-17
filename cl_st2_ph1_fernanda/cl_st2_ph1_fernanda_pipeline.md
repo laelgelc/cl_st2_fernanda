@@ -468,8 +468,30 @@ For the checked-in SAS results, cross-check the four F values against `1115.32`,
 
 ## 16. Generate LaTeX example extracts
 
+This stage selects tagged chapter texts using each document's factor score and the group means. By default, the project name comes from the phase directory, the grouping is `year_chapter`, and all relative paths resolve from this phase directory rather than the current working directory.
+
+Inputs:
+
+- `sas/output_<project>/<project>_scores_only.tsv`, including `filename`, `year_chapter`, and `fac<n>` columns.
+- `sas/output_<project>/means_year_chapter_f<n>.tsv` for each detected factor, with `year_chapter` and `Mean fac<n>` columns.
+- `factors/f<n>_pos.txt` and `factors/f<n>_neg.txt`; unparenthesized entries are treated as primary lemmas for highlighting.
+- `file_ids.txt`, mapping SAS IDs such as `t000001` to paths such as `2009_c4/enade_2009_admin_b2a0b87461.txt`.
+- Tagged texts under `corpus/05_enade_tagged/<year>_<chapter>/`.
+
 ```shell
 python examples.py
 ```
 
-Output: `examples/`
+The script writes individual snippets under `examples/f<n>_pos/` and `examples/f<n>_neg/`. Since `examples/top_header` is provided, it also writes `examples/examples.tex`, which can be compiled with LuaLaTeX from the phase directory, for example:
+
+```shell
+lualatex -interaction=nonstopmode -halt-on-error examples/examples.tex
+```
+
+The header uses `fontspec` and the `DejaVu Serif` and `Noto Color Emoji` fonts; those fonts and the packages in the header must be available to LuaLaTeX.
+
+The selection behavior is preserved: groups are ranked by descending mean for the positive pole and ascending mean for the negative pole; within each group, scores are sorted in the matching direction. The defaults select up to 20 examples from the top-ranked group and 10 from every other group for each pole, skipping only rows whose score is exactly zero. The score's sign is not checked against the pole. Each selected example contains the entire tagged chapter, not a short passage; with 42 groups and four factors, the quotas allow up to 3,440 chapter snippets.
+
+Outputs are overwritten when names collide, old snippets are not removed, and the master document includes every `.tex` file present in each factor/pole output directory. Review or archive prior generated snippets before rerunning if stale examples must not appear. Missing tagged files are listed in phase-root `missing_files.txt`; the script does not perform manifest/checksum reconciliation or resolve the corpus's outstanding boundary/review audit flags, so consult the upstream corpus audit records before interpreting examples.
+
+Use `--group` only when the scores and means files use another grouping column; `--project`, `--sas-output-dir`, `--tagged-base`, `--factor-folder`, `--examples-dir`, and `--file-ids` override defaults. Relative path overrides resolve from the phase directory, while absolute paths are preserved. `--top-group-examples` and `--other-group-examples` adjust the quotas. The script has no dry-run mode.

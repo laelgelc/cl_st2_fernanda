@@ -1,0 +1,89 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[american]{babel} %the last language is the default language!
+\usepackage[useregional]{datetime2}
+
+% Font setup for LuaLaTeX (Unicode)
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+
+% Emoji font (install "fonts-noto-color-emoji" on Ubuntu if missing)
+\newfontfamily\EmojiFont{Noto Color Emoji}[Renderer=Harfbuzz]
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\setlength{\columnsep}{0pt}  % for multicol
+\usepackage{float}
+
+% Date/time
+\usepackage[useregional]{datetime2}
+
+% Tables
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs}
+%\usepackage{ltablex}
+%\keepXColumns
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{hhline}
+\usepackage{xcolor}
+\PassOptionsToPackage{table}{xcolor}
+
+% Graphics and TikZ
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathmorphing}
+\tikzset{>=latex}  % arrow tips
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+% Lists
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=0pt, parsep=0pt, topsep=0pt, label=\textcolor{navyblue}{\textbullet}, labelsep=0.5em}
+\setlist[enumerate]{itemsep=0pt, parsep=0pt, topsep=0pt, labelsep=0.5em}
+
+% Colors and highlighting
+\usepackage{fancybox}  % for ovalbox
+%\usepackage{fdsymbol}  % symbols (conflicts with emoji)
+\definecolor{navyblue}{RGB}{0,0,139}
+
+% Citations
+%\usepackage[normalem]{ulem}  % for underlining
+\usepackage[natbibapa]{apacite}
+
+% Verbatim
+\usepackage{fancyvrb}  % for centered verbatim blocks
+
+% Examples, text samples
+\usepackage{caption}
+\usepackage{changepage}
+\newcounter{textsample}
+\newenvironment{textsample}[1]
+{
+  \refstepcounter{textsample}
+  \begin{adjustwidth}{1in}{0in}
+  \parindent=0pt
+  \noindent\vspace{0.5em}\\ % Removed \rule{\linewidth}{0.4pt}
+  \noindent Text Sample \arabic{textsample}: #1\\[.1em]
+}
+{
+  \vspace{.1em}
+  % \noindent\rule{\linewidth}{0.4pt} % This was already commented out, but it's the other rule.
+  \end{adjustwidth}\vspace{1em}
+}
+
+% Custom title
+\title{Examples}
+\author{
+  Tony Berber Sardinha \\ Pontifical Catholic University of São Paulo (PUCSP) \and
+  Fernanda Peixoto Coelho \\ Pontifical Catholic University of São Paulo (PUCSP)
+}
+\date{\small\textit{Version of \DTMnow}}
+
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
