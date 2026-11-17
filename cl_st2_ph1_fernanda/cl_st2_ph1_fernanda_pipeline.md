@@ -445,3 +445,23 @@ python latex_boxplots/latex_boxplots.py \
 ```
 
 An identical rerun verifies and reuses the full output set. Partial or conflicting expected outputs are rejected without overwriting existing files, and outputs may not collide with input files. These files are LaTeX snippets, not standalone documents or PDFs; include them in a compatible LaTeX document with `float`, TikZ, PGFPlots, and its statistics library configured. The SAS results are inputs to this stage and are not modified.
+
+## 15. Generate LaTeX ANOVA table
+
+This stage reads the scores-only file to detect the available `fac<n>` dimensions, then reads the matching `year_chapter` ANOVA and parameter summaries:
+
+- `sas/output_cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_scores_only.tsv`
+- `sas/output_cl_st2_ph1_fernanda/anova_year_chapter_f<n>.tsv`
+- `sas/output_cl_st2_ph1_fernanda/params_year_chapter_f<n>.tsv`
+
+Run the generator from the phase directory:
+
+```shell
+python latex_anova_table.py
+```
+
+Output: `latex_tables/anova_year_chapter.tex`
+
+The project name and default paths are based on the script's phase directory, so the command also works when launched from another current working directory. Use `--project`, `--effect`, `--input-dir`, `--output-dir`, `--caption`, and `--label` to override the corresponding defaults; relative input and output directory overrides are resolved from the phase directory, while absolute paths are preserved.
+
+For the checked-in SAS results, cross-check the four F values against `1115.32`, `1164.71`, `823.63`, and `688.87`, and the R² percentages against `97.88`, `97.97`, `97.15`, and `96.61`. The generator selects the requested `Source` from `HypothesisType = 1`, falling back to the first Type I row if that source is absent. Existing output files are overwritten.
