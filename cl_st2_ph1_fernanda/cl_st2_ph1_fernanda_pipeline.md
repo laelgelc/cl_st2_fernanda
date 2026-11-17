@@ -320,3 +320,15 @@ The merge keeps the original SAS-compatible matrix format: one headerless, space
 By default the outputs are `sas/counts.txt` and `sas/merge_columns_run.json`. The provenance records counts, input checksums, and the matrix checksum and size. An identical rerun verifies the pair without changing it; partial or conflicting outputs are preserved and rejected. Relative paths resolve from the phase directory. Use `--columns-dir`, `--clean-dir`, `--file-ids`, `--keyword-index`, `--columns-manifest`, `--output`, and `--provenance` to override inputs or outputs; `--phase-dir` changes the base for relative paths.
 
 The recorded production inputs suggest 1,032 documents and 218 keyword columns (220 fields per matrix row including the document ID and group). These are cross-checks, not fixed program limits.
+
+## 10. Generate SAS format files
+
+```shell
+python sas_formats.py
+```
+
+Outputs:
+
+- sas/word_labels_format.sas
+- sas/word_labels_full_format.sas
+- other SAS helper format files
