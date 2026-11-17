@@ -543,8 +543,30 @@ Use `--group` when the scores and means files use another grouping column. `--pr
 
 ## 19. Build interpretation prompts
 
+Run this stage after the factor loading lists, SAS group means, plaintext examples, and score-details report have been generated. It reads:
+
+- `factors/f<n>_<pole>.txt` from `factor_lists.py`;
+- `sas/output_<project>/means_year_chapter_f<n>.tsv` for each factor;
+- numbered example files under `examples_txt/f<n>_<pole>/` from `examples_txt.py`;
+- `examples/score_details.txt` from `score_details.py`.
+
+The default project name is the phase directory name, the default group is `year_chapter`, and the default inputs and output are rooted at the script's phase directory. Run it from the phase directory with:
+
 ```shell
 python interpretation_prompts.py
 ```
 
-Output: `interpretation/input/`
+From elsewhere, invoke the script by its phase path; for example, choose an absolute output directory with:
+
+```shell
+python /path/to/cl_st2_ph1_fernanda/interpretation_prompts.py \
+  --output-dir /tmp/interpretation-prompts
+```
+
+The existing CLI options are `--project`, `--group`, `--sas-output-dir`, `--factors-dir`, `--examples-dir`, `--details-file`, `--output-dir`, `--excerpt-count`, and `--excerpt-lines`. Relative path overrides resolve from the phase directory; absolute paths are preserved. By default, the script reads `sas/output_<project>/means_year_chapter_f<n>.tsv`, `factors/`, `examples_txt/`, and `examples/score_details.txt`, and writes one `interpretation/input/f<n>_<pole>.txt` file per factor-pole file. Existing prompt files with matching names are overwritten; stale files are not removed. The script assembles prompt text only and does not call an LLM.
+
+The prompts describe the ENADE course-report excerpts and the project-internal section labels `c4` (perception of the exam), `c5` (distribution of concepts), and `c6` (technical analysis of the exam). These are semantic labels, not guaranteed literal chapter numbers across report editions. The default prompt compares year/chapter groups; positive poles direct attention to higher means and negative poles to lower means, without interpreting the opposite pole.
+
+The defaults include the first 10 naturally ordered example files and at most the first 30 lines from each file; use `--excerpt-count` or `--excerpt-lines` to change those limits. The first ten examples may all come from the top-ranked group, so they should not be treated as a representative sample of all groups. Text IDs are detected in the full example file, even when they fall beyond the excerpt. Loading words are looked up at the document level from `score_details.txt`; they need not occur in the truncated excerpt. The excerpt itself includes example metadata, where some of those words may also appear.
+
+Missing means files and factor-specific example folders produce warnings and fallback prompt sections; examples without a detectable ID are warned about and skipped. Missing required input directories or the score-details file remain fatal. This stage does not reconcile corpus manifests/checksums or resolve outstanding chapter-boundary and review audit flags; consult the upstream corpus audit records before interpreting the prompts.

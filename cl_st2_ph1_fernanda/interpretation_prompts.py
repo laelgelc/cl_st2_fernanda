@@ -9,14 +9,14 @@ For each pole, this script assembles a complete prompt containing:
     4. Factor loadings
     5. Example excerpts, with their loading words appended
 
-The project name is inferred from the current working directory unless supplied
-explicitly with --project.
+The project name and relative paths are inferred from this script's phase
+directory unless supplied explicitly with --project or path options.
 
 Default expected inputs:
     factors/f<n>_<pole>.txt
     examples_txt/f<n>_<pole>/*.txt
     examples/score_details.txt
-    sas/output_<project>/means_state_f<n>.tsv
+    sas/output_<project>/means_year_chapter_f<n>.tsv
 
 Output:
     interpretation/input/f<n>_<pole>.txt
@@ -33,8 +33,9 @@ from pathlib import Path
 # DEFAULTS
 # ============================================================
 
-DEFAULT_PROJECT = Path.cwd().name
-DEFAULT_GROUP = "state"
+PHASE_DIR = Path(__file__).resolve().parent
+DEFAULT_PROJECT = PHASE_DIR.name
+DEFAULT_GROUP = "year_chapter"
 DEFAULT_FACTORS_DIR = Path("factors")
 DEFAULT_EXAMPLES_DIR = Path("examples_txt")
 DEFAULT_DETAILS_FILE = Path("examples/score_details.txt")
@@ -57,16 +58,16 @@ def parse_args() -> argparse.Namespace:
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_anna. "
-            "Default: current directory name."
+            "Project name, e.g. cl_st2_ph1_fernanda. "
+            "Default: phase directory name."
         ),
     )
     parser.add_argument(
         "--group",
         default=DEFAULT_GROUP,
         help=(
-            "Grouping column and means-file suffix, e.g. state or decade. "
-            "Default: state."
+            "Grouping column and means-file suffix, e.g. year_chapter. "
+            "Default: year_chapter."
         ),
     )
     parser.add_argument(
@@ -128,12 +129,18 @@ def normalize_group(group: str) -> str:
     return normalized
 
 
-def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
-    """Resolve the SAS output directory."""
-    if sas_output_dir_arg is None:
-        return Path("sas") / f"output_{project}"
+def resolve_phase_path(path: str | Path) -> Path:
+    """Resolve a path relative to the phase directory, preserving absolute paths."""
+    path = Path(path)
+    return path if path.is_absolute() else PHASE_DIR / path
 
-    return Path(sas_output_dir_arg)
+
+def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
+    """Resolve the SAS output directory from the phase directory."""
+    if sas_output_dir_arg is None:
+        return PHASE_DIR / "sas" / f"output_{project}"
+
+    return resolve_phase_path(sas_output_dir_arg)
 
 
 # ============================================================
@@ -142,6 +149,9 @@ def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path
 
 def group_description(group: str) -> str:
     """Return a readable group description."""
+    if group == "year_chapter":
+        return "year/chapter"
+
     if group == "state":
         return "Brazilian state"
 
@@ -153,10 +163,14 @@ def phase_description(project: str, group: str) -> str:
     group_label = group_description(group)
 
     return (
-        "This phase analyses a corpus of Brazilian educational curriculum and "
-        "guideline excerpts. The texts have been denoised, tagged, transformed "
-        "into lexical variables, and analysed with Lexical Multi-Dimensional "
-        f"Analysis. The corpus is organised by {group_label} strata."
+        "This phase analyses a corpus of ENADE course reports. The report "
+        "excerpts are organised using the project-internal section labels c4 "
+        "(perception of the exam), c5 (distribution of concepts), and c6 "
+        "(technical analysis of the exam). These semantic labels do not "
+        "necessarily correspond to literal chapter numbers across report "
+        "editions. The texts have been denoised, tagged, transformed into "
+        "lexical variables, and analysed with Lexical Multi-Dimensional "
+        f"Analysis. The analysis compares groups defined by {group_label}."
     )
 
 
@@ -169,14 +183,15 @@ Your task is to interpret a single factor pole as a discourse dimension.
 
 {phase_description(project, group)}
 
-The analysis is applied to {group_label}-based strata. The mean-score table shows
-how strongly each {group_label} scores on the relevant factor.
+The mean-score table shows how strongly each group, defined by {group_label},
+scores on the relevant factor.
 
 Your interpretation must identify the discourses encoded at this pole, taking into account:
 • lexical loadings, which represent the full analysed corpus;
 • example excerpts, which illustrate high-scoring texts at this pole;
-• the {group_label}s that score most strongly at this pole;
-• the loading words that appear in the examples.
+• the groups that score most strongly at this pole;
+• document-level loading words reported for the example texts, which need not
+  appear in the displayed excerpts.
 
 Do not interpret isolated examples as if they represented the entire corpus.
 Use the examples to illustrate and qualify the broader pattern shown by the loadings
@@ -188,12 +203,13 @@ USER_PROMPT = """Interpret Factor {factor} ({polarity}) as a discourse dimension
 Propose possible labels for this pole only and justify them.
 
 Base your interpretation on:
-• Mean {group_label} scores. For positive poles, consider the highest-scoring {group_label}s in the table. For negative poles, consider the lowest-scoring {group_label}s; these may be the lowest positive scores or the most negative scores if there are any.
+• Mean scores for groups defined by {group_label}. For positive poles, consider the groups with the highest means. For negative poles, consider the groups with the lowest means; these may have the lowest positive scores or the most negative scores if there are any.
 • Factor loadings.
 • Example excerpts from high-scoring texts.
-• The loading words that appear in these examples.
-• Which {group_label}s appear to drive this pole.
-• Regional or group-level tendencies suggested by the mean scores.
+• Document-level loading words reported for each example text. They come from
+  the full document and may not appear in the displayed excerpt.
+• Which groups appear to drive this pole.
+• Patterns by {group_label} suggested by the mean scores.
 
 Do not offer a "versus" interpretation of the opposite pole.
 Focus on this single pole only.
@@ -317,10 +333,10 @@ def main() -> None:
     group_label = group_description(group)
 
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
-    factors_dir = Path(args.factors_dir)
-    examples_dir = Path(args.examples_dir)
-    details_file = Path(args.details_file)
-    output_dir = Path(args.output_dir)
+    factors_dir = resolve_phase_path(args.factors_dir)
+    examples_dir = resolve_phase_path(args.examples_dir)
+    details_file = resolve_phase_path(args.details_file)
+    output_dir = resolve_phase_path(args.output_dir)
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
