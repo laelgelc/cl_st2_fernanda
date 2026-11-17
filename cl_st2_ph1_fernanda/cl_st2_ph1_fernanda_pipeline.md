@@ -404,3 +404,19 @@ python corpus_size.py
 The output is `corpus_size/corpus_size.tsv`, with one row per naturally ordered `<year>_<chapter>` group and the existing `Strata`, `Text Count`, and `Word Count` TSV columns, followed by an `overall` row. Each manifest-listed text counts once. A tagged line counts as a word only when its token begins with a Unicode letter and its tag does not start with `PUNCT` or `SYM`; for example, `-la` and numeric-starting tokens are excluded, while `curso6` is included. Manifest `token_count` values are not used because they include tokens this word-count rule excludes.
 
 An identical rerun verifies the existing TSV without rewriting it; a conflicting output is preserved and reported instead of overwritten. Relative `--output` paths resolve from the phase directory; `--phase-dir` changes that base. For the recorded corpus, compare the result with 1,032 texts in 42 groups; these are cross-checks, not fixed program limits.
+
+## 14. Generate LaTeX/TikZ boxplots
+
+```shell
+cd latex_boxplots
+```
+
+```shell
+python latex_boxplots.py
+```
+
+Output: `latex_boxplots/slides/`
+
+```shell
+cd ..
+```
