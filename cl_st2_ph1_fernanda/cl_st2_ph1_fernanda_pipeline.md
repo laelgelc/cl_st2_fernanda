@@ -270,3 +270,33 @@ Unique keywords: 218
 Duplicates removed: 118
 Published outputs: /home/eyamrog/PycharmProjects/cl_st2_fernanda/cl_st2_ph1_fernanda/corpus/07_enade_kw_selected
 ```
+
+## 8. Build binary keyword columns
+
+This stage reads the selected keywords from `corpus/07_enade_kw_selected/keywords.txt` and the tagged files listed by `corpus/05_enade_tagged/enade_tagged_corpus.ndjson`. It reconciles those records with `corpus/04_enade/enade_target_corpus.ndjson`, accepts tagged-manifest statuses `success` and `skipped`, and stops if target documents are missing, duplicated, failed, unsafe, or inconsistent with recorded paths, sizes, or SHA-256 checksums.
+
+Run the dry run first. It validates the inputs and checks whether any existing outputs are complete and identical, without creating or changing files:
+
+```shell
+python columns.py --dry-run
+```
+
+After a successful dry run, publish the columns:
+
+```shell
+python columns.py
+```
+
+The outputs remain in the phase directory for downstream compatibility:
+
+```text
+columns/                 Full columns: <document ID> <year_chapter> <0|1>
+columns_clean/           Clean columns: <keyword ID>, then one binary value per row
+file_ids.txt             Document IDs mapped to full tagged-corpus relative paths
+index_keywords.txt       Keyword IDs mapped to normalized lemmas
+columns_run.json         Input/output checksums, counts, groups, and logic provenance
+```
+
+Document IDs are assigned deterministically using natural ordering of group and relative path. The second field in each full column is the combined ENADE group (for example, `2009_c4`); `file_ids.txt` retains the full path (for example, `2009_c4/enade_2009_admin_b2a0b87461.txt`) so repeated basenames in different groups remain distinct. Each keyword is present (`1`) when its normalized lemma occurs at least once in the third tagged-text column; repeated occurrences still count once, `<unknown>` is ignored, and no POS filter is applied. These semantics intentionally preserve the original `columns.py` logic and therefore differ from the POS-filtered and unknown-lemma fallback behavior in `keylemmas.py`.
+
+The recorded production inputs suggest 1,032 documents and 218 unique keywords; treat these as cross-checks, not fixed program requirements. An identical rerun verifies all outputs and makes no changes. Partial, conflicting, or unexpected files within either columns directory are preserved and reported rather than overwritten. Do not remove outputs automatically; to rebuild intentionally, use a separate output location or archive the existing outputs manually. A tagged-file checksum validates its recorded bytes, but a resumed `skipped` record does not prove that the bytes were generated from the current source chapter.
