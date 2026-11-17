@@ -300,3 +300,23 @@ columns_run.json         Input/output checksums, counts, groups, and logic prove
 Document IDs are assigned deterministically using natural ordering of group and relative path. The second field in each full column is the combined ENADE group (for example, `2009_c4`); `file_ids.txt` retains the full path (for example, `2009_c4/enade_2009_admin_b2a0b87461.txt`) so repeated basenames in different groups remain distinct. Each keyword is present (`1`) when its normalized lemma occurs at least once in the third tagged-text column; repeated occurrences still count once, `<unknown>` is ignored, and no POS filter is applied. These semantics intentionally preserve the original `columns.py` logic and therefore differ from the POS-filtered and unknown-lemma fallback behavior in `keylemmas.py`.
 
 The recorded production inputs suggest 1,032 documents and 218 unique keywords; treat these as cross-checks, not fixed program requirements. An identical rerun verifies all outputs and makes no changes. Partial, conflicting, or unexpected files within either columns directory are preserved and reported rather than overwritten. Do not remove outputs automatically; to rebuild intentionally, use a separate output location or archive the existing outputs manually. A tagged-file checksum validates its recorded bytes, but a resumed `skipped` record does not prove that the bytes were generated from the current source chapter.
+
+## 9. Merge columns into the SAS counts matrix
+
+Run the dry run first. It verifies `columns_run.json`, `index_keywords.txt`, the ordered document IDs in `file_ids.txt`, every full and clean column checksum and row, and the expected keyword file set. It also checks that the matrix and its provenance can be published without overwriting existing files.
+
+```shell
+python merge_columns.py --dry-run
+```
+
+After a successful dry run, publish the matrix and provenance:
+
+```shell
+python merge_columns.py
+```
+
+The merge keeps the original SAS-compatible matrix format: one headerless, space-separated row per document, containing its document ID, combined `<year>_<chapter>` label, and one binary value per keyword in `index_keywords.txt` order. It reads the clean keyword columns for the values and verifies each against the matching full column and its document/group alignment; the output contains no keyword labels or other metadata.
+
+By default the outputs are `sas/counts.txt` and `sas/merge_columns_run.json`. The provenance records counts, input checksums, and the matrix checksum and size. An identical rerun verifies the pair without changing it; partial or conflicting outputs are preserved and rejected. Relative paths resolve from the phase directory. Use `--columns-dir`, `--clean-dir`, `--file-ids`, `--keyword-index`, `--columns-manifest`, `--output`, and `--provenance` to override inputs or outputs; `--phase-dir` changes the base for relative paths.
+
+The recorded production inputs suggest 1,032 documents and 218 keyword columns (220 fields per matrix row including the document ID and group). These are cross-checks, not fixed program limits.
