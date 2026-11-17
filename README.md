@@ -1,6 +1,8 @@
 # Corpus Linguistics - Study 2 - Fernanda
 
-## Phase 1 - Data Collection, Preprocessing and Lexical Multi-dimensional Analysis
+## Phase 1 - ENADE Course Reports Lexical Multi-dimensional Analysis
+
+### Data Collection, Preprocessing, and Target Corpus Compilation
 
 Phase 1 has assembled the available [ENADE course reports](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade/resultados), indexed their PDFs and extracted pages, selected pages from three report sections, made manual revisions to the selections, and produced LLM-denoised text. The indexed reports span 2009–2023; this range does not imply that reports are available for every year.
 
@@ -21,3 +23,17 @@ The [latest recorded run summary](cl_st2_ph1_fernanda/corpus/03_enade_selected_c
 Assembled chapter filenames include a suffix containing the first 10 hexadecimal characters of the SHA-256 hash of the source PDF's path, not its contents. Chapters from the same PDF share this suffix, which helps distinguish reports with similar names; the source mapping is recorded in `chapter_status.ndjson`.
 
 For commands and the full sequence, see the [Phase 1 pipeline](cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_pipeline.md).
+
+### Lexical Multi-dimensional Analysis
+
+#### Tag the corpus
+
+The compiled target corpus is organized by year and chapter in [`corpus/04_enade`](cl_st2_ph1_fernanda/corpus/04_enade/), with source and selection provenance recorded in [`enade_target_corpus.ndjson`](cl_st2_ph1_fernanda/corpus/04_enade/enade_target_corpus.ndjson). The corpus contains 1,032 texts across 42 year/chapter groups and remains marked `accepted_subject_to_audit`; this records the agreed selection, not resolution of the denoising boundary flags or review notes. [`tag.py`](cl_st2_ph1_fernanda/tag.py) applies the Portuguese TreeTagger model (`tree-tagger-portuguese2`) to produce token, POS-tag, and lemma columns. Tagged files and corpus-level provenance are in [`corpus/05_enade_tagged`](cl_st2_ph1_fernanda/corpus/05_enade_tagged/).
+
+#### Extract key lemmas by group
+
+[`keylemmas.py`](cl_st2_ph1_fernanda/keylemmas.py) compares each year/chapter group with the documents in all other groups combined. It uses document presence (a lemma counts at most once per text), not raw token frequency, to calculate per-1,000-document prevalence rates and log-likelihood scores; `POSKW`, `NEGKW`, and `NOTKW` classifications use an `LL` threshold of 3.84. The active POS prefixes (`NOUN`, `VERB`, `ADJ`) and stopwords are configurable in [`keylemmas_pos.txt`](cl_st2_ph1_fernanda/keylemmas_pos.txt) and [`keylemmas_stopwords.txt`](cl_st2_ph1_fernanda/keylemmas_stopwords.txt); the current run manifest records seven stopwords. Group-level profiles and run provenance are in [`corpus/06_enade_keylemmas`](cl_st2_ph1_fernanda/corpus/06_enade_keylemmas/), with counts, configuration hashes, and output checksums in [`keylemmas_run.json`](cl_st2_ph1_fernanda/corpus/06_enade_keylemmas/keylemmas_run.json).
+
+#### Select a stratified keyword set
+
+[`select_kws_stratified.py`](cl_st2_ph1_fernanda/select_kws_stratified.py) selects the highest-ranked eligible `POSKW` lemmas separately within each year/chapter group. In the recorded run, eight lemmas were selected for each of 42 groups; the 400-occurrence cap was applied before deduplication and did not bind. The result was 336 selected occurrences, 218 unique keywords, and 118 duplicates removed. The ranked group selections, consolidated [`keywords.txt`](cl_st2_ph1_fernanda/corpus/07_enade_kw_selected/keywords.txt), and run details are in [`corpus/07_enade_kw_selected`](cl_st2_ph1_fernanda/corpus/07_enade_kw_selected/) and [`select_kws_stratified_run.json`](cl_st2_ph1_fernanda/corpus/07_enade_kw_selected/select_kws_stratified_run.json). This produces a candidate keyword set for subsequent analysis; factor analysis has not yet been performed. See the [Phase 1 pipeline](cl_st2_ph1_fernanda/cl_st2_ph1_fernanda_pipeline.md#5-tag-the-corpus) for commands and detailed methodology.
