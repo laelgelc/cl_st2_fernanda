@@ -465,3 +465,11 @@ Output: `latex_tables/anova_year_chapter.tex`
 The project name and default paths are based on the script's phase directory, so the command also works when launched from another current working directory. Use `--project`, `--effect`, `--input-dir`, `--output-dir`, `--caption`, and `--label` to override the corresponding defaults; relative input and output directory overrides are resolved from the phase directory, while absolute paths are preserved.
 
 For the checked-in SAS results, cross-check the four F values against `1115.32`, `1164.71`, `823.63`, and `688.87`, and the R² percentages against `97.88`, `97.97`, `97.15`, and `96.61`. The generator selects the requested `Source` from `HypothesisType = 1`, falling back to the first Type I row if that source is absent. Existing output files are overwritten.
+
+## 16. Generate LaTeX example extracts
+
+```shell
+python examples.py
+```
+
+Output: `examples/`
