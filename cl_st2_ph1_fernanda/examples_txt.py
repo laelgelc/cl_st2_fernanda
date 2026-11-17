@@ -4,24 +4,22 @@ Generate plaintext example files for each factor pole.
 
 Aligned with examples.py selection logic:
     - reads the same scores table (<project>_scores_only.tsv)
-    - uses a configurable grouping variable, defaulting to state
+    - uses a configurable grouping variable, defaulting to year_chapter
     - ranks groups using means_<group>_f<n>.tsv
     - selects: top group -> 20 examples, other groups -> 10 each
     - skips rows where the factor score is 0
-    - uses tagged corpus existence checks to keep selection stable with examples.py
+    - requires both tagged and full-text files for each selected example
 
-The project name is inferred from the current working directory unless supplied
-explicitly with --project.
+The project name and relative paths are inferred from this script's phase
+directory unless supplied explicitly with --project or path options.
 
 Default expected inputs:
     sas/output_<project>/<project>_scores_only.tsv
-    sas/output_<project>/means_state_f<n>.tsv
+    sas/output_<project>/means_year_chapter_f<n>.tsv
     file_ids.txt
     examples/score_details.txt
-    corpus/07_tagged/<state>/<filename>.txt
-    corpus/02_extracted/<state>/<filename>.md
-        or
-    corpus/02_extracted/<state>/<filename>.txt
+    corpus/05_enade_tagged/<year>_<chapter>/<filename>.txt
+    corpus/04_enade/<year>_<chapter>/<filename>.txt
 
 Expected file_ids.txt format:
     No header
@@ -49,10 +47,11 @@ import pandas as pd
 # DEFAULTS
 # ============================================================
 
-DEFAULT_PROJECT = Path.cwd().name
-DEFAULT_GROUP = "state"
-DEFAULT_TAGGED_BASE = Path("corpus/07_tagged")
-DEFAULT_FULLTEXT_ROOT = Path("corpus/02_extracted")
+PHASE_DIR = Path(__file__).resolve().parent
+DEFAULT_PROJECT = PHASE_DIR.name
+DEFAULT_GROUP = "year_chapter"
+DEFAULT_TAGGED_BASE = Path("corpus/05_enade_tagged")
+DEFAULT_FULLTEXT_ROOT = Path("corpus/04_enade")
 DEFAULT_FILE_IDS_PATH = Path("file_ids.txt")
 DEFAULT_SCORE_DETAILS = Path("examples/score_details.txt")
 DEFAULT_OUT_ROOT = Path("examples_txt")
@@ -72,16 +71,16 @@ def parse_args() -> argparse.Namespace:
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_anna. "
-            "Default: current directory name."
+            "Project name, e.g. cl_st2_ph1_fernanda. "
+            "Default: phase directory name."
         ),
     )
     parser.add_argument(
         "--group",
         default=DEFAULT_GROUP,
         help=(
-            "Grouping column and means-file suffix, e.g. state or decade. "
-            "Default: state."
+            "Grouping column and means-file suffix, e.g. year_chapter. "
+            "Default: year_chapter."
         ),
     )
     parser.add_argument(
@@ -95,22 +94,22 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--tagged-base",
         default=str(DEFAULT_TAGGED_BASE),
-        help="Tagged corpus root. Default: corpus/07_tagged.",
+        help="Tagged corpus root. Default: corpus/05_enade_tagged.",
     )
     parser.add_argument(
         "--fulltext-root",
         default=str(DEFAULT_FULLTEXT_ROOT),
-        help="Full-text corpus root. Default: corpus/02_extracted.",
+        help="Full-text corpus root. Default: corpus/04_enade.",
     )
     parser.add_argument(
         "--file-ids",
         default=str(DEFAULT_FILE_IDS_PATH),
-        help="Path to file_ids.txt.",
+        help="Path to file_ids.txt. Default: file_ids.txt.",
     )
     parser.add_argument(
         "--score-details",
         default=str(DEFAULT_SCORE_DETAILS),
-        help="Path to examples/score_details.txt.",
+        help="Path to examples/score_details.txt. Default: examples/score_details.txt.",
     )
     parser.add_argument(
         "--output-dir",
@@ -170,12 +169,18 @@ def normalize_group(group: str) -> str:
     return normalized
 
 
-def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
-    """Resolve SAS output directory."""
-    if sas_output_dir_arg is None:
-        return Path("sas") / f"output_{project}"
+def resolve_phase_path(path: str | Path) -> Path:
+    """Resolve a path relative to the phase directory, preserving absolute paths."""
+    path = Path(path)
+    return path if path.is_absolute() else PHASE_DIR / path
 
-    return Path(sas_output_dir_arg)
+
+def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
+    """Resolve the SAS output directory from the phase directory."""
+    if sas_output_dir_arg is None:
+        return PHASE_DIR / "sas" / f"output_{project}"
+
+    return resolve_phase_path(sas_output_dir_arg)
 
 
 # ============================================================
@@ -449,11 +454,11 @@ def main() -> None:
     group = normalize_group(args.group)
 
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
-    tagged_base = Path(args.tagged_base)
-    fulltext_root = Path(args.fulltext_root)
-    file_ids_path = Path(args.file_ids)
-    score_details_path = Path(args.score_details)
-    output_root = Path(args.output_dir)
+    tagged_base = resolve_phase_path(args.tagged_base)
+    fulltext_root = resolve_phase_path(args.fulltext_root)
+    file_ids_path = resolve_phase_path(args.file_ids)
+    score_details_path = resolve_phase_path(args.score_details)
+    output_root = resolve_phase_path(args.output_dir)
 
     scores_file = sas_output_dir / f"{project}_scores_only.tsv"
 
@@ -656,7 +661,7 @@ def main() -> None:
             print(f"  ✓ Wrote {example_id - 1} examples for {label}\n")
 
     if missing_files:
-        missing_path = Path("missing_files.txt")
+        missing_path = PHASE_DIR / "missing_files.txt"
         missing_path.write_text(
             "\n".join(sorted(missing_files)),
             encoding="utf-8",
@@ -664,7 +669,7 @@ def main() -> None:
         print(f"⚠ Missing files written to {missing_path}")
 
     if missing_loading_words:
-        report_path = Path("missing_loading_words.txt")
+        report_path = PHASE_DIR / "missing_loading_words.txt"
         report_path.write_text(
             "\n".join(
                 f"{text_id}\t{label}"
