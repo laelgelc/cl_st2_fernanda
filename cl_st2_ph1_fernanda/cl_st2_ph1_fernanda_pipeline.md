@@ -323,12 +323,24 @@ The recorded production inputs suggest 1,032 documents and 218 keyword columns (
 
 ## 10. Generate SAS format files
 
+Run the dry run first. It verifies the ordered keyword index against `columns_run.json` and `sas/merge_columns_run.json`, checks their recorded checksums and keyword counts, and confirms that `sas/counts.txt` matches the matrix checksum in the merge provenance. It also checks that all three output files can be published without overwriting existing files.
+
+```shell
+python sas_formats.py --dry-run
+```
+
+After a successful dry run, generate the formats and provenance:
+
 ```shell
 python sas_formats.py
 ```
 
 Outputs:
 
-- sas/word_labels_format.sas
-- sas/word_labels_full_format.sas
-- other SAS helper format files
+- `sas/word_labels_format.sas` — `$lexlabels` maps strings such as `v000001` to the lemma.
+- `sas/word_labels_full_format.sas` — `$lexlabelsfull` maps the same variable-name strings to the lemma plus ID.
+- `sas/sas_formats_run.json` — keyword count and input/output paths, sizes, and SHA-256 checksums.
+
+The recorded production data contains 218 keywords; this is a cross-check, not a fixed program limit. The format mapping, ID order, and quote escaping retain the original script's behavior. An identical rerun verifies all three outputs without rewriting them; partial or conflicting outputs are preserved and rejected. Relative paths resolve from this phase directory. Use `--keyword-index`, `--columns-manifest`, `--matrix`, and `--merge-provenance` to override inputs; use `--output-dir`, `--short-output`, `--full-output`, and `--provenance` to override output locations.
+
+These formats label variable-name strings, not the matrix's binary values. Downstream SAS code must assign names such as `v000001` to matrix columns in `index_keywords.txt` order and load the formats in the SAS session where they are used. Confirm that the SAS session's encoding supports the UTF-8 lemmas before production. This script generates only the two format files above and their provenance; it does not create additional SAS helper formats.
